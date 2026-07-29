@@ -8,5 +8,5 @@ coverage/
 !.env.example
 
 # session PDFs (regenerable via scraper)
-public/data/session-pdfs/
-data/session-pdfs/
+# public/data/session-pdfs/
+# data/session-pdfs/
