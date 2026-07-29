@@ -10,7 +10,3 @@ coverage/
 # session PDFs (regenerable via scraper)
 public/data/session-pdfs/
 data/session-pdfs/
-
-# large PDFs (exclure du push vers dashboard repo)
-public/*.pdf
-public/data/*.pdf
