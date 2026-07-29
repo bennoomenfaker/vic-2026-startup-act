@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: startup-act
+    runtime: python
+    repo: https://github.com/himawari/startup-act
+    branch: main
+    buildCommand: ""
+    startCommand: python3 streamlit-app/server.py
+    healthCheckPath: /
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11

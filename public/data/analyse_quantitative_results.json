@@ -1,0 +1,287 @@
+{
+  "meta": {
+    "generated": "2026-07-29",
+    "source": "dashboard_data.json + annual reports",
+    "phase": "Phase 4 - Analyse & Interprétation"
+  },
+  "sessions": {
+    "total_sessions": 85,
+    "total_candidatures": 2958,
+    "total_labels": 1324,
+    "total_prelabels": 617,
+    "taux_acceptation_moyen": 44.8,
+    "taux_acceptation_2019": 61.7,
+    "taux_acceptation_2025": 36.3,
+    "evolution_taux": "baisse de -41%",
+    "yearly": [
+      {
+        "year": 2019,
+        "candidatures": 311,
+        "labels": 192,
+        "preLabels": 59,
+        "nbSessions": 10,
+        "tauxAcceptation": "61.7",
+        "tauxEchec": "38.3"
+      },
+      {
+        "year": 2020,
+        "candidatures": 407,
+        "labels": 209,
+        "preLabels": 108,
+        "nbSessions": 12,
+        "tauxAcceptation": "51.4",
+        "tauxEchec": "48.6"
+      },
+      {
+        "year": 2021,
+        "candidatures": 478,
+        "labels": 243,
+        "preLabels": 103,
+        "nbSessions": 12,
+        "tauxAcceptation": "50.8",
+        "tauxEchec": "49.2"
+      },
+      {
+        "year": 2022,
+        "candidatures": 398,
+        "labels": 175,
+        "preLabels": 90,
+        "nbSessions": 12,
+        "tauxAcceptation": "44.0",
+        "tauxEchec": "56.0"
+      },
+      {
+        "year": 2023,
+        "candidatures": 395,
+        "labels": 165,
+        "preLabels": 79,
+        "nbSessions": 12,
+        "tauxAcceptation": "41.8",
+        "tauxEchec": "58.2"
+      },
+      {
+        "year": 2024,
+        "candidatures": 440,
+        "labels": 144,
+        "preLabels": 74,
+        "nbSessions": 12,
+        "tauxAcceptation": "32.7",
+        "tauxEchec": "67.3"
+      },
+      {
+        "year": 2025,
+        "candidatures": 421,
+        "labels": 153,
+        "preLabels": 87,
+        "nbSessions": 12,
+        "tauxAcceptation": "36.3",
+        "tauxEchec": "63.7"
+      },
+      {
+        "year": 2026,
+        "candidatures": 108,
+        "labels": 43,
+        "preLabels": 17,
+        "nbSessions": 3,
+        "tauxAcceptation": "39.8",
+        "tauxEchec": "60.2"
+      }
+    ]
+  },
+  "secteurs": {
+    "total_startups_uniques": 922,
+    "top_4_secteurs": [
+      "Business Software and services",
+      "Commerce and shopping",
+      "HealthTech",
+      "EdTech"
+    ],
+    "top_4_part": 51.6,
+    "indice_concentration_hhi": 1044.0,
+    "secteurs": [
+      {
+        "name": "Business Software and services",
+        "count": 212
+      },
+      {
+        "name": "Commerce and shopping",
+        "count": 95
+      },
+      {
+        "name": "HealthTech",
+        "count": 86
+      },
+      {
+        "name": "EdTech",
+        "count": 83
+      },
+      {
+        "name": "Ad Tech and Creative Tech",
+        "count": 82
+      },
+      {
+        "name": "Fintech",
+        "count": 54
+      },
+      {
+        "name": "Agritech",
+        "count": 49
+      },
+      {
+        "name": "Mobility",
+        "count": 49
+      },
+      {
+        "name": "Consumer products and services",
+        "count": 40
+      },
+      {
+        "name": "Advanced Manufacturing & Robotics",
+        "count": 37
+      },
+      {
+        "name": "Environment",
+        "count": 35
+      },
+      {
+        "name": "TravelTech",
+        "count": 27
+      },
+      {
+        "name": "FoodTech & New Food",
+        "count": 24
+      },
+      {
+        "name": "Wellness",
+        "count": 17
+      },
+      {
+        "name": "Communication services",
+        "count": 13
+      },
+      {
+        "name": "Security",
+        "count": 8
+      },
+      {
+        "name": "Real Estate Tech",
+        "count": 6
+      },
+      {
+        "name": "Social Business",
+        "count": 5
+      }
+    ]
+  },
+  "creation_startups": {
+    "pic_annee": 2020,
+    "pic_count": 214,
+    "croissance_2018_2020": 229.0,
+    "evolution": [
+      {
+        "year": 2011,
+        "count": 1
+      },
+      {
+        "year": 2012,
+        "count": 5
+      },
+      {
+        "year": 2013,
+        "count": 6
+      },
+      {
+        "year": 2014,
+        "count": 13
+      },
+      {
+        "year": 2015,
+        "count": 16
+      },
+      {
+        "year": 2016,
+        "count": 31
+      },
+      {
+        "year": 2017,
+        "count": 42
+      },
+      {
+        "year": 2018,
+        "count": 65
+      },
+      {
+        "year": 2019,
+        "count": 144
+      },
+      {
+        "year": 2020,
+        "count": 214
+      },
+      {
+        "year": 2021,
+        "count": 160
+      },
+      {
+        "year": 2022,
+        "count": 103
+      },
+      {
+        "year": 2023,
+        "count": 73
+      },
+      {
+        "year": 2024,
+        "count": 33
+      },
+      {
+        "year": 2025,
+        "count": 16
+      }
+    ]
+  },
+  "pdf_extracted": {
+    "total_entrees": 1824,
+    "retraits": 190,
+    "taux_retrait": 10.4,
+    "conversions_prelabel_label": 76,
+    "sessions_couvertes": 80,
+    "total_sessions": 85
+  },
+  "rapports_annuels": {
+    "2019_2020": {
+      "pages": 44,
+      "femmes": "35%",
+      "startups_b2b": "70%",
+      "salaire_moyen": "1 517 DT",
+      "regions": 6
+    },
+    "2020": {
+      "pages": 82,
+      "candidatures": "718",
+      "emplois": "3 222",
+      "startups_avec_femmes": "63%",
+      "investissement_total": "2,1 mTND",
+      "startups_ayant_leve": 51
+    },
+    "2021": {
+      "pages": 159,
+      "femmes_fondatrices": "21%",
+      "investissement": "157 M USD",
+      "record_instadeep": "100 M USD",
+      "international": "45%",
+      "grand_tunis": "48%",
+      "startups_b2b": "65%"
+    }
+  },
+  "insights_cles": [
+    "Baisse continue du taux d'acceptation: 61,7% (2019) → 36,3% (2025) = -41%",
+    "Concentration sectorielle modérée: Top 4 secteurs = 51,6% des startups",
+    "Pic de création en 2020 (214 startups) suivi d'un déclin de -93% en 2025",
+    "Taux de retrait des labels: 10,4%",
+    "Baisse de la part des femmes fondatrices: 35% (2019) → 21% (2021) - tendance préoccupante",
+    "Concentration géographique: 48% des startups dans le Grand Tunis",
+    "Saisonnalité des labels: décembre et mai sont les mois les plus actifs, juillet le moins actif",
+    "Investissement record en 2021: 157M USD mais tiré par un deal (Instadeep 100M USD)"
+  ]
+}

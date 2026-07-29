@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Business Software and services",
+    "count": 212
+  },
+  {
+    "name": "Commerce and shopping",
+    "count": 95
+  },
+  {
+    "name": "HealthTech",
+    "count": 86
+  },
+  {
+    "name": "EdTech",
+    "count": 83
+  },
+  {
+    "name": "Ad Tech and Creative Tech",
+    "count": 82
+  },
+  {
+    "name": "Fintech",
+    "count": 54
+  },
+  {
+    "name": "Agritech",
+    "count": 49
+  },
+  {
+    "name": "Mobility",
+    "count": 49
+  },
+  {
+    "name": "Consumer products and services",
+    "count": 40
+  },
+  {
+    "name": "Advanced Manufacturing & Robotics",
+    "count": 37
+  },
+  {
+    "name": "Environment",
+    "count": 35
+  },
+  {
+    "name": "TravelTech",
+    "count": 27
+  },
+  {
+    "name": "FoodTech & New Food",
+    "count": 24
+  },
+  {
+    "name": "Wellness",
+    "count": 17
+  },
+  {
+    "name": "Communication services",
+    "count": 13
+  },
+  {
+    "name": "Security",
+    "count": 8
+  },
+  {
+    "name": "Real Estate Tech",
+    "count": 6
+  },
+  {
+    "name": "Social Business",
+    "count": 5
+  }
+]

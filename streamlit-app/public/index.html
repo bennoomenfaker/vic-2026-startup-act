@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Startup Act Tunisie — Étude Quantitative</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9/dist/leaflet.js"></script>
+  <script src="https://cdn.sheetjs.com/xlsx-0.20.3/package/dist/xlsx.full.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; background: #f0f2f5; color: #1a1a2e; }
+    nav {
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+      color: white; padding: 0; position: sticky; top: 0; z-index: 100;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    }
+    nav .container { display: flex; align-items: center; justify-content: center; gap: 6px; padding: 0 16px; flex-wrap: wrap; }
+    nav .brand { font-weight: 700; font-size: 1em; padding: 12px 10px; white-space: nowrap; }
+    nav .brand span { color: #e94560; }
+    nav a {
+      color: #ccc; text-decoration: none; padding: 12px 10px; font-size: 0.85em;
+      border-bottom: 3px solid transparent; transition: all 0.2s; white-space: nowrap;
+    }
+    nav a:hover, nav a.active { color: white; border-bottom-color: #e94560; background: rgba(255,255,255,0.05); }
+    main { max-width: 1400px; margin: 0 auto; padding: 20px; }
+    section { display: none; }
+    section.active { display: block; }
+    .page-header { margin-bottom: 24px; }
+    .page-header h1 { font-size: 1.8em; font-weight: 700; }
+    .page-header p { color: #666; margin-top: 4px; }
+    .kpi-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin-bottom: 24px; }
+    .kpi-card {
+      background: white; border-radius: 12px; padding: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      transition: transform 0.2s;
+    }
+    .kpi-card:hover { transform: translateY(-2px); box-shadow: 0 4px 16px rgba(0,0,0,0.1); }
+    .kpi-card .label { font-size: 0.8em; color: #888; text-transform: uppercase; letter-spacing: 0.5px; }
+    .kpi-card .value { font-size: 2em; font-weight: 700; margin-top: 4px; }
+    .kpi-card .sub { font-size: 0.85em; color: #666; margin-top: 2px; }
+    .kpi-card.red .value { color: #e94560; }
+    .kpi-card.blue .value { color: #0f3460; }
+    .kpi-card.green .value { color: #16a34a; }
+    .kpi-card.orange .value { color: #ea580c; }
+    .kpi-card.purple .value { color: #7c3aed; }
+    .chart-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 16px; margin-bottom: 24px; }
+    .chart-card { background: white; border-radius: 12px; padding: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+    .chart-card h3 { font-size: 1em; margin-bottom: 16px; color: #333; }
+    .chart-card .chart-wrapper { position: relative; max-height: 370px; }
+    .chart-card .chart-wrapper canvas { max-height: 350px; }
+    #map { height: 520px; border-radius: 8px; width: 100%; }
+    .chart-card.map-card { padding: 16px; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.85em; }
+    th { background: #f8f9fa; text-align: left; padding: 10px 12px; font-weight: 600; border-bottom: 2px solid #dee2e6; }
+    td { padding: 10px 12px; border-bottom: 1px solid #eee; }
+    tr:hover { background: #f8f9fa; }
+    .badge { padding: 2px 8px; border-radius: 12px; font-size: 0.8em; font-weight: 600; }
+    .badge-green { background: #dcfce7; color: #16a34a; }
+    .badge-red { background: #fce4ec; color: #c62828; }
+    .badge-blue { background: #dbeafe; color: #1d4ed8; }
+    .search-bar { margin-bottom: 16px; display: flex; gap: 8px; align-items: center; }
+    .search-bar input {
+      flex: 1; padding: 12px 16px; border: 1px solid #ddd; border-radius: 8px;
+      font-size: 0.95em; font-family: inherit;
+    }
+    .search-bar input:focus { outline: none; border-color: #e94560; box-shadow: 0 0 0 3px rgba(233,69,96,0.1); }
+    .search-bar .btn { white-space: nowrap; }
+    .tabs { display: flex; gap: 4px; margin-bottom: 16px; flex-wrap: wrap; }
+    .tab {
+      padding: 8px 18px; border-radius: 8px; font-size: 0.85em; cursor: pointer;
+      background: #eee; color: #666; border: none; font-family: inherit; font-weight: 500; transition: all 0.2s;
+    }
+    .tab.active { background: #1a1a2e; color: white; }
+    .tab:hover:not(.active) { background: #ddd; }
+    .metric-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 12px; margin-top: 16px; }
+    .metric-card { background: #f8f9fa; padding: 14px; border-radius: 10px; text-align: center; border: 1px solid #eee; }
+    .metric-card .m-label { font-size: 0.75em; color: #888; text-transform: uppercase; letter-spacing: 0.3px; }
+    .metric-card .m-value { font-size: 1.2em; font-weight: 700; color: #1a1a2e; margin-top: 6px; word-break: break-word; }
+    .pdf-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; }
+    .pdf-card {
+      background: white; border: 1px solid #eee; border-radius: 12px; cursor: pointer;
+      transition: all 0.2s; overflow: hidden;
+    }
+    .pdf-card:hover { border-color: #e94560; box-shadow: 0 4px 16px rgba(233,69,96,0.15); transform: translateY(-2px); }
+    .pdf-card .thumb {
+      background: linear-gradient(135deg, #1a1a2e, #16213e);
+      height: 120px; display: flex; align-items: center; justify-content: center;
+      font-size: 3em; color: #e94560; position: relative;
+    }
+    .pdf-card .thumb .badge {
+      position: absolute; top: 10px; right: 10px; background: #e94560; color: white;
+      font-size: 0.65em; padding: 2px 8px; border-radius: 6px; font-weight: 600;
+    }
+    .pdf-card .body { padding: 12px; }
+    .pdf-card .body .name { font-weight: 600; font-size: 0.9em; color: #1a1a2e; }
+    .pdf-card .body .meta { font-size: 0.75em; color: #888; margin-top: 4px; }
+    .pdf-card .body .stats { font-size: 0.8em; color: #555; margin-top: 6px; display: flex; gap: 8px; flex-wrap: wrap; }
+    .pdf-card .body .stats span { background: #f0f2f5; padding: 2px 8px; border-radius: 6px; }
+    .pdf-card .body .stats .cand { color: #0f3460; }
+    .pdf-card .body .stats .label { color: #16a34a; }
+    .pdf-card .body .stats .pre { color: #ea580c; }
+    .doc-card { background: white; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); overflow: hidden; }
+    .doc-card .doc-header { padding: 16px 20px; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; align-items: center; }
+    .doc-card .doc-header h3 { margin: 0; font-size: 1em; }
+    .doc-card .doc-body { padding: 20px; min-height: 300px; }
+    .doc-card .doc-body .rendered { line-height: 1.8; font-size: 0.9em; color: #333; }
+    .doc-card .doc-body .rendered h1, .doc-card .doc-body .rendered h2, .doc-card .doc-body .rendered h3 { margin: 1em 0 0.5em; color: #1a1a2e; }
+    .doc-card .doc-body .rendered h1 { font-size: 1.4em; border-bottom: 2px solid #e94560; padding-bottom: 8px; }
+    .doc-card .doc-body .rendered h2 { font-size: 1.15em; }
+    .doc-card .doc-body .rendered h3 { font-size: 1em; }
+    .doc-card .doc-body .rendered p { margin: 0.5em 0; }
+    .doc-card .doc-body .rendered ul, .doc-card .doc-body .rendered ol { padding-left: 20px; margin: 0.5em 0; }
+    .doc-card .doc-body .rendered li { margin: 0.3em 0; }
+    .doc-card .doc-body .rendered strong { color: #e94560; }
+    .doc-card .doc-body .rendered table { border-collapse: collapse; width: 100%; margin: 1em 0; font-size: 0.9em; }
+    .doc-card .doc-body .rendered th, .doc-card .doc-body .rendered td { border: 1px solid #ddd; padding: 8px 12px; text-align: left; }
+    .doc-card .doc-body .rendered th { background: #f8f9fa; font-weight: 600; }
+    .doc-card .doc-body textarea {
+      width: 100%; min-height: 400px; border: 1px solid #ddd; border-radius: 8px;
+      padding: 12px; font-family: 'Courier New', monospace; font-size: 0.85em; resize: vertical;
+    }
+    .doc-card .doc-body textarea:focus { outline: none; border-color: #e94560; }
+    iframe { width: 100%; height: 80vh; border: none; border-radius: 12px; }
+    .insight-card {
+      background: linear-gradient(135deg, #fff5f5, #fff); border-left: 4px solid #e94560;
+      border-radius: 8px; padding: 16px 20px; margin-bottom: 12px;
+    }
+    .insight-card .title { font-weight: 600; font-size: 0.9em; color: #e94560; }
+    .insight-card p { font-size: 0.9em; color: #444; margin-top: 4px; }
+    .summary-box {
+      background: #f0f7ff; border-left: 4px solid #0f3460; border-radius: 8px;
+      padding: 16px 20px; margin: 12px 0; font-size: 0.9em; line-height: 1.6;
+    }
+    .summary-box strong { color: #0f3460; }
+    .btn {
+      display: inline-block; padding: 8px 20px; border-radius: 8px; font-size: 0.85em;
+      font-weight: 600; cursor: pointer; border: none; font-family: inherit; text-decoration: none;
+    }
+    .btn-red { background: #e94560; color: white; }
+    .btn-red:hover { background: #d63851; }
+    .btn-outline { background: transparent; border: 2px solid #0f3460; color: #0f3460; }
+    .btn-outline:hover { background: #0f3460; color: white; }
+    @media (max-width: 768px) {
+      .chart-grid { grid-template-columns: 1fr; }
+      .kpi-grid { grid-template-columns: repeat(2, 1fr); }
+      nav .container { gap: 2px; padding: 0 6px; }
+      nav .brand { font-size: 0.85em; padding: 10px 6px; }
+      nav a { padding: 10px 6px; font-size: 0.75em; }
+      .metric-grid { grid-template-columns: repeat(2, 1fr); }
+      main { padding: 12px; }
+      .page-header h1 { font-size: 1.3em; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="container">
+    <div class="brand">📊 <span>Startup Act</span> Tunisie</div>
+    <a href="#" class="active" data-page="dashboard">Dashboard</a>
+    <a href="#" data-page="sessions">Sessions</a>
+    <a href="#" data-page="startups">Startups</a>
+    <a href="#" data-page="sectors">Secteurs</a>
+    <a href="#" data-page="geography">Géographie</a>
+    <a href="#" data-page="reports">Rapports</a>
+    <a href="#" data-page="pdfs">PDFs Sessions</a>
+    <a href="#" data-page="annual-pdfs">PDFs Annuels</a>
+    <a href="#" data-page="livrables">Livrables</a>
+    <a href="#" data-page="insights">Insights</a>
+  </div>
+</nav>
+
+<main>
+  <!-- DASHBOARD -->
+  <section id="page-dashboard" class="active">
+    <div class="page-header"><h1>Tableau de Bord</h1><p>Indicateurs clés du Startup Act Tunisien · 2019-2026</p></div>
+    <div class="kpi-grid" id="kpiGrid"></div>
+    <div class="chart-grid">
+      <div class="chart-card"><h3>Évolution annuelle des sessions</h3><div class="chart-wrapper"><canvas id="chartYearly"></canvas></div></div>
+      <div class="chart-card"><h3>Répartition par secteur (Top 8)</h3><div class="chart-wrapper"><canvas id="chartSectors"></canvas></div></div>
+    </div>
+    <div class="chart-grid">
+      <div class="chart-card"><h3>Labels par mois (saisonnalité)</h3><div class="chart-wrapper"><canvas id="chartMonthly"></canvas></div></div>
+      <div class="chart-card"><h3>Création des startups par année</h3><div class="chart-wrapper"><canvas id="chartCreation"></canvas></div></div>
+    </div>
+  </section>
+
+  <!-- SESSIONS -->
+  <section id="page-sessions">
+    <div class="page-header"><h1>Sessions de Labellisation</h1><p>85 sessions · 2 958 candidatures · 1 324 labels · 617 pré-labels</p></div>
+    <div class="chart-grid">
+      <div class="chart-card"><h3>Taux d'acceptation par année</h3><div class="chart-wrapper"><canvas id="chartSessionsRate"></canvas></div></div>
+      <div class="chart-card"><h3>Candidatures vs Labels par année</h3><div class="chart-wrapper"><canvas id="chartSessionsBar"></canvas></div></div>
+    </div>
+    <div class="search-bar">
+      <input type="text" id="sessionSearch" placeholder="Rechercher une session..." oninput="filterSessions(this.value)">
+      <button onclick="exportExcel('sessions')" class="btn btn-outline" style="flex-shrink:0">📥 Export XLSX</button>
+    </div>
+    <div style="overflow-x:auto"><table><thead><tr><th>Session</th><th>Candidatures</th><th>Labels</th><th>Pré-Labels</th><th>Taux</th><th>Commentaires</th></tr></thead><tbody id="sessionsTable"></tbody></table></div>
+  </section>
+
+  <!-- STARTUPS -->
+  <section id="page-startups">
+    <div class="page-header"><h1>Base de données des Startups</h1><p>922 startups labellisées</p></div>
+    <div class="search-bar">
+      <input type="text" id="startupSearch" placeholder="Rechercher par nom, secteur, fondateur, année de création, date de label..." oninput="filterStartups(this.value)">
+      <button onclick="exportExcel('startups')" class="btn btn-outline" style="flex-shrink:0">📥 Export XLSX</button>
+    </div>
+    <div style="overflow-x:auto"><table><thead><tr><th>Nom</th><th>Secteur</th><th>Création</th><th>Label</th><th>Fondateurs</th></tr></thead><tbody id="startupsTable"></tbody></table></div>
+  </section>
+
+  <!-- SECTEURS -->
+  <section id="page-sectors">
+    <div class="page-header"><h1>Analyse sectorielle</h1><p>18 secteurs d'activité · Concentration : Top 4 = 51,6% de toutes les startups</p></div>
+    <div class="kpi-grid">
+      <div class="kpi-card red"><div class="label">Concentration (HHI)</div><div class="value" id="hhiValue">-</div><div class="sub">Modérée si < 1500</div></div>
+      <div class="kpi-card blue"><div class="label">Secteur dominant</div><div class="value" id="topSector">-</div><div class="sub">Part du top secteur</div></div>
+      <div class="kpi-card green"><div class="label">Top 4 secteurs</div><div class="value" id="top4Value">-</div><div class="sub">% du total startups</div></div>
+    </div>
+    <div class="chart-grid">
+      <div class="chart-card"><h3>Classement des secteurs</h3><div class="chart-wrapper"><canvas id="chartSectorsDetail"></canvas></div></div>
+      <div class="chart-card"><h3>Répartition en %</h3><div class="chart-wrapper"><canvas id="chartSectorsPie"></canvas></div></div>
+    </div>
+    <div class="search-bar" style="justify-content:flex-end">
+      <button onclick="exportExcel('sectors')" class="btn btn-outline">📥 Export XLSX</button>
+    </div>
+    <div style="overflow-x:auto"><table><thead><tr><th>Secteur</th><th>Startups</th><th>%</th><th>Accumulé</th></tr></thead><tbody id="sectorsTable"></tbody></table></div>
+  </section>
+
+  <!-- GEOGRAPHY -->
+  <section id="page-geography">
+    <div class="page-header"><h1>Répartition Géographique</h1><p>48% des startups dans le Grand Tunis · Dernières données disponibles : Rapport Annuel 2021</p></div>
+    <div class="kpi-grid">
+      <div class="kpi-card blue"><div class="label">Grand Tunis</div><div class="value">48%</div><div class="sub">Concentration startups</div></div>
+      <div class="kpi-card orange"><div class="label">Sousse</div><div class="value">17%</div><div class="sub">Rapport 2021</div></div>
+      <div class="kpi-card purple"><div class="label">Kairouan</div><div class="value">13%</div><div class="sub">Rapport 2021</div></div>
+      <div class="kpi-card red"><div class="label">Kasserine</div><div class="value">9%</div><div class="sub">Rapport 2021</div></div>
+    </div>
+    <div class="summary-box" style="margin-bottom:20px">
+      <strong>📌 Note :</strong> Les données géographiques proviennent du Rapport Annuel 2021 (159 pages), dernier rapport disponible.
+      Aucune statistique plus récente (2025-2026) n'est publiée par startup.gov.tn.
+      Les 7 régions représentent la totalité des startups labellisées.
+    </div>
+    <div class="chart-card map-card" style="margin-bottom:20px"><h3>Carte de la Tunisie</h3><div id="map"></div></div>
+    <div class="chart-grid">
+      <div class="chart-card"><h3>Répartition par région (%)</h3><div class="chart-wrapper"><canvas id="chartGeo"></canvas></div></div>
+      <div class="chart-card"><h3>Déséquilibre régional</h3><div class="chart-wrapper"><canvas id="chartGeoBar"></canvas></div></div>
+    </div>
+  </section>
+
+  <!-- RAPPORTS ANNUELS (Analyse) -->
+  <section id="page-reports">
+    <div class="page-header"><h1>Rapports Annuels — Analyse</h1><p>3 rapports officiels parsés · Indicateurs clés extraits par NLP</p></div>
+    <div class="tabs" id="reportTabs">
+      <button class="tab active" data-report="0">2019-2020 (44p)</button>
+      <button class="tab" data-report="1">2020 (82p)</button>
+      <button class="tab" data-report="2">2021 (159p)</button>
+    </div>
+    <div id="reportContent"></div>
+    <div class="chart-card" style="margin-top:20px"><h3>Comparaison inter-annuelle</h3><div class="chart-wrapper"><canvas id="chartReports"></canvas></div></div>
+    <div class="summary-box" style="margin-top:16px">
+      <strong>📌 Note :</strong> Les données sont extraites automatiquement des PDFs par analyse de texte.
+      Les rapports complets sont disponibles dans l'onglet <a href="#" onclick="switchPage('annual-pdfs');return false" style="color:#e94560">"PDFs Annuels"</a>.
+    </div>
+  </section>
+
+  <!-- PDFS SESSIONS -->
+  <section id="page-pdfs">
+    <div class="page-header"><h1>PDFs des Sessions</h1><p>85 rapports de labellisation · Cliquez pour consulter</p></div>
+    <div class="search-bar"><input type="text" id="pdfSearch" placeholder="Rechercher..." oninput="filterPdfs(this.value)"></div>
+    <div id="pdfViewer" style="display:none;margin-bottom:20px">
+      <div style="display:flex;gap:8px;margin-bottom:8px">
+        <button onclick="closePdf()" class="btn btn-red">✕ Fermer</button>
+        <button onclick="document.getElementById('pdfFrame').contentWindow.print()" class="btn btn-outline">🖨 Imprimer</button>
+      </div>
+      <iframe id="pdfFrame"></iframe>
+    </div>
+    <div class="pdf-grid" id="pdfGrid"></div>
+  </section>
+
+  <!-- PDFS ANNUELS -->
+  <section id="page-annual-pdfs">
+    <div class="page-header"><h1>Rapports Annuels — PDFs Complets</h1><p>Les 3 rapports officiels du Startup Act · Consultez, téléchargez</p></div>
+    <div class="pdf-grid" id="annualPdfGrid"></div>
+    <div id="annualPdfViewer" style="display:none;margin-top:20px">
+      <div style="display:flex;gap:8px;margin-bottom:8px">
+        <button onclick="closeAnnualPdf()" class="btn btn-red">✕ Fermer</button>
+      </div>
+      <iframe id="annualPdfFrame"></iframe>
+    </div>
+  </section>
+
+  <!-- LIVRABLES -->
+  <section id="page-livrables">
+    <div class="page-header"><h1>Livrables Phase 1</h1><p>Documents de cadrage du projet · Consultez et modifiez</p></div>
+    <div class="doc-card" style="margin-bottom:20px">
+      <div class="doc-header">
+        <h3>📁 Dossier Drive — Livrables attendus</h3>
+        <a href="https://drive.google.com/drive/folders/1hyLN9oY9BN6DCVORPYP8zQmejkqI9M68" target="_blank" rel="noopener" class="btn btn-outline" style="font-size:0.8em;text-decoration:none">↗ Accéder au Drive</a>
+      </div>
+      <div class="doc-body" style="padding:0">
+        <iframe src="https://drive.google.com/embeddedfolderview?id=1hyLN9oY9BN6DCVORPYP8zQmejkqI9M68" style="width:100%;height:500px;border:none;border-radius:0 0 12px 12px"></iframe>
+      </div>
+    </div>
+    <div class="chart-grid" id="livrablesGrid"></div>
+  </section>
+
+  <!-- INSIGHTS -->
+  <section id="page-insights">
+    <div class="page-header"><h1>Insights & Interprétations</h1><p>8 conclusions clés de l'analyse quantitative</p></div>
+    <div id="insightsContainer"></div>
+    <div class="chart-grid" style="margin-top:24px">
+      <div class="chart-card"><h3>Évolution du taux d'acceptation</h3><div class="chart-wrapper"><canvas id="chartInsightTaux"></canvas></div></div>
+      <div class="chart-card"><h3>Labels vs Retraits vs Conversions</h3><div class="chart-wrapper"><canvas id="chartInsightPdf"></canvas></div></div>
+    </div>
+  </section>
+</main>
+
+<script>
+const DATA = {};
+
+function switchPage(page) {
+  document.querySelectorAll('nav a').forEach(l => l.classList.remove('active'));
+  document.querySelector(`nav a[data-page="${page}"]`)?.classList.add('active');
+  document.querySelectorAll('section').forEach(s => s.classList.remove('active'));
+  document.getElementById('page-' + page)?.classList.add('active');
+  if (page === 'sessions') setTimeout(renderSessionCharts, 200);
+  if (page === 'sectors') setTimeout(renderSectorCharts, 200);
+  if (page === 'geography') setTimeout(() => { renderGeoCharts(); initMap(); }, 400);
+  if (page === 'reports') setTimeout(() => renderReportCharts(0), 200);
+  if (page === 'insights') setTimeout(renderInsightCharts, 200);
+  document.getElementById('page-' + page)?.scrollIntoView({behavior:'smooth'});
+}
+
+async function init() {
+  try {
+    const [dashboard, sessions, startups, reports, analysis] = await Promise.all([
+      fetch('/api/dashboard').then(r => r.json()),
+      fetch('/api/sessions').then(r => r.json()),
+      fetch('/api/startups').then(r => r.json()),
+      fetch('/api/reports').then(r => r.json()),
+      fetch('/api/analysis').then(r => r.json()).catch(() => ({sessions:{taux_acceptation_moyen:44.8}}))
+    ]);
+    Object.assign(DATA, { dashboard, sessions, startups, reports, analysis });
+
+    document.querySelectorAll('nav a').forEach(a => {
+      a.addEventListener('click', e => { e.preventDefault(); switchPage(a.dataset.page); });
+    });
+
+    renderDashboard();
+    renderSessions();
+    renderStartups();
+    renderSectors();
+    renderGeoCharts();
+    initReports();
+    renderPdfs();
+    renderAnnualPdfs();
+    renderLivrables();
+    renderInsights();
+
+    // Auto-load first report
+    setTimeout(() => renderReportCharts(0), 300);
+  } catch(e) { console.error('Init error:', e); }
+}
+
+// ===== DASHBOARD =====
+function renderDashboard() {
+  const d = DATA.dashboard;
+  const y = d.yearly;
+  const totalCand = y.reduce((s, y) => s + y.candidatures, 0);
+  const totalLabels = y.reduce((s, y) => s + y.labels, 0);
+  const totalPre = y.reduce((s, y) => s + y.preLabels, 0);
+  const totalSessions = y.reduce((s, y) => s + y.nbSessions, 0);
+
+  document.getElementById('kpiGrid').innerHTML = `
+    <div class="kpi-card blue"><div class="label">Startups uniques</div><div class="value">${d.database.totalStartups}</div><div class="sub">dans la base</div></div>
+    <div class="kpi-card red"><div class="label">Labels accordés</div><div class="value">${totalLabels}</div><div class="sub">sur ${totalSessions} sessions</div></div>
+    <div class="kpi-card green"><div class="label">Candidatures</div><div class="value">${totalCand}</div><div class="sub">déposées</div></div>
+    <div class="kpi-card orange"><div class="label">Pré-Labels</div><div class="value">${totalPre}</div><div class="sub">accordés</div></div>
+    <div class="kpi-card purple"><div class="label">Taux moyen</div><div class="value">${DATA.analysis.sessions?.taux_acceptation_moyen || '44.8'}%</div><div class="sub">2019-2026</div></div>
+  `;
+
+  makeChart('chartYearly', 'bar', {
+    labels: y.map(y => y.year),
+    datasets: [
+      { label: 'Candidatures', data: y.map(y => y.candidatures), backgroundColor: '#0f3460' },
+      { label: 'Labels', data: y.map(y => y.labels), backgroundColor: '#e94560' },
+      { label: 'Pré-Labels', data: y.map(y => y.preLabels), backgroundColor: '#16a34a' }
+    ]
+  });
+
+  const sectors = d.database.sectors.sort((a, b) => b.count - a.count).slice(0, 8);
+  const colors = ['#e94560','#0f3460','#16a34a','#ea580c','#7c3aed','#0891b2','#ca8a04','#be185d'];
+  const sectorsTotal = d.database.sectors.reduce((s, s2) => s + s2.count, 0);
+  makeChart('chartSectors', 'doughnut', {
+    labels: sectors.map(s => `${s.name} (${(s.count / sectorsTotal * 100).toFixed(1)}%)`),
+    datasets: [{ data: sectors.map(s => s.count), backgroundColor: colors }]
+  }, { plugins: { legend: { position: 'right', labels: { font: { size: 10 } } } } });
+
+  const lm = d.database.byLabelMonth;
+  const monthNames = ['Jan','Fév','Mar','Avr','Mai','Jui','Jui','Aoû','Sep','Oct','Nov','Déc'];
+  const monthAgg = {};
+  lm.forEach(m => { const mo = parseInt(m.month.split('/')[0]); monthAgg[mo] = (monthAgg[mo]||0)+m.count; });
+  makeChart('chartMonthly', 'line', {
+    labels: monthNames,
+    datasets: [{ label: 'Labels', data: Object.values(monthAgg), borderColor: '#e94560', fill: true, backgroundColor: 'rgba(233,69,96,0.1)', tension: 0.4 }]
+  });
+
+  const cy = d.database.byCreationYear;
+  makeChart('chartCreation', 'bar', {
+    labels: cy.map(y => y.year),
+    datasets: [{ label: 'Startups créées', data: cy.map(y => y.count), backgroundColor: '#0f3460' }]
+  });
+}
+
+// ===== SESSIONS =====
+function renderSessions() {
+  const sessions = DATA.dashboard.sessions;
+  document.getElementById('sessionsTable').innerHTML = sessions.slice().reverse().map(s => `
+    <tr>
+      <td><strong>${s.session}</strong></td>
+      <td>${s.candidatures}</td>
+      <td>${s.labels}</td>
+      <td>${s.preLabels}</td>
+      <td><span class="badge ${parseFloat(s.tauxAcceptation) > 45 ? 'badge-green' : parseFloat(s.tauxAcceptation) > 35 ? 'badge-blue' : 'badge-red'}">${s.tauxAcceptation}%</span></td>
+      <td style="font-size:0.85em;color:#666">${s.commentaires || '-'}</td>
+    </tr>
+  `).join('');
+}
+
+function filterSessions(q) {
+  document.querySelectorAll('#sessionsTable tr').forEach(r => { r.style.display = r.textContent.toLowerCase().includes(q.toLowerCase()) ? '' : 'none'; });
+}
+
+function renderSessionCharts() {
+  const y = DATA.dashboard.yearly;
+  makeChart('chartSessionsRate', 'line', {
+    labels: y.map(y => y.year),
+    datasets: [{ label: "Taux d'acceptation (%)", data: y.map(y => parseFloat(y.tauxAcceptation)), borderColor: '#e94560', tension: 0.4, pointBackgroundColor: '#e94560' }]
+  }, { scales: { y: { min: 20, max: 70 } } });
+  makeChart('chartSessionsBar', 'bar', {
+    labels: y.map(y => y.year),
+    datasets: [
+      { label: 'Candidatures', data: y.map(y => y.candidatures), backgroundColor: '#0f3460' },
+      { label: 'Labels', data: y.map(y => y.labels), backgroundColor: '#e94560' },
+      { label: 'Pré-Labels', data: y.map(y => y.preLabels), backgroundColor: '#16a34a' }
+    ]
+  });
+}
+
+// ===== STARTUPS =====
+function renderStartups() {
+  const startups = DATA.startups;
+  document.getElementById('startupsTable').innerHTML = startups.map(s => `
+    <tr>
+      <td><strong>${s.nom || '-'}</strong></td>
+      <td>${s.secteur || '-'}</td>
+      <td>${s.anneeCreation || '-'}</td>
+      <td>${s.labelDate || '-'}</td>
+      <td style="font-size:0.85em">${(s.founders || '').substring(0, 60)}</td>
+    </tr>
+  `).join('');
+}
+
+function filterStartups(q) {
+  const all = DATA.startups;
+  const filtered = all.filter(s => {
+    const row = [s.nom, s.secteur, s.founders, s.anneeCreation, s.labelDate].filter(Boolean).join(' ').toLowerCase();
+    return row.includes(q.toLowerCase());
+  });
+  document.getElementById('startupsTable').innerHTML = filtered.map(s => `
+    <tr>
+      <td><strong>${s.nom || '-'}</strong></td>
+      <td>${s.secteur || '-'}</td>
+      <td>${s.anneeCreation || '-'}</td>
+      <td>${s.labelDate || '-'}</td>
+      <td style="font-size:0.85em">${(s.founders || '').substring(0, 60)}</td>
+    </tr>
+  `).join('');
+  document.querySelector('#page-startups .page-header p').textContent = `922 startups · ${filtered.length} résultats`;
+}
+
+// ===== SECTORS =====
+function renderSectors() {
+  const sectors = DATA.dashboard.database.sectors.sort((a, b) => b.count - a.count);
+  const total = sectors.reduce((s, s2) => s + s2.count, 0);
+  const top4 = sectors.slice(0, 4).reduce((s, s2) => s + s2.count, 0);
+  const hhi = sectors.reduce((s, s2) => s + Math.pow(s2.count / total * 100, 2), 0);
+  document.getElementById('hhiValue').textContent = hhi.toFixed(0);
+  document.getElementById('topSector').textContent = sectors[0].name;
+  document.getElementById('top4Value').textContent = (top4/total*100).toFixed(1) + '%';
+  document.getElementById('sectorsTable').innerHTML = sectors.map((s, i) => {
+    const pct = (s.count / total * 100).toFixed(1);
+    const cumul = sectors.slice(0, i+1).reduce((sum, s2) => sum + s2.count, 0) / total * 100;
+    return `<tr><td>${s.name}</td><td>${s.count}</td><td>${pct}%</td><td>${cumul.toFixed(1)}%</td></tr>`;
+  }).join('');
+}
+
+function renderSectorCharts() {
+  const sectors = DATA.dashboard.database.sectors.sort((a, b) => b.count - a.count);
+  const total = sectors.reduce((s, s2) => s + s2.count, 0);
+  const colors = ['#e94560','#0f3460','#16a34a','#ea580c','#7c3aed','#0891b2','#ca8a04','#be185d','#65a30d','#0d9488','#9333ea','#db2777','#2563eb','#c026d3','#059669','#d97706','#dc2626','#4f46e5'];
+  makeChart('chartSectorsDetail', 'bar', {
+    labels: sectors.map(s => s.name),
+    datasets: [{ label: 'Startups', data: sectors.map(s => s.count), backgroundColor: colors }]
+  }, { indexAxis: 'y', plugins: { legend: { display: false } } });
+  makeChart('chartSectorsPie', 'pie', {
+    labels: sectors.map(s => `${s.name} (${(s.count / total * 100).toFixed(1)}%)`),
+    datasets: [{ data: sectors.map(s => s.count), backgroundColor: colors }]
+  }, { plugins: { legend: { position: 'right', labels: { font: { size: 9 } } },
+      tooltip: {
+        callbacks: {
+          label: function(item) {
+            const s = sectors[item.index];
+            const pct = (s.count / total * 100).toFixed(1);
+            return `${s.name}: ${s.count} startups (${pct}%)`;
+          }
+        }
+      }
+  } });
+}
+
+// ===== GEOGRAPHY =====
+let mapInitialized = false;
+function initMap() {
+  const container = document.getElementById('map');
+  if (!container) return;
+
+  // Destroy previous instance if any
+  if (container._leaflet_id) {
+    container._leaflet_id = null;
+  }
+
+  // Clear container
+  container.innerHTML = '';
+
+  const map = L.map('map', {
+    center: [33.8869, 9.5375],
+    zoom: 6,
+    zoomControl: true
+  });
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap', maxZoom: 18
+  }).addTo(map);
+
+  const regions = [
+    { name: 'Grand Tunis', lat: 36.806, lng: 10.181, pct: 48, desc: 'Tunis, Ariana, Ben Arous, Manouba' },
+    { name: 'Sousse', lat: 35.825, lng: 10.636, pct: 17, desc: 'Capitale du Sahel' },
+    { name: 'Kairouan', lat: 35.678, lng: 10.096, pct: 13, desc: 'Centre' },
+    { name: 'Kasserine', lat: 35.168, lng: 8.835, pct: 9, desc: 'Centre-Ouest' },
+    { name: 'Sfax', lat: 34.740, lng: 10.760, pct: 5, desc: 'Sud-Est' },
+    { name: 'Nabeul', lat: 36.451, lng: 10.735, pct: 4, desc: 'Cap Bon' },
+    { name: 'Jendouba', lat: 36.501, lng: 8.780, pct: 4, desc: 'Nord-Ouest' }
+  ];
+
+  const colors = { 'Grand Tunis': '#e94560', 'Sousse': '#0f3460', 'Kairouan': '#16a34a', 'Kasserine': '#ea580c', 'Sfax': '#7c3aed', 'Nabeul': '#0891b2', 'Jendouba': '#ca8a04' };
+
+  regions.forEach(r => {
+    const radius = Math.max(10, r.pct * 1.5);
+    L.circleMarker([r.lat, r.lng], {
+      radius, color: colors[r.name], fillColor: colors[r.name], fillOpacity: 0.7, weight: 2
+    }).addTo(map).bindPopup(`<b>${r.name}</b><br>${r.pct}% des startups<br><small>${r.desc}</small>`);
+  });
+
+  // Force size recalculation then fit bounds
+  setTimeout(() => {
+    map.invalidateSize();
+    const group = L.featureGroup(regions.map(r => L.circleMarker([r.lat, r.lng])));
+    map.fitBounds(group.getBounds().pad(0.15));
+  }, 300);
+}
+
+function renderGeoCharts() {
+  makeChart('chartGeo', 'bar', {
+    labels: ['Grand Tunis (48%)', 'Sousse (17%)', 'Kairouan (13%)', 'Kasserine (9%)', 'Sfax (5%)', 'Nabeul (4%)', 'Jendouba (4%)'],
+    datasets: [{ label: '% des startups', data: [48, 17, 13, 9, 5, 4, 4], backgroundColor: ['#e94560','#0f3460','#16a34a','#ea580c','#7c3aed','#0891b2','#ca8a04'] }]
+  }, { indexAxis: 'y', plugins: { legend: { display: false } } });
+  
+  makeChart('chartGeoBar', 'doughnut', {
+    labels: ['Grand Tunis (48%)', 'Régions côtières (30%)', 'Régions intérieures (22%)'],
+    datasets: [{ data: [48, 30, 22], backgroundColor: ['#e94560', '#0f3460', '#16a34a'] }]
+  }, { plugins: { legend: { position: 'bottom' },
+      tooltip: {
+        callbacks: {
+          label: function(item) {
+            const labels = ['Grand Tunis', 'Régions côtières', 'Régions intérieures'];
+            return `${labels[item.index]} : ${item.value}% des startups`;
+          }
+        }
+      }
+  } });
+}
+
+// ===== REPORTS =====
+function initReports() {
+  document.querySelectorAll('#reportTabs .tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('#reportTabs .tab').forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      renderReportCharts(parseInt(tab.dataset.report));
+    });
+  });
+}
+
+const REPORT_METADATA = [
+  {
+    label: '2019-2020',
+    metrics: {
+      'Candidatures': '416',
+      'Secteurs': '6',
+      'Régions': '6',
+      'Femmes': '35%',
+      'B2B': '70%',
+      'Salaire moyen': '1 517 DT'
+    },
+    summary: 'Premier rapport annuel du Startup Act. Sur 416 candidatures reçues, le dispositif a labellisé des startups dans 6 régions et 6 secteurs. 70% des startups opèrent en B2B. Le salaire moyen est de 1 517 DT. 35% de femmes créatrices.',
+    sectors: ['Fintech', 'HealthTech', 'EdTech', 'AgriTech', 'GreenTech', 'AI', 'Mobility', 'TravelTech', 'FoodTech', 'Wellness']
+  },
+  {
+    label: '2020',
+    metrics: {
+      'Candidatures': '718',
+      'Emplois créés': '3 222',
+      'Femmes équipe': '63%',
+      'Investissement': '2,1 mTND',
+      'Startups ayant levé': '51',
+      'Secteurs': '6'
+    },
+    summary: "Lancement de la marque Startup Tunisia. 718 candidatures, 3 222 emplois créés par les startups labellisées. 63% des startups comptent des femmes dans l'équipe fondatrice. 2,1 mTND levés (51 startups concernées). Annonce du Fonds ANAVA (40M EUR closing initial).",
+    sectors: ['Fintech', 'HealthTech', 'EdTech', 'AgriTech', 'AI', 'IoT', 'E-Commerce', 'Mobility', 'TravelTech', 'FoodTech']
+  },
+  {
+    label: '2021',
+    metrics: {
+      'Investissement': '157 M USD',
+      'Record Instadeep': '100 M USD',
+      'Femmes fondatrices': '21%',
+      'International': '45%',
+      'Grand Tunis': '48%',
+      'B2B': '65%',
+      'Emploi enquête': '113',
+      'Candidatures enquête': '230'
+    },
+    summary: "Rapport le plus complet (159 pages). Investissement record de 157M USD (dont 100M USD levés par Instadeep). 21% de femmes fondatrices (baisse vs 2019). 45% des startups à l'international. 48% concentrées dans le Grand Tunis. Soutien de l'Union Européenne via Innov'i.",
+    sectors: ['Fintech', 'HealthTech', 'EdTech', 'AgriTech', 'GreenTech', 'SaaS', 'AI', 'IoT', 'E-Commerce', 'Mobility', 'TravelTech', 'Deeptech']
+  }
+];
+
+function renderReportCharts(idx) {
+  const meta = REPORT_METADATA[idx];
+  if (!meta) return;
+
+  // Show metrics
+  document.getElementById('reportContent').innerHTML = `
+    <div style="background:white;border-radius:12px;padding:20px;box-shadow:0 2px 8px rgba(0,0,0,0.06)">
+      <h3 style="margin-bottom:4px">${meta.label}</h3>
+      <div class="summary-box" style="margin:12px 0">${meta.summary}</div>
+      <div class="metric-grid">
+        ${Object.entries(meta.metrics).map(([k, v]) => `
+          <div class="metric-card"><div class="m-label">${k}</div><div class="m-value">${v}</div></div>
+        `).join('')}
+      </div>
+      <div style="margin-top:12px">
+        <strong style="font-size:0.85em">Secteurs identifiés :</strong>
+        <span style="font-size:0.85em;color:#666">${meta.sectors.join(' · ')}</span>
+      </div>
+    </div>
+  `;
+
+  // Inter-annual comparison chart
+  const reports = DATA.reports;
+  const labels = ['2019-2020', '2020', '2021'];
+  
+  // Compare common metrics across reports
+  const pages = reports.map(r => r.pages);
+  const textLen = reports.map(r => Math.round(r.textLength / 1000));
+
+  makeChart('chartReports', 'bar', {
+    labels,
+    datasets: [
+      { label: 'Pages', data: pages, backgroundColor: '#e94560' },
+      { label: 'Texte (K chars)', data: textLen, backgroundColor: '#0f3460' }
+    ]
+  }, { plugins: { legend: { position: 'top' } }, scales: { y: { beginAtZero: true } } });
+}
+
+// ===== PDFS SESSIONS =====
+async function renderPdfs() {
+  const files = await fetch('/api/session-pdfs').then(r => r.json());
+  const sessions = DATA.dashboard.sessions || [];
+  const lookup = {};
+  sessions.forEach(s => {
+    const m = s.session.match(/^(\d+)\/(\d{4})$/);
+    if (m) lookup[`session_${m[2]}_${m[1]}.pdf`] = s;
+  });
+  document.getElementById('pdfGrid').innerHTML = files.map(f => {
+    const s = lookup[f];
+    const match = f.match(/session_(\d{4})_(\d{2})\.pdf/);
+    const label = match ? `Session ${match[2]}/${match[1]}` : f;
+    const cand = s ? `<span class="cand">📋 ${s.candidatures}</span>` : '';
+    const lbl = s ? `<span class="label">✅ ${s.labels}</span>` : '';
+    const pre = s ? `<span class="pre">🟠 ${s.preLabels}</span>` : '';
+    return `<div class="pdf-card" onclick="openPdf('${f}')">
+      <div class="thumb" style="background-image:url('/api/pdf-thumb/${f}');background-size:cover;background-position:center">
+        <span class="badge">PDF</span>
+      </div>
+      <div class="body">
+        <div class="name">${label}</div>
+        <div class="stats">${cand}${lbl}${pre}</div>
+        <div class="meta">${f}</div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function openPdf(filename) {
+  document.getElementById('pdfViewer').style.display = 'block';
+  document.getElementById('pdfFrame').src = '/api/pdf/' + filename;
+  document.getElementById('pdfFrame').scrollIntoView({ behavior: 'smooth' });
+}
+
+function closePdf() {
+  document.getElementById('pdfViewer').style.display = 'none';
+  document.getElementById('pdfFrame').src = '';
+}
+
+function filterPdfs(q) {
+  document.querySelectorAll('.pdf-card').forEach(c => { c.style.display = c.textContent.toLowerCase().includes(q.toLowerCase()) ? '' : 'none'; });
+}
+
+// ===== PDFS ANNUELS =====
+const ANNUAL_PDFS = [
+  { file: 'Startup-Act-Annual-Report-2019-2020.pdf', label: 'Rapport 2019-2020 (Anglais)', pages: 44, size: '7,8 Mo', resume: '416 candidatures · 70% B2B · 35% femmes · Salaire moyen 1 517 DT' },
+  { file: 'Startup_Tunisia_Rapport_Annuel_2020_FR.pdf', label: 'Rapport 2020 (Français)', pages: 82, size: '6,8 Mo', resume: '718 candidatures · 3 222 emplois · 2,1 mTND levés · 63% femmes équipe' },
+  { file: 'Rapport_annuel_2021_VERSIONWEB_opt_1.pdf', label: 'Rapport 2021 (Français)', pages: 159, size: '24,8 Mo', resume: '157M USD invest. · 21% femmes · 48% Grand Tunis · 45% international' }
+];
+
+function renderAnnualPdfs() {
+  document.getElementById('annualPdfGrid').innerHTML = ANNUAL_PDFS.map(r => `
+    <div class="pdf-card" onclick="openAnnualPdf('${r.file}')">
+      <div class="thumb" style="background-image:url('/api/thumb-annual/${r.file}');background-size:cover;background-position:center">
+        <span class="badge">PDF</span>
+      </div>
+      <div class="body">
+        <div class="name">${r.label}</div>
+        <div class="stats">
+          <span>📄 ${r.pages} pages</span>
+          <span>💾 ${r.size}</span>
+        </div>
+        <div class="meta">${r.resume}</div>
+      </div>
+    </div>
+  `).join('');
+}
+
+function openAnnualPdf(filename) {
+  document.getElementById('annualPdfViewer').style.display = 'block';
+  document.getElementById('annualPdfFrame').src = '/api/pdf-annual/' + filename;
+  document.getElementById('annualPdfViewer').scrollIntoView({ behavior: 'smooth' });
+}
+
+function closeAnnualPdf() {
+  document.getElementById('annualPdfViewer').style.display = 'none';
+  document.getElementById('annualPdfFrame').src = '';
+}
+
+// ===== LIVRABLES =====
+const LIVRABLES = [
+  { id: 'livrable_phase1_charte_cadrage.md', label: 'Charte de Cadrage — Axe 1' },
+  { id: 'livrable_phase1_axes_2_6.md', label: 'Axes 2 à 6' }
+];
+
+async function renderLivrables() {
+  const grid = document.getElementById('livrablesGrid');
+  try {
+    grid.innerHTML = LIVRABLES.map(d => {
+      const key = d.id.replace(/[^a-z0-9]/g,'_');
+      return `<div class="doc-card">
+      <div class="doc-header">
+        <h3>📄 ${d.label}</h3>
+        <div style="display:flex;gap:6px">
+          <button class="btn btn-outline" onclick="editDoc('${d.id}')" style="font-size:0.8em">✏️ Modifier</button>
+        </div>
+      </div>
+      <div class="doc-body">
+        <div class="rendered" id="rendered-${key}">Chargement...</div>
+        <textarea id="editor-${key}" style="display:none"></textarea>
+        <div id="actions-${key}" style="display:none;margin-top:8px;gap:6px">
+          <button class="btn btn-red" onclick="saveDoc('${d.id}')">💾 Enregistrer</button>
+          <button class="btn btn-outline" onclick="cancelEdit('${d.id}')">Annuler</button>
+        </div>
+      </div>
+    </div>`;
+    }).join('');
+    LIVRABLES.forEach(d => loadDoc(d.id));
+  } catch(e) { grid.innerHTML = '<p style="color:red">Erreur: ' + e.message + '</p>'; }
+}
+
+async function loadDoc(id) {
+  const key = id.replace(/[^a-z0-9]/g,'_');
+  const rendered = document.getElementById('rendered-' + key);
+  try {
+    const r = await fetch('/api/docs/' + id);
+    const data = await r.json();
+    const md = data.content || '';
+    if (typeof marked !== 'undefined') {
+      rendered.innerHTML = marked.parse(md);
+    } else {
+      rendered.innerHTML = '<pre style="white-space:pre-wrap;font-size:0.85em">' + md.replace(/</g,'&lt;') + '</pre>';
+    }
+  } catch(e) {
+    rendered.innerHTML = '<p style="color:#999">Erreur chargement: ' + e.message + '</p>';
+  }
+}
+
+function editDoc(id) {
+  const key = id.replace(/[^a-z0-9]/g,'_');
+  document.getElementById('rendered-' + key).style.display = 'none';
+  const ta = document.getElementById('editor-' + key);
+  ta.style.display = 'block';
+  const actions = document.getElementById('actions-' + key);
+  actions.style.display = 'flex';
+  // Load current text from API
+  fetch('/api/docs/' + id).then(r => r.json()).then(data => {
+    ta.value = data.content || '';
+  });
+}
+
+async function saveDoc(id) {
+  const key = id.replace(/[^a-z0-9]/g,'_');
+  const content = document.getElementById('editor-' + key).value;
+  const r = await fetch('/api/docs/' + id, { method: 'POST', body: content });
+  const data = await r.json();
+  if (data.ok) {
+    document.getElementById('rendered-' + key).innerHTML = marked.parse(content);
+    document.getElementById('rendered-' + key).style.display = 'block';
+    document.getElementById('editor-' + key).style.display = 'none';
+    document.getElementById('actions-' + key).style.display = 'none';
+  } else {
+    alert('Erreur: ' + (data.error || 'unknown'));
+  }
+}
+
+function cancelEdit(id) {
+  const key = id.replace(/[^a-z0-9]/g,'_');
+  document.getElementById('rendered-' + key).style.display = 'block';
+  document.getElementById('editor-' + key).style.display = 'none';
+  document.getElementById('actions-' + key).style.display = 'none';
+}
+
+// ===== INSIGHTS =====
+function renderInsights() {
+  const insights = (DATA.analysis.insights_cles || []).length > 0 ? DATA.analysis.insights_cles : [
+    "Baisse continue du taux d'acceptation: 61,7% (2019) → 36,3% (2025) = -41% — sélection plus rigoureuse",
+    "Concentration sectorielle modérée: Top 4 secteurs = 51,6% des startups (Business Software domine à 23%)",
+    "Pic de création en 2020 (214 startups) puis déclin de -93% en 2025 — effet COVID + essoufflement",
+    "Taux de retrait des labels: 10,4% (190 retraits sur 1824) — taux modéré",
+    "Baisse de la part des femmes fondatrices: 35% (2019) → 21% (2021) — tendance préoccupante",
+    "Concentration géographique: 48% des startups dans le Grand Tunis — déséquilibre régional",
+    "Saisonnalité: décembre (102) et mai (98) sont les mois les plus actifs, juillet (45) le moins actif",
+    "Investissement 2021: 157M USD mais 100M USD = 1 deal (Instadeep) — dépendance à un champion"
+  ];
+  document.getElementById('insightsContainer').innerHTML = insights.map(i => `
+    <div class="insight-card"><div class="title">🔍 Insight</div><p>${i}</p></div>
+  `).join('');
+}
+
+function renderInsightCharts() {
+  const y = DATA.dashboard.yearly;
+  makeChart('chartInsightTaux', 'line', {
+    labels: y.map(y => y.year),
+    datasets: [{ label: "Taux d'acceptation (%)", data: y.map(y => parseFloat(y.tauxAcceptation)), borderColor: '#e94560', tension: 0.4, fill: true, backgroundColor: 'rgba(233,69,96,0.1)' }]
+  }, { scales: { y: { min: 20, max: 70 } } });
+
+  makeChart('chartInsightPdf', 'doughnut', {
+    labels: ['Labels (85,4%)', 'Retraits (10,4%)', 'Conversions (4,2%)'],
+    datasets: [{ data: [85.4, 10.4, 4.2], backgroundColor: ['#16a34a', '#e94560', '#0f3460'] }]
+  }, { plugins: { legend: { position: 'bottom' } } });
+}
+
+// ===== EXPORT EXCEL =====
+function exportExcel(type) {
+  let data, headers, filename;
+  if (type === 'sessions') {
+    headers = ['Session', 'Candidatures', 'Labels', 'Pré-Labels', 'Taux %', 'Commentaires'];
+    data = DATA.dashboard.sessions.map(s => [s.session, s.candidatures, s.labels, s.preLabels, s.tauxAcceptation, s.commentaires || '']);
+    filename = 'sessions_labellisation.xlsx';
+  } else if (type === 'startups') {
+    headers = ['Nom', 'Secteur', 'Création', 'Label', 'Fondateurs'];
+    data = DATA.startups.map(s => [s.nom, s.secteur, s.anneeCreation, s.labelDate, s.founders || '']);
+    filename = 'startups.xlsx';
+  } else if (type === 'sectors') {
+    headers = ['Secteur', 'Startups', '%', 'Accumulé'];
+    const sectors = DATA.dashboard.database.sectors.sort((a, b) => b.count - a.count);
+    const total = sectors.reduce((s, s2) => s + s2.count, 0);
+    data = sectors.map((s, i) => {
+      const pct = (s.count / total * 100).toFixed(1);
+      const cumul = sectors.slice(0, i+1).reduce((sum, s2) => sum + s2.count, 0) / total * 100;
+      return [s.name, s.count, parseFloat(pct), parseFloat(cumul.toFixed(1))];
+    });
+    filename = 'secteurs.xlsx';
+  }
+  const ws = XLSX.utils.aoa_to_sheet([headers, ...data]);
+  const wb = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(wb, ws, 'Données');
+  XLSX.writeFile(wb, filename);
+}
+
+// ===== HELPERS =====
+function makeChart(id, type, data, extraOpts = {}) {
+  const canvas = document.getElementById(id);
+  if (!canvas) return;
+  Chart.getChart(canvas)?.destroy();
+  new Chart(canvas, {
+    type,
+    data,
+    options: { responsive: true, maintainAspectRatio: true, ...extraOpts }
+  });
+}
+
+init();
+</script>
+</body>
+</html>

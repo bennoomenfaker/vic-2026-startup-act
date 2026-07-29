@@ -1,0 +1,74 @@
+[
+  {
+    "year": 2019,
+    "candidatures": 311,
+    "labels": 192,
+    "preLabels": 59,
+    "nbSessions": 10,
+    "tauxAcceptation": "61.7",
+    "tauxEchec": "38.3"
+  },
+  {
+    "year": 2020,
+    "candidatures": 407,
+    "labels": 209,
+    "preLabels": 108,
+    "nbSessions": 12,
+    "tauxAcceptation": "51.4",
+    "tauxEchec": "48.6"
+  },
+  {
+    "year": 2021,
+    "candidatures": 478,
+    "labels": 243,
+    "preLabels": 103,
+    "nbSessions": 12,
+    "tauxAcceptation": "50.8",
+    "tauxEchec": "49.2"
+  },
+  {
+    "year": 2022,
+    "candidatures": 398,
+    "labels": 175,
+    "preLabels": 90,
+    "nbSessions": 12,
+    "tauxAcceptation": "44.0",
+    "tauxEchec": "56.0"
+  },
+  {
+    "year": 2023,
+    "candidatures": 395,
+    "labels": 165,
+    "preLabels": 79,
+    "nbSessions": 12,
+    "tauxAcceptation": "41.8",
+    "tauxEchec": "58.2"
+  },
+  {
+    "year": 2024,
+    "candidatures": 440,
+    "labels": 144,
+    "preLabels": 74,
+    "nbSessions": 12,
+    "tauxAcceptation": "32.7",
+    "tauxEchec": "67.3"
+  },
+  {
+    "year": 2025,
+    "candidatures": 421,
+    "labels": 153,
+    "preLabels": 87,
+    "nbSessions": 12,
+    "tauxAcceptation": "36.3",
+    "tauxEchec": "63.7"
+  },
+  {
+    "year": 2026,
+    "candidatures": 108,
+    "labels": 43,
+    "preLabels": 17,
+    "nbSessions": 3,
+    "tauxAcceptation": "39.8",
+    "tauxEchec": "60.2"
+  }
+]

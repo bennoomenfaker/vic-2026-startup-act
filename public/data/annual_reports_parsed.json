@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Rapport 2019-2020",
+    "year": "2019-2020",
+    "pages": 44,
+    "textLength": 46015,
+    "metrics": {
+      "candidatures": [
+        "416"
+      ],
+      "emplois": [
+        "4"
+      ],
+      "regions": [
+        "6"
+      ],
+      "secteurs": [
+        "6"
+      ],
+      "tableLines": [
+        "70%",
+        "668 kDT",
+        "1 000 - 2 000 DT",
+        "2 000 - 3 000 DT",
+        "3 000 - 4 000 DT",
+        "4 000 - 5 000 DT",
+        "35%",
+        "65%",
+        "80%",
+        "11%",
+        "2%",
+        "7%",
+        "1 517 DT",
+        "75.4% ",
+        "5.2%  ",
+        "10.5% ",
+        "2.0% ",
+        "2.0% ",
+        "1.2% ",
+        "3.7% "
+      ],
+      "sectors_found": [
+        "Fintech",
+        "HealthTech",
+        "EdTech",
+        "AgriTech",
+        "Greentech",
+        "GreenTech",
+        "AI",
+        "Marketplace",
+        "Mobility",
+        "TravelTech",
+        "Wellness",
+        "FoodTech"
+      ]
+    }
+  },
+  {
+    "name": "Rapport 2020",
+    "year": "2020",
+    "pages": 82,
+    "textLength": 71608,
+    "metrics": {
+      "candidatures": [
+        "718",
+        "3",
+        "124"
+      ],
+      "emplois": [
+        "000",
+        "412",
+        "64",
+        "5",
+        "3222"
+      ],
+      "secteurs": [
+        "51",
+        "5",
+        "4",
+        "76",
+        "16"
+      ],
+      "tableLines": [
+        "1 000 000 000 TND",
+        "plus de 50% de l‘e#ectif consolidé ",
+        "50%  de  l‘e#ectif  consolidé  basé ",
+        "75%50%20%",
+        "de 10 000 à 50 000 TND afin de survivre aux di!cultés causées par le confinement et l’arrêt ",
+        "kTND, réparti en  60% subvention ",
+        "&   40%   Avance   remboursable.",
+        "jusqu’à  200 kTND, en subvention.",
+        "jusqu’à    200   kTND,   réparti   en  ",
+        "60%   subvention   &   40%   Avance ",
+        "68.1% ",
+        "59% ",
+        "54.5% ",
+        "4.54% ",
+        "100% ",
+        "startups labellisées (31%) ont été créées en 2020",
+        "63%",
+        "30%  de  l’ensemble  des  startups  labellisées.",
+        "2,1 mTND",
+        "5,7 mTND"
+      ],
+      "sectors_found": [
+        "Fintech",
+        "HealthTech",
+        "EdTech",
+        "AgriTech",
+        "AI",
+        "IoT",
+        "E-Commerce",
+        "Marketplace",
+        "Deeptech",
+        "Mobility",
+        "TravelTech",
+        "FoodTech"
+      ]
+    }
+  },
+  {
+    "name": "Rapport 2021",
+    "year": "2021",
+    "pages": 159,
+    "textLength": 159996,
+    "metrics": {
+      "candidatures": [
+        "230",
+        "3"
+      ],
+      "emplois": [
+        "113"
+      ],
+      "investissements": [
+        "15700"
+      ],
+      "femmes": [
+        "21%"
+      ],
+      "secteurs": [
+        "2"
+      ],
+      "tableLines": [
+        "USD  de  valeur  d’ici  2030  et  c’est  probablement  ",
+        "un  tour  de  table  record  de  100M  USD  auprès  ",
+        "reçues  ;  soit  53%  des  Startups  contactées-  ",
+        "avec une marge d’erreur de 4%.  ",
+        "65%",
+        "45%",
+        "24%",
+        "240000000/1000000000 TND",
+        "Cet instrument qui s’élève à 30kTND est composé de 60% de subvention et 40% d’avance remboursable.",
+        "prépare et les soutient à lever des fonds plus importants supérieurs à 1MDT pour pouvoir réaliser avec ",
+        "Il  agit  comme  une  aide  à  la  préparation  à  l’investissement  et  accorde  entre  150k  et  200kTND.  Cet  ",
+        "instrument financier est mixte. Il est composé de 60% de subvention et de 40% d’avance remboursable.",
+        "200kTND.  DEAL  sera  octroyé  aux  nouveaux  programmes  répondant  à  des  critères  d’éligibilités  qui  ",
+        "17% SOUSSE",
+        "4% NABEUL",
+        "4% JENDOUBA",
+        "13% KAIROUAN",
+        "9% KASSERINE4% SFAX",
+        "48% GRAND TUNIS ",
+        "60%"
+      ],
+      "sectors_found": [
+        "Fintech",
+        "HealthTech",
+        "EdTech",
+        "AgriTech",
+        "Greentech",
+        "GreenTech",
+        "SaaS",
+        "AI",
+        "IoT",
+        "E-Commerce",
+        "Deeptech",
+        "Mobility",
+        "TravelTech"
+      ]
+    }
+  }
+]
