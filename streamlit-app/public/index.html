@@ -409,10 +409,15 @@ function renderDashboard() {
     datasets: [{ label: 'Labels', data: Object.values(monthAgg), borderColor: '#e94560', fill: true, backgroundColor: 'rgba(233,69,96,0.1)', tension: 0.4 }]
   });
 
-  const cy = d.database.byCreationYear;
+  const byLabelYear = {};
+  d.database.byLabelMonth.forEach(m => {
+    const year = m.month.split('/')[1];
+    byLabelYear[year] = (byLabelYear[year] || 0) + m.count;
+  });
+  const labelYears = Object.keys(byLabelYear).sort();
   makeChart('chartCreation', 'bar', {
-    labels: cy.map(y => y.year),
-    datasets: [{ label: 'Startups créées', data: cy.map(y => y.count), backgroundColor: '#0f3460' }]
+    labels: labelYears,
+    datasets: [{ label: 'Startups labellisées', data: labelYears.map(y => byLabelYear[y]), backgroundColor: '#0f3460' }]
   });
 }
 
@@ -857,7 +862,7 @@ function renderInsights() {
   const insights = (DATA.analysis.insights_cles || []).length > 0 ? DATA.analysis.insights_cles : [
     "Baisse continue du taux d'acceptation: 61,7% (2019) → 36,3% (2025) = -41% — sélection plus rigoureuse",
     "Concentration sectorielle modérée: Top 4 secteurs = 51,6% des startups (Business Software domine à 23%)",
-    "Pic de création en 2020 (214 startups) puis déclin de -93% en 2025 — effet COVID + essoufflement",
+    "Pic de labellisation en 2020 (214 startups) puis déclin progressif — effet COVID + essoufflement",
     "Taux de retrait des labels: 10,4% (190 retraits sur 1824) — taux modéré",
     "Baisse de la part des femmes fondatrices: 35% (2019) → 21% (2021) — tendance préoccupante",
     "Concentration géographique: 48% des startups dans le Grand Tunis — déséquilibre régional",
