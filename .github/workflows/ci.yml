@@ -1,0 +1,60 @@
+name: CI — Validate & Test
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate code & data
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Python syntax check
+        run: |
+          python -m py_compile streamlit-app/server.py scripts/validate_data.py
+
+      - name: Data integrity validation
+        run: python scripts/validate_data.py
+
+      - name: Node.js syntax check
+        run: node --check streamlit-app/server.js
+
+      - name: Inline JS syntax check
+        run: |
+          python -c "import re; html=open('streamlit-app/public/index.html').read(); m=re.search(r'<script>(.*)</script>', html, re.S); open('/tmp/app.js','w').write(m.group(1))"
+          node --check /tmp/app.js
+
+      - name: Static assets present
+        run: |
+          test -f streamlit-app/public/images/faker.jpeg
+          test -f streamlit-app/public/images/esen.jpeg
+          test -f streamlit-app/public/images/iscae.jpeg
+          test -f streamlit-app/public/images/atvic.jpeg
+
+      - name: JSON files parse
+        run: |
+          python - <<'EOF'
+          import json, glob
+          for f in glob.glob('public/data/*.json'):
+              json.load(open(f))
+          print('All JSON files parse OK')
+          EOF
