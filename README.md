@@ -9,7 +9,7 @@
 
 🔗 **Code source** : https://github.com/bennoomenfaker/vic-2026-startup-act
 ##
-🔗 **URL website** : https://veille-et-intelligence-competitive-esen.onrender.com
+🔗 **URL website** : https://vic-esen-iscae-2026-startup-act.onrender.com
 
 ---
 
