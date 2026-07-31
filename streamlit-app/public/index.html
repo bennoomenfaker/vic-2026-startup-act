@@ -146,6 +146,52 @@
     .btn-red:hover { background: #d63851; }
     .btn-outline { background: transparent; border: 2px solid #0f3460; color: #0f3460; }
     .btn-outline:hover { background: #0f3460; color: white; }
+    .about-grid { display: grid; grid-template-columns: 1fr 2fr; gap: 20px; margin-bottom: 24px; }
+    @media (max-width: 900px) { .about-grid { grid-template-columns: 1fr; } }
+    .profile-card { background: white; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); padding: 24px; text-align: center; }
+    .profile-card img { width: 140px; height: 140px; border-radius: 50%; object-fit: cover; border: 4px solid #e94560; box-shadow: 0 4px 12px rgba(233,69,96,0.25); }
+    .profile-card h2 { margin: 14px 0 4px; font-size: 1.25em; }
+    .profile-card .role { color: #e94560; font-size: 0.85em; font-weight: 600; }
+    .profile-links { margin-top: 16px; display: flex; flex-direction: column; gap: 8px; }
+    .profile-links a {
+      display: flex; align-items: center; justify-content: center; gap: 8px;
+      background: #f0f2f5; padding: 10px; border-radius: 8px; text-decoration: none;
+      color: #1a1a2e; font-size: 0.9em; transition: all 0.2s;
+    }
+    .profile-links a:hover { background: #e94560; color: white; }
+    .bio-card { background: white; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); padding: 24px; line-height: 1.7; }
+    .bio-card h3 { margin-bottom: 12px; color: #0f3460; font-size: 1.1em; }
+    .bio-card p { color: #444; font-size: 0.95em; margin-bottom: 12px; }
+    .bio-card ul { padding-left: 20px; margin-bottom: 12px; }
+    .bio-card li { font-size: 0.9em; margin: 6px 0; }
+    .academic { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+    .degree-card { background: white; border-radius: 12px; padding: 18px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); border-left: 4px solid #0f3460; }
+    .degree-card .d-title { font-weight: 700; font-size: 0.95em; color: #1a1a2e; }
+    .degree-card .d-school { font-size: 0.85em; color: #e94560; font-weight: 600; margin-top: 4px; }
+    .degree-card .d-year { font-size: 0.8em; color: #888; margin-top: 2px; }
+    .skill-group { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+    .skill-card { background: white; border-radius: 12px; padding: 18px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+    .skill-card h4 { color: #0f3460; font-size: 0.95em; margin-bottom: 10px; }
+    .skill-card .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+    .skill-card .chip { background: #f0f2f5; padding: 4px 10px; border-radius: 12px; font-size: 0.78em; color: #1a1a2e; }
+    .partner-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+    .partner-card {
+      background: white; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      padding: 20px; text-align: center; transition: all 0.2s; text-decoration: none; color: inherit; display: block;
+    }
+    .partner-card:hover { transform: translateY(-3px); box-shadow: 0 6px 18px rgba(0,0,0,0.12); }
+    .partner-card img { max-height: 64px; max-width: 100%; object-fit: contain; margin-bottom: 12px; }
+    .partner-card h4 { font-size: 0.95em; color: #1a1a2e; }
+    .partner-card .p-desc { font-size: 0.8em; color: #666; margin-top: 6px; line-height: 1.5; }
+    .partner-card .p-link { font-size: 0.78em; color: #e94560; margin-top: 8px; font-weight: 600; }
+    footer.site-footer {
+      max-width: 1400px; margin: 40px auto 20px; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+      color: #ccc; border-radius: 12px; padding: 20px 24px; font-size: 0.82em;
+      display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap;
+    }
+    footer.site-footer a { color: #e94560; text-decoration: none; }
+    footer.site-footer a:hover { text-decoration: underline; }
+    footer.site-footer .cr { color: #fff; font-weight: 600; }
     @media (max-width: 768px) {
       .chart-grid { grid-template-columns: 1fr; }
       .kpi-grid { grid-template-columns: repeat(2, 1fr); }
@@ -175,6 +221,7 @@
     <a href="#" data-page="corrections">Corrections</a>
     <a href="#" data-page="livrables">Livrables</a>
     <a href="#" data-page="insights">Insights</a>
+    <a href="#" data-page="about">À propos</a>
   </div>
 </nav>
 
@@ -393,7 +440,112 @@
       <div class="chart-card"><h3>Labels vs Retraits vs Conversions</h3><div class="chart-wrapper"><canvas id="chartInsightPdf"></canvas></div></div>
     </div>
   </section>
+
+  <!-- À PROPOS -->
+  <section id="page-about">
+    <div class="page-header">
+      <h1>À propos</h1>
+      <p>Créé par Faker BEN NOOMEN · Étudiant Master VIC — Veille &amp; Intelligence Compétitive</p>
+    </div>
+
+    <div class="about-grid">
+      <div class="profile-card">
+        <img src="images/faker.jpeg" alt="Faker BEN NOOMEN">
+        <h2>Faker BEN NOOMEN</h2>
+        <div class="role">Développeur Full-Stack &amp; Étudiant en Intelligence Stratégique &amp; Gestion de Projet</div>
+        <div class="profile-links">
+          <a href="https://github.com/bennoomenfaker" target="_blank" rel="noopener">💻 GitHub : github.com/bennoomenfaker</a>
+          <a href="https://linkedin.com/in/fakerbennoomen" target="_blank" rel="noopener">💼 LinkedIn : linkedin.com/in/fakerbennoomen</a>
+          <a href="mailto:fakerbennoomen@gmail.com">📧 Email : fakerbennoomen@gmail.com</a>
+        </div>
+      </div>
+
+      <div class="bio-card">
+        <h3>Présentation</h3>
+        <p>
+          Je m'appelle <strong>Faker BEN NOOMEN</strong>, étudiant tunisien passionné par la transformation digitale,
+          l'intelligence artificielle, la veille stratégique et le développement logiciel.
+        </p>
+        <p>
+          Je poursuis actuellement un <strong>Master Professionnel en Veille et Intelligence Compétitive (VIC)</strong>
+          à l'École Supérieure d'Économie Numérique (ESEN) de Manouba, une formation orientée vers l'intelligence
+          économique, la veille stratégique, la data, l'innovation et l'aide à la décision.
+        </p>
+        <p>Auparavant, j'ai obtenu :</p>
+        <ul>
+          <li><strong>Master Professionnel en Digitalisation des Services (DDS)</strong> — École Supérieure des Sciences Économiques et Commerciales de Tunis (ESSECT).</li>
+          <li><strong>Master 1 en Innovation et Gestion de Projet (IGP)</strong> — Institut Supérieur d'Informatique et de Multimédia de Sfax (ISIMS).</li>
+          <li><strong>Licence en Informatique de Gestion – spécialité E-Business</strong> — ESSECT.</li>
+        </ul>
+        <p>
+          Passionné par les nouvelles technologies, je développe des applications web modernes avec TypeScript, NestJS,
+          Next.js, React, Spring Boot, FastAPI, Streamlit, PostgreSQL, MongoDB, Docker et les technologies du cloud.
+        </p>
+      </div>
+    </div>
+
+    <div class="chart-card" style="margin-bottom:24px">
+      <h3>🎓 Parcours Académique</h3>
+      <div class="academic">
+        <div class="degree-card"><div class="d-title">Master Professionnel en Veille et Intelligence Compétitive (VIC)</div><div class="d-school">École Supérieure de l'Économie Numérique (ESEN Manouba)</div><div class="d-year">En cours</div></div>
+        <div class="degree-card"><div class="d-title">Master 1 — Innovation et Gestion de Projet (IGP / MP)</div><div class="d-school">Institut Supérieur de l'Informatique et du Multimédia de Sfax (ISIMS)</div></div>
+        <div class="degree-card"><div class="d-title">Master Professionnel en Digitalisation des Services (DDS)</div><div class="d-school">École Supérieure de Commerce de Tunis (ESSECT)</div></div>
+        <div class="degree-card"><div class="d-title">Licence en Informatique de Gestion — Spécialité E-Business</div><div class="d-school">École Supérieure de Commerce de Tunis (ESSECT)</div></div>
+      </div>
+    </div>
+
+    <div class="chart-card" style="margin-bottom:24px">
+      <h3>🛠️ Profil Technique &amp; Compétences Clés</h3>
+      <div class="skill-group">
+        <div class="skill-card">
+          <h4>Développement Web &amp; Mobile Full-Stack</h4>
+          <div class="chips"><span class="chip">Node.js</span><span class="chip">NestJS</span><span class="chip">Express.js</span><span class="chip">Spring Boot</span><span class="chip">REST APIs</span><span class="chip">GraphQL</span><span class="chip">ORM (Prisma)</span><span class="chip">React</span><span class="chip">Redux Toolkit</span><span class="chip">React Native</span><span class="chip">Expo</span><span class="chip">TypeScript</span><span class="chip">JavaScript</span><span class="chip">HTML5/CSS3</span></div>
+        </div>
+        <div class="skill-card">
+          <h4>Bases de données</h4>
+          <div class="chips"><span class="chip">MongoDB</span><span class="chip">PostgreSQL</span><span class="chip">MySQL</span><span class="chip">SQLite</span></div>
+        </div>
+        <div class="skill-card">
+          <h4>Systèmes &amp; DevOps</h4>
+          <div class="chips"><span class="chip">Linux (Ubuntu, Pop!_OS)</span><span class="chip">Docker</span><span class="chip">Docker Compose</span><span class="chip">Virtualisation KVM</span><span class="chip">FastAPI</span><span class="chip">Streamlit</span><span class="chip">Cloud</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="chart-card" style="margin-bottom:24px">
+      <h3>🤝 Partenaires &amp; Collaboration — Master VIC entre ESEN et ISCAE</h3>
+      <p style="font-size:0.88em;color:#666;margin-bottom:16px">Cette application s'inscrit dans le cadre du Master VIC (Veille &amp; Intelligence Compétitive), une collaboration entre l'ESEN et l'ISCAE, avec le soutien de l'association ATVIC.</p>
+      <div class="partner-grid">
+        <a class="partner-card" href="https://esen.rnu.tn/portail/" target="_blank" rel="noopener">
+          <img src="images/esen.jpeg" alt="ESEN Manouba">
+          <h4>ESEN Manouba</h4>
+          <div class="p-desc">École Supérieure d'Économie Numérique · Établissement public d'enseignement supérieur.</div>
+          <div class="p-link">esen.rnu.tn ↗</div>
+        </a>
+        <a class="partner-card" href="https://iscae.rnu.tn/fr" target="_blank" rel="noopener">
+          <img src="images/iscae.jpeg" alt="ISCAE">
+          <h4>ISCAE</h4>
+          <div class="p-desc">Institut Supérieur de Comptabilité et d'Administration des Entreprises · partenaire de la formation VIC.</div>
+          <div class="p-link">iscae.rnu.tn ↗</div>
+        </a>
+        <a class="partner-card" href="https://www.linkedin.com/company/association-tunisienne-de-veille-et-d-intelligence-comp%C3%A9titive-atvic" target="_blank" rel="noopener">
+          <img src="images/atvic.jpeg" alt="ATVIC">
+          <h4>ATVIC</h4>
+          <div class="p-desc">Association Tunisienne de Veille et d'Intelligence Compétitive — association à but non lucratif (90 abonnés · 2-10 employés).</div>
+          <div class="p-link">LinkedIn ↗</div>
+        </a>
+      </div>
+    </div>
+  </section>
 </main>
+
+<footer class="site-footer">
+  <div class="cr">© 2026 Faker BEN NOOMEN — Étudiant Master VIC (Veille &amp; Intelligence Compétitive)</div>
+  <div style="text-align:right">
+    Collaboration <a href="https://esen.rnu.tn/portail/" target="_blank" rel="noopener">ESEN</a> × <a href="https://iscae.rnu.tn/fr" target="_blank" rel="noopener">ISCAE</a> · <a href="https://www.linkedin.com/company/association-tunisienne-de-veille-et-d-intelligence-comp%C3%A9titive-atvic" target="_blank" rel="noopener">ATVIC</a><br>
+    Données : <a href="https://startup.gov.tn" target="_blank" rel="noopener">startup.gov.tn</a> + PDF officiels
+  </div>
+</footer>
 
 <script>
 const DATA = {};
