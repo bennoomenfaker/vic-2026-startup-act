@@ -36,6 +36,10 @@ class Handler(http.server.SimpleHTTPRequestHandler):
                 self._send_json(p)
             else:
                 self._send_json(None, status=404)
+        elif path == '/api/corrections':
+            self._send_json(os.path.join(DATA, 'corrections.json'))
+        elif path == '/api/corrections-md':
+            self._send_doc_file('corrections.md')
         elif path == '/api/session-pdfs':
             pdf_dir = os.path.join(DATA, 'session-pdfs')
             files = sorted([f for f in os.listdir(pdf_dir) if f.endswith('.pdf')])
@@ -83,6 +87,15 @@ class Handler(http.server.SimpleHTTPRequestHandler):
                 self.wfile.write(f.read().encode())
         else:
             self.wfile.write(b'{}')
+
+    def _send_doc_file(self, filename):
+        filepath = os.path.join(BASE, '..', filename)
+        if os.path.exists(filepath):
+            with open(filepath) as f:
+                content = f.read()
+            self._send_json(None, data={'filename': filename, 'content': content})
+        else:
+            self._send_json(None, status=404, data={'error': 'not found'})
 
     def _serve_static(self, filepath):
         ext = os.path.splitext(filepath)[1]

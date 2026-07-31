@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-07-25T09:33:27.824Z",
+    "lastUpdated": "2026-07-31T13:00:00Z",
     "sources": [
       {
         "name": "Résultats labellisation",
@@ -42,7 +42,9 @@
       "tauxAcceptation": "31.7",
       "tauxEchec": "68.3",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2026_03.pdf",
-      "pdfFilename": "session_2026_03.pdf"
+      "pdfFilename": "session_2026_03.pdf",
+      "tauxAcceptationExact": 31.70731707317073,
+      "tauxEchecExact": 68.292683
     },
     {
       "session": "02/2026",
@@ -54,9 +56,11 @@
       "commentaires": "10 Labels et 11 Prélabels à Labels",
       "pdfUrl": "https://startup.gov.tn/sites/default/files/2026-05/02-Liste%20Startups%20Labellis%C3%A9es%20Session%20F%C3%A9vrier%202026%20-%20Compte%20Rendu%20Final_0.pdf",
       "tauxAcceptation": "55.6",
-      "tauxEchec": "41.7",
+      "tauxEchec": "44.4",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2026_02.pdf",
-      "pdfFilename": "session_2026_02.pdf"
+      "pdfFilename": "session_2026_02.pdf",
+      "tauxAcceptationExact": 55.55555555555556,
+      "tauxEchecExact": 44.444444
     },
     {
       "session": "01/2026",
@@ -68,9 +72,11 @@
       "commentaires": "03 Labels et 06 Prélabels à Labels",
       "pdfUrl": "https://startup.gov.tn/sites/default/files/2026-05/01-Liste%20Startups%20Labellis%C3%A9es%20Session%20Janvier%202026%20-%20Compte%20Rendu%20Final_0.pdf",
       "tauxAcceptation": "32.3",
-      "tauxEchec": "71.0",
+      "tauxEchec": "67.7",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2026_01.pdf",
-      "pdfFilename": "session_2026_01.pdf"
+      "pdfFilename": "session_2026_01.pdf",
+      "tauxAcceptationExact": 32.25806451612903,
+      "tauxEchecExact": 67.741935
     },
     {
       "session": "12/2025",
@@ -82,9 +88,11 @@
       "commentaires": "05 Labels et 10 Prélabels à Labels",
       "pdfUrl": "https://startup.gov.tn/sites/default/files/2026-05/12-Liste%20Startups%20Labellis%C3%A9es%20Session%20D%C3%A9cembre%202025%20-%20Compte%20Rendu%20Final_0.pdf",
       "tauxAcceptation": "39.0",
-      "tauxEchec": "63.4",
+      "tauxEchec": "61.0",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2025_12.pdf",
-      "pdfFilename": "session_2025_12.pdf"
+      "pdfFilename": "session_2025_12.pdf",
+      "tauxAcceptationExact": 39.02439024390244,
+      "tauxEchecExact": 60.97561
     },
     {
       "session": "11/2025",
@@ -98,10 +106,12 @@
       "tauxAcceptation": "38.5",
       "tauxEchec": "61.5",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2025_11.pdf",
-      "pdfFilename": "session_2025_11.pdf"
+      "pdfFilename": "session_2025_11.pdf",
+      "tauxAcceptationExact": 38.46153846153847,
+      "tauxEchecExact": 61.538462
     },
     {
-      "session": "10/25",
+      "session": "10/2025",
       "month": 10,
       "year": 2025,
       "candidatures": 41,
@@ -112,7 +122,9 @@
       "tauxAcceptation": "41.5",
       "tauxEchec": "58.5",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2025_10.pdf",
-      "pdfFilename": "session_2025_10.pdf"
+      "pdfFilename": "session_2025_10.pdf",
+      "tauxAcceptationExact": 41.46341463414634,
+      "tauxEchecExact": 58.536585
     },
     {
       "session": "09/2025",
@@ -126,7 +138,9 @@
       "tauxAcceptation": "28.0",
       "tauxEchec": "72.0",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2025_09.pdf",
-      "pdfFilename": "session_2025_09.pdf"
+      "pdfFilename": "session_2025_09.pdf",
+      "tauxAcceptationExact": 28.000000000000004,
+      "tauxEchecExact": 72.0
     },
     {
       "session": "08/2025",
@@ -140,7 +154,9 @@
       "tauxAcceptation": "36.6",
       "tauxEchec": "63.4",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2025_08.pdf",
-      "pdfFilename": "session_2025_08.pdf"
+      "pdfFilename": "session_2025_08.pdf",
+      "tauxAcceptationExact": 36.58536585365854,
+      "tauxEchecExact": 63.414634
     },
     {
       "session": "07/2025",
@@ -154,7 +170,9 @@
       "tauxAcceptation": "31.0",
       "tauxEchec": "69.0",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2025_07.pdf",
-      "pdfFilename": "session_2025_07.pdf"
+      "pdfFilename": "session_2025_07.pdf",
+      "tauxAcceptationExact": 31.03448275862069,
+      "tauxEchecExact": 68.965517
     },
     {
       "session": "06/2025",
@@ -168,7 +186,9 @@
       "tauxAcceptation": "33.3",
       "tauxEchec": "66.7",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2025_06.pdf",
-      "pdfFilename": "session_2025_06.pdf"
+      "pdfFilename": "session_2025_06.pdf",
+      "tauxAcceptationExact": 33.33333333333333,
+      "tauxEchecExact": 66.666667
     },
     {
       "session": "05/2025",
@@ -182,7 +202,9 @@
       "tauxAcceptation": "27.7",
       "tauxEchec": "72.3",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2025_05.pdf",
-      "pdfFilename": "session_2025_05.pdf"
+      "pdfFilename": "session_2025_05.pdf",
+      "tauxAcceptationExact": 27.659574468085108,
+      "tauxEchecExact": 72.340426
     },
     {
       "session": "04/2025",
@@ -196,7 +218,9 @@
       "tauxAcceptation": "61.9",
       "tauxEchec": "38.1",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2025_04.pdf",
-      "pdfFilename": "session_2025_04.pdf"
+      "pdfFilename": "session_2025_04.pdf",
+      "tauxAcceptationExact": 61.904761904761905,
+      "tauxEchecExact": 38.095238
     },
     {
       "session": "03/2025",
@@ -210,7 +234,9 @@
       "tauxAcceptation": "28.6",
       "tauxEchec": "71.4",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2025_03.pdf",
-      "pdfFilename": "session_2025_03.pdf"
+      "pdfFilename": "session_2025_03.pdf",
+      "tauxAcceptationExact": 28.57142857142857,
+      "tauxEchecExact": 71.428571
     },
     {
       "session": "02/2025",
@@ -224,7 +250,9 @@
       "tauxAcceptation": "31.7",
       "tauxEchec": "68.3",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2025_02.pdf",
-      "pdfFilename": "session_2025_02.pdf"
+      "pdfFilename": "session_2025_02.pdf",
+      "tauxAcceptationExact": 31.70731707317073,
+      "tauxEchecExact": 68.292683
     },
     {
       "session": "01/2025",
@@ -236,9 +264,11 @@
       "commentaires": "13 Labels et 05 Prélabels à Labels",
       "pdfUrl": "https://startup.gov.tn/sites/default/files/2025-02/01-Liste%20Startups%20Labellis%C3%A9es%20Session%20Janvier%202025%20-%20Compte%20Rendu.pdf",
       "tauxAcceptation": "33.3",
-      "tauxEchec": "53.8",
+      "tauxEchec": "66.7",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2025_01.pdf",
-      "pdfFilename": "session_2025_01.pdf"
+      "pdfFilename": "session_2025_01.pdf",
+      "tauxAcceptationExact": 33.33333333333333,
+      "tauxEchecExact": 66.666667
     },
     {
       "session": "12/2024",
@@ -252,7 +282,9 @@
       "tauxAcceptation": "40.0",
       "tauxEchec": "60.0",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2024_12.pdf",
-      "pdfFilename": "session_2024_12.pdf"
+      "pdfFilename": "session_2024_12.pdf",
+      "tauxAcceptationExact": 40.0,
+      "tauxEchecExact": 60.0
     },
     {
       "session": "11/2024",
@@ -266,7 +298,9 @@
       "tauxAcceptation": "34.1",
       "tauxEchec": "65.9",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2024_11.pdf",
-      "pdfFilename": "session_2024_11.pdf"
+      "pdfFilename": "session_2024_11.pdf",
+      "tauxAcceptationExact": 34.146341463414636,
+      "tauxEchecExact": 65.853659
     },
     {
       "session": "10/2024",
@@ -280,7 +314,9 @@
       "tauxAcceptation": "34.9",
       "tauxEchec": "65.1",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2024_10.pdf",
-      "pdfFilename": "session_2024_10.pdf"
+      "pdfFilename": "session_2024_10.pdf",
+      "tauxAcceptationExact": 34.883720930232556,
+      "tauxEchecExact": 65.116279
     },
     {
       "session": "09/2024",
@@ -294,7 +330,9 @@
       "tauxAcceptation": "32.4",
       "tauxEchec": "67.6",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2024_09.pdf",
-      "pdfFilename": "session_2024_09.pdf"
+      "pdfFilename": "session_2024_09.pdf",
+      "tauxAcceptationExact": 32.35294117647059,
+      "tauxEchecExact": 67.647059
     },
     {
       "session": "08/2024",
@@ -308,7 +346,9 @@
       "tauxAcceptation": "29.7",
       "tauxEchec": "70.3",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2024_08.pdf",
-      "pdfFilename": "session_2024_08.pdf"
+      "pdfFilename": "session_2024_08.pdf",
+      "tauxAcceptationExact": 29.72972972972973,
+      "tauxEchecExact": 70.27027
     },
     {
       "session": "07/2024",
@@ -320,9 +360,11 @@
       "commentaires": "05 Labels et 2 Prélabel à Label",
       "pdfUrl": "https://startup.gov.tn/sites/default/files/2024-10/07-Liste%20Startups%20Labellis%C3%A9es%20Session%20Juillet%202024%20-%20Compte%20Rendu.pdf",
       "tauxAcceptation": "18.2",
-      "tauxEchec": "84.8",
+      "tauxEchec": "81.8",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2024_07.pdf",
-      "pdfFilename": "session_2024_07.pdf"
+      "pdfFilename": "session_2024_07.pdf",
+      "tauxAcceptationExact": 18.181818181818183,
+      "tauxEchecExact": 81.818182
     },
     {
       "session": "06/2024",
@@ -336,7 +378,9 @@
       "tauxAcceptation": "37.8",
       "tauxEchec": "62.2",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2024_06.pdf",
-      "pdfFilename": "session_2024_06.pdf"
+      "pdfFilename": "session_2024_06.pdf",
+      "tauxAcceptationExact": 37.83783783783784,
+      "tauxEchecExact": 62.162162
     },
     {
       "session": "05/2024",
@@ -350,7 +394,9 @@
       "tauxAcceptation": "35.9",
       "tauxEchec": "64.1",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2024_05.pdf",
-      "pdfFilename": "session_2024_05.pdf"
+      "pdfFilename": "session_2024_05.pdf",
+      "tauxAcceptationExact": 35.8974358974359,
+      "tauxEchecExact": 64.102564
     },
     {
       "session": "04/2024",
@@ -364,7 +410,9 @@
       "tauxAcceptation": "35.9",
       "tauxEchec": "64.1",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2024_04.pdf",
-      "pdfFilename": "session_2024_04.pdf"
+      "pdfFilename": "session_2024_04.pdf",
+      "tauxAcceptationExact": 35.8974358974359,
+      "tauxEchecExact": 64.102564
     },
     {
       "session": "03/2024",
@@ -376,9 +424,11 @@
       "commentaires": "3 Labels et 4 Prélabel à Label",
       "pdfUrl": "https://startup.gov.tn/sites/default/files/2024-04/03-Liste%20Startups%20Labellis%C3%A9es%20Session%20Mars%202024%20-%20Compte%20Rendu%20%281%29.pdf",
       "tauxAcceptation": "19.4",
-      "tauxEchec": "77.4",
+      "tauxEchec": "80.6",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2024_03.pdf",
-      "pdfFilename": "session_2024_03.pdf"
+      "pdfFilename": "session_2024_03.pdf",
+      "tauxAcceptationExact": 19.35483870967742,
+      "tauxEchecExact": 80.645161
     },
     {
       "session": "02/2024",
@@ -392,7 +442,9 @@
       "tauxAcceptation": "27.3",
       "tauxEchec": "72.7",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2024_02.pdf",
-      "pdfFilename": "session_2024_02.pdf"
+      "pdfFilename": "session_2024_02.pdf",
+      "tauxAcceptationExact": 27.27272727272727,
+      "tauxEchecExact": 72.727273
     },
     {
       "session": "01/2024",
@@ -406,7 +458,9 @@
       "tauxAcceptation": "42.4",
       "tauxEchec": "57.6",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2024_01.pdf",
-      "pdfFilename": "session_2024_01.pdf"
+      "pdfFilename": "session_2024_01.pdf",
+      "tauxAcceptationExact": 42.42424242424242,
+      "tauxEchecExact": 57.575758
     },
     {
       "session": "12/2023",
@@ -415,12 +469,14 @@
       "candidatures": 39,
       "labels": 12,
       "preLabels": 5,
-      "commentaires": "9 Labels et 5 Prélabel à Label",
+      "commentaires": "7 Labels et 5 Prélabel à Label",
       "pdfUrl": "https://startup.gov.tn/sites/default/files/2024-02/Compte-rendu%20des%20sessions%20de%20Label%20-%202023%20-%20D%C3%A9cembre%202023.pdf",
       "tauxAcceptation": "30.8",
-      "tauxEchec": "64.1",
+      "tauxEchec": "69.2",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2023_12.pdf",
-      "pdfFilename": "session_2023_12.pdf"
+      "pdfFilename": "session_2023_12.pdf",
+      "tauxAcceptationExact": 30.76923076923077,
+      "tauxEchecExact": 69.230769
     },
     {
       "session": "11/2023",
@@ -432,9 +488,11 @@
       "commentaires": "6 Labels et 8 Prélabel à Label",
       "pdfUrl": "https://startup.gov.tn/sites/default/files/2023-12/Compte-rendu%20des%20sessions%20de%20Label%20-%202023%20-%20Novembre%202023.pdf",
       "tauxAcceptation": "40.0",
-      "tauxEchec": "53.3",
+      "tauxEchec": "60.0",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2023_11.pdf",
-      "pdfFilename": "session_2023_11.pdf"
+      "pdfFilename": "session_2023_11.pdf",
+      "tauxAcceptationExact": 40.0,
+      "tauxEchecExact": 60.0
     },
     {
       "session": "10/2023",
@@ -448,7 +506,9 @@
       "tauxAcceptation": "19.4",
       "tauxEchec": "80.6",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2023_10.pdf",
-      "pdfFilename": "session_2023_10.pdf"
+      "pdfFilename": "session_2023_10.pdf",
+      "tauxAcceptationExact": 19.35483870967742,
+      "tauxEchecExact": 80.645161
     },
     {
       "session": "09/2023",
@@ -462,7 +522,9 @@
       "tauxAcceptation": "45.5",
       "tauxEchec": "54.5",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2023_09.pdf",
-      "pdfFilename": "session_2023_09.pdf"
+      "pdfFilename": "session_2023_09.pdf",
+      "tauxAcceptationExact": 45.45454545454545,
+      "tauxEchecExact": 54.545455
     },
     {
       "session": "08/2023",
@@ -476,7 +538,9 @@
       "tauxAcceptation": "42.3",
       "tauxEchec": "57.7",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2023_08.pdf",
-      "pdfFilename": "session_2023_08.pdf"
+      "pdfFilename": "session_2023_08.pdf",
+      "tauxAcceptationExact": 42.30769230769231,
+      "tauxEchecExact": 57.692308
     },
     {
       "session": "07/2023",
@@ -490,7 +554,9 @@
       "tauxAcceptation": "45.5",
       "tauxEchec": "54.5",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2023_07.pdf",
-      "pdfFilename": "session_2023_07.pdf"
+      "pdfFilename": "session_2023_07.pdf",
+      "tauxAcceptationExact": 45.45454545454545,
+      "tauxEchecExact": 54.545455
     },
     {
       "session": "06/2023",
@@ -504,7 +570,9 @@
       "tauxAcceptation": "35.7",
       "tauxEchec": "64.3",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2023_06.pdf",
-      "pdfFilename": "session_2023_06.pdf"
+      "pdfFilename": "session_2023_06.pdf",
+      "tauxAcceptationExact": 35.714285714285715,
+      "tauxEchecExact": 64.285714
     },
     {
       "session": "05/2023",
@@ -518,7 +586,9 @@
       "tauxAcceptation": "48.7",
       "tauxEchec": "51.3",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2023_05.pdf",
-      "pdfFilename": "session_2023_05.pdf"
+      "pdfFilename": "session_2023_05.pdf",
+      "tauxAcceptationExact": 48.717948717948715,
+      "tauxEchecExact": 51.282051
     },
     {
       "session": "04/2023",
@@ -530,9 +600,11 @@
       "commentaires": "10 Labels et 4  Prélabels à Labels",
       "pdfUrl": "https://startup.gov.tn/sites/default/files/2023-07/Compte-rendu%20des%20sessions%20de%20Label%20-%202023%20-%20Avril%202023.pdf",
       "tauxAcceptation": "32.5",
-      "tauxEchec": "65.0",
+      "tauxEchec": "67.5",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2023_04.pdf",
-      "pdfFilename": "session_2023_04.pdf"
+      "pdfFilename": "session_2023_04.pdf",
+      "tauxAcceptationExact": 32.5,
+      "tauxEchecExact": 67.5
     },
     {
       "session": "03/2023",
@@ -544,23 +616,27 @@
       "commentaires": "8 Labels et 5 Prélabels à Labels",
       "pdfUrl": "https://startup.gov.tn/sites/default/files/2023-06/Compte-rendu%20des%20sessions%20de%20Label%20-%202023%20-%20Mars%202023%20%282%29.pdf",
       "tauxAcceptation": "37.8",
-      "tauxEchec": "64.9",
+      "tauxEchec": "62.2",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2023_03.pdf",
-      "pdfFilename": "session_2023_03.pdf"
+      "pdfFilename": "session_2023_03.pdf",
+      "tauxAcceptationExact": 37.83783783783784,
+      "tauxEchecExact": 62.162162
     },
     {
       "session": "02/2023",
       "month": 2,
       "year": 2023,
       "candidatures": 33,
-      "labels": 25,
-      "preLabels": 17,
+      "labels": 18,
+      "preLabels": 11,
       "commentaires": "7 Labels et 11 Prélabels à Labels",
       "pdfUrl": "https://startup.gov.tn/sites/default/files/2023-03/F%C3%A9vrier%20Compte-rendu%20des%20sessions%20de%20Label%20-%202023%20-%20Google%C2%A0Sheets.pdf",
-      "tauxAcceptation": "75.8",
+      "tauxAcceptation": "54.5",
       "tauxEchec": "45.5",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2023_02.pdf",
-      "pdfFilename": "session_2023_02.pdf"
+      "pdfFilename": "session_2023_02.pdf",
+      "tauxAcceptationExact": 54.54545454545454,
+      "tauxEchecExact": 45.454545
     },
     {
       "session": "01/2023",
@@ -574,7 +650,9 @@
       "tauxAcceptation": "61.5",
       "tauxEchec": "38.5",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2023_01.pdf",
-      "pdfFilename": "session_2023_01.pdf"
+      "pdfFilename": "session_2023_01.pdf",
+      "tauxAcceptationExact": 61.53846153846154,
+      "tauxEchecExact": 38.461538
     },
     {
       "session": "12/2022",
@@ -586,9 +664,11 @@
       "commentaires": "07 Labels et 10 Prélabel à Label",
       "pdfUrl": "https://startup.gov.tn/sites/default/files/2024-11/Compte-rendu%20des%20sessions%20de%20Label%20-%202022%20-%20D%C3%A9cembre%202022.pdf",
       "tauxAcceptation": "53.3",
-      "tauxEchec": "43.3",
+      "tauxEchec": "46.7",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2022_12.pdf",
-      "pdfFilename": "session_2022_12.pdf"
+      "pdfFilename": "session_2022_12.pdf",
+      "tauxAcceptationExact": 53.333333333333336,
+      "tauxEchecExact": 46.666667
     },
     {
       "session": "11/2022",
@@ -602,7 +682,9 @@
       "tauxAcceptation": "50.0",
       "tauxEchec": "50.0",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2022_11.pdf",
-      "pdfFilename": "session_2022_11.pdf"
+      "pdfFilename": "session_2022_11.pdf",
+      "tauxAcceptationExact": 50.0,
+      "tauxEchecExact": 50.0
     },
     {
       "session": "10/2022",
@@ -616,7 +698,9 @@
       "tauxAcceptation": "36.8",
       "tauxEchec": "63.2",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2022_10.pdf",
-      "pdfFilename": "session_2022_10.pdf"
+      "pdfFilename": "session_2022_10.pdf",
+      "tauxAcceptationExact": 36.84210526315789,
+      "tauxEchecExact": 63.157895
     },
     {
       "session": "09/2022",
@@ -630,7 +714,9 @@
       "tauxAcceptation": "47.5",
       "tauxEchec": "52.5",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2022_09.pdf",
-      "pdfFilename": "session_2022_09.pdf"
+      "pdfFilename": "session_2022_09.pdf",
+      "tauxAcceptationExact": 47.5,
+      "tauxEchecExact": 52.5
     },
     {
       "session": "08/2022",
@@ -644,21 +730,25 @@
       "tauxAcceptation": "33.3",
       "tauxEchec": "66.7",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2022_08.pdf",
-      "pdfFilename": "session_2022_08.pdf"
+      "pdfFilename": "session_2022_08.pdf",
+      "tauxAcceptationExact": 33.33333333333333,
+      "tauxEchecExact": 66.666667
     },
     {
       "session": "07/2022",
       "month": 7,
       "year": 2022,
       "candidatures": 40,
-      "labels": 19,
-      "preLabels": 13,
+      "labels": 18,
+      "preLabels": 9,
       "commentaires": "14 Labels et 4 Prélabels à Labels",
       "pdfUrl": "https://startup.gov.tn/sites/default/files/2022-08/Compte-rendu%20des%20sessions%20de%20Label%20-%202022%20-%20Juillet%202022.pdf",
-      "tauxAcceptation": "47.5",
+      "tauxAcceptation": "45.0",
       "tauxEchec": "55.0",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2022_07.pdf",
-      "pdfFilename": "session_2022_07.pdf"
+      "pdfFilename": "session_2022_07.pdf",
+      "tauxAcceptationExact": 45.0,
+      "tauxEchecExact": 55.0
     },
     {
       "session": "06/2022",
@@ -672,7 +762,9 @@
       "tauxAcceptation": "35.0",
       "tauxEchec": "65.0",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2022_06.pdf",
-      "pdfFilename": "session_2022_06.pdf"
+      "pdfFilename": "session_2022_06.pdf",
+      "tauxAcceptationExact": 35.0,
+      "tauxEchecExact": 65.0
     },
     {
       "session": "05/2022",
@@ -686,7 +778,9 @@
       "tauxAcceptation": "34.1",
       "tauxEchec": "65.9",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2022_05.pdf",
-      "pdfFilename": "session_2022_05.pdf"
+      "pdfFilename": "session_2022_05.pdf",
+      "tauxAcceptationExact": 34.146341463414636,
+      "tauxEchecExact": 65.853659
     },
     {
       "session": "04/2022",
@@ -700,7 +794,9 @@
       "tauxAcceptation": "40.9",
       "tauxEchec": "59.1",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2022_04.pdf",
-      "pdfFilename": "session_2022_04.pdf"
+      "pdfFilename": "session_2022_04.pdf",
+      "tauxAcceptationExact": 40.909090909090914,
+      "tauxEchecExact": 59.090909
     },
     {
       "session": "03/2022",
@@ -714,7 +810,9 @@
       "tauxAcceptation": "66.7",
       "tauxEchec": "33.3",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2022_03.pdf",
-      "pdfFilename": "session_2022_03.pdf"
+      "pdfFilename": "session_2022_03.pdf",
+      "tauxAcceptationExact": 66.66666666666666,
+      "tauxEchecExact": 33.333333
     },
     {
       "session": "02/2022",
@@ -728,7 +826,9 @@
       "tauxAcceptation": "66.7",
       "tauxEchec": "33.3",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2022_02.pdf",
-      "pdfFilename": "session_2022_02.pdf"
+      "pdfFilename": "session_2022_02.pdf",
+      "tauxAcceptationExact": 66.66666666666666,
+      "tauxEchecExact": 33.333333
     },
     {
       "session": "01/2022",
@@ -742,7 +842,9 @@
       "tauxAcceptation": "39.5",
       "tauxEchec": "60.5",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2022_01.pdf",
-      "pdfFilename": "session_2022_01.pdf"
+      "pdfFilename": "session_2022_01.pdf",
+      "tauxAcceptationExact": 39.473684210526315,
+      "tauxEchecExact": 60.526316
     },
     {
       "session": "12/2021",
@@ -756,7 +858,9 @@
       "tauxAcceptation": "52.6",
       "tauxEchec": "47.4",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2021_12.pdf",
-      "pdfFilename": "session_2021_12.pdf"
+      "pdfFilename": "session_2021_12.pdf",
+      "tauxAcceptationExact": 52.63157894736842,
+      "tauxEchecExact": 47.368421
     },
     {
       "session": "11/2021",
@@ -770,7 +874,9 @@
       "tauxAcceptation": "47.5",
       "tauxEchec": "52.5",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2021_11.pdf",
-      "pdfFilename": "session_2021_11.pdf"
+      "pdfFilename": "session_2021_11.pdf",
+      "tauxAcceptationExact": 47.5,
+      "tauxEchecExact": 52.5
     },
     {
       "session": "10/2021",
@@ -784,7 +890,9 @@
       "tauxAcceptation": "56.1",
       "tauxEchec": "43.9",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2021_10.pdf",
-      "pdfFilename": "session_2021_10.pdf"
+      "pdfFilename": "session_2021_10.pdf",
+      "tauxAcceptationExact": 56.09756097560976,
+      "tauxEchecExact": 43.902439
     },
     {
       "session": "09/2021",
@@ -796,23 +904,27 @@
       "commentaires": "2 Labels et 13 Prelabels à Labels",
       "pdfUrl": "https://startup.gov.tn/sites/default/files/2021-11/Compte-rendu-des-sessions-de-Label-Septembre-2021.pdf",
       "tauxAcceptation": "100.0",
-      "tauxEchec": "13.3",
+      "tauxEchec": "0.0",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2021_09.pdf",
-      "pdfFilename": "session_2021_09.pdf"
+      "pdfFilename": "session_2021_09.pdf",
+      "tauxAcceptationExact": 100.0,
+      "tauxEchecExact": 0.0
     },
     {
       "session": "08/2021",
       "month": 8,
       "year": 2021,
       "candidatures": 25,
-      "labels": 16,
+      "labels": 13,
       "preLabels": 4,
       "commentaires": "6 Labels et 7 Prelabels à Labels",
       "pdfUrl": "https://startup.gov.tn/sites/default/files/2021-11/Compte-rendu-des-sessions-de-Label-2021-Aout-2021.pdf",
-      "tauxAcceptation": "64.0",
+      "tauxAcceptation": "52.0",
       "tauxEchec": "48.0",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2021_08.pdf",
-      "pdfFilename": "session_2021_08.pdf"
+      "pdfFilename": "session_2021_08.pdf",
+      "tauxAcceptationExact": 52.0,
+      "tauxEchecExact": 48.0
     },
     {
       "session": "07/2021",
@@ -826,7 +938,9 @@
       "tauxAcceptation": "55.0",
       "tauxEchec": "45.0",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2021_07.pdf",
-      "pdfFilename": "session_2021_07.pdf"
+      "pdfFilename": "session_2021_07.pdf",
+      "tauxAcceptationExact": 55.00000000000001,
+      "tauxEchecExact": 45.0
     },
     {
       "session": "06/2021",
@@ -840,7 +954,9 @@
       "tauxAcceptation": "43.9",
       "tauxEchec": "56.1",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2021_06.pdf",
-      "pdfFilename": "session_2021_06.pdf"
+      "pdfFilename": "session_2021_06.pdf",
+      "tauxAcceptationExact": 43.90243902439025,
+      "tauxEchecExact": 56.097561
     },
     {
       "session": "05/2021",
@@ -854,7 +970,9 @@
       "tauxAcceptation": "47.5",
       "tauxEchec": "52.5",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2021_05.pdf",
-      "pdfFilename": "session_2021_05.pdf"
+      "pdfFilename": "session_2021_05.pdf",
+      "tauxAcceptationExact": 47.5,
+      "tauxEchecExact": 52.5
     },
     {
       "session": "04/2021",
@@ -868,7 +986,9 @@
       "tauxAcceptation": "27.5",
       "tauxEchec": "72.5",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2021_04.pdf",
-      "pdfFilename": "session_2021_04.pdf"
+      "pdfFilename": "session_2021_04.pdf",
+      "tauxAcceptationExact": 27.500000000000004,
+      "tauxEchecExact": 72.5
     },
     {
       "session": "03/2021",
@@ -882,7 +1002,9 @@
       "tauxAcceptation": "61.0",
       "tauxEchec": "39.0",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2021_03.pdf",
-      "pdfFilename": "session_2021_03.pdf"
+      "pdfFilename": "session_2021_03.pdf",
+      "tauxAcceptationExact": 60.97560975609756,
+      "tauxEchecExact": 39.02439
     },
     {
       "session": "02/2021",
@@ -896,7 +1018,9 @@
       "tauxAcceptation": "61.0",
       "tauxEchec": "39.0",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2021_02.pdf",
-      "pdfFilename": "session_2021_02.pdf"
+      "pdfFilename": "session_2021_02.pdf",
+      "tauxAcceptationExact": 60.97560975609756,
+      "tauxEchecExact": 39.02439
     },
     {
       "session": "01/2021",
@@ -910,7 +1034,9 @@
       "tauxAcceptation": "66.7",
       "tauxEchec": "33.3",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2021_01.pdf",
-      "pdfFilename": "session_2021_01.pdf"
+      "pdfFilename": "session_2021_01.pdf",
+      "tauxAcceptationExact": 66.66666666666666,
+      "tauxEchecExact": 33.333333
     },
     {
       "session": "12/2020",
@@ -924,7 +1050,9 @@
       "tauxAcceptation": "58.3",
       "tauxEchec": "41.7",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2020_12.pdf",
-      "pdfFilename": "session_2020_12.pdf"
+      "pdfFilename": "session_2020_12.pdf",
+      "tauxAcceptationExact": 58.333333333333336,
+      "tauxEchecExact": 41.666667
     },
     {
       "session": "11/2020",
@@ -938,7 +1066,9 @@
       "tauxAcceptation": "63.4",
       "tauxEchec": "36.6",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2020_11.pdf",
-      "pdfFilename": "session_2020_11.pdf"
+      "pdfFilename": "session_2020_11.pdf",
+      "tauxAcceptationExact": 63.41463414634146,
+      "tauxEchecExact": 36.585366
     },
     {
       "session": "10/2020",
@@ -952,7 +1082,9 @@
       "tauxAcceptation": "39.0",
       "tauxEchec": "61.0",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2020_10.pdf",
-      "pdfFilename": "session_2020_10.pdf"
+      "pdfFilename": "session_2020_10.pdf",
+      "tauxAcceptationExact": 39.02439024390244,
+      "tauxEchecExact": 60.97561
     },
     {
       "session": "09/2020",
@@ -966,7 +1098,9 @@
       "tauxAcceptation": "45.8",
       "tauxEchec": "54.2",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2020_09.pdf",
-      "pdfFilename": "session_2020_09.pdf"
+      "pdfFilename": "session_2020_09.pdf",
+      "tauxAcceptationExact": 45.83333333333333,
+      "tauxEchecExact": 54.166667
     },
     {
       "session": "08/2020",
@@ -980,7 +1114,9 @@
       "tauxAcceptation": "60.7",
       "tauxEchec": "39.3",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2020_08.pdf",
-      "pdfFilename": "session_2020_08.pdf"
+      "pdfFilename": "session_2020_08.pdf",
+      "tauxAcceptationExact": 60.71428571428571,
+      "tauxEchecExact": 39.285714
     },
     {
       "session": "07/2020",
@@ -994,7 +1130,9 @@
       "tauxAcceptation": "45.0",
       "tauxEchec": "55.0",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2020_07.pdf",
-      "pdfFilename": "session_2020_07.pdf"
+      "pdfFilename": "session_2020_07.pdf",
+      "tauxAcceptationExact": 45.0,
+      "tauxEchecExact": 55.0
     },
     {
       "session": "06/2020",
@@ -1008,7 +1146,9 @@
       "tauxAcceptation": "46.2",
       "tauxEchec": "53.8",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2020_06.pdf",
-      "pdfFilename": "session_2020_06.pdf"
+      "pdfFilename": "session_2020_06.pdf",
+      "tauxAcceptationExact": 46.15384615384615,
+      "tauxEchecExact": 53.846154
     },
     {
       "session": "05/2020",
@@ -1022,7 +1162,9 @@
       "tauxAcceptation": "46.2",
       "tauxEchec": "53.8",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2020_05.pdf",
-      "pdfFilename": "session_2020_05.pdf"
+      "pdfFilename": "session_2020_05.pdf",
+      "tauxAcceptationExact": 46.15384615384615,
+      "tauxEchecExact": 53.846154
     },
     {
       "session": "04/2020",
@@ -1036,7 +1178,9 @@
       "tauxAcceptation": "50.0",
       "tauxEchec": "50.0",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2020_04.pdf",
-      "pdfFilename": "session_2020_04.pdf"
+      "pdfFilename": "session_2020_04.pdf",
+      "tauxAcceptationExact": 50.0,
+      "tauxEchecExact": 50.0
     },
     {
       "session": "03/2020",
@@ -1050,7 +1194,9 @@
       "tauxAcceptation": "45.7",
       "tauxEchec": "54.3",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2020_03.pdf",
-      "pdfFilename": "session_2020_03.pdf"
+      "pdfFilename": "session_2020_03.pdf",
+      "tauxAcceptationExact": 45.714285714285715,
+      "tauxEchecExact": 54.285714
     },
     {
       "session": "02/2020",
@@ -1062,9 +1208,11 @@
       "commentaires": "13 Labels et 9 Prelabels à Labels",
       "pdfUrl": "https://startup.gov.tn/sites/default/files/2021-11/Compte-rendu-des-sessions-de-Label-2020.pdf",
       "tauxAcceptation": "68.8",
-      "tauxEchec": "31.3",
+      "tauxEchec": "31.2",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2020_02.pdf",
-      "pdfFilename": "session_2020_02.pdf"
+      "pdfFilename": "session_2020_02.pdf",
+      "tauxAcceptationExact": 68.75,
+      "tauxEchecExact": 31.25
     },
     {
       "session": "01/2020",
@@ -1078,7 +1226,9 @@
       "tauxAcceptation": "47.4",
       "tauxEchec": "52.6",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2020_01.pdf",
-      "pdfFilename": "session_2020_01.pdf"
+      "pdfFilename": "session_2020_01.pdf",
+      "tauxAcceptationExact": 47.368421052631575,
+      "tauxEchecExact": 52.631579
     },
     {
       "session": "12/2019",
@@ -1092,7 +1242,9 @@
       "tauxAcceptation": "71.9",
       "tauxEchec": "28.1",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2019_12.pdf",
-      "pdfFilename": "session_2019_12.pdf"
+      "pdfFilename": "session_2019_12.pdf",
+      "tauxAcceptationExact": 71.875,
+      "tauxEchecExact": 28.125
     },
     {
       "session": "11/2019",
@@ -1106,7 +1258,9 @@
       "tauxAcceptation": "48.6",
       "tauxEchec": "51.4",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2019_11.pdf",
-      "pdfFilename": "session_2019_11.pdf"
+      "pdfFilename": "session_2019_11.pdf",
+      "tauxAcceptationExact": 48.57142857142857,
+      "tauxEchecExact": 51.428571
     },
     {
       "session": "10/2019",
@@ -1120,7 +1274,9 @@
       "tauxAcceptation": "67.6",
       "tauxEchec": "32.4",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2019_10.pdf",
-      "pdfFilename": "session_2019_10.pdf"
+      "pdfFilename": "session_2019_10.pdf",
+      "tauxAcceptationExact": 67.64705882352942,
+      "tauxEchecExact": 32.352941
     },
     {
       "session": "09/2019",
@@ -1134,7 +1290,9 @@
       "tauxAcceptation": "62.5",
       "tauxEchec": "37.5",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2019_09.pdf",
-      "pdfFilename": "session_2019_09.pdf"
+      "pdfFilename": "session_2019_09.pdf",
+      "tauxAcceptationExact": 62.5,
+      "tauxEchecExact": 37.5
     },
     {
       "session": "08/2019",
@@ -1142,13 +1300,15 @@
       "year": 2019,
       "candidatures": 28,
       "labels": 20,
-      "preLabels": 7,
+      "preLabels": 5,
       "commentaires": "18 Labels et 6 Prelabels à Labels",
       "pdfUrl": "https://startup.gov.tn/sites/default/files/2021-11/compte-rendu-aout-2019.pdf",
       "tauxAcceptation": "71.4",
-      "tauxEchec": "14.3",
+      "tauxEchec": "28.6",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2019_08.pdf",
-      "pdfFilename": "session_2019_08.pdf"
+      "pdfFilename": "session_2019_08.pdf",
+      "tauxAcceptationExact": 71.42857142857143,
+      "tauxEchecExact": 28.571429
     },
     {
       "session": "07/2019",
@@ -1160,23 +1320,27 @@
       "commentaires": "14 Labels et 1 Prelabel (de la session de mai)",
       "pdfUrl": "https://startup.gov.tn/sites/default/files/2021-11/Compte-rendu-Juillet-2019.pdf",
       "tauxAcceptation": "50.0",
-      "tauxEchec": "46.4",
+      "tauxEchec": "50.0",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2019_07.pdf",
-      "pdfFilename": "session_2019_07.pdf"
+      "pdfFilename": "session_2019_07.pdf",
+      "tauxAcceptationExact": 50.0,
+      "tauxEchecExact": 50.0
     },
     {
       "session": "06/2019",
       "month": 6,
       "year": 2019,
       "candidatures": 33,
-      "labels": 22,
-      "preLabels": 0,
+      "labels": 14,
+      "preLabels": 8,
       "commentaires": "1 ajourné à la session suivante",
       "pdfUrl": "https://startup.gov.tn/sites/default/files/2021-11/Compte-rendu-Juin-2019.pdf",
-      "tauxAcceptation": "66.7",
-      "tauxEchec": "54.5",
+      "tauxAcceptation": "42.4",
+      "tauxEchec": "57.6",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2019_06.pdf",
-      "pdfFilename": "session_2019_06.pdf"
+      "pdfFilename": "session_2019_06.pdf",
+      "tauxAcceptationExact": 42.42424242424242,
+      "tauxEchecExact": 57.575758
     },
     {
       "session": "05/2019",
@@ -1190,7 +1354,9 @@
       "tauxAcceptation": "50.0",
       "tauxEchec": "50.0",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2019_05.pdf",
-      "pdfFilename": "session_2019_05.pdf"
+      "pdfFilename": "session_2019_05.pdf",
+      "tauxAcceptationExact": 50.0,
+      "tauxEchecExact": 50.0
     },
     {
       "session": "04/2019",
@@ -1204,7 +1370,9 @@
       "tauxAcceptation": "64.7",
       "tauxEchec": "35.3",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2019_04.pdf",
-      "pdfFilename": "session_2019_04.pdf"
+      "pdfFilename": "session_2019_04.pdf",
+      "tauxAcceptationExact": 64.70588235294117,
+      "tauxEchecExact": 35.294118
     },
     {
       "session": "03/2019",
@@ -1218,17 +1386,20 @@
       "tauxAcceptation": "75.0",
       "tauxEchec": "25.0",
       "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2019_03.pdf",
-      "pdfFilename": "session_2019_03.pdf"
+      "pdfFilename": "session_2019_03.pdf",
+      "tauxAcceptationExact": 75.0,
+      "tauxEchecExact": 25.0
     }
   ],
   "yearly": [
     {
       "year": 2019,
       "candidatures": 311,
-      "labels": 194,
-      "preLabels": 52,
+      "labels": 186,
+      "preLabels": 58,
       "nbSessions": 10,
-      "tauxAcceptation": "62.4"
+      "tauxAcceptation": "59.8",
+      "tauxEchec": "40.2"
     },
     {
       "year": 2020,
@@ -1236,31 +1407,35 @@
       "labels": 209,
       "preLabels": 108,
       "nbSessions": 12,
-      "tauxAcceptation": "51.4"
+      "tauxAcceptation": "51.4",
+      "tauxEchec": "48.6"
     },
     {
       "year": 2021,
       "candidatures": 478,
-      "labels": 248,
+      "labels": 245,
       "preLabels": 106,
       "nbSessions": 12,
-      "tauxAcceptation": "51.9"
+      "tauxAcceptation": "51.3",
+      "tauxEchec": "48.7"
     },
     {
       "year": 2022,
       "candidatures": 398,
-      "labels": 175,
-      "preLabels": 94,
+      "labels": 174,
+      "preLabels": 90,
       "nbSessions": 12,
-      "tauxAcceptation": "44.0"
+      "tauxAcceptation": "43.7",
+      "tauxEchec": "56.3"
     },
     {
       "year": 2023,
       "candidatures": 395,
-      "labels": 168,
-      "preLabels": 86,
+      "labels": 161,
+      "preLabels": 80,
       "nbSessions": 12,
-      "tauxAcceptation": "42.5"
+      "tauxAcceptation": "40.8",
+      "tauxEchec": "59.2"
     },
     {
       "year": 2024,
@@ -1268,7 +1443,8 @@
       "labels": 144,
       "preLabels": 74,
       "nbSessions": 12,
-      "tauxAcceptation": "32.7"
+      "tauxAcceptation": "32.7",
+      "tauxEchec": "67.3"
     },
     {
       "year": 2025,
@@ -1276,7 +1452,8 @@
       "labels": 149,
       "preLabels": 90,
       "nbSessions": 12,
-      "tauxAcceptation": "35.4"
+      "tauxAcceptation": "35.4",
+      "tauxEchec": "64.6"
     },
     {
       "year": 2026,
@@ -1284,7 +1461,8 @@
       "labels": 43,
       "preLabels": 17,
       "nbSessions": 3,
-      "tauxAcceptation": "39.8"
+      "tauxAcceptation": "39.8",
+      "tauxEchec": "60.2"
     }
   ],
   "database": {

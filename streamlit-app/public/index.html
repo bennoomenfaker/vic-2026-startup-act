@@ -135,6 +135,9 @@
       padding: 16px 20px; margin: 12px 0; font-size: 0.9em; line-height: 1.6;
     }
     .summary-box strong { color: #0f3460; }
+    td.cell-wrong { background: #ffebee; color: #b71c1c; font-weight: 600; }
+    td.cell-fixed { background: #e8f5e9; color: #1b5e20; font-weight: 700; }
+    tr.corr-row { outline: 1px solid #4caf50; }
     .btn {
       display: inline-block; padding: 8px 20px; border-radius: 8px; font-size: 0.85em;
       font-weight: 600; cursor: pointer; border: none; font-family: inherit; text-decoration: none;
@@ -168,6 +171,7 @@
     <a href="#" data-page="reports">Rapports</a>
     <a href="#" data-page="pdfs">PDFs Sessions</a>
     <a href="#" data-page="annual-pdfs">PDFs Annuels</a>
+    <a href="#" data-page="corrections">Corrections</a>
     <a href="#" data-page="livrables">Livrables</a>
     <a href="#" data-page="insights">Insights</a>
   </div>
@@ -293,6 +297,55 @@
     </div>
   </section>
 
+  <!-- CORRECTIONS -->
+  <section id="page-corrections">
+    <div class="page-header">
+      <h1>Corrections des Données des Sessions</h1>
+      <p>Valeurs fausses (scrapé startup.gov.tn) vs valeurs vraies (PDF officiels) · 85 sessions, vérifiées</p>
+    </div>
+    <div class="kpi-grid" id="corrKpis"></div>
+
+    <div class="summary-box" style="margin-bottom:20px">
+      <strong>📌 Contexte :</strong> le tableau <code>/sessions</code> de <code>startup.gov.tn</code> contenait des
+      valeurs erronées (labels/prélabels mal comptés sur 20 sessions sur 85). Les données ont été ré-extraites des
+      <strong>PDF officiels</strong> (<code>public/data/session-pdfs/</code>) par un parseur positionnel (v7) puis
+      auditées indépendamment (freebuff : 0 divergence) et vérifiées manuellement (3 scans vectoriels).
+    </div>
+
+    <div class="tabs" id="corrTabs">
+      <button class="tab active" data-corrtab="compare">Tableaux comparatifs</button>
+      <button class="tab" data-corrtab="detail">Détail des corrections</button>
+      <button class="tab" data-corrtab="md">Rapport détaillé (corrections.md)</button>
+    </div>
+
+    <div id="corr-compare">
+      <div class="chart-grid">
+        <div class="chart-card">
+          <h3>❌ Tableau original — scrapé startup.gov.tn <span style="color:#c62828;font-size:0.8em">(valeurs fausses en rouge)</span></h3>
+          <div style="overflow-x:auto"><table><thead><tr><th>Session</th><th>Cand.</th><th>Labels</th><th>Pré-Labels</th><th>Taux</th><th>Commentaires</th></tr></thead><tbody id="corrOldTable"></tbody></table></div>
+        </div>
+        <div class="chart-card">
+          <h3>✅ Tableau corrigé — PDF officiels <span style="color:#1b5e20;font-size:0.8em">(valeurs corrigées en vert)</span></h3>
+          <div style="overflow-x:auto"><table><thead><tr><th>Session</th><th>Cand.</th><th>Labels</th><th>Pré-Labels</th><th>Taux (réel → arrondi)</th><th>Taux échec</th><th>Commentaires</th></tr></thead><tbody id="corrNewTable"></tbody></table></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="corr-detail" style="display:none">
+      <div class="chart-card">
+        <h3>Les 20 corrections — détail et raison</h3>
+        <div style="overflow-x:auto"><table><thead><tr><th>Session</th><th>Cand.</th><th>Labels (faux → vrai)</th><th>Pré-Labels (faux → vrai)</th><th>Taux réel → arrondi</th><th>Raison (PDF v7)</th></tr></thead><tbody id="corrDetailTable"></tbody></table></div>
+      </div>
+    </div>
+
+    <div id="corr-md" style="display:none">
+      <div class="doc-card">
+        <div class="doc-header"><h3>📄 corrections.md</h3><span style="font-size:0.8em;color:#888">rapport complet</span></div>
+        <div class="doc-body"><div class="rendered" id="corrMdRender">Chargement...</div></div>
+      </div>
+    </div>
+  </section>
+
   <!-- LIVRABLES -->
   <section id="page-livrables">
     <div class="page-header"><h1>Livrables Phase 1</h1><p>Documents de cadrage du projet · Consultez et modifiez</p></div>
@@ -337,14 +390,15 @@ function switchPage(page) {
 
 async function init() {
   try {
-    const [dashboard, sessions, startups, reports, analysis] = await Promise.all([
+    const [dashboard, sessions, startups, reports, analysis, corrections] = await Promise.all([
       fetch('/api/dashboard').then(r => r.json()),
       fetch('/api/sessions').then(r => r.json()),
       fetch('/api/startups').then(r => r.json()),
       fetch('/api/reports').then(r => r.json()),
-      fetch('/api/analysis').then(r => r.json()).catch(() => ({sessions:{taux_acceptation_moyen:44.8}}))
+      fetch('/api/analysis').then(r => r.json()).catch(() => ({sessions:{taux_acceptation_moyen:44.8}})),
+      fetch('/api/corrections').then(r => r.json()).catch(() => null)
     ]);
-    Object.assign(DATA, { dashboard, sessions, startups, reports, analysis });
+    Object.assign(DATA, { dashboard, sessions, startups, reports, analysis, corrections });
 
     document.querySelectorAll('nav a').forEach(a => {
       a.addEventListener('click', e => { e.preventDefault(); switchPage(a.dataset.page); });
@@ -358,6 +412,7 @@ async function init() {
     initReports();
     renderPdfs();
     renderAnnualPdfs();
+    renderCorrections();
     renderLivrables();
     renderInsights();
 
@@ -855,6 +910,85 @@ function cancelEdit(id) {
   document.getElementById('rendered-' + key).style.display = 'block';
   document.getElementById('editor-' + key).style.display = 'none';
   document.getElementById('actions-' + key).style.display = 'none';
+}
+
+// ===== CORRECTIONS =====
+const CORR_SET = {};  // session -> reason (from corrections.json)
+
+function fmtTaux(e) { return e === null || e === undefined || isNaN(e) ? '-' : (+e).toFixed(4).replace(/\.?0+$/,'') + '%'; }
+
+function renderCorrections() {
+  const data = DATA.corrections;
+  if (!data) return;
+  const m = data.meta;
+  for (const k in CORR_SET) delete CORR_SET[k];
+  data.corrections.forEach(c => CORR_SET[c.session] = c);
+
+  document.getElementById('corrKpis').innerHTML = `
+    <div class="kpi-card blue"><div class="label">Sessions</div><div class="value">${m.totalSessions}</div><div class="sub">vérifiées</div></div>
+    <div class="kpi-card red"><div class="label">Sessions corrigées</div><div class="value">${m.corrected}</div><div class="sub">valeurs fausses corrigées</div></div>
+    <div class="kpi-card orange"><div class="label">Labels (avant → après)</div><div class="value">${m.totalsOld.labels} → ${m.totalsNew.labels}</div><div class="sub">scrapé → PDF</div></div>
+    <div class="kpi-card green"><div class="label">Pré-Labels (avant → après)</div><div class="value">${m.totalsOld.preLabels} → ${m.totalsNew.preLabels}</div><div class="sub">scrapé → PDF</div></div>
+  `;
+
+  const oldRows = data.originalTable.map(t => {
+    const c = CORR_SET[t.session];
+    const wrong = c ? (t.labels !== c.new.labels || t.preLabels !== c.new.preLabels) : false;
+    const clsL = c && t.labels !== c.new.labels ? 'cell-wrong' : '';
+    const clsP = c && t.preLabels !== c.new.preLabels ? 'cell-wrong' : '';
+    return `<tr>
+      <td><strong>${t.session}</strong></td><td>${t.candidatures}</td>
+      <td class="${clsL}">${t.labels}</td><td class="${clsP}">${t.preLabels}</td>
+      <td>${t.taux}%</td><td style="font-size:0.8em;color:#666">${t.commentaires || '-'}</td></tr>`;
+  }).join('');
+
+  const newRows = data.correctedTable.map(t => {
+    const c = CORR_SET[t.session];
+    const fixedL = c && t.labels !== c.old.labels;
+    const fixedP = c && t.preLabels !== c.old.preLabels;
+    const rowCls = c ? ' class="corr-row"' : '';
+    return `<tr${rowCls}>
+      <td><strong>${t.session}</strong></td><td>${t.candidatures}</td>
+      <td class="${fixedL ? 'cell-fixed' : ''}">${t.labels}</td>
+      <td class="${fixedP ? 'cell-fixed' : ''}">${t.preLabels}</td>
+      <td>${fmtTaux(t.tauxExact)} → <b>${t.taux}%</b></td>
+      <td>${t.echec}%</td>
+      <td style="font-size:0.8em;color:#666">${t.commentaires || '-'}</td></tr>`;
+  }).join('');
+
+  document.getElementById('corrOldTable').innerHTML = oldRows;
+  document.getElementById('corrNewTable').innerHTML = newRows;
+
+  const detailRows = data.corrections.map(c => `
+    <tr class="corr-row">
+      <td><strong>${c.session}</strong></td><td>${c.candidatures}</td>
+      <td><span class="cell-wrong">${c.old.labels}</span> → <span class="cell-fixed">${c.new.labels}</span></td>
+      <td><span class="cell-wrong">${c.old.preLabels}</span> → <span class="cell-fixed">${c.new.preLabels}</span></td>
+      <td>${fmtTaux(c.new.tauxExact)} → <b>${c.new.taux}%</b></td>
+      <td style="font-size:0.85em">${c.reason}</td></tr>`).join('');
+  document.getElementById('corrDetailTable').innerHTML = detailRows;
+
+  // tabs
+  document.querySelectorAll('#corrTabs .tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('#corrTabs .tab').forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      const k = tab.dataset.corrtab;
+      document.getElementById('corr-compare').style.display = k === 'compare' ? '' : 'none';
+      document.getElementById('corr-detail').style.display = k === 'detail' ? '' : 'none';
+      document.getElementById('corr-md').style.display = k === 'md' ? '' : 'none';
+    });
+  });
+
+  // load corrections.md
+  fetch('/api/corrections-md').then(r => r.json()).then(d => {
+    const el = document.getElementById('corrMdRender');
+    if (typeof marked !== 'undefined') {
+      el.innerHTML = marked.parse(d.content || '');
+    } else {
+      el.innerHTML = '<pre style="white-space:pre-wrap;font-size:0.85em">' + (d.content||'').replace(/</g,'&lt;') + '</pre>';
+    }
+  }).catch(() => { document.getElementById('corrMdRender').innerHTML = '<p style="color:#999">Rapport indisponible.</p>'; });
 }
 
 // ===== INSIGHTS =====
