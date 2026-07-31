@@ -2,7 +2,7 @@ services:
   - type: web
     name: startup-act
     runtime: python
-    repo: https://github.com/himawari/startup-act
+    repo: https://github.com/bennoomenfaker/vic-2026-startup-act
     branch: main
     buildCommand: ""
     startCommand: python3 streamlit-app/server.py
