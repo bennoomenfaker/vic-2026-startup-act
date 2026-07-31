@@ -4,9 +4,9 @@ services:
     runtime: python
     repo: https://github.com/bennoomenfaker/vic-2026-startup-act
     branch: main
-    buildCommand: ""
+    buildCommand: pip install -r requirements.txt
     startCommand: python3 streamlit-app/server.py
     healthCheckPath: /
     envVars:
       - key: PYTHON_VERSION
-        value: 3.11
+        value: 3.12
