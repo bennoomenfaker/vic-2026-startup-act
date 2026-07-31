@@ -171,6 +171,7 @@
     <a href="#" data-page="reports">Rapports</a>
     <a href="#" data-page="pdfs">PDFs Sessions</a>
     <a href="#" data-page="annual-pdfs">PDFs Annuels</a>
+    <a href="#" data-page="parcours">Parcours</a>
     <a href="#" data-page="corrections">Corrections</a>
     <a href="#" data-page="livrables">Livrables</a>
     <a href="#" data-page="insights">Insights</a>
@@ -297,6 +298,28 @@
     </div>
   </section>
 
+  <!-- PARCOURS PRELABEL -->
+  <section id="page-parcours">
+    <div class="page-header">
+      <h1>Parcours Prélabel → Label</h1>
+      <p>Conversions, prélabels accordés, retraits · extraction PDF v7 (3 sessions complétées manuellement)</p>
+    </div>
+    <div class="kpi-grid" id="parcKpis"></div>
+    <div class="chart-grid">
+      <div class="chart-card"><h3>Prélabels accordés vs Conversions prélabel→label (par année)</h3><div class="chart-wrapper"><canvas id="chartParcoursConv"></canvas></div></div>
+      <div class="chart-card"><h3>Composition des labels : nouveaux vs conversions (par année)</h3><div class="chart-wrapper"><canvas id="chartParcoursCompo"></canvas></div></div>
+    </div>
+    <div class="chart-grid">
+      <div class="chart-card"><h3>Retraits de labels (par année)</h3><div class="chart-wrapper"><canvas id="chartParcoursRetraits"></canvas></div></div>
+      <div class="chart-card"><h3>Répartition des 1 311 labels</h3><div class="chart-wrapper"><canvas id="chartParcoursDonut"></canvas></div></div>
+    </div>
+    <div class="search-bar">
+      <input type="text" id="parcSearch" placeholder="Rechercher une session..." oninput="filterParcours(this.value)">
+      <button onclick="exportExcel('parcours')" class="btn btn-outline" style="flex-shrink:0">📥 Export XLSX</button>
+    </div>
+    <div style="overflow-x:auto"><table><thead><tr><th>Session</th><th>Cand.</th><th>Prélabels accordés</th><th>Conversions → labels</th><th>Retraits</th><th>Labels issus de conversion</th></tr></thead><tbody id="parcoursTable"></tbody></table></div>
+  </section>
+
   <!-- CORRECTIONS -->
   <section id="page-corrections">
     <div class="page-header">
@@ -390,15 +413,16 @@ function switchPage(page) {
 
 async function init() {
   try {
-    const [dashboard, sessions, startups, reports, analysis, corrections] = await Promise.all([
+    const [dashboard, sessions, startups, reports, analysis, corrections, parcours] = await Promise.all([
       fetch('/api/dashboard').then(r => r.json()),
       fetch('/api/sessions').then(r => r.json()),
       fetch('/api/startups').then(r => r.json()),
       fetch('/api/reports').then(r => r.json()),
       fetch('/api/analysis').then(r => r.json()).catch(() => ({sessions:{taux_acceptation_moyen:44.8}})),
-      fetch('/api/corrections').then(r => r.json()).catch(() => null)
+      fetch('/api/corrections').then(r => r.json()).catch(() => null),
+      fetch('/api/parcours').then(r => r.json()).catch(() => null)
     ]);
-    Object.assign(DATA, { dashboard, sessions, startups, reports, analysis, corrections });
+    Object.assign(DATA, { dashboard, sessions, startups, reports, analysis, corrections, parcours });
 
     document.querySelectorAll('nav a').forEach(a => {
       a.addEventListener('click', e => { e.preventDefault(); switchPage(a.dataset.page); });
@@ -412,6 +436,7 @@ async function init() {
     initReports();
     renderPdfs();
     renderAnnualPdfs();
+    renderParcours();
     renderCorrections();
     renderLivrables();
     renderInsights();
@@ -912,6 +937,64 @@ function cancelEdit(id) {
   document.getElementById('actions-' + key).style.display = 'none';
 }
 
+// ===== PARCOURS PRELABEL =====
+function renderParcours() {
+  const data = DATA.parcours;
+  if (!data) return;
+  const m = data.meta;
+  document.getElementById('parcKpis').innerHTML = `
+    <div class="kpi-card blue"><div class="label">Conversions prélabel → label</div><div class="value">${m.totalConversions}</div><div class="sub">${m.sessionsWithConversions} sessions concernées</div></div>
+    <div class="kpi-card green"><div class="label">Taux de conversion</div><div class="value">${m.convRate}%</div><div class="sub">${m.totalConversions}/${m.totalNewPreLabels} prélabels accordés</div></div>
+    <div class="kpi-card orange"><div class="label">Prélabels accordés</div><div class="value">${m.totalNewPreLabels}</div><div class="sub">restés prélabels si non convertis</div></div>
+    <div class="kpi-card red"><div class="label">Retraits de labels</div><div class="value">${m.totalRetraits}</div><div class="sub">${m.sessionsWithRetraits} sessions concernées</div></div>
+    <div class="kpi-card purple"><div class="label">Labels issus de conversion</div><div class="value">${m.pctLabelsFromConversions}%</div><div class="sub">${m.totalConversions} / ${m.totalLabels} labels</div></div>
+  `;
+
+  makeChart('chartParcoursConv', 'bar', {
+    labels: data.yearly.map(y => y.year),
+    datasets: [
+      { label: 'Prélabels accordés', data: data.yearly.map(y => y.preLabels), backgroundColor: '#ea580c' },
+      { label: 'Conversions → labels', data: data.yearly.map(y => y.conversions), backgroundColor: '#16a34a' }
+    ]
+  });
+
+  makeChart('chartParcoursCompo', 'bar', {
+    labels: data.yearly.map(y => y.year),
+    datasets: [
+      { label: 'Nouveaux labels', data: data.yearly.map(y => y.newLabels), backgroundColor: '#0f3460' },
+      { label: 'Conversions (prélabel → label)', data: data.yearly.map(y => y.conversions), backgroundColor: '#e94560' }
+    ]
+  }, { scales: { x: { stacked: true }, y: { stacked: true } } });
+
+  makeChart('chartParcoursRetraits', 'bar', {
+    labels: data.yearly.map(y => y.year),
+    datasets: [{ label: 'Retraits', data: data.yearly.map(y => y.retraits), backgroundColor: '#b91c1c' }]
+  });
+
+  makeChart('chartParcoursDonut', 'doughnut', {
+    labels: [`Nouveaux labels (${m.totalNewLabels})`, `Conversions (${m.totalConversions})`],
+    datasets: [{ data: [m.totalNewLabels, m.totalConversions], backgroundColor: ['#0f3460', '#e94560'] }]
+  }, { plugins: { legend: { position: 'bottom' } } });
+
+  renderParcoursTable(data.sessions);
+}
+
+function renderParcoursTable(rows) {
+  document.getElementById('parcoursTable').innerHTML = rows.map(s => `
+    <tr>
+      <td><strong>${s.session}</strong>${s.manual ? ' <span class="badge badge-red" title="scan vectoriel — compté manuellement">manuel</span>' : ''}</td>
+      <td>${s.candidatures}</td>
+      <td>${s.preLabels}</td>
+      <td><span class="badge ${s.conversions > 0 ? 'badge-green' : 'badge-blue'}">${s.conversions}</span></td>
+      <td>${s.retraits > 0 ? '<span class="badge badge-red">' + s.retraits + '</span>' : s.retraits}</td>
+      <td>${s.pctConversions}%</td>
+    </tr>`).join('');
+}
+
+function filterParcours(q) {
+  document.querySelectorAll('#parcoursTable tr').forEach(r => { r.style.display = r.textContent.toLowerCase().includes(q.toLowerCase()) ? '' : 'none'; });
+}
+
 // ===== CORRECTIONS =====
 const CORR_SET = {};  // session -> reason (from corrections.json)
 
@@ -1015,10 +1098,14 @@ function renderInsightCharts() {
     datasets: [{ label: "Taux d'acceptation (%)", data: y.map(y => parseFloat(y.tauxAcceptation)), borderColor: '#e94560', tension: 0.4, fill: true, backgroundColor: 'rgba(233,69,96,0.1)' }]
   }, { scales: { y: { min: 20, max: 70 } } });
 
-  makeChart('chartInsightPdf', 'doughnut', {
-    labels: ['Labels (85,4%)', 'Retraits (10,4%)', 'Conversions (4,2%)'],
-    datasets: [{ data: [85.4, 10.4, 4.2], backgroundColor: ['#16a34a', '#e94560', '#0f3460'] }]
-  }, { plugins: { legend: { position: 'bottom' } } });
+  const p = DATA.parcours;
+  if (p) {
+    const m = p.meta;
+    makeChart('chartInsightPdf', 'doughnut', {
+      labels: [`Nouveaux labels (${m.totalNewLabels})`, `Conversions (${m.totalConversions})`, `Retraits (${m.totalRetraits})`],
+      datasets: [{ data: [m.totalNewLabels, m.totalConversions, m.totalRetraits], backgroundColor: ['#16a34a', '#e94560', '#0f3460'] }]
+    }, { plugins: { legend: { position: 'bottom' } } });
+  }
 }
 
 // ===== EXPORT EXCEL =====
@@ -1042,6 +1129,10 @@ function exportExcel(type) {
       return [s.name, s.count, parseFloat(pct), parseFloat(cumul.toFixed(1))];
     });
     filename = 'secteurs.xlsx';
+  } else if (type === 'parcours') {
+    headers = ['Session', 'Candidatures', 'Prélabels accordés', 'Conversions', 'Retraits', '% labels issus de conversion'];
+    data = DATA.parcours.sessions.map(s => [s.session, s.candidatures, s.preLabels, s.conversions, s.retraits, s.pctConversions]);
+    filename = 'parcours_prelabel_label.xlsx';
   }
   const ws = XLSX.utils.aoa_to_sheet([headers, ...data]);
   const wb = XLSX.utils.book_new();
