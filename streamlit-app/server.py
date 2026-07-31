@@ -38,6 +38,8 @@ class Handler(http.server.SimpleHTTPRequestHandler):
                 self._send_json(None, status=404)
         elif path == '/api/corrections':
             self._send_json(os.path.join(DATA, 'corrections.json'))
+        elif path == '/api/parcours':
+            self._send_json(os.path.join(DATA, 'parcours.json'))
         elif path == '/api/corrections-md':
             self._send_doc_file('corrections.md')
         elif path == '/api/session-pdfs':
