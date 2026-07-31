@@ -133,13 +133,14 @@ chaque pull request. Il valide :
 Développeur **Full-Stack** & étudiant en **Intelligence Stratégique & Gestion de Projet**.
 
 **Parcours académique**
-- 🎓 Master Professionnel **VIC** — Veille & Intelligence Compétitive — **ESEN Manouba** *(en cours)*
-- 🎓 Master 1 **IGP** — Innovation & Gestion de Projet — **ISIMS Sfax**
-- 🎓 Master Professionnel **DDS** — Digitalisation des Services — **ESSECT Tunis**
-- 🎓 Licence **Informatique de Gestion** (E-Business) — **ESSECT Tunis**
+- 🎓 **2026 (en cours)** — Mastère Professionnel **VIC** — Veille & Intelligence Compétitive — **ESEN Manouba × ISCAE Manouba** *(collaboration)*
+- 🎓 **2025** — Mastère Professionnel (M2) **DDS** — Digitalisation des Services — **ESSECT Tunis**
+- 🎓 **2024** — Master 1 (M1) **IGP** — Innovation & Gestion de Projet — **ISIMS Sfax**
+- 🎓 **2023** — Licence **Informatique de Gestion** (E-Business) — **ESSECT Montfleury**
 
 **Stack** : TypeScript · NestJS · Next.js · React · Spring Boot · FastAPI ·
-Streamlit · PostgreSQL · MongoDB · Docker · Cloud.
+Streamlit · PostgreSQL · MongoDB · OracleDB · MySQL · SQLite · Firebase ·
+Prisma/TypeORM · Docker · Cloud.
 
 **Profils**
 - 💼 [LinkedIn](https://linkedin.com/in/fakerbennoomen)
@@ -155,7 +156,7 @@ Ce mastère **VIC** est une **collaboration entre** :
 - **[ESEN Manouba](https://esen.rnu.tn/portail/)** — École Supérieure d'Économie Numérique
 - **[ISCAE Manouba](https://iscae.rnu.tn/fr)** — Institut Supérieur de Comptabilité et d'Administration des Entreprises
   - **Responsable pédagogique & coordinatrice du mastère VIC** :
-    **Mme Afef BELGHITH** — afef.belghith@iscae.uma.tn
+    **Mme Afef BELGHITH** ([LinkedIn](https://www.linkedin.com/in/afef-belghith-99a74a25/)) — afef.belghith@iscae.uma.tn
 
 Avec le soutien de :
 
