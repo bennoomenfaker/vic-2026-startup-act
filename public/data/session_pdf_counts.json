@@ -1,0 +1,682 @@
+{
+  "03/2019": {
+    "new_labels": 12,
+    "new_prelabels": 0,
+    "conversions": 0,
+    "retraits": 0,
+    "total_labels": 12,
+    "total_prelabels": 0
+  },
+  "04/2019": {
+    "new_labels": 33,
+    "new_prelabels": 0,
+    "conversions": 0,
+    "retraits": 0,
+    "total_labels": 33,
+    "total_prelabels": 0
+  },
+  "05/2019": {
+    "new_labels": 15,
+    "new_prelabels": 8,
+    "conversions": 0,
+    "retraits": 0,
+    "total_labels": 15,
+    "total_prelabels": 8
+  },
+  "06/2019": {
+    "new_labels": 22,
+    "new_prelabels": 0,
+    "conversions": 0,
+    "retraits": 0,
+    "total_labels": 22,
+    "total_prelabels": 0
+  },
+  "07/2019": {
+    "new_labels": 14,
+    "new_prelabels": 8,
+    "conversions": 0,
+    "retraits": 0,
+    "total_labels": 14,
+    "total_prelabels": 8
+  },
+  "08/2019": {
+    "new_labels": 20,
+    "new_prelabels": 7,
+    "conversions": 0,
+    "retraits": 0,
+    "total_labels": 20,
+    "total_prelabels": 7
+  },
+  "09/2019": {
+    "new_labels": 12,
+    "new_prelabels": 6,
+    "conversions": 3,
+    "retraits": 0,
+    "total_labels": 15,
+    "total_prelabels": 6
+  },
+  "10/2019": {
+    "new_labels": 23,
+    "new_prelabels": 5,
+    "conversions": 0,
+    "retraits": 0,
+    "total_labels": 23,
+    "total_prelabels": 5
+  },
+  "11/2019": {
+    "new_labels": 11,
+    "new_prelabels": 10,
+    "conversions": 6,
+    "retraits": 0,
+    "total_labels": 17,
+    "total_prelabels": 10
+  },
+  "12/2019": {
+    "new_labels": 13,
+    "new_prelabels": 8,
+    "conversions": 10,
+    "retraits": 0,
+    "total_labels": 23,
+    "total_prelabels": 8
+  },
+  "01/2020": {
+    "new_labels": 14,
+    "new_prelabels": 11,
+    "conversions": 4,
+    "retraits": 0,
+    "total_labels": 18,
+    "total_prelabels": 11
+  },
+  "02/2020": {
+    "new_labels": 13,
+    "new_prelabels": 11,
+    "conversions": 9,
+    "retraits": 0,
+    "total_labels": 22,
+    "total_prelabels": 11
+  },
+  "03/2020": {
+    "new_labels": 12,
+    "new_prelabels": 10,
+    "conversions": 4,
+    "retraits": 0,
+    "total_labels": 16,
+    "total_prelabels": 10
+  },
+  "04/2020": {
+    "new_labels": 17,
+    "new_prelabels": 7,
+    "conversions": 3,
+    "retraits": 0,
+    "total_labels": 20,
+    "total_prelabels": 7
+  },
+  "05/2020": {
+    "new_labels": 7,
+    "new_prelabels": 10,
+    "conversions": 5,
+    "retraits": 0,
+    "total_labels": 12,
+    "total_prelabels": 10
+  },
+  "06/2020": {
+    "new_labels": 8,
+    "new_prelabels": 5,
+    "conversions": 4,
+    "retraits": 0,
+    "total_labels": 12,
+    "total_prelabels": 5
+  },
+  "07/2020": {
+    "new_labels": 0,
+    "new_prelabels": 0,
+    "conversions": 0,
+    "retraits": 0,
+    "total_labels": 0,
+    "total_prelabels": 0
+  },
+  "08/2020": {
+    "new_labels": 7,
+    "new_prelabels": 6,
+    "conversions": 10,
+    "retraits": 0,
+    "total_labels": 17,
+    "total_prelabels": 6
+  },
+  "09/2020": {
+    "new_labels": 3,
+    "new_prelabels": 9,
+    "conversions": 8,
+    "retraits": 0,
+    "total_labels": 11,
+    "total_prelabels": 9
+  },
+  "10/2020": {
+    "new_labels": 9,
+    "new_prelabels": 10,
+    "conversions": 7,
+    "retraits": 0,
+    "total_labels": 16,
+    "total_prelabels": 10
+  },
+  "11/2020": {
+    "new_labels": 13,
+    "new_prelabels": 14,
+    "conversions": 13,
+    "retraits": 0,
+    "total_labels": 26,
+    "total_prelabels": 14
+  },
+  "12/2020": {
+    "new_labels": 0,
+    "new_prelabels": 0,
+    "conversions": 0,
+    "retraits": 0,
+    "total_labels": 0,
+    "total_prelabels": 0
+  },
+  "01/2021": {
+    "new_labels": 0,
+    "new_prelabels": 0,
+    "conversions": 0,
+    "retraits": 0,
+    "total_labels": 0,
+    "total_prelabels": 0
+  },
+  "02/2021": {
+    "new_labels": 18,
+    "new_prelabels": 10,
+    "conversions": 7,
+    "retraits": 0,
+    "total_labels": 25,
+    "total_prelabels": 10
+  },
+  "03/2021": {
+    "new_labels": 12,
+    "new_prelabels": 8,
+    "conversions": 13,
+    "retraits": 0,
+    "total_labels": 25,
+    "total_prelabels": 8
+  },
+  "04/2021": {
+    "new_labels": 18,
+    "new_prelabels": 24,
+    "conversions": 4,
+    "retraits": 0,
+    "total_labels": 22,
+    "total_prelabels": 24
+  },
+  "05/2021": {
+    "new_labels": 13,
+    "new_prelabels": 8,
+    "conversions": 6,
+    "retraits": 0,
+    "total_labels": 19,
+    "total_prelabels": 8
+  },
+  "06/2021": {
+    "new_labels": 11,
+    "new_prelabels": 6,
+    "conversions": 7,
+    "retraits": 0,
+    "total_labels": 18,
+    "total_prelabels": 6
+  },
+  "07/2021": {
+    "new_labels": 11,
+    "new_prelabels": 5,
+    "conversions": 11,
+    "retraits": 0,
+    "total_labels": 22,
+    "total_prelabels": 5
+  },
+  "08/2021": {
+    "new_labels": 9,
+    "new_prelabels": 4,
+    "conversions": 7,
+    "retraits": 0,
+    "total_labels": 16,
+    "total_prelabels": 4
+  },
+  "09/2021": {
+    "new_labels": 2,
+    "new_prelabels": 6,
+    "conversions": 13,
+    "retraits": 0,
+    "total_labels": 15,
+    "total_prelabels": 6
+  },
+  "10/2021": {
+    "new_labels": 15,
+    "new_prelabels": 7,
+    "conversions": 8,
+    "retraits": 0,
+    "total_labels": 23,
+    "total_prelabels": 7
+  },
+  "11/2021": {
+    "new_labels": 12,
+    "new_prelabels": 10,
+    "conversions": 7,
+    "retraits": 0,
+    "total_labels": 19,
+    "total_prelabels": 10
+  },
+  "12/2021": {
+    "new_labels": 14,
+    "new_prelabels": 11,
+    "conversions": 6,
+    "retraits": 0,
+    "total_labels": 20,
+    "total_prelabels": 11
+  },
+  "01/2022": {
+    "new_labels": 9,
+    "new_prelabels": 9,
+    "conversions": 6,
+    "retraits": 0,
+    "total_labels": 15,
+    "total_prelabels": 9
+  },
+  "02/2022": {
+    "new_labels": 8,
+    "new_prelabels": 3,
+    "conversions": 4,
+    "retraits": 0,
+    "total_labels": 12,
+    "total_prelabels": 3
+  },
+  "03/2022": {
+    "new_labels": 5,
+    "new_prelabels": 5,
+    "conversions": 9,
+    "retraits": 0,
+    "total_labels": 14,
+    "total_prelabels": 5
+  },
+  "04/2022": {
+    "new_labels": 5,
+    "new_prelabels": 6,
+    "conversions": 4,
+    "retraits": 0,
+    "total_labels": 9,
+    "total_prelabels": 6
+  },
+  "05/2022": {
+    "new_labels": 8,
+    "new_prelabels": 9,
+    "conversions": 6,
+    "retraits": 0,
+    "total_labels": 14,
+    "total_prelabels": 9
+  },
+  "06/2022": {
+    "new_labels": 10,
+    "new_prelabels": 10,
+    "conversions": 4,
+    "retraits": 0,
+    "total_labels": 14,
+    "total_prelabels": 10
+  },
+  "07/2022": {
+    "new_labels": 15,
+    "new_prelabels": 13,
+    "conversions": 4,
+    "retraits": 0,
+    "total_labels": 19,
+    "total_prelabels": 13
+  },
+  "08/2022": {
+    "new_labels": 6,
+    "new_prelabels": 12,
+    "conversions": 6,
+    "retraits": 0,
+    "total_labels": 12,
+    "total_prelabels": 12
+  },
+  "09/2022": {
+    "new_labels": 10,
+    "new_prelabels": 5,
+    "conversions": 9,
+    "retraits": 0,
+    "total_labels": 19,
+    "total_prelabels": 5
+  },
+  "10/2022": {
+    "new_labels": 8,
+    "new_prelabels": 7,
+    "conversions": 6,
+    "retraits": 0,
+    "total_labels": 14,
+    "total_prelabels": 7
+  },
+  "11/2022": {
+    "new_labels": 9,
+    "new_prelabels": 10,
+    "conversions": 8,
+    "retraits": 0,
+    "total_labels": 17,
+    "total_prelabels": 10
+  },
+  "12/2022": {
+    "new_labels": 7,
+    "new_prelabels": 5,
+    "conversions": 9,
+    "retraits": 0,
+    "total_labels": 16,
+    "total_prelabels": 5
+  },
+  "01/2023": {
+    "new_labels": 6,
+    "new_prelabels": 6,
+    "conversions": 10,
+    "retraits": 0,
+    "total_labels": 16,
+    "total_prelabels": 6
+  },
+  "02/2023": {
+    "new_labels": 19,
+    "new_prelabels": 17,
+    "conversions": 6,
+    "retraits": 0,
+    "total_labels": 25,
+    "total_prelabels": 17
+  },
+  "03/2023": {
+    "new_labels": 9,
+    "new_prelabels": 6,
+    "conversions": 5,
+    "retraits": 0,
+    "total_labels": 14,
+    "total_prelabels": 6
+  },
+  "04/2023": {
+    "new_labels": 13,
+    "new_prelabels": 5,
+    "conversions": 0,
+    "retraits": 0,
+    "total_labels": 13,
+    "total_prelabels": 5
+  },
+  "05/2023": {
+    "new_labels": 13,
+    "new_prelabels": 9,
+    "conversions": 6,
+    "retraits": 0,
+    "total_labels": 19,
+    "total_prelabels": 9
+  },
+  "06/2023": {
+    "new_labels": 4,
+    "new_prelabels": 8,
+    "conversions": 6,
+    "retraits": 0,
+    "total_labels": 10,
+    "total_prelabels": 8
+  },
+  "07/2023": {
+    "new_labels": 6,
+    "new_prelabels": 8,
+    "conversions": 9,
+    "retraits": 2,
+    "total_labels": 15,
+    "total_prelabels": 8
+  },
+  "08/2023": {
+    "new_labels": 4,
+    "new_prelabels": 5,
+    "conversions": 7,
+    "retraits": 0,
+    "total_labels": 11,
+    "total_prelabels": 5
+  },
+  "09/2023": {
+    "new_labels": 7,
+    "new_prelabels": 6,
+    "conversions": 8,
+    "retraits": 1,
+    "total_labels": 15,
+    "total_prelabels": 6
+  },
+  "10/2023": {
+    "new_labels": 5,
+    "new_prelabels": 4,
+    "conversions": 1,
+    "retraits": 3,
+    "total_labels": 6,
+    "total_prelabels": 4
+  },
+  "11/2023": {
+    "new_labels": 4,
+    "new_prelabels": 7,
+    "conversions": 8,
+    "retraits": 6,
+    "total_labels": 12,
+    "total_prelabels": 7
+  },
+  "12/2023": {
+    "new_labels": 7,
+    "new_prelabels": 5,
+    "conversions": 5,
+    "retraits": 0,
+    "total_labels": 12,
+    "total_prelabels": 5
+  },
+  "01/2024": {
+    "new_labels": 8,
+    "new_prelabels": 6,
+    "conversions": 6,
+    "retraits": 3,
+    "total_labels": 14,
+    "total_prelabels": 6
+  },
+  "02/2024": {
+    "new_labels": 9,
+    "new_prelabels": 6,
+    "conversions": 0,
+    "retraits": 3,
+    "total_labels": 9,
+    "total_prelabels": 6
+  },
+  "03/2024": {
+    "new_labels": 2,
+    "new_prelabels": 7,
+    "conversions": 4,
+    "retraits": 3,
+    "total_labels": 6,
+    "total_prelabels": 7
+  },
+  "04/2024": {
+    "new_labels": 9,
+    "new_prelabels": 5,
+    "conversions": 5,
+    "retraits": 2,
+    "total_labels": 14,
+    "total_prelabels": 5
+  },
+  "05/2024": {
+    "new_labels": 9,
+    "new_prelabels": 5,
+    "conversions": 5,
+    "retraits": 2,
+    "total_labels": 14,
+    "total_prelabels": 5
+  },
+  "06/2024": {
+    "new_labels": 11,
+    "new_prelabels": 5,
+    "conversions": 3,
+    "retraits": 2,
+    "total_labels": 14,
+    "total_prelabels": 5
+  },
+  "07/2024": {
+    "new_labels": 4,
+    "new_prelabels": 7,
+    "conversions": 2,
+    "retraits": 3,
+    "total_labels": 6,
+    "total_prelabels": 7
+  },
+  "08/2024": {
+    "new_labels": 5,
+    "new_prelabels": 6,
+    "conversions": 6,
+    "retraits": 1,
+    "total_labels": 11,
+    "total_prelabels": 6
+  },
+  "09/2024": {
+    "new_labels": 6,
+    "new_prelabels": 9,
+    "conversions": 5,
+    "retraits": 1,
+    "total_labels": 11,
+    "total_prelabels": 9
+  },
+  "10/2024": {
+    "new_labels": 9,
+    "new_prelabels": 7,
+    "conversions": 6,
+    "retraits": 3,
+    "total_labels": 15,
+    "total_prelabels": 7
+  },
+  "11/2024": {
+    "new_labels": 12,
+    "new_prelabels": 7,
+    "conversions": 2,
+    "retraits": 2,
+    "total_labels": 14,
+    "total_prelabels": 7
+  },
+  "12/2024": {
+    "new_labels": 10,
+    "new_prelabels": 4,
+    "conversions": 6,
+    "retraits": 1,
+    "total_labels": 16,
+    "total_prelabels": 4
+  },
+  "01/2025": {
+    "new_labels": 8,
+    "new_prelabels": 2,
+    "conversions": 5,
+    "retraits": 2,
+    "total_labels": 13,
+    "total_prelabels": 2
+  },
+  "02/2025": {
+    "new_labels": 9,
+    "new_prelabels": 9,
+    "conversions": 4,
+    "retraits": 4,
+    "total_labels": 13,
+    "total_prelabels": 9
+  },
+  "03/2025": {
+    "new_labels": 6,
+    "new_prelabels": 5,
+    "conversions": 0,
+    "retraits": 1,
+    "total_labels": 6,
+    "total_prelabels": 5
+  },
+  "04/2025": {
+    "new_labels": 5,
+    "new_prelabels": 5,
+    "conversions": 8,
+    "retraits": 7,
+    "total_labels": 13,
+    "total_prelabels": 5
+  },
+  "05/2025": {
+    "new_labels": 10,
+    "new_prelabels": 13,
+    "conversions": 3,
+    "retraits": 1,
+    "total_labels": 13,
+    "total_prelabels": 13
+  },
+  "06/2025": {
+    "new_labels": 7,
+    "new_prelabels": 8,
+    "conversions": 5,
+    "retraits": 1,
+    "total_labels": 12,
+    "total_prelabels": 8
+  },
+  "07/2025": {
+    "new_labels": 4,
+    "new_prelabels": 8,
+    "conversions": 5,
+    "retraits": 6,
+    "total_labels": 9,
+    "total_prelabels": 8
+  },
+  "08/2025": {
+    "new_labels": 6,
+    "new_prelabels": 9,
+    "conversions": 9,
+    "retraits": 4,
+    "total_labels": 15,
+    "total_prelabels": 9
+  },
+  "09/2025": {
+    "new_labels": 1,
+    "new_prelabels": 10,
+    "conversions": 6,
+    "retraits": 4,
+    "total_labels": 7,
+    "total_prelabels": 10
+  },
+  "10/2025": {
+    "new_labels": 7,
+    "new_prelabels": 12,
+    "conversions": 10,
+    "retraits": 3,
+    "total_labels": 17,
+    "total_prelabels": 12
+  },
+  "11/2025": {
+    "new_labels": 7,
+    "new_prelabels": 3,
+    "conversions": 8,
+    "retraits": 2,
+    "total_labels": 15,
+    "total_prelabels": 3
+  },
+  "12/2025": {
+    "new_labels": 6,
+    "new_prelabels": 6,
+    "conversions": 10,
+    "retraits": 5,
+    "total_labels": 16,
+    "total_prelabels": 6
+  },
+  "01/2026": {
+    "new_labels": 3,
+    "new_prelabels": 7,
+    "conversions": 7,
+    "retraits": 5,
+    "total_labels": 10,
+    "total_prelabels": 7
+  },
+  "02/2026": {
+    "new_labels": 9,
+    "new_prelabels": 3,
+    "conversions": 11,
+    "retraits": 2,
+    "total_labels": 20,
+    "total_prelabels": 3
+  },
+  "03/2026": {
+    "new_labels": 10,
+    "new_prelabels": 7,
+    "conversions": 3,
+    "retraits": 6,
+    "total_labels": 13,
+    "total_prelabels": 7
+  }
+}

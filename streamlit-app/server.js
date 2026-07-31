@@ -30,6 +30,19 @@ app.get('/api/analysis', (req, res) => {
   } catch { res.json({ error: 'not available' }); }
 });
 
+app.get('/api/corrections', (req, res) => {
+  res.json(JSON.parse(fs.readFileSync(path.join(DATA, 'corrections.json'))));
+});
+
+app.get('/api/corrections-md', (req, res) => {
+  const filepath = path.join(__dirname, '..', 'corrections.md');
+  if (fs.existsSync(filepath)) {
+    res.json({ filename: 'corrections.md', content: fs.readFileSync(filepath, 'utf8') });
+  } else {
+    res.status(404).json({ error: 'not found' });
+  }
+});
+
 app.get('/api/session-pdfs', (req, res) => {
   const dir = path.join(DATA, 'session-pdfs');
   res.json(fs.readdirSync(dir).filter(f => f.endsWith('.pdf')).sort());
