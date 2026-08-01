@@ -269,6 +269,120 @@
       main { padding: 12px; }
       .page-header h1 { font-size: 1.3em; }
     }
+
+    /* =====================================================
+       SAAS PRODUCT UI SYSTEM — tokens & refinement
+       ===================================================== */
+    :root {
+      --font-sans: 'Inter', 'Segoe UI', Arial, sans-serif;
+      --font-mono: 'SFMono-Regular', Consolas, Menlo, monospace;
+
+      --text-xs: 0.75rem; --text-sm: 0.85rem; --text-base: 0.95rem;
+      --text-md: 1.05rem; --text-lg: 1.25rem; --text-xl: 1.5rem; --text-2xl: 1.85rem;
+
+      --space-1: .25rem; --space-2: .5rem; --space-3: .75rem; --space-4: 1rem;
+      --space-5: 1.25rem; --space-6: 1.5rem; --space-8: 2rem; --space-10: 2.5rem;
+
+      --radius-sm: 8px; --radius-md: 10px; --radius-lg: 14px; --radius-full: 999px;
+
+      --bg-canvas: #f4f6fa; --bg-surface: #ffffff; --bg-subtle: #f6f8fb;
+      --border-subtle: #e7eaef; --border-strong: #d3d9e2;
+
+      --text-primary: #16182b; --text-secondary: #4a5168; --text-tertiary: #8b91a5;
+
+      --brand-navy: #1a1a2e; --brand-navy-2: #16213e; --brand-accent: #e94560;
+      --brand-blue: #0f3460;
+
+      --success: #16a34a; --warning: #ea580c; --danger: #e94560; --info: #1d4ed8; --purple: #7c3aed;
+
+      --shadow-soft: 0 1px 2px rgba(22,24,43,.05), 0 6px 16px rgba(22,24,43,.05);
+      --shadow-medium: 0 2px 6px rgba(22,24,43,.06), 0 12px 28px rgba(22,24,43,.07);
+      --shadow-strong: 0 8px 20px rgba(22,24,43,.10), 0 24px 48px rgba(22,24,43,.08);
+
+      --focus-ring: 0 0 0 3px rgba(233,69,96,.22);
+    }
+
+    body { background: var(--bg-canvas); font-feature-settings: 'cv02','cv03','cv04'; }
+
+    /* Focus visibility (accessibility) */
+    a:focus-visible, button:focus-visible, input:focus-visible, [tabindex]:focus-visible {
+      outline: none; box-shadow: var(--focus-ring); border-radius: 6px;
+    }
+
+    /* Page header typography */
+    .page-header h1 { font-size: var(--text-2xl); font-weight: 700; letter-spacing: -0.02em; color: var(--text-primary); }
+    .page-header p { color: var(--text-secondary); font-size: var(--text-sm); margin-top: 6px; }
+
+    /* Cards */
+    .kpi-card, .chart-card, .doc-card, .degree-card, .skill-card, .profile-card, .bio-card, .partner-card, .pdf-card {
+      box-shadow: var(--shadow-soft);
+      border: 1px solid var(--border-subtle);
+    }
+    .kpi-card:hover, .chart-card:hover, .doc-card:hover { box-shadow: var(--shadow-medium); }
+    .kpi-card { position: relative; overflow: hidden; }
+    .kpi-card::before { content: ''; position: absolute; inset: 0 auto 0 0; width: 4px; background: var(--kpi-accent, var(--brand-blue)); opacity: .85; }
+    .kpi-card.red { --kpi-accent: var(--danger); }
+    .kpi-card.blue { --kpi-accent: var(--brand-blue); }
+    .kpi-card.green { --kpi-accent: var(--success); }
+    .kpi-card.orange { --kpi-accent: var(--warning); }
+    .kpi-card.purple { --kpi-accent: var(--purple); }
+    .kpi-card .label { color: var(--text-tertiary); font-weight: 600; font-size: 0.72rem; letter-spacing: 0.06em; }
+    .kpi-card .value { letter-spacing: -0.02em; }
+    .kpi-card .sub { color: var(--text-secondary); }
+
+    .chart-card h3 { font-size: 0.95rem; font-weight: 600; color: var(--text-primary); margin-bottom: 14px; }
+
+    /* Tables */
+    table { font-size: 0.82rem; }
+    th { background: var(--bg-subtle); color: var(--text-secondary); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; border-bottom: 1px solid var(--border-strong); }
+    td { border-bottom: 1px solid var(--border-subtle); }
+    tr:hover td { background: #f8fafc; }
+
+    /* Badges */
+    .badge { font-size: 0.72rem; letter-spacing: 0.02em; }
+    .badge-green { background: #dcfce7; color: #15803d; }
+    .badge-red { background: #ffe4e6; color: #be123c; }
+    .badge-blue { background: #dbeafe; color: #1d4ed8; }
+
+    /* Buttons */
+    .btn { font-weight: 600; letter-spacing: 0.01em; transition: all 0.15s; }
+    .btn-red { background: var(--danger); }
+    .btn-red:hover { background: #d63851; box-shadow: var(--shadow-soft); }
+    .btn-outline { border-color: var(--brand-navy-2); color: var(--brand-navy-2); }
+    .btn-outline:hover { background: var(--brand-navy-2); color: white; }
+
+    /* Search input */
+    .search-bar input { border-color: var(--border-subtle); box-shadow: var(--shadow-soft); }
+    .search-bar input:focus { border-color: var(--brand-accent); box-shadow: var(--focus-ring); }
+
+    /* Tabs */
+    .tab { border-radius: var(--radius-sm); }
+    .tab.active { background: var(--brand-navy-2); }
+
+    /* Doc rendering */
+    .doc-card .doc-body .rendered { color: var(--text-primary); }
+    .doc-card .doc-body .rendered h1, .doc-card .doc-body .rendered h2, .doc-card .doc-body .rendered h3 { color: var(--brand-navy-2); letter-spacing: -0.01em; }
+    .doc-card .doc-body .rendered strong { color: var(--brand-accent); }
+    .doc-card .doc-body .rendered table th, .doc-card .doc-body .rendered table td { font-size: 0.85rem; }
+
+    /* Summary box */
+    .summary-box { border-radius: var(--radius-md); box-shadow: var(--shadow-soft); }
+
+    /* Livrables page — 2 rectangles principaux */
+    .pdf-card.livrable-main .thumb { height: 160px; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); }
+    .pdf-card.livrable-main .thumb .livrable-icon { font-size: 3.4em; }
+    .pdf-card.livrable-main .body .name { font-size: 1.02em; }
+    .pdf-card .thumb .livrable-icon { font-size: 2.4em; display: block; }
+    .pdf-card .thumb { position: relative; display: flex; align-items: center; justify-content: center; }
+    .pdf-card .thumb .badge { position: absolute; top: 10px; right: 10px; }
+    .pdf-card .body .name { color: var(--text-primary); }
+    .pdf-card .body .meta { color: var(--text-secondary); }
+
+    /* Scrollbars */
+    *::-webkit-scrollbar { width: 10px; height: 10px; }
+    *::-webkit-scrollbar-track { background: transparent; }
+    *::-webkit-scrollbar-thumb { background: #c9cfdb; border-radius: 999px; border: 2px solid var(--bg-canvas); }
+    *::-webkit-scrollbar-thumb:hover { background: #aab2c2; }
   </style>
 </head>
 <body>
@@ -302,6 +416,8 @@
           <a href="#" data-page="pdfs">PDFs Sessions</a>
           <a href="#" data-page="annual-pdfs">PDFs Annuels</a>
           <a href="#" data-page="corrections">Corrections</a>
+          <a href="#" data-page="fiche">Fiche de Cadrage</a>
+          <a href="#" data-page="livrables">Livrables</a>
         </div>
       </div>
       <a href="#" data-page="about">👤 À propos</a>
@@ -498,6 +614,32 @@
         <div class="doc-body"><div class="rendered" id="corrMdRender">Chargement...</div></div>
       </div>
     </div>
+  </section>
+
+  <!-- FICHE DE CADRAGE -->
+  <section id="page-fiche">
+    <div class="page-header"><h1>Fiche de Cadrage</h1><p>Étude stratégique sur le Startup Act tunisien · projet national Livre Blanc Startup Act</p></div>
+    <div class="doc-card">
+      <div class="doc-header">
+        <h3>📄 Fiche de cadrage — Étude stratégique</h3>
+        <a href="/api/livrables/0_fiche_cadrage_etude_strategique_startup_act.pdf" target="_blank" rel="noopener" class="btn btn-outline" style="font-size:0.8em;text-decoration:none">↗ Ouvrir le PDF</a>
+      </div>
+      <div class="doc-body"><div class="rendered" id="ficheRender">Chargement...</div></div>
+    </div>
+  </section>
+
+  <!-- LIVRABLES -->
+  <section id="page-livrables">
+    <div class="page-header"><h1>Livrables — Axe 1</h1><p>Les rendus de l'axe AE1 · cliquez pour consulter les PDF · Charte de cadrage, Plan de veille, Grille d'évaluation, Guide méthodologique</p></div>
+    <div id="livrableViewer" style="display:none;margin-bottom:20px">
+      <div style="display:flex;gap:8px;margin-bottom:8px">
+        <button onclick="closeLivrable()" class="btn btn-red">✕ Fermer</button>
+        <button onclick="document.getElementById('livrableFrame').contentWindow.print()" class="btn btn-outline">🖨 Imprimer</button>
+        <a id="livrableDownload" href="#" download class="btn btn-outline">⬇ Télécharger</a>
+      </div>
+      <iframe id="livrableFrame"></iframe>
+    </div>
+    <div class="pdf-grid" id="livrableGrid"></div>
   </section>
 
   <!-- INSIGHTS -->
@@ -732,6 +874,8 @@ async function init() {
     renderAnnualPdfs();
     renderParcours();
     renderCorrections();
+    renderFiche();
+    renderLivrables();
     renderInsights();
 
     // Auto-load first report
@@ -1347,6 +1491,51 @@ function exportExcel(type) {
   const wb = XLSX.utils.book_new();
   XLSX.utils.book_append_sheet(wb, ws, 'Données');
   XLSX.writeFile(wb, filename);
+}
+
+// ===== FICHE DE CADRAGE =====
+async function renderFiche() {
+  const box = document.getElementById('ficheRender');
+  try {
+    const r = await fetch('/api/livrables/0_fiche_cadrage_etude_strategique_startup_act.md');
+    const data = await r.json();
+    box.innerHTML = (typeof marked !== 'undefined') ? marked.parse(data.content || '') : '<pre>' + (data.content || '') + '</pre>';
+  } catch(e) { box.innerHTML = '<p style="color:#999">Erreur chargement : ' + e.message + '</p>'; }
+}
+
+// ===== LIVRABLES =====
+const LIVRABLES_META = [
+  { file: '1_charte_cadrage_AE1_etat_des_lieux_quantitatif.pdf', icon: '📋', name: 'Charte de Cadrage — Axe 1', sub: 'État des lieux quantitatif du Startup Act', tag: 'AE1', main: true },
+  { file: '2_plan_de_veille_AE1_etat_des_lieux_quantitatif.pdf', icon: '🗺️', name: 'Plan de veille — Axe 1', sub: '7 questions · 7 colonnes · indicateurs clés', tag: 'AE1', main: true },
+  { file: '3_grille_evaluation_charte_cadrage.pdf', icon: '✔️', name: "Grille d'évaluation qualité", sub: '100/100 · validation immédiate', tag: 'Qualité', main: false },
+  { file: '4_guide_methodologique_charte_cadrage.pdf', icon: '📘', name: 'Guide méthodologique', sub: 'Conseils de rédaction · erreurs à éviter', tag: 'Méthode', main: false }
+];
+
+function renderLivrables() {
+  const grid = document.getElementById('livrableGrid');
+  grid.innerHTML = LIVRABLES_META.map(d => `
+    <div class="pdf-card ${d.main ? 'livrable-main' : ''}" onclick="openLivrable('${d.file}')">
+      <div class="thumb"><span class="livrable-icon">${d.icon}</span><span class="badge">PDF</span></div>
+      <div class="body">
+        <div class="name">${d.name}</div>
+        <div class="meta">${d.sub}</div>
+        <div class="stats"><span class="label">${d.tag}</span><span>PDF</span></div>
+      </div>
+    </div>`).join('');
+}
+
+function openLivrable(filename) {
+  const viewer = document.getElementById('livrableViewer');
+  viewer.style.display = 'block';
+  document.getElementById('livrableFrame').src = '/api/livrables/' + filename;
+  document.getElementById('livrableDownload').href = '/api/livrables/' + filename;
+  viewer.scrollIntoView({ behavior: 'smooth' });
+}
+
+function closeLivrable() {
+  const viewer = document.getElementById('livrableViewer');
+  viewer.style.display = 'none';
+  document.getElementById('livrableFrame').src = '';
 }
 
 // ===== HELPERS =====

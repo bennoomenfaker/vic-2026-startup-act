@@ -47,6 +47,20 @@ app.get('/api/corrections-md', (req, res) => {
   }
 });
 
+app.get('/api/livrables', (req, res) => {
+  const dir = path.join(__dirname, '..', 'livrables');
+  const files = fs.readdirSync(dir).filter(f => /\.(md|pdf|xlsx)$/.test(f)).sort();
+  res.json(files.map(f => ({ file: f, ext: path.extname(f) })));
+});
+
+app.get('/api/livrables/:filename', (req, res) => {
+  const filepath = path.join(__dirname, '..', 'livrables', path.basename(req.params.filename));
+  if (!fs.existsSync(filepath)) return res.status(404).json({ error: 'not found' });
+  if (filepath.endsWith('.pdf')) return res.sendFile(filepath);
+  if (filepath.endsWith('.xlsx')) return res.sendFile(filepath);
+  res.json({ filename: path.basename(filepath), content: fs.readFileSync(filepath, 'utf8') });
+});
+
 app.get('/api/session-pdfs', (req, res) => {
   const dir = path.join(DATA, 'session-pdfs');
   res.json(fs.readdirSync(dir).filter(f => f.endsWith('.pdf')).sort());
