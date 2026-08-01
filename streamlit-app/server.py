@@ -58,6 +58,12 @@ class Handler(http.server.SimpleHTTPRequestHandler):
             self._serve_pdf_thumbnail(path, annual=True)
         elif path.startswith('/api/docs/'):
             self._serve_doc(path)
+        elif path.startswith('/api/livrables/'):
+            self._serve_livrable(path)
+        elif path == '/api/livrables':
+            liv = os.path.join(BASE, '..', 'livrables')
+            files = sorted([f for f in os.listdir(liv) if f.endswith(('.md', '.pdf', '.xlsx'))])
+            self._send_json(None, data=[{'file': f, 'ext': os.path.splitext(f)[1]} for f in files])
         elif path == '/favicon.ico':
             self.send_response(204)
             self.end_headers()
@@ -183,6 +189,31 @@ class Handler(http.server.SimpleHTTPRequestHandler):
             self._send_json(None, data={'filename': filename, 'content': content})
         else:
             self._send_json(None, status=404, data={'error': 'not found'})
+
+    def _serve_livrable(self, path):
+        filename = os.path.basename(path.replace('/api/livrables/', ''))
+        filepath = os.path.join(BASE, '..', 'livrables', filename)
+        if not os.path.isfile(filepath):
+            self.send_error(404)
+            return
+        ext = os.path.splitext(filename)[1]
+        if ext == '.pdf':
+            self.send_response(200)
+            self.send_header('Content-Type', 'application/pdf')
+            self.send_header('Content-Length', str(os.path.getsize(filepath)))
+            self.end_headers()
+            with open(filepath, 'rb') as f:
+                self.wfile.write(f.read())
+        elif ext == '.xlsx':
+            self.send_response(200)
+            self.send_header('Content-Type', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')
+            self.end_headers()
+            with open(filepath, 'rb') as f:
+                self.wfile.write(f.read())
+        else:
+            with open(filepath, encoding='utf-8') as f:
+                content = f.read()
+            self._send_json(None, data={'filename': filename, 'content': content})
 
 
 if __name__ == '__main__':

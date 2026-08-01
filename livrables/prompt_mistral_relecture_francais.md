@@ -41,15 +41,20 @@ corriger** à partir des **PDF officiels** des 85 sessions.
 
 ## 2. Fichiers à analyser
 
-À lire en priorité :
+**Rendus principaux à relire et corriger :**
 1. `livrables/1_charte_cadrage_AE1_etat_des_lieux_quantitatif.md` — la charte de cadrage complétée (10 sections)
 2. `livrables/2_plan_de_veille_AE1_etat_des_lieux_quantitatif.md` — le plan de veille (tableau 7 colonnes + indicateurs)
 3. `livrables/2_plan_de_veille_AE1_etat_des_lieux_quantitatif.xlsx` — même contenu en tableau Excel
 
-Documents de référence pour vérifier la cohérence (lecture seule, ne pas les réécrire) :
-4. `corrections.md` — rapport détaillé des corrections (20 sessions, totaux 1324→1311 et 617→623)
-5. `tableau_sessions.md` — tableau complet des 85 sessions corrigées
-6. `public/data/parcours.json` — données de parcours prélabel→label (conversions, retraits)
+**Livrables complémentaires à relire (même niveau d'exigence) :**
+4. `livrables/0_fiche_cadrage_etude_strategique_startup_act.md` — fiche de cadrage générale du projet (contexte, équipe, objectifs, livrables, calendrier, risques)
+5. `livrables/3_grille_evaluation_charte_cadrage.md` — grille d'évaluation qualité de la charte (critères, pondérations, scores attendus)
+6. `livrables/4_guide_methodologique_charte_cadrage.md` — guide méthodologique sur la rédaction d'une charte de cadrage AE (bonnes pratiques VIC)
+
+**Documents de référence pour vérifier la cohérence (lecture seule, ne pas réécrire) :**
+7. `corrections.md` — rapport détaillé des corrections (20 sessions, totaux 1324→1311 et 617→623)
+8. `tableau_sessions.md` — tableau complet des 85 sessions corrigées
+9. `public/data/parcours.json` — données de parcours prélabel→label (conversions, retraits)
 
 ## 3. Ta mission
 
