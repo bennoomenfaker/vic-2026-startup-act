@@ -77,20 +77,21 @@ header = wb.add_format({'bold': True, 'bg_color': '#16213e', 'font_color': 'whit
 cell = wb.add_format({'text_wrap': True, 'valign': 'top', 'border': 1})
 cell_bold = wb.add_format({'bold': True, 'text_wrap': True, 'valign': 'top', 'border': 1})
 
-ws.merge_range('A1:G1', 'Plan de veille AE1 — État des lieux quantitatif', title)
-ws.merge_range('A2:G2',
+ws.merge_range('A1:G1', 'Axe 1 : État des lieux quantitatif du Startup Act', title)
+ws.merge_range('A2:G2', 'Plan de veille AE1 — État des lieux quantitatif', sub)
+ws.merge_range('A3:G3',
                'Projet national – Livre Blanc Startup Act · Responsable : Faker BEN NOOMEN · '
                'Équipe : classe VIC — MP 2ème année (ESEN × ISCAE Manouba) · Version 1.0 · Juillet 2026',
                sub)
 
 for c, h in enumerate(HEADERS):
-    ws.write(3, c, h, header)
+    ws.write(4, c, h, header)
 
-for r, row in enumerate(ROWS, start=4):
+for r, row in enumerate(ROWS, start=5):
     for c, val in enumerate(row):
         fmt = cell_bold if c == 0 else cell
         ws.write(r, c, val, fmt)
 
-ws.set_row(3, 28)
+ws.set_row(4, 28)
 wb.close()
 print('XLSX généré :', OUT)
