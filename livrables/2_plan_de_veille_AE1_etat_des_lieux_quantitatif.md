@@ -23,11 +23,11 @@
 |---|---|
 | Sessions analysées | 85 |
 | Candidatures | 1 824 |
-| Labels (corrigés, PDF officiels) | **1 311** *(publié : 1 324)* |
+| Labels (corrigés — source : PDF officiels) | **1 311** *(publié : 1 324)* |
 | Prélabels (corrigés) | **623** *(publié : 617)* |
 | Conversions prélabel → label | 502 |
 | Taux de conversion des prélabels | **80,6 %** |
 | Part des labels issus de conversions | **38,3 %** |
 | Retraits de labels | **140** |
-| Sessions corrigées / vérifiées | 20 / 85 · vérification 85/85 |
+| Sessions corrigées / vérifiées (20/85) | vérification 85/85 |
 | Taux d'acceptation | 61,7 % (2019) → 36,3 % (2025) |

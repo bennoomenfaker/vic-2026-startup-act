@@ -10,5 +10,7 @@ __pycache__/
 *.pyc
 # Ignore le fichier de prompt Freebuff
 prompt_freebuff.md
+# Ignore le fichier de prompt Mistral dans livrables
+livrables/prompt_mistral.md
 
 

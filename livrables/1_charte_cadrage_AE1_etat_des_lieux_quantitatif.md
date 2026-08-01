@@ -30,14 +30,14 @@
 
 **Votre réponse :**
 
-Le **Startup Act tunisien** (Loi n° 2018-20 du 17 avril 2018) a mis en place un dispositif de **labellisation des startups** qui conditionne l'accès aux avantages fiscaux, sociaux et aux dispositifs de financement. Depuis 2019, **85 sessions de labellisation** ont été organisées (période 2019-2026), et le site officiel **startup.gov.tn** publie pour chacune le nombre de candidatures, de labels, de prélabels et les taux associés.
+Le **Startup Act tunisien** (Loi n° 2018-20 du 17 avril 2018) a mis en place un dispositif de **labellisation des startups** qui conditionne l'accès aux avantages fiscaux, sociaux et aux dispositifs de financement. Depuis 2019, **85 sessions de labellisation** ont été organisées (période 2019-2026), et le site officiel **startup.gov.tn** publie, pour chaque session, le nombre de candidatures, de labels, de prélabels ainsi que les taux associés.
 
-**Situation actuelle.** Notre examen de ces données a révélé qu'elles présentent des **incohérences et des erreurs de comptage** : **20 sessions sur 85** affichent des valeurs erronées de labels et/ou de prélabels. Par exemple, le tableau `/sessions` annonce **1 324 labels** alors que l'extraction des PDF officiels aboutit à **1 311 labels** ; les prélabels publiés (**617**) diffèrent de la réalité (**623**). Ces écarts traduisent des données **mal gérées, mal interprétées, mal comprises et mal analysées**, qui faussent la mesure réelle de l'impact du programme.
+**Situation actuelle.** Notre examen de ces données a révélé qu'elles présentent des **incohérences et des erreurs de comptage** : **20 sessions sur 85** affichent des valeurs erronées de labels et/ou de prélabels. Par exemple, le tableau `/sessions` annonce **1 324 labels** alors que l'extraction des PDF officiels aboutit à **1 311 labels** ; les prélabels publiés (**617**) diffèrent de la réalité (**623**). Ces écarts traduisent des données **mal gérées, mal interprétées, mal comprises ou mal analysées**, qui faussent la mesure réelle de l'impact du programme.
 
 **Pourquoi cet axe est-il important ?** Les décideurs publics (ANPR, ministères, institutions de financement), les investisseurs et les chercheurs s'appuient sur ces chiffres pour évaluer le dispositif, orienter les politiques d'accompagnement et comparer l'écosystème startup tunisien dans le temps. Des indicateurs erronés peuvent conduire à de mauvaises décisions et à une mauvaise perception de l'efficacité du programme.
 
 **Principaux enjeux.**
-1. Fiabiliser le référentiel chiffré du Startup Act (labels, prélabels, conversions, retraits) ;
+1. Fiabiliser le référentiel chiffré du Startup Act (labels, prélabels, conversions et retraits) ;
 2. Mesurer l'impact réel et l'évolution du dispositif sur 2019-2026 ;
 3. Garantir la transparence et la reproductibilité des analyses ;
 4. Éclairer les recommandations du Livre Blanc par des indicateurs exacts et audités.
@@ -204,7 +204,7 @@ Avant de commencer la collecte, vérifier que :
 **Avis du Responsable Qualité**
 ☒ **Validé** ☐ À compléter
 
-**Commentaires :** le référentiel des 85 sessions est établi à partir des PDF officiels et vérifié (audit indépendant à 0 divergence ; 3 sessions complétées manuellement). Les indicateurs (labels, prélabels, conversions, retraits, taux) sont calculés de manière reproductible à partir de `public/data/`.
+**Commentaires :** le référentiel des 85 sessions est établi à partir des PDF officiels et vérifié (audit indépendant à 0 divergence ; 3 sessions vérifiées manuellement). Les indicateurs (labels, prélabels, conversions, retraits, taux) sont calculés de manière reproductible à partir de `public/data/`.
 
 **Signature :** **Faker BEN NOOMEN** — Responsable de l'axe AE1 — Juillet 2026
 
