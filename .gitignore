@@ -8,5 +8,7 @@ coverage/
 !.env.example
 __pycache__/
 *.pyc
+# Ignore le fichier de prompt Freebuff
+prompt_freebuff.md
 
 
