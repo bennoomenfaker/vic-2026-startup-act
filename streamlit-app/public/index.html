@@ -341,8 +341,6 @@
     .nav-links > a:hover, .nav-links > a.active, .dropdown-toggle:hover, .dropdown.active-parent > .dropdown-toggle { color: #fff; background: rgba(255,255,255,.05); }
     .dropdown-toggle { border-bottom: 2px solid transparent; }
     .dropdown.active-parent > .dropdown-toggle { border-bottom-color: var(--brand-accent); }
-    .theme-toggle { background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.14); color: #fff; width: 36px; height: 36px; border-radius: 10px; cursor: pointer; font-size: .95rem; display: inline-flex; align-items: center; justify-content: center; transition: var(--transition); }
-    .theme-toggle:hover { background: rgba(255,255,255,.16); transform: translateY(-1px); }
     .dropdown-menu { background: rgba(24,29,56,.98); border: 1px solid rgba(255,255,255,.08); border-radius: var(--radius-md); box-shadow: 0 20px 44px rgba(5,8,20,.5); padding: 6px; margin-top: 8px; backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
     .dropdown-menu a { color: #c3cadf; font-size: .82rem; padding: 9px 12px; border-radius: 8px; display: flex; align-items: center; gap: 8px; transition: var(--transition); }
     .dropdown-menu a:hover { background: rgba(233,69,96,.16); color: #fff; }
@@ -512,43 +510,6 @@
     *::-webkit-scrollbar-thumb { background: #c7cedd; border-radius: 999px; border: 2.5px solid var(--bg-canvas); }
     *::-webkit-scrollbar-thumb:hover { background: #a9b2c6; }
 
-    /* ============ Dark theme ============ */
-    html.dark { color-scheme: dark; }
-    html.dark {
-      --bg-canvas: #0e101c; --bg-surface: #161927; --bg-subtle: #1b1f31; --bg-inset: #232840;
-      --border-subtle: #2a3047; --border-strong: #3a4260;
-      --text-primary: #eef0f8; --text-secondary: #a9b1c9; --text-tertiary: #7e86a0;
-      --shadow-xs: 0 1px 2px rgba(0,0,0,.4);
-      --shadow-soft: 0 1px 2px rgba(0,0,0,.3), 0 4px 12px rgba(0,0,0,.35);
-      --shadow-medium: 0 2px 6px rgba(0,0,0,.4), 0 12px 28px rgba(0,0,0,.4);
-      --shadow-strong: 0 8px 20px rgba(0,0,0,.5), 0 24px 48px rgba(0,0,0,.45);
-    }
-    html.dark .summary-box { background: linear-gradient(135deg, #141d33, #161927); border-left-color: #3b82f6; }
-    html.dark .insight-card { background: linear-gradient(135deg, #251620, #161927); }
-    html.dark .badge-green { background: rgba(22,163,74,.16); color: #4ade80; }
-    html.dark .badge-red { background: rgba(233,69,96,.16); color: #fda4af; }
-    html.dark .badge-blue { background: rgba(59,130,246,.16); color: #93c5fd; }
-    html.dark td.cell-wrong { background: rgba(233,69,96,.18); color: #fca5a5; }
-    html.dark td.cell-fixed { background: rgba(22,163,74,.18); color: #86efac; }
-    html.dark tr.corr-row { outline-color: rgba(74,222,128,.5); }
-    html.dark th { background: var(--bg-inset); }
-    html.dark tbody tr:nth-child(even) td { background: rgba(255,255,255,.015); }
-    html.dark tbody tr:hover td, html.dark tbody tr:nth-child(even):hover td { background: rgba(255,255,255,.04); }
-    html.dark .search-bar input { color: var(--text-primary); }
-    html.dark .search-bar input::placeholder { color: var(--text-tertiary); }
-    html.dark .btn-outline { background: transparent; color: #c7cedf; }
-    html.dark .kpi-card.blue .value { color: #6ea8ff; }
-    html.dark .kpi-card.orange .value { color: #fb923c; }
-    html.dark .kpi-card.purple .value { color: #c4a5fd; }
-    html.dark .kpi-card.green .value { color: #4ade80; }
-    html.dark .kpi-card.red .value { color: #ff8fa3; }
-    html.dark .bio-card p, html.dark .bio-card li, html.dark .partner-card .p-desc, html.dark .insight-card p { color: var(--text-secondary); }
-    html.dark .bio-card h3, html.dark .skill-card h4 { color: #8ab4ff; }
-    html.dark .profile-card h2, html.dark .degree-card .d-title, html.dark .skill-card .chip, html.dark .partner-card h4, html.dark .profile-links a { color: var(--text-primary); }
-    html.dark .degree-card .d-year, html.dark .skill-card .chip { color: var(--text-tertiary); }
-    html.dark .profile-links a:hover, html.dark .chip:hover { color: #fff; }
-    html.dark .empty-state { background: var(--bg-subtle); }
-    html.dark .doc-card .doc-header { background: var(--bg-inset); }
 
     /* ============ Responsive refinements ============ */
     @media (max-width: 900px) {
@@ -564,7 +525,6 @@
       .chart-card, .kpi-card { padding: 16px; }
       nav .brand { font-size: .85rem; }
       nav .brand .logo-mark { width: 26px; height: 26px; border-radius: 7px; }
-      .theme-toggle { width: 32px; height: 32px; }
     }
     @media (prefers-reduced-motion: reduce) {
       *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
@@ -611,10 +571,7 @@
       </div>
       <a href="#" data-page="about">👤 À propos</a>
     </div>
-    <div style="display:flex;align-items:center;gap:8px">
-      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Basculer le thème clair / sombre" title="Thème clair / sombre">🌙</button>
-      <button class="nav-toggle" id="navToggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
-    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
   </div>
 </nav>
 
@@ -778,7 +735,7 @@
     <div class="tabs" id="corrTabs">
       <button class="tab active" data-corrtab="compare">Tableaux comparatifs</button>
       <button class="tab" data-corrtab="detail">Détail des corrections</button>
-      <button class="tab" data-corrtab="md">Rapport détaillé (corrections.md)</button>
+      <button class="tab" data-corrtab="md">Rapport détaillé</button>
     </div>
 
     <div id="corr-compare">
@@ -802,10 +759,7 @@
     </div>
 
     <div id="corr-md" style="display:none">
-      <div class="doc-card">
-        <div class="doc-header"><h3>📄 corrections.md</h3><span style="font-size:0.8em;color:#888">rapport complet</span></div>
-        <div class="doc-body"><div class="rendered" id="corrMdRender">Chargement...</div></div>
-      </div>
+      <div id="corrReport"></div>
     </div>
   </section>
 
@@ -1038,43 +992,6 @@ function decoratePage(page) {
   });
 }
 
-/* Theme (clair / sombre) */
-const CHART_DARK_MAP = { '#0f3460': '#5b8def', '#e94560': '#ff6b81', '#16a34a': '#4ade80', '#ea580c': '#fb923c', '#7c3aed': '#a78bfa', '#0891b2': '#22d3ee', '#ca8a04': '#fbbf24', '#be185d': '#f472b6', '#b91c1c': '#f87171', '#65a30d': '#a3e635', '#0d9488': '#2dd4bf', '#9333ea': '#c084fc', '#db2777': '#f472b6', '#2563eb': '#60a5fa', '#c026d3': '#e879f9', '#059669': '#34d399', '#d97706': '#f59e0b', '#dc2626': '#f87171', '#4f46e5': '#818cf8', 'rgba(233,69,96,0.1)': 'rgba(255,107,129,0.16)' };
-const CHART_LIGHT_MAP = {};
-Object.entries(CHART_DARK_MAP).forEach(([k, v]) => { CHART_LIGHT_MAP[v] = k; });
-
-function mapChartColors(dark) {
-  if (!window.Chart) return;
-  Object.values(Chart.instances || {}).forEach(chart => {
-    const map = dark ? CHART_DARK_MAP : CHART_LIGHT_MAP;
-    chart.data.datasets.forEach(ds => {
-      ['backgroundColor', 'borderColor', 'pointBackgroundColor', 'hoverBackgroundColor'].forEach(k => {
-        const v = ds[k];
-        if (Array.isArray(v)) ds[k] = v.map(c => map[c] || c);
-        else if (typeof v === 'string') ds[k] = map[v] || v;
-      });
-    });
-    chart.update();
-  });
-}
-
-function applyTheme(dark) {
-  document.documentElement.classList.toggle('dark', dark);
-  localStorage.setItem('sa-theme', dark ? 'dark' : 'light');
-  const btn = document.getElementById('themeToggle');
-  if (btn) btn.textContent = dark ? '☀️' : '🌙';
-  if (window.Chart) { Chart.defaults.color = dark ? '#aab2c6' : '#4b5168'; }
-  mapChartColors(dark);
-}
-
-(function initTheme() {
-  const saved = localStorage.getItem('sa-theme');
-  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-  applyTheme(saved ? saved === 'dark' : prefersDark);
-  document.getElementById('themeToggle')?.addEventListener('click', () => {
-    applyTheme(!document.documentElement.classList.contains('dark'));
-  });
-})();
 
 function switchPage(page) {
   document.querySelectorAll('nav a[data-page]').forEach(l => l.classList.remove('active'));
@@ -1111,7 +1028,7 @@ async function init() {
     // Design system init
     if (window.Chart) {
       Chart.defaults.font.family = "'Inter', 'Segoe UI', Arial, sans-serif";
-      Chart.defaults.color = document.documentElement.classList.contains('dark') ? '#aab2c6' : '#4b5168';
+      Chart.defaults.color = '#4b5168';
     }
     const navEl = document.querySelector('nav');
     const onScroll = () => navEl.classList.toggle('scrolled', window.scrollY > 6);
@@ -1740,16 +1657,48 @@ function renderCorrections() {
     });
   });
 
-  // load corrections.md
-  fetch('/api/corrections-md').then(r => r.json()).then(d => {
-    const el = document.getElementById('corrMdRender');
-    if (typeof marked !== 'undefined') {
-      el.innerHTML = marked.parse(d.content || '');
-      wrapMdTables(el);
-    } else {
-      el.innerHTML = '<pre style="white-space:pre-wrap;font-size:0.85em">' + (d.content||'').replace(/</g,'&lt;') + '</pre>';
-    }
-  }).catch(() => { document.getElementById('corrMdRender').innerHTML = '<p style="color:#999">Rapport indisponible.</p>'; });
+  renderCorrReport();
+}
+
+// ===== RAPPORT DÉTAILLÉ (natif HTML/CSS/JS — responsive) =====
+function renderCorrReport() {
+  const data = DATA.corrections;
+  const box = document.getElementById('corrReport');
+  if (!box) return;
+  if (!data) {
+    box.innerHTML = '<div class="empty-state">Rapport indisponible.</div>';
+    return;
+  }
+  const m = data.meta;
+  const rows = data.corrections.map(c => `
+    <tr class="corr-row">
+      <td><strong>${c.session}</strong></td>
+      <td>${c.candidatures}</td>
+      <td><span class="badge badge-red">${c.old.labels}</span> → <span class="badge badge-green">${c.new.labels}</span></td>
+      <td><span class="badge badge-red">${c.old.preLabels}</span> → <span class="badge badge-green">${c.new.preLabels}</span></td>
+      <td>${fmtTaux(c.new.tauxExact)} → <b>${c.new.taux}%</b></td>
+      <td style="font-size:.85em">${c.reason}</td>
+    </tr>`).join('');
+  box.innerHTML = `
+    <div class="summary-box" style="margin-bottom:20px">
+      <strong>📌 Contexte :</strong> le tableau <code>/sessions</code> de <code>startup.gov.tn</code> contenait des
+      valeurs erronées (labels/prélabels mal comptés sur ${m.corrected} sessions sur ${m.totalSessions}). Les données ont été
+      ré-extraites des <strong>PDF officiels</strong> par un parseur positionnel (v7), auditées indépendamment
+      (0 divergence) et vérifiées manuellement (3 scans vectoriels).
+    </div>
+    <div class="metric-grid" style="margin-bottom:20px">
+      <div class="metric-card"><div class="m-label">Sessions vérifiées</div><div class="m-value">${m.totalSessions}</div></div>
+      <div class="metric-card"><div class="m-label">Sessions corrigées</div><div class="m-value">${m.corrected}</div></div>
+      <div class="metric-card"><div class="m-label">Labels (avant → après)</div><div class="m-value">${m.totalsOld.labels} → ${m.totalsNew.labels}</div></div>
+      <div class="metric-card"><div class="m-label">Pré-Labels (avant → après)</div><div class="m-value">${m.totalsOld.preLabels} → ${m.totalsNew.preLabels}</div></div>
+    </div>
+    <div class="chart-card">
+      <h3>📄 Détail des ${m.corrected} corrections — valeurs fausses (scrapé) → vraies (PDF officiels)</h3>
+      <div style="overflow-x:auto"><table>
+        <thead><tr><th>Session</th><th>Cand.</th><th>Labels</th><th>Pré-Labels</th><th>Taux</th><th>Raison (PDF v7)</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table></div>
+    </div>`;
 }
 
 // ===== MARKDOWN TABLES (responsive) =====
@@ -1843,8 +1792,8 @@ async function renderFiche() {
 
 // ===== LIVRABLES =====
 const LIVRABLES_META = [
-  { file: 'CHARTE DE CADRAGE DE Veille_ AE1- État des lieux quantitatif.docx', icon: '📋', name: 'Charte de Cadrage de Veille — Axe 1', sub: 'État des lieux quantitatif · document Word officiel', tag: 'AE1', main: true },
-  { file: 'Plan de veille AE1- État des lieux quantitatif.xlsx', icon: '🗺️', name: 'Plan de veille — Axe 1', sub: 'Tableau Excel officiel · 7 colonnes · indicateurs clés', tag: 'AE1', main: true },
+  { file: 'CHARTE DE CADRAGE DE Veille_ AE1- État des lieux quantitatif.docx', pdf: 'CHARTE DE CADRAGE DE Veille_ AE1- État des lieux quantitatif.pdf', icon: '📋', name: 'Charte de Cadrage de Veille — Axe 1', sub: 'État des lieux quantitatif · aperçu PDF intégré · ⬇ Word original', tag: 'AE1', main: true },
+  { file: 'Plan de veille AE1- État des lieux quantitatif.xlsx', pdf: 'Plan de veille AE1- État des lieux quantitatif.pdf', icon: '🗺️', name: 'Plan de veille — Axe 1', sub: 'Tableau Excel officiel · aperçu PDF paysage · ⬇ Excel original', tag: 'AE1', main: true },
   { file: '1_charte_cadrage_AE1_etat_des_lieux_quantitatif.pdf', icon: '📄', name: 'Charte de Cadrage — Axe 1 (PDF)', sub: 'État des lieux quantitatif du Startup Act', tag: 'PDF', main: false },
   { file: '2_plan_de_veille_AE1_etat_des_lieux_quantitatif.pdf', icon: '📊', name: 'Plan de veille — Axe 1 (PDF)', sub: '7 questions · 7 colonnes · indicateurs clés', tag: 'PDF', main: false },
   { file: '3_grille_evaluation_charte_cadrage.pdf', icon: '✔️', name: "Grille d'évaluation qualité", sub: '100/100 · validation immédiate', tag: 'Qualité', main: false },
@@ -1860,30 +1809,46 @@ function renderLivrables() {
   grid.innerHTML = LIVRABLES_META.map(d => {
     const ext = livrableExt(d.file);
     const isPdf = ext === 'PDF';
+    // Fichier affiché dans le visualiseur : la version PDF si elle existe, sinon le fichier lui-même
+    const preview = d.pdf || d.file;
+    const canPreview = isPdf || !!d.pdf;
     const url = '/api/livrables/' + encodeURIComponent(d.file);
-    const action = isPdf ? `openLivrable('${d.file}')` : `downloadLivrable('${d.file}')`;
-    const btn = isPdf
-      ? `<span>${ext}</span>`
-      : `<a href="${url}" download="${d.file}" onclick="event.stopPropagation()" class="btn btn-outline" style="padding:4px 12px;font-size:0.72em;text-decoration:none">⬇ Télécharger</a>`;
+    const action = canPreview ? `openLivrable('${preview}', ${d.pdf ? `'${d.file}'` : 'null'})` : `downloadLivrable('${d.file}')`;
+    const title = canPreview ? 'Consulter (aperçu PDF)' : 'Télécharger';
+    let btn;
+    if (isPdf) {
+      btn = `<span>${ext}</span>`;
+    } else {
+      btn = `<a href="${url}" download="${d.file}" onclick="event.stopPropagation()" class="btn btn-outline" style="padding:4px 12px;font-size:0.72em;text-decoration:none">⬇ Télécharger</a>`;
+    }
+    const previewChip = d.pdf ? '<span class="badge badge-green" style="font-size:.6rem">👁 Aperçu PDF</span>' : '';
     return `
-    <div class="pdf-card ${d.main ? 'livrable-main' : ''}" onclick="${action}" title="${isPdf ? 'Consulter' : 'Télécharger'}">
+    <div class="pdf-card ${d.main ? 'livrable-main' : ''}" onclick="${action}" title="${title}">
       <div class="thumb"><span class="livrable-icon">${d.icon}</span><span class="badge">${ext}</span></div>
       <div class="body">
         <div class="name">${d.name}</div>
         <div class="meta">${d.sub}</div>
-        <div class="stats"><span class="label">${d.tag}</span>${btn}</div>
+        <div class="stats"><span class="label">${d.tag}</span>${previewChip}${btn}</div>
       </div>
     </div>`;
   }).join('');
 }
 
-function openLivrable(filename) {
+function openLivrable(filename, fallback) {
   const url = '/api/livrables/' + encodeURIComponent(filename);
-  const viewer = document.getElementById('livrableViewer');
-  viewer.style.display = 'block';
-  document.getElementById('livrableFrame').src = url;
-  document.getElementById('livrableDownload').href = url;
-  viewer.scrollIntoView({ behavior: 'smooth' });
+  fetch(url).then(r => {
+    if (!r.ok) throw new Error('not-found');
+    return r.blob();
+  }).then(blob => {
+    const viewer = document.getElementById('livrableViewer');
+    viewer.style.display = 'block';
+    document.getElementById('livrableFrame').src = URL.createObjectURL(blob);
+    document.getElementById('livrableDownload').href = url;
+    viewer.scrollIntoView({ behavior: 'smooth' });
+  }).catch(() => {
+    // PDF indisponible → on télécharge le fichier original
+    if (fallback) downloadLivrable(fallback);
+  });
 }
 
 function downloadLivrable(filename) {
@@ -1906,15 +1871,6 @@ function makeChart(id, type, data, extraOpts = {}) {
   const canvas = document.getElementById(id);
   if (!canvas) return;
   Chart.getChart(canvas)?.destroy();
-  if (document.documentElement.classList.contains('dark')) {
-    data.datasets.forEach(ds => {
-      ['backgroundColor', 'borderColor', 'pointBackgroundColor', 'hoverBackgroundColor'].forEach(k => {
-        const v = ds[k];
-        if (Array.isArray(v)) ds[k] = v.map(c => CHART_DARK_MAP[c] || c);
-        else if (typeof v === 'string') ds[k] = CHART_DARK_MAP[v] || v;
-      });
-    });
-  }
   new Chart(canvas, {
     type,
     data,
