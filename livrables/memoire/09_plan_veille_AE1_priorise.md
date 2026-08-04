@@ -236,3 +236,90 @@
 - Le titre page Startups (index.html:609) dit « 922 startups » — cohérent avec la base
 
 > **Conclusion** : ~20 KPI du Google Docs sont déjà dans l'app. Il manque 15 KPI (dont 8 sont calculables dès maintenant avec les données existantes) et il y a 2 incohérences chiffrées à corriger dans l'app.
+
+---
+
+## Annexe — Catalogue complet des 40 KPI (25 existants + 15 à compléter)
+
+### A. Les 25 KPI déjà dans l'app ✅
+
+| # | Nom précis du KPI | Description | Valeur actuelle | Page dans l'app |
+|---|---|---|---|---|
+| KPI-01 | Startups labellisées (base) | Nombre total de startups uniques référencées dans la base de données | 922 | Dashboard |
+| KPI-02 | Labels accordés | Total cumulé de labels Startup Act attribués sur les 85 sessions | 1 311 (corrigé) | Dashboard |
+| KPI-03 | Candidatures déposées | Nombre total de candidatures reçues sur la période 2019-2026 | 1 824 | Dashboard |
+| KPI-04 | Pré-labels accordés | Total de pré-labels attribués, corrigé vs PDF officiels | 623 | Dashboard |
+| KPI-05 | Taux d'acceptation moyen | Part des candidatures ayant abouti à un label, agrégée sur la période | 44,8 % | Dashboard |
+| KPI-06 | Concentration sectorielle (HHI) | Indice de Herfindahl-Hirschman des parts de secteurs (modérée si < 1 500) | calculé en direct | Secteurs |
+| KPI-07 | Secteur dominant | Secteur d'activité le plus représenté parmi les startups | Business Software (23 %) | Secteurs |
+| KPI-08 | Top 4 secteurs | Part cumulée des 4 premiers secteurs dans le total des startups | 51,6 % | Secteurs |
+| KPI-09 | Part Grand Tunis | % des startups implantées dans le Grand Tunis (rapport 2021) | 48 % | Géographie |
+| KPI-10 | Part Sousse | % des startups implantées à Sousse | 17 % | Géographie |
+| KPI-11 | Part Kairouan | % des startups implantées à Kairouan | 13 % | Géographie |
+| KPI-12 | Part Kasserine | % des startups implantées à Kasserine | 9 % | Géographie |
+| KPI-13 | Conversions pré-label → label | Nombre total de pré-labels convertis en labels | 502 | Parcours |
+| KPI-14 | Taux de conversion | Part des pré-labels accordés convertis en labels | 80,6 % | Parcours |
+| KPI-15 | Pré-labels accordés (Parcours) | Total de pré-labels dans la lecture Parcours pré-label → label | 623 | Parcours |
+| KPI-16 | Retraits de labels | Total de labels retirés sur la période, par année | 140 | Parcours |
+| KPI-17 | Labels issus de conversion | Part des labels provenant d'une conversion pré-label → label | 38,3 % | Parcours |
+| KPI-18 | Sessions vérifiées | Nombre total de sessions de labellisation auditées | 85 | Corrections |
+| KPI-19 | Sessions corrigées | Nombre de sessions dont les valeurs scrapées étaient fausses | 20 | Corrections |
+| KPI-20 | Labels avant → après correction | Écart entre valeurs scrapées (startup.gov.tn) et PDF officiels | 1 324 → 1 311 | Corrections |
+| KPI-21 | Pré-labels avant → après correction | Écart entre valeurs scrapées et PDF officiels | 617 → 623 | Corrections |
+| KPI-22 | Candidatures 2019-2020 | Nombre de candidatures du premier rapport annuel | 416 | Rapports |
+| KPI-23 | Emplois créés 2020 | Nombre d'emplois créés par les startups labellisées (rapport 2020) | 3 222 | Rapports |
+| KPI-24 | Investissement 2021 | Montant total levé par les startups en 2021 | 157 M USD | Rapports |
+| KPI-25 | Part des femmes fondatrices | Évolution de la part des femmes dans la création de startups | 35 % → 21 % | Rapports |
+
+### B. Les 15 KPI à compléter ❌
+
+**Axe 1 — Dynamique du dispositif**
+
+| # | Nom précis du KPI | Description | Formule / données | Faisabilité | Page cible |
+|---|---|---|---|---|---|
+| KPI-26 | Taux de croissance annuel des candidatures | Variation en % du nombre de candidatures entre deux années consécutives | (Candᵢ − Candᵢ₋₁) / Candᵢ₋₁ × 100 | ✅ Calculable immédiatement | Dashboard |
+| KPI-27 | Cumul et évolution annuelle des labels et pré-labels | Courbe cumulative des labels et pré-labels + taux de variation annuel | Σ labels et Σ pré-labels par année | ✅ Calculable immédiatement | Dashboard |
+| KPI-28 | Nombre moyen de candidatures par session | Volume moyen de dossiers traités par session de labellisation | 1 824 / 85 = 21,5 | ✅ Calculable immédiatement | Dashboard |
+| KPI-29 | Délai moyen de conversion pré-label → label | Temps moyen entre l'attribution du pré-label et sa conversion en label | Dates dans `parcours.json` | ⚠️ Partiellement calculable | Parcours |
+| KPI-30 | Retraits par motif réglementaire | Répartition des 140 retraits selon le motif réglementaire | Communiqués ANPR / décisions officielles | ❌ Collecte externe | Parcours |
+
+**Axe 2 — Caractéristiques des startups**
+
+| # | Nom précis du KPI | Description | Formule / données | Faisabilité | Page cible |
+|---|---|---|---|---|---|
+| KPI-31 | Âge moyen à la labellisation | Âge moyen des startups au moment de l'obtention du label | labelDate − année de création | ✅ Calculable immédiatement | Startups |
+| KPI-32 | Distribution par âge à la labellisation | Répartition des startups par tranche d'âge au label (0-1 an, 1-2, 2-3, 3-5, 5+) | Histogramme sur les 922 startups | ✅ Calculable immédiatement | Startups |
+| KPI-33 | Ancienneté moyenne actuelle | Âge moyen des startups en 2026 | 2026 − année de création | ✅ Calculable immédiatement | Startups |
+| KPI-34 | Répartition par forme juridique | % de startups SARL, SUARL, SA et autres | Colonne « Forme juridique » à ajouter dans `database.csv` | ❌ Collecte (RNE) | Startups |
+
+**Axe 3 — Profil des entrepreneurs**
+
+| # | Nom précis du KPI | Description | Formule / données | Faisabilité | Page cible |
+|---|---|---|---|---|---|
+| KPI-35 | Nombre de fondateurs | Nombre moyen de fondateurs par startup + fondateurs uniques | Comptage et dédoublonnage du champ `founders` | ⚠️ Partiellement calculable | Startups |
+| KPI-36 | Répartition des fondateurs par genre | % de femmes/hommes, équipes mixtes, startups 100 % féminines, évolution annuelle | Insight existant (35 % → 21 %) à structurer en page dédiée | ⚠️ Partiel | Nouvelle page « Entrepreneurs » |
+| KPI-37 | Profil sociodémographique des fondateurs | Âge, niveau d'études, université d'origine, expérience pro, entrepreneuriat étudiant, diaspora | Questionnaire fondateurs (Google Forms) | ❌ Collecte externe | Nouvelle page « Entrepreneurs » |
+
+**Axe 4 — Répartition territoriale et sectorielle**
+
+| # | Nom précis du KPI | Description | Formule / données | Faisabilité | Page cible |
+|---|---|---|---|---|---|
+| KPI-38 | Répartition par gouvernorat | % de startups par gouvernorat (24) + densité et évolution | Géocodage des 922 startups (siège juridique) | ❌ Collecte (base à enrichir) | Géographie |
+| KPI-39 | Évolution annuelle par secteur | Matrice année × secteur : secteurs en progression, stagnation ou recul | Tableau croisé sur les 922 startups | ✅ Calculable immédiatement | Secteurs |
+
+**Axe 5 — Innovation et potentiel technologique**
+
+| # | Nom précis du KPI | Description | Formule / données | Faisabilité | Page cible |
+|---|---|---|---|---|---|
+| KPI-40 | Part de startups DeepTech / brevets / PI | % de startups DeepTech, brevets nationaux et internationaux, marques et autres PI | INNORPI, Patentscope/Espacenet, questionnaire | ❌ Collecte externe | Nouvelle page « Innovation » |
+
+### Récapitulatif de faisabilité des 15 KPI à compléter
+
+| Faisabilité | KPI concernés | Nombre |
+|---|---|---|
+| ✅ Calculables immédiatement (aucune donnée nouvelle) | KPI-26, KPI-27, KPI-28, KPI-31, KPI-32, KPI-33, KPI-39 | 7 |
+| ⚠️ Partiellement calculables (données existantes à nettoyer / structurer) | KPI-29, KPI-35, KPI-36 | 3 |
+| ❌ Nécessitent une collecte externe | KPI-30, KPI-34, KPI-37, KPI-38, KPI-40 | 5 |
+| **Total** | | **15** |
+
+> **Note de cohérence** : la synthèse précédente comptait « 8 calculables » en incluant le délai de conversion (KPI-29) et le nombre de fondateurs (KPI-35) comme réalisables avec effort ; le récapitulatif ci-dessus les classe en « partiellement calculables » pour plus de précision. Total catalogue : **25 existants + 15 à compléter = 40 KPI**.
