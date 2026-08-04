@@ -49,3 +49,190 @@
 | 5.6. Recherche et développement | Les dépenses et équipes de R&D sont concentrées dans certaines startups. | Quelle part des startups mène des activités structurées de R&D ? | Budget R&D ; personnel ; chercheurs ; projets ; équipements ; financement ; part du CA. | Startups ; MESRS ; programmes R&D ; états financiers. | Questionnaire ; analyse financière ; entretiens ciblés. | Google Forms ; Excel ; Power BI. | Donnée sensible → **questionnaire + entretiens ciblés**. | **2** |
 | 5.7. Collaboration avec la recherche | Les liens startups-universités-laboratoires restent limités. | Combien de startups collaborent avec la recherche ? | Partenariats ; laboratoires ; conventions ; chercheurs-fondateurs ; stages ; projets conjoints ; transferts. | Universités ; MESRS ; centres de recherche ; startups. | Cartographie des collaborations ; enquête ; entretiens. | Excel ; QGIS/réseau ; NVivo. | **Enquête + cartographie réseau**. | **2** |
 | 5.8. Disponibilité et qualité des données d'innovation | Les données d'innovation sont moins disponibles et homogènes que les données de labellisation. | Quelles données d'innovation existent et lesquelles collecter ? | Bases disponibles ; variables ; fréquence ; couverture ; données manquantes ; définitions ; accès. | Startup Tunisia ; INNORPI ; MESRS ; INS ; startups. | Audit des données ; analyse des écarts ; dictionnaire. | Inventaire des données ; Excel ; grille qualité. | **À faire en amont** de 5.1-5.7 : auditer les sources disponibles. | **2** |
+
+---
+
+## Annexe — Analyse de couverture du plan de veille par rapport à l'app
+
+**Statut par sous-axe** : ✅ Couvert dans l'app · ⚠️ Partiel (une partie des indicateurs) · ❌ Manquant (rien dans l'app)
+
+### Axe 1 — Dynamique du dispositif
+
+| Sous-axe | Statut | Ce qui manque |
+|---|---|---|
+| 1.1 Candidatures | ⚠️ | Total ✓, par année ✓, par session ✓ — mais croissance annuelle ❌ et moyenne par session ❌ (calculables) |
+| 1.2 Sessions | ⚠️ | 85 ✓, par année ✓ — mais intervalle moyen entre sessions ❌ et candidatures moyennes/session ❌ (calculables) |
+| 1.3 Pré-labels | ⚠️ | Total ✓, par année/session ✓ — évolution annuelle ❌ (calculable) |
+| 1.4 Labels | ⚠️ | Total ✓, par session ✓ — cumul / évolution annuelle ❌ (calculable) |
+| 1.5 Taux de labellisation | ⚠️ | Global ✓, annuel ✓, par session ✓ — taux de label direct ❌ (calculable) |
+| 1.6 Conversion | ⚠️ | Nombre ✓, taux ✓ — délai moyen/médian ❌, par cohorte ❌, motifs ❌ (délai partiellement calculable) |
+| 1.7 Retrait | ⚠️ | Total ✓, par année ✓ — motif ❌, âge/secteur/localisation des retirés ❌, statut après retrait ❌ |
+| 1.8 Efficacité administrative | ❌ | Délais de traitement (candidature→décision→label) : rien du tout |
+
+### Axe 2 — Caractéristiques des startups
+
+| Sous-axe | Statut | Ce qui manque |
+|---|---|---|
+| 2.1 Secteur principal | ✅ | Nombre ✓, % ✓, classement ✓, HHI ✓ |
+| 2.2 Forme juridique | ❌ | Aucune donnée (à ajouter à database.csv) |
+| 2.3 Âge à la labellisation | ❌ | Calculable immédiatement (labelDate − anneeCreation) |
+| 2.4 Ancienneté actuelle | ❌ | Calculable |
+| 2.5 Taille équipe fondatrice | ⚠️ | Champ founders texte — comptage possible |
+| 2.6 Taille de l'entreprise (salariés) | ❌ | Données absentes |
+| 2.7 Statut d'activité (cessation, liquidation…) | ❌ | Données absentes |
+
+### Axe 3 — Profil des entrepreneurs
+
+| Sous-axe | Statut | Ce qui manque |
+|---|---|---|
+| 3.1 Nombre de fondateurs | ⚠️ | Données founders dispersées |
+| 3.2 Genre | ⚠️ | Seul un insight (35%→21%) existe — pas de page/analyse dédiée |
+| 3.3 Âge des entrepreneurs | ❌ | Données absentes |
+| 3.4 Niveau d'études | ❌ | Données absentes |
+| 3.5 Université d'origine | ❌ | Données absentes |
+| 3.6 Expérience professionnelle | ❌ | Données absentes |
+| 3.7 Expérience entrepreneuriale | ❌ | Données absentes |
+| 3.8 Entrepreneuriat étudiant | ❌ | Données absentes |
+| 3.9 Diaspora | ❌ | Données absentes |
+
+### Axe 4 — Répartition territoriale et dynamique sectorielle
+
+| Sous-axe | Statut | Ce qui manque |
+|---|---|---|
+| 4.1 Répartition par gouvernorat | ❌ | L'app n'a que 4 zones du rapport 2021 (Grand Tunis 48%, Sousse 17%, Kairouan 13%, Kasserine 9%) |
+| 4.2 Grande région (7 régions) | ⚠️ | Données 2021 du rapport, non actualisées |
+| 4.3 Concentration territoriale | ⚠️ | 48% Grand Tunis affiché, mais pas d'indice de concentration |
+| 4.4 Écosystèmes régionaux | ❌ | Données absentes |
+| 4.5 Répartition sectorielle | ✅ | Complète |
+| 4.6 Évolution sectorielle annuelle | ❌ | Calculable (startups par secteur × année) |
+| 4.7 Spécialisation territoriale | ❌ | Données absentes |
+
+### Axe 5 — Innovation et potentiel technologique
+
+| Sous-axe | Statut |
+|---|---|
+| 5.1 Startups DeepTech | ❌ |
+| 5.2 Domaines technologiques | ❌ |
+| 5.3 Brevets nationaux | ❌ |
+| 5.4 Brevets internationaux | ❌ |
+| 5.5 Autres formes de PI | ❌ |
+| 5.6 R&D | ❌ |
+| 5.7 Collaboration avec la recherche | ❌ |
+| 5.8 Qualité des données innovation | ❌ |
+
+> Tout l'Axe 5 est absent — c'est le bloc le plus lourd à couvrir (exige la collecte INNORPI, WIPO/Patentscope, questionnaires).
+
+### Synthèse globale
+
+| Bloc | ✅ | ⚠️ |
+|---|---|---|
+| Axe 1 — Dynamique | 0 | 7 |
+| Axe 2 — Caractéristiques | 1 | 1 |
+| Axe 3 — Entrepreneurs | 0 | 2 |
+| Axe 4 — Territorial/sectoriel | 1 | 2 |
+| Axe 5 — Innovation | 0 | 0 |
+| **Total (38 sous-axes)** | **2** | **12** |
+
+### Priorités d'implémentation dans l'app
+
+**Niveau 1 — Calculables immédiatement, zéro nouvelle donnée (fort impact, ~5 KPI + 3 graphiques)** :
+1. Âge des startups à la labellisation (2.3) : histogramme + âge moyen/médian
+2. Ancienneté actuelle (2.4) : cohortes
+3. Évolutions annuelles + cumul (1.1, 1.4) : ligne cumulative labels/candidatures
+4. Moyenne candidatures/session + intervalle moyen (1.2) : KPI
+5. Évolution sectorielle annuelle (4.6) : graphique année × secteur
+
+**Niveau 2 — Données à enrichir dans database.csv (débloque les axes 2, 3, 4)** :
+6. Colonnes : Forme juridique, Gouvernorat, Genre fondateur(s), Date de naissance fondateur, Université → couvre 2.2, 3.1-3.5, 4.1, 4.3
+
+**Niveau 3 — Collecte externe (axes 3.6-3.9, 5.x)** :
+7. Questionnaire fondateurs (Google Forms) pour expérience, diaspora, entrepreneuriat étudiant
+8. Recherche brevets (INNORPI, Patentscope/Espacenet) pour l'Axe 5
+
+**Niveau 4 — Non couvert, à documenter comme limite** :
+9. 1.7 motifs de retrait, 1.8 délais administratifs, 4.4 écosystèmes — nécessitent ANPR/entretiens
+
+---
+
+## Annexe — Couverture du catalogue de KPI (section 9 de la Charte de cadrage)
+
+### KPI du Google Docs AE1 présents dans l'app ✅
+
+| KPI (Google Docs) | Dans l'app ? |
+|---|---|
+| Total candidatures | ✅ |
+| Labels total / par année / par session | ✅ |
+| Prélabels total / par année / par session | ✅ |
+| Total sessions / par année | ✅ |
+| Taux de labellisation (global + par année + par session) | ✅ |
+| Nombre de conversions + taux de conversion (80,6 %) | ✅ |
+| Total retraits + par année | ✅ |
+| Startups par secteur + % | ✅ |
+| Répartition par région + % (Grand Tunis 48 %, etc.) | ✅ |
+| HHI, Top 4, secteur dominant | ✅ |
+
+### KPI du Google Docs AE1 manquants dans l'app ❌
+
+**Axe de veille 1 — Dynamique du dispositif**
+
+| KPI manquant | Calculable aujourd'hui ? |
+|---|---|
+| Taux d'évolution annuel des candidatures | ✅ Oui (données disponibles) |
+| Évolution annuelle des labels et prélabels | ✅ Oui |
+| Nombre moyen de candidatures par session | ✅ Oui (1 824/85 = 21,5) |
+| Délai moyen de conversion prélabel→label | ⚠️ Partiellement (dates dans parcours.json) |
+| Retraits par motif réglementaire | ❌ Données absentes (les PDF ne les détaillent pas) |
+
+**Axe de veille 2 — Caractéristiques des startups**
+
+| KPI manquant | Calculable ? |
+|---|---|
+| Nombre / % de startups par forme juridique | ❌ Données absentes (la base n'a pas ce champ) |
+| Âge moyen lors de la labellisation | ✅ Oui (labelDate − anneeCreation) |
+| Nombre de startups selon leur âge à la labellisation | ✅ Oui |
+| Ancienneté moyenne | ✅ Oui |
+
+**Axe de veille 3 — Profil des entrepreneurs**
+
+| KPI manquant | Calculable ? |
+|---|---|
+| Nombre de fondateurs | ⚠️ Partiellement (champ founders texte) |
+| Répartition par genre | ⚠️ Partiel (insight 35 %→21 % existe, mais pas de page dédiée) |
+| Tranche d'âge / niveau d'études / université | ❌ Données absentes |
+| Expérience pro / entrepreneuriat étudiant / diaspora | ❌ Données absentes |
+
+**Axe de veille 4 — Répartition**
+
+| KPI manquant | Calculable ? |
+|---|---|
+| Nombre / % de startups par gouvernorat | ❌ (l'app n'a que 4 régions du rapport 2021) |
+| Évolution annuelle par secteur | ✅ Oui |
+
+**Axe de veille 5 — Innovation**
+
+| KPI manquant | Calculable ? |
+|---|---|
+| Nb / % de startups DeepTech, brevets, domaines tech | ❌ Données absentes |
+
+### Améliorations possibles de l'app
+
+**A. Ajouter les KPI calculables manquants (aucune nouvelle donnée requise)** :
+1. KPI « Moyenne candidatures/session » + « Évolution annuelle des candidatures/labels/prélabels » → Dashboard
+2. Nouvelle carte « Âge des startups à la labellisation » (histogramme) + KPI « Âge moyen »
+3. Nouveau graphique « Évolution annuelle par secteur » → page Secteurs
+4. KPI « Taux d'évolution » par année → page Sessions
+
+**B. Mettre à jour les données manquantes pour les KPI restants** :
+- Colonnes Forme juridique, Gouvernorat, Genre fondateur, Année de naissance fondateur dans database.csv → permet 15+ KPI nouveaux
+- Motifs de retrait : collecte via communiqués ANPR → page Parcours
+
+**C. Intégrer les 6 axes dans l'app (aujourd'hui l'app ne couvre que l'AE1)** :
+- Le serveur /api/livrables/ ne liste que le dossier livrables/ racine (server.py:65) → il ignore les 6 sous-dossiers d'axes
+- Ajouter une page « Axes » avec les 6 chartes (docx AE2-AE6 sont déjà dans les dossiers) → lien direct vers les fichiers
+
+**D. Corrections de cohérence à signaler** :
+- page Sessions (index.html:595) : annonce « 2 958 candidatures » mais le total réel est 1 824 → à corriger
+- Insights (index.html:1722) : dit « 190 retraits sur 1824 » mais les données corrigées indiquent 140 retraits sur 1 311 labels → incohérence
+- Le titre page Startups (index.html:609) dit « 922 startups » — cohérent avec la base
+
+> **Conclusion** : ~20 KPI du Google Docs sont déjà dans l'app. Il manque 15 KPI (dont 8 sont calculables dès maintenant avec les données existantes) et il y a 2 incohérences chiffrées à corriger dans l'app.
