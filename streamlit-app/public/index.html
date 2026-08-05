@@ -130,6 +130,15 @@
     .metric-card .m-label { font-size: 0.75em; color: #888; text-transform: uppercase; letter-spacing: 0.3px; }
     .metric-card .m-value { font-size: 1.2em; font-weight: 700; color: #1a1a2e; margin-top: 6px; word-break: break-word; }
     .pdf-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; }
+    .axe-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 14px; margin-bottom: 22px; }
+    .axe-card {
+      background: linear-gradient(135deg, #1a1a2e, #16213e); border: 1px solid #2a2a4a; border-radius: 14px;
+      cursor: pointer; padding: 18px 14px; text-align: center; color: #fff; transition: all 0.2s;
+    }
+    .axe-card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(233,69,96,0.25); border-color: #e94560; }
+    .axe-card .axe-num { font-size: 2.1em; font-weight: 800; color: #e94560; line-height: 1; }
+    .axe-card .axe-title { font-size: 0.82em; margin-top: 8px; line-height: 1.35; color: #dfe3f0; }
+    .axe-card .axe-count { font-size: 0.72em; margin-top: 8px; color: #9aa3c0; }
     .pdf-card {
       background: white; border: 1px solid #eee; border-radius: 12px; cursor: pointer;
       transition: all 0.2s; overflow: hidden;
@@ -497,6 +506,57 @@
     /* ============ Footer ============ */
     footer.site-footer { background: linear-gradient(135deg, #171832 0%, #1c2750 100%); border: 1px solid rgba(255,255,255,.06); border-radius: var(--radius-lg); box-shadow: var(--shadow-medium); padding: 22px 28px; }
 
+    /* ============ Year filter (Power BI style) ============ */    .filter-bar { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 10px 16px; margin-bottom: 18px; box-shadow: var(--shadow-soft); }
+    .filter-bar .filter-label { font-weight: 700; font-size: .85rem; color: var(--text-strong); }
+    .filter-bar select { padding: 7px 12px; border: 1px solid var(--border-strong); border-radius: 10px; font-size: .88rem; background: var(--bg-canvas); color: var(--text-strong); cursor: pointer; }
+    .filter-bar select:focus { outline: 2px solid var(--brand-accent); outline-offset: 1px; }
+    .filter-chip { background: var(--brand-accent); color: #fff; font-size: .74rem; font-weight: 600; padding: 4px 10px; border-radius: 999px; }
+    .filter-note { font-size: .78rem; color: var(--text-tertiary); }
+    .chart-card.filtered { border-color: var(--brand-accent); }
+
+    /* ============ KPI Modal ============ */
+    .kpi-modal-overlay { position: fixed; inset: 0; z-index: 1000; background: rgba(13, 17, 33, .55); display: flex; align-items: center; justify-content: center; padding: 20px; opacity: 0; pointer-events: none; transition: opacity .18s ease; }
+    .kpi-modal-overlay.open { opacity: 1; pointer-events: auto; }
+    .kpi-modal { background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); box-shadow: var(--shadow-large, 0 24px 60px rgba(0,0,0,.3)); width: 100%; max-width: 640px; max-height: 86vh; overflow-y: auto; padding: 26px 30px; transform: translateY(10px); transition: transform .18s ease; }
+    .kpi-modal-overlay.open .kpi-modal { transform: translateY(0); }
+    .kpi-modal h3 { margin: 0 0 4px; color: var(--text-strong); font-size: 1.25rem; }
+    .kpi-modal .kpi-badge { display: inline-block; font-size: .72rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; padding: 3px 10px; border-radius: 999px; margin-bottom: 10px; }
+    .kpi-modal .kpi-badge.ok { background: var(--success-soft, #dcfce7); color: #15803d; }
+    .kpi-modal .kpi-badge.warn { background: var(--warning-soft, #fef3c7); color: #b45309; }
+    .kpi-modal .kpi-badge.miss { background: #fee2e2; color: #b91c1c; }
+    .kpi-modal .kpi-tag { display: inline-block; font-size: .78rem; font-weight: 600; color: var(--brand-accent); background: var(--bg-subtle); border: 1px solid var(--border-subtle); border-radius: 8px; padding: 2px 9px; margin-right: 6px; margin-bottom: 6px; }
+    .kpi-modal .kpi-section { margin: 14px 0 0; }
+    .kpi-modal .kpi-section h4 { margin: 0 0 4px; font-size: .82rem; text-transform: uppercase; letter-spacing: .05em; color: var(--text-tertiary); }
+    .kpi-modal .kpi-section p { margin: 0; font-size: .92rem; line-height: 1.65; color: var(--text-secondary); }
+    .kpi-modal .kpi-value { font-size: 1.9rem; font-weight: 800; color: var(--brand-accent); margin: 6px 0; }
+    .kpi-modal .kpi-missing { background: #fef2f2; border: 1px solid #fecaca; border-radius: var(--radius-md); padding: 12px 14px; margin-top: 14px; font-size: .88rem; color: #991b1b; line-height: 1.6; }
+    .kpi-modal .kpi-missing code { background: #fee2e2; border-radius: 5px; padding: 1px 5px; font-size: .84rem; }
+    .kpi-modal-close { position: sticky; top: -10px; float: right; background: var(--bg-subtle); border: 1px solid var(--border-subtle); border-radius: 50%; width: 34px; height: 34px; cursor: pointer; font-size: 1.05rem; line-height: 1; color: var(--text-secondary); }
+    .kpi-modal-close:hover { background: var(--border-strong); color: var(--text-strong); }
+    [data-kpi] { cursor: help; }
+    .chart-card[data-kpi] { position: relative; }
+    .chart-card[data-kpi] h3::after { content: ' ℹ️'; font-size: .8em; opacity: .65; }
+    .kpi-card[data-kpi] { cursor: pointer; }
+    .kpi-card[data-kpi]:hover { box-shadow: var(--shadow-medium); }
+
+    /* ============ KPI Catalogue (par axe / thème) ============ */
+    .kpi-legend { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 10px 16px; margin-bottom: 20px; box-shadow: var(--shadow-xs); }
+    .kpi-legend-note { font-size: .76rem; color: var(--text-tertiary); margin-left: 6px; }
+    .kpi-theme { margin-bottom: 26px; }
+    .kpi-theme-header { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; margin-bottom: 10px; }
+    .kpi-theme-header h3 { margin: 0; font-size: 1.02rem; color: var(--brand-navy-2); letter-spacing: -.01em; }
+    .kpi-theme-count { font-size: .74rem; font-weight: 700; color: var(--text-tertiary); background: var(--bg-subtle); border: 1px solid var(--border-subtle); border-radius: 999px; padding: 2px 10px; }
+    .kpi-cat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; }
+    .kpi-cat-card { background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 14px 16px; cursor: pointer; transition: var(--transition); box-shadow: var(--shadow-xs); }
+    .kpi-cat-card:hover { transform: translateY(-2px); border-color: rgba(233,69,96,.4); box-shadow: var(--shadow-medium); }
+    .kpi-cat-card .kcat-top { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 8px; }
+    .kpi-cat-card .kcat-id { font-size: .7rem; font-weight: 800; letter-spacing: .04em; color: var(--brand-accent); }
+    .kpi-cat-card .kcat-name { font-weight: 600; font-size: .9rem; color: var(--text-strong); line-height: 1.35; margin-bottom: 8px; }
+    .kpi-cat-card .kcat-value { font-size: 1.25rem; font-weight: 800; color: var(--brand-navy-2); margin-bottom: 6px; }
+    .kpi-cat-card .kcat-meta { font-size: .74rem; color: var(--text-tertiary); display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+    .kpi-badge.ok, .kpi-badge.warn, .kpi-badge.miss { font-size: .68rem; padding: 3px 9px; }
+    .kpi-cat-card.miss-card { border-style: dashed; background: repeating-linear-gradient(135deg, var(--bg-surface), var(--bg-surface) 10px, #fffbfb 10px, #fffbfb 20px); }
+
     /* ============ Utilities ============ */
     .empty-state { grid-column: 1 / -1; border: 1.5px dashed var(--border-strong); border-radius: var(--radius-md); padding: 44px 20px; text-align: center; color: var(--text-tertiary); font-size: .9rem; background: var(--bg-subtle); }
     .empty-row td { text-align: center; color: var(--text-tertiary); padding: 30px 16px !important; font-size: .88rem; }
@@ -557,6 +617,7 @@
           <a href="#" data-page="reports">Rapports annuels</a>
           <a href="#" data-page="parcours">Parcours Prélabel→Label</a>
           <a href="#" data-page="insights">Insights</a>
+          <a href="#" data-page="kpis">📌 Catalogue KPI</a>
         </div>
       </div>
       <div class="dropdown" data-dd>
@@ -579,6 +640,12 @@
   <!-- DASHBOARD -->
   <section id="page-dashboard" class="active">
     <div class="page-header"><h1>Tableau de Bord</h1><p>Indicateurs clés du Startup Act Tunisien · 2019-2026</p></div>
+    <div class="filter-bar">
+      <span class="filter-label">📅 Période :</span>
+      <select id="dashYearFilter" onchange="applyYearFilter(this.value, 'dashboard')" aria-label="Filtrer par année"></select>
+      <span class="filter-chip" id="dashFilterChip" style="display:none"></span>
+      <span class="filter-note">Filtrez par année : KPI et graphiques se recalculent sur la période choisie.</span>
+    </div>
     <div class="kpi-grid" id="kpiGrid"></div>
     <div class="chart-grid">
       <div class="chart-card"><h3>Évolution annuelle des sessions</h3><div class="chart-wrapper"><canvas id="chartYearly"></canvas></div></div>
@@ -597,6 +664,12 @@
   <!-- SESSIONS -->
   <section id="page-sessions">
     <div class="page-header"><h1>Sessions de Labellisation</h1><p>85 sessions · 2 958 candidatures · 1 311 labels · 623 pré-labels (données corrigées vs PDF)</p></div>
+    <div class="filter-bar">
+      <span class="filter-label">📅 Période :</span>
+      <select id="sessionYearFilter" onchange="applyYearFilter(this.value, 'sessions')" aria-label="Filtrer par année"></select>
+      <span class="filter-chip" id="sessionFilterChip" style="display:none"></span>
+      <span class="filter-note">Filtrez par année : graphiques et tableau des sessions se recalculent.</span>
+    </div>
     <div class="chart-grid">
       <div class="chart-card"><h3>Taux d'acceptation par année</h3><div class="chart-wrapper"><canvas id="chartSessionsRate"></canvas></div></div>
       <div class="chart-card"><h3>Candidatures vs Labels par année</h3><div class="chart-wrapper"><canvas id="chartSessionsBar"></canvas></div></div>
@@ -624,6 +697,12 @@
   <!-- SECTEURS -->
   <section id="page-sectors">
     <div class="page-header"><h1>Analyse sectorielle</h1><p>18 secteurs d'activité · Concentration : Top 4 = 51,6% de toutes les startups</p></div>
+    <div class="filter-bar">
+      <span class="filter-label">📅 Période :</span>
+      <select id="sectorYearFilter" onchange="applyYearFilter(this.value, 'sectors')" aria-label="Filtrer par année"></select>
+      <span class="filter-chip" id="sectorFilterChip" style="display:none"></span>
+      <span class="filter-note">Filtrez par année : tous les graphiques, KPI et le tableau se recalculent (comme Power BI).</span>
+    </div>
     <div class="kpi-grid">
       <div class="kpi-card red"><div class="label">Concentration (HHI)</div><div class="value" id="hhiValue">-</div><div class="sub">Modérée si < 1500</div></div>
       <div class="kpi-card blue"><div class="label">Secteur dominant</div><div class="value" id="topSector">-</div><div class="sub">Part du top secteur</div></div>
@@ -785,7 +864,7 @@
 
   <!-- LIVRABLES -->
   <section id="page-livrables">
-    <div class="page-header"><h1>Livrables — Axe 1</h1><p>Les rendus de l'axe AE1 · Charte de cadrage (Word), Plan de veille (Excel), Grille d'évaluation, Guide méthodologique · cliquez pour consulter, ⬇ pour télécharger</p></div>
+    <div class="page-header"><h1>Livrables — Les 6 Axes + AE1</h1><p>Tous les rendus du projet : 6 axes de veille (Charte de cadrage Word + Plan de veille Excel convertis en PDF) + livrables racines · cliquez sur un rectangle pour consulter</p></div>
     <div id="livrableViewer" style="display:none;margin-bottom:20px">
       <div style="display:flex;gap:8px;margin-bottom:8px">
         <button onclick="closeLivrable()" class="btn btn-red">✕ Fermer</button>
@@ -794,6 +873,16 @@
       </div>
       <iframe id="livrableFrame"></iframe>
     </div>
+    <h2 style="font-size:1.1rem;margin:0 0 12px;color:var(--text-strong)">📁 Documents par Axe (PDF des Excel &amp; Word)</h2>
+    <div class="axe-grid" id="axeGrid"></div>
+    <div id="axeFilesPanel" style="display:none;margin-bottom:24px">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
+        <h3 style="margin:0;font-size:1rem" id="axeFilesTitle">—</h3>
+        <button onclick="closeAxeFiles()" class="btn btn-outline" style="margin-left:auto;padding:4px 12px;font-size:0.75em">✕ Fermer</button>
+      </div>
+      <div class="pdf-grid" id="axeFilesGrid"></div>
+    </div>
+    <h2 style="font-size:1.1rem;margin:0 0 12px;color:var(--text-strong)">📄 Livrables racines</h2>
     <div class="pdf-grid" id="livrableGrid"></div>
   </section>
 
@@ -805,6 +894,18 @@
       <div class="chart-card"><h3>Évolution du taux d'acceptation</h3><div class="chart-wrapper"><canvas id="chartInsightTaux"></canvas></div></div>
       <div class="chart-card"><h3>Labels vs Retraits vs Conversions</h3><div class="chart-wrapper"><canvas id="chartInsightPdf"></canvas></div></div>
     </div>
+  </section>
+
+  <!-- CATALOGUE KPI -->
+  <section id="page-kpis">
+    <div class="page-header"><h1>Catalogue des KPI</h1><p>Les 40 indicateurs du projet, répartis par axe / thème — cliquez sur un KPI pour son détail, sa source et son interprétation</p></div>
+    <div class="kpi-legend">
+      <span class="kpi-badge ok">● Calculé</span>
+      <span class="kpi-badge warn">● Donnée externe</span>
+      <span class="kpi-badge miss">● Donnée manquante</span>
+      <span class="kpi-legend-note">Les KPI calculables (26, 27, 28, 31, 32, 33, 39) sont implémentés dans l'app ; les autres nécessitent extraction/collecte.</span>
+    </div>
+    <div id="kpiCatalogue"></div>
   </section>
 
   <!-- À PROPOS -->
@@ -953,6 +1054,21 @@
   </section>
 </main>
 
+<div class="kpi-modal-overlay" id="kpiModal" role="dialog" aria-modal="true" aria-labelledby="kpiModalTitle">
+  <div class="kpi-modal">
+    <button class="kpi-modal-close" id="kpiModalClose" aria-label="Fermer">✕</button>
+    <span class="kpi-badge ok" id="kpiModalBadge">KPI</span>
+    <h3 id="kpiModalTitle">KPI</h3>
+    <div class="kpi-value" id="kpiModalValue"></div>
+    <div class="kpi-tag" id="kpiModalPage"></div>
+    <div class="kpi-section"><h4>Description</h4><p id="kpiModalDesc"></p></div>
+    <div class="kpi-section"><h4>Utilité</h4><p id="kpiModalUtil"></p></div>
+    <div class="kpi-section"><h4>Interprétation du résultat</h4><p id="kpiModalInterp"></p></div>
+    <div class="kpi-section"><h4>Source / API</h4><p id="kpiModalSource"></p></div>
+    <div class="kpi-missing" id="kpiModalMissing" style="display:none"></div>
+  </div>
+</div>
+
 <footer class="site-footer">
   <div>
     <div class="cr">© 2026 Faker BEN NOOMEN — Étudiant Master VIC (Veille &amp; Intelligence Compétitive)</div>
@@ -967,6 +1083,354 @@
 
 <script>
 const DATA = {};
+
+/* ===== Global year filter (Power BI style) ===== */
+DATA.yearFilter = 'all'; // 'all' | 2019 | 2020 | ...
+DATA.availableYears = [];
+
+function initYearFilter(selectId, chipId, page) {
+  const sel = document.getElementById(selectId);
+  if (!sel) return;
+  sel.setAttribute('data-year-filter', '1');
+  const years = DATA.availableYears.slice().sort();
+  sel.innerHTML = '<option value="all">Toutes les années</option>' +
+    years.map(y => `<option value="${y}">${y}</option>`).join('');
+  sel.value = String(DATA.yearFilter);
+  sel.onchange = () => applyYearFilter(sel.value, page);
+  const chip = document.getElementById(chipId);
+  if (chip) chip.style.display = DATA.yearFilter === 'all' ? 'none' : 'inline-block';
+}
+
+function applyYearFilter(value, page) {
+  DATA.yearFilter = value === 'all' ? 'all' : parseInt(value, 10);
+  // Mise à jour de toutes les listes déroulantes synchronisées
+  document.querySelectorAll('[data-year-filter]').forEach(sel => sel.value = String(DATA.yearFilter));
+  document.querySelectorAll('.filter-chip').forEach(chip => {
+    chip.style.display = DATA.yearFilter === 'all' ? 'none' : 'inline-block';
+    chip.textContent = 'Année : ' + DATA.yearFilter;
+  });
+  if (page === 'sectors') { renderSectors(); renderSectorCharts(); }
+  else if (page === 'dashboard') renderDashboard();
+  else if (page === 'sessions') {
+    renderSessions(); renderSessionCharts();
+    const si = document.getElementById('sessionSearch');
+    if (si && si.value) filterSessions(si.value);
+  }
+}
+
+/* Helper : startups filtrées par année de labellisation (labelDate MM/YYYY) */
+function filteredStartups() {
+  if (DATA.yearFilter === 'all') return DATA.startups;
+  return DATA.startups.filter(s => {
+    const m = (s.labelDate || '').match(/^(\d{2})\/(\d{4})$/);
+    return m && parseInt(m[2]) === DATA.yearFilter;
+  });
+}
+
+/* Helper : répartition par secteur d'une liste de startups */
+function sectorCounts(list) {
+  const counts = {};
+  list.forEach(s => { const k = s.secteur || 'Non classé'; counts[k] = (counts[k] || 0) + 1; });
+  return Object.entries(counts).map(([name, count]) => ({ name, count })).sort((a, b) => b.count - a.count);
+}
+
+/* ===== KPI Info (catalogue 40 KPI) ===== */
+/* statut : 'ok' calculé/implémenté · 'warn' partiel · 'miss' donnée manquante / non calculable */
+const KPI_INFO = {
+  'KPI-01': { nom: 'Startups labellisées (base)', valeur: '922', statut: 'ok', page: 'Dashboard',
+    desc: 'Nombre total de startups uniques référencées dans la base de données du projet.',
+    util: 'Donne la taille du portefeuille startups à étudier et sert de dénominateur pour les parts sectorielles, territoriales et par âge.',
+    interp: '922 startups uniques sont suivies : c’est la population de référence de toute l’analyse. Une startup labellisée puis retirée reste comptée.',
+    source: 'API : /api/startups → public/data/database_startups.json' },
+  'KPI-02': { nom: 'Labels accordés', valeur: '1 311 (corrigé)', statut: 'ok', page: 'Dashboard',
+    desc: 'Total cumulé des labels Startup Act attribués sur les 85 sessions, après correction face aux PDF officiels.',
+    util: 'Mesure le flux brut de labellisation et sa croissance cumulée dans le temps.',
+    interp: '1 311 labels cumulés. La valeur publiée par startup.gov.tn (1 324) était fausse : 20 sessions sur 85 portaient des labels erronés.',
+    source: 'API : /api/dashboard (annuel) → public/data/dashboard_data.json, corrigé via corrections.json' },
+  'KPI-03': { nom: 'Candidatures déposées', valeur: '2 958', statut: 'ok', page: 'Dashboard',
+    desc: 'Nombre total de candidatures reçues, somme de la colonne candidatures des 85 sessions.',
+    util: 'Sert de base au taux d’acceptation et à la moyenne par session ; mesure la demande d’accès au dispositif.',
+    interp: '2 958 candidatures (et non « 1 824 » : ce chiffre du fichier périmé est l’ancien nombre d’entrées extraites des PDF, pas les candidatures).',
+    source: 'API : /api/dashboard (annuel + sessions) → dashboard_data.json' },
+  'KPI-04': { nom: 'Pré-labels accordés', valeur: '623', statut: 'ok', page: 'Dashboard',
+    desc: 'Total de pré-labels attribués, corrigé vs PDF officiels.',
+    util: 'Mesure la voie « pré-labels » (projets sans société créée) qui alimente ensuite les conversions.',
+    interp: '623 pré-labels (la valeur publiée de 617 était fausse). 80,6 % d’entre eux se convertissent en labels.',
+    source: 'API : /api/dashboard → dashboard_data.json, corrigé via corrections.json' },
+  'KPI-05': { nom: 'Taux d’acceptation moyen', valeur: '44,3 %', statut: 'ok', page: 'Dashboard',
+    desc: 'Part des candidatures ayant abouti à un label, agrégée sur toute la période : labels ÷ candidatures.',
+    util: 'Indicateur d’efficacité/sélectivité du dispositif ; permet les comparaisons annuelles et internationales.',
+    interp: '44,3 % = 1 311 labels / 2 958 candidatures (et non 44,8 % : valeurs corrigées). En baisse tendancielle : 59,8 % (2019) → 35,4 % (2025).',
+    source: 'Calcul direct dans l’app (labels/candidatures) sur données corrigées' },
+  'KPI-06': { nom: 'Concentration sectorielle (HHI)', valeur: 'calculé en direct', statut: 'ok', page: 'Secteurs',
+    desc: 'Indice de Herfindahl-Hirschman des parts de marché des secteurs : Σ(partᵢ²).',
+    util: 'Mesure la diversification de l’écosystème : un indice < 1 500 indique un portefeuille diversifié.',
+    interp: 'Concentration modérée : aucun secteur n’écrase le portefeuille. Business Software (23 %) domine sans position dominante.',
+    source: 'API : /api/dashboard (database.sectors)' },
+  'KPI-07': { nom: 'Secteur dominant', valeur: 'Business Software (23 %)', statut: 'ok', page: 'Secteurs',
+    desc: 'Secteur d’activité le plus représenté parmi les startups.',
+    util: 'Identifie le cœur de spécialisation de l’écosystème Startup Act.',
+    interp: 'Business Software mène avec 23 % — l’écosystème tunisien est orienté logiciel/SaaS, cohérent avec l’écosystème tech.',
+    source: 'API : /api/dashboard (database.sectors)' },
+  'KPI-08': { nom: 'Top 4 secteurs', valeur: '51,6 %', statut: 'ok', page: 'Secteurs',
+    desc: 'Part cumulée des 4 premiers secteurs dans le total des startups.',
+    util: 'Mesure la concentration sur un petit nombre de verticales (risque de spécialisation vs diversification).',
+    interp: '4 secteurs concentrent plus de la moitié du portefeuille : Business Software, Commerce, HealthTech, EdTech.',
+    source: 'API : /api/dashboard (database.sectors)' },
+  'KPI-09': { nom: 'Part Grand Tunis', valeur: '48 %', statut: 'warn', page: 'Géographie',
+    desc: '% des startups implantées dans le Grand Tunis (source : rapport 2021).',
+    util: 'Mesure l’effet de centralisation territoriale de l’écosystème.',
+    interp: 'Près de la moitié des startups sont dans le Grand Tunis — forte polarisation métropolitaine.',
+    source: 'Rapport annuel 2021 (donnée externe, à actualiser par géocodage — cf. KPI-38)' },
+  'KPI-10': { nom: 'Part Sousse', valeur: '17 %', statut: 'warn', page: 'Géographie',
+    desc: '% des startups implantées à Sousse (rapport 2021).', util: 'Mesure la place du littoral centre dans l’écosystème.',
+    interp: 'Sousse est le 2ᵉ pôle, loin derrière le Grand Tunis.', source: 'Rapport annuel 2021 (donnée externe)' },
+  'KPI-11': { nom: 'Part Kairouan', valeur: '13 %', statut: 'warn', page: 'Géographie',
+    desc: '% des startups implantées à Kairouan (rapport 2021).', util: 'Suivi des régions intérieures.',
+    interp: 'Kairouan figure dans le top des pôles du rapport 2021.', source: 'Rapport annuel 2021 (donnée externe)' },
+  'KPI-12': { nom: 'Part Kasserine', valeur: '9 %', statut: 'warn', page: 'Géographie',
+    desc: '% des startups implantées à Kasserine (rapport 2021).', util: 'Suivi des régions intérieures.',
+    interp: 'Kasserine confirme l’émergence de pôles intérieurs dans le rapport 2021.', source: 'Rapport annuel 2021 (donnée externe)' },
+  'KPI-13': { nom: 'Conversions pré-label → label', valeur: '502', statut: 'ok', page: 'Parcours',
+    desc: 'Nombre total de pré-labels convertis en labels.',
+    util: 'Mesure le volume du « pipeline » pré-label → label.',
+    interp: '502 conversions : le parcours pré-label est un vrai réservoir de labels.',
+    source: 'API : /api/parcours → public/data/parcours.json' },
+  'KPI-14': { nom: 'Taux de conversion', valeur: '80,6 %', statut: 'ok', page: 'Parcours',
+    desc: 'Part des pré-labels accordés convertis en labels (502/623).',
+    util: 'Mesure l’efficacité du parcours pré-label et le risque de décrochage.',
+    interp: '80,6 % des pré-labels deviennent des labels — taux élevé, le dispositif « rattrape » bien ses pré-labellisés.',
+    source: 'API : /api/parcours → parcours.json' },
+  'KPI-15': { nom: 'Pré-labels accordés (Parcours)', valeur: '623', statut: 'ok', page: 'Parcours',
+    desc: 'Total de pré-labels dans la lecture Parcours pré-label → label.',
+    util: 'Dénominateur du taux de conversion.', interp: '623 pré-labels servent de base aux conversions.',
+    source: 'API : /api/parcours → parcours.json' },
+  'KPI-16': { nom: 'Retraits de labels', valeur: '140', statut: 'ok', page: 'Parcours',
+    desc: 'Total de labels retirés sur la période, par année.',
+    util: 'Mesure la solidité du portefeuille et la qualité du suivi des startups labellisées.',
+    interp: '140 retraits (valeur publiée 190 fausse). Le retrait rééquilibre le stock réel de startups actives.',
+    source: 'API : /api/parcours → parcours.json, corrigé via corrections.json' },
+  'KPI-17': { nom: 'Labels issus de conversion', valeur: '38,3 %', statut: 'ok', page: 'Parcours',
+    desc: 'Part des labels provenant d’une conversion pré-label → label (502/1 311).',
+    util: 'Mesure l’importance du parcours pré-label dans la production totale de labels.',
+    interp: '38,3 % des labels viennent de conversions : le pré-label est un canal majeur, pas marginal.',
+    source: 'API : /api/parcours → parcours.json' },
+  'KPI-18': { nom: 'Sessions vérifiées', valeur: '85', statut: 'ok', page: 'Corrections',
+    desc: 'Nombre total de sessions de labellisation auditées face aux PDF officiels.',
+    util: 'Constitue le périmètre de l’audit des données.',
+    interp: 'Les 85 sessions ont été vérifiées une à une contre les PDF officiels.',
+    source: 'API : /api/corrections → corrections.json + PDF officiels' },
+  'KPI-19': { nom: 'Sessions corrigées', valeur: '20', statut: 'ok', page: 'Corrections',
+    desc: 'Nombre de sessions dont les valeurs scrapées (startup.gov.tn) étaient fausses.',
+    util: 'Documente l’ampleur de l’erreur dans les données officielles en ligne.',
+    interp: '20 sessions sur 85 (≈ 24 %) contenaient des erreurs de labels/pré-labels. C’est pourquoi l’app affiche le tableau corrigé.',
+    source: 'API : /api/corrections → corrections.json' },
+  'KPI-20': { nom: 'Labels avant → après correction', valeur: '1 324 → 1 311', statut: 'ok', page: 'Corrections',
+    desc: 'Écart entre les labels scrapés (startup.gov.tn) et les PDF officiels.',
+    util: 'Quantifie l’impact de la correction sur l’indicateur phare.',
+    interp: '−13 labels : la valeur publiée était surestimée. Toute analyse doit utiliser 1 311.',
+    source: 'API : /api/corrections → corrections.json' },
+  'KPI-21': { nom: 'Pré-labels avant → après correction', valeur: '617 → 623', statut: 'ok', page: 'Corrections',
+    desc: 'Écart entre pré-labels scrapés et PDF officiels.',
+    util: 'Quantifie l’impact de la correction sur les pré-labels.',
+    interp: '+6 pré-labels : la valeur publiée était sous-estimée. La référence devient 623.',
+    source: 'API : /api/corrections → corrections.json' },
+  'KPI-22': { nom: 'Candidatures 2019-2020', valeur: '416', statut: 'warn', page: 'Rapports',
+    desc: 'Nombre de candidatures du premier rapport annuel.',
+    util: 'Point d’ancrage historique des candidatures.', interp: '416 candidatures sur 2019-2020 (rapport annuel 1).',
+    source: 'Rapports annuels officiels' },
+  'KPI-23': { nom: 'Emplois créés 2020', valeur: '3 222', statut: 'warn', page: 'Rapports',
+    desc: 'Emplois créés par les startups labellisées (rapport 2020).',
+    util: 'Mesure l’impact économique en emplois.', interp: '3 222 emplois déclarés en 2020.',
+    source: 'Rapport annuel 2020' },
+  'KPI-24': { nom: 'Investissement 2021', valeur: '157 M USD', statut: 'warn', page: 'Rapports',
+    desc: 'Montant total levé par les startups en 2021.',
+    util: 'Mesure l’attractivité financière de l’écosystème.',
+    interp: '157 M USD levés en 2021 (rapport annuel).',
+    source: 'Rapport annuel 2021' },
+  'KPI-25': { nom: 'Part des femmes fondatrices', valeur: '35 % → 21 %', statut: 'warn', page: 'Rapports',
+    desc: 'Évolution de la part des femmes dans la création de startups.',
+    util: 'Mesure l’inclusion et la diversité de genre de l’écosystème.',
+    interp: 'La part des femmes dans les créations a reculé de 35 % à 21 % sur la période — signal à creuser.',
+    source: 'Rapports annuels (donnée externe, à structurer — cf. KPI-36)' },
+  'KPI-26': { nom: 'Taux de croissance annuel des candidatures', valeur: 'voir graphique', statut: 'ok', page: 'Sessions',
+    desc: 'Variation en % du nombre de candidatures entre deux années consécutives : (Candᵢ − Candᵢ₋₁)/Candᵢ₋₁ × 100.',
+    util: 'Mesure la dynamique de la demande d’accès au dispositif.',
+    interp: '2020 : +30,9 % · 2021 : +17,4 % · 2022 : −16,7 % · 2023 : −0,8 % · 2024 : +11,4 % · 2025 : −4,3 %. La baisse 2026 est un effet de période incomplète.',
+    source: 'Calcul en app : /api/dashboard (annuel) → dashboard_data.json' },
+  'KPI-27': { nom: 'Cumul et évolution annuelle des labels et pré-labels', valeur: '1 311 / 623', statut: 'ok', page: 'Dashboard',
+    desc: 'Courbe cumulative des labels et pré-labels + taux de variation annuel.',
+    util: 'Visualise la croissance du stock de labels dans le temps.',
+    interp: 'Le cumul est quasi linéaire, avec un palier visible à partir de 2025.',
+    source: 'Calcul en app : /api/dashboard (annuel) → dashboard_data.json' },
+  'KPI-28': { nom: 'Nombre moyen de candidatures par session', valeur: '34,8', statut: 'ok', page: 'Dashboard',
+    desc: 'Volume moyen de dossiers traités par session : 2 958 / 85.',
+    util: 'Mesure la charge de traitement moyenne du comité de labellisation.',
+    interp: '34,8 candidatures/session en moyenne (2 958 / 85 sessions).',
+    source: 'Calcul en app : /api/dashboard (sessions + annuel)' },
+  'KPI-29': { nom: 'Délai moyen de conversion pré-label → label', valeur: '—', statut: 'miss', page: 'Parcours',
+    desc: 'Temps moyen entre l’attribution du pré-label et sa conversion en label.',
+    util: 'Mesure la fluidité du pipeline pré-label → label.',
+    interp: 'DONNÉE MANQUANTE : les dates de conversion ne sont pas encore extraites de parcours.json.',
+    source: 'API à compléter : public/data/parcours.json (dates de conversion à ajouter)' },
+  'KPI-30': { nom: 'Retraits par motif réglementaire', valeur: '—', statut: 'miss', page: 'Parcours',
+    desc: 'Répartition des 140 retraits selon le motif réglementaire.',
+    util: 'Comprend pourquoi des labels sont retirés (mise en demeure, non-conformité…).',
+    interp: 'DONNÉE MANQUANTE : les motifs ne sont pas publics ; à collecter.',
+    source: 'Collecte externe : communiqués ANPR / décisions officielles de retrait' },
+  'KPI-31': { nom: 'Âge moyen à la labellisation', valeur: '1,0 an', statut: 'ok', page: 'Dashboard',
+    desc: 'Âge moyen des startups au moment de l’obtention du label : labelDate − année de création.',
+    util: 'Mesure la précocité de la labellisation dans le cycle de vie.',
+    interp: '1,0 an en moyenne sur les 922 startups : le label est obtenu très tôt après la création.',
+    source: 'Calcul en app : /api/startups → database_startups.json (labelDate, anneeCreation)' },
+  'KPI-32': { nom: 'Distribution par âge à la labellisation', valeur: 'voir histogramme', statut: 'ok', page: 'Dashboard',
+    desc: 'Répartition des startups par tranche d’âge au label (0 an, 1, 2, 3, 4-5, 6+).',
+    util: 'Détaille le profil de précocité (label dès la création vs plus tard).',
+    interp: '0 an : 465 · 1 an : 256 · 2 ans : 81 · 3 ans : 54 · 4-5 ans : 45 · 6+ ans : 21. La majorité (≈ 78 %) est labellisée à 1 an ou moins.',
+    source: 'Calcul en app : /api/startups → database_startups.json' },
+  'KPI-33': { nom: 'Ancienneté moyenne actuelle', valeur: '6,0 ans', statut: 'ok', page: 'Dashboard',
+    desc: 'Âge moyen des startups en 2026 : 2026 − année de création.',
+    util: 'Mesure la maturité du stock de startups.',
+    interp: '6,0 ans en moyenne — la cohorte Startup Act arrive à maturité (fin des avantages à 8 ans).',
+    source: 'Calcul en app : /api/startups → database_startups.json' },
+  'KPI-34': { nom: 'Répartition par forme juridique', valeur: '—', statut: 'miss', page: 'Startups',
+    desc: '% de startups SARL, SUARL, SA et autres.',
+    util: 'Comprend les choix de structuration juridique.',
+    interp: 'DONNÉE MANQUANTE : la colonne « Forme juridique » n’est pas encore dans la base.',
+    source: 'Collecte : Registre National des Entreprises (RNE) / registre de commerce' },
+  'KPI-35': { nom: 'Nombre de fondateurs', valeur: '—', statut: 'miss', page: 'Startups',
+    desc: 'Nombre moyen de fondateurs par startup + fondateurs uniques.',
+    util: 'Mesure la taille des équipes fondatrices.',
+    interp: 'DONNÉE MANQUANTE : le champ `founders` est un texte libre à nettoyer/dédoublonner.',
+    source: 'API : /api/startups (champ founders) — nettoyage à faire' },
+  'KPI-36': { nom: 'Répartition des fondateurs par genre', valeur: '—', statut: 'miss', page: 'Nouvelle page « Entrepreneurs »',
+    desc: '% de femmes/hommes, équipes mixtes, startups 100 % féminines, évolution annuelle.',
+    util: 'Mesure l’inclusion de genre au niveau des fondateurs (vs KPI-25 qui est agrégé).',
+    interp: 'DONNÉE MANQUANTE : classification par genre à construire (insight 35 % → 21 % existant à structurer).',
+    source: 'Nettoyage/classification du champ founders + rapports annuels' },
+  'KPI-37': { nom: 'Profil sociodémographique des fondateurs', valeur: '—', statut: 'miss', page: 'Nouvelle page « Entrepreneurs »',
+    desc: 'Âge, niveau d’études, université d’origine, expérience pro, entrepreneuriat étudiant, diaspora.',
+    util: 'Comprend qui entreprend et ce qui favorise l’impact.',
+    interp: 'DONNÉE MANQUANTE : aucune donnée sociodémographique structurée.',
+    source: 'Collecte : questionnaire fondateurs (Google Forms) + enquêtes' },
+  'KPI-38': { nom: 'Répartition par gouvernorat', valeur: '—', statut: 'miss', page: 'Géographie',
+    desc: '% de startups par gouvernorat (24) + densité et évolution.',
+    util: 'Mesure la répartition territoriale fine (vs KPI-09/10/11/12 rapport 2021).',
+    interp: 'DONNÉE MANQUANTE : les 922 startups n’ont pas encore de gouvernorat géocodé.',
+    source: 'Géocodage du siège juridique des 922 startups (API Géocodage / adresses)' },
+  'KPI-39': { nom: 'Évolution annuelle par secteur', valeur: 'voir graphique', statut: 'ok', page: 'Secteurs',
+    desc: 'Matrice année × secteur : secteurs en progression, stagnation ou recul (Top 5).',
+    util: 'Repère les verticales émergentes et déclinantes.',
+    interp: 'Business Software domine chaque année (35→46→53→27→23→19→9) ; Commerce et HealthTech suivent. La baisse de volumes 2025-2026 reflète moins de sessions.',
+    source: 'Calcul en app : /api/startups → database_startups.json' },
+  'KPI-40': { nom: 'Part de startups DeepTech / brevets / PI', valeur: '—', statut: 'miss', page: 'Nouvelle page « Innovation »',
+    desc: '% de startups DeepTech, brevets nationaux et internationaux, marques et autres PI.',
+    util: 'Mesure l’intensité technologique et l’innovation protégée.',
+    interp: 'DONNÉE MANQUANTE : aucun indicateur innovation structuré.',
+    source: 'Collecte : INNORPI, Patentscope/Espacenet, questionnaire DeepTech' }
+};
+
+/* ===== Catalogue KPI : regroupement par axe / thème ===== */
+const KPI_PAGE_THEME = {
+  'Dashboard': 'Dynamique globale',
+  'Sessions': 'Sessions & labellisation',
+  'Secteurs': 'Secteurs & concentration',
+  'Géographie': 'Géographie & territoires',
+  'Parcours': 'Parcours Prélabel → Label',
+  'Corrections': 'Qualité des données (Corrections)',
+  'Rapports': 'Impact économique (Rapports)',
+  'Startups': 'Startups & fondateurs',
+  'Nouvelle page « Entrepreneurs »': 'Entrepreneurs & société',
+  'Nouvelle page « Innovation »': 'Innovation & propriété intellectuelle'
+};
+const KPI_THEME_ORDER = [
+  'Dynamique globale',
+  'Sessions & labellisation',
+  'Secteurs & concentration',
+  'Géographie & territoires',
+  'Parcours Prélabel → Label',
+  'Qualité des données (Corrections)',
+  'Impact économique (Rapports)',
+  'Startups & fondateurs',
+  'Entrepreneurs & société',
+  'Innovation & propriété intellectuelle'
+];
+
+function renderKpiCatalogue() {
+  const el = document.getElementById('kpiCatalogue');
+  if (!el) return;
+  const groups = {};
+  Object.entries(KPI_INFO).forEach(([id, info]) => {
+    const theme = KPI_PAGE_THEME[info.page] || 'Autres thèmes';
+    (groups[theme] = groups[theme] || []).push([id, info]);
+  });
+  const order = [...KPI_THEME_ORDER, 'Autres thèmes'].filter(t => groups[t]);
+  el.innerHTML = order.map(theme => {
+    const items = groups[theme];
+    const nOk = items.filter(([, i]) => i.statut === 'ok').length;
+    const nMiss = items.filter(([, i]) => i.statut === 'miss').length;
+    return `
+      <div class="kpi-theme">
+        <div class="kpi-theme-header">
+          <h3>${escapeHtml(theme)}</h3>
+          <span class="kpi-theme-count">${items.length} KPI</span>
+          <span class="kpi-theme-count">${nOk} calculés</span>
+          ${nMiss ? `<span class="kpi-theme-count">${nMiss} à collecter</span>` : ''}
+        </div>
+        <div class="kpi-cat-grid">
+          ${items.map(([id, i]) => `
+            <div class="kpi-cat-card ${i.statut === 'miss' ? 'miss-card' : ''}" data-kpi="${id}" tabindex="0">
+              <div class="kcat-top">
+                <span class="kcat-id">${id}</span>
+                <span class="kpi-badge ${i.statut}">${i.statut === 'ok' ? '● Calculé' : i.statut === 'warn' ? '● Externe' : '● Manquant'}</span>
+              </div>
+              <div class="kcat-name">${escapeHtml(i.nom)}</div>
+              <div class="kcat-value">${escapeHtml(i.valeur)}</div>
+              <div class="kcat-meta"><span>📍 ${escapeHtml(i.page)}</span></div>
+            </div>`).join('')}
+        </div>
+      </div>`;
+  }).join('');
+}
+
+/* ===== KPI Modal ===== */function openKpiModal(id) {
+  const info = KPI_INFO[id];
+  if (!info) return;
+  const badge = document.getElementById('kpiModalBadge');
+  badge.textContent = (info.statut === 'ok') ? 'KPI · Calculé' : (info.statut === 'warn') ? 'KPI · Donnée externe' : 'KPI · Donnée manquante';
+  badge.className = 'kpi-badge ' + info.statut;
+  document.getElementById('kpiModalTitle').textContent = id + ' — ' + info.nom;
+  document.getElementById('kpiModalValue').textContent = info.valeur;
+  document.getElementById('kpiModalPage').textContent = '📍 ' + info.page;
+  document.getElementById('kpiModalDesc').textContent = info.desc;
+  document.getElementById('kpiModalUtil').textContent = info.util;
+  document.getElementById('kpiModalInterp').textContent = info.interp;
+  document.getElementById('kpiModalSource').textContent = info.source;
+  const missing = document.getElementById('kpiModalMissing');
+  if (info.statut === 'miss') {
+    missing.style.display = 'block';
+    missing.textContent = '⚠️ Donnée manquante : ce KPI est référencé mais non calculable avec les données actuelles. La source/API à utiliser est indiquée ci-dessous.';
+  } else {
+    missing.style.display = 'none';
+  }
+  document.getElementById('kpiModal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeKpiModal() {
+  document.getElementById('kpiModal').classList.remove('open');
+  document.body.style.overflow = '';
+}
+function bindKpiModals() {
+  document.addEventListener('click', e => {
+    const kpiEl = e.target.closest('[data-kpi]');
+    if (kpiEl) { openKpiModal(kpiEl.getAttribute('data-kpi')); return; }
+    if (e.target.closest('#kpiModalClose')) { closeKpiModal(); return; }
+    if (e.target.id === 'kpiModal') closeKpiModal();
+  });
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') closeKpiModal();
+  });
+}
 
 /* ===== Design system helpers ===== */
 const PAGE_META = {
@@ -983,6 +1447,7 @@ const PAGE_META = {
   fiche: 'Cadrage du projet',
   livrables: 'Axe 1 · État des lieux quantitatif',
   insights: 'Interprétations',
+  kpis: '40 indicateurs répartis par axe / thème',
   about: "Le projet & l'auteur"
 };
 
@@ -1015,6 +1480,7 @@ function switchPage(page) {
   if (page === 'geography') setTimeout(() => { renderGeoCharts(); initMap(); }, 400);
   if (page === 'reports') setTimeout(() => renderReportCharts(0), 200);
   if (page === 'insights') setTimeout(renderInsightCharts, 200);
+  if (page === 'kpis') renderKpiCatalogue();
   document.getElementById('navLinks')?.classList.remove('open');
   document.getElementById('navToggle')?.classList.remove('active');
   document.getElementById('page-' + page)?.scrollIntoView({behavior:'smooth'});
@@ -1022,16 +1488,29 @@ function switchPage(page) {
 
 async function init() {
   try {
-    const [dashboard, sessions, startups, reports, analysis, corrections, parcours] = await Promise.all([
+    const [dashboard, sessions, startups, reports, analysis, corrections, parcours, axes] = await Promise.all([
       fetch('/api/dashboard').then(r => r.json()),
       fetch('/api/sessions').then(r => r.json()),
       fetch('/api/startups').then(r => r.json()),
       fetch('/api/reports').then(r => r.json()),
       fetch('/api/analysis').then(r => r.json()).catch(() => ({sessions:{taux_acceptation_moyen:44.3}})),
       fetch('/api/corrections').then(r => r.json()).catch(() => null),
-      fetch('/api/parcours').then(r => r.json()).catch(() => null)
+      fetch('/api/parcours').then(r => r.json()).catch(() => null),
+      fetch('/api/axes').then(r => r.json()).catch(() => ({axes: []}))
     ]);
-    Object.assign(DATA, { dashboard, sessions, startups, reports, analysis, corrections, parcours });
+    Object.assign(DATA, { dashboard, sessions, startups, reports, analysis, corrections, parcours, axes: axes.axes || [] });
+
+    // Années disponibles pour le filtre dynamique (union des années de sessions, startups et annuel)
+    DATA.availableYears = Array.from(new Set([
+      ...(dashboard.yearly || []).map(r => r.year),
+      ...(dashboard.sessions || []).map(s => s.year),
+      ...(startups || []).map(s => { const m = (s.labelDate || '').match(/^(\d{2})\/(\d{4})$/); return m ? parseInt(m[2]) : null; }).filter(Boolean)
+    ])).sort();
+
+    // Initialisation des filtres année synchronisés
+    initYearFilter('dashYearFilter', 'dashFilterChip', 'dashboard');
+    initYearFilter('sectorYearFilter', 'sectorFilterChip', 'sectors');
+    initYearFilter('sessionYearFilter', 'sessionFilterChip', 'sessions');
 
     // Design system init
     if (window.Chart) {
@@ -1077,6 +1556,8 @@ async function init() {
     renderFiche();
     renderLivrables();
     renderInsights();
+    renderKpiCatalogue();
+    bindKpiModals();
 
     // Auto-load first report
     setTimeout(() => renderReportCharts(0), 300);
@@ -1086,16 +1567,22 @@ async function init() {
 // ===== DASHBOARD =====
 function renderDashboard() {
   const d = DATA.dashboard;
-  const y = d.yearly;
-  const totalCand = y.reduce((s, y) => s + y.candidatures, 0);
-  const totalLabels = y.reduce((s, y) => s + y.labels, 0);
-  const totalPre = y.reduce((s, y) => s + y.preLabels, 0);
-  const totalSessions = y.reduce((s, y) => s + y.nbSessions, 0);
+  const allY = d.yearly;
+  const filtered = DATA.yearFilter !== 'all';
+  // Années <= filtre pour le cumul ; l'année seule pour les KPI
+  const y = filtered ? allY.filter(r => r.year <= DATA.yearFilter) : allY;
+  const yKpi = filtered ? allY.filter(r => r.year === DATA.yearFilter) : allY;
+  const totalCand = yKpi.reduce((s, y) => s + y.candidatures, 0);
+  const totalLabels = yKpi.reduce((s, y) => s + y.labels, 0);
+  const totalPre = yKpi.reduce((s, y) => s + y.preLabels, 0);
+  const totalSessions = yKpi.reduce((s, y) => s + y.nbSessions, 0);
 
-  // ===== KPI-31/32/33 : âge à la labellisation et ancienneté (données corrigées, 922 startups) =====
+  const startups = filteredStartups();
+
+  // ===== KPI-31/32/33 : âge à la labellisation et ancienneté (données corrigées) =====
   let ageSum = 0, ageN = 0, ancSum = 0, ancN = 0;
   const ageBuckets = [0, 0, 0, 0, 0, 0];
-  DATA.startups.forEach(s => {
+  startups.forEach(s => {
     const ld = s.labelDate || '';
     const ac = s.anneeCreation || '';
     const m = ld.match(/^(\d{2})\/(\d{4})$/);
@@ -1117,15 +1604,16 @@ function renderDashboard() {
   const avgAge = ageN ? (ageSum / ageN).toFixed(1) : '-';
   const avgAnc = ancN ? (ancSum / ancN).toFixed(1) : '-';
 
+  const yLbl = filtered ? ' (' + DATA.yearFilter + ')' : '';
   document.getElementById('kpiGrid').innerHTML = `
-    <div class="kpi-card blue"><div class="label">Startups uniques</div><div class="value">${d.database.totalStartups}</div><div class="sub">dans la base</div></div>
-    <div class="kpi-card red"><div class="label">Labels accordés</div><div class="value">${totalLabels}</div><div class="sub">sur ${totalSessions} sessions</div></div>
-    <div class="kpi-card green"><div class="label">Candidatures</div><div class="value">${totalCand}</div><div class="sub">déposées</div></div>
-    <div class="kpi-card orange"><div class="label">Pré-Labels</div><div class="value">${totalPre}</div><div class="sub">accordés</div></div>
-    <div class="kpi-card purple"><div class="label">Taux moyen (KPI-07)</div><div class="value">${((totalLabels / totalCand) * 100).toFixed(1)}%</div><div class="sub">${totalLabels} labels / ${totalCand} candidatures</div></div>
-    <div class="kpi-card blue"><div class="label">Moyenne candidatures/session (KPI-28)</div><div class="value">${(totalCand / totalSessions).toFixed(1)}</div><div class="sub">${totalCand} / ${totalSessions} sessions</div></div>
-    <div class="kpi-card green"><div class="label">Âge moyen à la labellisation (KPI-31)</div><div class="value">${avgAge} an${avgAge === '1.0' ? '' : 's'}</div><div class="sub">labelDate − année de création</div></div>
-    <div class="kpi-card orange"><div class="label">Ancienneté moyenne (KPI-33)</div><div class="value">${avgAnc} ans</div><div class="sub">2026 − année de création</div></div>
+    <div class="kpi-card blue" data-kpi="KPI-01" tabindex="0"><div class="label">Startups uniques${yLbl}</div><div class="value">${filtered ? startups.length : d.database.totalStartups}</div><div class="sub">${filtered ? 'labellisées en ' + DATA.yearFilter : 'dans la base'}</div></div>
+    <div class="kpi-card red" data-kpi="KPI-02" tabindex="0"><div class="label">Labels accordés${yLbl}</div><div class="value">${totalLabels}</div><div class="sub">sur ${totalSessions} sessions</div></div>
+    <div class="kpi-card green" data-kpi="KPI-03" tabindex="0"><div class="label">Candidatures${yLbl}</div><div class="value">${totalCand}</div><div class="sub">déposées</div></div>
+    <div class="kpi-card orange" data-kpi="KPI-04" tabindex="0"><div class="label">Pré-Labels${yLbl}</div><div class="value">${totalPre}</div><div class="sub">accordés</div></div>
+    <div class="kpi-card purple" data-kpi="KPI-05" tabindex="0"><div class="label">Taux moyen (KPI-05)</div><div class="value">${totalCand ? ((totalLabels / totalCand) * 100).toFixed(1) : '-'}%</div><div class="sub">${totalLabels} labels / ${totalCand} candidatures</div></div>
+    <div class="kpi-card blue" data-kpi="KPI-28" tabindex="0"><div class="label">Moyenne candidatures/session (KPI-28)</div><div class="value">${totalSessions ? (totalCand / totalSessions).toFixed(1) : '-'}</div><div class="sub">${totalCand} / ${totalSessions} sessions</div></div>
+    <div class="kpi-card green" data-kpi="KPI-31" tabindex="0"><div class="label">Âge moyen à la labellisation (KPI-31)</div><div class="value">${avgAge} an${avgAge === '1.0' ? '' : 's'}</div><div class="sub">labelDate − année de création</div></div>
+    <div class="kpi-card orange" data-kpi="KPI-33" tabindex="0"><div class="label">Ancienneté moyenne (KPI-33)</div><div class="value">${avgAnc} ans</div><div class="sub">2026 − année de création</div></div>
   `;
 
   makeChart('chartYearly', 'bar', {
@@ -1137,27 +1625,27 @@ function renderDashboard() {
     ]
   });
 
-  const sectors = d.database.sectors.sort((a, b) => b.count - a.count).slice(0, 8);
+  const sectors = sectorCounts(startups).slice(0, 8);
   const colors = ['#e94560','#0f3460','#16a34a','#ea580c','#7c3aed','#0891b2','#ca8a04','#be185d'];
-  const sectorsTotal = d.database.sectors.reduce((s, s2) => s + s2.count, 0);
+  const sectorsTotal = sectors.reduce((s, s2) => s + s2.count, 0);
   makeChart('chartSectors', 'doughnut', {
-    labels: sectors.map(s => `${s.name} (${(s.count / sectorsTotal * 100).toFixed(1)}%)`),
+    labels: sectors.map(s => `${s.name} (${sectorsTotal ? (s.count / sectorsTotal * 100).toFixed(1) : 0}%)`),
     datasets: [{ data: sectors.map(s => s.count), backgroundColor: colors }]
   }, { plugins: { legend: { position: 'right', labels: { font: { size: 10 } } } } });
 
-  const lm = d.database.byLabelMonth;
+  const lm = filtered ? d.database.byLabelMonth.filter(m => m.month.split('/')[1] === String(DATA.yearFilter)) : d.database.byLabelMonth;
   const monthNames = ['Jan','Fév','Mar','Avr','Mai','Jui','Jui','Aoû','Sep','Oct','Nov','Déc'];
   const monthAgg = {};
   lm.forEach(m => { const mo = parseInt(m.month.split('/')[0]); monthAgg[mo] = (monthAgg[mo]||0)+m.count; });
   makeChart('chartMonthly', 'line', {
     labels: monthNames,
-    datasets: [{ label: 'Labels', data: Object.values(monthAgg), borderColor: '#e94560', fill: true, backgroundColor: 'rgba(233,69,96,0.1)', tension: 0.4 }]
+    datasets: [{ label: 'Labels', data: monthNames.map((_, i) => monthAgg[i+1] || 0), borderColor: '#e94560', fill: true, backgroundColor: 'rgba(233,69,96,0.1)', tension: 0.4 }]
   });
 
   const byLabelYear = {};
   d.database.byLabelMonth.forEach(m => {
     const year = m.month.split('/')[1];
-    byLabelYear[year] = (byLabelYear[year] || 0) + m.count;
+    if (!filtered || String(DATA.yearFilter) === year) byLabelYear[year] = (byLabelYear[year] || 0) + m.count;
   });
   const labelYears = Object.keys(byLabelYear).sort();
   makeChart('chartCreation', 'bar', {
@@ -1186,7 +1674,9 @@ function renderDashboard() {
 
 // ===== SESSIONS =====
 function renderSessions() {
-  const sessions = DATA.dashboard.sessions;
+  const sessions = DATA.yearFilter === 'all'
+    ? DATA.dashboard.sessions
+    : DATA.dashboard.sessions.filter(s => s.year === DATA.yearFilter);
   document.getElementById('sessionsTable').innerHTML = sessions.slice().reverse().map(s => `
     <tr>
       <td><strong>${s.session}</strong></td>
@@ -1220,7 +1710,9 @@ function filterSessions(q) {
 }
 
 function renderSessionCharts() {
-  const y = DATA.dashboard.yearly;
+  const y = DATA.yearFilter === 'all'
+    ? DATA.dashboard.yearly
+    : DATA.dashboard.yearly.filter(r => r.year === DATA.yearFilter);
   makeChart('chartSessionsRate', 'line', {
     labels: y.map(y => y.year),
     datasets: [{ label: "Taux d'acceptation (%)", data: y.map(y => parseFloat(y.tauxAcceptation)), borderColor: '#e94560', tension: 0.4, pointBackgroundColor: '#e94560' }]
@@ -1235,15 +1727,17 @@ function renderSessionCharts() {
   });
 
   // ===== KPI-26 : taux de croissance annuel des candidatures =====
+  const fullY = DATA.dashboard.yearly;
   const growthYears = [];
   const growthVals = [];
-  for (let i = 1; i < y.length; i++) {
-    const prev = y[i - 1].candidatures, cur = y[i].candidatures;
-    if (prev > 0) {
-      growthYears.push(y[i].year);
-      growthVals.push(+((cur - prev) / prev * 100).toFixed(1));
+  y.forEach(r => {
+    const idx = fullY.findIndex(f => f.year === r.year);
+    if (idx > 0 && fullY[idx - 1].candidatures > 0) {
+      const prev = fullY[idx - 1].candidatures;
+      growthYears.push(r.year);
+      growthVals.push(+((r.candidatures - prev) / prev * 100).toFixed(1));
     }
-  }
+  });
   makeChart('chartCandGrowth', 'bar', {
     labels: growthYears,
     datasets: [{
@@ -1288,22 +1782,22 @@ function filterStartups(q) {
 
 // ===== SECTORS =====
 function renderSectors() {
-  const sectors = DATA.dashboard.database.sectors.sort((a, b) => b.count - a.count);
+  const sectors = sectorCounts(filteredStartups());
   const total = sectors.reduce((s, s2) => s + s2.count, 0);
   const top4 = sectors.slice(0, 4).reduce((s, s2) => s + s2.count, 0);
   const hhi = sectors.reduce((s, s2) => s + Math.pow(s2.count / total * 100, 2), 0);
-  document.getElementById('hhiValue').textContent = hhi.toFixed(0);
-  document.getElementById('topSector').textContent = sectors[0].name;
-  document.getElementById('top4Value').textContent = (top4/total*100).toFixed(1) + '%';
+  document.getElementById('hhiValue').textContent = total ? hhi.toFixed(0) : '-';
+  document.getElementById('topSector').textContent = sectors[0] ? sectors[0].name : '-';
+  document.getElementById('top4Value').textContent = total ? (top4/total*100).toFixed(1) + '%' : '-';
   document.getElementById('sectorsTable').innerHTML = sectors.map((s, i) => {
-    const pct = (s.count / total * 100).toFixed(1);
-    const cumul = sectors.slice(0, i+1).reduce((sum, s2) => sum + s2.count, 0) / total * 100;
+    const pct = total ? (s.count / total * 100).toFixed(1) : '0.0';
+    const cumul = total ? sectors.slice(0, i+1).reduce((sum, s2) => sum + s2.count, 0) / total * 100 : 0;
     return `<tr><td>${s.name}</td><td>${s.count}</td><td>${pct}%</td><td>${cumul.toFixed(1)}%</td></tr>`;
   }).join('');
 }
 
 function renderSectorCharts() {
-  const sectors = DATA.dashboard.database.sectors.sort((a, b) => b.count - a.count);
+  const sectors = sectorCounts(filteredStartups());
   const total = sectors.reduce((s, s2) => s + s2.count, 0);
   const colors = ['#e94560','#0f3460','#16a34a','#ea580c','#7c3aed','#0891b2','#ca8a04','#be185d','#65a30d','#0d9488','#9333ea','#db2777','#2563eb','#c026d3','#059669','#d97706','#dc2626','#4f46e5'];
   makeChart('chartSectorsDetail', 'bar', {
@@ -1311,14 +1805,14 @@ function renderSectorCharts() {
     datasets: [{ label: 'Startups', data: sectors.map(s => s.count), backgroundColor: colors }]
   }, { indexAxis: 'y', plugins: { legend: { display: false } } });
   makeChart('chartSectorsPie', 'pie', {
-    labels: sectors.map(s => `${s.name} (${(s.count / total * 100).toFixed(1)}%)`),
+    labels: sectors.map(s => `${s.name} (${total ? (s.count / total * 100).toFixed(1) : 0}%)`),
     datasets: [{ data: sectors.map(s => s.count), backgroundColor: colors }]
   }, { plugins: { legend: { position: 'right', labels: { font: { size: 9 } } },
       tooltip: {
         callbacks: {
           label: function(item) {
             const s = sectors[item.index];
-            const pct = (s.count / total * 100).toFixed(1);
+            const pct = total ? (s.count / total * 100).toFixed(1) : 0;
             return `${s.name}: ${s.count} startups (${pct}%)`;
           }
         }
@@ -1326,9 +1820,11 @@ function renderSectorCharts() {
   } });
 
   // ===== KPI-39 : évolution annuelle par secteur — Top 5 (données corrigées) =====
+  // Toujours sur la période complète (le filtre année s'applique aux autres graphiques)
   const evoYears = [2019, 2020, 2021, 2022, 2023, 2024, 2025];
   const evoColors = ['#0f3460', '#e94560', '#16a34a', '#ea580c', '#7c3aed'];
-  const top5 = sectors.slice(0, 5).map(s => s.name);
+  const allSectors = sectorCounts(DATA.startups);
+  const top5 = allSectors.slice(0, 5).map(s => s.name);
   const evoDatasets = top5.map((name, i) => {
     const counts = evoYears.map(yr => DATA.startups.filter(s => {
       const mm = (s.labelDate || '').match(/^(\d{2})\/(\d{4})$/);
@@ -1895,6 +2391,86 @@ function livrableExt(file) {
 }
 
 function renderLivrables() {
+  renderAxeCards();
+  renderLivrableGrid();
+}
+
+const AXE_LABELS = {
+  'axe 1': 'État des lieux quantitatif',
+  'axe 2': 'Cadre juridique et gouvernance',
+  'axe 3': 'Financement des startups',
+  'axe 4': 'Accompagnement et écosystème',
+  'axe 5': 'Évaluation des impacts',
+  'axe 6': 'Benchmark international'
+};
+
+function axeNumberFromFolder(folder) {
+  const m = folder.match(/(\d)/);
+  return m ? parseInt(m[1]) : 0;
+}
+
+function axeTitle(folder) {
+  const num = axeNumberFromFolder(folder);
+  const label = AXE_LABELS['axe ' + num];
+  if (label) return label;
+  return folder.replace(/^axe\s*\d+\s*/i, '').replace(/[-_]/g, ' ').trim();
+}
+
+function renderAxeCards() {
+  const grid = document.getElementById('axeGrid');
+  if (!grid) return;
+  const axes = (DATA.axes || []).filter(a => /^axe\s/i.test(a.folder) || /^axe\d/i.test(a.folder));
+  grid.innerHTML = axes.map(a => {
+    const num = axeNumberFromFolder(a.folder);
+    const pdfs = a.files.filter(f => f.toLowerCase().endsWith('.pdf')).length;
+    return `
+      <div class="axe-card" onclick="openAxeFiles('${escapeAttr(a.folder)}')" title="Ouvrir les documents de l'axe ${num}">
+        <div class="axe-num">Axe ${num}</div>
+        <div class="axe-title">${escapeHtml(axeTitle(a.folder))}</div>
+        <div class="axe-count">${pdfs} PDF · ${a.files.length} fichiers</div>
+      </div>`;
+  }).join('');
+}
+
+function openAxeFiles(folder) {
+  const axe = (DATA.axes || []).find(a => a.folder === folder);
+  if (!axe) return;
+  const num = axeNumberFromFolder(folder);
+  document.getElementById('axeFilesTitle').textContent = `Axe ${num} — ${axeTitle(folder)}`;
+  const grid = document.getElementById('axeFilesGrid');
+  grid.innerHTML = axe.files.map(f => {
+    const ext = (f.split('.').pop() || '').toLowerCase();
+    const isPdf = ext === 'pdf';
+    const isDoc = ext === 'docx';
+    const isXlsx = ext === 'xlsx';
+    const icon = isPdf ? '📄' : isDoc ? '📋' : isXlsx ? '📊' : '📘';
+    const label = f.replace(/\.(pdf|docx|xlsx)$/i, '');
+    const typeTag = isPdf ? 'PDF' : isDoc ? 'Word' : isXlsx ? 'Excel' : 'Doc';
+    const action = isPdf
+      ? `openLivrable('${escapeAttr(folder)}','${escapeAttr(f)}')`
+      : `downloadLivrable('${escapeAttr(folder)}','${escapeAttr(f)}')`;
+    return `
+      <div class="pdf-card" onclick="${action}" title="${isPdf ? 'Consulter' : 'Télécharger'}">
+        <div class="thumb"><span class="livrable-icon">${icon}</span><span class="badge">${typeTag}</span></div>
+        <div class="body">
+          <div class="name">${escapeHtml(label)}</div>
+          <div class="meta">${isPdf ? 'Aperçu intégré · cliquez' : 'Téléchargement'}</div>
+        </div>
+      </div>`;
+  }).join('');
+  document.getElementById('axeFilesPanel').style.display = 'block';
+  document.getElementById('axeFilesPanel').scrollIntoView({ behavior: 'smooth' });
+}
+
+function closeAxeFiles() {
+  document.getElementById('axeFilesPanel').style.display = 'none';
+  document.getElementById('axeFilesGrid').innerHTML = '';
+}
+
+function escapeAttr(s) { return String(s).replace(/"/g, '&quot;'); }
+function escapeHtml(s) { return String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+
+function renderLivrableGrid() {
   const grid = document.getElementById('livrableGrid');
   grid.innerHTML = LIVRABLES_META.map(d => {
     const ext = livrableExt(d.file);
@@ -1924,8 +2500,9 @@ function renderLivrables() {
   }).join('');
 }
 
-function openLivrable(filename, fallback) {
-  const url = '/api/livrables/' + encodeURIComponent(filename);
+function openLivrable() {
+  const parts = Array.from(arguments).filter(Boolean);
+  const url = '/api/livrables/' + parts.map(p => encodeURIComponent(p)).join('/');
   fetch(url).then(r => {
     if (!r.ok) throw new Error('not-found');
     return r.blob();
@@ -1937,14 +2514,16 @@ function openLivrable(filename, fallback) {
     viewer.scrollIntoView({ behavior: 'smooth' });
   }).catch(() => {
     // PDF indisponible → on télécharge le fichier original
-    if (fallback) downloadLivrable(fallback);
+    if (parts.length > 1) downloadLivrable(parts[1]);
+    else downloadLivrable(parts[0]);
   });
 }
 
-function downloadLivrable(filename) {
+function downloadLivrable() {
+  const parts = Array.from(arguments).filter(Boolean);
   const a = document.createElement('a');
-  a.href = '/api/livrables/' + encodeURIComponent(filename);
-  a.download = filename;
+  a.href = '/api/livrables/' + parts.map(p => encodeURIComponent(p)).join('/');
+  a.download = parts[parts.length - 1];
   document.body.appendChild(a);
   a.click();
   a.remove();

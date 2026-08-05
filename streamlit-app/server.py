@@ -60,6 +60,8 @@ class Handler(http.server.SimpleHTTPRequestHandler):
             self._serve_doc(path)
         elif path.startswith('/api/livrables/'):
             self._serve_livrable(path)
+        elif path == '/api/axes':
+            self._serve_axes()
         elif path == '/api/livrables':
             liv = os.path.join(BASE, '..', 'livrables')
             files = sorted([f for f in os.listdir(liv) if f.endswith(('.md', '.pdf', '.xlsx', '.docx'))])
@@ -190,12 +192,29 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         else:
             self._send_json(None, status=404, data={'error': 'not found'})
 
+    def _serve_axes(self):
+        liv = os.path.join(BASE, '..', 'livrables')
+        axes = []
+        if os.path.isdir(liv):
+            for name in sorted(os.listdir(liv)):
+                d = os.path.join(liv, name)
+                if os.path.isdir(d):
+                    files = sorted(f for f in os.listdir(d) if f.endswith(('.pdf', '.docx', '.xlsx', '.md')))
+                    if files:
+                        axes.append({'folder': name, 'files': files})
+        self._send_json(None, data={'axes': axes})
+
     def _serve_livrable(self, path):
-        filename = os.path.basename(urllib.parse.unquote(path.replace('/api/livrables/', '')))
-        filepath = os.path.join(BASE, '..', 'livrables', filename)
+        rel = urllib.parse.unquote(path.replace('/api/livrables/', ''))
+        rel = os.path.normpath(rel).replace('\\', '/')
+        if rel.startswith('../') or rel.startswith('/'):
+            self.send_error(403)
+            return
+        filepath = os.path.join(BASE, '..', 'livrables', rel)
         if not os.path.isfile(filepath):
             self.send_error(404)
             return
+        filename = os.path.basename(filepath)
         ext = os.path.splitext(filename)[1]
         if ext == '.pdf':
             self.send_response(200)
