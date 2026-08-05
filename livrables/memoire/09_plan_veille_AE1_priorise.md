@@ -323,3 +323,31 @@
 | **Total** | | **15** |
 
 > **Note de cohérence** : la synthèse précédente comptait « 8 calculables » en incluant le délai de conversion (KPI-29) et le nombre de fondateurs (KPI-35) comme réalisables avec effort ; le récapitulatif ci-dessus les classe en « partiellement calculables » pour plus de précision. Total catalogue : **25 existants + 15 à compléter = 40 KPI**.
+
+---
+
+## Statut d'implémentation dans l'app (mise à jour)
+
+**7 KPI calculables ont été implémentés dans `streamlit-app/public/index.html`** (calculés en temps réel à partir des données corrigées : 922 startups, 1 311 labels, 623 pré-labels). Les 8 autres nécessitent une extraction/collecte et ne sont **pas** implémentés pour l'instant.
+
+| # | Nom précis du KPI | Statut dans l'app | Valeur calculée | Emplacement |
+|---|---|---|---|---|
+| KPI-26 | Taux de croissance annuel des candidatures | ✅ Implémenté | 2020 : +30,9 % · 2021 : +17,4 % · 2022 : −16,7 % · 2023 : −0,8 % · 2024 : +11,4 % · 2025 : −4,3 % · 2026 : −74,3 % | Page Sessions — « Croissance annuelle des candidatures » |
+| KPI-27 | Cumul et évolution annuelle des labels et pré-labels | ✅ Implémenté | Cumul labels 1 311 · cumul pré-labels 623 (courbe) | Dashboard — « Cumul des labels et pré-labels » |
+| KPI-28 | Nombre moyen de candidatures par session | ✅ Implémenté | 34,8 (2 958 / 85) | Dashboard — card KPI |
+| KPI-29 | Délai moyen de conversion pré-label → label | ⏸️ Non implémenté | — (dates de conversion absentes) | — |
+| KPI-30 | Retraits par motif réglementaire | ⏸️ Non implémenté | — (collecte ANPR) | — |
+| KPI-31 | Âge moyen à la labellisation | ✅ Implémenté | 1,0 an (922 startups) | Dashboard — card KPI |
+| KPI-32 | Distribution par âge à la labellisation | ✅ Implémenté | 0 an : 465 · 1 an : 256 · 2 ans : 81 · 3 ans : 54 · 4-5 ans : 45 · 6+ ans : 21 | Dashboard — « Âge des startups à la labellisation » |
+| KPI-33 | Ancienneté moyenne actuelle | ✅ Implémenté | 6,0 ans | Dashboard — card KPI |
+| KPI-34 | Répartition par forme juridique | ⏸️ Non implémenté | — (collecte RNE) | — |
+| KPI-35 | Nombre de fondateurs | ⏸️ Non implémenté | — (champ `founders` texte, à nettoyer) | — |
+| KPI-36 | Répartition des fondateurs par genre | ⏸️ Non implémenté | — (classification à faire) | — |
+| KPI-37 | Profil sociodémographique des fondateurs | ⏸️ Non implémenté | — (questionnaire) | — |
+| KPI-38 | Répartition par gouvernorat | ⏸️ Non implémenté | — (géocodage à faire) | — |
+| KPI-39 | Évolution annuelle par secteur | ✅ Implémenté | Top 5 : Business Software (35→46→53→27→23→19→9), Commerce (15→37→20→16→4→2→1), HealthTech, EdTech, AdTech | Page Secteurs — « Évolution annuelle par secteur — Top 5 » |
+| KPI-40 | Part de startups DeepTech / brevets / PI | ⏸️ Non implémenté | — (collecte INNORPI) | — |
+
+**Correction de cohérence appliquée dans l'app** : insight « Taux de retrait des labels : 10,4 % (190 retraits sur 1824) » → **« 10,7 % (140 retraits sur 1 311 labels) »** (données corrigées `parcours.json`).
+
+> ⚠️ **Clarification données** : le total de **2 958 candidatures** (page Sessions/Dashboard) est la somme de la colonne candidatures des 85 sessions et reste cohérent avec le taux d'acceptation moyen (1 311/2 958 = 44,3 %). Le chiffre « 1 824 » provient du fichier périmé `analyse_quantitative_results.json` (`pdf_extracted.total_entrees` = anciennes entrées extraites des PDFs, 80/85 sessions) — **ce n'est pas le nombre de candidatures** et il a été écarté.
