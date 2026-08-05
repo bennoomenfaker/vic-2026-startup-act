@@ -1027,7 +1027,7 @@ async function init() {
       fetch('/api/sessions').then(r => r.json()),
       fetch('/api/startups').then(r => r.json()),
       fetch('/api/reports').then(r => r.json()),
-      fetch('/api/analysis').then(r => r.json()).catch(() => ({sessions:{taux_acceptation_moyen:44.8}})),
+      fetch('/api/analysis').then(r => r.json()).catch(() => ({sessions:{taux_acceptation_moyen:44.3}})),
       fetch('/api/corrections').then(r => r.json()).catch(() => null),
       fetch('/api/parcours').then(r => r.json()).catch(() => null)
     ]);
@@ -1122,7 +1122,7 @@ function renderDashboard() {
     <div class="kpi-card red"><div class="label">Labels accordés</div><div class="value">${totalLabels}</div><div class="sub">sur ${totalSessions} sessions</div></div>
     <div class="kpi-card green"><div class="label">Candidatures</div><div class="value">${totalCand}</div><div class="sub">déposées</div></div>
     <div class="kpi-card orange"><div class="label">Pré-Labels</div><div class="value">${totalPre}</div><div class="sub">accordés</div></div>
-    <div class="kpi-card purple"><div class="label">Taux moyen</div><div class="value">${DATA.analysis.sessions?.taux_acceptation_moyen || '44.8'}%</div><div class="sub">2019-2026</div></div>
+    <div class="kpi-card purple"><div class="label">Taux moyen (KPI-07)</div><div class="value">${((totalLabels / totalCand) * 100).toFixed(1)}%</div><div class="sub">${totalLabels} labels / ${totalCand} candidatures</div></div>
     <div class="kpi-card blue"><div class="label">Moyenne candidatures/session (KPI-28)</div><div class="value">${(totalCand / totalSessions).toFixed(1)}</div><div class="sub">${totalCand} / ${totalSessions} sessions</div></div>
     <div class="kpi-card green"><div class="label">Âge moyen à la labellisation (KPI-31)</div><div class="value">${avgAge} an${avgAge === '1.0' ? '' : 's'}</div><div class="sub">labelDate − année de création</div></div>
     <div class="kpi-card orange"><div class="label">Ancienneté moyenne (KPI-33)</div><div class="value">${avgAnc} ans</div><div class="sub">2026 − année de création</div></div>
@@ -1804,8 +1804,8 @@ function wrapMdTables(root) {
 
 // ===== INSIGHTS =====
 function renderInsights() {
-  const insights = (DATA.analysis.insights_cles || []).length > 0 ? DATA.analysis.insights_cles : [
-    "Baisse continue du taux d'acceptation: 61,7% (2019) → 36,3% (2025) = -41% — sélection plus rigoureuse",
+  const base = (DATA.analysis.insights_cles || []).length > 0 ? DATA.analysis.insights_cles : [
+    "Baisse continue du taux d'acceptation: 59,8% (2019) → 35,4% (2025) = -41% — sélection plus rigoureuse",
     "Concentration sectorielle modérée: Top 4 secteurs = 51,6% des startups (Business Software domine à 23%)",
     "Pic de labellisation en 2020 (214 startups) puis déclin progressif — effet COVID + essoufflement",
     "Taux de retrait des labels: 10,7% (140 retraits sur 1 311 labels) — taux modéré",
@@ -1814,6 +1814,7 @@ function renderInsights() {
     "Saisonnalité: décembre (102) et mai (98) sont les mois les plus actifs, juillet (45) le moins actif",
     "Investissement 2021: 157M USD mais 100M USD = 1 deal (Instadeep) — dépendance à un champion"
   ];
+  const insights = base.map(i => i.replace('61,7% (2019) → 36,3% (2025)', '59,8% (2019) → 35,4% (2025)'));
   document.getElementById('insightsContainer').innerHTML = insights.map((i, idx) => `
     <div class="insight-card"><div class="title"><span class="insight-num">${String(idx + 1).padStart(2, '0')}</span> Insight</div><p>${i}</p></div>
   `).join('');
