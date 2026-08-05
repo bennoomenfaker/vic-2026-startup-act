@@ -588,6 +588,10 @@
       <div class="chart-card"><h3>Labels par mois (saisonnalité)</h3><div class="chart-wrapper"><canvas id="chartMonthly"></canvas></div></div>
       <div class="chart-card"><h3>Création des startups par année</h3><div class="chart-wrapper"><canvas id="chartCreation"></canvas></div></div>
     </div>
+    <div class="chart-grid">
+      <div class="chart-card"><h3>Cumul des labels et pré-labels (KPI-27)</h3><div class="chart-wrapper"><canvas id="chartCumul"></canvas></div></div>
+      <div class="chart-card"><h3>Âge des startups à la labellisation (KPI-32)</h3><div class="chart-wrapper"><canvas id="chartAgeLabel"></canvas></div></div>
+    </div>
   </section>
 
   <!-- SESSIONS -->
@@ -596,6 +600,9 @@
     <div class="chart-grid">
       <div class="chart-card"><h3>Taux d'acceptation par année</h3><div class="chart-wrapper"><canvas id="chartSessionsRate"></canvas></div></div>
       <div class="chart-card"><h3>Candidatures vs Labels par année</h3><div class="chart-wrapper"><canvas id="chartSessionsBar"></canvas></div></div>
+    </div>
+    <div class="chart-grid">
+      <div class="chart-card"><h3>Croissance annuelle des candidatures (KPI-26)</h3><div class="chart-wrapper"><canvas id="chartCandGrowth"></canvas></div></div>
     </div>
     <div class="search-bar">
       <input type="text" id="sessionSearch" placeholder="Rechercher une session..." oninput="filterSessions(this.value)">
@@ -626,6 +633,7 @@
       <div class="chart-card"><h3>Classement des secteurs</h3><div class="chart-wrapper"><canvas id="chartSectorsDetail"></canvas></div></div>
       <div class="chart-card"><h3>Répartition en %</h3><div class="chart-wrapper"><canvas id="chartSectorsPie"></canvas></div></div>
     </div>
+    <div class="chart-card" style="margin-bottom:20px"><h3>Évolution annuelle par secteur — Top 5 (KPI-39)</h3><div class="chart-wrapper"><canvas id="chartSectorEvo"></canvas></div></div>
     <div class="search-bar" style="justify-content:flex-end">
       <button onclick="exportExcel('sectors')" class="btn btn-outline">📥 Export XLSX</button>
     </div>
@@ -1084,12 +1092,40 @@ function renderDashboard() {
   const totalPre = y.reduce((s, y) => s + y.preLabels, 0);
   const totalSessions = y.reduce((s, y) => s + y.nbSessions, 0);
 
+  // ===== KPI-31/32/33 : âge à la labellisation et ancienneté (données corrigées, 922 startups) =====
+  let ageSum = 0, ageN = 0, ancSum = 0, ancN = 0;
+  const ageBuckets = [0, 0, 0, 0, 0, 0];
+  DATA.startups.forEach(s => {
+    const ld = s.labelDate || '';
+    const ac = s.anneeCreation || '';
+    const m = ld.match(/^(\d{2})\/(\d{4})$/);
+    const ly = m ? parseInt(m[2]) : (/^\d{4}$/.test(ld) ? parseInt(ld) : null);
+    if (ly !== null && ac !== '' && !isNaN(parseInt(ac))) {
+      const age = ly - parseInt(ac);
+      ageSum += age; ageN++;
+      if (age <= 0) ageBuckets[0]++;
+      else if (age === 1) ageBuckets[1]++;
+      else if (age === 2) ageBuckets[2]++;
+      else if (age === 3) ageBuckets[3]++;
+      else if (age <= 5) ageBuckets[4]++;
+      else ageBuckets[5]++;
+    }
+    if (ac !== '' && !isNaN(parseInt(ac)) && parseInt(ac) <= 2026) {
+      ancSum += 2026 - parseInt(ac); ancN++;
+    }
+  });
+  const avgAge = ageN ? (ageSum / ageN).toFixed(1) : '-';
+  const avgAnc = ancN ? (ancSum / ancN).toFixed(1) : '-';
+
   document.getElementById('kpiGrid').innerHTML = `
     <div class="kpi-card blue"><div class="label">Startups uniques</div><div class="value">${d.database.totalStartups}</div><div class="sub">dans la base</div></div>
     <div class="kpi-card red"><div class="label">Labels accordés</div><div class="value">${totalLabels}</div><div class="sub">sur ${totalSessions} sessions</div></div>
     <div class="kpi-card green"><div class="label">Candidatures</div><div class="value">${totalCand}</div><div class="sub">déposées</div></div>
     <div class="kpi-card orange"><div class="label">Pré-Labels</div><div class="value">${totalPre}</div><div class="sub">accordés</div></div>
     <div class="kpi-card purple"><div class="label">Taux moyen</div><div class="value">${DATA.analysis.sessions?.taux_acceptation_moyen || '44.8'}%</div><div class="sub">2019-2026</div></div>
+    <div class="kpi-card blue"><div class="label">Moyenne candidatures/session (KPI-28)</div><div class="value">${(totalCand / totalSessions).toFixed(1)}</div><div class="sub">${totalCand} / ${totalSessions} sessions</div></div>
+    <div class="kpi-card green"><div class="label">Âge moyen à la labellisation (KPI-31)</div><div class="value">${avgAge} an${avgAge === '1.0' ? '' : 's'}</div><div class="sub">labelDate − année de création</div></div>
+    <div class="kpi-card orange"><div class="label">Ancienneté moyenne (KPI-33)</div><div class="value">${avgAnc} ans</div><div class="sub">2026 − année de création</div></div>
   `;
 
   makeChart('chartYearly', 'bar', {
@@ -1127,6 +1163,24 @@ function renderDashboard() {
   makeChart('chartCreation', 'bar', {
     labels: labelYears,
     datasets: [{ label: 'Startups labellisées', data: labelYears.map(y => byLabelYear[y]), backgroundColor: '#0f3460' }]
+  });
+
+  // ===== KPI-27 : cumul des labels et pré-labels =====
+  let cumL = 0, cumP = 0;
+  const cumLabelsArr = y.map(r => cumL += r.labels);
+  const cumPreArr = y.map(r => cumP += r.preLabels);
+  makeChart('chartCumul', 'line', {
+    labels: y.map(r => r.year),
+    datasets: [
+      { label: 'Cumul labels', data: cumLabelsArr, borderColor: '#e94560', backgroundColor: 'rgba(233,69,96,0.08)', fill: true, tension: 0.3 },
+      { label: 'Cumul pré-labels', data: cumPreArr, borderColor: '#ea580c', backgroundColor: 'rgba(234,88,12,0.08)', fill: true, tension: 0.3 }
+    ]
+  });
+
+  // ===== KPI-32 : histogramme de l'âge à la labellisation =====
+  makeChart('chartAgeLabel', 'bar', {
+    labels: ['0 an', '1 an', '2 ans', '3 ans', '4-5 ans', '6+ ans'],
+    datasets: [{ label: 'Startups', data: ageBuckets, backgroundColor: ['#0f3460', '#0891b2', '#16a34a', '#ca8a04', '#ea580c', '#e94560'] }]
   });
 }
 
@@ -1179,6 +1233,25 @@ function renderSessionCharts() {
       { label: 'Pré-Labels', data: y.map(y => y.preLabels), backgroundColor: '#16a34a' }
     ]
   });
+
+  // ===== KPI-26 : taux de croissance annuel des candidatures =====
+  const growthYears = [];
+  const growthVals = [];
+  for (let i = 1; i < y.length; i++) {
+    const prev = y[i - 1].candidatures, cur = y[i].candidatures;
+    if (prev > 0) {
+      growthYears.push(y[i].year);
+      growthVals.push(+((cur - prev) / prev * 100).toFixed(1));
+    }
+  }
+  makeChart('chartCandGrowth', 'bar', {
+    labels: growthYears,
+    datasets: [{
+      label: 'Croissance candidatures (%)',
+      data: growthVals,
+      backgroundColor: growthVals.map(v => v >= 0 ? 'rgba(22,163,74,0.75)' : 'rgba(233,69,96,0.75)')
+    }]
+  }, { plugins: { tooltip: { callbacks: { label: c => `Variation ${c.parsed.y >= 0 ? '+' : ''}${c.parsed.y} %` } } } });
 }
 
 // ===== STARTUPS =====
@@ -1251,6 +1324,22 @@ function renderSectorCharts() {
         }
       }
   } });
+
+  // ===== KPI-39 : évolution annuelle par secteur — Top 5 (données corrigées) =====
+  const evoYears = [2019, 2020, 2021, 2022, 2023, 2024, 2025];
+  const evoColors = ['#0f3460', '#e94560', '#16a34a', '#ea580c', '#7c3aed'];
+  const top5 = sectors.slice(0, 5).map(s => s.name);
+  const evoDatasets = top5.map((name, i) => {
+    const counts = evoYears.map(yr => DATA.startups.filter(s => {
+      const mm = (s.labelDate || '').match(/^(\d{2})\/(\d{4})$/);
+      return s.secteur === name && mm && parseInt(mm[2]) === yr;
+    }).length);
+    return { label: name, data: counts, borderColor: evoColors[i], backgroundColor: evoColors[i], tension: 0.3, fill: false };
+  });
+  makeChart('chartSectorEvo', 'line', {
+    labels: evoYears.map(String),
+    datasets: evoDatasets
+  }, { plugins: { legend: { position: 'bottom' } } });
 }
 
 // ===== GEOGRAPHY =====
@@ -1719,7 +1808,7 @@ function renderInsights() {
     "Baisse continue du taux d'acceptation: 61,7% (2019) → 36,3% (2025) = -41% — sélection plus rigoureuse",
     "Concentration sectorielle modérée: Top 4 secteurs = 51,6% des startups (Business Software domine à 23%)",
     "Pic de labellisation en 2020 (214 startups) puis déclin progressif — effet COVID + essoufflement",
-    "Taux de retrait des labels: 10,4% (190 retraits sur 1824) — taux modéré",
+    "Taux de retrait des labels: 10,7% (140 retraits sur 1 311 labels) — taux modéré",
     "Baisse de la part des femmes fondatrices: 35% (2019) → 21% (2021) — tendance préoccupante",
     "Concentration géographique: 48% des startups dans le Grand Tunis — déséquilibre régional",
     "Saisonnalité: décembre (102) et mai (98) sont les mois les plus actifs, juillet (45) le moins actif",
