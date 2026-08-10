@@ -590,6 +590,179 @@
       *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
       html { scroll-behavior: auto; }
     }
+
+    /* =========================================================
+       Nouveaux composants (P1/P2/P3) — Export, recherche globale,
+       freshness, comparateur, cartes startups, timeline, choroplèthe, impact
+       ========================================================= */
+
+    /* --- Export PNG des graphiques --- */
+    .chart-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; margin-bottom: 4px; }
+    .chart-head h3 { margin: 0; }
+    .btn-export {
+      flex-shrink: 0; border: 1px solid var(--border, #e2e6ee); background: #fff; color: #4b5168;
+      border-radius: 8px; padding: 4px 9px; font-size: 0.75rem; cursor: pointer;
+      transition: all .15s; display: inline-flex; align-items: center; gap: 5px; font-family: inherit;
+    }
+    .btn-export:hover { border-color: #e94560; color: #e94560; background: #fff5f6; }
+
+    /* --- Recherche globale (header) --- */
+    .nav-tools { display: flex; align-items: center; gap: 10px; margin-left: auto; }
+    .global-search { position: relative; }
+    .global-search input {
+      width: 230px; border: 1px solid rgba(255,255,255,.18); background: rgba(255,255,255,.08);
+      color: #fff; border-radius: 999px; padding: 7px 14px 7px 32px; font-size: .8rem; outline: none;
+      transition: all .2s; font-family: inherit;
+    }
+    .global-search input::placeholder { color: #9aa3bf; }
+    .global-search input:focus { background: rgba(255,255,255,.14); border-color: #e94560; width: 280px; }
+    .gs-icon { position: absolute; left: 11px; top: 50%; transform: translateY(-50%); font-size: .85rem; pointer-events: none; opacity: .8; }
+    .gs-results {
+      position: absolute; right: 0; top: calc(100% + 8px); width: 380px; max-height: 460px; overflow: auto;
+      background: #fff; color: #1a1a2e; border-radius: 14px; box-shadow: 0 18px 40px rgba(0,0,0,.35);
+      padding: 8px; z-index: 2000; display: none;
+    }
+    .gs-results.open { display: block; }
+    .gs-group-title { font-size: .68rem; text-transform: uppercase; letter-spacing: .08em; color: #8a90a8; padding: 8px 10px 4px; font-weight: 700; }
+    .gs-item {
+      display: flex; align-items: center; gap: 8px; padding: 8px 10px; border-radius: 8px; cursor: pointer;
+      font-size: .82rem; transition: background .12s;
+    }
+    .gs-item:hover { background: #f4f5f9; }
+    .gs-item .gsi-name { font-weight: 600; color: #1a1a2e; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .gs-item .gsi-meta { font-size: .7rem; color: #8a90a8; white-space: nowrap; }
+    .gs-item .gsi-ico { font-size: .9rem; flex-shrink: 0; }
+    .gs-empty { padding: 14px; text-align: center; color: #8a90a8; font-size: .82rem; }
+    .gs-tag { margin-left: auto; font-size: .62rem; background: #eef0f6; color: #5a6078; border-radius: 6px; padding: 2px 6px; font-weight: 600; flex-shrink: 0; }
+
+    /* --- Badge Data freshness --- */
+    .freshness-badge {
+      display: inline-flex; align-items: center; gap: 6px; white-space: nowrap;
+      background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.16);
+      color: #cfd6ea; border-radius: 999px; padding: 5px 12px; font-size: .72rem; font-weight: 600;
+    }
+    .freshness-badge .dot { width: 7px; height: 7px; border-radius: 50%; background: #2dd4a7; box-shadow: 0 0 0 3px rgba(45,212,167,.18); }
+    .freshness-badge.stale .dot { background: #fbbf24; box-shadow: 0 0 0 3px rgba(251,191,36,.18); }
+
+    /* --- Comparateur de périodes --- */
+    .compare-toggle { flex-shrink: 0; font-size: .78rem; padding: 7px 12px; }
+    .compare-toggle.active { border-color: #e94560; color: #e94560; background: #fff5f6; }
+    .filter-bar select[data-compare-target] { border-color: #e94560; }
+    .cmp-sep { color: #8a90a8; font-size: .78rem; }
+    .cmp-badge-a, .cmp-badge-b { font-size: .7rem; font-weight: 700; border-radius: 6px; padding: 2px 7px; }
+    .cmp-badge-a { background: #e94560; color: #fff; }
+    .cmp-badge-b { background: #0f3460; color: #fff; }
+
+    /* --- Page Startups : cartes --- */
+    .view-toggle { display: inline-flex; border: 1px solid #e2e6ee; border-radius: 10px; overflow: hidden; flex-shrink: 0; }
+    .view-toggle button {
+      border: none; background: #fff; color: #4b5168; padding: 8px 14px; font-size: .78rem; cursor: pointer;
+      font-family: inherit; transition: all .15s; font-weight: 600;
+    }
+    .view-toggle button.active { background: #1a1a2e; color: #fff; }
+    .startup-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
+    .startup-card {
+      background: #fff; border: 1px solid #e2e6ee; border-radius: 16px; padding: 18px;
+      display: flex; flex-direction: column; gap: 10px; transition: all .2s;
+    }
+    .startup-card:hover { transform: translateY(-3px); box-shadow: 0 12px 30px rgba(26,26,46,.1); border-color: #d7dceb; }
+    .startup-card .sc-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; }
+    .startup-card .sc-name { font-weight: 700; font-size: .95rem; color: #1a1a2e; line-height: 1.3; }
+    .startup-card .sc-sector { font-size: .66rem; font-weight: 700; color: #fff; background: #0f3460; border-radius: 6px; padding: 3px 8px; white-space: nowrap; }
+    .startup-card .sc-meta { display: flex; flex-wrap: wrap; gap: 6px; }
+    .startup-card .sc-chip { font-size: .72rem; background: #f4f5f9; color: #4b5168; border-radius: 8px; padding: 4px 9px; }
+    .startup-card .sc-chip b { color: #1a1a2e; }
+    .startup-card .sc-resume { font-size: .78rem; color: #5a6078; line-height: 1.5; }
+    .startup-card .sc-legal {
+      font-size: .7rem; color: #8a90a8; background: #fff8f0; border: 1px dashed #e8b36b; border-radius: 8px; padding: 6px 10px;
+    }
+    .startup-card .sc-legal code { background: #fff0dd; border-radius: 4px; padding: 1px 5px; color: #b45309; font-size: .66rem; }
+
+    /* --- Chronologie des sessions --- */
+    .timeline-scroll { overflow-x: auto; padding: 26px 8px 10px; }
+    .timeline { display: flex; gap: 0; min-width: 1450px; align-items: flex-start; padding-top: 8px; position: relative; }
+    .timeline::before {
+      content: ''; position: absolute; top: 62px; left: 6px; right: 6px; height: 3px;
+      background: linear-gradient(90deg, #0f3460, #e94560, #0f3460); border-radius: 3px; opacity: .25;
+    }
+    .tl-node { position: relative; flex: 0 0 34px; display: flex; flex-direction: column; align-items: center; gap: 6px; cursor: pointer; }
+    .tl-node .tl-dot {
+      width: 15px; height: 15px; border-radius: 50%; margin-top: 46px;
+      transition: transform .2s; box-shadow: 0 0 0 4px #fff, 0 2px 6px rgba(0,0,0,.25);
+    }
+    .tl-node:hover .tl-dot { transform: scale(1.55); }
+    .tl-node .tl-label { font-size: .62rem; color: #5a6078; font-weight: 600; transform: rotate(-55deg); transform-origin: top center; white-space: nowrap; margin-top: 4px; }
+    .tl-node.tl-highlight .tl-label { color: #e94560; font-weight: 700; }
+    .tl-node .tl-tip {
+      position: absolute; bottom: calc(100% + 10px); left: 50%; transform: translateX(-50%) translateY(6px);
+      background: #1a1a2e; color: #fff; border-radius: 10px; padding: 8px 12px; font-size: .7rem;
+      width: max-content; max-width: 190px; opacity: 0; visibility: hidden; transition: all .2s; z-index: 10;
+      box-shadow: 0 8px 20px rgba(0,0,0,.3); pointer-events: none; text-align: left; line-height: 1.5;
+    }
+    .tl-node:hover .tl-tip { opacity: 1; visibility: visible; transform: translateX(-50%) translateY(0); }
+    .tl-node .tl-tip b { color: #ff9dad; }
+    .tl-year-marker { font-size: .78rem; font-weight: 800; color: #0f3460; margin-right: 4px; }
+    .tl-pop { animation: tlIn .5s cubic-bezier(.2,.8,.3,1) backwards; }
+    @keyframes tlIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+    /* --- Carte choroplèthe --- */
+    .choropleth-wrap { display: flex; gap: 18px; flex-wrap: wrap; align-items: flex-start; }
+    .choropleth-svg { flex: 1 1 340px; min-width: 300px; }
+    .choropleth-svg svg { width: 100%; height: auto; display: block; }
+    .choropleth-svg .region { transition: fill .35s ease, opacity .2s; cursor: pointer; stroke: #fff; stroke-width: 1.6; }
+    .choropleth-svg .region:hover, .choropleth-svg .region.selected { opacity: .82; stroke-width: 2.6; }
+    .choropleth-svg .region-lbl { font-size: 8px; font-weight: 700; fill: #7a1f2e; pointer-events: none; }
+    .choropleth-svg .region-pct { font-size: 7.5px; font-weight: 600; fill: #7a1f2e; pointer-events: none; }
+    .choropleth-side { flex: 0 1 240px; min-width: 210px; display: flex; flex-direction: column; gap: 12px; }
+    .choropleth-legend { font-size: .7rem; color: #5a6078; }
+    .choropleth-legend .grad { height: 12px; border-radius: 8px; margin: 6px 0 3px; }
+    .choropleth-legend .grad-labels { display: flex; justify-content: space-between; font-size: .64rem; color: #8a90a8; }
+    .legend-row { display: flex; align-items: center; gap: 8px; font-size: .76rem; color: #4b5168; }
+    .legend-row .swatch { width: 13px; height: 13px; border-radius: 4px; flex-shrink: 0; }
+    #regionDetail {
+      background: #f7f8fb; border: 1px solid #e2e6ee; border-radius: 12px; padding: 12px 14px; font-size: .8rem;
+      color: #4b5168; min-height: 78px; line-height: 1.5;
+    }
+    #regionDetail b { color: #1a1a2e; }
+
+    /* --- Tri des tableaux --- */
+    th.sortable { cursor: pointer; user-select: none; }
+    th.sortable::after { content: '↕'; font-size: .7em; opacity: .5; margin-left: 4px; }
+    th.sortable.sort-asc::after { content: '▲'; opacity: 1; color: #e94560; }
+    th.sortable.sort-desc::after { content: '▼'; opacity: 1; color: #e94560; }
+    th.sortable:hover { color: #e94560; }
+
+    /* --- Plan de collecte KPI --- */
+    .collect-table-wrap { overflow-x: auto; margin-bottom: 20px; }
+    .collect-table-wrap table td { font-size: .8rem; }
+    .collect-table-wrap table td code { background: #eef0f6; border-radius: 4px; padding: 1px 5px; font-size: .72rem; }
+    .collect-note { font-size: .75rem; color: #8a90a8; margin-top: 8px; }
+    .pill-source { display: inline-block; background: #eef0f6; color: #4b5168; border-radius: 999px; font-size: .66rem; font-weight: 600; padding: 3px 9px; }
+
+    /* --- Page Impact --- */
+    .impact-banner {
+      display: flex; flex-wrap: wrap; gap: 16px; align-items: center; justify-content: space-between;
+      background: linear-gradient(135deg, #16213e, #1a1a2e); color: #fff; border-radius: 18px; padding: 20px 24px; margin-bottom: 20px;
+    }
+    .impact-banner h2 { font-size: 1.05rem; margin: 0 0 4px; }
+    .impact-banner p { font-size: .8rem; color: #b9c1d6; margin: 0; max-width: 640px; }
+    .impact-banner .impact-year { font-size: .72rem; color: #e94560; font-weight: 800; letter-spacing: .06em; }
+
+    /* --- Responsive nouveaux composants --- */
+    @media (max-width: 1080px) {
+      .global-search input, .global-search input:focus { width: 150px; }
+      .gs-results { width: 320px; }
+    }
+    @media (max-width: 900px) {
+      .nav-tools { display: none; }
+    }
+    @media (max-width: 640px) {
+      .startup-cards { grid-template-columns: 1fr; }
+      .compare-toggle { width: 100%; }
+      .gs-results { position: fixed; left: 12px; right: 12px; top: 62px; width: auto; }
+      .choropleth-side { flex-basis: 100%; }
+      .timeline { min-width: 1180px; }
+    }
   </style>
 </head>
 <body>
@@ -616,6 +789,7 @@
         <div class="dropdown-menu">
           <a href="#" data-page="reports">Rapports annuels</a>
           <a href="#" data-page="parcours">Parcours Prélabel→Label</a>
+          <a href="#" data-page="impact">🎯 Impact</a>
           <a href="#" data-page="insights">Insights</a>
           <a href="#" data-page="kpis">📌 Catalogue KPI</a>
         </div>
@@ -632,6 +806,14 @@
       </div>
       <a href="#" data-page="about">👤 À propos</a>
     </div>
+    <div class="nav-tools">
+      <span class="freshness-badge" id="freshnessBadge" title="Fraîcheur des données">🕒 <span class="dot"></span> <span id="freshnessText">Chargement…</span></span>
+      <div class="global-search">
+        <span class="gs-icon">🔍</span>
+        <input id="globalSearch" type="search" placeholder="Recherche globale…" autocomplete="off" aria-label="Recherche globale" aria-expanded="false">
+        <div class="gs-results" id="gsResults" role="listbox"></div>
+      </div>
+    </div>
     <button class="nav-toggle" id="navToggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
   </div>
 </nav>
@@ -644,6 +826,8 @@
       <span class="filter-label">📅 Période :</span>
       <select id="dashYearFilter" onchange="applyYearFilter(this.value, 'dashboard')" aria-label="Filtrer par année"></select>
       <span class="filter-chip" id="dashFilterChip" style="display:none"></span>
+      <button class="btn btn-outline compare-toggle" onclick="toggleCompare('dashboard', this)" title="Comparer 2 années côte à côte (Power BI)">🔁 Comparer 2 années</button>
+      <select id="dashYearFilter2" data-compare-target="dashboard" style="display:none" aria-label="Seconde année à comparer"></select>
       <span class="filter-note">Filtrez par année : KPI et graphiques se recalculent sur la période choisie.</span>
     </div>
     <div class="kpi-grid" id="kpiGrid"></div>
@@ -668,7 +852,14 @@
       <span class="filter-label">📅 Période :</span>
       <select id="sessionYearFilter" onchange="applyYearFilter(this.value, 'sessions')" aria-label="Filtrer par année"></select>
       <span class="filter-chip" id="sessionFilterChip" style="display:none"></span>
+      <button class="btn btn-outline compare-toggle" onclick="toggleCompare('sessions', this)" title="Comparer 2 années côte à côte (Power BI)">🔁 Comparer 2 années</button>
+      <select id="sessionYearFilter2" data-compare-target="sessions" style="display:none" aria-label="Seconde année à comparer"></select>
       <span class="filter-note">Filtrez par année : graphiques et tableau des sessions se recalculent.</span>
+    </div>
+    <div class="chart-card" style="margin-bottom:20px">
+      <h3>Chronologie des 85 sessions (2019 → 2026)</h3>
+      <div class="timeline-scroll"><div class="timeline" id="sessionTimeline"></div></div>
+      <div style="font-size:.72rem;color:#8a90a8;margin-top:4px">💡 Survolez une pastille pour le détail · couleur = taux d'acceptation (🟢 &gt;45 % · 🔵 35-45 % · 🔴 &lt;35 %) · cliquez pour naviguer vers la session dans le tableau.</div>
     </div>
     <div class="chart-grid">
       <div class="chart-card"><h3>Taux d'acceptation par année</h3><div class="chart-wrapper"><canvas id="chartSessionsRate"></canvas></div></div>
@@ -681,7 +872,14 @@
       <input type="text" id="sessionSearch" placeholder="Rechercher une session..." oninput="filterSessions(this.value)">
       <button onclick="exportExcel('sessions')" class="btn btn-outline" style="flex-shrink:0">📥 Export XLSX</button>
     </div>
-    <div style="overflow-x:auto"><table><thead><tr><th>Session</th><th>Candidatures</th><th>Labels</th><th>Pré-Labels</th><th>Taux</th><th>Commentaires</th></tr></thead><tbody id="sessionsTable"></tbody></table></div>
+    <div style="overflow-x:auto"><table id="sessionsTableWrap"><thead><tr>
+      <th class="sortable" data-col="0" data-num="0">Session</th>
+      <th class="sortable" data-col="1" data-num="1">Candidatures</th>
+      <th class="sortable" data-col="2" data-num="1">Labels</th>
+      <th class="sortable" data-col="3" data-num="1">Pré-Labels</th>
+      <th class="sortable" data-col="4" data-num="1">Taux</th>
+      <th class="sortable" data-col="5" data-num="0">Commentaires</th>
+    </tr></thead><tbody id="sessionsTable"></tbody></table></div>
   </section>
 
   <!-- STARTUPS -->
@@ -689,9 +887,21 @@
     <div class="page-header"><h1>Base de données des Startups</h1><p>922 startups labellisées</p></div>
     <div class="search-bar">
       <input type="text" id="startupSearch" placeholder="Rechercher par nom, secteur, fondateur, année de création, date de label..." oninput="filterStartups(this.value)">
+      <div class="view-toggle" role="group" aria-label="Affichage">
+        <button id="viewTableBtn" class="active" onclick="setStartupView('table')">☰ Tableau</button>
+        <button id="viewCardsBtn" onclick="setStartupView('cards')">▤ Cartes</button>
+      </div>
       <button onclick="exportExcel('startups')" class="btn btn-outline" style="flex-shrink:0">📥 Export XLSX</button>
     </div>
-    <div style="overflow-x:auto"><table><thead><tr><th>Nom</th><th>Secteur</th><th>Création</th><th>Label</th><th>Fondateurs</th></tr></thead><tbody id="startupsTable"></tbody></table></div>
+    <div id="startupsTableView" style="overflow-x:auto"><table id="startupsTableWrap"><thead><tr>
+      <th class="sortable" data-col="0" data-num="0">Nom</th>
+      <th class="sortable" data-col="1" data-num="0">Secteur</th>
+      <th class="sortable" data-col="2" data-num="1">Création</th>
+      <th class="sortable" data-col="3" data-num="0">Label</th>
+      <th class="sortable" data-col="4" data-num="0">Fondateurs</th>
+      <th>Forme juridique (KPI-34)</th>
+    </tr></thead><tbody id="startupsTable"></tbody></table></div>
+    <div id="startupsCardsView" style="display:none"></div>
   </section>
 
   <!-- SECTEURS -->
@@ -701,6 +911,8 @@
       <span class="filter-label">📅 Période :</span>
       <select id="sectorYearFilter" onchange="applyYearFilter(this.value, 'sectors')" aria-label="Filtrer par année"></select>
       <span class="filter-chip" id="sectorFilterChip" style="display:none"></span>
+      <button class="btn btn-outline compare-toggle" onclick="toggleCompare('sectors', this)" title="Comparer 2 années côte à côte (Power BI)">🔁 Comparer 2 années</button>
+      <select id="sectorYearFilter2" data-compare-target="sectors" style="display:none" aria-label="Seconde année à comparer"></select>
       <span class="filter-note">Filtrez par année : tous les graphiques, KPI et le tableau se recalculent (comme Power BI).</span>
     </div>
     <div class="kpi-grid">
@@ -716,7 +928,12 @@
     <div class="search-bar" style="justify-content:flex-end">
       <button onclick="exportExcel('sectors')" class="btn btn-outline">📥 Export XLSX</button>
     </div>
-    <div style="overflow-x:auto"><table><thead><tr><th>Secteur</th><th>Startups</th><th>%</th><th>Accumulé</th></tr></thead><tbody id="sectorsTable"></tbody></table></div>
+    <div style="overflow-x:auto"><table id="sectorsTableWrap"><thead><tr>
+      <th class="sortable" data-col="0" data-num="0">Secteur</th>
+      <th class="sortable" data-col="1" data-num="1">Startups</th>
+      <th class="sortable" data-col="2" data-num="1">%</th>
+      <th class="sortable" data-col="3" data-num="1">Accumulé</th>
+    </tr></thead><tbody id="sectorsTable"></tbody></table></div>
   </section>
 
   <!-- GEOGRAPHY -->
@@ -733,7 +950,24 @@
       Aucune statistique plus récente (2025-2026) n'est publiée par startup.gov.tn.
       Les 7 régions représentent la totalité des startups labellisées.
     </div>
-    <div class="chart-card map-card" style="margin-bottom:20px"><h3>Carte de la Tunisie</h3><div id="map"></div></div>
+    <div class="chart-card map-card" style="margin-bottom:20px">
+      <h3>Carte choroplèthe de la Tunisie — concentration par région</h3>
+      <div class="choropleth-wrap">
+        <div class="choropleth-svg" id="choropleth"></div>
+        <div class="choropleth-side">
+          <div class="choropleth-legend">
+            <div><strong>Part des startups</strong></div>
+            <div class="grad" style="background:linear-gradient(90deg,#fde2e6,#f5a8b5,#ee6a85,#e94560,#c22742)"></div>
+            <div class="grad-labels"><span>0 %</span><span>25 %</span><span>48 %</span></div>
+          </div>
+          <div class="choropleth-legend"><div><strong>Légende — 7 pôles</strong></div>
+            <div id="choroplethLegend"></div>
+          </div>
+          <div id="regionDetail"><b>Cliquez sur une région</b> pour afficher son détail.</div>
+        </div>
+      </div>
+    </div>
+    <div class="chart-card map-card" style="margin-bottom:20px"><h3>Carte de référence (OpenStreetMap)</h3><div id="map"></div></div>
     <div class="chart-grid">
       <div class="chart-card"><h3>Répartition par région (%)</h3><div class="chart-wrapper"><canvas id="chartGeo"></canvas></div></div>
       <div class="chart-card"><h3>Déséquilibre régional</h3><div class="chart-wrapper"><canvas id="chartGeoBar"></canvas></div></div>
@@ -896,6 +1130,46 @@
     </div>
   </section>
 
+  <!-- IMPACT -->
+  <section id="page-impact">
+    <div class="page-header"><h1>Dashboard Impact</h1><p>Emplois créés, investissements levés et inclusion — synthèse des rapports annuels officiels</p></div>
+
+    <div class="impact-banner">
+      <div>
+        <h2>🌱 Le Startup Act en chiffres d'impact</h2>
+        <p>L'évaluation d'impact s'appuie sur les <strong>3 rapports annuels officiels</strong> (2019-2020, 2020, 2021) publiés par l'ANPR &amp; startup.gov.tn, analysés par extraction NLP dans l'app. Ces indicateurs complètent le catalogue KPI et alimentent l'axe 5 du mémoire (évaluation des impacts).</p>
+      </div>
+      <span class="impact-year">SOURCE : RAPPORTS OFFICIELS · DERNIER DISPONIBLE : 2021</span>
+    </div>
+
+    <div class="kpi-grid">
+      <div class="kpi-card green"><div class="label">Emplois créés</div><div class="value">3 222</div><div class="sub">Rapport annuel 2020</div></div>
+      <div class="kpi-card blue"><div class="label">Investissements levés</div><div class="value">157 M USD</div><div class="sub">Rapport annuel 2021</div></div>
+      <div class="kpi-card red"><div class="label">Part des femmes fondatrices</div><div class="value">35% → 21%</div><div class="sub">2019 → 2021 · en recul</div></div>
+      <div class="kpi-card orange"><div class="label">Startups à l'international</div><div class="value">45%</div><div class="sub">Rapport annuel 2021</div></div>
+      <div class="kpi-card purple"><div class="label">Candidatures cumulées</div><div class="value">2 958</div><div class="sub">85 sessions · données corrigées</div></div>
+      <div class="kpi-card blue"><div class="label">Labels cumulés</div><div class="value">1 311</div><div class="sub">corrigés vs PDF officiels</div></div>
+    </div>
+
+    <div class="chart-grid">
+      <div class="chart-card"><h3>Part des femmes fondatrices (2019 → 2021)</h3><div class="chart-wrapper"><canvas id="chartImpactFemmes"></canvas></div></div>
+      <div class="chart-card"><h3>Investissements levés (M USD)</h3><div class="chart-wrapper"><canvas id="chartImpactInvest"></canvas></div></div>
+    </div>
+    <div class="chart-grid">
+      <div class="chart-card"><h3>Emplois créés par rapport</h3><div class="chart-wrapper"><canvas id="chartImpactEmplois"></canvas></div></div>
+      <div class="chart-card"><h3>Répartition sectorielle 2021 (contexte)</h3><div class="chart-wrapper"><canvas id="chartImpactSectors"></canvas></div></div>
+    </div>
+
+    <div class="summary-box" style="margin-top:20px">
+      <strong>📌 Note méthodologique :</strong> les valeurs proviennent des rapports annuels officiels (extraction NLP des PDF).
+      Le <strong>157 M USD</strong> de 2021 inclut un deal exceptionnel de 100 M USD (InstaDeep) — la dépendance à un « champion »
+      fausse la moyenne. La <strong>part des femmes fondatrices</strong> est passée de 35 % (2019) à 21 % (2021) : une tendance
+      préoccupante à surveiller. L'extraction automatique peut contenir des valeurs partielles ; les rapports complets sont
+      consultables dans « <a href="#" onclick="switchPage('annual-pdfs');return false" style="color:#e94560">PDFs Annuels</a> ».
+    </div>
+  </section>
+
+
   <!-- CATALOGUE KPI -->
   <section id="page-kpis">
     <div class="page-header"><h1>Catalogue des KPI</h1><p>Les 40 indicateurs du projet, répartis par axe / thème — cliquez sur un KPI pour son détail, sa source et son interprétation</p></div>
@@ -906,6 +1180,17 @@
       <span class="kpi-legend-note">Les KPI calculables (26, 27, 28, 31, 32, 33, 39) sont implémentés dans l'app ; les autres nécessitent extraction/collecte.</span>
     </div>
     <div id="kpiCatalogue"></div>
+
+    <div class="chart-card" style="margin-top:28px">
+      <h3>📋 Plan de collecte des 8 KPI manquants (valeur ajoutée académique)</h3>
+      <div class="collect-table-wrap">
+        <table>
+          <thead><tr><th>KPI</th><th>Intitulé</th><th>Donnée à collecter</th><th>Source / méthode</th><th>Page cible</th></tr></thead>
+          <tbody id="collectPlanBody"></tbody>
+        </table>
+      </div>
+      <p class="collect-note">Ces KPI sont référencés dans le catalogue mais <strong>non calculables</strong> avec les données actuelles : la collecte décrite ci-dessus est la prochaine étape du mémoire (cf. plan de veille AE1). Aucune valeur ne leur est prétendue.</p>
+    </div>
   </section>
 
   <!-- À PROPOS -->
@@ -1088,6 +1373,9 @@ const DATA = {};
 DATA.yearFilter = 'all'; // 'all' | 2019 | 2020 | ...
 DATA.availableYears = [];
 
+/* ===== Comparateur de périodes (2 années) ===== */
+DATA.compare = { active: false, page: null, a: null, b: null };
+
 function initYearFilter(selectId, chipId, page) {
   const sel = document.getElementById(selectId);
   if (!sel) return;
@@ -1096,9 +1384,59 @@ function initYearFilter(selectId, chipId, page) {
   sel.innerHTML = '<option value="all">Toutes les années</option>' +
     years.map(y => `<option value="${y}">${y}</option>`).join('');
   sel.value = String(DATA.yearFilter);
-  sel.onchange = () => applyYearFilter(sel.value, page);
+  sel.onchange = () => {
+    if (DATA.compare.active && DATA.compare.page === page) {
+      DATA.compare.a = sel.value === 'all' ? null : parseInt(sel.value, 10);
+      reRenderPage(page);
+    } else applyYearFilter(sel.value, page);
+  };
   const chip = document.getElementById(chipId);
   if (chip) chip.style.display = DATA.yearFilter === 'all' ? 'none' : 'inline-block';
+
+  // Sélecteur B du comparateur
+  const sel2 = document.getElementById(selectId.replace(/Filter$/, 'Filter2'));
+  if (sel2) {
+    sel2.innerHTML = years.map(y => `<option value="${y}">${y}</option>`).join('');
+    sel2.value = String(years[years.length - 1]);
+    sel2.onchange = () => { if (DATA.compare.a !== null) { DATA.compare.b = parseInt(sel2.value, 10); reRenderPage(page); } };
+  }
+}
+
+function toggleCompare(page, btn) {
+  DATA.compare.active = !DATA.compare.active;
+  DATA.compare.page = page;
+  if (DATA.compare.active) {
+    const years = DATA.availableYears.slice().sort();
+    DATA.compare.a = parseInt(years[0], 10);
+    DATA.compare.b = parseInt(years[years.length - 1], 10);
+    document.querySelectorAll('[data-compare-target="' + page + '"]').forEach(el => el.style.display = 'inline-block');
+    const sel2 = document.getElementById((page === 'dashboard' ? 'dashYearFilter2' : page === 'sessions' ? 'sessionYearFilter2' : 'sectorYearFilter2'));
+    if (sel2) { sel2.value = String(DATA.compare.b); }
+    const sel1 = document.getElementById((page === 'dashboard' ? 'dashYearFilter' : page === 'sessions' ? 'sessionYearFilter' : 'sectorYearFilter'));
+    if (sel1) { sel1.value = String(DATA.compare.a); }
+    document.querySelectorAll('.filter-chip').forEach(c => c.style.display = 'none');
+    btn.textContent = '✕ Comparaison ON';
+    btn.classList.add('active');
+  } else {
+    document.querySelectorAll('[data-compare-target]').forEach(el => el.style.display = 'none');
+    btn.textContent = '🔁 Comparer 2 années';
+    btn.classList.remove('active');
+  }
+  reRenderPage(page);
+}
+
+function cmpYears() {
+  return { a: DATA.compare.a, b: DATA.compare.b, on: DATA.compare.active && DATA.compare.page !== null };
+}
+
+function reRenderPage(page) {
+  if (page === 'sectors') { renderSectors(); renderSectorCharts(); }
+  else if (page === 'dashboard') renderDashboard();
+  else if (page === 'sessions') {
+    renderSessions(); renderSessionCharts(); renderTimeline();
+    const si = document.getElementById('sessionSearch');
+    if (si && si.value) filterSessions(si.value);
+  }
 }
 
 function applyYearFilter(value, page) {
@@ -1112,7 +1450,7 @@ function applyYearFilter(value, page) {
   if (page === 'sectors') { renderSectors(); renderSectorCharts(); }
   else if (page === 'dashboard') renderDashboard();
   else if (page === 'sessions') {
-    renderSessions(); renderSessionCharts();
+    renderSessions(); renderSessionCharts(); renderTimeline();
     const si = document.getElementById('sessionSearch');
     if (si && si.value) filterSessions(si.value);
   }
@@ -1125,6 +1463,19 @@ function filteredStartups() {
     const m = (s.labelDate || '').match(/^(\d{2})\/(\d{4})$/);
     return m && parseInt(m[2]) === DATA.yearFilter;
   });
+}
+
+/* Helper : startups labellisées une année donnée (pour comparateur) */
+function startupsForYear(year) {
+  return (DATA.startups || []).filter(s => {
+    const m = (s.labelDate || '').match(/^(\d{2})\/(\d{4})$/);
+    return m && parseInt(m[2]) === year;
+  });
+}
+
+function yearlyFor(year) {
+  return (DATA.dashboard.yearly || []).find(r => r.year === year) ||
+    { year, candidatures: 0, labels: 0, preLabels: 0, nbSessions: 0, tauxAcceptation: '0' };
 }
 
 /* Helper : répartition par secteur d'une liste de startups */
@@ -1444,6 +1795,7 @@ const PAGE_META = {
   'annual-pdfs': 'Rapports annuels complets',
   parcours: 'Parcours Prélabel → Label',
   corrections: 'Audit & corrections des données',
+  impact: 'Emplois, investissements, inclusion',
   fiche: 'Cadrage du projet',
   livrables: 'Axe 1 · État des lieux quantitatif',
   insights: 'Interprétations',
@@ -1475,11 +1827,12 @@ function switchPage(page) {
   document.querySelectorAll('section').forEach(s => s.classList.remove('active'));
   document.getElementById('page-' + page)?.classList.add('active');
   decoratePage(page);
-  if (page === 'sessions') setTimeout(renderSessionCharts, 200);
+  if (page === 'sessions') setTimeout(() => { renderSessionCharts(); renderTimeline(); }, 200);
   if (page === 'sectors') setTimeout(renderSectorCharts, 200);
-  if (page === 'geography') setTimeout(() => { renderGeoCharts(); initMap(); }, 400);
+  if (page === 'geography') setTimeout(() => { renderGeoCharts(); initMap(); renderChoropleth(); }, 400);
   if (page === 'reports') setTimeout(() => renderReportCharts(0), 200);
   if (page === 'insights') setTimeout(renderInsightCharts, 200);
+  if (page === 'impact') setTimeout(renderImpactCharts, 200);
   if (page === 'kpis') renderKpiCatalogue();
   document.getElementById('navLinks')?.classList.remove('open');
   document.getElementById('navToggle')?.classList.remove('active');
@@ -1558,14 +1911,224 @@ async function init() {
     renderInsights();
     renderKpiCatalogue();
     bindKpiModals();
+    renderChoropleth();
+    renderTimeline();
+    renderImpactCharts();
+    renderCollectPlan();
+    renderFreshness();
+    initGlobalSearch();
+    bindSortableTables();
+    setStartupView(STARTUP_VIEW);
 
     // Auto-load first report
     setTimeout(() => renderReportCharts(0), 300);
   } catch(e) { console.error('Init error:', e); }
 }
 
+// ===== IMPACT : graphiques des rapports annuels =====
+function renderImpactCharts() {
+  const years = ['2019-2020', '2020', '2021'];
+
+  // KPI-25 / Impact : part des femmes fondatrices (2019-2020 : 35 % · 2021 : 21 % — 2020 n.d. pour ce périmètre)
+  makeChart('chartImpactFemmes', 'bar', {
+    labels: years,
+    datasets: [{ label: 'Part de femmes fondatrices (%)', data: [35, null, 21], backgroundColor: ['#e94560', '#e8ecf4', '#0f3460'] }]
+  }, { plugins: { tooltip: { callbacks: { label: c => c.parsed.y == null ? 'n.d.' : `Part : ${c.parsed.y} %` } } } });
+
+  // Investissements levés (M USD) — 2020 : 2,1 mTND ≈ 0,7 M USD (≈ 3,1 TND/USD) ; 2021 : 157 M USD (dont 100 M USD InstaDeep)
+  makeChart('chartImpactInvest', 'bar', {
+    labels: years,
+    datasets: [{ label: 'Investissements levés (M USD)', data: [null, 0.7, 157], backgroundColor: ['#e8ecf4', '#16a34a', '#0f3460'] }]
+  }, { plugins: { tooltip: { callbacks: { label: c => c.parsed.y == null ? 'n.d.' : `${c.parsed.y} M USD` } } } });
+
+  // Emplois créés — 2020 : 3 222 (déclarés) ; 2021 : 113 (échantillon de l'enquête)
+  makeChart('chartImpactEmplois', 'bar', {
+    labels: years,
+    datasets: [{ label: 'Emplois créés', data: [null, 3222, 113], backgroundColor: ['#e8ecf4', '#0f3460', '#e94560'] }]
+  }, { plugins: { tooltip: { callbacks: { label: c => c.parsed.y == null ? 'n.d.' : `${c.parsed.y} emplois` } } } });
+
+  // Répartition sectorielle 2021 (contexte) — calculée depuis la base des startups labellisées en 2021
+  const s21 = DATA.startups.filter(s => (s.labelDate || '').endsWith('/2021'));
+  const pool = s21.length >= 10 ? s21 : DATA.startups;
+  const counts = {};
+  pool.forEach(s => {
+    const k = (s.secteur || 'Non renseigné').trim() || 'Non renseigné';
+    counts[k] = (counts[k] || 0) + 1;
+  });
+  const top = Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, 6);
+  makeChart('chartImpactSectors', 'bar', {
+    labels: top.map(([k]) => k),
+    datasets: [{ label: s21.length >= 10 ? 'Startups labellisées en 2021' : 'Toutes startups (2021 insuffisant)', data: top.map(([, v]) => v), backgroundColor: '#0f3460' }]
+  }, { indexAxis: 'y' });
+}
+
+// ===== PLAN DE COLLECTE DES 8 KPI MANQUANTS =====
+function renderCollectPlan() {
+  const rows = [
+    [`KPI-29`, `Délai moyen de conversion pré-label → label`, `Dates de pré-label et de label de chaque startup`, `public/data/parcours.json — ajouter les dates de conversion manquantes`, `Parcours`],
+    [`KPI-30`, `Retraits par motif réglementaire`, `Motif officiel des 140 retraits de label`, `Communiqués ANPR / décisions officielles de retrait`, `Parcours`],
+    [`KPI-34`, `Répartition par forme juridique`, `Forme juridique des 922 startups (SARL, SUARL, SA…)`, `Registre National des Entreprises (RNE) / registre de commerce`, `Startups`],
+    [`KPI-35`, `Nombre de fondateurs`, `Nettoyage et dédoublonnage du champ « founders »`, `public/data/database_startups.json — champ founders à structurer`, `Startups`],
+    [`KPI-36`, `Répartition des fondateurs par genre`, `Genre de chaque fondateur (classification à construire)`, `Champ founders + rapports annuels`, `Entrepreneurs`],
+    [`KPI-37`, `Profil sociodémographique des fondateurs`, `Âge, niveau d'études, université, expérience, diaspora`, `Questionnaire fondateurs (Google Forms) + enquêtes`, `Entrepreneurs`],
+    [`KPI-38`, `Répartition par gouvernorat`, `Gouvernorat du siège des 922 startups (24 gouvernorats)`, `Géocodage des adresses (API Géocodage)`, `Géographie`],
+    [`KPI-40`, `Part de startups DeepTech / brevets / PI`, `Brevets nationaux/internationaux, marques, indicateur DeepTech`, `INNORPI, Patentscope/Espacenet, questionnaire DeepTech`, `Innovation`]
+  ];
+  document.getElementById('collectPlanBody').innerHTML = rows.map(([id, name, data, src, page]) => `
+    <tr>
+      <td><code>${id}</code></td>
+      <td>${name}</td>
+      <td>${data}</td>
+      <td>${src}</td>
+      <td>${page}</td>
+    </tr>`).join('');
+}
+
+// ===== FRAÎCHEUR DES DONNÉES =====
+function renderFreshness() {
+  const badge = document.getElementById('freshnessBadge');
+  const text = document.getElementById('freshnessText');
+  if (!badge || !text) return;
+  const meta = (DATA.dashboard && DATA.dashboard.meta) || {};
+  const lastUpdated = meta.lastUpdated || null;
+  const sessions = DATA.dashboard.sessions || [];
+  const last = sessions.slice().sort((a, b) => (b.year - a.year) || (b.month - a.month))[0];
+
+  let parts = [];
+  if (lastUpdated) {
+    const d = new Date(lastUpdated);
+    const jours = Math.floor((new Date() - d) / 86400000);
+    parts.push(`MAJ ${d.toLocaleDateString('fr-FR')}`);
+    badge.classList.toggle('stale', jours > 90);
+  }
+  if (last) parts.push(`Dernière session : ${last.session}`);
+  parts.push(`Rapports : 2021`);
+  text.textContent = parts.join(' · ');
+  badge.title = `Fraîcheur des données — ${parts.join('\n')}`;
+}
+
+// ===== RECHERCHE GLOBALE (barre du menu) =====
+function initGlobalSearch() {
+  const input = document.getElementById('globalSearch');
+  const box = document.getElementById('gsResults');
+  if (!input || !box) return;
+
+  const pageLabel = (p) => {
+    const label = document.querySelector(`nav a[data-page="${p}"]`);
+    return label ? label.textContent.trim().replace(/^[^\p{L}]*/u, '') : p;
+  };
+
+  const resultsFor = (q) => {
+    const ql = q.toLowerCase();
+    const hits = [];
+    const push = (o) => {
+      const hay = [o.name, o.meta, o.page].join(' ').toLowerCase();
+      if (hay.includes(ql)) hits.push(o);
+    };
+
+    (DATA.dashboard.sessions || []).forEach(s => push({
+      type: 'Sessions', ico: '📋', name: s.session,
+      meta: `${s.candidatures} candidatures · ${s.labels} labels · ${s.tauxAcceptation}%`,
+      go: () => { switchPage('sessions'); const q = document.getElementById('sessionSearch'); if (q) { q.value = s.session; filterSessions(s.session); } }
+    }));
+
+    (DATA.startups || []).forEach(s => push({
+      type: 'Startups', ico: '🚀', name: s.nom || '—',
+      meta: `${s.secteur || ''} · création ${s.anneeCreation || '?'}`,
+      go: () => { switchPage('startups'); const q = document.getElementById('startupSearch'); if (q) { q.value = s.nom || ''; filterStartups(s.nom || ''); } }
+    }));
+
+    sectorCounts(DATA.startups).forEach(sc => push({
+      type: 'Secteurs', ico: '🏷️', name: sc.name,
+      meta: `${sc.count} startups`,
+      go: () => { switchPage('sectors'); const q = document.getElementById('startupSearch'); if (q) { q.value = sc.name; filterStartups(sc.name); } }
+    }));
+
+    Object.entries(PAGE_META).forEach(([p, meta]) => push({
+      type: 'Pages', ico: '📄', name: meta.split('·')[0].trim(), meta,
+      go: () => switchPage(p)
+    }));
+
+    return hits.slice(0, 40);
+  };
+
+  const render = () => {
+    const q = input.value.trim();
+    if (q.length < 2) { box.classList.remove('open'); input.setAttribute('aria-expanded', 'false'); return; }
+    const hits = resultsFor(q);
+    const groups = {};
+    hits.forEach(h => { (groups[h.type] = groups[h.type] || []).push(h); });
+    box.innerHTML = Object.entries(groups).map(([g, items]) => `
+      <div class="gs-group-title">${g}</div>
+      ${items.map(h => `
+        <div class="gs-item" role="option" tabindex="0" data-idx="${hits.indexOf(h)}">
+          <span class="gsi-ico">${h.ico}</span>
+          <span class="gsi-name">${escapeHtml(h.name)}</span>
+          <span class="gsi-meta">${escapeHtml(h.meta)}</span>
+          <span class="gs-tag">${h.type}</span>
+        </div>`).join('')}`).join('')
+      || `<div class="gs-empty">Aucun résultat pour « ${escapeHtml(q)} »</div>`;
+    box.classList.add('open');
+    input.setAttribute('aria-expanded', 'true');
+    box.querySelectorAll('.gs-item').forEach(el => {
+      const open = () => { const h = hits[parseInt(el.dataset.idx)]; if (h) { box.classList.remove('open'); input.value = ''; input.setAttribute('aria-expanded', 'false'); h.go(); } };
+      el.addEventListener('click', open);
+      el.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); } });
+    });
+  };
+
+  input.addEventListener('input', render);
+  input.addEventListener('focus', render);
+  document.addEventListener('click', e => {
+    if (!e.target.closest('.global-search')) { box.classList.remove('open'); input.setAttribute('aria-expanded', 'false'); }
+  });
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') { box.classList.remove('open'); input.setAttribute('aria-expanded', 'false'); input.blur(); }
+  });
+}
+
+// ===== TRI DES TABLEAUX (en-têtes th.sortable) =====
+const SORT_STATE = {};
+function bindSortableTables() {
+  document.querySelectorAll('th.sortable').forEach(th => {
+    th.addEventListener('click', () => {
+      const table = th.closest('table');
+      const tbody = table && table.querySelector('tbody');
+      if (!tbody) return;
+      const col = parseInt(th.dataset.col);
+      const numeric = th.dataset.num === '1';
+      const key = table.id || table.parentElement.id || 'table';
+      const st = SORT_STATE[key] = SORT_STATE[key] || {};
+      if (st.col === col) st.dir = st.dir === 'asc' ? 'desc' : 'asc';
+      else { st.col = col; st.dir = 'asc'; }
+
+      table.querySelectorAll('th.sortable').forEach(t => t.classList.remove('sort-asc', 'sort-desc'));
+      th.classList.add(st.dir === 'asc' ? 'sort-asc' : 'sort-desc');
+
+      const rows = Array.from(tbody.querySelectorAll('tr')).filter(r => !r.classList.contains('empty-row'));
+      const empty = tbody.querySelector('tr.empty-row');
+      const val = (r) => r.children[col] ? r.children[col].textContent.trim() : '';
+      rows.sort((a, b) => {
+        const va = val(a), vb = val(b);
+        let cmp;
+        if (numeric) {
+          const na = parseFloat(String(va).replace(/[^0-9.,-]/g, '').replace(',', '.')) || -1;
+          const nb = parseFloat(String(vb).replace(/[^0-9.,-]/g, '').replace(',', '.')) || -1;
+          cmp = na - nb;
+        } else {
+          cmp = va.localeCompare(vb, 'fr');
+        }
+        return st.dir === 'asc' ? cmp : -cmp;
+      });
+      rows.forEach(r => tbody.appendChild(r));
+      if (empty) tbody.appendChild(empty);
+    });
+  });
+}
+
 // ===== DASHBOARD =====
 function renderDashboard() {
+  if (DATA.compare.active && DATA.compare.page === 'dashboard') return renderDashboardCompare();
   const d = DATA.dashboard;
   const allY = d.yearly;
   const filtered = DATA.yearFilter !== 'all';
@@ -1672,8 +2235,101 @@ function renderDashboard() {
   });
 }
 
+/* ---- Comparateur Dashboard : 2 années côte à côte ---- */
+function renderDashboardCompare() {
+  const a = DATA.compare.a, b = DATA.compare.b;
+  const ya = yearlyFor(a), yb = yearlyFor(b);
+  const sa = startupsForYear(a), sb = startupsForYear(b);
+  const pct = (num, den) => den ? ((num / den) * 100).toFixed(1) + '%' : '-';
+  const delta = (x, y) => {
+    if (!x) return '—';
+    const d = ((y - x) / x * 100);
+    const sign = d > 0 ? '+' : '';
+    return `Δ ${sign}${d.toFixed(1)} %`;
+  };
+  document.getElementById('kpiGrid').innerHTML = `
+    <div class="kpi-card blue"><div class="label">Startups labellisées</div><div class="value"><span class="cmp-badge-a">${a}</span> ${sa.length} &nbsp;·&nbsp; <span class="cmp-badge-b">${b}</span> ${sb.length}</div><div class="sub">${delta(sa.length, sb.length)}</div></div>
+    <div class="kpi-card red"><div class="label">Labels accordés</div><div class="value"><span class="cmp-badge-a">${a}</span> ${ya.labels} &nbsp;·&nbsp; <span class="cmp-badge-b">${b}</span> ${yb.labels}</div><div class="sub">${delta(ya.labels, yb.labels)}</div></div>
+    <div class="kpi-card green"><div class="label">Candidatures</div><div class="value"><span class="cmp-badge-a">${a}</span> ${ya.candidatures} &nbsp;·&nbsp; <span class="cmp-badge-b">${b}</span> ${yb.candidatures}</div><div class="sub">${delta(ya.candidatures, yb.candidatures)}</div></div>
+    <div class="kpi-card orange"><div class="label">Pré-Labels</div><div class="value"><span class="cmp-badge-a">${a}</span> ${ya.preLabels} &nbsp;·&nbsp; <span class="cmp-badge-b">${b}</span> ${yb.preLabels}</div><div class="sub">${delta(ya.preLabels, yb.preLabels)}</div></div>
+    <div class="kpi-card purple"><div class="label">Taux d'acceptation</div><div class="value"><span class="cmp-badge-a">${a}</span> ${ya.candidatures ? ((ya.labels / ya.candidatures) * 100).toFixed(1) : '-'}% &nbsp;·&nbsp; <span class="cmp-badge-b">${b}</span> ${yb.candidatures ? ((yb.labels / yb.candidatures) * 100).toFixed(1) : '-'}%</div><div class="sub">${delta(ya.candidatures, yb.candidatures) ? '' : ''}sélectivité ${yb.candidatures ? (ya.candidatures && (yb.labels / yb.candidatures) < (ya.labels / ya.candidatures) ? 'en hausse' : 'en baisse') : '—'}</div></div>
+    <div class="kpi-card blue"><div class="label">Sessions</div><div class="value"><span class="cmp-badge-a">${a}</span> ${ya.nbSessions} &nbsp;·&nbsp; <span class="cmp-badge-b">${b}</span> ${yb.nbSessions}</div><div class="sub">${delta(ya.nbSessions, yb.nbSessions)}</div></div>
+  `;
+
+  makeChart('chartYearly', 'bar', {
+    labels: [String(a), String(b)],
+    datasets: [
+      { label: 'Candidatures', data: [ya.candidatures, yb.candidatures], backgroundColor: '#0f3460' },
+      { label: 'Labels', data: [ya.labels, yb.labels], backgroundColor: '#e94560' },
+      { label: 'Pré-Labels', data: [ya.preLabels, yb.preLabels], backgroundColor: '#16a34a' }
+    ]
+  });
+
+  const secA = sectorCounts(sa), secB = sectorCounts(sb);
+  const names = Array.from(new Set([...secA, ...secB].map(s => s.name))).slice(0, 8);
+  const cA = names.map(n => (secA.find(s => s.name === n) || { count: 0 }).count);
+  const cB = names.map(n => (secB.find(s => s.name === n) || { count: 0 }).count);
+  makeChart('chartSectors', 'bar', {
+    labels: names,
+    datasets: [
+      { label: a, data: cA, backgroundColor: '#e94560' },
+      { label: b, data: cB, backgroundColor: '#0f3460' }
+    ]
+  }, { indexAxis: 'y', plugins: { legend: { position: 'bottom' } } });
+
+  const monthNames = ['Jan','Fév','Mar','Avr','Mai','Jui','Jui','Aoû','Sep','Oct','Nov','Déc'];
+  const monthAggFor = (year) => {
+    const agg = {};
+    (DATA.dashboard.database.byLabelMonth || []).forEach(m => {
+      if (m.month.split('/')[1] === String(year)) agg[parseInt(m.month.split('/')[0])] = (agg[parseInt(m.month.split('/')[0])] || 0) + m.count;
+    });
+    return monthNames.map((_, i) => agg[i + 1] || 0);
+  };
+  makeChart('chartMonthly', 'line', {
+    labels: monthNames,
+    datasets: [
+      { label: a, data: monthAggFor(a), borderColor: '#e94560', tension: 0.4, pointBackgroundColor: '#e94560' },
+      { label: b, data: monthAggFor(b), borderColor: '#0f3460', tension: 0.4, pointBackgroundColor: '#0f3460' }
+    ]
+  });
+
+  makeChart('chartCreation', 'bar', {
+    labels: [String(a), String(b)],
+    datasets: [{ label: 'Startups labellisées', data: [sa.length, sb.length], backgroundColor: '#0f3460' }]
+  });
+
+  makeChart('chartCumul', 'bar', {
+    labels: [String(a), String(b)],
+    datasets: [
+      { label: 'Labels', data: [ya.labels, yb.labels], backgroundColor: '#e94560' },
+      { label: 'Pré-Labels', data: [ya.preLabels, yb.preLabels], backgroundColor: '#ea580c' }
+    ]
+  });
+
+  const buckets = (list) => {
+    const out = [0, 0, 0, 0, 0, 0];
+    list.forEach(s => {
+      const m = (s.labelDate || '').match(/^(\d{2})\/(\d{4})$/);
+      const ac = s.anneeCreation || '';
+      if (!m || ac === '' || isNaN(parseInt(ac))) return;
+      const age = parseInt(m[2]) - parseInt(ac);
+      if (age <= 0) out[0]++; else if (age === 1) out[1]++; else if (age === 2) out[2]++;
+      else if (age === 3) out[3]++; else if (age <= 5) out[4]++; else out[5]++;
+    });
+    return out;
+  };
+  makeChart('chartAgeLabel', 'bar', {
+    labels: ['0 an', '1 an', '2 ans', '3 ans', '4-5 ans', '6+ ans'],
+    datasets: [
+      { label: a, data: buckets(sa), backgroundColor: '#e94560' },
+      { label: b, data: buckets(sb), backgroundColor: '#0f3460' }
+    ]
+  });
+}
+
 // ===== SESSIONS =====
 function renderSessions() {
+  if (DATA.compare.active && DATA.compare.page === 'sessions') return renderSessionsCompare();
   const sessions = DATA.yearFilter === 'all'
     ? DATA.dashboard.sessions
     : DATA.dashboard.sessions.filter(s => s.year === DATA.yearFilter);
@@ -1710,6 +2366,7 @@ function filterSessions(q) {
 }
 
 function renderSessionCharts() {
+  if (DATA.compare.active && DATA.compare.page === 'sessions') return renderSessionChartsCompare();
   const y = DATA.yearFilter === 'all'
     ? DATA.dashboard.yearly
     : DATA.dashboard.yearly.filter(r => r.year === DATA.yearFilter);
@@ -1748,6 +2405,59 @@ function renderSessionCharts() {
   }, { plugins: { tooltip: { callbacks: { label: c => `Variation ${c.parsed.y >= 0 ? '+' : ''}${c.parsed.y} %` } } } });
 }
 
+/* ---- Comparateur Sessions : 2 années côte à côte ---- */
+function renderSessionsCompare() {
+  const a = DATA.compare.a, b = DATA.compare.b;
+  const all = DATA.dashboard.sessions || [];
+  const rows = all.filter(s => s.year === a || s.year === b).slice().reverse();
+  const getBadge = (t) => {
+    const f = parseFloat(t);
+    return `<span class="badge ${f > 45 ? 'badge-green' : f > 35 ? 'badge-blue' : 'badge-red'}">${t}%</span>`;
+  };
+  document.getElementById('sessionsTable').innerHTML = rows.map(s => `
+    <tr class="${s.year === a ? 'cmp-row-a' : 'cmp-row-b'}">
+      <td><strong>${s.session}</strong> <span class="cmp-badge-${s.year === a ? 'a' : 'b'}">${s.year === a ? a : b}</span></td>
+      <td>${s.candidatures}</td>
+      <td>${s.labels}</td>
+      <td>${s.preLabels}</td>
+      <td>${getBadge(s.tauxAcceptation)}</td>
+      <td style="font-size:0.85em;color:#666">${s.commentaires || '-'}</td>
+    </tr>
+  `).join('');
+}
+
+function renderSessionChartsCompare() {
+  const a = DATA.compare.a, b = DATA.compare.b;
+  const ya = yearlyFor(a), yb = yearlyFor(b);
+  makeChart('chartSessionsRate', 'bar', {
+    labels: [String(a), String(b)],
+    datasets: [{ label: "Taux d'acceptation (%)", data: [parseFloat(ya.tauxAcceptation), parseFloat(yb.tauxAcceptation)], backgroundColor: ['#e94560', '#0f3460'] }]
+  }, { scales: { y: { min: 20, max: 70 } }, plugins: { tooltip: { callbacks: { label: c => `Taux : ${c.parsed.y}%` } } } });
+  makeChart('chartSessionsBar', 'bar', {
+    labels: [String(a), String(b)],
+    datasets: [
+      { label: 'Candidatures', data: [ya.candidatures, yb.candidatures], backgroundColor: '#0f3460' },
+      { label: 'Labels', data: [ya.labels, yb.labels], backgroundColor: '#e94560' },
+      { label: 'Pré-Labels', data: [ya.preLabels, yb.preLabels], backgroundColor: '#16a34a' }
+    ]
+  });
+
+  const fullY = DATA.dashboard.yearly;
+  const growth = (year) => {
+    const idx = fullY.findIndex(f => f.year === year);
+    if (idx > 0 && fullY[idx - 1].candidatures > 0) return +(((fullY[idx].candidatures - fullY[idx - 1].candidatures) / fullY[idx - 1].candidatures) * 100).toFixed(1);
+    return null;
+  };
+  const ga = growth(a), gb = growth(b);
+  const gLabels = [], gVals = [];
+  if (ga !== null) { gLabels.push(a); gVals.push(ga); }
+  if (gb !== null) { gLabels.push(b); gVals.push(gb); }
+  makeChart('chartCandGrowth', 'bar', {
+    labels: gLabels,
+    datasets: [{ label: 'Croissance candidatures (%)', data: gVals, backgroundColor: gVals.map(v => v >= 0 ? 'rgba(22,163,74,0.75)' : 'rgba(233,69,96,0.75)') }]
+  }, { plugins: { tooltip: { callbacks: { label: c => `Variation ${c.parsed.y >= 0 ? '+' : ''}${c.parsed.y} %` } } } });
+}
+
 // ===== STARTUPS =====
 function renderStartups() {
   const startups = DATA.startups;
@@ -1758,8 +2468,10 @@ function renderStartups() {
       <td>${s.anneeCreation || '-'}</td>
       <td>${s.labelDate || '-'}</td>
       <td style="font-size:0.85em">${(s.founders || '').substring(0, 60)}</td>
+      <td style="font-size:0.85em;color:#b45309">${s.formeJuridique || '— (KPI-34 à collecter)'}</td>
     </tr>
   `).join('');
+  renderStartupCards(startups);
 }
 
 function filterStartups(q) {
@@ -1775,13 +2487,50 @@ function filterStartups(q) {
       <td>${s.anneeCreation || '-'}</td>
       <td>${s.labelDate || '-'}</td>
       <td style="font-size:0.85em">${(s.founders || '').substring(0, 60)}</td>
+      <td style="font-size:0.85em;color:#b45309">${s.formeJuridique || '— (KPI-34 à collecter)'}</td>
     </tr>
   `).join('');
+  renderStartupCards(filtered);
   document.querySelector('#page-startups .page-header p').textContent = `922 startups · ${filtered.length} résultats`;
+}
+
+/* ---- Page Startups : vue cartes ---- */
+let STARTUP_VIEW = 'table';
+function setStartupView(mode) {
+  STARTUP_VIEW = mode;
+  document.getElementById('viewTableBtn').classList.toggle('active', mode === 'table');
+  document.getElementById('viewCardsBtn').classList.toggle('active', mode === 'cards');
+  document.getElementById('startupsTableView').style.display = mode === 'table' ? '' : 'none';
+  document.getElementById('startupsCardsView').style.display = mode === 'cards' ? '' : 'none';
+  if (mode === 'cards') {
+    const q = document.getElementById('startupSearch').value || '';
+    const filtered = q ? DATA.startups.filter(s => [s.nom, s.secteur, s.founders].filter(Boolean).join(' ').toLowerCase().includes(q.toLowerCase())) : DATA.startups;
+    renderStartupCards(filtered);
+  }
+}
+
+function renderStartupCards(list) {
+  const el = document.getElementById('startupsCardsView');
+  if (!el) return;
+  el.innerHTML = `<div class="startup-cards">${list.map(s => `
+    <div class="startup-card">
+      <div class="sc-top">
+        <div class="sc-name">${escapeHtml(s.nom || '-')}</div>
+        <span class="sc-sector">${escapeHtml(s.secteur || 'Non classé')}</span>
+      </div>
+      <div class="sc-meta">
+        <span class="sc-chip">🏢 Création : <b>${s.anneeCreation || '-'}</b></span>
+        <span class="sc-chip">🏷️ Label : <b>${s.labelDate || '-'}</b></span>
+        <span class="sc-chip">👥 <b>${s.founders ? s.founders.split(/(?=[A-Z])/).filter(x => x.trim().length > 1).length : 0}</b> fondateur(s)</span>
+      </div>
+      ${s.resume ? `<div class="sc-resume">${escapeHtml(s.resume.substring(0, 140))}${s.resume.length > 140 ? '…' : ''}</div>` : ''}
+      <div class="sc-legal">⚖️ Forme juridique (KPI-34) : <code>${s.formeJuridique || 'à collecter'}</code> — registre RNE / extrait d'immatriculation</div>
+    </div>`).join('')}</div>`;
 }
 
 // ===== SECTORS =====
 function renderSectors() {
+  if (DATA.compare.active && DATA.compare.page === 'sectors') return renderSectorsCompare();
   const sectors = sectorCounts(filteredStartups());
   const total = sectors.reduce((s, s2) => s + s2.count, 0);
   const top4 = sectors.slice(0, 4).reduce((s, s2) => s + s2.count, 0);
@@ -1797,6 +2546,7 @@ function renderSectors() {
 }
 
 function renderSectorCharts() {
+  if (DATA.compare.active && DATA.compare.page === 'sectors') return renderSectorChartsCompare();
   const sectors = sectorCounts(filteredStartups());
   const total = sectors.reduce((s, s2) => s + s2.count, 0);
   const colors = ['#e94560','#0f3460','#16a34a','#ea580c','#7c3aed','#0891b2','#ca8a04','#be185d','#65a30d','#0d9488','#9333ea','#db2777','#2563eb','#c026d3','#059669','#d97706','#dc2626','#4f46e5'];
@@ -1835,6 +2585,73 @@ function renderSectorCharts() {
   makeChart('chartSectorEvo', 'line', {
     labels: evoYears.map(String),
     datasets: evoDatasets
+  }, { plugins: { legend: { position: 'bottom' } } });
+}
+
+/* ---- Comparateur Secteurs : 2 années côte à côte ---- */
+function renderSectorsCompare() {
+  const a = DATA.compare.a, b = DATA.compare.b;
+  const sa = startupsForYear(a), sb = startupsForYear(b);
+  const secA = sectorCounts(sa), secB = sectorCounts(sb);
+  const totalA = secA.reduce((s, x) => s + x.count, 0) || 1;
+  const totalB = secB.reduce((s, x) => s + x.count, 0) || 1;
+  const names = Array.from(new Set([...secA, ...secB].map(s => s.name))).slice(0, 10);
+
+  const row = (n) => {
+    const A = secA.find(s => s.name === n) || { count: 0 };
+    const B = secB.find(s => s.name === n) || { count: 0 };
+    const d = A.count ? ((B.count - A.count) / A.count * 100).toFixed(1) : '—';
+    const cls = B.count > A.count ? 'badge-green' : B.count < A.count ? 'badge-red' : 'badge-blue';
+    return `<tr>
+      <td>${n}</td>
+      <td><b>${A.count}</b> <small style="color:#8a90a8">(${((A.count / totalA) * 100).toFixed(1)}%)</small></td>
+      <td><b>${B.count}</b> <small style="color:#8a90a8">(${((B.count / totalB) * 100).toFixed(1)}%)</small></td>
+      <td><span class="badge ${cls}">${d === '—' ? '—' : (d > 0 ? '+' : '') + d + ' %'}</span></td>
+    </tr>`;
+  };
+  document.getElementById('hhiValue').textContent = 'A/B';
+  document.getElementById('topSector').textContent = `${secA[0] ? secA[0].name : '-'} → ${secB[0] ? secB[0].name : '-'}`;
+  document.getElementById('top4Value').textContent = 'Voir tableau';
+  document.getElementById('sectorsTable').innerHTML = `<tr style="background:#f4f5f9"><th>Secteur</th><th>${a}</th><th>${b}</th><th>Variation</th></tr>` + names.map(row).join('');
+}
+
+function renderSectorChartsCompare() {
+  const a = DATA.compare.a, b = DATA.compare.b;
+  const secA = sectorCounts(startupsForYear(a)), secB = sectorCounts(startupsForYear(b));
+  const colors = ['#e94560', '#0f3460', '#16a34a', '#ea580c', '#7c3aed', '#0891b2', '#ca8a04', '#be185d', '#65a30d', '#0d9488'];
+  const names = Array.from(new Set([...secA, ...secB].map(s => s.name))).slice(0, 8);
+  const cA = names.map(n => (secA.find(s => s.name === n) || { count: 0 }).count);
+  const cB = names.map(n => (secB.find(s => s.name === n) || { count: 0 }).count);
+  makeChart('chartSectorsDetail', 'bar', {
+    labels: names,
+    datasets: [
+      { label: a, data: cA, backgroundColor: '#e94560' },
+      { label: b, data: cB, backgroundColor: '#0f3460' }
+    ]
+  }, { indexAxis: 'y', plugins: { legend: { position: 'bottom' } } });
+
+  const totalB = secB.reduce((s, x) => s + x.count, 0) || 1;
+  makeChart('chartSectorsPie', 'pie', {
+    labels: secB.slice(0, 8).map(s => `${s.name} (${(s.count / totalB * 100).toFixed(1)}%)`),
+    datasets: [{ data: secB.slice(0, 8).map(s => s.count), backgroundColor: colors }]
+  }, { plugins: { legend: { position: 'right', labels: { font: { size: 9 } } } } });
+
+  const evoColors = ['#e94560', '#0f3460'];
+  const evo = [a, b].map((yr, i) => ({
+    label: String(yr),
+    data: names.map(n => {
+      const m = secA.concat(secB).find(s => s.name === n);
+      const list = DATA.startups.filter(s => {
+        const mm = (s.labelDate || '').match(/^(\d{2})\/(\d{4})$/);
+        return s.secteur === n && mm && parseInt(mm[2]) === yr;
+      });
+      return list.length;
+    }),
+    borderColor: evoColors[i], backgroundColor: evoColors[i], tension: 0.3, fill: false
+  }));
+  makeChart('chartSectorEvo', 'line', {
+    labels: names,
+    datasets: evo
   }, { plugins: { legend: { position: 'bottom' } } });
 }
 
@@ -2535,16 +3352,158 @@ function closeLivrable() {
   document.getElementById('livrableFrame').src = '';
 }
 
+// ===== CARTE CHOROPLÈTHE (Tunisie stylisée) =====
+const REGIONS = [
+  { name: 'Grand Tunis', pct: 48, desc: 'Tunis, Ariana, Ben Arous, Manouba', d: 'M85 28 L105 18 L125 20 L138 26 L132 40 L116 46 L98 44 L88 36 Z', lx: 110, ly: 33 },
+  { name: 'Sousse', pct: 17, desc: 'Capitale du Sahel · littoral centre-est', d: 'M146 50 L162 58 L170 66 L166 84 L154 88 L144 76 L140 62 Z', lx: 155, ly: 70 },
+  { name: 'Kairouan', pct: 13, desc: 'Centre de la Tunisie', d: 'M88 42 L116 46 L136 40 L144 62 L136 80 L122 88 L104 84 L92 66 L84 52 Z', lx: 112, ly: 66 },
+  { name: 'Kasserine', pct: 9, desc: 'Centre-Ouest', d: 'M48 52 L84 42 L90 64 L84 86 L66 94 L52 84 L44 68 Z', lx: 66, ly: 70 },
+  { name: 'Sfax', pct: 5, desc: 'Sud-Est', d: 'M122 88 L144 80 L156 90 L158 110 L146 128 L130 136 L120 124 L114 102 Z', lx: 136, ly: 108 },
+  { name: 'Nabeul', pct: 4, desc: 'Péninsule du Cap Bon', d: 'M138 26 L160 14 L182 16 L186 34 L176 52 L162 58 L146 50 L136 38 Z', lx: 160, ly: 40 },
+  { name: 'Jendouba', pct: 4, desc: 'Nord-Ouest · frontière algérienne', d: 'M50 28 L72 20 L88 26 L92 44 L78 52 L60 50 L48 40 Z', lx: 68, ly: 40 }
+];
+const TUNISIA_OUTLINE = 'M50 28 L72 20 L88 22 L105 16 L118 5 L140 12 L180 15 L186 30 L186 34 L180 44 L176 52 L172 66 L170 78 L166 98 L164 108 L158 122 L152 142 L146 152 L136 158 L126 152 L114 148 L100 144 L86 134 L72 124 L58 114 L48 98 L42 80 L44 62 L48 48 Z';
+
+function regionColor(pct) {
+  const stops = [[0, '#fde8ea'], [10, '#f7c0c9'], [20, '#f09aa8'], [30, '#e87387'], [40, '#df4c69'], [50, '#c22742']];
+  for (let i = 1; i < stops.length; i++) {
+    if (pct <= stops[i][0]) {
+      const t = (pct - stops[i - 1][0]) / (stops[i][0] - stops[i - 1][0]);
+      const a = stops[i - 1][1].match(/\w\w/g).map(x => parseInt(x, 16));
+      const b = stops[i][1].match(/\w\w/g).map(x => parseInt(x, 16));
+      return '#' + [0, 1, 2].map(i => Math.round(a[i] + (b[i] - a[i]) * t).toString(16).padStart(2, '0')).join('');
+    }
+  }
+  return stops[stops.length - 1][1];
+}
+
+let selectedRegion = null;
+function selectRegion(name) {
+  selectedRegion = name;
+  document.querySelectorAll('#choropleth .region').forEach(r => r.classList.toggle('selected', r.getAttribute('data-name') === name));
+  const r = REGIONS.find(x => x.name === name);
+  const detail = document.getElementById('regionDetail');
+  if (!r || !detail) return;
+  detail.innerHTML = `<b>${r.name}</b> — ${r.pct}% des startups<br><small>${r.desc}</small><br>Concentration : le Grand Tunis (48%) concentre à lui seul près de la moitié du portefeuille.`;
+}
+
+function renderChoropleth() {
+  const el = document.getElementById('choropleth');
+  if (!el) return;
+  el.innerHTML = `
+    <svg viewBox="0 0 200 170" role="img" aria-label="Carte choroplèthe des régions tunisiennes">
+      <path d="${TUNISIA_OUTLINE}" fill="#e8ecf4" stroke="#cfd6e6" stroke-width="1"/>
+      ${REGIONS.map((r, i) => `
+        <path class="region" data-name="${r.name}" data-pct="${r.pct}" d="${r.d}"
+              fill="${regionColor(r.pct)}" opacity="0.9"
+              style="animation:regionIn .6s cubic-bezier(.2,.8,.3,1) ${i * 0.05}s backwards">
+          <title>${r.name} — ${r.pct}% des startups (${r.desc})</title>
+        </path>`).join('')}
+      ${REGIONS.map(r => `
+        <text class="region-lbl" x="${r.lx}" y="${r.ly - 2}" text-anchor="middle">${r.name}</text>
+        <text class="region-pct" x="${r.lx}" y="${r.ly + 8}" text-anchor="middle">${r.pct}%</text>`).join('')}
+    </svg>
+    <style>
+      @keyframes regionIn { from { opacity: 0; transform: scale(.94); transform-origin: center; } to { opacity: .9; transform: scale(1); } }
+    </style>`;
+  el.querySelectorAll('.region').forEach(path => {
+    path.addEventListener('click', () => selectRegion(path.getAttribute('data-name')));
+  });
+  const leg = document.getElementById('choroplethLegend');
+  if (leg) {
+    leg.innerHTML = REGIONS.slice().sort((a, b) => b.pct - a.pct).map(r => `
+      <div class="legend-row"><span class="swatch" style="background:${regionColor(r.pct)}"></span>${r.name} — <b>${r.pct}%</b></div>`).join('');
+  }
+  if (!selectedRegion) selectRegion(REGIONS[0].name);
+}
+
+// ===== CHRONOLOGIE DES SESSIONS =====
+function renderTimeline() {
+  const el = document.getElementById('sessionTimeline');
+  if (!el) return;
+  const all = DATA.dashboard.sessions || [];
+  let sessions = all;
+  if (DATA.compare.active && DATA.compare.page === 'sessions') {
+    sessions = all.filter(s => s.year === DATA.compare.a || s.year === DATA.compare.b);
+  } else if (DATA.yearFilter !== 'all') {
+    sessions = all.filter(s => s.year === DATA.yearFilter);
+  }
+  const sorted = sessions.slice().sort((x, y) => (x.year - y.year) || (x.month - y.month));
+  const groups = {};
+  sorted.forEach(s => { (groups[s.year] = groups[s.year] || []).push(s); });
+  const years = Object.keys(groups).sort((a, b) => a - b);
+  const rateColor = (t) => {
+    const f = parseFloat(t);
+    return f > 45 ? '#16a34a' : f > 35 ? '#0f3460' : '#e94560';
+  };
+  el.innerHTML = years.map(yr => `
+    <div class="tl-year"><span class="tl-year-marker">${yr}</span></div>
+    ${groups[yr].map((s, i) => `
+      <div class="tl-node tl-pop" style="animation-delay:${i * 0.025}s" title="${s.session}" onclick="jumpToSession('${s.session}')">
+        <div class="tl-dot" style="background:${rateColor(s.tauxAcceptation)}"></div>
+        <div class="tl-label">${s.session}</div>
+        <div class="tl-tip"><b>${s.session}</b><br>📋 ${s.candidatures} candidatures<br>✅ ${s.labels} labels · 🟠 ${s.preLabels} pré-labels<br>📈 ${s.tauxAcceptation}%</div>
+      </div>`).join('')}`).join('');
+}
+
+function jumpToSession(session) {
+  const rows = document.querySelectorAll('#sessionsTable tr');
+  let target = null;
+  rows.forEach(r => { if (r.textContent.includes(session)) target = r; });
+  if (target) {
+    target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    target.style.background = '#fff3d6';
+    setTimeout(() => { target.style.transition = 'background 1s'; target.style.background = ''; }, 1800);
+  }
+}
+
 // ===== HELPERS =====
+window.CHARTS = {};
 function makeChart(id, type, data, extraOpts = {}) {
+  if (!window.Chart) return;
   const canvas = document.getElementById(id);
   if (!canvas) return;
   Chart.getChart(canvas)?.destroy();
-  new Chart(canvas, {
+  const chart = new Chart(canvas, {
     type,
     data,
     options: { responsive: true, maintainAspectRatio: true, ...extraOpts }
   });
+  window.CHARTS[id] = chart;
+
+  // Bouton « 📸 PNG » injecté dans l'en-tête de la carte (export pour le mémoire)
+  const card = canvas.closest('.chart-card');
+  if (card) {
+    let head = card.querySelector(':scope > .chart-head');
+    if (!head) {
+      head = document.createElement('div');
+      head.className = 'chart-head';
+      const h3 = card.querySelector(':scope > h3');
+      if (h3) { card.insertBefore(head, h3); head.appendChild(h3); }
+      else card.insertBefore(head, card.firstChild);
+    }
+    if (!head.querySelector('.btn-export')) {
+      const btn = document.createElement('button');
+      btn.className = 'btn-export';
+      btn.type = 'button';
+      btn.innerHTML = '📸 PNG';
+      btn.title = 'Exporter le graphique en PNG (pour le mémoire)';
+      btn.onclick = (e) => { e.stopPropagation(); exportChartPng(id); };
+      head.appendChild(btn);
+    }
+  }
+}
+
+function exportChartPng(id) {
+  const chart = window.CHARTS[id];
+  if (!chart) return;
+  const url = chart.toBase64Image({ backgroundColor: '#ffffff' });
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'graphique_' + id + '.png';
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
 }
 
 init();
