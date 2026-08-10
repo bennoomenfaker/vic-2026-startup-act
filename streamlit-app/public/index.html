@@ -15,13 +15,55 @@
   <meta property="og:title" content="Startup Act Tunisie — Étude Quantitative">
   <meta property="og:description" content="Étude quantitative du programme Startup Act tunisien (2019-2026) : 85 sessions, labels, prélabels, parcours prélabel→label. Projet académique de la classe VIC — MP 2ème année, collaboration ESEN × ISCAE, soutien ATVIC. Réalisé par Faker BEN NOOMEN.">
   <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_TN">
   <meta property="og:url" content="https://github.com/bennoomenfaker/vic-2026-startup-act">
   <meta property="og:site_name" content="Startup Act Tunisie — Étude Quantitative">
-  <meta name="twitter:card" content="summary">
+  <meta property="og:image" content="/og-image.png">
+  <meta property="og:image:alt" content="Startup Act Tunisie — étude quantitative des sessions de labellisation 2019-2026 : 85 sessions, 2 958 candidatures, 1 311 labels">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <link rel="canonical" href="https://github.com/bennoomenfaker/vic-2026-startup-act">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Startup Act Tunisie — Étude Quantitative">
   <meta name="twitter:description" content="85 sessions de labellisation Startup Act (2019-2026) analysées : labels, prélabels, conversions, retraits. Projet académique VIC — ESEN × ISCAE, soutien ATVIC. Par Faker BEN NOOMEN.">
+  <meta name="twitter:image" content="/og-image.png">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Dataset",
+        "name": "Startup Act Tunisie — Étude quantitative (2019-2026)",
+        "description": "Données corrigées des 85 sessions de labellisation du Startup Act tunisien : candidatures, labels, prélabels, taux d'acceptation, parcours prélabel→label, conversions et retraits. Source de vérité : PDF officiels de startup.gov.tn, recalculés par l'auteur (les chiffres du site startup.gov.tn/sessions étant erronés sur 20 sessions / 85).",
+        "creator": { "@type": "Person", "name": "Faker BEN NOOMEN", "affiliation": "Master Professionnel VIC — ESEN Manouba / ISCAE Manouba" },
+        "publisher": { "@type": "Organization", "name": "ATVIC — Association Tunisienne de Veille et Intelligence Compétitive" },
+        "temporalCoverage": "2019-2026",
+        "variableMeasured": ["candidatures", "labels", "preLabels", "retraits", "conversions", "tauxAcceptation"],
+        "keywords": "Startup Act, Tunisie, labellisation, startup.gov.tn, étude quantitative, veille stratégique",
+        "url": "https://github.com/bennoomenfaker/vic-2026-startup-act"
+      },
+      {
+        "@type": "WebApplication",
+        "name": "Dashboard Startup Act Tunisie",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web",
+        "description": "Tableau de bord interactif d'analyse des sessions de labellisation du programme Startup Act tunisien (2019-2026).",
+        "author": { "@type": "Person", "name": "Faker BEN NOOMEN" },
+        "inLanguage": "fr"
+      }
+    ]
+  }
+  </script>
   <link rel="shortcut icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E4W16LN95P"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-E4W16LN95P');
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet@1.9/dist/leaflet.js"></script>
@@ -592,8 +634,8 @@
     }
 
     /* =========================================================
-       Nouveaux composants (P1/P2/P3) — Export, recherche globale,
-       freshness, comparateur, cartes startups, timeline, choroplèthe, impact
+       Nouveaux composants (P1/P2/P3) —        Export, recherche globale,
+       comparateur, cartes startups, timeline, choroplèthe, impact
        ========================================================= */
 
     /* --- Export PNG des graphiques --- */
@@ -634,15 +676,6 @@
     .gs-item .gsi-ico { font-size: .9rem; flex-shrink: 0; }
     .gs-empty { padding: 14px; text-align: center; color: #8a90a8; font-size: .82rem; }
     .gs-tag { margin-left: auto; font-size: .62rem; background: #eef0f6; color: #5a6078; border-radius: 6px; padding: 2px 6px; font-weight: 600; flex-shrink: 0; }
-
-    /* --- Badge Data freshness --- */
-    .freshness-badge {
-      display: inline-flex; align-items: center; gap: 6px; white-space: nowrap;
-      background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.16);
-      color: #cfd6ea; border-radius: 999px; padding: 5px 12px; font-size: .72rem; font-weight: 600;
-    }
-    .freshness-badge .dot { width: 7px; height: 7px; border-radius: 50%; background: #2dd4a7; box-shadow: 0 0 0 3px rgba(45,212,167,.18); }
-    .freshness-badge.stale .dot { background: #fbbf24; box-shadow: 0 0 0 3px rgba(251,191,36,.18); }
 
     /* --- Comparateur de périodes --- */
     .compare-toggle { flex-shrink: 0; font-size: .78rem; padding: 7px 12px; }
@@ -807,7 +840,6 @@
       <a href="#" data-page="about">👤 À propos</a>
     </div>
     <div class="nav-tools">
-      <span class="freshness-badge" id="freshnessBadge" title="Fraîcheur des données">🕒 <span class="dot"></span> <span id="freshnessText">Chargement…</span></span>
       <div class="global-search">
         <span class="gs-icon">🔍</span>
         <input id="globalSearch" type="search" placeholder="Recherche globale…" autocomplete="off" aria-label="Recherche globale" aria-expanded="false">
@@ -866,7 +898,9 @@
       <div class="chart-card"><h3>Candidatures vs Labels par année</h3><div class="chart-wrapper"><canvas id="chartSessionsBar"></canvas></div></div>
     </div>
     <div class="chart-grid">
-      <div class="chart-card"><h3>Croissance annuelle des candidatures (KPI-26)</h3><div class="chart-wrapper"><canvas id="chartCandGrowth"></canvas></div></div>
+      <div class="chart-card"><h3>Croissance annuelle des candidatures (KPI-26)</h3><div class="chart-wrapper"><canvas id="chartCandGrowth"></canvas></div>
+        <div class="summary-box" id="candGrowthInterp" style="margin-top:12px"></div>
+      </div>
     </div>
     <div class="search-bar">
       <input type="text" id="sessionSearch" placeholder="Rechercher une session..." oninput="filterSessions(this.value)">
@@ -1915,7 +1949,6 @@ async function init() {
     renderTimeline();
     renderImpactCharts();
     renderCollectPlan();
-    renderFreshness();
     initGlobalSearch();
     bindSortableTables();
     setStartupView(STARTUP_VIEW);
@@ -1923,6 +1956,31 @@ async function init() {
     // Auto-load first report
     setTimeout(() => renderReportCharts(0), 300);
   } catch(e) { console.error('Init error:', e); }
+}
+
+/* ===== KPI-26 : interprétation dynamique de la croissance des candidatures ===== */
+function renderCandGrowthInterp(years, vals) {
+  const el = document.getElementById('candGrowthInterp');
+  if (!el || !vals.length) return;
+  const up = vals.filter(v => v > 0).length;
+  const down = vals.filter(v => v < 0).length;
+  const best = Math.max(...vals), worst = Math.min(...vals);
+  const bestY = years[vals.indexOf(best)], worstY = years[vals.indexOf(worst)];
+  const upHtml = up ? `<span style="color:#16a34a;font-weight:700">${up} hausse${up > 1 ? 's' : ''}</span>` : 'aucune hausse';
+  const downHtml = down ? `<span style="color:#e94560;font-weight:700">${down} baisses${down > 1 ? 's' : ''}</span>` : 'aucune baisse';
+  el.innerHTML = `
+    <div style="margin-bottom:6px"><strong>📈 Ce que montre ce graphique :</strong>
+      l'évolution <b>annuelle en %</b> du nombre de candidatures par rapport à l'année précédente
+      (🟢 barre verte = hausse · 🔴 barre rose = baisse).</div>
+    <div style="margin-bottom:6px"><strong>🎯 Utilité (KPI-26) :</strong>
+      c'est un indicateur de <b>dynamique d'attractivité</b> du programme Startup Act : il détecte
+      l'accélération ou le ralentissement de la demande de labellisation, et distingue un simple effet
+      de calendrier (moins de sessions) d'un vrai désintérêt des porteurs de projets.</div>
+    <strong>📌 Lecture :</strong> sur ${vals.length} transitions annuelles, ${downHtml} et ${upHtml}.
+    Pic : <b>+${best} %</b> (${bestY}) · creux : <b>${worst} %</b> (${worstY}).
+    La chute 2026 (−74 %) traduit surtout une <b>réduction du nombre de sessions</b> (3 en 2026 vs ~11/an
+    auparavant), et non un désintérêt : la demande reste soutenue dès qu'une session est ouverte.
+  `;
 }
 
 // ===== IMPACT : graphiques des rapports annuels =====
@@ -1982,29 +2040,6 @@ function renderCollectPlan() {
       <td>${src}</td>
       <td>${page}</td>
     </tr>`).join('');
-}
-
-// ===== FRAÎCHEUR DES DONNÉES =====
-function renderFreshness() {
-  const badge = document.getElementById('freshnessBadge');
-  const text = document.getElementById('freshnessText');
-  if (!badge || !text) return;
-  const meta = (DATA.dashboard && DATA.dashboard.meta) || {};
-  const lastUpdated = meta.lastUpdated || null;
-  const sessions = DATA.dashboard.sessions || [];
-  const last = sessions.slice().sort((a, b) => (b.year - a.year) || (b.month - a.month))[0];
-
-  let parts = [];
-  if (lastUpdated) {
-    const d = new Date(lastUpdated);
-    const jours = Math.floor((new Date() - d) / 86400000);
-    parts.push(`MAJ ${d.toLocaleDateString('fr-FR')}`);
-    badge.classList.toggle('stale', jours > 90);
-  }
-  if (last) parts.push(`Dernière session : ${last.session}`);
-  parts.push(`Rapports : 2021`);
-  text.textContent = parts.join(' · ');
-  badge.title = `Fraîcheur des données — ${parts.join('\n')}`;
 }
 
 // ===== RECHERCHE GLOBALE (barre du menu) =====
@@ -2402,7 +2437,16 @@ function renderSessionCharts() {
       data: growthVals,
       backgroundColor: growthVals.map(v => v >= 0 ? 'rgba(22,163,74,0.75)' : 'rgba(233,69,96,0.75)')
     }]
-  }, { plugins: { tooltip: { callbacks: { label: c => `Variation ${c.parsed.y >= 0 ? '+' : ''}${c.parsed.y} %` } } } });
+  }, { plugins: {
+    legend: {
+      labels: { generateLabels: () => [
+        { text: 'Croissance positive', fillStyle: 'rgba(22,163,74,0.85)', strokeStyle: 'rgba(22,163,74,0.85)' },
+        { text: 'Croissance négative', fillStyle: 'rgba(233,69,96,0.85)', strokeStyle: 'rgba(233,69,96,0.85)' }
+      ] }
+    },
+    tooltip: { callbacks: { label: c => `Variation ${c.parsed.y >= 0 ? '+' : ''}${c.parsed.y} %` } }
+  } });
+  renderCandGrowthInterp(growthYears, growthVals);
 }
 
 /* ---- Comparateur Sessions : 2 années côte à côte ---- */
@@ -2455,7 +2499,16 @@ function renderSessionChartsCompare() {
   makeChart('chartCandGrowth', 'bar', {
     labels: gLabels,
     datasets: [{ label: 'Croissance candidatures (%)', data: gVals, backgroundColor: gVals.map(v => v >= 0 ? 'rgba(22,163,74,0.75)' : 'rgba(233,69,96,0.75)') }]
-  }, { plugins: { tooltip: { callbacks: { label: c => `Variation ${c.parsed.y >= 0 ? '+' : ''}${c.parsed.y} %` } } } });
+  }, { plugins: {
+    legend: {
+      labels: { generateLabels: () => [
+        { text: 'Croissance positive', fillStyle: 'rgba(22,163,74,0.85)', strokeStyle: 'rgba(22,163,74,0.85)' },
+        { text: 'Croissance négative', fillStyle: 'rgba(233,69,96,0.85)', strokeStyle: 'rgba(233,69,96,0.85)' }
+      ] }
+    },
+    tooltip: { callbacks: { label: c => `Variation ${c.parsed.y >= 0 ? '+' : ''}${c.parsed.y} %` } }
+  } });
+  renderCandGrowthInterp(gLabels, gVals);
 }
 
 // ===== STARTUPS =====
