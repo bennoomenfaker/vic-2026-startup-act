@@ -407,6 +407,17 @@
     .page-header h1 { font-size: var(--text-2xl); font-weight: 700; letter-spacing: var(--tracking-title); line-height: 1.15; }
     .page-header p { color: var(--text-secondary); font-size: var(--text-sm); margin-top: 6px; }
 
+    /* ============ Hero banner (Dashboard) ============ */
+    .dash-hero { background: linear-gradient(135deg, #171832 0%, #16213e 55%, #0f3460 100%); border-radius: var(--radius-xl); padding: 26px 28px; color: #fff; display: flex; flex-wrap: wrap; gap: 20px; align-items: center; justify-content: space-between; box-shadow: var(--shadow-strong); position: relative; overflow: hidden; }
+    .dash-hero::after { content: ''; position: absolute; right: -70px; top: -70px; width: 240px; height: 240px; border-radius: 50%; background: radial-gradient(circle, rgba(233,69,96,.35) 0%, transparent 70%); pointer-events: none; }
+    .dash-hero h1 { font-size: clamp(1.4rem, 3vw, 2rem); margin: 0 0 6px; letter-spacing: -.02em; }
+    .dash-hero p { color: #c3cadf; margin: 0 0 16px; font-size: .9rem; max-width: 680px; }
+    .dash-hero-stats { display: flex; flex-wrap: wrap; gap: 26px; }
+    .hero-stat { display: flex; flex-direction: column; }
+    .hero-stat-num { font-size: 1.5rem; font-weight: 800; letter-spacing: -.02em; line-height: 1.1; }
+    .hero-stat-lbl { font-size: .68rem; text-transform: uppercase; letter-spacing: .09em; color: #9aa3c0; margin-top: 2px; }
+    .dash-hero-badge { align-self: flex-start; background: rgba(22,163,74,.16); color: #8ef0b0; border: 1px solid rgba(22,163,74,.35); padding: 5px 12px; border-radius: var(--radius-full); font-size: .72rem; font-weight: 600; white-space: nowrap; }
+
     /* ============ Cards (one family) ============ */
     .kpi-card, .chart-card, .doc-card, .degree-card, .skill-card, .profile-card, .bio-card, .partner-card, .pdf-card {
       background: var(--bg-surface); border: 1px solid var(--border-subtle);
@@ -426,6 +437,20 @@
     .kpi-card .label { color: var(--text-tertiary); font-weight: 600; font-size: .7rem; letter-spacing: .07em; }
     .kpi-card .value { font-size: clamp(1.55rem, 2.3vw, 2.05rem); font-weight: 700; letter-spacing: -.03em; line-height: 1.1; }
     .kpi-card .sub { color: var(--text-secondary); font-size: .8rem; }
+    /* Icône + tendance sur les cartes KPI */
+    .kpi-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 6px; }
+    .kpi-icon { font-size: 1.15rem; line-height: 1; }
+    .kpi-trend { font-size: .68rem; font-weight: 700; padding: 2px 8px; border-radius: var(--radius-full); white-space: nowrap; letter-spacing: .01em; }
+    .kpi-trend.up { color: var(--success); background: var(--success-soft); }
+    .kpi-trend.down { color: var(--danger); background: var(--danger-soft); }
+    .kpi-trend.flat { color: var(--text-tertiary); background: var(--bg-inset); }
+
+    /* Skeleton screens (chargement des KPI) */
+    .kpi-card.skeleton { padding: 18px; }
+    .kpi-card.skeleton::before, .kpi-card.skeleton::after { display: none; }
+    .sk-line { display: block; height: 12px; border-radius: 6px; background: var(--bg-inset); position: relative; overflow: hidden; }
+    .sk-line::after { content: ''; position: absolute; inset: 0; transform: translateX(-100%); background: linear-gradient(90deg, transparent, rgba(255,255,255,.75), transparent); animation: shimmer 1.4s infinite; }
+    .sk-line.sk-big { height: 26px; }
 
     /* Chart cards */
     .chart-card { padding: 20px; }
@@ -894,7 +919,21 @@
 <main>
   <!-- DASHBOARD -->
   <section id="page-dashboard" class="active">
-    <div class="page-header"><h1>Tableau de Bord</h1><p>Indicateurs clés du Startup Act Tunisien · 2019-2026</p></div>
+    <div class="page-header">
+      <div class="dash-hero">
+        <div class="dash-hero-text">
+          <h1>Startup Act Tunisien</h1>
+          <p>Suivi du programme national de labellisation · 2019–2026 · données corrigées et recalculées depuis les PDF officiels des 85 sessions</p>
+          <div class="dash-hero-stats" id="dashHeroStats">
+            <div class="hero-stat"><span class="hero-stat-num">1 311</span><span class="hero-stat-lbl">Labels</span></div>
+            <div class="hero-stat"><span class="hero-stat-num">623</span><span class="hero-stat-lbl">Pré-Labels</span></div>
+            <div class="hero-stat"><span class="hero-stat-num">2 958</span><span class="hero-stat-lbl">Candidatures</span></div>
+            <div class="hero-stat"><span class="hero-stat-num">44,3 %</span><span class="hero-stat-lbl">Taux moyen</span></div>
+          </div>
+        </div>
+        <div class="dash-hero-badge">✓ Données corrigées</div>
+      </div>
+    </div>
     <div class="filter-bar">
       <span class="filter-label">📅 Période :</span>
       <select id="dashYearFilter" onchange="applyYearFilter(this.value, 'dashboard')" aria-label="Filtrer par année"></select>
@@ -903,7 +942,16 @@
       <select id="dashYearFilter2" data-compare-target="dashboard" style="display:none" aria-label="Seconde année à comparer"></select>
       <span class="filter-note">Filtrez par année : KPI et graphiques se recalculent sur la période choisie.</span>
     </div>
-    <div class="kpi-grid" id="kpiGrid"></div>
+    <div class="kpi-grid" id="kpiGrid" aria-busy="true">
+      <div class="kpi-card skeleton"><span class="sk-line" style="width:55%"></span><span class="sk-line sk-big" style="width:70%"></span><span class="sk-line" style="width:40%"></span></div>
+      <div class="kpi-card skeleton"><span class="sk-line" style="width:55%"></span><span class="sk-line sk-big" style="width:70%"></span><span class="sk-line" style="width:40%"></span></div>
+      <div class="kpi-card skeleton"><span class="sk-line" style="width:55%"></span><span class="sk-line sk-big" style="width:70%"></span><span class="sk-line" style="width:40%"></span></div>
+      <div class="kpi-card skeleton"><span class="sk-line" style="width:55%"></span><span class="sk-line sk-big" style="width:70%"></span><span class="sk-line" style="width:40%"></span></div>
+      <div class="kpi-card skeleton"><span class="sk-line" style="width:55%"></span><span class="sk-line sk-big" style="width:70%"></span><span class="sk-line" style="width:40%"></span></div>
+      <div class="kpi-card skeleton"><span class="sk-line" style="width:55%"></span><span class="sk-line sk-big" style="width:70%"></span><span class="sk-line" style="width:40%"></span></div>
+      <div class="kpi-card skeleton"><span class="sk-line" style="width:55%"></span><span class="sk-line sk-big" style="width:70%"></span><span class="sk-line" style="width:40%"></span></div>
+      <div class="kpi-card skeleton"><span class="sk-line" style="width:55%"></span><span class="sk-line sk-big" style="width:70%"></span><span class="sk-line" style="width:40%"></span></div>
+    </div>
     <div class="chart-grid">
       <div class="chart-card"><h3>Évolution annuelle des sessions</h3><div class="chart-wrapper"><canvas id="chartYearly"></canvas></div></div>
       <div class="chart-card"><h3>Répartition par secteur (Top 8)</h3><div class="chart-wrapper"><canvas id="chartSectors"></canvas></div></div>
@@ -2034,6 +2082,11 @@ function switchPage(page) {
   document.getElementById('navLinks')?.classList.remove('open');
   document.getElementById('navToggle')?.classList.remove('active');
   document.getElementById('page-' + page)?.scrollIntoView({behavior:'smooth'});
+  // Liens partageables : la page courante est reflétée dans l'URL (#page-<page>)
+  const targetHash = '#page-' + page;
+  if (location.hash !== targetHash) {
+    try { history.replaceState(null, '', targetHash); } catch (e) { /* URL non modifiable (sandbox) */ }
+  }
 }
 
 async function init() {
@@ -2077,6 +2130,14 @@ async function init() {
     document.querySelectorAll('nav a[data-page]').forEach(a => {
       a.addEventListener('click', e => { e.preventDefault(); switchPage(a.dataset.page); });
     });
+
+    // Liens partageables : ouverture directe sur la page pointée par l'URL (#page-...)
+    window.addEventListener('hashchange', () => {
+      const p = (location.hash || '').replace(/^#page-/, '');
+      if (p && document.getElementById('page-' + p)) switchPage(p);
+    });
+    const hashPage = (location.hash || '').replace(/^#page-/, '');
+    if (hashPage && document.getElementById('page-' + hashPage)) switchPage(hashPage);
 
     const navToggle = document.getElementById('navToggle');
     const navLinks = document.getElementById('navLinks');
@@ -2327,6 +2388,32 @@ function bindSortableTables() {
 }
 
 // ===== DASHBOARD =====
+/* ===== KPI-31/32/33 : âge à la labellisation et ancienneté (données corrigées) ===== */
+function ageStats(list) {
+  let ageSum = 0, ageN = 0, ancSum = 0, ancN = 0;
+  const buckets = [0, 0, 0, 0, 0, 0];
+  list.forEach(s => {
+    const ld = s.labelDate || '';
+    const ac = s.anneeCreation || '';
+    const m = ld.match(/^(\d{2})\/(\d{4})$/);
+    const ly = m ? parseInt(m[2]) : (/^\d{4}$/.test(ld) ? parseInt(ld) : null);
+    if (ly !== null && ac !== '' && !isNaN(parseInt(ac))) {
+      const age = ly - parseInt(ac);
+      ageSum += age; ageN++;
+      if (age <= 0) buckets[0]++;
+      else if (age === 1) buckets[1]++;
+      else if (age === 2) buckets[2]++;
+      else if (age === 3) buckets[3]++;
+      else if (age <= 5) buckets[4]++;
+      else buckets[5]++;
+    }
+    if (ac !== '' && !isNaN(parseInt(ac)) && parseInt(ac) <= 2026) {
+      ancSum += 2026 - parseInt(ac); ancN++;
+    }
+  });
+  return { avgAge: ageN ? (ageSum / ageN).toFixed(1) : '-', avgAnc: ancN ? (ancSum / ancN).toFixed(1) : '-', buckets };
+}
+
 function renderDashboard() {
   if (DATA.compare.active && DATA.compare.page === 'dashboard') return renderDashboardCompare();
   const d = DATA.dashboard;
@@ -2341,43 +2428,57 @@ function renderDashboard() {
   const totalSessions = yKpi.reduce((s, y) => s + y.nbSessions, 0);
 
   const startups = filteredStartups();
+  const astat = ageStats(startups);
 
-  // ===== KPI-31/32/33 : âge à la labellisation et ancienneté (données corrigées) =====
-  let ageSum = 0, ageN = 0, ancSum = 0, ancN = 0;
-  const ageBuckets = [0, 0, 0, 0, 0, 0];
-  startups.forEach(s => {
-    const ld = s.labelDate || '';
-    const ac = s.anneeCreation || '';
-    const m = ld.match(/^(\d{2})\/(\d{4})$/);
-    const ly = m ? parseInt(m[2]) : (/^\d{4}$/.test(ld) ? parseInt(ld) : null);
-    if (ly !== null && ac !== '' && !isNaN(parseInt(ac))) {
-      const age = ly - parseInt(ac);
-      ageSum += age; ageN++;
-      if (age <= 0) ageBuckets[0]++;
-      else if (age === 1) ageBuckets[1]++;
-      else if (age === 2) ageBuckets[2]++;
-      else if (age === 3) ageBuckets[3]++;
-      else if (age <= 5) ageBuckets[4]++;
-      else ageBuckets[5]++;
+  // ===== Tendance "vs année précédente" (référence : dernier millésime complet) =====
+  let refYear;
+  if (filtered) {
+    refYear = DATA.yearFilter;
+  } else {
+    const withData = allY.filter(r => r.labels > 0);
+    const full = allY.filter(r => r.nbSessions >= 6 && r.labels > 0).sort((a, b) => a.year - b.year);
+    refYear = (full.length ? full[full.length - 1] : withData[withData.length - 1] || allY[allY.length - 1]).year;
+  }
+  const prevYear = refYear - 1;
+  const yR = yearlyFor(refYear), yP = yearlyFor(prevYear);
+  const suR = startupsForYear(refYear).length, suP = startupsForYear(prevYear).length;
+  const ageR = ageStats(startupsForYear(refYear)), ageP = ageStats(startupsForYear(prevYear));
+  const trend = (cur, prev, pts) => {
+    if (cur == null || prev == null || (!pts && prev === 0)) return '<span class="kpi-trend flat">—</span>';
+    if (pts) {
+      const dd = cur - prev;
+      const cls = Math.abs(dd) < 0.05 ? 'flat' : (dd > 0 ? 'up' : 'down');
+      const arrow = Math.abs(dd) < 0.05 ? '＝' : (dd > 0 ? '▲' : '▼');
+      return `<span class="kpi-trend ${cls}" title="vs ${prevYear}">${arrow} ${dd > 0 ? '+' : ''}${dd.toFixed(1)} pts</span>`;
     }
-    if (ac !== '' && !isNaN(parseInt(ac)) && parseInt(ac) <= 2026) {
-      ancSum += 2026 - parseInt(ac); ancN++;
-    }
-  });
-  const avgAge = ageN ? (ageSum / ageN).toFixed(1) : '-';
-  const avgAnc = ancN ? (ancSum / ancN).toFixed(1) : '-';
+    const p = (cur - prev) / prev * 100;
+    const cls = Math.abs(p) < 0.05 ? 'flat' : (p > 0 ? 'up' : 'down');
+    const arrow = Math.abs(p) < 0.05 ? '＝' : (p > 0 ? '▲' : '▼');
+    return `<span class="kpi-trend ${cls}" title="vs ${prevYear}">${arrow} ${p > 0 ? '+' : ''}${p.toFixed(1)} %</span>`;
+  };
 
   const yLbl = filtered ? ' (' + DATA.yearFilter + ')' : '';
-  document.getElementById('kpiGrid').innerHTML = `
-    <div class="kpi-card blue" data-kpi="KPI-01" tabindex="0"><div class="label">Startups uniques${yLbl}</div><div class="value">${filtered ? startups.length : d.database.totalStartups}</div><div class="sub">${filtered ? 'labellisées en ' + DATA.yearFilter : 'dans la base'}</div></div>
-    <div class="kpi-card red" data-kpi="KPI-02" tabindex="0"><div class="label">Labels accordés${yLbl}</div><div class="value">${totalLabels}</div><div class="sub">sur ${totalSessions} sessions</div></div>
-    <div class="kpi-card green" data-kpi="KPI-03" tabindex="0"><div class="label">Candidatures${yLbl}</div><div class="value">${totalCand}</div><div class="sub">déposées</div></div>
-    <div class="kpi-card orange" data-kpi="KPI-04" tabindex="0"><div class="label">Pré-Labels${yLbl}</div><div class="value">${totalPre}</div><div class="sub">accordés</div></div>
-    <div class="kpi-card purple" data-kpi="KPI-05" tabindex="0"><div class="label">Taux moyen (KPI-05)</div><div class="value">${totalCand ? ((totalLabels / totalCand) * 100).toFixed(1) : '-'}%</div><div class="sub">${totalLabels} labels / ${totalCand} candidatures</div></div>
-    <div class="kpi-card blue" data-kpi="KPI-28" tabindex="0"><div class="label">Moyenne candidatures/session (KPI-28)</div><div class="value">${totalSessions ? (totalCand / totalSessions).toFixed(1) : '-'}</div><div class="sub">${totalCand} / ${totalSessions} sessions</div></div>
-    <div class="kpi-card green" data-kpi="KPI-31" tabindex="0"><div class="label">Âge moyen à la labellisation (KPI-31)</div><div class="value">${avgAge} an${avgAge === '1.0' ? '' : 's'}</div><div class="sub">labelDate − année de création</div></div>
-    <div class="kpi-card orange" data-kpi="KPI-33" tabindex="0"><div class="label">Ancienneté moyenne (KPI-33)</div><div class="value">${avgAnc} ans</div><div class="sub">2026 − année de création</div></div>
+  const kpiGrid = document.getElementById('kpiGrid');
+  kpiGrid.innerHTML = `
+    <div class="kpi-card blue" data-kpi="KPI-01" tabindex="0"><div class="kpi-head"><span class="kpi-icon">🏢</span>${trend(filtered ? startups.length : suR, suP)}</div><div class="label">Startups uniques${yLbl}</div><div class="value">${filtered ? startups.length : d.database.totalStartups}</div><div class="sub">${filtered ? 'labellisées en ' + DATA.yearFilter : 'dans la base'}</div></div>
+    <div class="kpi-card red" data-kpi="KPI-02" tabindex="0"><div class="kpi-head"><span class="kpi-icon">🏷️</span>${trend(yR.labels, yP.labels)}</div><div class="label">Labels accordés${yLbl}</div><div class="value">${totalLabels}</div><div class="sub">sur ${totalSessions} sessions</div></div>
+    <div class="kpi-card green" data-kpi="KPI-03" tabindex="0"><div class="kpi-head"><span class="kpi-icon">📨</span>${trend(yR.candidatures, yP.candidatures)}</div><div class="label">Candidatures${yLbl}</div><div class="value">${totalCand}</div><div class="sub">déposées</div></div>
+    <div class="kpi-card orange" data-kpi="KPI-04" tabindex="0"><div class="kpi-head"><span class="kpi-icon">🎟️</span>${trend(yR.preLabels, yP.preLabels)}</div><div class="label">Pré-Labels${yLbl}</div><div class="value">${totalPre}</div><div class="sub">accordés</div></div>
+    <div class="kpi-card purple" data-kpi="KPI-05" tabindex="0"><div class="kpi-head"><span class="kpi-icon">📊</span>${trend(yR.candidatures ? yR.labels / yR.candidatures * 100 : null, yP.candidatures ? yP.labels / yP.candidatures * 100 : null, true)}</div><div class="label">Taux moyen (KPI-05)</div><div class="value">${totalCand ? ((totalLabels / totalCand) * 100).toFixed(1) : '-'}%</div><div class="sub">${totalLabels} labels / ${totalCand} candidatures</div></div>
+    <div class="kpi-card blue" data-kpi="KPI-28" tabindex="0"><div class="kpi-head"><span class="kpi-icon">🎯</span>${trend(yR.nbSessions ? yR.candidatures / yR.nbSessions : null, yP.nbSessions ? yP.candidatures / yP.nbSessions : null)}</div><div class="label">Moyenne candidatures/session (KPI-28)</div><div class="value">${totalSessions ? (totalCand / totalSessions).toFixed(1) : '-'}</div><div class="sub">${totalCand} / ${totalSessions} sessions</div></div>
+    <div class="kpi-card green" data-kpi="KPI-31" tabindex="0"><div class="kpi-head"><span class="kpi-icon">⏳</span>${trend(parseFloat(ageR.avgAge), parseFloat(ageP.avgAge), true)}</div><div class="label">Âge moyen à la labellisation (KPI-31)</div><div class="value">${astat.avgAge} an${astat.avgAge === '1.0' ? '' : 's'}</div><div class="sub">labelDate − année de création</div></div>
+    <div class="kpi-card orange" data-kpi="KPI-33" tabindex="0"><div class="kpi-head"><span class="kpi-icon">🗓️</span>${trend(parseFloat(ageR.avgAnc), parseFloat(ageP.avgAnc), true)}</div><div class="label">Ancienneté moyenne (KPI-33)</div><div class="value">${astat.avgAnc} ans</div><div class="sub">2026 − année de création</div></div>
   `;
+  kpiGrid.removeAttribute('aria-busy');
+
+  // ===== Hero : chiffres clés synchronisés avec le filtre =====
+  const heroStats = document.getElementById('dashHeroStats');
+  if (heroStats) {
+    heroStats.innerHTML = [
+      ['Labels', totalLabels], ['Pré-Labels', totalPre], ['Candidatures', totalCand],
+      ['Taux moyen', totalCand ? ((totalLabels / totalCand) * 100).toFixed(1) + '%' : '-']
+    ].map(([l, v]) => `<div class="hero-stat"><span class="hero-stat-num">${v}</span><span class="hero-stat-lbl">${l}</span></div>`).join('');
+  }
 
   makeChart('chartYearly', 'bar', {
     labels: y.map(y => y.year),
@@ -2431,7 +2532,7 @@ function renderDashboard() {
   // ===== KPI-32 : histogramme de l'âge à la labellisation =====
   makeChart('chartAgeLabel', 'bar', {
     labels: ['0 an', '1 an', '2 ans', '3 ans', '4-5 ans', '6+ ans'],
-    datasets: [{ label: 'Startups', data: ageBuckets, backgroundColor: ['#0f3460', '#0891b2', '#16a34a', '#ca8a04', '#ea580c', '#e94560'] }]
+    datasets: [{ label: 'Startups', data: astat.buckets, backgroundColor: ['#0f3460', '#0891b2', '#16a34a', '#ca8a04', '#ea580c', '#e94560'] }]
   });
 }
 
