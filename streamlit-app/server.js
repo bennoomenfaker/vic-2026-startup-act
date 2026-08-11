@@ -38,6 +38,10 @@ app.get('/api/parcours', (req, res) => {
   res.json(JSON.parse(fs.readFileSync(path.join(DATA, 'parcours.json'))));
 });
 
+app.get('/api/startupblink', (req, res) => {
+  res.json(JSON.parse(fs.readFileSync(path.join(DATA, 'startupblink_tunisia.json'))));
+});
+
 app.get('/api/corrections-md', (req, res) => {
   const filepath = path.join(__dirname, '..', 'corrections.md');
   if (fs.existsSync(filepath)) {

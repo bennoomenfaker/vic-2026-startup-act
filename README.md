@@ -25,7 +25,9 @@ Le livrable est une **application web interactive** (dashboard) qui rend compte 
 - du taux d'acceptation et son évolution dans le temps ;
 - de la répartition sectorielle, géographique et par année de création ;
 - du **parcours prélabel → label** (conversions et retraits de labels) ;
-- des corrections de données opérées (scrapé officiel vs PDF officiels).
+- des corrections de données opérées (scrapé officiel vs PDF officiels) ;
+- d'une **veille comparative internationale** de l'écosystème tunisien
+  (page *StartupBlink*) à partir de sources externes vérifiées.
 
 ### 🔑 Chiffres clés (données vérifiées)
 
@@ -59,7 +61,9 @@ vic-2026-startup-act/
 │       ├── corrections.json          # 20 corrections avec raisons
 │       ├── database_startups.json    # Startups labellisées
 │       ├── annual_reports_parsed.json# Rapports annuels parsés
+│       ├── startupblink_tunisia.json # Veille StartupBlink (données EXTERNES vérifiées)
 │       └── session-pdfs/             # PDF officiels des 85 sessions
+├── public/                           # (PDFs externes en archivage local uniquement, non versionnés)
 ├── scripts/
 │   └── validate_data.py      # Validation d'intégrité des données (CI)
 ├── .github/workflows/
@@ -126,6 +130,63 @@ chaque pull request. Il valide :
 
 ---
 
+## 🌍 Sources de données (veille AE1)
+
+L'application s'appuie sur deux périmètres de données, **toujours affichés
+séparément** (jamais fusionnés) :
+
+### 1. Données officielles corrigées (Startup Act tunisien)
+
+| Source | Usage |
+|---|---|
+| [startup.gov.tn](https://startup.gov.tn) — `/sessions` | Scraping initial (85 sessions) |
+| PDF officiels de labellisation (85 sessions) | **Source de vérité** — re-extraction et correction des valeurs |
+| Rapports annuels du programme (2019–2021) | Contexte qualitatif |
+
+> ⚠️ Le tableau `/sessions` du site contient **20 valeurs erronées sur 85**
+> (labels/prélabels mal comptés). Toutes ont été corrigées depuis les PDF
+> officiels — voir la page **« Corrections »** de l'app.
+
+### 2. Données externes de veille — StartupBlink (page *StartupBlink*)
+
+Page de **veille comparative internationale** de l'écosystème tunisien, basée
+sur des données **externes** (StartupBlink — Global Startup Ecosystem Index
+2026) et **vérifiées le 11/08/2026** contre 5 sources croisées :
+
+- page web `startupblink.com/top-startups/tunisia` ;
+- API interne `/_next/data/.../startup-ecosystem/tunisia.json` (156 startups TN) ;
+- API fiche startup `/startup/gomycode.json` (SB Score 476, $9,7 M levés) ;
+- API `leaderboards?leaderboard_type=Cities|Countries&year=2026`
+  (Tunis #330, Sousse #1074 ; Tunisie #84 mondial, +36,6 %, #2 Afrique du Nord) ;
+- rapport officiel **Global Startup Ecosystem Index 2026** (p. 344–346),
+  consulté sur [lp.startupblink.com/report](https://lp.startupblink.com/report/)
+  (copie locale en archivage, **non versionnée**).
+
+Données : `public/data/startupblink_tunisia.json`. Chaque valeur affichée
+porte son **lien de source** (voir la carte *Sources* de la page).
+
+### 3. PDFs téléchargés et vérifiés (non intégrés, archivés localement)
+
+| Fichier | Contenu | Verdict |
+|---|---|---|
+| `startupblinkcorporate-report-2025.pdf` | Corporate Startup Activity Index 2025 | **0 mention Tunisie** → non exploitable |
+| `startupgenomegser-2026_9607.pdf` | Startup Genome GSER 2026 (368 p.) | **1 seule mention Tunisie** (liste) → non exploitable |
+| `startupblinkecosystemreport2026.pdf` | Global Startup Ecosystem Index 2026 (source du bloc StartupBlink) | Intégré via les **liens externes** ; PDF local non versionné |
+
+> Ces rapports sont conservés **en local** (dans `.gitignore`, non poussés sur
+> GitHub) pour archivage/documentation ; seules les données vérifiées et leurs
+> liens de source nourrissent l'application.
+
+### 4. Autres sources identifiées (extraction à venir)
+
+Le suivi des volumes annuels et de la levée de fonds tunisienne peut être
+complété à partir de : **Crunchbase** (filtre Tunisie), **Partech Africa
+Report**, **Africa: The Big Deal** (Base de données sur le financement des
+startups africaines), **Dealroom** et les rapports d'**ANAVA – Smart Capital**.
+*À documenter au fil de l'extraction.*
+
+---
+
 ## 👤 Auteur
 
 ### Faker BEN NOOMEN
@@ -169,6 +230,7 @@ Avec le soutien de :
 
 Projet **open source**, **gratuit**, à but **pédagogique et universitaire**.
 Toutes les données sont issues de sources publiques officielles
-([startup.gov.tn](https://startup.gov.tn)).
+([startup.gov.tn](https://startup.gov.tn), [StartupBlink](https://startupblink.com),
+Startup Genome) — chaque source est citée et liée dans l'application.
 
 © 2026 Faker BEN NOOMEN — Étudiant Master VIC (Veille & Intelligence Compétitive).

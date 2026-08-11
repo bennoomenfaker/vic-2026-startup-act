@@ -780,6 +780,47 @@
     .impact-banner p { font-size: .8rem; color: #b9c1d6; margin: 0; max-width: 640px; }
     .impact-banner .impact-year { font-size: .72rem; color: #e94560; font-weight: 800; letter-spacing: .06em; }
 
+    /* --- StartupBlink (source externe) --- */
+    .sb-banner {
+      background: linear-gradient(135deg, #0d2137 0%, #1a3a5c 100%);
+      border: 1px solid #2a5080; border-radius: var(--radius-lg); padding: 20px 24px; margin-bottom: 24px;
+      display: flex; flex-wrap: wrap; gap: 16px; align-items: flex-start; justify-content: space-between;
+    }
+    .sb-banner h2 { font-size: 1.05rem; color: #fff; margin: 0 0 6px; }
+    .sb-banner p { font-size: .82rem; color: #a8bdd4; margin: 0; max-width: 720px; line-height: 1.55; }
+    .sb-banner .sb-tag {
+      font-size: .68rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase;
+      color: #7dd3fc; background: rgba(125,211,252,.12); border: 1px solid rgba(125,211,252,.35);
+      padding: 6px 12px; border-radius: 999px; white-space: nowrap;
+    }
+    .sb-source-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; margin-bottom: 24px; }
+    .sb-source-card {
+      background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-md);
+      padding: 14px 16px; transition: box-shadow .2s, border-color .2s;
+    }
+    .sb-source-card:hover { box-shadow: var(--shadow-soft); border-color: #2a5080; }
+    .sb-source-card .sb-src-type {
+      font-size: .65rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em;
+      color: #2563eb; margin-bottom: 4px;
+    }
+    .sb-source-card h4 { font-size: .88rem; margin: 0 0 6px; color: var(--text-strong); }
+    .sb-source-card p { font-size: .78rem; color: var(--text-secondary); margin: 0 0 8px; line-height: 1.45; }
+    .sb-source-card a { font-size: .78rem; color: #e94560; word-break: break-all; }
+    .sb-compare-box {
+      background: #fff8e6; border: 1px solid #f0d78c; border-radius: var(--radius-md); padding: 16px 18px; margin-bottom: 24px;
+    }
+    .sb-compare-box h3 { font-size: .95rem; margin: 0 0 10px; color: #7c5e10; }
+    .sb-compare-box ul { margin: 0; padding-left: 1.2em; font-size: .82rem; color: #5c4a12; line-height: 1.55; }
+    .sb-compare-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 20px; }
+    @media (max-width: 700px) { .sb-compare-grid { grid-template-columns: 1fr; } }
+    .sb-official-card { background: #eefbf0; border: 1px solid #a7d7ab; border-radius: var(--radius-md); padding: 14px; }
+    .sb-external-card { background: #eef4fb; border: 1px solid #a8c4e8; border-radius: var(--radius-md); padding: 14px; }
+    .sb-official-card h4, .sb-external-card h4 { font-size: .85rem; margin: 0 0 8px; }
+    .sb-official-card h4 { color: #1b5e20; }
+    .sb-external-card h4 { color: #1e3a5f; }
+    .sb-match-yes { color: #16a34a; font-weight: 600; }
+    .sb-match-no { color: #888; }
+
     /* --- Responsive nouveaux composants --- */
     @media (max-width: 1080px) {
       .global-search input, .global-search input:focus { width: 150px; }
@@ -823,6 +864,7 @@
           <a href="#" data-page="parcours">Parcours Prélabel→Label</a>
           <a href="#" data-page="impact">🎯 Impact</a>
           <a href="#" data-page="insights">Insights</a>
+          <a href="#" data-page="startupblink">🌍 StartupBlink</a>
           <a href="#" data-page="kpis">📌 Catalogue KPI</a>
         </div>
       </div>
@@ -1160,6 +1202,126 @@
     <div class="chart-grid" style="margin-top:24px">
       <div class="chart-card"><h3>Évolution du taux d'acceptation</h3><div class="chart-wrapper"><canvas id="chartInsightTaux"></canvas></div></div>
       <div class="chart-card"><h3>Labels vs Retraits vs Conversions</h3><div class="chart-wrapper"><canvas id="chartInsightPdf"></canvas></div></div>
+    </div>
+  </section>
+
+  <!-- STARTUPBLINK (source externe — veille comparative) -->
+  <section id="page-startupblink">
+    <div class="page-header">
+      <h1>StartupBlink — Veille internationale</h1>
+      <p>Benchmark externe · Carte &amp; classement des écosystèmes · Source tierce (non officielle tunisienne)</p>
+    </div>
+
+    <div class="sb-banner">
+      <div>
+        <h2>⚠️ Données externes — distinctes des données officielles Startup Act</h2>
+        <p>
+          Cette page reprend des informations publiques consultées sur
+          <a href="https://www.startupblink.com/top-startups/tunisia" target="_blank" rel="noopener" style="color:#7dd3fc">StartupBlink.com</a>
+          (août 2026). Elles <strong>ne modifient pas</strong> et <strong>ne remplacent pas</strong> les données corrigées
+          extraites des PDF officiels des sessions (<a href="#" onclick="switchPage('corrections');return false" style="color:#7dd3fc">onglet Corrections</a>).
+          Les chiffres du tableau <code>/sessions</code> de startup.gov.tn restent documentés comme faux ;
+          la source de vérité officielle de ce projet reste les PDF de labellisation.
+        </p>
+      </div>
+      <span class="sb-tag">Source : StartupBlink · Veille AE1</span>
+    </div>
+
+    <div class="kpi-grid" id="sbKpiGrid"></div>
+
+    <div class="sb-compare-box" id="sbCompareBox"></div>
+
+    <div class="chart-card" style="margin-bottom:20px" id="sbVerificationBox">
+      <h3>🛡 Vérification croisée des données (11/08/2026)</h3>
+      <p style="font-size:.82rem;color:#666;margin:0 0 10px" id="sbVerificationMethod"></p>
+      <ul id="sbVerificationList" style="margin:0;padding-left:1.2em;font-size:.82rem;line-height:1.6;color:#444"></ul>
+    </div>
+
+    <div class="chart-grid" style="margin-bottom:20px">
+      <div class="chart-card">
+        <h3>📈 Jalons officiels StartupBlink — Tunisie</h3>
+        <div id="sbMilestones" style="font-size:.85rem;line-height:1.7;color:#444"></div>
+      </div>
+      <div class="chart-card">
+        <h3>🏙 Villes classées par StartupBlink (2026)</h3>
+        <table style="width:100%;font-size:.82rem"><thead><tr><th>Ville</th><th>Rang mondial</th><th>Part nat.</th><th>Croissance</th></tr></thead>
+        <tbody id="sbCitiesTable"></tbody></table>
+      </div>
+    </div>
+
+    <div class="chart-card" style="margin-bottom:20px" id="sbFundingBox">
+      <h3>💸 Financement des startups tunisiennes — 2025 (comparatif africain)</h3>
+      <p style="font-size:.82rem;color:#666;margin:0 0 10px" id="sbFundingMethod"></p>
+      <div class="kpi-grid" id="sbFundingKpis" style="margin-bottom:14px"></div>
+      <table style="width:100%;font-size:.82rem"><thead><tr>
+        <th>Pays</th><th>Rang Afrique</th><th>Levé 2025</th><th>Référentiel</th>
+      </tr></thead><tbody id="sbFundingTable"></tbody></table>
+      <p style="font-size:.75rem;color:#888;margin:10px 0 0" id="sbFundingNote"></p>
+    </div>
+
+    <div class="chart-card" style="margin-bottom:20px">
+      <h3>📚 Sources et méthodologie StartupBlink</h3>
+      <p style="font-size:.82rem;color:#666;margin:0 0 14px" id="sbMethodology"></p>
+      <div class="sb-source-grid" id="sbSourceGrid"></div>
+      <div style="margin-top:12px;display:flex;flex-wrap:wrap;gap:10px">
+        <a href="https://www.startupblink.com/startups" target="_blank" rel="noopener" class="btn btn-outline">🗺 Carte mondiale StartupBlink</a>
+        <a href="https://www.startupblink.com/top-startups/tunisia" target="_blank" rel="noopener" class="btn btn-outline">🇹🇳 Top startups Tunisie (site)</a>
+        <a href="https://lp.startupblink.com/report/" target="_blank" rel="noopener" class="btn btn-outline">📄 Global Ecosystem Index 2026</a>
+        <a href="https://lp.startupblink.com/report/" target="_blank" rel="noopener" class="btn btn-outline">📕 Rapport 2026 (site officiel — p. 344)</a>
+      </div>
+    </div>
+
+    <div class="tabs" id="sbTabs">
+      <button class="tab active" data-sbtab="best">Meilleures startups (SB Score)</button>
+      <button class="tab" data-sbtab="funded">Plus financées</button>
+      <button class="tab" data-sbtab="hiring">Plus d'embauches</button>
+      <button class="tab" data-sbtab="match">Croisement base officielle</button>
+    </div>
+
+    <div id="sb-tab-best">
+      <div class="search-bar">
+        <input type="text" id="sbSearch" placeholder="Rechercher une startup StartupBlink…" oninput="filterSbTable(this.value)">
+      </div>
+      <div style="overflow-x:auto">
+        <table id="sbTableWrap">
+          <thead><tr>
+            <th>Rang TN</th><th>Startup</th><th>SB Score</th><th>Secteur</th><th>Employés</th><th>Financement</th><th>Site</th><th>Dans base officielle ?</th>
+          </tr></thead>
+          <tbody id="sbTable"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div id="sb-tab-funded" style="display:none">
+      <div style="overflow-x:auto">
+        <table><thead><tr><th>Rang</th><th>Startup</th><th>Financement (StartupBlink)</th><th>Note</th></tr></thead>
+        <tbody id="sbFundedTable"></tbody></table>
+      </div>
+    </div>
+
+    <div id="sb-tab-hiring" style="display:none">
+      <div style="overflow-x:auto">
+        <table><thead><tr><th>Rang</th><th>Startup</th><th>Effectifs (fourchette)</th></tr></thead>
+        <tbody id="sbHiringTable"></tbody></table>
+      </div>
+    </div>
+
+    <div id="sb-tab-match" style="display:none">
+      <div class="summary-box" style="margin-bottom:16px" id="sbMatchSummary"></div>
+      <div class="chart-grid">
+        <div class="chart-card"><h3>Top StartupBlink présentes dans la base labellisée (startup.gov.tn)</h3><div class="chart-wrapper"><canvas id="chartSbMatch"></canvas></div></div>
+        <div class="chart-card"><h3>Périmètres comparés</h3><div id="sbScopeDetail" style="font-size:.85rem;line-height:1.6;color:#444"></div></div>
+      </div>
+    </div>
+
+    <div class="summary-box" style="margin-top:20px">
+      <strong>📌 Rappel méthodologique (projet AE1) :</strong>
+      les données officielles de ce dashboard proviennent des
+      <strong>PDF de sessions</strong> sur startup.gov.tn, ré-extraites et recalculées
+      (<code>parse_pdfs_v7.py</code>) — voir l'onglet
+      <a href="#" onclick="switchPage('corrections');return false" style="color:#e94560">Corrections</a>.
+      StartupBlink est une source de <strong>veille comparative internationale</strong> uniquement.
+      Dernière consultation StartupBlink : <span id="sbCollectedAt">—</span>.
     </div>
   </section>
 
@@ -1823,6 +1985,7 @@ const PAGE_META = {
   startups: 'Base de données · 922 startups',
   sectors: 'Analyse sectorielle',
   geography: 'Rapport annuel 2021',
+  startupblink: 'Veille externe · StartupBlink.com (août 2026)',
   reports: 'Rapports officiels',
   pdfs: '85 rapports de labellisation',
   'annual-pdfs': 'Rapports annuels complets',
@@ -1865,6 +2028,7 @@ function switchPage(page) {
   if (page === 'geography') setTimeout(() => { renderGeoCharts(); initMap(); renderChoropleth(); }, 400);
   if (page === 'reports') setTimeout(() => renderReportCharts(0), 200);
   if (page === 'insights') setTimeout(renderInsightCharts, 200);
+  if (page === 'startupblink') setTimeout(renderStartupBlinkCharts, 200);
   if (page === 'impact') setTimeout(renderImpactCharts, 200);
   if (page === 'kpis') renderKpiCatalogue();
   document.getElementById('navLinks')?.classList.remove('open');
@@ -1874,7 +2038,7 @@ function switchPage(page) {
 
 async function init() {
   try {
-    const [dashboard, sessions, startups, reports, analysis, corrections, parcours, axes] = await Promise.all([
+    const [dashboard, sessions, startups, reports, analysis, corrections, parcours, axes, startupblink] = await Promise.all([
       fetch('/api/dashboard').then(r => r.json()),
       fetch('/api/sessions').then(r => r.json()),
       fetch('/api/startups').then(r => r.json()),
@@ -1882,9 +2046,10 @@ async function init() {
       fetch('/api/analysis').then(r => r.json()).catch(() => ({sessions:{taux_acceptation_moyen:44.3}})),
       fetch('/api/corrections').then(r => r.json()).catch(() => null),
       fetch('/api/parcours').then(r => r.json()).catch(() => null),
-      fetch('/api/axes').then(r => r.json()).catch(() => ({axes: []}))
+      fetch('/api/axes').then(r => r.json()).catch(() => ({axes: []})),
+      fetch('/api/startupblink').then(r => r.json()).catch(() => null)
     ]);
-    Object.assign(DATA, { dashboard, sessions, startups, reports, analysis, corrections, parcours, axes: axes.axes || [] });
+    Object.assign(DATA, { dashboard, sessions, startups, reports, analysis, corrections, parcours, axes: axes.axes || [], startupblink });
 
     // Années disponibles pour le filtre dynamique (union des années de sessions, startups et annuel)
     DATA.availableYears = Array.from(new Set([
@@ -1942,6 +2107,7 @@ async function init() {
     renderFiche();
     renderLivrables();
     renderInsights();
+    renderStartupBlink();
     renderKpiCatalogue();
     bindKpiModals();
     renderChoropleth();
@@ -3165,6 +3331,164 @@ function wrapMdTables(root) {
     t.parentNode.insertBefore(w, t);
     w.appendChild(t);
   });
+}
+
+// ===== STARTUPBLINK (source externe) =====
+function normStartupName(s) {
+  return (s || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+}
+
+function findOfficialMatch(sbName) {
+  const n = normStartupName(sbName);
+  if (!n || n.length < 3 || !DATA.startups) return null;
+  let best = null, bestMin = 0;
+  for (const s of DATA.startups) {
+    const on = normStartupName(s.nom);
+    if (!on || on.length < 3) continue;
+    if (on === n) return s;
+    const minLen = Math.min(on.length, n.length);
+    if (minLen < 4) continue;
+    if ((on.startsWith(n) || n.startsWith(on)) && minLen > bestMin) {
+      bestMin = minLen;
+      best = s;
+    }
+  }
+  return best;
+}
+
+function renderStartupBlink() {
+  const sb = DATA.startupblink;
+  if (!sb) return;
+
+  const eco = sb.ecosystem || {};
+  const cmp = sb.comparisonWithOfficial || {};
+
+  document.getElementById('sbKpiGrid').innerHTML = `
+    <div class="kpi-card blue"><div class="label">Rang mondial (TN)</div><div class="value">#${eco.globalRank || '—'}</div><div class="sub">${eco.prevGlobalRank ? '(n°' + eco.prevGlobalRank + ' en 2025, −2)' : ''} StartupBlink · ${sb.meta?.dataPeriod || ''}</div></div>
+    <div class="kpi-card green"><div class="label">Rang Afrique du Nord</div><div class="value">#${eco.regionalRankNorthernAfrica || '—'}</div><div class="sub">Derrière l'Égypte #65 · Maroc #90</div></div>
+    <div class="kpi-card red"><div class="label">Croissance écosystème</div><div class="value">+${eco.growth || '—'}%</div><div class="sub">La plus forte d'Afrique du Nord</div></div>
+    <div class="kpi-card orange"><div class="label">Tunis (ville)</div><div class="value">#${eco.topCity?.globalRank || '—'}</div><div class="sub">Mondial · ${eco.topCity?.nationalShare || '—'} part nationale</div></div>
+    <div class="kpi-card purple"><div class="label">Valeur écosystème</div><div class="value">$${(eco.ecosystemValueUsd / 1e9).toFixed(2)} Md</div><div class="sub">StartupBlink · API vérifiée</div></div>
+    <div class="kpi-card blue"><div class="label">Base officielle (projet)</div><div class="value">${(DATA.startups || []).length || 922}</div><div class="sub">startup.gov.tn · PDF corrigés</div></div>`;
+
+  document.getElementById('sbCompareBox').innerHTML = `
+    <h3>⚖️ Deux périmètres différents — ne pas confondre</h3>
+    <div class="sb-compare-grid">
+      <div class="sb-official-card">
+        <h4>✅ Données officielles (ce projet — inchangées)</h4>
+        <p style="font-size:.82rem;margin:0 0 6px"><strong>${(DATA.startups || []).length || 922}</strong> startups labellisées · <strong>${cmp.officialSessions || 85}</strong> sessions</p>
+        <p style="font-size:.78rem;margin:0;color:#2e7d32">Source : PDF sessions startup.gov.tn, recalculés · voir <a href="#" onclick="switchPage('corrections');return false">Corrections</a></p>
+      </div>
+      <div class="sb-external-card">
+        <h4>🌍 StartupBlink (veille externe)</h4>
+        <p style="font-size:.82rem;margin:0 0 6px"><strong>${cmp.startupBlinkListed || 156}</strong> startups classées · score investissement / emploi / trafic</p>
+        <p style="font-size:.78rem;margin:0;color:#1e3a5f">Source : <a href="${sb.meta?.pageUrl || '#'}" target="_blank" rel="noopener">startupblink.com/top-startups/tunisia</a></p>
+      </div>
+    </div>
+    <ul>${(cmp.differences || []).map(d => `<li>${escapeHtml(d)}</li>`).join('')}</ul>`;
+
+  document.getElementById('sbMethodology').textContent = sb.meta?.methodology || '';
+  document.getElementById('sbCollectedAt').textContent = sb.meta?.collectedAt || '—';
+
+  const verif = sb.verification || {};
+  document.getElementById('sbVerificationMethod').textContent = verif.method || '';
+  document.getElementById('sbVerificationList').innerHTML = (verif.confirmed || []).map(c => `<li>${escapeHtml(c)}</li>`).join('');
+
+  document.getElementById('sbMilestones').innerHTML = (sb.reportMilestones || []).map(m =>
+    `<p style="margin:0 0 8px"><strong style="color:#0f3460">${escapeHtml(m.year)}</strong> — ${escapeHtml(m.milestone)}</p>`
+  ).join('') || '<p>Non renseigné</p>';
+
+  const cities = [eco.topCity, eco.secondCity].filter(Boolean).map(c => `
+    <tr><td><strong>${escapeHtml(c.name)}</strong></td><td>#${c.globalRank}${c.prevGlobalRank ? ` (${c.prevGlobalRank} en 2025)` : ''}</td>
+    <td>${c.nationalShare || '—'}</td><td>${c.growth != null ? '+' + c.growth + ' %' : '—'}</td></tr>`).join('');
+  document.getElementById('sbCitiesTable').innerHTML = cities;
+
+  const fund = sb.funding2025 || {};
+  if (fund.countries && fund.countries.length) {
+    document.getElementById('sbFundingKpis').innerHTML = `
+      <div class="kpi-card blue"><div class="label">Tunisie — levers 2025</div><div class="value">${fund.tunisiaAmount || '—'}</div><div class="sub">${fund.year || '2025'} · ${escapeHtml(fund.provider || '')}</div></div>
+      <div class="kpi-card green"><div class="label">Rang Afrique</div><div class="value">#${fund.tunisiaRank || '—'}</div><div class="sub">Sur ~30 pays suivis</div></div>
+      <div class="kpi-card orange"><div class="label">Startups financées ≥ $100k</div><div class="value">#${fund.tunisiaVenturesRank || '—'}</div><div class="sub">${escapeHtml(fund.provider || '')}</div></div>
+      <div class="kpi-card purple"><div class="label">Investisseurs actifs (équité)</div><div class="value">${fund.equityInvestors || '—'}</div><div class="sub">Partech 2025 · +24 % YoY</div></div>`;
+    document.getElementById('sbFundingTable').innerHTML = fund.countries.map(c => `
+      <tr><td><strong>${escapeHtml(c.name)}</strong></td><td>#${c.rank}</td><td>${escapeHtml(c.amount)}</td><td>${escapeHtml(c.provider || '—')}</td></tr>`).join('');
+    document.getElementById('sbFundingMethod').textContent = fund.methodology || '';
+    document.getElementById('sbFundingNote').innerHTML = (fund.links || []).map(l =>
+      `<a href="${escapeHtml(l.url)}" target="_blank" rel="noopener">${escapeHtml(l.label)}</a>`).join(' · ');
+  } else {
+    document.getElementById('sbFundingBox').style.display = 'none';
+  }
+
+  const typeLabels = { web: 'Site web', report: 'Rapport', api: 'API interne', partner: 'Partenaire données' };
+  document.getElementById('sbSourceGrid').innerHTML = (sb.sources || []).map(src => `
+    <div class="sb-source-card">
+      <div class="sb-src-type">${typeLabels[src.type] || src.type}</div>
+      <h4>${escapeHtml(src.name)}</h4>
+      <p>${escapeHtml(src.description)}</p>
+      <a href="${escapeHtml(src.url)}" target="_blank" rel="noopener">${escapeHtml(src.url)}</a>
+    </div>`).join('');
+
+  const best = sb.rankings?.bestStartups || [];
+  document.getElementById('sbTable').innerHTML = best.map(row => {
+    const match = findOfficialMatch(row.name);
+    return `<tr>
+      <td>${row.rank}</td>
+      <td><strong>${escapeHtml(row.name)}</strong></td>
+      <td>${row.sbScore ?? '—'}</td>
+      <td>${escapeHtml(row.sector || '—')}</td>
+      <td>${escapeHtml(row.employees || '—')}</td>
+      <td>${escapeHtml(row.funding || '—')}</td>
+      <td>${row.website ? `<a href="${escapeHtml(row.website)}" target="_blank" rel="noopener">↗</a>` : '—'}</td>
+      <td class="${match ? 'sb-match-yes' : 'sb-match-no'}">${match ? '✓ ' + escapeHtml(match.nom) : '—'}</td>
+    </tr>`;
+  }).join('');
+
+  document.getElementById('sbFundedTable').innerHTML = (sb.rankings?.mostFunded || []).map(r => `
+    <tr><td>${r.rank}</td><td><strong>${escapeHtml(r.name)}</strong></td><td>${escapeHtml(r.funding)}</td><td>${escapeHtml(r.note || '')}</td></tr>`).join('');
+
+  document.getElementById('sbHiringTable').innerHTML = (sb.rankings?.topHiring || []).map(r => `
+    <tr><td>${r.rank}</td><td><strong>${escapeHtml(r.name)}</strong></td><td>${escapeHtml(r.employees)}</td></tr>`).join('');
+
+  const matched = best.filter(r => findOfficialMatch(r.name));
+  const unmatched = best.filter(r => !findOfficialMatch(r.name));
+  document.getElementById('sbMatchSummary').innerHTML = `
+    <strong>Croisement top ${best.length} StartupBlink × base officielle (${(DATA.startups || []).length} startups) :</strong><br>
+    <span class="sb-match-yes">${matched.length} présentes</span> dans la base labellisée ·
+    <span class="sb-match-no">${unmatched.length} absentes ou nom non reconnu</span> (matching approximatif sur le nom).`;
+
+  document.getElementById('sbScopeDetail').innerHTML = `
+    <p><strong>Officiel (projet AE1)</strong> — ${escapeHtml(cmp.officialSource || 'startup.gov.tn')} : exhaustif pour les labellisations Startup Act, corrigé depuis les PDF.</p>
+    <p><strong>StartupBlink</strong> — ${escapeHtml(sb.meta?.providerUrl || '')} : classement sélectif, critères investissement / emploi / trafic web (Crunchbase, Semrush).</p>
+    <p style="margin-top:10px;font-size:.8rem;color:#666">${escapeHtml(sb.meta?.disclaimer || '')}</p>`;
+
+  document.querySelectorAll('#sbTabs .tab').forEach(tab => {
+    tab.onclick = () => {
+      document.querySelectorAll('#sbTabs .tab').forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      ['best', 'funded', 'hiring', 'match'].forEach(id => {
+        document.getElementById('sb-tab-' + id).style.display = tab.dataset.sbtab === id ? '' : 'none';
+      });
+      if (tab.dataset.sbtab === 'match') renderStartupBlinkCharts();
+    };
+  });
+}
+
+function filterSbTable(q) {
+  const rows = document.querySelectorAll('#sbTable tr');
+  const lq = (q || '').toLowerCase();
+  rows.forEach(r => { r.style.display = r.textContent.toLowerCase().includes(lq) ? '' : 'none'; });
+}
+
+function renderStartupBlinkCharts() {
+  const sb = DATA.startupblink;
+  if (!sb) return;
+  const best = sb.rankings?.bestStartups || [];
+  const matched = best.filter(r => findOfficialMatch(r.name));
+  const unmatched = best.length - matched.length;
+  makeChart('chartSbMatch', 'doughnut', {
+    labels: [`Dans base officielle (${matched.length})`, `Non trouvées (${unmatched})`],
+    datasets: [{ data: [matched.length, unmatched], backgroundColor: ['#16a34a', '#cbd5e1'] }]
+  }, { plugins: { legend: { position: 'bottom' } } });
 }
 
 // ===== INSIGHTS =====
