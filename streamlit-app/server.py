@@ -89,8 +89,9 @@ class Handler(http.server.SimpleHTTPRequestHandler):
 
     def _send_json(self, filepath=None, status=200, data=None):
         self.send_response(status)
-        self.send_header('Content-Type', 'application/json')
+        self.send_header('Content-Type', 'application/json; charset=utf-8')
         self.send_header('Access-Control-Allow-Origin', '*')
+        self.send_header('Cache-Control', 'public, max-age=3600')  # 1h cache
         self.end_headers()
         if data is not None:
             self.wfile.write(json.dumps(data, ensure_ascii=False).encode())
@@ -119,8 +120,11 @@ class Handler(http.server.SimpleHTTPRequestHandler):
             '.woff2': 'font/woff2', '.woff': 'font/woff', '.ttf': 'font/ttf',
             '.mp4': 'video/mp4', '.webm': 'video/webm'
         }
+        # Cache long pour assets statiques immuables, court pour HTML
+        cache_ttl = 'no-cache' if ext == '.html' else ('public, max-age=86400' if ext in ('.png', '.jpg', '.jpeg', '.webp', '.svg', '.woff2', '.woff', '.ttf') else 'public, max-age=3600')
         self.send_response(200)
         self.send_header('Content-Type', mime.get(ext, 'application/octet-stream'))
+        self.send_header('Cache-Control', cache_ttl)
         self.end_headers()
         if ext in ('.png', '.jpg', '.jpeg', '.gif', '.webp', '.ico', '.pdf', '.woff2', '.woff', '.ttf', '.mp4', '.webm'):
             with open(filepath, 'rb') as f:
