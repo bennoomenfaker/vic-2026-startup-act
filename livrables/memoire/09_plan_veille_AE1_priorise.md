@@ -28,6 +28,22 @@
 
 ---
 
+## 🌍 Veille comparative internationale — source externe (page « StartupBlink »)
+
+> **Périmètre séparé** : la page `startupblink` de l'app est une **veille comparative** basée sur des données **externes** (StartupBlink — Global Startup Ecosystem Index 2026), jamais à confondre avec les données officielles corrigées du Startup Act (tableau ci-dessus). L'app affiche les deux périmètres séparément avec un bandeau de non-confusion.
+
+**Données intégrées (vérifiées le 11/08/2026 contre 5 sources)** :
+- Tunisie **#84 mondial**, +36,6 %, **#2 Afrique du Nord** (Égypte #65, Maroc #90) ;
+- Villes classées : **Tunis #330**, **Sousse #1074** ;
+- **156 startups** listées ; **GoMyCode #1** (SB Score 476, $9,7 M levés) ;
+- Sources détaillées : page web `top-startups/tunisia`, API internes `/_next/data` (écosystème, fiche startup, leaderboards), rapport PDF officiel 2026 (p. 344–346).
+
+**Fichiers** : `public/data/startupblink_tunisia.json` (copie locale archivée, non versionnée : `public/startupblinkecosystemreport2026.pdf`).
+**Non intégrés (vérifiés, sans données TN)** : `startupblinkcorporate-report-2025.pdf`, `startupgenomegser-2026_9607.pdf`.
+**À suivre** : Crunchbase (filtre Tunisie), Partech Africa Report, Africa: The Big Deal, Dealroom, rapports ANAVA – Smart Capital.
+
+---
+
 | Axe / sous-axe | Hypothèse | Question de veille | Informations recherchées | Sources envisagées | Méthodes | Outils | Remarque | Priorité |
 |---|---|---|---|---|---|---|---|---|
 | **Axe 1 — Dynamique du dispositif Startup Act** | Le dispositif Startup Act a connu une progression depuis son lancement, mais son évolution n'est probablement pas régulière selon les années et les sessions. | Comment le dispositif Startup Act a-t-il évolué quantitativement entre 2018 et 2026 ? | Candidatures ; sessions ; pré-labels ; labels ; conversions ; taux de labellisation ; retraits ; évolution annuelle et par session. | Startup Tunisia ; Smart Capital ; résultats officiels des sessions ; rapports annuels ; décisions de labellisation ; données institutionnelles. | Collecte documentaire exhaustive ; reconstitution chronologique ; analyse statistique descriptive ; analyse de séries temporelles. | **App interactive (Python/Streamlit)** ; Python (pandas) ; Excel ; Google Sheets ; Power BI. |  |  |

@@ -1,0 +1,226 @@
+{
+  "meta": {
+    "provider": "StartupBlink",
+    "providerUrl": "https://www.startupblink.com",
+    "pageUrl": "https://www.startupblink.com/top-startups/tunisia",
+    "mapUrl": "https://www.startupblink.com/startups",
+    "reportUrl": "https://lp.startupblink.com/report/",
+    "collectedAt": "2026-08-11",
+    "dataPeriod": "August 2026",
+    "license": "Données publiques consultées sur le site StartupBlink — usage informatif / veille. Non officielles tunisiennes.",
+    "methodology": "Classement algorithmique (SB Score) basé sur : investissements totaux, effectifs, trafic web trimestriel. Données enrichies via Crunchbase et Semrush ; mises à jour communautaires.",
+    "disclaimer": "Cette page présente des données EXTERNES de StartupBlink. Elles ne remplacent pas les données officielles du Startup Act tunisien (PDF sessions, base startup.gov.tn) ni les corrections documentées dans l'onglet « Corrections » de cette application."
+  },
+  "sources": [
+    {
+      "name": "StartupBlink — Top startups Tunisie",
+      "url": "https://www.startupblink.com/top-startups/tunisia",
+      "type": "web",
+      "description": "Liste et classement des startups tunisiennes (156 entrées, août 2026)."
+    },
+    {
+      "name": "StartupBlink — Carte mondiale",
+      "url": "https://www.startupblink.com/startups",
+      "type": "web",
+      "description": "Carte interactive globale des écosystèmes et startups."
+    },
+    {
+      "name": "StartupBlink — Top startups Tunis",
+      "url": "https://www.startupblink.com/top-startups/tunis-tn",
+      "type": "web",
+      "description": "99 startups classées pour la ville de Tunis (août 2026)."
+    },
+    {
+      "name": "Global Startup Ecosystem Index 2026",
+      "url": "https://lp.startupblink.com/report/",
+      "type": "report",
+      "description": "Rapport annuel de classement des écosystèmes (1 500+ villes, 120 pays)."
+    },
+    {
+      "name": "Rapport officiel — page Tunisie (p. 344–346)",
+      "url": "https://lp.startupblink.com/report/",
+      "type": "report",
+      "description": "Global Startup Ecosystem Index 2026 (457 p.) — consulté sur lp.startupblink.com/report/, page Tunisie p. 344–346. Copie locale archivée (non versionnée) : public/startupblinkecosystemreport2026.pdf."
+    },
+    {
+      "name": "API interne — Écosystème Tunisie",
+      "url": "https://www.startupblink.com/_next/data/BMovsvo0KtSC_ZSn25yam/startup-ecosystem/tunisia.json?startup-ecosystem=tunisia",
+      "type": "api",
+      "description": "Endpoint Next.js JSON (pageProps.data) : indices (quantity 75 / quality 87 / business 85), traction 80, rang 84, valeur écosystème US$ 2,75 Md, top 3 startups (GoMyCode 475.47, Expensya 474.33, Enda Tamweel 441.20). Vérifié le 11/08/2026."
+    },
+    {
+      "name": "API — Fiche startup (ex. GoMyCode)",
+      "url": "https://www.startupblink.com/_next/data/BMovsvo0KtSC_ZSn25yam/startup/gomycode.json?startup-entity-page=gomycode",
+      "type": "api",
+      "description": "Endpoint Next.js JSON d'une startup : total_funding 9 650 000 USD, sb_score 475.468, employee_range [251-500], lat/lng Tunis (36.8065, 10.1815), lien Crunchbase. Vérifié le 11/08/2026."
+    },
+    {
+      "name": "API — Leaderboard pays & villes 2026",
+      "url": "https://www.startupblink.com/api/leaderboards?leaderboard_type=Cities&industry=leaderboard&year=2026",
+      "type": "api",
+      "description": "Endpoint JSON public : Tunis #330 mondial (share national 91,26 %, croissance +22,8 %), Sousse #1074 (share 8,74 %, +96,4 %). Le pays Tunisia = #84 (leaderboard_type=Countries). Vérifié le 11/08/2026."
+    },
+    {
+      "name": "Crunchbase (partenaire données)",
+      "url": "https://www.crunchbase.com/",
+      "type": "partner",
+      "description": "Investissements et profils entreprises — source tierce utilisée par StartupBlink."
+    },
+    {
+      "name": "Semrush (partenaire données)",
+      "url": "https://www.semrush.com/",
+      "type": "partner",
+      "description": "Trafic web et visibilité en ligne — source tierce utilisée par StartupBlink."
+    }
+  ],
+  "ecosystem": {
+    "country": "Tunisia",
+    "population": "12.3 million (12 277 109 — API pays)",
+    "globalRank": 84,
+    "prevGlobalRank": 82,
+    "rankChange": -2,
+    "regionalRankNorthernAfrica": 2,
+    "growth": 36.6,
+    "africaRank": 6,
+    "totalStartupsListed": 156,
+    "quantityIndex": 75,
+    "qualityIndex": 87,
+    "businessIndex": 85,
+    "tractionRank": 80,
+    "countriesRanked": 120,
+    "ecosystemValueUsd": 2752543223,
+    "averageFundingUsd": 3873223,
+    "exits": 1,
+    "aboveCountry": "Egypt (#65)",
+    "belowCountry": "Morocco (#90)",
+    "neighborAbove": "Lebanon (#83)",
+    "neighborBelow": "Mauritius (#85)",
+    "topCity": {
+      "name": "Tunis",
+      "globalRank": 330,
+      "prevGlobalRank": 327,
+      "nationalRank": 1,
+      "startupsListed": 99,
+      "nationalShare": "91.26%",
+      "growth": 22.8,
+      "population": 2643695
+    },
+    "secondCity": {
+      "name": "Sousse",
+      "globalRank": 1074,
+      "prevGlobalRank": 1233,
+      "nationalRank": 2,
+      "nationalShare": "8.74%",
+      "growth": 96.4,
+      "population": 164123
+    },
+    "scoringCriteria": [
+      "Investissements totaux levés",
+      "Nombre d'employés (fourchettes)",
+      "Trafic web mensuel (trimestriel)",
+      "SB Score composite"
+    ]
+  },
+  "reportMilestones": [
+    {
+      "year": "2018",
+      "milestone": "La Banque mondiale approuve un prêt de 75 M USD pour capitaliser le Fonds de Fonds ANAVA, ancrant l'écosystème VC du Startup Tunisia."
+    },
+    {
+      "year": "2019",
+      "milestone": "BioNTech acquiert la deep-tech InstaDeep pour ~682 M USD, la plus grande acquisition tech de l'histoire africaine."
+    },
+    {
+      "year": "2023",
+      "milestone": "Novation City et NVIDIA lancent le premier AI Innovation Hub de Tunisie à Sousse (l'un des premiers systèmes NVIDIA DGX d'Afrique)."
+    },
+    {
+      "year": "2024",
+      "milestone": "ANAVA soutient le New Era Fund I d'UGFS-VC, premier fonds VC tunisien ciblant l'IA, la biotech et la greentech en Série A."
+    },
+    {
+      "year": "2025",
+      "milestone": "La Tunisie adopte le premier Startup Act d'Afrique : exonérations fiscales, salaires de fondateurs financés par l'État, comptes en devises étrangères."
+    }
+  ],
+  "verification": {
+    "verifiedOn": "2026-08-11",
+    "method": "Croisement de 5 sources indépendantes : page web /top-startups/tunisia, API écosystème (Next.js _next/data), API fiche startup, API leaderboards Cities+Countries 2026, et rapport officiel Global Startup Ecosystem Index 2026 (PDF p. 344–346).",
+    "confirmed": [
+      "Tunisia = #84 mondial, -2 (82 en 2025), +36,6 % croissance, #2 Afrique du Nord derrière l'Égypte #65, devant le Maroc #90 — identique dans l'API Countries, l'API écosystème et le rapport PDF.",
+      "Tunis = #330 mondial (327 en 2025, -3), 91,26 % de part nationale, +22,8 % — identique dans l'API Cities et le rapport PDF.",
+      "Sousse = #1074 mondial, #2 national, 8,74 % de part, +96,4 % — API Cities (non présent dans la version web gratuite).",
+      "GoMyCode : SB Score 476 (475.468 exact), financement $9.7M (9 650 000 USD exact), 251–500 employés — identique page web, API fiche startup et rapport.",
+      "156 startups listées pour la Tunisie (API écosystème + page web).",
+      "Population : 12,3 M selon API écosystème vs 12,5 M affiché sur la page web (source libre du site)."
+    ]
+  },
+  "rankings": {
+    "notableStartupsApi": [
+      { "title": "GoMyCode", "sbScore": "475.468", "id": 273194, "crunchbase": "https://www.crunchbase.com/organization/gomycode", "url": "https://gomycode.co/", "source": "API écosystème / fiche startup" },
+      { "title": "Expensya", "sbScore": "474.332", "id": 230817, "url": "https://www.expensya.com/", "source": "API écosystème" },
+      { "title": "Enda Tamweel", "sbScore": "441.200", "id": 305582, "url": "http://www.endatamweel.tn/", "source": "API écosystème" }
+    ],
+    "bestStartups": [
+      { "rank": 1, "name": "GoMyCode", "sbScore": 476, "sector": "Edtech", "website": "https://gomycode.co", "employees": "251–500", "funding": "$9.7M" },
+      { "rank": 2, "name": "Expensya", "sbScore": 475, "sector": "Fintech / SaaS", "website": "https://www.expensya.com", "employees": "101–250", "funding": "$25.6M" },
+      { "rank": 3, "name": "Enda Tamweel", "sbScore": 442, "sector": "Microfinance", "website": "https://www.endatamweel.tn", "employees": "1 001–5 000", "funding": "$14.6M" },
+      { "rank": 4, "name": "ijeni", "sbScore": 441, "sector": "Marketplace / Services", "website": "https://ijeni.tn", "employees": "501–1 000", "funding": "$437.4M" },
+      { "rank": 5, "name": "Med.Tn", "sbScore": 419, "sector": "HealthTech", "website": "https://www.med.tn", "employees": "11–50", "funding": "$660K" },
+      { "rank": 6, "name": "ilboursa", "sbScore": 408, "sector": "Media / Finance", "website": "https://www.ilboursa.com", "employees": "1–10", "funding": "$400K" },
+      { "rank": 7, "name": "IntiGo", "sbScore": 355, "sector": "Mobility", "website": "https://intigo.tn", "employees": "11–50", "funding": "$1.3M" },
+      { "rank": 8, "name": "Drest", "sbScore": 353, "sector": "E-commerce", "website": "https://www.drest.tn", "employees": "11–50", "funding": "$336K" },
+      { "rank": 9, "name": "Dabchy", "sbScore": 332, "sector": "E-commerce / Fashion", "website": "https://www.dabchy.com", "employees": "11–50", "funding": "$363.5K" },
+      { "rank": 10, "name": "Swiver", "sbScore": 320, "sector": "SaaS / ERP", "website": "https://swiver.io", "employees": "11–50", "funding": "$167K" },
+      { "rank": 11, "name": "Avidea", "sbScore": 304, "sector": "HR Tech / Manufacturing", "website": "https://www.avidea.tn", "employees": "11–50", "funding": "$6M" }
+    ],
+    "mostFunded": [
+      { "rank": 1, "name": "ijeni", "funding": "$437.4M", "note": "Levée la plus élevée selon StartupBlink" },
+      { "rank": 2, "name": "Expensya", "funding": "$25.6M" },
+      { "rank": 3, "name": "Enda Tamweel", "funding": "$14.6M", "note": "Top 3 cumul > 478 M USD" }
+    ],
+    "topHiring": [
+      { "rank": 1, "name": "Enda Tamweel", "employees": "1 001–5 000" },
+      { "rank": 2, "name": "Kinko", "employees": "1 001–5 000" },
+      { "rank": 3, "name": "ijeni", "employees": "501–1 000" },
+      { "rank": 4, "name": "GoMyCode", "employees": "251–500" }
+    ]
+  },
+  "comparisonWithOfficial": {
+    "note": "Les deux jeux de données ne mesurent pas la même chose.",
+    "officialSource": "startup.gov.tn — PDF sessions + base labellisées (corrigées dans cette app)",
+    "officialLabeledStartups": 922,
+    "officialSessions": 85,
+    "startupBlinkListed": 156,
+    "differences": [
+      "Startup Act (officiel) : toutes les startups ayant obtenu un label ou pré-label via le dispositif public (2019–2026).",
+      "StartupBlink : sous-ensemble « top » classé par score (investissement, emploi, trafic) — pas exhaustif.",
+      "Une startup peut être labellisée Startup Act sans figurer dans le top StartupBlink, et inversement.",
+      "Les chiffres de financement StartupBlink proviennent de Crunchbase, pas des autorités tunisiennes."
+    ]
+  },
+  "funding2025": {
+    "provider": "Africa: The Big Deal",
+    "year": "2025",
+    "collectedAt": "2026-08-11",
+    "tunisiaAmount": "37 M USD",
+    "tunisiaRank": 9,
+    "tunisiaVenturesRank": 7,
+    "equityInvestors": 31,
+    "equityInvestorsYoY": "+24 %",
+    "methodology": "Financement des startups africaines (dettes et fonds propres ≥ 100 k USD), base de données Africa: The Big Deal (Max Cuvellier Giacomelli). Partech Africa Report 2025 pour les investisseurs. Données de veille EXTERNES — indépendantes du Startup Act.",
+    "countries": [
+      { "name": "Sénégal", "rank": 5, "amount": "157 M USD", "provider": "Africa: The Big Deal" },
+      { "name": "Bénin", "rank": 6, "amount": "100 M USD", "provider": "Africa: The Big Deal" },
+      { "name": "Maroc", "rank": 7, "amount": "58 M USD", "provider": "Africa: The Big Deal" },
+      { "name": "Ghana", "rank": 8, "amount": "56 M USD", "provider": "Africa: The Big Deal" },
+      { "name": "Tunisie", "rank": 9, "amount": "37 M USD", "provider": "Africa: The Big Deal" },
+      { "name": "Togo", "rank": 10, "amount": "31 M USD", "provider": "Africa: The Big Deal" }
+    ],
+    "links": [
+      { "label": "2025 IN REVIEW — Africa: The Big Deal (13/01/2026)", "url": "https://thebigdeal.substack.com/p/2025ir2" },
+      { "label": "Partech Africa Report 2025", "url": "https://partechpartners.com/africa-reports/2025-africa-tech-venture-capital-report" },
+      { "label": "Smart Capital — rapports annuels Startup Tunisia", "url": "https://startup.gov.tn/fr/news/smart-capital-publie-la-3eme-edition-du-rapport-annuel-startup-tunisia" }
+    ]
+  }
+}

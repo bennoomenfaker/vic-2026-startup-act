@@ -13,4 +13,9 @@ prompt_freebuff.md
 # Ignore le fichier de prompt Mistral dans livrables
 livrables/prompt_mistral.md
 
+# Rapports externes téléchargés pour archivage local uniquement (non versionnés)
+public/startupblinkcorporate-report-2025.pdf
+public/startupgenomegser-2026_9607.pdf
+public/startupblinkecosystemreport2026.pdf
+
 

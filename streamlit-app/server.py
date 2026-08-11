@@ -60,6 +60,8 @@ class Handler(http.server.SimpleHTTPRequestHandler):
             self._serve_doc(path)
         elif path.startswith('/api/livrables/'):
             self._serve_livrable(path)
+        elif path == '/api/startupblink':
+            self._send_json(os.path.join(DATA, 'startupblink_tunisia.json'))
         elif path == '/api/axes':
             self._serve_axes()
         elif path == '/api/livrables':
