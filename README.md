@@ -206,6 +206,7 @@ Prisma/TypeORM · Docker · Cloud.
 **Profils**
 - 💼 [LinkedIn](https://linkedin.com/in/fakerbennoomen)
 - 💻 [GitHub](https://github.com/bennoomenfaker)
+- 🌐 [Site personnel](https://bennoomenfaker.github.io) · [Repo du site](https://github.com/bennoomenfaker/bennoomenfaker.github.io)
 - 📧 fakerbennoomen@gmail.com
 
 ---
