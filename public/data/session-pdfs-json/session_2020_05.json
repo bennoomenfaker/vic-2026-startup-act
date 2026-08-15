@@ -1,0 +1,239 @@
+{
+ "session": "05/2020",
+ "annee": 2020,
+ "mois": 5,
+ "pdf": "session_2020_05.pdf",
+ "nb_entrees": 37,
+ "source": "Extraction des PDF officiels des sessions — startup.gov.tn (voir Corrections)",
+ "entrees": [
+  {
+   "societe": "Startup Act | Session 14 | Mai 2020 | Compte-Rendu",
+   "fondateurs": "Société, Fondateurs, Secteur, Label/Prélabel",
+   "secteur": "1er Tour",
+   "resultat": ""
+  },
+  {
+   "societe": "Résultat",
+   "fondateurs": "Commentaires, Recevabilité, Pitching, Conflit, Digitus Technologies, Walid Driss, Blockchain & cryptocurrency, Label",
+   "secteur": "7",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Mohamed Ali Kilani a déclaré un conflit d'intérêt, STARK, Mohamed Mzid, Logiciel, Label",
+   "secteur": "8",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, NATDYES, Mohamed Farouk Mhenni, Mohamed Ahmed Mhenni, Amira Mhenni, Wearables, Label",
+   "secteur": "5",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Carpet Plus, Mourad Elfelah, Moncef Ben Rejeb, Amani Abid, E-commerce, Label",
+   "secteur": "5",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Hand & Crafts, Asma Bayouli, Ameni Ben Hmida, E-commerce, Label",
+   "secteur": "8",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, YASSIR, Haythem Cherif, Noureddine Tayebi, Logistique, Label",
+   "secteur": "7",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Wakahaw, Kais Ben Amar, Haythem Benna, Wajih Hajji, Big Data, Label",
+   "secteur": "4",
+   "resultat": ""
+  },
+  {
+   "societe": "Label accordé",
+   "fondateurs": "Label accordé suite au pitching, Amiral, Amine Ben Abdallah, E-commerce, Prélabel",
+   "secteur": "5",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel accordé, Prélabel accordé dès le 2ème tour, Sprindt, Habib Wenish, Ramzi Hamrouni, Hedi Akrout, Fintech, Prélabel",
+   "secteur": "7",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel accordé, Prélabel accordé dès le 2ème tour, Global World Transformer, Mohamed Amine Hamdi, IoT, Prélabel",
+   "secteur": "7",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel accordé, Prélabel accordé dès le 2ème tour",
+   "secteur": "iSporit",
+   "resultat": "Mohamed Hedi Achour"
+  },
+  {
+   "societe": "Yosr Naija",
+   "fondateurs": "Yassine Achour, Karim Zehani, Mohamed Wassim Benzarti, Autre contenu créatif, Prélabel",
+   "secteur": "7",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel accordé, Prélabel accordé dès le 2ème tour, Evolutik, Maya Mathari, Mourad Mathari, Autre contenu créatif, Prélabel",
+   "secteur": "5",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel accordé, Prélabel accordé dès le 2ème tour, Ali Mnif a déclaré un conflit d'ntérêt, El Food Lab, Nesrine Chemkhi, Mohamed Guinoubi, Autre contenu créatif, Prélabel",
+   "secteur": "5",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel accordé, Prélabel accordé dès le 2ème tour, Fouita, Abdelhay Najjar, Logiciel, Prélabel",
+   "secteur": "7",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel accordé, Prélabel accordé dès le 2ème tour, GrowApp, Wael Aouididi, Growapp, Prélabel",
+   "secteur": "8",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel accordé, Prélabel accordé dès le 2ème tour, We-Settle, Wael Moula, Naima Moula, Fintech, Prélabel",
+   "secteur": "4",
+   "resultat": ""
+  },
+  {
+   "societe": "Prélabel accordé",
+   "fondateurs": "Prélabel accordé après pitching, Conception et vente d'un système de télégestion d'énergie électrique, Sabri Mhimdi, Henda Zribi, Energie, Prélabel",
+   "secteur": "4",
+   "resultat": ""
+  },
+  {
+   "societe": "Prélabel accordé",
+   "fondateurs": "Prélabel accordé après pitching, IOT Medical Technology, Jamel Hattay, Samir Belaid, Mohsen Machhout, Health tech, Label",
+   "secteur": "2",
+   "resultat": ""
+  },
+  {
+   "societe": "Label non accordé",
+   "fondateurs": "Label non accordé suite au pitching, Omniup Tunisie, Karim Jelliti, Issam Essefi, Ali Sakka, Marketing, Label",
+   "secteur": "3",
+   "resultat": ""
+  },
+  {
+   "societe": "Label non accordé",
+   "fondateurs": "Label non accordé suite au pitching, LE PORTAIL DES LANGUES, Sahbi Agrebi, E-commerce, Label",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, GARK, Haythem Besghaier, Khaled Guedria, Mobile, Prélabel",
+   "secteur": "3",
+   "resultat": ""
+  },
+  {
+   "societe": "Prélabel non accordé",
+   "fondateurs": "Prélabel non accordé après pitching, GASPYCH, Mansour Mechmech, Hend Kefi, E-commerce, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, EMNA HUSSEIN, Emna Hussein, Wearables, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, Doctorka, Racem Smaouo, Aymen Ben Amor, Walid Ben Djemaa, Health Tech, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, Renini, Abdelaziz Ben Chaabane, Plateforme sociale, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, Société Polyouate, Arslene Rouatbi, Ridha Rouatbi, Autre contenu créatif, Label, N.A, N.A, N.A, N.A, N.A, N.A, Label non accordé, Dossier irrecevable pour non conformité aux critères d'obtention",
+   "secteur": "du Label Startup (L'âge de l'entreprise > 8 ans)",
+   "resultat": "Passage de Prélabels aux Labels"
+  },
+  {
+   "societe": "Société",
+   "fondateurs": "Fondateurs, Secteur, Session d'obtention",
+   "secteur": "du Prélabel",
+   "resultat": "Résultat"
+  },
+  {
+   "societe": "Commentaires",
+   "fondateurs": "Société Datasphera, Noureddine Louki, Achref Kechaou",
+   "secteur": "AI",
+   "resultat": "Novembre 2019"
+  },
+  {
+   "societe": "Label accordé",
+   "fondateurs": "Label accordé suite à la création de la Startup et le respect des",
+   "secteur": "conditions d'octroi",
+   "resultat": "Innov'Edition"
+  },
+  {
+   "societe": "Fedi Belkacem",
+   "fondateurs": "Cyrine Bouaziz",
+   "secteur": "HR",
+   "resultat": "Novembre 2019"
+  },
+  {
+   "societe": "Label accordé",
+   "fondateurs": "Label accordé suite à la création de la Startup et le respect des",
+   "secteur": "conditions d'octroi",
+   "resultat": "Smek's Invest"
+  },
+  {
+   "societe": "Mohamed Ben Hammed",
+   "fondateurs": "Sonia Laribi, Logistique, Avril 2020, Label accordé, Label accordé suite à la création de la Startup et le respect des",
+   "secteur": "conditions d'octroi",
+   "resultat": "Lamma City App"
+  },
+  {
+   "societe": "Hamza Guesmi",
+   "fondateurs": "Reda Mansouri, Logistique, Novembre 2019, Label accordé, Label accordé suite à la création de la Startup et le respect des",
+   "secteur": "conditions d'octroi",
+   "resultat": "Quantilyx R&D"
+  },
+  {
+   "societe": "Hamza Amiri",
+   "fondateurs": "Moez Hammami, Mohamed Bessa, Fintech, Février 2020, Label accordé, Label accordé suite à la création de la Startup et le respect des",
+   "secteur": "conditions d'octroi",
+   "resultat": "Retrait de Label Startup"
+  },
+  {
+   "societe": "Société",
+   "fondateurs": "Fondateurs, Secteur, Session d'obtention",
+   "secteur": "du Label",
+   "resultat": "Décision"
+  }
+ ],
+ "session_data": {
+  "candidatures": 26,
+  "labels": 12,
+  "preLabels": 10,
+  "taux_acceptation_pct": 46.2,
+  "statut": "conforme"
+ }
+}

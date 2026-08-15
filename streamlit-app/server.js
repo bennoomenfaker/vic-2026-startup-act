@@ -74,6 +74,17 @@ app.get('/api/pdf-extracted', (req, res) => {
   res.json(JSON.parse(fs.readFileSync(path.join(DATA, 'session_pdfs_extracted.json'))));
 });
 
+app.get('/api/session-json', (req, res) => {
+  const dir = path.join(DATA, 'session-pdfs-json');
+  res.json(fs.readdirSync(dir).filter(f => f.endsWith('.json')).sort());
+});
+
+app.get('/api/session-json/:filename', (req, res) => {
+  const filepath = path.join(DATA, 'session-pdfs-json', req.params.filename);
+  if (fs.existsSync(filepath)) return res.json(JSON.parse(fs.readFileSync(filepath)));
+  res.status(404).json({ error: 'JSON not found' });
+});
+
 app.get('/api/pdf-annual/:filename', (req, res) => {
   const filepath = path.join(DATA, req.params.filename);
   if (fs.existsSync(filepath)) return res.sendFile(filepath);

@@ -1,0 +1,311 @@
+{
+ "session": "09/2020",
+ "annee": 2020,
+ "mois": 9,
+ "pdf": "session_2020_09.pdf",
+ "nb_entrees": 49,
+ "source": "Extraction des PDF officiels des sessions — startup.gov.tn (voir Corrections)",
+ "entrees": [
+  {
+   "societe": "Startup Act | Session 18 | Septembre 2020 | Compte-Rendu",
+   "fondateurs": "Société, Fondateurs, Secteur, Label/Prélabel",
+   "secteur": "1er Tour",
+   "resultat": ""
+  },
+  {
+   "societe": "Résultat",
+   "fondateurs": "Commentaires, Recevabilité, Pitching, Conflit, WeMove, Mariem Sellami, Hichem Ben Hmida, Mohamed Khelil, Mejdi Mbarek, Health Tech, Label",
+   "secteur": "6",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, HackUp, Ghanmi Ayhem, Mohamed Aziz Najjar",
+   "secteur": "HR",
+   "resultat": "Label"
+  },
+  {
+   "societe": "Label accordé",
+   "fondateurs": "Label accordé suite au pitching, Ali Mnif et Mohamed Ali Kilani ont  déclaré un conflit d'intérêt",
+   "secteur": "wammya",
+   "resultat": "Faycel Aouina"
+  },
+  {
+   "societe": "Iteb Masmoudi",
+   "fondateurs": "Ahmed Lachheb Lahlaoui, Walid Negra, Logistique, Label",
+   "secteur": "3",
+   "resultat": ""
+  },
+  {
+   "societe": "Label accordé",
+   "fondateurs": "Label accordé suite au pitching, Orthlane, Ali Karray, Health Tech, Prélabel",
+   "secteur": "7",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel  accordé, Prélabel accordé dès le 2ème tour, ETNAFES, Ali Safsafi, Ichrak Aouissaoui, Najeh Bedhief, Autre contenu créatif, Prélabel",
+   "secteur": "6",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel  accordé, Prélabel accordé dès le 2ème tour, Idaraty.tn, Ahmed Zoghlami, Plateforme Sociale, Prélabel",
+   "secteur": "9",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel  accordé, Prélabel accordé dès le 2ème tour, Healthy & Bnin, Soumaya Atoui",
+   "secteur": "E-commerce",
+   "resultat": "Prélabel"
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel  accordé, Prélabel accordé dès le 2ème tour, Services voitures épaves (SVE), Farah M'seddi, Slim M'seddi, Jalel Satouri, E-commerce, Prélabel",
+   "secteur": "7",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel  accordé, Prélabel accordé dès le 2ème tour, Autorent, Moslem Ben Dhaou, Logiciel, Prélabel",
+   "secteur": "7",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel  accordé, Prélabel accordé dès le 2ème tour, Cubed, Achref Hayouni, Hassen Mezghani, Sarra Ben Helal, Marketing, Prélabel",
+   "secteur": "7",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel  accordé, Prélabel accordé dès le 2ème tour, Smelsy.com, Med slim BOUAZIZ, EdTech, Prélabel",
+   "secteur": "6",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel  accordé, Prélabel accordé dès le 2ème tour",
+   "secteur": "iCan-C",
+   "resultat": "Ali Ajili"
+  },
+  {
+   "societe": "Yosr Jazzar",
+   "fondateurs": "",
+   "secteur": "IoT",
+   "resultat": "Prélabel"
+  },
+  {
+   "societe": "Prélabel  accordé",
+   "fondateurs": "Prélabel accordé suite au pitching, MTTN, Sami Khouaja, Naji Bou Habib, Big Data, Label",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, Bladiz, Nabil Fatmi, Ameur Baccoucha, Marketing, Label",
+   "secteur": "4",
+   "resultat": ""
+  },
+  {
+   "societe": "Label non accordé",
+   "fondateurs": "Label non accordé suite au pitching",
+   "secteur": "king Chemicals Solutions",
+   "resultat": "Sadok Maamar"
+  },
+  {
+   "societe": "Hassen Mchaalia",
+   "fondateurs": "Ons Ayari",
+   "secteur": "Logiciel",
+   "resultat": "Label"
+  },
+  {
+   "societe": "Label non accordé",
+   "fondateurs": "Label non accordé suite au pitching, MEDICAL SERVICES & SOLUTIONS INTER, Mohamed Nejib Youssef, Jalel Dahas",
+   "secteur": "souhir Zaoui",
+   "resultat": "Sami Hamila"
+  },
+  {
+   "societe": "Maher Cheour",
+   "fondateurs": "Health Tech, Label",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "Label non accordé",
+   "fondateurs": "Label non accordé suite au pitching, Doctourna, Moetaz Torkhani, Health Tech, Label",
+   "secteur": "4",
+   "resultat": ""
+  },
+  {
+   "societe": "Label non accordé",
+   "fondateurs": "Label non accordé suite au pitching, Aladdin, Hichème Kaboudi, Telecom, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour, Portail de technologies industrielles et innovations, Mohamed Wissem Landolsi, Walid Landolsi, Imen Gaida, Autre contenu créatif, Prélabel",
+   "secteur": "1",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour, New Life, Heni Mechichi, Abderrahmen Ben Gdara, E-commerce, Prélabel",
+   "secteur": "1",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour, Sampapp, Taher Ghrissi, Health Tech, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour, SAFEOPS, Hakim Chemam, Logiciel, Label, N.A, N.A, N.A, N.A, N.A, N.A, Label non accordé, Dossier irrecevable pour non conformité aux",
+   "secteur": "critères d'obtention du Label Startup (L'âge de",
+   "resultat": "l'entreprise > 8 ans)"
+  },
+  {
+   "societe": "Dinaro",
+   "fondateurs": "Khalil Jelassi",
+   "secteur": "Fintech",
+   "resultat": "Prélabel"
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, N.A, N.A, N.A, N.A, Prélabel non accordé, Dossier irrecevable pour manque d'autorisation de",
+   "secteur": "la part des autorités compétentes pour la pratique",
+   "resultat": "de l'activité présentée"
+  },
+  {
+   "societe": "Farmvie",
+   "fondateurs": "Radhouane Slimani, Saif eddine Souilmi, Yasser Souilmi, Hamza Beji, Agritech, Prélabel, N.A, N.A, N.A, N.A, N.A, N.A, Prélabel non accordé, Dossier irrecevable pour manque d'autorisation de",
+   "secteur": "la part des autorités compétentes pour la pratique",
+   "resultat": "de l'activité présentée"
+  },
+  {
+   "societe": "Passage de Prélabels aux Labels",
+   "fondateurs": "Société, Projet, Fondateurs, Secteur, Session d'obtention",
+   "secteur": "du Prélabel",
+   "resultat": "Résultat"
+  },
+  {
+   "societe": "Commentaires",
+   "fondateurs": "Sté ELAASLA, Raheeq - قﯾﺣر, Hamza Nechi, Agritech, Décembre 2019, Label accordé, Label accordé suite à la création de la Startup et le respect des",
+   "secteur": "conditions d'octroi",
+   "resultat": "Barbecha"
+  },
+  {
+   "societe": "Barbecha",
+   "fondateurs": "Ines Soyah, Zeineb Bouassida, Chiheb Karoui, E-commerce, Mars 2020, Label accordé, Label accordé suite à la création de la Startup et le respect des",
+   "secteur": "conditions d'octroi",
+   "resultat": "Ste DomHome"
+  },
+  {
+   "societe": "Smart House Tunisia",
+   "fondateurs": "Chouchene Achref, Yasmine Ben Ameur, Souilem Seif, Siwar Boufares",
+   "secteur": "IoT",
+   "resultat": "Février 2020"
+  },
+  {
+   "societe": "Label accordé",
+   "fondateurs": "Label accordé suite à la création de la Startup et le respect des",
+   "secteur": "conditions d'octroi",
+   "resultat": "AL diagnosis vision"
+  },
+  {
+   "societe": "Saoussen Ayari",
+   "fondateurs": "Anouar Nechi, Koussai Barhoumi, Health Tech, Août 2020, Label accordé, Label accordé suite à la création de la Startup et le respect des",
+   "secteur": "conditions d'octroi",
+   "resultat": "Boho Corporation"
+  },
+  {
+   "societe": "KWIN.",
+   "fondateurs": "Sahli Houssem, Sonia Othman",
+   "secteur": "IoT",
+   "resultat": "Mars 2020"
+  },
+  {
+   "societe": "Label accordé",
+   "fondateurs": "Label accordé suite à la création de la Startup et le respect des",
+   "secteur": "conditions d'octroi",
+   "resultat": "Dentic Group"
+  },
+  {
+   "societe": "Dentic",
+   "fondateurs": "Hakim Yahyaoui, Health Tech, Mars 2020, Label accordé, Label accordé suite à la création de la Startup et le respect des",
+   "secteur": "conditions d'octroi",
+   "resultat": "Technagile Innovation Labs"
+  },
+  {
+   "societe": "FlowsMaster",
+   "fondateurs": "Jamel Gasri, Nesrine Ben Guirat, Wajih Abidi, Khaled Ben Younes, Ahmed Mnasri, Logiciel, Avril 2020, Label accordé, Label accordé suite à la création de la Startup et le respect des",
+   "secteur": "conditions d'octroi",
+   "resultat": "SBI Biotech"
+  },
+  {
+   "societe": "Tunisiabiotech",
+   "fondateurs": "Oualid Sbai, Biotechnologie, Mars 2020, Label accordé, Label accordé suite à la création de la Startup et le respect des",
+   "secteur": "conditions d'octroi",
+   "resultat": "Retrait de Label Startup"
+  },
+  {
+   "societe": "Société",
+   "fondateurs": "Fondateurs, Secteur, Session d'obtention",
+   "secteur": "du Label",
+   "resultat": "Décision"
+  },
+  {
+   "societe": "Commentaires",
+   "fondateurs": "Mass SA, Dr. Ramla Jarrar, Dr. Firas Jabloun",
+   "secteur": "AI",
+   "resultat": "Avril 2019"
+  },
+  {
+   "societe": "Retrait du Label",
+   "fondateurs": "La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-",
+   "secteur": "2018 pour les sociétés bénéficiaires du Label",
+   "resultat": "Catrim"
+  },
+  {
+   "societe": "Mohamed Amine Ghorbel",
+   "fondateurs": "Becem Ben Mustapha, Fintech",
+   "secteur": "Juillet 2019",
+   "resultat": "Retrait du Label"
+  },
+  {
+   "societe": "La société n'a pas respecté l'obligation légale de déclarer ses",
+   "fondateurs": "",
+   "secteur": "états financiers annuels tel que stipulé par la loi",
+   "resultat": "Jhimi Pour Les Elévateurs Légers"
+  },
+  {
+   "societe": "Houcine Jhimi",
+   "fondateurs": "Ali Jhimi, Agritech, Décembre 2019, Retrait du Label, La société n'a pas respecté l'obligation légale de déclarer ses",
+   "secteur": "états financiers annuels tel que stipulé par la loi",
+   "resultat": "TechAccessibility"
+  },
+  {
+   "societe": "Nour Ben yahia",
+   "fondateurs": "Mehrez Boulares, Achraf Othman, Kabil Jaballah, Oussama El Ghoul, Mohsen Laabidi, Mobile, Avril 2019, Retrait du Label, La société n'a pas respecté l'obligation légale de déclarer ses",
+   "secteur": "états financiers annuels tel que stipulé par la loi",
+   "resultat": "Tira Robots"
+  },
+  {
+   "societe": "Wassim Ben Hmida",
+   "fondateurs": "Azza Attia, Robotique, Octobre 2019, Retrait du Label, La société n'a pas respecté l'obligation légale de déclarer ses",
+   "secteur": "états financiers annuels tel que stipulé par la loi",
+   "resultat": ""
+  }
+ ],
+ "session_data": {
+  "candidatures": 24,
+  "labels": 11,
+  "preLabels": 9,
+  "taux_acceptation_pct": 45.8,
+  "statut": "conforme"
+ }
+}

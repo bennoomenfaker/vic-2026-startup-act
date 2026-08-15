@@ -1,0 +1,311 @@
+{
+ "session": "01/2025",
+ "annee": 2025,
+ "mois": 1,
+ "pdf": "session_2025_01.pdf",
+ "nb_entrees": 47,
+ "source": "Extraction des PDF officiels des sessions — startup.gov.tn (voir Corrections)",
+ "entrees": [
+  {
+   "societe": "Startup Act | Session 70| Janvier 2025| Compte-Rendu",
+   "fondateurs": "Société, Fondateurs, Secteur, Label/Prélabel",
+   "secteur": "1er Tour",
+   "resultat": ""
+  },
+  {
+   "societe": "Résultat",
+   "fondateurs": "Recevabilité, Pitching, Conflit, Vie verte BSF, Faoizia Mehdhaoui, Agritech, Label",
+   "secteur": "6",
+   "resultat": "Label Accordé au 2 ème Tour"
+  },
+  {
+   "societe": "Docic",
+   "fondateurs": "Sofiane Trabelsi, Sami Kallel, Myriam Mouakhar, HealthTech, Label",
+   "secteur": "5",
+   "resultat": "Label Accordé au 2 ème Tour"
+  },
+  {
+   "societe": "Ferid Hamida",
+   "fondateurs": "Cerine Hamida, EdTech, Label",
+   "secteur": "5",
+   "resultat": "Label Accordé au 2 ème Tour"
+  },
+  {
+   "societe": "Amperon Technologies",
+   "fondateurs": "Mohamed Ali Hmida, Mariem Mnasri, Fetni Mohamed, Hichem Abdennadher, Advanced Manufacturing & Robotics, Label",
+   "secteur": "5",
+   "resultat": "Label Accordé au 2 ème Tour"
+  },
+  {
+   "societe": "Artizone",
+   "fondateurs": "Anwer Boukmiha, Ahmed Besrour, Commerce and shopping, Label",
+   "secteur": "1",
+   "resultat": "Label Accordé au 3 ème Tour"
+  },
+  {
+   "societe": "Pass excellence",
+   "fondateurs": "Wiem Klaa, Rim Kassous, Yassine Chaker, Business Software and services, Label",
+   "secteur": "4",
+   "resultat": "Label Accordé au 3 ème Tour"
+  },
+  {
+   "societe": "Nativeads Ai",
+   "fondateurs": "Al Kallel, Wael Abid, Ad Tech and Creative Tech, Label",
+   "secteur": "4",
+   "resultat": "Label Accordé au 3 ème Tour"
+  },
+  {
+   "societe": "Otravers",
+   "fondateurs": "Yecin Dridi, Alaa Edinee Ben Mbarek, Commerce and shopping, Label",
+   "secteur": "2",
+   "resultat": "Label Accordé au 3 ème Tour"
+  },
+  {
+   "societe": "Readdly",
+   "fondateurs": "Taycir Chouk, Fares Ben Younes, EdTech, Prélabel",
+   "secteur": "5",
+   "resultat": "Prélabel Accordé au 2 ème Tour"
+  },
+  {
+   "societe": "Dari",
+   "fondateurs": "Souheil Bouzouita, Real Estate Tech, Prélabel",
+   "secteur": "5",
+   "resultat": "Prélabel Accordé au 2 ème Tour"
+  },
+  {
+   "societe": "Spirunat",
+   "fondateurs": "Mohamed Latiri, Adnane Kacem, Aziza Ibn Hadj Hassine, HealthTech, Label",
+   "secteur": "0",
+   "resultat": "Label Non Accordé au 2 ème Tour"
+  },
+  {
+   "societe": "E-edu",
+   "fondateurs": "Mehdi Chelly, EdTech, Label",
+   "secteur": "0",
+   "resultat": "Label Non Accordé au 2 ème Tour"
+  },
+  {
+   "societe": "Glamour",
+   "fondateurs": "Mohamed Yacine Missaoui, Wellness, Label",
+   "secteur": "0",
+   "resultat": "Label Non Accordé au 2 ème Tour"
+  },
+  {
+   "societe": "HOUKOUK.TECH",
+   "fondateurs": "Mohsen Bouzid, Eya Bouzid, Rayen Bouzid, Fintech, Label",
+   "secteur": "0",
+   "resultat": "Label Non Accordé au 2 ème Tour"
+  },
+  {
+   "societe": "EDUCARE",
+   "fondateurs": "Lilia Kamoun, EdTech, Label",
+   "secteur": "1",
+   "resultat": "Label Non Accordé au 3 ème Tour"
+  },
+  {
+   "societe": "VIRTUAL ERA",
+   "fondateurs": "Imed Mabrouk, Abdelkarim Mars, Business Software and services, Label",
+   "secteur": "0",
+   "resultat": "Label Non Accordé au 3 ème Tour"
+  },
+  {
+   "societe": "Thagamuta Agro",
+   "fondateurs": "Dhouha Azri, Affi Khouloud, FoodTech & New Food, Label",
+   "secteur": "4",
+   "resultat": "Label Non Accordé au 3 ème Tour"
+  },
+  {
+   "societe": "Esticharati",
+   "fondateurs": "Ali Dahmani, Business Software and services, Label",
+   "secteur": "0",
+   "resultat": "Label Non Accordé au 3 ème Tour"
+  },
+  {
+   "societe": "Tale Platform",
+   "fondateurs": "Arbi Soussi, Fakhreddine Belgaied, Business Software and services, Label",
+   "secteur": "0",
+   "resultat": "Label Non Accordé au 3 ème Tour"
+  },
+  {
+   "societe": "PERF ANALYSIS CONSULTING",
+   "fondateurs": "Mohamed Ayachi, Business Software and services, Label",
+   "secteur": "1",
+   "resultat": "Label Non Accordé au 3 ème Tour"
+  },
+  {
+   "societe": "SOFTAVERA TUNISIE",
+   "fondateurs": "Abdelkarim Friaa, Bechir Ben Abdallah, Business Software and services, Label",
+   "secteur": "0",
+   "resultat": "Label Non Accordé au 3 ème Tour"
+  },
+  {
+   "societe": "Naraggara",
+   "fondateurs": "Rihab Jandoubi, TravelTech, Prélabel",
+   "secteur": "0",
+   "resultat": "Prélabel Non Accordé au 2 ème Tour"
+  },
+  {
+   "societe": "BinYdik",
+   "fondateurs": "Aymen Fteiti Hana Jerbi, Business Software and services, Prélabel",
+   "secteur": "0",
+   "resultat": "Prélabel Non Accordé au 2 ème Tour"
+  },
+  {
+   "societe": "MDBIM Innovations",
+   "fondateurs": "Mohamed Messaoudi, Zied Messaoudi, TravelTech, Prélabel",
+   "secteur": "0",
+   "resultat": "Prélabel Non Accordé au 2 ème Tour"
+  },
+  {
+   "societe": "MBH expertise",
+   "fondateurs": "Nizar Saidi, Mokhtar Abidi, Elyes Neffati",
+   "secteur": "Fintech",
+   "resultat": "Prélabel"
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel Non Accordé au 2 ème Tour",
+   "secteur": "Ta7richa",
+   "resultat": "Fakhreddine Lakhoua"
+  },
+  {
+   "societe": "FoodTech & New Food",
+   "fondateurs": "Prélabel",
+   "secteur": "0",
+   "resultat": "Prélabel Non Accordé au 2 ème Tour"
+  },
+  {
+   "societe": "Zamzema",
+   "fondateurs": "Lassaad Aouina, Mouna Khelifi, Communication services, Prélabel",
+   "secteur": "0",
+   "resultat": "Prélabel Non Accordé au 2 ème Tour"
+  },
+  {
+   "societe": "Edu Memes (مﯾﻠﻌﺗﻟا و مﯾﻣﻟا)",
+   "fondateurs": "Mouhamed Nourdine Guitouni, Guetat Louay, EdTech, Prélabel",
+   "secteur": "0",
+   "resultat": "Prélabel Non Accordé au 2 ème Tour"
+  },
+  {
+   "societe": "DiDonData",
+   "fondateurs": "Sirine Belhassen, Aymen Setti, HealthTech, Prélabel",
+   "secteur": "0",
+   "resultat": "Prélabel Non Accordé au 2 ème Tour"
+  },
+  {
+   "societe": "PEDALII",
+   "fondateurs": "Hassen Saadi, Mohamed Karim Bchni, Sana Ben Thayer, Chayma Ben Yahia, Environment, Prélabel",
+   "secteur": "0",
+   "resultat": "Prélabel Non Accordé au 2 ème Tour"
+  },
+  {
+   "societe": "Fiscal Suite",
+   "fondateurs": "Ahmed Lasmar, Racem Ben Amar, Malak Hachicha, Anis Bouhali, Business Software and services, Prélabel",
+   "secteur": "0",
+   "resultat": "Prélabel Non Accordé au 2 ème Tour"
+  },
+  {
+   "societe": "APPLICATION MOBILE ANTI-",
+   "fondateurs": "GASPILLAGE ALIMENTAIRE :, SMARTDEAL, Abdessalem Karoui, Business Software and services, Prélabel",
+   "secteur": "0",
+   "resultat": "Prélabel Non Accordé au 2 ème Tour"
+  },
+  {
+   "societe": "WEFE TECH",
+   "fondateurs": "Mounir Brik, Ons Brik, Environment, Prélabel",
+   "secteur": "0",
+   "resultat": "Prélabel Non Accordé au 2 ème Tour"
+  },
+  {
+   "societe": "DroneVision",
+   "fondateurs": "Amira Karoui, Oussama Cherni, Business Software and services, Prélabel",
+   "secteur": "0",
+   "resultat": "Prélabel Non Accordé au 3 ème Tour"
+  },
+  {
+   "societe": "Mellek Real Estate Platform",
+   "fondateurs": "Mastouri Kayser, Kallboussi Souad, Real Estate Tech, Prélabel",
+   "secteur": "1",
+   "resultat": "Prélabel Non Accordé au 3 ème Tour"
+  },
+  {
+   "societe": "HASHTI",
+   "fondateurs": "Ibrahim Goddi, Commerce and shopping, Prélabel",
+   "secteur": "1",
+   "resultat": "Prélabel Non Accordé au 3 ème Tour"
+  },
+  {
+   "societe": "TRENA",
+   "fondateurs": "Ala Larbi, Hatem Benchikh, Dorra Fredj, Wellness, Prélabel",
+   "secteur": "0",
+   "resultat": "Prélabel Non Accordé au 3 ème Tour"
+  },
+  {
+   "societe": "Keef",
+   "fondateurs": "Zayneb Aouani, Mohamed Amine Bellili, Ihab Kahri, Mobility, Prélabel",
+   "secteur": "0",
+   "resultat": "Prélabel Non Accordé au 3 ème Tour"
+  },
+  {
+   "societe": "Bibinet",
+   "fondateurs": "Amel Jebali, Roua Boubakri, Arbi Ben Bazza, Lasaad Guesmi, Consumer products and services, Label",
+   "secteur": "3",
+   "resultat": "Prélabel Non Accordé au 3 ème Tour"
+  },
+  {
+   "societe": "Passage de Prélabels aux Labels",
+   "fondateurs": "Projet, Société, Fondateurs, Secteur, Session d'obtention",
+   "secteur": "du Prélabel",
+   "resultat": "Résultat"
+  },
+  {
+   "societe": "Commentaires",
+   "fondateurs": "VYZYOSCHOOL, VYZYOSCHOOL, Marwa Mhedhebi, EdTech, Septembre 2024, Label accordé, Label accordé suite à la création de la Startup et le respect des conditions d'octroi, ECOCODE, ECOCODE ENGINEERING, Business Software and services, Ghazi Mhiri, Ghassen Ghribi, Ons Njeh, Novembre 2024, Label accordé, Label accordé suite à la création de la Startup et le respect des conditions d'octroi",
+   "secteur": "linkbook",
+   "resultat": "Link4book25"
+  },
+  {
+   "societe": "EdTech",
+   "fondateurs": "Malak Belkacem, Dhia Fekih, Mohamed Mehdi Nouira, Décembre 2024, Label accordé, Label accordé suite à la création de la Startup et le respect des conditions d'octroi, Paytea, PayTea, Business Software and services, Tarek Zouari, Rania Kammoun, Juillet 2024, Label accordé, Label accordé suite à la création de la Startup et le respect des conditions d'octroi, Production d'additifs alimentaires",
+   "secteur": "animale et consulting",
+   "resultat": "Healthy Animal World"
+  },
+  {
+   "societe": "Marwa Mekni Toujani",
+   "fondateurs": "Agritech, Août 2024, Label accordé, Label accordé suite à la création de la Startup et le respect des conditions d'octroi, Retraits Labels, Société, Secteur, Session d'obtention",
+   "secteur": "du Label",
+   "resultat": "Décision"
+  },
+  {
+   "societe": "Commentaires",
+   "fondateurs": "Kiwi Softwares, Business Software and services, Juillet 2020, Retrait du Label, La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-",
+   "secteur": "2018 pour les sociétés bénéficiaires du Label",
+   "resultat": "OTO TRAVEL"
+  },
+  {
+   "societe": "Mobility",
+   "fondateurs": "Août 2019, Retrait du Label, La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-",
+   "secteur": "2018 pour les sociétés bénéficiaires du Label",
+   "resultat": ""
+  }
+ ],
+ "session_data": {
+  "candidatures": 39,
+  "labels": 13,
+  "preLabels": 2,
+  "taux_acceptation_pct": 33.3,
+  "statut": "corrigee",
+  "correction": {
+   "anciennes_valeurs": {
+    "labels": 18,
+    "preLabels": 2
+   },
+   "valeurs_corrigees": {
+    "labels": 13,
+    "preLabels": 2
+   },
+   "raison": "8 nouveaux labels + 5 conversions − 2 retraits = 13 (scrapé : 18)",
+   "commentaires_pdf": "13 Labels et 05 Prélabels à Labels"
+  }
+ }
+}

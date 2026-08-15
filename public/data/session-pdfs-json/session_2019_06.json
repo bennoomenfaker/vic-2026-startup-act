@@ -1,0 +1,239 @@
+{
+ "session": "06/2019",
+ "annee": 2019,
+ "mois": 6,
+ "pdf": "session_2019_06.pdf",
+ "nb_entrees": 35,
+ "source": "Extraction des PDF officiels des sessions — startup.gov.tn (voir Corrections)",
+ "entrees": [
+  {
+   "societe": "Startup Act | Session 3 | Juin 2019 | Compte-Rendu",
+   "fondateurs": "Société, Fondateurs, Secteur, Label/Prélabel",
+   "secteur": "1er Tour",
+   "resultat": ""
+  },
+  {
+   "societe": "Résultat",
+   "fondateurs": "Commentaires, Recevabilité, Pitching, Conflit, DEEPERA, Faouzi Moussa, Mustapha Boughzou, Fintech, Label",
+   "secteur": "oui",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Mohamed Salah Frad a déclaré un conflit d'intérêt, FABSKILL, Sofiane Mabrouk, Bechir Afifi, Mohamed Ben Sfar, HR Tech, Label",
+   "secteur": "oui",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Ali Mnif et Zakaria Belkhoja ont déclaré un conflit d'intérêt, MajestEYE, Jihed Hannachi, Rabie Saidi, Soufien Ben Hamza",
+   "secteur": "AI",
+   "resultat": "Label"
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, HERUNDO, Nizar Bouguila, Bessem Jallouli, Mohamed Boujelbane, E-Commerce, Label",
+   "secteur": "oui",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, BioIntrants Technologie, Yassine Ben Menadi, Chedli Ben Menadi, Biotechnologie, Label",
+   "secteur": "oui",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, JUNIOR NETWORK, Sahar Ben Rached, Zeineb Chabchoub, Oussema Ksontini, Edtech, Label",
+   "secteur": "oui",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Siteflow Factory, Samed Jalouali, Timothée Piette, Etienne Barrault, Louis Hauvette, Logiciel, Label",
+   "secteur": "oui",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Insight+, Adel Jenni, Imed Kouki, Fintech, Label",
+   "secteur": "oui",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, DATAERA, Hedi Zouari, Maher Heni, Big Data, Label",
+   "secteur": "oui",
+   "resultat": ""
+  },
+  {
+   "societe": "Label accordé",
+   "fondateurs": "Label accordé après pitching, SF Technologies, Mohamed Taher, Hammami, Fintech, Label",
+   "secteur": "oui",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé après pitching, Zakaria Belkhoja a déclaré un conflit d'intérêt, CREATIVE CULINARY, Aziz Ben Chedli, E-commerce, Label",
+   "secteur": "oui",
+   "resultat": ""
+  },
+  {
+   "societe": "Label accordé",
+   "fondateurs": "Label accordé après pitching, Elyes Jeribi, Ali Mnif et Zakaria Belkhoja ont déclaré un conflit d'intérêt, SAFOZI SARL, Zied Ouled Ali, Infrastructure, Label",
+   "secteur": "oui",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2eme tour, Zakaria Belkhoja a déclaré un conflit d'intérêt, NEXTPROTEIN TUNISIA, Mohamed Gastli, Syrine Chaalala, Agritech, Label",
+   "secteur": "oui",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, SENIATNA, Neil Boussofara, Logistique, Label",
+   "secteur": "oui",
+   "resultat": "Label accordé"
+  },
+  {
+   "societe": "Label accordé suite au pitching",
+   "fondateurs": "VME Internationale, Foued Ben Babis, Montassar Gharsa, Plateforme sociale, Prélabel",
+   "secteur": "oui",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Pré-label accordé, Pré-Label accordé dès le 2ème tour, Zoor, Mahdi Houli, Radhi Houli, E-commerce, Prélabel",
+   "secteur": "oui",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Pré-label accordé, Pré-Label accordé dès le 2ème tour, Natalista, Rim Besbes, Plateforme sociale, Prélabel",
+   "secteur": "oui",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Pré-label accordé, Pré-Label accordé dès le 2ème tour, Videsys, Abdelaziz Ktari, Walid Messaoudia, Media, Prélabel",
+   "secteur": "oui",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Pré-label accordé, Pré-Label accordé dès le 2ème tour, AYSHEK, Amine Dimassi, Mohamed Amine Baatout, E-commerce, Prélabel",
+   "secteur": "oui",
+   "resultat": ""
+  },
+  {
+   "societe": "Pré-label accordé",
+   "fondateurs": "Pré-Label accordé après pitching, Kidsbook, Mohamed Nadhir Belkhir, Hafedh Dziri, Ed tech, Prélabel",
+   "secteur": "oui",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Pré-label accordé, Pré-Label accordé dès le 2ème tour, Hezni Maak, Youssef Meksi, Plateforme sociale, Prélabel",
+   "secteur": "oui",
+   "resultat": ""
+  },
+  {
+   "societe": "Pré-label accordé",
+   "fondateurs": "Pré-Label accordé après pitching, Pool & Fish Farm Smart Water, Management “P&FF-SWM”, Afef Bohli, Sami Tabbane, IOT, Prélabel",
+   "secteur": "oui",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Pré-label accordé, Pré-Label accordé dès le 2ème tour, Massart Engineering, Mahdi Ghribi, Logiciel, Label",
+   "secteur": "oui",
+   "resultat": ""
+  },
+  {
+   "societe": "Label non-accordé",
+   "fondateurs": "Label non accordé après pitching, MyCity, Mohamed Sami Rahoui, Marketing, Prélabel",
+   "secteur": "oui",
+   "resultat": ""
+  },
+  {
+   "societe": "Label non-accordé",
+   "fondateurs": "Label non accordé après pitching, Tisopia, Wala Kasmi, Mohamed Boumiza, Structure d'appui",
+   "secteur": "(plateforme sociale)",
+   "resultat": "Label"
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label non-accordé, Label non accordé dès le 2ème tour, TUNMOB SA (DIGIT-U), Houssine Midouni, Insurance tech, Label",
+   "secteur": "oui",
+   "resultat": ""
+  },
+  {
+   "societe": "Label non-accordé",
+   "fondateurs": "Label non accordé après pitching, Zakaria Belkhoja a déclaré un conflit d'intérêt, SMAAO Tunisie, Amjed Ben Salah, Insurance tech, Label",
+   "secteur": "oui",
+   "resultat": ""
+  },
+  {
+   "societe": "Label non-accordé",
+   "fondateurs": "Label non accordé après pitching, IYADATI, Cheker Jarray, Health tech, Prélabel",
+   "secteur": "oui",
+   "resultat": ""
+  },
+  {
+   "societe": "Pré-label non-accordé",
+   "fondateurs": "Pré-Label non accordé après pitching, Aevny, Nacir Bouazizi, Ahmed Ben Marzoug, E-commerce, Prélabel",
+   "secteur": "oui",
+   "resultat": "Pré-label non-accordé"
+  },
+  {
+   "societe": "Pré-label non accordé dès le 2ème tour",
+   "fondateurs": "Elyes Jeribi a déclaré un conflit d'intérêt, Doctor Sina, Laaroussi Ben Younes, Health tech, Prélabel",
+   "secteur": "oui",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Pré-label non-accordé, Pré-label non accordé dès le 2ème tour, Iris technologies, Khaled Bouchoucha, Agritech, Label",
+   "secteur": "non",
+   "resultat": "Label non-accordé"
+  },
+  {
+   "societe": "Le dossier est irrecevable pour manque de documents requis par le",
+   "fondateurs": "",
+   "secteur": "décret 2018-840",
+   "resultat": "Agri Land"
+  },
+  {
+   "societe": "Saifeddine Kacem",
+   "fondateurs": "AyetAllah Hlaiem, Agritech, Label",
+   "secteur": "non",
+   "resultat": "Label non-accordé"
+  },
+  {
+   "societe": "Le dossier est irrecevable pour non conformité aux critères d'éligibilité",
+   "fondateurs": "",
+   "secteur": "décrits par le décret 2018-840",
+   "resultat": ""
+  }
+ ],
+ "session_data": {
+  "candidatures": 33,
+  "labels": 14,
+  "preLabels": 8,
+  "taux_acceptation_pct": 42.4,
+  "statut": "corrigee",
+  "correction": {
+   "anciennes_valeurs": {
+    "labels": 15,
+    "preLabels": 8
+   },
+   "valeurs_corrigees": {
+    "labels": 14,
+    "preLabels": 8
+   },
+   "raison": "14 labels (scrapé : 15)",
+   "commentaires_pdf": "1 ajourné à la session suivante"
+  }
+ }
+}

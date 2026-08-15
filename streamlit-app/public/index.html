@@ -203,6 +203,11 @@
     .pdf-card .body .stats .cand { color: #0f3460; }
     .pdf-card .body .stats .label { color: #16a34a; }
     .pdf-card .body .stats .pre { color: #ea580c; }
+    .json-summary { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 12px 14px; margin-bottom: 10px; font-size: 0.85em; line-height: 1.6; }
+    .json-summary .chip { display: inline-block; padding: 2px 10px; border-radius: 999px; font-size: 0.75em; font-weight: 600; margin-right: 6px; }
+    .json-summary .chip.ok { background: #dcfce7; color: #166534; }
+    .json-summary .chip.warn { background: #fef3c7; color: #92400e; }
+    #sessionJsonPre { max-height: 420px; overflow: auto; background: #0f172a; color: #e2e8f0; border-radius: 10px; padding: 14px; font-family: 'JetBrains Mono', 'Consolas', monospace; font-size: 0.78em; line-height: 1.5; white-space: pre-wrap; word-break: break-word; }
     .doc-card { background: white; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); overflow: hidden; }
     .doc-card .doc-header { padding: 16px 20px; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; align-items: center; }
     .doc-card .doc-header h3 { margin: 0; font-size: 1em; }
@@ -898,6 +903,7 @@
         <button type="button" class="dropdown-toggle">📄 Documents</button>
         <div class="dropdown-menu">
           <a href="#" data-page="pdfs">PDFs Sessions</a>
+          <a href="#" data-page="session-json">JSON Sessions</a>
           <a href="#" data-page="annual-pdfs">PDFs Annuels</a>
           <a href="#" data-page="corrections">Corrections</a>
           <a href="#" data-page="fiche">Fiche de Cadrage</a>
@@ -1126,6 +1132,33 @@
       <iframe id="pdfFrame"></iframe>
     </div>
     <div class="pdf-grid" id="pdfGrid"></div>
+  </section>
+
+  <!-- JSON DES SESSIONS (85) -->
+  <section id="page-session-json">
+    <div class="page-header">
+      <h1>JSON des Sessions</h1>
+      <p>Les 85 fichiers JSON — un par session · valeurs corrigées (source de vérité : <code>sessions.json</code>)</p>
+    </div>
+    <div class="summary-box" style="margin-bottom:20px">
+      <strong>📦 Contenu :</strong> chaque fichier JSON = <code>entrees[]</code> extraites du PDF officiel + bloc
+      <code>session_data</code> avec les <strong>valeurs corrigées</strong> (candidatures, labels, pré-labels, taux).
+      Pour les 20 sessions auditées, un bloc <code>correction</code> indique anciennes (fausses) → nouvelles (corrigées).
+    </div>
+    <div class="search-bar">
+      <input type="text" id="sessionJsonSearch" placeholder="Rechercher une session..." oninput="filterSessionJson(this.value)">
+    </div>
+    <div id="sessionJsonViewer" style="display:none;margin-bottom:20px">
+      <div style="display:flex;gap:8px;margin-bottom:8px;flex-wrap:wrap;align-items:center">
+        <button onclick="closeSessionJson()" class="btn btn-red">✕ Fermer</button>
+        <button onclick="copySessionJson()" class="btn btn-outline">📋 Copier</button>
+        <a id="sessionJsonDownload" href="#" download class="btn btn-outline">⬇ Télécharger</a>
+        <span id="sessionJsonBadge" style="font-size:0.85em"></span>
+      </div>
+      <div id="sessionJsonSummary" class="json-summary"></div>
+      <pre id="sessionJsonPre"></pre>
+    </div>
+    <div class="pdf-grid" id="sessionJsonGrid"></div>
   </section>
 
   <!-- PDFS ANNUELS -->
@@ -2037,6 +2070,7 @@ const PAGE_META = {
   startupblink: 'Veille externe · StartupBlink.com (août 2026)',
   reports: 'Rapports officiels',
   pdfs: '85 rapports de labellisation',
+  'session-json': '85 fichiers JSON · valeurs corrigées',
   'annual-pdfs': 'Rapports annuels complets',
   parcours: 'Parcours Prélabel → Label',
   corrections: 'Audit & corrections des données',
@@ -2080,6 +2114,7 @@ function switchPage(page) {
   if (page === 'startupblink') setTimeout(renderStartupBlinkCharts, 200);
   if (page === 'impact') setTimeout(renderImpactCharts, 200);
   if (page === 'kpis') renderKpiCatalogue();
+  if (page === 'session-json') setTimeout(renderSessionJson, 200);
   document.getElementById('navLinks')?.classList.remove('open');
   document.getElementById('navToggle')?.classList.remove('active');
   document.getElementById('page-' + page)?.scrollIntoView({behavior:'smooth'});
@@ -3196,6 +3231,117 @@ function filterPdfs(q) {
       msg.id = 'pdfEmpty';
       msg.className = 'empty-state';
       msg.textContent = 'Aucun PDF ne correspond à « ' + q + ' »';
+      grid.appendChild(msg);
+    }
+  } else if (msg) msg.remove();
+}
+
+// ===== JSON DES SESSIONS (85) =====
+let sessionJsonCache = null;
+
+async function renderSessionJson() {
+  const grid = document.getElementById('sessionJsonGrid');
+  if (!grid) return;
+  if (sessionJsonCache) {
+    document.getElementById('sessionJsonSearch').value = '';
+    renderSessionJsonCards(sessionJsonCache);
+    return;
+  }
+  const files = await fetch('/api/session-json').then(r => r.json());
+  const m = f => { const r = f.match(/session_(\d{4})_(\d{2})\.json/); return r ? `Session ${r[2]}/${r[1]}` : f; };
+  grid.innerHTML = files.map(f => `
+    <div class="pdf-card" onclick="openSessionJson('${f}')" data-file="${f}">
+      <div class="thumb" style="background:linear-gradient(135deg,#0f172a 0%,#1e3a8a 100%)"><span class="badge">JSON</span></div>
+      <div class="body">
+        <div class="name">${m(f)}</div>
+        <div class="stats"><span style="opacity:.55">Chargement…</span></div>
+        <div class="meta">${f}</div>
+      </div>
+    </div>`).join('');
+
+  const dataMap = {};
+  await Promise.all(files.map(async f => {
+    try { dataMap[f] = await fetch('/api/session-json/' + f).then(r => r.json()); }
+    catch (e) { dataMap[f] = null; }
+  }));
+  sessionJsonCache = files;
+  renderSessionJsonCards(files, dataMap);
+}
+
+function renderSessionJsonCards(files, dataMap) {
+  const grid = document.getElementById('sessionJsonGrid');
+  const m = f => { const r = f.match(/session_(\d{4})_(\d{2})\.json/); return r ? `Session ${r[2]}/${r[1]}` : f; };
+  grid.innerHTML = files.map(f => {
+    const d = (dataMap || {})[f];
+    const sd = d && d.session_data;
+    const stats = sd
+      ? `<span class="cand">📋 ${sd.candidatures}</span><span class="label">✅ ${sd.labels}</span><span class="pre">🟠 ${sd.preLabels}</span>`
+      : `<span style="opacity:.55">—</span>`;
+    const chip = sd && sd.statut === 'corrigee'
+      ? `<span class="chip warn">⚠ corrigée</span>` : `<span class="chip ok">✔ conforme</span>`;
+    return `<div class="pdf-card" onclick="openSessionJson('${f}')" data-file="${f}">
+      <div class="thumb" style="background:linear-gradient(135deg,#0f172a 0%,#1e3a8a 100%)"><span class="badge">JSON</span></div>
+      <div class="body">
+        <div class="name">${m(f)} ${chip}</div>
+        <div class="stats">${stats}</div>
+        <div class="meta">${f}</div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+async function openSessionJson(filename) {
+  const viewer = document.getElementById('sessionJsonViewer');
+  viewer.style.display = 'block';
+  document.getElementById('sessionJsonPre').textContent = 'Chargement…';
+  document.getElementById('sessionJsonSummary').innerHTML = '';
+  document.getElementById('sessionJsonBadge').textContent = filename;
+  document.getElementById('sessionJsonDownload').href = '/api/session-json/' + filename;
+  document.getElementById('sessionJsonDownload').setAttribute('download', filename);
+  const d = await fetch('/api/session-json/' + filename).then(r => r.json());
+  const sd = d.session_data || {};
+  const corrigee = sd.statut === 'corrigee';
+  let html = `Session <strong>${escapeHtml(d.session)}</strong> · <span class="chip ${corrigee ? 'warn' : 'ok'}">${corrigee ? '⚠ valeurs corrigées' : '✔ valeurs conformes'}</span>`;
+  if (sd.candidatures !== undefined) {
+    html += `<br>📋 <strong>${sd.candidatures}</strong> candidatures · ✅ <strong>${sd.labels}</strong> labels · 🟠 <strong>${sd.preLabels}</strong> pré-labels · 📊 <strong>${sd.taux_acceptation_pct ?? '—'}</strong> % taux d'acceptation`;
+  }
+  if (corrigee && sd.correction) {
+    const c = sd.correction;
+    html += `<br>🔁 <strong>Correction :</strong> labels ${c.anciennes_valeurs.labels} → ${c.valeurs_corrigees.labels} · pré-labels ${c.anciennes_valeurs.preLabels} → ${c.valeurs_corrigees.preLabels} — <em>${escapeHtml(c.raison)}</em>`;
+  }
+  if (d.nb_entrees !== undefined) html += `<br>📄 <strong>${d.nb_entrees}</strong> lignes extraites du PDF`;
+  document.getElementById('sessionJsonSummary').innerHTML = html;
+  document.getElementById('sessionJsonPre').textContent = JSON.stringify(d, null, 2);
+  viewer.scrollIntoView({ behavior: 'smooth' });
+}
+
+function closeSessionJson() {
+  document.getElementById('sessionJsonViewer').style.display = 'none';
+  document.getElementById('sessionJsonPre').textContent = '';
+}
+
+function copySessionJson() {
+  const text = document.getElementById('sessionJsonPre').textContent;
+  if (!text) return;
+  navigator.clipboard?.writeText(text).then(() => alert('JSON copié ✓')).catch(() => {});
+}
+
+function filterSessionJson(q) {
+  const cards = document.querySelectorAll('#sessionJsonGrid .pdf-card');
+  let shown = 0;
+  cards.forEach(c => {
+    const vis = c.textContent.toLowerCase().includes(q.toLowerCase());
+    c.style.display = vis ? '' : 'none';
+    if (vis) shown++;
+  });
+  const grid = document.getElementById('sessionJsonGrid');
+  let msg = document.getElementById('sessionJsonEmpty');
+  if (q && shown === 0) {
+    if (!msg) {
+      msg = document.createElement('div');
+      msg.id = 'sessionJsonEmpty';
+      msg.className = 'empty-state';
+      msg.textContent = 'Aucune session ne correspond à « ' + q + ' »';
       grid.appendChild(msg);
     }
   } else if (msg) msg.remove();

@@ -48,6 +48,13 @@ class Handler(http.server.SimpleHTTPRequestHandler):
             self._send_json(None, data=files)
         elif path == '/api/pdf-extracted':
             self._send_json(os.path.join(DATA, 'session_pdfs_extracted.json'))
+        elif path == '/api/session-json':
+            sj_dir = os.path.join(DATA, 'session-pdfs-json')
+            files = sorted([f for f in os.listdir(sj_dir) if f.endswith('.json')])
+            self._send_json(None, data=files)
+        elif path.startswith('/api/session-json/'):
+            name = os.path.basename(path[len('/api/session-json/'):])
+            self._send_json(os.path.join(DATA, 'session-pdfs-json', name))
         elif path.startswith('/api/pdf-annual/'):
             self._serve_pdf(path, annual=True)
         elif path.startswith('/api/pdf/'):

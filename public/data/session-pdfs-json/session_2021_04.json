@@ -1,0 +1,623 @@
+{
+ "session": "04/2021",
+ "annee": 2021,
+ "mois": 4,
+ "pdf": "session_2021_04.pdf",
+ "nb_entrees": 101,
+ "source": "Extraction des PDF officiels des sessions — startup.gov.tn (voir Corrections)",
+ "entrees": [
+  {
+   "societe": "Startup Act | Session 25 | Avril 2021 | Compte-Rendu",
+   "fondateurs": "Société, Fondateurs, Secteur, Label/Prélabel",
+   "secteur": "1er Tour",
+   "resultat": ""
+  },
+  {
+   "societe": "Résultat",
+   "fondateurs": "Commentaires, Recevabilité, Pitching, Conflit, My Enlightened Mind, Oussama Ben Mahmoud, Adem Abidi, EdTech, Label",
+   "secteur": "8",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, DEEP FLOWS, Mohamed Makni, Farah Makni, Wissem Allouchi, Mobility, Label",
+   "secteur": "7",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Ali Mnif a déclaré un conflit d'intérêt, Autoween, Mouheb Kraiem, Maha Benmohamed, CreativeTech, Label",
+   "secteur": "8",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, TAWA Digital Talents, Mohamed Salah Mbarek, Creative industry, Label",
+   "secteur": "7",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Mohamed Salah Frad a déclaré un conflit d'intérêt, ZIGOFILTRE, Youssef Bouzariata, Mohemed Rameh, Amine Shiri, Environment, Label",
+   "secteur": "7",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Mohamed Salah Frad a déclaré un conflit d'intérêt, Taxiora / Smarteo, Walid Saadaoui, Khaled Benlatrach, Raouia Magroun, Mobility, Label",
+   "secteur": "9",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Tunisie Aquaponie, Sofiene Rouis, Agritech, Label",
+   "secteur": "8",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Ste Tildah, Bouraoui Ben Ammar, Business Software, Label",
+   "secteur": "7",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Takwinland, Brahim jaouad, Mohamed Amroussi, Oumar Rejeb, EdTech, Label",
+   "secteur": "6",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, ODIX, Anis Zehani, Anissa Zehani, Business Software, Label",
+   "secteur": "7",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, FreeOui, Moez Beddi, Ilyes Masmoudi, Amine Ennouri, Services de communication Label",
+   "secteur": "8",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Nkawroo, Kais Malki, Mobility, Label",
+   "secteur": "5",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour",
+   "secteur": "medtrip",
+   "resultat": "Achraf Msakni"
+  },
+  {
+   "societe": "Sabra Gargouri",
+   "fondateurs": "Health Care & Wellbeing, Label",
+   "secteur": "7",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour",
+   "secteur": "branper",
+   "resultat": "Saïd Ben Jlili"
+  },
+  {
+   "societe": "Hamza ben jannet",
+   "fondateurs": "Fintech, Label",
+   "secteur": "5",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Rednaks, Skander Chouka, Business Software, Label",
+   "secteur": "5",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Be Smart Travel, Wissem Ben Ameur, Yassine Abid, Driss Nadhem, Firas Makni, Dorra Barkallah, Taieb Kerkeny, Khedhiri Salah, TravelTech, Label",
+   "secteur": "8",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Reevalo, Bacem Rezgui, Real Estate tech, Label",
+   "secteur": "6",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour",
+   "secteur": "elbusines.com",
+   "resultat": "Hela Jelassi"
+  },
+  {
+   "societe": "Anis Borchani",
+   "fondateurs": "Marketplace, Label",
+   "secteur": "1",
+   "resultat": ""
+  },
+  {
+   "societe": "Label accordé",
+   "fondateurs": "Label accordé suite au pitching",
+   "secteur": "capxvalue",
+   "resultat": "Maher Zaanouni"
+  },
+  {
+   "societe": "Business Software",
+   "fondateurs": "Prélabel",
+   "secteur": "7",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel  accordé, Prélabel accordé dès le 2ème tour, Rania WERDA, Rania Werda, Social Business, Prélabel",
+   "secteur": "6",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel  accordé, Prélabel accordé dès le 2ème tour, Takwira, Zied Dahmani, Amen Allah Dahmani, Plateforme Social, Prélabel",
+   "secteur": "7",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel  accordé, Prélabel accordé dès le 2ème tour",
+   "secteur": "flexiolar",
+   "resultat": "Hamdi kardough"
+  },
+  {
+   "societe": "Chayma Ben salem",
+   "fondateurs": "Farrah Marwa, Environment, Prélabel",
+   "secteur": "6",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel  accordé, Prélabel accordé dès le 2ème tour, Analytix, Mariam Ouanes, Ahmed Becha, Ines El Ayeb, Amine Gara, Fintech, Prélabel",
+   "secteur": "7",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel  accordé, Prélabel accordé dès le 2ème tour, Vizmerald, Bassem Seddik, Creative industry, Prélabel",
+   "secteur": "6",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel  accordé, Prélabel accordé dès le 2ème tour, Birou Suite, Alaa Chaibi, Imen Boumiza, Business Software, Prélabel",
+   "secteur": "9",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel  accordé, Prélabel accordé dès le 2ème tour, Décotis, Meher Hedhli, Mohamed Barki, Real Estate tech, Prélabel",
+   "secteur": "7",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel  accordé, Prélabel accordé dès le 2ème tour, MediTek, Adel Hamdi, Health Care & Wellbeing, Prélabel",
+   "secteur": "9",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel  accordé, Prélabel accordé dès le 2ème tour, MCOM, Khaled Mediouni, Mohamed Haythem Goddi, Business Software, Prélabel",
+   "secteur": "6",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel  accordé, Prélabel accordé dès le 2ème tour",
+   "secteur": "isondF",
+   "resultat": "Firas Yousfi"
+  },
+  {
+   "societe": "Abdessalem Bazine",
+   "fondateurs": "Mehdi Maalawi, Plateforme Social, Prélabel",
+   "secteur": "5",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel  accordé, Prélabel accordé dès le 2ème tour, Wassaloo, Abdeljelil Lazaar, Mustapha Guellaty, Mohamed Zouhaier Zammel, Agritech, Prélabel",
+   "secteur": "5",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel  accordé, Prélabel accordé dès le 2ème tour, TAWSILA, Hajer Romdhani, Hafedh Ben Abdelhafidh, Mobility, Prélabel",
+   "secteur": "6",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel  accordé, Prélabel accordé dès le 2ème tour, Paprika Solutions, Ibrahim Jlassi, Mohamed Belouaer, Houssem Chaabani, Creative industry, Prélabel",
+   "secteur": "7",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel  accordé, Prélabel accordé dès le 2ème tour, Kindeal, Mohamed Ali Shili, Moez Hammami, EdTech, Prélabel",
+   "secteur": "8",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel  accordé, Prélabel accordé dès le 2ème tour, School Pack, Firas Dhaouadi, Maalej Ahmed, EdTech, Prélabel",
+   "secteur": "5",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel  accordé, Prélabel accordé dès le 2ème tour, DataSense, Charef Ahmed, Anas Charfi, Services de communication Prélabel",
+   "secteur": "7",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel  accordé, Prélabel accordé dès le 2ème tour, Marcus Studio, Azzez Moatez, Hamza Gassab, Creative industry, Prélabel",
+   "secteur": "6",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel  accordé, Prélabel accordé dès le 2ème tour, DIGITIN, Aymen Bergaoui, Creative industry, Prélabel",
+   "secteur": "6",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel  accordé, Prélabel accordé dès le 2ème tour, EVADAM, Souhail Msakni, Sami Sghaier, Ahmed Liouene, Fintech, Prélabel",
+   "secteur": "6",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel  accordé, Prélabel accordé dès le 2ème tour, DIMAZINA, Hajer Sahnoun, Faten Sahnoun, Social Business, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "Prélabel  accordé",
+   "fondateurs": "Prélabel accordé suite au pitching, KICK LIGHT, Mohamed Amir Lahmar, Health Care & Wellbeing, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "Prélabel  accordé",
+   "fondateurs": "Prélabel accordé suite au pitching, NextAV, Hichem Mokni, Foued Elkamel, Creative industry, Prélabel",
+   "secteur": "2",
+   "resultat": ""
+  },
+  {
+   "societe": "Prélabel  accordé",
+   "fondateurs": "Prélabel accordé suite au pitching, PROTABAR, Walid Trabelsi, FoodTech & New Food, Prélabel",
+   "secteur": "1",
+   "resultat": ""
+  },
+  {
+   "societe": "Prélabel  accordé",
+   "fondateurs": "Prélabel accordé suite au pitching, MY-OYA, Sarra Khemakhem, Oumayma Kéfi, Marketplace / e-commerce Label",
+   "secteur": "-",
+   "resultat": "Label non accordé"
+  },
+  {
+   "societe": "Label non accordé dès le 2ème tour",
+   "fondateurs": "Elyes Jeribi a déclaré un conflit d'intérêt",
+   "secteur": "\"A7yini\" / CBM-EE",
+   "resultat": "Afef Letaief"
+  },
+  {
+   "societe": "Aziz Hafsa",
+   "fondateurs": "EdTech, Label",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, ABONO\\FINEX, Kais Euchi, Business Software, Label",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, UNIVERSAL MARKETING, Aymen Gahbiche, Nourine Bouguella, EdTech, Label",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, STERECO, Ala Eddine Maatoug, Health Care & Wellbeing, Label",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, Wimbee, Neila Benzina, Business Software, Label",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour",
+   "secteur": "la ferme bio-écologique pédagogique",
+   "resultat": "\"Rissala Kids Farm\""
+  },
+  {
+   "societe": "Imen Mefteh",
+   "fondateurs": "Ilef Oumari, Health Care & Wellbeing, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour, Looklyoum, Wafa Makni, Imed Elabed, Développement personnel, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour, Check Check, Bechir Bouazizi, Fintech, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour, Bee Eyes Tunisia, Mohamed Hadiji, Aymen Tounsi, Mohamed Kabadou, Services de communication Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, VirStand, Mohamed Ali Zaier, Mohamed Ben Romdhane, Services de communication Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour, Elyes Jeribi a déclaré un conflit d'intérêt, MiamMiam, Rim Ben Mansour, FoodTech & New Food, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour",
+   "secteur": "3DSky",
+   "resultat": "Montassar Faidi"
+  },
+  {
+   "societe": "EdTech",
+   "fondateurs": "Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour",
+   "secteur": "drone intelligent",
+   "resultat": "Golli Youssef"
+  },
+  {
+   "societe": "Creative industry",
+   "fondateurs": "Prélabel",
+   "secteur": "1",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour, EatHome Resto, Nahla Saidani, Moez Hmidi, FoodTech & New Food, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour, Elyes Jeribi a déclaré un conflit d'intérêt, Alpha Mall, Amri Abderrahmen, Ines Miled, Gharsalli Wael, Kachouri Hind, Malek Najahi, Marketplace, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, Elyes Jeribi a déclaré un conflit d'intérêt, Direct DK, Maher Essalah, FoodTech & New Food, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour, Elyes Jeribi a déclaré un conflit d'intérêt, BananaBlue, Wessim Elkefi, Marwene Bouhawel, Plateforme Social, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour, Lexperto, Malek Oueslati, Dorsaf Bel Hadj Mohamed, Plateforme Social, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour",
+   "secteur": "creances.tn",
+   "resultat": "Maher Chafii"
+  },
+  {
+   "societe": "Fintech",
+   "fondateurs": "Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour",
+   "secteur": "twansa.tn",
+   "resultat": "Rani Ben Mahmoud"
+  },
+  {
+   "societe": "Safa Rzig",
+   "fondateurs": "Social Business, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour, EDL, Wala Bouzouita, Mohamed Bouzouita, Elyes Belhaj, Real Estate tech, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, Darenup, Mortadha Mehri, Jesser Ben Mefteh, Plateforme Social, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour, Sonia Ben Rejeb, Sonia Ben Rejeb, Mohamed Aziz Ben haj ali, Oussama Mhimdi, Wessim Khiari, Nessrine Ben Hadj Youssef, Biotech, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, Digi-Hire, Maroua Ben Khaled, Mariem Mahjouba Saidani, Asma Ben Ghali, Business Software, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, SmartShop, Ahmed Fakhri Hamrouni, Mohamed Yessine Soufi, Hanen Amraoui, Services de communication Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, HIPPOCRATES, Dhafer Ben Amor, Rym Bedoui, Health Care & Wellbeing, Prélabel",
+   "secteur": "1",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour, CBOT, Linda Riahi, Bassems Lamouchi, Hedi Manai, Services de communication Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, SwitchAutomobile, Wajih tarsim, Ahmed Fourati, Marketplace, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour",
+   "secteur": "ija ndhayfek",
+   "resultat": "Nassim Naimi"
+  },
+  {
+   "societe": "Social Business",
+   "fondateurs": "Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour, General Computing Solutions Company, Lokmen Rojbeni, Hajer Rojbeni, Business Software, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour, Particulier, Wael Boubaker, Real Estate tech, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour, Go switch, Marwa Setti, Med Aziz Setti, TravelTech, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour, InBox, Sana Khadhraoui, Adam Ben mokded, Aymen Yanoubli, Logistics, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, Gestion Environnementale, Awes Ferchichi, Fahmi Missaoui, Creative industry, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour, ReMotion, Ahmed Nabli, Moez Lachneb, Health Care & Wellbeing, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "Prélabel non accordé Prélabel non accordé suite au pitching",
+   "fondateurs": "Mohamed Salah Frad a déclaré un conflit d'intérêt, AvatarBooking, Slim Ben Yedder, Ridha Alouani, Plateforme Social, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "Prélabel non accordé Prélabel non accordé suite au pitching",
+   "fondateurs": "Shwoppy, Ikram Aloui, Karim Aloui, Yosr Aloui, Advanced Manufacturing &, Industry, Label, N.A, N.A, N.A, N.A, N.A, N.A, Label non accordé, Dossier irrecevale pour présentation d'un document",
+   "secteur": "officiel altéré.",
+   "resultat": "Passage de Prélabels aux Labels"
+  },
+  {
+   "societe": "Société",
+   "fondateurs": "Projet, Fondateurs, Secteur, Session d'obtention",
+   "secteur": "du Prélabel",
+   "resultat": "Résultat"
+  },
+  {
+   "societe": "Commentaires",
+   "fondateurs": "BOS BLASTER OZONE SOLUTIONS, VIRGIN, Ahmed Aziz Chaker, Mourad Chaker, Cleantech, Octobre 2020, Label accordé, Label accordé suite à la création de la Startup et le respect des",
+   "secteur": "conditions d'octroi",
+   "resultat": "Keto Life Style"
+  },
+  {
+   "societe": "Keto Life Style",
+   "fondateurs": "Yesmine Ben Ameur, Mohamed Ali Rekik, E-commerce, Octobre 2020, Label accordé, Label accordé suite à la création de la Startup et le respect des",
+   "secteur": "conditions d'octroi",
+   "resultat": "Smart Brain Corporation"
+  },
+  {
+   "societe": "Akram Mrad",
+   "fondateurs": "EdTech, Novembre 2020, Label accordé, Label accordé suite à la création de la Startup et le respect des",
+   "secteur": "conditions d'octroi",
+   "resultat": "ECGLab"
+  },
+  {
+   "societe": "ECG Lab",
+   "fondateurs": "Hatem Rabeh, Adel Fardi, Ayoub Belfekih, Health Care & Wellbeing, Octobre 2020, Label accordé, Label accordé suite à la création de la Startup et le respect des",
+   "secteur": "conditions d'octroi",
+   "resultat": "Retrait de Label Startup"
+  },
+  {
+   "societe": "Société",
+   "fondateurs": "Fondateurs, Secteur, Session d'obtention",
+   "secteur": "du Label",
+   "resultat": "Décision"
+  },
+  {
+   "societe": "Commentaires",
+   "fondateurs": "Educanet Tunisia, Anis Arbia, EdTech, Avril 2019, Retrait du Label, La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-",
+   "secteur": "2018 pour les sociétés bénéficiaires du Label",
+   "resultat": ""
+  }
+ ],
+ "session_data": {
+  "candidatures": 80,
+  "labels": 22,
+  "preLabels": 24,
+  "taux_acceptation_pct": 27.5,
+  "statut": "conforme"
+ }
+}

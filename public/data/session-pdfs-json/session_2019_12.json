@@ -1,0 +1,293 @@
+{
+ "session": "12/2019",
+ "annee": 2019,
+ "mois": 12,
+ "pdf": "session_2019_12.pdf",
+ "nb_entrees": 46,
+ "source": "Extraction des PDF officiels des sessions — startup.gov.tn (voir Corrections)",
+ "entrees": [
+  {
+   "societe": "Startup Act | Session 9 | Décembre 2019 | Compte-Rendu",
+   "fondateurs": "Société, Fondateurs, Secteur, Label/Prélabel",
+   "secteur": "1er Tour",
+   "resultat": ""
+  },
+  {
+   "societe": "Résultat",
+   "fondateurs": "Commentaires, Recevabilité, Pitching, Conflit, CYNOIA, Skander Essid, Ayoub Rebeh, Nasreddine Riahi, Telecom, Label",
+   "secteur": "5",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Société Jhimi Pour Les Elévateurs Légers, Houcine Jhimi, Ali Jhimi, Agritech, Label",
+   "secteur": "5",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Grabingo, Mohamed Khalloufi, Marketing, Label",
+   "secteur": "5",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Ali Mnif a déclaré un conflit d'intérêt, Logis Technologies, Riadh Ellouze, Logiciel, Label",
+   "secteur": "7",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Ali Mnif a déclaré un conflit d'intérêt",
+   "secteur": "K2LIS",
+   "resultat": "Tarek Kammoun"
+  },
+  {
+   "societe": "Farouk Kamoun",
+   "fondateurs": "Mohamed Ben Laroussi Limame, Fintech, Label",
+   "secteur": "8",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, STRIKE MOTOTRS, Mohamed Ben Mahmoud, Cleantech, Label",
+   "secteur": "7",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, KHEER, Chaker Lafi, Haythem Khalifa, Salem Khalifa, Bechir Yahya",
+   "secteur": "iOT",
+   "resultat": "Label"
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Tap4glam, Maya Touati, E-commerce, Label",
+   "secteur": "7",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Ali Mnif et Zakaria Belkhoja ont déclaré un conflit d'intérêt, Ahmini, Meher Khelifi, Plateforme sociale, Label",
+   "secteur": "9",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Chantier, Moufid Ben Hmida, Shady Achouri, Marketing, Label",
+   "secteur": "5",
+   "resultat": "Label accordé"
+  },
+  {
+   "societe": "Label accordé dès le 2ème tour",
+   "fondateurs": "Ali Mnif et Zakaria Belkhoja ont déclaré un conflit d'intérêt, Club privilèges / BIGDeal, Issam Essefi, Imededdine Essefi, Iheb Beji, Mobile, Label",
+   "secteur": "5",
+   "resultat": "Label accordé"
+  },
+  {
+   "societe": "Label accordé dès le 2ème tour",
+   "fondateurs": "Ali Mnif et Khaled Ben Jilani ont déclaré un conflit d'intérêt, Iowaves, Amine Rahmouni, Energie, Label",
+   "secteur": "5",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Beego, Amine Sammary, Mobile, Label",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "Label accordé",
+   "fondateurs": "Label accordé après pitching, AfiaTech, Leith Glissa, Health tech, Prélabel",
+   "secteur": "8",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel accordé, Prélabel accordé dès le 2ème tour, MICE, Nasreddine Somaali, Marwa Khmissi, Agritech, Prélabel",
+   "secteur": "6",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel accordé, Prélabel accordé dès le 2ème tour, Fasteas, Kais Ben Ayed, Meriem ElMay, Plateforme sociale, Prélabel",
+   "secteur": "8",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel accordé, Prélabel accordé dès le 2ème tour, New Wave for communication & solutions, Naoufel Elarayedh, Wael Dhouib, E-commerce, Prélabel",
+   "secteur": "8",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel accordé, Prélabel accordé dès le 2ème tour, ALMOURAFEK, Imen Khanfir Kallel, Sonda Ammar Bouhamed, Robotique, Prélabel",
+   "secteur": "9",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel accordé, Prélabel accordé dès le 2ème tour, Bouita, Amir Matallaoui, Nadjib Mammeri, E-commerce, Prélabel",
+   "secteur": "9",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel accordé, Prélabel accordé dès le 2ème tour",
+   "secteur": "ﻖﯿﺣر - Raheeq",
+   "resultat": "Hamza Nechi"
+  },
+  {
+   "societe": "Agritech",
+   "fondateurs": "Prélabel",
+   "secteur": "3",
+   "resultat": ""
+  },
+  {
+   "societe": "Prélabel accordé",
+   "fondateurs": "Prélabel accordé après pitching, Pepolls, Jihed Rahmouni, Jihen Rahmouni, Omar Bouattay, Plateforme sociale, Prélabel",
+   "secteur": "1",
+   "resultat": ""
+  },
+  {
+   "societe": "Prélabel accordé",
+   "fondateurs": "Prélabel accordé après pitching, AUDACITY, Mohamed Amine Ouichka, Marketing, Label",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, SOCIETE ARDARY PARTNERS TUNISIA, Selim Snoussi, Radhi Khaled Bouloussa, Logiciel, Label",
+   "secteur": "1",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, PROSERVY, Ahmed Dridi, Logistique, Label",
+   "secteur": "2",
+   "resultat": ""
+  },
+  {
+   "societe": "Label non accordé",
+   "fondateurs": "Label non accordé après pitching, SUPPLY AIR, Hatem Lefi, Aymen Tleilia, Logiciel, Label",
+   "secteur": "2",
+   "resultat": ""
+  },
+  {
+   "societe": "Label non accordé",
+   "fondateurs": "Label non accordé après pitching, ALFA PRINT, Abdelkarim Feddal, E-commerce, Prélabel",
+   "secteur": "3",
+   "resultat": "Label non accordé"
+  },
+  {
+   "societe": "Label non accordé après pitching",
+   "fondateurs": "Elyes Jeribi a déclaré un conflit d'intérêt, Tun E-shop, Achref Riahi, E-commerce, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, Elyes Jeribi a déclaré un conflit d'intérêt, GPS-Infos, Mohamed Amine Boubakeri, E-commerce, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, Dyarna, Slim Ben Salah, Ekram Mzoughi, E-commerce, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, OFFBEAT MEDIA, Tejeddine Mta'allah, Marketing, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, OXN, Chamseddine Amaimia, Syrine Zitouni, Selim Lakhdhar, E-commerce, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, StarTAW, Dhafer Ben Amor, Fares Ben Amor, Nidhal Ben Amor, Edtech, Prélabel",
+   "secteur": "3",
+   "resultat": ""
+  },
+  {
+   "societe": "Prélabel non accordé",
+   "fondateurs": "Prélabel non accordé après pitching, Passage de Prélabels aux Labels, Société, Fondateurs, Secteur, Session d'obtention",
+   "secteur": "du Prélabel",
+   "resultat": "Résultat"
+  },
+  {
+   "societe": "Commentaires",
+   "fondateurs": "Advanced Functionalities For Smart Home -, Kwiklink Technologies, Lotfi Aguerbaoui, Telecom, Juillet 2019, Label accordé suite à la création de la Startup et le respect des",
+   "secteur": "conditions d'octroi",
+   "resultat": "Transfacile - Techno GM"
+  },
+  {
+   "societe": "Oussema Marai",
+   "fondateurs": "Ghada Chelly, Logistique, Mai 2019, Label accordé suite à la création de la Startup et le respect des",
+   "secteur": "conditions d'octroi",
+   "resultat": "Bookingtodo"
+  },
+  {
+   "societe": "Aziz Annabi",
+   "fondateurs": "Autre contenu créatif, Mai 2019, Label accordé suite à la création de la Startup et le respect des",
+   "secteur": "conditions d'octroi",
+   "resultat": "VME Internationale"
+  },
+  {
+   "societe": "Foued Ben Babis",
+   "fondateurs": "Montassar Gharssa, Plateforme sociale, Juin 2019, Label accordé suite à la création de la Startup et le respect des",
+   "secteur": "conditions d'octroi",
+   "resultat": "Kamioun - Kriga Technologies"
+  },
+  {
+   "societe": "Fares Belghith",
+   "fondateurs": "Abdelrahmen Ghariani, Logistique, Septembre 2019, Label accordé suite à la création de la Startup et le respect des",
+   "secteur": "conditions d'octroi",
+   "resultat": "Warecom"
+  },
+  {
+   "societe": "Hamza Said",
+   "fondateurs": "Nour Abbous, Ali Saidi, IoT, Octobre 2019, Label accordé suite à la création de la Startup et le respect des",
+   "secteur": "conditions d'octroi",
+   "resultat": "Foodealz"
+  },
+  {
+   "societe": "Rim Elfahem",
+   "fondateurs": "Iskander ELameri, E-commerce, Octobre 2019, Label accordé suite à la création de la Startup et le respect des",
+   "secteur": "conditions d'octroi",
+   "resultat": "X.P.R"
+  },
+  {
+   "societe": "Mohamed Aziz Chahed",
+   "fondateurs": "Mohamed Itheb Ben Abbes, Oussama Ouda, Mohamed Chebbi, Logiciel, Aout 2019, Label accordé suite à la création de la Startup et le respect des",
+   "secteur": "conditions d'octroi",
+   "resultat": "Natalista"
+  },
+  {
+   "societe": "Rim Besbes",
+   "fondateurs": "Plateforme sociale, Juin 2019, Label accordé suite à la création de la Startup et le respect des",
+   "secteur": "conditions d'octroi",
+   "resultat": "Kyto Prod"
+  },
+  {
+   "societe": "Olfa Kilani Feki",
+   "fondateurs": "Biotechnologie, Septembre 2019, Label accordé suite à la création de la Startup et le respect des",
+   "secteur": "conditions d'octroi",
+   "resultat": ""
+  }
+ ],
+ "session_data": {
+  "candidatures": 32,
+  "labels": 23,
+  "preLabels": 8,
+  "taux_acceptation_pct": 71.9,
+  "statut": "conforme"
+ }
+}

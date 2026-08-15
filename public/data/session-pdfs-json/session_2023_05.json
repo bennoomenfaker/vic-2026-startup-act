@@ -1,0 +1,323 @@
+{
+ "session": "05/2023",
+ "annee": 2023,
+ "mois": 5,
+ "pdf": "session_2023_05.pdf",
+ "nb_entrees": 51,
+ "source": "Extraction des PDF officiels des sessions — startup.gov.tn (voir Corrections)",
+ "entrees": [
+  {
+   "societe": "Startup Act | Session 38 | Mai 2022 | Compte-Rendu",
+   "fondateurs": "Société, Fondateurs, Secteur, Label/Prélabel",
+   "secteur": "1er Tour",
+   "resultat": ""
+  },
+  {
+   "societe": "Résultat",
+   "fondateurs": "Commentaires, Recevabilité, Pitching, Conflit, Acalainer, Yosr Halleb, Oussama Bahri, Mariem Allouche, EdTech, Label",
+   "secteur": "8",
+   "resultat": "Label Accordé"
+  },
+  {
+   "societe": "Label accordé dès le 2ème tour",
+   "fondateurs": "Live Metrics, Sarah Lamine, Khalil Ben Said, Karim Bouafif, Kerchaoui Amine, Business Software and services, Label",
+   "secteur": "8",
+   "resultat": "Label Accordé"
+  },
+  {
+   "societe": "Label accordé dès le 2ème tour",
+   "fondateurs": "FALKU, Slim Makhlouf, Khaled Omri, Ali Amamou, Advanced Manufacturing & Robotics Label",
+   "secteur": "8",
+   "resultat": "Label Accordé"
+  },
+  {
+   "societe": "Label accordé dès le 2ème tour",
+   "fondateurs": "Time and Money Tracker, Yousri Hajri, Ahmed Ayadi, Fintech, Label",
+   "secteur": "7",
+   "resultat": "Label Accordé"
+  },
+  {
+   "societe": "Label accordé dès le 2ème tour",
+   "fondateurs": "Deepnrise, Abdelkader Boussetta, Youssef Meddeb, Nizar Ayadi, Business Software and services, Label",
+   "secteur": "7",
+   "resultat": "Label Accordé"
+  },
+  {
+   "societe": "Label accordé dès le 2ème tour",
+   "fondateurs": "",
+   "secteur": "2Y2S",
+   "resultat": "Chermiti Rami Chermiti"
+  },
+  {
+   "societe": "EdTech",
+   "fondateurs": "Label",
+   "secteur": "7",
+   "resultat": "Label Accordé"
+  },
+  {
+   "societe": "Label accordé dès le 2ème tour",
+   "fondateurs": "Gigsdesk, Koussay Noomene, Iyed Ghribi, Nabil Amara, Business Software and services, Label",
+   "secteur": "7",
+   "resultat": "Label Accordé"
+  },
+  {
+   "societe": "Label accordé dès le 2ème tour",
+   "fondateurs": "Lyceena, Rayen Bouajaja, Jawher Thabet, Fakher Bourray, EdTech, Label",
+   "secteur": "7",
+   "resultat": "Label Accordé"
+  },
+  {
+   "societe": "Label accordé dès le 2ème tour",
+   "fondateurs": "Houda Ghozzi a déclaré avoir un conflit d'intérêt, INFINITE, Moez Jemaa, Mobility, Label",
+   "secteur": "6",
+   "resultat": "Label Accordé"
+  },
+  {
+   "societe": "Label accordé dès le 2ème tour",
+   "fondateurs": "SMOFT, Aymen Gahbiche, Business Software and services, Label",
+   "secteur": "6",
+   "resultat": "Label Accordé"
+  },
+  {
+   "societe": "Label accordé dès le 2ème tour",
+   "fondateurs": "Wildkard, Skander Chouka, Wellness, Label",
+   "secteur": "5",
+   "resultat": "Label Accordé"
+  },
+  {
+   "societe": "Label accordé dès le 2ème tour",
+   "fondateurs": "Ecobees, Mohamed Dhaouafi, Ali Dhaouafi, Ahmed Dhaouafi, Agritech, Label",
+   "secteur": "5",
+   "resultat": "Label Accordé"
+  },
+  {
+   "societe": "Label accordé dès le 2ème tour",
+   "fondateurs": "BFP, Boubaker Elaabed, Environment, Label",
+   "secteur": "4",
+   "resultat": "Label Accordé"
+  },
+  {
+   "societe": "Label Accordé suite au pitching",
+   "fondateurs": "",
+   "secteur": "immersion3D",
+   "resultat": "Omar Mellouli"
+  },
+  {
+   "societe": "Amira Jihène Kalai",
+   "fondateurs": "Mohamed mohamed, Siwar Ben Abdelwahed, Ad Tech and Creative Tech, Label",
+   "secteur": "0",
+   "resultat": "Label Non Accordé"
+  },
+  {
+   "societe": "Label Non accordé dès le 2ème tour",
+   "fondateurs": "Campus Numérique des Métiers, Fethi Zoghlami, Abeidi Slim, Ad Tech and Creative Tech, Label",
+   "secteur": "0",
+   "resultat": "Label Non Accordé"
+  },
+  {
+   "societe": "Label Non accordé dès le 2ème tour",
+   "fondateurs": "Green Card, Ismail Ibala, Nebil Aydi, Business Software and services, Label",
+   "secteur": "2",
+   "resultat": "Label Non Accordé"
+  },
+  {
+   "societe": "Label Non accordé suite au pitching",
+   "fondateurs": "South Fruits, Thouraya Rajah, Agritech, Label",
+   "secteur": "2",
+   "resultat": "Label Non Accordé"
+  },
+  {
+   "societe": "Label Non accordé suite au pitching",
+   "fondateurs": "Djerba Digital, Younsi Alaeddine, Mahjoubi Wael, Yassine Ben Ghorbal, Business Software and services, Label",
+   "secteur": "0",
+   "resultat": "Label Non Accordé"
+  },
+  {
+   "societe": "Label Non accordé suite au pitching",
+   "fondateurs": "E-KMANDI, Baha Hajri, Business Software and services, Prélabel",
+   "secteur": "8",
+   "resultat": "Prélabel Accordé"
+  },
+  {
+   "societe": "Prélabel accordé dès le 2ème tour",
+   "fondateurs": "EasyBank, Mohamed Khelifi, Maher Khelifi, Fintech, Prélabel",
+   "secteur": "7",
+   "resultat": "Prélabel Accordé"
+  },
+  {
+   "societe": "Prélabel accordé dès le 2ème tour",
+   "fondateurs": "Jhonny Bikes, Mohamed Bouhaouala, Miriam Abdeljaouad, Mobility, Prélabel",
+   "secteur": "6",
+   "resultat": "Prélabel Accordé"
+  },
+  {
+   "societe": "Prélabel accordé dès le 2ème tour",
+   "fondateurs": "Arzaak, Jihene Arzaak, Eya Akir, Racha Chwiref, Social Business, Prélabel",
+   "secteur": "6",
+   "resultat": "Prélabel Accordé"
+  },
+  {
+   "societe": "Prélabel accordé dès le 2ème tour",
+   "fondateurs": "Tunisie RGPD, Wissal Douissa, Rayen Cherni, Slim Abdejalil, Business Software and services, Prélabel",
+   "secteur": "5",
+   "resultat": "Prélabel Accordé"
+  },
+  {
+   "societe": "Prélabel accordé dès le 2ème tour",
+   "fondateurs": "Elevage des insectes (nutri-protéine), Abed Helmi Abed, FoodTech & New Food, Prélabel",
+   "secteur": "5",
+   "resultat": "Prélabel Accordé"
+  },
+  {
+   "societe": "Prélabel accordé dès le 2ème tour",
+   "fondateurs": "HelpyGo, Mohamed Melki, Yacine Maaroufi, Amani khalfaoui, Consumer products and services, Prélabel",
+   "secteur": "5",
+   "resultat": "Prélabel Accordé"
+  },
+  {
+   "societe": "Prélabel accordé dès le 2ème tour",
+   "fondateurs": "OneGlobb, Safouene Ratel, Younes Saidani, Marouene Ratel, Business Software and services, Prélabel",
+   "secteur": "2",
+   "resultat": "Prélabel Accordé"
+  },
+  {
+   "societe": "Prélabel Accordé suite au pitching",
+   "fondateurs": "Multiverse AI, Aymen Yahyaoui, Amine Mosbah, Business Software and services, Prélabel",
+   "secteur": "0",
+   "resultat": "Prélabel Accordé"
+  },
+  {
+   "societe": "Prélabel Non Accordé suite au pitching",
+   "fondateurs": "",
+   "secteur": "lingerie.tn",
+   "resultat": "Zarami Manel Zarami"
+  },
+  {
+   "societe": "Commerce and shopping",
+   "fondateurs": "Prélabel",
+   "secteur": "3",
+   "resultat": "Prélabel Non Accordé Prélabel Non accordé dès le 2ème tour"
+  },
+  {
+   "societe": "Lanci.io",
+   "fondateurs": "Nada Chatti, Mahdi Taghouti, Takwa Ben Abdessalem, Wifek Ben Romdhane, Consumer products and services, Prélabel",
+   "secteur": "3",
+   "resultat": "Prélabel Non Accordé Prélabel Non accordé dès le 2ème tour"
+  },
+  {
+   "societe": "SPADES",
+   "fondateurs": "Karim Gharbi, Marcel Deturche, Selim Mohamed Gharbi, Business Software and services, Prélabel",
+   "secteur": "1",
+   "resultat": "Prélabel Non Accordé Prélabel Non accordé dès le 2ème tour"
+  },
+  {
+   "societe": "Ontej",
+   "fondateurs": "Mohamed Amine Ouchari, Oussema Baklouti",
+   "secteur": "achref Baklouti",
+   "resultat": "Ezzahra Hamdi"
+  },
+  {
+   "societe": "Communication services",
+   "fondateurs": "Prélabel",
+   "secteur": "0",
+   "resultat": "Prélabel Non Accordé Prélabel Non accordé dès le 2ème tour"
+  },
+  {
+   "societe": "Ethic Data",
+   "fondateurs": "Sameh Louhichi, Aymen Khelifi, Ad Tech and Creative Tech, Prélabel",
+   "secteur": "0",
+   "resultat": "Prélabel Non Accordé Prélabel Non accordé dès le 2ème tour"
+  },
+  {
+   "societe": "Orizon Booking",
+   "fondateurs": "Zied Boukadida, Consumer products and services, Prélabel",
+   "secteur": "0",
+   "resultat": "Prélabel Non Accordé Prélabel Non accordé dès le 2ème tour"
+  },
+  {
+   "societe": "EYE-SPY SECURITY",
+   "fondateurs": "Basma Ben salah, Taher Ben salah, Security, Prélabel",
+   "secteur": "0",
+   "resultat": "Prélabel Non Accordé Prélabel Non accordé dès le 2ème tour"
+  },
+  {
+   "societe": "Mohamed Ben Arfa",
+   "fondateurs": "Mohamed Raddadi, Commerce and shopping, Prélabel",
+   "secteur": "0",
+   "resultat": "Prélabel Non Accordé Prélabel Non accordé dès le 2ème tour"
+  },
+  {
+   "societe": "Hichem Bouguila Mokni",
+   "fondateurs": "Madiha Belhamadi, Saber Kohli, Envionment, Prélabel",
+   "secteur": "0",
+   "resultat": "Prélabel Non Accordé Prélabel Non accordé dès le 2ème tour"
+  },
+  {
+   "societe": "Creativecontent",
+   "fondateurs": "Moalla Habib, Moez Taïeb, Habib Baaboura, Ad Tech and Creative Tech, Prélabel",
+   "secteur": "0",
+   "resultat": "Prélabel Non Accordé Prélabel Non accordé dès le 2ème tour"
+  },
+  {
+   "societe": "Maazoun Khaled Maazoun",
+   "fondateurs": "Agritech, Prélabel",
+   "secteur": "1",
+   "resultat": "Prélabel Non Accordé Prélabel Non Accordé suite au pitching"
+  },
+  {
+   "societe": "SmartPay",
+   "fondateurs": "Anis Abidi, Azza Kooli, Fintech, Label, N.A, N.A, N.A, N.A, N.A, N.A, Label non accordé, Dossier irrecevable pour non vérification d’une condition légale et",
+   "secteur": "réglementaire inhérente à la candidature au Label Startup",
+   "resultat": "Passage de Prélabels aux Labels"
+  },
+  {
+   "societe": "Société",
+   "fondateurs": "Projet, Fondateurs, Secteur, Session d'obtention",
+   "secteur": "du Prélabel",
+   "resultat": "Résultat"
+  },
+  {
+   "societe": "Commentaires",
+   "fondateurs": "DEEPAI Artificial Intelligence and Softwares, DEEP AI, Yosr Halleb, Oussama Bahri, Mariem Allouche, Ad Tech & Creative Tech, Novembre 2022, Label accordé, Label accordé suite à la création de la Startup et le respect des",
+   "secteur": "conditions d'octroi",
+   "resultat": "ALIFA FOR ANIMAL WELL BEING"
+  },
+  {
+   "societe": "Alifa",
+   "fondateurs": "Olfa Abid, Karim Gharbi, Social Business, Avril 2023, Label accordé, Label accordé suite à la création de la Startup et le respect des",
+   "secteur": "conditions d'octroi",
+   "resultat": "STE OTOSPEX SOULTIONS"
+  },
+  {
+   "societe": "Otopex",
+   "fondateurs": "Slim Makhlouf, Khaled Omri, Ali Amamou, Consumer Products & Services, Novembre 2022, Label accordé, Label accordé suite à la création de la Startup et le respect des",
+   "secteur": "conditions d'octroi",
+   "resultat": "RAF Telcos"
+  },
+  {
+   "societe": "Raf Telcos",
+   "fondateurs": "Yousri Hajri, Ahmed Ayadi, Fintech, Mars 2023, Label accordé, Label accordé suite à la création de la Startup et le respect des",
+   "secteur": "conditions d'octroi",
+   "resultat": "Cercina Artificial Intelligence"
+  },
+  {
+   "societe": "CERCINA AI",
+   "fondateurs": "Abdelkader Boussetta, Youssef Meddeb, Nizar Ayari, Ad Tech & Creative Tech, Février 2023, Label accordé, Label accordé suite à la création de la Startup et le respect des",
+   "secteur": "conditions d'octroi",
+   "resultat": "National Smart For Green Solutions and"
+  },
+  {
+   "societe": "Applications",
+   "fondateurs": "Smart for Green:Farm and, Forest Fire protection, Rami Chermiti, Agritech, Janvier 2023, Label accordé, Label accordé suite à la création de la Startup et le respect des",
+   "secteur": "conditions d'octroi",
+   "resultat": ""
+  }
+ ],
+ "session_data": {
+  "candidatures": 39,
+  "labels": 19,
+  "preLabels": 9,
+  "taux_acceptation_pct": 48.7,
+  "statut": "conforme"
+ }
+}

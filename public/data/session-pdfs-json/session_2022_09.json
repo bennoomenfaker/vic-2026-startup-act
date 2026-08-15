@@ -1,0 +1,299 @@
+{
+ "session": "09/2022",
+ "annee": 2022,
+ "mois": 9,
+ "pdf": "session_2022_09.pdf",
+ "nb_entrees": 47,
+ "source": "Extraction des PDF officiels des sessions — startup.gov.tn (voir Corrections)",
+ "entrees": [
+  {
+   "societe": "Startup Act | Session 42 | Septembre 2022 | Compte-Rendu",
+   "fondateurs": "Société, Fondateurs, Secteur, Label/Prélabel",
+   "secteur": "1er Tour",
+   "resultat": ""
+  },
+  {
+   "societe": "Résultat",
+   "fondateurs": "Commentaires, Recevabilité, Pitching, Conflit, AROTEQ, Saber Abeda, Issam Abeda, Consumer Product & Services, Label",
+   "secteur": "7",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Super Senses, Sarra Boufayed, Aymen Abid Boukadida, Business Software & Services, Label",
+   "secteur": "5",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Teligencia.io, Hamza Ben Ammar, Aymen Gatri, CyberSecurity, Label",
+   "secteur": "7",
+   "resultat": "Label accordé"
+  },
+  {
+   "societe": "Label accordé dès le 2ème tour",
+   "fondateurs": "Pedalo, Amany Hamdany, Adnen Ben Hadj, Business Software & Services, Label",
+   "secteur": "6",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Houda Ghozzi a déclaré avoir un conflit d'intérêt, DSAP (Data System Analysis Platform), Hugues Blin, Elyes Maherzi, Ad Tech and Creative Tech, Label",
+   "secteur": "8",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Lissene-نﺎﺳﻟ, Hachem Charfi, EdTech, Label",
+   "secteur": "7",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, QUANTA TN, Romain Lamaison, Guillaume THIBAUX, Business Software & Services, Label",
+   "secteur": "8",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Screenflex, Aymen Fezai, Bilel Nsibi, Ad Tech and Creative Tech, Label",
+   "secteur": "8",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour",
+   "secteur": "aivataria",
+   "resultat": "Anis Mzali"
+  },
+  {
+   "societe": "Youssef Boufaied",
+   "fondateurs": "Mohamed Ali Belajouza, Ad Tech and Creative Tech, Label",
+   "secteur": "6",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, El Fallega, Ramzi Larbi, Khouloud Abid, Med Khalil Terzi, Ali Gaigi, TravelTech, Label",
+   "secteur": "3",
+   "resultat": ""
+  },
+  {
+   "societe": "Label accordé",
+   "fondateurs": "Label accordé suite au pitching",
+   "secteur": "dyno",
+   "resultat": "Moez Lidinellah Waddey"
+  },
+  {
+   "societe": "Mohamad Obeid",
+   "fondateurs": "Mohamed-Hedi Jridi, FinTech, Prélabel",
+   "secteur": "5",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel  accordé, Prélabel accordé dès le 2ème tour, Storycraft, Ali Mehrez, Meher Somrani, Mustapha Lejri, Ad Tech and Creative Tech, Prélabel",
+   "secteur": "5",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel  accordé, Prélabel accordé dès le 2ème tour, Oceanus, Sami Bellalah, Houneida Majdoub, Seifeddine Majdoub, Environment, Prélabel",
+   "secteur": "8",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel  accordé, Prélabel accordé dès le 2ème tour, Kayotica, Zied Ben Slimen, Najla Hamza, Yassine Jdey, Mohamed Salem Menssi, Amine Angliz, Ad Tech and Creative Tech, Prélabel",
+   "secteur": "7",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel  accordé, Prélabel accordé dès le 2ème tour, Bitaqa.tn, Amine Miladi, Business Software and services, Prélabel",
+   "secteur": "8",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel  accordé, Prélabel accordé dès le 2ème tour, CHLORIS Flowers, Ines Chouchi, Eya Khamassi, Consumer products and services, Label",
+   "secteur": "3",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, Sefer, Mohamed Souidi, Mohamed Oussama Ben Yahia, Mobility, Label",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, AZRO EVENTS, Afef Bouazizi, Rkiwa Tijani, TravelTech, Label",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, DABy Go, Saima Znaidi, Cyrine Znaidi, Mahmoud Hattab, Fintech, Label",
+   "secteur": "1",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, DATUM, Fatma Zahra Hichri, Marwene Khouaja, Ad Tech and Creative Tech, Label",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour",
+   "secteur": "karhebti / sociéte :CHIRON",
+   "resultat": "Houssem Eddine Noamen"
+  },
+  {
+   "societe": "Mohamed Amine Amdouni",
+   "fondateurs": "Consumer products and services, Label",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, ABBK Physicsworks, Ammar Kouki, Mohamed Khebir, Ad Tech and Creative Tech, Label",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, Viore digital, Med Amine Brinis, Ghofrane Brinis, Azza Channoufi, Hamza Nechi, Business Software and services, Label",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, Sellkit, Ali Abdallah, Ala Touati, Commerce and shopping, Label",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, Home Decor AR, Mariem Ben Maallem, Majdi Ben Maallem, Firas Bouzou, Yosri Kossontini, Consumer products and services, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, Noir Ou Blanc, Mustapha Gharbi, Alaa Edinee Ben Mbarek, Ad Tech and Creative Tech, Prélabel",
+   "secteur": "1",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, Opus, Adel Askri, Youssef Ben Abdallah, Atef Askri, Business Software and services, Prélabel",
+   "secteur": "1",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, PINUS, Fahd Guedoiri, Sofien Saadaoui, Siwar Khadhraoui, Agritech, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, HealthyGO, Hayfa Oueslati, FoodTech & New Food, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, Flyss, Linda Abdelghaffar, Adam Ben Mokded, Oumayma Obay, Malek Hattab, Fintech, Prélabel",
+   "secteur": "1",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, STEMA-Do, Arbia Hosni, EdTech, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour",
+   "secteur": "taxi commande",
+   "resultat": "Majdi Chakchouk"
+  },
+  {
+   "societe": "Makrem Chakchouk",
+   "fondateurs": "Mobility, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, DentistUP, Loua Slama, Oussama Souaf, HealthTech, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, Tijara Lab, Houssem Dammak, Mahmoud Ketata, Communication services, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, Caduceus Company, Wael Mahjoubi, Business Software and services, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, Cabello, Ilhem Mrabet, Commerce and shopping, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, Easy Bank, Mohamed Khelifi, Maher Khelifi, Fintech, Prélabel",
+   "secteur": "1",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, Poc Store, Tarek Ben Ali, Balkis Aifa, Akrem Rmili, Achref Rmili, Nour Mekki, Commerce and shopping, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "Prélabel non accordé",
+   "fondateurs": "Prélabel non accordé suite au pitching, SOCIETE INFOSQUARE TUNISIE, Nizar Ellouze, Business Software and services, Label, N.A, N.A, N.A, N.A, N.A, N.A, Label non accordé, Le dossier est irrecevable pour manque de documents requis par le décret",
+   "secteur": "2018-839",
+   "resultat": "Si-Gounda"
+  },
+  {
+   "societe": "Mohamed Borhen Mokni",
+   "fondateurs": "Fintech, Prélabel, N.A, N.A, N.A, N.A, N.A, N.A, Prélabel non accordé, Le dossier est réfusé  pour non présentation de l’approbation préalable à",
+   "secteur": "tout exercice d’activité bancaire octroyée par l’autorité administrative",
+   "resultat": "compétente à savoir la Banque Centrale de Tunisie (conformément aux"
+  },
+  {
+   "societe": "Passage de Prélabels aux Labels",
+   "fondateurs": "Société, Projet, Fondateurs, Secteur, Session d'obtention",
+   "secteur": "du Prélabel",
+   "resultat": "Résultat"
+  },
+  {
+   "societe": "Commentaires",
+   "fondateurs": "Digital work solutions, Digital work solutions, Amani Bouaziz, Yousser Sabbagh, Slim Dhahri, Business Software & Services, Avril 2022, Label accordé, Label accordé suite à la création de la Startup et le respect des conditions d'octroi, VAL BIO DECHETS COMPOSITE, VAL BIO DECHETS COMPOSITE, Mohamed Medhaffar, Ghabri Siwar, Raja Dhief, Rabiaa Abdaoui, Chefia Nasr, Environment/Energie, Avril 2022, Label accordé, Label accordé suite à la création de la Startup et le respect des conditions d'octroi, STE Vivia Clinical Network, CRAWN, Wissal Farjallah, Lotfi Ben Romdhane, Lotfi Ammar, Souad Dziri, HealthTech & wellbeing, Mars 2022, Label accordé, Label accordé suite à la création de la Startup et le respect des conditions d'octroi, Offensylab, IGIDER, Faten Meziou, Ahmed Chabchoub, Moataz Jemni, Koussay Bouchaala, CyberSecurity, Juin 2022, Label accordé, Label accordé suite à la création de la Startup et le respect des conditions d'octroi",
+   "secteur": "moovin 360",
+   "resultat": "Moovin 360"
+  }
+ ],
+ "session_data": {
+  "candidatures": 40,
+  "labels": 19,
+  "preLabels": 5,
+  "taux_acceptation_pct": 47.5,
+  "statut": "conforme"
+ }
+}

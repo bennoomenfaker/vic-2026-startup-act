@@ -1,0 +1,245 @@
+{
+ "session": "08/2021",
+ "annee": 2021,
+ "mois": 8,
+ "pdf": "session_2021_08.pdf",
+ "nb_entrees": 38,
+ "source": "Extraction des PDF officiels des sessions — startup.gov.tn (voir Corrections)",
+ "entrees": [
+  {
+   "societe": "Startup Act | Session 29 | Aout 2021 | Compte-Rendu",
+   "fondateurs": "Société, Fondateurs, Secteur, Label/Prélabel",
+   "secteur": "1er Tour",
+   "resultat": ""
+  },
+  {
+   "societe": "Résultat",
+   "fondateurs": "Commentaires, Recevabilité, Pitching, Conflit, MSS GROUP, Michela  Lucifero, Ottavio Lucifero, Business Software, Label",
+   "secteur": "6",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, ARTY COLLECTION, Ymen Matri, Marketplace, Label",
+   "secteur": "5",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Ali Mnif a déclaré un conflit d'intérêt, Smart Ecowico Technology, Ilyes mhiri, Achraf Zorgati, Mohamed Amine Chalbi, CyberSecurity, Label",
+   "secteur": "7",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, TŪNIQ, Iman Masmoudi, Social Business, Label",
+   "secteur": "7",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Facstore, Takoua Gharbi, Aya Jallali, EdTech, Label",
+   "secteur": "5",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Smart Factory Revolution, Jawhar Kobbi, Omar Maalej, Advanced Manufacturing &, Industry, Label",
+   "secteur": "3",
+   "resultat": ""
+  },
+  {
+   "societe": "Label accordé",
+   "fondateurs": "Label accordé suite au pitching, Hassen Harrabi a déclaré un conflit d'intérêt",
+   "secteur": "istishara",
+   "resultat": "Atef Azizi"
+  },
+  {
+   "societe": "Services de communication",
+   "fondateurs": "Prélabel",
+   "secteur": "5",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel accordé, Label accordé dès le 2ème tour, Tunisia market, Ibrahim Chouikh, Abdelfattah Lahbib, Abdelhamid Guinoubi, Ahmed Ettoumi, Laila Balti, Marketplace, Prélabel",
+   "secteur": "5",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel accordé, Label accordé dès le 2ème tour, Hayat Tech, Mohamed Amine Bensalem, Mohamed Kharrat, Ahmed Yassine Bensalem, Habib Mestiri, Health care, Prélabel",
+   "secteur": "6",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel accordé, Label accordé dès le 2ème tour, SkyRanger, Chedhli Hafien, Ramzi Bouzaiene, Mokhtar Hafien, Agritech, Prélabel",
+   "secteur": "3",
+   "resultat": ""
+  },
+  {
+   "societe": "Prélabel accordé",
+   "fondateurs": "Prélabel accordé suite au pitching, Food lab belarabi, Jihene Chouiref, Rasha Chwiref, FoodTech & New Food, Label",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "Label non accordé",
+   "fondateurs": "Label non accordé dès le 2ème tour, Softbook, Marwen Khouaja, Houssem Miled, Hedi Miled, Health care, Label",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, Bridge Technology, Hafedh Barhoumi, Business Software, Label",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, EMISERV, Slim Mahrsi, Mahdi Truki, Walim JRIBI, Advanced Manufacturing &, Industry, Label",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, BOOSTENO TUNISIE, Mohamed Ismail Mesbeh, Mohamed Amine Jarraya, Maher Tlili, Khalil Cherif, Services de communication, Label",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "Label non accordé",
+   "fondateurs": "Label non accordé dès le 2ème tour, Signalétique intelligente / Thor System, Mohamed salah Nachi, Malek Redissi, Creative industry, Label",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "Label non accordé",
+   "fondateurs": "Label non accordé dès le 2ème tour, Learnygo, Samir Zabi, Mohamed Essid, Business Software, Label",
+   "secteur": "1",
+   "resultat": ""
+  },
+  {
+   "societe": "Label non accordé",
+   "fondateurs": "Label non accordé suite au pitching, Herbéos, Maroua Ben Ali, Mohamed Yassine Soussi, Agritech, Label",
+   "secteur": "3",
+   "resultat": ""
+  },
+  {
+   "societe": "Label non accordé",
+   "fondateurs": "Label non accordé suite au pitching, Taxiora Pub, Walid Saadaoui, Khaled Benlatrach, Services de communication, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour, The Bridge, Youssef Hammami, Bassem Thabti, EdTech, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour, Talasin, Majdi Ben Farhat, Social Business, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour, Freeman, Khalil Hamdi, Mohamed Dridi, Social Business, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour, ECOclicko, Nissaf Sleymi, EdTech, Prélabel",
+   "secteur": "-",
+   "resultat": ""
+  },
+  {
+   "societe": "N.A",
+   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour, C'mind, Maher Zahar, Sabri Barbaria, Health care, Prélabel",
+   "secteur": "1",
+   "resultat": ""
+  },
+  {
+   "societe": "Prélabel non accordé Prélabel non accordé suite au pitching",
+   "fondateurs": "TN Smartbot, Sofienne Mallek, Assil Salah, Creative industry, Label",
+   "secteur": "2",
+   "resultat": ""
+  },
+  {
+   "societe": "Label non accordé",
+   "fondateurs": "Désistement de la part  de la société sur la",
+   "secteur": "candidature au Label suite à sa cession",
+   "resultat": "Passage de Prélabels aux Labels"
+  },
+  {
+   "societe": "Société",
+   "fondateurs": "Projet, Fondateurs, Secteur, Session d'obtention",
+   "secteur": "du Prélabel",
+   "resultat": "Résultat"
+  },
+  {
+   "societe": "Commentaires",
+   "fondateurs": "Birou Suite, Birou Suite, Chaibi Alaa, Boumiza Imen, Business Software, Avril 2021, Label accordé, Label accordé suite à la création de la Startup et le respect des",
+   "secteur": "conditions d'octroi",
+   "resultat": "Lait Espoir"
+  },
+  {
+   "societe": "Lait Espoir",
+   "fondateurs": "Hayfa KHALFAOUI, Agritech, Février 2021, Label accordé, Label accordé suite à la création de la Startup et le respect des",
+   "secteur": "conditions d'octroi",
+   "resultat": "SUPREMCLOUD TECHNOLOGIES"
+  },
+  {
+   "societe": "Suprem",
+   "fondateurs": "Khaireddine Mejri, Creative industry, Mars 2021, Label accordé, Label accordé suite à la création de la Startup et le respect des",
+   "secteur": "conditions d'octroi",
+   "resultat": "ASQII"
+  },
+  {
+   "societe": "MediTek",
+   "fondateurs": "Adel Hamdi, Health care, Avril 2021, Label accordé, Label accordé suite à la création de la Startup et le respect des",
+   "secteur": "conditions d'octroi",
+   "resultat": "JPARTNERS TUNISIE"
+  },
+  {
+   "societe": "Société JPARTENERS TUNISIE SUARL",
+   "fondateurs": "ZIED JBALI, Business Software, Juillet 2021, Label accordé, Label accordé suite à la création de la Startup et le respect des",
+   "secteur": "conditions d'octroi",
+   "resultat": "BAKO MOTORS"
+  },
+  {
+   "societe": "BAKO MOTORS",
+   "fondateurs": "Boubaker Siala, Rached Ben Hmadou, Mahmoud Siala, Environement, Février 2021, Label accordé, Label accordé suite à la création de la Startup et le respect des",
+   "secteur": "conditions d'octroi",
+   "resultat": "Rebound Dev"
+  },
+  {
+   "societe": "Takwira",
+   "fondateurs": "Zied Dahmani, Amen Allah Dahmani, Plateforme Social, Avril 2021, Label accordé, Label accordé suite à la création de la Startup et le respect des",
+   "secteur": "conditions d'octroi",
+   "resultat": "Retrait de Label Startup"
+  },
+  {
+   "societe": "Société",
+   "fondateurs": "Fondateurs, Secteur, Session d'obtention",
+   "secteur": "du Label",
+   "resultat": "Décision"
+  },
+  {
+   "societe": "Commentaires",
+   "fondateurs": "STE SAMM TEST & AUTOMATION, MOHAMED ANANE, Sofiene Grati, AMOR MEGADMINI, MAHDI KAMOUN, Robotique, Novembre 2019, Retrait du Label, La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-",
+   "secteur": "2018 pour les sociétés bénéficiaires du Label",
+   "resultat": ""
+  }
+ ],
+ "session_data": {
+  "candidatures": 25,
+  "labels": 13,
+  "preLabels": 4,
+  "taux_acceptation_pct": 52.0,
+  "statut": "conforme"
+ }
+}
