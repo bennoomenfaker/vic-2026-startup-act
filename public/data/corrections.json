@@ -11,7 +11,7 @@
    "preLabels": 623
   },
   "lastUpdated": "2026-08-16T00:00:00Z",
-  "verified": "85/85 sessions vérifiées (82 parseur v7 + audit freebuff, 3 scans vectoriels confirmés manuellement ; 7 sessions relues manuellement via comptes-rendus officiels)"
+  "verified": "85/85 sessions vérifiées (82 parseur v7 + audit freebuff, 3 scans vectoriels confirmés manuellement ; 11 sessions relues manuellement via comptes-rendus officiels : 04/2019, 06/2025, 07/2025, 08/2025, 09/2025, 10/2025, 11/2025, 12/2025, 01/2026, 02/2026, 03/2026)"
  },
  "originalTable": [
   {
@@ -1751,9 +1751,9 @@
     "taux": "32.3",
     "echec": "67.7"
    },
-   "reason": "3 nouveaux labels + 7 conversions − 5 retraits = 10",
-   "commentaires": "03 Labels et 06 Prélabels à Labels"
-  },
+   "reason": "3 nouveaux labels + 7 conversions − 5 retraits = 10. Écart documentaire candidatures : sessions.json annonce 31 candidatures, mais le CR/PDF officiel (Session 82) liste 30 dossiers (24 page 1 + 6 page 2) — aucune mention « ajourné » ; 1 candidature non identifiable par recoupement. Les 10 labels officiels (3 labels + 7 conversions) et les 7 prélabels sont confirmés par le CR. Ne pas recalculer le taux officiel 10/31 = 32,3 % sur une base de 30.",
+   "commentaires": "03 Labels et 06 Prélabels à Labels (commentaire officiel erroné : 7 conversions réelles, total labels 10 cohérent)"
+   },
   {
    "session": "02/2021",
    "candidatures": 41,

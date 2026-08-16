@@ -19,6 +19,15 @@
 - Décision : on **garde les 52 lignes** du CR (vérité de terrain) ; l'écart « 52 CR vs 51 officiel » est documenté dans `corrections.json` (entrée 04/2019, labels inchangés) et dans le `meta.ecart_a_documenter` de `2019_04.json`. **Attention** : ne pas recalculer le taux officiel 04/2019 (33/51 = 64,7 %) sur la base de 52 candidatures sans avoir identifié la ligne ajournée.
 - Validation croisée (16/08/2026) : 6/7 sessions relues manuellement sont exactement cohérentes avec `sessions.json` et le tableau corrigé ; le seul écart est cette candidature 04/2019. Les 33 labels 04/2019 sont confirmés.
 
+## Écart documenté — Session 01/2026 (31 officiel vs 30 CR)
+
+- `sessions.json` (source officielle) annonce **31 candidatures** pour la Session 82 (01/2026) avec le commentaire « 03 Labels et 06 Prélabels à Labels ».
+- Le Compte-Rendu officiel (vérité de terrain, `public/data/manual_sessions/2026_01.json`) liste **30 dossiers** (24 page 1 + 6 page 2) : 3 labels accordés, 7 prélabels accordés, 6 labels refusés, 13 prélabels refusés, 1 irrecevable (BNJMO Studios).
+- Vérification PDF brut : les 30 lignes existent bien dans le PDF de la session ; il n'y a **aucune** mention « ajourné » dans le texte PDF janvier. Le PDF seul ne permet pas d'identifier la 31e candidature manquante.
+- Décision : on **garde les 30 lignes** du CR (vérité de terrain) ; l'écart « 30 CR vs 31 officiel » est documenté dans `corrections.json` (entrée 01/2026, labels corrigés 9→10) et dans le `meta.ecart_a_documenter` de `2026_01.json`. **Attention** : ne pas recalculer le taux officiel 01/2026 (10/31 = 32,3 %) sur la base de 30 candidatures sans avoir identifié la ligne manquante.
+- Les 10 labels officiels (3 labels + 7 conversions) et les 7 prélabels sont **confirmés** par le CR. Le commentaire officiel « 06 Prélabels à Labels » est **erroné** : 7 conversions réelles (Rhizome, Compta Smart Solutions, DIA Industries, Dash Master, ERPY, Park & Charge, Ligalo), mais le total labels 10 = 3 + 7 reste cohérent.
+- Sessions 06/2025 (36 candidatures / 12 labels / 8 prélabels) : **cohérence totale** avec le PDF, aucune correction requise (fichier `manual_sessions/2025_06.json` créé à titre de vérification).
+
 ## Page « StartupBlink » (source externe — veille AE1)
 
 - Page `startupblink` dans `streamlit-app/public/index.html` = **veille comparative internationale** (données EXTERNES), jamais à confondre avec les données officielles corrigées ci-dessus.

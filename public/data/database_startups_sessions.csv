@@ -205,62 +205,36 @@ session;societe;secteur;decision;source;flags
 01/2025;Marwa Mekni Toujani;Agritech;retrait;pdf-session;
 01/2025;Kiwi Softwares;Business Software and services;retrait;pdf-session;"societe_parasite;fondateurs_ambigus;societe_reconstruite"
 01/2025;La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-;Mobility;retrait;pdf-session;"resultat_manquant;fondateurs_ambigus;societe_reconstruite"
-01/2026;IMMUNO KAAR : (IMMU CAR-;;inconnu;pdf-session;"societe_parasite;decision_inconnue;fondateurs_ambigus;societe_reconstruite"
-01/2026;ZOHRA KECHIDA;HealthTech;label_accorde;pdf-session;
-01/2026;Arcube;Fintech;label_accorde;pdf-session;
-01/2026;Hassen Aarfaoui a déclaré avoir un conflit;;inconnu;pdf-session;"societe_parasite;fondateurs_absents;decision_inconnue;societe_non_identifiee"
-01/2026;Nour Jdey;Environment;label_accorde;pdf-session;
-01/2026;Hassen Aarfaoui a déclaré avoir un conflit;;inconnu;pdf-session;"societe_parasite;fondateurs_absents;decision_inconnue;societe_non_identifiee"
-01/2026;Youssef Abdeljaoued;Commerce and;inconnu;pdf-session;decision_inconnue
-01/2026;Yes-Sir;Ad Tech and Creative;prelabel_accorde;pdf-session;"societe_parasite;fondateurs_absents;fondateurs_ambigus;societe_reconstruite"
-01/2026;HopeVisionAI;;inconnu;pdf-session;"fondateurs_absents;decision_inconnue"
-01/2026;HealthTech;Healthtech;prelabel_accorde;pdf-session;societe_non_identifiee
-01/2026;Mehdi Nakouri a déclaré avoir un conflit;;inconnu;pdf-session;"societe_parasite;fondateurs_absents;decision_inconnue;societe_non_identifiee"
-01/2026;Slaheddine Dardouri;HealthTech;prelabel_accorde;pdf-session;
-01/2026;Hassen Aarfaoui a déclaré avoir un conflit;;inconnu;pdf-session;"societe_parasite;fondateurs_absents;decision_inconnue;societe_non_identifiee"
-01/2026;Eya ALOUI;HealthTech;prelabel_accorde;pdf-session;
-01/2026;Riyasol;Services;inconnu;pdf-session;decision_inconnue
-01/2026;Qubit Labs Tunis;Services;prelabel_accorde;pdf-session;"societe_parasite;fondateurs_absents;fondateurs_ambigus;societe_reconstruite"
-01/2026;Prélabel Accordé au 3 ème Tour;;prelabel_accorde;pdf-session;
-01/2026;Hammadi Kadri;HealthTech;label_refuse;pdf-session;fondateurs_ambigus
-01/2026;The Landlord Manager;Real Estate Tech;label_refuse;pdf-session;
-01/2026;TFCx;Fintech;label_refuse;pdf-session;
-01/2026;DURABILIS CONSULTING;Environment;label_refuse;pdf-session;fondateurs_ambigus
-01/2026;RDVEXPRESS;Services;inconnu;pdf-session;"decision_inconnue;fondateurs_ambigus"
-01/2026;Automatizi;Services;label_refuse;pdf-session;"societe_parasite;fondateurs_absents;fondateurs_ambigus;societe_reconstruite"
-01/2026;TINNOBOTICS;;prelabel_refuse;pdf-session;"fondateurs_ambigus;societe_reconstruite"
-01/2026;Attoset - The Work OS for;Services;inconnu;pdf-session;"decision_inconnue;fondateurs_ambigus"
-01/2026;GensisCode;;prelabel_refuse;pdf-session;"societe_parasite;fondateurs_absents;fondateurs_ambigus;societe_reconstruite"
-01/2026;EdTech;Edtech;prelabel_refuse;pdf-session;societe_non_identifiee
-01/2026;Nexor Robotics;;inconnu;pdf-session;"fondateurs_absents;decision_inconnue"
-01/2026;Manar Daghsni;;prelabel_refuse;pdf-session;fondateurs_ambigus
-01/2026;CvHub;Ad Tech and Creative;prelabel_refuse;pdf-session;fondateurs_ambigus
-01/2026;CarthaPos;Services;inconnu;pdf-session;decision_inconnue
-01/2026;OpenSOC;;prelabel_refuse;pdf-session;"societe_parasite;fondateurs_absents;fondateurs_ambigus;societe_reconstruite"
-01/2026;SM Drone;;prelabel_refuse;pdf-session;fondateurs_ambigus
-01/2026;Eyproc;;inconnu;pdf-session;"fondateurs_absents;decision_inconnue"
-01/2026;Naceur ELLOUZE;Services;inconnu;pdf-session;decision_inconnue
-01/2026;Sabrine Hamrouni;;inconnu;pdf-session;decision_inconnue
-01/2026;Hatem Benechikh;Social Business;prelabel_refuse;pdf-session;
-01/2026;Mohamed Amine Mhadhbi;Agritech;prelabel_refuse;pdf-session;
-01/2026;Hassen Aarfaoui a déclaré avoir un conflit;;inconnu;pdf-session;"societe_parasite;fondateurs_absents;decision_inconnue;societe_non_identifiee"
-01/2026;BEN YAGOUTA Abdelbari;;prelabel_refuse;pdf-session;fondateurs_ambigus
-01/2026;Enissay Studio;;inconnu;pdf-session;decision_inconnue
-01/2026;Tech;Ad Tech And;prelabel_refuse;pdf-session;"fondateurs_ambigus;societe_reconstruite"
-01/2026;BNJMO Studios;Ad Tech and Creative;label_refuse;pdf-session;fondateurs_ambigus
-01/2026;Passage de Prélabels aux Labels;;inconnu;pdf-session;"decision_inconnue;fondateurs_ambigus"
-01/2026;Rhizome;HealthTech;label_accorde;pdf-session;"societe_parasite;fondateurs_ambigus;societe_reconstruite"
-01/2026;DIA Industries;Business Software And Services;label_accorde;pdf-session;"fondateurs_ambigus;societe_reconstruite"
-01/2026;ERPY;Business Software And Services;retrait;pdf-session;"fondateurs_ambigus;societe_reconstruite"
-01/2026;Bus Software;IoT;retrait;pdf-session;"societe_parasite;fondateurs_ambigus;societe_reconstruite"
-01/2026;La société a dépassé l'âge maximum de 8 ans fixé par;;label_refuse;pdf-session;fondateurs_absents
-01/2026;La société a dépassé l'âge maximum de 8 ans fixé par;;retrait;pdf-session;"fondateurs_ambigus;societe_reconstruite"
-01/2026;Logiciel;;retrait;pdf-session;fondateurs_absents
-01/2026;La société a dépassé l'âge maximum de 8 ans fixé par;;label_refuse;pdf-session;fondateurs_absents
-01/2026;Insurance Tech;;retrait;pdf-session;fondateurs_absents
-01/2026;La société a dépassé l'âge maximum de 8 ans fixé par;;label_refuse;pdf-session;fondateurs_absents
-01/2026;Fintech;Fintech;retrait;pdf-session;"fondateurs_absents;societe_non_identifiee"
-01/2026;La société a dépassé l'âge maximum de 8 ans fixé par;;label_refuse;pdf-session;"fondateurs_absents;resultat_manquant"
+01/2026;IMMUNO KAAR (IMMU CARDER);HealthTech;label_accorde;compte-rendu-manuel;
+01/2026;Arcube;Fintech;label_accorde;compte-rendu-manuel;
+01/2026;GoToGreen;Environment;label_accorde;compte-rendu-manuel;
+01/2026;OTARI;Commerce and shopping;prelabel_accorde;compte-rendu-manuel;
+01/2026;Yes-Sir;Ad Tech and Creative Tech;prelabel_accorde;compte-rendu-manuel;
+01/2026;HopeVisionAI;HealthTech;prelabel_accorde;compte-rendu-manuel;
+01/2026;SAHTEE;HealthTech;prelabel_accorde;compte-rendu-manuel;
+01/2026;ALBUPAD-NA;HealthTech;prelabel_accorde;compte-rendu-manuel;
+01/2026;Riyasol;Business Software and services;prelabel_accorde;compte-rendu-manuel;
+01/2026;Qubit Labs Tunis;Business Software and services;prelabel_accorde;compte-rendu-manuel;
+01/2026;Nuraxis Ai;HealthTech;label_refuse;compte-rendu-manuel;
+01/2026;The Landlord Manager;Real Estate Tech;label_refuse;compte-rendu-manuel;
+01/2026;TFCx;Fintech;label_refuse;compte-rendu-manuel;
+01/2026;DURABILIS CONSULTING;Environment;label_refuse;compte-rendu-manuel;
+01/2026;RDVEXPRESS;Business Software and services;label_refuse;compte-rendu-manuel;
+01/2026;Automatizi;Consumer products and services;label_refuse;compte-rendu-manuel;
+01/2026;TINNOBOTICS;Advanced Manufacturing & Robotics;prelabel_refuse;compte-rendu-manuel;
+01/2026;Attoset - The Work OS for Intelligent Work Management;Business Software and services;prelabel_refuse;compte-rendu-manuel;
+01/2026;GensisCode;EdTech;prelabel_refuse;compte-rendu-manuel;
+01/2026;Nexor Robotics;Advanced Manufacturing & Robotics;prelabel_refuse;compte-rendu-manuel;
+01/2026;CvHub;Ad Tech and Creative Tech;prelabel_refuse;compte-rendu-manuel;
+01/2026;CarthaPos;Business Software and services;prelabel_refuse;compte-rendu-manuel;
+01/2026;OpenSOC;Security;prelabel_refuse;compte-rendu-manuel;
+01/2026;SM Drone;Advanced Manufacturing & Robotics;prelabel_refuse;compte-rendu-manuel;
+01/2026;Eyproc;Business Software and services;prelabel_refuse;compte-rendu-manuel;
+01/2026;JeelQuest;Social Business;prelabel_refuse;compte-rendu-manuel;
+01/2026;9atratech;Agritech;prelabel_refuse;compte-rendu-manuel;
+01/2026;AL BAYEN;Advanced Manufacturing & Robotics;prelabel_refuse;compte-rendu-manuel;
+01/2026;Enissay Studio;Ad Tech and Creative Tech;prelabel_refuse;compte-rendu-manuel;
+01/2026;BNJMO Studios;Ad Tech and Creative Tech;irrecevable;compte-rendu-manuel;
 02/2020;Katomi;;inconnu;pdf-session;"societe_parasite;resultat_manquant;decision_inconnue;fondateurs_ambigus;societe_reconstruite"
 02/2020;BSmart SARL;;label_accorde;pdf-session;"societe_parasite;fondateurs_absents;resultat_manquant;fondateurs_ambigus;societe_reconstruite"
 02/2020;WaterSpirit;Biotechnologie;label_accorde;pdf-session;"societe_parasite;fondateurs_absents;resultat_manquant;fondateurs_ambigus;societe_reconstruite"
@@ -1728,47 +1702,42 @@ session;societe;secteur;decision;source;flags
 06/2024;TravelTech;Traveltech;retrait;pdf-session;societe_non_identifiee
 06/2024;La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-;FoodTech & New Food;retrait;pdf-session;"societe_parasite;fondateurs_ambigus;societe_reconstruite"
 06/2024;Commerce & Shopping;;retrait;pdf-session;"resultat_manquant;fondateurs_ambigus"
-06/2025;Healio Technology;HealthTech;label_accorde;pdf-session;
-06/2025;Business Academy;Business;label_accorde;pdf-session;societe_non_identifiee
-06/2025;KeplerAi;Fintech;label_accorde;pdf-session;
-06/2025;Dose'On;Ad Tech and Creative Tech;label_accorde;pdf-session;
-06/2025;Save the plate;Environment;label_accorde;pdf-session;
-06/2025;VitaDood;FoodTech & New Food;label_accorde;pdf-session;
-06/2025;Hichem Ben Dai;Fintech;prelabel_accorde;pdf-session;
-06/2025;Digehealth TN;HealthTech;prelabel_accorde;pdf-session;
-06/2025;Jeridschool;EdTech;prelabel_accorde;pdf-session;
-06/2025;Carbotracker;Environment;prelabel_accorde;pdf-session;
-06/2025;Preemptix;;prelabel_accorde;pdf-session;fondateurs_ambigus
-06/2025;Wealthy Technology;HealthTech;prelabel_accorde;pdf-session;
-06/2025;QueDCo;Business Software and services;prelabel_accorde;pdf-session;
-06/2025;EKRI;TravelTech;prelabel_accorde;pdf-session;
-06/2025;Rakis Technology;Business Software and services;label_refuse;pdf-session;
-06/2025;Academia Hub;Business Software and services;label_refuse;pdf-session;
-06/2025;A plus Trade and;Environment;label_refuse;pdf-session;fondateurs_ambigus
-06/2025;MENUPRO;FoodTech & New Food;label_refuse;pdf-session;
-06/2025;AgriSmart;Agritech;label_refuse;pdf-session;
-06/2025;Version Healthy;FoodTech & New Food;label_refuse;pdf-session;
-06/2025;Tuniform;Communication services;label_refuse;pdf-session;
-06/2025;NINGEN;Business Software and services;label_refuse;pdf-session;
-06/2025;LEGALYZ;Communication services;label_refuse;pdf-session;
-06/2025;Clean2win;Environment;prelabel_refuse;pdf-session;
-06/2025;Investir UTILE;Real Estate Tech;prelabel_refuse;pdf-session;
-06/2025;Tanit Sign;Business Software and services;prelabel_refuse;pdf-session;
-06/2025;TechBoss Women;Business Software and services;prelabel_refuse;pdf-session;
-06/2025;Dronia;Agritech;prelabel_refuse;pdf-session;
-06/2025;Neuraeon;Ad Tech and Creative Tech;prelabel_refuse;pdf-session;
-06/2025;Collabera;EdTech;prelabel_refuse;pdf-session;
-06/2025;Tuniwave Sounds;Commerce and shopping;prelabel_refuse;pdf-session;
-06/2025;VivaLoka;Consumer products and services;prelabel_refuse;pdf-session;
-06/2025;QuickMatch;Business Software and services;prelabel_refuse;pdf-session;
-06/2025;Solvizor;Fintech;prelabel_refuse;pdf-session;
-06/2025;ConvergeInnov;Real Estate Tech;label_refuse;pdf-session;fondateurs_ambigus
-06/2025;Projet;;inconnu;pdf-session;decision_inconnue
-06/2025;AuroraIQ;Services;inconnu;pdf-session;"societe_parasite;decision_inconnue;fondateurs_ambigus;societe_reconstruite"
-06/2025;INCYIA;Services;label_accorde;pdf-session;"fondateurs_ambigus;societe_reconstruite"
-06/2025;Label accordé;;retrait;pdf-session;
-06/2025;Commentaires;;inconnu;pdf-session;"societe_parasite;fondateurs_absents;decision_inconnue;societe_non_identifiee"
-06/2025;Avril 2022;;retrait;pdf-session;"resultat_manquant;fondateurs_ambigus"
+06/2025;Thunder code;Business Software and services;label_accorde;compte-rendu-manuel;
+06/2025;Healio Technology;HealthTech;label_accorde;compte-rendu-manuel;
+06/2025;Business Academy;EdTech;label_accorde;compte-rendu-manuel;
+06/2025;KeplerAi;Fintech;label_accorde;compte-rendu-manuel;
+06/2025;Dose'On;Ad Tech and Creative Tech;label_accorde;compte-rendu-manuel;
+06/2025;Save the plate;Environment;label_accorde;compte-rendu-manuel;
+06/2025;VitaDood;FoodTech & New Food;label_accorde;compte-rendu-manuel;
+06/2025;etanfidh-solution digitale pour huissiers;Fintech;prelabel_accorde;compte-rendu-manuel;
+06/2025;Digehealth TN;HealthTech;prelabel_accorde;compte-rendu-manuel;
+06/2025;Jeridschool;EdTech;prelabel_accorde;compte-rendu-manuel;
+06/2025;Carbotracker;Environment;prelabel_accorde;compte-rendu-manuel;
+06/2025;Preemptix;Security;prelabel_accorde;compte-rendu-manuel;
+06/2025;Wealthy Technology;HealthTech;prelabel_accorde;compte-rendu-manuel;
+06/2025;QueDCo;Business Software and services;prelabel_accorde;compte-rendu-manuel;
+06/2025;EKRI;TravelTech;prelabel_accorde;compte-rendu-manuel;
+06/2025;Rakis Technology;Business Software and services;label_refuse;compte-rendu-manuel;
+06/2025;Academia Hub;Business Software and services;label_refuse;compte-rendu-manuel;
+06/2025;A plus Trade and Forwarding Solutions;Environment;label_refuse;compte-rendu-manuel;
+06/2025;MENUPRO;FoodTech & New Food;label_refuse;compte-rendu-manuel;
+06/2025;AgriSmart;Agritech;label_refuse;compte-rendu-manuel;
+06/2025;Version Healthy;FoodTech & New Food;label_refuse;compte-rendu-manuel;
+06/2025;Tuniform;Communication services;label_refuse;compte-rendu-manuel;
+06/2025;NINGEN;Business Software and services;label_refuse;compte-rendu-manuel;
+06/2025;LEGALYZ;Communication services;prelabel_refuse;compte-rendu-manuel;
+06/2025;Clean2win;Environment;prelabel_refuse;compte-rendu-manuel;
+06/2025;Investir UTILE;Real Estate Tech;prelabel_refuse;compte-rendu-manuel;
+06/2025;Tanit Sign;Business Software and services;prelabel_refuse;compte-rendu-manuel;
+06/2025;TechBoss Women;Business Software and services;prelabel_refuse;compte-rendu-manuel;
+06/2025;Dronia;Agritech;prelabel_refuse;compte-rendu-manuel;
+06/2025;Neuraeon;Ad Tech and Creative Tech;prelabel_refuse;compte-rendu-manuel;
+06/2025;Collabera;EdTech;prelabel_refuse;compte-rendu-manuel;
+06/2025;Tuniwave Sounds;Commerce and shopping;prelabel_refuse;compte-rendu-manuel;
+06/2025;VivaLoka;Consumer products and services;prelabel_refuse;compte-rendu-manuel;
+06/2025;QuickMatch;Business Software and services;prelabel_refuse;compte-rendu-manuel;
+06/2025;Solvizor;Fintech;prelabel_refuse;compte-rendu-manuel;
+06/2025;ConvergeInnov;Real Estate Tech;irrecevable;compte-rendu-manuel;
 07/2019;TransIN / SmartIN;;inconnu;pdf-session;"societe_parasite;resultat_manquant;decision_inconnue;fondateurs_ambigus;societe_reconstruite"
 07/2019;Catrim;Fintech;label_accorde;pdf-session;"societe_parasite;fondateurs_absents;resultat_manquant;fondateurs_ambigus;societe_reconstruite"
 07/2019;Zakaria Hatira;Edtech;inconnu;pdf-session;"resultat_manquant;decision_inconnue"

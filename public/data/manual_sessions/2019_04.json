@@ -1,70 +1,1016 @@
 {
-  "session": "04/2019",
-  "intitule": "Startup Act | Session 1 | Avril 2019 | Compte-Rendu",
-  "source": "Copier-coller manuel du Compte-Rendu officiel (utilisateur) — vérité de terrain",
-  "verifie_le": "2026-08-16",
-  "nb_rows": 52,
-  "meta": {
-    "candidatures_officielles": 51,
-    "labels_officiels": 33,
-    "prelabels_officiels": 0,
-    "ecart_a_documenter": "sessions.json annonce 51 candidatures avec « 1 ajourné à la session suivante » ; le CR complet liste 52 décisions (33 labels accordés = chiffre officiel exact). 1 ligne du CR correspond probablement au dossier ajourné.",
-    "conflit_declare_par": ["Mohamed Salah Frad", "Zakaria Belkhodja", "Ali Mnif", "Nader Bhouri", "Mohamed Ali Kilani", "Khaled Ben Jilani", "Elyes Jeribi"]
-  },
-  "conversions": [],
-  "retraits": [],
-  "rows": [
-    { "societe": "GoMyCode", "fondateurs": ["Yahya Bouhlel", "Amine Bouhlel"], "secteur": "EdTech", "type": "Label", "decision": "label_accorde", "resultat": "Label accordé dès le 2ème Tour", "recevable": "Oui", "votes": {"1er": 9, "2eme": 0, "3eme": 0, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "Mass SA", "fondateurs": ["Ramla Jarrar", "Firas Jabloun"], "secteur": "AI", "type": "Label", "decision": "label_accorde", "resultat": "Label accordé dès le 2ème Tour", "recevable": "Oui", "votes": {"1er": 8, "2eme": 0, "3eme": 0, "resultat": 0}, "pitching": "N.A", "conflit": "M. Mohamed Salah Frad a déclaré un conflit d'intérêt" },
-    { "societe": "STE Kaoun", "fondateurs": ["Nebras Jemel", "Anis Kallel", "Rostom Bouazizi"], "secteur": "Fintech", "type": "Label", "decision": "label_accorde", "resultat": "Label accordé dès le 2ème Tour", "recevable": "Oui", "votes": {"1er": 7, "2eme": 0, "3eme": 0, "resultat": 0}, "pitching": "N.A", "conflit": "M. Zakaria Belkhodja a déclaré un conflit d'intérêt" },
-    { "societe": "Apprentus Tunisie", "fondateurs": ["Gaetan Deremince", "Marius Andra"], "secteur": "EdTech", "type": "Label", "decision": "label_accorde", "resultat": "Label accordé dès le 2ème Tour", "recevable": "Oui", "votes": {"1er": 7, "2eme": 2, "3eme": 0, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "Bus Software", "fondateurs": ["Amor Sahnoun", "Makrem Erguez"], "secteur": "IoT", "type": "Label", "decision": "label_accorde", "resultat": "Label accordé dès le 2ème Tour", "recevable": "Oui", "votes": {"1er": 7, "2eme": 0, "3eme": 2, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "ilboursa.com", "fondateurs": ["Ismail Ben Sassi", "Rodolphe Villaes"], "secteur": "IT", "type": "Label", "decision": "label_accorde", "resultat": "Label accordé dès le 2ème Tour", "recevable": "Oui", "votes": {"1er": 6, "2eme": 1, "3eme": 2, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "Methania Industries", "fondateurs": ["Selim Kanzari", "Tahar Azizi"], "secteur": "Energie", "type": "Label", "decision": "label_accorde", "resultat": "Label accordé dès le 2ème Tour", "recevable": "Oui", "votes": {"1er": 6, "2eme": 1, "3eme": 1, "resultat": 1}, "pitching": "N.A", "conflit": "M. Mohamed Salah Frad a déclaré un conflit d'intérêt" },
-    { "societe": "Wattnow", "fondateurs": ["Issam Smaali"], "secteur": "IoT", "type": "Label", "decision": "label_accorde", "resultat": "Label accordé dès le 2ème Tour", "recevable": "Oui", "votes": {"1er": 6, "2eme": 0, "3eme": 1, "resultat": 2}, "pitching": "N.A", "conflit": "M. Zakaria Belkhodja et M. Ali Mnif ont déclaré un conflit d'intérêt" },
-    { "societe": "TechAccessibility", "fondateurs": ["Mohamed Nour Ben Yahia"], "secteur": "IT", "type": "Label", "decision": "label_accorde", "resultat": "Label accordé dès le 2ème Tour", "recevable": "Oui", "votes": {"1er": 6, "2eme": 0, "3eme": 2, "resultat": 1}, "pitching": "N.A", "conflit": "M. Mohamed Salah Frad a déclaré un conflit d'intérêt" },
-    { "societe": "Taysir Solutions Tunisia", "fondateurs": ["Mohamed Belghith", "Fakhreddine Hachfi"], "secteur": "IT", "type": "Label", "decision": "label_accorde", "resultat": "Label accordé dès le 2ème Tour", "recevable": "Oui", "votes": {"1er": 6, "2eme": 2, "3eme": 1, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "UniQ Soft Technology", "fondateurs": ["Bechir Yakhlef"], "secteur": "IT", "type": "Label", "decision": "label_accorde", "resultat": "Label accordé dès le 2ème Tour", "recevable": "Oui", "votes": {"1er": 6, "2eme": 1, "3eme": 2, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "Armani Arabic Academy", "fondateurs": ["Salwa Armani"], "secteur": "EdTech", "type": "Label", "decision": "label_accorde", "resultat": "Label accordé dès le 2ème Tour", "recevable": "Oui", "votes": {"1er": 5, "2eme": 2, "3eme": 2, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "Dqlick", "fondateurs": ["Hamdi Bouslah"], "secteur": "Insurance Tech", "type": "Label", "decision": "label_accorde", "resultat": "Label accordé dès le 2ème Tour", "recevable": "Oui", "votes": {"1er": 5, "2eme": 3, "3eme": 1, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "KNSD", "fondateurs": ["Ali Boulila"], "secteur": "Big Data", "type": "Label", "decision": "label_accorde", "resultat": "Label accordé dès le 2ème Tour", "recevable": "Oui", "votes": {"1er": 5, "2eme": 2, "3eme": 1, "resultat": 1}, "pitching": "N.A", "conflit": "M. Mohamed Salah Frad a déclaré un conflit d'intérêt" },
-    { "societe": "MedCREtech", "fondateurs": ["Nacef Bouzguenda"], "secteur": "Blockchain & cryptocurrency", "type": "Label", "decision": "label_accorde", "resultat": "Label accordé dès le 2ème Tour", "recevable": "Oui", "votes": {"1er": 5, "2eme": 2, "3eme": 2, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "Novel-Ti", "fondateurs": ["Zied Loukil", "Ferdaous Masmoudi"], "secteur": "AI", "type": "Label", "decision": "label_accorde", "resultat": "Label accordé dès le 2ème Tour", "recevable": "Oui", "votes": {"1er": 5, "2eme": 2, "3eme": 2, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "PEAK Technologies", "fondateurs": ["Moslem Ben Dhaou", "Bilel Methnani"], "secteur": "Fintech", "type": "Label", "decision": "label_accorde", "resultat": "Label accordé dès le 2ème Tour", "recevable": "Oui", "votes": {"1er": 5, "2eme": 1, "3eme": 3, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "Smart and Clean", "fondateurs": ["Mourad Bouabdallah"], "secteur": "Cleantech", "type": "Label", "decision": "label_accorde", "resultat": "Label accordé dès le 2ème Tour", "recevable": "Oui", "votes": {"1er": 5, "2eme": 3, "3eme": 1, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "Tadeco IT", "fondateurs": ["Aymen Talbi"], "secteur": "E-Commerce", "type": "Label", "decision": "label_accorde", "resultat": "Label accordé dès le 2ème Tour", "recevable": "Oui", "votes": {"1er": 5, "2eme": 4, "3eme": 0, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "TechAbility", "fondateurs": ["Dorra Kammoun", "Oussama Romdhane"], "secteur": "IoT", "type": "Label", "decision": "label_accorde", "resultat": "Label accordé dès le 2ème Tour", "recevable": "Oui", "votes": {"1er": 5, "2eme": 2, "3eme": 2, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "Empire communication", "fondateurs": ["Hani Hamrouni", "Davide David"], "secteur": "Services", "type": "Label", "decision": "label_refuse", "resultat": "Label non-accordé dès le 2ème Tour", "recevable": "Oui", "votes": {"1er": 3, "2eme": 5, "3eme": 1, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "3D Forge", "fondateurs": ["Ferid Kamel", "Mohamed Abul Heija"], "secteur": "Services", "type": "Label", "decision": "label_refuse", "resultat": "Label non-accordé dès le 2ème Tour", "recevable": "Oui", "votes": {"1er": 2, "2eme": 5, "3eme": 2, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "Africa Flying and Engineering", "fondateurs": ["Walid Meskine"], "secteur": "AgriTech", "type": "Label", "decision": "label_refuse", "resultat": "Label non-accordé dès le 2ème Tour", "recevable": "Oui", "votes": {"1er": 1, "2eme": 6, "3eme": 2, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "Ticket Communication TICOM", "fondateurs": ["Aida Rafrafi"], "secteur": "Marketing", "type": "Label", "decision": "label_refuse", "resultat": "Label non-accordé dès le 2ème Tour", "recevable": "Oui", "votes": {"1er": 1, "2eme": 7, "3eme": 1, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "TeTa concept", "fondateurs": ["Achraf Jamli"], "secteur": "Services", "type": "Label", "decision": "label_refuse", "resultat": "Label non-accordé dès le 2ème Tour", "recevable": "Oui", "votes": {"1er": 0, "2eme": 7, "3eme": 2, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "WeMake", "fondateurs": ["Abdelmajid Mathlouthi", "Karim Yahyaoui"], "secteur": "Services", "type": "Label", "decision": "label_refuse", "resultat": "Label non-accordé dès le 2ème Tour", "recevable": "Oui", "votes": {"1er": 0, "2eme": 7, "3eme": 2, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "Micro Device Tunisia", "fondateurs": ["Hamdi Ben Amor"], "secteur": "IoT", "type": "Label", "decision": "label_refuse", "resultat": "Label non-accordé dès le 2ème Tour", "recevable": "Oui", "votes": {"1er": 1, "2eme": 8, "3eme": 0, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "Kiwi Softwares", "fondateurs": ["Ali Bouslama"], "secteur": "IT", "type": "Label", "decision": "label_refuse", "resultat": "Label non-accordé dès le 2ème Tour", "recevable": "Oui", "votes": {"1er": 0, "2eme": 9, "3eme": 0, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "Expensya (Pepino Tech)", "fondateurs": ["Karim jouini", "Jihed othmani"], "secteur": "E-Commerce", "type": "Label", "decision": "label_accorde", "resultat": "Label accordé après le Pitching", "recevable": "Oui", "votes": {"1er": 4, "2eme": 1, "3eme": 3, "resultat": 1}, "pitching": "8/0", "conflit": "M. Nader Bhouri a déclaré un conflit d'intérêt" },
-    { "societe": "Smart Mobility", "fondateurs": ["Mokhles Masmoudi"], "secteur": "IoT", "type": "Label", "decision": "label_accorde", "resultat": "Label accordé après le Pitching", "recevable": "Oui", "votes": {"1er": 3, "2eme": 2, "3eme": 4, "resultat": 0}, "pitching": "9/0", "conflit": "N.A" },
-    { "societe": "Educanet", "fondateurs": ["Anis Ben Arbia"], "secteur": "EdTech", "type": "Label", "decision": "label_accorde", "resultat": "Label accordé après le Pitching", "recevable": "Oui", "votes": {"1er": 4, "2eme": 2, "3eme": 3, "resultat": 0}, "pitching": "8/1", "conflit": "N.A" },
-    { "societe": "Study.tn", "fondateurs": ["Nidhal Abidi", "Mohamed Selim Hadrich", "Nadhir Abidi", "Seyf Hamdaoui"], "secteur": "E-Learning", "type": "Label", "decision": "label_accorde", "resultat": "Label accordé après le Pitching", "recevable": "Oui", "votes": {"1er": 4, "2eme": 3, "3eme": 2, "resultat": 0}, "pitching": "8/1", "conflit": "N.A" },
-    { "societe": "Tunisie Matériel Roulant", "fondateurs": ["Amel Besbes", "Kais Aribi"], "secteur": "Marketing", "type": "Label", "decision": "label_accorde", "resultat": "Label accordé après le Pitching", "recevable": "Oui", "votes": {"1er": 3, "2eme": 4, "3eme": 2, "resultat": 0}, "pitching": "8/1", "conflit": "N.A" },
-    { "societe": "Embedded Solutions and Advanced Technology", "fondateurs": ["Mohamed Salouati"], "secteur": "IoT", "type": "Label", "decision": "label_accorde", "resultat": "Label accordé après le Pitching", "recevable": "Oui", "votes": {"1er": 2, "2eme": 3, "3eme": 4, "resultat": 0}, "pitching": "8/1", "conflit": "N.A" },
-    { "societe": "Inotek engineering", "fondateurs": ["Mehdi Mazlout", "Walid Saghari"], "secteur": "IoT", "type": "Label", "decision": "label_accorde", "resultat": "Label accordé après le Pitching", "recevable": "Oui", "votes": {"1er": 2, "2eme": 2, "3eme": 5, "resultat": 0}, "pitching": "8/1", "conflit": "N.A" },
-    { "societe": "Paymee", "fondateurs": ["Marwen Amamou"], "secteur": "Fintech", "type": "Label", "decision": "label_accorde", "resultat": "Label accordé après le Pitching", "recevable": "Oui", "votes": {"1er": 4, "2eme": 0, "3eme": 4, "resultat": 1}, "pitching": "7/1", "conflit": "M. Zakaria Belkhodja a déclaré un conflit d'intérêt" },
-    { "societe": "Healthcare Anywhere", "fondateurs": ["Imed Abed", "Fadoua Ouerdiane"], "secteur": "Health Tech", "type": "Label", "decision": "label_accorde", "resultat": "Label accordé après le Pitching", "recevable": "Oui", "votes": {"1er": 4, "2eme": 2, "3eme": 2, "resultat": 1}, "pitching": "7/1", "conflit": "M. Mohamed Ali Kilani a déclaré un conflit d'intérêt" },
-    { "societe": "TunRooms", "fondateurs": ["Mohamed Ali Afif"], "secteur": "E-Commerce", "type": "Label", "decision": "label_accorde", "resultat": "Label accordé après le Pitching", "recevable": "Oui", "votes": {"1er": 4, "2eme": 4, "3eme": 1, "resultat": 0}, "pitching": "7/2", "conflit": "N.A" },
-    { "societe": "Galactech", "fondateurs": ["Houssem Maiza"], "secteur": "Telcom", "type": "Label", "decision": "label_accorde", "resultat": "Label accordé après le Pitching", "recevable": "Oui", "votes": {"1er": 3, "2eme": 1, "3eme": 5, "resultat": 0}, "pitching": "7/2", "conflit": "N.A" },
-    { "societe": "Domodar", "fondateurs": ["Rochdi Zaghden", "Walid Dieff Allah"], "secteur": "IoT", "type": "Label", "decision": "label_accorde", "resultat": "Label accordé après le Pitching", "recevable": "Oui", "votes": {"1er": 2, "2eme": 3, "3eme": 4, "resultat": 0}, "pitching": "7/2", "conflit": "N.A" },
-    { "societe": "Vynd", "fondateurs": ["Adam Chebbi", "Khalil Ben Hamouda"], "secteur": "E-Commerce", "type": "Label", "decision": "label_accorde", "resultat": "Label accordé après le Pitching", "recevable": "Oui", "votes": {"1er": 3, "2eme": 1, "3eme": 2, "resultat": 3}, "pitching": "5/1", "conflit": "M. Khaled Ben Jilani, M. Ali Mnif et M. Zakaria Belkhodja ont déclaré un conflit d'intérêt" },
-    { "societe": "Tunisie Co", "fondateurs": ["Khaled Aouij"], "secteur": "Services", "type": "Label", "decision": "label_refuse", "resultat": "Label non-accordé après le Pitching", "recevable": "Oui", "votes": {"1er": 3, "2eme": 3, "3eme": 2, "resultat": 1}, "pitching": "4/4", "conflit": "M. Mohamed Salah Frad a déclaré un conflit d'intérêt" },
-    { "societe": "Best Way", "fondateurs": ["Ahmed Ben Hamida"], "secteur": "Marketing", "type": "Label", "decision": "label_refuse", "resultat": "Label non-accordé après le Pitching", "recevable": "Oui", "votes": {"1er": 2, "2eme": 2, "3eme": 4, "resultat": 1}, "pitching": "3/5", "conflit": "M. Elyes Jeribi a déclaré un conflit d'intérêt" },
-    { "societe": "ComEngineering", "fondateurs": ["Omar chahata", "Ahmed Rouetbi"], "secteur": "IoT", "type": "Label", "decision": "label_refuse", "resultat": "Label non-accordé après le Pitching", "recevable": "Oui", "votes": {"1er": 0, "2eme": 4, "3eme": 5, "resultat": 0}, "pitching": "2/7", "conflit": "N.A" },
-    { "societe": "Testafid+", "fondateurs": ["Mohamed Ghmadh"], "secteur": "E-Commerce", "type": "Label", "decision": "label_refuse", "resultat": "Label non-accordé après le Pitching", "recevable": "Oui", "votes": {"1er": 0, "2eme": 4, "3eme": 5, "resultat": 0}, "pitching": "2/7", "conflit": "N.A" },
-    { "societe": "Afrique Charbon", "fondateurs": ["Abdelaziz Bahri"], "secteur": "Energie", "type": "Label", "decision": "label_refuse", "resultat": "Label non-accordé après le Pitching", "recevable": "Oui", "votes": {"1er": 4, "2eme": 4, "3eme": 1, "resultat": 0}, "pitching": "1/8", "conflit": "N.A" },
-    { "societe": "Ironhoster", "fondateurs": ["Naiim Lamloumi"], "secteur": "E-Commerce", "type": "Label", "decision": "label_refuse", "resultat": "Label non-accordé après le Pitching", "recevable": "Oui", "votes": {"1er": 1, "2eme": 4, "3eme": 3, "resultat": 1}, "pitching": "1/7", "conflit": "M. Zakaria Belkhodja a déclaré un conflit d'intérêt" },
-    { "societe": "Boostiny", "fondateurs": ["Tarak Nachnouchi"], "secteur": "Marketing", "type": "Label", "decision": "irrecevable", "resultat": "Dossier irrecevable pour non-indépendance du capital", "recevable": "Non", "votes": {}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "Forevermo (Paravoisin)", "fondateurs": ["Mohamed Methnani"], "secteur": "Health Tech", "type": "Label", "decision": "irrecevable", "resultat": "Dossier irrecevable pour cause de documents manquants", "recevable": "Non", "votes": {}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "Supply Air", "fondateurs": ["Aymen Tleilia", "Hatem Lefi"], "secteur": "Services", "type": "Label", "decision": "irrecevable", "resultat": "Dossier irrecevable pour cause de documents manquants", "recevable": "Non", "votes": {}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "Sawsan Bellaj Training & Consulting", "fondateurs": ["Sawssen Bellaj"], "secteur": "E-Commerce", "type": "Label", "decision": "irrecevable", "resultat": "Dossier irrecevable pour cause de non conformité de la forme juridique", "recevable": "Non", "votes": {}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "Casual Bet", "fondateurs": ["Walid Balti", "Abderahmen Mahmoudi"], "secteur": "Gaming", "type": "Label", "decision": "irrecevable", "resultat": "Dossier irrecevable à cause d'un litige avec l'Etat Tunisien (Ministère des Affaires de la Jeunesse et du Sport) pour exercice d'une activité illégale", "recevable": "Non", "votes": {}, "pitching": "N.A", "conflit": "N.A" }
+ "session": "04/2019",
+ "intitule": "Startup Act | Session 1 | Avril 2019 | Compte-Rendu",
+ "source": "Extraction manuelle du PDF officiel — vérité de terrain",
+ "verifie_le": "2026-08-16",
+ "nb_rows": 52,
+ "meta": {
+  "candidatures_officielles": 51,
+  "labels_officiels": 33,
+  "prelabels_officiels": 0,
+  "ecart_a_documenter": "sessions.json annonce 51 candidatures avec « 1 ajourné à la session suivante » ; le CR complet liste 52 décisions (33 labels accordés = chiffre officiel exact). 1 ligne du CR correspond probablement au dossier ajourné.",
+  "conflit_declare_par": [
+   "Mohamed Salah Frad",
+   "Zakaria Belkhodja",
+   "Ali Mnif",
+   "Nader Bhouri",
+   "Mohamed Ali Kilani",
+   "Khaled Ben Jilani",
+   "Elyes Jeribi"
   ]
+ },
+ "conversions": [],
+ "retraits": [],
+ "rows": [
+  {
+   "societe": "GoMyCode",
+   "fondateurs": [
+    "Yahya Bouhlel",
+    "Amine Bouhlel"
+   ],
+   "secteur": "EdTech",
+   "type": "Label",
+   "decision": "label_accorde",
+   "resultat": "Label accordé dès le 2ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 9,
+    "2eme": 0,
+    "3eme": 0,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Mass SA",
+   "fondateurs": [
+    "Ramla Jarrar",
+    "Firas Jabloun"
+   ],
+   "secteur": "AI",
+   "type": "Label",
+   "decision": "label_accorde",
+   "resultat": "Label accordé dès le 2ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 8,
+    "2eme": 0,
+    "3eme": 0,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "M. Mohamed Salah Frad a déclaré un conflit d'intérêt"
+  },
+  {
+   "societe": "STE Kaoun",
+   "fondateurs": [
+    "Nebras Jemel",
+    "Anis Kallel",
+    "Rostom Bouazizi"
+   ],
+   "secteur": "Fintech",
+   "type": "Label",
+   "decision": "label_accorde",
+   "resultat": "Label accordé dès le 2ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 7,
+    "2eme": 0,
+    "3eme": 0,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "M. Zakaria Belkhodja a déclaré un conflit d'intérêt"
+  },
+  {
+   "societe": "Apprentus Tunisie",
+   "fondateurs": [
+    "Gaetan Deremince",
+    "Marius Andra"
+   ],
+   "secteur": "EdTech",
+   "type": "Label",
+   "decision": "label_accorde",
+   "resultat": "Label accordé dès le 2ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 7,
+    "2eme": 2,
+    "3eme": 0,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Bus Software",
+   "fondateurs": [
+    "Amor Sahnoun",
+    "Makrem Erguez"
+   ],
+   "secteur": "IoT",
+   "type": "Label",
+   "decision": "label_accorde",
+   "resultat": "Label accordé dès le 2ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 7,
+    "2eme": 0,
+    "3eme": 2,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "ilboursa.com",
+   "fondateurs": [
+    "Ismail Ben Sassi",
+    "Rodolphe Villaes"
+   ],
+   "secteur": "IT",
+   "type": "Label",
+   "decision": "label_accorde",
+   "resultat": "Label accordé dès le 2ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 6,
+    "2eme": 1,
+    "3eme": 2,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Methania Industries",
+   "fondateurs": [
+    "Selim Kanzari",
+    "Tahar Azizi"
+   ],
+   "secteur": "Energie",
+   "type": "Label",
+   "decision": "label_accorde",
+   "resultat": "Label accordé dès le 2ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 6,
+    "2eme": 1,
+    "3eme": 1,
+    "resultat": 1
+   },
+   "pitching": "N.A",
+   "conflit": "M. Mohamed Salah Frad a déclaré un conflit d'intérêt"
+  },
+  {
+   "societe": "Wattnow",
+   "fondateurs": [
+    "Issam Smaali"
+   ],
+   "secteur": "IoT",
+   "type": "Label",
+   "decision": "label_accorde",
+   "resultat": "Label accordé dès le 2ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 6,
+    "2eme": 0,
+    "3eme": 1,
+    "resultat": 2
+   },
+   "pitching": "N.A",
+   "conflit": "M. Zakaria Belkhodja et M. Ali Mnif ont déclaré un conflit d'intérêt"
+  },
+  {
+   "societe": "TechAccessibility",
+   "fondateurs": [
+    "Mohamed Nour Ben Yahia"
+   ],
+   "secteur": "IT",
+   "type": "Label",
+   "decision": "label_accorde",
+   "resultat": "Label accordé dès le 2ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 6,
+    "2eme": 0,
+    "3eme": 2,
+    "resultat": 1
+   },
+   "pitching": "N.A",
+   "conflit": "M. Mohamed Salah Frad a déclaré un conflit d'intérêt"
+  },
+  {
+   "societe": "Taysir Solutions Tunisia",
+   "fondateurs": [
+    "Mohamed Belghith",
+    "Fakhreddine Hachfi"
+   ],
+   "secteur": "IT",
+   "type": "Label",
+   "decision": "label_accorde",
+   "resultat": "Label accordé dès le 2ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 6,
+    "2eme": 2,
+    "3eme": 1,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "UniQ Soft Technology",
+   "fondateurs": [
+    "Bechir Yakhlef"
+   ],
+   "secteur": "IT",
+   "type": "Label",
+   "decision": "label_accorde",
+   "resultat": "Label accordé dès le 2ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 6,
+    "2eme": 1,
+    "3eme": 2,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Armani Arabic Academy",
+   "fondateurs": [
+    "Salwa Armani"
+   ],
+   "secteur": "EdTech",
+   "type": "Label",
+   "decision": "label_accorde",
+   "resultat": "Label accordé dès le 2ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 5,
+    "2eme": 2,
+    "3eme": 2,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Dqlick",
+   "fondateurs": [
+    "Hamdi Bouslah"
+   ],
+   "secteur": "Insurance Tech",
+   "type": "Label",
+   "decision": "label_accorde",
+   "resultat": "Label accordé dès le 2ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 5,
+    "2eme": 3,
+    "3eme": 1,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "KNSD",
+   "fondateurs": [
+    "Ali Boulila"
+   ],
+   "secteur": "Big Data",
+   "type": "Label",
+   "decision": "label_accorde",
+   "resultat": "Label accordé dès le 2ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 5,
+    "2eme": 2,
+    "3eme": 1,
+    "resultat": 1
+   },
+   "pitching": "N.A",
+   "conflit": "M. Mohamed Salah Frad a déclaré un conflit d'intérêt"
+  },
+  {
+   "societe": "MedCREtech",
+   "fondateurs": [
+    "Nacef Bouzguenda"
+   ],
+   "secteur": "Blockchain & cryptocurrency",
+   "type": "Label",
+   "decision": "label_accorde",
+   "resultat": "Label accordé dès le 2ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 5,
+    "2eme": 2,
+    "3eme": 2,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Novel-Ti",
+   "fondateurs": [
+    "Zied Loukil",
+    "Ferdaous Masmoudi"
+   ],
+   "secteur": "AI",
+   "type": "Label",
+   "decision": "label_accorde",
+   "resultat": "Label accordé dès le 2ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 5,
+    "2eme": 2,
+    "3eme": 2,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "PEAK Technologies",
+   "fondateurs": [
+    "Moslem Ben Dhaou",
+    "Bilel Methnani"
+   ],
+   "secteur": "Fintech",
+   "type": "Label",
+   "decision": "label_accorde",
+   "resultat": "Label accordé dès le 2ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 5,
+    "2eme": 1,
+    "3eme": 3,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Smart and Clean",
+   "fondateurs": [
+    "Mourad Bouabdallah"
+   ],
+   "secteur": "Cleantech",
+   "type": "Label",
+   "decision": "label_accorde",
+   "resultat": "Label accordé dès le 2ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 5,
+    "2eme": 3,
+    "3eme": 1,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Tadeco IT",
+   "fondateurs": [
+    "Aymen Talbi"
+   ],
+   "secteur": "E-Commerce",
+   "type": "Label",
+   "decision": "label_accorde",
+   "resultat": "Label accordé dès le 2ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 5,
+    "2eme": 4,
+    "3eme": 0,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "TechAbility",
+   "fondateurs": [
+    "Dorra Kammoun",
+    "Oussama Romdhane"
+   ],
+   "secteur": "IoT",
+   "type": "Label",
+   "decision": "label_accorde",
+   "resultat": "Label accordé dès le 2ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 5,
+    "2eme": 2,
+    "3eme": 2,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Empire communication",
+   "fondateurs": [
+    "Hani Hamrouni",
+    "Davide David"
+   ],
+   "secteur": "Services",
+   "type": "Label",
+   "decision": "label_refuse",
+   "resultat": "Label non-accordé dès le 2ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 3,
+    "2eme": 5,
+    "3eme": 1,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "3D Forge",
+   "fondateurs": [
+    "Ferid Kamel",
+    "Mohamed Abul Heija"
+   ],
+   "secteur": "Services",
+   "type": "Label",
+   "decision": "label_refuse",
+   "resultat": "Label non-accordé dès le 2ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 2,
+    "2eme": 5,
+    "3eme": 2,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Africa Flying and Engineering",
+   "fondateurs": [
+    "Walid Meskine"
+   ],
+   "secteur": "AgriTech",
+   "type": "Label",
+   "decision": "label_refuse",
+   "resultat": "Label non-accordé dès le 2ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 1,
+    "2eme": 6,
+    "3eme": 2,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Ticket Communication TICOM",
+   "fondateurs": [
+    "Aida Rafrafi"
+   ],
+   "secteur": "Marketing",
+   "type": "Label",
+   "decision": "label_refuse",
+   "resultat": "Label non-accordé dès le 2ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 1,
+    "2eme": 7,
+    "3eme": 1,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "TeTa concept",
+   "fondateurs": [
+    "Achraf Jamli"
+   ],
+   "secteur": "Services",
+   "type": "Label",
+   "decision": "label_refuse",
+   "resultat": "Label non-accordé dès le 2ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 0,
+    "2eme": 7,
+    "3eme": 2,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "WeMake",
+   "fondateurs": [
+    "Abdelmajid Mathlouthi",
+    "Karim Yahyaoui"
+   ],
+   "secteur": "Services",
+   "type": "Label",
+   "decision": "label_refuse",
+   "resultat": "Label non-accordé dès le 2ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 0,
+    "2eme": 7,
+    "3eme": 2,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Micro Device Tunisia",
+   "fondateurs": [
+    "Hamdi Ben Amor"
+   ],
+   "secteur": "IoT",
+   "type": "Label",
+   "decision": "label_refuse",
+   "resultat": "Label non-accordé dès le 2ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 1,
+    "2eme": 8,
+    "3eme": 0,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Kiwi Softwares",
+   "fondateurs": [
+    "Ali Bouslama"
+   ],
+   "secteur": "IT",
+   "type": "Label",
+   "decision": "label_refuse",
+   "resultat": "Label non-accordé dès le 2ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 0,
+    "2eme": 9,
+    "3eme": 0,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Expensya (Pepino Tech)",
+   "fondateurs": [
+    "Karim jouini",
+    "Jihed othmani"
+   ],
+   "secteur": "E-Commerce",
+   "type": "Label",
+   "decision": "label_accorde",
+   "resultat": "Label accordé après le Pitching",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 4,
+    "2eme": 1,
+    "3eme": 3,
+    "resultat": 1
+   },
+   "pitching": "8/0",
+   "conflit": "M. Nader Bhouri a déclaré un conflit d'intérêt"
+  },
+  {
+   "societe": "Smart Mobility",
+   "fondateurs": [
+    "Mokhles Masmoudi"
+   ],
+   "secteur": "IoT",
+   "type": "Label",
+   "decision": "label_accorde",
+   "resultat": "Label accordé après le Pitching",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 3,
+    "2eme": 2,
+    "3eme": 4,
+    "resultat": 0
+   },
+   "pitching": "9/0",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Educanet",
+   "fondateurs": [
+    "Anis Ben Arbia"
+   ],
+   "secteur": "EdTech",
+   "type": "Label",
+   "decision": "label_accorde",
+   "resultat": "Label accordé après le Pitching",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 4,
+    "2eme": 2,
+    "3eme": 3,
+    "resultat": 0
+   },
+   "pitching": "8/1",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Study.tn",
+   "fondateurs": [
+    "Nidhal Abidi",
+    "Mohamed Selim Hadrich",
+    "Nadhir Abidi",
+    "Seyf Hamdaoui"
+   ],
+   "secteur": "E-Learning",
+   "type": "Label",
+   "decision": "label_accorde",
+   "resultat": "Label accordé après le Pitching",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 4,
+    "2eme": 3,
+    "3eme": 2,
+    "resultat": 0
+   },
+   "pitching": "8/1",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Tunisie Matériel Roulant",
+   "fondateurs": [
+    "Amel Besbes",
+    "Kais Aribi"
+   ],
+   "secteur": "Marketing",
+   "type": "Label",
+   "decision": "label_accorde",
+   "resultat": "Label accordé après le Pitching",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 3,
+    "2eme": 4,
+    "3eme": 2,
+    "resultat": 0
+   },
+   "pitching": "8/1",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Embedded Solutions and Advanced Technology",
+   "fondateurs": [
+    "Mohamed Salouati"
+   ],
+   "secteur": "IoT",
+   "type": "Label",
+   "decision": "label_accorde",
+   "resultat": "Label accordé après le Pitching",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 2,
+    "2eme": 3,
+    "3eme": 4,
+    "resultat": 0
+   },
+   "pitching": "8/1",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Inotek engineering",
+   "fondateurs": [
+    "Mehdi Mazlout",
+    "Walid Saghari"
+   ],
+   "secteur": "IoT",
+   "type": "Label",
+   "decision": "label_accorde",
+   "resultat": "Label accordé après le Pitching",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 2,
+    "2eme": 2,
+    "3eme": 5,
+    "resultat": 0
+   },
+   "pitching": "8/1",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Paymee",
+   "fondateurs": [
+    "Marwen Amamou"
+   ],
+   "secteur": "Fintech",
+   "type": "Label",
+   "decision": "label_accorde",
+   "resultat": "Label accordé après le Pitching",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 4,
+    "2eme": 0,
+    "3eme": 4,
+    "resultat": 1
+   },
+   "pitching": "7/1",
+   "conflit": "M. Zakaria Belkhodja a déclaré un conflit d'intérêt"
+  },
+  {
+   "societe": "Healthcare Anywhere",
+   "fondateurs": [
+    "Imed Abed",
+    "Fadoua Ouerdiane"
+   ],
+   "secteur": "Health Tech",
+   "type": "Label",
+   "decision": "label_accorde",
+   "resultat": "Label accordé après le Pitching",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 4,
+    "2eme": 2,
+    "3eme": 2,
+    "resultat": 1
+   },
+   "pitching": "7/1",
+   "conflit": "M. Mohamed Ali Kilani a déclaré un conflit d'intérêt"
+  },
+  {
+   "societe": "TunRooms",
+   "fondateurs": [
+    "Mohamed Ali Afif"
+   ],
+   "secteur": "E-Commerce",
+   "type": "Label",
+   "decision": "label_accorde",
+   "resultat": "Label accordé après le Pitching",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 4,
+    "2eme": 4,
+    "3eme": 1,
+    "resultat": 0
+   },
+   "pitching": "7/2",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Galactech",
+   "fondateurs": [
+    "Houssem Maiza"
+   ],
+   "secteur": "Telcom",
+   "type": "Label",
+   "decision": "label_accorde",
+   "resultat": "Label accordé après le Pitching",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 3,
+    "2eme": 1,
+    "3eme": 5,
+    "resultat": 0
+   },
+   "pitching": "7/2",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Domodar",
+   "fondateurs": [
+    "Rochdi Zaghden",
+    "Walid Dieff Allah"
+   ],
+   "secteur": "IoT",
+   "type": "Label",
+   "decision": "label_accorde",
+   "resultat": "Label accordé après le Pitching",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 2,
+    "2eme": 3,
+    "3eme": 4,
+    "resultat": 0
+   },
+   "pitching": "7/2",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Vynd",
+   "fondateurs": [
+    "Adam Chebbi",
+    "Khalil Ben Hamouda"
+   ],
+   "secteur": "E-Commerce",
+   "type": "Label",
+   "decision": "label_accorde",
+   "resultat": "Label accordé après le Pitching",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 3,
+    "2eme": 1,
+    "3eme": 2,
+    "resultat": 3
+   },
+   "pitching": "5/1",
+   "conflit": "M. Khaled Ben Jilani, M. Ali Mnif et M. Zakaria Belkhodja ont déclaré un conflit d'intérêt"
+  },
+  {
+   "societe": "Tunisie Co",
+   "fondateurs": [
+    "Khaled Aouij"
+   ],
+   "secteur": "Services",
+   "type": "Label",
+   "decision": "label_refuse",
+   "resultat": "Label non-accordé après le Pitching",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 3,
+    "2eme": 3,
+    "3eme": 2,
+    "resultat": 1
+   },
+   "pitching": "4/4",
+   "conflit": "M. Mohamed Salah Frad a déclaré un conflit d'intérêt"
+  },
+  {
+   "societe": "Best Way",
+   "fondateurs": [
+    "Ahmed Ben Hamida"
+   ],
+   "secteur": "Marketing",
+   "type": "Label",
+   "decision": "label_refuse",
+   "resultat": "Label non-accordé après le Pitching",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 2,
+    "2eme": 2,
+    "3eme": 4,
+    "resultat": 1
+   },
+   "pitching": "3/5",
+   "conflit": "M. Elyes Jeribi a déclaré un conflit d'intérêt"
+  },
+  {
+   "societe": "ComEngineering",
+   "fondateurs": [
+    "Omar chahata",
+    "Ahmed Rouetbi"
+   ],
+   "secteur": "IoT",
+   "type": "Label",
+   "decision": "label_refuse",
+   "resultat": "Label non-accordé après le Pitching",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 0,
+    "2eme": 4,
+    "3eme": 5,
+    "resultat": 0
+   },
+   "pitching": "2/7",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Testafid+",
+   "fondateurs": [
+    "Mohamed Ghmadh"
+   ],
+   "secteur": "E-Commerce",
+   "type": "Label",
+   "decision": "label_refuse",
+   "resultat": "Label non-accordé après le Pitching",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 0,
+    "2eme": 4,
+    "3eme": 5,
+    "resultat": 0
+   },
+   "pitching": "2/7",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Afrique Charbon",
+   "fondateurs": [
+    "Abdelaziz Bahri"
+   ],
+   "secteur": "Energie",
+   "type": "Label",
+   "decision": "label_refuse",
+   "resultat": "Label non-accordé après le Pitching",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 4,
+    "2eme": 4,
+    "3eme": 1,
+    "resultat": 0
+   },
+   "pitching": "1/8",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Ironhoster",
+   "fondateurs": [
+    "Naiim Lamloumi"
+   ],
+   "secteur": "E-Commerce",
+   "type": "Label",
+   "decision": "label_refuse",
+   "resultat": "Label non-accordé après le Pitching",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 1,
+    "2eme": 4,
+    "3eme": 3,
+    "resultat": 1
+   },
+   "pitching": "1/7",
+   "conflit": "M. Zakaria Belkhodja a déclaré un conflit d'intérêt"
+  },
+  {
+   "societe": "Boostiny",
+   "fondateurs": [
+    "Tarak Nachnouchi"
+   ],
+   "secteur": "Marketing",
+   "type": "Label",
+   "decision": "irrecevable",
+   "resultat": "Dossier irrecevable pour non-indépendance du capital",
+   "recevable": "Non",
+   "votes": {},
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Forevermo (Paravoisin)",
+   "fondateurs": [
+    "Mohamed Methnani"
+   ],
+   "secteur": "Health Tech",
+   "type": "Label",
+   "decision": "irrecevable",
+   "resultat": "Dossier irrecevable pour cause de documents manquants",
+   "recevable": "Non",
+   "votes": {},
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Supply Air",
+   "fondateurs": [
+    "Aymen Tleilia",
+    "Hatem Lefi"
+   ],
+   "secteur": "Services",
+   "type": "Label",
+   "decision": "irrecevable",
+   "resultat": "Dossier irrecevable pour cause de documents manquants",
+   "recevable": "Non",
+   "votes": {},
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Sawsan Bellaj Training & Consulting",
+   "fondateurs": [
+    "Sawssen Bellaj"
+   ],
+   "secteur": "E-Commerce",
+   "type": "Label",
+   "decision": "irrecevable",
+   "resultat": "Dossier irrecevable pour cause de non conformité de la forme juridique",
+   "recevable": "Non",
+   "votes": {},
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Casual Bet",
+   "fondateurs": [
+    "Walid Balti",
+    "Abderahmen Mahmoudi"
+   ],
+   "secteur": "Gaming",
+   "type": "Label",
+   "decision": "irrecevable",
+   "resultat": "Dossier irrecevable à cause d'un litige avec l'Etat Tunisien (Ministère des Affaires de la Jeunesse et du Sport) pour exercice d'une activité illégale",
+   "recevable": "Non",
+   "votes": {},
+   "pitching": "N.A",
+   "conflit": "N.A"
+  }
+ ]
 }

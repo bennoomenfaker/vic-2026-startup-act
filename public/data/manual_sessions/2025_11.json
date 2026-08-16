@@ -1,68 +1,895 @@
 {
-  "session": "11/2025",
-  "intitule": "Startup Act | Session 80 | Novembre 2025 | Compte-Rendu",
-  "source": "Copier-coller manuel du Compte-Rendu officiel (utilisateur) — vérité de terrain",
-  "verifie_le": "2026-08-16",
-  "nb_rows": 39,
-  "meta": {
-    "candidatures_officielles": 39,
-    "labels_officiels": 15,
-    "prelabels_officiels": 3,
-    "conflit_declare_par": ["Hassen Aarfaoui"]
-  },
-  "conversions": [
-    { "societe": "ELIXIA / AIVIA", "fondateurs": ["Ahmed Gargouri", "Youssef Boutaleb", "Moez Zouari", "MOHAMED ALI KHEMAKHEM", "Rafik Rekhis", "Manel Kallel"], "secteur": "HealthTech", "prelabel_session": "Octobre 2025", "resultat": "Label accordé", "commentaire": "Label accordé suite à la création de la Startup et le respect des conditions d'octroi" },
-    { "societe": "Vegana des Industries Alimentaires / Vegana", "fondateurs": ["Mehdi Ben Hamouda"], "secteur": "FoodTech & New Food", "prelabel_session": "Juillet 2024", "resultat": "Label accordé", "commentaire": "Label accordé suite à la création de la Startup et le respect des conditions d'octroi" },
-    { "societe": "ÊKRÎ / Ekri", "fondateurs": ["Mohamed Elyes BEN HAJ KBAIR", "Marouene Draoui"], "secteur": "TravelTech", "prelabel_session": "Juin 2025", "resultat": "Label accordé", "commentaire": "Label accordé suite à la création de la Startup et le respect des conditions d'octroi" },
-    { "societe": "Owlink / Flexee Pay", "fondateurs": ["Mohamed BADRI"], "secteur": "Fintech", "prelabel_session": "Juillet 2025", "resultat": "Label accordé", "commentaire": "Label accordé suite à la création de la Startup et le respect des conditions d'octroi" },
-    { "societe": "Leestee / eejar", "fondateurs": ["Oussema Bennour", "Ahmed Ben Othman"], "secteur": "Real Estate Tech", "prelabel_session": "Mai 2025", "resultat": "Label accordé", "commentaire": "Label accordé suite à la création de la Startup et le respect des conditions d'octroi" },
-    { "societe": "Cogitoly learning / Cogitoly", "fondateurs": ["Nada Mejri", "Issam Mellah"], "secteur": "EdTech", "prelabel_session": "Octobre 2025", "resultat": "Label accordé", "commentaire": "Label accordé suite à la création de la Startup et le respect des conditions d'octroi" },
-    { "societe": "Dr Well Labs / Dr. well", "fondateurs": ["Walid Bayoudhi"], "secteur": "Wellness", "prelabel_session": "Mai 2025", "resultat": "Label accordé", "commentaire": "Label accordé suite à la création de la Startup et le respect des conditions d'octroi" },
-    { "societe": "GOTEI ESPORTS / Gotei", "fondateurs": ["khaled makhlouf", "Amine Ben Messaoud", "assad yahyawi"], "secteur": "Ad Tech and Creative Tech", "prelabel_session": "Septembre 2025", "resultat": "Label accordé", "commentaire": "Label accordé suite à la création de la Startup et le respect des conditions d'octroi" }
-  ],
-  "retraits": [
-    { "societe": "Donec", "secteur": "EdTech", "label_session": "Juillet 2019", "resultat": "Retrait du Label", "motif": "La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-2018 pour les sociétés bénéficiaires du Label" },
-    { "societe": "Smart Logger IoT", "secteur": "IoT", "label_session": "Octobre 2019", "resultat": "Retrait du Label", "motif": "La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-2018 pour les sociétés bénéficiaires du Label" }
-  ],
-  "rows": [
-    { "societe": "SEEVEND INDUSTRIES", "fondateurs": ["Saifallah Labidi"], "secteur": "Mobility", "type": "Label", "decision": "label_accorde", "resultat": "Label Accordé au 2 ème Tour", "recevable": "Oui", "votes": {"1er": 7, "2eme": 0, "3eme": 2, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "edulysa", "fondateurs": ["Youssef Almia", "Slim Almia"], "secteur": "EdTech", "type": "Label", "decision": "label_accorde", "resultat": "Label Accordé au 2 ème Tour", "recevable": "Oui", "votes": {"1er": 8, "2eme": 0, "3eme": 0, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "Kridipay", "fondateurs": ["Amani CHATTI", "Mahmoud Chatti", "Mohamed Neji KALBOUSSI"], "secteur": "Fintech", "type": "Label", "decision": "label_accorde", "resultat": "Label Accordé au 2 ème Tour", "recevable": "Oui", "votes": {"1er": 7, "2eme": 0, "3eme": 0, "resultat": 1}, "pitching": "N.A", "conflit": "Hassen Aarfaoui a déclaré avoir un conflit d'intérêt" },
-    { "societe": "Ketrone", "fondateurs": ["Sadry El Materi"], "secteur": "Business Software and services", "type": "Label", "decision": "label_accorde", "resultat": "Label Accordé au 2 ème Tour", "recevable": "Oui", "votes": {"1er": 6, "2eme": 0, "3eme": 1, "resultat": 1}, "pitching": "N.A", "conflit": "Hassen Aarfaoui a déclaré avoir un conflit d'intérêt" },
-    { "societe": "SOCIETE BE WISE", "fondateurs": ["Makrem Ellouze"], "secteur": "Business Software and services", "type": "Label", "decision": "label_accorde", "resultat": "Label Accordé au 2 ème Tour", "recevable": "Oui", "votes": {"1er": 5, "2eme": 0, "3eme": 3, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "Joya", "fondateurs": ["Rayan Goucha"], "secteur": "Environment", "type": "Label", "decision": "label_accorde", "resultat": "Label Accordé au 3 ème Tour", "recevable": "Oui", "votes": {"1er": 3, "2eme": 0, "3eme": 5, "resultat": 1}, "pitching": "6/0", "conflit": "Hassen Aarfaoui a déclaré avoir un conflit d'intérêt" },
-    { "societe": "SYLA AI TUNISIA", "fondateurs": ["Houssem NOURI"], "secteur": "TravelTech", "type": "Label", "decision": "label_accorde", "resultat": "Label Accordé au 3 ème Tour", "recevable": "Oui", "votes": {"1er": 4, "2eme": 0, "3eme": 4, "resultat": 0}, "pitching": "7/0", "conflit": "N.A" },
-    { "societe": "Predict'O Energy", "fondateurs": ["Hamdi KHADHRAOUI", "Oumayma Allouch", "Olfa Jrad", "Akrem Khadhraoui"], "secteur": "Environment", "type": "Prélabel", "decision": "prelabel_accorde", "resultat": "Prélabel Accordé au 2 ème Tour", "recevable": "Oui", "votes": {"1er": 5, "2eme": 2, "3eme": 1, "resultat": 1}, "pitching": "N.A", "conflit": "Hassen Aarfaoui a déclaré avoir un conflit d'intérêt" },
-    { "societe": "BioExpert", "fondateurs": ["Mohamed Ouni", "Skander Guarbaa", "khalil ben abdallah", "Manel CHAABANE"], "secteur": "HealthTech", "type": "Prélabel", "decision": "prelabel_accorde", "resultat": "Prélabel Accordé au 2 ème Tour", "recevable": "Oui", "votes": {"1er": 6, "2eme": 2, "3eme": 0, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "216Bot", "fondateurs": ["Ahmed Mahouachi", "Mohamed Dhaou", "Mohamed Akremi"], "secteur": "Communications services", "type": "Prélabel", "decision": "prelabel_accorde", "resultat": "Prélabel Accordé au 2 ème Tour", "recevable": "Oui", "votes": {"1er": 7, "2eme": 0, "3eme": 1, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "trendytek E-Learning", "fondateurs": ["jlassi baha eddine"], "secteur": "EdTech", "type": "Label", "decision": "label_refuse", "resultat": "Label Non Accordé au 2 ème Tour", "recevable": "Oui", "votes": {"1er": 1, "2eme": 7, "3eme": 1, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "SBA CONSULT", "fondateurs": ["Saber BEN AMMAR", "Ons Toujani"], "secteur": "Business Software and services", "type": "Label", "decision": "label_refuse", "resultat": "Label Non Accordé au 2 ème Tour", "recevable": "Oui", "votes": {"1er": 0, "2eme": 9, "3eme": 0, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "MelqartX Corp", "fondateurs": ["Rami Slimene", "Imtinen AYARI"], "secteur": "Mobility", "type": "Label", "decision": "label_refuse", "resultat": "Label Non Accordé au 2 ème Tour", "recevable": "Oui", "votes": {"1er": 1, "2eme": 6, "3eme": 2, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "Jhezi.tn", "fondateurs": ["Hassan DHIB", "Ameni Teka"], "secteur": "Consumer products and services", "type": "Label", "decision": "label_refuse", "resultat": "Label Non Accordé au 2 ème Tour", "recevable": "Oui", "votes": {"1er": 2, "2eme": 5, "3eme": 2, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "Iridium X", "fondateurs": ["Salaheddine Ogontayo", "Abir Daoud", "Bilel Zahi", "Triki Omar"], "secteur": "Wellness", "type": "Label", "decision": "label_refuse", "resultat": "Label Non Accordé au 2 ème Tour", "recevable": "Oui", "votes": {"1er": 0, "2eme": 8, "3eme": 0, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "شاورني", "fondateurs": ["Souhir Manai"], "secteur": "Business Software and services", "type": "Label", "decision": "label_refuse", "resultat": "Label Non Accordé au 2 ème Tour", "recevable": "Oui", "votes": {"1er": 0, "2eme": 8, "3eme": 0, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "kobox designs", "fondateurs": ["slim kamoun"], "secteur": "Environment", "type": "Label", "decision": "label_refuse", "resultat": "Label Non Accordé au 2 ème Tour", "recevable": "Oui", "votes": {"1er": 0, "2eme": 8, "3eme": 0, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "Smart Maker", "fondateurs": ["Adel BRAHAM", "nouha braham"], "secteur": "Ad Tech and Creative Tech", "type": "Label", "decision": "label_refuse", "resultat": "Label Non Accordé au 2 ème Tour", "recevable": "Oui", "votes": {"1er": 0, "2eme": 8, "3eme": 0, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "Agrogrowth", "fondateurs": ["sami arfaoui"], "secteur": "Agritech", "type": "Label", "decision": "label_refuse", "resultat": "Label Non Accordé au 3 ème Tour", "recevable": "Oui", "votes": {"1er": 1, "2eme": 4, "3eme": 1, "resultat": 0}, "pitching": "0/7", "conflit": "N.A" },
-    { "societe": "Letusdify", "fondateurs": ["Mohamed Salah Tammar", "Iheb Ghazala"], "secteur": "Business Software and services", "type": "Prélabel", "decision": "prelabel_refuse", "resultat": "Prélabel Non Accordé au 2 ème Tour", "recevable": "Oui", "votes": {"1er": 0, "2eme": 9, "3eme": 0, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "ReMine Technologies", "fondateurs": ["Borhane Ben Said", "Anis Djedidi"], "secteur": "Environment", "type": "Prélabel", "decision": "prelabel_refuse", "resultat": "Prélabel Non Accordé au 2 ème Tour", "recevable": "Oui", "votes": {"1er": 0, "2eme": 9, "3eme": 0, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "Lift&Eat", "fondateurs": ["Hamdi Jouini", "Khazri Mouna"], "secteur": "HealthTech", "type": "Prélabel", "decision": "prelabel_refuse", "resultat": "Prélabel Non Accordé au 2 ème Tour", "recevable": "Oui", "votes": {"1er": 1, "2eme": 7, "3eme": 1, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "Tender", "fondateurs": ["mazen slama", "Iheb Lafi", "Islem Ferchichi"], "secteur": "Business Software and services", "type": "Prélabel", "decision": "prelabel_refuse", "resultat": "Prélabel Non Accordé au 2 ème Tour", "recevable": "Oui", "votes": {"1er": 0, "2eme": 9, "3eme": 0, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "EmberForge Tech", "fondateurs": ["ahmed amine kamoun"], "secteur": "Ad Tech and Creative Tech", "type": "Prélabel", "decision": "prelabel_refuse", "resultat": "Prélabel Non Accordé au 2 ème Tour", "recevable": "Oui", "votes": {"1er": 0, "2eme": 8, "3eme": 0, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "MedSearch IA", "fondateurs": ["Zoubaier Bouajaja"], "secteur": "Business Software and services", "type": "Prélabel", "decision": "prelabel_refuse", "resultat": "Prélabel Non Accordé au 2 ème Tour", "recevable": "Oui", "votes": {"1er": 0, "2eme": 8, "3eme": 0, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "AD Vertising", "fondateurs": ["Nadine Askri", "Mongi Dali", "Wael Gamaoun"], "secteur": "Ad Tech and Creative Tech", "type": "Prélabel", "decision": "prelabel_refuse", "resultat": "Prélabel Non Accordé au 2 ème Tour", "recevable": "Oui", "votes": {"1er": 1, "2eme": 6, "3eme": 0, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "AXIOM décorticage IA", "fondateurs": ["Foued Jaballah", "Farid Drifa"], "secteur": "Business Software and services", "type": "Prélabel", "decision": "prelabel_refuse", "resultat": "Prélabel Non Accordé au 2 ème Tour", "recevable": "Oui", "votes": {"1er": 0, "2eme": 8, "3eme": 0, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "Choufli", "fondateurs": ["Moez BEN GHARBIA", "Ramzi Tounsi", "Kamel BEN GHARBIA"], "secteur": "Social Business", "type": "Prélabel", "decision": "prelabel_refuse", "resultat": "Prélabel Non Accordé au 2 ème Tour", "recevable": "Oui", "votes": {"1er": 1, "2eme": 6, "3eme": 1, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "Oria", "fondateurs": ["Mohamed AYADI", "Mayssa Moussa", "eya makhlouf"], "secteur": "Ad Tech and Creative Tech", "type": "Prélabel", "decision": "prelabel_refuse", "resultat": "Prélabel Non Accordé au 2 ème Tour", "recevable": "Oui", "votes": {"1er": 0, "2eme": 8, "3eme": 0, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "Clic SOS", "fondateurs": ["Anis Essid", "Mezni Hiba"], "secteur": "Mobility", "type": "Prélabel", "decision": "prelabel_refuse", "resultat": "Prélabel Non Accordé au 2 ème Tour", "recevable": "Oui", "votes": {"1er": 0, "2eme": 8, "3eme": 0, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "Triptopie", "fondateurs": ["achref ayari"], "secteur": "TravelTech", "type": "Prélabel", "decision": "prelabel_refuse", "resultat": "Prélabel Non Accordé au 2 ème Tour", "recevable": "Oui", "votes": {"1er": 0, "2eme": 8, "3eme": 0, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "TooFresh", "fondateurs": ["Motez Mhadhbi", "Awatef Zid", "Mhadhbi Shady", "Ben Henda Dhia", "Ben hadj hssin Mohamed anis", "Lejmi Moussa"], "secteur": "Environment", "type": "Prélabel", "decision": "prelabel_refuse", "resultat": "Prélabel Non Accordé au 2 ème Tour", "recevable": "Oui", "votes": {"1er": 0, "2eme": 8, "3eme": 0, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "EcoRecy", "fondateurs": ["Achraf BLEILI"], "secteur": "Environment", "type": "Prélabel", "decision": "prelabel_refuse", "resultat": "Prélabel Non Accordé au 2 ème Tour", "recevable": "Oui", "votes": {"1er": 0, "2eme": 8, "3eme": 0, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "Kidin", "fondateurs": ["Firas ABDELMAJID"], "secteur": "EdTech", "type": "Prélabel", "decision": "prelabel_refuse", "resultat": "Prélabel Non Accordé au 2 ème Tour", "recevable": "Oui", "votes": {"1er": 0, "2eme": 8, "3eme": 0, "resultat": 0}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "CarbonTrack", "fondateurs": ["Houssem Ben Malek", "Marwa Metsahel"], "secteur": "Environment", "type": "Prélabel", "decision": "prelabel_refuse", "resultat": "Prélabel Non Accordé au 3 ème Tour", "recevable": "Oui", "votes": {"1er": 3, "2eme": 3, "3eme": 2, "resultat": 0}, "pitching": "0/7", "conflit": "N.A" },
-    { "societe": "Bibinet", "fondateurs": ["Amel Jebali", "Arbi Ben Bazza", "Rim Harabi", "Roua Boubakri", "Manel Saadaoui"], "secteur": "Consumer products and services", "type": "Prélabel", "decision": "prelabel_refuse", "resultat": "Prélabel Non Accordé au 3 ème Tour", "recevable": "Oui", "votes": {"1er": 4, "2eme": 3, "3eme": 1, "resultat": 0}, "pitching": "0/6", "conflit": "N.A" },
-    { "societe": "GuaranteePay – Lasweq", "fondateurs": ["Oussema Ben Barka"], "secteur": "Fintech", "type": "Label", "decision": "irrecevable", "resultat": "Label Non Accordé au 1 er Tour pour Non communication des états financiers exigés en vertu de l'article 4 du Décret gouvernemental n°2018-840 du 11 octobre 2018 et requis pour la vérification de la condition stipulée au point 2 de l'article 3 de la loi n°2018-20 du 17 avril 2018.", "recevable": "Non", "votes": {}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "MCS - Mediterranean Creative Studio", "fondateurs": ["Yosri Ayed", "Anis Lahouar", "Mohamed Kamergi"], "secteur": "Consumer products and services", "type": "Label", "decision": "irrecevable", "resultat": "Label Non Accordé au 1 er Tour pour non soumission de documents des états financiers de l'exercice 2024. Ces Documents sont exigés en vertu de l'article 4 du Décret gouvernemental n°2018-840 du 11 octobre 2018 et requis pour la vérification de la condition stipulée au point 2 de l'article 3 de la loi n°2018-20 du 17 avril 2018.", "recevable": "Non", "votes": {}, "pitching": "N.A", "conflit": "N.A" },
-    { "societe": "Reality Tunisia Branch", "fondateurs": ["BAKABAS ALI", "Seifeddine Souissi"], "secteur": "Wellness", "type": "Label", "decision": "irrecevable", "resultat": "Label Non Accordé au 1 er Tour : la candidature est irrecevable sur la base de l'article 2 de la loi n°2018-20 du 17 avril 2018 relative aux Startups exige que la Startup soit « une Société commerciale constituée conformément à la législation en vigueur ». L'article 4 du code des sociétés commerciales dispose que « Toute société commerciale donne naissance à une personne morale indépendante de la personne de chacun des associés à partir de la date de son immatriculation au registre du commerce… »", "recevable": "Non", "votes": {}, "pitching": "N.A", "conflit": "N.A" }
+ "session": "11/2025",
+ "intitule": "Startup Act | Session 80 | Novembre 2025 | Compte-Rendu",
+ "source": "Extraction manuelle du PDF officiel — vérité de terrain",
+ "verifie_le": "2026-08-16",
+ "nb_rows": 39,
+ "meta": {
+  "candidatures_officielles": 39,
+  "labels_officiels": 15,
+  "prelabels_officiels": 3,
+  "conflit_declare_par": [
+   "Hassen Aarfaoui"
   ]
+ },
+ "conversions": [
+  {
+   "societe": "ELIXIA / AIVIA",
+   "fondateurs": [
+    "Ahmed Gargouri",
+    "Youssef Boutaleb",
+    "Moez Zouari",
+    "MOHAMED ALI KHEMAKHEM",
+    "Rafik Rekhis",
+    "Manel Kallel"
+   ],
+   "secteur": "HealthTech",
+   "prelabel_session": "Octobre 2025",
+   "resultat": "Label accordé",
+   "commentaire": "Label accordé suite à la création de la Startup et le respect des conditions d'octroi"
+  },
+  {
+   "societe": "Vegana des Industries Alimentaires / Vegana",
+   "fondateurs": [
+    "Mehdi Ben Hamouda"
+   ],
+   "secteur": "FoodTech & New Food",
+   "prelabel_session": "Juillet 2024",
+   "resultat": "Label accordé",
+   "commentaire": "Label accordé suite à la création de la Startup et le respect des conditions d'octroi"
+  },
+  {
+   "societe": "ÊKRÎ / Ekri",
+   "fondateurs": [
+    "Mohamed Elyes BEN HAJ KBAIR",
+    "Marouene Draoui"
+   ],
+   "secteur": "TravelTech",
+   "prelabel_session": "Juin 2025",
+   "resultat": "Label accordé",
+   "commentaire": "Label accordé suite à la création de la Startup et le respect des conditions d'octroi"
+  },
+  {
+   "societe": "Owlink / Flexee Pay",
+   "fondateurs": [
+    "Mohamed BADRI"
+   ],
+   "secteur": "Fintech",
+   "prelabel_session": "Juillet 2025",
+   "resultat": "Label accordé",
+   "commentaire": "Label accordé suite à la création de la Startup et le respect des conditions d'octroi"
+  },
+  {
+   "societe": "Leestee / eejar",
+   "fondateurs": [
+    "Oussema Bennour",
+    "Ahmed Ben Othman"
+   ],
+   "secteur": "Real Estate Tech",
+   "prelabel_session": "Mai 2025",
+   "resultat": "Label accordé",
+   "commentaire": "Label accordé suite à la création de la Startup et le respect des conditions d'octroi"
+  },
+  {
+   "societe": "Cogitoly learning / Cogitoly",
+   "fondateurs": [
+    "Nada Mejri",
+    "Issam Mellah"
+   ],
+   "secteur": "EdTech",
+   "prelabel_session": "Octobre 2025",
+   "resultat": "Label accordé",
+   "commentaire": "Label accordé suite à la création de la Startup et le respect des conditions d'octroi"
+  },
+  {
+   "societe": "Dr Well Labs / Dr. well",
+   "fondateurs": [
+    "Walid Bayoudhi"
+   ],
+   "secteur": "Wellness",
+   "prelabel_session": "Mai 2025",
+   "resultat": "Label accordé",
+   "commentaire": "Label accordé suite à la création de la Startup et le respect des conditions d'octroi"
+  },
+  {
+   "societe": "GOTEI ESPORTS / Gotei",
+   "fondateurs": [
+    "khaled makhlouf",
+    "Amine Ben Messaoud",
+    "assad yahyawi"
+   ],
+   "secteur": "Ad Tech and Creative Tech",
+   "prelabel_session": "Septembre 2025",
+   "resultat": "Label accordé",
+   "commentaire": "Label accordé suite à la création de la Startup et le respect des conditions d'octroi"
+  }
+ ],
+ "retraits": [
+  {
+   "societe": "Donec",
+   "secteur": "EdTech",
+   "label_session": "Juillet 2019",
+   "resultat": "Retrait du Label",
+   "motif": "La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-2018 pour les sociétés bénéficiaires du Label"
+  },
+  {
+   "societe": "Smart Logger IoT",
+   "secteur": "IoT",
+   "label_session": "Octobre 2019",
+   "resultat": "Retrait du Label",
+   "motif": "La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-2018 pour les sociétés bénéficiaires du Label"
+  }
+ ],
+ "rows": [
+  {
+   "societe": "SEEVEND INDUSTRIES",
+   "fondateurs": [
+    "Saifallah Labidi"
+   ],
+   "secteur": "Mobility",
+   "type": "Label",
+   "decision": "label_accorde",
+   "resultat": "Label Accordé au 2 ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 7,
+    "2eme": 0,
+    "3eme": 2,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "edulysa",
+   "fondateurs": [
+    "Youssef Almia",
+    "Slim Almia"
+   ],
+   "secteur": "EdTech",
+   "type": "Label",
+   "decision": "label_accorde",
+   "resultat": "Label Accordé au 2 ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 8,
+    "2eme": 0,
+    "3eme": 0,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Kridipay",
+   "fondateurs": [
+    "Amani CHATTI",
+    "Mahmoud Chatti",
+    "Mohamed Neji KALBOUSSI"
+   ],
+   "secteur": "Fintech",
+   "type": "Label",
+   "decision": "label_accorde",
+   "resultat": "Label Accordé au 2 ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 7,
+    "2eme": 0,
+    "3eme": 0,
+    "resultat": 1
+   },
+   "pitching": "N.A",
+   "conflit": "Hassen Aarfaoui a déclaré avoir un conflit d'intérêt"
+  },
+  {
+   "societe": "Ketrone",
+   "fondateurs": [
+    "Sadry El Materi"
+   ],
+   "secteur": "Business Software and services",
+   "type": "Label",
+   "decision": "label_accorde",
+   "resultat": "Label Accordé au 2 ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 6,
+    "2eme": 0,
+    "3eme": 1,
+    "resultat": 1
+   },
+   "pitching": "N.A",
+   "conflit": "Hassen Aarfaoui a déclaré avoir un conflit d'intérêt"
+  },
+  {
+   "societe": "SOCIETE BE WISE",
+   "fondateurs": [
+    "Makrem Ellouze"
+   ],
+   "secteur": "Business Software and services",
+   "type": "Label",
+   "decision": "label_accorde",
+   "resultat": "Label Accordé au 2 ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 5,
+    "2eme": 0,
+    "3eme": 3,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Joya",
+   "fondateurs": [
+    "Rayan Goucha"
+   ],
+   "secteur": "Environment",
+   "type": "Label",
+   "decision": "label_accorde",
+   "resultat": "Label Accordé au 3 ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 3,
+    "2eme": 0,
+    "3eme": 5,
+    "resultat": 1
+   },
+   "pitching": "6/0",
+   "conflit": "Hassen Aarfaoui a déclaré avoir un conflit d'intérêt"
+  },
+  {
+   "societe": "SYLA AI TUNISIA",
+   "fondateurs": [
+    "Houssem NOURI"
+   ],
+   "secteur": "TravelTech",
+   "type": "Label",
+   "decision": "label_accorde",
+   "resultat": "Label Accordé au 3 ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 4,
+    "2eme": 0,
+    "3eme": 4,
+    "resultat": 0
+   },
+   "pitching": "7/0",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Predict'O Energy",
+   "fondateurs": [
+    "Hamdi KHADHRAOUI",
+    "Oumayma Allouch",
+    "Olfa Jrad",
+    "Akrem Khadhraoui"
+   ],
+   "secteur": "Environment",
+   "type": "Prélabel",
+   "decision": "prelabel_accorde",
+   "resultat": "Prélabel Accordé au 2 ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 5,
+    "2eme": 2,
+    "3eme": 1,
+    "resultat": 1
+   },
+   "pitching": "N.A",
+   "conflit": "Hassen Aarfaoui a déclaré avoir un conflit d'intérêt"
+  },
+  {
+   "societe": "BioExpert",
+   "fondateurs": [
+    "Mohamed Ouni",
+    "Skander Guarbaa",
+    "khalil ben abdallah",
+    "Manel CHAABANE"
+   ],
+   "secteur": "HealthTech",
+   "type": "Prélabel",
+   "decision": "prelabel_accorde",
+   "resultat": "Prélabel Accordé au 2 ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 6,
+    "2eme": 2,
+    "3eme": 0,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "216Bot",
+   "fondateurs": [
+    "Ahmed Mahouachi",
+    "Mohamed Dhaou",
+    "Mohamed Akremi"
+   ],
+   "secteur": "Communications services",
+   "type": "Prélabel",
+   "decision": "prelabel_accorde",
+   "resultat": "Prélabel Accordé au 2 ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 7,
+    "2eme": 0,
+    "3eme": 1,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "trendytek E-Learning",
+   "fondateurs": [
+    "jlassi baha eddine"
+   ],
+   "secteur": "EdTech",
+   "type": "Label",
+   "decision": "label_refuse",
+   "resultat": "Label Non Accordé au 2 ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 1,
+    "2eme": 7,
+    "3eme": 1,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "SBA CONSULT",
+   "fondateurs": [
+    "Saber BEN AMMAR",
+    "Ons Toujani"
+   ],
+   "secteur": "Business Software and services",
+   "type": "Label",
+   "decision": "label_refuse",
+   "resultat": "Label Non Accordé au 2 ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 0,
+    "2eme": 9,
+    "3eme": 0,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "MelqartX Corp",
+   "fondateurs": [
+    "Rami Slimene",
+    "Imtinen AYARI"
+   ],
+   "secteur": "Mobility",
+   "type": "Label",
+   "decision": "label_refuse",
+   "resultat": "Label Non Accordé au 2 ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 1,
+    "2eme": 6,
+    "3eme": 2,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Jhezi.tn",
+   "fondateurs": [
+    "Hassan DHIB",
+    "Ameni Teka"
+   ],
+   "secteur": "Consumer products and services",
+   "type": "Label",
+   "decision": "label_refuse",
+   "resultat": "Label Non Accordé au 2 ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 2,
+    "2eme": 5,
+    "3eme": 2,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Iridium X",
+   "fondateurs": [
+    "Salaheddine Ogontayo",
+    "Abir Daoud",
+    "Bilel Zahi",
+    "Triki Omar"
+   ],
+   "secteur": "Wellness",
+   "type": "Label",
+   "decision": "label_refuse",
+   "resultat": "Label Non Accordé au 2 ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 0,
+    "2eme": 8,
+    "3eme": 0,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "شاورني",
+   "fondateurs": [
+    "Souhir Manai"
+   ],
+   "secteur": "Business Software and services",
+   "type": "Label",
+   "decision": "label_refuse",
+   "resultat": "Label Non Accordé au 2 ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 0,
+    "2eme": 8,
+    "3eme": 0,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "kobox designs",
+   "fondateurs": [
+    "slim kamoun"
+   ],
+   "secteur": "Environment",
+   "type": "Label",
+   "decision": "label_refuse",
+   "resultat": "Label Non Accordé au 2 ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 0,
+    "2eme": 8,
+    "3eme": 0,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Smart Maker",
+   "fondateurs": [
+    "Adel BRAHAM",
+    "nouha braham"
+   ],
+   "secteur": "Ad Tech and Creative Tech",
+   "type": "Label",
+   "decision": "label_refuse",
+   "resultat": "Label Non Accordé au 2 ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 0,
+    "2eme": 8,
+    "3eme": 0,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Agrogrowth",
+   "fondateurs": [
+    "sami arfaoui"
+   ],
+   "secteur": "Agritech",
+   "type": "Label",
+   "decision": "label_refuse",
+   "resultat": "Label Non Accordé au 3 ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 1,
+    "2eme": 4,
+    "3eme": 1,
+    "resultat": 0
+   },
+   "pitching": "0/7",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Letusdify",
+   "fondateurs": [
+    "Mohamed Salah Tammar",
+    "Iheb Ghazala"
+   ],
+   "secteur": "Business Software and services",
+   "type": "Prélabel",
+   "decision": "prelabel_refuse",
+   "resultat": "Prélabel Non Accordé au 2 ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 0,
+    "2eme": 9,
+    "3eme": 0,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "ReMine Technologies",
+   "fondateurs": [
+    "Borhane Ben Said",
+    "Anis Djedidi"
+   ],
+   "secteur": "Environment",
+   "type": "Prélabel",
+   "decision": "prelabel_refuse",
+   "resultat": "Prélabel Non Accordé au 2 ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 0,
+    "2eme": 9,
+    "3eme": 0,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Lift&Eat",
+   "fondateurs": [
+    "Hamdi Jouini",
+    "Khazri Mouna"
+   ],
+   "secteur": "HealthTech",
+   "type": "Prélabel",
+   "decision": "prelabel_refuse",
+   "resultat": "Prélabel Non Accordé au 2 ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 1,
+    "2eme": 7,
+    "3eme": 1,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Tender",
+   "fondateurs": [
+    "mazen slama",
+    "Iheb Lafi",
+    "Islem Ferchichi"
+   ],
+   "secteur": "Business Software and services",
+   "type": "Prélabel",
+   "decision": "prelabel_refuse",
+   "resultat": "Prélabel Non Accordé au 2 ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 0,
+    "2eme": 9,
+    "3eme": 0,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "EmberForge Tech",
+   "fondateurs": [
+    "ahmed amine kamoun"
+   ],
+   "secteur": "Ad Tech and Creative Tech",
+   "type": "Prélabel",
+   "decision": "prelabel_refuse",
+   "resultat": "Prélabel Non Accordé au 2 ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 0,
+    "2eme": 8,
+    "3eme": 0,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "MedSearch IA",
+   "fondateurs": [
+    "Zoubaier Bouajaja"
+   ],
+   "secteur": "Business Software and services",
+   "type": "Prélabel",
+   "decision": "prelabel_refuse",
+   "resultat": "Prélabel Non Accordé au 2 ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 0,
+    "2eme": 8,
+    "3eme": 0,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "AD Vertising",
+   "fondateurs": [
+    "Nadine Askri",
+    "Mongi Dali",
+    "Wael Gamaoun"
+   ],
+   "secteur": "Ad Tech and Creative Tech",
+   "type": "Prélabel",
+   "decision": "prelabel_refuse",
+   "resultat": "Prélabel Non Accordé au 2 ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 1,
+    "2eme": 6,
+    "3eme": 0,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "AXIOM décorticage IA",
+   "fondateurs": [
+    "Foued Jaballah",
+    "Farid Drifa"
+   ],
+   "secteur": "Business Software and services",
+   "type": "Prélabel",
+   "decision": "prelabel_refuse",
+   "resultat": "Prélabel Non Accordé au 2 ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 0,
+    "2eme": 8,
+    "3eme": 0,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Choufli",
+   "fondateurs": [
+    "Moez BEN GHARBIA",
+    "Ramzi Tounsi",
+    "Kamel BEN GHARBIA"
+   ],
+   "secteur": "Social Business",
+   "type": "Prélabel",
+   "decision": "prelabel_refuse",
+   "resultat": "Prélabel Non Accordé au 2 ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 1,
+    "2eme": 6,
+    "3eme": 1,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Oria",
+   "fondateurs": [
+    "Mohamed AYADI",
+    "Mayssa Moussa",
+    "eya makhlouf"
+   ],
+   "secteur": "Ad Tech and Creative Tech",
+   "type": "Prélabel",
+   "decision": "prelabel_refuse",
+   "resultat": "Prélabel Non Accordé au 2 ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 0,
+    "2eme": 8,
+    "3eme": 0,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Clic SOS",
+   "fondateurs": [
+    "Anis Essid",
+    "Mezni Hiba"
+   ],
+   "secteur": "Mobility",
+   "type": "Prélabel",
+   "decision": "prelabel_refuse",
+   "resultat": "Prélabel Non Accordé au 2 ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 0,
+    "2eme": 8,
+    "3eme": 0,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Triptopie",
+   "fondateurs": [
+    "achref ayari"
+   ],
+   "secteur": "TravelTech",
+   "type": "Prélabel",
+   "decision": "prelabel_refuse",
+   "resultat": "Prélabel Non Accordé au 2 ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 0,
+    "2eme": 8,
+    "3eme": 0,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "TooFresh",
+   "fondateurs": [
+    "Motez Mhadhbi",
+    "Awatef Zid",
+    "Mhadhbi Shady",
+    "Ben Henda Dhia",
+    "Ben hadj hssin Mohamed anis",
+    "Lejmi Moussa"
+   ],
+   "secteur": "Environment",
+   "type": "Prélabel",
+   "decision": "prelabel_refuse",
+   "resultat": "Prélabel Non Accordé au 2 ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 0,
+    "2eme": 8,
+    "3eme": 0,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "EcoRecy",
+   "fondateurs": [
+    "Achraf BLEILI"
+   ],
+   "secteur": "Environment",
+   "type": "Prélabel",
+   "decision": "prelabel_refuse",
+   "resultat": "Prélabel Non Accordé au 2 ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 0,
+    "2eme": 8,
+    "3eme": 0,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Kidin",
+   "fondateurs": [
+    "Firas ABDELMAJID"
+   ],
+   "secteur": "EdTech",
+   "type": "Prélabel",
+   "decision": "prelabel_refuse",
+   "resultat": "Prélabel Non Accordé au 2 ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 0,
+    "2eme": 8,
+    "3eme": 0,
+    "resultat": 0
+   },
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "CarbonTrack",
+   "fondateurs": [
+    "Houssem Ben Malek",
+    "Marwa Metsahel"
+   ],
+   "secteur": "Environment",
+   "type": "Prélabel",
+   "decision": "prelabel_refuse",
+   "resultat": "Prélabel Non Accordé au 3 ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 3,
+    "2eme": 3,
+    "3eme": 2,
+    "resultat": 0
+   },
+   "pitching": "0/7",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Bibinet",
+   "fondateurs": [
+    "Amel Jebali",
+    "Arbi Ben Bazza",
+    "Rim Harabi",
+    "Roua Boubakri",
+    "Manel Saadaoui"
+   ],
+   "secteur": "Consumer products and services",
+   "type": "Prélabel",
+   "decision": "prelabel_refuse",
+   "resultat": "Prélabel Non Accordé au 3 ème Tour",
+   "recevable": "Oui",
+   "votes": {
+    "1er": 4,
+    "2eme": 3,
+    "3eme": 1,
+    "resultat": 0
+   },
+   "pitching": "0/6",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "GuaranteePay – Lasweq",
+   "fondateurs": [
+    "Oussema Ben Barka"
+   ],
+   "secteur": "Fintech",
+   "type": "Label",
+   "decision": "irrecevable",
+   "resultat": "Label Non Accordé au 1 er Tour pour Non communication des états financiers exigés en vertu de l'article 4 du Décret gouvernemental n°2018-840 du 11 octobre 2018 et requis pour la vérification de la condition stipulée au point 2 de l'article 3 de la loi n°2018-20 du 17 avril 2018.",
+   "recevable": "Non",
+   "votes": {},
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "MCS - Mediterranean Creative Studio",
+   "fondateurs": [
+    "Yosri Ayed",
+    "Anis Lahouar",
+    "Mohamed Kamergi"
+   ],
+   "secteur": "Consumer products and services",
+   "type": "Label",
+   "decision": "irrecevable",
+   "resultat": "Label Non Accordé au 1 er Tour pour non soumission de documents des états financiers de l'exercice 2024. Ces Documents sont exigés en vertu de l'article 4 du Décret gouvernemental n°2018-840 du 11 octobre 2018 et requis pour la vérification de la condition stipulée au point 2 de l'article 3 de la loi n°2018-20 du 17 avril 2018.",
+   "recevable": "Non",
+   "votes": {},
+   "pitching": "N.A",
+   "conflit": "N.A"
+  },
+  {
+   "societe": "Reality Tunisia Branch",
+   "fondateurs": [
+    "BAKABAS ALI",
+    "Seifeddine Souissi"
+   ],
+   "secteur": "Wellness",
+   "type": "Label",
+   "decision": "irrecevable",
+   "resultat": "Label Non Accordé au 1 er Tour : la candidature est irrecevable sur la base de l'article 2 de la loi n°2018-20 du 17 avril 2018 relative aux Startups exige que la Startup soit « une Société commerciale constituée conformément à la législation en vigueur ». L'article 4 du code des sociétés commerciales dispose que « Toute société commerciale donne naissance à une personne morale indépendante de la personne de chacun des associés à partir de la date de son immatriculation au registre du commerce… »",
+   "recevable": "Non",
+   "votes": {},
+   "pitching": "N.A",
+   "conflit": "N.A"
+  }
+ ]
 }

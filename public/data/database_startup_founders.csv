@@ -482,62 +482,71 @@ startup_id;founder_id;session;societe;fondateur
 2875;347;01/2025;Marwa Mekni Toujani;Session d'obtention
 2876;909;01/2025;Kiwi Softwares;Juillet 2020
 2877;349;01/2025;La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-;Août 2019
-3293;4962;01/2026;ZOHRA KECHIDA;Ilem hassairi
-3294;4963;01/2026;Arcube;Harvey Lowe
-3294;4964;01/2026;Arcube;Prithveesh Nallamilli
-3296;58;01/2026;Nour Jdey;Ferid Kamel
-3298;4965;01/2026;Youssef Abdeljaoued;Raed Seddik
-3306;4966;01/2026;Riyasol;Asma Ferchichi
-3306;4967;01/2026;Riyasol;Houda Ferchichi
-3307;4325;01/2026;Qubit Labs Tunis;Marouane Salhi
-3307;4968;01/2026;Qubit Labs Tunis;Hatem Eldakhakhni
-3309;4969;01/2026;Hammadi Kadri;Wissal Rouabeh
-3310;4970;01/2026;The Landlord Manager;Farouk Ben Achour
-3311;4971;01/2026;TFCx;Rached Khalil
-3311;4972;01/2026;TFCx;Mariem Babay Rouis
-3312;4973;01/2026;DURABILIS CONSULTING;Tahar Rahmouni
-3314;1448;01/2026;Automatizi;Lassaad Ben Rejeb
-3314;4974;01/2026;Automatizi;Yosra Youssef
-3315;4975;01/2026;TINNOBOTICS;Gharssallah Alaa
-3315;4976;01/2026;TINNOBOTICS;Mohamed Firas Gabsi
-3316;4977;01/2026;Attoset - The Work OS for;Intelligent Work
-3316;4978;01/2026;Attoset - The Work OS for;Youssef Mejri
-3316;4979;01/2026;Attoset - The Work OS for;Rayen Inoubli
-3316;4980;01/2026;Attoset - The Work OS for;Mohamed habib Grami
-3316;4981;01/2026;Attoset - The Work OS for;Chaima Ben Mahmoud
-3320;4982;01/2026;Manar Daghsni;Oussama Yaakoubi
-3320;4983;01/2026;Manar Daghsni;Sonia Amamou
-3321;4984;01/2026;CvHub;Ali Nahdi
-3322;4985;01/2026;CarthaPos;Oussama ferjani
-3322;4986;01/2026;CarthaPos;Mohamed ali Mankai
-3324;4987;01/2026;SM Drone;Skander Amamou
-3324;4988;01/2026;SM Drone;Farah Chenchah
-3327;4989;01/2026;Sabrine Hamrouni;Charrad Chamseddine
-3332;4990;01/2026;Enissay Studio;Yassine Sellami
-3332;4991;01/2026;Enissay Studio;Siwar Fourati
-3334;3446;01/2026;BNJMO Studios;Mohamed Ben Jazia
-3335;347;01/2026;Passage de Prélabels aux Labels;Session d'obtention
-3336;4992;01/2026;Rhizome;Rhizome Agency
-3336;4633;01/2026;Rhizome;Adnène Bouderbala
-3336;4993;01/2026;Rhizome;Août 2025
-3336;4994;01/2026;Rhizome;SaisI Ar
-3336;4765;01/2026;Rhizome;Ahmed Zahaf
-3337;4995;01/2026;DIA Industries;Octobre 2025
-3337;4706;01/2026;DIA Industries;Dia Ali
-3337;4707;01/2026;DIA Industries;Hamza Bouajila
-3337;4996;01/2026;DIA Industries;Septembre 2025
-3337;4997;01/2026;DIA Industries;Dash Master
-3338;4998;01/2026;ERPY;Décembre 2025
-3338;4634;01/2026;ERPY;Ali Nasr
-3338;4993;01/2026;ERPY;Août 2025
-3338;4999;01/2026;ERPY;Park and charge
-3338;3983;01/2026;ERPY;Rami Hedfi
-3338;3984;01/2026;ERPY;Zied Bradai
-3338;3982;01/2026;ERPY;Ghassen Chattouna
-3338;4684;01/2026;ERPY;Alaa Adouni
-3338;4685;01/2026;ERPY;Salem Moussa Adouni
-3338;4996;01/2026;ERPY;Septembre 2025
-3338;347;01/2026;ERPY;Session d'obtention
+3287;4962;01/2026;IMMUNO KAAR (IMMU CARDER);ZOHRA KECHIDA
+3287;4963;01/2026;IMMUNO KAAR (IMMU CARDER);Ilem hassairi
+3287;4964;01/2026;IMMUNO KAAR (IMMU CARDER);Harvey Lowe
+3288;4965;01/2026;Arcube;Prithveesh Nallamilli
+3288;4966;01/2026;Arcube;Nour Jdey
+3289;58;01/2026;GoToGreen;Ferid Kamel
+3289;4967;01/2026;GoToGreen;Youssef Abdeljaoued
+3290;4968;01/2026;OTARI;Raed Seddik
+3291;4969;01/2026;Yes-Sir;FEDI SOUILEM
+3292;4308;01/2026;HopeVisionAI;Amira Karoui
+3292;4309;01/2026;HopeVisionAI;Oussama Cherni
+3293;4970;01/2026;SAHTEE;abderrahmen abdelkabir
+3293;4971;01/2026;SAHTEE;Slaheddine Dardouri
+3294;4972;01/2026;ALBUPAD-NA;Eya ALOUI
+3294;4973;01/2026;ALBUPAD-NA;Asma Ferchichi
+3295;4974;01/2026;Riyasol;Houda Ferchichi
+3296;4325;01/2026;Qubit Labs Tunis;Marouane Salhi
+3296;4975;01/2026;Qubit Labs Tunis;Hatem Eldakhakhni
+3296;4976;01/2026;Qubit Labs Tunis;Hammadi Kadri
+3297;4977;01/2026;Nuraxis Ai;Mohamed KADRI
+3297;4978;01/2026;Nuraxis Ai;Wissal Rouabeh
+3298;4979;01/2026;The Landlord Manager;Farouk Ben Achour
+3298;4980;01/2026;The Landlord Manager;Rached Khalil
+3299;4981;01/2026;TFCx;Mariem Babay Rouis
+3299;4982;01/2026;TFCx;Yassine RAHMOUNI
+3300;4983;01/2026;DURABILIS CONSULTING;Tahar Rahmouni
+3300;4984;01/2026;DURABILIS CONSULTING;RAHMOUNI Yassine
+3301;4985;01/2026;RDVEXPRESS;Noureddine DBOUBA
+3301;1448;01/2026;RDVEXPRESS;Lassaad Ben Rejeb
+3302;4986;01/2026;Automatizi;Yosra Youssef
+3302;4987;01/2026;Automatizi;Gharssallah Alaa
+3303;4988;01/2026;TINNOBOTICS;Mohamed Firas Gabsi
+3303;4989;01/2026;TINNOBOTICS;Youssef Mejri
+3304;4990;01/2026;Attoset - The Work OS for Intelligent Work Management;Rayen Inoubli
+3304;4991;01/2026;Attoset - The Work OS for Intelligent Work Management;Mohamed habib Grami
+3304;4992;01/2026;Attoset - The Work OS for Intelligent Work Management;Chaima Ben Mahmoud
+3305;4993;01/2026;GensisCode;yassin gmati
+3305;4994;01/2026;GensisCode;maram guenouati
+3305;4995;01/2026;GensisCode;mohamed amine ziedi
+3306;4996;01/2026;Nexor Robotics;Naim Ezzdini
+3306;4997;01/2026;Nexor Robotics;Manar Daghsni
+3306;4998;01/2026;Nexor Robotics;Oussama Yaakoubi
+3306;4999;01/2026;Nexor Robotics;Sonia Amamou
+3307;5000;01/2026;CvHub;Ali Nahdi
+3307;5001;01/2026;CvHub;Oussama ferjani
+3308;5002;01/2026;CarthaPos;Mohamed ali Mankai
+3309;1748;01/2026;OpenSOC;Mohamed Karim Kechalfi
+3310;5003;01/2026;SM Drone;Skander Amamou
+3310;5004;01/2026;SM Drone;Farah Chenchah
+3310;5005;01/2026;SM Drone;saif ouhaibi
+3311;5006;01/2026;Eyproc;Jaweher Khmiri
+3311;5007;01/2026;Eyproc;Naceur ELLOUZE
+3311;5008;01/2026;Eyproc;Sabrine Hamrouni
+3311;5009;01/2026;Eyproc;Charrad Chamseddine
+3312;5010;01/2026;JeelQuest;ala Akrichi
+3312;5011;01/2026;JeelQuest;Badereddine Fadhlaoui
+3312;5012;01/2026;JeelQuest;Hatem Benechikh
+3313;5013;01/2026;9atratech;Mohamed Amine Mhadhbi
+3314;5014;01/2026;AL BAYEN;BEN YAGOUTA Abdelbari
+3314;5015;01/2026;AL BAYEN;Wrida BEN YAGOUTA
+3314;5016;01/2026;AL BAYEN;Yassine Sellami
+3315;5017;01/2026;Enissay Studio;Siwar Fourati
+3315;5018;01/2026;Enissay Studio;wael sellami
+3315;5019;01/2026;Enissay Studio;Mohamed Ilyas Abdelkefi
+3316;3446;01/2026;BNJMO Studios;Mohamed Ben Jazia
 368;540;02/2020;Katomi;Hedi Michau
 368;541;02/2020;Katomi;Firas Mezghani
 368;141;02/2020;Katomi;Health Tech
@@ -1077,79 +1086,79 @@ startup_id;founder_id;session;societe;fondateur
 2923;906;02/2025;Commerce & Shopping;Juin 2020
 2924;802;02/2025;La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-;Avril 2020
 2925;1186;02/2025;La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-;Février 2021
-3348;1421;02/2026;HEXA5 SOLUTIONS;Mohamed Tlich
-3349;5000;02/2026;MASSAR PERFECTION;Mahmoud Trabelsi
-3350;5001;02/2026;Kessa;Chaibi Ahmed Fares
-3351;5002;02/2026;My Quality Assistant Team;Saadi Ismail
-3352;5003;02/2026;ALGORIA FACTORY;wissem barouni
-3352;5004;02/2026;ALGORIA FACTORY;Wissem Abdelhak
-3352;5005;02/2026;ALGORIA FACTORY;Abdallah Ben jamaa
-3353;5006;02/2026;citrustech;Insaf Ben Othman
-3354;5007;02/2026;Estimo;Mohamed Amir Boufaden
-3355;5008;02/2026;Intheair Labs;Marion Sardou
-3355;5009;02/2026;Intheair Labs;Bruno GUTTON
-3355;5010;02/2026;Intheair Labs;Olivier Apicella
-3356;2542;02/2026;Teleon;Karim Ben Khaled
-3357;5011;02/2026;Talento;Ghazi Smach
-3358;5012;02/2026;Freshk;Mohamed aziz Hlaoua
-3358;5013;02/2026;Freshk;zied harzallah
-3358;5014;02/2026;Freshk;Rayane Ben abdelhalid
-3358;5015;02/2026;Freshk;Bouaziz Wissem
-3359;5016;02/2026;cognitiex;mohamed aymen hassen
-3359;5017;02/2026;cognitiex;amine salah hassen
-3360;5018;02/2026;Fastoch;Affes Hedi
-3360;5019;02/2026;Fastoch;Khaled Affes
-3361;4488;02/2026;Styly App;Soumaya Sebai
-3362;5020;02/2026;ERPOptic;Akrimi IHEB
-3362;5021;02/2026;ERPOptic;mohamed amine saadaoui
-3363;5022;02/2026;Diyese-GEN;Adnen Selmi
-3363;5023;02/2026;Diyese-GEN;Zied Selmi
-3364;5024;02/2026;GALYLIO;Tajer Karim
-3364;5025;02/2026;GALYLIO;Wala Naghmouchi
-3364;5026;02/2026;GALYLIO;Haydar Boudhrioua
-3364;5027;02/2026;GALYLIO;Nawres Askri
-3364;5028;02/2026;GALYLIO;belhadj amir
-3364;5029;02/2026;GALYLIO;Mariem Ben Hmad
-3364;5030;02/2026;GALYLIO;Ala Din Habibi
-3365;5031;02/2026;Hamo;Ouled Yahya Mohamed
-3366;4306;02/2026;WEFE-TECH;Mounir Brik
-3366;5032;02/2026;WEFE-TECH;Wafa Helali
-3366;4307;02/2026;WEFE-TECH;Ons Brik
-3367;5033;02/2026;Darli;Wajdi Hajji
-3368;5034;02/2026;Inlumya;Rayen Souissi
-3369;5035;02/2026;e-syndic;mohamed ghorbel
-3369;5036;02/2026;e-syndic;Maher Ben Gaied
-3370;5037;02/2026;Tunisia Camp;Wael zahra
-3370;5038;02/2026;Tunisia Camp;Neji Khouja
-3371;5039;02/2026;Integrated Analysis and Decision Solution;Mohamed Hedi Jebara
-3372;5040;02/2026;Spovio;wael nouira
-3372;5041;02/2026;Spovio;mohamed khalil Askri
-3373;5042;02/2026;zitoun ai technology lab;houssem zitoun
-3374;5043;02/2026;Promoet;Adnene Marnissi
-3374;5044;02/2026;Promoet;Abdallah Lahbib
-3374;5045;02/2026;Promoet;JAMEL EDDINE EL MOUELHI
-3375;5046;02/2026;Sensei AI;Majed ELBOUR
-3375;5047;02/2026;Sensei AI;Youssef Baklouti
-3376;5048;02/2026;KweekTech;mohamed gassoumi
-3376;5049;02/2026;KweekTech;Gannoun Ahmed
-3377;5050;02/2026;Tiejob;Mortadha El mehri
-3377;3098;02/2026;Tiejob;Mojtabah Mehri
-3377;5051;02/2026;Tiejob;MEHRI Adem
-3377;5052;02/2026;Tiejob;Amine Mehri
-3378;5053;02/2026;Edutime;Guettat Sabeur
-3378;5054;02/2026;Edutime;Yessine Ben amor
-3379;5055;02/2026;ZIARA;Wakassi Badra
-3379;5056;02/2026;ZIARA;FOUAD BATROUNI
-3380;5057;02/2026;LysiteK;Kawther MEKNI
-3380;5058;02/2026;LysiteK;Marwa MEKNI
-3380;5059;02/2026;LysiteK;Sohaib MEDINI
-3381;5060;02/2026;Casanova;mohamed Idriss Tamni
-3381;5061;02/2026;Casanova;Landolsi Sabrine
-3381;5062;02/2026;Casanova;Mohamed Amine Harbaoui
-3382;5063;02/2026;Padel Insights;mahdi jmal
-3382;2686;02/2026;Padel Insights;Adam Bouchaala
-3383;5064;02/2026;AutoSimix;yassine karaouli
-3383;5065;02/2026;AutoSimix;Rami Mazouzi
+3317;1421;02/2026;HEXA5 SOLUTIONS;Mohamed Tlich
+3318;5020;02/2026;MASSAR PERFECTION;Mahmoud Trabelsi
+3319;5021;02/2026;Kessa;Chaibi Ahmed Fares
+3320;5022;02/2026;My Quality Assistant Team;Saadi Ismail
+3321;5023;02/2026;ALGORIA FACTORY;wissem barouni
+3321;5024;02/2026;ALGORIA FACTORY;Wissem Abdelhak
+3321;5025;02/2026;ALGORIA FACTORY;Abdallah Ben jamaa
+3322;5026;02/2026;citrustech;Insaf Ben Othman
+3323;5027;02/2026;Estimo;Mohamed Amir Boufaden
+3324;5028;02/2026;Intheair Labs;Marion Sardou
+3324;5029;02/2026;Intheair Labs;Bruno GUTTON
+3324;5030;02/2026;Intheair Labs;Olivier Apicella
+3325;2542;02/2026;Teleon;Karim Ben Khaled
+3326;5031;02/2026;Talento;Ghazi Smach
+3327;5032;02/2026;Freshk;Mohamed aziz Hlaoua
+3327;5033;02/2026;Freshk;zied harzallah
+3327;5034;02/2026;Freshk;Rayane Ben abdelhalid
+3327;5035;02/2026;Freshk;Bouaziz Wissem
+3328;5036;02/2026;cognitiex;mohamed aymen hassen
+3328;5037;02/2026;cognitiex;amine salah hassen
+3329;5038;02/2026;Fastoch;Affes Hedi
+3329;5039;02/2026;Fastoch;Khaled Affes
+3330;4488;02/2026;Styly App;Soumaya Sebai
+3331;5040;02/2026;ERPOptic;Akrimi IHEB
+3331;5041;02/2026;ERPOptic;mohamed amine saadaoui
+3332;5042;02/2026;Diyese-GEN;Adnen Selmi
+3332;5043;02/2026;Diyese-GEN;Zied Selmi
+3333;5044;02/2026;GALYLIO;Tajer Karim
+3333;5045;02/2026;GALYLIO;Wala Naghmouchi
+3333;5046;02/2026;GALYLIO;Haydar Boudhrioua
+3333;5047;02/2026;GALYLIO;Nawres Askri
+3333;5048;02/2026;GALYLIO;belhadj amir
+3333;5049;02/2026;GALYLIO;Mariem Ben Hmad
+3333;5050;02/2026;GALYLIO;Ala Din Habibi
+3334;5051;02/2026;Hamo;Ouled Yahya Mohamed
+3335;4306;02/2026;WEFE-TECH;Mounir Brik
+3335;5052;02/2026;WEFE-TECH;Wafa Helali
+3335;4307;02/2026;WEFE-TECH;Ons Brik
+3336;5053;02/2026;Darli;Wajdi Hajji
+3337;5054;02/2026;Inlumya;Rayen Souissi
+3338;5055;02/2026;e-syndic;mohamed ghorbel
+3338;5056;02/2026;e-syndic;Maher Ben Gaied
+3339;5057;02/2026;Tunisia Camp;Wael zahra
+3339;5058;02/2026;Tunisia Camp;Neji Khouja
+3340;5059;02/2026;Integrated Analysis and Decision Solution;Mohamed Hedi Jebara
+3341;5060;02/2026;Spovio;wael nouira
+3341;5061;02/2026;Spovio;mohamed khalil Askri
+3342;5062;02/2026;zitoun ai technology lab;houssem zitoun
+3343;5063;02/2026;Promoet;Adnene Marnissi
+3343;5064;02/2026;Promoet;Abdallah Lahbib
+3343;5065;02/2026;Promoet;JAMEL EDDINE EL MOUELHI
+3344;5066;02/2026;Sensei AI;Majed ELBOUR
+3344;5067;02/2026;Sensei AI;Youssef Baklouti
+3345;5068;02/2026;KweekTech;mohamed gassoumi
+3345;5069;02/2026;KweekTech;Gannoun Ahmed
+3346;5070;02/2026;Tiejob;Mortadha El mehri
+3346;3098;02/2026;Tiejob;Mojtabah Mehri
+3346;5071;02/2026;Tiejob;MEHRI Adem
+3346;5072;02/2026;Tiejob;Amine Mehri
+3347;5073;02/2026;Edutime;Guettat Sabeur
+3347;5074;02/2026;Edutime;Yessine Ben amor
+3348;5075;02/2026;ZIARA;Wakassi Badra
+3348;5076;02/2026;ZIARA;FOUAD BATROUNI
+3349;5077;02/2026;LysiteK;Kawther MEKNI
+3349;5078;02/2026;LysiteK;Marwa MEKNI
+3349;5079;02/2026;LysiteK;Sohaib MEDINI
+3350;5080;02/2026;Casanova;mohamed Idriss Tamni
+3350;5081;02/2026;Casanova;Landolsi Sabrine
+3350;5082;02/2026;Casanova;Mohamed Amine Harbaoui
+3351;5083;02/2026;Padel Insights;mahdi jmal
+3351;2686;02/2026;Padel Insights;Adam Bouchaala
+3352;5084;02/2026;AutoSimix;yassine karaouli
+3352;5085;02/2026;AutoSimix;Rami Mazouzi
 1;1;03/2019;Datavora;Hadi Zaher
 1;2;03/2019;Datavora;Oussama Messaoud
 2;3;03/2019;Ezzayra Solutions;Yasser Bououd
@@ -1708,91 +1717,91 @@ startup_id;founder_id;session;societe;fondateur
 2946;1757;03/2025;LogIn;Ahmed Riza
 2947;347;03/2025;Startups qui stipule que le capital de la société;Session d'obtention
 2948;1531;03/2025;IOBIRD TUNISIE;Janvier 2021
-3384;2216;03/2026;DigiQuorum;Nawel Brahmi
-3384;160;03/2026;DigiQuorum;Sofiane Mabrouk
-3385;5066;03/2026;WIDITION;Mériem Jaïdane
-3385;5067;03/2026;WIDITION;Nader Mechergui
-3385;5068;03/2026;WIDITION;Neska Elhaouij
-3386;4558;03/2026;LEGALYZ;Aymen El Kadhi
-3386;3411;03/2026;LEGALYZ;Khalil Bessaad
-3386;4559;03/2026;LEGALYZ;Hassen Noamen
-3387;5069;03/2026;Talent 619;Saifeddine Mgasseb
-3387;5070;03/2026;Talent 619;bacha baha eddine
-3388;5071;03/2026;ComptaRise;karim Nouira
-3388;5072;03/2026;ComptaRise;Ines Ben khalifa
-3389;4494;03/2026;WISER DESIGN TECHNOLOGY TUNISIA;Mohamed Mehdi Baccouche
-3389;5073;03/2026;WISER DESIGN TECHNOLOGY TUNISIA;MOHAMED LOTFI DEROUICHE
-3389;5074;03/2026;WISER DESIGN TECHNOLOGY TUNISIA;bilal cammoun
-3390;5075;03/2026;Pharma link;Omar Haffoudhi
-3390;5076;03/2026;Pharma link;Hassen Hafoudhi
-3390;5077;03/2026;Pharma link;Anis Hafoudhi
-3390;5078;03/2026;Pharma link;Wafa Aouine
-3391;5079;03/2026;Fitories;Anas HAJLAOUI
-3391;5080;03/2026;Fitories;Sofiene Ben romdhane
-3391;1330;03/2026;Fitories;Sami Sghaier
-3392;5081;03/2026;WattzHub Tunisie;Oumayma AMRI
-3393;5082;03/2026;CnBees;Jaouher Mghirbi
-3393;5083;03/2026;CnBees;Adel Ghorbel
-3394;5084;03/2026;TrinovaQ;Raef Ben Jeddou
-3394;5085;03/2026;TrinovaQ;Hela Bouallegue
-3395;5086;03/2026;Cosmos;Iyed Gabsi
-3395;5087;03/2026;Cosmos;mohamed dahmani
-3396;4620;03/2026;FOODIERI;Sabrine Hammami
-3396;4622;03/2026;FOODIERI;Dina Mechergui
-3396;4621;03/2026;FOODIERI;Sabrine Golli
-3397;3240;03/2026;RASD - Risk Assessment & Security Dashboard;Houcem Kolsi
-3398;5088;03/2026;Optiflows;Jihed El Hak Bakalti
-3398;5089;03/2026;Optiflows;Mohamed Aziz Ayadi
-3399;5090;03/2026;Drivi.tn;Mohamed Salah Ayari
-3399;5091;03/2026;Drivi.tn;Mohamed Aissa MAAMER
-3399;5092;03/2026;Drivi.tn;Med Ben aoun
-3400;5093;03/2026;Degla;Aziz Hanafi
-3400;5094;03/2026;Degla;Ahmed Mohmedzain
-3401;5095;03/2026;Elbat7a.tn;Chiheb Chammem
-3401;5096;03/2026;Elbat7a.tn;abdelaziz ben yahia
-3401;5097;03/2026;Elbat7a.tn;Oussama Ben achour
-3402;5098;03/2026;B-CAR;Adnen Romdhane
-3402;5099;03/2026;B-CAR;Siwar Hafian
-3403;5100;03/2026;N2VERSE;Nizar JLASSI
-3403;5101;03/2026;N2VERSE;Rym Sghaier
-3404;5102;03/2026;Confirmed;chahine elamri
-3405;4485;03/2026;Taniterra;Nadhem Chroudi
-3406;5103;03/2026;LoopImpact;Imed Hamdi
-3407;5104;03/2026;Vexylio Reg.;AHMED TARHOUNI TRABELSI
-3408;5105;03/2026;DigiTechBridge360;Kalai Mohamed
-3408;5106;03/2026;DigiTechBridge360;Selim Gatti
-3408;131;03/2026;DigiTechBridge360;Anis Wahabi
-3409;5107;03/2026;Djanguil;Mehdi KHECHINE
-3409;5108;03/2026;Djanguil;HAYTHEM BEN KAAB
-3409;5109;03/2026;Djanguil;Hmida Ben Tili
-3410;5110;03/2026;DropWise Technologie;Souhail Daoued
-3410;3924;03/2026;DropWise Technologie;Moatez Chraiet
-3410;5111;03/2026;DropWise Technologie;Zouhaiera Abdaoui
-3411;5112;03/2026;Kiloklean;Yassine BELHEDI
-3412;5113;03/2026;NB PRODUCTS;Nesrine Ben Ali
-3412;5114;03/2026;NB PRODUCTS;khouloud lazher
-3413;2572;03/2026;DataIndus;Mohamed Aziz Ben Mahmoud
-3414;5115;03/2026;NexioT;Mefteh Wajdi
-3414;5116;03/2026;NexioT;Lilia Sfaxi
-3414;5117;03/2026;NexioT;Ben Nasr Nejib
-3415;5118;03/2026;xshop;Mounir Riahi
-3416;5119;03/2026;cantinou;Mohamed BOUHAMED
-3417;5120;03/2026;MindCura;dhia eddine ftiss
-3417;5121;03/2026;MindCura;Basma Souani
-3417;5122;03/2026;MindCura;Tayssir Ben Nehia
-3418;5123;03/2026;KindOfHero;Raouya Kriaa
-3418;5124;03/2026;KindOfHero;Chadi Ayari
-3419;5125;03/2026;Plantini;Mouhamed Wassim Mbarek
-3419;5126;03/2026;Plantini;Hanine ABBES
-3420;5127;03/2026;SkySwift Medical;Kamel Djouaihia
-3421;3716;03/2026;Cure Care;Walid Jemaa
-3421;380;03/2026;Cure Care;Mohamed Dhaouafi
-3421;5128;03/2026;Cure Care;Bechir Yacoubi
-3421;5129;03/2026;Cure Care;Arafet Toubib
-3422;5130;03/2026;VLOX;Mouhamed Ben salah
-3423;5131;03/2026;Société DoYield Tunisie / Projet RevMate;Chedi Chaari
-3423;5132;03/2026;Société DoYield Tunisie / Projet RevMate;Gaëtan Gil
-3424;4478;03/2026;Eggmed;Akram Azaiez
+3353;2216;03/2026;DigiQuorum;Nawel Brahmi
+3353;160;03/2026;DigiQuorum;Sofiane Mabrouk
+3354;5086;03/2026;WIDITION;Mériem Jaïdane
+3354;5087;03/2026;WIDITION;Nader Mechergui
+3354;5088;03/2026;WIDITION;Neska Elhaouij
+3355;4559;03/2026;LEGALYZ;Aymen El Kadhi
+3355;3411;03/2026;LEGALYZ;Khalil Bessaad
+3355;4560;03/2026;LEGALYZ;Hassen Noamen
+3356;5089;03/2026;Talent 619;Saifeddine Mgasseb
+3356;5090;03/2026;Talent 619;bacha baha eddine
+3357;5091;03/2026;ComptaRise;karim Nouira
+3357;5092;03/2026;ComptaRise;Ines Ben khalifa
+3358;4494;03/2026;WISER DESIGN TECHNOLOGY TUNISIA;Mohamed Mehdi Baccouche
+3358;5093;03/2026;WISER DESIGN TECHNOLOGY TUNISIA;MOHAMED LOTFI DEROUICHE
+3358;5094;03/2026;WISER DESIGN TECHNOLOGY TUNISIA;bilal cammoun
+3359;5095;03/2026;Pharma link;Omar Haffoudhi
+3359;5096;03/2026;Pharma link;Hassen Hafoudhi
+3359;5097;03/2026;Pharma link;Anis Hafoudhi
+3359;5098;03/2026;Pharma link;Wafa Aouine
+3360;5099;03/2026;Fitories;Anas HAJLAOUI
+3360;5100;03/2026;Fitories;Sofiene Ben romdhane
+3360;1330;03/2026;Fitories;Sami Sghaier
+3361;5101;03/2026;WattzHub Tunisie;Oumayma AMRI
+3362;5102;03/2026;CnBees;Jaouher Mghirbi
+3362;5103;03/2026;CnBees;Adel Ghorbel
+3363;5104;03/2026;TrinovaQ;Raef Ben Jeddou
+3363;5105;03/2026;TrinovaQ;Hela Bouallegue
+3364;5106;03/2026;Cosmos;Iyed Gabsi
+3364;5107;03/2026;Cosmos;mohamed dahmani
+3365;4620;03/2026;FOODIERI;Sabrine Hammami
+3365;4622;03/2026;FOODIERI;Dina Mechergui
+3365;4621;03/2026;FOODIERI;Sabrine Golli
+3366;3240;03/2026;RASD - Risk Assessment & Security Dashboard;Houcem Kolsi
+3367;5108;03/2026;Optiflows;Jihed El Hak Bakalti
+3367;5109;03/2026;Optiflows;Mohamed Aziz Ayadi
+3368;5110;03/2026;Drivi.tn;Mohamed Salah Ayari
+3368;5111;03/2026;Drivi.tn;Mohamed Aissa MAAMER
+3368;5112;03/2026;Drivi.tn;Med Ben aoun
+3369;5113;03/2026;Degla;Aziz Hanafi
+3369;5114;03/2026;Degla;Ahmed Mohmedzain
+3370;5115;03/2026;Elbat7a.tn;Chiheb Chammem
+3370;5116;03/2026;Elbat7a.tn;abdelaziz ben yahia
+3370;5117;03/2026;Elbat7a.tn;Oussama Ben achour
+3371;5118;03/2026;B-CAR;Adnen Romdhane
+3371;5119;03/2026;B-CAR;Siwar Hafian
+3372;5120;03/2026;N2VERSE;Nizar JLASSI
+3372;5121;03/2026;N2VERSE;Rym Sghaier
+3373;5122;03/2026;Confirmed;chahine elamri
+3374;4485;03/2026;Taniterra;Nadhem Chroudi
+3375;5123;03/2026;LoopImpact;Imed Hamdi
+3376;5124;03/2026;Vexylio Reg.;AHMED TARHOUNI TRABELSI
+3377;5125;03/2026;DigiTechBridge360;Kalai Mohamed
+3377;5126;03/2026;DigiTechBridge360;Selim Gatti
+3377;131;03/2026;DigiTechBridge360;Anis Wahabi
+3378;5127;03/2026;Djanguil;Mehdi KHECHINE
+3378;5128;03/2026;Djanguil;HAYTHEM BEN KAAB
+3378;5129;03/2026;Djanguil;Hmida Ben Tili
+3379;5130;03/2026;DropWise Technologie;Souhail Daoued
+3379;3924;03/2026;DropWise Technologie;Moatez Chraiet
+3379;5131;03/2026;DropWise Technologie;Zouhaiera Abdaoui
+3380;5132;03/2026;Kiloklean;Yassine BELHEDI
+3381;5133;03/2026;NB PRODUCTS;Nesrine Ben Ali
+3381;5134;03/2026;NB PRODUCTS;khouloud lazher
+3382;2572;03/2026;DataIndus;Mohamed Aziz Ben Mahmoud
+3383;5135;03/2026;NexioT;Mefteh Wajdi
+3383;5136;03/2026;NexioT;Lilia Sfaxi
+3383;5137;03/2026;NexioT;Ben Nasr Nejib
+3384;5138;03/2026;xshop;Mounir Riahi
+3385;5139;03/2026;cantinou;Mohamed BOUHAMED
+3386;5140;03/2026;MindCura;dhia eddine ftiss
+3386;5141;03/2026;MindCura;Basma Souani
+3386;5142;03/2026;MindCura;Tayssir Ben Nehia
+3387;5143;03/2026;KindOfHero;Raouya Kriaa
+3387;5144;03/2026;KindOfHero;Chadi Ayari
+3388;5145;03/2026;Plantini;Mouhamed Wassim Mbarek
+3388;5146;03/2026;Plantini;Hanine ABBES
+3389;5147;03/2026;SkySwift Medical;Kamel Djouaihia
+3390;3716;03/2026;Cure Care;Walid Jemaa
+3390;380;03/2026;Cure Care;Mohamed Dhaouafi
+3390;5148;03/2026;Cure Care;Bechir Yacoubi
+3390;5149;03/2026;Cure Care;Arafet Toubib
+3391;5150;03/2026;VLOX;Mouhamed Ben salah
+3392;5151;03/2026;Société DoYield Tunisie / Projet RevMate;Chedi Chaari
+3392;5152;03/2026;Société DoYield Tunisie / Projet RevMate;Gaëtan Gil
+3393;4478;03/2026;Eggmed;Akram Azaiez
 16;24;04/2019;GoMyCode;Yahya Bouhlel
 16;25;04/2019;GoMyCode;Amine Bouhlel
 17;26;04/2019;Mass SA;Ramla Jarrar
@@ -3586,97 +3595,80 @@ startup_id;founder_id;session;societe;fondateur
 2569;3817;06/2024;La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-;Firnas Engineering
 2569;906;06/2024;La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-;Juin 2020
 2570;1277;06/2024;Commerce & Shopping;Mars 2019
-3035;2540;06/2025;Healio Technology;Nabil Majoul
-3035;4059;06/2025;Healio Technology;Emna Sahraoui
-3035;2539;06/2025;Healio Technology;Elyes Darghouth
-3035;4058;06/2025;Healio Technology;Emna Argoubi
-3035;4523;06/2025;Healio Technology;Ahmad Choucheni
-3036;4524;06/2025;Business Academy;Nour Rafiâa Kallel
-3036;4525;06/2025;Business Academy;Walid Kallel
-3037;1422;06/2025;KeplerAi;Mohamed Bahri
-3037;4526;06/2025;KeplerAi;Hayet Rais ep Skandrani
-3038;4527;06/2025;Dose'On;Mohamed Cherif
-3038;4528;06/2025;Dose'On;Mohamed Tanfous
-3039;4031;06/2025;Save the plate;Dhia Eddine Zouari
-3039;4032;06/2025;Save the plate;Sarra Soussia
-3039;4529;06/2025;Save the plate;Hadil Yahyaoui
-3040;4530;06/2025;VitaDood;Ines Alaya
-3042;4531;06/2025;Digehealth TN;Nour Ghalia Abassi
-3042;4532;06/2025;Digehealth TN;Lyle Halliday
-3042;4533;06/2025;Digehealth TN;Marcel Wuethrich
-3042;4534;06/2025;Digehealth TN;Daniel Pohl
-3043;4535;06/2025;Jeridschool;Rouissi Khaled
-3043;4536;06/2025;Jeridschool;Youssef Degachi
-3044;4537;06/2025;Carbotracker;Safa Bouhjar
-3044;4538;06/2025;Carbotracker;Aya Bouhlali
-3044;4539;06/2025;Carbotracker;Amira Yahmadi
-3044;3794;06/2025;Carbotracker;Maher Amara
-3045;4540;06/2025;Preemptix;Khaled Bendriss
-3045;4541;06/2025;Preemptix;Khalil Bendriss
-3046;4542;06/2025;Wealthy Technology;Rakia Jaziri
-3046;4543;06/2025;Wealthy Technology;Asma Jouini
-3047;4544;06/2025;QueDCo;Ramzi Nasr
-3048;4545;06/2025;EKRI;Mohamed Elyes Ben Haj Kbair
-3048;4546;06/2025;EKRI;Marouene Draoui
-3049;4547;06/2025;Rakis Technology;Thouraya Ftouh Walker
-3049;4548;06/2025;Rakis Technology;Daniel Atherton
-3050;4549;06/2025;Academia Hub;Abderrahmen Feki
-3051;4550;06/2025;A plus Trade and;Asswar Boulifi
-3051;4551;06/2025;A plus Trade and;Boulifi Oussama
-3052;4552;06/2025;MENUPRO;Wathek Bellah Jaballah
-3053;1890;06/2025;AgriSmart;Khelifi Ali
-3053;4553;06/2025;AgriSmart;Nama Hamdi
-3054;4554;06/2025;Version Healthy;Ghada Cherif
-3055;4555;06/2025;Tuniform;Yacine Aridhi
-3055;4556;06/2025;Tuniform;Wassim Aloui
-3056;4557;06/2025;NINGEN;Ali Hamouda
-3057;3411;06/2025;LEGALYZ;Khalil Bessaad
-3057;4558;06/2025;LEGALYZ;Aymen El Kadhi
-3057;4559;06/2025;LEGALYZ;Hassen Noamen
-3058;4560;06/2025;Clean2win;Mohamed khalil Aniba
-3058;4561;06/2025;Clean2win;Sameh Sellami
-3058;4562;06/2025;Clean2win;Yassine Aniba
-3059;4563;06/2025;Investir UTILE;Fatma Kobbi
-3059;2897;06/2025;Investir UTILE;Abdelkader Boussetta
-3060;4564;06/2025;Tanit Sign;Houssem Eddine Kthiri
-3061;4565;06/2025;TechBoss Women;Rihab Yakoubi
-3061;4566;06/2025;TechBoss Women;Mohamed Yakoubi
-3062;4567;06/2025;Dronia;Karim Tajer
-3062;4568;06/2025;Dronia;Moez Bhar
-3063;4569;06/2025;Neuraeon;Saifeddine Bouaouina
-3064;4570;06/2025;Collabera;Mohamed Rami Zairi
-3065;4571;06/2025;Tuniwave Sounds;Belgacem Bougrine
-3065;4572;06/2025;Tuniwave Sounds;Mohamed Aouini
-3065;4573;06/2025;Tuniwave Sounds;Maram Touati
-3066;4574;06/2025;VivaLoka;Rabâa Jnifi
-3066;4575;06/2025;VivaLoka;Lamjed Ben amor
-3067;4576;06/2025;QuickMatch;Oumayma Jouini
-3067;4577;06/2025;QuickMatch;Nidhal Amara
-3067;4578;06/2025;QuickMatch;Houssem Farah
-3068;2695;06/2025;Solvizor;Dhiaeddine Gharsallah
-3068;4003;06/2025;Solvizor;Omar Masmoudi
-3069;4579;06/2025;ConvergeInnov;Hela Mkadmi
-3069;4580;06/2025;ConvergeInnov;Hamza Mkadmi
-3070;347;06/2025;Projet;Session d'obtention
-3071;4410;06/2025;AuroraIQ;Amina Mseddi
-3071;4411;06/2025;AuroraIQ;Aymen Frikha
-3072;4333;06/2025;INCYIA;Khalil Bourguiba
-3072;4334;06/2025;INCYIA;Fatma Jedidi
-3072;4521;06/2025;INCYIA;Février 2025
-3072;4475;06/2025;INCYIA;Mohamed Khalil Ben Mohamed
-3072;4476;06/2025;INCYIA;Mohamed Amine Ben Samir
-3072;4477;06/2025;INCYIA;Fedi Chebbi
-3072;4581;06/2025;INCYIA;Mai 2025
-3072;4206;06/2025;INCYIA;Tijani Boujdaria
-3072;3443;06/2025;INCYIA;Minyar Meksi
-3072;4207;06/2025;INCYIA;Walid Jlassi
-3072;4208;06/2025;INCYIA;Mohamed Rouini
-3072;4318;06/2025;INCYIA;Décembre 2024
-3072;4406;06/2025;INCYIA;Mourad Zid
-3072;4407;06/2025;INCYIA;Khaled Klai
-3072;4408;06/2025;INCYIA;Heithem Jeljli
-3072;4409;06/2025;INCYIA;Héla Ben Ammar
-3073;347;06/2025;Label accordé;Session d'obtention
+3035;67;06/2025;Thunder code;Karim jouini
+3035;68;06/2025;Thunder code;Jihed othmani
+3035;2540;06/2025;Thunder code;Nabil Majoul
+3036;4059;06/2025;Healio Technology;Emna Sahraoui
+3036;2539;06/2025;Healio Technology;Elyes Darghouth
+3036;4058;06/2025;Healio Technology;Emna Argoubi
+3036;4523;06/2025;Healio Technology;Ahmad Choucheni
+3037;4524;06/2025;Business Academy;Nour Rafiâa Kallel
+3037;4525;06/2025;Business Academy;Walid Kallel
+3038;1422;06/2025;KeplerAi;Mohamed Bahri
+3038;4526;06/2025;KeplerAi;Hayet Rais ep Skandrani
+3039;4527;06/2025;Dose'On;Mohamed Cherif
+3039;4528;06/2025;Dose'On;Mohamed Tanfous
+3039;4031;06/2025;Dose'On;Dhia Eddine Zouari
+3040;4032;06/2025;Save the plate;Sarra Soussia
+3040;4529;06/2025;Save the plate;Hadil Yahyaoui
+3041;4530;06/2025;VitaDood;Ines Alaya
+3042;4531;06/2025;etanfidh-solution digitale pour huissiers;Hichem Ben Dai
+3042;4532;06/2025;etanfidh-solution digitale pour huissiers;Nour Ghalia Abassi
+3043;4533;06/2025;Digehealth TN;Lyle Halliday
+3043;4534;06/2025;Digehealth TN;Marcel Wuethrich
+3043;4535;06/2025;Digehealth TN;Daniel Pohl
+3043;4536;06/2025;Digehealth TN;Rouissi Khaled
+3044;4537;06/2025;Jeridschool;Youssef Degachi
+3044;4538;06/2025;Jeridschool;Safa Bouhjar
+3044;4539;06/2025;Jeridschool;Aya Bouhlali
+3045;4540;06/2025;Carbotracker;Amira Yahmadi
+3045;3794;06/2025;Carbotracker;Maher Amara
+3045;4541;06/2025;Carbotracker;Khaled Bendriss
+3046;4542;06/2025;Preemptix;Khalil Bendriss
+3046;4543;06/2025;Preemptix;Rakia Jaziri
+3047;4544;06/2025;Wealthy Technology;Asma Jouini
+3048;4545;06/2025;QueDCo;Ramzi Nasr
+3049;4546;06/2025;EKRI;Mohamed Elyes Ben Haj Kbair
+3049;4547;06/2025;EKRI;Marouene Draoui
+3050;4548;06/2025;Rakis Technology;Thouraya Ftouh Walker
+3050;4549;06/2025;Rakis Technology;Daniel Atherton
+3051;4550;06/2025;Academia Hub;Abderrahmen Feki
+3052;4551;06/2025;A plus Trade and Forwarding Solutions;Asswar Boulifi
+3052;4552;06/2025;A plus Trade and Forwarding Solutions;Boulifi Oussama
+3053;4553;06/2025;MENUPRO;Wathek Bellah Jaballah
+3054;1890;06/2025;AgriSmart;Khelifi Ali
+3054;4554;06/2025;AgriSmart;Nama Hamdi
+3055;4555;06/2025;Version Healthy;Ghada Cherif
+3056;4556;06/2025;Tuniform;Yacine Aridhi
+3056;4557;06/2025;Tuniform;Wassim Aloui
+3057;4558;06/2025;NINGEN;Ali Hamouda
+3058;4559;06/2025;LEGALYZ;Aymen El Kadhi
+3058;3411;06/2025;LEGALYZ;Khalil Bessaad
+3058;4560;06/2025;LEGALYZ;Hassen Noamen
+3058;4561;06/2025;LEGALYZ;Mohamed khalil Aniba
+3059;4562;06/2025;Clean2win;Sameh Sellami
+3059;4563;06/2025;Clean2win;Yassine Aniba
+3059;4564;06/2025;Clean2win;Fatma Kobbi
+3060;2897;06/2025;Investir UTILE;Abdelkader Boussetta
+3061;4565;06/2025;Tanit Sign;Houssem Eddine Kthiri
+3062;4566;06/2025;TechBoss Women;Rihab Yakoubi
+3062;4567;06/2025;TechBoss Women;Mohamed Yakoubi
+3063;4568;06/2025;Dronia;Karim Tajer
+3063;4569;06/2025;Dronia;Moez Bhar
+3064;4570;06/2025;Neuraeon;Saifeddine Bouaouina
+3065;4571;06/2025;Collabera;Mohamed Rami Zairi
+3066;4572;06/2025;Tuniwave Sounds;Belgacem Bougrine
+3066;4573;06/2025;Tuniwave Sounds;Mohamed Aouini
+3066;4574;06/2025;Tuniwave Sounds;Maram Touati
+3066;4575;06/2025;Tuniwave Sounds;Rabâa Jnifi
+3067;4576;06/2025;VivaLoka;Lamjed Ben amor
+3067;4577;06/2025;VivaLoka;Oumayma Jouini
+3068;4578;06/2025;QuickMatch;Nidhal Amara
+3068;4579;06/2025;QuickMatch;Houssem Farah
+3068;2695;06/2025;QuickMatch;Dhiaeddine Gharsallah
+3069;4003;06/2025;Solvizor;Omar Masmoudi
+3070;4580;06/2025;ConvergeInnov;Hela Mkadmi
+3070;4581;06/2025;ConvergeInnov;Hamza Mkadmi
 130;217;07/2019;TransIN / SmartIN;Wahid Mnasri
 130;130;07/2019;TransIN / SmartIN;Insurance Tech
 131;218;07/2019;Catrim;Mohamed Amine Ghorbel
@@ -4102,64 +4094,64 @@ startup_id;founder_id;session;societe;fondateur
 2608;965;07/2024;GALACTECH;Avril 2019
 2609;596;07/2024;La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-;Janvier 2020
 2610;1184;07/2024;La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-;Novembre 2020
-3076;4582;07/2025;SUPERHOST;Yassine Mamlouk
-3076;4583;07/2025;SUPERHOST;Nadine Kochbati
-3076;4584;07/2025;SUPERHOST;Achref Chafter
-3076;4585;07/2025;SUPERHOST;Omar Belguith
-3077;4070;07/2025;SELF;Selima Elloumi
-3077;4071;07/2025;SELF;Fatma Elloumi
-3078;4586;07/2025;TH Ventures;Ryadh BOUSLAMA
-3079;3784;07/2025;Data scale Ai;Mayssem Ben Ammar
-3079;3785;07/2025;Data scale Ai;Wassim Mjahed
-3080;4587;07/2025;QHBuild;Mehdi Abdi
-3081;1919;07/2025;MedCity;Yassin Guirat
-3081;1343;07/2025;MedCity;Ala Eddine Maatoug
-3081;4588;07/2025;MedCity;ines msekni
-3081;4589;07/2025;MedCity;Fadi Kacem
-3081;4590;07/2025;MedCity;Mohamed Arbi Baklouti
-3081;4591;07/2025;MedCity;Mounira Zouaghi
-3081;4592;07/2025;MedCity;nada bougoffa
-3082;4593;07/2025;Assistant Manager IA QHSE;Khayri Romdhani
-3082;4594;07/2025;Assistant Manager IA QHSE;hachicha Mohamed taher
-3083;4595;07/2025;Stocki;Mohamed Hajri
-3083;4596;07/2025;Stocki;jdidi hamdi
-3084;4597;07/2025;Palm.ai;Hela Atmani
-3085;4598;07/2025;Poly;Mohamed Taha Sta
-3085;4599;07/2025;Poly;fares makki
-3086;4600;07/2025;Flexee Pay;Mohamed BADRI
-3087;4601;07/2025;Locknest Pro TN;Marie Baudlot
-3087;4602;07/2025;Locknest Pro TN;Pierre LE ROY
-3088;4603;07/2025;PHYLIA TECHNOLOGY;mohamed cherif oussayef
-3089;4604;07/2025;Kruzr;houssam hamdi
-3090;4415;07/2025;Palmyra platform;Wael Hadji
-3090;4605;07/2025;Palmyra platform;Elfazaa Majdeddine
-3090;4606;07/2025;Palmyra platform;hamrouni Adnen
-3091;4607;07/2025;Kiffcom Tunisie;Ludovic MOTTINI
-3091;4608;07/2025;Kiffcom Tunisie;Paul Fafard
-3092;4609;07/2025;SPORT MATES;Imed Jabnouni
-3093;4610;07/2025;Qromo;Mahdi Ben Ameur
-3093;4611;07/2025;Qromo;Maryem Chakroun
-3093;4612;07/2025;Qromo;Mouhib Hermi
-3094;4180;07/2025;NOURRI CO;Mohamed Youssef Sghaier
-3094;4183;07/2025;NOURRI CO;Sami Tfifha
-3094;4613;07/2025;NOURRI CO;salma chaieb
-3095;4614;07/2025;le trading automatisé sur le marché du Forex;ismail mekki
-3096;4615;07/2025;GreenDream.world;Amine Dhbaibi
-3096;128;07/2025;GreenDream.world;Achraf Khelil
-3097;4616;07/2025;HiredUp;Mehdi KHELIL
-3097;4617;07/2025;HiredUp;Amira Chebbi
-3097;4618;07/2025;HiredUp;Nader SAIDI
-3098;4619;07/2025;Fok Nje7ik;Omar Riahi
-3099;2994;07/2025;TakTak Food;Mohamed Touhami Rhaima
-3099;2995;07/2025;TakTak Food;Rehayma Maher
-3100;4620;07/2025;Foodieri;Sabrine Hammami
-3100;4621;07/2025;Foodieri;Sabrine Golli
-3100;4622;07/2025;Foodieri;Dina Mechergui
-3101;4066;07/2025;D.A LABTECH;Moheb Awichewi
-3101;4623;07/2025;D.A LABTECH;Taher Damak
-3102;4624;07/2025;Production des blocs de bois brut par la valorisation des déchets de palmiers dattiers;Mansouri Mohamed Ali
-3103;4236;07/2025;FinAIBot;Ichrak Bouzgarrou
-3104;4625;07/2025;mechi Tunisie;Malek Mansour
+3071;4582;07/2025;SUPERHOST;Yassine Mamlouk
+3071;4583;07/2025;SUPERHOST;Nadine Kochbati
+3071;4584;07/2025;SUPERHOST;Achref Chafter
+3071;4585;07/2025;SUPERHOST;Omar Belguith
+3072;4070;07/2025;SELF;Selima Elloumi
+3072;4071;07/2025;SELF;Fatma Elloumi
+3073;4586;07/2025;TH Ventures;Ryadh BOUSLAMA
+3074;3784;07/2025;Data scale Ai;Mayssem Ben Ammar
+3074;3785;07/2025;Data scale Ai;Wassim Mjahed
+3075;4587;07/2025;QHBuild;Mehdi Abdi
+3076;1919;07/2025;MedCity;Yassin Guirat
+3076;1343;07/2025;MedCity;Ala Eddine Maatoug
+3076;4588;07/2025;MedCity;ines msekni
+3076;4589;07/2025;MedCity;Fadi Kacem
+3076;4590;07/2025;MedCity;Mohamed Arbi Baklouti
+3076;4591;07/2025;MedCity;Mounira Zouaghi
+3076;4592;07/2025;MedCity;nada bougoffa
+3077;4593;07/2025;Assistant Manager IA QHSE;Khayri Romdhani
+3077;4594;07/2025;Assistant Manager IA QHSE;hachicha Mohamed taher
+3078;4595;07/2025;Stocki;Mohamed Hajri
+3078;4596;07/2025;Stocki;jdidi hamdi
+3079;4597;07/2025;Palm.ai;Hela Atmani
+3080;4598;07/2025;Poly;Mohamed Taha Sta
+3080;4599;07/2025;Poly;fares makki
+3081;4600;07/2025;Flexee Pay;Mohamed BADRI
+3082;4601;07/2025;Locknest Pro TN;Marie Baudlot
+3082;4602;07/2025;Locknest Pro TN;Pierre LE ROY
+3083;4603;07/2025;PHYLIA TECHNOLOGY;mohamed cherif oussayef
+3084;4604;07/2025;Kruzr;houssam hamdi
+3085;4415;07/2025;Palmyra platform;Wael Hadji
+3085;4605;07/2025;Palmyra platform;Elfazaa Majdeddine
+3085;4606;07/2025;Palmyra platform;hamrouni Adnen
+3086;4607;07/2025;Kiffcom Tunisie;Ludovic MOTTINI
+3086;4608;07/2025;Kiffcom Tunisie;Paul Fafard
+3087;4609;07/2025;SPORT MATES;Imed Jabnouni
+3088;4610;07/2025;Qromo;Mahdi Ben Ameur
+3088;4611;07/2025;Qromo;Maryem Chakroun
+3088;4612;07/2025;Qromo;Mouhib Hermi
+3089;4180;07/2025;NOURRI CO;Mohamed Youssef Sghaier
+3089;4183;07/2025;NOURRI CO;Sami Tfifha
+3089;4613;07/2025;NOURRI CO;salma chaieb
+3090;4614;07/2025;le trading automatisé sur le marché du Forex;ismail mekki
+3091;4615;07/2025;GreenDream.world;Amine Dhbaibi
+3091;128;07/2025;GreenDream.world;Achraf Khelil
+3092;4616;07/2025;HiredUp;Mehdi KHELIL
+3092;4617;07/2025;HiredUp;Amira Chebbi
+3092;4618;07/2025;HiredUp;Nader SAIDI
+3093;4619;07/2025;Fok Nje7ik;Omar Riahi
+3094;2994;07/2025;TakTak Food;Mohamed Touhami Rhaima
+3094;2995;07/2025;TakTak Food;Rehayma Maher
+3095;4620;07/2025;Foodieri;Sabrine Hammami
+3095;4621;07/2025;Foodieri;Sabrine Golli
+3095;4622;07/2025;Foodieri;Dina Mechergui
+3096;4066;07/2025;D.A LABTECH;Moheb Awichewi
+3096;4623;07/2025;D.A LABTECH;Taher Damak
+3097;4624;07/2025;Production des blocs de bois brut par la valorisation des déchets de palmiers dattiers;Mansouri Mohamed Ali
+3098;4236;07/2025;FinAIBot;Ichrak Bouzgarrou
+3099;4625;07/2025;mechi Tunisie;Malek Mansour
 156;257;08/2019;EVOCRAFT;Ali Belhaj Zahi
 156;258;08/2019;EVOCRAFT;Haythem Dabbabi
 156;259;08/2019;EVOCRAFT;Imen Hajji
@@ -4659,91 +4651,91 @@ startup_id;founder_id;session;societe;fondateur
 2652;3944;08/2024;EDUZEN;Juillet 2024
 2652;347;08/2024;EDUZEN;Session d'obtention
 2653;1277;08/2024;Be Wireless Solutions;Mars 2019
-3105;2848;08/2025;Karhabti.app;Amina Chouchane
-3105;2847;08/2025;Karhabti.app;Adnen Mrad
-3106;4626;08/2025;Dawwerni;Mohsen Fennira
-3107;4627;08/2025;Deepic;Ahmed Ghazi BLAIECH
-3107;4628;08/2025;Deepic;Amir Bouden
-3107;4629;08/2025;Deepic;Khaoula BRAIKI
-3108;4630;08/2025;WELLNESS HUB;YOUSSEF BOUSSAADA
-3109;4176;08/2025;Doxaria;Wassim Znaidi
-3109;4173;08/2025;Doxaria;Ghassen Bettaieb
-3109;4174;08/2025;Doxaria;Kaies Lamiri
-3109;4175;08/2025;Doxaria;Mohamed Dhouib
-3110;4631;08/2025;Sté Green Nonwoven Visline;wael chambah
-3111;4169;08/2025;Tak Tak;Alaa Ben Said
-3111;4171;08/2025;Tak Tak;Sonia Najjar
-3111;4170;08/2025;Tak Tak;Mohamed Aziz Ben Said
-3112;4632;08/2025;Talifouni+;Baha Kaabaoui
-3113;4633;08/2025;Rhizome;Adnène Bouderbala
-3114;4091;08/2025;Hanoutik;Mohamed Yassine Derbel
-3114;4092;08/2025;Hanoutik;Adem Bouatay
-3114;4093;08/2025;Hanoutik;Mouhaned Ben Abdelhafidh
-3115;4634;08/2025;Erpy;Ali Nasr
-3116;4635;08/2025;Play and Code;Taha Jlassi
-3116;4636;08/2025;Play and Code;ramla el ayeb ep jlassi
-3116;4637;08/2025;Play and Code;Karim JLASSI
-3117;2938;08/2025;OraNext AI;Aymen Yahyaoui
-3117;4638;08/2025;OraNext AI;Maher Boughdiri
-3117;4639;08/2025;OraNext AI;Iheb Chhaibi
-3117;4640;08/2025;OraNext AI;Wassim Sliti
-3118;3983;08/2025;Park & Charge;Rami Hedfi
-3118;3984;08/2025;Park & Charge;Zied Bradai
-3118;3982;08/2025;Park & Charge;Ghassen Chattouna
-3119;4641;08/2025;Fast Help;Malek Ben hassine
-3120;4642;08/2025;CLUBI;kaies bedoui
-3120;4643;08/2025;CLUBI;Aymen BEDOUI
-3121;4644;08/2025;Ordering Dashboard Solution (ODS);Houssem Gharsalli
-3122;3202;08/2025;MData One;Omar Ismail
-3122;3200;08/2025;MData One;Arafet Sbei
-3122;3199;08/2025;MData One;Slimen Arnaout
-3122;3201;08/2025;MData One;Tarek Ben Salah
-3123;4645;08/2025;DoWell;Mohamed Tayeb Mokni
-3123;4646;08/2025;DoWell;Med Amine Ladib
-3123;4647;08/2025;DoWell;Elyes Mlawah
-3123;4648;08/2025;DoWell;Gorgueb Mouhamed Nadhem
-3124;4649;08/2025;Te Quaero;dalel chahed
-3124;4650;08/2025;Te Quaero;trabelsi nasredine
-3125;4651;08/2025;Exposia;Ilyes Ahmed Oussama
-3125;4652;08/2025;Exposia;Belaid Guizeni
-3126;4653;08/2025;Habitiz;Issam Bouhouch
-3127;4654;08/2025;Kharajni.tn;Mohamed Béchir Lansari
-3127;4655;08/2025;Kharajni.tn;Yasmine Ansari
-3127;1253;08/2025;Kharajni.tn;Taha Dahech
-3128;4656;08/2025;Farbi.tn;Omar GASSAB
-3128;4657;08/2025;Farbi.tn;GHALLEB Mohamed Mustapha
-3129;4658;08/2025;Badel;sfaxi firas
-3130;4659;08/2025;TRUSTMOVE TUNISIA;Mehdi Hammami
-3131;3499;08/2025;SANEOB;Mouna Boussetta
-3132;4660;08/2025;KSIBA;Roua Boussetta
-3132;4661;08/2025;KSIBA;Noureddine Rezgui
-3133;4662;08/2025;Terrametrics;Amine Ferjani
-3133;4663;08/2025;Terrametrics;Hanedi Elleuch
-3134;4664;08/2025;Booklyne;amine raouafi
-3134;4665;08/2025;Booklyne;yassine labiedh
-3134;4666;08/2025;Booklyne;youssef arrari
-3135;4235;08/2025;CashFloow;Aymen Bouzgarrou
-3136;4667;08/2025;VERDOLIVE;Menyar Debbebi
-3136;4668;08/2025;VERDOLIVE;marwa essid
-3136;4225;08/2025;VERDOLIVE;Ghanem Iheb
-3137;4669;08/2025;LexIA;Nidhal Rahali
-3137;4670;08/2025;LexIA;asma taba
-3137;4671;08/2025;LexIA;Mouhanned Rahali
-3138;4672;08/2025;compta-smart;saber ghanmi
-3139;4673;08/2025;ICHFINI;afef Akremi
-3140;4674;08/2025;Rendez-vous;ghada khedira
-3140;4675;08/2025;Rendez-vous;kais boumaiza
-3141;4676;08/2025;BioH2O;Ameni Kabboudi
-3142;4677;08/2025;AZRO EVENTS;TIJANI RKIWA
-3142;2406;08/2025;AZRO EVENTS;Afef Bouazizi
-3143;4678;08/2025;Stocky;Downy
-3143;4679;08/2025;Stocky;othmani moufida
-3144;4680;08/2025;Technozor;SLIM BOUFADEN
-3144;4681;08/2025;Technozor;AMIRA BEN JEMAA
-3144;4682;08/2025;Technozor;zied boufaden
-3145;4054;08/2025;Recolab technologies;Ahmed Welhezi
-3145;4053;08/2025;Recolab technologies;Manel Ben hassine
-3145;4052;08/2025;Recolab technologies;Ossama Hidri
+3100;2848;08/2025;Karhabti.app;Amina Chouchane
+3100;2847;08/2025;Karhabti.app;Adnen Mrad
+3101;4626;08/2025;Dawwerni;Mohsen Fennira
+3102;4627;08/2025;Deepic;Ahmed Ghazi BLAIECH
+3102;4628;08/2025;Deepic;Amir Bouden
+3102;4629;08/2025;Deepic;Khaoula BRAIKI
+3103;4630;08/2025;WELLNESS HUB;YOUSSEF BOUSSAADA
+3104;4176;08/2025;Doxaria;Wassim Znaidi
+3104;4173;08/2025;Doxaria;Ghassen Bettaieb
+3104;4174;08/2025;Doxaria;Kaies Lamiri
+3104;4175;08/2025;Doxaria;Mohamed Dhouib
+3105;4631;08/2025;Sté Green Nonwoven Visline;wael chambah
+3106;4169;08/2025;Tak Tak;Alaa Ben Said
+3106;4171;08/2025;Tak Tak;Sonia Najjar
+3106;4170;08/2025;Tak Tak;Mohamed Aziz Ben Said
+3107;4632;08/2025;Talifouni+;Baha Kaabaoui
+3108;4633;08/2025;Rhizome;Adnène Bouderbala
+3109;4091;08/2025;Hanoutik;Mohamed Yassine Derbel
+3109;4092;08/2025;Hanoutik;Adem Bouatay
+3109;4093;08/2025;Hanoutik;Mouhaned Ben Abdelhafidh
+3110;4634;08/2025;Erpy;Ali Nasr
+3111;4635;08/2025;Play and Code;Taha Jlassi
+3111;4636;08/2025;Play and Code;ramla el ayeb ep jlassi
+3111;4637;08/2025;Play and Code;Karim JLASSI
+3112;2938;08/2025;OraNext AI;Aymen Yahyaoui
+3112;4638;08/2025;OraNext AI;Maher Boughdiri
+3112;4639;08/2025;OraNext AI;Iheb Chhaibi
+3112;4640;08/2025;OraNext AI;Wassim Sliti
+3113;3983;08/2025;Park & Charge;Rami Hedfi
+3113;3984;08/2025;Park & Charge;Zied Bradai
+3113;3982;08/2025;Park & Charge;Ghassen Chattouna
+3114;4641;08/2025;Fast Help;Malek Ben hassine
+3115;4642;08/2025;CLUBI;kaies bedoui
+3115;4643;08/2025;CLUBI;Aymen BEDOUI
+3116;4644;08/2025;Ordering Dashboard Solution (ODS);Houssem Gharsalli
+3117;3202;08/2025;MData One;Omar Ismail
+3117;3200;08/2025;MData One;Arafet Sbei
+3117;3199;08/2025;MData One;Slimen Arnaout
+3117;3201;08/2025;MData One;Tarek Ben Salah
+3118;4645;08/2025;DoWell;Mohamed Tayeb Mokni
+3118;4646;08/2025;DoWell;Med Amine Ladib
+3118;4647;08/2025;DoWell;Elyes Mlawah
+3118;4648;08/2025;DoWell;Gorgueb Mouhamed Nadhem
+3119;4649;08/2025;Te Quaero;dalel chahed
+3119;4650;08/2025;Te Quaero;trabelsi nasredine
+3120;4651;08/2025;Exposia;Ilyes Ahmed Oussama
+3120;4652;08/2025;Exposia;Belaid Guizeni
+3121;4653;08/2025;Habitiz;Issam Bouhouch
+3122;4654;08/2025;Kharajni.tn;Mohamed Béchir Lansari
+3122;4655;08/2025;Kharajni.tn;Yasmine Ansari
+3122;1253;08/2025;Kharajni.tn;Taha Dahech
+3123;4656;08/2025;Farbi.tn;Omar GASSAB
+3123;4657;08/2025;Farbi.tn;GHALLEB Mohamed Mustapha
+3124;4658;08/2025;Badel;sfaxi firas
+3125;4659;08/2025;TRUSTMOVE TUNISIA;Mehdi Hammami
+3126;3499;08/2025;SANEOB;Mouna Boussetta
+3127;4660;08/2025;KSIBA;Roua Boussetta
+3127;4661;08/2025;KSIBA;Noureddine Rezgui
+3128;4662;08/2025;Terrametrics;Amine Ferjani
+3128;4663;08/2025;Terrametrics;Hanedi Elleuch
+3129;4664;08/2025;Booklyne;amine raouafi
+3129;4665;08/2025;Booklyne;yassine labiedh
+3129;4666;08/2025;Booklyne;youssef arrari
+3130;4235;08/2025;CashFloow;Aymen Bouzgarrou
+3131;4667;08/2025;VERDOLIVE;Menyar Debbebi
+3131;4668;08/2025;VERDOLIVE;marwa essid
+3131;4225;08/2025;VERDOLIVE;Ghanem Iheb
+3132;4669;08/2025;LexIA;Nidhal Rahali
+3132;4670;08/2025;LexIA;asma taba
+3132;4671;08/2025;LexIA;Mouhanned Rahali
+3133;4672;08/2025;compta-smart;saber ghanmi
+3134;4673;08/2025;ICHFINI;afef Akremi
+3135;4674;08/2025;Rendez-vous;ghada khedira
+3135;4675;08/2025;Rendez-vous;kais boumaiza
+3136;4676;08/2025;BioH2O;Ameni Kabboudi
+3137;4677;08/2025;AZRO EVENTS;TIJANI RKIWA
+3137;2406;08/2025;AZRO EVENTS;Afef Bouazizi
+3138;4678;08/2025;Stocky;Downy
+3138;4679;08/2025;Stocky;othmani moufida
+3139;4680;08/2025;Technozor;SLIM BOUFADEN
+3139;4681;08/2025;Technozor;AMIRA BEN JEMAA
+3139;4682;08/2025;Technozor;zied boufaden
+3140;4054;08/2025;Recolab technologies;Ahmed Welhezi
+3140;4053;08/2025;Recolab technologies;Manel Ben hassine
+3140;4052;08/2025;Recolab technologies;Ossama Hidri
 182;309;09/2019;Sarra Khemakhem;Firas Rhaiem
 183;310;09/2019;TrustiT;Mohamed Amine Ouni
 185;311;09/2019;Mobile;Khaled Dhifallah Ennefii
@@ -5270,57 +5262,57 @@ startup_id;founder_id;session;societe;fondateur
 2691;2524;09/2024;Aventoura;Saber Jelassi
 2692;347;09/2024;Label accordé;Session d'obtention
 2693;407;09/2024;NEWGEN;Mai 2019
-3146;4683;09/2025;PSYNARIOS;Mohamed Ali Gamha
-3147;4684;09/2025;Ligalo;Alaa Adouni
-3147;4685;09/2025;Ligalo;Salem Moussa Adouni
-3148;4686;09/2025;Flashbac;Mohamed Mouhib Meddeb
-3148;4687;09/2025;Flashbac;Hazem Ben Saria
-3149;3252;09/2025;The pointing graphical tablet;Mohamed Taibah
-3149;4688;09/2025;The pointing graphical tablet;Mohamed Kais Ben Rhouma
-3150;4689;09/2025;Trip Hive;Ben thabet Mohamed Charfeddine
-3150;4690;09/2025;Trip Hive;Aziza Souaf
-3150;4691;09/2025;Trip Hive;Amir Rebhi
-3150;4692;09/2025;Trip Hive;Amira Hamden
-3150;4693;09/2025;Trip Hive;Nasri
-3151;4694;09/2025;ProgressBox;Khouloud Missaoui
-3151;4695;09/2025;ProgressBox;houssem ben brahim
-3151;4696;09/2025;ProgressBox;Abdelhakim Haddad
-3152;4697;09/2025;El Qemma;oueslati salim
-3152;4698;09/2025;El Qemma;Mehdi Essalah
-3153;4699;09/2025;Gotei;khaled makhlouf
-3153;4700;09/2025;Gotei;Amine Ben Messaoud
-3153;4701;09/2025;Gotei;assad yahyawi
-3154;4702;09/2025;LYAMAMATAYN الیمامتین;SABRINE MARZOUGUI
-3154;4703;09/2025;LYAMAMATAYN الیمامتین;Kawther Marzouki
-3154;4704;09/2025;LYAMAMATAYN الیمامتین;Norene Sakouhi
-3155;4705;09/2025;DIA industries;Mohamed Yessine KSIBI
-3155;4706;09/2025;DIA industries;Dia Ali
-3155;4707;09/2025;DIA industries;Hamza Bouajila
-3155;4708;09/2025;DIA industries;Mehdi ZAYET
-3156;2415;09/2025;VIBE FLOW AI;Ali Abdallah
-3156;2416;09/2025;VIBE FLOW AI;Ala Touati
-3157;1414;09/2025;BxB Studio;Yassine Boumaiza
-3158;4709;09/2025;Boon;Safa Bouabdallah
-3159;4710;09/2025;Millisave;Fatma Bouhajeb
-3159;4711;09/2025;Millisave;Ibrahim Daami
-3159;4712;09/2025;Millisave;Mahmoud DAAMI
-3160;4713;09/2025;تونس عقارات: Akarat.tn;Amari Aida
-3161;4714;09/2025;OptiPlanex;Amal Louati
-3162;4715;09/2025;URBANAV;Saifeddine Bessaidi
-3163;4716;09/2025;Darraja;aziz zaag
-3163;4717;09/2025;Darraja;Aymen Bouhaha
-3164;4718;09/2025;عمل 3MAL;Mohamed Bayar SADRI BEN AHMED
-3165;4394;09/2025;TeraaVerra;Abdlkerim Haddad
-3165;4719;09/2025;TeraaVerra;Hazem Majdoub Fhima
-3165;4720;09/2025;TeraaVerra;Iskander
-3166;4721;09/2025;MedicusAI;Ismail Hamdi
-3166;4722;09/2025;MedicusAI;Yahia Boussaid
-3166;4723;09/2025;MedicusAI;Shady Hamrouni
-3167;4724;09/2025;Eco block;Hamza Elmabrouk
-3167;4725;09/2025;Eco block;oussama bagga
-3168;4726;09/2025;Quinexa;Saiff Eddine Ben Boudguiga
-3169;4727;09/2025;Tajjer;Oussama Abdallah
-3170;4728;09/2025;Cloud Commit Software Solutions;Mohammed Amine Dridi
+3141;4683;09/2025;PSYNARIOS;Mohamed Ali Gamha
+3142;4684;09/2025;Ligalo;Alaa Adouni
+3142;4685;09/2025;Ligalo;Salem Moussa Adouni
+3143;4686;09/2025;Flashbac;Mohamed Mouhib Meddeb
+3143;4687;09/2025;Flashbac;Hazem Ben Saria
+3144;3252;09/2025;The pointing graphical tablet;Mohamed Taibah
+3144;4688;09/2025;The pointing graphical tablet;Mohamed Kais Ben Rhouma
+3145;4689;09/2025;Trip Hive;Ben thabet Mohamed Charfeddine
+3145;4690;09/2025;Trip Hive;Aziza Souaf
+3145;4691;09/2025;Trip Hive;Amir Rebhi
+3145;4692;09/2025;Trip Hive;Amira Hamden
+3145;4693;09/2025;Trip Hive;Nasri
+3146;4694;09/2025;ProgressBox;Khouloud Missaoui
+3146;4695;09/2025;ProgressBox;houssem ben brahim
+3146;4696;09/2025;ProgressBox;Abdelhakim Haddad
+3147;4697;09/2025;El Qemma;oueslati salim
+3147;4698;09/2025;El Qemma;Mehdi Essalah
+3148;4699;09/2025;Gotei;khaled makhlouf
+3148;4700;09/2025;Gotei;Amine Ben Messaoud
+3148;4701;09/2025;Gotei;assad yahyawi
+3149;4702;09/2025;LYAMAMATAYN الیمامتین;SABRINE MARZOUGUI
+3149;4703;09/2025;LYAMAMATAYN الیمامتین;Kawther Marzouki
+3149;4704;09/2025;LYAMAMATAYN الیمامتین;Norene Sakouhi
+3150;4705;09/2025;DIA industries;Mohamed Yessine KSIBI
+3150;4706;09/2025;DIA industries;Dia Ali
+3150;4707;09/2025;DIA industries;Hamza Bouajila
+3150;4708;09/2025;DIA industries;Mehdi ZAYET
+3151;2415;09/2025;VIBE FLOW AI;Ali Abdallah
+3151;2416;09/2025;VIBE FLOW AI;Ala Touati
+3152;1414;09/2025;BxB Studio;Yassine Boumaiza
+3153;4709;09/2025;Boon;Safa Bouabdallah
+3154;4710;09/2025;Millisave;Fatma Bouhajeb
+3154;4711;09/2025;Millisave;Ibrahim Daami
+3154;4712;09/2025;Millisave;Mahmoud DAAMI
+3155;4713;09/2025;تونس عقارات: Akarat.tn;Amari Aida
+3156;4714;09/2025;OptiPlanex;Amal Louati
+3157;4715;09/2025;URBANAV;Saifeddine Bessaidi
+3158;4716;09/2025;Darraja;aziz zaag
+3158;4717;09/2025;Darraja;Aymen Bouhaha
+3159;4718;09/2025;عمل 3MAL;Mohamed Bayar SADRI BEN AHMED
+3160;4394;09/2025;TeraaVerra;Abdlkerim Haddad
+3160;4719;09/2025;TeraaVerra;Hazem Majdoub Fhima
+3160;4720;09/2025;TeraaVerra;Iskander
+3161;4721;09/2025;MedicusAI;Ismail Hamdi
+3161;4722;09/2025;MedicusAI;Yahia Boussaid
+3161;4723;09/2025;MedicusAI;Shady Hamrouni
+3162;4724;09/2025;Eco block;Hamza Elmabrouk
+3162;4725;09/2025;Eco block;oussama bagga
+3163;4726;09/2025;Quinexa;Saiff Eddine Ben Boudguiga
+3164;4727;09/2025;Tajjer;Oussama Abdallah
+3165;4728;09/2025;Cloud Commit Software Solutions;Mohammed Amine Dridi
 208;351;10/2019;Fivepoints;Wassim Jouini
 208;352;10/2019;Fivepoints;Mohamed Fares Oueslati
 209;283;10/2019;Datavision;Skander Amor
@@ -5872,104 +5864,104 @@ startup_id;founder_id;session;societe;fondateur
 2739;447;10/2024;Tunisia Global Trade center;Septembre 2019
 2740;965;10/2024;La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-;Avril 2019
 2741;965;10/2024;La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-;Avril 2019
-3171;4729;10/2025;PAYDAY TAKAFUL;Mohamed Anouar Gadhoum
-3171;1893;10/2025;PAYDAY TAKAFUL;Marouan Omezzine
-3171;4730;10/2025;PAYDAY TAKAFUL;Shaher Abbas
-3172;4731;10/2025;Eddium Platinuim;Nasri Ala
-3172;4732;10/2025;Eddium Platinuim;Aniba Yosra
-3173;4220;10/2025;CADUSAY;Karim Rekik
-3173;4733;10/2025;CADUSAY;Amir Knani
-3174;4734;10/2025;Scientiworld;Mohamed Dhia Fredj
-3174;3483;10/2025;Scientiworld;Safa Ben Romdhane
-3174;440;10/2025;Scientiworld;Khaled Khelifi
-3175;4735;10/2025;Footlink.tn;Abdelhalim Alahoum
-3175;4736;10/2025;Footlink.tn;Anis NAJJAR
-3176;4737;10/2025;One Beauty;Abderrahman Jalled
-3176;3304;10/2025;One Beauty;Rachwan Tarraf
-3176;4738;10/2025;One Beauty;Skander Ouni
-3177;4739;10/2025;EGAMarketplace;Mourad Benyounes
-3177;4740;10/2025;EGAMarketplace;Hichem Chouaibi
-3178;4741;10/2025;Shoot;Yassine BEN GHANEM
-3178;4742;10/2025;Shoot;Souhail SBOUI
-3178;4743;10/2025;Shoot;Marwa ANNEBI
-3179;4744;10/2025;HistoryConneXion;Malek Ben yaghlane
-3180;4745;10/2025;Clubedge;Yassine Ahmed
-3180;4746;10/2025;Clubedge;Fedi Khaled
-3180;4747;10/2025;Clubedge;Mohamed hedi MAGHREBI
-3180;4748;10/2025;Clubedge;Achraf HADRICH
-3181;4749;10/2025;COLEA AgriTech;Thaer Tafesh
-3181;4750;10/2025;COLEA AgriTech;Matthias Würtenberger
-3182;4751;10/2025;AIVIA;Ahmed Gargouri
-3182;4752;10/2025;AIVIA;Youssef Boutaleb
-3182;4753;10/2025;AIVIA;Moez Zouari
-3182;4754;10/2025;AIVIA;MOHAMED ALI KHEMAKHEM
-3182;4755;10/2025;AIVIA;Rafik Rekhis
-3182;4756;10/2025;AIVIA;Manel Kallel
-3183;4757;10/2025;Absher AI;Ghada Eladeb
-3183;4758;10/2025;Absher AI;Yahya Samet
-3183;4759;10/2025;Absher AI;Mohamed Hachicha
-3183;4760;10/2025;Absher AI;Mohamed Regaya
-3184;4761;10/2025;SymbioWave;Oussama Ben Salem
-3185;4762;10/2025;Raba7ni;Ali Boukhris
-3185;4763;10/2025;Raba7ni;salim dagdoug
-3185;4764;10/2025;Raba7ni;taieb ben ali
-3186;4765;10/2025;Compta Smart Solution;Ahmed Zahaf
-3186;4766;10/2025;Compta Smart Solution;Mohamed Elyas Bazazi
-3186;4767;10/2025;Compta Smart Solution;Hedi Zahaf
-3187;4768;10/2025;innovia360;slim zghal
-3187;3657;10/2025;innovia360;Momtez Ayadi
-3188;4769;10/2025;SerBot;Chawki Gharsellaoui
-3188;4770;10/2025;SerBot;Mbarki Kabil
-3188;4771;10/2025;SerBot;Hmercha Amjed
-3188;4772;10/2025;SerBot;Wael Hichri
-3189;4773;10/2025;Cogitoly;Nada Mejri
-3189;4774;10/2025;Cogitoly;Issam Mellah
-3190;4775;10/2025;RMC;Rahma zbidi
-3190;4776;10/2025;RMC;anis hdhili
-3190;4777;10/2025;RMC;KHALIL BELLALI
-3191;4778;10/2025;ONE ERP;mohamed ali Derbel
-3191;4779;10/2025;ONE ERP;AFFES BILEL
-3191;4780;10/2025;ONE ERP;Mahdi Chiha
-3192;4781;10/2025;Price Forging;Mohamed Chtiba
-3192;4782;10/2025;Price Forging;Walid Makhlouf
-3193;4282;10/2025;PERF ANALYSIS CONSULTING;Mohamed Ayachi
-3194;3334;10/2025;wedo distribution services;Mohamed Riahi
-3195;4783;10/2025;Innoteam Solutions;Radhouen Boughanmi
-3195;4784;10/2025;Innoteam Solutions;Hijen EL KHALIFI
-3196;4785;10/2025;B-SMART GO;rayen trabelsi
-3196;4786;10/2025;B-SMART GO;Mohamed Trabelsi
-3196;4787;10/2025;B-SMART GO;Trabelsi Iyed
-3197;4788;10/2025;Bid Shine;Taha Triki
-3197;4789;10/2025;Bid Shine;Mejdi Dhokar
-3198;4790;10/2025;Etudianet/Studianat;Maria Amaidi
-3198;4791;10/2025;Etudianet/Studianat;Montassar Jandoubi
-3198;4792;10/2025;Etudianet/Studianat;Hadil Ltifi
-3199;4793;10/2025;tenjah;Ahmed Ben Aissa
-3200;4794;10/2025;Encore Bon;Firas Ellini
-3200;4795;10/2025;Encore Bon;Ezzeddine Jrad
-3201;4796;10/2025;XMap;Samir AKACHI
-3201;4797;10/2025;XMap;Manel Affi
-3201;4798;10/2025;XMap;khouloud affi
-3201;4799;10/2025;XMap;Chedy HORCHANI
-3202;4800;10/2025;LuxePass;mohamed ben mrad
-3203;4801;10/2025;SidiChat;Mhimdi Mouhib
-3203;4802;10/2025;SidiChat;amen allah fraj
-3204;4803;10/2025;Vybtor;Walid Mezghani
-3204;1002;10/2025;Vybtor;Amani Ghezal
-3204;4804;10/2025;Vybtor;Achraf Kchaou
-3205;4805;10/2025;Key Marketplace;Mohamed Wael Daly
-3205;4806;10/2025;Key Marketplace;Dorra Haddad
-3206;4807;10/2025;Next Afri Log;Hatem Chatti
-3206;4808;10/2025;Next Afri Log;Mohamed touijer
-3207;4809;10/2025;Tache-Lik;Mohamed Abidi
-3207;4810;10/2025;Tache-Lik;Oussama Aissaoui
-3207;4811;10/2025;Tache-Lik;Yassine Cherif
-3208;4812;10/2025;TUNIAI;Houssem aouedni
-3209;4813;10/2025;Bloom Venom;issam hmandi
-3209;4075;10/2025;Bloom Venom;Ghanem Toumi
-3209;4814;10/2025;Bloom Venom;Imen Rabeh
-3210;4815;10/2025;EduImpact.tn;Jilani Garraoui
-3211;4816;10/2025;ARTROK;Feres Messaoudi
+3166;4729;10/2025;PAYDAY TAKAFUL;Mohamed Anouar Gadhoum
+3166;1893;10/2025;PAYDAY TAKAFUL;Marouan Omezzine
+3166;4730;10/2025;PAYDAY TAKAFUL;Shaher Abbas
+3167;4731;10/2025;Eddium Platinuim;Nasri Ala
+3167;4732;10/2025;Eddium Platinuim;Aniba Yosra
+3168;4220;10/2025;CADUSAY;Karim Rekik
+3168;4733;10/2025;CADUSAY;Amir Knani
+3169;4734;10/2025;Scientiworld;Mohamed Dhia Fredj
+3169;3483;10/2025;Scientiworld;Safa Ben Romdhane
+3169;440;10/2025;Scientiworld;Khaled Khelifi
+3170;4735;10/2025;Footlink.tn;Abdelhalim Alahoum
+3170;4736;10/2025;Footlink.tn;Anis NAJJAR
+3171;4737;10/2025;One Beauty;Abderrahman Jalled
+3171;3304;10/2025;One Beauty;Rachwan Tarraf
+3171;4738;10/2025;One Beauty;Skander Ouni
+3172;4739;10/2025;EGAMarketplace;Mourad Benyounes
+3172;4740;10/2025;EGAMarketplace;Hichem Chouaibi
+3173;4741;10/2025;Shoot;Yassine BEN GHANEM
+3173;4742;10/2025;Shoot;Souhail SBOUI
+3173;4743;10/2025;Shoot;Marwa ANNEBI
+3174;4744;10/2025;HistoryConneXion;Malek Ben yaghlane
+3175;4745;10/2025;Clubedge;Yassine Ahmed
+3175;4746;10/2025;Clubedge;Fedi Khaled
+3175;4747;10/2025;Clubedge;Mohamed hedi MAGHREBI
+3175;4748;10/2025;Clubedge;Achraf HADRICH
+3176;4749;10/2025;COLEA AgriTech;Thaer Tafesh
+3176;4750;10/2025;COLEA AgriTech;Matthias Würtenberger
+3177;4751;10/2025;AIVIA;Ahmed Gargouri
+3177;4752;10/2025;AIVIA;Youssef Boutaleb
+3177;4753;10/2025;AIVIA;Moez Zouari
+3177;4754;10/2025;AIVIA;MOHAMED ALI KHEMAKHEM
+3177;4755;10/2025;AIVIA;Rafik Rekhis
+3177;4756;10/2025;AIVIA;Manel Kallel
+3178;4757;10/2025;Absher AI;Ghada Eladeb
+3178;4758;10/2025;Absher AI;Yahya Samet
+3178;4759;10/2025;Absher AI;Mohamed Hachicha
+3178;4760;10/2025;Absher AI;Mohamed Regaya
+3179;4761;10/2025;SymbioWave;Oussama Ben Salem
+3180;4762;10/2025;Raba7ni;Ali Boukhris
+3180;4763;10/2025;Raba7ni;salim dagdoug
+3180;4764;10/2025;Raba7ni;taieb ben ali
+3181;4765;10/2025;Compta Smart Solution;Ahmed Zahaf
+3181;4766;10/2025;Compta Smart Solution;Mohamed Elyas Bazazi
+3181;4767;10/2025;Compta Smart Solution;Hedi Zahaf
+3182;4768;10/2025;innovia360;slim zghal
+3182;3657;10/2025;innovia360;Momtez Ayadi
+3183;4769;10/2025;SerBot;Chawki Gharsellaoui
+3183;4770;10/2025;SerBot;Mbarki Kabil
+3183;4771;10/2025;SerBot;Hmercha Amjed
+3183;4772;10/2025;SerBot;Wael Hichri
+3184;4773;10/2025;Cogitoly;Nada Mejri
+3184;4774;10/2025;Cogitoly;Issam Mellah
+3185;4775;10/2025;RMC;Rahma zbidi
+3185;4776;10/2025;RMC;anis hdhili
+3185;4777;10/2025;RMC;KHALIL BELLALI
+3186;4778;10/2025;ONE ERP;mohamed ali Derbel
+3186;4779;10/2025;ONE ERP;AFFES BILEL
+3186;4780;10/2025;ONE ERP;Mahdi Chiha
+3187;4781;10/2025;Price Forging;Mohamed Chtiba
+3187;4782;10/2025;Price Forging;Walid Makhlouf
+3188;4282;10/2025;PERF ANALYSIS CONSULTING;Mohamed Ayachi
+3189;3334;10/2025;wedo distribution services;Mohamed Riahi
+3190;4783;10/2025;Innoteam Solutions;Radhouen Boughanmi
+3190;4784;10/2025;Innoteam Solutions;Hijen EL KHALIFI
+3191;4785;10/2025;B-SMART GO;rayen trabelsi
+3191;4786;10/2025;B-SMART GO;Mohamed Trabelsi
+3191;4787;10/2025;B-SMART GO;Trabelsi Iyed
+3192;4788;10/2025;Bid Shine;Taha Triki
+3192;4789;10/2025;Bid Shine;Mejdi Dhokar
+3193;4790;10/2025;Etudianet/Studianat;Maria Amaidi
+3193;4791;10/2025;Etudianet/Studianat;Montassar Jandoubi
+3193;4792;10/2025;Etudianet/Studianat;Hadil Ltifi
+3194;4793;10/2025;tenjah;Ahmed Ben Aissa
+3195;4794;10/2025;Encore Bon;Firas Ellini
+3195;4795;10/2025;Encore Bon;Ezzeddine Jrad
+3196;4796;10/2025;XMap;Samir AKACHI
+3196;4797;10/2025;XMap;Manel Affi
+3196;4798;10/2025;XMap;khouloud affi
+3196;4799;10/2025;XMap;Chedy HORCHANI
+3197;4800;10/2025;LuxePass;mohamed ben mrad
+3198;4801;10/2025;SidiChat;Mhimdi Mouhib
+3198;4802;10/2025;SidiChat;amen allah fraj
+3199;4803;10/2025;Vybtor;Walid Mezghani
+3199;1002;10/2025;Vybtor;Amani Ghezal
+3199;4804;10/2025;Vybtor;Achraf Kchaou
+3200;4805;10/2025;Key Marketplace;Mohamed Wael Daly
+3200;4806;10/2025;Key Marketplace;Dorra Haddad
+3201;4807;10/2025;Next Afri Log;Hatem Chatti
+3201;4808;10/2025;Next Afri Log;Mohamed touijer
+3202;4809;10/2025;Tache-Lik;Mohamed Abidi
+3202;4810;10/2025;Tache-Lik;Oussama Aissaoui
+3202;4811;10/2025;Tache-Lik;Yassine Cherif
+3203;4812;10/2025;TUNIAI;Houssem aouedni
+3204;4813;10/2025;Bloom Venom;issam hmandi
+3204;4075;10/2025;Bloom Venom;Ghanem Toumi
+3204;4814;10/2025;Bloom Venom;Imen Rabeh
+3205;4815;10/2025;EduImpact.tn;Jilani Garraoui
+3206;4816;10/2025;ARTROK;Feres Messaoudi
 246;411;11/2019;NG Technologies;Moez Ben Mbarka
 247;412;11/2019;VAKAY;Adam Jabeur
 248;413;11/2019;EDUC'ART;Henda Sahnoun
@@ -6522,89 +6514,89 @@ startup_id;founder_id;session;societe;fondateur
 2785;4187;11/2024;Commerce & Shopping;Comptoir Général de la Mode
 2785;1531;11/2024;Commerce & Shopping;Janvier 2021
 2786;350;11/2024;Ad Tech & Creative Tech;Juillet 2019
-3212;4817;11/2025;SEEVEND INDUSTRIES;Saifallah Labidi
-3213;4818;11/2025;edulysa;Youssef Almia
-3213;4145;11/2025;edulysa;Slim Almia
-3214;4819;11/2025;Kridipay;Amani CHATTI
-3214;4820;11/2025;Kridipay;Mahmoud Chatti
-3214;4821;11/2025;Kridipay;Mohamed Neji KALBOUSSI
-3215;3805;11/2025;Ketrone;Sadry El Materi
-3216;4822;11/2025;SOCIETE BE WISE;Makrem Ellouze
-3217;4823;11/2025;Joya;Rayan Goucha
-3218;4824;11/2025;SYLA AI TUNISIA;Houssem NOURI
-3219;4825;11/2025;Predict'O Energy;Hamdi KHADHRAOUI
-3219;4826;11/2025;Predict'O Energy;Oumayma Allouch
-3219;4827;11/2025;Predict'O Energy;Olfa Jrad
-3219;4828;11/2025;Predict'O Energy;Akrem Khadhraoui
-3220;4829;11/2025;BioExpert;Mohamed Ouni
-3220;3188;11/2025;BioExpert;Skander Guarbaa
-3220;4830;11/2025;BioExpert;khalil ben abdallah
-3220;4831;11/2025;BioExpert;Manel CHAABANE
-3221;3389;11/2025;216Bot;Ahmed Mahouachi
-3221;4832;11/2025;216Bot;Mohamed Dhaou
-3221;4833;11/2025;216Bot;Mohamed Akremi
-3222;4834;11/2025;trendytek E-Learning;jlassi baha eddine
-3223;4835;11/2025;SBA CONSULT;Saber BEN AMMAR
-3223;4836;11/2025;SBA CONSULT;Ons Toujani
-3224;4837;11/2025;MelqartX Corp;Rami Slimene
-3224;4838;11/2025;MelqartX Corp;Imtinen AYARI
-3225;4839;11/2025;Jhezi.tn;Hassan DHIB
-3225;4840;11/2025;Jhezi.tn;Ameni Teka
-3226;1153;11/2025;Iridium X;Salaheddine Ogontayo
-3226;4841;11/2025;Iridium X;Abir Daoud
-3226;4842;11/2025;Iridium X;Bilel Zahi
-3226;4843;11/2025;Iridium X;Triki Omar
-3227;4844;11/2025;شاورني;Souhir Manai
-3228;4845;11/2025;kobox designs;slim kamoun
-3229;4846;11/2025;Smart Maker;Adel BRAHAM
-3229;4847;11/2025;Smart Maker;nouha braham
-3230;1938;11/2025;Agrogrowth;Sami Arfaoui
-3231;4848;11/2025;Letusdify;Mohamed Salah Tammar
-3231;4849;11/2025;Letusdify;Iheb Ghazala
-3232;4850;11/2025;ReMine Technologies;Borhane Ben Said
-3232;4851;11/2025;ReMine Technologies;Anis Djedidi
-3233;4852;11/2025;Lift&Eat;Hamdi Jouini
-3233;4853;11/2025;Lift&Eat;Khazri Mouna
-3234;4854;11/2025;Tender;mazen slama
-3234;4855;11/2025;Tender;Iheb Lafi
-3234;4856;11/2025;Tender;Islem Ferchichi
-3235;4857;11/2025;EmberForge Tech;ahmed amine kamoun
-3236;4858;11/2025;MedSearch IA;Zoubaier Bouajaja
-3237;4859;11/2025;AD Vertising;Nadine Askri
-3237;4860;11/2025;AD Vertising;Mongi Dali
-3237;4861;11/2025;AD Vertising;Wael Gamaoun
-3238;2773;11/2025;AXIOM décorticage IA;Foued Jaballah
-3238;4862;11/2025;AXIOM décorticage IA;Farid Drifa
-3239;4863;11/2025;Choufli;Moez BEN GHARBIA
-3239;4864;11/2025;Choufli;Ramzi Tounsi
-3239;4865;11/2025;Choufli;Kamel BEN GHARBIA
-3240;534;11/2025;Oria;Mohamed Ayadi
-3240;4866;11/2025;Oria;Mayssa Moussa
-3240;4867;11/2025;Oria;eya makhlouf
-3241;4868;11/2025;Clic SOS;Anis Essid
-3241;4869;11/2025;Clic SOS;Mezni Hiba
-3242;4870;11/2025;Triptopie;achref ayari
-3243;4871;11/2025;TooFresh;Motez Mhadhbi
-3243;4872;11/2025;TooFresh;Awatef Zid
-3243;4873;11/2025;TooFresh;Mhadhbi Shady
-3243;4874;11/2025;TooFresh;Ben Henda Dhia
-3243;4875;11/2025;TooFresh;Ben hadj hssin Mohamed anis
-3243;4876;11/2025;TooFresh;Lejmi Moussa
-3244;3431;11/2025;EcoRecy;Achraf Bleili
-3245;4877;11/2025;Kidin;Firas ABDELMAJID
-3246;4878;11/2025;CarbonTrack;Houssem Ben Malek
-3246;4879;11/2025;CarbonTrack;Marwa Metsahel
-3247;4313;11/2025;Bibinet;Amel Jebali
-3247;3490;11/2025;Bibinet;Arbi Ben bazza
-3247;1151;11/2025;Bibinet;Rim Harabi
-3247;4314;11/2025;Bibinet;Roua Boubakri
-3247;4880;11/2025;Bibinet;Manel Saadaoui
-3248;4881;11/2025;GuaranteePay – Lasweq;Oussema Ben Barka
-3249;4882;11/2025;MCS - Mediterranean Creative Studio;Yosri Ayed
-3249;4883;11/2025;MCS - Mediterranean Creative Studio;Anis Lahouar
-3249;4884;11/2025;MCS - Mediterranean Creative Studio;Mohamed Kamergi
-3250;4885;11/2025;Reality Tunisia Branch;BAKABAS ALI
-3250;4886;11/2025;Reality Tunisia Branch;Seifeddine Souissi
+3207;4817;11/2025;SEEVEND INDUSTRIES;Saifallah Labidi
+3208;4818;11/2025;edulysa;Youssef Almia
+3208;4145;11/2025;edulysa;Slim Almia
+3209;4819;11/2025;Kridipay;Amani CHATTI
+3209;4820;11/2025;Kridipay;Mahmoud Chatti
+3209;4821;11/2025;Kridipay;Mohamed Neji KALBOUSSI
+3210;3805;11/2025;Ketrone;Sadry El Materi
+3211;4822;11/2025;SOCIETE BE WISE;Makrem Ellouze
+3212;4823;11/2025;Joya;Rayan Goucha
+3213;4824;11/2025;SYLA AI TUNISIA;Houssem NOURI
+3214;4825;11/2025;Predict'O Energy;Hamdi KHADHRAOUI
+3214;4826;11/2025;Predict'O Energy;Oumayma Allouch
+3214;4827;11/2025;Predict'O Energy;Olfa Jrad
+3214;4828;11/2025;Predict'O Energy;Akrem Khadhraoui
+3215;4829;11/2025;BioExpert;Mohamed Ouni
+3215;3188;11/2025;BioExpert;Skander Guarbaa
+3215;4830;11/2025;BioExpert;khalil ben abdallah
+3215;4831;11/2025;BioExpert;Manel CHAABANE
+3216;3389;11/2025;216Bot;Ahmed Mahouachi
+3216;4832;11/2025;216Bot;Mohamed Dhaou
+3216;4833;11/2025;216Bot;Mohamed Akremi
+3217;4834;11/2025;trendytek E-Learning;jlassi baha eddine
+3218;4835;11/2025;SBA CONSULT;Saber BEN AMMAR
+3218;4836;11/2025;SBA CONSULT;Ons Toujani
+3219;4837;11/2025;MelqartX Corp;Rami Slimene
+3219;4838;11/2025;MelqartX Corp;Imtinen AYARI
+3220;4839;11/2025;Jhezi.tn;Hassan DHIB
+3220;4840;11/2025;Jhezi.tn;Ameni Teka
+3221;1153;11/2025;Iridium X;Salaheddine Ogontayo
+3221;4841;11/2025;Iridium X;Abir Daoud
+3221;4842;11/2025;Iridium X;Bilel Zahi
+3221;4843;11/2025;Iridium X;Triki Omar
+3222;4844;11/2025;شاورني;Souhir Manai
+3223;4845;11/2025;kobox designs;slim kamoun
+3224;4846;11/2025;Smart Maker;Adel BRAHAM
+3224;4847;11/2025;Smart Maker;nouha braham
+3225;1938;11/2025;Agrogrowth;Sami Arfaoui
+3226;4848;11/2025;Letusdify;Mohamed Salah Tammar
+3226;4849;11/2025;Letusdify;Iheb Ghazala
+3227;4850;11/2025;ReMine Technologies;Borhane Ben Said
+3227;4851;11/2025;ReMine Technologies;Anis Djedidi
+3228;4852;11/2025;Lift&Eat;Hamdi Jouini
+3228;4853;11/2025;Lift&Eat;Khazri Mouna
+3229;4854;11/2025;Tender;mazen slama
+3229;4855;11/2025;Tender;Iheb Lafi
+3229;4856;11/2025;Tender;Islem Ferchichi
+3230;4857;11/2025;EmberForge Tech;ahmed amine kamoun
+3231;4858;11/2025;MedSearch IA;Zoubaier Bouajaja
+3232;4859;11/2025;AD Vertising;Nadine Askri
+3232;4860;11/2025;AD Vertising;Mongi Dali
+3232;4861;11/2025;AD Vertising;Wael Gamaoun
+3233;2773;11/2025;AXIOM décorticage IA;Foued Jaballah
+3233;4862;11/2025;AXIOM décorticage IA;Farid Drifa
+3234;4863;11/2025;Choufli;Moez BEN GHARBIA
+3234;4864;11/2025;Choufli;Ramzi Tounsi
+3234;4865;11/2025;Choufli;Kamel BEN GHARBIA
+3235;534;11/2025;Oria;Mohamed Ayadi
+3235;4866;11/2025;Oria;Mayssa Moussa
+3235;4867;11/2025;Oria;eya makhlouf
+3236;4868;11/2025;Clic SOS;Anis Essid
+3236;4869;11/2025;Clic SOS;Mezni Hiba
+3237;4870;11/2025;Triptopie;achref ayari
+3238;4871;11/2025;TooFresh;Motez Mhadhbi
+3238;4872;11/2025;TooFresh;Awatef Zid
+3238;4873;11/2025;TooFresh;Mhadhbi Shady
+3238;4874;11/2025;TooFresh;Ben Henda Dhia
+3238;4875;11/2025;TooFresh;Ben hadj hssin Mohamed anis
+3238;4876;11/2025;TooFresh;Lejmi Moussa
+3239;3431;11/2025;EcoRecy;Achraf Bleili
+3240;4877;11/2025;Kidin;Firas ABDELMAJID
+3241;4878;11/2025;CarbonTrack;Houssem Ben Malek
+3241;4879;11/2025;CarbonTrack;Marwa Metsahel
+3242;4313;11/2025;Bibinet;Amel Jebali
+3242;3490;11/2025;Bibinet;Arbi Ben bazza
+3242;1151;11/2025;Bibinet;Rim Harabi
+3242;4314;11/2025;Bibinet;Roua Boubakri
+3242;4880;11/2025;Bibinet;Manel Saadaoui
+3243;4881;11/2025;GuaranteePay – Lasweq;Oussema Ben Barka
+3244;4882;11/2025;MCS - Mediterranean Creative Studio;Yosri Ayed
+3244;4883;11/2025;MCS - Mediterranean Creative Studio;Anis Lahouar
+3244;4884;11/2025;MCS - Mediterranean Creative Studio;Mohamed Kamergi
+3245;4885;11/2025;Reality Tunisia Branch;BAKABAS ALI
+3245;4886;11/2025;Reality Tunisia Branch;Seifeddine Souissi
 288;448;12/2019;CYNOIA;Skander Essid
 288;449;12/2019;CYNOIA;Ayoub Rebeh
 288;450;12/2019;CYNOIA;Nasreddine Riahi
@@ -7073,90 +7065,90 @@ startup_id;founder_id;session;societe;fondateur
 2831;4251;12/2024;Mohamed Hajjem;Septembre 2024
 2831;347;12/2024;Mohamed Hajjem;Session d'obtention
 2832;596;12/2024;La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-;Janvier 2020
-3251;4887;12/2025;EVIMO;Achraf GHARSALLI
-3251;4888;12/2025;EVIMO;Seif SASSI
-3252;1757;12/2025;Log'In;Ahmed Riza
-3253;3181;12/2025;Spark Auto;Hatem Ben Chaabane
-3254;4889;12/2025;Yalen Sentinel;Aymen Medimagh
-3254;4890;12/2025;Yalen Sentinel;Amal Araoud
-3254;4891;12/2025;Yalen Sentinel;Abir Ben Khalifa
-3255;1834;12/2025;DecliTech;Saifeddine Berhouma
-3255;4439;12/2025;DecliTech;Salma Berhouma
-3256;4892;12/2025;Future is Now;Tarek Khemiri
-3257;4893;12/2025;FielMedina;Mohamed Touati
-3258;4894;12/2025;DashMaster;ahmed walha
-3258;4895;12/2025;DashMaster;Achraf Karoui
-3259;4896;12/2025;AionTime;Nieze Ben Mansour
-3259;4897;12/2025;AionTime;Marwen Saad
-3259;4898;12/2025;AionTime;Malek Ben Haj Amor
-3260;4899;12/2025;Real Time Data Loger – RTDL;Mokhtar HARRABI
-3260;4900;12/2025;Real Time Data Loger – RTDL;Adam Ben Slama
-3260;4901;12/2025;Real Time Data Loger – RTDL;Mohamed Ameur BEN ABDESSALEM
-3261;4902;12/2025;Sawakni;Firas meddeb
-3261;4903;12/2025;Sawakni;Baffoun Aziz
-3262;4904;12/2025;Moodicament;Roua Bargaoui
-3262;4905;12/2025;Moodicament;Mohamed Haroun Ouanes
-3262;4906;12/2025;Moodicament;Ala Ben Aicha
-3263;4907;12/2025;FISSA3/URBAN CARTAGO SARL;Elyes Boukettaya
-3263;4908;12/2025;FISSA3/URBAN CARTAGO SARL;yacine boukattaya
-3264;4909;12/2025;Yaluna;Aziz Chaibi
-3265;4910;12/2025;WAW - When And Where;Ben Tanfous Ahmed
-3265;4911;12/2025;WAW - When And Where;Maya Ben Tanfous
-3265;4912;12/2025;WAW - When And Where;Kaïsha Guiga
-3266;4913;12/2025;VAERDIA SOLUTIONS;Aymen BOUNEB
-3267;4914;12/2025;MEDA;Houcemeddine kallel
-3267;4915;12/2025;MEDA;nizar besbes
-3267;4916;12/2025;MEDA;Wafa Neifar
-3268;2567;12/2025;Société Méditerranéenne de Distillerie Artisanale;Mortadha Ouadday
-3268;4917;12/2025;Société Méditerranéenne de Distillerie Artisanale;Amen Allah El Hechi
-3269;4918;12/2025;PREDSiGHTX;Alaeddine BOUHJAR
-3269;4919;12/2025;PREDSiGHTX;Montacer Benromdhane
-3270;4920;12/2025;Aidloy;Achref ESSEFI
-3270;4921;12/2025;Aidloy;Skander EL FEKIH
-3271;4922;12/2025;Lanci Deliveries;Hassen Younsi
-3271;4923;12/2025;Lanci Deliveries;Achraf Ben Soltane
-3271;4924;12/2025;Lanci Deliveries;Ghassen Ben Ghorbal
-3272;4925;12/2025;eduhelper;Moataz Hammami
-3273;2246;12/2025;myPharmacy;Aymen Sellaouti
-3273;4215;12/2025;myPharmacy;Kais Ben Youssef
-3273;4926;12/2025;myPharmacy;Issam Moalla
-3274;4927;12/2025;BRIDGSIGN;Salah Sammari
-3274;4928;12/2025;BRIDGSIGN;Rouine Firas
-3274;3614;12/2025;BRIDGSIGN;Mhamed Moncer
-3274;3612;12/2025;BRIDGSIGN;Montassar Moussa
-3275;4929;12/2025;Jizzar;Jassem Khemiri
-3275;4930;12/2025;Jizzar;Sadok Khemiri
-3276;4931;12/2025;Thanna Téléassistance;Tijani Aziz Feki
-3277;4932;12/2025;safka online;souda faycal
-3278;4933;12/2025;Grenova – Gamme Écoresponsable de Produits Primaires à Base de Grenade;Mahbouli Rhouma Najla
-3279;4126;12/2025;MAKASSUR;Mariem Kamoun
-3280;4934;12/2025;Dingo;Ali Ahmed khaled
-3280;4935;12/2025;Dingo;Rami LAJMI
-3280;4936;12/2025;Dingo;Dorra Fattoum
-3281;4937;12/2025;Laformatik.ai;amine touihri
-3281;4938;12/2025;Laformatik.ai;oueslati Aya
-3281;4939;12/2025;Laformatik.ai;Daas Samar
-3281;4940;12/2025;Laformatik.ai;adem seddik
-3282;4941;12/2025;Kopno Game;Seifeddine Bzainia
-3282;4942;12/2025;Kopno Game;Souaf Houssemdine
-3282;4943;12/2025;Kopno Game;Abdelaziz BEN MAHMOUD
-3283;4944;12/2025;SaveMe;Aya Ben hriz
-3284;4945;12/2025;Koolny;Chaima Rebai
-3284;4946;12/2025;Koolny;Mohamed Hachemi BEN HAJ ALI
-3284;4947;12/2025;Koolny;Salma BEN HADJ ALI
-3285;4948;12/2025;makadija;Marouene Belkhiria
-3285;4949;12/2025;makadija;Samia Khadija Belkhiria
-3286;4950;12/2025;Couche IA génératrice de workflow, Interfaces homme machine et reporting IA;Hayet Zguem
-3286;4951;12/2025;Couche IA génératrice de workflow, Interfaces homme machine et reporting IA;Yahia Ben Cheikh
-3287;4952;12/2025;Annuaire Service;Nebil Othman
-3288;4075;12/2025;Deepinfluence;Ghanem Toumi
-3288;4953;12/2025;Deepinfluence;tarek bani
-3288;4954;12/2025;Deepinfluence;Mohamed Baha Eddine Baghdadi
-3288;4073;12/2025;Deepinfluence;Montassar Touati
-3288;4955;12/2025;Deepinfluence;Nabil Boukhdhir
-3288;4956;12/2025;Deepinfluence;Marwa Moussi
-3289;4957;12/2025;Night Panel;iheb haouech
-3289;4958;12/2025;Night Panel;Marwen Zitouni
-3290;4959;12/2025;InsurLink;Ahmed LIMAM
-3290;4960;12/2025;InsurLink;Ilyes Limem
-3291;4961;12/2025;FTOUH pharmaceuticals;mahdi ftouh
+3246;4887;12/2025;EVIMO;Achraf GHARSALLI
+3246;4888;12/2025;EVIMO;Seif SASSI
+3247;1757;12/2025;Log'In;Ahmed Riza
+3248;3181;12/2025;Spark Auto;Hatem Ben Chaabane
+3249;4889;12/2025;Yalen Sentinel;Aymen Medimagh
+3249;4890;12/2025;Yalen Sentinel;Amal Araoud
+3249;4891;12/2025;Yalen Sentinel;Abir Ben Khalifa
+3250;1834;12/2025;DecliTech;Saifeddine Berhouma
+3250;4439;12/2025;DecliTech;Salma Berhouma
+3251;4892;12/2025;Future is Now;Tarek Khemiri
+3252;4893;12/2025;FielMedina;Mohamed Touati
+3253;4894;12/2025;DashMaster;ahmed walha
+3253;4895;12/2025;DashMaster;Achraf Karoui
+3254;4896;12/2025;AionTime;Nieze Ben Mansour
+3254;4897;12/2025;AionTime;Marwen Saad
+3254;4898;12/2025;AionTime;Malek Ben Haj Amor
+3255;4899;12/2025;Real Time Data Loger – RTDL;Mokhtar HARRABI
+3255;4900;12/2025;Real Time Data Loger – RTDL;Adam Ben Slama
+3255;4901;12/2025;Real Time Data Loger – RTDL;Mohamed Ameur BEN ABDESSALEM
+3256;4902;12/2025;Sawakni;Firas meddeb
+3256;4903;12/2025;Sawakni;Baffoun Aziz
+3257;4904;12/2025;Moodicament;Roua Bargaoui
+3257;4905;12/2025;Moodicament;Mohamed Haroun Ouanes
+3257;4906;12/2025;Moodicament;Ala Ben Aicha
+3258;4907;12/2025;FISSA3/URBAN CARTAGO SARL;Elyes Boukettaya
+3258;4908;12/2025;FISSA3/URBAN CARTAGO SARL;yacine boukattaya
+3259;4909;12/2025;Yaluna;Aziz Chaibi
+3260;4910;12/2025;WAW - When And Where;Ben Tanfous Ahmed
+3260;4911;12/2025;WAW - When And Where;Maya Ben Tanfous
+3260;4912;12/2025;WAW - When And Where;Kaïsha Guiga
+3261;4913;12/2025;VAERDIA SOLUTIONS;Aymen BOUNEB
+3262;4914;12/2025;MEDA;Houcemeddine kallel
+3262;4915;12/2025;MEDA;nizar besbes
+3262;4916;12/2025;MEDA;Wafa Neifar
+3263;2567;12/2025;Société Méditerranéenne de Distillerie Artisanale;Mortadha Ouadday
+3263;4917;12/2025;Société Méditerranéenne de Distillerie Artisanale;Amen Allah El Hechi
+3264;4918;12/2025;PREDSiGHTX;Alaeddine BOUHJAR
+3264;4919;12/2025;PREDSiGHTX;Montacer Benromdhane
+3265;4920;12/2025;Aidloy;Achref ESSEFI
+3265;4921;12/2025;Aidloy;Skander EL FEKIH
+3266;4922;12/2025;Lanci Deliveries;Hassen Younsi
+3266;4923;12/2025;Lanci Deliveries;Achraf Ben Soltane
+3266;4924;12/2025;Lanci Deliveries;Ghassen Ben Ghorbal
+3267;4925;12/2025;eduhelper;Moataz Hammami
+3268;2246;12/2025;myPharmacy;Aymen Sellaouti
+3268;4215;12/2025;myPharmacy;Kais Ben Youssef
+3268;4926;12/2025;myPharmacy;Issam Moalla
+3269;4927;12/2025;BRIDGSIGN;Salah Sammari
+3269;4928;12/2025;BRIDGSIGN;Rouine Firas
+3269;3614;12/2025;BRIDGSIGN;Mhamed Moncer
+3269;3612;12/2025;BRIDGSIGN;Montassar Moussa
+3270;4929;12/2025;Jizzar;Jassem Khemiri
+3270;4930;12/2025;Jizzar;Sadok Khemiri
+3271;4931;12/2025;Thanna Téléassistance;Tijani Aziz Feki
+3272;4932;12/2025;safka online;souda faycal
+3273;4933;12/2025;Grenova – Gamme Écoresponsable de Produits Primaires à Base de Grenade;Mahbouli Rhouma Najla
+3274;4126;12/2025;MAKASSUR;Mariem Kamoun
+3275;4934;12/2025;Dingo;Ali Ahmed khaled
+3275;4935;12/2025;Dingo;Rami LAJMI
+3275;4936;12/2025;Dingo;Dorra Fattoum
+3276;4937;12/2025;Laformatik.ai;amine touihri
+3276;4938;12/2025;Laformatik.ai;oueslati Aya
+3276;4939;12/2025;Laformatik.ai;Daas Samar
+3276;4940;12/2025;Laformatik.ai;adem seddik
+3277;4941;12/2025;Kopno Game;Seifeddine Bzainia
+3277;4942;12/2025;Kopno Game;Souaf Houssemdine
+3277;4943;12/2025;Kopno Game;Abdelaziz BEN MAHMOUD
+3278;4944;12/2025;SaveMe;Aya Ben hriz
+3279;4945;12/2025;Koolny;Chaima Rebai
+3279;4946;12/2025;Koolny;Mohamed Hachemi BEN HAJ ALI
+3279;4947;12/2025;Koolny;Salma BEN HADJ ALI
+3280;4948;12/2025;makadija;Marouene Belkhiria
+3280;4949;12/2025;makadija;Samia Khadija Belkhiria
+3281;4950;12/2025;Couche IA génératrice de workflow, Interfaces homme machine et reporting IA;Hayet Zguem
+3281;4951;12/2025;Couche IA génératrice de workflow, Interfaces homme machine et reporting IA;Yahia Ben Cheikh
+3282;4952;12/2025;Annuaire Service;Nebil Othman
+3283;4075;12/2025;Deepinfluence;Ghanem Toumi
+3283;4953;12/2025;Deepinfluence;tarek bani
+3283;4954;12/2025;Deepinfluence;Mohamed Baha Eddine Baghdadi
+3283;4073;12/2025;Deepinfluence;Montassar Touati
+3283;4955;12/2025;Deepinfluence;Nabil Boukhdhir
+3283;4956;12/2025;Deepinfluence;Marwa Moussi
+3284;4957;12/2025;Night Panel;iheb haouech
+3284;4958;12/2025;Night Panel;Marwen Zitouni
+3285;4959;12/2025;InsurLink;Ahmed LIMAM
+3285;4960;12/2025;InsurLink;Ilyes Limem
+3286;4961;12/2025;FTOUH pharmaceuticals;mahdi ftouh
