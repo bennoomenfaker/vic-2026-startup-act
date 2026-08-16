@@ -85,7 +85,7 @@ if parcours is not None:
 
 # --- corrections : structure ---
 if corrections is not None:
-    check(len(corrections.get('corrections', [])) == 20, "corrections: attendu 20 corrections")
+    check(len(corrections.get('corrections', [])) == 21, "corrections: attendu 21 corrections")
     check(corrections.get('meta', {}).get('totalsOld', {}).get('labels') == 1324, "corrections: totalsOld.labels != 1324")
     check(corrections.get('meta', {}).get('totalsNew', {}).get('labels') == 1311, "corrections: totalsNew.labels != 1311")
     check(corrections.get('meta', {}).get('totalsNew', {}).get('preLabels') == 623, "corrections: totalsNew.preLabels != 623")
@@ -101,4 +101,4 @@ if ERRORS:
     for e in ERRORS:
         print('  -', e)
     sys.exit(1)
-print('OK — toutes les données sont cohérentes (85 sessions, 1311 labels, 623 prélabels, 20 corrections).')
+print('OK — toutes les données sont cohérentes (85 sessions, 1311 labels, 623 prélabels, 21 corrections).')

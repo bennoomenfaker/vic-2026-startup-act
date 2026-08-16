@@ -1395,7 +1395,7 @@
 
     <div id="corr-detail" style="display:none">
       <div class="chart-card">
-        <h3>Les 20 corrections — détail et raison</h3>
+        <h3 id="corrDetailTitle">Les 20 corrections — détail et raison</h3>
         <div style="overflow-x:auto"><table><thead><tr><th>Session</th><th>Cand.</th><th>Labels (faux → vrai)</th><th>Pré-Labels (faux → vrai)</th><th>Taux réel → arrondi</th><th>Raison (PDF v7)</th></tr></thead><tbody id="corrDetailTable"></tbody></table></div>
       </div>
     </div>
@@ -3901,6 +3901,10 @@ function renderCorrections() {
 
   document.getElementById('corrOldTable').innerHTML = oldRows;
   document.getElementById('corrNewTable').innerHTML = newRows;
+
+  const dt = document.getElementById('corrDetailTitle');
+  if (dt) dt.innerHTML = `Les ${data.corrections.length} corrections — détail et raison` +
+    ` <span style="color:#666;font-size:0.75em;font-weight:normal">(${data.corrections.length - 20} écart documenté : 04/2019, labels déjà corrects, 52 lignes CR vs 51)</span>`;
 
   const detailRows = data.corrections.map(c => `
     <tr class="corr-row">

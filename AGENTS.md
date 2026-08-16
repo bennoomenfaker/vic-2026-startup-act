@@ -10,6 +10,15 @@
 - Les 7 KPI calculables (KPI-26, 27, 28, 31, 32, 33, 39) sont implémentés dans `streamlit-app/public/index.html` ; les autres (29, 30, 34, 35, 36, 37, 38, 40) nécessitent extraction/collecte — ne pas les prétendre calculables.
 - Chiffre « 1 824 » = anciennes entrées extraites des PDFs (fichier périmé), **pas** le nombre de candidatures.
 
+## Écart documenté — Session 04/2019 (« 1 ajourné »)
+
+- `sessions.json` (source officielle) annonce **51 candidatures** avec le commentaire « 1 ajourné à la session suivante ».
+- Le Compte-Rendu officiel (vérité de terrain, `public/data/manual_sessions/2019_04.json`) liste **52 décisions** : 33 labels accordés (chiffre officiel **exact**), 14 refus, 5 dossiers irrecevables.
+- Vérification PDF brut : les 52 lignes existent bien dans le PDF de la session (aucune erreur de saisie manuelle) ; il n'y a **aucune** mention « ajourné » dans le texte PDF avril.
+- Hypothèse retenue : 1 des 52 lignes du CR correspond au dossier ajourné (examiné en mai 2019, d'où « 29 candidats + 1 candidat de la session d'avril » = 30 candidatures en 05/2019). La ligne ajournée **n'est pas identifiable par recoupement de noms** : le seul nom commun trouvé (Sawssen Bellaj) est un **faux positif** (Issam Bellaj ≠ Sawssen Bellaj, personnes différentes).
+- Décision : on **garde les 52 lignes** du CR (vérité de terrain) ; l'écart « 52 CR vs 51 officiel » est documenté dans `corrections.json` (entrée 04/2019, labels inchangés) et dans le `meta.ecart_a_documenter` de `2019_04.json`. **Attention** : ne pas recalculer le taux officiel 04/2019 (33/51 = 64,7 %) sur la base de 52 candidatures sans avoir identifié la ligne ajournée.
+- Validation croisée (16/08/2026) : 6/7 sessions relues manuellement sont exactement cohérentes avec `sessions.json` et le tableau corrigé ; le seul écart est cette candidature 04/2019. Les 33 labels 04/2019 sont confirmés.
+
 ## Page « StartupBlink » (source externe — veille AE1)
 
 - Page `startupblink` dans `streamlit-app/public/index.html` = **veille comparative internationale** (données EXTERNES), jamais à confondre avec les données officielles corrigées ci-dessus.
