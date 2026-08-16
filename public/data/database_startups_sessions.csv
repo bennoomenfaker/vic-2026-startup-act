@@ -2496,52 +2496,31 @@ session;societe;secteur;decision;source;flags
 09/2024;Aventoura;Services;label_accorde;pdf-session;"fondateurs_ambigus;societe_reconstruite"
 09/2024;Label accordé;;retrait;pdf-session;
 09/2024;NEWGEN;;retrait;pdf-session;"societe_parasite;resultat_manquant;fondateurs_ambigus;societe_reconstruite"
-09/2025;PSYNARIOS;EdTech;label_accorde;pdf-session;"societe_parasite;fondateurs_ambigus;societe_reconstruite"
-09/2025;Ligalo;Services;inconnu;pdf-session;decision_inconnue
-09/2025;Flashbac;EdTech;prelabel_accorde;pdf-session;"societe_parasite;fondateurs_absents;fondateurs_ambigus;societe_reconstruite"
-09/2025;The pointing graphical tablet;Advanced Manufacturing &;prelabel_accorde;pdf-session;fondateurs_ambigus
-09/2025;Trip Hive;TravelTech;prelabel_accorde;pdf-session;
-09/2025;ProgressBox;;inconnu;pdf-session;"societe_parasite;decision_inconnue;fondateurs_ambigus;societe_reconstruite"
-09/2025;Agritech;Agritech;prelabel_accorde;pdf-session;societe_non_identifiee
-09/2025;El Qemma;;inconnu;pdf-session;"fondateurs_absents;decision_inconnue"
-09/2025;Business Software and;Services;inconnu;pdf-session;"fondateurs_absents;decision_inconnue;societe_non_identifiee"
-09/2025;Gotei;;prelabel_accorde;pdf-session;"societe_parasite;fondateurs_absents;fondateurs_ambigus;societe_reconstruite"
-09/2025;Ad Tech and Creative Tech;Ad Tech And Creative Tech;prelabel_accorde;pdf-session;societe_non_identifiee
-09/2025;SABRINE MARZOUGUI;EdTech;prelabel_accorde;pdf-session;
-09/2025;DIA industries;Advanced Manufacturing &;prelabel_accorde;pdf-session;fondateurs_ambigus
-09/2025;VIBE FLOW AI;;inconnu;pdf-session;decision_inconnue
-09/2025;Prélabel;;prelabel_accorde;pdf-session;"societe_parasite;fondateurs_absents;societe_non_identifiee"
-09/2025;BxB Studio;Ad Tech and Creative Tech;label_refuse;pdf-session;
-09/2025;Boon;Real Estate Tech;label_refuse;pdf-session;
-09/2025;Millisave;Services;inconnu;pdf-session;"decision_inconnue;fondateurs_ambigus"
-09/2025;Label Non Accordé au 3 ème Tour;;label_refuse;pdf-session;fondateurs_absents
-09/2025;Commerce and shopping;Commerce And Shopping;prelabel_refuse;pdf-session;societe_non_identifiee
-09/2025;OptiPlanex;Services;inconnu;pdf-session;decision_inconnue
-09/2025;URBANAV;Mobility;prelabel_refuse;pdf-session;"societe_parasite;fondateurs_absents;fondateurs_ambigus;societe_reconstruite"
-09/2025;Darraja;;inconnu;pdf-session;"fondateurs_absents;decision_inconnue"
-09/2025;Mobility;Mobility;prelabel_refuse;pdf-session;societe_non_identifiee
-09/2025;Mohamed Bayar;Services;inconnu;pdf-session;"decision_inconnue;fondateurs_ambigus"
-09/2025;TeraaVerra;Agritech;prelabel_refuse;pdf-session;"societe_parasite;fondateurs_absents;fondateurs_ambigus;societe_reconstruite"
-09/2025;MedicusAI;HealthTech;prelabel_refuse;pdf-session;
-09/2025;Eco block;;inconnu;pdf-session;decision_inconnue
-09/2025;Prélabel;;prelabel_refuse;pdf-session;"societe_parasite;fondateurs_absents;societe_non_identifiee"
-09/2025;Quinexa;Commerce and shopping;prelabel_refuse;pdf-session;
-09/2025;Tajjer;Services;inconnu;pdf-session;decision_inconnue
-09/2025;Cloud Commit Software;;prelabel_refuse;pdf-session;"fondateurs_ambigus;societe_reconstruite"
-09/2025;Passage de Prélabels aux Labels;;inconnu;pdf-session;"decision_inconnue;fondateurs_ambigus"
-09/2025;TENDER FLOW;Services;inconnu;pdf-session;"societe_parasite;decision_inconnue;fondateurs_ambigus;societe_reconstruite"
-09/2025;Palm.ai;Services;label_accorde;pdf-session;"fondateurs_ambigus;societe_reconstruite"
-09/2025;WattyGo : Founisseur 100%;;label_accorde;pdf-session;"fondateurs_ambigus;societe_reconstruite"
-09/2025;WattyGo technologies;Services;label_accorde;pdf-session;fondateurs_ambigus
-09/2025;Label accordé;;retrait;pdf-session;
-09/2025;Digital World;EdTech;retrait;pdf-session;"societe_parasite;fondateurs_ambigus;societe_reconstruite"
-09/2025;La société a dépassé l'âge maximum de 8 ans fixé par;;label_refuse;pdf-session;fondateurs_absents
-09/2025;Limited;Business Software and services;retrait;pdf-session;
-09/2025;La société a dépassé l'âge maximum de 8 ans fixé par;;label_refuse;pdf-session;fondateurs_absents
-09/2025;Agritech;Agritech;retrait;pdf-session;"fondateurs_absents;societe_non_identifiee"
-09/2025;La société a dépassé l'âge maximum de 8 ans fixé par;;label_refuse;pdf-session;fondateurs_absents
-09/2025;Business Software and services;Business Software And Services;retrait;pdf-session;"fondateurs_absents;societe_non_identifiee"
-09/2025;La société a dépassé l'âge maximum de 8 ans fixé par;;label_refuse;pdf-session;"fondateurs_absents;resultat_manquant"
+09/2025;PSYNARIOS;EdTech;label_accorde;compte-rendu-manuel;
+09/2025;Ligalo;Business Software and services;prelabel_accorde;compte-rendu-manuel;
+09/2025;Flashbac;EdTech;prelabel_accorde;compte-rendu-manuel;
+09/2025;The pointing graphical tablet;Advanced Manufacturing & Robotics;prelabel_accorde;compte-rendu-manuel;
+09/2025;Trip Hive;TravelTech;prelabel_accorde;compte-rendu-manuel;
+09/2025;ProgressBox;Agritech;prelabel_accorde;compte-rendu-manuel;
+09/2025;El Qemma;Business Software and services;prelabel_accorde;compte-rendu-manuel;
+09/2025;Gotei;Ad Tech and Creative Tech;prelabel_accorde;compte-rendu-manuel;
+09/2025;LYAMAMATAYN الیمامتین;EdTech;prelabel_accorde;compte-rendu-manuel;
+09/2025;DIA industries;Advanced Manufacturing & Robotics;prelabel_accorde;compte-rendu-manuel;
+09/2025;VIBE FLOW AI;Ad Tech and Creative Tech;prelabel_accorde;compte-rendu-manuel;
+09/2025;BxB Studio;Ad Tech and Creative Tech;label_refuse;compte-rendu-manuel;
+09/2025;Boon;Real Estate Tech;label_refuse;compte-rendu-manuel;
+09/2025;Millisave;Business Software and services;label_refuse;compte-rendu-manuel;
+09/2025;تونس عقارات: Akarat.tn;Commerce and shopping;prelabel_refuse;compte-rendu-manuel;
+09/2025;OptiPlanex;Business Software and services;prelabel_refuse;compte-rendu-manuel;
+09/2025;URBANAV;Mobility;prelabel_refuse;compte-rendu-manuel;
+09/2025;Darraja;Mobility;prelabel_refuse;compte-rendu-manuel;
+09/2025;عمل 3MAL;Consumer products and services;prelabel_refuse;compte-rendu-manuel;
+09/2025;TeraaVerra;Agritech;prelabel_refuse;compte-rendu-manuel;
+09/2025;MedicusAI;HealthTech;prelabel_refuse;compte-rendu-manuel;
+09/2025;Eco block;Environment;prelabel_refuse;compte-rendu-manuel;
+09/2025;Quinexa;Commerce and shopping;prelabel_refuse;compte-rendu-manuel;
+09/2025;Tajjer;Business Software and services;prelabel_refuse;compte-rendu-manuel;
+09/2025;Cloud Commit Software Solutions;Security;irrecevable;compte-rendu-manuel;
 10/2019;Fivepoints;EdTech;inconnu;pdf-session;"societe_parasite;resultat_manquant;decision_inconnue;fondateurs_ambigus;societe_reconstruite"
 10/2019;Datavision;;label_accorde;pdf-session;"societe_parasite;fondateurs_absents;fondateurs_ambigus;societe_reconstruite"
 10/2019;RESRV;;label_accorde;pdf-session;"societe_parasite;fondateurs_absents;resultat_manquant;fondateurs_ambigus;societe_reconstruite"
