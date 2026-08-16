@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+
+Sitemap: https://vic-esen-iscae-2026-startup-act.onrender.com/sitemap.xml
