@@ -264,6 +264,9 @@
    },
    "raison": "2 nouveaux labels + 4 conversions − 3 retraits = 6 (scrapé : 7)",
    "commentaires_pdf": "3 Labels et 4 Prélabel à Label"
-  }
+  },
+  "retraits": 3,
+  "conversions": 4,
+  "newLabels": 2
  }
 }

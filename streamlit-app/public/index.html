@@ -138,6 +138,7 @@
     .kpi-card.green .value { color: #16a34a; }
     .kpi-card.orange .value { color: #ea580c; }
     .kpi-card.purple .value { color: #7c3aed; }
+    .kpi-card.yellow .value { color: #d97706; }
     .chart-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 16px; margin-bottom: 24px; }
     .chart-card { background: white; border-radius: 12px; padding: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
     .chart-card h3 { font-size: 1em; margin-bottom: 16px; color: #333; }
@@ -160,6 +161,22 @@
     }
     .search-bar input:focus { outline: none; border-color: #e94560; box-shadow: 0 0 0 3px rgba(233,69,96,0.1); }
     .search-bar .btn { white-space: nowrap; }
+    .data-table { width: 100%; border-collapse: collapse; background: #fff; font-size: 0.85em; }
+    .data-table th, .data-table td { padding: 8px 10px; border-bottom: 1px solid #ececf1; text-align: left; vertical-align: top; }
+    .data-table th { position: sticky; top: 0; background: #1a1a2e; color: #fff; font-weight: 600; z-index: 1; }
+    .data-table tr:hover td { background: #f7f7fa; }
+    .data-table .founders-cell { max-width: 320px; }
+    .founder-qa-item { border: 1px solid #eee; border-radius: 10px; padding: 12px 14px; margin-bottom: 10px; background: #fff; }
+    .founder-qa-item .raw { font-family: monospace; font-size: 0.78em; background: #f5f5f8; border-radius: 6px; padding: 6px 8px; margin-top: 6px; overflow-x: auto; white-space: pre-wrap; color: #555; }
+    .founder-qa-session { margin-bottom: 14px; }
+    .founder-qa-session summary { cursor: pointer; font-weight: 600; padding: 8px 12px; background: #f3f3f7; border-radius: 8px; }
+    .chip { display: inline-block; padding: 1px 8px; border-radius: 10px; font-size: 0.72em; font-weight: 600; margin-right: 4px; }
+    .chip-decision-label_accorde { background: #dcfce7; color: #15803d; }
+    .chip-decision-prelabel_accorde { background: #dbeafe; color: #1d4ed8; }
+    .chip-decision-label_refuse, .chip-decision-prelabel_refuse { background: #fee2e2; color: #b91c1c; }
+    .chip-decision-retrait { background: #fef3c7; color: #b45309; }
+    .chip-decision-inconnu { background: #f3f3f7; color: #6b7280; }
+    .chip-flag { background: #fef3c7; color: #b45309; border: 1px solid #fde68a; }
     .tabs { display: flex; gap: 4px; margin-bottom: 16px; flex-wrap: wrap; }
     .tab {
       padding: 8px 18px; border-radius: 8px; font-size: 0.85em; cursor: pointer;
@@ -203,6 +220,17 @@
     .pdf-card .body .stats .cand { color: #0f3460; }
     .pdf-card .body .stats .label { color: #16a34a; }
     .pdf-card .body .stats .pre { color: #ea580c; }
+    .pdf-card .body .stats .retrait { color: #dc2626; }
+    .pdf-card .body .stats .cv { color: #2563eb; }
+    .pdf-card .body .stats .taux { color: #7c3aed; }
+    .json-year-block { margin-bottom: 26px; }
+    .json-year-head { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; font-weight: 700; color: #1a1a2e; font-size: 0.95em; margin-bottom: 10px; padding-bottom: 8px; border-bottom: 2px solid #0f3460; }
+    .json-year-head .year-totals { font-weight: 600; font-size: 0.8em; color: #555; }
+    .btn.active { background: #0f3460; border-color: #0f3460; color: #fff; }
+    .prelabel-bar { flex: 1; min-width: 240px; display: flex; height: 30px; border-radius: 8px; overflow: hidden; font-size: .72rem; font-weight: 700; box-shadow: inset 0 0 0 1px rgba(0,0,0,.06); }
+    .prelabel-bar .seg { display: flex; align-items: center; justify-content: center; color: #fff; white-space: nowrap; overflow: hidden; }
+    .prelabel-bar .conv { background: #16a34a; }
+    .prelabel-bar .rest { background: #d97706; }
     .json-summary { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 12px 14px; margin-bottom: 10px; font-size: 0.85em; line-height: 1.6; }
     .json-summary .chip { display: inline-block; padding: 2px 10px; border-radius: 999px; font-size: 0.75em; font-weight: 600; margin-right: 6px; }
     .json-summary .chip.ok { background: #dcfce7; color: #166534; }
@@ -440,6 +468,7 @@
     .kpi-card.green { --kpi-accent: var(--success); --kpi-tint: rgba(22,163,74,.12); }
     .kpi-card.orange { --kpi-accent: var(--warning); --kpi-tint: rgba(234,88,12,.12); }
     .kpi-card.purple { --kpi-accent: var(--purple); --kpi-tint: rgba(124,58,237,.12); }
+    .kpi-card.yellow { --kpi-accent: #d97706; --kpi-tint: rgba(217,119,6,.12); }
     .kpi-card .label { color: var(--text-tertiary); font-weight: 600; font-size: .7rem; letter-spacing: .07em; }
     .kpi-card .value { font-size: clamp(1.55rem, 2.3vw, 2.05rem); font-weight: 700; letter-spacing: -.03em; line-height: 1.1; }
     .kpi-card .sub { color: var(--text-secondary); font-size: .8rem; }
@@ -904,6 +933,7 @@
         <div class="dropdown-menu">
           <a href="#" data-page="pdfs">PDFs Sessions</a>
           <a href="#" data-page="session-json">JSON Sessions</a>
+          <a href="#" data-page="founder-db">🗄️ Base Fondateurs</a>
           <a href="#" data-page="annual-pdfs">PDFs Annuels</a>
           <a href="#" data-page="corrections">Corrections</a>
           <a href="#" data-page="fiche">Fiche de Cadrage</a>
@@ -1141,9 +1171,18 @@
       <p>Les 85 fichiers JSON — un par session · valeurs corrigées (source de vérité : <code>sessions.json</code>)</p>
     </div>
     <div class="summary-box" style="margin-bottom:20px">
-      <strong>📦 Contenu :</strong> chaque fichier JSON = <code>entrees[]</code> extraites du PDF officiel + bloc
-      <code>session_data</code> avec les <strong>valeurs corrigées</strong> (candidatures, labels, pré-labels, taux).
-      Pour les 20 sessions auditées, un bloc <code>correction</code> indique anciennes (fausses) → nouvelles (corrigées).
+      <strong>📦 85 JSON = le détail · <code>sessions.json</code> = le tableau.</strong>
+      <ul style="margin:8px 0 0 18px;line-height:1.7">
+        <li><strong>Tableau des sessions</strong> (<code>sessions.json</code> → page <em>Corrections</em>) : <strong>85 lignes agrégées</strong>, une ligne par session avec les totaux corrigés (candidatures, labels, pré-labels, retraits, conversions). Aucun détail par startup.</li>
+        <li><strong>Les 85 JSON</strong> (un par session, ici) : la <strong>matière première</strong> — chaque fichier = <code>entrees[]</code> (lignes startups extraites du PDF officiel) + bloc <code>session_data</code> (la ligne du tableau pour cette session, valeurs <strong>corrigées</strong>).</li>
+        <li><strong>Lien :</strong> les totaux du tableau = comptes corrigés des PDF, <strong>pas</strong> le nombre de lignes <code>entrees</code> (le parse PDF brut est partiel/bruyant).</li>
+      </ul>
+    </div>
+    <div class="summary-box" style="margin-bottom:20px">
+      <strong>🗄️ Base de données :</strong> fichiers consolidés téléchargeables :
+      <a href="/data/sessions_table.json" download>sessions_table.json</a> (tableau global 85 lignes) ·
+      <a href="/data/database_sessions.csv" download>database_sessions.csv</a> (85 sessions, valeurs corrigées) ·
+      <a href="/data/database_entrees_brutes.csv" download>database_entrees_brutes.csv</a> (3 951 lignes startups, extraction PDF <em>brute</em>).
     </div>
     <div class="search-bar">
       <input type="text" id="sessionJsonSearch" placeholder="Rechercher une session..." oninput="filterSessionJson(this.value)">
@@ -1151,14 +1190,67 @@
     <div id="sessionJsonViewer" style="display:none;margin-bottom:20px">
       <div style="display:flex;gap:8px;margin-bottom:8px;flex-wrap:wrap;align-items:center">
         <button onclick="closeSessionJson()" class="btn btn-red">✕ Fermer</button>
+        <button id="jsonTabTableBtn" onclick="switchSessionJsonTab('table')" class="btn btn-outline">📊 Tableau</button>
+        <button id="jsonTabRawBtn" onclick="switchSessionJsonTab('raw')" class="btn btn-outline">🧾 JSON brut</button>
         <button onclick="copySessionJson()" class="btn btn-outline">📋 Copier</button>
         <a id="sessionJsonDownload" href="#" download class="btn btn-outline">⬇ Télécharger</a>
         <span id="sessionJsonBadge" style="font-size:0.85em"></span>
       </div>
       <div id="sessionJsonSummary" class="json-summary"></div>
+      <div id="sessionJsonTable"></div>
       <pre id="sessionJsonPre"></pre>
     </div>
     <div class="pdf-grid" id="sessionJsonGrid"></div>
+  </section>
+
+  <!-- BASE FONDATEURS -->
+  <section id="page-founder-db">
+    <div class="page-header">
+      <h1>Base Startups & Fondateurs</h1>
+      <p>Reconstruite depuis les 85 PDFs de sessions · extraction brute <em>indicative</em> (les chiffres officiels restent <code>sessions.json</code>)</p>
+    </div>
+    <div class="summary-box" style="margin-bottom:20px">
+      <strong>🗄️ Base de données normalisée</strong>
+      <ul style="margin:8px 0 0 18px;line-height:1.7">
+        <li><strong>Source :</strong> les 85 fichiers JSON de sessions (parse des PDF officiels) → <code>scripts/build_founder_db.py</code> génère la base <strong>SQLite</strong> (4 tables normalisées : sessions, startups, founders, startup_founders) + CSV + rapport QA.</li>
+        <li><strong>⚠ Fiabilité :</strong> noms de startups et fondateurs = meilleur effort (colonnes PDF souvent décalées). Les champs incertains sont <strong>flaggués</strong> et listés dans le panneau QA ci-dessous → à vérifier manuellement.</li>
+        <li><strong>🔢 Décisions & secteurs = indicatifs</strong> (le parse PDF est partiel). Les totaux officiels corrigés (1 311 labels · 623 pré-labels · 140 retraits) restent la référence.</li>
+      </ul>
+      <p style="margin:10px 0 0">
+        Téléchargements :
+        <a href="/data/founders_database.sqlite" download>founders_database.sqlite</a> ·
+        <a href="/data/database_startups_sessions.csv" download>startups.csv</a> ·
+        <a href="/data/database_founders.csv" download>fondateurs.csv</a> ·
+        <a href="/data/database_startup_founders.csv" download>liens_startup_fondateur.csv</a> ·
+        <a href="/data/founder_db_qa_report.json" download>rapport_QA.json</a>
+      </p>
+    </div>
+    <div id="founderDbStats" class="kpi-grid" style="margin-bottom:20px"></div>
+    <div class="search-bar">
+      <input type="text" id="founderDbSearch" placeholder="Rechercher startup, fondateur, session, secteur..." oninput="renderFounderDbTable()">
+    </div>
+    <div style="display:flex;gap:8px;margin:10px 0;flex-wrap:wrap;align-items:center">
+      <label style="font-size:.9em">Décision :</label>
+      <select id="founderDbDecision" onchange="renderFounderDbTable()" style="padding:6px 10px;border-radius:8px;border:1px solid var(--border,#ddd)">
+        <option value="">Toutes</option>
+        <option value="label_accorde">Label accordé</option>
+        <option value="prelabel_accorde">Pré-label accordé</option>
+        <option value="label_refuse">Label refusé</option>
+        <option value="prelabel_refuse">Pré-label refusé</option>
+        <option value="retrait">Retrait</option>
+        <option value="inconnu">Inconnu (à vérifier)</option>
+      </select>
+      <span id="founderDbCount" style="font-size:.85em;opacity:.7"></span>
+    </div>
+    <div class="table-wrap" style="overflow:auto;max-height:60vh">
+      <table class="data-table" id="founderDbTable">
+        <thead><tr><th>Session</th><th>Startup</th><th>Secteur</th><th>Décision</th><th>Fondateurs</th><th>⚠</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <h2 style="margin-top:30px">Panneau QA — champs à vérifier manuellement</h2>
+    <p style="opacity:.8;font-size:.9em">Lignes dont un ou plusieurs champs restent incertains, groupées par session. Utilisez le champ ci-dessus pour filtrer : <code>⚠ "à vérifier"</code> liste toutes les lignes flaguées.</p>
+    <div id="founderDbQa"></div>
   </section>
 
   <!-- PDFS ANNUELS -->
@@ -1178,6 +1270,25 @@
     <div class="page-header">
       <h1>Parcours Prélabel → Label</h1>
       <p>Conversions, prélabels accordés, retraits · extraction PDF v7 (3 sessions complétées manuellement)</p>
+    </div>
+    <div class="summary-box" style="margin-bottom:20px">
+      <div style="display:flex;gap:22px;flex-wrap:wrap;align-items:center">
+        <div>
+          <div style="font-size:1.05em;font-weight:800;color:#1a1a2e">🧮 623 pré-labels accordés</div>
+          <div style="font-size:.92em;margin-top:4px;color:#334">
+            = <strong style="color:#16a34a">502 convertis en label</strong> + <strong style="color:#d97706">121 restés pré-labels</strong>
+          </div>
+        </div>
+        <div class="prelabel-bar">
+          <div class="seg conv" style="width:80.6%">502 convertis (80,6 %)</div>
+          <div class="seg rest" style="width:19.4%">121 restés (19,4 %)</div>
+        </div>
+      </div>
+      <div style="margin-top:14px;padding-top:10px;border-top:1px dashed #cbd5e1">
+        <strong>Qu'est-ce que le 121 ?</strong> Des <strong>pré-labels accordés mais jamais convertis en label</strong> : la startup a reçu un pré-label un jour (session N), mais n'a ensuite jamais obtenu le label. Elle est restée au statut « pré-label » — ce n'est ni un label, ni un refus après label.
+        <br><strong>Différence avec les 140 retraits :</strong> le <strong>121</strong> concerne des <strong>pré-labels jamais devenus labels</strong> ; les <strong>140 retraits</strong> concernent des <strong>labels accordés puis révoqués</strong> (startup labellisée, puis son label a été retiré). Deux populations différentes → on ne les additionne pas et on ne les compare pas directement.
+      </div>
+    </div>
     </div>
     <div class="kpi-grid" id="parcKpis"></div>
     <div class="chart-grid">
@@ -1224,7 +1335,7 @@
         </div>
         <div class="chart-card">
           <h3>✅ Tableau corrigé — PDF officiels <span style="color:#1b5e20;font-size:0.8em">(valeurs corrigées en vert)</span></h3>
-          <div style="overflow-x:auto"><table><thead><tr><th>Session</th><th>Cand.</th><th>Labels</th><th>Pré-Labels</th><th>Taux (réel → arrondi)</th><th>Taux échec</th><th>Commentaires</th></tr></thead><tbody id="corrNewTable"></tbody></table></div>
+          <div style="overflow-x:auto"><table><thead><tr><th>Session</th><th>Cand.</th><th>Labels</th><th>Pré-Labels</th><th>Retraits</th><th>Taux (réel → arrondi)</th><th>Taux échec</th><th>Commentaires</th></tr></thead><tbody id="corrNewTable"></tbody></table></div>
         </div>
       </div>
     </div>
@@ -2071,6 +2182,7 @@ const PAGE_META = {
   reports: 'Rapports officiels',
   pdfs: '85 rapports de labellisation',
   'session-json': '85 fichiers JSON · valeurs corrigées',
+  'founder-db': 'Base startups & fondateurs · extraction indicative',
   'annual-pdfs': 'Rapports annuels complets',
   parcours: 'Parcours Prélabel → Label',
   corrections: 'Audit & corrections des données',
@@ -2115,6 +2227,7 @@ function switchPage(page) {
   if (page === 'impact') setTimeout(renderImpactCharts, 200);
   if (page === 'kpis') renderKpiCatalogue();
   if (page === 'session-json') setTimeout(renderSessionJson, 200);
+  if (page === 'founder-db') setTimeout(renderFounderDb, 200);
   document.getElementById('navLinks')?.classList.remove('open');
   document.getElementById('navToggle')?.classList.remove('active');
   document.getElementById('page-' + page)?.scrollIntoView({behavior:'smooth'});
@@ -3244,48 +3357,50 @@ async function renderSessionJson() {
   if (!grid) return;
   if (sessionJsonCache) {
     document.getElementById('sessionJsonSearch').value = '';
-    renderSessionJsonCards(sessionJsonCache);
+    renderSessionJsonCards(Object.keys(sessionJsonCache), sessionJsonCache);
     return;
   }
   const files = await fetch('/api/session-json').then(r => r.json());
-  const m = f => { const r = f.match(/session_(\d{4})_(\d{2})\.json/); return r ? `Session ${r[2]}/${r[1]}` : f; };
-  grid.innerHTML = files.map(f => `
-    <div class="pdf-card" onclick="openSessionJson('${f}')" data-file="${f}">
-      <div class="thumb" style="background:linear-gradient(135deg,#0f172a 0%,#1e3a8a 100%)"><span class="badge">JSON</span></div>
-      <div class="body">
-        <div class="name">${m(f)}</div>
-        <div class="stats"><span style="opacity:.55">Chargement…</span></div>
-        <div class="meta">${f}</div>
-      </div>
-    </div>`).join('');
 
   const dataMap = {};
   await Promise.all(files.map(async f => {
     try { dataMap[f] = await fetch('/api/session-json/' + f).then(r => r.json()); }
     catch (e) { dataMap[f] = null; }
   }));
-  sessionJsonCache = files;
+  sessionJsonCache = dataMap;
   renderSessionJsonCards(files, dataMap);
 }
 
 function renderSessionJsonCards(files, dataMap) {
   const grid = document.getElementById('sessionJsonGrid');
   const m = f => { const r = f.match(/session_(\d{4})_(\d{2})\.json/); return r ? `Session ${r[2]}/${r[1]}` : f; };
-  grid.innerHTML = files.map(f => {
-    const d = (dataMap || {})[f];
-    const sd = d && d.session_data;
-    const stats = sd
-      ? `<span class="cand">📋 ${sd.candidatures}</span><span class="label">✅ ${sd.labels}</span><span class="pre">🟠 ${sd.preLabels}</span>`
-      : `<span style="opacity:.55">—</span>`;
-    const chip = sd && sd.statut === 'corrigee'
-      ? `<span class="chip warn">⚠ corrigée</span>` : `<span class="chip ok">✔ conforme</span>`;
-    return `<div class="pdf-card" onclick="openSessionJson('${f}')" data-file="${f}">
-      <div class="thumb" style="background:linear-gradient(135deg,#0f172a 0%,#1e3a8a 100%)"><span class="badge">JSON</span></div>
-      <div class="body">
-        <div class="name">${m(f)} ${chip}</div>
-        <div class="stats">${stats}</div>
-        <div class="meta">${f}</div>
-      </div>
+  const years = {};
+  files.forEach(f => { const y = (f.match(/session_(\d{4})_\d{2}\.json/) || [])[1] || '?'; (years[y] = years[y] || []).push(f); });
+  grid.innerHTML = Object.keys(years).sort().reverse().map(y => {
+    const fs = years[y];
+    let tc = 0, tl = 0, tp = 0, tr = 0, tcv = 0;
+    fs.forEach(f => { const sd = (dataMap || {})[f] && dataMap[f].session_data; if (sd) { tc += sd.candidatures || 0; tl += sd.labels || 0; tp += sd.preLabels || 0; tr += sd.retraits || 0; tcv += sd.conversions || 0; } });
+    const cards = fs.map(f => {
+      const d = (dataMap || {})[f];
+      const sd = d && d.session_data;
+      const stats = sd
+        ? `<div class="stats"><span class="cand">📋 ${sd.candidatures}</span><span class="label">✅ ${sd.labels}</span><span class="pre">🟠 ${sd.preLabels}</span><span class="cv">🔁 ${sd.conversions ?? 0}</span>${sd.retraits ? `<span class="retrait">⛔ ${sd.retraits}</span>` : ''}<span class="taux">📊 ${sd.taux_acceptation_pct ?? '—'}%</span></div>`
+        : `<div class="stats"><span style="opacity:.55">—</span></div>`;
+      const chip = sd && sd.statut === 'corrigee'
+        ? `<span class="chip warn">⚠ corrigée</span>` : `<span class="chip ok">✔ conforme</span>`;
+      const meta = d ? `<div class="meta">${f} · 📄 ${d.nb_entrees} lignes PDF</div>` : `<div class="meta">${f}</div>`;
+      return `<div class="pdf-card" onclick="openSessionJson('${f}')" data-file="${f}">
+        <div class="thumb" style="background:linear-gradient(135deg,#0f172a 0%,#1e3a8a 100%)"><span class="badge">JSON</span></div>
+        <div class="body">
+          <div class="name">${m(f)} ${chip}</div>
+          ${stats}
+          ${meta}
+        </div>
+      </div>`;
+    }).join('');
+    return `<div class="json-year-block">
+      <div class="json-year-head">📅 ${y} <span class="year-totals">📋 ${tc} cand. · ✅ ${tl} labels · 🟠 ${tp} pré-labels · 🔁 ${tcv} conversions · ⛔ ${tr} retraits</span></div>
+      <div class="pdf-grid">${cards}</div>
     </div>`;
   }).join('');
 }
@@ -3294,6 +3409,7 @@ async function openSessionJson(filename) {
   const viewer = document.getElementById('sessionJsonViewer');
   viewer.style.display = 'block';
   document.getElementById('sessionJsonPre').textContent = 'Chargement…';
+  document.getElementById('sessionJsonTable').innerHTML = '';
   document.getElementById('sessionJsonSummary').innerHTML = '';
   document.getElementById('sessionJsonBadge').textContent = filename;
   document.getElementById('sessionJsonDownload').href = '/api/session-json/' + filename;
@@ -3305,14 +3421,41 @@ async function openSessionJson(filename) {
   if (sd.candidatures !== undefined) {
     html += `<br>📋 <strong>${sd.candidatures}</strong> candidatures · ✅ <strong>${sd.labels}</strong> labels · 🟠 <strong>${sd.preLabels}</strong> pré-labels · 📊 <strong>${sd.taux_acceptation_pct ?? '—'}</strong> % taux d'acceptation`;
   }
+  if (sd.retraits !== undefined) html += `<br>⛔ <strong>${sd.retraits}</strong> retrait${sd.retraits > 1 ? 's' : ''} de label`;
+  if (sd.conversions !== undefined) html += ` · 🔁 <strong>${sd.conversions}</strong> conversion${sd.conversions > 1 ? 's' : ''} pré-label→label · ✨ <strong>${sd.newLabels}</strong> nouveaux labels`;
   if (corrigee && sd.correction) {
     const c = sd.correction;
     html += `<br>🔁 <strong>Correction :</strong> labels ${c.anciennes_valeurs.labels} → ${c.valeurs_corrigees.labels} · pré-labels ${c.anciennes_valeurs.preLabels} → ${c.valeurs_corrigees.preLabels} — <em>${escapeHtml(c.raison)}</em>`;
   }
   if (d.nb_entrees !== undefined) html += `<br>📄 <strong>${d.nb_entrees}</strong> lignes extraites du PDF`;
   document.getElementById('sessionJsonSummary').innerHTML = html;
+  renderSessionJsonTable(d);
   document.getElementById('sessionJsonPre').textContent = JSON.stringify(d, null, 2);
+  switchSessionJsonTab('table');
   viewer.scrollIntoView({ behavior: 'smooth' });
+}
+
+function renderSessionJsonTable(d) {
+  const box = document.getElementById('sessionJsonTable');
+  const es = d.entrees || [];
+  if (!es.length) { box.innerHTML = `<div class="empty-state">Aucune entrée extraite (PDF scanné — non parsé).</div>`; return; }
+  const rows = es.map((e, i) => `<tr><td>${i + 1}</td><td>${escapeHtml(e.societe || '')}</td><td>${escapeHtml((e.fondateurs || '').slice(0, 140))}</td><td>${escapeHtml(e.secteur || '')}</td><td>${escapeHtml(e.resultat || '')}</td></tr>`).join('');
+  box.innerHTML = `<div class="note" style="margin-bottom:8px">⚠ Extraction <strong>brute</strong> du PDF — le champ <em>Résultat</em> est incomplet sur beaucoup de lignes (en cours de fiabilisation).</div>
+    <div style="overflow-x:auto"><table><thead><tr><th>#</th><th>Société</th><th>Fondateurs</th><th>Secteur</th><th>Résultat</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+}
+
+function switchSessionJsonTab(tab) {
+  const tbl = document.getElementById('sessionJsonTable');
+  const raw = document.getElementById('sessionJsonPre');
+  const btnT = document.getElementById('jsonTabTableBtn');
+  const btnR = document.getElementById('jsonTabRawBtn');
+  if (tab === 'table') {
+    tbl.style.display = 'block'; raw.style.display = 'none';
+    btnT.classList.add('active'); btnR.classList.remove('active');
+  } else {
+    tbl.style.display = 'none'; raw.style.display = 'block';
+    btnR.classList.add('active'); btnT.classList.remove('active');
+  }
 }
 
 function closeSessionJson() {
@@ -3345,6 +3488,94 @@ function filterSessionJson(q) {
       grid.appendChild(msg);
     }
   } else if (msg) msg.remove();
+}
+
+// ===== BASE FONDATEURS =====
+let founderDbCache = null;
+const FDB_DEC = {
+  label_accorde: 'Label accordé', prelabel_accorde: 'Pré-label accordé',
+  label_refuse: 'Label refusé', prelabel_refuse: 'Pré-label refusé',
+  retrait: 'Retrait', irrecevable: 'Irrecevable', reporte: 'Reporté', inconnu: 'Inconnu'
+};
+
+async function renderFounderDb() {
+  const cont = document.getElementById('founderDbStats');
+  if (!cont) return;
+  if (founderDbCache) { renderFounderDbAll(); return; }
+  try {
+    const [db, qa] = await Promise.all([
+      fetch('/api/founder-db').then(r => r.json()),
+      fetch('/api/founder-db-qa').then(r => r.json())
+    ]);
+    founderDbCache = { db, qa };
+    renderFounderDbAll();
+  } catch (e) {
+    cont.innerHTML = '<div class="empty-state">Base indisponible — générez-la via <code>scripts/build_founder_db.py</code> puis servez <code>/api/founder-db</code>.</div>';
+  }
+}
+
+function founderDbStatsCards() {
+  const m = founderDbCache.db.meta;
+  return [
+    ['🗓️', m.nb_sessions, 'sessions'],
+    ['🏢', m.nb_startups, 'startups (candidats PDF)'],
+    ['👤', m.nb_founders, 'fondateurs uniques'],
+    ['🔗', m.nb_liens, 'liens startup ↔ fondateur'],
+    ['⚠️', m.nb_qa, 'lignes à vérifier (' + m.nb_sessions_qa + ' sessions)']
+  ].map(([i, n, l]) => `
+    <div class="kpi-card">
+      <div class="kpi-head"><span class="kpi-icon">${i}</span></div>
+      <div class="kpi-label">${l}</div>
+      <div class="kpi-value">${Number(n).toLocaleString('fr-FR')}</div>
+    </div>`).join('');
+}
+
+function renderFounderDbAll() {
+  document.getElementById('founderDbStats').innerHTML = founderDbStatsCards();
+  renderFounderDbTable();
+  renderFounderDbQa();
+}
+
+function renderFounderDbTable() {
+  const q = (document.getElementById('founderDbSearch').value || '').toLowerCase().trim();
+  const dec = document.getElementById('founderDbDecision').value;
+  const tbody = document.querySelector('#founderDbTable tbody');
+  if (!tbody) return;
+  const rows = founderDbCache.db.startups.filter(s =>
+    (!dec || s.decision === dec) &&
+    (!q || (s.societe + ' ' + (s.founders || []).join(' ') + ' ' + s.session + ' ' + s.secteur).toLowerCase().includes(q))
+  );
+  document.getElementById('founderDbCount').textContent = rows.length + ' / ' + founderDbCache.db.startups.length + ' startups';
+  tbody.innerHTML = rows.slice(0, 500).map(s => `
+    <tr>
+      <td style="white-space:nowrap">${escapeHtml(s.session)}</td>
+      <td><strong>${escapeHtml(s.societe)}</strong></td>
+      <td>${escapeHtml(s.secteur || '—')}</td>
+      <td><span class="chip chip-decision-${s.decision}">${FDB_DEC[s.decision] || s.decision}</span></td>
+      <td class="founders-cell">${(s.founders || []).map(escapeHtml).join('<br>') || '<span style="opacity:.5">—</span>'}</td>
+      <td>${s.flags ? '<span title="' + escapeAttr(s.flags) + '" style="cursor:help">⚠</span>' : ''}</td>
+    </tr>`).join('') +
+    (rows.length > 500 ? '<tr><td colspan="6" style="opacity:.6">Affichage des 500 premiers — affinez la recherche.</td></tr>' : '');
+}
+
+function renderFounderDbQa() {
+  const el = document.getElementById('founderDbQa');
+  if (!el) return;
+  const par = (founderDbCache.qa && founderDbCache.qa.par_session) || {};
+  const sess = Object.keys(par).sort().reverse();
+  if (!sess.length) { el.innerHTML = '<div class="empty-state">Aucune ligne incertaine 🎉</div>'; return; }
+  el.innerHTML = sess.map(s => `
+    <details class="founder-qa-session" open>
+      <summary>Session ${s} · ${par[s].length} ligne(s) à vérifier</summary>
+      ${par[s].map(it => `
+        <div class="founder-qa-item">
+          <strong>${escapeHtml(it.societe || '?')}</strong> <span style="opacity:.6">· ligne ${it.ligne}</span>
+          <span class="chip chip-decision-${it.decision}">${FDB_DEC[it.decision] || it.decision}</span>
+          ${(it.flags || []).map(f => `<span class="chip chip-flag">${escapeHtml(f)}</span>`).join('')}
+          ${it.fondateurs ? `<div class="raw">Fondateurs bruts : ${escapeHtml(it.fondateurs)}</div>` : ''}
+          ${it.resultat ? `<div class="raw">Résultat brut : ${escapeHtml(it.resultat)}</div>` : ''}
+        </div>`).join('')}
+    </details>`).join('');
 }
 
 // ===== PDFS ANNUELS =====
@@ -3392,6 +3623,7 @@ function renderParcours() {
     <div class="kpi-card blue"><div class="label">Conversions prélabel → label</div><div class="value">${m.totalConversions}</div><div class="sub">${m.sessionsWithConversions} sessions concernées</div></div>
     <div class="kpi-card green"><div class="label">Taux de conversion</div><div class="value">${m.convRate}%</div><div class="sub">${m.totalConversions}/${m.totalNewPreLabels} prélabels accordés</div></div>
     <div class="kpi-card orange"><div class="label">Prélabels accordés</div><div class="value">${m.totalNewPreLabels}</div><div class="sub">restés prélabels si non convertis</div></div>
+    <div class="kpi-card yellow"><div class="label">Prélabels restés pré-labels</div><div class="value">${m.preLabelsRestants}</div><div class="sub">623 − 502 = 121 · jamais convertis en label</div></div>
     <div class="kpi-card red"><div class="label">Retraits de labels</div><div class="value">${m.totalRetraits}</div><div class="sub">${m.sessionsWithRetraits} sessions concernées</div></div>
     <div class="kpi-card purple"><div class="label">Labels issus de conversion</div><div class="value">${m.pctLabelsFromConversions}%</div><div class="sub">${m.totalConversions} / ${m.totalLabels} labels</div></div>
   `;
@@ -3487,15 +3719,20 @@ function renderCorrections() {
       <td>${t.taux}%</td><td style="font-size:0.8em;color:#666">${t.commentaires || '-'}</td></tr>`;
   }).join('');
 
+  const retr = {};
+  (DATA.parcours?.sessions || []).forEach(s => { retr[s.session] = s.retraits || 0; });
+
   const newRows = data.correctedTable.map(t => {
     const c = CORR_SET[t.session];
     const fixedL = c && t.labels !== c.old.labels;
     const fixedP = c && t.preLabels !== c.old.preLabels;
+    const r = retr[t.session] || 0;
     const rowCls = c ? ' class="corr-row"' : '';
     return `<tr${rowCls}>
       <td><strong>${t.session}</strong></td><td>${t.candidatures}</td>
       <td class="${fixedL ? 'cell-fixed' : ''}">${t.labels}</td>
       <td class="${fixedP ? 'cell-fixed' : ''}">${t.preLabels}</td>
+      <td style="${r ? 'color:#dc2626;font-weight:600' : 'color:#999'}">${r || 0}</td>
       <td>${fmtTaux(t.tauxExact)} → <b>${t.taux}%</b></td>
       <td>${t.echec}%</td>
       <td style="font-size:0.8em;color:#666">${t.commentaires || '-'}</td></tr>`;

@@ -258,6 +258,9 @@
    },
    "raison": "5 prélabels (scrapé : 6)",
    "commentaires_pdf": "4 Labels et 7 Prélabels à Labels"
-  }
+  },
+  "retraits": 0,
+  "conversions": 7,
+  "newLabels": 4
  }
 }

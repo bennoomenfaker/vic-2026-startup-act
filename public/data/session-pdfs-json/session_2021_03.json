@@ -420,6 +420,9 @@
   "labels": 25,
   "preLabels": 8,
   "taux_acceptation_pct": 61.0,
-  "statut": "conforme"
+  "statut": "conforme",
+  "retraits": 2,
+  "conversions": 13,
+  "newLabels": 12
  }
 }

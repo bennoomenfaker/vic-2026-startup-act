@@ -270,6 +270,9 @@
    },
    "raison": "5 nouveaux labels + 1 conversion − 3 retraits = 6 (Techno Shark rejeté)",
    "commentaires_pdf": "5 Labels et 1 Prélabel à Label"
-  }
+  },
+  "retraits": 3,
+  "conversions": 1,
+  "newLabels": 5
  }
 }

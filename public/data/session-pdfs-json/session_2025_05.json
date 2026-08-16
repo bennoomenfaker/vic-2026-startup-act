@@ -372,6 +372,9 @@
    },
    "raison": "13 prélabels listés (scrapé : 10)",
    "commentaires_pdf": "10 Labels et 03 Prélabels à Labels"
-  }
+  },
+  "retraits": 1,
+  "conversions": 3,
+  "newLabels": 10
  }
 }

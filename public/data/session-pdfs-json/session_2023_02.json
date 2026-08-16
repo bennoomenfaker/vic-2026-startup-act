@@ -372,6 +372,9 @@
   "labels": 18,
   "preLabels": 11,
   "taux_acceptation_pct": 54.5,
-  "statut": "conforme"
+  "statut": "conforme",
+  "retraits": 1,
+  "conversions": 11,
+  "newLabels": 7
  }
 }

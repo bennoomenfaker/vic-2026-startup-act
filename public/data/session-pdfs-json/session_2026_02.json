@@ -480,6 +480,9 @@
    },
    "raison": "9 nouveaux labels + 11 conversions − 2 retraits = 20",
    "commentaires_pdf": "10 Labels et 11 Prélabels à Labels"
-  }
+  },
+  "retraits": 2,
+  "conversions": 11,
+  "newLabels": 9
  }
 }

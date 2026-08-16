@@ -5,6 +5,7 @@ const app = express();
 const PORT = process.env.PORT || 8082;
 
 app.use(express.static(path.join(__dirname, 'public')));
+app.use('/data', express.static(path.join(__dirname, '..', 'public', 'data')));
 
 const DATA = path.join(__dirname, '..', 'public', 'data');
 
@@ -36,6 +37,18 @@ app.get('/api/corrections', (req, res) => {
 
 app.get('/api/parcours', (req, res) => {
   res.json(JSON.parse(fs.readFileSync(path.join(DATA, 'parcours.json'))));
+});
+
+app.get('/api/sessions-table', (req, res) => {
+  res.json(JSON.parse(fs.readFileSync(path.join(DATA, 'sessions_table.json'))));
+});
+
+app.get('/api/founder-db', (req, res) => {
+  res.json(JSON.parse(fs.readFileSync(path.join(DATA, 'founder_db.json'))));
+});
+
+app.get('/api/founder-db-qa', (req, res) => {
+  res.json(JSON.parse(fs.readFileSync(path.join(DATA, 'founder_db_qa_report.json'))));
 });
 
 app.get('/api/startupblink', (req, res) => {

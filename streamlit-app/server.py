@@ -40,6 +40,12 @@ class Handler(http.server.SimpleHTTPRequestHandler):
             self._send_json(os.path.join(DATA, 'corrections.json'))
         elif path == '/api/parcours':
             self._send_json(os.path.join(DATA, 'parcours.json'))
+        elif path == '/api/sessions-table':
+            self._send_json(os.path.join(DATA, 'sessions_table.json'))
+        elif path == '/api/founder-db':
+            self._send_json(os.path.join(DATA, 'founder_db.json'))
+        elif path == '/api/founder-db-qa':
+            self._send_json(os.path.join(DATA, 'founder_db_qa_report.json'))
         elif path == '/api/corrections-md':
             self._send_doc_file('corrections.md')
         elif path == '/api/session-pdfs':
@@ -84,7 +90,11 @@ class Handler(http.server.SimpleHTTPRequestHandler):
             if os.path.isfile(static_path):
                 self._serve_static(static_path)
             else:
-                self._serve_static(os.path.join(PUBLIC, 'index.html'))
+                root_static = os.path.join(ROOT_PUBLIC, path.lstrip('/'))
+                if os.path.isfile(root_static):
+                    self._serve_static(root_static)
+                else:
+                    self._serve_static(os.path.join(PUBLIC, 'index.html'))
 
     def do_POST(self):
         parsed = urllib.parse.urlparse(self.path)
