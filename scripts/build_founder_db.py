@@ -24,6 +24,28 @@ import unicodedata
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, 'public', 'data')
 JSON_DIR = os.path.join(DATA, 'session-pdfs-json')
+MANUAL_DIR = os.path.join(DATA, 'manual_sessions')
+
+
+def load_manual_sessions():
+    """Vérité de terrain : Comptes-Rendus recopiés à la main (public/data/manual_sessions/).
+
+    Une session listée ici remplace TOTALEMENT ses lignes parsées du PDF brut :
+    chaque row = 1 candidature aux champs propres (aucun drapeau QA).
+    """
+    manual = {}
+    if not os.path.isdir(MANUAL_DIR):
+        return manual
+    for fn in sorted(os.listdir(MANUAL_DIR)):
+        if not fn.endswith('.json'):
+            continue
+        try:
+            m = json.load(open(os.path.join(MANUAL_DIR, fn), encoding='utf-8'))
+        except Exception:
+            continue
+        if m.get('session'):
+            manual[m['session']] = m
+    return manual
 
 
 def norm(s):
@@ -203,58 +225,97 @@ def main():
     qa = []
     nb_startups = 0
     nb_founders = 0
+    nb_manual = 0
+    manual = load_manual_sessions()
+    nb_manual_sessions = len(manual)
+
     for fp in files:
         d = json.load(open(os.path.join(JSON_DIR, fp), encoding='utf-8'))
         session = d['session']
-        for idx, e in enumerate(d.get('entrees', []), 1):
-            societe = (e.get('societe') or '').strip()
-            fondateurs = (e.get('fondateurs') or '').strip()
-            secteur = (e.get('secteur') or '').strip()
-            resultat = (e.get('resultat') or '').strip()
+        m = manual.get(session)
+
+        if m:
+            # --- Session relue à la main : on remplace le parse PDF bruité -------
+            entries = []
+            for i, row in enumerate(m.get('rows', []), 1):
+                entries.append({
+                    'idx': i,
+                    'societe': (row.get('societe') or '').strip(),
+                    'fondateurs': (row.get('fondateurs') or []),
+                    'secteur': (row.get('secteur') or '').strip(),
+                    'resultat': (row.get('resultat') or '').strip(),
+                    'decision': row.get('decision') or 'inconnu',
+                    'source': 'compte-rendu-manuel',
+                })
+            nb_manual += len(entries)
+        else:
+            entries = [{
+                'idx': idx,
+                'societe': (e.get('societe') or '').strip(),
+                'fondateurs': (e.get('fondateurs') or '').strip(),
+                'secteur': (e.get('secteur') or '').strip(),
+                'resultat': (e.get('resultat') or '').strip(),
+                'decision': None,
+                'source': 'pdf-session',
+            } for idx, e in enumerate(d.get('entrees', []), 1)]
+
+        for e in entries:
+            idx = e['idx']
+            societe = e['societe']
+            fondateurs = e['fondateurs']
+            secteur = e['secteur']
+            resultat = e['resultat']
 
             flags = []
-            if looks_noise(societe):
-                flags.append('societe_parasite')
-            if not societe:
-                flags.append('societe_vide')
-            if not fondateurs or fondateurs.lower().startswith('n.a'):
-                flags.append('fondateurs_absents')
-            if not resultat:
-                flags.append('resultat_manquant')
-            if not secteur or looks_decision(secteur) or secteur.lower() == 'valables':
-                flags.append('secteur_absent')
+            decision = e['decision']
 
-            decision = detect_decision(resultat, societe, fondateurs)
-            if decision == 'inconnu':
-                flags.append('decision_inconnue')
+            if e['source'] == 'compte-rendu-manuel':
+                people = [p.strip() for p in fondateurs if p and p.strip()]
+                secteur_clean = secteur
+                societe_clean = societe
+            else:
+                if looks_noise(societe):
+                    flags.append('societe_parasite')
+                if not societe:
+                    flags.append('societe_vide')
+                if not fondateurs or fondateurs.lower().startswith('n.a'):
+                    flags.append('fondateurs_absents')
+                if not resultat:
+                    flags.append('resultat_manquant')
+                if not secteur or looks_decision(secteur) or secteur.lower() == 'valables':
+                    flags.append('secteur_absent')
 
-            people, uncertain = extract_founders(fondateurs)
-            if uncertain:
-                flags.append('fondateurs_ambigus')
+                decision = detect_decision(resultat, societe, fondateurs)
+                if decision == 'inconnu':
+                    flags.append('decision_inconnue')
 
-            secteur_clean = extract_sector(secteur, fondateurs, societe)
+                people, uncertain = extract_founders(fondateurs)
+                if uncertain:
+                    flags.append('fondateurs_ambigus')
 
-            # reconstruction du nom de société quand la colonne est décalée
-            societe_clean = societe
-            if looks_noise(societe) or looks_decision(societe) or looks_sector(societe) or not societe:
-                if fondateurs:
-                    for t in re.split(r'[;,]+', fondateurs):
-                        t = t.strip()
-                        if t and not looks_noise(t) and not looks_person(t) and not looks_decision(t) and not looks_sector(t):
-                            societe_clean = t
-                            flags.append('societe_reconstruite')
-                            break
-            if not societe_clean or looks_noise(societe_clean) or looks_sector(societe_clean):
-                flags.append('societe_non_identifiee')
+                secteur_clean = extract_sector(secteur, fondateurs, societe)
 
-            # on saute les vraies lignes parasites (en-têtes/footers)
-            low = (societe + ' ' + fondateurs).lower()
-            if not societe_clean or societe_clean.lower() in ('n.a', 'résultat', 'resultat', 'décision') \
-                    or 'startup act' in low or 'compte-rendu' in low:
-                continue
+                # reconstruction du nom de société quand la colonne est décalée
+                societe_clean = societe
+                if looks_noise(societe) or looks_decision(societe) or looks_sector(societe) or not societe:
+                    if fondateurs:
+                        for t in re.split(r'[;,]+', fondateurs):
+                            t = t.strip()
+                            if t and not looks_noise(t) and not looks_person(t) and not looks_decision(t) and not looks_sector(t):
+                                societe_clean = t
+                                flags.append('societe_reconstruite')
+                                break
+                if not societe_clean or looks_noise(societe_clean) or looks_sector(societe_clean):
+                    flags.append('societe_non_identifiee')
+
+                # on saute les vraies lignes parasites (en-têtes/footers)
+                low = (societe + ' ' + fondateurs).lower()
+                if not societe_clean or societe_clean.lower() in ('n.a', 'résultat', 'resultat', 'décision') \
+                        or 'startup act' in low or 'compte-rendu' in low:
+                    continue
 
             cur.execute('INSERT INTO startups(session, societe, secteur, decision, source, flags) VALUES (?,?,?,?,?,?)',
-                        (session, societe_clean, secteur_clean, decision, 'pdf-session', ';'.join(flags)))
+                        (session, societe_clean, secteur_clean, decision, e['source'], ';'.join(flags)))
             sid = cur.lastrowid
             nb_startups += 1
 
@@ -303,6 +364,8 @@ def main():
     report = {
         'generated': True,
         'note': 'Lignes dont un ou plusieurs champs restent incertains (parse PDF brut). Vérification manuelle recommandée.',
+        'nb_sessions_manuelles': nb_manual_sessions,
+        'nb_lignes_manuelles': nb_manual,
         'total_lignes_qa': len(qa),
         'nb_sessions_qa': len(qa_by_session),
         'par_session': qa_by_session,
@@ -319,6 +382,8 @@ def main():
             'nb_liens': n3,
             'nb_qa': len(qa),
             'nb_sessions_qa': len(qa_by_session),
+            'nb_sessions_manuelles': nb_manual_sessions,
+            'nb_lignes_manuelles': nb_manual,
             'generated': 'extraction PDF brute — décisions et secteurs indicatifs (chiffres officiels : sessions.json)',
         },
         'sessions': [
@@ -343,8 +408,8 @@ def main():
     with open(os.path.join(DATA, 'founder_db.json'), 'w', encoding='utf-8') as f:
         json.dump(founder_db, f, ensure_ascii=False)
     conn.close()
-    print(f'sessions en base : {len(sessions_map)}')
-    print(f'startups (candidats PDF) : {nb_startups}  → CSV {n1} lignes')
+    print(f'sessions en base : {len(sessions_map)}  (dont {nb_manual_sessions} relues manuellement)')
+    print(f'startups (candidats PDF) : {nb_startups}  → CSV {n1} lignes  (dont {nb_manual} lignes manuelles)')
     print(f'fondateurs uniques : {nb_founders}  → CSV {n2} lignes')
     print(f'liens startup↔fondateur : {n3}')
     print(f'rapport QA : {len(qa)} lignes incertaines dans {len(qa_by_session)} sessions')

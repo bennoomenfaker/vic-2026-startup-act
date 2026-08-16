@@ -18,4 +18,7 @@ public/startupblinkcorporate-report-2025.pdf
 public/startupgenomegser-2026_9607.pdf
 public/startupblinkecosystemreport2026.pdf
 
+# Texte brut ré-extrait des PDF de sessions (artefact dérivé, régénéré par scripts/extract_pdf_text.py)
+public/data/pdf-text-recheck/
+
 
