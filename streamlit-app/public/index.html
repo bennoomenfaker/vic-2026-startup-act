@@ -23,11 +23,19 @@
   <meta property="og:image:alt" content="Startup Act Tunisie — étude quantitative des sessions de labellisation 2019-2026 : 85 sessions, 2 958 candidatures, 1 311 labels">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
+  <meta property="og:see_also" content="https://bennoomenfaker.github.io/">
+  <meta property="article:author" content="https://bennoomenfaker.github.io/">
   <link rel="canonical" href="https://github.com/bennoomenfaker/vic-2026-startup-act">
+  <link rel="author" href="https://bennoomenfaker.github.io/">
+  <link rel="me" href="https://github.com/bennoomenfaker">
+  <link rel="me" href="https://vk.ru/fakerbennoomen">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Startup Act Tunisie — Étude Quantitative">
   <meta name="twitter:description" content="85 sessions de labellisation Startup Act (2019-2026) analysées : labels, prélabels, conversions, retraits. Projet académique VIC — ESEN × ISCAE, soutien ATVIC. Par Faker BEN NOOMEN.">
   <meta name="twitter:image" content="/og-image.png">
+  <meta name="twitter:site" content="@FakerbenNoomen">
+  <meta name="twitter:creator" content="@FakerbenNoomen">
+  <meta name="twitter:author" content="https://x.com/FakerbenNoomen">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -36,12 +44,20 @@
         "@type": "Dataset",
         "name": "Startup Act Tunisie — Étude quantitative (2019-2026)",
         "description": "Données corrigées des 85 sessions de labellisation du Startup Act tunisien : candidatures, labels, prélabels, taux d'acceptation, parcours prélabel→label, conversions et retraits. Source de vérité : PDF officiels de startup.gov.tn, recalculés par l'auteur (les chiffres du site startup.gov.tn/sessions étant erronés sur 20 sessions / 85).",
-        "creator": { "@type": "Person", "name": "Faker BEN NOOMEN", "affiliation": "Master Professionnel VIC — ESEN Manouba / ISCAE Manouba" },
+        "creator": { "@type": "Person", "name": "Faker BEN NOOMEN", "url": "https://bennoomenfaker.github.io/", "image": "https://bennoomenfaker.github.io/images/faker.jpeg", "affiliation": "Master Professionnel VIC — ESEN Manouba / ISCAE Manouba", "sameAs": ["https://bennoomenfaker.github.io/", "https://github.com/bennoomenfaker", "https://linkedin.com/in/fakerbennoomen", "https://t.me/fakerbennoomen", "https://www.facebook.com/FakerBenNoomen", "https://www.kaggle.com/fakerbennoomen", "https://vk.ru/fakerbennoomen", "https://x.com/FakerbenNoomen"] },
         "publisher": { "@type": "Organization", "name": "ATVIC — Association Tunisienne de Veille et Intelligence Compétitive" },
         "temporalCoverage": "2019-2026",
         "variableMeasured": ["candidatures", "labels", "preLabels", "retraits", "conversions", "tauxAcceptation"],
         "keywords": "Startup Act, Tunisie, labellisation, startup.gov.tn, étude quantitative, veille stratégique",
         "url": "https://github.com/bennoomenfaker/vic-2026-startup-act"
+      },
+      {
+        "@type": "Person",
+        "name": "Faker BEN NOOMEN",
+        "url": "https://bennoomenfaker.github.io/",
+        "image": "https://bennoomenfaker.github.io/images/faker.jpeg",
+        "jobTitle": "Développeur Full Stack & Étudiant Master VIC",
+        "sameAs": ["https://github.com/bennoomenfaker", "https://linkedin.com/in/fakerbennoomen", "https://t.me/fakerbennoomen", "https://www.facebook.com/FakerBenNoomen", "https://www.kaggle.com/fakerbennoomen", "https://vk.ru/fakerbennoomen", "https://x.com/FakerbenNoomen"]
       },
       {
         "@type": "WebApplication",
@@ -55,8 +71,10 @@
     ]
   }
   </script>
-  <link rel="shortcut icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="shortcut icon" href="/vic.png" type="image/png">
+  <link rel="icon" href="/vic.png" type="image/png">
+  <link rel="apple-touch-icon" href="/vic.png">
+  <meta name="image" content="/vic.png">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-E4W16LN95P"></script>
   <script type="text/javascript">
     window.dataLayer = window.dataLayer || [];
@@ -639,6 +657,22 @@
     .chart-card[data-kpi] h3::after { content: ' ℹ️'; font-size: .8em; opacity: .65; }
     .kpi-card[data-kpi] { cursor: pointer; }
     .kpi-card[data-kpi]:hover { box-shadow: var(--shadow-medium); }
+
+    /* ============ Parcours detail modal ============ */
+    .parc-modal { max-width: 720px; }
+    .parc-modal h3 { font-size: 1.2rem; }
+    .parc-formula { background: var(--bg-subtle, #f1f5f9); border: 1px dashed var(--border-strong, #cbd5e1); border-radius: var(--radius-md); padding: 12px 14px; margin: 12px 0; font-size: .95rem; line-height: 1.7; }
+    .parc-formula code { background: rgba(0,0,0,.06); border-radius: 5px; padding: 1px 6px; font-size: .88rem; }
+    .parc-block { background: var(--bg-canvas, #f8fafc); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 12px 14px; margin: 10px 0; font-size: .9rem; line-height: 1.65; }
+    .parc-block strong { color: var(--text-strong); }
+    .parc-warn { background: #fef3c7; border-color: #fde68a; color: #78350f; }
+    .parc-ok { background: #dcfce7; border-color: #bbf7d0; color: #14532d; }
+    .parc-danger { background: #fee2e2; border-color: #fecaca; color: #7f1d1d; }
+    .parc-modal .parc-btn-close { position: sticky; top: -10px; float: right; background: var(--bg-subtle); border: 1px solid var(--border-subtle); border-radius: 50%; width: 34px; height: 34px; cursor: pointer; font-size: 1.05rem; line-height: 1; color: var(--text-secondary); }
+    .parc-modal .parc-btn-close:hover { background: var(--border-strong); color: var(--text-strong); }
+    .data-table td { font-variant-numeric: tabular-nums; font-feature-settings: "tnum"; }
+    #page-parcours .kpi-card { cursor: pointer; }
+    #page-parcours .kpi-card:hover { box-shadow: var(--shadow-medium); transform: translateY(-2px); }
 
     /* ============ KPI Catalogue (par axe / thème) ============ */
     .kpi-legend { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 10px 16px; margin-bottom: 20px; box-shadow: var(--shadow-xs); }
@@ -1225,6 +1259,14 @@
         <a href="/data/founder_db_qa_report.json" download>rapport_QA.json</a>
       </p>
     </div>
+    <div class="summary-box" style="margin-bottom:20px;border-left:4px solid #d97706">
+      <strong>🔢 3 721 startups (PDF) vs 2 958 candidatures — quelle différence ?</strong>
+      <ul style="margin:8px 0 0 18px;line-height:1.7">
+        <li><strong>3 721</strong> = nombre de <strong>lignes startups extraites des 85 PDFs</strong> par le parseur (base reconstruite ici). C'est un <em>recensement brut</em> : il mélange labels, pré-labels, refusés, retraits et reports, avec un parse parfois partiel (colonnes décalées) — une startup peut donc y apparaître plusieurs fois.</li>
+        <li><strong>2 958</strong> = nombre officiel de <strong>candidatures déposées</strong> (KPI-03), somme de la colonne « candidatures » des 85 sessions (<code>sessions.json</code>, corrigé). C'est la <strong>référence officielle</strong> du dispositif.</li>
+        <li><strong>Pourquoi ces nombres diffèrent :</strong> une candidature peut être relancée/renouvelée (plusieurs lignes PDF), des décisions multiples coexistent pour une même entreprise (pré-label puis label, ou label puis retrait), et le parse brut garde des entrées parasites. La présente page est une <strong>base de travail indicative</strong> ; les totaux officiels corrigés restent <code>sessions.json</code>.</li>
+      </ul>
+    </div>
     <div id="founderDbStats" class="kpi-grid" style="margin-bottom:20px"></div>
     <div class="search-bar">
       <input type="text" id="founderDbSearch" placeholder="Rechercher startup, fondateur, session, secteur..." oninput="renderFounderDbTable()">
@@ -1595,6 +1637,8 @@
       <strong>Mastère Professionnel 2ème année VIC</strong> (Veille &amp; Intelligence Compétitive), en collaboration
       entre <strong>ESEN</strong> et <strong>ISCAE Manouba</strong>. Le code source est librement consultable :
       <a href="https://github.com/bennoomenfaker/vic-2026-startup-act" target="_blank" rel="noopener"><strong>github.com/bennoomenfaker/vic-2026-startup-act ↗</strong></a>
+      <br>Portfolio / site personnel de l'auteur :
+      <a href="https://bennoomenfaker.github.io/" target="_blank" rel="noopener"><strong>bennoomenfaker.github.io ↗</strong></a>
     </div>
 
     <div class="about-grid">
@@ -1603,8 +1647,14 @@
         <h2>Faker BEN NOOMEN</h2>
         <div class="role">Développeur Full-Stack &amp; Étudiant en Intelligence Compétitive &amp; Gestion de Projet</div>
         <div class="profile-links">
+          <a href="https://bennoomenfaker.github.io/" target="_blank" rel="noopener">🌐 Site : bennoomenfaker.github.io</a>
           <a href="https://github.com/bennoomenfaker" target="_blank" rel="noopener">💻 GitHub : github.com/bennoomenfaker</a>
           <a href="https://linkedin.com/in/fakerbennoomen" target="_blank" rel="noopener">💼 LinkedIn : linkedin.com/in/fakerbennoomen</a>
+          <a href="https://t.me/fakerbennoomen" target="_blank" rel="noopener">✈️ Telegram : t.me/fakerbennoomen</a>
+          <a href="https://x.com/FakerbenNoomen" target="_blank" rel="noopener">🐦 X / Twitter : @FakerbenNoomen</a>
+          <a href="https://www.facebook.com/FakerBenNoomen" target="_blank" rel="noopener">📘 Facebook : FakerBenNoomen</a>
+          <a href="https://www.kaggle.com/fakerbennoomen" target="_blank" rel="noopener">📊 Kaggle : kaggle.com/fakerbennoomen</a>
+          <a href="https://vk.ru/fakerbennoomen" target="_blank" rel="noopener">🅥 VK : vk.ru/fakerbennoomen</a>
           <a href="mailto:fakerbennoomen@gmail.com">📧 Email : fakerbennoomen@gmail.com</a>
         </div>
       </div>
@@ -1735,10 +1785,22 @@
     <div class="kpi-value" id="kpiModalValue"></div>
     <div class="kpi-tag" id="kpiModalPage"></div>
     <div class="kpi-section"><h4>Description</h4><p id="kpiModalDesc"></p></div>
+    <div class="kpi-section" id="kpiModalTrendWrap" style="display:none"><h4>📈 Variation vs année précédente</h4><p id="kpiModalTrend"></p></div>
     <div class="kpi-section"><h4>Utilité</h4><p id="kpiModalUtil"></p></div>
     <div class="kpi-section"><h4>Interprétation du résultat</h4><p id="kpiModalInterp"></p></div>
     <div class="kpi-section"><h4>Source / API</h4><p id="kpiModalSource"></p></div>
     <div class="kpi-missing" id="kpiModalMissing" style="display:none"></div>
+  </div>
+</div>
+
+<div class="kpi-modal-overlay" id="parcoursModal" role="dialog" aria-modal="true" aria-labelledby="parcoursModalTitle">
+  <div class="kpi-modal parc-modal">
+    <button class="parc-btn-close" id="parcoursModalClose" aria-label="Fermer">✕</button>
+    <span class="kpi-badge ok" id="parcoursModalBadge">Parcours</span>
+    <h3 id="parcoursModalTitle"></h3>
+    <div class="kpi-value" id="parcoursModalValue"></div>
+    <div class="kpi-tag" id="parcoursModalSub"></div>
+    <div id="parcoursModalBody"></div>
   </div>
 </div>
 
@@ -1880,6 +1942,7 @@ const KPI_INFO = {
     desc: 'Nombre total de startups uniques référencées dans la base de données du projet.',
     util: 'Donne la taille du portefeuille startups à étudier et sert de dénominateur pour les parts sectorielles, territoriales et par âge.',
     interp: '922 startups uniques sont suivies : c’est la population de référence de toute l’analyse. Une startup labellisée puis retirée reste comptée.',
+    trend: '🔻 <strong>−42,9 %</strong> = (28 − 49) / 49 : parmi les 922 startups du registre, celles labellisées en 2025 (28) contre 2024 (49). Ce recul reflète surtout que le <strong>registre 922 est incomplet pour 2024-2025</strong> (labels officiels : 144 en 2024, 149 en 2025). Les sessions officielles ne baissent pas — la baisse vient d’un sous-comptage du registre, pas d’un effondrement réel de la labellisation.',
     source: 'API : /api/startups → public/data/database_startups.json' },
   'KPI-02': { nom: 'Labels accordés', valeur: '1 311 (corrigé)', statut: 'ok', page: 'Dashboard',
     desc: 'Total cumulé des labels Startup Act attribués sur les 85 sessions, après correction face aux PDF officiels.',
@@ -1889,7 +1952,7 @@ const KPI_INFO = {
   'KPI-03': { nom: 'Candidatures déposées', valeur: '2 958', statut: 'ok', page: 'Dashboard',
     desc: 'Nombre total de candidatures reçues, somme de la colonne candidatures des 85 sessions.',
     util: 'Sert de base au taux d’acceptation et à la moyenne par session ; mesure la demande d’accès au dispositif.',
-    interp: '2 958 candidatures (et non « 1 824 » : ce chiffre du fichier périmé est l’ancien nombre d’entrées extraites des PDF, pas les candidatures).',
+    interp: '2 958 candidatures officielles. À ne pas confondre avec les 3 721 lignes startups extraites des PDF (base fondateurs) : une candidature peut engendrer plusieurs lignes PDF (renouvellement, pré-label puis label, retrait…) et le parse brut est partiel. Ni avec « 1 824 » : ce chiffre du fichier périmé était l’ancien nombre d’entrées PDF, pas les candidatures.',
     source: 'API : /api/dashboard (annuel + sessions) → dashboard_data.json' },
   'KPI-04': { nom: 'Pré-labels accordés', valeur: '623', statut: 'ok', page: 'Dashboard',
     desc: 'Total de pré-labels attribués, corrigé vs PDF officiels.',
@@ -2145,6 +2208,13 @@ function renderKpiCatalogue() {
   document.getElementById('kpiModalUtil').textContent = info.util;
   document.getElementById('kpiModalInterp').textContent = info.interp;
   document.getElementById('kpiModalSource').textContent = info.source;
+  const trendWrap = document.getElementById('kpiModalTrendWrap');
+  if (info.trend) {
+    trendWrap.style.display = 'block';
+    document.getElementById('kpiModalTrend').innerHTML = info.trend;
+  } else {
+    trendWrap.style.display = 'none';
+  }
   const missing = document.getElementById('kpiModalMissing');
   if (info.statut === 'miss') {
     missing.style.display = 'block';
@@ -2159,15 +2229,95 @@ function closeKpiModal() {
   document.getElementById('kpiModal').classList.remove('open');
   document.body.style.overflow = '';
 }
+
+/* ===== Parcours detail modal (cartes KPI cliquables) ===== */
+function openParcoursModal(key) {
+  const m = (DATA.parcours || {}).meta || {};
+  const def = PARCOURS_EXPL[key];
+  if (!def) return;
+  const fmt = n => (n || 0).toLocaleString('fr-FR');
+  document.getElementById('parcoursModalBadge').className = 'kpi-badge ' + (def.badge || 'ok');
+  document.getElementById('parcoursModalTitle').textContent = def.title;
+  document.getElementById('parcoursModalValue').textContent = fmt(m[def.field] ?? def.value ?? '');
+  document.getElementById('parcoursModalSub').textContent = def.sub ? def.sub.replace(/\{([^}]+)\}/g, (_, k) => fmt(m[k])) : '';
+  document.getElementById('parcoursModalBody').innerHTML = def.body(m, fmt);
+  document.getElementById('parcoursModal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeParcoursModal() {
+  document.getElementById('parcoursModal').classList.remove('open');
+  document.body.style.overflow = '';
+}
+const PARCOURS_EXPL = {
+  conversions: {
+    badge: 'ok', field: 'totalConversions', title: 'Conversions prélabel → label',
+    sub: '{sessionsWithConversions} sessions concernées',
+    body: (m, fmt) => `
+      <div class="parc-formula">Un <strong>pré-label</strong> est accordé à un projet avant la création de la société. La <strong>conversion</strong> = le passage de ce pré-label au statut <strong>label</strong> complet (dépôt du dossier final, société constituée).<br>
+      <code>Conversions = ${fmt(m.totalConversions)}</code> sur les 85 sessions · <code>${fmt(m.sessionsWithConversions)}</code> sessions en contiennent au moins une.</div>
+      <div class="parc-block">📈 <strong>Lecture :</strong> ce flux alimente la croissance des labels en plus des « nouveaux labels » directs. Une année à forte conversion signale des pré-labels accordés 1 à 2 ans plus tôt qui aboutissent enfin.</div>
+      <div class="parc-block parc-ok">✅ <strong>Fiabilité :</strong> valeurs re-extraites des PDF officiels (parseur v7) + 3 sessions complétées manuellement. Cohérent avec les 1 311 labels totaux (parcours.json).</div>` },
+  rate: {
+    badge: 'ok', field: 'convRate', title: 'Taux de conversion des pré-labels',
+    sub: '{totalConversions} / {totalNewPreLabels} pré-labels accordés',
+    body: (m, fmt) => `
+      <div class="parc-formula"><code>Taux = conversions ÷ pré-labels accordés = ${fmt(m.totalConversions)} ÷ ${fmt(m.totalNewPreLabels)} = ${m.convRate} %</code></div>
+      <div class="parc-block">🎯 <strong>Lecture :</strong> <strong>4 pré-labels sur 5</strong> finissent par devenir un label. C'est un taux élevé : le dispositif sélectionne en amont les projets viables. Les <strong>${fmt(m.preLabelsRestants)} restants (${m.preLabelsRestantsPct} %)</strong> n'ont jamais été convertis.</div>
+      <div class="parc-block parc-warn">⚠️ <strong>Méthodo :</strong> ce taux compare les conversions (flux cumulé) aux pré-labels accordés (stock cumulé). Simple et robuste, mais ne mesure pas la « vitesse » de conversion ni les délais session par session.</div>` },
+  prelabels: {
+    badge: 'ok', field: 'totalNewPreLabels', title: 'Pré-labels accordés',
+    sub: "restés pré-labels s'ils ne sont pas convertis",
+    body: (m, fmt) => `
+      <div class="parc-formula">Total de <strong>pré-labels</strong> attribués sur les 85 sessions. Valeur <strong>corrigée : ${fmt(m.totalNewPreLabels)}</strong> (le tableau /sessions de startup.gov.tn affichait 617 — faux sur 20 sessions).</div>
+      <div class="parc-block">🏷️ <strong>Qu'est-ce qu'un pré-label ?</strong> Statut accordé à un projet non encore incorporé : il donne un accès anticipé aux avantages du dispositif, puis l'entreprise doit <strong>créer sa société</strong> et <strong>déposer le dossier</strong> pour obtenir le label complet.</div>
+      <div class="parc-block">➗ <strong>Devenir des ${fmt(m.totalNewPreLabels)} pré-labels :</strong> ${fmt(m.totalConversions)} convertis en label (${m.convRate} %) + ${fmt(m.preLabelsRestants)} restés pré-labels (${m.preLabelsRestantsPct} %).</div>` },
+  restants: {
+    badge: 'ok', field: 'preLabelsRestants', title: 'Pré-labels restés pré-labels',
+    sub: '{totalNewPreLabels} − {totalConversions} · jamais convertis en label',
+    body: (m, fmt) => `
+      <div class="parc-formula"><code>${fmt(m.totalNewPreLabels)} pré-labels − ${fmt(m.totalConversions)} convertis = <strong>${fmt(m.preLabelsRestants)}</strong> restés pré-labels</code></div>
+      <div class="parc-block parc-warn">❓ <strong>C'est ici le fameux « 121 ».</strong> Ce sont des <strong>pré-labels accordés mais jamais convertis en label</strong> : le projet a reçu son pré-label en session N, puis n'a jamais abouti à un label (société non créée, dossier non déposé, abandon). Il reste au statut « pré-label » — ce n'est ni un label, ni un refus.</div>
+      <div class="parc-block parc-danger">🚫 <strong>Ne pas confondre avec les ${fmt(m.totalRetraits)} retraits :</strong> le <strong>${fmt(m.preLabelsRestants)}</strong> concerne des <strong>pré-labels jamais devenus labels</strong> ; les <strong>${fmt(m.totalRetraits)} retraits</strong> concernent des <strong>labels accordés puis révoqués</strong>. Deux populations différentes → on ne les additionne pas.</div>
+      <div class="parc-block">📌 <strong>En % :</strong> ${fmt(m.preLabelsRestants)} pré-labels non aboutis = ${m.preLabelsRestantsPct} % des ${fmt(m.totalNewPreLabels)} pré-labels accordés.</div>` },
+  retraits: {
+    badge: 'ok', field: 'totalRetraits', title: 'Retraits de labels',
+    sub: '{sessionsWithRetraits} sessions concernées',
+    body: (m, fmt) => `
+      <div class="parc-formula">Nombre de <strong>labels accordés puis révoqués</strong>. Valeur <strong>corrigée : ${fmt(m.totalRetraits)}</strong> (le site affichait 190 — faux sur 20 sessions). <code>${fmt(m.sessionsWithRetraits)}</code> sessions comportent au moins un retrait.</div>
+      <div class="parc-block parc-danger">🗑️ <strong>Lecture :</strong> un retrait = la startup avait obtenu son label, puis l'a perdu (non-conformité, absence d'activité, demande de retrait, fin de validité…). Le label peut être <strong>redonné ensuite</strong> : une startup peut donc apparaître « retirée » puis « labellisée » à nouveau.</div>
+      <div class="parc-block">🚫 <strong>Distinct du ${fmt(m.preLabelsRestants)} :</strong> les ${fmt(m.preLabelsRestants)} sont des <strong>pré-labels jamais devenus labels</strong> ; les ${fmt(m.totalRetraits)} sont des <strong>labels perdus après avoir été accordés</strong>.</div>` },
+  fromconversions: {
+    badge: 'ok', field: 'pctLabelsFromConversions', title: 'Labels issus de conversion',
+    sub: '{totalConversions} / {totalLabels} labels',
+    body: (m, fmt) => `
+      <div class="parc-formula"><code>${fmt(m.totalConversions)} labels issus de conversions ÷ ${fmt(m.totalLabels)} labels au total = ${m.pctLabelsFromConversions} %</code></div>
+      <div class="parc-block">📊 <strong>Lecture :</strong> plus d'un <strong>tiers des ${fmt(m.totalLabels)} labels</strong> cumulés provient de la voie pré-label → label (${fmt(m.totalConversions)}). Le reste (${fmt(m.totalNewLabels)} ≈ ${Math.round(100 - m.pctLabelsFromConversions)} %) sont des <strong>nouveaux labels directs</strong>.</div>
+      <div class="parc-block">🔄 <strong>Enjeu :</strong> le pré-label est un vrai sas d'entrée du dispositif. Le taux élevé (${m.convRate} %) valide cette voie d'accès, même si les 121 pré-labels non convertis restent un gisement d'amélioration (accompagnement, suivi).</div>` }
+};
 function bindKpiModals() {
   document.addEventListener('click', e => {
+    const pkEl = e.target.closest('[data-pk]');
+    if (pkEl) { openParcoursModal(pkEl.getAttribute('data-pk')); return; }
     const kpiEl = e.target.closest('[data-kpi]');
     if (kpiEl) { openKpiModal(kpiEl.getAttribute('data-kpi')); return; }
     if (e.target.closest('#kpiModalClose')) { closeKpiModal(); return; }
     if (e.target.id === 'kpiModal') closeKpiModal();
+    if (e.target.closest('#parcoursModalClose')) { closeParcoursModal(); return; }
+    if (e.target.id === 'parcoursModal') closeParcoursModal();
   });
   document.addEventListener('keydown', e => {
-    if (e.key === 'Escape') closeKpiModal();
+    if (e.key !== 'Escape') return;
+    if (document.getElementById('kpiModal').classList.contains('open')) closeKpiModal();
+    if (document.getElementById('parcoursModal').classList.contains('open')) closeParcoursModal();
+  });
+  document.addEventListener('keydown', e => {
+    const openModal = document.getElementById('parcoursModal').classList.contains('open');
+    if (!openModal || (e.key !== 'Enter' && e.key !== ' ')) return;
+    const active = document.activeElement;
+    if (active && active.closest && active.closest('[data-pk]')) {
+      e.preventDefault();
+      openParcoursModal(active.getAttribute('data-pk'));
+    }
   });
 }
 
@@ -3620,12 +3770,12 @@ function renderParcours() {
   if (!data) return;
   const m = data.meta;
   document.getElementById('parcKpis').innerHTML = `
-    <div class="kpi-card blue"><div class="label">Conversions prélabel → label</div><div class="value">${m.totalConversions}</div><div class="sub">${m.sessionsWithConversions} sessions concernées</div></div>
-    <div class="kpi-card green"><div class="label">Taux de conversion</div><div class="value">${m.convRate}%</div><div class="sub">${m.totalConversions}/${m.totalNewPreLabels} prélabels accordés</div></div>
-    <div class="kpi-card orange"><div class="label">Prélabels accordés</div><div class="value">${m.totalNewPreLabels}</div><div class="sub">restés prélabels si non convertis</div></div>
-    <div class="kpi-card yellow"><div class="label">Prélabels restés pré-labels</div><div class="value">${m.preLabelsRestants}</div><div class="sub">623 − 502 = 121 · jamais convertis en label</div></div>
-    <div class="kpi-card red"><div class="label">Retraits de labels</div><div class="value">${m.totalRetraits}</div><div class="sub">${m.sessionsWithRetraits} sessions concernées</div></div>
-    <div class="kpi-card purple"><div class="label">Labels issus de conversion</div><div class="value">${m.pctLabelsFromConversions}%</div><div class="sub">${m.totalConversions} / ${m.totalLabels} labels</div></div>
+    <div class="kpi-card blue" data-pk="conversions" tabindex="0" role="button" aria-label="Détail : conversions prélabel → label"><div class="label">Conversions prélabel → label</div><div class="value">${m.totalConversions}</div><div class="sub">${m.sessionsWithConversions} sessions concernées · cliquer pour détail</div></div>
+    <div class="kpi-card green" data-pk="rate" tabindex="0" role="button" aria-label="Détail : taux de conversion"><div class="label">Taux de conversion</div><div class="value">${m.convRate}%</div><div class="sub">${m.totalConversions}/${m.totalNewPreLabels} prélabels accordés · cliquer pour détail</div></div>
+    <div class="kpi-card orange" data-pk="prelabels" tabindex="0" role="button" aria-label="Détail : prélabels accordés"><div class="label">Prélabels accordés</div><div class="value">${m.totalNewPreLabels}</div><div class="sub">restés prélabels si non convertis · cliquer pour détail</div></div>
+    <div class="kpi-card yellow" data-pk="restants" tabindex="0" role="button" aria-label="Détail : prélabels restés pré-labels"><div class="label">Prélabels restés pré-labels</div><div class="value">${m.preLabelsRestants}</div><div class="sub">623 − 502 = 121 · jamais convertis en label · cliquer pour détail</div></div>
+    <div class="kpi-card red" data-pk="retraits" tabindex="0" role="button" aria-label="Détail : retraits de labels"><div class="label">Retraits de labels</div><div class="value">${m.totalRetraits}</div><div class="sub">${m.sessionsWithRetraits} sessions concernées · cliquer pour détail</div></div>
+    <div class="kpi-card purple" data-pk="fromconversions" tabindex="0" role="button" aria-label="Détail : labels issus de conversion"><div class="label">Labels issus de conversion</div><div class="value">${m.pctLabelsFromConversions}%</div><div class="sub">${m.totalConversions} / ${m.totalLabels} labels · cliquer pour détail</div></div>
   `;
 
   makeChart('chartParcoursConv', 'bar', {
