@@ -1,368 +1,158 @@
 {
- "session": "04/2023",
- "annee": 2023,
- "mois": 4,
- "pdf": "session_2023_04.pdf",
- "nb_entrees": 56,
- "source": "Extraction des PDF officiels des sessions — startup.gov.tn (voir Corrections)",
- "entrees": [
-  {
-   "societe": "Startup Act | Session 46 | Avril  2023 | Compte-Rendu",
-   "fondateurs": "Société, Fondateurs, Secteur, Label/Prélabel",
-   "secteur": "1er Tour",
-   "resultat": ""
-  },
-  {
-   "societe": "Résultat",
-   "fondateurs": "Commentaires, Recevabilité, Pitching, Conflit, Bi'nergy, Mohamed Wali, Helmi Ben Amara, Environment, Label",
-   "secteur": "7",
-   "resultat": "Label Accordé"
-  },
-  {
-   "societe": "Label accordé dès le 2ème tour",
-   "fondateurs": "ONECLOUD, Helmi Ben Amara, Mustafa Almawsoof, Business Software & Services, Label",
-   "secteur": "7",
-   "resultat": "Label Accordé"
-  },
-  {
-   "societe": "Label accordé dès le 2ème tour",
-   "fondateurs": "ECOFEED Tunisie, Malak Boukthir, Khoubaieb Samir, FoodTech & New Food, Label",
-   "secteur": "6",
-   "resultat": "Label Accordé"
-  },
-  {
-   "societe": "Label accordé dès le 2ème tour",
-   "fondateurs": "Servini, Ramzi Hachicha, Mohamed Achraf Jomaa, Zied Hachicha, Dhia eddine Abdelli, Business Software & Services, Label",
-   "secteur": "6",
-   "resultat": "Label Accordé"
-  },
-  {
-   "societe": "Label accordé dès le 2ème tour",
-   "fondateurs": "Pas Comme Eux, Ahmed Bahaeddine Abdelwahed, Ghofrane Amdouni, Environment, Label",
-   "secteur": "5",
-   "resultat": "Label Accordé"
-  },
-  {
-   "societe": "Label accordé dès le 2ème tour",
-   "fondateurs": "H eco ferme, Hedi Amorri, Aboud Fatma, Environment, Label",
-   "secteur": "5",
-   "resultat": "Label Accordé"
-  },
-  {
-   "societe": "Label accordé dès le 2ème tour",
-   "fondateurs": "Xgenbox, Naoufel Ben Moussa, Kais Jrad, Mohamed salah Nachi, Selim Ben Mansour, Commerce & Shopping, Label",
-   "secteur": "5",
-   "resultat": "Label Accordé"
-  },
-  {
-   "societe": "Label accordé dès le 2ème tour",
-   "fondateurs": "The Package Center, Souheil Sassi, Commerce and shopping, Label",
-   "secteur": "4",
-   "resultat": "Label Accordé"
-  },
-  {
-   "societe": "Label Accordé suite au pitching",
-   "fondateurs": "Bytale Games, Saadaoui Ghassen, Ad Tech and Creative Tech, Label",
-   "secteur": "1",
-   "resultat": "Label Accordé"
-  },
-  {
-   "societe": "Label Accordé suite au pitching",
-   "fondateurs": "Oriwood/ Entreprise Wahy artisan du",
-   "secteur": "bois",
-   "resultat": "Farouk Wahi"
-  },
-  {
-   "societe": "Consumer products and services",
-   "fondateurs": "Label",
-   "secteur": "3",
-   "resultat": "Label Non Accordé"
-  },
-  {
-   "societe": "Label Non accordé dès le 2ème tour",
-   "fondateurs": "Teachica, Hichem Amami, Moatassem Belleh Guesmi, EdTech, Label",
-   "secteur": "2",
-   "resultat": "Label Non Accordé"
-  },
-  {
-   "societe": "Label Non accordé dès le 2ème tour",
-   "fondateurs": "NORMA TUNISIE, Rejeb Chaalia, Khaled Hadj Ali, Jawad Alaoui M'hammed, Fintech, Label",
-   "secteur": "1",
-   "resultat": "Label Non Accordé"
-  },
-  {
-   "societe": "Label Non accordé dès le 2ème tour",
-   "fondateurs": "SURVIVE RESILIENCE, Raouf Riahi, Walaeddine Riahi, Noura Nasri, Business Software and services, Label",
-   "secteur": "1",
-   "resultat": "Label Non Accordé"
-  },
-  {
-   "societe": "Label Non accordé dès le 2ème tour",
-   "fondateurs": "",
-   "secteur": "droplocal.ai",
-   "resultat": "Amine Abdennour"
-  },
-  {
-   "societe": "Commerce and shopping",
-   "fondateurs": "Label",
-   "secteur": "1",
-   "resultat": "Label Non Accordé"
-  },
-  {
-   "societe": "Label Non accordé dès le 2ème tour",
-   "fondateurs": "",
-   "secteur": "souk elfalleh",
-   "resultat": "Riadh Felhi"
-  },
-  {
-   "societe": "Agritech",
-   "fondateurs": "Label",
-   "secteur": "1",
-   "resultat": "Label Non Accordé"
-  },
-  {
-   "societe": "Label Non accordé dès le 2ème tour",
-   "fondateurs": "Twansa, Rani Ben Mahmoud, Safa Rzig, Ad Tech and Creative Tech, Label",
-   "secteur": "0",
-   "resultat": "Label Non Accordé"
-  },
-  {
-   "societe": "Label Non accordé dès le 2ème tour",
-   "fondateurs": "Houda Ghozzi a déclaré avoir un conflit d'intérêt, Karhabti.app, Adnen Mrad, Amina Chouchane, Sanda Doghmen, Business Software and services, Label",
-   "secteur": "0",
-   "resultat": "Label Non Accordé"
-  },
-  {
-   "societe": "Label Non accordé dès le 2ème tour",
-   "fondateurs": "Kosmos technologies, Wassim Amri, Agritech, Label",
-   "secteur": "0",
-   "resultat": "Label Non Accordé"
-  },
-  {
-   "societe": "Label Non accordé suite au pitching",
-   "fondateurs": "Houda Ghozzi a déclaré avoir un conflit d'intérêt, IrWise, Mohamed Mekki Maalej, Marouen HAMMAMI, Mohamed Dhaouafi, Morsi Hamza, Hedi Neifar, Agritech, Label",
-   "secteur": "0",
-   "resultat": "Label Non Accordé"
-  },
-  {
-   "societe": "Label Non accordé suite au pitching",
-   "fondateurs": "Houda Ghozzi a déclaré avoir un conflit d'intérêt, Alifa, Olfa Abid, Karim Gharbi, Social Business, Prélabel",
-   "secteur": "7",
-   "resultat": "Prélabel Accordé"
-  },
-  {
-   "societe": "Prélabel accordé dès le 2ème tour",
-   "fondateurs": "",
-   "secteur": "cell pulse",
-   "resultat": "Jihed Jridi"
-  },
-  {
-   "societe": "Salem Hamidi",
-   "fondateurs": "Halima Mahjoubi, Elhem Cheour, Neder Hamidi, HealthTech, Prélabel",
-   "secteur": "7",
-   "resultat": "Prélabel Accordé"
-  },
-  {
-   "societe": "Prélabel accordé dès le 2ème tour",
-   "fondateurs": "Conception, formulation et production",
-   "secteur": "de dispositifs pharmaceutiques à base",
-   "resultat": "de principes actifs de plantes"
-  },
-  {
-   "societe": "Zohra Aloui-Zarrouk",
-   "fondateurs": "HealthTech, Prélabel",
-   "secteur": "6",
-   "resultat": "Prélabel Accordé"
-  },
-  {
-   "societe": "Prélabel accordé dès le 2ème tour",
-   "fondateurs": "Randev, Mohamed Regaieg, Younes Regaieg, Safa Rekik, Consumer products and services, Prélabel",
-   "secteur": "5",
-   "resultat": "Prélabel Accordé"
-  },
-  {
-   "societe": "Prélabel accordé dès le 2ème tour",
-   "fondateurs": "Beitary, Firas Jribi, HealthTech, Prélabel",
-   "secteur": "5",
-   "resultat": "Prélabel Accordé"
-  },
-  {
-   "societe": "Prélabel accordé dès le 2ème tour",
-   "fondateurs": "GET BIG FAST, Jean-David Rombi, Business Software and services, Prélabel",
-   "secteur": "1",
-   "resultat": "Prélabel Non Accordé"
-  },
-  {
-   "societe": "Prélabel Non accordé dès le 2ème tour",
-   "fondateurs": "WEeFARM, Jasser Ben Saad, Ayeb Rihab, Rayen Ben Saad, Agritech, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé"
-  },
-  {
-   "societe": "Prélabel Non accordé dès le 2ème tour",
-   "fondateurs": "ShooFu, Khawla Hadriche, Houcem Ameur, Consumer products and services, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé"
-  },
-  {
-   "societe": "Prélabel Non accordé dès le 2ème tour",
-   "fondateurs": "",
-   "secteur": "halli.tn",
-   "resultat": "Farouk Ben Jaafar"
-  },
-  {
-   "societe": "Commerce and shopping",
-   "fondateurs": "Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé"
-  },
-  {
-   "societe": "Prélabel Non accordé dès le 2ème tour",
-   "fondateurs": "Noah, Mohamed Thamlaoui, Khaoula Souf, Rochdi Bchini, Commerce and shopping, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé"
-  },
-  {
-   "societe": "Prélabel Non accordé dès le 2ème tour",
-   "fondateurs": "BME-Power, Mohamed Bouazizi, Youssef Kaabechi, Ad Tech and Creative Tech, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé"
-  },
-  {
-   "societe": "Prélabel Non accordé dès le 2ème tour",
-   "fondateurs": "ECORISE, Morci Telmoudi, Safa Jridi, Business Software and services, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé"
-  },
-  {
-   "societe": "Prélabel Non accordé dès le 2ème tour",
-   "fondateurs": "",
-   "secteur": "trymyculture",
-   "resultat": "Issam Barhoumi"
-  },
-  {
-   "societe": "Hassan Khadhri",
-   "fondateurs": "TravelTech, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé"
-  },
-  {
-   "societe": "Prélabel Non accordé dès le 2ème tour",
-   "fondateurs": "BiBin, Firas Hakim, EdTech, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé"
-  },
-  {
-   "societe": "Prélabel Non accordé dès le 2ème tour",
-   "fondateurs": "Metamax, Houssem Saadi, Business Software and services, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé"
-  },
-  {
-   "societe": "Prélabel Non accordé dès le 2ème tour",
-   "fondateurs": "HealthyGO, Hayfa Oueslati, Commerce and shopping, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé"
-  },
-  {
-   "societe": "Prélabel Non accordé dès le 2ème tour",
-   "fondateurs": "",
-   "secteur": "goodbye",
-   "resultat": "Dalel Manai"
-  },
-  {
-   "societe": "Communication services",
-   "fondateurs": "Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé"
-  },
-  {
-   "societe": "Prélabel Non accordé dès le 2ème tour",
-   "fondateurs": "AI WITH YOU, Hayouni Rafedh, Nasreddine Nasri, Mohamed Fateh Hajjej, Wellness, Prélabel",
-   "secteur": "4",
-   "resultat": "Prélabel Non Accordé"
-  },
-  {
-   "societe": "Prélabel non accordé suite au pitching",
-   "fondateurs": "Au delà du Bio, Hajer Terras, Heithe Zaghouani, Agritech, Prélabel",
-   "secteur": "3",
-   "resultat": "Prélabel Non Accordé"
-  },
-  {
-   "societe": "Prélabel non accordé suite au pitching",
-   "fondateurs": "BE beverages, Abdelhak Moussa, Ahlem Zrig, Mohamed Maher Elbekri, FoodTech & New Food, Prélabel",
-   "secteur": "3",
-   "resultat": "Prélabel Non Accordé"
-  },
-  {
-   "societe": "Prélabel non accordé suite au pitching",
-   "fondateurs": "",
-   "secteur": "verified authentic",
-   "resultat": "Imed mabrouk"
-  },
-  {
-   "societe": "Firas Mabrouk",
-   "fondateurs": "Consumer products and services, Label, N.A, N.A, N.A, N.A, N.A, N.A, Label Non accordé, Label non accordé dès le 1 er tour. Le dossier est",
-   "secteur": "irrecevable pour manque de documents requis par",
-   "resultat": "le décret 2018-840"
-  },
-  {
-   "societe": "Passage Prélabel Label",
-   "fondateurs": "Société, Projet, Secteur, Session d'obtention",
-   "secteur": "du Prélabel",
-   "resultat": "Résultat"
-  },
-  {
-   "societe": "Commentaires",
-   "fondateurs": "",
-   "secteur": "vivid",
-   "resultat": "Flexipik"
-  },
-  {
-   "societe": "Mohamed Amine Kefi",
-   "fondateurs": "Beya Ben Saâd, Communication, Services, Novembre 2022, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "SOCIETE FIRMASOLUTIONS STARTUP"
-  },
-  {
-   "societe": "Firma Solutions",
-   "fondateurs": "Hamza Mehdaoui, Ilehi Haythem, Ghazi Tlalet, Agritech, Novembre 2022, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "Color and Natural Extracts C NEXTS"
-  },
-  {
-   "societe": "Color and Natural Extracts C-Nexts",
-   "fondateurs": "Saloua Sadok, FoodTech & New, Food, Octobre 2022, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "Ste Arrimapp Tech"
-  },
-  {
-   "societe": "Arrima Agritech",
-   "fondateurs": "Majdi Saidi, Khouloud Ghorraf, Agritech, Mars 2023, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": ""
-  }
- ],
- "session_data": {
-  "candidatures": 40,
-  "labels": 13,
-  "preLabels": 5,
-  "taux_acceptation_pct": 32.5,
-  "statut": "corrigee",
-  "correction": {
-   "anciennes_valeurs": {
-    "labels": 14,
-    "preLabels": 5
-   },
-   "valeurs_corrigees": {
+  "session": "04/2023",
+  "annee": 2023,
+  "mois": 4,
+  "pdf": "session_2023_04.pdf",
+  "nb_entrees": 20,
+  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
+  "entrees": [
+    {
+      "societe": "Bi'nergy",
+      "fondateurs": "Helmi Ben Amara, Helmi Ben Amara",
+      "secteur": "Environment",
+      "resultat": "label"
+    },
+    {
+      "societe": "ONECLOUD",
+      "fondateurs": "Mustafa Almawsoof, Malak Boukthir",
+      "secteur": "Business Software & Services",
+      "resultat": "label"
+    },
+    {
+      "societe": "ECOFEED Tunisie",
+      "fondateurs": "Khoubaieb Samir, Ramzi Hachicha, Mohamed Achraf Jomaa",
+      "secteur": "FoodTech & New Food",
+      "resultat": "label"
+    },
+    {
+      "societe": "Servini",
+      "fondateurs": "Zied Hachicha, Dhia eddine Abdelli, Ahmed Bahaeddine Abdelwahed",
+      "secteur": "Business Software & Services",
+      "resultat": "label"
+    },
+    {
+      "societe": "Pas Comme Eux",
+      "fondateurs": "Ghofrane Amdouni, Hedi Amorri",
+      "secteur": "Environment",
+      "resultat": "label"
+    },
+    {
+      "societe": "H eco ferme",
+      "fondateurs": "Aboud Fatma, Naoufel Ben Moussa, Kais Jrad",
+      "secteur": "Environment",
+      "resultat": "label"
+    },
+    {
+      "societe": "Xgenbox",
+      "fondateurs": "Mohamed salah Nachi, Selim Ben Mansour",
+      "secteur": "Commerce & Shopping",
+      "resultat": "label"
+    },
+    {
+      "societe": "The Package Center",
+      "fondateurs": "Souheil Sassi",
+      "secteur": "Commerce and shopping",
+      "resultat": "label"
+    },
+    {
+      "societe": "Bytale Games Oriwood/ Entreprise Wahy artisan du bois",
+      "fondateurs": "Saadaoui Ghassen, Farouk Wahi",
+      "secteur": "Ad Tech and Creative Tech",
+      "resultat": "label"
+    },
+    {
+      "societe": "Teachica",
+      "fondateurs": "Hichem Amami, Moatassem Belleh Guesmi, Rejeb Chaalia",
+      "secteur": "EdTech",
+      "resultat": "label"
+    },
+    {
+      "societe": "NORMA TUNISIE",
+      "fondateurs": "Khaled Hadj Ali, Jawad Alaoui M'hammed, Raouf Riahi",
+      "secteur": "Fintech",
+      "resultat": "label"
+    },
+    {
+      "societe": "SURVIVE RESILIENCE",
+      "fondateurs": "Walaeddine Riahi, Noura Nasri",
+      "secteur": "Business Software and services",
+      "resultat": "label"
+    },
+    {
+      "societe": "droplocal.ai souk elfalleh",
+      "fondateurs": "Amine Abdennour, Riadh Felhi, Rani Ben Mahmoud",
+      "secteur": "Commerce and shopping",
+      "resultat": "label"
+    },
+    {
+      "societe": "Twansa",
+      "fondateurs": "",
+      "secteur": "Ad Tech and Creative Tech",
+      "resultat": "label"
+    },
+    {
+      "societe": "Karhabti.app",
+      "fondateurs": "Amina Chouchane, Sanda Doghmen",
+      "secteur": "Business Software and services",
+      "resultat": "label"
+    },
+    {
+      "societe": "Kosmos technologies",
+      "fondateurs": "Wassim Amri",
+      "secteur": "Agritech",
+      "resultat": "label"
+    },
+    {
+      "societe": "IrWise",
+      "fondateurs": "Mohamed Dhaouafi",
+      "secteur": "Agritech",
+      "resultat": "label"
+    },
+    {
+      "societe": "Alifa cell pulse Conception, formulation et production de dispositifs pharmaceutiques à base de principes actifs de plantes aromatiques et médicinales pour le traitement des altérations cutanées",
+      "fondateurs": "Karim Gharbi, Jihed Jridi, Salem Hamidi, Halima Mahjoubi, Elhem Cheour, Neder Hamidi, Zohra Aloui-Zarrouk, Mohamed Regaieg",
+      "secteur": "Social Business",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "Randev infectées et non infectées.",
+      "fondateurs": "Younes Regaieg, Safa Rekik",
+      "secteur": "Consumer products and services",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "Beitary",
+      "fondateurs": "Firas Jribi",
+      "secteur": "",
+      "resultat": "prelabel"
+    }
+  ],
+  "session_data": {
+    "candidatures": 40,
     "labels": 13,
-    "preLabels": 5
-   },
-   "raison": "13 labels (scrapé : 14)",
-   "commentaires_pdf": "10 Labels et 4  Prélabels à Labels"
-  },
-  "retraits": 0,
-  "conversions": 0,
-  "newLabels": 13
- }
+    "preLabels": 5,
+    "taux_acceptation_pct": 32.5,
+    "statut": "corrigee",
+    "retraits": 0,
+    "conversions": 0,
+    "newLabels": 13,
+    "correction": {
+      "session": "04/2023",
+      "candidatures": 40,
+      "old": {
+        "labels": 14,
+        "preLabels": 5,
+        "taux": "35.0"
+      },
+      "new": {
+        "labels": 13,
+        "preLabels": 5,
+        "tauxExact": 32.5,
+        "taux": "32.5",
+        "echec": "67.5"
+      },
+      "reason": "13 labels (scrapé : 14)",
+      "commentaires": "10 Labels et 4  Prélabels à Labels"
+    }
+  }
 }

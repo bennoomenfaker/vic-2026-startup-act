@@ -1,266 +1,170 @@
 {
- "session": "09/2024",
- "annee": 2024,
- "mois": 9,
- "pdf": "session_2024_09.pdf",
- "nb_entrees": 41,
- "source": "Extraction des PDF officiels des sessions — startup.gov.tn (voir Corrections)",
- "entrees": [
-  {
-   "societe": "Startup Act | Session 66| Septembre 2024 | Compte-Rendu",
-   "fondateurs": "Société, Fondateurs, Secteur, Label/Prélabel",
-   "secteur": "1er Tour",
-   "resultat": ""
-  },
-  {
-   "societe": "Résultat",
-   "fondateurs": "Recevabilité, Pitching, Conflit, QUOPROD, Majdi Ben Slama, Mohamad Koubar, Kelven Raymond, Advanced Manufacturing &, Robotics, Label",
-   "secteur": "6",
-   "resultat": "Label Accordé au 2ème Tour"
-  },
-  {
-   "societe": "Converty",
-   "fondateurs": "Ayoub Nejem, Sami Kammoun, Ahmed Abid, Ali Sakka, Commerce and shopping, Label",
-   "secteur": "6",
-   "resultat": "Label Accordé au 2ème Tour"
-  },
-  {
-   "societe": "EDUCATE ME",
-   "fondateurs": "Mohamed Abderrahim Khouaja, Ala Eddine Khouja, EdTech, Label",
-   "secteur": "6",
-   "resultat": "Label Accordé au 2ème Tour"
-  },
-  {
-   "societe": "ALDER Green Solutions",
-   "fondateurs": "Mhamed Raboudi, Thamer Dridi, Fourat Beji, Environment, Label",
-   "secteur": "6",
-   "resultat": "Label Accordé au 2ème Tour"
-  },
-  {
-   "societe": "Hannibal VR",
-   "fondateurs": "Abdelaziz Ayed, Imen Lazhar, Aya Nouira, EdTech, Label",
-   "secteur": "4",
-   "resultat": "Label Accordé au 3 ème Tour"
-  },
-  {
-   "societe": "Gifted",
-   "fondateurs": "Farah Hamrouni, Rabii Ben Tili, Commerce and shopping, Label",
-   "secteur": "4",
-   "resultat": "Label Accordé au 3 ème Tour"
-  },
-  {
-   "societe": "Business Academy",
-   "fondateurs": "Nour Rafiâa KALLEL, Walid KALLEL, EdTech, Prélabel",
-   "secteur": "6",
-   "resultat": "Prélabel Accordé au 2ème Tour"
-  },
-  {
-   "societe": "Krypton",
-   "fondateurs": "Mehemed Bougsea, Joscha Raue, Business Software and services, Prélabel",
-   "secteur": "6",
-   "resultat": "Prélabel Accordé au 2ème Tour"
-  },
-  {
-   "societe": "Order Station",
-   "fondateurs": "Aziz Benchedli, Ahmed Selmi, Karim Tounsi, FoodTech & New Food, Prélabel",
-   "secteur": "6",
-   "resultat": "Prélabel Accordé au 2ème Tour"
-  },
-  {
-   "societe": "CWcloud",
-   "fondateurs": "Ahmed Hermassi, Anas Neumann",
-   "secteur": "driss Neumann",
-   "resultat": "Habib Bane"
-  },
-  {
-   "societe": "Business Software and services",
-   "fondateurs": "Prélabel",
-   "secteur": "5",
-   "resultat": "Prélabel Accordé au 2ème Tour"
-  },
-  {
-   "societe": "Mintounes",
-   "fondateurs": "Beldi Zied, Anis Harzallah, Ghizlaine Beldi, Commerce and shopping, Prélabel",
-   "secteur": "4",
-   "resultat": "Prélabel Accordé au 3ème Tour"
-  },
-  {
-   "societe": "VYZYOSCHOOL",
-   "fondateurs": "Marwa Mhedhebi, EdTech, Prélabel",
-   "secteur": "2",
-   "resultat": "Prélabel Accordé au 3ème Tour"
-  },
-  {
-   "societe": "TerraSens",
-   "fondateurs": "Manel Ennahedh, Mohamed Rajhi, Jamila Tarhouni, Salma Bouabdellaoui, Agritech, Prélabel",
-   "secteur": "3",
-   "resultat": "Prélabel Accordé au 3ème Tour"
-  },
-  {
-   "societe": "Syndiki",
-   "fondateurs": "Haroun Cheriha, Real Estate Tech, Prélabel",
-   "secteur": "1",
-   "resultat": "Prélabel Accordé au 3ème Tour"
-  },
-  {
-   "societe": "Moonlight AI TN",
-   "fondateurs": "Christian Ruiz, Nicole Romano, Stefan Habringer, HealthTech, Prélabel",
-   "secteur": "4",
-   "resultat": "Prélabel Accordé au 3ème Tour"
-  },
-  {
-   "societe": "Rebelink",
-   "fondateurs": "Faiza Skandarni, EdTech, Label",
-   "secteur": "2",
-   "resultat": "Label Non Accordé au 2ème Tour"
-  },
-  {
-   "societe": "K-Noon",
-   "fondateurs": "Ghaith Troudi, Ramla Baccar, Fintech, Label",
-   "secteur": "0",
-   "resultat": "Label Non Accordé au 2ème Tour"
-  },
-  {
-   "societe": "STE ZURVANET",
-   "fondateurs": "Hamza Othmani, Lobna Hamdi, Agritech, Label",
-   "secteur": "0",
-   "resultat": "Label Non Accordé au 2ème Tour"
-  },
-  {
-   "societe": "InnovAir",
-   "fondateurs": "Nassira Barhoumi, Mrabet Omar, Marwen El bari, HealthTech, Label",
-   "secteur": "0",
-   "resultat": "Label Non Accordé au 2ème Tour"
-  },
-  {
-   "societe": "Park&Charge by Asteroidea",
-   "fondateurs": "Ghassen Chattouna, Rami Hedfi, Zied Bradai, Mobility, Label",
-   "secteur": "0",
-   "resultat": "Label Non Accordé au 3ème Tour"
-  },
-  {
-   "societe": "Quark",
-   "fondateurs": "Maher Sellami, Environment, Label",
-   "secteur": "1",
-   "resultat": "Label Non Accordé au 3ème Tour"
-  },
-  {
-   "societe": "Ukla",
-   "fondateurs": "Mohamed Achraf Mrabet, FoodTech & New Food, Label",
-   "secteur": "4",
-   "resultat": "Label Non Accordé au 3ème Tour"
-  },
-  {
-   "societe": "Boomsnap",
-   "fondateurs": "Seif Allah Ben othmen, Anas Ben Ali, Slim Khaled, Ad Tech and Creative Tech, Prélabel",
-   "secteur": "1",
-   "resultat": "Prélabel Non Accordé au 2ème Tour"
-  },
-  {
-   "societe": "Mansour the Rebel Tarinet",
-   "fondateurs": "Village -MRTC REDEEM, Meycem Naceur, Ad Tech and Creative Tech, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2ème Tour"
-  },
-  {
-   "societe": "Oussama Ben Chaabane",
-   "fondateurs": "Ghassen Ben Saoud, Commerce and shopping, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2ème Tour"
-  },
-  {
-   "societe": "Assist IT",
-   "fondateurs": "Mohamed Ben Othman, Maissa Sekrafi, Business Software and services, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2ème Tour"
-  },
-  {
-   "societe": "Cogeex",
-   "fondateurs": "Racem Smaoui, Rania Ghorbel, Abir Smaoui, Business Software and services, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2ème Tour"
-  },
-  {
-   "societe": "Battel Lab",
-   "fondateurs": "Karim Bouzid, Hakim Azzouz, HealthTech, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2ème Tour"
-  },
-  {
-   "societe": "Slayton",
-   "fondateurs": "Sana Boubaker, Nadege Legendre, Franck Legendre, Ad Tech and Creative Tech, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2ème Tour"
-  },
-  {
-   "societe": "Digi Up Agri",
-   "fondateurs": "Abdellatif Zied Saada, Manel Hamed, Achref Amri, Agritech, Prélabel",
-   "secteur": "3",
-   "resultat": "Prélabel Non Accordé au 3ème Tour"
-  },
-  {
-   "societe": "LearnA",
-   "fondateurs": "Dhiaeddine Gharsallah, Omar Masmoudi, EdTech, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 3ème Tour"
-  },
-  {
-   "societe": "Bilel Rahmouni",
-   "fondateurs": "Mobility, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 3ème Tour"
-  },
-  {
-   "societe": "QuantoTrade",
-   "fondateurs": "Mahdi Chaari, Ons Hadrich, Khariddine Derbali, Fintech, Prélabel",
-   "secteur": "4",
-   "resultat": "Prélabel Non Accordé au 3ème Tour"
-  },
-  {
-   "societe": "Bio Green Pousses",
-   "fondateurs": "Elyes Ladjimi, Hamza Aljane, Taha Khoubaib Naffeti, FoodTech & New Food, Prélabel",
-   "secteur": "3",
-   "resultat": "Prélabel Non Accordé au 3ème Tour"
-  },
-  {
-   "societe": "Passage de Prélabels aux Labels",
-   "fondateurs": "Projet, Société, Fondateurs, Secteur, Session d'obtention",
-   "secteur": "du Prélabel",
-   "resultat": "Résultat"
-  },
-  {
-   "societe": "Commentaires",
-   "fondateurs": "Astratransit, CLICK TRANS, Yosra Ahmed, Majdi Ahmed, Najoua Kassaoui, Business Software and",
-   "secteur": "services",
-   "resultat": "Juin 2024"
-  },
-  {
-   "societe": "Label accordé",
-   "fondateurs": "Label accordé suite à la création de la Startup et le respect des conditions d'octroi, Aventoura, Aventoura Outdoors, Sami Amri, Mohamed Ali Maazoun, Dhia Saadi, TravelTech, Juillet 2024, Label accordé, Label accordé suite à la création de la Startup et le respect des conditions d'octroi, AGARUW HUB, AGARUW HUB, Mejda Khaled, Zeineb Ben Abdallah, Hedi BenRomdhane, Environment, Mars 2024, Label accordé, Label accordé suite à la création de la Startup et le respect des conditions d'octroi, ITri, Smart & Sustainable Collect, Majdi Ben Farhat, Hanen Louati, Ramzi Halouani, Environment, Avril 2024, Label accordé, Label accordé suite à la création de la Startup et le respect des conditions d'octroi, Hapivot, Hapivot, Francois Dejeager, Anis Dabbebi, Saber Jelassi, Business Software and",
-   "secteur": "services",
-   "resultat": "Avril 2024"
-  },
-  {
-   "societe": "Label accordé",
-   "fondateurs": "Label accordé suite à la création de la Startup et le respect des conditions d'octroi, Retraits Labels, Société, Secteur, Session d'obtention",
-   "secteur": "du Label",
-   "resultat": "Décision"
-  },
-  {
-   "societe": "Commentaires",
-   "fondateurs": "NEWGEN, Ad Tech & Creative Tech, Mai 2019, Retrait du Label, La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-",
-   "secteur": "2018 pour les sociétés bénéficiaires du Label",
-   "resultat": ""
+  "session": "09/2024",
+  "annee": 2024,
+  "mois": 9,
+  "pdf": "session_2024_09.pdf",
+  "nb_entrees": 25,
+  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
+  "entrees": [
+    {
+      "societe": "QUOPROD",
+      "fondateurs": "Mohamad Koubar, Kelven Raymond, Ayoub Nejem, Sami Kammoun",
+      "secteur": "Robotics",
+      "resultat": "label accorde au 2eme tour"
+    },
+    {
+      "societe": "Converty",
+      "fondateurs": "Ahmed Abid, Ali Sakka, Mohamed Abderrahim Khouaja",
+      "secteur": "Commerce and shopping",
+      "resultat": "label accorde au 2eme tour"
+    },
+    {
+      "societe": "EDUCATE ME",
+      "fondateurs": "Ala Eddine Khouja, Mhamed Raboudi",
+      "secteur": "EdTech",
+      "resultat": "label accorde au 2eme tour"
+    },
+    {
+      "societe": "ALDER Green Solutions",
+      "fondateurs": "Thamer Dridi, Fourat Beji, Abdelaziz Ayed",
+      "secteur": "Environment",
+      "resultat": "label accorde au 2eme tour"
+    },
+    {
+      "societe": "Hannibal VR",
+      "fondateurs": "Imen Lazhar, Aya Nouira, Farah Hamrouni",
+      "secteur": "EdTech",
+      "resultat": "label accorde au 3 eme tour"
+    },
+    {
+      "societe": "Gifted",
+      "fondateurs": "Rabii Ben Tili, Nour Rafiâa KALLEL",
+      "secteur": "Commerce and shopping",
+      "resultat": "label accorde au 3 eme tour"
+    },
+    {
+      "societe": "Business Academy",
+      "fondateurs": "Walid KALLEL, Mehemed Bougsea",
+      "secteur": "EdTech",
+      "resultat": "prelabel accorde au 2eme tour"
+    },
+    {
+      "societe": "Krypton",
+      "fondateurs": "Joscha Raue, Aziz Benchedli",
+      "secteur": "Business Software and services",
+      "resultat": "prelabel accorde au 2eme tour"
+    },
+    {
+      "societe": "Order Station",
+      "fondateurs": "Ahmed Selmi, Karim Tounsi Ahmed Hermassi, Anas Neumann",
+      "secteur": "FoodTech & New Food",
+      "resultat": "prelabel accorde au 2eme tour"
+    },
+    {
+      "societe": "CWcloud",
+      "fondateurs": "driss Neumann, Habib Bane, Beldi Zied",
+      "secteur": "Business Software and services",
+      "resultat": "prelabel accorde au 2eme tour"
+    },
+    {
+      "societe": "Mintounes",
+      "fondateurs": "Anis Harzallah, Ghizlaine Beldi",
+      "secteur": "Commerce and shopping",
+      "resultat": "prelabel accorde au 3eme tour"
+    },
+    {
+      "societe": "VYZYOSCHOOL",
+      "fondateurs": "Marwa Mhedhebi, Manel Ennahedh, Mohamed Rajhi",
+      "secteur": "EdTech",
+      "resultat": "prelabel accorde au 3eme tour"
+    },
+    {
+      "societe": "TerraSens",
+      "fondateurs": "Jamila Tarhouni, Salma Bouabdellaoui",
+      "secteur": "Agritech",
+      "resultat": "prelabel accorde au 3eme tour"
+    },
+    {
+      "societe": "Syndiki",
+      "fondateurs": "Haroun Cheriha, Christian Ruiz",
+      "secteur": "Real Estate Tech",
+      "resultat": "prelabel accorde au 3eme tour"
+    },
+    {
+      "societe": "Moonlight AI TN",
+      "fondateurs": "Nicole Romano, Stefan Habringer",
+      "secteur": "HealthTech",
+      "resultat": "prelabel accorde au 3eme tour"
+    },
+    {
+      "societe": "Rebelink",
+      "fondateurs": "Faiza Skandarni, Ghaith Troudi",
+      "secteur": "EdTech",
+      "resultat": "label non accorde au 2eme tour"
+    },
+    {
+      "societe": "K-Noon",
+      "fondateurs": "Ramla Baccar, Hamza Othmani",
+      "secteur": "Fintech",
+      "resultat": "label non accorde au 2eme tour"
+    },
+    {
+      "societe": "STE ZURVANET",
+      "fondateurs": "Lobna Hamdi, Nassira Barhoumi",
+      "secteur": "Agritech",
+      "resultat": "label non accorde au 2eme tour"
+    },
+    {
+      "societe": "InnovAir",
+      "fondateurs": "Mrabet Omar, Marwen El bari, Ghassen Chattouna",
+      "secteur": "HealthTech",
+      "resultat": "label non accorde au 2eme tour"
+    },
+    {
+      "societe": "Park&Charge by Asteroidea",
+      "fondateurs": "Rami Hedfi, Zied Bradai",
+      "secteur": "Mobility",
+      "resultat": "label non accorde au 3eme tour"
+    },
+    {
+      "societe": "Astratransit CLICK TRANS",
+      "fondateurs": "Majdi Ahmed, Sami Amri Najoua Kassaoui",
+      "secteur": "Juin",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Aventoura Aventoura Outdoors",
+      "fondateurs": "Mohamed Ali Maazoun, Dhia Saadi, Mejda Khaled",
+      "secteur": "TravelTech Juillet",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "AGARUW HUB AGARUW HUB",
+      "fondateurs": "Zeineb Ben Abdallah, Hedi BenRomdhane, Majdi Ben Farhat",
+      "secteur": "Environment Mars",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "ITri Smart & Sustainable Collect",
+      "fondateurs": "Hanen Louati, Ramzi Halouani, Francois Dejeager",
+      "secteur": "Environment Avril",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Hapivot Hapivot",
+      "fondateurs": "Anis Dabbebi, Saber Jelassi",
+      "secteur": "Avril",
+      "resultat": "label accorde"
+    }
+  ],
+  "session_data": {
+    "candidatures": 34,
+    "labels": 11,
+    "preLabels": 9,
+    "taux_acceptation_pct": 32.4,
+    "statut": "conforme",
+    "retraits": 0,
+    "conversions": 0,
+    "newLabels": 11
   }
- ],
- "session_data": {
-  "candidatures": 34,
-  "labels": 11,
-  "preLabels": 9,
-  "taux_acceptation_pct": 32.4,
-  "statut": "conforme",
-  "retraits": 1,
-  "conversions": 5,
-  "newLabels": 6
- }
 }

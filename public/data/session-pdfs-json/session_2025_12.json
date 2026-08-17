@@ -1,602 +1,230 @@
 {
- "session": "12/2025",
- "annee": 2025,
- "mois": 12,
- "pdf": "session_2025_12.pdf",
- "nb_entrees": 95,
- "source": "Extraction des PDF officiels des sessions — startup.gov.tn (voir Corrections)",
- "entrees": [
-  {
-   "societe": "Startup Act | Session 81 | Décembre 2025| Compte-Rendu",
-   "fondateurs": "Société, Fondateurs, Secteur, Label/Prélabel",
-   "secteur": "1er Tour",
-   "resultat": ""
-  },
-  {
-   "societe": "Résultat",
-   "fondateurs": "Recevabilité, Pitching, Conflit, EVIMO, Achraf GHARSALLI",
-   "secteur": "Seif SASSI",
-   "resultat": "Mobility"
-  },
-  {
-   "societe": "Label",
-   "fondateurs": "",
-   "secteur": "7",
-   "resultat": "Label Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Log'In",
-   "fondateurs": "Ahmed RIZA, Mobility, Label",
-   "secteur": "6",
-   "resultat": "Label Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Hassen Aarfaoui a déclaré avoir un conflit d'intérêt",
-   "fondateurs": "Spark Auto, Hatem Ben Chaabane, Mobility, Label",
-   "secteur": "1",
-   "resultat": "Label Accordé au 3 ème Tour"
-  },
-  {
-   "societe": "Hassen Aarfaoui a déclaré avoir un conflit d'intérêt",
-   "fondateurs": "Yalen Sentinel, Aymen Medimagh",
-   "secteur": "Amal Araoud",
-   "resultat": "Abir Ben Khalifa"
-  },
-  {
-   "societe": "Security",
-   "fondateurs": "Label",
-   "secteur": "2",
-   "resultat": "Label Accordé au 3 ème Tour"
-  },
-  {
-   "societe": "DecliTech",
-   "fondateurs": "Saifeddine Berhouma",
-   "secteur": "Salma Berhouma",
-   "resultat": "EdTech"
-  },
-  {
-   "societe": "Label",
-   "fondateurs": "",
-   "secteur": "2",
-   "resultat": "Label Accordé au 3 ème Tour"
-  },
-  {
-   "societe": "Future is Now",
-   "fondateurs": "Tarek Khemiri, Business Software and",
-   "secteur": "services",
-   "resultat": "Label"
-  },
-  {
-   "societe": "Label Accordé au 3 ème Tour",
-   "fondateurs": "FielMedina, Mohamed Touati, TravelTech, Prélabel",
-   "secteur": "7",
-   "resultat": "Prélabel Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "DashMaster",
-   "fondateurs": "",
-   "secteur": "ahmed walha",
-   "resultat": "Achraf Karoui"
-  },
-  {
-   "societe": "Business Software and",
-   "fondateurs": "",
-   "secteur": "services",
-   "resultat": "Prélabel"
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel Accordé au 2 ème Tour, AionTime, Nieze Ben Mansour",
-   "secteur": "Marwen Saad",
-   "resultat": "Malek Ben Haj Amor"
-  },
-  {
-   "societe": "Ad Tech and Creative",
-   "fondateurs": "Tech, Prélabel",
-   "secteur": "6",
-   "resultat": "Prélabel Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Real Time Data Loger – RTDL",
-   "fondateurs": "Mokhtar HARRABI",
-   "secteur": "Adam Ben Slama",
-   "resultat": "Mohamed Ameur BEN"
-  },
-  {
-   "societe": "ABDESSALEM",
-   "fondateurs": "HealthTech, Prélabel",
-   "secteur": "7",
-   "resultat": "Prélabel Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Sawakni",
-   "fondateurs": "Firas meddeb",
-   "secteur": "Baffoun Aziz",
-   "resultat": "Communication services"
-  },
-  {
-   "societe": "Prélabel",
-   "fondateurs": "",
-   "secteur": "5",
-   "resultat": "Prélabel Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Moodicament",
-   "fondateurs": "Roua Bargaoui",
-   "secteur": "Mohamed Haroun Ouanes",
-   "resultat": "Ala Ben Aicha"
-  },
-  {
-   "societe": "HealthTech",
-   "fondateurs": "Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Accordé au 3 ème Tour"
-  },
-  {
-   "societe": "Hassen Aarfaoui a déclaré avoir un conflit d'intérêt",
-   "fondateurs": "FISSA3/URBAN CARTAGO, SARL, Elyes Boukettaya",
-   "secteur": "yacine boukattaya",
-   "resultat": "Mobility"
-  },
-  {
-   "societe": "Label",
-   "fondateurs": "",
-   "secteur": "0",
-   "resultat": "Label Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Yaluna",
-   "fondateurs": "Aziz Chaibi, Communication services, Label",
-   "secteur": "0",
-   "resultat": "Label Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "WAW - When And Where",
-   "fondateurs": "Ben Tanfous Ahmed",
-   "secteur": "Maya Ben Tanfous",
-   "resultat": "Kaïsha Guiga"
-  },
-  {
-   "societe": "TravelTech",
-   "fondateurs": "Label",
-   "secteur": "0",
-   "resultat": "Label Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "VAERDIA SOLUTIONS",
-   "fondateurs": "Aymen BOUNEB, Fintech, Label",
-   "secteur": "1",
-   "resultat": "Label Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "MEDA",
-   "fondateurs": "Houcemeddine kallel",
-   "secteur": "nizar besbes",
-   "resultat": "Wafa Neifar"
-  },
-  {
-   "societe": "HealthTech",
-   "fondateurs": "Label",
-   "secteur": "0",
-   "resultat": "Label Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Société Méditerranéenne de",
-   "fondateurs": "Distillerie Artisanale, Mortadha Ouadday",
-   "secteur": "Amen Allah El Hechi",
-   "resultat": "FoodTech & New Food"
-  },
-  {
-   "societe": "Label",
-   "fondateurs": "",
-   "secteur": "0",
-   "resultat": "Label Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "PREDSiGHTX",
-   "fondateurs": "Alaeddine BOUHJAR",
-   "secteur": "Montacer Benromdhane",
-   "resultat": "Business Software and"
-  },
-  {
-   "societe": "Label",
-   "fondateurs": "",
-   "secteur": "2",
-   "resultat": "Label Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Aidloy",
-   "fondateurs": "Achref ESSEFI",
-   "secteur": "Skander EL FEKIH",
-   "resultat": "Wellness"
-  },
-  {
-   "societe": "Label",
-   "fondateurs": "",
-   "secteur": "0",
-   "resultat": "Label Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Lanci Deliveries",
-   "fondateurs": "Hassen Younsi",
-   "secteur": "Achraf Ben Soltane",
-   "resultat": "Ghassen Ben Ghorbal"
-  },
-  {
-   "societe": "Business Software and",
-   "fondateurs": "",
-   "secteur": "services",
-   "resultat": "Label"
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label Non Accordé au 2 ème Tour",
-   "secteur": "eduhelper",
-   "resultat": "Moataz Hammami"
-  },
-  {
-   "societe": "EdTech",
-   "fondateurs": "Label",
-   "secteur": "1",
-   "resultat": "Label Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Kais Ben youssef",
-   "fondateurs": "",
-   "secteur": "Issam Moalla",
-   "resultat": "HealthTech"
-  },
-  {
-   "societe": "Label",
-   "fondateurs": "",
-   "secteur": "1",
-   "resultat": "Label Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "BRIDGSIGN",
-   "fondateurs": "Salah Sammari",
-   "secteur": "Rouine Firas",
-   "resultat": "Mhamed Moncer"
-  },
-  {
-   "societe": "Montassar Moussa",
-   "fondateurs": "Communication services, Label",
-   "secteur": "0",
-   "resultat": "Label Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Jizzar",
-   "fondateurs": "Jassem Khemiri",
-   "secteur": "Sadok Khemiri",
-   "resultat": "Communication services"
-  },
-  {
-   "societe": "Prélabel",
-   "fondateurs": "",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Thanna Téléassistance",
-   "fondateurs": "Tijani Aziz Feki, HealthTech, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Business Software and",
-   "fondateurs": "",
-   "secteur": "services",
-   "resultat": "Prélabel"
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel Non Accordé au 2 ème Tour, Grenova– Gamme, Écoresponsable de Produits, Primaires à Base de Grenade, Mahbouli Rhouma Najla, Environment, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "MAKASSUR",
-   "fondateurs": "MARIEM KAMOUN, Fintech, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Dingo",
-   "fondateurs": "Ali Ahmed khaled",
-   "secteur": "Rami LAJMI",
-   "resultat": "Dorra Fattoum"
-  },
-  {
-   "societe": "Mobility",
-   "fondateurs": "Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Laformatik.ai",
-   "fondateurs": "",
-   "secteur": "amine touihri",
-   "resultat": "oueslati Aya"
-  },
-  {
-   "societe": "Daas Samar",
-   "fondateurs": "",
-   "secteur": "adem seddik",
-   "resultat": "Consumer products and"
-  },
-  {
-   "societe": "Prélabel",
-   "fondateurs": "",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Kopno Game",
-   "fondateurs": "Seifeddine Bzainia",
-   "secteur": "Souaf Houssemdine",
-   "resultat": "Abdelaziz BEN MAHMOUD"
-  },
-  {
-   "societe": "Business Software and",
-   "fondateurs": "",
-   "secteur": "services",
-   "resultat": "Prélabel"
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel Non Accordé au 2 ème Tour, SaveMe, Aya Ben hriz, Environment, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Koolny",
-   "fondateurs": "Chaima Rebai",
-   "secteur": "Mohamed Hachemi BEN HAJ",
-   "resultat": ""
-  },
-  {
-   "societe": "ALI",
-   "fondateurs": "",
-   "secteur": "Salma BEN HADJ ALI",
-   "resultat": "FoodTech & New Food"
-  },
-  {
-   "societe": "Prélabel",
-   "fondateurs": "",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Marouene Belkhiria",
-   "fondateurs": "",
-   "secteur": "Samia Khadija Belkhiria",
-   "resultat": "FoodTech & New Food"
-  },
-  {
-   "societe": "Prélabel",
-   "fondateurs": "",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Couche IA génératrice de",
-   "fondateurs": "",
-   "secteur": "workflow, Interfaces homme",
-   "resultat": "machine et reporting IA"
-  },
-  {
-   "societe": "Hayet Zguem",
-   "fondateurs": "",
-   "secteur": "Yahia Ben Cheikh",
-   "resultat": "Business Software and"
-  },
-  {
-   "societe": "Prélabel",
-   "fondateurs": "",
-   "secteur": "1",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Annuaire Service",
-   "fondateurs": "Nebil Othman, Consumer products and",
-   "secteur": "services",
-   "resultat": "Prélabel"
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel Non Accordé au 2 ème Tour, Deepinfluence",
-   "secteur": "ghanem toumi",
-   "resultat": "tarek bani"
-  },
-  {
-   "societe": "Mohamed Baha Eddine",
-   "fondateurs": "Baghdadi",
-   "secteur": "Montassar TOUATI",
-   "resultat": "Nabil Boukhdhir"
-  },
-  {
-   "societe": "Marwa Moussi",
-   "fondateurs": "EdTech, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Night Panel",
-   "fondateurs": "",
-   "secteur": "iheb haouech",
-   "resultat": "Marwen Zitouni"
-  },
-  {
-   "societe": "Advanced",
-   "fondateurs": "Manufacturing &, Robotics, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "InsurLink",
-   "fondateurs": "Ahmed LIMAM",
-   "secteur": "Ilyes Limem",
-   "resultat": "Fintech"
-  },
-  {
-   "societe": "Prélabel",
-   "fondateurs": "",
-   "secteur": "1",
-   "resultat": "Prélabel Non Accordé au 3 ème Tour"
-  },
-  {
-   "societe": "Hassen Aarfaoui a déclaré avoir un conflit d'intérêt",
-   "fondateurs": "FTOUH pharmaceuticals",
-   "secteur": "mahdi ftouh",
-   "resultat": "FoodTech & New Food"
-  },
-  {
-   "societe": "Label",
-   "fondateurs": "N.A, N.A, N.A, N.A, N.A, N.A, Label Non Accordé au 1 er Tour pour Non",
-   "secteur": "communication des Statuts de la société dûment",
-   "resultat": "signés et enregistrés auprès des autorités"
-  },
-  {
-   "societe": "Passage de Prélabels aux Labels",
-   "fondateurs": "Projet, Société, Fondateurs, Secteur, Session d'obtention",
-   "secteur": "du Prélabel",
-   "resultat": "Résultat"
-  },
-  {
-   "societe": "Commentaires",
-   "fondateurs": "Tak Tak, Tak Tak Technologies, Alaa Ben Said, Mohamed Aziz Ben Said, Sonia Najjar, Mobility, Novembre 2024, Label accordé, Label accordé suite à la création de la Startup et le respect des conditions d'octroi, Fast Help, FAST HELP, Malek Ben hassine, HealthTech, Août 2025, Label accordé, Label accordé suite à la création de la Startup et le respect des conditions d'octroi, Shoot, Tuintek DEV, Yassine BEN GHANEM",
-   "secteur": "Souhail SBOUI",
-   "resultat": "Marwa ANNEBI"
-  },
-  {
-   "societe": "Business Software and services",
-   "fondateurs": "Octobre 2025, Label accordé, Label accordé suite à la création de la Startup et le respect des conditions d'octroi, QHBuild, QHBuild, Mehdi Abdi, Advanced Manufacturing &, Robotics, Juillet 2025, Label accordé, Label accordé suite à la création de la Startup et le respect des conditions d'octroi",
-   "secteur": "etanfidh-solution digitale pour",
-   "resultat": "huissiers"
-  },
-  {
-   "societe": "Technovatris IT Innovation &",
-   "fondateurs": "Novations",
-   "secteur": "hichem ben dai",
-   "resultat": "Fintech"
-  },
-  {
-   "societe": "Juin 2025",
-   "fondateurs": "Label accordé, Label accordé suite à la création de la Startup et le respect des conditions d'octroi, SymbioWave, SymbioWave Technologies, Oussama Ben Salem, Business Software and services, Octobre 2025, Label accordé, Label accordé suite à la création de la Startup et le respect des conditions d'octroi, ProgressBox, Progress Box, Khouloud Missaoui",
-   "secteur": "houssem ben brahim",
-   "resultat": "Abdelhakim Haddad"
-  },
-  {
-   "societe": "Agritech",
-   "fondateurs": "Septembre 2025, Label accordé, Label accordé suite à la création de la Startup et le respect des conditions d'octroi, BioExpert",
-   "secteur": "bioexpert",
-   "resultat": "Mohamed Ouni"
-  },
-  {
-   "societe": "Skander Guarbaa",
-   "fondateurs": "",
-   "secteur": "khalil ben abdallah",
-   "resultat": "Manel CHAABANE"
-  },
-  {
-   "societe": "HealthTech",
-   "fondateurs": "Novembre 2025, Label accordé, Label accordé suite à la création de la Startup et le respect des conditions d'octroi, Assistant Manager IA QHSE, Société AIFuturex, Khayri Romdhani",
-   "secteur": "hachicha Mohamed taher",
-   "resultat": "Business Software and services"
-  },
-  {
-   "societe": "Juillet 2025",
-   "fondateurs": "Label accordé, Label accordé suite à la création de la Startup et le respect des conditions d'octroi, Raba7ni, RABA7NI, Ali Boukhris",
-   "secteur": "salim dagdoug",
-   "resultat": "taieb ben ali"
-  },
-  {
-   "societe": "Consumer products and services",
-   "fondateurs": "Octobre 2025, Label accordé, Label accordé suite à la création de la Startup et le respect des conditions d'octroi, Retraits Labels, Société, Secteur, Session d'obtention",
-   "secteur": "du Label",
-   "resultat": "Décision"
-  },
-  {
-   "societe": "Commentaires",
-   "fondateurs": "Sté Kaoun, Fintech",
-   "secteur": "avril 2019",
-   "resultat": "Retrait du Label"
-  },
-  {
-   "societe": "La société a dépassé l'âge maximum de 8 ans fixé par",
-   "fondateurs": "",
-   "secteur": "la loi 20-2018 pour les sociétés bénéficiaires du Label",
-   "resultat": "Sté Smart Soft Pro"
-  },
-  {
-   "societe": "Agritech",
-   "fondateurs": "",
-   "secteur": "août 2019",
-   "resultat": "Retrait du Label"
-  },
-  {
-   "societe": "La société a dépassé l'âge maximum de 8 ans fixé par",
-   "fondateurs": "",
-   "secteur": "la loi 20-2018 pour les sociétés bénéficiaires du Label",
-   "resultat": "Sté OXAHOST SARL"
-  },
-  {
-   "societe": "E-commerce",
-   "fondateurs": "",
-   "secteur": "février 2020",
-   "resultat": "Retrait du Label"
-  },
-  {
-   "societe": "La société a dépassé l'âge maximum de 8 ans fixé par",
-   "fondateurs": "",
-   "secteur": "la loi 20-2018 pour les sociétés bénéficiaires du Label",
-   "resultat": "Bio intrants Technologie"
-  },
-  {
-   "societe": "Biotechnologie",
-   "fondateurs": "",
-   "secteur": "juin 2019",
-   "resultat": "Retrait du Label"
-  },
-  {
-   "societe": "La société a dépassé l'âge maximum de 8 ans fixé par",
-   "fondateurs": "",
-   "secteur": "la loi 20-2018 pour les sociétés bénéficiaires du Label",
-   "resultat": "KINGDOM"
-  },
-  {
-   "societe": "Marketing",
-   "fondateurs": "",
-   "secteur": "juillet 2020",
-   "resultat": "Retrait du Label"
-  },
-  {
-   "societe": "La société a dépassé l'âge maximum de 8 ans fixé par",
-   "fondateurs": "",
-   "secteur": "la loi 20-2018 pour les sociétés bénéficiaires du Label",
-   "resultat": ""
-  }
- ],
- "session_data": {
-  "candidatures": 41,
-  "labels": 16,
-  "preLabels": 6,
-  "taux_acceptation_pct": 39.0,
-  "statut": "corrigee",
-  "correction": {
-   "anciennes_valeurs": {
-    "labels": 15,
-    "preLabels": 6
-   },
-   "valeurs_corrigees": {
+  "session": "12/2025",
+  "annee": 2025,
+  "mois": 12,
+  "pdf": "session_2025_12.pdf",
+  "nb_entrees": 32,
+  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
+  "entrees": [
+    {
+      "societe": "EVIMO",
+      "fondateurs": "Seif SASSI",
+      "secteur": "Mobility",
+      "resultat": "label accorde au 2 eme tour"
+    },
+    {
+      "societe": "Log'In",
+      "fondateurs": "Ahmed RIZA",
+      "secteur": "Mobility",
+      "resultat": "label accorde au 2 eme tour"
+    },
+    {
+      "societe": "Spark Auto",
+      "fondateurs": "Hatem Ben Chaabane",
+      "secteur": "Mobility",
+      "resultat": ""
+    },
+    {
+      "societe": "Yalen Sentinel",
+      "fondateurs": "Amal Araoud, Abir Ben Khalifa, Saifeddine Berhouma",
+      "secteur": "Security",
+      "resultat": "label accorde au 3 eme tour"
+    },
+    {
+      "societe": "DecliTech",
+      "fondateurs": "Salma Berhouma",
+      "secteur": "EdTech",
+      "resultat": "label accorde au 3 eme tour"
+    },
+    {
+      "societe": "Future is Now",
+      "fondateurs": "Tarek Khemiri",
+      "secteur": "services",
+      "resultat": "label accorde au 3 eme tour"
+    },
+    {
+      "societe": "FielMedina DashMaster",
+      "fondateurs": "Mohamed Touati, ahmed walha, Achraf Karoui, Nieze Ben Mansour",
+      "secteur": "TravelTech",
+      "resultat": "prelabel accorde au 2 eme tour"
+    },
+    {
+      "societe": "AionTime",
+      "fondateurs": "Marwen Saad, Malek Ben Haj Amor, Mokhtar HARRABI, Adam Ben Slama",
+      "secteur": "Tech",
+      "resultat": "prelabel accorde au 2 eme tour"
+    },
+    {
+      "societe": "Real Time Data Loger – RTDL",
+      "fondateurs": "Mohamed Ameur BEN, ABDESSALEM, Firas meddeb",
+      "secteur": "HealthTech",
+      "resultat": "prelabel accorde au 2 eme tour"
+    },
+    {
+      "societe": "Sawakni",
+      "fondateurs": "Baffoun Aziz, Roua Bargaoui",
+      "secteur": "Communication services",
+      "resultat": "prelabel accorde au 2 eme tour"
+    },
+    {
+      "societe": "Moodicament",
+      "fondateurs": "Mohamed Haroun Ouanes",
+      "secteur": "HealthTech",
+      "resultat": "prelabel accorde au 3 eme tour"
+    },
+    {
+      "societe": "FISSA3/URBAN CARTAGO",
+      "fondateurs": "Elyes Boukettaya",
+      "secteur": "Mobility",
+      "resultat": ""
+    },
+    {
+      "societe": "SARL",
+      "fondateurs": "yacine boukattaya",
+      "secteur": "",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Yaluna",
+      "fondateurs": "Aziz Chaibi, Ben Tanfous Ahmed",
+      "secteur": "Communication services",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "WAW - When And Where",
+      "fondateurs": "Maya Ben Tanfous, Kaïsha Guiga",
+      "secteur": "TravelTech",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "VAERDIA SOLUTIONS",
+      "fondateurs": "Aymen BOUNEB, Houcemeddine kallel",
+      "secteur": "Fintech",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "MEDA Société Méditerranéenne de",
+      "fondateurs": "nizar besbes, Wafa Neifar, Mortadha Ouadday",
+      "secteur": "HealthTech",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Distillerie Artisanale",
+      "fondateurs": "Amen Allah El Hechi",
+      "secteur": "",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Tak Tak Tak Tak Technologies",
+      "fondateurs": "Mohamed Aziz Ben Said, Sonia Najjar",
+      "secteur": "Mobility",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Fast Help FAST HELP",
+      "fondateurs": "Malek Ben hassine, Yassine BEN GHANEM",
+      "secteur": "HealthTech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Shoot Tuintek DEV",
+      "fondateurs": "Souhail SBOUI, Marwa ANNEBI",
+      "secteur": "Business Software and services",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "QHBuild QHBuild etanfidh-solution digitale pour  Technovatris IT Innovation & huissiers Novations",
+      "fondateurs": "Mehdi Abdi, hichem ben dai",
+      "secteur": "Robotics",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "SymbioWave SymbioWave Technologies",
+      "fondateurs": "Oussama Ben Salem, Khouloud Missaoui",
+      "secteur": "Business Software and services",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "ProgressBox Progress Box",
+      "fondateurs": "houssem ben brahim, Abdelhakim Haddad, Mohamed Ouni, Skander Guarbaa",
+      "secteur": "Agritech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "BioExpert bioexpert",
+      "fondateurs": "khalil ben abdallah, Manel CHAABANE, Khayri Romdhani",
+      "secteur": "HealthTech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Assistant Manager IA QHSE Société AIFuturex",
+      "fondateurs": "hachicha Mohamed taher, Ali Boukhris",
+      "secteur": "Business Software and services",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Raba7ni RABA7NI",
+      "fondateurs": "salim dagdoug, taieb ben ali",
+      "secteur": "",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Société Secteur Sté Kaoun Fintech",
+      "fondateurs": "",
+      "secteur": "avril",
+      "resultat": "Décision Commentaires"
+    },
+    {
+      "societe": "Sté Smart Soft Pro Agritech",
+      "fondateurs": "",
+      "secteur": "août",
+      "resultat": ""
+    },
+    {
+      "societe": "Sté OXAHOST SARL E-commerce",
+      "fondateurs": "",
+      "secteur": "février",
+      "resultat": ""
+    },
+    {
+      "societe": "Bio intrants Technologie Biotechnologie",
+      "fondateurs": "",
+      "secteur": "juin",
+      "resultat": ""
+    },
+    {
+      "societe": "KINGDOM Marketing",
+      "fondateurs": "",
+      "secteur": "juillet",
+      "resultat": ""
+    }
+  ],
+  "session_data": {
+    "candidatures": 41,
     "labels": 16,
-    "preLabels": 6
-   },
-   "raison": "6 nouveaux labels + 10 conversions − 5 retraits = 16",
-   "commentaires_pdf": "05 Labels et 10 Prélabels à Labels"
-  },
-  "retraits": 5,
-  "conversions": 10,
-  "newLabels": 6
- }
+    "preLabels": 6,
+    "taux_acceptation_pct": 39.0,
+    "statut": "corrigee",
+    "retraits": 0,
+    "conversions": 0,
+    "newLabels": 16,
+    "correction": {
+      "session": "12/2025",
+      "candidatures": 41,
+      "old": {
+        "labels": 15,
+        "preLabels": 6,
+        "taux": "36.6"
+      },
+      "new": {
+        "labels": 16,
+        "preLabels": 6,
+        "tauxExact": 39.02439,
+        "taux": "39.0",
+        "echec": "61.0"
+      },
+      "reason": "6 nouveaux labels + 10 conversions − 5 retraits = 16",
+      "commentaires": "05 Labels et 10 Prélabels à Labels"
+    }
+  }
 }

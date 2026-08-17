@@ -1,122 +1,92 @@
 {
- "session": "03/2019",
- "annee": 2019,
- "mois": 3,
- "pdf": "session_2019_03.pdf",
- "nb_entrees": 17,
- "source": "Extraction des PDF officiels des sessions — startup.gov.tn (voir Corrections)",
- "entrees": [
-  {
-   "societe": "Datavora",
-   "fondateurs": "Hadi Zaher, Oussama Messaoud, E-Commerce",
-   "secteur": "7",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, M. Mohamed Salah Frad a déclaré un conflit d'intérêt., Enova Robotics, Anis Sahbani, Philippe Bidaud, Christophe Grand, Industrie Robotique",
-   "secteur": "8",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Ezzayra Solutions, Yasser Bououd, AgriTech",
-   "secteur": "7",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, M. Mohamed Salah Frad a déclaré un conflit d'intérêt, Polysmart, Ahmed Cheikhrouhou, Haroun Bouchrit, Gaming",
-   "secteur": "8",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, M. Mohamed Salah Frad a déclaré un conflit d'intérêt, Be Wireless Solutions, Karim Kharrat, Nizar Ghram, Sofiene Ghram, IOT",
-   "secteur": "6",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Medilsys, Anis Ghorbel, Najmeddine Nouri, Sofiene Ghorbel, HealthTech",
-   "secteur": "6",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Roamsmart, Walid Chamekh, Mehdi Triki, Telecom",
-   "secteur": "7",
-   "resultat": "Label Accordé"
-  },
-  {
-   "societe": "Label accordé dès le 2ème Tour",
-   "fondateurs": "M. Mohamed Salah Frad a déclaré un conflit d'intérêt, Vitalight Lab, Khaoula Ben Slimane, Ilyes Gouja, E-Commerce | BioTech",
-   "secteur": "5",
-   "resultat": "Label Accordé"
-  },
-  {
-   "societe": "Label accordé dès le 2ème Tour",
-   "fondateurs": "M. Mohamed Salah Frad a déclaré un conflit d'intérêt, Dabchy, Ghazi Ketata, Ameni Mansouri, Oussama Mahjoub, E-Commerce",
-   "secteur": "5",
-   "resultat": "Label Accordé"
-  },
-  {
-   "societe": "Label accordé dès le 2ème Tour",
-   "fondateurs": "M. Ali Mnif et M. Zakaria Belkhodja ont déclaré un conflit d'intérêt, Next Gen Corp, Moez Lachned, Ahmed Nabli, EdTech | HealthTech",
-   "secteur": "4",
-   "resultat": ""
-  },
-  {
-   "societe": "Label Accordé",
-   "fondateurs": "Label accordé après Pitching, M. Mohamed Salah Frad a déclaré un conflit d'intérêt, Mme. Amel Saidane & M. Khaled Ben Jilani étaient absents pour motifs",
-   "secteur": "valables",
-   "resultat": "Nostatik Media"
-  },
-  {
-   "societe": "Khaled Frad",
-   "fondateurs": "Ramzi Mrad, IT | PharmaTech",
-   "secteur": "3",
-   "resultat": ""
-  },
-  {
-   "societe": "Label Accordé",
-   "fondateurs": "Label accordé après Pitching, M. Mohamed Salah Frad a déclaré un conflit d'intérêt, Mme. Amel Saidane & M. Khaled Ben Jilani étaient absents pour motifs",
-   "secteur": "valables",
-   "resultat": "Paypos Tunisie"
-  },
-  {
-   "societe": "Khatib Chakchouk",
-   "fondateurs": "FinTech",
-   "secteur": "3",
-   "resultat": ""
-  },
-  {
-   "societe": "Label Accordé",
-   "fondateurs": "Label accordé après Pitching, M. Mohamed Salah Frad & M. Zakaria Belkhodja ont déclaré un conflit",
-   "secteur": "d'intêrét",
-   "resultat": "Mme. Amel Saidane & M. Khaled Ben Jilani étaient absents pour motifs"
-  },
-  {
-   "societe": "Founa Shop",
-   "fondateurs": "Karim Skik, E-Commerce",
-   "secteur": "4",
-   "resultat": "Label Non-"
-  },
-  {
-   "societe": "Accordé",
-   "fondateurs": "Label non-accordé après Pitching, M. Elyes Jeribi a déclaré un conflit d'intérêt, Mme. Amel Saidane était absente pour motif valable, Mitigan, Omar El Matri, Ahmed Farhat, Kais Laouiti, Elyes Jouini, Hemdene Ben Othmane, Mohamed Ali Elloumi, FinTech, N.A, N.A, N.A, N.A, N.A, N.A, Label Non-, Accordé, Dossier irrecevable pour motif de non-indépendance du capital, Résultat, Commentaires, Startup Act | Session 0 | Mars 2019 | Compte-Rendu",
-   "secteur": "2ème  Tour",
-   "resultat": ""
+  "session": "03/2019",
+  "annee": 2019,
+  "mois": 3,
+  "pdf": "session_2019_03.pdf",
+  "nb_entrees": 12,
+  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
+  "entrees": [
+    {
+      "societe": "Datavora",
+      "fondateurs": "",
+      "secteur": "E-Commerce",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Enova Robotics",
+      "fondateurs": "Philippe Bidaud, Christophe Grand",
+      "secteur": "Industrie Robotique",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Ezzayra Solutions",
+      "fondateurs": "Yasser Bououd",
+      "secteur": "AgriTech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Be Wireless Solutions",
+      "fondateurs": "Nizar Ghram, Sofiene Ghram, Anis Ghorbel",
+      "secteur": "IOT",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Medilsys",
+      "fondateurs": "Najmeddine Nouri, Sofiene Ghorbel, Walid Chamekh",
+      "secteur": "HealthTech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Roamsmart",
+      "fondateurs": "",
+      "secteur": "Telecom",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Vitalight Lab",
+      "fondateurs": "",
+      "secteur": "E-Commerce | BioTech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Dabchy",
+      "fondateurs": "Ameni Mansouri",
+      "secteur": "E-Commerce",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Next Gen Corp",
+      "fondateurs": "Ahmed Nabli",
+      "secteur": "EdTech | HealthTech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Nostatik Media",
+      "fondateurs": "Ramzi Mrad",
+      "secteur": "IT | PharmaTech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Paypos Tunisie",
+      "fondateurs": "Khatib Chakchouk",
+      "secteur": "FinTech",
+      "resultat": "label accorde d'interet"
+    },
+    {
+      "societe": "Mitigan",
+      "fondateurs": "Elyes Jouini, Hemdene Ben Othmane, Mohamed Ali Elloumi",
+      "secteur": "FinTech",
+      "resultat": "Accordé"
+    }
+  ],
+  "session_data": {
+    "candidatures": 16,
+    "labels": 12,
+    "preLabels": 0,
+    "taux_acceptation_pct": 75.0,
+    "statut": "conforme",
+    "retraits": 0,
+    "conversions": 0,
+    "newLabels": 12
   }
- ],
- "session_data": {
-  "candidatures": 16,
-  "labels": 12,
-  "preLabels": 0,
-  "taux_acceptation_pct": 75.0,
-  "statut": "conforme",
-  "retraits": 0,
-  "conversions": 0,
-  "newLabels": 12
- }
 }

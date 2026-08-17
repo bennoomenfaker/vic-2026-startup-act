@@ -1,212 +1,170 @@
 {
- "session": "09/2019",
- "annee": 2019,
- "mois": 9,
- "pdf": "session_2019_09.pdf",
- "nb_entrees": 32,
- "source": "Extraction des PDF officiels des sessions — startup.gov.tn (voir Corrections)",
- "entrees": [
-  {
-   "societe": "Startup Act | Session 6 | Septembre 2019 | Compte-Rendu",
-   "fondateurs": "Société, Fondateurs, Secteur, Label/Prélabel",
-   "secteur": "1er Tour",
-   "resultat": ""
-  },
-  {
-   "societe": "Résultat",
-   "fondateurs": "Commentaires, Recevabilité, Pitching, Conflit",
-   "secteur": "iWassel",
-   "resultat": "Yasmine Dahloul"
-  },
-  {
-   "societe": "Sarra Khemakhem",
-   "fondateurs": "Firas Rhaiem, Logistique, Label",
-   "secteur": "5",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Farm Trust, Anis Mezghani, Wassim Khiari, E-commerce, Label",
-   "secteur": "4",
-   "resultat": ""
-  },
-  {
-   "societe": "Label accordé",
-   "fondateurs": "Label accordé après pitching, Ali Mnif et Zakaria Belkhoja ont déclaré un conflit d'intérêt, TrustiT, Mohamed Amine Ouni, E-commerce, Label",
-   "secteur": "7",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Ali Mnif et Zakaria Belkhoja ont déclaré un conflit d'intérêt",
-   "secteur": "fixiha.tn",
-   "resultat": "Ahmed Ben Said"
-  },
-  {
-   "societe": "E-commerce",
-   "fondateurs": "Label",
-   "secteur": "5",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Société DOM Services, Khaled Dhifallah Ennefii, Mobile, Label",
-   "secteur": "7",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, The Landlord, Mohamed Farouk Ben Achour, E-commerce, Label",
-   "secteur": "6",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, BeNeutron, Zaroui Montasar, Mannai Karim, EdTech, Label",
-   "secteur": "7",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Epilert, Firas Rhaiem, Haroun Moula, Amine Riahi, Health tech, Label",
-   "secteur": "7",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Black Dune Studio, Mohamed Ali Hammami, Hamad Mohamed Hamad Abden El Mra, Ahmed EL KADHI, Mohamed BOUABIDI, Ayoub KHAMESSI, EdTech, Label",
-   "secteur": "5",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Idara Tn, Jelassi Mohamed Amine, Baklouti Bassem, Ben Salah Slim, Nouri Houssem Eddine, Plateforme sociale, Label",
-   "secteur": "6",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Teskerti.tn, Karim Jelliti, E-commerce, Label",
-   "secteur": "2",
-   "resultat": ""
-  },
-  {
-   "societe": "Label accordé",
-   "fondateurs": "Label accordé après pitching, Ali Mnif et Zakaria Belkhoja ont déclaré un conflit d'intérêt, GETPAY, Slim MOalla, Salma Moalla, Fares Bouguecha, Fintech, Label",
-   "secteur": "-",
-   "resultat": "Label accordé"
-  },
-  {
-   "societe": "Label accordé après pitching",
-   "fondateurs": "Zakaria Belkhoja a déclaré un conflit d'intérêt, Kamioun, Fares Belghith, Abdelrahman Ghariani, Logistique, Prélabel",
-   "secteur": "7",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel accordé, Prélabel accordé dès le 2ème tour, Tuni'AR, Abdelhamid Boukhari, Kalfat Sarra, Mohamed Karim Sakrani, Autre contenu créatif, Prélabel",
-   "secteur": "6",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel accordé, Prélabel accordé dès le 2ème tour, Athena-IO, Safwen Bouali, Cherif Redissi, Amine Troudi, Logiciel, Prélabel",
-   "secteur": "6",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel accordé, Prélabel accordé dès le 2ème tour, Ali Mnif et Zakaria Belkhoja ont déclaré un conflit d'intérêt, ZOLFAﻰَﻔﻟُز, Adel Jeridi, Hardware, Prélabel",
-   "secteur": "5",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel accordé, Prélabel accordé dès le 2ème tour, GoFields, Youssef Cherif, Mobile, Prélabel",
-   "secteur": "5",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel accordé, Prélabel accordé dès le 2ème tour, Kyto-Prod, Olfa Kilani ep Feki, Takwa Mrabet, Safa Ben Khedher, Mohamed Amine Bourkhis, Biotechnologie, Prélabel",
-   "secteur": "3",
-   "resultat": ""
-  },
-  {
-   "societe": "Prélabel accordé",
-   "fondateurs": "Prélabel accordé après pitching, SBA Workforce, Perrine Mihelic, Fintech, Label, N.A, N.A, N.A, N.A, N.A, N.A, Label non accordé, Le dossier est irrecevable pour non conformité aux critères",
-   "secteur": "d'éligibilité décrits par le décret 2018-840",
-   "resultat": "Think-it"
-  },
-  {
-   "societe": "Joscha Raue",
-   "fondateurs": "Mehemed Bougsea",
-   "secteur": "HR",
-   "resultat": "Label"
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, Servis.tn, Mohamed Aziz Belhadj Jrad, Nada Boukhalfa, E-commerce, Prélabel",
-   "secteur": "2",
-   "resultat": "Prélabel non accordé"
-  },
-  {
-   "societe": "Prélabel non accordé après pitching",
-   "fondateurs": "Mohamed Salah Frad a déclaré un conflit d'intérêt, HOOLOOS, Mohamed Bhibah, Mehdi Gabsi, Marketing, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, Best-Tech, Mohamed Amine Boubakri, Logiciel, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, Digistart, Walid Bousnina, Aymen Hammemi, Chamseddine Bezzaouia",
-   "secteur": "AI",
-   "resultat": "Prélabel"
-  },
-  {
-   "societe": "Prélabel non accordé",
-   "fondateurs": "Prélabel non accordé après pitching, Passage de Prélabels en Labels, Société, Fondateurs, Secteur, Session d'obtention",
-   "secteur": "du Prélabel",
-   "resultat": "Résultat"
-  },
-  {
-   "societe": "Commentaires",
-   "fondateurs": "Go Field, Walid Mzoughi, Hela Gabsi, Alaa Mokrani",
-   "secteur": "AI",
-   "resultat": "Juillet 2019"
-  },
-  {
-   "societe": "Label accordé",
-   "fondateurs": "Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "Wantotrip"
-  },
-  {
-   "societe": "Chehrazade Remadi",
-   "fondateurs": "Makrem Hermassi, E-commerce, Août 2019, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "Technologia Academy"
-  },
-  {
-   "societe": "Mohamed Amine Hlaili",
-   "fondateurs": "Edtech, Juillet 2019, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": ""
+  "session": "09/2019",
+  "annee": 2019,
+  "mois": 9,
+  "pdf": "session_2019_09.pdf",
+  "nb_entrees": 25,
+  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
+  "entrees": [
+    {
+      "societe": "iWassel",
+      "fondateurs": "Sarra Khemakhem, Firas Rhaiem, Anis Mezghani",
+      "secteur": "Logistique",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Farm Trust",
+      "fondateurs": "",
+      "secteur": "E-commerce",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "TrustiT",
+      "fondateurs": "Mohamed Amine Ouni",
+      "secteur": "E-commerce",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "fixiha.tn",
+      "fondateurs": "Ahmed Ben Said",
+      "secteur": "E-commerce",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Société DOM Services",
+      "fondateurs": "Khaled Dhifallah Ennefii",
+      "secteur": "Mobile",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "The Landlord",
+      "fondateurs": "Mohamed Farouk Ben Achour, Zaroui Montasar",
+      "secteur": "E-commerce",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "BeNeutron",
+      "fondateurs": "Mannai Karim, Firas Rhaiem",
+      "secteur": "EdTech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Epilert",
+      "fondateurs": "Haroun Moula, Amine Riahi, Mohamed Ali Hammami, Hamad Mohamed Hamad Abden El Mra",
+      "secteur": "Health tech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Black Dune Studio",
+      "fondateurs": "Ahmed EL KADHI, Mohamed BOUABIDI, Ayoub KHAMESSI, Jelassi Mohamed Amine, Baklouti Bassem",
+      "secteur": "EdTech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Idara Tn",
+      "fondateurs": "Ben Salah Slim, Nouri Houssem Eddine",
+      "secteur": "Plateforme sociale",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Teskerti.tn",
+      "fondateurs": "Karim Jelliti",
+      "secteur": "E-commerce",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "GETPAY",
+      "fondateurs": "Salma Moalla",
+      "secteur": "Fintech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Kamioun",
+      "fondateurs": "Abdelrahman Ghariani, Abdelhamid Boukhari",
+      "secteur": "Logistique",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Tuni'AR",
+      "fondateurs": "Kalfat Sarra, Mohamed Karim Sakrani, Safwen Bouali",
+      "secteur": "Autre contenu créatif",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Athena-IO",
+      "fondateurs": "Cherif Redissi",
+      "secteur": "Logiciel",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "ﻰَﻔﻟُز ZOLFA",
+      "fondateurs": "Adel Jeridi",
+      "secteur": "Hardware",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "GoFields",
+      "fondateurs": "Youssef Cherif, Olfa Kilani ep Feki, Takwa Mrabet",
+      "secteur": "Mobile",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Kyto-Prod",
+      "fondateurs": "Safa Ben Khedher, Mohamed Amine Bourkhis",
+      "secteur": "Biotechnologie",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "SBA Workforce",
+      "fondateurs": "Perrine Mihelic, Joscha Raue",
+      "secteur": "Fintech",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "Think-it",
+      "fondateurs": "Mehemed Bougsea, Mohamed Aziz Belhadj Jrad",
+      "secteur": "HR",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "Servis.tn",
+      "fondateurs": "",
+      "secteur": "E-commerce",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "HOOLOOS",
+      "fondateurs": "Mehdi Gabsi",
+      "secteur": "Marketing",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "Go Field",
+      "fondateurs": "Hela Gabsi, Alaa Mokrani, Chehrazade Remadi",
+      "secteur": "AI Juillet",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Wantotrip",
+      "fondateurs": "Makrem Hermassi",
+      "secteur": "E-commerce Août",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Technologia Academy",
+      "fondateurs": "Mohamed Amine Hlaili",
+      "secteur": "Edtech Juillet",
+      "resultat": "label accorde"
+    }
+  ],
+  "session_data": {
+    "candidatures": 24,
+    "labels": 15,
+    "preLabels": 6,
+    "taux_acceptation_pct": 62.5,
+    "statut": "conforme",
+    "retraits": 0,
+    "conversions": 0,
+    "newLabels": 15
   }
- ],
- "session_data": {
-  "candidatures": 24,
-  "labels": 15,
-  "preLabels": 6,
-  "taux_acceptation_pct": 62.5,
-  "statut": "conforme",
-  "retraits": 0,
-  "conversions": 3,
-  "newLabels": 12
- }
 }

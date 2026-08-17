@@ -1,302 +1,158 @@
 {
- "session": "11/2024",
- "annee": 2024,
- "mois": 11,
- "pdf": "session_2024_11.pdf",
- "nb_entrees": 47,
- "source": "Extraction des PDF officiels des sessions — startup.gov.tn (voir Corrections)",
- "entrees": [
-  {
-   "societe": "Startup Act | Session 68| Novembre2024 | Compte-Rendu",
-   "fondateurs": "Société, Fondateurs, Secteur, Label/Prélabel",
-   "secteur": "1er Tour",
-   "resultat": ""
-  },
-  {
-   "societe": "Résultat",
-   "fondateurs": "Recevabilité, Pitching, Conflit",
-   "secteur": "esteps Health",
-   "resultat": "Nidhal Louhichi"
-  },
-  {
-   "societe": "HealthTech",
-   "fondateurs": "Label",
-   "secteur": "6",
-   "resultat": "Label Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "CAREDIFY",
-   "fondateurs": "Abdelhamid Chaoua, Radhia Bensaed, HealthTech, Label",
-   "secteur": "6",
-   "resultat": "Label Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Next Wave Industries",
-   "fondateurs": "Brahim Douar, Mamadou Diouf, Advanced Manufacturing & Robotics, Label",
-   "secteur": "5",
-   "resultat": "Label Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Mobilité Canada",
-   "fondateurs": "Iyed Ghribi, Yves Laprise, Najoua El hachimi, Business Software and services, Label",
-   "secteur": "5",
-   "resultat": "Label Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Sheapit",
-   "fondateurs": "Meriam Ben doudou, Rahma Bendoudou, Ltaief Khalil, Ahmed Mayara, Ahmed Amine Ben Doudou, Business Software and services, Label",
-   "secteur": "6",
-   "resultat": "Label Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Kidcare",
-   "fondateurs": "Yosra Ouertani, Hamza Bentoumi, Security, Label",
-   "secteur": "6",
-   "resultat": "Label Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Rim Ben mansour",
-   "fondateurs": "Aziz Toujani, Khalil Ben Cherifa, EdTech, Label",
-   "secteur": "6",
-   "resultat": "Label Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "SKILINK AI",
-   "fondateurs": "Nadhir Khayati, Naoufel Khayati, Business Software and services, Label",
-   "secteur": "1",
-   "resultat": "Label Accordé au 3 ème Tour"
-  },
-  {
-   "societe": "Techno Shark",
-   "fondateurs": "Ahmed Jedidi, Hsan Jedidi, Ali Jedidi, Ad Tech and Creative Tech, Label",
-   "secteur": "2",
-   "resultat": "Label Accordé au 3 ème Tour"
-  },
-  {
-   "societe": "WiseShare",
-   "fondateurs": "Skander Harzi, Business Software and services, Label",
-   "secteur": "0",
-   "resultat": "Label Accordé au 3 ème Tour"
-  },
-  {
-   "societe": "Lynx-ERP",
-   "fondateurs": "Lotfi Kolsi, Amani Kolsi, Business Software and services, Label",
-   "secteur": "2",
-   "resultat": "Label Accordé au 3 ème Tour"
-  },
-  {
-   "societe": "RYBSEN",
-   "fondateurs": "Yassine Rezgui, Adnene Rezgui, Environment, Label, N.A, N.A, N.A, N.A",
-   "secteur": "5",
-   "resultat": "Label Accordé au 3 ème Tour"
-  },
-  {
-   "societe": "ZKBDI Protocol",
-   "fondateurs": "Mohamed Aymen Ben Abdallah, Fintech, Prélabel",
-   "secteur": "6",
-   "resultat": "Prélabel Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "OORB Open Organic Robotics",
-   "fondateurs": "Kayoum Djedidi, Azer ben abdallah, Bassem Gouti, Basly Asma, Advanced Manufacturing & Robotics, Prélabel",
-   "secteur": "5",
-   "resultat": "Prélabel Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "MEMORALITY",
-   "fondateurs": "Mariem Kamoun, Ouael Ben Amara, Mohamed Alaaeddine Ben Hamza, Business Software and services, Prélabel",
-   "secteur": "6",
-   "resultat": "Prélabel Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Lura",
-   "fondateurs": "Sana Sammari, Chadha Grami, Business Software and services, Prélabel",
-   "secteur": "6",
-   "resultat": "Prélabel Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "ECOCODE",
-   "fondateurs": "Ghazi Mhiri, Ghassen Ghribi, Ons Njeh, Business Software and services, Prélabel",
-   "secteur": "6",
-   "resultat": "Prélabel Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Namlatic",
-   "fondateurs": "Amara Amaouz, TravelTech, Prélabel",
-   "secteur": "6",
-   "resultat": "Prélabel Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "HAROON",
-   "fondateurs": "Wafa Makni, Social Business, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Accordé au 3 ème Tour"
-  },
-  {
-   "societe": "YESS MIND SOLUTIONS",
-   "fondateurs": "Alaeddine Mansouri, HealthTech, Label",
-   "secteur": "0",
-   "resultat": "Label Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "DOCNET",
-   "fondateurs": "Emna Ouerchfani, Ramzi Salem, Issam Guezmir, Ajmi ouerchfani, Abbassi Mohamed, Mohamed Bechir Kefi, Montassar Zorgani, Fadwa Jenzri, Safi Chaabene, HealthTech, Label",
-   "secteur": "0",
-   "resultat": "Label Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "NEUTRINO",
-   "fondateurs": "Mohamed Mourad Bejaoui, Boubaker Jemni, Kamel Moussa, Fintech, Label",
-   "secteur": "0",
-   "resultat": "Label Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Youssef Almia",
-   "fondateurs": "Slim Almia, EdTech, Label",
-   "secteur": "0",
-   "resultat": "Label Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "OPTIMIZI TECH",
-   "fondateurs": "Mohamed Fakher Mhiri, Zied Zouaoui, Med Yassine Baccouche, Seif Ben Mansour, FoodTech & New Food, Label",
-   "secteur": "0",
-   "resultat": "Label Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Magic Real Solution",
-   "fondateurs": "Floriano Arcaro, EdTech, Label",
-   "secteur": "0",
-   "resultat": "Label Non Accordé au 3 ème Tour"
-  },
-  {
-   "societe": "DEEPROF",
-   "fondateurs": "Ayoub Abraich, Omar Kouki, EdTech, Label",
-   "secteur": "0",
-   "resultat": "Label Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Vortex Battle",
-   "fondateurs": "Khaled Ben ammar, Mohamed Khalil Kouki, Ad Tech and Creative Tech, Label",
-   "secteur": "0",
-   "resultat": "Label Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Designland",
-   "fondateurs": "Mohamed Benyaiche, Mohamed Chams Eddine Frikha, Amara Rayen, Hamza Trabelsi, Ad Tech and Creative Tech, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "NovaPyramidReef-NPR",
-   "fondateurs": "Mongi Souissi, Mohamed Fdhila, Islem Ghazaoui, Environment, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Boulaares Houssem",
-   "fondateurs": "Baha Eddine Khelifi, TravelTech, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "AgricoTech",
-   "fondateurs": "Azer Guesmi, Amal Trabelsi, Mohamed Iheb Bouraoui, Abdelkader Borcheni, Agritech, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "HEIA",
-   "fondateurs": "Yesmine Ben Ameur, Sirine Ben Ameur, Karim Ben Sghaier, Consumer products and services, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "BxB Studio",
-   "fondateurs": "Yassine Boumaiza, Ad Tech and Creative Tech, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Nuzhet",
-   "fondateurs": "Felhi Bahaeddine, Abidii Hassen, Radhwen Moslah, EdTech, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "NEXD.PM",
-   "fondateurs": "Mehdi Bhiri, Business Software and services, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Tak Tak",
-   "fondateurs": "Alaa Ben Said, Mohamed Aziz Ben Said, Sonia Najjar, Mobility, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Doxaria",
-   "fondateurs": "Walid Msekni, Ghassen Bettaieb, Kaies Lamiri, Mohamed Dhouib, Wassim Znaidi, Business Software and services, Prélabel",
-   "secteur": "2",
-   "resultat": "Prélabel Non Accordé au 3 ème Tour"
-  },
-  {
-   "societe": "Smart work",
-   "fondateurs": "Nizar Ben Younes, Bilel Najeh, Rania Haddad, Business Software and services, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 3 ème Tour"
-  },
-  {
-   "societe": "NOURRICO",
-   "fondateurs": "Mohamed Youssef Sghaier, Omar Mokadem, Achraf Trad, Sami Tfifha, FoodTech & New Food, Prélabel",
-   "secteur": "1",
-   "resultat": "Prélabel Non Accordé au 3 ème Tour"
-  },
-  {
-   "societe": "Blend Pixel Studio",
-   "fondateurs": "Omar Zouari, Mohamed Achraf Zouari, Consumer products and services, Prélabel",
-   "secteur": "1",
-   "resultat": "Prélabel Non Accordé au 3 ème Tour"
-  },
-  {
-   "societe": "PayTouch OÜ ( Point of Sales )",
-   "fondateurs": "Riadh Haddad, Fintech, Label, N.A, N.A, N.A, N.A, N.A, N.A, Label Non Accordé au 1er Tour, Passage de Prélabels aux Labels, Projet, Société, Fondateurs, Secteur, Session d'obtention",
-   "secteur": "du Prélabel",
-   "resultat": "Résultat"
-  },
-  {
-   "societe": "Commentaires",
-   "fondateurs": "",
-   "secteur": "In2-technologies",
-   "resultat": ""
-  },
-  {
-   "societe": "Selim Hadj Khalifa",
-   "fondateurs": "Ilyes Tlili, Business Software and services, Octobre 2024, Label accordé, Label accordé suite à la création de la Startup et le respect des conditions d'octroi, U!Now, Custo Nova Solutions, Amira Bacha, Oussama Elayeb, Amani Bacha, EdTech, Mai 2024, Label accordé, Label accordé suite à la création de la Startup et le respect des conditions d'octroi, Retraits Labels, Société, Secteur, Session d'obtention",
-   "secteur": "du Label",
-   "resultat": "Décision"
-  },
-  {
-   "societe": "Commentaires",
-   "fondateurs": "Comptoir Général de la Mode, Commerce & Shopping, Janvier 2021, Retrait du Label, La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-",
-   "secteur": "2018 pour les sociétés bénéficiaires du Label",
-   "resultat": "Incept Solutions"
-  },
-  {
-   "societe": "Ad Tech & Creative Tech",
-   "fondateurs": "Juillet 2019, Retrait du Label, La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-",
-   "secteur": "2018 pour les sociétés bénéficiaires du Label",
-   "resultat": ""
+  "session": "11/2024",
+  "annee": 2024,
+  "mois": 11,
+  "pdf": "session_2024_11.pdf",
+  "nb_entrees": 23,
+  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
+  "entrees": [
+    {
+      "societe": "esteps Health",
+      "fondateurs": "Nidhal Louhichi, Abdelhamid Chaoua",
+      "secteur": "HealthTech",
+      "resultat": "label accorde au 2 eme tour"
+    },
+    {
+      "societe": "CAREDIFY",
+      "fondateurs": "Radhia Bensaed, Brahim Douar",
+      "secteur": "HealthTech",
+      "resultat": "label accorde au 2 eme tour"
+    },
+    {
+      "societe": "Next Wave Industries",
+      "fondateurs": "Mamadou Diouf, Iyed Ghribi",
+      "secteur": "Advanced Manufacturing & Robotics",
+      "resultat": "label accorde au 2 eme tour"
+    },
+    {
+      "societe": "Mobilité Canada",
+      "fondateurs": "Yves Laprise, Najoua El hachimi, Meriam Ben doudou, Rahma Bendoudou",
+      "secteur": "Business Software and services",
+      "resultat": "label accorde au 2 eme tour"
+    },
+    {
+      "societe": "Sheapit",
+      "fondateurs": "Ltaief Khalil, Ahmed Mayara, Ahmed Amine Ben Doudou, Yosra Ouertani",
+      "secteur": "Business Software and services",
+      "resultat": "label accorde au 2 eme tour"
+    },
+    {
+      "societe": "Kidcare",
+      "fondateurs": "Hamza Bentoumi, Rim Ben mansour",
+      "secteur": "Security",
+      "resultat": "label accorde au 2 eme tour"
+    },
+    {
+      "societe": "9esmi",
+      "fondateurs": "Aziz Toujani, Khalil Ben Cherifa, Nadhir Khayati",
+      "secteur": "EdTech",
+      "resultat": "label accorde au 2 eme tour"
+    },
+    {
+      "societe": "SKILINK AI",
+      "fondateurs": "Naoufel Khayati, Ahmed Jedidi",
+      "secteur": "Business Software and services",
+      "resultat": "label accorde au 3 eme tour"
+    },
+    {
+      "societe": "Techno Shark",
+      "fondateurs": "Hsan Jedidi, Ali Jedidi",
+      "secteur": "Ad Tech and Creative Tech",
+      "resultat": "label accorde au 3 eme tour"
+    },
+    {
+      "societe": "WiseShare",
+      "fondateurs": "Skander Harzi, Lotfi Kolsi",
+      "secteur": "Business Software and services",
+      "resultat": "label accorde au 3 eme tour"
+    },
+    {
+      "societe": "Lynx-ERP",
+      "fondateurs": "Amani Kolsi, Yassine Rezgui",
+      "secteur": "Business Software and services",
+      "resultat": "label accorde au 3 eme tour"
+    },
+    {
+      "societe": "RYBSEN",
+      "fondateurs": "Adnene Rezgui",
+      "secteur": "Environment",
+      "resultat": "label accorde au 3 eme tour"
+    },
+    {
+      "societe": "ZKBDI Protocol",
+      "fondateurs": "Mohamed Aymen Ben Abdallah, Kayoum Djedidi, Azer ben abdallah",
+      "secteur": "Fintech",
+      "resultat": "prelabel accorde au 2 eme tour"
+    },
+    {
+      "societe": "OORB Open Organic Robotics",
+      "fondateurs": "Bassem Gouti, Basly Asma, Mariem Kamoun",
+      "secteur": "Advanced Manufacturing & Robotics",
+      "resultat": "prelabel accorde au 2 eme tour"
+    },
+    {
+      "societe": "MEMORALITY",
+      "fondateurs": "Ouael Ben Amara, Mohamed Alaaeddine Ben Hamza, Sana Sammari",
+      "secteur": "Business Software and services",
+      "resultat": "prelabel accorde au 2 eme tour"
+    },
+    {
+      "societe": "Lura",
+      "fondateurs": "Chadha Grami, Ghazi Mhiri",
+      "secteur": "Business Software and services",
+      "resultat": "prelabel accorde au 2 eme tour"
+    },
+    {
+      "societe": "ECOCODE",
+      "fondateurs": "Ghassen Ghribi, Ons Njeh",
+      "secteur": "Business Software and services",
+      "resultat": "prelabel accorde au 2 eme tour"
+    },
+    {
+      "societe": "Namlatic",
+      "fondateurs": "Amara Amaouz",
+      "secteur": "TravelTech",
+      "resultat": "prelabel accorde au 2 eme tour"
+    },
+    {
+      "societe": "HAROON",
+      "fondateurs": "Wafa Makni",
+      "secteur": "Social Business",
+      "resultat": "prelabel accorde au 3 eme tour"
+    },
+    {
+      "societe": "In2-technologies IN2 TECHNOLOGIES",
+      "fondateurs": "Ilyes Tlili, Amira Bacha",
+      "secteur": "Business Software and services",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "U!Now Custo Nova Solutions",
+      "fondateurs": "Oussama Elayeb, Amani Bacha",
+      "secteur": "EdTech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Société Secteur Comptoir Général de la Mode Commerce & Shopping",
+      "fondateurs": "",
+      "secteur": "Janvier",
+      "resultat": "Décision Commentaires"
+    },
+    {
+      "societe": "Incept Solutions",
+      "fondateurs": "",
+      "secteur": "",
+      "resultat": "La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-"
+    }
+  ],
+  "session_data": {
+    "candidatures": 41,
+    "labels": 14,
+    "preLabels": 7,
+    "taux_acceptation_pct": 34.1,
+    "statut": "conforme",
+    "retraits": 0,
+    "conversions": 0,
+    "newLabels": 14
   }
- ],
- "session_data": {
-  "candidatures": 41,
-  "labels": 14,
-  "preLabels": 7,
-  "taux_acceptation_pct": 34.1,
-  "statut": "conforme",
-  "retraits": 2,
-  "conversions": 2,
-  "newLabels": 12
- }
 }

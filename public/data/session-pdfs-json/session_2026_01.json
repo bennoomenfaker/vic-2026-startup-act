@@ -1,380 +1,206 @@
 {
- "session": "01/2026",
- "annee": 2026,
- "mois": 1,
- "pdf": "session_2026_01.pdf",
- "nb_entrees": 58,
- "source": "Extraction des PDF officiels des sessions — startup.gov.tn (voir Corrections)",
- "entrees": [
-  {
-   "societe": "Startup Act | Session 82 | Janvier 2026 | Compte-Rendu",
-   "fondateurs": "Société, Fondateurs, Secteur, Label/Prélabel",
-   "secteur": "1er Tour",
-   "resultat": ""
-  },
-  {
-   "societe": "Résultat",
-   "fondateurs": "Recevabilité, Pitching, Conflit, IMMUNO KAAR : (IMMU CAR-, DER ) : Gamme de Phyto",
-   "secteur": "médicaments spécifiques",
-   "resultat": "pour: immunité, cardiologie"
-  },
-  {
-   "societe": "ZOHRA KECHIDA",
-   "fondateurs": "Ilem hassairi, HealthTech, Label",
-   "secteur": "5",
-   "resultat": "Label Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Arcube",
-   "fondateurs": "Harvey Lowe, Prithveesh Nallamilli, Fintech, Label",
-   "secteur": "6",
-   "resultat": "Label Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Hassen Aarfaoui a déclaré avoir un conflit",
-   "fondateurs": "",
-   "secteur": "d'intérêt",
-   "resultat": "GoToGreen"
-  },
-  {
-   "societe": "Nour Jdey",
-   "fondateurs": "Ferid Kamel, Environment, Label",
-   "secteur": "4",
-   "resultat": "Label Accordé au 3 ème Tour"
-  },
-  {
-   "societe": "Hassen Aarfaoui a déclaré avoir un conflit",
-   "fondateurs": "",
-   "secteur": "d'intérêt",
-   "resultat": "OTARI"
-  },
-  {
-   "societe": "Youssef Abdeljaoued",
-   "fondateurs": "Raed Seddik, Commerce and",
-   "secteur": "shopping",
-   "resultat": "Prélabel"
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel Accordé au 2 ème Tour, Yes-Sir, FEDI SOUILEM, Ad Tech and Creative, Tech, Prélabel",
-   "secteur": "6",
-   "resultat": "Prélabel Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "HopeVisionAI",
-   "fondateurs": "",
-   "secteur": "amira karoui",
-   "resultat": "Oussama Cherni"
-  },
-  {
-   "societe": "HealthTech",
-   "fondateurs": "Prélabel",
-   "secteur": "6",
-   "resultat": "Prélabel Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Mehdi Nakouri a déclaré avoir un conflit",
-   "fondateurs": "",
-   "secteur": "d'intérêt",
-   "resultat": "SAHTEE"
-  },
-  {
-   "societe": "Slaheddine Dardouri",
-   "fondateurs": "HealthTech, Prélabel",
-   "secteur": "6",
-   "resultat": "Prélabel Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Hassen Aarfaoui a déclaré avoir un conflit",
-   "fondateurs": "",
-   "secteur": "d'intérêt",
-   "resultat": "ALBUPAD-NA"
-  },
-  {
-   "societe": "Eya ALOUI",
-   "fondateurs": "HealthTech, Prélabel",
-   "secteur": "7",
-   "resultat": "Prélabel Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Riyasol",
-   "fondateurs": "Asma Ferchichi, Houda Ferchichi, Business Software",
-   "secteur": "and services",
-   "resultat": "Prélabel"
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel Accordé au 2 ème Tour, Qubit Labs Tunis, Marouane Salhi, Hatem Eldakhakhni, Business Software",
-   "secteur": "and services",
-   "resultat": "Prélabel"
-  },
-  {
-   "societe": "Prélabel Accordé au 3 ème Tour",
-   "fondateurs": "Hassen Aarfaoui a déclaré avoir un conflit",
-   "secteur": "d'intérêt",
-   "resultat": "Nuraxis Ai"
-  },
-  {
-   "societe": "Hammadi Kadri",
-   "fondateurs": "Mohamed KADRI, Wissal Rouabeh, HealthTech, Label",
-   "secteur": "1",
-   "resultat": "Label Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "The Landlord Manager",
-   "fondateurs": "Farouk Ben Achour, Real Estate Tech, Label",
-   "secteur": "0",
-   "resultat": "Label Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "TFCx",
-   "fondateurs": "Rached Khalil, Mariem Babay Rouis, Fintech, Label",
-   "secteur": "0",
-   "resultat": "Label Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "DURABILIS CONSULTING",
-   "fondateurs": "Yassine RAHMOUNI, Tahar Rahmouni, RAHMOUNI Yassine, Environment, Label",
-   "secteur": "0",
-   "resultat": "Label Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "RDVEXPRESS",
-   "fondateurs": "Noureddine DBOUBA, Business Software",
-   "secteur": "and services",
-   "resultat": "Label"
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label Non Accordé au 2 ème Tour, Automatizi, Lassaad Ben Rejeb, Yosra Youssef, Consumer products",
-   "secteur": "and services",
-   "resultat": "Label"
-  },
-  {
-   "societe": "Label Non Accordé au 3 ème Tour",
-   "fondateurs": "TINNOBOTICS, Gharssallah Alaa, Mohamed Firas Gabsi, Advanced, Manufacturing &, Robotics, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Attoset - The Work OS for",
-   "fondateurs": "Intelligent Work, Management, Youssef Mejri, Rayen Inoubli, Mohamed habib Grami, Chaima Ben Mahmoud, Business Software",
-   "secteur": "and services",
-   "resultat": "Prélabel"
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel Non Accordé au 2 ème Tour, GensisCode",
-   "secteur": "yassin gmati",
-   "resultat": "maram guenouati"
-  },
-  {
-   "societe": "EdTech",
-   "fondateurs": "Prélabel",
-   "secteur": "1",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Nexor Robotics",
-   "fondateurs": "",
-   "secteur": "mohamed amine ziedi",
-   "resultat": "Naim Ezzdini"
-  },
-  {
-   "societe": "Manar Daghsni",
-   "fondateurs": "Oussama Yaakoubi, Sonia Amamou, Advanced, Manufacturing &, Robotics, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "CvHub",
-   "fondateurs": "Ali Nahdi, Ad Tech and Creative, Tech, Prélabel",
-   "secteur": "1",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "CarthaPos",
-   "fondateurs": "Oussama ferjani, Mohamed ali Mankai, Business Software",
-   "secteur": "and services",
-   "resultat": "Prélabel"
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel Non Accordé au 2 ème Tour, OpenSOC, Mohamed Karim KECHALFI, Security, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "SM Drone",
-   "fondateurs": "Skander Amamou, Farah Chenchah, Advanced, Manufacturing &, Robotics, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Eyproc",
-   "fondateurs": "",
-   "secteur": "saif ouhaibi",
-   "resultat": "Jaweher Khmiri"
-  },
-  {
-   "societe": "Naceur ELLOUZE",
-   "fondateurs": "Business Software",
-   "secteur": "and services",
-   "resultat": "Prélabel"
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel Non Accordé au 2 ème Tour, Hassen Aarfaoui a déclaré avoir un conflit",
-   "secteur": "d'intérêt",
-   "resultat": "JeelQuest"
-  },
-  {
-   "societe": "Sabrine Hamrouni",
-   "fondateurs": "Charrad Chamseddine",
-   "secteur": "ala Akrichi",
-   "resultat": "Badereddine Fadhlaoui"
-  },
-  {
-   "societe": "Hatem Benechikh",
-   "fondateurs": "Social Business, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Mohamed Amine Mhadhbi",
-   "fondateurs": "Agritech, Prélabel",
-   "secteur": "3",
-   "resultat": "Prélabel Non Accordé au 3 ème Tour"
-  },
-  {
-   "societe": "Hassen Aarfaoui a déclaré avoir un conflit",
-   "fondateurs": "",
-   "secteur": "d'intérêt",
-   "resultat": "AL BAYEN"
-  },
-  {
-   "societe": "BEN YAGOUTA Abdelbari",
-   "fondateurs": "Wrida BEN YAGOUTA, Advanced, Manufacturing &, Robotics, Prélabel",
-   "secteur": "2",
-   "resultat": "Prélabel Non Accordé au 3 ème Tour"
-  },
-  {
-   "societe": "Enissay Studio",
-   "fondateurs": "Yassine Sellami, Siwar Fourati",
-   "secteur": "wael sellami",
-   "resultat": "Mohamed Ilyas Abdelkefi"
-  },
-  {
-   "societe": "Ad Tech and Creative",
-   "fondateurs": "Tech, Prélabel",
-   "secteur": "4",
-   "resultat": "Prélabel Non Accordé au 3 ème Tour"
-  },
-  {
-   "societe": "BNJMO Studios",
-   "fondateurs": "Mohamed Ben Jazia, Ad Tech and Creative, Tech, Label, N.A, N.A, N.A, N.A, N.A, N.A, Label Non Accordé au 1 er Tour pour non",
-   "secteur": "soumission de documents des états financiers",
-   "resultat": "de L’exercice 2024. Ces Documents sont exigés"
-  },
-  {
-   "societe": "Passage de Prélabels aux Labels",
-   "fondateurs": "Projet, Société, Fondateurs, Secteur, Session d'obtention",
-   "secteur": "du Prélabel",
-   "resultat": "Résultat"
-  },
-  {
-   "societe": "Commentaires",
-   "fondateurs": "Rhizome, Rhizome Agency, Adnène Bouderbala, HealthTech, Août 2025, Label accordé, Label accordé suite à la création de la Startup et le respect des conditions d'octroi, Compta Smart Solutions, SaisI Ar, Ahmed Zahaf",
-   "secteur": "Mohamed Elyas Bazazi",
-   "resultat": "Hedi Zahaf"
-  },
-  {
-   "societe": "Business Software and services",
-   "fondateurs": "Octobre 2025, Label accordé, Label accordé suite à la création de la Startup et le respect des conditions d'octroi, DIA Industries, DIA INDUSTRIES, Mohamed Yessine KSIBI, Dia Ali, Hamza Bouajila, Mehdi ZAYET, Advanced Manufacturing & Robotics, Septembre 2025, Label accordé, Label accordé suite à la création de la Startup et le respect des conditions d'octroi, Dash Master, Dash Master",
-   "secteur": "ahmed walha",
-   "resultat": "Achraf Karoui"
-  },
-  {
-   "societe": "Business Software and services",
-   "fondateurs": "Décembre 2025, Label accordé, Label accordé suite à la création de la Startup et le respect des conditions d'octroi, ERPY, ERPY NEXT, Ali Nasr, Business Software and services, Août 2025, Label accordé, Label accordé suite à la création de la Startup et le respect des conditions d'octroi, Park & Charge, Park and charge, Rami Hedfi, Zied Bradai, Ghassen Chattouna, Mobility, Août 2025, Label accordé, Label accordé suite à la création de la Startup et le respect des conditions d'octroi, Ligalo, Ligalo Technologies, Alaa Adouni, Salem Moussa Adouni, Business Software and services, Septembre 2025, Label accordé, Label accordé suite à la création de la Startup et le respect des conditions d'octroi, Retraits Labels, Société, Secteur, Session d'obtention",
-   "secteur": "du Label",
-   "resultat": "Décision"
-  },
-  {
-   "societe": "Commentaires",
-   "fondateurs": "Bus Software, IoT",
-   "secteur": "avril 2019",
-   "resultat": "Retrait du Label"
-  },
-  {
-   "societe": "La société a dépassé l'âge maximum de 8 ans fixé par",
-   "fondateurs": "",
-   "secteur": "la loi 20-2018 pour les sociétés bénéficiaires du Label",
-   "resultat": "Echo SARL"
-  },
-  {
-   "societe": "Retrait du Label",
-   "fondateurs": "La société a dépassé l'âge maximum de 8 ans fixé par",
-   "secteur": "la loi 20-2018 pour les sociétés bénéficiaires du Label",
-   "resultat": "Arion Technologies"
-  },
-  {
-   "societe": "Logiciel",
-   "fondateurs": "",
-   "secteur": "avril 2020",
-   "resultat": "Retrait du Label"
-  },
-  {
-   "societe": "La société a dépassé l'âge maximum de 8 ans fixé par",
-   "fondateurs": "",
-   "secteur": "la loi 20-2018 pour les sociétés bénéficiaires du Label",
-   "resultat": "Smart Insurance"
-  },
-  {
-   "societe": "Insurance Tech",
-   "fondateurs": "",
-   "secteur": "juillet 2019",
-   "resultat": "Retrait du Label"
-  },
-  {
-   "societe": "La société a dépassé l'âge maximum de 8 ans fixé par",
-   "fondateurs": "",
-   "secteur": "la loi 20-2018 pour les sociétés bénéficiaires du Label",
-   "resultat": "Swiver Invest"
-  },
-  {
-   "societe": "Fintech",
-   "fondateurs": "",
-   "secteur": "mai 2019",
-   "resultat": "Retrait du Label"
-  },
-  {
-   "societe": "La société a dépassé l'âge maximum de 8 ans fixé par",
-   "fondateurs": "",
-   "secteur": "la loi 20-2018 pour les sociétés bénéficiaires du Label",
-   "resultat": ""
-  }
- ],
- "session_data": {
-  "candidatures": 31,
-  "labels": 10,
-  "preLabels": 7,
-  "taux_acceptation_pct": 32.3,
-  "statut": "corrigee",
-  "correction": {
-   "anciennes_valeurs": {
-    "labels": 9,
-    "preLabels": 7
-   },
-   "valeurs_corrigees": {
+  "session": "01/2026",
+  "annee": 2026,
+  "mois": 1,
+  "pdf": "session_2026_01.pdf",
+  "nb_entrees": 28,
+  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
+  "entrees": [
+    {
+      "societe": "IMMUNO KAAR : (IMMU CAR- DER ) : Gamme de Phyto médicaments spécifiques pour: immunité, cardiologie carcinologie, cicatrisation et dermopharmacie .",
+      "fondateurs": "ZOHRA KECHIDA, Ilem hassairi, Harvey Lowe",
+      "secteur": "HealthTech",
+      "resultat": "label accorde au 2 eme tour"
+    },
+    {
+      "societe": "OTARI",
+      "fondateurs": "Raed Seddik",
+      "secteur": "shopping",
+      "resultat": "prelabel accorde au 2 eme tour"
+    },
+    {
+      "societe": "Yes-Sir",
+      "fondateurs": "FEDI SOUILEM, amira karoui",
+      "secteur": "Tech",
+      "resultat": "prelabel accorde au 2 eme tour"
+    },
+    {
+      "societe": "HopeVisionAI",
+      "fondateurs": "",
+      "secteur": "HealthTech",
+      "resultat": ""
+    },
+    {
+      "societe": "ALBUPAD-NA Riyasol",
+      "fondateurs": "Eya ALOUI, Asma Ferchichi, Houda Ferchichi, Marouane Salhi",
+      "secteur": "HealthTech",
+      "resultat": "prelabel accorde au 2 eme tour"
+    },
+    {
+      "societe": "Nuraxis Ai",
+      "fondateurs": "Mohamed KADRI, Wissal Rouabeh",
+      "secteur": "HealthTech",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "The Landlord Manager",
+      "fondateurs": "Farouk Ben Achour, Rached Khalil",
+      "secteur": "Real Estate Tech",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "TFCx",
+      "fondateurs": "Mariem Babay Rouis, Yassine RAHMOUNI",
+      "secteur": "Fintech",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "DURABILIS CONSULTING",
+      "fondateurs": "Tahar Rahmouni, RAHMOUNI Yassine",
+      "secteur": "Environment",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "RDVEXPRESS Automatizi",
+      "fondateurs": "Noureddine DBOUBA, Lassaad Ben Rejeb, Yosra Youssef, Gharssallah Alaa",
+      "secteur": "and services",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "TINNOBOTICS Attoset - The Work OS for Intelligent Work Management",
+      "fondateurs": "Mohamed Firas Gabsi, Youssef Mejri, Rayen Inoubli, Mohamed habib Grami, Chaima Ben Mahmoud, yassin gmati",
+      "secteur": "Manufacturing &",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "GensisCode",
+      "fondateurs": "maram guenouati, mohamed amine ziedi, Naim Ezzdini",
+      "secteur": "EdTech",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Nexor Robotics",
+      "fondateurs": "Manar Daghsni, Oussama Yaakoubi, Sonia Amamou",
+      "secteur": "Manufacturing &",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "CvHub CarthaPos",
+      "fondateurs": "Ali Nahdi, Oussama ferjani, Mohamed ali Mankai",
+      "secteur": "Tech",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "OpenSOC",
+      "fondateurs": "Mohamed Karim KECHALFI, Skander Amamou",
+      "secteur": "Security",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "SM Drone",
+      "fondateurs": "Farah Chenchah",
+      "secteur": "Manufacturing &",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Rhizome Rhizome Agency",
+      "fondateurs": "Adnène Bouderbala, Ahmed Zahaf",
+      "secteur": "HealthTech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Compta Smart Solutions SaisI Ar",
+      "fondateurs": "Mohamed Elyas Bazazi, Hedi Zahaf, Mohamed Yessine KSIBI, Dia Ali",
+      "secteur": "Business Software and services",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "DIA Industries DIA INDUSTRIES",
+      "fondateurs": "Hamza Bouajila, Mehdi ZAYET, ahmed walha",
+      "secteur": "Advanced Manufacturing & Robotics",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Dash Master Dash Master",
+      "fondateurs": "Achraf Karoui",
+      "secteur": "Business Software and services",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "ERPY ERPY NEXT",
+      "fondateurs": "Ali Nasr, Rami Hedfi",
+      "secteur": "Business Software and services",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Park & Charge Park and charge",
+      "fondateurs": "Zied Bradai, Ghassen Chattouna, Alaa Adouni",
+      "secteur": "Mobility",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Ligalo Ligalo Technologies",
+      "fondateurs": "Salem Moussa Adouni",
+      "secteur": "Business Software and services",
+      "resultat": "Septembre 2025"
+    },
+    {
+      "societe": "Société Secteur Bus Software IoT",
+      "fondateurs": "",
+      "secteur": "avril",
+      "resultat": "Décision Commentaires"
+    },
+    {
+      "societe": "Echo SARL IT",
+      "fondateurs": "",
+      "secteur": "mai",
+      "resultat": ""
+    },
+    {
+      "societe": "Arion Technologies Logiciel",
+      "fondateurs": "",
+      "secteur": "avril",
+      "resultat": ""
+    },
+    {
+      "societe": "Smart Insurance Insurance Tech",
+      "fondateurs": "",
+      "secteur": "juillet",
+      "resultat": ""
+    },
+    {
+      "societe": "Swiver Invest Fintech",
+      "fondateurs": "",
+      "secteur": "mai",
+      "resultat": ""
+    }
+  ],
+  "session_data": {
+    "candidatures": 31,
     "labels": 10,
-    "preLabels": 7
-   },
-   "raison": "3 nouveaux labels + 7 conversions − 5 retraits = 10",
-   "commentaires_pdf": "03 Labels et 06 Prélabels à Labels"
-  },
-  "retraits": 5,
-  "conversions": 7,
-  "newLabels": 3
- }
+    "preLabels": 7,
+    "taux_acceptation_pct": 32.3,
+    "statut": "corrigee",
+    "retraits": 0,
+    "conversions": 0,
+    "newLabels": 10,
+    "correction": {
+      "session": "01/2026",
+      "candidatures": 31,
+      "old": {
+        "labels": 9,
+        "preLabels": 7,
+        "taux": "29.0"
+      },
+      "new": {
+        "labels": 10,
+        "preLabels": 7,
+        "tauxExact": 32.258065,
+        "taux": "32.3",
+        "echec": "67.7"
+      },
+      "reason": "3 nouveaux labels + 7 conversions − 5 retraits = 10. Écart documentaire candidatures : sessions.json annonce 31 candidatures, mais le CR/PDF officiel (Session 82) liste 30 dossiers (24 page 1 + 6 page 2) — aucune mention « ajourné » ; 1 candidature non identifiable par recoupement. Les 10 labels officiels (3 labels + 7 conversions) et les 7 prélabels sont confirmés par le CR. Ne pas recalculer le taux officiel 10/31 = 32,3 % sur une base de 30.",
+      "commentaires": "03 Labels et 06 Prélabels à Labels (commentaire officiel erroné : 7 conversions réelles, total labels 10 cohérent)"
+    }
+  }
 }

@@ -1,242 +1,194 @@
 {
- "session": "06/2019",
- "annee": 2019,
- "mois": 6,
- "pdf": "session_2019_06.pdf",
- "nb_entrees": 35,
- "source": "Extraction des PDF officiels des sessions — startup.gov.tn (voir Corrections)",
- "entrees": [
-  {
-   "societe": "Startup Act | Session 3 | Juin 2019 | Compte-Rendu",
-   "fondateurs": "Société, Fondateurs, Secteur, Label/Prélabel",
-   "secteur": "1er Tour",
-   "resultat": ""
-  },
-  {
-   "societe": "Résultat",
-   "fondateurs": "Commentaires, Recevabilité, Pitching, Conflit, DEEPERA, Faouzi Moussa, Mustapha Boughzou, Fintech, Label",
-   "secteur": "oui",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Mohamed Salah Frad a déclaré un conflit d'intérêt, FABSKILL, Sofiane Mabrouk, Bechir Afifi, Mohamed Ben Sfar, HR Tech, Label",
-   "secteur": "oui",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Ali Mnif et Zakaria Belkhoja ont déclaré un conflit d'intérêt, MajestEYE, Jihed Hannachi, Rabie Saidi, Soufien Ben Hamza",
-   "secteur": "AI",
-   "resultat": "Label"
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, HERUNDO, Nizar Bouguila, Bessem Jallouli, Mohamed Boujelbane, E-Commerce, Label",
-   "secteur": "oui",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, BioIntrants Technologie, Yassine Ben Menadi, Chedli Ben Menadi, Biotechnologie, Label",
-   "secteur": "oui",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, JUNIOR NETWORK, Sahar Ben Rached, Zeineb Chabchoub, Oussema Ksontini, Edtech, Label",
-   "secteur": "oui",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Siteflow Factory, Samed Jalouali, Timothée Piette, Etienne Barrault, Louis Hauvette, Logiciel, Label",
-   "secteur": "oui",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Insight+, Adel Jenni, Imed Kouki, Fintech, Label",
-   "secteur": "oui",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, DATAERA, Hedi Zouari, Maher Heni, Big Data, Label",
-   "secteur": "oui",
-   "resultat": ""
-  },
-  {
-   "societe": "Label accordé",
-   "fondateurs": "Label accordé après pitching, SF Technologies, Mohamed Taher, Hammami, Fintech, Label",
-   "secteur": "oui",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé après pitching, Zakaria Belkhoja a déclaré un conflit d'intérêt, CREATIVE CULINARY, Aziz Ben Chedli, E-commerce, Label",
-   "secteur": "oui",
-   "resultat": ""
-  },
-  {
-   "societe": "Label accordé",
-   "fondateurs": "Label accordé après pitching, Elyes Jeribi, Ali Mnif et Zakaria Belkhoja ont déclaré un conflit d'intérêt, SAFOZI SARL, Zied Ouled Ali, Infrastructure, Label",
-   "secteur": "oui",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2eme tour, Zakaria Belkhoja a déclaré un conflit d'intérêt, NEXTPROTEIN TUNISIA, Mohamed Gastli, Syrine Chaalala, Agritech, Label",
-   "secteur": "oui",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, SENIATNA, Neil Boussofara, Logistique, Label",
-   "secteur": "oui",
-   "resultat": "Label accordé"
-  },
-  {
-   "societe": "Label accordé suite au pitching",
-   "fondateurs": "VME Internationale, Foued Ben Babis, Montassar Gharsa, Plateforme sociale, Prélabel",
-   "secteur": "oui",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Pré-label accordé, Pré-Label accordé dès le 2ème tour, Zoor, Mahdi Houli, Radhi Houli, E-commerce, Prélabel",
-   "secteur": "oui",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Pré-label accordé, Pré-Label accordé dès le 2ème tour, Natalista, Rim Besbes, Plateforme sociale, Prélabel",
-   "secteur": "oui",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Pré-label accordé, Pré-Label accordé dès le 2ème tour, Videsys, Abdelaziz Ktari, Walid Messaoudia, Media, Prélabel",
-   "secteur": "oui",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Pré-label accordé, Pré-Label accordé dès le 2ème tour, AYSHEK, Amine Dimassi, Mohamed Amine Baatout, E-commerce, Prélabel",
-   "secteur": "oui",
-   "resultat": ""
-  },
-  {
-   "societe": "Pré-label accordé",
-   "fondateurs": "Pré-Label accordé après pitching, Kidsbook, Mohamed Nadhir Belkhir, Hafedh Dziri, Ed tech, Prélabel",
-   "secteur": "oui",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Pré-label accordé, Pré-Label accordé dès le 2ème tour, Hezni Maak, Youssef Meksi, Plateforme sociale, Prélabel",
-   "secteur": "oui",
-   "resultat": ""
-  },
-  {
-   "societe": "Pré-label accordé",
-   "fondateurs": "Pré-Label accordé après pitching, Pool & Fish Farm Smart Water, Management “P&FF-SWM”, Afef Bohli, Sami Tabbane, IOT, Prélabel",
-   "secteur": "oui",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Pré-label accordé, Pré-Label accordé dès le 2ème tour, Massart Engineering, Mahdi Ghribi, Logiciel, Label",
-   "secteur": "oui",
-   "resultat": ""
-  },
-  {
-   "societe": "Label non-accordé",
-   "fondateurs": "Label non accordé après pitching, MyCity, Mohamed Sami Rahoui, Marketing, Prélabel",
-   "secteur": "oui",
-   "resultat": ""
-  },
-  {
-   "societe": "Label non-accordé",
-   "fondateurs": "Label non accordé après pitching, Tisopia, Wala Kasmi, Mohamed Boumiza, Structure d'appui",
-   "secteur": "(plateforme sociale)",
-   "resultat": "Label"
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label non-accordé, Label non accordé dès le 2ème tour, TUNMOB SA (DIGIT-U), Houssine Midouni, Insurance tech, Label",
-   "secteur": "oui",
-   "resultat": ""
-  },
-  {
-   "societe": "Label non-accordé",
-   "fondateurs": "Label non accordé après pitching, Zakaria Belkhoja a déclaré un conflit d'intérêt, SMAAO Tunisie, Amjed Ben Salah, Insurance tech, Label",
-   "secteur": "oui",
-   "resultat": ""
-  },
-  {
-   "societe": "Label non-accordé",
-   "fondateurs": "Label non accordé après pitching, IYADATI, Cheker Jarray, Health tech, Prélabel",
-   "secteur": "oui",
-   "resultat": ""
-  },
-  {
-   "societe": "Pré-label non-accordé",
-   "fondateurs": "Pré-Label non accordé après pitching, Aevny, Nacir Bouazizi, Ahmed Ben Marzoug, E-commerce, Prélabel",
-   "secteur": "oui",
-   "resultat": "Pré-label non-accordé"
-  },
-  {
-   "societe": "Pré-label non accordé dès le 2ème tour",
-   "fondateurs": "Elyes Jeribi a déclaré un conflit d'intérêt, Doctor Sina, Laaroussi Ben Younes, Health tech, Prélabel",
-   "secteur": "oui",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Pré-label non-accordé, Pré-label non accordé dès le 2ème tour, Iris technologies, Khaled Bouchoucha, Agritech, Label",
-   "secteur": "non",
-   "resultat": "Label non-accordé"
-  },
-  {
-   "societe": "Le dossier est irrecevable pour manque de documents requis par le",
-   "fondateurs": "",
-   "secteur": "décret 2018-840",
-   "resultat": "Agri Land"
-  },
-  {
-   "societe": "Saifeddine Kacem",
-   "fondateurs": "AyetAllah Hlaiem, Agritech, Label",
-   "secteur": "non",
-   "resultat": "Label non-accordé"
-  },
-  {
-   "societe": "Le dossier est irrecevable pour non conformité aux critères d'éligibilité",
-   "fondateurs": "",
-   "secteur": "décrits par le décret 2018-840",
-   "resultat": ""
-  }
- ],
- "session_data": {
-  "candidatures": 33,
-  "labels": 14,
-  "preLabels": 8,
-  "taux_acceptation_pct": 42.4,
-  "statut": "corrigee",
-  "correction": {
-   "anciennes_valeurs": {
-    "labels": 15,
-    "preLabels": 8
-   },
-   "valeurs_corrigees": {
+  "session": "06/2019",
+  "annee": 2019,
+  "mois": 6,
+  "pdf": "session_2019_06.pdf",
+  "nb_entrees": 26,
+  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
+  "entrees": [
+    {
+      "societe": "DEEPERA",
+      "fondateurs": "",
+      "secteur": "Fintech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "FABSKILL",
+      "fondateurs": "Bechir Afifi",
+      "secteur": "HR Tech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "MajestEYE",
+      "fondateurs": "Rabie Saidi, Soufien Ben Hamza, Nizar Bouguila",
+      "secteur": "AI",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "HERUNDO",
+      "fondateurs": "Bessem Jallouli, Mohamed Boujelbane, Yassine Ben Menadi",
+      "secteur": "E-Commerce",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "BioIntrants Technologie",
+      "fondateurs": "Chedli Ben Menadi, Sahar Ben Rached",
+      "secteur": "Biotechnologie",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "JUNIOR NETWORK",
+      "fondateurs": "Zeineb Chabchoub, Oussema Ksontini, Samed Jalouali, Timothée Piette",
+      "secteur": "Edtech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Siteflow Factory",
+      "fondateurs": "Etienne Barrault, Louis Hauvette, Adel Jenni",
+      "secteur": "Logiciel",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Insight+",
+      "fondateurs": "Imed Kouki, Hedi Zouari",
+      "secteur": "Fintech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "DATAERA",
+      "fondateurs": "Maher Heni, Mohamed Taher",
+      "secteur": "Big Data",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "SF Technologies",
+      "fondateurs": "",
+      "secteur": "Fintech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "CREATIVE CULINARY",
+      "fondateurs": "Aziz Ben Chedli",
+      "secteur": "E-commerce",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "SAFOZI SARL",
+      "fondateurs": "Zied Ouled Ali",
+      "secteur": "Infrastructure",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "NEXTPROTEIN TUNISIA",
+      "fondateurs": "Syrine Chaalala",
+      "secteur": "Agritech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "SENIATNA",
+      "fondateurs": "Neil Boussofara, Foued Ben Babis",
+      "secteur": "Logistique",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "VME Internationale",
+      "fondateurs": "Montassar Gharsa, Mahdi Houli",
+      "secteur": "Plateforme sociale",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Zoor",
+      "fondateurs": "Radhi Houli",
+      "secteur": "E-commerce",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Natalista",
+      "fondateurs": "Rim Besbes, Abdelaziz Ktari",
+      "secteur": "Plateforme sociale",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Videsys",
+      "fondateurs": "Walid Messaoudia, Amine Dimassi",
+      "secteur": "Media",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "AYSHEK",
+      "fondateurs": "Mohamed Amine Baatout, Mohamed Nadhir Belkhir",
+      "secteur": "E-commerce",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Kidsbook",
+      "fondateurs": "Hafedh Dziri",
+      "secteur": "Ed tech",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Hezni Maak",
+      "fondateurs": "Youssef Meksi",
+      "secteur": "Plateforme sociale",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Pool & Fish Farm Smart Water",
+      "fondateurs": "Afef Bohli",
+      "secteur": "IOT",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Management “P&FF-SWM”",
+      "fondateurs": "Sami Tabbane",
+      "secteur": "",
+      "resultat": ""
+    },
+    {
+      "societe": "Massart Engineering",
+      "fondateurs": "Mahdi Ghribi",
+      "secteur": "Logiciel",
+      "resultat": "1 7 Label non-accordé"
+    },
+    {
+      "societe": "MyCity",
+      "fondateurs": "Mohamed Sami Rahoui, Wala Kasmi",
+      "secteur": "Marketing",
+      "resultat": "1 7 Label non-accordé"
+    },
+    {
+      "societe": "Tisopia",
+      "fondateurs": "Mohamed Boumiza",
+      "secteur": "(plateforme sociale)",
+      "resultat": "N.A N.A Label non-accordé"
+    }
+  ],
+  "session_data": {
+    "candidatures": 33,
     "labels": 14,
-    "preLabels": 8
-   },
-   "raison": "14 labels (scrapé : 15)",
-   "commentaires_pdf": "1 ajourné à la session suivante"
-  },
-  "retraits": 0,
-  "conversions": 0,
-  "newLabels": 14
- }
+    "preLabels": 8,
+    "taux_acceptation_pct": 42.4,
+    "statut": "corrigee",
+    "retraits": 0,
+    "conversions": 0,
+    "newLabels": 14,
+    "correction": {
+      "session": "06/2019",
+      "candidatures": 33,
+      "old": {
+        "labels": 15,
+        "preLabels": 8,
+        "taux": "45.5"
+      },
+      "new": {
+        "labels": 14,
+        "preLabels": 8,
+        "tauxExact": 42.424242,
+        "taux": "42.4",
+        "echec": "57.6"
+      },
+      "reason": "14 labels (scrapé : 15)",
+      "commentaires": "1 ajourné à la session suivante"
+    }
+  }
 }

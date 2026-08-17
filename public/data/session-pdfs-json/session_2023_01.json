@@ -1,272 +1,206 @@
 {
- "session": "01/2023",
- "annee": 2023,
- "mois": 1,
- "pdf": "session_2023_01.pdf",
- "nb_entrees": 42,
- "source": "Extraction des PDF officiels des sessions — startup.gov.tn (voir Corrections)",
- "entrees": [
-  {
-   "societe": "Startup Act | Session 46 | Janvier 2023 | Compte-Rendu",
-   "fondateurs": "Société, Fondateurs, Secteur, Label/Prélabel",
-   "secteur": "1er Tour",
-   "resultat": ""
-  },
-  {
-   "societe": "Résultat",
-   "fondateurs": "Commentaires, Recevabilité, Pitching, Conflit, Bambinosit, Nivine Mussa, Essid Haithem, Consumer Product & Services, Label",
-   "secteur": "7",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Mohamed Salah Frad a déclaré un conflit d'intérêt, Dooda, Mhamed Ali Abassi, Omar Louzir, Aziz Kaouech, FoodTech & New Food, Label",
-   "secteur": "6",
-   "resultat": "Label accordé"
-  },
-  {
-   "societe": "Label accordé dès le 2ème tour",
-   "fondateurs": "Houda Ghozzi a déclaré avoir un conflit d'intérêt, Crop's Talk, Rabeb Fersi, Samir Chebil, Chahine Fersi, Yassine Awadni, Riadh Jomaa, Agritech, Label",
-   "secteur": "9",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Pixii Motors, Anis Fekih",
-   "secteur": "koutheir cherni",
-   "resultat": "Wafa Dhifi"
-  },
-  {
-   "societe": "Mobility",
-   "fondateurs": "Label",
-   "secteur": "8",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Houda Ghozzi a déclaré avoir un conflit d'intérêt, HawKar, Khadija Jallouli, Seifeddine Aissa, Mobility, Label",
-   "secteur": "9",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, IASOTWIN, Mohamed Moez Touil Touil, Mohamed Hamdi, Linda Touil, Yasmine Bziouech, Houcem Eddine Ben Lasfar, HealthTech, Label",
-   "secteur": "2",
-   "resultat": ""
-  },
-  {
-   "societe": "Label accordé",
-   "fondateurs": "Label accordé au 3ème tour, Smart For Green: Farm and, Forest Fire Protection, Sahli Nader, Sabri Sahli, Karim Fathallah, Rania Fathallah, Mohamed-Hedi Mellekh, Oussema Charbib, Wael Fathallah, Mohamed Ali Fathallah, Agritech, Prélabel",
-   "secteur": "9",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel accordé, Prélabel accordé dès le 2ème tour, DigiMove, Iheb Lourimi, Saif touzi, Haoua Guezguez, Nour Ladhari, Nassim Bensassi, Hfaiedh Bedoui, EdTech, Prélabel",
-   "secteur": "8",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel accordé, Prélabel accordé dès le 2ème tour, Boky, Mohamed Aziz Brinis, Othmane Barnis, TravelTech, Prélabel",
-   "secteur": "7",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel accordé, Prélabel accordé dès le 2ème tour, Train Your Mind, Ghofrane Ben Mabrouk, Mohamed Khalil Ben Chebil, Mohamed Salah Ouelhazi, HealthTech, Prélabel",
-   "secteur": "7",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel accordé, Prélabel accordé dès le 2ème tour, Mouqawel, Ikbel Sassi, Business Software & Services, Prélabel",
-   "secteur": "4",
-   "resultat": ""
-  },
-  {
-   "societe": "Prélabel accordé",
-   "fondateurs": "Prélabel accordé au 3ème tour, Link Park, Emna Skhiri, Omar Triki, Business Software & Services, Prélabel",
-   "secteur": "2",
-   "resultat": ""
-  },
-  {
-   "societe": "Prélabel accordé",
-   "fondateurs": "Prélabel accordé au 3ème tour, URBAN DANCE, Ala Zrafi, Mansoura Jilani, Wellness, Label",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, Hbibty Market, Rahma Mabrouk, Baha Wiem Agrebi EP Johnson, Skander Benzarti, Meriam Maaloul, FoodTech & New Food, Label",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, BusinessChat, Wifak Ghaddab, Hayet El Ayeb, Business Software & Services, Label",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, YASLINE ENGINEERING, Nizar Romdhane, Salsabil Mansouri, Business Software & Services, Label",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, LIGHTRESA, Mohamed Mellouki, TravelTech, Label",
-   "secteur": "3",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, KLAP, Taoufik Belkhodja, Ad Tech and Creative Tech, Label",
-   "secteur": "1",
-   "resultat": ""
-  },
-  {
-   "societe": "Label non accordé",
-   "fondateurs": "Label non accordé au 3ème tour, AGROVAL PLUS, Ataa Barkaoui, Alaa Barkaoui, EdTech, Prélabel",
-   "secteur": "4",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, Watar cover, Dhaker Boughattas, Zied Chouikh, Advanced Manufacturing &, Robotics, Prélabel",
-   "secteur": "3",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, Le dépanneur, Sabrine Rais Bouzgarrou, Mahmoud Kortas, Consumer Product & Services, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, COLISPO, Sana Hamdi, Lasaad Geusmi, Nasreddine Hnana, Amor Skah, TravelTech, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, Modèle SHE, Ahmed Chouikh, Sara Ben Aissa, Menel Azouz, Wellness, Prélabel",
-   "secteur": "3",
-   "resultat": ""
-  },
-  {
-   "societe": "Prélabel non accordé",
-   "fondateurs": "Prélabel non accordé au 3ème tour",
-   "secteur": "clik2read/MIP Livrel",
-   "resultat": "Ahmed Sami Meksi"
-  },
-  {
-   "societe": "Nebil Briki",
-   "fondateurs": "Ahmed Sami Meksi, Meriem Zouari, EdTech, Label, N.A, N.A, N.A, N.A, N.A, N.A, Label non accordé, Le dossier est irrecevable pour non conformité aux",
-   "secteur": "critères d'éligibilité décrits par le décret 2018-840",
-   "resultat": "fulfillmentbridge"
-  },
-  {
-   "societe": "Ferjani Fethi",
-   "fondateurs": "Kais Khadraoui, Business Software & Services, Label, N.A, N.A, N.A, N.A, N.A, N.A, Label non accordé, Label non accordé dès le 1 er tour., Le projet a déjà un label actif., Machind Fitness, Marwen Boukattaya, Consumer Product & Services, Label, N.A, N.A, N.A, N.A, N.A, N.A, Label non accordé, Label non accordé dès le 1 er tour. Le dossier est",
-   "secteur": "irrecevable pour manque de documents requis par",
-   "resultat": "le décret 2018-840"
-  },
-  {
-   "societe": "Passage de Prélabels aux Labels",
-   "fondateurs": "Société, Projet, Fondateurs, Secteur, Session d'obtention",
-   "secteur": "du Prélabel",
-   "resultat": "Résultat"
-  },
-  {
-   "societe": "Commentaires",
-   "fondateurs": "C'MIND, C'MIND, Maher Zahar, Sabri Barbaria, HealthTech, Juin 2022, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "IZ AGRI"
-  },
-  {
-   "societe": "IZAGRI",
-   "fondateurs": "Imen Zouari, Zineb Zouari, Agritech, Juillet 2022, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "IZICLAIM"
-  },
-  {
-   "societe": "IZICLAIM",
-   "fondateurs": "Ghassen Sghaier, Mohamed Sghaier, Senda Akili, InsuranceTech, Novembre 2022, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "WAF WAF HOUSE"
-  },
-  {
-   "societe": "Waf Waf House",
-   "fondateurs": "Cyrine Atallah, Emilio Illc La Peruta, Ridha Bouasker, Yusbely Nacary Jimenez Guerra, Hassine Atallah, Consumer Product &, Services, Août 2022, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "Dyno & Motiva Systems"
-  },
-  {
-   "societe": "Moez Lidinellah Waddey",
-   "fondateurs": "Mohamad Obeid, Mohamed Hedi Jridi, Fintech, Septembre 2022, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "Digital city innovation"
-  },
-  {
-   "societe": "DIGITAL CITY INNOVATION",
-   "fondateurs": "Hassouna Ben Jemaa, Noomen Tounsi, Social Business, Octobre 2022, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "Thnity Maas"
-  },
-  {
-   "societe": "Thnity",
-   "fondateurs": "Anouar Abdelkoudous Bouassida, Amina Garbouj, Sayma Besbes, Mobility, Août 2022, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "OPKODERLABS"
-  },
-  {
-   "societe": "Taskflow",
-   "fondateurs": "Walid Meddeb, Mohamed Aziz Lahkimi, Mobility, Décembre 2022, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "YARI PROJECT"
-  },
-  {
-   "societe": "YARI",
-   "fondateurs": "Mohamed Adel Tarki, Mohamed Nejib Bejar, HealthTech, Novembre 2022, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "WHEELZ"
-  },
-  {
-   "societe": "PRO'FIT",
-   "fondateurs": "Salim Benaoun, Mohamed Wassim Abidi, Hela Msaddek, Mobility, Novembre 2022, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "Retrait de Label Startup"
-  },
-  {
-   "societe": "Société",
-   "fondateurs": "Projet, Fondateurs, Secteur, Session d'obtention",
-   "secteur": "du Prélabel",
-   "resultat": "Résultat"
-  },
-  {
-   "societe": "Commentaires",
-   "fondateurs": "XTENDPLEX S A R L, XTENDPLEX, Ahmed Ben Hamouda, Hassan Cheriha, Fintech, Février 2020, Retrait du Label, La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-2018 pour",
-   "secteur": "les sociétés bénéficiaires du Label",
-   "resultat": "Polysmart"
-  },
-  {
-   "societe": "Polysmart",
-   "fondateurs": "Ahmed Cheikhrouhou, Haroun Bouchrit, Ad Tech and Creative, Tech, Mars 2019, Retrait du Label, La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-2018 pour",
-   "secteur": "les sociétés bénéficiaires du Label",
-   "resultat": ""
+  "session": "01/2023",
+  "annee": 2023,
+  "mois": 1,
+  "pdf": "session_2023_01.pdf",
+  "nb_entrees": 31,
+  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
+  "entrees": [
+    {
+      "societe": "Bambinosit",
+      "fondateurs": "",
+      "secteur": "Consumer Product & Services",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Dooda",
+      "fondateurs": "Omar Louzir",
+      "secteur": "FoodTech & New Food",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Crop's Talk",
+      "fondateurs": "Chahine Fersi, Yassine Awadni, Riadh Jomaa, Anis Fekih",
+      "secteur": "Agritech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Pixii Motors",
+      "fondateurs": "koutheir cherni",
+      "secteur": "Mobility",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "HawKar",
+      "fondateurs": "Seifeddine Aissa, Mohamed Moez Touil Touil, Mohamed Hamdi",
+      "secteur": "Mobility",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "IASOTWIN",
+      "fondateurs": "Linda Touil, Yasmine Bziouech, Houcem Eddine Ben Lasfar, Sahli Nader, Sabri Sahli, Karim Fathallah",
+      "secteur": "HealthTech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Smart For Green: Farm and",
+      "fondateurs": "Rania Fathallah",
+      "secteur": "Agritech",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Forest Fire Protection",
+      "fondateurs": "Mohamed-Hedi Mellekh, Oussema Charbib, Wael Fathallah, Mohamed Ali Fathallah, Iheb Lourimi, Saif touzi, Haoua Guezguez",
+      "secteur": "",
+      "resultat": ""
+    },
+    {
+      "societe": "DigiMove",
+      "fondateurs": "Nour Ladhari, Nassim Bensassi, Hfaiedh Bedoui, Mohamed Aziz Brinis",
+      "secteur": "EdTech",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Boky",
+      "fondateurs": "Othmane Barnis, Ghofrane Ben Mabrouk",
+      "secteur": "TravelTech",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Train Your Mind",
+      "fondateurs": "Mohamed Khalil Ben Chebil, Mohamed Salah Ouelhazi",
+      "secteur": "HealthTech",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Mouqawel",
+      "fondateurs": "Ikbel Sassi, Emna Skhiri",
+      "secteur": "Business Software & Services",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Link Park",
+      "fondateurs": "Omar Triki, Ala Zrafi",
+      "secteur": "Business Software & Services",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "URBAN DANCE",
+      "fondateurs": "Mansoura Jilani, Rahma Mabrouk, Baha Wiem Agrebi EP Johnson",
+      "secteur": "Wellness",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "Hbibty Market",
+      "fondateurs": "Skander Benzarti, Meriam Maaloul, Wifak Ghaddab",
+      "secteur": "FoodTech & New Food",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "BusinessChat",
+      "fondateurs": "Hayet El Ayeb, Nizar Romdhane",
+      "secteur": "Business Software & Services",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "YASLINE ENGINEERING",
+      "fondateurs": "Salsabil Mansouri",
+      "secteur": "Business Software & Services",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "LIGHTRESA",
+      "fondateurs": "Mohamed Mellouki",
+      "secteur": "TravelTech",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "KLAP",
+      "fondateurs": "Taoufik Belkhodja",
+      "secteur": "Ad Tech and Creative Tech",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "C'MIND C'MIND",
+      "fondateurs": "Sabri Barbaria, Imen Zouari",
+      "secteur": "HealthTech Juin",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "IZ AGRI IZAGRI",
+      "fondateurs": "Zineb Zouari, Ghassen Sghaier",
+      "secteur": "Agritech Juillet",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "IZICLAIM IZICLAIM",
+      "fondateurs": "Mohamed Sghaier, Senda Akili, Cyrine Atallah, Emilio Illc La Peruta",
+      "secteur": "InsuranceTech Novembre",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "WAF WAF HOUSE",
+      "fondateurs": "Waf Waf House Ridha Bouasker, Yusbely Nacary Jimenez Guerra, Hassine Atallah, Moez Lidinellah Waddey",
+      "secteur": "Août",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Dyno & Motiva Systems dyno",
+      "fondateurs": "Mohamad Obeid, Mohamed Hedi Jridi, Hassouna Ben Jemaa",
+      "secteur": "Fintech Septembre",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Digital city innovation",
+      "fondateurs": "DIGITAL CITY INNOVATION, Noomen Tounsi, Anouar Abdelkoudous Bouassida",
+      "secteur": "Social Business Octobre",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Thnity Maas Thnity",
+      "fondateurs": "Amina Garbouj, Sayma Besbes, Walid Meddeb",
+      "secteur": "Mobility Août",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "OPKODERLABS  Taskflow",
+      "fondateurs": "Mohamed Aziz Lahkimi, Mohamed Adel Tarki",
+      "secteur": "Mobility Décembre",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "YARI PROJECT YARI",
+      "fondateurs": "Mohamed Nejib Bejar, Salim Benaoun",
+      "secteur": "HealthTech Novembre",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "WHEELZ PRO'FIT",
+      "fondateurs": "Mohamed Wassim Abidi, Hela Msaddek",
+      "secteur": "Mobility Novembre",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "XTENDPLEX S A R L XTENDPLEX",
+      "fondateurs": "Hassan Cheriha, Ahmed Cheikhrouhou",
+      "secteur": "Fintech Février",
+      "resultat": "retrait du label"
+    },
+    {
+      "societe": "Polysmart Polysmart",
+      "fondateurs": "Haroun Bouchrit",
+      "secteur": "Mars",
+      "resultat": "retrait du label"
+    }
+  ],
+  "session_data": {
+    "candidatures": 26,
+    "labels": 16,
+    "preLabels": 6,
+    "taux_acceptation_pct": 61.5,
+    "statut": "conforme",
+    "retraits": 0,
+    "conversions": 0,
+    "newLabels": 16
   }
- ],
- "session_data": {
-  "candidatures": 26,
-  "labels": 16,
-  "preLabels": 6,
-  "taux_acceptation_pct": 61.5,
-  "statut": "conforme",
-  "retraits": 2,
-  "conversions": 10,
-  "newLabels": 6
- }
 }

@@ -1,284 +1,176 @@
 {
- "session": "03/2020",
- "annee": 2020,
- "mois": 3,
- "pdf": "session_2020_03.pdf",
- "nb_entrees": 44,
- "source": "Extraction des PDF officiels des sessions — startup.gov.tn (voir Corrections)",
- "entrees": [
-  {
-   "societe": "Startup Act | Session 12 | Mars 2020 | Compte-Rendu",
-   "fondateurs": "Société, Fondateurs, Secteur, Label/Prélabel",
-   "secteur": "1er Tour",
-   "resultat": ""
-  },
-  {
-   "societe": "Résultat",
-   "fondateurs": "Commentaires, Recevabilité, Pitching, Conflit, I POMM, Aymen Karoui, Saber Bellaj, Iyed Benhassen, Logiciel, Label",
-   "secteur": "8",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Mohamed Salah Frad a annoncé un conflit d'intérêt, NATULYN, Ouanes Taha Boumiza, Sirine Kallel, Autre contenu créatif, Label",
-   "secteur": "9",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, She Shares, Kaouther Mouelhi, Hamza Arfaoui, Ecommerce, Label",
-   "secteur": "7",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Auto-plus, Amine Mliki, Ecommerce, Label",
-   "secteur": "5",
-   "resultat": "Label accordé"
-  },
-  {
-   "societe": "Label accordé dès le 2ème tour",
-   "fondateurs": "Ali Mnif et Zackaria Belkhoja ont annoncé un conflit d'intérêt, Makroudh Kairouan à Domicile, Mohamed Wajih Allani, Ecommerce, Label",
-   "secteur": "5",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, DigiConstat, Jaafar Nasri, Anis Nasraoui, Insurance Tech, Label",
-   "secteur": "9",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Save Your Wardrobe, Mehdi Doghri, Hasna Kourda",
-   "secteur": "AI",
-   "resultat": "Label"
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Go Online Africa, Emna Makni, Salma Amor, Ecommerce, Label",
-   "secteur": "6",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Elyes Jeribi a annoncé un conflit d'intérêt",
-   "secteur": "3S : Software and Security Solutions",
-   "resultat": "Abdelbari Ben Yagouta"
-  },
-  {
-   "societe": "Wrida Ben Yaghouta",
-   "fondateurs": "IoT, Label",
-   "secteur": "8",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, GATE INDUSTRIELLE, Mohamed Sahlaoui, IoT, Label",
-   "secteur": "6",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Rayhane, Nesrine Tekitek, Nidhal Tekitek, Ecommerce, Label",
-   "secteur": "4",
-   "resultat": "Label accordé"
-  },
-  {
-   "societe": "Label accordé après pitching",
-   "fondateurs": "Elyes Jeribi a annoncé un conflit d'intérêt, Tunisie Co / Resa Privee, Khaled Aouij, Abir Fares, Autre contenu créatif, Label",
-   "secteur": "2",
-   "resultat": ""
-  },
-  {
-   "societe": "Label accordé",
-   "fondateurs": "Label accordé après pitching, Mohamed Salah Frad a annoncé un conflit d'intérêt, TOLEDO, Lotfi Ben Mosbah, Aziz Ben Mosbah, Zied Chaabane, Haifa Fodha, Health Tech, Prélabel",
-   "secteur": "6",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel accordé, Prélabel accordé dès le 2ème tour, Khaled Ben Jilani a annoncé un conflit d'intérêt, CHMISA, Bechir Taboubi, Ecommerce, Prélabel",
-   "secteur": "5",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel accordé, Prélabel accordé dès le 2ème tour, KLAY, Mohamed Hedi Ben Hamed, Moez Aousji, Autre contenu créatif, Prélabel",
-   "secteur": "5",
-   "resultat": "Prélabel accordé"
-  },
-  {
-   "societe": "Prélabel accordé dès le 2ème tour",
-   "fondateurs": "Mohamed Salah Frad a annoncé un conflit d'intérêt, FACTOORYA, Amine Rekhiss, Yassine Khlass, Mohamed Seifeddine Bouarada, IoT, Prélabel",
-   "secteur": "8",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel accordé, Prélabel accordé dès le 2ème tour, Zackaria Belkhoja a annoncé un conflit d'intérêt, KWIN., Houssem Sahli, Sonia Othman, IoT, Prélabel",
-   "secteur": "8",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel accordé, Prélabel accordé dès le 2ème tour, Finispia, Alaa Guidara, Mohamed Kallel, Fintech, Prélabel",
-   "secteur": "8",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel accordé, Prélabel accordé dès le 2ème tour, Travaris, Youssef Said, Berklay Alkisel, Ahmed Abdarrahman",
-   "secteur": "AI",
-   "resultat": "Prélabel"
-  },
-  {
-   "societe": "Prélabel accordé",
-   "fondateurs": "Prélabel accordé après pitching, Zackaria Belkhoja a annoncé un conflit d'intérêt, Barbecha, Ines Soyah, Zeineb Bouassida, Chiheb Karoui, Ecommerce, Prélabel",
-   "secteur": "2",
-   "resultat": ""
-  },
-  {
-   "societe": "Prélabel accordé",
-   "fondateurs": "Prélabel accordé après pitching, Dentic, Hakim Yahyaoui, Health Tech, Prélabel",
-   "secteur": "1",
-   "resultat": ""
-  },
-  {
-   "societe": "Prélabel accordé",
-   "fondateurs": "Prélabel accordé après pitching, Tunisiabiotech, Oualid Sebai, Biotechnologie, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "Prélabel accordé",
-   "fondateurs": "Prélabel accordé après pitching, Welyne, Mohamed Ben Arfa, Ecommerce, Label",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, Univers VR, Aymen Hammami, Abir Ben Achour, Gaming, Label",
-   "secteur": "1",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour",
-   "secteur": "ebniecolo",
-   "resultat": "Mehdi Dellagi"
-  },
-  {
-   "societe": "Dorra Ismail",
-   "fondateurs": "Mehdi Zorgati, Big Data, Label",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, MY DEV CONSULTING DU CAP BON, Becem Jebali, Youssef Omrani, Développement personnel, Label",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, CITIUS, Riadh Felhi, Emna Hamdi, Logistique, Label",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, All o khadmet, Amine Hammi, Plateforme Sociale, Label",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, Analyse numérique des donnes ( AMCI), Abdelhamid Ben Rabah, Logiciel, Label",
-   "secteur": "3",
-   "resultat": ""
-  },
-  {
-   "societe": "Label non accordé",
-   "fondateurs": "Label non accordé après pitching, Khaled Ben Jilani a annoncé un conflit d'intérêt, The BoxOffice, Seifeddine Trabelsi, Meriem Lejmi, Autre contenu créatif, Prélabel",
-   "secteur": "1",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, Khadamni, Selim Thmouni, Selim Mraidi, Atef Sedraoui, Molka Kouraychi, Ecommerce, Prélabel",
-   "secteur": "2",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, Soldy, Manel Salhi, Mokhles Souissi, Manel Alayet, Ecommerce, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, COSTUN, Ahmed Melki, Houssem Ben Ghozzi, Hamdi Marrouchi, Ecommerce, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, Start Smart Studio, Yassine Ben Mansour, Autre Contenu Créatif, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, Compass IT, Hadhemi Ragoubi, Foudhaili Ragoubi, Autre Contenu Créatif, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, Candidature reportée à la prochaine session, Campus Numérique des métiers, Fethi Zoghlami, Edtech, Label, Candidature reportée, La candidature a été reportée à la session d'Avril car le fondateur a rencontré des problèmes",
-   "secteur": "techniques lors de la session de pitching",
-   "resultat": "Passage de Prélabels aux Labels"
-  },
-  {
-   "societe": "Société",
-   "fondateurs": "Fondateurs, Secteur, Session d'obtention",
-   "secteur": "du Prélabel",
-   "resultat": "Résultat"
-  },
-  {
-   "societe": "Commentaires",
-   "fondateurs": "Zolfa, Adel Jridi, Autre contenu créatif, Septembre 2019, Label accordé, Label accordé suite à la création de la Startup et le respect",
-   "secteur": "des conditions d'octroi",
-   "resultat": "Go My Biz"
-  },
-  {
-   "societe": "Mohamed Achref Gabsi",
-   "fondateurs": "Mehdi Touati, Yassine Touati, Sofiane Jait, Logiciel, Janvier 2020, Label accordé, Label accordé suite à la création de la Startup et le respect",
-   "secteur": "des conditions d'octroi",
-   "resultat": "Kayco."
-  },
-  {
-   "societe": "Mohamed Ali Salmi",
-   "fondateurs": "Hela Agrebi, Anas Zouabi, Energie, Février 2020, Label accordé, Label accordé suite à la création de la Startup et le respect",
-   "secteur": "des conditions d'octroi",
-   "resultat": "Mice"
-  },
-  {
-   "societe": "Nasreddine Somaali",
-   "fondateurs": "Marwa Khnissi, Agritech, Décembre 2019, Label accordé, Label accordé suite à la création de la Startup et le respect",
-   "secteur": "des conditions d'octroi",
-   "resultat": ""
+  "session": "03/2020",
+  "annee": 2020,
+  "mois": 3,
+  "pdf": "session_2020_03.pdf",
+  "nb_entrees": 26,
+  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
+  "entrees": [
+    {
+      "societe": "I POMM",
+      "fondateurs": "Saber Bellaj, Iyed Benhassen, Ouanes Taha Boumiza",
+      "secteur": "Logiciel",
+      "resultat": "label"
+    },
+    {
+      "societe": "NATULYN",
+      "fondateurs": "Sirine Kallel, Kaouther Mouelhi",
+      "secteur": "Autre contenu créatif",
+      "resultat": "label"
+    },
+    {
+      "societe": "She Shares",
+      "fondateurs": "Hamza Arfaoui",
+      "secteur": "Ecommerce",
+      "resultat": "label"
+    },
+    {
+      "societe": "Auto-plus",
+      "fondateurs": "Amine Mliki",
+      "secteur": "Ecommerce",
+      "resultat": "label"
+    },
+    {
+      "societe": "Makroudh Kairouan à Domicile",
+      "fondateurs": "Mohamed Wajih Allani, Jaafar Nasri",
+      "secteur": "Ecommerce",
+      "resultat": "label"
+    },
+    {
+      "societe": "DigiConstat",
+      "fondateurs": "Anis Nasraoui, Mehdi Doghri",
+      "secteur": "Insurance Tech",
+      "resultat": "label"
+    },
+    {
+      "societe": "Save Your Wardrobe",
+      "fondateurs": "Hasna Kourda, Emna Makni",
+      "secteur": "AI",
+      "resultat": "label"
+    },
+    {
+      "societe": "Go Online Africa",
+      "fondateurs": "Salma Amor, Abdelbari Ben Yagouta",
+      "secteur": "Ecommerce",
+      "resultat": "label"
+    },
+    {
+      "societe": "3S : Software and Security Solutions",
+      "fondateurs": "Wrida Ben Yaghouta",
+      "secteur": "IoT",
+      "resultat": "label"
+    },
+    {
+      "societe": "GATE INDUSTRIELLE",
+      "fondateurs": "Mohamed Sahlaoui, Nesrine Tekitek",
+      "secteur": "IoT",
+      "resultat": "label"
+    },
+    {
+      "societe": "Rayhane",
+      "fondateurs": "Nidhal Tekitek, Khaled Aouij",
+      "secteur": "Ecommerce",
+      "resultat": "label"
+    },
+    {
+      "societe": "Tunisie Co / Resa Privee",
+      "fondateurs": "Abir Fares, Lotfi Ben Mosbah, Aziz Ben Mosbah",
+      "secteur": "Autre contenu créatif",
+      "resultat": "label"
+    },
+    {
+      "societe": "TOLEDO",
+      "fondateurs": "Zied Chaabane, Haifa Fodha",
+      "secteur": "Health Tech",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "CHMISA",
+      "fondateurs": "Bechir Taboubi, Mohamed Hedi Ben Hamed",
+      "secteur": "Ecommerce",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "KLAY",
+      "fondateurs": "Moez Aousji, Amine Rekhiss",
+      "secteur": "Autre contenu créatif",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "FACTOORYA",
+      "fondateurs": "Yassine Khlass, Mohamed Seifeddine Bouarada, Houssem Sahli",
+      "secteur": "IoT",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "KWIN.",
+      "fondateurs": "Sonia Othman, Alaa Guidara",
+      "secteur": "IoT",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "Finispia",
+      "fondateurs": "Mohamed Kallel, Youssef Said",
+      "secteur": "Fintech",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "Travaris",
+      "fondateurs": "Berklay Alkisel, Ahmed Abdarrahman, Ines Soyah",
+      "secteur": "AI",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "Barbecha",
+      "fondateurs": "Zeineb Bouassida, Chiheb Karoui",
+      "secteur": "Ecommerce",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "Dentic",
+      "fondateurs": "Hakim Yahyaoui",
+      "secteur": "Health Tech",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "Tunisiabiotech",
+      "fondateurs": "Oualid Sebai",
+      "secteur": "Biotechnologie",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "Welyne",
+      "fondateurs": "Mohamed Ben Arfa, Aymen Hammami",
+      "secteur": "Ecommerce",
+      "resultat": "label"
+    },
+    {
+      "societe": "Univers VR",
+      "fondateurs": "Abir Ben Achour, Mehdi Dellagi",
+      "secteur": "Gaming",
+      "resultat": "label"
+    },
+    {
+      "societe": "ebniecolo",
+      "fondateurs": "Dorra Ismail, Mehdi Zorgati, Becem Jebali",
+      "secteur": "Big Data",
+      "resultat": "label"
+    },
+    {
+      "societe": "MY DEV CONSULTING DU CAP BON",
+      "fondateurs": "Youssef Omrani",
+      "secteur": "Développement personnel",
+      "resultat": "label"
+    }
+  ],
+  "session_data": {
+    "candidatures": 35,
+    "labels": 16,
+    "preLabels": 10,
+    "taux_acceptation_pct": 45.7,
+    "statut": "conforme",
+    "retraits": 0,
+    "conversions": 0,
+    "newLabels": 16
   }
- ],
- "session_data": {
-  "candidatures": 35,
-  "labels": 16,
-  "preLabels": 10,
-  "taux_acceptation_pct": 45.7,
-  "statut": "conforme",
-  "retraits": 0,
-  "conversions": 4,
-  "newLabels": 12
- }
 }

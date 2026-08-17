@@ -1,356 +1,248 @@
 {
- "session": "07/2021",
- "annee": 2021,
- "mois": 7,
- "pdf": "session_2021_07.pdf",
- "nb_entrees": 56,
- "source": "Extraction des PDF officiels des sessions — startup.gov.tn (voir Corrections)",
- "entrees": [
-  {
-   "societe": "Startup Act | Session 28 | Juillet 2021 | Compte-Rendu",
-   "fondateurs": "Société, Fondateurs, Secteur, Label/Prélabel",
-   "secteur": "1er Tour",
-   "resultat": ""
-  },
-  {
-   "societe": "Résultat",
-   "fondateurs": "Commentaires, Recevabilité, Pitching, Conflit, Livrina, Mohamed Fares Ghodhbani, Logistique, Label",
-   "secteur": "6",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Coart Container Creatif, Malek Maazoun, Yassine Mseddi, Creative industry, Label",
-   "secteur": "5",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Mohamed Salah Frad a déclaré un conflit d'intérêt, Hkeya w Ebra, Youssef Dridi, Atef Boutara, Yatim Omar, Firas Ben Ghayadha, Creative industry, Label",
-   "secteur": "6",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, DROBEE, Mayssa Karchoud, Nadhmi Amara, Aladin Khantouch, Haytham Khemakhem, Agritech, Label",
-   "secteur": "5",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, FINRA Ltd, Ons El Gaied, Amir Farah, Advanced Manufacturing & Industry, Label",
-   "secteur": "5",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Vital Tools, Yassine Bouchoucha, Ali Babbou, Business Software, Label",
-   "secteur": "5",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Ticketchainer, Sami Bouden, Walid Karray, Obeyd Melliti, Business Software, Label",
-   "secteur": "6",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, STE JUNIORS CV, Samy Jaidène, Mayassa Fehaiem, EdTech, Label",
-   "secteur": "5",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, ELBIO, Sana Saadani, Haythem Dridi, Syrine Guettat, FoodTech & New Food, Label",
-   "secteur": "5",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Compaktor, Mohamed Amine Omrani, Ali Mansour, Business Software, Label",
-   "secteur": "3",
-   "resultat": "Label accordé"
-  },
-  {
-   "societe": "Label accordé suite au pitching",
-   "fondateurs": "Elyes Jeribi a déclaré un conflit d'intérêt",
-   "secteur": "2BK Innovation",
-   "resultat": "Mehdi Boudhraa"
-  },
-  {
-   "societe": "Omar Khalfet",
-   "fondateurs": "Environment, Label",
-   "secteur": "2",
-   "resultat": ""
-  },
-  {
-   "societe": "Label accordé",
-   "fondateurs": "Label accordé suite au pitching, Tiktak PRO, Zied Bouhejba, Marketplace / e-commerce, Prélabel",
-   "secteur": "7",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel accordé, Prélabel accordé dès le 2ème tour, TRUE DELTA, Henda Regaya, Maher Hemissi, Marketplace / e-commerce, Prélabel",
-   "secteur": "6",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel accordé, Prélabel accordé dès le 2ème tour, Amel Saidane a déclaré un conflit d'interet, Société JPARTENERS TUNISIE SUARL, Zied Jbali, Logistique, Prélabel",
-   "secteur": "5",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel accordé, Prélabel accordé dès le 2ème tour, DORRY, Ellouze Fares, Fintech, Prélabel",
-   "secteur": "3",
-   "resultat": ""
-  },
-  {
-   "societe": "Prélabel accordé",
-   "fondateurs": "Prélabel accordé suite au pitching, RIBLUM, Hadded Malek, Sara Bennour, Environment, Prélabel",
-   "secteur": "2",
-   "resultat": ""
-  },
-  {
-   "societe": "Prélabel accordé",
-   "fondateurs": "Prélabel accordé suite au pitching, AREMA international, Zina Kobbi, Health care, Label",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, Pipeline Studio, Rami Rouini, Amal Cherif, Mahdi Ben khmis, Creative industry, Label",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, BORNTEQ, Mohamed Fekih-Romdhane, Business Software, Label",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, Tunisia Home Staging, Malek Dey Daly, Chahrazed Dey daly, Creative industry, Label",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, Goodif, Khawla Ben Mansour, Mohamed Kadi, Mohamed Limame, Fintech, Label",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, ECOPOINT, Soua Salah, Zoubeida Chaouch, Najla Kacem, Creative industry, Label",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, Nat-Hub / Pikoro, Sabryn Hamrouny, Khelifi Ahmed, Ibrahim Sarray, Mohamed Amine Jebali, Business Software, Label",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, SMARTI'Z, Karim Amous, Health care, Prélabel",
-   "secteur": "1",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour, Gold Queen, Afef Mkaoure, Abir Mkawar, Creative industry, Prélabel",
-   "secteur": "1",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour, GUISS, Akrem Belguith, Tayeb Beb Ayed, Fares Mallek, Maher Marwani, Business Software, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, The English Lab, Rabeb Rezgui, EdTech, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour, E-pharmacy, Zaineb Saadallah, Health care, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour, Levry Food, Mohamed Naim Boubtane, Myriam Boubtane, Marketplace / e-commerce, Prélabel",
-   "secteur": "-",
-   "resultat": "Prélabel non accordé Prélabel non accordé dès le 2ème tour"
-  },
-  {
-   "societe": "Elyes Jeribi a déclaré un conflit d'intérêt",
-   "fondateurs": "Mantouj, Bilel Amdouni, Mohamed Ali Belajouza, Agritech, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour, KOPRICE, Mohamed Taher Bouchahoua, Juste Méthode Bocovo, Inès Aichi, Marketplace / e-commerce, Prélabel",
-   "secteur": "-",
-   "resultat": "Prélabel non accordé"
-  },
-  {
-   "societe": "Prélabel non accordé dès le 2ème tour",
-   "fondateurs": "Elyes Jeribi a déclaré un conflit d'intérêt, StockPad, Mechria Rafik, Tarek Hechmi, Business Software, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour, HACHARA Novel Food, Nedra Kharbeche, Sana Bourguiba, FoodTech & New Food, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour, Swavl, Yahya Touil, Mathouthi Akrem, Social Business, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour, Karhebti, Houssem Eddine Noamen, Amdouni Mohamed Amine, Creative industry, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour, ELPERMIS, Mohamed Hedi Khanfir, Abdennaceur Tarrouch, EdTech, Prélabel",
-   "secteur": "1",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour, Dokeni, Amine Abassi, Mohamed El Abbassi, Maher El Abbassi, Logistique, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "Prélabel non accordé",
-   "fondateurs": "Prélabel non accordé suite au pitching",
-   "secteur": "tnmarket",
-   "resultat": "Rahma Ayadi"
-  },
-  {
-   "societe": "Chokri Siala",
-   "fondateurs": "Yousra Ayadi, Marketplace / e-commerce, Prélabel",
-   "secteur": "2",
-   "resultat": ""
-  },
-  {
-   "societe": "Prélabel non accordé",
-   "fondateurs": "Prélabel non accordé suite au pitching, Elyes Jeribi a déclaré un conflit d'intérêt, IBANFIRST TN, Amira Hannachi, Patrick Mollard, Oualid Abderrazek, Fintech, Label, N.A, N.A, N.A, N.A, N.A, N.A, Label non accordé, Le dossier est irrecevable pour non conformité aux",
-   "secteur": "critères d'éligibilité décrits par le décret 2018-840",
-   "resultat": "Candidature reportée à la prochaine session"
-  },
-  {
-   "societe": "TN Smartbot",
-   "fondateurs": "Label, Candidature reportée, La candidature a été reportée à la session d'Août, Passage de Prélabels aux Labels, Société, Projet, Fondateurs, Secteur, Session d'obtention",
-   "secteur": "du Prélabel",
-   "resultat": "Résultat"
-  },
-  {
-   "societe": "Commentaires",
-   "fondateurs": "Istidama, WaterSec, Ahmed Slim Bouakez, Khoubeib Tlili, Zoubeir Zarrouk, Mohamed Guenbri, Environement, Février 2021, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "Mrcus Studio"
-  },
-  {
-   "societe": "Marcus Studio",
-   "fondateurs": "Azzez Moatez, Hamza Gassab, Creative industry, Avril 2021, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "STE LAVERIT H O"
-  },
-  {
-   "societe": "Hedi Hrigua",
-   "fondateurs": "Oussama Hlaoui, Logistique, Janvier 2021, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "Wassaloo Tunisie"
-  },
-  {
-   "societe": "Wassaloo",
-   "fondateurs": "Abdeljelil Lazaar, Mustapha Guellaty, Mohamed Zouhaier Zammel, Agritech, Avril 2021, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "Wimbee Product"
-  },
-  {
-   "societe": "WimbeyondAnalytica",
-   "fondateurs": "Neila Benzina, Business Software, Mai 2021, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "AquaDeep"
-  },
-  {
-   "societe": "AquaDeep",
-   "fondateurs": "Mohamed Ben Ahmed, Mohamed Youssef Chahed, Agritech, Juin 2021, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "KINDEAL EDUCATION"
-  },
-  {
-   "societe": "KINDEAL",
-   "fondateurs": "Mohamed Ali Shili, Moez Hammami, EdTech, Avril 2021, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "Société de Services pour les Organismes"
-  },
-  {
-   "societe": "Solidaires",
-   "fondateurs": "",
-   "secteur": "ILEY'COM-مﻛﯾﻟإ",
-   "resultat": "Mehdi Ben Abdallah"
-  },
-  {
-   "societe": "Marwa Moula",
-   "fondateurs": "Social Business, Mars 2021, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "HAKEEMA Pour la Santé"
-  },
-  {
-   "societe": "Amr Bakr",
-   "fondateurs": "Sahar Awad, Tamer Shawer, HealthTech",
-   "secteur": "Janvier 2021",
-   "resultat": "Label accordé"
-  },
-  {
-   "societe": "Label accordé suite à la création de la Startup et le respect des",
-   "fondateurs": "",
-   "secteur": "conditions d'octroi",
-   "resultat": "Société ramzi de stock engineering et gestion"
-  },
-  {
-   "societe": "Gelivro",
-   "fondateurs": "Ramzi Houidi, Rim Harabi, Marketplace / e-commerce, Février 2021, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "SAYARTICARE"
-  },
-  {
-   "societe": "Rami Brahem",
-   "fondateurs": "Amani Bettaieb, Ahmed Ben Yedder, Mobility, Juin 2021, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": ""
+  "session": "07/2021",
+  "annee": 2021,
+  "mois": 7,
+  "pdf": "session_2021_07.pdf",
+  "nb_entrees": 38,
+  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
+  "entrees": [
+    {
+      "societe": "Livrina",
+      "fondateurs": "Mohamed Fares Ghodhbani, Malek Maazoun",
+      "secteur": "Logistique",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Coart Container Creatif",
+      "fondateurs": "",
+      "secteur": "Creative industry",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Hkeya w Ebra",
+      "fondateurs": "Yatim Omar, Firas Ben Ghayadha, Mayssa Karchoud, Nadhmi Amara",
+      "secteur": "Creative industry",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "DROBEE",
+      "fondateurs": "Aladin Khantouch, Haytham Khemakhem, Ons El Gaied",
+      "secteur": "Agritech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "FINRA Ltd",
+      "fondateurs": "Amir Farah, Yassine Bouchoucha",
+      "secteur": "Advanced Manufacturing & Industry",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Vital Tools",
+      "fondateurs": "Ali Babbou, Sami Bouden",
+      "secteur": "Business Software",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Ticketchainer",
+      "fondateurs": "Walid Karray, Obeyd Melliti, Samy Jaidène",
+      "secteur": "Business Software",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "STE JUNIORS CV",
+      "fondateurs": "Mayassa Fehaiem, Sana Saadani",
+      "secteur": "EdTech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "ELBIO",
+      "fondateurs": "Haythem Dridi, Syrine Guettat, Mohamed Amine Omrani",
+      "secteur": "FoodTech & New Food",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Compaktor",
+      "fondateurs": "",
+      "secteur": "Business Software",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "2BK Innovation",
+      "fondateurs": "Omar Khalfet",
+      "secteur": "Environment",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Tiktak PRO",
+      "fondateurs": "Zied Bouhejba, Henda Regaya",
+      "secteur": "Marketplace / e-commerce",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "TRUE DELTA",
+      "fondateurs": "",
+      "secteur": "Marketplace / e-commerce",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Société JPARTENERS TUNISIE SUARL",
+      "fondateurs": "Zied Jbali",
+      "secteur": "Logistique",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "DORRY",
+      "fondateurs": "Ellouze Fares, Hadded Malek",
+      "secteur": "Fintech",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "RIBLUM",
+      "fondateurs": "Sara Bennour",
+      "secteur": "Environment",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "AREMA international",
+      "fondateurs": "Zina Kobbi, Rami Rouini",
+      "secteur": "Health care",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "Pipeline Studio",
+      "fondateurs": "Amal Cherif, Mahdi Ben khmis",
+      "secteur": "Creative industry",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "BORNTEQ",
+      "fondateurs": "Mohamed Fekih-Romdhane, Malek Dey Daly",
+      "secteur": "Business Software",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "Tunisia Home Staging",
+      "fondateurs": "Chahrazed Dey daly, Khawla Ben Mansour",
+      "secteur": "Creative industry",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "Goodif",
+      "fondateurs": "Mohamed Kadi, Mohamed Limame, Soua Salah",
+      "secteur": "Fintech",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "ECOPOINT",
+      "fondateurs": "Zoubeida Chaouch, Najla Kacem, Sabryn Hamrouny, Khelifi Ahmed",
+      "secteur": "Creative industry",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "Nat-Hub / Pikoro",
+      "fondateurs": "Ibrahim Sarray, Mohamed Amine Jebali",
+      "secteur": "Business Software",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "SMARTI'Z",
+      "fondateurs": "Karim Amous, Afef Mkaoure",
+      "secteur": "Health care",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "Gold Queen",
+      "fondateurs": "Abir Mkawar, Akrem Belguith, Tayeb Beb Ayed",
+      "secteur": "Creative industry",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "GUISS",
+      "fondateurs": "Fares Mallek, Maher Marwani",
+      "secteur": "Business Software",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "Istidama",
+      "fondateurs": "WaterSec, Zoubeir Zarrouk, Mohamed Guenbri, Azzez Moatez",
+      "secteur": "Environement Février",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Mrcus Studio",
+      "fondateurs": "Marcus Studio, Hamza Gassab, Hedi Hrigua",
+      "secteur": "Creative industry Avril",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "STE LAVERIT H O",
+      "fondateurs": "société Lave'rit, Oussama Hlaoui, Abdeljelil Lazaar",
+      "secteur": "Logistique Janvier",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Wassaloo Tunisie",
+      "fondateurs": "Wassaloo Mustapha Guellaty, Mohamed Zouhaier Zammel",
+      "secteur": "Agritech Avril",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Wimbee Product",
+      "fondateurs": "WimbeyondAnalytica Neila Benzina, Mohamed Ben Ahmed",
+      "secteur": "Business Software Mai",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "AquaDeep",
+      "fondateurs": "AquaDeep, Mohamed Youssef Chahed",
+      "secteur": "Agritech Juin",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "KINDEAL EDUCATION",
+      "fondateurs": "KINDEAL Mohamed Ali Shili, Moez Hammami",
+      "secteur": "EdTech Avril",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Société de Services pour les Organismes",
+      "fondateurs": "Mehdi Ben Abdallah, ILEY'COM- مﻛﯾﻟإ",
+      "secteur": "Social Business Mars",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Solidaires",
+      "fondateurs": "Marwa Moula, Amr Bakr",
+      "secteur": "",
+      "resultat": ""
+    },
+    {
+      "societe": "HAKEEMA Pour la Santé",
+      "fondateurs": "7keema Sahar Awad, Tamer Shawer",
+      "secteur": "HealthTech Janvier",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Société ramzi de stock engineering et gestion de livraison",
+      "fondateurs": "Ramzi Houidi, Gelivro, Rim Harabi, Rami Brahem",
+      "secteur": "Marketplace / e-commerce Février",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "SAYARTICARE",
+      "fondateurs": "myCarCare Amani Bettaieb, Ahmed Ben Yedder",
+      "secteur": "Mobility Juin",
+      "resultat": "label accorde"
+    }
+  ],
+  "session_data": {
+    "candidatures": 40,
+    "labels": 22,
+    "preLabels": 5,
+    "taux_acceptation_pct": 55.0,
+    "statut": "conforme",
+    "retraits": 0,
+    "conversions": 0,
+    "newLabels": 22
   }
- ],
- "session_data": {
-  "candidatures": 40,
-  "labels": 22,
-  "preLabels": 5,
-  "taux_acceptation_pct": 55.0,
-  "statut": "conforme",
-  "retraits": 0,
-  "conversions": 11,
-  "newLabels": 11
- }
 }

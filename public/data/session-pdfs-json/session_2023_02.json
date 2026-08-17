@@ -1,380 +1,212 @@
 {
- "session": "02/2023",
- "annee": 2023,
- "mois": 2,
- "pdf": "session_2023_02.pdf",
- "nb_entrees": 60,
- "source": "Extraction des PDF officiels des sessions — startup.gov.tn (voir Corrections)",
- "entrees": [
-  {
-   "societe": "Startup Act | Session 46 | Février 2023 | Compte-Rendu",
-   "fondateurs": "Société, Fondateurs, Secteur, Label/Prélabel",
-   "secteur": "1er Tour",
-   "resultat": ""
-  },
-  {
-   "societe": "Résultat",
-   "fondateurs": "Commentaires, Recevabilité, Pitching, Conﬂit, Linkivia, Khadija A�a, Naoufel Nabli, HealthTech, Label",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé dès le 2ème tour, Replic-A, Mejdi Bouaﬁf, Wissem Jerbi, Sonia Issaad, Business So�ware and services, Label",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé dès le 2ème tour, Tunisia Baits, Ahmed Malek, Marwen Mokdad, Agritech, Label",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé dès le 2ème tour, Tunisian Campers, Mohamed Temimi, Wellness, Label",
-   "secteur": "1",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé dès le 2ème tour, Tsiwrat Stock, Rania Makhlouf, Firas Chetouane, Ad Tech and Crea�ve Tech, Label",
-   "secteur": "2",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé dès le 2ème tour, Advantry X, Adam Bouchaala, Kawthar Ayedi, Advanced Manufacturing &, Robo�cs, Label",
-   "secteur": "7",
-   "resultat": ""
-  },
-  {
-   "societe": "Label accordé au 3ème tour",
-   "fondateurs": "KOM YA, Imene Aidi, Yosra Aydi, Meriam Aidi, Commerce and shopping, Label",
-   "secteur": "5",
-   "resultat": ""
-  },
-  {
-   "societe": "Label accordé au 3ème tour",
-   "fondateurs": "My Brain, Wissal Dhuib, Rahma Harzi, Yasmine Ben Saad, HealthTech, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel accordé dès le 2ème tour, TOF: Tyres On Fire, Yassine Boumaiza, Oussama Bel Hadj Ali, Ad Tech and Crea�ve Tech, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel accordé dès le 2ème tour",
-   "secteur": "cercina.ai",
-   "resultat": "Ahmed Ben Othman"
-  },
-  {
-   "societe": "Oussema Bennour",
-   "fondateurs": "Dhiaeddine Gharsallah, Ad Tech and Crea�ve Tech, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel accordé dès le 2ème tour, Grün Skincare, Foued Kilani, Djazia Messous, Wellness, Prélabel",
-   "secteur": "1",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel accordé dès le 2ème tour, Xpro, Zied Hriz, Yosra Tahri, Agritech, Prélabel",
-   "secteur": "1",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel accordé dès le 2ème tour, Gi�y.tn, Haythem Il Banney, Jihed Chemlali, Commerce and shopping, Prélabel",
-   "secteur": "1",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel accordé dès le 2ème tour, A.M.I.S., Amel Ben Ammar Elgaïed, Rabie Razgallah, HealthTech, Prélabel",
-   "secteur": "3",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel accordé dès le 2ème tour, Ziwziw Family Friend, Siwar Mechri, Nawres Mechri, Samar Zardi, Yassmine Dahmene, EdTech, Prélabel",
-   "secteur": "4",
-   "resultat": ""
-  },
-  {
-   "societe": "Prélabel accordé au 3ème tour",
-   "fondateurs": "Houda Ghozzi a déclaré avoir un conﬂit d'intérêt, COADIS, Chaker Trabelsi, Imen jridi, Advanced Manufacturing &, Robo�cs, Prélabel",
-   "secteur": "4",
-   "resultat": ""
-  },
-  {
-   "societe": "Prélabel accordé au 3ème tour",
-   "fondateurs": "PARKEY, Mehdi Romdhane, Mobility, Prélabel",
-   "secteur": "3",
-   "resultat": ""
-  },
-  {
-   "societe": "Prélabel accordé au 3ème tour",
-   "fondateurs": "Thiqab, Kaouther Hedhly, Business So�ware and services, Prélabel",
-   "secteur": "5",
-   "resultat": ""
-  },
-  {
-   "societe": "Prélabel accordé au 3ème tour",
-   "fondateurs": "Cer�f.tn, Aicha Zahou, Sameh Ben Hmida, Ad Tech and Crea�ve Tech, Label",
-   "secteur": "1",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label non accordé dès le 2ème tour, ITEM TUNISIA, Abdessalem Barkia, Advanced Manufacturing &, Robo�cs, Label",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label non accordé dès le 2ème tour, DigiQuorum, Nawel Brahmi, Business So�ware and services, Label",
-   "secteur": "1",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label non accordé dès le 2ème tour, Addval Solu�ons, Aymen El Kadhi, Noamen Hassen, Business So�ware and services, Label",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label non accordé dès le 2ème tour, Ukka, Jean David Rombi, Ukka Ukka, Ad Tech and Crea�ve Tech, Label",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label non accordé dès le 2ème tour",
-   "secteur": "8",
-   "resultat": ""
-  },
-  {
-   "societe": "Label non accordé",
-   "fondateurs": "",
-   "secteur": "7",
-   "resultat": "Label non accordé"
-  },
-  {
-   "societe": "Label non accordé",
-   "fondateurs": "",
-   "secteur": "7",
-   "resultat": "Label non accordé"
-  },
-  {
-   "societe": "Label non accordé",
-   "fondateurs": "Label accordé, Label accordé, Label accordé, Label accordé, Label accordé, Label accordé, Label accordé, Prélabel accordé, Prélabel accordé, Prélabel accordé, Prélabel accordé, Prélabel accordé, Prélabel accordé, Prélabel accordé, Prélabel accordé, Prélabel accordé, Prélabel accordé, Prélabel accordé",
-   "secteur": "1",
-   "resultat": "CG-Box"
-  },
-  {
-   "societe": "Abdelhedi Montassar",
-   "fondateurs": "Mohamed Triki, Business So�ware and services, Label",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label non accordé dès le 2ème tour, Ar�ﬁs, Houssem Ben Romdhane, Ahmed Bellagha, Commerce and shopping, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé dès le 2ème tour, Afar tunisie, Malek Radhouen, Commerce and shopping, Label",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label non accordé dès le 2ème tour, Moneymakr, Imen Me�ah, Karima Makhlouf, EdTech, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé dès le 2ème tour, NER, Imen Moncer, Abderrahmen Ben Ouaghrem, Houssem Ben Cheikh, Maher Naouali, Real Estate Tech, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé dès le 2ème tour, NEWAY Solu�ons, Alaa Maaoui, Amen Khliﬁ, Business So�ware and services, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé dès le 2ème tour, NEVER LOST, Omar Baccar, Hager Bouchoucha, Soﬁene Mokhbi, Communica�on services, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé dès le 2ème tour",
-   "secteur": "booky",
-   "resultat": "Mohamed Ali Bousboo"
-  },
-  {
-   "societe": "Emna Bousboo",
-   "fondateurs": "EdTech, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé dès le 2ème tour, Tunisie Colis, Zied Beldi, Anis Harzallah, Mohamed Salah Mzoughi, Ahmed Ba�kh, Business So�ware and services, Prélabel",
-   "secteur": "5",
-   "resultat": ""
-  },
-  {
-   "societe": "Prélabel non accordé au 3 ème tour",
-   "fondateurs": "EyTecFarm, Malek Ben Mbarek, Lo�i Msaddak, Mohamed Ali Foura�, Imen Hbiri, Agritech, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "Prélabel non accordé au 3 ème tour",
-   "fondateurs": "Voltat Technologies, Pozitron, Fedia El Ayeb, Ayeb Fahmi, Saadi Mohamed, Sghaier Mohamed Wael, Mobility, Juillet 2022, Label accordé suite à la créa�on de la Startup et le respect des",
-   "secteur": "condi�ons d'octroi",
-   "resultat": "CAMINOVA"
-  },
-  {
-   "societe": "Caminova",
-   "fondateurs": "Salma Bessalah, Sihem Bessalah, HealthTech, Août 2022, Label accordé suite à la créa�on de la Startup et le respect des",
-   "secteur": "condi�ons d'octroi",
-   "resultat": "SOCIETE  SAGUEDNI"
-  },
-  {
-   "societe": "CapsaFood",
-   "fondateurs": "Oussama Dhahri, Amine Chortani, Hadil Fouli, Mobility, Août 2022, Label accordé suite à la créa�on de la Startup et le respect des",
-   "secteur": "condi�ons d'octroi",
-   "resultat": "BLUEPSOL"
-  },
-  {
-   "societe": "Power solu�on",
-   "fondateurs": "Eskander Alaya, Ahmed Baccouch, Chaima GRIRA, Environment, Juillet 2022, Label accordé suite à la créa�on de la Startup et le respect des",
-   "secteur": "condi�ons d'octroi",
-   "resultat": "SOCIETE INNOVEGA"
-  },
-  {
-   "societe": "Innovega",
-   "fondateurs": "Rami Khouja, Rym Ghribi, Amira Ben Abdeljelil, Agritech, Août 2022, Label accordé suite à la créa�on de la Startup et le respect des",
-   "secteur": "condi�ons d'octroi",
-   "resultat": "MRC SURVEY"
-  },
-  {
-   "societe": "MRC SURVEY",
-   "fondateurs": "Mohamed Turki, Skander Hadj Mabrouk, Business So�ware and, Services, Octobre 2022, Label accordé suite à la créa�on de la Startup et le respect des",
-   "secteur": "condi�ons d'octroi",
-   "resultat": "Workly Hub"
-  },
-  {
-   "societe": "Canadin",
-   "fondateurs": "Aymen Jhidri, Wassim Abdel Malek, Mohamed Ali Ben Slimen, Souad Belghith, Dhiaeddinne Rahali, Business So�ware and, Services, Décembre 2022, Label accordé suite à la créa�on de la Startup et le respect des",
-   "secteur": "condi�ons d'octroi",
-   "resultat": "BEE SPRING"
-  },
-  {
-   "societe": "Chedly Ellijimi",
-   "fondateurs": "Wellness, Août 2022, Label accordé suite à la créa�on de la Startup et le respect des",
-   "secteur": "condi�ons d'octroi",
-   "resultat": "Elevage des abeilles pour la collecte"
-  },
-  {
-   "societe": "Label non accordé",
-   "fondateurs": "",
-   "secteur": "5",
-   "resultat": "Prélabel non accordé"
-  },
-  {
-   "societe": "Label non accordé",
-   "fondateurs": "",
-   "secteur": "8",
-   "resultat": "Prélabel non accordé"
-  },
-  {
-   "societe": "Prélabel non accordé",
-   "fondateurs": "",
-   "secteur": "7",
-   "resultat": "Prélabel non accordé"
-  },
-  {
-   "societe": "Prélabel non accordé",
-   "fondateurs": "",
-   "secteur": "8",
-   "resultat": "Prélabel non accordé"
-  },
-  {
-   "societe": "Prélabel non accordé",
-   "fondateurs": "",
-   "secteur": "6",
-   "resultat": "Prélabel non accordé"
-  },
-  {
-   "societe": "Passage de Prélabels aux Labels",
-   "fondateurs": "Société, Projet, Fondateurs, Secteur, Session d'obten�on",
-   "secteur": "du Prélabel",
-   "resultat": "Résultat"
-  },
-  {
-   "societe": "Commentaires",
-   "fondateurs": "Label accordé, Label accordé, Label accordé, Label accordé, Label accordé, Label accordé, Label accordé, Label accordé, Kickso� Studio, Kayo�ca, Zied Ben Slimene, Najla Hamza, Yassine Jdey, Menssi Mohamed Salem, Amine Angliz, Ad Tech and Crea�ve, Tech, Septembre 2022, Label accordé suite à la créa�on de la Startup et le respect des",
-   "secteur": "condi�ons d'octroi",
-   "resultat": "BOKYVACATIONS"
-  },
-  {
-   "societe": "Boky",
-   "fondateurs": "Mohamed Aziz Brinis, Othmane Barnis, TravelTech, Janvier 2023, Label accordé suite à la créa�on de la Startup et le respect des",
-   "secteur": "condi�ons d'octroi",
-   "resultat": "PAPIPETS"
-  },
-  {
-   "societe": "Papi'Pets",
-   "fondateurs": "Achref kson�ni, Chahrazed Remadi, Mortadha Ouadday, FoodTech & New Food, Décembre 2022, Label accordé suite à la créa�on de la Startup et le respect des",
-   "secteur": "condi�ons d'octroi",
-   "resultat": "Avempace"
-  },
-  {
-   "societe": "Haythem Boughzala",
-   "fondateurs": "Abdelhamid Kerkeni, Advanced Manufacturing",
-   "secteur": "& Robo�cs",
-   "resultat": "Juillet 2019"
-  },
-  {
-   "societe": "La société a dépassé l'âge maximum de 8 ans ﬁxé par la loi 20-2018",
-   "fondateurs": "",
-   "secteur": "pour les sociétés bénéﬁciaires du Label",
-   "resultat": "Label accordé"
-  },
-  {
-   "societe": "Label accordé",
-   "fondateurs": "Label accordé, Retrait de Label Startup, Société, Projet, Fondateurs, Secteur, Session d'obten�on",
-   "secteur": "du Label",
-   "resultat": "Résultat"
+  "session": "02/2023",
+  "annee": 2023,
+  "mois": 2,
+  "pdf": "session_2023_02.pdf",
+  "nb_entrees": 32,
+  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
+  "entrees": [
+    {
+      "societe": "Linkivia",
+      "fondateurs": "Naoufel Nabli, Mejdi Bouaﬁf",
+      "secteur": "HealthTech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Replic-A",
+      "fondateurs": "Wissem Jerbi, Sonia Issaad, Ahmed Malek",
+      "secteur": "Business So�ware and services",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Tunisia Baits",
+      "fondateurs": "Marwen Mokdad",
+      "secteur": "Agritech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Tunisian Campers",
+      "fondateurs": "Mohamed Temimi, Rania Makhlouf",
+      "secteur": "Wellness",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Tsiwrat Stock",
+      "fondateurs": "Firas Chetouane, Adam Bouchaala",
+      "secteur": "Ad Tech and Crea�ve Tech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Advantry X",
+      "fondateurs": "Kawthar Ayedi, Imene Aidi",
+      "secteur": "Robo�cs",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "KOM YA",
+      "fondateurs": "Yosra Aydi, Meriam Aidi, Wissal Dhuib",
+      "secteur": "Commerce and shopping",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "My Brain",
+      "fondateurs": "Rahma Harzi, Yasmine Ben Saad, Yassine Boumaiza",
+      "secteur": "HealthTech",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "TOF: Tyres On Fire",
+      "fondateurs": "Oussama Bel Hadj Ali, Ahmed Ben Othman",
+      "secteur": "Ad Tech and Crea�ve Tech",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "cercina.ai",
+      "fondateurs": "Oussema Bennour, Dhiaeddine Gharsallah, Foued Kilani",
+      "secteur": "Ad Tech and Crea�ve Tech",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Grün Skincare",
+      "fondateurs": "Djazia Messous, Zied Hriz",
+      "secteur": "Wellness",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Xpro",
+      "fondateurs": "Yosra Tahri, Haythem Il Banney",
+      "secteur": "Agritech",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Gi�y.tn",
+      "fondateurs": "Jihed Chemlali, Amel Ben Ammar Elgaïed",
+      "secteur": "Commerce and shopping",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "A.M.I.S.",
+      "fondateurs": "Rabie Razgallah, Siwar Mechri",
+      "secteur": "HealthTech",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Ziwziw Family Friend",
+      "fondateurs": "Nawres Mechri",
+      "secteur": "EdTech",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "COADIS",
+      "fondateurs": "Imen jridi",
+      "secteur": "Robo�cs",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "PARKEY",
+      "fondateurs": "Mehdi Romdhane",
+      "secteur": "Mobility",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Thiqab",
+      "fondateurs": "Kaouther Hedhly, Aicha Zahou",
+      "secteur": "Business So�ware and services",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Cer�f.tn",
+      "fondateurs": "Sameh Ben Hmida",
+      "secteur": "Ad Tech and Crea�ve Tech",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "ITEM TUNISIA",
+      "fondateurs": "Abdessalem Barkia",
+      "secteur": "Robo�cs",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "DigiQuorum",
+      "fondateurs": "Nawel Brahmi, Aymen El Kadhi",
+      "secteur": "Business So�ware and services",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "Addval Solu�ons",
+      "fondateurs": "Noamen Hassen, Jean David Rombi",
+      "secteur": "Business So�ware and services",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "Ukka",
+      "fondateurs": "Ukka Ukka",
+      "secteur": "Ad Tech and Crea�ve Tech",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "Voltat Technologies Pozitron",
+      "fondateurs": "Saadi Mohamed, Sghaier Mohamed Wael, Salma Bessalah",
+      "secteur": "Mobility Juillet",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "CAMINOVA Caminova",
+      "fondateurs": "Sihem Bessalah, Oussama Dhahri",
+      "secteur": "HealthTech Août",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "SOCIETE  SAGUEDNI CapsaFood",
+      "fondateurs": "Amine Chortani, Hadil Fouli, Eskander Alaya",
+      "secteur": "Mobility Août",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "BLUEPSOL",
+      "fondateurs": "Power solu�on Ahmed Baccouch, Chaima GRIRA, Rami Khouja",
+      "secteur": "Environment Juillet",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "SOCIETE INNOVEGA Innovega",
+      "fondateurs": "Rym Ghribi, Amira Ben Abdeljelil, Mohamed Turki",
+      "secteur": "Agritech Août",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "MRC SURVEY MRC SURVEY",
+      "fondateurs": "Skander Hadj Mabrouk, Aymen Jhidri, Wassim Abdel Malek",
+      "secteur": "Octobre",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Workly Hub  Canadin",
+      "fondateurs": "Mohamed Ali Ben Slimen, Souad Belghith, Dhiaeddinne Rahali",
+      "secteur": "Décembre",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "BEE SPRING",
+      "fondateurs": "Elevage des abeilles pour la collecte  Chedly Ellijimi",
+      "secteur": "Wellness Août",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Avempace SARL Avempace",
+      "fondateurs": "Abdelhamid Kerkeni",
+      "secteur": "Juillet",
+      "resultat": "retrait du label"
+    }
+  ],
+  "session_data": {
+    "candidatures": 33,
+    "labels": 18,
+    "preLabels": 11,
+    "taux_acceptation_pct": 54.5,
+    "statut": "conforme",
+    "retraits": 0,
+    "conversions": 0,
+    "newLabels": 18
   }
- ],
- "session_data": {
-  "candidatures": 33,
-  "labels": 18,
-  "preLabels": 11,
-  "taux_acceptation_pct": 54.5,
-  "statut": "conforme",
-  "retraits": 1,
-  "conversions": 11,
-  "newLabels": 7
- }
 }

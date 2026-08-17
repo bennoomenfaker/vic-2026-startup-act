@@ -1,19 +1,19 @@
 {
- "session": "01/2021",
- "annee": 2021,
- "mois": 1,
- "pdf": "session_2021_01.pdf",
- "nb_entrees": 0,
- "source": "Extraction des PDF officiels des sessions — startup.gov.tn (voir Corrections)",
- "entrees": [],
- "session_data": {
-  "candidatures": 36,
-  "labels": 24,
-  "preLabels": 7,
-  "taux_acceptation_pct": 66.7,
-  "statut": "conforme",
-  "retraits": 0,
-  "conversions": 9,
-  "newLabels": 15
- }
+  "session": "01/2021",
+  "annee": 2021,
+  "mois": 1,
+  "pdf": "session_2021_01.pdf",
+  "nb_entrees": 0,
+  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
+  "entrees": [],
+  "session_data": {
+    "candidatures": 36,
+    "labels": 24,
+    "preLabels": 7,
+    "taux_acceptation_pct": 66.7,
+    "statut": "conforme",
+    "retraits": 0,
+    "conversions": 0,
+    "newLabels": 24
+  }
 }

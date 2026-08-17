@@ -1,26 +1,19 @@
 {
- "session": "07/2020",
- "annee": 2020,
- "mois": 7,
- "pdf": "session_2020_07.pdf",
- "nb_entrees": 1,
- "source": "Extraction des PDF officiels des sessions — startup.gov.tn (voir Corrections)",
- "entrees": [
-  {
-   "societe": "Label non accordé dès le 2ème tour",
-   "fondateurs": "Label non accordé dès le 2ème tour, Label non accordé dès le 2ème tour, Label non accordé dès le 2ème tour, Label non accordé dès le 2ème tour, Label non accordé suite au pitching, Label non accordé suite au pitching, Mohamed Salah Frad a déclaré un conflit d'intérêt, Label non accordé suite au pitching, Label non accordé suite au pitching, Elyes Jeribi a déclaré un conflit d'intérêt, Label non accordé suite au pitching, Label non accordé suite au pitching, Prélabel non accordé dès le 2ème tour, Prélabel non accordé dès le 2ème tour, Prélabel non accordé dès le 2ème tour, Prélabel non accordé dès le 2ème tour, Prélabel non accordé dès le 2ème tour, Prélabel non accordé dès le 2ème tour, Prélabel non accordé dès le 2ème tour, Prélabel non accordé dès le 2ème tour",
-   "secteur": "لﺟﺑأﻲﺗّﺣﺻ",
-   "resultat": "Prélabel non accordé dès le 2ème tour"
+  "session": "07/2020",
+  "annee": 2020,
+  "mois": 7,
+  "pdf": "session_2020_07.pdf",
+  "nb_entrees": 0,
+  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
+  "entrees": [],
+  "session_data": {
+    "candidatures": 40,
+    "labels": 18,
+    "preLabels": 7,
+    "taux_acceptation_pct": 45.0,
+    "statut": "conforme",
+    "retraits": 0,
+    "conversions": 0,
+    "newLabels": 18
   }
- ],
- "session_data": {
-  "candidatures": 40,
-  "labels": 18,
-  "preLabels": 7,
-  "taux_acceptation_pct": 45.0,
-  "statut": "conforme",
-  "retraits": 0,
-  "conversions": 9,
-  "newLabels": 9
- }
 }

@@ -1,302 +1,158 @@
 {
- "session": "09/2025",
- "annee": 2025,
- "mois": 9,
- "pdf": "session_2025_09.pdf",
- "nb_entrees": 47,
- "source": "Extraction des PDF officiels des sessions — startup.gov.tn (voir Corrections)",
- "entrees": [
-  {
-   "societe": "Startup Act | Session 78 | Septembre 2025| Compte-Rendu",
-   "fondateurs": "Société, Fondateurs, Secteur, Label/Prélabel",
-   "secteur": "1er Tour",
-   "resultat": ""
-  },
-  {
-   "societe": "Résultat",
-   "fondateurs": "Recevabilité, Pitching, Conflit, PSYNARIOS, Mohamed Ali Gamha, EdTech, Label",
-   "secteur": "6",
-   "resultat": "Label Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Ligalo",
-   "fondateurs": "Alaa Adouni, Salem Moussa Adouni, Business Software and",
-   "secteur": "services",
-   "resultat": "Prélabel"
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel Accordé au 2 ème Tour, Flashbac, Mohamed Mouhib Meddeb, Hazem Ben Saria, EdTech, Prélabel",
-   "secteur": "8",
-   "resultat": "Prélabel Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "The pointing graphical tablet",
-   "fondateurs": "Mohamed Taibah, Mohamed Kais Ben Rhouma, Advanced Manufacturing &, Robotics, Prélabel",
-   "secteur": "8",
-   "resultat": "Prélabel Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Trip Hive",
-   "fondateurs": "Ben thabet Mohamed, Charfeddine Aziza, Souaf Amir, Rebhi Amira, Hamden Nasri, TravelTech, Prélabel",
-   "secteur": "7",
-   "resultat": "Prélabel Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Ghazi Saddem a déclaré avoir un conflit d'intérêt",
-   "fondateurs": "ProgressBox, Khouloud Missaoui",
-   "secteur": "houssem ben brahim",
-   "resultat": "Abdelhakim Haddad"
-  },
-  {
-   "societe": "Agritech",
-   "fondateurs": "Prélabel",
-   "secteur": "7",
-   "resultat": "Prélabel Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "El Qemma",
-   "fondateurs": "",
-   "secteur": "oueslati salim",
-   "resultat": "Mehdi Essalah"
-  },
-  {
-   "societe": "Business Software and",
-   "fondateurs": "",
-   "secteur": "services",
-   "resultat": "Prélabel"
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel Accordé au 2 ème Tour, Gotei",
-   "secteur": "khaled makhlouf",
-   "resultat": "Amine Ben Messaoud"
-  },
-  {
-   "societe": "Ad Tech and Creative Tech",
-   "fondateurs": "Prélabel",
-   "secteur": "5",
-   "resultat": "Prélabel Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "SABRINE MARZOUGUI",
-   "fondateurs": "Kawther Marzouki, Norene Sakouhi, EdTech, Prélabel",
-   "secteur": "5",
-   "resultat": "Prélabel Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "DIA industries",
-   "fondateurs": "Mohamed Yessine KSIBI, Dia Ali, Hamza Bouajila, Mehdi ZAYET, Advanced Manufacturing &, Robotics, Prélabel",
-   "secteur": "2",
-   "resultat": "Prélabel Accordé au 3 ème Tour"
-  },
-  {
-   "societe": "VIBE FLOW AI",
-   "fondateurs": "Ali Abdallah",
-   "secteur": "ala touati",
-   "resultat": "Ad Tech and Creative Tech"
-  },
-  {
-   "societe": "Prélabel",
-   "fondateurs": "",
-   "secteur": "4",
-   "resultat": "Prélabel Accordé au 3 ème Tour"
-  },
-  {
-   "societe": "BxB Studio",
-   "fondateurs": "Yassine Boumaiza, Ad Tech and Creative Tech, Label",
-   "secteur": "0",
-   "resultat": "Label Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Boon",
-   "fondateurs": "Safa Bouabdallah, Real Estate Tech, Label",
-   "secteur": "1",
-   "resultat": "Label Non Accordé au 3 ème Tour"
-  },
-  {
-   "societe": "Millisave",
-   "fondateurs": "Fatma Bouhajeb, Ibrahim Daami, Mahmoud DAAMI, Business Software and",
-   "secteur": "services",
-   "resultat": "Label"
-  },
-  {
-   "societe": "Label Non Accordé au 3 ème Tour",
-   "fondateurs": "",
-   "secteur": "سﻧوﺗ تارﺎﻘﻋ: Akarat.tn",
-   "resultat": "Amari Aida"
-  },
-  {
-   "societe": "Commerce and shopping",
-   "fondateurs": "Prélabel",
-   "secteur": "1",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "OptiPlanex",
-   "fondateurs": "Amal Louati, Business Software and",
-   "secteur": "services",
-   "resultat": "Prélabel"
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel Non Accordé au 2 ème Tour, URBANAV, Saifeddine Bessaidi, Mobility, Prélabel",
-   "secteur": "2",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Darraja",
-   "fondateurs": "",
-   "secteur": "aziz zaag",
-   "resultat": "Aymen Bouhaha"
-  },
-  {
-   "societe": "Mobility",
-   "fondateurs": "Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Mohamed Bayar",
-   "fondateurs": "SADRI BEN AHMED, Consumer products and",
-   "secteur": "services",
-   "resultat": "Prélabel"
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel Non Accordé au 2 ème Tour, TeraaVerra, Abdlkerim Haddad, Hazem Majdoub, Fhima Iskander, Agritech, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "MedicusAI",
-   "fondateurs": "Ismail Hamdi, Yahia Boussaid, Shady Hamrouni, HealthTech, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Eco block",
-   "fondateurs": "Hamza Elmabrouk",
-   "secteur": "oussama bagga",
-   "resultat": "Environment"
-  },
-  {
-   "societe": "Prélabel",
-   "fondateurs": "",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Quinexa",
-   "fondateurs": "Saiff Eddine Ben Boudguiga, Commerce and shopping, Prélabel",
-   "secteur": "1",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Tajjer",
-   "fondateurs": "Oussama Abdallah, Business Software and",
-   "secteur": "services",
-   "resultat": "Prélabel"
-  },
-  {
-   "societe": "Prélabel Non Accordé au 3 ème Tour",
-   "fondateurs": "Hassen Aarfaoui a déclaré avoir un conflit d'intérêt, Cloud Commit Software, Solutions, Mohammed Amine Dridi, Security, Label, N.A, N.A, N.A, N.A, N.A, N.A, Label Non Accordé au 1 er Tour pour présentation",
-   "secteur": "d’un extrait du Registre National d’Entreprise",
-   "resultat": "daté de plus de trois mois"
-  },
-  {
-   "societe": "Passage de Prélabels aux Labels",
-   "fondateurs": "Projet, Société, Fondateurs, Secteur, Session d'obtention",
-   "secteur": "du Prélabel",
-   "resultat": "Résultat"
-  },
-  {
-   "societe": "Commentaires",
-   "fondateurs": "TENDER FLOW, OptimAi Tender Flow, Charfeddine BenSlama, Maissa Maatoug, Slim Bhiri, Aymen Talbi, Business Software and",
-   "secteur": "services",
-   "resultat": "Mars 2025"
-  },
-  {
-   "societe": "Label accordé",
-   "fondateurs": "Label accordé suite à la création de la Startup et le respect des conditions d'octroi, Palm.ai, Palm Solutions RH Tunisie, Hela Atmani, EdTech, Juillet 2025, Label accordé, Label accordé suite à la création de la Startup et le respect des conditions d'octroi, Digehealth TN, Dige Health Tunisia, NOUR GHALIA ABASSI, Lyle Halliday, Marcel Wuethrich, Daniel Pohl, HealthTech, Juin 2025, Label accordé, Label accordé suite à la création de la Startup et le respect des conditions d'octroi, Hanoutik, M M HANOUTEK, Mohamed Yassine Derbel, Adem Bouatay, Mouhaned Ben Abdelhafidh, Business Software and",
-   "secteur": "services",
-   "resultat": "Août 2025"
-  },
-  {
-   "societe": "Label accordé",
-   "fondateurs": "Label accordé suite à la création de la Startup et le respect des conditions d'octroi, WattyGo : Founisseur 100%, Tunisien de solutions",
-   "secteur": "intelligentes de recharge pour",
-   "resultat": "Véhicules Electriques"
-  },
-  {
-   "societe": "WattyGo technologies",
-   "fondateurs": "Haythem Belmabrouk, Khaled Fourati, Mondher Makni, Mobility, Avril 2025, Label accordé, Label accordé suite à la création de la Startup et le respect des conditions d'octroi, Talifouni+, TPLUS INNOVATION, Baha Kaabaoui, Business Software and",
-   "secteur": "services",
-   "resultat": "Août 2025"
-  },
-  {
-   "societe": "Label accordé",
-   "fondateurs": "Label accordé suite à la création de la Startup et le respect des conditions d'octroi, Retraits Labels, Société, Secteur, Session d'obtention",
-   "secteur": "du Label",
-   "resultat": "Décision"
-  },
-  {
-   "societe": "Commentaires",
-   "fondateurs": "Digital World, EdTech",
-   "secteur": "mai 2019",
-   "resultat": "Retrait du Label"
-  },
-  {
-   "societe": "La société a dépassé l'âge maximum de 8 ans fixé par",
-   "fondateurs": "",
-   "secteur": "la loi 20-2018 pour les sociétés bénéficiaires du Label",
-   "resultat": "ESKY Professionnel Services"
-  },
-  {
-   "societe": "Limited",
-   "fondateurs": "Business Software and services",
-   "secteur": "janvier 2020",
-   "resultat": "Retrait du Label"
-  },
-  {
-   "societe": "La société a dépassé l'âge maximum de 8 ans fixé par",
-   "fondateurs": "",
-   "secteur": "la loi 20-2018 pour les sociétés bénéficiaires du Label",
-   "resultat": "South Fruits Agri"
-  },
-  {
-   "societe": "Agritech",
-   "fondateurs": "",
-   "secteur": "décembre 2023",
-   "resultat": "Retrait du Label"
-  },
-  {
-   "societe": "La société a dépassé l'âge maximum de 8 ans fixé par",
-   "fondateurs": "",
-   "secteur": "la loi 20-2018 pour les sociétés bénéficiaires du Label",
-   "resultat": "Think-IT lABS"
-  },
-  {
-   "societe": "Business Software and services",
-   "fondateurs": "",
-   "secteur": "avril 2020",
-   "resultat": "Retrait du Label"
-  },
-  {
-   "societe": "La société a dépassé l'âge maximum de 8 ans fixé par",
-   "fondateurs": "",
-   "secteur": "la loi 20-2018 pour les sociétés bénéficiaires du Label",
-   "resultat": ""
+  "session": "09/2025",
+  "annee": 2025,
+  "mois": 9,
+  "pdf": "session_2025_09.pdf",
+  "nb_entrees": 23,
+  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
+  "entrees": [
+    {
+      "societe": "PSYNARIOS Ligalo",
+      "fondateurs": "Mohamed Ali Gamha, Alaa Adouni, Salem Moussa Adouni, Mohamed Mouhib Meddeb",
+      "secteur": "EdTech",
+      "resultat": "label accorde au 2 eme tour"
+    },
+    {
+      "societe": "Flashbac",
+      "fondateurs": "Hazem Ben Saria",
+      "secteur": "EdTech",
+      "resultat": "prelabel accorde au 2 eme tour"
+    },
+    {
+      "societe": "The pointing graphical tablet",
+      "fondateurs": "Mohamed Taibah, Mohamed Kais Ben Rhouma, Ben thabet Mohamed, Charfeddine Aziza",
+      "secteur": "Advanced Manufacturing &",
+      "resultat": "prelabel accorde au 2 eme tour"
+    },
+    {
+      "societe": "Trip Hive",
+      "fondateurs": "Souaf Amir",
+      "secteur": "TravelTech",
+      "resultat": "prelabel accorde au 2 eme tour"
+    },
+    {
+      "societe": "ProgressBox El Qemma",
+      "fondateurs": "houssem ben brahim, Abdelhakim Haddad, oueslati salim, Mehdi Essalah, khaled makhlouf",
+      "secteur": "Agritech",
+      "resultat": "prelabel accorde au 2 eme tour"
+    },
+    {
+      "societe": "Gotei",
+      "fondateurs": "Amine Ben Messaoud, assad yahyawi, SABRINE MARZOUGUI",
+      "secteur": "Ad Tech and Creative Tech",
+      "resultat": "prelabel accorde au 2 eme tour"
+    },
+    {
+      "societe": "نﯾﺗﻣﺎﻣﯾﻟا  LYAMAMATAYN DIA industries",
+      "fondateurs": "Kawther Marzouki, Norene Sakouhi, Mohamed Yessine KSIBI, Dia Ali, Hamza Bouajila, Mehdi ZAYET, Ali Abdallah",
+      "secteur": "EdTech",
+      "resultat": "prelabel accorde au 2 eme tour"
+    },
+    {
+      "societe": "VIBE FLOW AI",
+      "fondateurs": "ala touati",
+      "secteur": "Ad Tech and Creative Tech",
+      "resultat": "prelabel accorde au 3 eme tour"
+    },
+    {
+      "societe": "BxB Studio",
+      "fondateurs": "Yassine Boumaiza",
+      "secteur": "Ad Tech and Creative Tech",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Boon",
+      "fondateurs": "Safa Bouabdallah, Fatma Bouhajeb, Ibrahim Daami",
+      "secteur": "Real Estate Tech",
+      "resultat": "label non accorde au 3 eme tour"
+    },
+    {
+      "societe": "Millisave",
+      "fondateurs": "Mahmoud DAAMI",
+      "secteur": "services",
+      "resultat": "label non accorde au 3 eme tour"
+    },
+    {
+      "societe": "سﻧوﺗ تارﺎﻘﻋ : Akarat.tn",
+      "fondateurs": "Amari Aida",
+      "secteur": "Commerce and shopping",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "OptiPlanex",
+      "fondateurs": "Amal Louati",
+      "secteur": "services",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "URBANAV",
+      "fondateurs": "Saifeddine Bessaidi, aziz zaag",
+      "secteur": "Mobility",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Darraja لﻣﻋ  3MAL",
+      "fondateurs": "Aymen Bouhaha, Mohamed Bayar, SADRI BEN AHMED",
+      "secteur": "Mobility",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "TENDER FLOW OptimAi Tender Flow",
+      "fondateurs": "Slim Bhiri, Aymen Talbi",
+      "secteur": "services",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Palm.ai Palm Solutions RH Tunisie",
+      "fondateurs": "Hela Atmani, NOUR GHALIA ABASSI, Lyle Halliday",
+      "secteur": "EdTech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Digehealth TN Dige Health Tunisia",
+      "fondateurs": "Marcel Wuethrich, Daniel Pohl, Mohamed Yassine Derbel",
+      "secteur": "HealthTech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Hanoutik M M HANOUTEK WattyGo : Founisseur 100% Tunisien de solutions",
+      "fondateurs": "Adem Bouatay, Mouhaned Ben Abdelhafidh, Haythem Belmabrouk",
+      "secteur": "services",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "WattyGo technologies intelligentes de recharge pour Véhicules Electriques",
+      "fondateurs": "Khaled Fourati, Mondher Makni",
+      "secteur": "Mobility",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Talifouni+ TPLUS INNOVATION",
+      "fondateurs": "Baha Kaabaoui",
+      "secteur": "Business Software and",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Société Secteur Digital World EdTech",
+      "fondateurs": "",
+      "secteur": "du Label",
+      "resultat": "La société a dépassé l'âge maximum de 8 ans fixé par"
+    },
+    {
+      "societe": "ESKY Professionnel Services Limited Business Software and services South Fruits Agri Agritech Think-IT lABS Business Software and services",
+      "fondateurs": "",
+      "secteur": "avril",
+      "resultat": "retrait du label la loi 202018 pour les societes beneficiaires du label"
+    }
+  ],
+  "session_data": {
+    "candidatures": 25,
+    "labels": 7,
+    "preLabels": 10,
+    "taux_acceptation_pct": 28.0,
+    "statut": "conforme",
+    "retraits": 0,
+    "conversions": 0,
+    "newLabels": 7
   }
- ],
- "session_data": {
-  "candidatures": 25,
-  "labels": 7,
-  "preLabels": 10,
-  "taux_acceptation_pct": 28.0,
-  "statut": "conforme",
-  "retraits": 4,
-  "conversions": 6,
-  "newLabels": 1
- }
 }

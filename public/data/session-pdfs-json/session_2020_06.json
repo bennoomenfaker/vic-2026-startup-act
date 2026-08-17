@@ -1,224 +1,188 @@
 {
- "session": "06/2020",
- "annee": 2020,
- "mois": 6,
- "pdf": "session_2020_06.pdf",
- "nb_entrees": 34,
- "source": "Extraction des PDF officiels des sessions — startup.gov.tn (voir Corrections)",
- "entrees": [
-  {
-   "societe": "Startup Act | Session 15 | Juin 2020 | Compte-Rendu",
-   "fondateurs": "Société, Fondateurs, Secteur, Label/Prélabel",
-   "secteur": "1er Tour",
-   "resultat": ""
-  },
-  {
-   "societe": "Résultat",
-   "fondateurs": "Commentaires, Recevabilité, Pitching, Conflit, FBS COMPANY, Fatma Ben Soltane, E-commerce, Label",
-   "secteur": "5",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Zackaria Belkhoja a déclaré un conflit d'intérêt, ADIOM, Wael Kanzari, Agritech, Label",
-   "secteur": "5",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Odacel, Mohamed Salah Karouia, Abdeljalil KAROUIA, Slim Ouichtati, Mourad Karouia, Mohamed Selim Bessi",
-   "secteur": "IoT",
-   "resultat": "Label"
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Firnas Engineering, Nidhal Ayari, Marwa Sboui, Mahmoud Ayari, IoT, Label",
-   "secteur": "8",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, CLEDISS, Ahmed Salah, Soumaya Dridi, Logiciel, Label",
-   "secteur": "7",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Lemarché.tn, Zied Gharsallah",
-   "secteur": "Agritech",
-   "resultat": "Label"
-  },
-  {
-   "societe": "Label accordé",
-   "fondateurs": "Label accordé suite au pitching, Société NSIJA, Hassine Labaied, Malek hamza, Nedhir Jemmali, Autre contenu créatif, Label",
-   "secteur": "4",
-   "resultat": ""
-  },
-  {
-   "societe": "Label accordé",
-   "fondateurs": "Label accordé suite au pitching, La Ferme Urbaine, Skander Kacem, Agritech, Label",
-   "secteur": "4",
-   "resultat": ""
-  },
-  {
-   "societe": "Label accordé",
-   "fondateurs": "Label accordé suite au pitching, Eventizer, Jamoussi Ahmed, Jihed Bouguerra, Yassine Abbes, Oussema Samet, Logiciel, Prélabel",
-   "secteur": "5",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel accordé, Prélabel accordé dès le 2ème tour, Kyteb, Haithem Kchaou, Chehir Dhawedi",
-   "secteur": "EdTech",
-   "resultat": "Prélabel"
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel accordé, Prélabel accordé dès le 2ème tour, Pura solutions, Jaweher Chatbri, Youssef Gaaliche, Ahmed Mrabet, Health Tech, Prélabel",
-   "secteur": "6",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel accordé, Prélabel accordé dès le 2ème tour, School Upgrader, Khalil Ben Zineb, Oussama Ben Zineb, EdTech, Prélabel",
-   "secteur": "6",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel accordé, Prélabel accordé dès le 2ème tour, StreetCarHub, Walid M'sallem, Ghazi Mensi, Autre contenu créatif, Prélabel",
-   "secteur": "5",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel accordé, Prélabel accordé dès le 2ème tour, Machrou3i Fi Bledi, Marouen Hadhri, KHELIFA HADHRI",
-   "secteur": "EdTech",
-   "resultat": "Label"
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, Tela, Chaima Chaouachi, E-commerce, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, Web2Advisor, Imed Zhir",
-   "secteur": "E-commerce",
-   "resultat": "Prélabel"
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, Limaalem, Rafik Al Falah, E-commerce, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, TDR, Ahdi Hidri, Saifeddine Jabbes, Youssef Chatti",
-   "secteur": "E-commerce",
-   "resultat": "Prélabel"
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, Plateforme de recouvrement intelligente:",
-   "secteur": "recouv.tn",
-   "resultat": "Yassine Jemal"
-  },
-  {
-   "societe": "Fintech",
-   "fondateurs": "Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, Connect Talents, Sahbi Agerbi",
-   "secteur": "HR",
-   "resultat": "Prélabel"
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, Docodify Technologies, Mohamed Ali Kharraf, IoT, Label",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "Label non accordé",
-   "fondateurs": "Label non accordé suite au pitching, SwalApp, Mohamed Aloui, Rami Jegham, Aziz Kamarti, Mobile, Label",
-   "secteur": "3",
-   "resultat": ""
-  },
-  {
-   "societe": "Prélabel non accordé",
-   "fondateurs": "PréLabel non accordé suite au pitching, Azaward, Akermi Abdekhalek, Mohamed Akermi, Tarek Saidi, E-commerce, Prélabel",
-   "secteur": "2",
-   "resultat": ""
-  },
-  {
-   "societe": "Prélabel non accordé",
-   "fondateurs": "PréLabel non accordé suite au pitching",
-   "secteur": "branper",
-   "resultat": "Saïd Ben Jlili"
-  },
-  {
-   "societe": "Hamza Ben Jannet",
-   "fondateurs": "",
-   "secteur": "Big Data",
-   "resultat": "Prélabel"
-  },
-  {
-   "societe": "Prélabel non accordé",
-   "fondateurs": "PréLabel non accordé suite au pitching",
-   "secteur": "iMMOTECH",
-   "resultat": "Cyrine Ben Ayed"
-  },
-  {
-   "societe": "Mohamed Raafet Limam",
-   "fondateurs": "Logiciel, Label, N.A, N.A, N.A, N.A, N.A, N.A, Label non accordé, Dossier irrecevable pour motif de non-indépendance du capital, Carthachain, Mohamad Mouihbi, Mahmoud Jebri, Blockchain & cryptocurrency, Prélabel, N.A, N.A, N.A, N.A, N.A, N.A, Prélabel non accordé, Dossier irrecevable pour manque d'autorisation de la part des autorités",
-   "secteur": "compétentes",
-   "resultat": "Passage de Prélabels aux Labels"
-  },
-  {
-   "societe": "Société",
-   "fondateurs": "Fondateurs, Secteur, Session d'obtention",
-   "secteur": "du Prélabel",
-   "resultat": "Résultat"
-  },
-  {
-   "societe": "Commentaires",
-   "fondateurs": "ORANGURU TECHDESIGN, Amir Matallaoui, Nadjib Mammeri, E-commerce, Décembre 2019, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "M eSANTE PLUS"
-  },
-  {
-   "societe": "Mohamed Ben Hmida",
-   "fondateurs": "AHMED ABIDA, Health Tech, Janvier 2019, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "INERTIA"
-  },
-  {
-   "societe": "Aymen Bouchoucha",
-   "fondateurs": "Mohamed Saïd El Behi, E-commerce, Février 2020, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "IJA-SOLUTIONS"
-  },
-  {
-   "societe": "Hatem Drira",
-   "fondateurs": "Plateforme Sociale, Janvier 2020, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": ""
+  "session": "06/2020",
+  "annee": 2020,
+  "mois": 6,
+  "pdf": "session_2020_06.pdf",
+  "nb_entrees": 28,
+  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
+  "entrees": [
+    {
+      "societe": "FBS COMPANY",
+      "fondateurs": "Fatma Ben Soltane",
+      "secteur": "E-commerce",
+      "resultat": "label"
+    },
+    {
+      "societe": "ADIOM",
+      "fondateurs": "Wael Kanzari, Mohamed Salah Karouia, Abdeljalil KAROUIA",
+      "secteur": "Agritech",
+      "resultat": "label"
+    },
+    {
+      "societe": "Odacel",
+      "fondateurs": "Slim Ouichtati, Mourad Karouia, Mohamed Selim Bessi, Nidhal Ayari",
+      "secteur": "IoT",
+      "resultat": "label"
+    },
+    {
+      "societe": "Firnas Engineering",
+      "fondateurs": "Marwa Sboui, Mahmoud Ayari, Ahmed Salah",
+      "secteur": "IoT",
+      "resultat": "label"
+    },
+    {
+      "societe": "CLEDISS",
+      "fondateurs": "Soumaya Dridi",
+      "secteur": "Logiciel",
+      "resultat": "label"
+    },
+    {
+      "societe": "Lemarché.tn",
+      "fondateurs": "Zied Gharsallah, Hassine Labaied",
+      "secteur": "Agritech",
+      "resultat": "label"
+    },
+    {
+      "societe": "Société NSIJA La Ferme Urbaine",
+      "fondateurs": "Malek hamza, Nedhir Jemmali, Skander Kacem, Jamoussi Ahmed, Jihed Bouguerra",
+      "secteur": "Autre contenu créatif",
+      "resultat": "label"
+    },
+    {
+      "societe": "Eventizer",
+      "fondateurs": "Yassine Abbes, Oussema Samet, Haithem Kchaou",
+      "secteur": "Logiciel",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "Kyteb",
+      "fondateurs": "Chehir Dhawedi, Jaweher Chatbri",
+      "secteur": "EdTech",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "Pura solutions",
+      "fondateurs": "Youssef Gaaliche, Ahmed Mrabet",
+      "secteur": "Health Tech",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "School Upgrader",
+      "fondateurs": "Khalil Ben Zineb, Oussama Ben Zineb, Walid M'sallem",
+      "secteur": "EdTech",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "StreetCarHub",
+      "fondateurs": "Ghazi Mensi, Marouen Hadhri",
+      "secteur": "Autre contenu créatif",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "Machrou3i Fi Bledi",
+      "fondateurs": "KHELIFA HADHRI",
+      "secteur": "EdTech",
+      "resultat": "label"
+    },
+    {
+      "societe": "Tela",
+      "fondateurs": "Chaima Chaouachi",
+      "secteur": "E-commerce",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "Web2Advisor",
+      "fondateurs": "Imed Zhir",
+      "secteur": "E-commerce",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "Limaalem",
+      "fondateurs": "Rafik Al Falah, Ahdi Hidri",
+      "secteur": "E-commerce",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "TDR Plateforme de recouvrement intelligente: recouv.tn",
+      "fondateurs": "Saifeddine Jabbes, Youssef Chatti, Yassine Jemal",
+      "secteur": "E-commerce",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "Connect Talents",
+      "fondateurs": "Sahbi Agerbi",
+      "secteur": "HR",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "Docodify Technologies",
+      "fondateurs": "Mohamed Ali Kharraf, Mohamed Aloui",
+      "secteur": "IoT",
+      "resultat": "label"
+    },
+    {
+      "societe": "SwalApp",
+      "fondateurs": "Rami Jegham, Aziz Kamarti, Akermi Abdekhalek",
+      "secteur": "Mobile",
+      "resultat": "label"
+    },
+    {
+      "societe": "Azaward",
+      "fondateurs": "Mohamed Akermi, Tarek Saidi, Saïd Ben Jlili",
+      "secteur": "E-commerce",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "branper",
+      "fondateurs": "Hamza Ben Jannet, Cyrine Ben Ayed",
+      "secteur": "Big Data",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "iMMOTECH",
+      "fondateurs": "Mohamed Raafet Limam, Mohamad Mouihbi",
+      "secteur": "",
+      "resultat": ""
+    },
+    {
+      "societe": "Carthachain",
+      "fondateurs": "Mahmoud Jebri",
+      "secteur": "Blockchain & cryptocurrency",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "ORANGURU TECHDESIGN",
+      "fondateurs": "Nadjib Mammeri, Mohamed Ben Hmida",
+      "secteur": "E-commerce",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "M eSANTE PLUS",
+      "fondateurs": "AHMED ABIDA, Aymen Bouchoucha",
+      "secteur": "Health Tech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "INERTIA",
+      "fondateurs": "Mohamed Saïd El Behi",
+      "secteur": "E-commerce",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "IJA-SOLUTIONS",
+      "fondateurs": "Hatem Drira",
+      "secteur": "Plateforme Sociale",
+      "resultat": "Janvier 2020"
+    }
+  ],
+  "session_data": {
+    "candidatures": 26,
+    "labels": 12,
+    "preLabels": 5,
+    "taux_acceptation_pct": 46.2,
+    "statut": "conforme",
+    "retraits": 0,
+    "conversions": 0,
+    "newLabels": 12
   }
- ],
- "session_data": {
-  "candidatures": 26,
-  "labels": 12,
-  "preLabels": 5,
-  "taux_acceptation_pct": 46.2,
-  "statut": "conforme",
-  "retraits": 0,
-  "conversions": 4,
-  "newLabels": 8
- }
 }

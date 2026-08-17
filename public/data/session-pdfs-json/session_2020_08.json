@@ -1,278 +1,224 @@
 {
- "session": "08/2020",
- "annee": 2020,
- "mois": 8,
- "pdf": "session_2020_08.pdf",
- "nb_entrees": 43,
- "source": "Extraction des PDF officiels des sessions — startup.gov.tn (voir Corrections)",
- "entrees": [
-  {
-   "societe": "Startup Act | Session 17 | Août 2020 | Compte-Rendu",
-   "fondateurs": "Société, Fondateurs, Secteur, Label/Prélabel",
-   "secteur": "1er Tour",
-   "resultat": ""
-  },
-  {
-   "societe": "Résultat",
-   "fondateurs": "Commentaires, Recevabilité, Pitching, Conflit, Addresti, Ahmed Yassine Allegue, Nour El Houda Benzarti, Mohamed Ali Torjmen, Mohamed Salem Bchir",
-   "secteur": "Mobile",
-   "resultat": "Label"
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, DEDALE SOLUTIONS, Hichem Elloumi, Fatma Mokadmi, Riadh Brinis, Khalil Masmoudi, Fintech, Label",
-   "secteur": "6",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Etakwin, Sawsan Bellaj, Moez Bouhlel, Mhammed Bellaj, E-commerce, Label",
-   "secteur": "7",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Autoshop.tn/ETL Technology, Bassem Ben Jmeaa, Mohamed Ali Ellouze, Achraf Guidara, E-commerce, Label",
-   "secteur": "8",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, DIDA MIND, Hatem Abidi, Soumaya Ben Abdallah, IoT, Label",
-   "secteur": "9",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, GST, Nesria Lehiani, Logistique, Label",
-   "secteur": "7",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Ali Mnif et Zackaria Belkhoja ont  déclaré un conflit d'intérêt, Improve Software TN, Ines Hakiri, Salah El Amami, Agritech, Label",
-   "secteur": "3",
-   "resultat": ""
-  },
-  {
-   "societe": "Label accordé",
-   "fondateurs": "Label accordé suite au pitching",
-   "secteur": "ai diagnosis vision",
-   "resultat": "Saoussen Ayari"
-  },
-  {
-   "societe": "Anouar Nechi",
-   "fondateurs": "Koussai Barhoumi, Health Tech, Prélabel",
-   "secteur": "5",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel accordé, Prélabel accordé dès le 2ème tour, Ali Mnif  a déclaré un conflit d'intérêt, GENI, Mohamed RAJHI, Mohamed Ali TBESSI",
-   "secteur": "Agritech",
-   "resultat": "Prélabel"
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel accordé, Prélabel accordé dès le 2ème tour, HAKIM TECHNOLOGIES, Mondher Hakim, Energie, Prélabel",
-   "secteur": "9",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel accordé, Prélabel accordé dès le 2ème tour, D-WEE, Mohamed Mabrouk, Nermine Marzouki, Taha Grach, Bassem Mlayah",
-   "secteur": "Health Tech",
-   "resultat": "Prélabel"
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel accordé, Prélabel accordé dès le 2ème tour, HOMEJEK, Mohamed Aziz Hannachi, Anis Mzoughi",
-   "secteur": "E-commerce",
-   "resultat": "Prélabel"
-  },
-  {
-   "societe": "Prélabel accordé",
-   "fondateurs": "Prélabel accordé suite au pitching, MTCE, Fares Amor, Dhafer Ben Amor, Nidhal Ben Amor, Autre contenu créatif, Prélabel",
-   "secteur": "4",
-   "resultat": ""
-  },
-  {
-   "societe": "Prélabel accordé",
-   "fondateurs": "Prélabel accordé suite au pitching, Angel Protector/ AMZi Smart Solutions, Zied Rouissi, Yassine Timoumi, Johannes Jones",
-   "secteur": "AI",
-   "resultat": "Label"
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, Lanterns, Jihed Jaouabi, Oussama mariem, Nabil Brahem",
-   "secteur": "Gaming",
-   "resultat": "Label"
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, Analytix, Amine Gara, Mariam Ouanes, Fintech, Label",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, M&C, Sami Chammakhi, Aymen Mechria",
-   "secteur": "AI",
-   "resultat": "Label"
-  },
-  {
-   "societe": "Label non accordé",
-   "fondateurs": "Label non accordé suite au pitching, Makerfy, Hani Hamrouni, Davide Di Majo",
-   "secteur": "Logiciel",
-   "resultat": "Label"
-  },
-  {
-   "societe": "Label non accordé",
-   "fondateurs": "Label non accordé suite au pitching, LaMode, Mohamed Nawes, Naima Ben Amara Nawes, E-commerce, Label",
-   "secteur": "2",
-   "resultat": "Label non accordé"
-  },
-  {
-   "societe": "Label non accordé suite au pitching",
-   "fondateurs": "Elyes Jeribi a déclaré un conflit d'intérêt, Lead Youth, Med Khalil Masmoudi, Yasmine Ferchichi, Développement personnel, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé Label non accordé dès le 2ème tour, Points Cadeaux, Walid Slama, Ahmed Ayadi",
-   "secteur": "Logiciel",
-   "resultat": "Prélabel"
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé Label non accordé dès le 2ème tour",
-   "secteur": "mintounes",
-   "resultat": "Beldi Zied"
-  },
-  {
-   "societe": "Ghizlaine Beldi",
-   "fondateurs": "Anis Harzallah, E-commerce, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé Label non accordé dès le 2ème tour, TAWA, Med Salah Mbarek, Mohamed Maalej, Marketing, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé Label non accordé dès le 2ème tour, Drone filaire, Mohamed Elaid Karaouli, Oussama Karaouli, Yassine Karaouli, Wassim Karaouli, Autre contenu créatif, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé Label non accordé dès le 2ème tour, Full Health, Selim Ben Mrad, Développement personnel, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé Label non accordé dès le 2ème tour, WeRebase, Ghaleb Ben Ali, Imen Baklouti, Nadhir Douma, Karim Daghari, EdTech, Prélabel",
-   "secteur": "3",
-   "resultat": ""
-  },
-  {
-   "societe": "Prélabel non accordé Prélabel non accordé suite au pitching",
-   "fondateurs": "Ijeni, Safi Eddine Negra, Yassine Haj Salem, E-commerce, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "Prélabel non accordé Prélabel non accordé suite au pitching",
-   "fondateurs": "Swerd, Mohamed Aziz Ben Allala, Fintech, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "Prélabel non accordé Prélabel non accordé suite au pitching",
-   "fondateurs": "Passage de Prélabels aux Labels, Société, Projet, Fondateurs, Secteur, Session d'obtention",
-   "secteur": "du Prélabel",
-   "resultat": "Résultat"
-  },
-  {
-   "societe": "Commentaires",
-   "fondateurs": "Afia Tech, Afia Tech, Laith Glissa",
-   "secteur": "Health Tech",
-   "resultat": "Décembre 2019"
-  },
-  {
-   "societe": "Label accordé",
-   "fondateurs": "Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "SPORTOLOGY"
-  },
-  {
-   "societe": "KLAY",
-   "fondateurs": "Mohamed Hedi Ben Hamed, Moez Aousji, Autre contenu créatif, Mars 2020, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "Société Classquiz"
-  },
-  {
-   "societe": "Class Quiz",
-   "fondateurs": "Sabrine Ibrahim, Achref Dawahi, Omar Trabelsi, EdTech, Février 2020, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "Nebulabs"
-  },
-  {
-   "societe": "Kyteb",
-   "fondateurs": "Haithem Kchaou, Chehir Dhawedi, EdTech, Juin 2020, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "Scaphandry"
-  },
-  {
-   "societe": "Rent a tutor",
-   "fondateurs": "Abdeljalil Ghattas, EdTech, Février 2020, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "Digital GROWUP APPLICATIONS « DGA »"
-  },
-  {
-   "societe": "GrowApp",
-   "fondateurs": "Wael Aouididi, Logiciel, Mai 2020, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "Ste Hope Healthcare Solutions"
-  },
-  {
-   "societe": "Le Comet",
-   "fondateurs": "Tarek Mnaffakh, Health Tech, Juillet 2020, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "THEMAZEGROUP"
-  },
-  {
-   "societe": "Mohamed Hedi Achour",
-   "fondateurs": "Yosr Naija, Yassine Achour, Karim Zehani, Mohamed Wassim Benzarti, Autre contenu créatif, Mai 2020, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "School Upgrader"
-  },
-  {
-   "societe": "School Upgrader",
-   "fondateurs": "Khalil Ben Zineb, Oussama Ben Zineb, EdTech, Juin 2020, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "STE Industrial FACTOORYA Tech"
-  },
-  {
-   "societe": "FACTOORYA",
-   "fondateurs": "Amine Rekhis, Yassine Khlass, Mohamed Seifedinne Bouarada, IoT, Mars 2020, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": ""
+  "session": "08/2020",
+  "annee": 2020,
+  "mois": 8,
+  "pdf": "session_2020_08.pdf",
+  "nb_entrees": 34,
+  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
+  "entrees": [
+    {
+      "societe": "Addresti",
+      "fondateurs": "Nour El Houda Benzarti, Mohamed Ali Torjmen, Mohamed Salem Bchir, Hichem Elloumi, Fatma Mokadmi",
+      "secteur": "Mobile",
+      "resultat": "label"
+    },
+    {
+      "societe": "DEDALE SOLUTIONS",
+      "fondateurs": "Riadh Brinis, Khalil Masmoudi, Sawsan Bellaj",
+      "secteur": "Fintech",
+      "resultat": "label"
+    },
+    {
+      "societe": "Etakwin",
+      "fondateurs": "Moez Bouhlel, Mhammed Bellaj, Bassem Ben Jmeaa",
+      "secteur": "E-commerce",
+      "resultat": "label"
+    },
+    {
+      "societe": "Autoshop.tn/ETL Technology",
+      "fondateurs": "Mohamed Ali Ellouze, Achraf Guidara, Hatem Abidi",
+      "secteur": "E-commerce",
+      "resultat": "label"
+    },
+    {
+      "societe": "DIDA MIND",
+      "fondateurs": "Soumaya Ben Abdallah",
+      "secteur": "IoT",
+      "resultat": "label"
+    },
+    {
+      "societe": "GST",
+      "fondateurs": "Nesria Lehiani",
+      "secteur": "Logistique",
+      "resultat": "label"
+    },
+    {
+      "societe": "Improve Software TN ai diagnosis vision",
+      "fondateurs": "Salah El Amami, Saoussen Ayari, Anouar Nechi",
+      "secteur": "Agritech",
+      "resultat": "label"
+    },
+    {
+      "societe": "GENI",
+      "fondateurs": "Mohamed Ali TBESSI",
+      "secteur": "Agritech",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "HAKIM TECHNOLOGIES",
+      "fondateurs": "Mondher Hakim, Mohamed Mabrouk, Nermine Marzouki",
+      "secteur": "Energie",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "D-WEE",
+      "fondateurs": "Taha Grach, Bassem Mlayah, Mohamed Aziz Hannachi",
+      "secteur": "Health Tech",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "HOMEJEK",
+      "fondateurs": "Anis Mzoughi, Fares Amor",
+      "secteur": "E-commerce",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "MTCE",
+      "fondateurs": "Dhafer Ben Amor, Nidhal Ben Amor, Zied Rouissi",
+      "secteur": "Autre contenu créatif",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "Angel Protector/ AMZi Smart Solutions",
+      "fondateurs": "Yassine Timoumi, Johannes Jones, Jihed Jaouabi",
+      "secteur": "AI",
+      "resultat": "label"
+    },
+    {
+      "societe": "Lanterns",
+      "fondateurs": "Oussama mariem, Nabil Brahem, Amine Gara",
+      "secteur": "Gaming",
+      "resultat": "label"
+    },
+    {
+      "societe": "Analytix",
+      "fondateurs": "Mariam Ouanes, Sami Chammakhi",
+      "secteur": "Fintech",
+      "resultat": "label"
+    },
+    {
+      "societe": "M&C",
+      "fondateurs": "Aymen Mechria",
+      "secteur": "AI",
+      "resultat": "label"
+    },
+    {
+      "societe": "Makerfy",
+      "fondateurs": "Hani Hamrouni, Davide Di Majo, Mohamed Nawes",
+      "secteur": "Logiciel",
+      "resultat": "label"
+    },
+    {
+      "societe": "Lead Youth",
+      "fondateurs": "Yasmine Ferchichi, Walid Slama",
+      "secteur": "Développement personnel",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "Points Cadeaux",
+      "fondateurs": "Ahmed Ayadi, Beldi Zied",
+      "secteur": "Logiciel",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "mintounes",
+      "fondateurs": "Ghizlaine Beldi, Anis Harzallah, Med Salah Mbarek",
+      "secteur": "E-commerce",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "TAWA",
+      "fondateurs": "Mohamed Maalej, Mohamed Elaid Karaouli, Oussama Karaouli",
+      "secteur": "Marketing",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "Drone filaire",
+      "fondateurs": "Yassine Karaouli, Wassim Karaouli",
+      "secteur": "Autre contenu créatif",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "Full Health",
+      "fondateurs": "Selim Ben Mrad, Ghaleb Ben Ali, Imen Baklouti",
+      "secteur": "Développement personnel",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "WeRebase",
+      "fondateurs": "Nadhir Douma, Karim Daghari",
+      "secteur": "EdTech",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "Afia Tech",
+      "fondateurs": "Afia Tech Laith Glissa, Mohamed Hedi Ben Hamed",
+      "secteur": "Health Tech Décembre",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "SPORTOLOGY",
+      "fondateurs": "KLAY, Moez Aousji, Sabrine Ibrahim",
+      "secteur": "Autre contenu créatif Mars",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Société Classquiz",
+      "fondateurs": "Class Quiz Achref Dawahi, Omar Trabelsi, Haithem Kchaou",
+      "secteur": "EdTech Février",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Nebulabs",
+      "fondateurs": "Kyteb, Chehir Dhawedi",
+      "secteur": "EdTech Juin",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Scaphandry",
+      "fondateurs": "Rent a tutor Abdeljalil Ghattas",
+      "secteur": "EdTech Février",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Digital GROWUP APPLICATIONS « DGA »",
+      "fondateurs": "GrowApp Wael Aouididi",
+      "secteur": "Logiciel Mai",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Ste Hope Healthcare Solutions",
+      "fondateurs": "Le Comet  Tarek Mnaffakh, Mohamed Hedi Achour, Yosr Naija",
+      "secteur": "Health Tech Juillet",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "THEMAZEGROUP",
+      "fondateurs": "iSporit Yassine Achour, Karim Zehani, Mohamed Wassim Benzarti, Khalil Ben Zineb",
+      "secteur": "Autre contenu créatif Mai",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "School Upgrader",
+      "fondateurs": "School Upgrader, Oussama Ben Zineb, Amine Rekhis",
+      "secteur": "EdTech Juin",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "STE Industrial FACTOORYA Tech",
+      "fondateurs": "FACTOORYA Yassine Khlass, Mohamed Seifedinne Bouarada",
+      "secteur": "IoT Mars",
+      "resultat": "label accorde"
+    }
+  ],
+  "session_data": {
+    "candidatures": 28,
+    "labels": 17,
+    "preLabels": 6,
+    "taux_acceptation_pct": 60.7,
+    "statut": "conforme",
+    "retraits": 0,
+    "conversions": 0,
+    "newLabels": 17
   }
- ],
- "session_data": {
-  "candidatures": 28,
-  "labels": 17,
-  "preLabels": 6,
-  "taux_acceptation_pct": 60.7,
-  "statut": "conforme",
-  "retraits": 0,
-  "conversions": 10,
-  "newLabels": 7
- }
 }

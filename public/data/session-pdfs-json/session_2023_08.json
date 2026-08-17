@@ -1,266 +1,212 @@
 {
- "session": "08/2023",
- "annee": 2023,
- "mois": 8,
- "pdf": "session_2023_08.pdf",
- "nb_entrees": 39,
- "source": "Extraction des PDF officiels des sessions — startup.gov.tn (voir Corrections)",
- "entrees": [
-  {
-   "societe": "Startup Act | Session 53 | Août 2023| Compte-Rendu",
-   "fondateurs": "Société, Fondateurs, Secteur, Label/Prélabel",
-   "secteur": "1er Tour",
-   "resultat": ""
-  },
-  {
-   "societe": "Résultat",
-   "fondateurs": "Commentaires, Recevabilité, Pitching, Conflit, Scaylab, Taher Siala, Business Software and services, Label",
-   "secteur": "7",
-   "resultat": "Label Accordé"
-  },
-  {
-   "societe": "Label accordé au 2ème tour",
-   "fondateurs": "SD Academy, May Tounsi, Farah Tounsi, Leila Ben Abdallah, EdTech, Label",
-   "secteur": "6",
-   "resultat": "Label Accordé"
-  },
-  {
-   "societe": "Label accordé au 2ème tour",
-   "fondateurs": "Deep Camp, Belhassen Chelbi, Sabrine Labidi, EdTech, Label",
-   "secteur": "4",
-   "resultat": "Label Accordé"
-  },
-  {
-   "societe": "Label accordé au 3 ème tour",
-   "fondateurs": "",
-   "secteur": "clik2read/MIPLIVREL",
-   "resultat": "Ahmed Sami Meksi"
-  },
-  {
-   "societe": "Mourad Boubaker",
-   "fondateurs": "EdTech, Label",
-   "secteur": "4",
-   "resultat": "Label Accordé"
-  },
-  {
-   "societe": "Label accordé au 3 ème tour",
-   "fondateurs": "",
-   "secteur": "sellya.net",
-   "resultat": "Hamza Zarrouk"
-  },
-  {
-   "societe": "Rihem Ghzaiel",
-   "fondateurs": "Ala Guezzi, Commerce and shopping, Prélabel",
-   "secteur": "7",
-   "resultat": "Prélabel Accordé"
-  },
-  {
-   "societe": "Prélabel accordé au 2ème tour",
-   "fondateurs": "Verse, Hassen Serkhane, Malek Baouindi, Commerce and shopping, Prélabel",
-   "secteur": "7",
-   "resultat": "Prélabel Accordé"
-  },
-  {
-   "societe": "Prélabel accordé au 2ème tour",
-   "fondateurs": "Drop'n Go, Riadh Bouassida, Ahmed Bouassida, Ramzi Arous, Consumer products and services, Prélabel",
-   "secteur": "6",
-   "resultat": "Prélabel Accordé"
-  },
-  {
-   "societe": "Prélabel accordé au 2ème tour",
-   "fondateurs": "HygieSys, Jihen Kboubi, Aschraf Chadli, Chiheb Kboubi, Adem Kboubi, Environment, Prélabel",
-   "secteur": "6",
-   "resultat": "Prélabel Accordé"
-  },
-  {
-   "societe": "Prélabel accordé au 2ème tour",
-   "fondateurs": "FIDELIUM, Ghaith Ben Mansour, Consumer products and services, Prélabel",
-   "secteur": "5",
-   "resultat": "Prélabel Accordé"
-  },
-  {
-   "societe": "Prélabel accordé au 2ème tour",
-   "fondateurs": "WOLO, Mohamed Ali Hergli, Ad Tech and Creative Tech, Label",
-   "secteur": "0",
-   "resultat": "Label Non Accordé"
-  },
-  {
-   "societe": "Label Non accordé au 2ème tour",
-   "fondateurs": "Elodox, Hafedh Farhani, Abdelrahman Nasser, Cyrine Ben Haj Ali, HealthTech, Label",
-   "secteur": "0",
-   "resultat": "Label Non Accordé"
-  },
-  {
-   "societe": "Label Non accordé au 2ème tour",
-   "fondateurs": "Restojob, Mortadha Mehri, Adem Mehri, Mojtabah Mehri, Business Software and services, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé Prélabel Non accordé au 2ème tour"
-  },
-  {
-   "societe": "Yolyc",
-   "fondateurs": "Amine Maalaoui, Real estate Tech, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé Prélabel Non accordé au 2ème tour"
-  },
-  {
-   "societe": "GMT International",
-   "fondateurs": "Amal Abdelkafi, Communication services, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé Prélabel Non accordé au 2ème tour"
-  },
-  {
-   "societe": "EagleEye",
-   "fondateurs": "Rayen Naimi, Dabboussi Hassen, Mohamed Amine Naimi, Business Software and services, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé Prélabel Non accordé au 2ème tour"
-  },
-  {
-   "societe": "BTG : Bridging The Gap",
-   "fondateurs": "Raef RezguI, Badis Kardous, Chiheb Baazaoui, Firas Koraani, Ad Tech and Creative Tech, Prélabel",
-   "secteur": "0",
-   "resultat": "Label Non Accordé"
-  },
-  {
-   "societe": "Label Non accordé au 2ème tour",
-   "fondateurs": "ZMEN, Sarra Goddi, Imen Ben Slimen, Ad Tech and Creative Tech, Prélabel",
-   "secteur": "0",
-   "resultat": "Label Non Accordé"
-  },
-  {
-   "societe": "Label Non accordé au 2ème tour",
-   "fondateurs": "",
-   "secteur": "dash sports",
-   "resultat": "Melek Chakchouk"
-  },
-  {
-   "societe": "Bilel Ben Atitallah",
-   "fondateurs": "Jawhar Ben Salem, Hatem Halouani, Welllness, Prélabel",
-   "secteur": "0",
-   "resultat": "Label Non Accordé"
-  },
-  {
-   "societe": "Label Non accordé au 2ème tour",
-   "fondateurs": "Tutwide, Jawhar Farhat, Sami Hamdi, EdTech, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé Prélabel Non accordé au 2ème tour"
-  },
-  {
-   "societe": "Modhif",
-   "fondateurs": "Achraf Sekri, Real Estate Tech, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé Prélabel Non accordé au 2ème tour"
-  },
-  {
-   "societe": "TIE-UP",
-   "fondateurs": "Achouri Iyadh, Rami Ksouri, Consumer products and services, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé Prélabel Non accordé au 2ème tour"
-  },
-  {
-   "societe": "Miled Mohamed",
-   "fondateurs": "Mohamed ali Zorgui, Real Estate Tech, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé Prélabel Non accordé au 2ème tour"
-  },
-  {
-   "societe": "AlloFermli",
-   "fondateurs": "Naja Benali, Healthtech, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé Prélabel Non accordé au 2ème tour"
-  },
-  {
-   "societe": "Clic Holidays",
-   "fondateurs": "Seif Allah Azaiez, Philippe Dedrie, TravelTech, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non accordé Prélabel Non accordé au 3ème Tour"
-  },
-  {
-   "societe": "IPPO",
-   "fondateurs": "Ahmed Bouali, Mohamed Wassim Abidi, Salim Benaoun, Hela Msaddek, Mohamed Firas Najjar, Mohamed Elyes Abidi, Advanced Manufacturing & Robotics Prélabel",
-   "secteur": "1",
-   "resultat": "Prélabel Non accordé Prélabel Non accordé au 3ème Tour"
-  },
-  {
-   "societe": "Kardili",
-   "fondateurs": "Med Mezri Ben Dkhil, Hamdi Mokni, Business Software and services, Prélabel, N.A, N.A, N.A, N.A, N.A, N.A, Prélabel Non accordé, Prélabel Non accordé au  1er tour Exercice de l'activité bancaire soumis à l’",
-   "secteur": "approbation préalable del a Banque Centrale de Tunisie conformément aux",
-   "resultat": "articles 4 et 24.de la loi n°2016-48 du 11 juillet 2016 relative aux banques"
-  },
-  {
-   "societe": "Passage de Prélabels aux Labels",
-   "fondateurs": "Société, Projet, Fondateurs, Secteur, Session d'obtention",
-   "secteur": "du Prélabel",
-   "resultat": "Résultat"
-  },
-  {
-   "societe": "Commentaires",
-   "fondateurs": "",
-   "secteur": "ste vetalyst tech solution",
-   "resultat": "Beitary"
-  },
-  {
-   "societe": "Firas Jribi",
-   "fondateurs": "HealthTech, Avril 2023, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "Be Synchro"
-  },
-  {
-   "societe": "NetConf",
-   "fondateurs": "Houssem Jarraya, Ad Tech & Creative Tech, Juillet 2023, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "Ziwziw Family Friend"
-  },
-  {
-   "societe": "Ziwziw Family Friend",
-   "fondateurs": "Mechri Siwar, Nawres Mechri, Zardi Samar, Yassmine Dahmene, EdTech, Février 2023, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "MK Talent"
-  },
-  {
-   "societe": "Digify",
-   "fondateurs": "Mehdi Ben Hassine, Khaled Ben hassine, EdTech, Mars 2023, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "Grün Skincare"
-  },
-  {
-   "societe": "Grün Skincare",
-   "fondateurs": "Foued Kilani, Djazia Messous, Wellness, Février 2023, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "Lean Manufacturing Company"
-  },
-  {
-   "societe": "LeanTex",
-   "fondateurs": "Melek Mehrez, Nihel Beji, Firas Mehrez, Advanced Manufacturing &, Robotics, Juin 2023, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "Gifty"
-  },
-  {
-   "societe": "Gifty",
-   "fondateurs": "Il Banney Haythem, Jihed Chemlali, Commerce & Shopping, Février 2023, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": ""
+  "session": "08/2023",
+  "annee": 2023,
+  "mois": 8,
+  "pdf": "session_2023_08.pdf",
+  "nb_entrees": 29,
+  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
+  "entrees": [
+    {
+      "societe": "Scaylab",
+      "fondateurs": "Taher Siala, May Tounsi",
+      "secteur": "Business Software and services",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "SD Academy",
+      "fondateurs": "Farah Tounsi, Leila Ben Abdallah, Belhassen Chelbi",
+      "secteur": "EdTech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Deep Camp",
+      "fondateurs": "Sabrine Labidi, Ahmed Sami Meksi",
+      "secteur": "EdTech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "clik2read/MIPLIVREL",
+      "fondateurs": "Mourad Boubaker, Hamza Zarrouk",
+      "secteur": "",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "sellya.net",
+      "fondateurs": "Rihem Ghzaiel, Ala Guezzi, Hassen Serkhane",
+      "secteur": "Commerce and shopping",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Verse",
+      "fondateurs": "Malek Baouindi, Riadh Bouassida",
+      "secteur": "Commerce and shopping",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Drop'n Go",
+      "fondateurs": "Ahmed Bouassida, Ramzi Arous, Jihen Kboubi, Aschraf Chadli",
+      "secteur": "Consumer products and services",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "HygieSys",
+      "fondateurs": "Chiheb Kboubi, Adem Kboubi",
+      "secteur": "Environment",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "FIDELIUM",
+      "fondateurs": "Ghaith Ben Mansour",
+      "secteur": "Consumer products and services",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "WOLO",
+      "fondateurs": "Mohamed Ali Hergli, Hafedh Farhani",
+      "secteur": "Ad Tech and Creative Tech",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "Elodox",
+      "fondateurs": "Abdelrahman Nasser, Cyrine Ben Haj Ali, Mortadha Mehri",
+      "secteur": "HealthTech",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "Restojob",
+      "fondateurs": "Adem Mehri, Mojtabah Mehri",
+      "secteur": "Business Software and services",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "Yolyc",
+      "fondateurs": "Amine Maalaoui",
+      "secteur": "Real estate Tech",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "GMT International",
+      "fondateurs": "Amal Abdelkafi, Rayen Naimi",
+      "secteur": "Communication services",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "EagleEye",
+      "fondateurs": "Dabboussi Hassen, Mohamed Amine Naimi, Raef RezguI, Badis Kardous",
+      "secteur": "Business Software and services",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "BTG : Bridging The Gap",
+      "fondateurs": "Chiheb Baazaoui, Firas Koraani, Sarra Goddi",
+      "secteur": "Ad Tech and Creative Tech",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "ZMEN dash sports",
+      "fondateurs": "Imen Ben Slimen, Melek Chakchouk, Bilel Ben Atitallah, Jawhar Ben Salem, Hatem Halouani, Jawhar Farhat",
+      "secteur": "Ad Tech and Creative Tech",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "Tutwide",
+      "fondateurs": "Sami Hamdi",
+      "secteur": "EdTech",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "Modhif",
+      "fondateurs": "Achraf Sekri, Achouri Iyadh",
+      "secteur": "Real Estate Tech",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "TIE-UP",
+      "fondateurs": "Rami Ksouri, Miled Mohamed",
+      "secteur": "Consumer products and services",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "nextview",
+      "fondateurs": "Mohamed ali Zorgui",
+      "secteur": "Real Estate Tech",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "AlloFermli",
+      "fondateurs": "Naja Benali",
+      "secteur": "Healthtech",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "ste vetalyst tech solution Beitary",
+      "fondateurs": "Firas Jribi",
+      "secteur": "HealthTech Avril",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Be Synchro NetConf",
+      "fondateurs": "Houssem Jarraya, Mechri Siwar, Nawres Mechri",
+      "secteur": "Ad Tech & Creative Tech Juillet",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Ziwziw Family Friend",
+      "fondateurs": "Ziwziw Family Friend, Zardi Samar, Yassmine Dahmene, Mehdi Ben Hassine",
+      "secteur": "EdTech Février",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "MK Talent Digify",
+      "fondateurs": "Khaled Ben hassine, Foued Kilani",
+      "secteur": "EdTech Mars",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Grün Skincare",
+      "fondateurs": "Grün Skincare, Djazia Messous, Melek Mehrez",
+      "secteur": "Wellness Février",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Lean Manufacturing Company LeanTex",
+      "fondateurs": "Nihel Beji, Firas Mehrez, Il Banney Haythem",
+      "secteur": "Juin",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Gifty Gifty",
+      "fondateurs": "Jihed Chemlali",
+      "secteur": "Commerce & Shopping Février",
+      "resultat": "label accorde"
+    }
+  ],
+  "session_data": {
+    "candidatures": 26,
+    "labels": 11,
+    "preLabels": 5,
+    "taux_acceptation_pct": 42.3,
+    "statut": "corrigee",
+    "retraits": 0,
+    "conversions": 0,
+    "newLabels": 11,
+    "correction": {
+      "session": "08/2023",
+      "candidatures": 26,
+      "old": {
+        "labels": 11,
+        "preLabels": 6,
+        "taux": "42.3"
+      },
+      "new": {
+        "labels": 11,
+        "preLabels": 5,
+        "tauxExact": 42.307692,
+        "taux": "42.3",
+        "echec": "57.7"
+      },
+      "reason": "5 prélabels (scrapé : 6)",
+      "commentaires": "4 Labels et 7 Prélabels à Labels"
+    }
   }
- ],
- "session_data": {
-  "candidatures": 26,
-  "labels": 11,
-  "preLabels": 5,
-  "taux_acceptation_pct": 42.3,
-  "statut": "corrigee",
-  "correction": {
-   "anciennes_valeurs": {
-    "labels": 11,
-    "preLabels": 6
-   },
-   "valeurs_corrigees": {
-    "labels": 11,
-    "preLabels": 5
-   },
-   "raison": "5 prélabels (scrapé : 6)",
-   "commentaires_pdf": "4 Labels et 7 Prélabels à Labels"
-  },
-  "retraits": 0,
-  "conversions": 7,
-  "newLabels": 4
- }
 }

@@ -1,290 +1,224 @@
 {
- "session": "12/2022",
- "annee": 2022,
- "mois": 12,
- "pdf": "session_2022_12.pdf",
- "nb_entrees": 43,
- "source": "Extraction des PDF officiels des sessions — startup.gov.tn (voir Corrections)",
- "entrees": [
-  {
-   "societe": "Startup Act | Session 45 | Décembre 2022 | Compte-Rendu",
-   "fondateurs": "Société, Fondateurs, Secteur, Label/Prélabel",
-   "secteur": "1er Tour",
-   "resultat": ""
-  },
-  {
-   "societe": "Résultat",
-   "fondateurs": "Commentaires, Recevabilité, Pitching, Conflit, Dyxis, Skander Zoghlami, Business Software & Services, Label",
-   "secteur": "8",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Petsigo, Dhia Zitouni, Hafedh Dridi, HealthTech, Label",
-   "secteur": "8",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, LIPONOV, Jannet Kamoun, Ahmed Aloulou, HealthTech, Label",
-   "secteur": "8",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Asterkid, Mohamed Amine Ziraoui, Amel Barbou, Business Software & Services, Label",
-   "secteur": "7",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, KADRA NOVA - KN نﺋﺎﻛ, Khalifa Zeddini, Walid Zeddini, Yasmina Zarrouk, Environment/Energie, Label",
-   "secteur": "7",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Jemolio, Malek Lamine, Karim Soussi, Malek Ben Mbarek, Consumer Product & Services Label",
-   "secteur": "6",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Yoteqi, Mohamed Khedher, Jalel Ben Romdhane, Social Business, Label",
-   "secteur": "6",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Taskflow, Walid Meddeb, Mohamed Aziz Lahkimi, Mobility, Prélabel",
-   "secteur": "8",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel  accordé, Prélabel accordé dès le 2ème tour, Papi'Pets, Emna Bellagha, Achref Ksontini, Chahrazed Remadi, Mortadha Ouadday, FoodTech & New Food, Prélabel",
-   "secteur": "8",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel  accordé, Prélabel accordé dès le 2ème tour, SunAir Fountain® : Générateur d’eau de",
-   "secteur": "boisson atmosphérique par le solaire",
-   "resultat": "Rami Elgolli"
-  },
-  {
-   "societe": "Luc Metivier",
-   "fondateurs": "Environment, Prélabel",
-   "secteur": "8",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel  accordé, Prélabel accordé dès le 2ème tour, Tennex Tunisie, Chahine Hamila, Business Software & Services, Prélabel",
-   "secteur": "6",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel  accordé, Prélabel accordé dès le 2ème tour, WeMiam HappyTeams, Mohamed Aimen Jouini, EdTech, Prélabel",
-   "secteur": "6",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel  accordé, Prélabel accordé dès le 2ème tour, Cava.tn, Mohamed Ben Youssef, Commerce and shopping, Label",
-   "secteur": "3",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, FastCharging, Hamza Guizani, Nizar Guizani, Mobility, Label",
-   "secteur": "2",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, SamRise, Mohamed Aziz Ben Mahmoud, Mariem Hamzaoui, Imed hanana, Meriem Dkhil, Feriel Ben Hassine, Arbi Soussi, Business Software & Services, Label",
-   "secteur": "1",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, OREADZ, Sami Mokaddem, Atef Attia, Aymen Draoui, Consumer products and",
-   "secteur": "services",
-   "resultat": "Label"
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, Laboratoire HYGIE, Sahbi Ben Lamine, HealthTech, Label",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label non accordé, Label non accordé suite au pitching, Culinary, Dhouha Kouki, Asma Chebbi, Elyes Somai, FoodTech & New Food, Prélabel",
-   "secteur": "2",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label non accordé, Label non accordé suite au pitching, WMS, Mohamed Naoues, Yosr Salhi, Business Software & Services, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour, Fabriquer les produits électroniques, Marwene Selmi, Consumer products and",
-   "secteur": "services",
-   "resultat": "Prélabel"
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour, Aram Clinic, Aymen Boujbel, HealthTech, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour, AsOne4Health, Abdelhalim Rafrafi, HealthTech, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour, Zoubeir Tourki a déclaré avoir un conflit d'intérêt, Canadin, Aymen Jhidri, Wassim Abdel Malek, Mohamed Ali Ben Slimen, Souad Belghith, Dhiaeddinne Rahali, Business Software & Services, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour, Achref Bejaoui, Achref Bejaoui, Ilyes Elgaied, Advanced Manufacturing &, Robotics, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour, TGL - The German Lab, Adnen Ben Chagra, Mohamed Elyess Kharroubi, EdTech, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour, MTM SOLUTIONS, Marwa Agrebi, Aymen Kassis, Business Software & Services, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour, Siraj'Tech, Majd Ghdiri, Siwar Lachiheb, Youssef Gorcia, Houssem Cheffi, Environment, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour, Chfamma Ftour, Jihed Jed, FoodTech & New Food, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé dès le 2ème tour, Marsix, Mohamed Amine Moussa, Consumer products and",
-   "secteur": "services",
-   "resultat": "Prélabel"
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé suite au pitching, TerraÏne, Zeineb Zardoumi, FoodTech & New Food, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé Prélabel non accordé suite au pitching, Passage de Prélabels aux Labels, Société, Projet, Fondateurs, Secteur, Session d'obtention",
-   "secteur": "du Prélabel",
-   "resultat": "Résultat"
-  },
-  {
-   "societe": "Commentaires",
-   "fondateurs": "Baktrain Solutions, Bakourat, Oumaya Mejri, Hannachi Wassim, Tezeghedenti Asma, Agritech, Mai 2022, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "TAOO"
-  },
-  {
-   "societe": "TAOO",
-   "fondateurs": "Walid Hached, Fintech, Juillet 2022, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "Taw Taw Group"
-  },
-  {
-   "societe": "Taw Taw Group",
-   "fondateurs": "Nacir Bouazizi, Mobility, Juillet 2022, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "DOTS TECHNOLOGY"
-  },
-  {
-   "societe": "Auto Sans Risque",
-   "fondateurs": "Ali Koubaa, Feryel Mechri, Mohamed Koubaa, Consumer products and",
-   "secteur": "services",
-   "resultat": "Mai 2022"
-  },
-  {
-   "societe": "Label accordé",
-   "fondateurs": "Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "EquiBooster"
-  },
-  {
-   "societe": "EquiBooster",
-   "fondateurs": "Farouk Bouzouita, Saber Elabidi, Nadia Sghaier, Social Business, Mai 2022, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "Karma solution"
-  },
-  {
-   "societe": "KARMA",
-   "fondateurs": "Sofiene Ben Hamida, Mohamed Zied Razzegui, Rania Zarg El Ayoun, Khaled Taher, Business Software &, Services, Octobre 2022, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "EDATA WAREHOUSE"
-  },
-  {
-   "societe": "Kamel Chahed",
-   "fondateurs": "Fakhri Jemail, Business Software &, Services, Juillet 2022, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "BIGDATIS"
-  },
-  {
-   "societe": "BIGDATIS",
-   "fondateurs": "Ahlem Bouchahda, Amine Fahem, Real Estate Tech, Juin 2022, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "Feed In Green"
-  },
-  {
-   "societe": "FeedIn",
-   "fondateurs": "Amal Khémira, Agritech, Novembre 2022, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": ""
-  }
- ],
- "session_data": {
-  "candidatures": 30,
-  "labels": 16,
-  "preLabels": 5,
-  "taux_acceptation_pct": 53.3,
-  "statut": "corrigee",
-  "correction": {
-   "anciennes_valeurs": {
-    "labels": 17,
-    "preLabels": 5
-   },
-   "valeurs_corrigees": {
+  "session": "12/2022",
+  "annee": 2022,
+  "mois": 12,
+  "pdf": "session_2022_12.pdf",
+  "nb_entrees": 31,
+  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
+  "entrees": [
+    {
+      "societe": "Dyxis",
+      "fondateurs": "Skander Zoghlami, Dhia Zitouni",
+      "secteur": "Business Software & Services",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Petsigo",
+      "fondateurs": "Hafedh Dridi, Jannet Kamoun",
+      "secteur": "HealthTech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "LIPONOV",
+      "fondateurs": "Ahmed Aloulou, Mohamed Amine Ziraoui",
+      "secteur": "HealthTech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Asterkid نﺋﺎﻛ",
+      "fondateurs": "Amel Barbou, Khalifa Zeddini",
+      "secteur": "Business Software & Services",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "KADRA NOVA - KN",
+      "fondateurs": "Walid Zeddini, Yasmina Zarrouk, Malek Lamine",
+      "secteur": "Environment/Energie",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Jemolio",
+      "fondateurs": "Karim Soussi, Malek Ben Mbarek, Mohamed Khedher",
+      "secteur": "Consumer Product & Services Label",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Yoteqi",
+      "fondateurs": "Jalel Ben Romdhane, Walid Meddeb",
+      "secteur": "Social Business",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Taskflow",
+      "fondateurs": "Mohamed Aziz Lahkimi, Emna Bellagha, Achref Ksontini",
+      "secteur": "Mobility",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Papi'Pets SunAir Fountain® : Générateur d’eau de boisson atmosphérique par le solaire",
+      "fondateurs": "Chahrazed Remadi, Mortadha Ouadday, Rami Elgolli, Luc Metivier",
+      "secteur": "FoodTech & New Food",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Tennex Tunisie",
+      "fondateurs": "Chahine Hamila",
+      "secteur": "Business Software & Services",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "WeMiam HappyTeams",
+      "fondateurs": "Mohamed Aimen Jouini",
+      "secteur": "EdTech",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Cava.tn",
+      "fondateurs": "Mohamed Ben Youssef, Hamza Guizani",
+      "secteur": "Commerce and shopping",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "FastCharging",
+      "fondateurs": "Nizar Guizani, Mohamed Aziz Ben Mahmoud, Mariem Hamzaoui, Imed hanana",
+      "secteur": "Mobility",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "SamRise",
+      "fondateurs": "Meriem Dkhil, Feriel Ben Hassine, Arbi Soussi, Sami Mokaddem",
+      "secteur": "Business Software & Services",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "OREADZ",
+      "fondateurs": "Atef Attia, Aymen Draoui",
+      "secteur": "Consumer products and",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "Laboratoire HYGIE",
+      "fondateurs": "Sahbi Ben Lamine, Dhouha Kouki",
+      "secteur": "HealthTech",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "Culinary",
+      "fondateurs": "Asma Chebbi, Elyes Somai, Mohamed Naoues",
+      "secteur": "FoodTech & New Food",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "WMS",
+      "fondateurs": "Yosr Salhi",
+      "secteur": "Business Software & Services",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "Fabriquer les produits électroniques",
+      "fondateurs": "Marwene Selmi",
+      "secteur": "services",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "Aram Clinic",
+      "fondateurs": "Aymen Boujbel",
+      "secteur": "HealthTech",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "AsOne4Health",
+      "fondateurs": "Abdelhalim Rafrafi",
+      "secteur": "HealthTech",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "Canadin Achref Bejaoui",
+      "fondateurs": "Mohamed Ali Ben Slimen, Souad Belghith, Dhiaeddinne Rahali, Achref Bejaoui, Ilyes Elgaied",
+      "secteur": "Business Software & Services",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "Baktrain Solutions",
+      "fondateurs": "Bakourat  Hannachi Wassim, Tezeghedenti Asma",
+      "secteur": "Agritech Mai",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "TAOO",
+      "fondateurs": "TAOO Walid Hached",
+      "secteur": "Fintech Juillet",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Taw Taw Group",
+      "fondateurs": "Taw Taw Group Nacir Bouazizi, Ali Koubaa",
+      "secteur": "Mobility Juillet",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "DOTS TECHNOLOGY",
+      "fondateurs": "Auto Sans Risque Feryel Mechri, Mohamed Koubaa, Farouk Bouzouita",
+      "secteur": "Mai",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "EquiBooster",
+      "fondateurs": "EquiBooster Saber Elabidi, Nadia Sghaier, Sofiene Ben Hamida, Mohamed Zied Razzegui",
+      "secteur": "Social Business Mai",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Karma solution",
+      "fondateurs": "KARMA, Rania Zarg El Ayoun, Khaled Taher, Kamel Chahed",
+      "secteur": "Octobre",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "EDATA WAREHOUSE",
+      "fondateurs": "eDATA, Fakhri Jemail, Ahlem Bouchahda",
+      "secteur": "Juillet",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "BIGDATIS",
+      "fondateurs": "BIGDATIS, Amine Fahem",
+      "secteur": "Real Estate Tech Juin",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Feed In Green",
+      "fondateurs": "FeedIn Amal Khémira",
+      "secteur": "Agritech Novembre",
+      "resultat": "label accorde"
+    }
+  ],
+  "session_data": {
+    "candidatures": 30,
     "labels": 16,
-    "preLabels": 5
-   },
-   "raison": "7 nouveaux labels + 9 conversions = 16 (scrapé : 17)",
-   "commentaires_pdf": "07 Labels et 10 Prélabel à Label"
-  },
-  "retraits": 0,
-  "conversions": 9,
-  "newLabels": 7
- }
+    "preLabels": 5,
+    "taux_acceptation_pct": 53.3,
+    "statut": "corrigee",
+    "retraits": 0,
+    "conversions": 0,
+    "newLabels": 16,
+    "correction": {
+      "session": "12/2022",
+      "candidatures": 30,
+      "old": {
+        "labels": 17,
+        "preLabels": 5,
+        "taux": "56.7"
+      },
+      "new": {
+        "labels": 16,
+        "preLabels": 5,
+        "tauxExact": 53.333333,
+        "taux": "53.3",
+        "echec": "46.7"
+      },
+      "reason": "7 nouveaux labels + 9 conversions = 16 (scrapé : 17)",
+      "commentaires": "07 Labels et 10 Prélabel à Label"
+    }
+  }
 }

@@ -1,314 +1,194 @@
 {
- "session": "10/2024",
- "annee": 2024,
- "mois": 10,
- "pdf": "session_2024_10.pdf",
- "nb_entrees": 49,
- "source": "Extraction des PDF officiels des sessions — startup.gov.tn (voir Corrections)",
- "entrees": [
-  {
-   "societe": "Startup Act | Session 67| Octobre 2024 | Compte-Rendu",
-   "fondateurs": "Société, Fondateurs, Secteur, Label/Prélabel",
-   "secteur": "1er Tour",
-   "resultat": ""
-  },
-  {
-   "societe": "Résultat",
-   "fondateurs": "Recevabilité, Pitching, Conflit, Coloc'Qui, Chaima Torkhani, Marwa Torkhani, Mohamed Aziz Saouabi, Mohamed Amine Hamdi, Real Estate Tech, Label",
-   "secteur": "5",
-   "resultat": "Label Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "OLINDIAS",
-   "fondateurs": "Mohamed Lotfi Sassi, Business Software and services, Label",
-   "secteur": "5",
-   "resultat": "Label Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Ailine Pro",
-   "fondateurs": "Ines Achour, Saif Chtourou, Nadra Achour, Business Software and services, Label",
-   "secteur": "5",
-   "resultat": "Label Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "LR Move",
-   "fondateurs": "Mahdi Oueslati, Yassmine Gritli, Zeynab Gritli, Aymen Masmoudi, Imen Oueslati, Mobility, Label",
-   "secteur": "5",
-   "resultat": "Label Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "PlayHalla",
-   "fondateurs": "Ghaith Saidani, Mosaab Bousbih, Yathreb Saidani, Ad Tech and Creative Tech, Label",
-   "secteur": "4",
-   "resultat": "Label Accordé au 3 ème Tour"
-  },
-  {
-   "societe": "Renaissance",
-   "fondateurs": "Morsi Feki, Souleyma Khadhraoui, Commerce and shopping, Label",
-   "secteur": "1",
-   "resultat": "Label Accordé au 3 ème Tour"
-  },
-  {
-   "societe": "Twins",
-   "fondateurs": "Olfa Bilel, Ala cherni, HealthTech, Label",
-   "secteur": "3",
-   "resultat": "Label Accordé au 3 ème Tour"
-  },
-  {
-   "societe": "AIO Events",
-   "fondateurs": "Iyed Ben Massoud, Oussama Errifi, Derouich Aymen, Ali Baroudi, Business Software and services, Label",
-   "secteur": "4",
-   "resultat": "Label Accordé au 3 ème Tour"
-  },
-  {
-   "societe": "TOLLXPRESS",
-   "fondateurs": "Mondher Ayadi, Yosri Ayadi, Mobility, Label",
-   "secteur": "1",
-   "resultat": "Label Accordé au 3 ème Tour"
-  },
-  {
-   "societe": "Receeto",
-   "fondateurs": "Business Software and services, Chaima Bouslimi, Souha Bouslimi, Aymen Ben Selma, Prélabel",
-   "secteur": "5",
-   "resultat": "Prélabel Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Save the Plate",
-   "fondateurs": "Dhia Eddine Zouari, Sarra Soussia, Environment, Prélabel",
-   "secteur": "5",
-   "resultat": "Prélabel Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "SV LAB",
-   "fondateurs": "Aymen Bjaoui, Marzouki Mohamed Amine, Moez Ben Mosbah, Agritech, Prélabel",
-   "secteur": "5",
-   "resultat": "Prélabel Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Mohamed Hajjem",
-   "fondateurs": "Amal Hemdana, Hamza Borchani, Commerce and shopping, Prélabel",
-   "secteur": "5",
-   "resultat": "Prélabel Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Business Software and services",
-   "fondateurs": "Selim Hadj Khalifa, Ilyes Tlili, Prélabel",
-   "secteur": "1",
-   "resultat": "Prélabel Accordé au 3 ème Tour"
-  },
-  {
-   "societe": "Skazy Tunisia",
-   "fondateurs": "Selim Mhedhbi, Mohamed Sabri Belgaroui, Hatem Bellagi, Business Software and services, Prélabel",
-   "secteur": "2",
-   "resultat": "Prélabel Accordé au 3 ème Tour"
-  },
-  {
-   "societe": "Oop'la",
-   "fondateurs": "Marwa Baccouche, Faouzi Kadous, Consumer products and",
-   "secteur": "services",
-   "resultat": "Prélabel"
-  },
-  {
-   "societe": "Prélabel Accordé au 3 ème Tour",
-   "fondateurs": "Mathix Academy, Khalil Ben Ali, Zied Ben Mansour, Zahra Ideba, EdTech, Label",
-   "secteur": "0",
-   "resultat": "Label Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "AlphaDeep Solutions",
-   "fondateurs": "Aziz Khalsi, Mohsen Khalsi, Mahdi Khalsi, Business Software and services, Label",
-   "secteur": "0",
-   "resultat": "Label Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Retraite en soleil",
-   "fondateurs": "Malek Essouaied, TravelTech, Label",
-   "secteur": "0",
-   "resultat": "Label Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "RecoLab",
-   "fondateurs": "Ossama Hidri, Manel Ben hassine, Ahmed Welhezi, EdTech, Label",
-   "secteur": "0",
-   "resultat": "Label Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Salah Sammari",
-   "fondateurs": "Ad Tech and Creative Tech, Label",
-   "secteur": "0",
-   "resultat": "Label Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Zeus Labs",
-   "fondateurs": "Mahran Farhat, Business Software and services, Label",
-   "secteur": "0",
-   "resultat": "Label Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Sesamum Nutrition",
-   "fondateurs": "Amiri Ibtissem, Nour Ghazouani, FoodTech & New Food, Label",
-   "secteur": "0",
-   "resultat": "Label Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "HEALIO",
-   "fondateurs": "Ahmed Choucheni, Nabil Majoul, Emna Argoubi, Emna Sahraoui, Elyes Darghouth, HealthTech, Label",
-   "secteur": "1",
-   "resultat": "Label Non Accordé au 3 ème Tour"
-  },
-  {
-   "societe": "Orizon Booking",
-   "fondateurs": "Zied Boukadida, Commerce and shopping, Label",
-   "secteur": "2",
-   "resultat": "Label Non Accordé au 3 ème Tour"
-  },
-  {
-   "societe": "Holistic babe",
-   "fondateurs": "Hideya Elhadj Said, Consumer products and",
-   "secteur": "services",
-   "resultat": "Label"
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label Non Accordé au 2 ème Tour, Way2Gym, Wellness, Bilel Benmrad, Elyes Ben Rhouma, Yassine Ben Jeddou, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "PunicWallet",
-   "fondateurs": "Business Software and services, Houssem Tabib, Rami Trabelsi, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "TODO",
-   "fondateurs": "Commerce and shopping, Moheb Awichewi, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "AnoYcker",
-   "fondateurs": "Ad Tech and Creative Tech, Jassem Dahmani, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Clicar",
-   "fondateurs": "Mobility, Riahi Thamer, Jemaii Belhassen, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "SELF NUTRICARE",
-   "fondateurs": "Selima Elloumi, Fatma Elloumi, HealthTech, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "SP.one",
-   "fondateurs": "Mohamed Amin Abdelkefi, Communication services, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Yosri Gam",
-   "fondateurs": "HealthTech, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "MECAMARKET",
-   "fondateurs": "Montassar Touati, Mehdi Bouchikh, Ghanem Toumi, Commerce and shopping, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Coq Pilot",
-   "fondateurs": "Sana Darghouth, Emir Guermazi, Ad Tech and Creative Tech, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "PASS.tn",
-   "fondateurs": "Ihsen Riahi, Marwen Boumiza, Bechir Jaballah, Business Software and services, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Mobilia.tn",
-   "fondateurs": "Amir Zouari, Omar Abbes, Cyrine Zouari, Business Software and services, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 2 ème Tour"
-  },
-  {
-   "societe": "Zenify Trip",
-   "fondateurs": "TravelTech, Ihsen Mhadhbi, Mohamed Ali Frad, Sahbi Khalfallah, Kantaoui Gallas, Prélabel",
-   "secteur": "1",
-   "resultat": "Prélabel Non Accordé au 3 ème Tour"
-  },
-  {
-   "societe": "Petrac",
-   "fondateurs": "Advanced Manufacturing & Robotics, Trabelsi Mohamed amine, Mohamed Amen Allah Mechri, Suzanne Hamden, Hamza Ahmad, Prélabel",
-   "secteur": "2",
-   "resultat": "Prélabel Non Accordé au 3 ème Tour"
-  },
-  {
-   "societe": "Chariotech",
-   "fondateurs": "Commerce and shopping, Mohamed Yassine Derbel, Adem Bouatay, Mouhaned Ben Abdelhafidh, Prélabel",
-   "secteur": "1",
-   "resultat": "Prélabel Non Accordé au 3 ème Tour"
-  },
-  {
-   "societe": "DrugIT",
-   "fondateurs": "Koussai Salem, Haythem Mami, Souha Jlassi, HealthTech, Prélabel",
-   "secteur": "0",
-   "resultat": "Prélabel Non Accordé au 3 ème Tour"
-  },
-  {
-   "societe": "RYBSEN",
-   "fondateurs": "Yassine Rezgui, Adnene Rezgui, Environment, Label",
-   "secteur": "1",
-   "resultat": "Pitch reporté pour la session de novembre 2024"
-  },
-  {
-   "societe": "Passage de Prélabels aux Labels",
-   "fondateurs": "Projet, Société, Fondateurs, Secteur, Session d'obtention",
-   "secteur": "du Prélabel",
-   "resultat": "Résultat"
-  },
-  {
-   "societe": "Commentaires",
-   "fondateurs": "ZAYOLI, ZAYOLI, Cheima Cherih, Leila Rekbi, HealthTech, Juillet 2024, Label accordé, Label accordé suite à la création de la Startup et le respect des conditions d'octroi, SYSNAPSUS, Applied Biotech & Innovation, Mohamed Ben Mahmoud, Mohamed Hechmi Louzir, HealthTech, Juin 2024, Label accordé, Label accordé suite à la création de la Startup et le respect des conditions d'octroi, Optypro.net, Optypro Network, Business Software and services, Oussama Meknassi, Août 2024, Label accordé, Label accordé suite à la création de la Startup et le respect des conditions d'octroi, ALTABIB, SILA EXPERTS, Mohamed Ali Ben Chaabane, Hadhami Ghaffari, HealthTech, Avril 2024, Label accordé, Label accordé suite à la création de la Startup et le respect des conditions d'octroi, Buzzbip, Buzzbip, Business Software and services, Mhamed Ali Ben Mahmoud, Walid Tanazefti, Août 2024, Label accordé, Label accordé suite à la création de la Startup et le respect des conditions d'octroi, Riven Crown, Intima Leaf Studio, Menjli Aymen, Ad Tech and Creative Tech, Mai 2024, Label accordé, Label accordé suite à la création de la Startup et le respect des conditions d'octroi, Retraits Labels, Société, Secteur, Session d'obtention",
-   "secteur": "du Label",
-   "resultat": "Décision"
-  },
-  {
-   "societe": "Commentaires",
-   "fondateurs": "Tunisia Global Trade center, Commerce & Shopping, Septembre 2019, Retrait du Label, La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-",
-   "secteur": "2018 pour les sociétés bénéficiaires du Label",
-   "resultat": "GoMyCode"
-  },
-  {
-   "societe": "EdTech",
-   "fondateurs": "Avril 2019, Retrait du Label, La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-",
-   "secteur": "2018 pour les sociétés bénéficiaires du Label",
-   "resultat": "DOMODAR"
-  },
-  {
-   "societe": "Business Software and services",
-   "fondateurs": "Avril 2019, Retrait du Label, La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-",
-   "secteur": "2018 pour les sociétés bénéficiaires du Label",
-   "resultat": ""
+  "session": "10/2024",
+  "annee": 2024,
+  "mois": 10,
+  "pdf": "session_2024_10.pdf",
+  "nb_entrees": 29,
+  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
+  "entrees": [
+    {
+      "societe": "Coloc'Qui",
+      "fondateurs": "Mohamed Aziz Saouabi, Mohamed Amine Hamdi",
+      "secteur": "Real Estate Tech",
+      "resultat": "label accorde au 2 eme tour"
+    },
+    {
+      "societe": "OLINDIAS",
+      "fondateurs": "Mohamed Lotfi Sassi, Ines Achour",
+      "secteur": "Business Software and services",
+      "resultat": "label accorde au 2 eme tour"
+    },
+    {
+      "societe": "Ailine Pro",
+      "fondateurs": "Saif Chtourou, Nadra Achour, Mahdi Oueslati",
+      "secteur": "Business Software and services",
+      "resultat": "label accorde au 2 eme tour"
+    },
+    {
+      "societe": "LR Move",
+      "fondateurs": "Yassmine Gritli, Zeynab Gritli, Ghaith Saidani, Aymen Masmoudi",
+      "secteur": "Mobility",
+      "resultat": "label accorde au 2 eme tour"
+    },
+    {
+      "societe": "PlayHalla",
+      "fondateurs": "Mosaab Bousbih, Imen Oueslati, Yathreb Saidani, Morsi Feki",
+      "secteur": "Ad Tech and Creative Tech",
+      "resultat": "label accorde au 3 eme tour"
+    },
+    {
+      "societe": "Renaissance",
+      "fondateurs": "Souleyma Khadhraoui, Olfa Bilel",
+      "secteur": "Commerce and shopping",
+      "resultat": "label accorde au 3 eme tour"
+    },
+    {
+      "societe": "Twins",
+      "fondateurs": "Ala cherni, Iyed Ben Massoud, Oussama Errifi",
+      "secteur": "HealthTech",
+      "resultat": "label accorde au 3 eme tour"
+    },
+    {
+      "societe": "AIO Events",
+      "fondateurs": "Derouich Aymen, Ali Baroudi, Mondher Ayadi",
+      "secteur": "Business Software and services",
+      "resultat": "label accorde au 3 eme tour"
+    },
+    {
+      "societe": "TOLLXPRESS",
+      "fondateurs": "Yosri Ayadi",
+      "secteur": "Mobility",
+      "resultat": "label accorde au 3 eme tour"
+    },
+    {
+      "societe": "Receeto",
+      "fondateurs": "Business Software and services, Dhia Eddine Zouari",
+      "secteur": "Souha Bouslimi",
+      "resultat": "prelabel accorde au 2 eme tour"
+    },
+    {
+      "societe": "Save the Plate",
+      "fondateurs": "Sarra Soussia, Aymen Bjaoui",
+      "secteur": "Environment",
+      "resultat": "prelabel accorde au 2 eme tour"
+    },
+    {
+      "societe": "SV LAB",
+      "fondateurs": "Marzouki Mohamed Amine, Moez Ben Mosbah, Mohamed Hajjem",
+      "secteur": "Agritech",
+      "resultat": "prelabel accorde au 2 eme tour"
+    },
+    {
+      "societe": "mevenda",
+      "fondateurs": "Amal Hemdana, Hamza Borchani",
+      "secteur": "Commerce and shopping",
+      "resultat": "prelabel accorde au 2 eme tour"
+    },
+    {
+      "societe": "In2-Technologies",
+      "fondateurs": "Business Software and services, Selim Mhedhbi",
+      "secteur": "Ilyes Tlili",
+      "resultat": "prelabel accorde au 3 eme tour"
+    },
+    {
+      "societe": "Skazy Tunisia",
+      "fondateurs": "Mohamed Sabri Belgaroui, Hatem Bellagi, Marwa Baccouche",
+      "secteur": "Business Software and services",
+      "resultat": "prelabel accorde au 3 eme tour"
+    },
+    {
+      "societe": "Oop'la",
+      "fondateurs": "Faouzi Kadous, Khalil Ben Ali",
+      "secteur": "services",
+      "resultat": "prelabel accorde au 3 eme tour"
+    },
+    {
+      "societe": "Mathix Academy",
+      "fondateurs": "Zied Ben Mansour, Zahra Ideba, Aziz Khalsi",
+      "secteur": "EdTech",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "AlphaDeep Solutions",
+      "fondateurs": "Mohsen Khalsi",
+      "secteur": "Business Software and services",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Retraite en soleil",
+      "fondateurs": "Mahdi Khalsi Malek Essouaied, Ossama Hidri",
+      "secteur": "TravelTech",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "RecoLab",
+      "fondateurs": "Manel Ben hassine, Ahmed Welhezi",
+      "secteur": "EdTech",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "imt/tradrly",
+      "fondateurs": "Salah Sammari",
+      "secteur": "Ad Tech and Creative Tech",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Zeus Labs",
+      "fondateurs": "Mahran Farhat",
+      "secteur": "Business Software and services",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "ZAYOLI ZAYOLI",
+      "fondateurs": "Leila Rekbi, Mohamed Ben Mahmoud",
+      "secteur": "HealthTech Juillet",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "SYSNAPSUS Applied Biotech & Innovation",
+      "fondateurs": "Mohamed Hechmi Louzir",
+      "secteur": "HealthTech Juin",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Optypro.net Optypro Network",
+      "fondateurs": "Business Software and services, Mohamed Ali Ben Chaabane",
+      "secteur": "Oussama Meknassi Août",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "ALTABIB SILA EXPERTS",
+      "fondateurs": "Hadhami Ghaffari",
+      "secteur": "HealthTech Avril",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Buzzbip Buzzbip",
+      "fondateurs": "Business Software and services",
+      "secteur": "Août",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Riven Crown Intima Leaf Studio",
+      "fondateurs": "Menjli Aymen",
+      "secteur": "Ad Tech and Creative Tech Mai",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Société Secteur Tunisia Global Trade center Commerce & Shopping GoMyCode EdTech DOMODAR Business Software and services",
+      "fondateurs": "",
+      "secteur": "Avril Retrait du Label",
+      "resultat": "Commentaires"
+    }
+  ],
+  "session_data": {
+    "candidatures": 43,
+    "labels": 15,
+    "preLabels": 7,
+    "taux_acceptation_pct": 34.9,
+    "statut": "conforme",
+    "retraits": 0,
+    "conversions": 0,
+    "newLabels": 15
   }
- ],
- "session_data": {
-  "candidatures": 43,
-  "labels": 15,
-  "preLabels": 7,
-  "taux_acceptation_pct": 34.9,
-  "statut": "conforme",
-  "retraits": 3,
-  "conversions": 6,
-  "newLabels": 9
- }
 }

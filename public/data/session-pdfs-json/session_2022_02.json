@@ -1,164 +1,146 @@
 {
- "session": "02/2022",
- "annee": 2022,
- "mois": 2,
- "pdf": "session_2022_02.pdf",
- "nb_entrees": 24,
- "source": "Extraction des PDF officiels des sessions — startup.gov.tn (voir Corrections)",
- "entrees": [
-  {
-   "societe": "Startup Act | Session 35 | Février 2022 | Compte-Rendu",
-   "fondateurs": "Société, Fondateurs, Secteur, Label/Prélabel",
-   "secteur": "1er Tour",
-   "resultat": ""
-  },
-  {
-   "societe": "Résultat",
-   "fondateurs": "Commentaires, Recevabilité, Pitching, Conflit, TELA, Chaima Chaouachi, Marketplace, Label",
-   "secteur": "9",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Fidness, Ahmed Najjar, BusinessSoftware & Services, Label",
-   "secteur": "9",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Nqollek Haja, Yasmine Ansari, Social Business, Label",
-   "secteur": "9",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Wefix, Sabri Cheriha, Environment/Energie, Label",
-   "secteur": "9",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Trivaw, Houssem Eddine Ben Smida, Awatef Rebhi, TravelTech, Label",
-   "secteur": "9",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Kumulus, Iheb Triki, Mohamed Ali Abid, Nouha Abroug, Environment/Energie, Label",
-   "secteur": "9",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, WIN NOW, Nesrine Welhezi, Nizar Welhazi, Services de communication, Label",
-   "secteur": "5",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Kiddo, Ahmed Jemaa, Ines Rahrah, EdTech, Label",
-   "secteur": "6",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label accordé, Label accordé dès le 2ème tour, Qr Menu, Nour Kraiem, Sirine Kraiem, FoodTech & New Food, Prélabel",
-   "secteur": "8",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel accordé, Prélabel accordé dès le 2ème tour, Foodoo.tn, Sonia Othman, Houssem Sahli, FoodTech & New Food, Prélabel",
-   "secteur": "7",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel accordé, Prélabel accordé dès le 2ème tour, Mohamed Salah Frad a déclaré un conflit d'intérêt, Clic to know, Zied Teber, Nejmeddinne Sakly, Houssem Chkioua, EdTech, Prélabel",
-   "secteur": "9",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel accordé, Prélabel accordé dès le 2ème tour, NEFEL EDUCATION, Amira Guermazi, Abdeljelil Lazaar, Bashar Kamel Lazaar, EdTech, Label",
-   "secteur": "1",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, Khaled Ben Jilani a déclaré avoir un conflit d'intérêt, Monia Jendoubi a décalré avoir un conflit d'intérêt, VIRIBUS CENTER, Houssem Sliti, Ahmed Laamouchi, Services de communication, Label",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Label non accordé, Label non accordé dès le 2ème tour, SAFE STUDENT, Meriem Bel Haj Mohamed, Hajer Mzoughi, Eya Bel Haj Mohamed, Proptech, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, Tunifund, Mustapha Bouarrouj, Kathleen White, Mobility, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, Stile.ai, Mohamed Kallel, Achraf Chabbouh, Amel Aloulou, Sahar Ben Mabrouk, Rateb Jabbar, Ahmed Ben Said, Creative industry, Prélabel",
-   "secteur": "-",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, Digix, Amir Trigui, Social Business, Prélabel",
-   "secteur": "2",
-   "resultat": ""
-  },
-  {
-   "societe": "N.A",
-   "fondateurs": "N.A, Prélabel non accordé, Prélabel non accordé dès le 2ème tour, Kiddo, Ahmed Jemaa, Ines Rahrah, EdTech, Prélabel, N.A, N.A, N.A, N.A, N.A, N.A, Prélabel non accordé, Prélabel non accordé dès le 1 er tour., Le projet a candidaté pour le Label durant la même session., Passage de Prélabels aux Labels, Société, Projet, Fondateurs, Secteur, Session d'obtention",
-   "secteur": "du Prélabel",
-   "resultat": "Résultat"
-  },
-  {
-   "societe": "Commentaires",
-   "fondateurs": "STE COACHINI, Coachini, Sawsen Dhifallah, Lotfi Mzoughi, Services de communication, Novembre 2021, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "SECRET SUCRE KIDS"
-  },
-  {
-   "societe": "SECRET SUCRE KIDS",
-   "fondateurs": "Sana Abid, Mohamed amine Mhiri, Creative industry, Décembre 2021, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "WEDTECT"
-  },
-  {
-   "societe": "Smart Detection",
-   "fondateurs": "Manel Elleuchi, Agritech, Novembre 2021, Label accordé, Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": "Data For Brands"
-  },
-  {
-   "societe": "Insight Lab",
-   "fondateurs": "Myryam Toukabri, Idris Bachali losada, Abir Chérif",
-   "secteur": "AI",
-   "resultat": "Décembre 2021"
-  },
-  {
-   "societe": "Label accordé",
-   "fondateurs": "Label accordé suite à la création de la Startup et le respect des",
-   "secteur": "conditions d'octroi",
-   "resultat": ""
+  "session": "02/2022",
+  "annee": 2022,
+  "mois": 2,
+  "pdf": "session_2022_02.pdf",
+  "nb_entrees": 21,
+  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
+  "entrees": [
+    {
+      "societe": "TELA",
+      "fondateurs": "Chaima Chaouachi",
+      "secteur": "Marketplace",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Fidness",
+      "fondateurs": "Ahmed Najjar",
+      "secteur": "BusinessSoftware & Services",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Nqollek Haja",
+      "fondateurs": "Yasmine Ansari",
+      "secteur": "Social Business",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Wefix",
+      "fondateurs": "Sabri Cheriha, Houssem Eddine Ben Smida",
+      "secteur": "Environment/Energie",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Trivaw",
+      "fondateurs": "Awatef Rebhi, Iheb Triki",
+      "secteur": "TravelTech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Kumulus",
+      "fondateurs": "Mohamed Ali Abid, Nouha Abroug, Nesrine Welhezi",
+      "secteur": "Environment/Energie",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "WIN NOW",
+      "fondateurs": "Nizar Welhazi, Ahmed Jemaa",
+      "secteur": "Services de communication",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Kiddo",
+      "fondateurs": "Ines Rahrah, Nour Kraiem",
+      "secteur": "EdTech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Qr Menu",
+      "fondateurs": "Sirine Kraiem, Sonia Othman",
+      "secteur": "FoodTech & New Food",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Foodoo.tn",
+      "fondateurs": "",
+      "secteur": "FoodTech & New Food",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Clic to know",
+      "fondateurs": "Nejmeddinne Sakly, Houssem Chkioua, Amira Guermazi",
+      "secteur": "EdTech",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "VIRIBUS CENTER",
+      "fondateurs": "Ahmed Laamouchi, Meriem Bel Haj Mohamed",
+      "secteur": "Services de communication",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "SAFE STUDENT",
+      "fondateurs": "Hajer Mzoughi, Eya Bel Haj Mohamed, Mustapha Bouarrouj",
+      "secteur": "Proptech",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "Tunifund",
+      "fondateurs": "Kathleen White, Mohamed Kallel, Achraf Chabbouh, Amel Aloulou",
+      "secteur": "Mobility",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "Stile.ai",
+      "fondateurs": "Sahar Ben Mabrouk, Rateb Jabbar, Ahmed Ben Said",
+      "secteur": "Creative industry",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "Digix",
+      "fondateurs": "Amir Trigui, Ahmed Jemaa",
+      "secteur": "Social Business",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "Kiddo",
+      "fondateurs": "Ines Rahrah",
+      "secteur": "EdTech",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "STE COACHINI",
+      "fondateurs": "Coachini",
+      "secteur": "Lotfi Mzoughi",
+      "resultat": "Services de communication"
+    },
+    {
+      "societe": "SECRET SUCRE KIDS",
+      "fondateurs": "SECRET SUCRE KIDS",
+      "secteur": "Mohamed amine Mhiri",
+      "resultat": "Creative industry"
+    },
+    {
+      "societe": "WEDTECT",
+      "fondateurs": "Smart Detection",
+      "secteur": "Manel Elleuchi",
+      "resultat": "Agritech"
+    },
+    {
+      "societe": "Data For Brands",
+      "fondateurs": "Insight Lab",
+      "secteur": "Idris Bachali losada",
+      "resultat": "AI"
+    }
+  ],
+  "session_data": {
+    "candidatures": 18,
+    "labels": 12,
+    "preLabels": 3,
+    "taux_acceptation_pct": 66.7,
+    "statut": "conforme",
+    "retraits": 0,
+    "conversions": 0,
+    "newLabels": 12
   }
- ],
- "session_data": {
-  "candidatures": 18,
-  "labels": 12,
-  "preLabels": 3,
-  "taux_acceptation_pct": 66.7,
-  "statut": "conforme",
-  "retraits": 0,
-  "conversions": 4,
-  "newLabels": 8
- }
 }
