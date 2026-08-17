@@ -3,7 +3,7 @@
   "annee": 2023,
   "mois": 7,
   "pdf": "session_2023_07.pdf",
-  "nb_entrees": 42,
+  "nb_entrees": 39,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -187,12 +187,6 @@
       "resultat": "prelabel non accorde prelabel non accorde des le 2eme tour"
     },
     {
-      "societe": "Waqt Tech",
-      "fondateurs": "Randev Younes Regaieg, Safa Rekik, SunAir Fountain® : Générateur d’eau, Rami El Golli",
-      "secteur": "Consumer Products and Services",
-      "resultat": "Avril 2023"
-    },
-    {
       "societe": "AGUA DE SOL TUNISIE",
       "fondateurs": "de boisson atmosphérique par le, Luc Metivier, solaire",
       "secteur": "Environment",
@@ -241,21 +235,9 @@
       "resultat": "label accorde"
     },
     {
-      "societe": "Société",
-      "fondateurs": "Secteur",
-      "secteur": "du Label",
-      "resultat": "Décision Commentaires"
-    },
-    {
-      "societe": "Avempace",
-      "fondateurs": "Consumer Products & Services",
-      "secteur": "Juillet",
-      "resultat": "retrait du label"
-    },
-    {
       "societe": "Carthage Eyewear international",
       "fondateurs": "Consumer Products & Services",
-      "secteur": "Novembre",
+      "secteur": "",
       "resultat": ""
     }
   ],

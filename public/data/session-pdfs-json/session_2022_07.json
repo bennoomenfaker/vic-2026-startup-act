@@ -3,7 +3,7 @@
   "annee": 2022,
   "mois": 7,
   "pdf": "session_2022_07.pdf",
-  "nb_entrees": 25,
+  "nb_entrees": 24,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -149,12 +149,6 @@
       "fondateurs": "Mohamed Jaouadi",
       "secteur": "Communication services",
       "resultat": "label non accorde"
-    },
-    {
-      "societe": "NEPTUNE MOSAIC",
-      "fondateurs": "NEPTUNE MOSAIC",
-      "secteur": "Creative Industry Octobre",
-      "resultat": "retrait du label"
     }
   ],
   "session_data": {

@@ -3,7 +3,7 @@
   "annee": 2019,
   "mois": 6,
   "pdf": "session_2019_06.pdf",
-  "nb_entrees": 26,
+  "nb_entrees": 33,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -26,7 +26,7 @@
     },
     {
       "societe": "HERUNDO",
-      "fondateurs": "Bessem Jallouli, Mohamed Boujelbane, Yassine Ben Menadi",
+      "fondateurs": "Bessem Jallouli",
       "secteur": "E-Commerce",
       "resultat": "label accorde"
     },
@@ -38,7 +38,7 @@
     },
     {
       "societe": "JUNIOR NETWORK",
-      "fondateurs": "Zeineb Chabchoub, Oussema Ksontini, Samed Jalouali, Timothée Piette",
+      "fondateurs": "Zeineb Chabchoub",
       "secteur": "Edtech",
       "resultat": "label accorde"
     },
@@ -86,7 +86,7 @@
     },
     {
       "societe": "SENIATNA",
-      "fondateurs": "Neil Boussofara, Foued Ben Babis",
+      "fondateurs": "Neil Boussofara",
       "secteur": "Logistique",
       "resultat": "label accorde"
     },
@@ -104,7 +104,7 @@
     },
     {
       "societe": "Natalista",
-      "fondateurs": "Rim Besbes, Abdelaziz Ktari",
+      "fondateurs": "Rim Besbes",
       "secteur": "Plateforme sociale",
       "resultat": "prelabel accorde"
     },
@@ -152,7 +152,7 @@
     },
     {
       "societe": "MyCity",
-      "fondateurs": "Mohamed Sami Rahoui, Wala Kasmi",
+      "fondateurs": "Mohamed Sami Rahoui",
       "secteur": "Marketing",
       "resultat": "1 7 Label non-accordé"
     },
@@ -161,6 +161,48 @@
       "fondateurs": "Mohamed Boumiza",
       "secteur": "(plateforme sociale)",
       "resultat": "N.A N.A Label non-accordé"
+    },
+    {
+      "societe": "TUNMOB SA (DIGIT-U)",
+      "fondateurs": "Houssine Midouni",
+      "secteur": "Insurance tech",
+      "resultat": "3 4 Label non-accordé"
+    },
+    {
+      "societe": "SMAAO Tunisie",
+      "fondateurs": "Amjed Ben Salah",
+      "secteur": "Insurance tech",
+      "resultat": "1 7 Label non-accordé"
+    },
+    {
+      "societe": "IYADATI",
+      "fondateurs": "Cheker Jarray",
+      "secteur": "Health tech",
+      "resultat": "1 7 Pré-label non-accordé"
+    },
+    {
+      "societe": "Aevny",
+      "fondateurs": "",
+      "secteur": "E-commerce",
+      "resultat": "N.A N.A Pré-label non-accordé"
+    },
+    {
+      "societe": "Doctor Sina",
+      "fondateurs": "Laaroussi Ben Younes",
+      "secteur": "Health tech",
+      "resultat": "N.A N.A Pré-label non-accordé"
+    },
+    {
+      "societe": "Iris technologies",
+      "fondateurs": "Khaled Bouchoucha, Saifeddine Kacem",
+      "secteur": "Agritech",
+      "resultat": "N.A N.A N.A N.A Label non-accordé"
+    },
+    {
+      "societe": "Agri Land",
+      "fondateurs": "AyetAllah Hlaiem",
+      "secteur": "Agritech",
+      "resultat": "N.A N.A N.A N.A Label non-accordé"
     }
   ],
   "session_data": {

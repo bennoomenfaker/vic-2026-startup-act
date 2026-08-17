@@ -3,7 +3,7 @@
   "annee": 2019,
   "mois": 8,
   "pdf": "session_2019_08.pdf",
-  "nb_entrees": 22,
+  "nb_entrees": 26,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -137,6 +137,30 @@
       "fondateurs": "Marouane El Behi, Sami Guetari, Nadia Bouslimi Guetari",
       "secteur": "Autre contenu créatif",
       "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "UTIK",
+      "fondateurs": "Aymen Gatri, Mounir Bezzarga",
+      "secteur": "Blockchain & cryptocurrency Prélabel",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Smart Brand Web",
+      "fondateurs": "Wajdi El Fehem",
+      "secteur": "Ecommerce",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "MAIZ FARM",
+      "fondateurs": "Hassen Maiz, Khaled Ben Ali, Fatma Ghizaoui",
+      "secteur": "Agritech",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "MAGNITECHS",
+      "fondateurs": "Mohamed Ben Hadj Hmida",
+      "secteur": "Ecommerce",
+      "resultat": "prelabel non accorde"
     }
   ],
   "session_data": {

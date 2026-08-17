@@ -3,7 +3,7 @@
   "annee": 2024,
   "mois": 7,
   "pdf": "session_2024_07.pdf",
-  "nb_entrees": 29,
+  "nb_entrees": 25,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -155,30 +155,6 @@
       "fondateurs": "Tiptalk solutions, Mraihi Ilies",
       "secteur": "Real Estate Tech",
       "resultat": "label accorde"
-    },
-    {
-      "societe": "Société",
-      "fondateurs": "Secteur",
-      "secteur": "Session d'obtention",
-      "resultat": "Décision Commentaires"
-    },
-    {
-      "societe": "GALACTECH",
-      "fondateurs": "Ad Tech & Creative Tech",
-      "secteur": "Avril",
-      "resultat": "retrait du label"
-    },
-    {
-      "societe": "Prefabulous",
-      "fondateurs": "Environment",
-      "secteur": "Janvier",
-      "resultat": "retrait du label"
-    },
-    {
-      "societe": "Elco Solutions",
-      "fondateurs": "Advanced Manufacturing & Robotics",
-      "secteur": "Novembre",
-      "resultat": "retrait du label"
     }
   ],
   "session_data": {

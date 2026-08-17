@@ -3,7 +3,7 @@
   "annee": 2024,
   "mois": 9,
   "pdf": "session_2024_09.pdf",
-  "nb_entrees": 25,
+  "nb_entrees": 26,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -129,32 +129,38 @@
     {
       "societe": "Astratransit CLICK TRANS",
       "fondateurs": "Majdi Ahmed, Sami Amri Najoua Kassaoui",
-      "secteur": "Juin",
+      "secteur": "services",
       "resultat": "label accorde"
     },
     {
       "societe": "Aventoura Aventoura Outdoors",
       "fondateurs": "Mohamed Ali Maazoun, Dhia Saadi, Mejda Khaled",
-      "secteur": "TravelTech Juillet",
+      "secteur": "TravelTech",
       "resultat": "label accorde"
     },
     {
       "societe": "AGARUW HUB AGARUW HUB",
       "fondateurs": "Zeineb Ben Abdallah, Hedi BenRomdhane, Majdi Ben Farhat",
-      "secteur": "Environment Mars",
+      "secteur": "Environment",
       "resultat": "label accorde"
     },
     {
       "societe": "ITri Smart & Sustainable Collect",
       "fondateurs": "Hanen Louati, Ramzi Halouani, Francois Dejeager",
-      "secteur": "Environment Avril",
+      "secteur": "Environment",
       "resultat": "label accorde"
     },
     {
       "societe": "Hapivot Hapivot",
       "fondateurs": "Anis Dabbebi, Saber Jelassi",
-      "secteur": "Avril",
+      "secteur": "services",
       "resultat": "label accorde"
+    },
+    {
+      "societe": "NEWGEN Ad Tech & Creative Tech",
+      "fondateurs": "",
+      "secteur": "Retrait du Label",
+      "resultat": "2018 pour les sociétés bénéficiaires du Label"
     }
   ],
   "session_data": {

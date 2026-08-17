@@ -3,7 +3,7 @@
   "annee": 2021,
   "mois": 4,
   "pdf": "session_2021_04.pdf",
-  "nb_entrees": 24,
+  "nb_entrees": 53,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -145,9 +145,183 @@
       "resultat": "prelabel accorde"
     },
     {
+      "societe": "Décotis",
+      "fondateurs": "Mohamed Barki",
+      "secteur": "Real Estate tech",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "MediTek",
+      "fondateurs": "Adel Hamdi, Khaled Mediouni",
+      "secteur": "Health Care & Wellbeing",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "MCOM",
+      "fondateurs": "Mohamed Haythem Goddi, Firas Yousfi",
+      "secteur": "Business Software",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "isondF",
+      "fondateurs": "Abdessalem Bazine, Mehdi Maalawi, Abdeljelil Lazaar",
+      "secteur": "Plateforme Social",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Wassaloo",
+      "fondateurs": "Mustapha Guellaty, Mohamed Zouhaier Zammel",
+      "secteur": "Agritech",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "TAWSILA",
+      "fondateurs": "Hajer Romdhani, Hafedh Ben Abdelhafidh, Ibrahim Jlassi",
+      "secteur": "Mobility",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Paprika Solutions",
+      "fondateurs": "Mohamed Belouaer, Houssem Chaabani, Mohamed Ali Shili",
+      "secteur": "Creative industry",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Kindeal",
+      "fondateurs": "Moez Hammami, Firas Dhaouadi",
+      "secteur": "EdTech",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "School Pack",
+      "fondateurs": "Maalej Ahmed, Charef Ahmed",
+      "secteur": "EdTech",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "DataSense",
+      "fondateurs": "Anas Charfi, Azzez Moatez",
+      "secteur": "Services de communication Prélabel",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Marcus Studio",
+      "fondateurs": "Hamza Gassab",
+      "secteur": "Creative industry",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "DIGITIN",
+      "fondateurs": "Aymen Bergaoui, Souhail Msakni",
+      "secteur": "Creative industry",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "EVADAM",
+      "fondateurs": "Sami Sghaier, Ahmed Liouene, Hajer Sahnoun",
+      "secteur": "Fintech",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "DIMAZINA",
+      "fondateurs": "Faten Sahnoun",
+      "secteur": "Social Business",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "KICK LIGHT",
+      "fondateurs": "Mohamed Amir Lahmar, Hichem Mokni",
+      "secteur": "Health Care & Wellbeing",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "NextAV",
+      "fondateurs": "Foued Elkamel",
+      "secteur": "Creative industry",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "PROTABAR",
+      "fondateurs": "Walid Trabelsi, Sarra Khemakhem",
+      "secteur": "FoodTech & New Food",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "\"A7yini\" / CBM-EE",
+      "fondateurs": "Aziz Hafsa",
+      "secteur": "EdTech",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "ABONO\\FINEX",
+      "fondateurs": "Kais Euchi, Aymen Gahbiche",
+      "secteur": "Business Software",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "UNIVERSAL MARKETING",
+      "fondateurs": "Nourine Bouguella",
+      "secteur": "EdTech",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "STERECO",
+      "fondateurs": "Ala Eddine Maatoug",
+      "secteur": "Health Care & Wellbeing",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "Wimbee la ferme bio-écologique pédagogique",
+      "fondateurs": "Neila Benzina, Imen Mefteh",
+      "secteur": "Business Software",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "\"Rissala Kids Farm\"",
+      "fondateurs": "Ilef Oumari, Wafa Makni",
+      "secteur": "",
+      "resultat": ""
+    },
+    {
+      "societe": "Looklyoum",
+      "fondateurs": "Imed Elabed",
+      "secteur": "Développement personnel",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "Check Check",
+      "fondateurs": "Bechir Bouazizi, Mohamed Hadiji",
+      "secteur": "Fintech",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "Bee Eyes Tunisia",
+      "fondateurs": "Aymen Tounsi, Mohamed Kabadou, Mohamed Ali Zaier",
+      "secteur": "Services de communication Prélabel",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "VirStand",
+      "fondateurs": "",
+      "secteur": "Services de communication Prélabel",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "MiamMiam",
+      "fondateurs": "Rim Ben Mansour",
+      "secteur": "FoodTech & New Food",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "3DSky",
+      "fondateurs": "Montassar Faidi",
+      "secteur": "EdTech",
+      "resultat": "prelabel non accorde"
+    },
+    {
       "societe": "Educanet Tunisia",
       "fondateurs": "Anis Arbia",
-      "secteur": "EdTech Avril",
+      "secteur": "EdTech",
       "resultat": ""
     }
   ],

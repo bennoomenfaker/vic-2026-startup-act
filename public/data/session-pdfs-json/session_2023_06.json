@@ -3,7 +3,7 @@
   "annee": 2023,
   "mois": 6,
   "pdf": "session_2023_06.pdf",
-  "nb_entrees": 35,
+  "nb_entrees": 33,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -193,28 +193,16 @@
       "resultat": "label accorde"
     },
     {
-      "societe": "UNDERSCORE",
-      "fondateurs": "Probe.tn Mohamed Kristou, Mohamed Hedi Jebali",
-      "secteur": "HealthTech",
-      "resultat": "Mars 2023"
-    },
-    {
-      "societe": "Société",
-      "fondateurs": "Secteur",
-      "secteur": "du Label",
-      "resultat": "Décision Commentaires"
-    },
-    {
       "societe": "Knowledge and Business intelligence",
       "fondateurs": "",
       "secteur": "",
       "resultat": "La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-"
     },
     {
-      "societe": "integration Tunisie KOOL HOLDING",
-      "fondateurs": "FoodTech & New Food",
-      "secteur": "Juin",
-      "resultat": "retrait du label"
+      "societe": "integration Tunisie",
+      "fondateurs": "",
+      "secteur": "",
+      "resultat": "2018 pour les sociétés bénéficiaires du Label"
     }
   ],
   "session_data": {

@@ -3,7 +3,7 @@
   "annee": 2026,
   "mois": 2,
   "pdf": "session_2026_02.pdf",
-  "nb_entrees": 22,
+  "nb_entrees": 31,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -137,6 +137,60 @@
       "fondateurs": "Mohamed Kais, Ben Rhouma",
       "secteur": "Advanced Manufacturing & Robotics",
       "resultat": "label accorde"
+    },
+    {
+      "societe": "نﯾﺗﻣﺎﻣﯾﻟا  LAYAMAMATAYN LAYAMAMATAYN BILA HOUDOUD",
+      "fondateurs": "Kawther Marzouki, Norene Sakouhi, Aymen Yahyaoui, Maher Boughdiri",
+      "secteur": "EdTech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Moodicament Wejden Spire",
+      "fondateurs": "Haroun Ouanes, Ala Ben Aicha, Chawki, Gharsellaoui",
+      "secteur": "HealthTech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Serbot AUVEXIS",
+      "fondateurs": "Mbarki Kabil, Hmercha Amjed, Wael Hichri, Taha Jlassi, ramla el ayeb ep",
+      "secteur": "Advanced Manufacturing & Robotics",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Play and Code NOON PLAY AND CODE",
+      "fondateurs": "jlassi, Karim JLASSI, Ali Abdallah",
+      "secteur": "EdTech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "VIBE FLOW Ai VIBE FLOW Ai",
+      "fondateurs": "ala touati, abderrahmen, abdelkabir",
+      "secteur": "Ad Tech and Creative Tech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "SAHTEE NormSafety",
+      "fondateurs": "Slaheddine, Dardouri, Asma Ferchichi",
+      "secteur": "HealthTech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Riyasol RIYASOL",
+      "fondateurs": "Houda Ferchichi",
+      "secteur": "Business Software and services",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "ADVALIANCE CONSULTING Marketing",
+      "fondateurs": "",
+      "secteur": "",
+      "resultat": "La société a dépassé l'âge maximum de 8 ans fixé par"
+    },
+    {
+      "societe": "MOLINE Health care",
+      "fondateurs": "",
+      "secteur": "",
+      "resultat": ""
     }
   ],
   "session_data": {

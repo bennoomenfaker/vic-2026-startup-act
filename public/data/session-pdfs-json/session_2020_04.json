@@ -3,7 +3,7 @@
   "annee": 2020,
   "mois": 4,
   "pdf": "session_2020_04.pdf",
-  "nb_entrees": 43,
+  "nb_entrees": 39,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -239,30 +239,6 @@
       "fondateurs": "Fethi Zoghlami",
       "secteur": "Edtech",
       "resultat": "label"
-    },
-    {
-      "societe": "Course Golf",
-      "fondateurs": "Assil Talmoudi, Mohamed Zouhaier Zammel",
-      "secteur": "E-commerce",
-      "resultat": "Octobre 2019"
-    },
-    {
-      "societe": "Domoticaza",
-      "fondateurs": "Youssef Barketi, Anouer Kebir",
-      "secteur": "IoT",
-      "resultat": "Novembre 2019"
-    },
-    {
-      "societe": "Miral Things",
-      "fondateurs": "Abdelrahman Ferchichi",
-      "secteur": "IoT",
-      "resultat": "Novembre 2019"
-    },
-    {
-      "societe": "Symmetryk / No Statik Media",
-      "fondateurs": "Ramzi Frad",
-      "secteur": "IT",
-      "resultat": "Mars 2019"
     }
   ],
   "session_data": {

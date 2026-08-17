@@ -3,7 +3,7 @@
   "annee": 2024,
   "mois": 2,
   "pdf": "session_2024_02.pdf",
-  "nb_entrees": 34,
+  "nb_entrees": 33,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -159,55 +159,49 @@
     {
       "societe": "Mermez Lab Tadwir",
       "fondateurs": "Dali Blaiech, Malek Ben Mbarek",
-      "secteur": "Octobre",
+      "secteur": "Services",
       "resultat": "label accorde"
     },
     {
       "societe": "STE FACTOWISE",
       "fondateurs": "EcoFactoriz Imen Hbiri, Mohamed Zekri, Hassen Serkhane",
-      "secteur": "Janvier",
+      "secteur": "Robotics",
       "resultat": "label accorde"
     },
     {
       "societe": "Verse Technologies Verse",
       "fondateurs": "Malek Baouindi, Eya Hammouda, Ons Hammouda",
-      "secteur": "Commerce & Shopping Aout",
+      "secteur": "Commerce & Shopping",
       "resultat": "label accorde"
     },
     {
       "societe": "BIM FLOW Vibrom",
       "fondateurs": "Amal Hammouda, Mohamed Khalil Khaldi, La réalitée augmentée au service de",
-      "secteur": "Real Estate Tech Aout",
+      "secteur": "Real Estate Tech",
       "resultat": "label accorde"
     },
     {
       "societe": "METACAD",
       "fondateurs": "Oualid kilani, la médecine",
-      "secteur": "HealthTech Février",
+      "secteur": "HealthTech",
       "resultat": "label accorde"
-    },
-    {
-      "societe": "Société",
-      "fondateurs": "Secteur",
-      "secteur": "Décision",
-      "resultat": "Commentaires"
     },
     {
       "societe": "Sté Laboratoires SNAIL COSMETICA INDUSTRTY",
       "fondateurs": "Wellness",
-      "secteur": "Mars",
+      "secteur": "",
       "resultat": "La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-"
     },
     {
       "societe": "Sté Globale Automatique Thermique",
       "fondateurs": "Advanced Manufacturing & Robotics",
-      "secteur": "Mars",
+      "secteur": "",
       "resultat": "La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-"
     },
     {
       "societe": "Sté ideale conception",
       "fondateurs": "HealthTech",
-      "secteur": "Aout",
+      "secteur": "",
       "resultat": ""
     }
   ],

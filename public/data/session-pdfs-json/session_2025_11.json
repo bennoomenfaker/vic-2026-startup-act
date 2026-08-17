@@ -3,7 +3,7 @@
   "annee": 2025,
   "mois": 11,
   "pdf": "session_2025_11.pdf",
-  "nb_entrees": 20,
+  "nb_entrees": 39,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -79,6 +79,126 @@
       "resultat": "label non accorde au 2 eme tour"
     },
     {
+      "societe": "Smart Maker",
+      "fondateurs": "nouha braham",
+      "secteur": "Creative Tech",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Agrogrowth",
+      "fondateurs": "sami arfaoui, Mohamed Salah Tammar",
+      "secteur": "Agritech",
+      "resultat": "label non accorde au 3 eme tour"
+    },
+    {
+      "societe": "Letusdify",
+      "fondateurs": "Iheb Ghazala, Borhane Ben Said",
+      "secteur": "Software and",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "ReMine Technologies",
+      "fondateurs": "Anis Djedidi, Hamdi Jouini",
+      "secteur": "Environment",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Lift&Eat",
+      "fondateurs": "Hamdi Jouini, Khazri Mouna, mazen slama",
+      "secteur": "HealthTech",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Tender",
+      "fondateurs": "Iheb Lafi, Islem Ferchichi",
+      "secteur": "Software and",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "EmberForge Tech",
+      "fondateurs": "ahmed amine kamoun",
+      "secteur": "Creative Tech",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "MedSearch IA",
+      "fondateurs": "Zoubaier Bouajaja, Nadine Askri",
+      "secteur": "Software and",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "AD Vertising",
+      "fondateurs": "Mongi Dali, Wael Gamaoun, Foued Jaballah",
+      "secteur": "Creative Tech",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "AXIOM décorticage IA",
+      "fondateurs": "Farid Drifa, Moez BEN GHARBIA",
+      "secteur": "Software and",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Choufli",
+      "fondateurs": "Ramzi Tounsi, Kamel BEN GHARBIA, Mohamed AYADI",
+      "secteur": "Social Business",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Oria",
+      "fondateurs": "Mayssa Moussa, eya makhlouf, Anis Essid",
+      "secteur": "Creative Tech",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Clic SOS",
+      "fondateurs": "Mezni Hiba",
+      "secteur": "Mobility",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Triptopie",
+      "fondateurs": "achref ayari, Motez Mhadhbi, Awatef Zid, Mhadhbi Shady",
+      "secteur": "TravelTech",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "TooFresh",
+      "fondateurs": "Ben Henda Dhia, Ben hadj hssin Mohamed anis, Lejmi Moussa, Achraf BLEILI",
+      "secteur": "Environment",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "EcoRecy",
+      "fondateurs": "Achraf BLEILI",
+      "secteur": "Environment",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Kidin",
+      "fondateurs": "Firas ABDELMAJID, Houssem Ben Malek",
+      "secteur": "EdTech",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "CarbonTrack",
+      "fondateurs": "Marwa Metsahel, Amel Jebali, Arbi Ben Bazza",
+      "secteur": "Environment",
+      "resultat": "prelabel non accorde au 3 eme tour"
+    },
+    {
+      "societe": "Bibinet",
+      "fondateurs": "Rim Harabi, Roua Boubakri, Manel Saadaoui",
+      "secteur": "products and",
+      "resultat": "prelabel non accorde au 3 eme tour"
+    },
+    {
+      "societe": "GuaranteePay – Lasweq",
+      "fondateurs": "Oussema Ben Barka",
+      "secteur": "Fintech",
+      "resultat": "N.A N.A N.A N.A n°2018-840 du 11 octobre"
+    },
+    {
       "societe": "AIVIA ELIXIA",
       "fondateurs": "MOHAMED ALI KHEMAKHEM, Rafik Rekhis, Manel Kallel",
       "secteur": "HealthTech",
@@ -119,12 +239,6 @@
       "fondateurs": "Amine Ben Messaoud, assad yahyawi",
       "secteur": "Ad Tech and Creative Tech",
       "resultat": "label accorde"
-    },
-    {
-      "societe": "Société Secteur Donec EdTech Smart Logger IoT",
-      "fondateurs": "",
-      "secteur": "octobre",
-      "resultat": "retrait du label"
     }
   ],
   "session_data": {

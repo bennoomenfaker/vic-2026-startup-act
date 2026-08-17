@@ -3,7 +3,7 @@
   "annee": 2020,
   "mois": 10,
   "pdf": "session_2020_10.pdf",
-  "nb_entrees": 25,
+  "nb_entrees": 24,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -149,12 +149,6 @@
       "fondateurs": "Ayed Akrout",
       "secteur": "IoT",
       "resultat": "prelabel"
-    },
-    {
-      "societe": "ilboursa.com / Société African Web Company",
-      "fondateurs": "Omar El Oudi, Kouakou Dankoua Agree",
-      "secteur": "IT Avril",
-      "resultat": "retrait du label"
     }
   ],
   "session_data": {

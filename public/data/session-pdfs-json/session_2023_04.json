@@ -3,7 +3,7 @@
   "annee": 2023,
   "mois": 4,
   "pdf": "session_2023_04.pdf",
-  "nb_entrees": 20,
+  "nb_entrees": 39,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -125,6 +125,120 @@
       "fondateurs": "Firas Jribi",
       "secteur": "",
       "resultat": "prelabel"
+    },
+    {
+      "societe": "GET BIG FAST",
+      "fondateurs": "Jean-David Rombi, Jasser Ben Saad",
+      "secteur": "Business Software and services",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "WEeFARM",
+      "fondateurs": "Ayeb Rihab, Rayen Ben Saad, Khawla Hadriche",
+      "secteur": "Agritech",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "ShooFu",
+      "fondateurs": "Houcem Ameur",
+      "secteur": "Consumer products and services",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "halli.tn",
+      "fondateurs": "Farouk Ben Jaafar, Mohamed Thamlaoui",
+      "secteur": "Commerce and shopping",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "Noah",
+      "fondateurs": "Khaoula Souf, Rochdi Bchini, Mohamed Bouazizi",
+      "secteur": "Commerce and shopping",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "BME-Power",
+      "fondateurs": "Youssef Kaabechi, Morci Telmoudi",
+      "secteur": "Ad Tech and Creative Tech",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "ECORISE",
+      "fondateurs": "Safa Jridi, Issam Barhoumi",
+      "secteur": "Business Software and services",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "trymyculture",
+      "fondateurs": "Hassan Khadhri",
+      "secteur": "TravelTech",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "BiBin",
+      "fondateurs": "Firas Hakim",
+      "secteur": "EdTech",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "Metamax",
+      "fondateurs": "Houssem Saadi",
+      "secteur": "Business Software and services",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "HealthyGO",
+      "fondateurs": "Hayfa Oueslati",
+      "secteur": "Commerce and shopping",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "goodbye",
+      "fondateurs": "Dalel Manai, Hayouni Rafedh",
+      "secteur": "Communication services",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "AI WITH YOU",
+      "fondateurs": "Nasreddine Nasri, Mohamed Fateh Hajjej, Hajer Terras",
+      "secteur": "Wellness",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "Au delà du Bio",
+      "fondateurs": "Heithe Zaghouani, Abdelhak Moussa",
+      "secteur": "Agritech",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "BE beverages verified authentic Passage Prélabel Label",
+      "fondateurs": "Ahlem Zrig, Mohamed Maher Elbekri, Imed mabrouk, Firas Mabrouk",
+      "secteur": "FoodTech & New Food",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "vivid",
+      "fondateurs": "Flexipik",
+      "secteur": "Beya Ben Saâd",
+      "resultat": "Services"
+    },
+    {
+      "societe": "SOCIETE FIRMASOLUTIONS STARTUP",
+      "fondateurs": "Firma Solutions",
+      "secteur": "Ilehi Haythem",
+      "resultat": "Agritech"
+    },
+    {
+      "societe": "Color and Natural Extracts C NEXTS",
+      "fondateurs": "Color and Natural Extracts C-Nexts",
+      "secteur": "Saloua Sadok",
+      "resultat": "FoodTech & New"
+    },
+    {
+      "societe": "Ste Arrimapp Tech",
+      "fondateurs": "Arrima Agritech",
+      "secteur": "Khouloud Ghorraf",
+      "resultat": "Agritech"
     }
   ],
   "session_data": {

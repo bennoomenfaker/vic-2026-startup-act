@@ -3,7 +3,7 @@
   "annee": 2024,
   "mois": 1,
   "pdf": "session_2024_01.pdf",
-  "nb_entrees": 31,
+  "nb_entrees": 29,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -133,63 +133,51 @@
       "resultat": "prelabel non accorde au 2eme tour"
     },
     {
-      "societe": "Arsek dripbox Arsek dripbox",
-      "fondateurs": "Kais Oueslati, Montasser Khamassi, Nour El Houda Shili",
-      "secteur": "Agritech Juillet",
-      "resultat": "label accorde"
-    },
-    {
-      "societe": "OCTOMIRO BRAIN-TEK",
-      "fondateurs": "Mohieddine Drissi, Slim Griri, Fares Messedi",
-      "secteur": "Novembre",
+      "societe": "Arsek dripbox Arsek dripbox OCTOMIRO BRAIN-TEK",
+      "fondateurs": "Kais Oueslati, Montasser Khamassi, Nour El Houda Shili, Mohieddine Drissi, Slim Griri, Fares Messedi",
+      "secteur": "Agritech",
       "resultat": "label accorde"
     },
     {
       "societe": "COHEALTH Saydalid",
       "fondateurs": "Rayen Miaoui, Yadh Khalfallah, Mohamed Nahouchi",
-      "secteur": "HealthTech Octobre",
+      "secteur": "HealthTech",
       "resultat": "label accorde"
     },
     {
       "societe": "VLSoft Virtu-Lab",
       "fondateurs": "Amrou Kboubi, Siwar Ben Nejma",
-      "secteur": "EdTech Septembre",
+      "secteur": "EdTech",
       "resultat": "label accorde"
     },
     {
       "societe": "Code Pro Qr Smarting Serve",
       "fondateurs": "Mourad Sahloul, Salmen Ajili",
-      "secteur": "Juillet",
+      "secteur": "services",
       "resultat": "label accorde"
     },
     {
       "societe": "D Customized Solution",
       "fondateurs": "Digital Catering Solution Mahdi Abdelmalek, Sahbi Ben Hmida",
-      "secteur": "Novembre",
+      "secteur": "services",
       "resultat": "label accorde"
-    },
-    {
-      "societe": "Société",
-      "fondateurs": "Secteur",
-      "secteur": "Décision",
-      "resultat": "Commentaires"
     },
     {
       "societe": "Uniq Soft Technology",
       "fondateurs": "Business Software and services",
-      "secteur": "Avril",
+      "secteur": "",
       "resultat": ""
     },
     {
       "societe": "Rental Ride",
       "fondateurs": "Commerce & Shopping",
-      "secteur": "Février",
+      "secteur": "",
       "resultat": "2018 pour les sociétés bénéficiaires du Label"
     },
     {
       "societe": "N.G TECHNOLOGIES",
       "fondateurs": "Business Software and services",
-      "secteur": "Octobre",
+      "secteur": "",
       "resultat": ""
     }
   ],

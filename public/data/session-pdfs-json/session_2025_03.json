@@ -3,7 +3,7 @@
   "annee": 2025,
   "mois": 3,
   "pdf": "session_2025_03.pdf",
-  "nb_entrees": 17,
+  "nb_entrees": 20,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -107,6 +107,24 @@
       "fondateurs": "Mouhamed Ala, Zied Jemal",
       "secteur": "Business Software and services",
       "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Thymsys",
+      "fondateurs": "Ramy Hamza, Mouheb Merii",
+      "secteur": "Business Software and services",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "CODOC",
+      "fondateurs": "Jerbi Rahma",
+      "secteur": "EdTech",
+      "resultat": "prelabel non accorde au 3 eme tour"
+    },
+    {
+      "societe": "LogIn",
+      "fondateurs": "Ahmed Riza",
+      "secteur": "Mobility",
+      "resultat": "de l’article 3 de la loi n°2018-20 du 17 avril 2018 relative aux"
     }
   ],
   "session_data": {

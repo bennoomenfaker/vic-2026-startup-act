@@ -3,7 +3,7 @@
   "annee": 2024,
   "mois": 8,
   "pdf": "session_2024_08.pdf",
-  "nb_entrees": 23,
+  "nb_entrees": 25,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -117,32 +117,44 @@
     {
       "societe": "PINE NEEDLES SOLUTION Tim'ess",
       "fondateurs": "Dorra Bouguella, Rania Chouchane, Mohamed Kchaou",
-      "secteur": "Environment Mai",
+      "secteur": "Environment",
       "resultat": "label accorde"
     },
     {
       "societe": "Owlinks Technologies Co Owlinks",
       "fondateurs": "Amine Guermazi, Chouikhi Seif",
-      "secteur": "Février",
+      "secteur": "Services",
       "resultat": "label accorde"
     },
     {
       "societe": "DRIVOXE",
       "fondateurs": "DRIVOXE, Ranyme Trabelsy",
-      "secteur": "Ad Tech & Creative Tech Mai",
+      "secteur": "Ad Tech & Creative Tech",
       "resultat": "label accorde"
     },
     {
       "societe": "SPR 01 Labs Spr 01",
       "fondateurs": "Haithem Besghaier",
-      "secteur": "Wellness Juin",
+      "secteur": "Wellness",
       "resultat": "label accorde"
     },
     {
       "societe": "NANOSOFT",
       "fondateurs": "Speedy ERP Kais Chehuma",
-      "secteur": "Mars",
+      "secteur": "services",
       "resultat": "label accorde"
+    },
+    {
+      "societe": "EDUZEN EduZen",
+      "fondateurs": "Khouloud Rinez, Jihen Rahmouni",
+      "secteur": "EdTech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Be Wireless Solutions",
+      "fondateurs": "Consumer Products & Services",
+      "secteur": "Retrait du Label",
+      "resultat": "2018 pour les sociétés bénéficiaires du Label"
     }
   ],
   "session_data": {

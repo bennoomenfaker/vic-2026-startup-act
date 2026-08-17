@@ -3,7 +3,7 @@
   "annee": 2022,
   "mois": 1,
   "pdf": "session_2022_01.pdf",
-  "nb_entrees": 21,
+  "nb_entrees": 35,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -109,28 +109,112 @@
       "resultat": "prelabel accorde"
     },
     {
-      "societe": "Géo Solutions Technologie",
-      "fondateurs": "Nesria LEHIANI, Karim Jouini",
-      "secteur": "Mobility Août",
-      "resultat": "retrait du label"
+      "societe": "ZNet-IT",
+      "fondateurs": "Yassin Guirat, Hassen Krid, Ibrahim Hachicha, Khalil Zouari",
+      "secteur": "Health tech & wellbeing",
+      "resultat": "label non accorde"
     },
     {
-      "societe": "Expensya Tunisie",
-      "fondateurs": "Jihed Othmani",
-      "secteur": "Fintech Mars",
-      "resultat": "retrait du label"
+      "societe": "Sté Carcoliva Delifood",
+      "fondateurs": "Moez Krid, Bassem Ayadi, Soufiane Saddoud, Lassaad Ben Rejeb",
+      "secteur": "Agritech",
+      "resultat": "label non accorde"
     },
     {
-      "societe": "Fouta Tunisia",
-      "fondateurs": "Beldi Zied, Ahmed ELMI, Mohamed Jbalia",
-      "secteur": "Marketplace Mai",
-      "resultat": "retrait du label"
+      "societe": "Birdhouce",
+      "fondateurs": "Ramzi Chahin",
+      "secteur": "Creative industry",
+      "resultat": "label non accorde"
     },
     {
-      "societe": "BYEISSA",
-      "fondateurs": "Souhaib Rejeb, Wajdi Tayachi",
-      "secteur": "Marketplace Février",
-      "resultat": "retrait du label"
+      "societe": "H2S",
+      "fondateurs": "Amin Haddad, Fares Zarrouk",
+      "secteur": "Health tech & wellbeing",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "Pharmadis",
+      "fondateurs": "Hatem Zarrouk, Aouadi Aymen",
+      "secteur": "Health tech & wellbeing",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "Hémisphère",
+      "fondateurs": "Malek Ben Yeder, Firas Ben Hamida, Adnene Ayed",
+      "secteur": "EdTech",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "Rewav",
+      "fondateurs": "Hatem Ksouri, Seifeddine El Ayeb",
+      "secteur": "Creative industry",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "IPOLY STUDIO",
+      "fondateurs": "El Ayeb Houssem Eddine",
+      "secteur": "Creative industry",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "LOCA BNB",
+      "fondateurs": "Bassem Almarzouki",
+      "secteur": "TravelTech",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "Dawyny",
+      "fondateurs": "Ridha Mahjoub, Sami Arfaoui, Mohamed Takieddine Chabchoub",
+      "secteur": "Health tech & wellbeing",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "AgroGrowth",
+      "fondateurs": "Arij Ben Abid, Omri takwa, Fedia Ayari",
+      "secteur": "Agritech",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "Fluffy Food",
+      "fondateurs": "Fida Ailaoui, Ahmed Ayadi, Yosr Ksontini, Ahmed Sebai",
+      "secteur": "FoodTech & New Food",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "Skillias",
+      "fondateurs": "Nedra Khelil, Khemaies Ahmed, Houssem El Abed",
+      "secteur": "EdTech",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "DJubatusR",
+      "fondateurs": "Ali Bayoudh",
+      "secteur": "Business Software & Services",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "Evoo",
+      "fondateurs": "Mohamed Gorrab",
+      "secteur": "Business Software & Services",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "Agazone",
+      "fondateurs": "Boussaidi Mohamed, Sonia El Fekih",
+      "secteur": "Agritech",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "ActivXtract",
+      "fondateurs": "Faouzi Zaghbib, Amine Zaghbib, Bguir Abdallah, Hajar Bouchiba, Bakouch Abderrazag, Sameh Souissi, Nour Elimene Essid",
+      "secteur": "Agritech",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "CORADASH",
+      "fondateurs": "Radhouene Bousnina, Marah Bouzaida",
+      "secteur": "Health tech & wellbeing",
+      "resultat": "prelabel non accorde"
     }
   ],
   "session_data": {

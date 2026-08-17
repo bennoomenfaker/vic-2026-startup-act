@@ -3,7 +3,7 @@
   "annee": 2021,
   "mois": 5,
   "pdf": "session_2021_05.pdf",
-  "nb_entrees": 25,
+  "nb_entrees": 24,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -149,12 +149,6 @@
       "fondateurs": "Hatem Ben Brahim",
       "secteur": "Services de communication Label",
       "resultat": "label non accorde"
-    },
-    {
-      "societe": "Société NOVEL-TI",
-      "fondateurs": "Ferdouas MASMOUDI",
-      "secteur": "AI Avril",
-      "resultat": "retrait du label"
     }
   ],
   "session_data": {

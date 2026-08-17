@@ -3,7 +3,7 @@
   "annee": 2022,
   "mois": 4,
   "pdf": "session_2022_04.pdf",
-  "nb_entrees": 23,
+  "nb_entrees": 22,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -137,12 +137,6 @@
       "fondateurs": "Ayoub Zemni",
       "secteur": "Consumer Products & Services",
       "resultat": "prelabel non accorde"
-    },
-    {
-      "societe": "Instadeep",
-      "fondateurs": "Karim Beguir",
-      "secteur": "AI Mai",
-      "resultat": "retrait du label"
     }
   ],
   "session_data": {

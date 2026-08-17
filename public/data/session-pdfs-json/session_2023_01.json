@@ -3,7 +3,7 @@
   "annee": 2023,
   "mois": 1,
   "pdf": "session_2023_01.pdf",
-  "nb_entrees": 31,
+  "nb_entrees": 29,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -123,74 +123,62 @@
     {
       "societe": "C'MIND C'MIND",
       "fondateurs": "Sabri Barbaria, Imen Zouari",
-      "secteur": "HealthTech Juin",
+      "secteur": "HealthTech",
       "resultat": "label accorde"
     },
     {
       "societe": "IZ AGRI IZAGRI",
       "fondateurs": "Zineb Zouari, Ghassen Sghaier",
-      "secteur": "Agritech Juillet",
+      "secteur": "Agritech",
       "resultat": "label accorde"
     },
     {
       "societe": "IZICLAIM IZICLAIM",
       "fondateurs": "Mohamed Sghaier, Senda Akili, Cyrine Atallah, Emilio Illc La Peruta",
-      "secteur": "InsuranceTech Novembre",
+      "secteur": "InsuranceTech",
       "resultat": "label accorde"
     },
     {
       "societe": "WAF WAF HOUSE",
       "fondateurs": "Waf Waf House Ridha Bouasker, Yusbely Nacary Jimenez Guerra, Hassine Atallah, Moez Lidinellah Waddey",
-      "secteur": "Août",
+      "secteur": "Services",
       "resultat": "label accorde"
     },
     {
       "societe": "Dyno & Motiva Systems dyno",
       "fondateurs": "Mohamad Obeid, Mohamed Hedi Jridi, Hassouna Ben Jemaa",
-      "secteur": "Fintech Septembre",
+      "secteur": "Fintech",
       "resultat": "label accorde"
     },
     {
       "societe": "Digital city innovation",
       "fondateurs": "DIGITAL CITY INNOVATION, Noomen Tounsi, Anouar Abdelkoudous Bouassida",
-      "secteur": "Social Business Octobre",
+      "secteur": "Social Business",
       "resultat": "label accorde"
     },
     {
       "societe": "Thnity Maas Thnity",
       "fondateurs": "Amina Garbouj, Sayma Besbes, Walid Meddeb",
-      "secteur": "Mobility Août",
+      "secteur": "Mobility",
       "resultat": "label accorde"
     },
     {
       "societe": "OPKODERLABS  Taskflow",
       "fondateurs": "Mohamed Aziz Lahkimi, Mohamed Adel Tarki",
-      "secteur": "Mobility Décembre",
+      "secteur": "Mobility",
       "resultat": "label accorde"
     },
     {
       "societe": "YARI PROJECT YARI",
       "fondateurs": "Mohamed Nejib Bejar, Salim Benaoun",
-      "secteur": "HealthTech Novembre",
+      "secteur": "HealthTech",
       "resultat": "label accorde"
     },
     {
       "societe": "WHEELZ PRO'FIT",
       "fondateurs": "Mohamed Wassim Abidi, Hela Msaddek",
-      "secteur": "Mobility Novembre",
+      "secteur": "Mobility",
       "resultat": "label accorde"
-    },
-    {
-      "societe": "XTENDPLEX S A R L XTENDPLEX",
-      "fondateurs": "Hassan Cheriha, Ahmed Cheikhrouhou",
-      "secteur": "Fintech Février",
-      "resultat": "retrait du label"
-    },
-    {
-      "societe": "Polysmart Polysmart",
-      "fondateurs": "Haroun Bouchrit",
-      "secteur": "Mars",
-      "resultat": "retrait du label"
     }
   ],
   "session_data": {

@@ -3,7 +3,7 @@
   "annee": 2024,
   "mois": 5,
   "pdf": "session_2024_05.pdf",
-  "nb_entrees": 24,
+  "nb_entrees": 45,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -115,39 +115,165 @@
       "resultat": "label non accorde au 2eme tour"
     },
     {
+      "societe": "AGRONIX",
+      "fondateurs": "Wissem Ben Amor, Rashed Bedhiafi",
+      "secteur": "Business Software and services",
+      "resultat": "label non accorde au 2eme tour"
+    },
+    {
+      "societe": "Qoon",
+      "fondateurs": "Amine Lamine",
+      "secteur": "EdTech",
+      "resultat": "label non accorde au 2eme tour"
+    },
+    {
+      "societe": "Mat7irch",
+      "fondateurs": "Ali Horchani, Badii Gharbi",
+      "secteur": "Social Platform",
+      "resultat": "label non accorde au 3 eme tour"
+    },
+    {
+      "societe": "NEXTOOLS",
+      "fondateurs": "Haythem Hamdani, Walid Jemaa, Rahma Dhib",
+      "secteur": "Business Software and services",
+      "resultat": "prelabel non accorde au 2eme tour"
+    },
+    {
+      "societe": "Joyness",
+      "fondateurs": "Rahma Hadj Ali, El Abed Ilyes, Zayneb Aouani",
+      "secteur": "Wellness",
+      "resultat": "prelabel non accorde au 2eme tour"
+    },
+    {
+      "societe": "Keef",
+      "fondateurs": "Ihab Kahri",
+      "secteur": "FoodTech & New Food",
+      "resultat": "prelabel non accorde au 2eme tour"
+    },
+    {
+      "societe": "ADAM DIGITAL CARD",
+      "fondateurs": "Haythem Belhaj, Amel Haddad",
+      "secteur": "Communication services",
+      "resultat": "prelabel non accorde au 2eme tour"
+    },
+    {
+      "societe": "Rewardini",
+      "fondateurs": "Shili Badie, Chiraz Othmani, Meher farhat",
+      "secteur": "Consumer products and services",
+      "resultat": "prelabel non accorde au 2eme tour"
+    },
+    {
+      "societe": "Jek Job",
+      "fondateurs": "Ismail El Hamad, Adnan Ben Youssef, Amine Ben Dhiab",
+      "secteur": "EdTech",
+      "resultat": "prelabel non accorde au 2eme tour"
+    },
+    {
+      "societe": "Medidoc",
+      "fondateurs": "Jamel Malek, Fakhreddine Kraiem, Mehdi Zine Abidine Aidoudi, Malek Taktak",
+      "secteur": "HealthTech",
+      "resultat": "prelabel non accorde au 2eme tour"
+    },
+    {
+      "societe": "pathtrail",
+      "fondateurs": "Zied Chraiet, Oussama Jedda, Rejeb Chaalia",
+      "secteur": "Ad Tech and Creative Tech",
+      "resultat": "prelabel non accorde au 2eme tour"
+    },
+    {
+      "societe": "Alt Doc",
+      "fondateurs": "Hamdi Bouabdallah, Khaled Hadj Ali, Baha Eddine Missaoui",
+      "secteur": "HealthTech",
+      "resultat": "prelabel non accorde au 2eme tour"
+    },
+    {
+      "societe": "CraftARoom",
+      "fondateurs": "Wassim Hamdaoui, Siwar Missaoui",
+      "secteur": "Business Software and services",
+      "resultat": "prelabel non accorde au 2eme tour"
+    },
+    {
+      "societe": "CLUB",
+      "fondateurs": "Ghaith Labbèdi, Seifeddine Ben Hamouda",
+      "secteur": "Consumer products and services",
+      "resultat": "prelabel non accorde au 2eme tour"
+    },
+    {
+      "societe": "Perfect Gen",
+      "fondateurs": "Mohamed Hizabri, Issam Nouri",
+      "secteur": "Ad Tech and Creative Tech",
+      "resultat": "prelabel non accorde au 3 eme tour"
+    },
+    {
+      "societe": "Smart Farm Solutions",
+      "fondateurs": "Béchir Ben Brika",
+      "secteur": "Agritech",
+      "resultat": "prelabel non accorde au 3 eme tour"
+    },
+    {
+      "societe": "Oratio",
+      "fondateurs": "Oussema Chelly, Yosri Ayadi",
+      "secteur": "Business Software and services",
+      "resultat": "prelabel non accorde au 3 eme tour"
+    },
+    {
+      "societe": "Numeryx MEA",
+      "fondateurs": "Omar Turki, Jamel Hattay",
+      "secteur": "Business Software and services",
+      "resultat": "capitalistique exigée au point 3 de l’article 3 de la loi"
+    },
+    {
+      "societe": "Télésurveillance profonde des patients via une plateforme clinique de suivi",
+      "fondateurs": "Faiza Hadid, Younes Ben Salah",
+      "secteur": "HealthTech",
+      "resultat": "exercices précédents exigés en vertu de l’article 4 du"
+    },
+    {
+      "societe": "médical",
+      "fondateurs": "Samir Belaid",
+      "secteur": "",
+      "resultat": ""
+    },
+    {
+      "societe": "TECHPRO SOLUTION",
+      "fondateurs": "AYMEN BENSALEM",
+      "secteur": "Business Software and services",
+      "resultat": "signés et enregistrés auprès des autorités"
+    },
+    {
+      "societe": "Hive",
+      "fondateurs": "Adam Ounis",
+      "secteur": "Ad Tech and Creative Tech",
+      "resultat": "exercices précédents exigés en vertu de l’article 4 du"
+    },
+    {
       "societe": "ACRIDIDEA culturify DourbIA",
       "fondateurs": "ACRIDIDEA, Najet Ayadi, Ines Hassoumi, Hamza Bourougaa",
-      "secteur": "FoodTech & New Food Avril",
+      "secteur": "FoodTech & New Food",
       "resultat": "label accorde"
     },
     {
       "societe": "R H  A development",
       "fondateurs": "Deelshop, Rachwan Tarraf, Aziz Kouki",
-      "secteur": "Novembre",
+      "secteur": "Services",
       "resultat": "label accorde"
     },
     {
       "societe": "Contractzlab",
       "fondateurs": "contractzLab Mohamed Rafik Hwimli, Foued Jaballah",
-      "secteur": "Décembre",
+      "secteur": "services",
       "resultat": "label accorde"
     },
     {
       "societe": "JIOTIFY Solutions Jiotify",
       "fondateurs": "Rafik Jaballah",
-      "secteur": "Agritech Décembre",
+      "secteur": "Agritech",
       "resultat": "label accorde"
-    },
-    {
-      "societe": "Société",
-      "fondateurs": "Secteur",
-      "secteur": "Décision",
-      "resultat": "Commentaires"
     },
     {
       "societe": "NEXT PROTEIN TUNISIA Agritech COGNIRA TUNISIA",
       "fondateurs": "Business Software & Services",
-      "secteur": "Janvier Retrait du Label",
+      "secteur": "Retrait du Label",
       "resultat": "2018 pour les sociétés bénéficiaires du Label"
     }
   ],

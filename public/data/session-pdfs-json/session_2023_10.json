@@ -3,7 +3,7 @@
   "annee": 2023,
   "mois": 10,
   "pdf": "session_2023_10.pdf",
-  "nb_entrees": 29,
+  "nb_entrees": 28,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -153,31 +153,25 @@
     {
       "societe": "Abajim.com",
       "fondateurs": "Abajim.com m Yassine Rhouma, Mohamed Ben Romdhane",
-      "secteur": "Septembre",
+      "secteur": "EdTech",
       "resultat": "label accorde"
-    },
-    {
-      "societe": "Société",
-      "fondateurs": "Secteur",
-      "secteur": "Session d'obtention Décision",
-      "resultat": "Commentaires"
     },
     {
       "societe": "iowaves",
       "fondateurs": "Envrionment",
-      "secteur": "Décembre Retrait du Label",
+      "secteur": "Retrait du Label",
       "resultat": "2018 pour les sociétés bénéficiaires du Label"
     },
     {
       "societe": "LISTA INTERNATIONAL",
       "fondateurs": "Commerce & Shopping",
-      "secteur": "Février Retrait du Label",
+      "secteur": "Retrait du Label",
       "resultat": "2018 pour les sociétés bénéficiaires du Label"
     },
     {
       "societe": "CREATIVE CULINARY",
       "fondateurs": "FoodTech & New Food",
-      "secteur": "Juin Retrait du Label",
+      "secteur": "Retrait du Label",
       "resultat": "2018 pour les sociétés bénéficiaires du Label"
     }
   ],

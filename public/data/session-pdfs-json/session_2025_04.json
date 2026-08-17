@@ -3,7 +3,7 @@
   "annee": 2025,
   "mois": 4,
   "pdf": "session_2025_04.pdf",
-  "nb_entrees": 36,
+  "nb_entrees": 35,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -129,56 +129,50 @@
     {
       "societe": "Syndiki Syndiki Solutions",
       "fondateurs": "Haroun Cheriha, Marwa Baccouche",
-      "secteur": "Real Estate Tech Septembre",
+      "secteur": "Real Estate Tech",
       "resultat": "label accorde"
     },
     {
       "societe": "Oop'la Imagitoys",
       "fondateurs": "Faouzi Kadous, Christian Ruiz",
-      "secteur": "Octobre",
+      "secteur": "services",
       "resultat": "label accorde"
     },
     {
       "societe": "Moonlight AI TN Moonlight AI TN",
       "fondateurs": "Nicole Romano, Stefan Habringer, Aziz Benchedli",
-      "secteur": "HealthTech Septembre",
+      "secteur": "HealthTech",
       "resultat": "label accorde"
     },
     {
       "societe": "Order Station ORDER STATION",
       "fondateurs": "Ahmed Selmi, Karim Tounsi, Mehemed Bougsea",
-      "secteur": "FoodTech & New Food Septembre",
+      "secteur": "FoodTech & New Food",
       "resultat": "label accorde"
     },
     {
       "societe": "Krypton Think it Connected Data Labs",
       "fondateurs": "Joscha Raue, Beldi Zied",
-      "secteur": "Septembre",
+      "secteur": "services",
       "resultat": "label accorde"
     },
     {
       "societe": "Mintounes MinTounes",
       "fondateurs": "Anis Harzallah, Ghizlaine Beldi",
-      "secteur": "Commerce and shopping Septembre",
+      "secteur": "Commerce and shopping",
       "resultat": "label accorde"
     },
     {
       "societe": "HAROON HAROON TALK",
       "fondateurs": "Wafa Makni, Kayoum Djedidi, Azer ben abdallah",
-      "secteur": "Social Business Novembre",
+      "secteur": "Social Business",
       "resultat": "label accorde"
     },
     {
       "societe": "OORB Open Organic Robotics SOCIETE OPEN ORGANIC ROBOTICS",
       "fondateurs": "Bassem Gouti, Basly Asma",
-      "secteur": "Novembre",
+      "secteur": "& Robotics",
       "resultat": "label accorde"
-    },
-    {
-      "societe": "Société Secteur",
-      "fondateurs": "du Label",
-      "secteur": "Décision",
-      "resultat": "Commentaires"
     },
     {
       "societe": "Linkivia HealthTech",

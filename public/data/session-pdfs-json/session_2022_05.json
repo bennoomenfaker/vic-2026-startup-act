@@ -3,7 +3,7 @@
   "annee": 2022,
   "mois": 5,
   "pdf": "session_2022_05.pdf",
-  "nb_entrees": 26,
+  "nb_entrees": 24,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -149,18 +149,6 @@
       "fondateurs": "Mohamed Abichou",
       "secteur": "Advanced Manufacturing & Industry",
       "resultat": "label non accorde"
-    },
-    {
-      "societe": "ENOVA Robotics",
-      "fondateurs": "Philippe Bidaud, Christophe Grand, Ikram Aloui",
-      "secteur": "Advanced Manufacturing & Industry Mai",
-      "resultat": "retrait du label"
-    },
-    {
-      "societe": "Sté WEBCOMING",
-      "fondateurs": "Karim Aloui, Yussr Chaouach",
-      "secteur": "Plateforme Sociale Décembre",
-      "resultat": "retrait du label"
     }
   ],
   "session_data": {

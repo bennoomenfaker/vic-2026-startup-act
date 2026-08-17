@@ -3,7 +3,7 @@
   "annee": 2025,
   "mois": 9,
   "pdf": "session_2025_09.pdf",
-  "nb_entrees": 23,
+  "nb_entrees": 24,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -133,16 +133,22 @@
       "resultat": "label accorde"
     },
     {
-      "societe": "Société Secteur Digital World EdTech",
+      "societe": "ESKY Professionnel Services",
       "fondateurs": "",
-      "secteur": "du Label",
+      "secteur": "",
       "resultat": "La société a dépassé l'âge maximum de 8 ans fixé par"
     },
     {
-      "societe": "ESKY Professionnel Services Limited Business Software and services South Fruits Agri Agritech Think-IT lABS Business Software and services",
+      "societe": "South Fruits Agri",
       "fondateurs": "",
-      "secteur": "avril",
-      "resultat": "retrait du label la loi 202018 pour les societes beneficiaires du label"
+      "secteur": "",
+      "resultat": ""
+    },
+    {
+      "societe": "Think-IT lABS",
+      "fondateurs": "",
+      "secteur": "",
+      "resultat": ""
     }
   ],
   "session_data": {

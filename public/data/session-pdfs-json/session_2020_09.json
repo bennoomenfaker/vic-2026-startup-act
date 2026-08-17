@@ -3,7 +3,7 @@
   "annee": 2020,
   "mois": 9,
   "pdf": "session_2020_09.pdf",
-  "nb_entrees": 28,
+  "nb_entrees": 23,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -143,36 +143,6 @@
       "fondateurs": "Yasser Souilmi, Hamza Beji",
       "secteur": "Agritech",
       "resultat": "prelabel"
-    },
-    {
-      "societe": "Mass SA",
-      "fondateurs": "Dr. Firas Jabloun, Mohamed Amine Ghorbel",
-      "secteur": "AI Avril",
-      "resultat": "retrait du label"
-    },
-    {
-      "societe": "Catrim",
-      "fondateurs": "Becem Ben Mustapha, Houcine Jhimi",
-      "secteur": "Fintech Juillet",
-      "resultat": "retrait du label"
-    },
-    {
-      "societe": "Jhimi Pour Les Elévateurs Légers",
-      "fondateurs": "Ali Jhimi, Nour Ben yahia, Mehrez Boulares, Achraf Othman",
-      "secteur": "Agritech Décembre",
-      "resultat": "retrait du label"
-    },
-    {
-      "societe": "TechAccessibility",
-      "fondateurs": "Kabil Jaballah, Oussama El Ghoul, Mohsen Laabidi, Wassim Ben Hmida",
-      "secteur": "Mobile Avril",
-      "resultat": "retrait du label"
-    },
-    {
-      "societe": "Tira Robots",
-      "fondateurs": "Azza Attia",
-      "secteur": "Robotique Octobre",
-      "resultat": "retrait du label"
     }
   ],
   "session_data": {

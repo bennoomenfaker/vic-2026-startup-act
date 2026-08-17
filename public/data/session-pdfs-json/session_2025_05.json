@@ -3,7 +3,7 @@
   "annee": 2025,
   "mois": 5,
   "pdf": "session_2025_05.pdf",
-  "nb_entrees": 29,
+  "nb_entrees": 48,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -151,6 +151,126 @@
       "resultat": "label non accorde au 2 eme tour"
     },
     {
+      "societe": "Taniterra",
+      "fondateurs": "Rania Negra, Samir Bouzayani",
+      "secteur": "EdTech",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Styly",
+      "fondateurs": "Soumaya Sebai",
+      "secteur": "shopping",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Passionne12",
+      "fondateurs": "Tarek Zinelabidine, Racem Smaoui, Rania Ghorbel",
+      "secteur": "services",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "CoGeex",
+      "fondateurs": "Abir Smaoui, Tahani Taktak, Aziz Snoussi",
+      "secteur": "and services",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "ecoplat",
+      "fondateurs": "Sonia Kaak",
+      "secteur": "Food",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Anqua Edge Innovation",
+      "fondateurs": "Ghada Lachhab, Malek Bahroun",
+      "secteur": "Environment",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Tawelti Wiser Design Technology",
+      "fondateurs": "Bilel Makhlouf",
+      "secteur": "Food",
+      "resultat": "label non accorde au 3 eme tour"
+    },
+    {
+      "societe": "Tunisia",
+      "fondateurs": "Mohamed Mehdi Baccouche, Mohamed Chriha",
+      "secteur": "Robotics",
+      "resultat": "d'intérêt"
+    },
+    {
+      "societe": "LSpace",
+      "fondateurs": "Elyes Kouki, Chaieb Oumayma",
+      "secteur": "EdTech",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Budgeteuse",
+      "fondateurs": "Saied Firas Chaieb, Amine Arous",
+      "secteur": "Fintech",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Chkobba Heroes",
+      "fondateurs": "Ahmed Khemiri, Skander Khiari",
+      "secteur": "Tech",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "ichrili.tn",
+      "fondateurs": "Slim Khiari, Ilyes Essid, Ameni Tombari",
+      "secteur": "shopping",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Nest360",
+      "fondateurs": "Mariem Azaiez, Syrine Chebbi, Nejah Cherif",
+      "secteur": "Real Estate Tech",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Quantumium AI",
+      "fondateurs": "Bassem khelifi, Manel Guizani",
+      "secteur": "and services",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Hkeyetna",
+      "fondateurs": "Achref Mabrouk",
+      "secteur": "Tech",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Swipe",
+      "fondateurs": "Karim Mathlouthi, Lotfi Cherif",
+      "secteur": "Fintech",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Yeiza",
+      "fondateurs": "Karim Ayadi, Olivia Gallardo, Anis Mrad",
+      "secteur": "shopping",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Smart Net",
+      "fondateurs": "Oumaima Benamar, Mohamed Tarek Ben Abdelhamid",
+      "secteur": "Environment",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "STE TABHOTEL DIGITAL",
+      "fondateurs": "Fabrice Goussin",
+      "secteur": "and services",
+      "resultat": "N.A N.A N.A N.A avril 2018 qui dispose que le capital de la"
+    },
+    {
+      "societe": "Anqua Edge Innovations",
+      "fondateurs": "Ghada Lachhab",
+      "secteur": "Environment",
+      "resultat": "candidature durant la même session"
+    },
+    {
       "societe": "Lura Lura Law",
       "fondateurs": "Chadha Grami, Taycir Chouk",
       "secteur": "Business Software and services",
@@ -167,12 +287,6 @@
       "fondateurs": "Azza Sandly",
       "secteur": "Business Software and services",
       "resultat": "label accorde"
-    },
-    {
-      "societe": "Société Secteur",
-      "fondateurs": "d'obtention, du Label",
-      "secteur": "Décision",
-      "resultat": "Commentaires"
     },
     {
       "societe": "Sentinel Data HealthTech",

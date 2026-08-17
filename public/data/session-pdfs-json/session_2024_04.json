@@ -3,7 +3,7 @@
   "annee": 2024,
   "mois": 4,
   "pdf": "session_2024_04.pdf",
-  "nb_entrees": 30,
+  "nb_entrees": 29,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -141,7 +141,7 @@
     {
       "societe": "OPTOSCOPIA INTELLIGENT",
       "fondateurs": "OPTOSCOPIA INTELLIGENT  Marouen Akermi",
-      "secteur": "HealthTech Mars",
+      "secteur": "HealthTech",
       "resultat": "label accorde"
     },
     {
@@ -153,37 +153,31 @@
     {
       "societe": "COLOMBUS CAPITAL Trust",
       "fondateurs": "Eymen Errais",
-      "secteur": "Fintech Mars",
+      "secteur": "Fintech",
       "resultat": "label accorde"
     },
     {
       "societe": "QualiMaker QualiMaker",
       "fondateurs": "Mehdi Zaabar, Aouaieb Kais",
-      "secteur": "Janvier",
+      "secteur": "services",
       "resultat": "label accorde"
     },
     {
       "societe": "CHITELIX CHITELIX",
       "fondateurs": "Mohamed Anis Ben Ghalia",
-      "secteur": "Agritech Octobre",
+      "secteur": "Agritech",
       "resultat": "label accorde"
     },
     {
       "societe": "Tanit HealthCare Technologies Tanit.ai",
       "fondateurs": "Kais Zhioua",
-      "secteur": "HealthTech Décembre",
+      "secteur": "HealthTech",
       "resultat": "label accorde"
-    },
-    {
-      "societe": "Société",
-      "fondateurs": "Secteur",
-      "secteur": "Décision",
-      "resultat": "Commentaires"
     },
     {
       "societe": "NEXT PROTEIN TUNISIA Agritech COGNIRA TUNISIA",
       "fondateurs": "Business Software & Services",
-      "secteur": "Janvier Retrait du Label",
+      "secteur": "Retrait du Label",
       "resultat": "2018 pour les sociétés bénéficiaires du Label"
     }
   ],

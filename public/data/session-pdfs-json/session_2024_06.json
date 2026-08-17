@@ -3,7 +3,7 @@
   "annee": 2024,
   "mois": 6,
   "pdf": "session_2024_06.pdf",
-  "nb_entrees": 24,
+  "nb_entrees": 26,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -135,20 +135,32 @@
     {
       "societe": "WeenPan assistance des urgences",
       "fondateurs": "Sana Hamdi, Jamila Ghediri, Saied Eddine Borghol, Kamel Ben Anaya",
-      "secteur": "Mobility Février",
+      "secteur": "Mobility",
       "resultat": "label accorde"
     },
     {
       "societe": "Officent IT officent",
       "fondateurs": "Asma Methamem, Soulayma Dhiab",
-      "secteur": "Janvier",
+      "secteur": "services",
       "resultat": "label accorde"
     },
     {
       "societe": "BOOK NOW 123 booking",
       "fondateurs": "Akram Rekik",
-      "secteur": "TravelTech Avril",
+      "secteur": "TravelTech",
       "resultat": "label accorde"
+    },
+    {
+      "societe": "Firnas Engineering",
+      "fondateurs": "FoodTech & New Food",
+      "secteur": "Retrait du Label",
+      "resultat": "2018 pour les sociétés bénéficiaires du Label"
+    },
+    {
+      "societe": "Dabchy",
+      "fondateurs": "Commerce & Shopping",
+      "secteur": "Retrait du Label",
+      "resultat": "2018 pour les sociétés bénéficiaires du Label"
     }
   ],
   "session_data": {

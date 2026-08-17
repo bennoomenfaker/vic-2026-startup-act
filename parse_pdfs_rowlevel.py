@@ -54,18 +54,28 @@ def is_noise_row(spans, text_line):
     if "startup act" in nl and "session" in nl and ("compte" in nl or "rendu" in nl):
         return True
 
+    # Titre de session seul (ex: "Session 25 | Avril 2021 | Compte-Rendu")
+    if "session" in nl and ("compte" in nl or "rendu" in nl):
+        return True
+
     # En-tête de colonnes principal
     if "societe" in nl and "fondateurs" in nl and "secteur" in nl:
         return True
 
-    # Sous-titre 1er/2ème/3ème Tour + colonnes
+    # Sous-titre 1er/ème/ème Tour + colonnes
     if ("1er tour" in nl or "1er  tour" in nl) and ("recevabilite" in nl or "pitching" in nl):
         return True
     if "recevabilite" in nl and ("pitching" in nl or "conflit" in nl):
         return True
 
+    # Sous-titre "Label/Prélabel" seul
+    if nl.strip() in ("label/prelabel", "label prelabel", "label/pre label", "label/prelabel", "resultat"):
+        return True
+
     # Sous-titres de section
     if "prelabels aux labels" in nl or "passage de prelabels" in nl:
+        return True
+    if "passage de" in nl and "labels" in nl:
         return True
     if len(spans) <= 3 and "retrait" in nl and "label" in nl:
         return True
@@ -74,6 +84,28 @@ def is_noise_row(spans, text_line):
     if "declare" in nl and ("conflit" in nl or "interet" in nl):
         return True
     if nl.strip() in ("d'interet", "d interet", "dinteret", "d'intérêt"):
+        return True
+
+    # Lignes de header de section (Société / Fondateurs / Secteur / Décision / Commentaires)
+    if "societe" in nl and "secteur" in nl and ("decision" in nl or "commentaires" in nl):
+        return True
+
+    # Ligne "Société Secteur Bus Software IoT" (séparateur de section)
+    if nl.startswith("societe secteur") or nl.startswith("société secteur"):
+        return True
+
+    # Ligne "Décision Commentaires"
+    if nl.startswith("decision commentaires"):
+        return True
+
+    # Lignes de texte légal / droits
+    if len(spans) > 5 and "conformement" in nl:
+        return True
+    if len(spans) > 5 and "bénéficiaires" in nl and "label" in nl:
+        return True
+
+    # Ligne purement numérique ou N.A
+    if re.match(r"^[\d\s\-\.na/]+$", nl) or nl.strip() in ("oui", "non", ""):
         return True
 
     return False
@@ -188,6 +220,34 @@ def assign_by_boundaries(spans, boundaries):
     return dict(result)
 
 
+def normalize_result(r):
+    """Normalise le résultat pour avoir des variantes cohérentes."""
+    r = r.strip()
+    nl = norm(r)
+    
+    # Ne normaliser que si le texte contient des mots-clés de décision
+    if not any(k in nl for k in ["label", "prelabel", "accorde", "non", "refus", "ajourne", "retrait"]):
+        return r
+    
+    # Labels
+    if "label" in nl and "prelabel" not in nl:
+        if "non" in nl or "refus" in nl:
+            return "label non accorde"
+        return "label accorde"
+    
+    # Prelabels
+    if "prelabel" in nl:
+        if "non" in nl or "refus" in nl:
+            return "prelabel non accorde"
+        return "prelabel accorde"
+    
+    # Accordé sans type
+    if nl in ("accorde", "label accordé"):
+        return "label accorde"
+    
+    return r
+
+
 def extract_final_result(text):
     """Extrait la décision finale (Label/Prélabel Accordé/Non Accordé) depuis le texte.
     Ignore les scores et artefacts de vote."""
@@ -209,34 +269,160 @@ def extract_final_result(text):
             # Extraire le texte complet contenant le pattern
             m = re.search(r"(" + pat + r"[^\n]*)", nl)
             if m:
-                return m.group(1).strip()
-            return label
+                return normalize_result(m.group(1).strip())
+            return normalize_result(label)
 
     # Si c'est juste "Label" ou "Prélabel" (type sans décision)
     if nl.strip() in ("label", "prelabel"):
-        return nl.strip()
+        return normalize_result(nl.strip())
 
     # Si c'est du bruit (scores, N.A, Oui/Non), retourner vide
     if re.match(r"^[\d\s\-\.na]+$", nl) or nl in ("oui", "non", ""):
         return ""
 
-    return text.strip()
+    # Appliquer la normalisation sur le texte restant
+    return normalize_result(text.strip())
 
 
 def clean_secteur(text):
-    """Nettoie le texte secteur en enlevant les artefacts de vote."""
+    """Nettoie le texte secteur en enlevant les artefacts de vote et les mois."""
     if not text:
         return text
     words = text.split()
     clean = []
+    mois = ["janvier", "fevrier", "mars", "avril", "mai", "juin",
+            "juillet", "aout", "septembre", "octobre", "novembre", "decembre"]
     for w in words:
         nw = norm(w)
         if nw in ("oui", "non", "na", "n.a", ""):
             continue
         if re.match(r"^\d+$", nw):
             continue
+        if nw in mois:
+            continue
         clean.append(w)
     return " ".join(clean)
+
+
+def postprocess_entries(entries):
+    """Nettoie les entrées : fusionne résultats splités, filtre garbage, supprime doublons."""
+    if not entries:
+        return entries
+
+    # Étape 1 : Fusionner les résultats splités
+    merged = []
+    i = 0
+    while i < len(entries):
+        e = entries[i]
+        r = (e.get("resultat") or "").strip()
+        s = (e.get("societe") or "").strip()
+
+        # Fragment "Label Non-"
+        if r in ("Label Non-", "Label non-", "Prelabel Non-", "Prelabel non-", "label non-"):
+            # Chercher le "Accordé" dans les entrées suivantes
+            if i + 1 < len(entries):
+                next_e = entries[i + 1]
+                next_r = (next_e.get("resultat") or "").strip()
+                next_soc = (next_e.get("societe") or "").strip()
+                next_fond = (next_e.get("fondateurs") or "").strip()
+                
+                if next_r in ("Accordé", "Accorde") and not next_soc and not next_fond:
+                    # Cas A : "Accordé" seul → fusionner et sauter
+                    e = e.copy()
+                    e["resultat"] = fragments.get(r, "label non accorde")
+                    merged.append(e)
+                    i += 2
+                    continue
+                elif next_r in ("Accordé", "Accorde") and next_soc:
+                    # Cas B : "Accordé" + société → le résultat appartient à l'entrée précédente
+                    e = e.copy()
+                    e["resultat"] = fragments.get(r, "label non accorde")
+                    merged.append(e)
+                    # Réparer l'entrée suivante
+                    entries[i + 1] = {
+                        "societe": next_soc,
+                        "fondateurs": next_fond,
+                        "secteur": next_e.get("secteur", ""),
+                        "resultat": ""
+                    }
+                    i += 1
+                    continue
+            
+            # Pas de "Accordé" trouvé → compléter le fragment
+            e = e.copy()
+            e["resultat"] = fragments.get(r, "label non accorde")
+            merged.append(e)
+            i += 1
+            continue
+
+        # "Accordé" seul sans société → artefact, sauter
+        if r in ("Accordé", "Accorde") and not s:
+            i += 1
+            continue
+
+        merged.append(e)
+        i += 1
+
+    # Étape 2 : Fusionner les entrées avec même société (split sur 2 pages)
+    deduped = []
+    seen = {}
+    for e in merged:
+        s = (e.get("societe") or "").strip()
+        if not s:
+            continue
+        s_key = norm(s)
+        if s_key in seen:
+            existing = seen[s_key]
+            # Fusionner les champs manquants
+            if e.get("fondateurs") and not existing.get("fondateurs"):
+                existing["fondateurs"] = e["fondateurs"]
+            if e.get("secteur") and not existing.get("secteur"):
+                existing["secteur"] = e["secteur"]
+            if e.get("resultat") and not existing.get("resultat"):
+                existing["resultat"] = e["resultat"]
+        else:
+            seen[s_key] = e.copy()
+            deduped.append(e)
+
+    # Étape 3 : Filtrer les entrées garbage
+    result = []
+    for e in deduped:
+        s = (e.get("societe") or "").strip()
+        r = (e.get("resultat") or "").strip()
+
+        # Filtrer les headers PDF
+        if "compte-rendu" in norm(s) or "session" in norm(s) and "compte" in norm(s):
+            continue
+        if "startup act" in norm(s) and "session" in norm(s):
+            continue
+
+        # Filtrer les séparateurs de section
+        if norm(s).startswith("societe secteur") or norm(s).startswith("société secteur"):
+            continue
+
+        # Filtrer les entrées sans société
+        if not s or len(s) < 2:
+            continue
+
+        # Filtrer les résultats qui sont juste des headers
+        if norm(r) in ("decision commentaires", "societe secteur"):
+            continue
+
+        # Filtrer les résultats de retrait
+        if "retrait" in norm(r):
+            continue
+
+        # Filtrer les résultats qui sont des mois/dates (section Passage PL→L)
+        mois = ["janvier", "fevrier", "mars", "avril", "mai", "juin",
+                 "juillet", "aout", "septembre", "octobre", "novembre", "decembre"]
+        if any(m in norm(r) for m in mois) and len(r) < 20:
+            continue
+        if any(m in norm(s) for m in mois) and len(s) < 30 and not e.get("fondateurs"):
+            continue
+
+        result.append(e)
+
+    return result
 
 
 def parse_pdf_rowlevel(path):
@@ -244,28 +430,118 @@ def parse_pdf_rowlevel(path):
     doc = fitz.open(path)
     entries = []
 
-    for page in doc:
+    # Layout persistant : réutilisé sur les pages 2+ (même table continuée)
+    cached_header_y = None
+    cached_col_positions = None
+    cached_vote_start_x = None
+    cached_boundaries = None
+
+    for page_idx, page in enumerate(doc):
         all_lines = collect_lines(page)
         header_y, col_positions, sub_header_y, vote_start_x = detect_layout(all_lines)
 
-        if header_y is None or not col_positions or "societe" not in col_positions:
-            continue
+        # Si la page a un header, mettre à jour le cache
+        if header_y is not None and col_positions and "societe" in col_positions:
+            cached_header_y = header_y
+            cached_col_positions = col_positions
+            cached_vote_start_x = vote_start_x
+            page_rect = page.rect
+            page_width = page_rect.width if page_rect else 800
+            cached_boundaries = build_smart_boundaries(col_positions, vote_start_x, page_width)
 
-        # Déterminer la largeur de page
-        page_rect = page.rect
-        page_width = page_rect.width if page_rect else 800
+        # Si pas de header mais on a un layout en cache → l'utiliser
+        if cached_boundaries is None:
+            # Tenter de détecter le layout depuis les données elles-mêmes
+            # Chercher une ligne avec "Société" ou "Secteur" dans les 20 premières lignes
+            potential_header_y = None
+            potential_col_positions = {}
+            for y in sorted(all_lines)[:20]:
+                spans = all_lines[y]
+                text_line = " ".join(t for _, _, t in spans)
+                nl = norm(text_line)
+                if "societe" in nl and ("fondateurs" in nl or "secteur" in nl):
+                    potential_header_y = y
+                    for x0, x1, t in spans:
+                        nt = norm(t)
+                        cx = (x0 + x1) / 2
+                        if nt in ("societe", "société"):
+                            potential_col_positions["societe"] = cx
+                        elif nt in ("fondateurs", "fondateur"):
+                            potential_col_positions["fondateurs"] = cx
+                        elif nt == "secteur":
+                            potential_col_positions["secteur"] = cx
+                        elif nt in ("label/prelabel", "label prelabel", "label/pre label"):
+                            potential_col_positions["label_type"] = cx
+                        elif nt in ("resultat", "résultat"):
+                            potential_col_positions["resultat"] = cx
+                        elif nt == "commentaires":
+                            potential_col_positions["commentaires"] = cx
+                    break
+            
+            if potential_header_y is not None and "societe" in potential_col_positions:
+                cached_header_y = potential_header_y
+                cached_col_positions = potential_col_positions
+                # Chercher vote_start_x dans les lignes suivantes
+                for y in sorted(all_lines):
+                    if y <= potential_header_y:
+                        continue
+                    spans = all_lines[y]
+                    text_line = " ".join(t for _, _, t in spans)
+                    nl = norm(text_line)
+                    if "recevabilite" in nl or "pitching" in nl:
+                        if spans:
+                            cached_vote_start_x = spans[0][0]
+                        break
+                page_rect = page.rect
+                page_width = page_rect.width if page_rect else 800
+                cached_boundaries = build_smart_boundaries(cached_col_positions, cached_vote_start_x, page_width)
+            else:
+                # Fallback : boundaries par défaut selon la largeur de page
+                page_rect = page.rect
+                page_width = page_rect.width if page_rect else 800
+                cached_boundaries = {
+                    "societe": (0, page_width * 0.25),
+                    "fondateurs": (page_width * 0.25, page_width * 0.5),
+                    "secteur": (page_width * 0.5, page_width * 0.7),
+                    "resultat": (page_width * 0.7, page_width),
+                }
+                cached_header_y = 0
+                cached_col_positions = {}
+                cached_vote_start_x = None
 
-        boundaries = build_smart_boundaries(col_positions, vote_start_x, page_width)
-        if not boundaries:
-            continue
+        # Déterminer le y de départ :
+        # - Page 1 : utiliser header_y pour sauter l'en-tête
+        # - Pages 2+ : utiliser cached_header_y pour sauter l'en-tête répété
+        #   si aucun header n'est détecté sur cette page, utiliser 0
+        if page_idx == 0 and header_y is not None:
+            start_y = header_y
+        elif header_y is not None:
+            start_y = header_y
+        else:
+            start_y = 0
 
         current_entry = None
+        in_main_section = True
         for y in sorted(all_lines):
-            if y <= header_y:
+            if y <= start_y:
                 continue
 
             spans = all_lines[y]
             text_line = " ".join(t for _, _, t in spans)
+
+            # Détecter les sections secondaires (Passage PL→L, Retraits)
+            nl = norm(text_line)
+            if in_main_section and (
+                "prelabels aux labels" in nl or
+                "passage de prelabels" in nl or
+                "passage de" in nl and "labels" in nl or
+                (len(spans) <= 4 and "retrait" in nl and "label" in nl)
+            ):
+                if current_entry and current_entry.get("societe"):
+                    entries.append(current_entry)
+                    current_entry = None
+                in_main_section = False
+                continue
 
             if is_noise_row(spans, text_line):
                 if current_entry and current_entry.get("societe"):
@@ -273,7 +549,7 @@ def parse_pdf_rowlevel(path):
                     current_entry = None
                 continue
 
-            assigned = assign_by_boundaries(spans, boundaries)
+            assigned = assign_by_boundaries(spans, cached_boundaries)
 
             societe = " ".join(assigned.get("societe", [])).strip()
             fondateurs = " ".join(assigned.get("fondateurs", [])).strip()
@@ -282,6 +558,13 @@ def parse_pdf_rowlevel(path):
                 " ".join(assigned.get("resultat", []) or
                          assigned.get("label_type", [])).strip()
             )
+
+            # Filtrer les entrées de retrait
+            if "retrait" in norm(resultat):
+                if current_entry and current_entry.get("societe"):
+                    entries.append(current_entry)
+                    current_entry = None
+                continue
 
             has_new_societe = bool(societe and len(societe) > 1)
             has_other_fields = bool(fondateurs or secteur or resultat)
@@ -368,7 +651,8 @@ def parse_pdf_rowlevel(path):
         if current_entry and current_entry.get("societe"):
             entries.append(current_entry)
 
-    return entries
+    doc.close()
+    return postprocess_entries(entries)
 
 
 def get_session_data(session_key):

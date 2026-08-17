@@ -3,7 +3,7 @@
   "annee": 2020,
   "mois": 5,
   "pdf": "session_2020_05.pdf",
-  "nb_entrees": 25,
+  "nb_entrees": 24,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -149,12 +149,6 @@
       "fondateurs": "Ridha Rouatbi",
       "secteur": "Autre contenu créatif",
       "resultat": "label"
-    },
-    {
-      "societe": "Techability",
-      "fondateurs": "Oussama Romdhane",
-      "secteur": "IoT",
-      "resultat": "retrait du label"
     }
   ],
   "session_data": {

@@ -3,7 +3,7 @@
   "annee": 2022,
   "mois": 6,
   "pdf": "session_2022_06.pdf",
-  "nb_entrees": 29,
+  "nb_entrees": 28,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -147,37 +147,31 @@
     {
       "societe": "Collaborative smartools  SMARTOOLS",
       "fondateurs": "Wajih Abdelhedi, Badii Gharbi",
-      "secteur": "Fintech Mars",
+      "secteur": "Fintech",
       "resultat": "label accorde"
     },
     {
       "societe": "Saptun Solution",
       "fondateurs": "Saptun Solution Mahmoud Siala, Bilel Gassra",
-      "secteur": "Business Software & Services Avril",
+      "secteur": "Business Software & Services",
       "resultat": "label accorde"
     },
     {
       "societe": "Génération de l'hydrogène vert et son application aux stockage  HyO-Tec et conversion d'énergie",
       "fondateurs": "Kais Jamoussi, Nabil Kechaou, Mounir Trabelsi, Fatma Mellouli, Mahdi Gargouri",
-      "secteur": "Environment/Energie Décembre",
+      "secteur": "Environment/Energie",
       "resultat": "label accorde"
     },
     {
       "societe": "E Fair E Fair",
       "fondateurs": "Hana Fersi",
-      "secteur": "Services de communication Décembre",
+      "secteur": "Services de communication",
       "resultat": "label accorde"
-    },
-    {
-      "societe": "VITALIGHT LAB",
-      "fondateurs": "Khaoula Ben Slimane",
-      "secteur": "HealthTech Mars",
-      "resultat": ""
     },
     {
       "societe": "CONTROL-MED",
       "fondateurs": "Faten Hamdi",
-      "secteur": "AgriTech Mars",
+      "secteur": "AgriTech",
       "resultat": ""
     }
   ],

@@ -165,38 +165,38 @@
     {
       "societe": "AuroraIQ Aurora IQ",
       "fondateurs": "Aymen Frikha, Khalil Bourguiba",
-      "secteur": "Mars",
+      "secteur": "services",
       "resultat": "label accorde"
     },
     {
       "societe": "INCYIA INCYIA",
       "fondateurs": "Fatma Jedidi, Mohamed Khalil Ben Mohamed",
-      "secteur": "Security Février",
+      "secteur": "Security",
       "resultat": "label accorde"
     },
     {
       "societe": "Aycheek NOMOW",
       "fondateurs": "Mohamed Amine Ben Samir, Fedi Chebbi, Tijani Boujdaria, Minyar Meksi",
-      "secteur": "Fintech Mai",
+      "secteur": "Fintech",
       "resultat": "label accorde"
     },
     {
       "societe": "BeEmo FEELIO",
       "fondateurs": "Walid Jlassi, Mohamed Rouini, Mourad Zid, Khaled Klai",
-      "secteur": "EdTech Décembre",
+      "secteur": "EdTech",
       "resultat": "label accorde"
     },
     {
       "societe": "Bestrade Best Tech Systems",
       "fondateurs": "Heithem Jeljli, Héla Ben Ammar",
-      "secteur": "Mars",
+      "secteur": "services",
       "resultat": "label accorde"
     },
     {
-      "societe": "Société Secteur bqube Business Software and services",
+      "societe": "bqube Business Software and services",
       "fondateurs": "",
-      "secteur": "Avril Retrait du Label",
-      "resultat": "Commentaires"
+      "secteur": "Retrait du Label",
+      "resultat": "les sociétés bénéficiaires du Label"
     }
   ],
   "session_data": {

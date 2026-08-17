@@ -3,7 +3,7 @@
   "annee": 2025,
   "mois": 10,
   "pdf": "session_2025_10.pdf",
-  "nb_entrees": 30,
+  "nb_entrees": 41,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -121,6 +121,78 @@
       "resultat": "label non accorde au 2 eme tour"
     },
     {
+      "societe": "PERF ANALYSIS CONSULTING wedo distribution services",
+      "fondateurs": "Mohamed Ayachi, Mohamed Riahi, Radhouen Boughanmi",
+      "secteur": "and services",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Innoteam Solutions",
+      "fondateurs": "Hijen EL KHALIFI, rayen trabelsi",
+      "secteur": "EdTech",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "B-SMART GO Bid Shine",
+      "fondateurs": "Mohamed Trabelsi, Trabelsi Iyed, Taha Triki, Mejdi Dhokar, Maria Amaidi",
+      "secteur": "TravelTech",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Etudianet/Studianat",
+      "fondateurs": "Montassar Jandoubi, Hadil Ltifi",
+      "secteur": "Tech",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "tenjah",
+      "fondateurs": "Ahmed Ben Aissa, Firas Ellini",
+      "secteur": "EdTech",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Encore Bon",
+      "fondateurs": "Ezzeddine Jrad, Samir AKACHI, Manel Affi",
+      "secteur": "Environment",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "XMap",
+      "fondateurs": "khouloud affi, Chedy HORCHANI",
+      "secteur": "Social Business",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "LuxePass SidiChat",
+      "fondateurs": "mohamed ben mrad, Mhimdi Mouhib, amen allah fraj, Walid Mezghani",
+      "secteur": "and services",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Vybtor Key Marketplace Next Afri Log",
+      "fondateurs": "AMANI GHEZAL, Achraf Kchaou, Mohamed Wael Daly, Dorra Haddad, Hatem Chatti",
+      "secteur": "EdTech",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Tache-Lik",
+      "fondateurs": "Oussama Aissaoui, Yassine Cherif",
+      "secteur": "EdTech",
+      "resultat": "prelabel non accorde au 3 eme tour"
+    },
+    {
+      "societe": "TUNIAI",
+      "fondateurs": "Houssem aouedni",
+      "secteur": "",
+      "resultat": ""
+    },
+    {
+      "societe": "Bloom Venom",
+      "fondateurs": "ghanem toumi, Imen Rabeh",
+      "secteur": "HealthTech",
+      "resultat": "N.A N.A N.A vertu de l’article 4 du Décret gouvernemental n°"
+    },
+    {
       "societe": "PreempTix PREEMPTIX",
       "fondateurs": "Khalil Bendriss",
       "secteur": "Security",
@@ -179,12 +251,6 @@
       "fondateurs": "Nour Saied, Fahmy Abdslem Fersi",
       "secteur": "Business Software and services",
       "resultat": "label accorde"
-    },
-    {
-      "societe": "Société Secteur METHANIA INDUSTRIES (SA) Energie",
-      "fondateurs": "",
-      "secteur": "avril",
-      "resultat": "retrait du label"
     }
   ],
   "session_data": {

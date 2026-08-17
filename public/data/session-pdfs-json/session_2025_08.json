@@ -3,7 +3,7 @@
   "annee": 2025,
   "mois": 8,
   "pdf": "session_2025_08.pdf",
-  "nb_entrees": 31,
+  "nb_entrees": 48,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -127,6 +127,102 @@
       "resultat": "label non accorde au 2 eme tour"
     },
     {
+      "societe": "Kharajni.tn",
+      "fondateurs": "Yasmine Ansari, Taha Dahech, Omar GASSAB",
+      "secteur": "TravelTech",
+      "resultat": "label non accorde au 3 eme tour"
+    },
+    {
+      "societe": "Farbi.tn",
+      "fondateurs": "GHALLEB Mohamed Mustapha",
+      "secteur": "Manufacturing &",
+      "resultat": "label non accorde au 3 eme tour"
+    },
+    {
+      "societe": "Badel",
+      "fondateurs": "sfaxi firas",
+      "secteur": "Social Business",
+      "resultat": "label non accorde au 3 eme tour"
+    },
+    {
+      "societe": "TRUSTMOVE TUNISIA",
+      "fondateurs": "Mehdi Hammami",
+      "secteur": "products and",
+      "resultat": "label non accorde au 3 eme tour"
+    },
+    {
+      "societe": "SANEOB",
+      "fondateurs": "Mouna Boussetta, Roua Boussetta",
+      "secteur": "HealthTech",
+      "resultat": "label non accorde au 3 eme tour"
+    },
+    {
+      "societe": "KSIBA",
+      "fondateurs": "Noureddine Rezgui, Amine Ferjani",
+      "secteur": "products and",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Terrametrics Booklyne",
+      "fondateurs": "Hanedi Elleuch, amine raouafi, yassine labiedh, youssef arrari",
+      "secteur": "Environment",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "CashFloow",
+      "fondateurs": "Aymen Bouzgarrou, Menyar Debbebi",
+      "secteur": "Software and",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "VERDOLIVE",
+      "fondateurs": "marwa essid, ghanem iheb, Nidhal Rahali",
+      "secteur": "Agritech",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "compta-smart",
+      "fondateurs": "saber ghanmi",
+      "secteur": "Fintech",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "ICHFINI",
+      "fondateurs": "afef Akremi, ghada khedira",
+      "secteur": "HealthTech",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Rendez-vous",
+      "fondateurs": "kais boumaiza",
+      "secteur": "products and",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "BioH2O",
+      "fondateurs": "Ameni Kabboudi, TIJANI RKIWA",
+      "secteur": "New Food",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "AZRO EVENTS",
+      "fondateurs": "AFEF BOUAZIZI",
+      "secteur": "TravelTech",
+      "resultat": "N.A N.A N.A N.A gouvernemental n°2018-840 du 11 octobre"
+    },
+    {
+      "societe": "Stocky Downy",
+      "fondateurs": "othmani moufida, SLIM BOUFADEN",
+      "secteur": "Software and",
+      "resultat": "N.A N.A N.A N.A article 4 du Décret gouvernemental n°2018-"
+    },
+    {
+      "societe": "Technozor",
+      "fondateurs": "AMIRA BEN JEMAA, zied boufaden",
+      "secteur": "Software and",
+      "resultat": "N.A N.A N.A N.A article 4 du Décret gouvernemental n°2018-"
+    },
+    {
       "societe": "UVEY UVEY",
       "fondateurs": "Youssef Meddeb, Mottaki Hajouni",
       "secteur": "Fintech",
@@ -175,12 +271,6 @@
       "resultat": "label accorde"
     },
     {
-      "societe": "Société Secteur",
-      "fondateurs": "",
-      "secteur": "du Label",
-      "resultat": "Décision Commentaires"
-    },
-    {
       "societe": "BiG DEAL",
       "fondateurs": "",
       "secteur": "",
@@ -188,6 +278,18 @@
     },
     {
       "societe": "NACHD-IT",
+      "fondateurs": "",
+      "secteur": "",
+      "resultat": ""
+    },
+    {
+      "societe": "WAKAHAW",
+      "fondateurs": "",
+      "secteur": "",
+      "resultat": "La société a dépassé l'âge maximum de 8 ans fixé par"
+    },
+    {
+      "societe": "SOLIXY",
       "fondateurs": "",
       "secteur": "",
       "resultat": ""

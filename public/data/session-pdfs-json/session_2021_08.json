@@ -3,7 +3,7 @@
   "annee": 2021,
   "mois": 8,
   "pdf": "session_2021_08.pdf",
-  "nb_entrees": 31,
+  "nb_entrees": 30,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -185,12 +185,6 @@
       "fondateurs": "Takwira",
       "secteur": "Amen Allah Dahmani",
       "resultat": "Plateforme Social"
-    },
-    {
-      "societe": "STE SAMM TEST & AUTOMATION",
-      "fondateurs": "AMOR MEGADMINI, MAHDI KAMOUN",
-      "secteur": "Robotique",
-      "resultat": "Novembre 2019"
     }
   ],
   "session_data": {

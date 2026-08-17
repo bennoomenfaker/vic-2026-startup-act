@@ -3,7 +3,7 @@
   "annee": 2025,
   "mois": 12,
   "pdf": "session_2025_12.pdf",
-  "nb_entrees": 32,
+  "nb_entrees": 52,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -115,6 +115,126 @@
       "resultat": "label non accorde au 2 eme tour"
     },
     {
+      "societe": "PREDSiGHTX",
+      "fondateurs": "Montacer Benromdhane, Achref ESSEFI",
+      "secteur": "services",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Aidloy",
+      "fondateurs": "Skander EL FEKIH, Hassen Younsi",
+      "secteur": "Wellness",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Lanci Deliveries",
+      "fondateurs": "Achraf Ben Soltane, Ghassen Ben Ghorbal",
+      "secteur": "services",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "eduhelper",
+      "fondateurs": "Moataz Hammami, aymen sellaouti",
+      "secteur": "EdTech",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "myPharmacy",
+      "fondateurs": "Kais Ben youssef, Issam Moalla, Salah Sammari, Rouine Firas",
+      "secteur": "HealthTech",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "BRIDGSIGN",
+      "fondateurs": "Mhamed Moncer, Montassar Moussa, Jassem Khemiri",
+      "secteur": "Communication services",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Jizzar",
+      "fondateurs": "Sadok Khemiri",
+      "secteur": "Communication services",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Thanna Téléassistance safka online Grenova– Gamme",
+      "fondateurs": "Tijani Aziz Feki, souda faycal",
+      "secteur": "HealthTech",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Écoresponsable de Produits",
+      "fondateurs": "Mahbouli Rhouma Najla",
+      "secteur": "Environment",
+      "resultat": ""
+    },
+    {
+      "societe": "Primaires à Base de Grenade MAKASSUR",
+      "fondateurs": "MARIEM KAMOUN, Ali Ahmed khaled",
+      "secteur": "Fintech",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Dingo Laformatik.ai",
+      "fondateurs": "Rami LAJMI, Dorra Fattoum, amine touihri, oueslati Aya, Daas Samar, adem seddik, Seifeddine Bzainia",
+      "secteur": "Mobility",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Kopno Game",
+      "fondateurs": "Souaf Houssemdine, Abdelaziz BEN MAHMOUD",
+      "secteur": "services",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "SaveMe",
+      "fondateurs": "Aya Ben hriz, Chaima Rebai, Mohamed Hachemi BEN HAJ",
+      "secteur": "Environment",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Koolny",
+      "fondateurs": "ALI, Salma BEN HADJ ALI, Marouene Belkhiria",
+      "secteur": "FoodTech & New Food",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "makadija Couche IA génératrice de workflow, Interfaces homme machine et reporting IA",
+      "fondateurs": "Samia Khadija Belkhiria, Hayet Zguem, Yahia Ben Cheikh",
+      "secteur": "FoodTech & New Food",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Annuaire Service",
+      "fondateurs": "Nebil Othman, ghanem toumi, tarek bani, Mohamed Baha Eddine",
+      "secteur": "services",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Deepinfluence",
+      "fondateurs": "Baghdadi, Montassar TOUATI, Nabil Boukhdhir, Marwa Moussi, iheb haouech",
+      "secteur": "EdTech",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Night Panel",
+      "fondateurs": "Marwen Zitouni, Ahmed LIMAM",
+      "secteur": "Manufacturing &",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "InsurLink",
+      "fondateurs": "",
+      "secteur": "Fintech",
+      "resultat": ""
+    },
+    {
+      "societe": "FTOUH pharmaceuticals",
+      "fondateurs": "mahdi ftouh",
+      "secteur": "FoodTech & New Food",
+      "resultat": "gouvernemental n°2018-840 du 11 octobre"
+    },
+    {
       "societe": "Tak Tak Tak Tak Technologies",
       "fondateurs": "Mohamed Aziz Ben Said, Sonia Najjar",
       "secteur": "Mobility",
@@ -169,33 +289,33 @@
       "resultat": "label accorde"
     },
     {
-      "societe": "Société Secteur Sté Kaoun Fintech",
+      "societe": "Sté Kaoun Fintech",
       "fondateurs": "",
-      "secteur": "avril",
-      "resultat": "Décision Commentaires"
+      "secteur": "",
+      "resultat": ""
     },
     {
       "societe": "Sté Smart Soft Pro Agritech",
       "fondateurs": "",
-      "secteur": "août",
+      "secteur": "",
       "resultat": ""
     },
     {
       "societe": "Sté OXAHOST SARL E-commerce",
       "fondateurs": "",
-      "secteur": "février",
+      "secteur": "",
       "resultat": ""
     },
     {
       "societe": "Bio intrants Technologie Biotechnologie",
       "fondateurs": "",
-      "secteur": "juin",
+      "secteur": "",
       "resultat": ""
     },
     {
       "societe": "KINGDOM Marketing",
       "fondateurs": "",
-      "secteur": "juillet",
+      "secteur": "",
       "resultat": ""
     }
   ],

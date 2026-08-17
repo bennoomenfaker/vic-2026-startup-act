@@ -3,7 +3,7 @@
   "annee": 2026,
   "mois": 1,
   "pdf": "session_2026_01.pdf",
-  "nb_entrees": 28,
+  "nb_entrees": 27,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -139,39 +139,33 @@
       "resultat": "label accorde"
     },
     {
-      "societe": "Ligalo Ligalo Technologies",
-      "fondateurs": "Salem Moussa Adouni",
-      "secteur": "Business Software and services",
-      "resultat": "Septembre 2025"
-    },
-    {
-      "societe": "Société Secteur Bus Software IoT",
+      "societe": "Bus Software IoT",
       "fondateurs": "",
-      "secteur": "avril",
-      "resultat": "Décision Commentaires"
+      "secteur": "",
+      "resultat": ""
     },
     {
       "societe": "Echo SARL IT",
       "fondateurs": "",
-      "secteur": "mai",
+      "secteur": "",
       "resultat": ""
     },
     {
       "societe": "Arion Technologies Logiciel",
       "fondateurs": "",
-      "secteur": "avril",
+      "secteur": "",
       "resultat": ""
     },
     {
       "societe": "Smart Insurance Insurance Tech",
       "fondateurs": "",
-      "secteur": "juillet",
+      "secteur": "",
       "resultat": ""
     },
     {
       "societe": "Swiver Invest Fintech",
       "fondateurs": "",
-      "secteur": "mai",
+      "secteur": "",
       "resultat": ""
     }
   ],

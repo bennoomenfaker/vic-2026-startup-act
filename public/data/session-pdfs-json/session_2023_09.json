@@ -3,7 +3,7 @@
   "annee": 2023,
   "mois": 9,
   "pdf": "session_2023_09.pdf",
-  "nb_entrees": 27,
+  "nb_entrees": 26,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -117,55 +117,49 @@
     {
       "societe": "Ambition Study",
       "fondateurs": "Success Study, Kais Dridi, Abdelghani Adnane",
-      "secteur": "Products and Juillet",
+      "secteur": "Products and",
       "resultat": "label accorde"
     },
     {
       "societe": "MiGsens",
       "fondateurs": "MiGsens, Khalifa Aguir, Jridi Jihed, Salem Hamidi",
-      "secteur": "Environment Mars",
+      "secteur": "Environment",
       "resultat": "label accorde"
     },
     {
       "societe": "Cell Pulse Harmony",
       "fondateurs": "cell pulse Halima Mahjoubi, Elhem Cheour, Neder Hamidi, Wael Lakhrach",
-      "secteur": "HealthTech Avril",
+      "secteur": "HealthTech",
       "resultat": "label accorde"
     },
     {
       "societe": "SPINSHARE",
       "fondateurs": "GymSwitch Siwar Houssaî, Hiba Mned, Hamza Zarrouk",
-      "secteur": "Wellness Juin",
+      "secteur": "Wellness",
       "resultat": "label accorde"
     },
     {
       "societe": "Sellya Technologies",
       "fondateurs": "Sellya.net Rihem Ghzaiel, Ala Guezzi, Conception, formulation et",
-      "secteur": "Août",
+      "secteur": "Shopping",
       "resultat": "label accorde"
     },
     {
       "societe": "Venus Zora Pharm HygieSys Solutions for better tomorrow",
       "fondateurs": "production de dispositifs  Zohra Aloui-Zarrouk, pharmaceutiques, Jihen Kboubi, HygieSys Aschraf Chadli, Chiheb Kboubi, Adem Kboubi Mohamed Melki",
-      "secteur": "HealthTech Avril",
+      "secteur": "HealthTech",
       "resultat": "label accorde"
     },
     {
       "societe": "Tunealgo",
       "fondateurs": "HelpyGo Yacine Maaroufi, Amani Khalfaoui",
-      "secteur": "Products and Mai",
+      "secteur": "Products and",
       "resultat": "label accorde"
-    },
-    {
-      "societe": "Société",
-      "fondateurs": "Secteur",
-      "secteur": "Décision",
-      "resultat": "Commentaires"
     },
     {
       "societe": "Qartaj",
       "fondateurs": "Consumer Products & Services",
-      "secteur": "Octobre Retrait du Label",
+      "secteur": "Retrait du Label",
       "resultat": "2018 pour les sociétés bénéficiaires du Label"
     }
   ],

@@ -3,7 +3,7 @@
   "annee": 2024,
   "mois": 3,
   "pdf": "session_2024_03.pdf",
-  "nb_entrees": 31,
+  "nb_entrees": 30,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -147,49 +147,43 @@
     {
       "societe": "Nour Expert Telecom",
       "fondateurs": "Line Analyzer Ali Ibn ammar, Houssem eddine Rammeh",
-      "secteur": "Ad Tech & Creative Tech Septembre",
+      "secteur": "Ad Tech & Creative Tech",
       "resultat": "label accorde"
     },
     {
       "societe": "AltaDigit",
       "fondateurs": "Xscan Oussama Ben Wahiba, Abderrahim Gdah, Khemiri Mohamed Amine",
-      "secteur": "Octobre",
+      "secteur": "services",
       "resultat": "label accorde"
     },
     {
       "societe": "CHERRY SOFT",
       "fondateurs": "Cherry ERP, Maroua Ellouze, Mathias Wrzoncki",
-      "secteur": "Février",
+      "secteur": "services",
       "resultat": "label accorde"
     },
     {
       "societe": "DQAL",
       "fondateurs": "Digi-QAL Belgacem Toumi, Sondess Lazrak",
-      "secteur": "Septembre",
+      "secteur": "services",
       "resultat": "label accorde"
-    },
-    {
-      "societe": "Société",
-      "fondateurs": "Secteur",
-      "secteur": "Décision",
-      "resultat": "Commentaires"
     },
     {
       "societe": "ASEPTIKA LAB",
       "fondateurs": "Wellness",
-      "secteur": "Juillet Retrait du Label",
+      "secteur": "Retrait du Label",
       "resultat": "2018 pour les sociétés bénéficiaires du Label"
     },
     {
       "societe": "Actifs Précieux Apex SA",
       "fondateurs": "Wellness",
-      "secteur": "Mai Retrait du Label",
+      "secteur": "Retrait du Label",
       "resultat": "2018 pour les sociétés bénéficiaires du Label"
     },
     {
       "societe": "ALIDADE",
       "fondateurs": "Business Software and services",
-      "secteur": "Janvier Retrait du Label",
+      "secteur": "Retrait du Label",
       "resultat": "2018 pour les sociétés bénéficiaires du Label"
     }
   ],

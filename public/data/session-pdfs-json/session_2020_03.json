@@ -3,7 +3,7 @@
   "annee": 2020,
   "mois": 3,
   "pdf": "session_2020_03.pdf",
-  "nb_entrees": 26,
+  "nb_entrees": 37,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -161,6 +161,72 @@
       "fondateurs": "Youssef Omrani",
       "secteur": "Développement personnel",
       "resultat": "label"
+    },
+    {
+      "societe": "CITIUS",
+      "fondateurs": "Emna Hamdi",
+      "secteur": "Logistique",
+      "resultat": "label"
+    },
+    {
+      "societe": "All o khadmet",
+      "fondateurs": "Amine Hammi",
+      "secteur": "Plateforme Sociale",
+      "resultat": "label"
+    },
+    {
+      "societe": "Analyse numérique des donnes ( AMCI)",
+      "fondateurs": "Abdelhamid Ben Rabah, Seifeddine Trabelsi",
+      "secteur": "Logiciel",
+      "resultat": "label"
+    },
+    {
+      "societe": "The BoxOffice",
+      "fondateurs": "Meriem Lejmi, Selim Thmouni, Selim Mraidi",
+      "secteur": "Autre contenu créatif",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "Khadamni",
+      "fondateurs": "Atef Sedraoui, Molka Kouraychi, Manel Salhi",
+      "secteur": "Ecommerce",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "Soldy",
+      "fondateurs": "Mokhles Souissi, Manel Alayet, Ahmed Melki",
+      "secteur": "Ecommerce",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "COSTUN",
+      "fondateurs": "Houssem Ben Ghozzi, Hamdi Marrouchi",
+      "secteur": "Ecommerce",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "Start Smart Studio",
+      "fondateurs": "Yassine Ben Mansour, Hadhemi Ragoubi",
+      "secteur": "Autre Contenu Créatif",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "Compass IT Candidature reportée à la prochaine session",
+      "fondateurs": "Foudhaili Ragoubi",
+      "secteur": "Autre Contenu Créatif",
+      "resultat": "prelabel"
+    },
+    {
+      "societe": "Campus Numérique des métiers",
+      "fondateurs": "Fethi Zoghlami",
+      "secteur": "Edtech",
+      "resultat": "label"
+    },
+    {
+      "societe": "Société",
+      "fondateurs": "Fondateurs",
+      "secteur": "Secteur",
+      "resultat": "Session d'obtention"
     }
   ],
   "session_data": {

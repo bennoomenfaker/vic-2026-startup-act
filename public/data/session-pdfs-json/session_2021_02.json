@@ -3,7 +3,7 @@
   "annee": 2021,
   "mois": 2,
   "pdf": "session_2021_02.pdf",
-  "nb_entrees": 24,
+  "nb_entrees": 27,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -129,25 +129,43 @@
     {
       "societe": "IB Space",
       "fondateurs": "international business space, Foued Cherif, Ali Ajili",
-      "secteur": "Autre contenu créatif Octobre",
+      "secteur": "Autre contenu créatif",
       "resultat": "label accorde"
     },
     {
       "societe": "iCan-C",
       "fondateurs": "iCan-C, Yosr Jazzar, Houssem Baaka",
-      "secteur": "IoT Septembre",
+      "secteur": "IoT",
       "resultat": "label accorde"
     },
     {
       "societe": "بﺎﺗﻛ ﺔﻠﺣر  _Book Journey",
       "fondateurs": "بﺎﺗﻛ ﺔﻠﺣر  Journey Aya Achour, Bilal Nsib, Mohamed Debbabi",
-      "secteur": "EdTech Octobre",
+      "secteur": "EdTech",
       "resultat": "label accorde"
     },
     {
       "societe": "Dev2Dev",
       "fondateurs": "Xchange, Ismail Talbi",
-      "secteur": "Fintech Novembre",
+      "secteur": "Fintech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Autorent Software",
+      "fondateurs": "Autorent Moslem Ben Dhaou",
+      "secteur": "Logiciel",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Healthy And Bnin Food",
+      "fondateurs": "Healthy & Bnin Soumaya Atoui",
+      "secteur": "E-commerce",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Bridges S.A",
+      "fondateurs": "Bridges S.A Mahmoud Aljan",
+      "secteur": "Insurance Tech",
       "resultat": "label accorde"
     }
   ],

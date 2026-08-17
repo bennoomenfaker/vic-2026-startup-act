@@ -3,7 +3,7 @@
   "annee": 2023,
   "mois": 11,
   "pdf": "session_2023_11.pdf",
-  "nb_entrees": 38,
+  "nb_entrees": 37,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -159,13 +159,13 @@
     {
       "societe": "GAMAPPS",
       "fondateurs": "FIDELIUM Ghaith Ben Mansour",
-      "secteur": "Environment Août",
+      "secteur": "Environment",
       "resultat": "label accorde"
     },
     {
       "societe": "ORcompost solutions",
       "fondateurs": "Ahmed Boufahja, ORcompost",
-      "secteur": "Agritech Juillet",
+      "secteur": "Agritech",
       "resultat": "label accorde"
     },
     {
@@ -177,61 +177,55 @@
     {
       "societe": "United VITO",
       "fondateurs": "United VITO Nizar Affi, Khouloud Abada",
-      "secteur": "Software and Juillet",
+      "secteur": "Software and",
       "resultat": "label accorde"
     },
     {
       "societe": "Skinphilosophy",
       "fondateurs": "SKINPHILOSOPHY, Saida Akermi, Aymen Yahyaoui",
-      "secteur": "Wellness Juin",
+      "secteur": "Wellness",
       "resultat": "label accorde"
     },
     {
       "societe": "MultiVerse Ai Société internationale d'élevages des espèces nutri protein",
       "fondateurs": "MultiVerse Ai, Amine Mosbah, Elevage des insectes, Helmi Abed, (nutri-protéine)",
-      "secteur": "Software and Mai",
+      "secteur": "Software and",
       "resultat": "label accorde"
     },
     {
       "societe": "FORCE DE VENTE DIGITAL",
       "fondateurs": "E-KMANDI Baha Hajri, Safouene Ratel",
-      "secteur": "Software and Mai",
+      "secteur": "Software and",
       "resultat": "label accorde"
     },
     {
       "societe": "ONEGLOBB",
       "fondateurs": "OneGlobb Younes Saidani, Marouene Ratel",
-      "secteur": "Software and Mai",
+      "secteur": "Software and",
       "resultat": "label accorde"
-    },
-    {
-      "societe": "Société",
-      "fondateurs": "Secteur",
-      "secteur": "Décision",
-      "resultat": "Commentaires"
     },
     {
       "societe": "EZZAYRA SOLUTIONS Agritech TAKI ACADEMY Edtech MedilSys",
       "fondateurs": "Healthtech",
-      "secteur": "Mars Retrait du Label",
+      "secteur": "Retrait du Label",
       "resultat": "La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-2018 pour les sociétés bénéficiaires du Label"
     },
     {
       "societe": "Tunisie Compagnie",
       "fondateurs": "Commerce & shopping",
-      "secteur": "Mars",
+      "secteur": "",
       "resultat": "La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-2018 pour les sociétés bénéficiaires du Label"
     },
     {
       "societe": "Société arabe de commerce électronique",
       "fondateurs": "Commerce & shopping",
-      "secteur": "Octobre Retrait du Label",
+      "secteur": "Retrait du Label",
       "resultat": "La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-2018 pour les sociétés bénéficiaires du Label"
     },
     {
       "societe": "Quantylix R&D Fintech",
       "fondateurs": "",
-      "secteur": "Février Retrait du Label",
+      "secteur": "Retrait du Label",
       "resultat": "La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-2018 pour les sociétés bénéficiaires du Label"
     }
   ],

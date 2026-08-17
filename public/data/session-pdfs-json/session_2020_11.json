@@ -3,7 +3,7 @@
   "annee": 2020,
   "mois": 11,
   "pdf": "session_2020_11.pdf",
-  "nb_entrees": 41,
+  "nb_entrees": 40,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -171,55 +171,55 @@
     {
       "societe": "Société Evolutik",
       "fondateurs": "Evolutik, Mourad Mathari, Mohamed Aziz Hannachi",
-      "secteur": "Autre contenu créatif Mai",
+      "secteur": "Autre contenu créatif",
       "resultat": "label accorde"
     },
     {
       "societe": "HOMEJEK",
       "fondateurs": "HOMEJEK, Anis Mzoughi",
-      "secteur": "E-commerce Août",
+      "secteur": "E-commerce",
       "resultat": "label accorde"
     },
     {
       "societe": "STE SMELSY",
       "fondateurs": "Smelsy.com Med slim Bouaziz",
-      "secteur": "EdTech Septembre",
+      "secteur": "EdTech",
       "resultat": "label accorde"
     },
     {
       "societe": "STE Fouita",
       "fondateurs": "Fouita Abdelhay Najjar, Jamoussi Ahmed, Jihed Bouguerra",
-      "secteur": "Logiciel Mai",
+      "secteur": "Logiciel",
       "resultat": "label accorde"
     },
     {
       "societe": "Eventizer Platforms",
       "fondateurs": "Eventizer, Yassine Abbes, Oussema Samet, conception et vente d'un, Sabri Mhimdi",
-      "secteur": "Logiciel Juin",
+      "secteur": "Logiciel",
       "resultat": "label accorde"
     },
     {
       "societe": "4InA Technologie",
       "fondateurs": "système de télégestion, Zribi Hinda, d'énergie électrique, Youssef Said",
-      "secteur": "Energie Mai",
+      "secteur": "Energie",
       "resultat": "label accorde"
     },
     {
       "societe": "Travaris",
       "fondateurs": "Travaris Berkay Alkisel, Ahmad Abd Arrahman, Nesrine Chemkhi",
-      "secteur": "AI Mars",
+      "secteur": "AI",
       "resultat": "label accorde"
     },
     {
       "societe": "El Food Lab Traiteur Cuisine Revisitée",
       "fondateurs": "El Food Lab, Mohamed Guinoubi",
-      "secteur": "Autre contenu créatif Mai",
+      "secteur": "Autre contenu créatif",
       "resultat": "label accorde"
     },
     {
       "societe": "STE TUNISIENNE CO-SOLAR DES INNOVATIONS",
       "fondateurs": "Mahmoud Hammami, Co-Solar",
-      "secteur": "Energie Février",
+      "secteur": "Energie",
       "resultat": "label accorde"
     },
     {
@@ -231,26 +231,20 @@
     {
       "societe": "Services Voitures Epaves",
       "fondateurs": "Services voitures épaves Slim M'seddi, Jalel SATOURI, Mohamed Torkhani, Talel Mouaada",
-      "secteur": "E-commerce Septembre",
+      "secteur": "E-commerce",
       "resultat": "label accorde"
     },
     {
       "societe": "Fantastic Mall",
       "fondateurs": "Fantastic Mall Mohamed El kamel, Saber Ben Ahmed, Sahbi Ben Fredj, Mohamed Mabrouk, Nemine Marzouki",
-      "secteur": "E-commerce Octobre",
+      "secteur": "E-commerce",
       "resultat": "label accorde"
     },
     {
       "societe": "STE D-WEE",
       "fondateurs": "D-WEE Taha Grach, Bassem Mlayah",
-      "secteur": "Health Tech Août",
+      "secteur": "Health Tech",
       "resultat": "label accorde"
-    },
-    {
-      "societe": "ROAMSMART",
-      "fondateurs": "Mehdi Triki",
-      "secteur": "Telecom Mars",
-      "resultat": ""
     }
   ],
   "session_data": {

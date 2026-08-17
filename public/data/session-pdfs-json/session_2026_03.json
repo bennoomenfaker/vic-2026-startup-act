@@ -3,7 +3,7 @@
   "annee": 2026,
   "mois": 3,
   "pdf": "session_2026_03.pdf",
-  "nb_entrees": 27,
+  "nb_entrees": 33,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -165,6 +165,42 @@
     {
       "societe": "Trip Hive",
       "fondateurs": "Hamden Nasri",
+      "secteur": "",
+      "resultat": ""
+    },
+    {
+      "societe": "Digital Cultural eXperience EdTech",
+      "fondateurs": "",
+      "secteur": "",
+      "resultat": ""
+    },
+    {
+      "societe": "Neopolis Development Insurance Tech",
+      "fondateurs": "",
+      "secteur": "",
+      "resultat": ""
+    },
+    {
+      "societe": "NATDYES Wearables",
+      "fondateurs": "",
+      "secteur": "",
+      "resultat": ""
+    },
+    {
+      "societe": "IDARA TN Plateforme Sociale",
+      "fondateurs": "",
+      "secteur": "",
+      "resultat": ""
+    },
+    {
+      "societe": "Aston technologies Fintech",
+      "fondateurs": "",
+      "secteur": "",
+      "resultat": ""
+    },
+    {
+      "societe": "Teens Media Creative industry",
+      "fondateurs": "",
       "secteur": "",
       "resultat": ""
     }

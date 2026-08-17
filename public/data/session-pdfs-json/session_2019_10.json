@@ -62,7 +62,7 @@
     },
     {
       "societe": "Couscous Connection",
-      "fondateurs": "Rachid Kharroubi Essaied, Donia Fayach",
+      "fondateurs": "Rachid Kharroubi Essaied",
       "secteur": "E-commerce",
       "resultat": "label accorde"
     },
@@ -74,13 +74,13 @@
     },
     {
       "societe": "Swanina",
-      "fondateurs": "Sana Hafsa, Mohamed Taghouti",
+      "fondateurs": "Sana Hafsa",
       "secteur": "Agritech",
       "resultat": "label accorde"
     },
     {
       "societe": "SMART LOGGER",
-      "fondateurs": "Mehdi Taghouti, Souheil Guessoum",
+      "fondateurs": "Mehdi Taghouti",
       "secteur": "iOT",
       "resultat": "label accorde"
     },
@@ -98,7 +98,7 @@
     },
     {
       "societe": "CURE",
-      "fondateurs": "Mohamed Dhaouafi, Lotfi Darragi",
+      "fondateurs": "Mohamed Dhaouafi",
       "secteur": "Health Tech",
       "resultat": "label accorde"
     },
@@ -116,19 +116,19 @@
     },
     {
       "societe": "Coursesgolf",
-      "fondateurs": "Assil Talmoudi, Ayoub Ben Thabet",
+      "fondateurs": "Assil Talmoudi",
       "secteur": "E-commerce",
       "resultat": "prelabel accorde"
     },
     {
       "societe": "Rhintos Games",
-      "fondateurs": "Ahmed Chlagou, Hishem Zarrad, Hamza SAIDI",
+      "fondateurs": "Ahmed Chlagou",
       "secteur": "Gaming",
       "resultat": "prelabel accorde"
     },
     {
       "societe": "WareCom",
-      "fondateurs": "Nour Abbous, Ali Saidi, Rim ELFAHEM",
+      "fondateurs": "Nour Abbous",
       "secteur": "iOT",
       "resultat": "prelabel accorde"
     },
@@ -140,7 +140,7 @@
     },
     {
       "societe": "IDWEY",
-      "fondateurs": "Meriem Amamou, Borhen Mansouri, Amine Gara Khmaiess Ahmed",
+      "fondateurs": "Meriem Amamou",
       "secteur": "Plateforme sociale",
       "resultat": "prelabel accorde"
     },
@@ -164,7 +164,7 @@
     },
     {
       "societe": "Plateforme de Tele-Medecine et mSante ( KoalX )",
-      "fondateurs": "Achref Mabrouk, Wissem hakiri",
+      "fondateurs": "Achref Mabrouk",
       "secteur": "Health Tech",
       "resultat": "label non accorde"
     },
@@ -195,31 +195,31 @@
     {
       "societe": "Sala7li",
       "fondateurs": "Ines Dhaouadi",
-      "secteur": "EdTech Juillet",
+      "secteur": "EdTech",
       "resultat": "label accorde"
     },
     {
       "societe": "TuniBoat",
       "fondateurs": "Ahmed Ayadi, Ayoub Ben Younes",
-      "secteur": "E-commerce Juillet",
+      "secteur": "E-commerce",
       "resultat": "label accorde"
     },
     {
       "societe": "BeBouncy",
       "fondateurs": "Sophie Alexandra Aiachi, Assad Ben Mrad, Youssef Meksi",
-      "secteur": "Marketing Mai",
+      "secteur": "Marketing",
       "resultat": "label accorde"
     },
     {
       "societe": "CreatiView",
       "fondateurs": "Nour Alaya, Nour Tekaya",
-      "secteur": "Plateforme sociale Juin",
+      "secteur": "Plateforme sociale",
       "resultat": "label accorde"
     },
     {
       "societe": "Bon'Heure",
       "fondateurs": "Skander Gafsi",
-      "secteur": "HR Mai",
+      "secteur": "HR",
       "resultat": "label accorde"
     }
   ],

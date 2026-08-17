@@ -3,7 +3,7 @@
   "annee": 2024,
   "mois": 11,
   "pdf": "session_2024_11.pdf",
-  "nb_entrees": 23,
+  "nb_entrees": 42,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -121,6 +121,120 @@
       "resultat": "prelabel accorde au 3 eme tour"
     },
     {
+      "societe": "YESS MIND SOLUTIONS",
+      "fondateurs": "Alaeddine Mansouri, Emna Ouerchfani, Ramzi Salem, Issam Guezmir, Ajmi ouerchfani",
+      "secteur": "HealthTech",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "DOCNET",
+      "fondateurs": "Abbassi Mohamed, Mohamed Bechir Kefi, Montassar Zorgani, Fadwa Jenzri, Safi Chaabene, Mohamed Mourad Bejaoui",
+      "secteur": "HealthTech",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "NEUTRINO",
+      "fondateurs": "Boubaker Jemni, Kamel Moussa, Youssef Almia",
+      "secteur": "Fintech",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "edulysa",
+      "fondateurs": "Slim Almia, Mohamed Fakher Mhiri, Zied Zouaoui",
+      "secteur": "EdTech",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "OPTIMIZI TECH",
+      "fondateurs": "Med Yassine Baccouche, Seif Ben Mansour",
+      "secteur": "FoodTech & New Food",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Magic Real Solution",
+      "fondateurs": "Floriano Arcaro, Ayoub Abraich",
+      "secteur": "EdTech",
+      "resultat": "label non accorde au 3 eme tour"
+    },
+    {
+      "societe": "DEEPROF",
+      "fondateurs": "Omar Kouki, Khaled Ben ammar",
+      "secteur": "EdTech",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Vortex Battle",
+      "fondateurs": "Mohamed Khalil Kouki, Mohamed Benyaiche",
+      "secteur": "Ad Tech and Creative Tech",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Designland",
+      "fondateurs": "Mohamed Chams Eddine Frikha, Amara Rayen Mongi Souissi",
+      "secteur": "Ad Tech and Creative Tech",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "NovaPyramidReef-NPR",
+      "fondateurs": "Hamza Trabelsi Mohamed Fdhila, Islem Ghazaoui Boulaares Houssem",
+      "secteur": "Environment",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "sigoro",
+      "fondateurs": "Baha Eddine Khelifi, Azer Guesmi, Amal Trabelsi",
+      "secteur": "TravelTech",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "AgricoTech",
+      "fondateurs": "Mohamed Iheb Bouraoui, Abdelkader Borcheni, Yesmine Ben Ameur",
+      "secteur": "Agritech",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "HEIA",
+      "fondateurs": "Sirine Ben Ameur, Karim Ben Sghaier",
+      "secteur": "Consumer products and services",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "BxB Studio",
+      "fondateurs": "Yassine Boumaiza, Felhi Bahaeddine",
+      "secteur": "Ad Tech and Creative Tech",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Nuzhet",
+      "fondateurs": "Abidii Hassen, Radhwen Moslah",
+      "secteur": "EdTech",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "NEXD.PM",
+      "fondateurs": "Mehdi Bhiri, Alaa Ben Said",
+      "secteur": "Business Software and services",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Tak Tak",
+      "fondateurs": "Mohamed Aziz Ben Said, Sonia Najjar, Walid Msekni, Ghassen Bettaieb",
+      "secteur": "Mobility",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Doxaria",
+      "fondateurs": "Kaies Lamiri, Mohamed Dhouib, Wassim Znaidi, Nizar Ben Younes, Bilel Najeh",
+      "secteur": "Business Software and services",
+      "resultat": "prelabel non accorde au 3 eme tour"
+    },
+    {
+      "societe": "Smart work",
+      "fondateurs": "Rania Haddad",
+      "secteur": "Business Software and services",
+      "resultat": "prelabel non accorde au 3 eme tour"
+    },
+    {
       "societe": "In2-technologies IN2 TECHNOLOGIES",
       "fondateurs": "Ilyes Tlili, Amira Bacha",
       "secteur": "Business Software and services",
@@ -133,10 +247,10 @@
       "resultat": "label accorde"
     },
     {
-      "societe": "Société Secteur Comptoir Général de la Mode Commerce & Shopping",
+      "societe": "Comptoir Général de la Mode Commerce & Shopping",
       "fondateurs": "",
-      "secteur": "Janvier",
-      "resultat": "Décision Commentaires"
+      "secteur": "",
+      "resultat": ""
     },
     {
       "societe": "Incept Solutions",

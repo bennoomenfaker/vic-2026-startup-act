@@ -3,7 +3,7 @@
   "annee": 2019,
   "mois": 5,
   "pdf": "session_2019_05.pdf",
-  "nb_entrees": 22,
+  "nb_entrees": 28,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -137,6 +137,42 @@
       "fondateurs": "Sophie Alexandra Aiachi, Mehdi Mabrouk",
       "secteur": "Marketing",
       "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Domotec",
+      "fondateurs": "Yahia Moalla",
+      "secteur": "IOT",
+      "resultat": "- N.A N.A Label Non-Accordé"
+    },
+    {
+      "societe": "Vim It",
+      "fondateurs": "Imen Issaoui",
+      "secteur": "Logiciel",
+      "resultat": "- N.A N.A Label Non-Accordé"
+    },
+    {
+      "societe": "Indigo Business Solutions",
+      "fondateurs": "Mohamed Aloulou",
+      "secteur": "Logiciel",
+      "resultat": "- 2 4 Label Non-Accordé"
+    },
+    {
+      "societe": "Professional System",
+      "fondateurs": "Hichem Ben Hammouda",
+      "secteur": "Logiciel",
+      "resultat": "- N.A N.A Label Non-Accordé"
+    },
+    {
+      "societe": "Beego",
+      "fondateurs": "Mohamed Amine Sammari",
+      "secteur": "Mobile",
+      "resultat": "N.A N.A N.A Label Non-Accordé"
+    },
+    {
+      "societe": "B'rain",
+      "fondateurs": "Rami Boudaya",
+      "secteur": "Health Tech",
+      "resultat": "N.A N.A N.A Label Non-Accordé"
     }
   ],
   "session_data": {

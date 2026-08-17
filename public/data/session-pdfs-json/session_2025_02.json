@@ -3,7 +3,7 @@
   "annee": 2025,
   "mois": 2,
   "pdf": "session_2025_02.pdf",
-  "nb_entrees": 24,
+  "nb_entrees": 43,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -121,6 +121,126 @@
       "resultat": "label non accorde au 2 eme tour"
     },
     {
+      "societe": "Educap",
+      "fondateurs": "Lobna Lahmar, Abd El Aziz Trabelsi",
+      "secteur": "EdTech",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "INNOSYS",
+      "fondateurs": "Rached Troudi, Mohamed Wassim Mnaouar",
+      "secteur": "Business Software and services",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Farness Optimisation des procédés de transformation de matières plastiques via simulation nomérique_ Industrie 4.0",
+      "fondateurs": "Atef Ahmadi, Mourad Boussaid, Hend Jaoua, Walid Bahloul, Mohamed Ben Yedder, Moez Missaoui",
+      "secteur": "Business Software and services",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "TroClub",
+      "fondateurs": "Sofiene Mouldi, Sana El Mouldi, Nada Souli, Riadh Sghaier",
+      "secteur": "Social Business",
+      "resultat": "label non accorde au 3 eme tour"
+    },
+    {
+      "societe": "Tartaruga Catamaran",
+      "fondateurs": "Tarek Messaoudi Jean Robert Sommereux, Wassima Ben Adjemia, Alibrandi Antonio",
+      "secteur": "TravelTech",
+      "resultat": "label non accorde au 3 eme tour"
+    },
+    {
+      "societe": "Way Interactive Convergence Tunisia",
+      "fondateurs": "Soumaya Htira",
+      "secteur": "HealthTech",
+      "resultat": "label non accorde au 3 eme tour"
+    },
+    {
+      "societe": "Amilcar Technologies",
+      "fondateurs": "Mohamed Alla Eddine Behi, Ghouila Ghassen",
+      "secteur": "Ad Tech and Creative Tech",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Loomexa",
+      "fondateurs": "Safoine Touil, Mayara Ezdini",
+      "secteur": "Commerce and shopping",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Ctasim",
+      "fondateurs": "Anis Mahmoud, Idrak Ezdini",
+      "secteur": "HealthTech",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "SANITIO",
+      "fondateurs": "Amira Jaafar, Oussama Ben Salha",
+      "secteur": "HealthTech",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "MedSkool",
+      "fondateurs": "Mohamed Taib Ben Salha, Kais Ben Salem",
+      "secteur": "EdTech",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Renty",
+      "fondateurs": "Aymen Missaoui, Omar Boukottaya",
+      "secteur": "Real Estate Tech",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Tyme",
+      "fondateurs": "Houda Ourimi",
+      "secteur": "FoodTech & New Food",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "TECHPIONEER Embedded Solutions",
+      "fondateurs": "Imen Zayene",
+      "secteur": "Business Software and services",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "EcoMov: TryBike",
+      "fondateurs": "Ahmed Khadhraoui, Akrem Zribi",
+      "secteur": "Mobility",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "BATIPRICE",
+      "fondateurs": "Khaled Mokni, Youssef Cherif",
+      "secteur": "Business Software and services",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Statiscom",
+      "fondateurs": "Siala Majdi, Aymen Labidi",
+      "secteur": "Business Software and services",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Edyard",
+      "fondateurs": "Raja Khalfa, Zouhour Nawali, Mohamed Ali Kaddour",
+      "secteur": "EdTech",
+      "resultat": "prelabel non accorde au 3 eme tour"
+    },
+    {
+      "societe": "Synapse",
+      "fondateurs": "Youssef Meddeb, Béchir Becha, Aziz Meddeb",
+      "secteur": "HealthTech",
+      "resultat": "prelabel non accorde au 3 eme tour"
+    },
+    {
+      "societe": "IntakeAi",
+      "fondateurs": "Adem Nouira, Mohamed Aziz Mehdoui",
+      "secteur": "HealthTech",
+      "resultat": "prelabel non accorde au 3 eme tour"
+    },
+    {
       "societe": "Cw Cloud CW Cloud",
       "fondateurs": "Idriss Neumann, Habib Bane, Souheil Bouzouita",
       "secteur": "Business Software and services",
@@ -143,12 +263,6 @@
       "fondateurs": "Louay Atoui, Bilel Ben Salem",
       "secteur": "Business Software and services",
       "resultat": "label accorde"
-    },
-    {
-      "societe": "Société Secteur WAMIA SARL Commerce & Shopping Bg food et distribution Commerce & Shopping Green Business SARL FoodTech Expert Team Tunisie EdTech",
-      "fondateurs": "",
-      "secteur": "Février",
-      "resultat": "retrait du label"
     }
   ],
   "session_data": {

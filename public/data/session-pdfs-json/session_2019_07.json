@@ -3,7 +3,7 @@
   "annee": 2019,
   "mois": 7,
   "pdf": "session_2019_07.pdf",
-  "nb_entrees": 27,
+  "nb_entrees": 28,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -140,7 +140,7 @@
     },
     {
       "societe": "AES",
-      "fondateurs": "Amine Souilhi, Mohamed Mouldi AYED",
+      "fondateurs": "Amine Souilhi",
       "secteur": "Service",
       "resultat": "label non accorde"
     },
@@ -152,7 +152,7 @@
     },
     {
       "societe": "Glamour By Riyem",
-      "fondateurs": "Riyem Saidi, Faycal Sessi",
+      "fondateurs": "Riyem Saidi",
       "secteur": "Health Tech",
       "resultat": "prelabel non accorde"
     },
@@ -167,6 +167,12 @@
       "fondateurs": "Sfar Gandoura, Boulbaba Zitouni",
       "secteur": "créatif",
       "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "Kademia",
+      "fondateurs": "Mohamed Ali Jomaa",
+      "secteur": "EDTECH",
+      "resultat": ""
     }
   ],
   "session_data": {

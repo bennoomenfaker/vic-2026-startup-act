@@ -3,7 +3,7 @@
   "annee": 2023,
   "mois": 2,
   "pdf": "session_2023_02.pdf",
-  "nb_entrees": 32,
+  "nb_entrees": 31,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -147,56 +147,50 @@
     {
       "societe": "Voltat Technologies Pozitron",
       "fondateurs": "Saadi Mohamed, Sghaier Mohamed Wael, Salma Bessalah",
-      "secteur": "Mobility Juillet",
+      "secteur": "Mobility",
       "resultat": "label accorde"
     },
     {
       "societe": "CAMINOVA Caminova",
       "fondateurs": "Sihem Bessalah, Oussama Dhahri",
-      "secteur": "HealthTech Août",
+      "secteur": "HealthTech",
       "resultat": "label accorde"
     },
     {
       "societe": "SOCIETE  SAGUEDNI CapsaFood",
       "fondateurs": "Amine Chortani, Hadil Fouli, Eskander Alaya",
-      "secteur": "Mobility Août",
+      "secteur": "Mobility",
       "resultat": "label accorde"
     },
     {
       "societe": "BLUEPSOL",
       "fondateurs": "Power solu�on Ahmed Baccouch, Chaima GRIRA, Rami Khouja",
-      "secteur": "Environment Juillet",
+      "secteur": "Environment",
       "resultat": "label accorde"
     },
     {
       "societe": "SOCIETE INNOVEGA Innovega",
       "fondateurs": "Rym Ghribi, Amira Ben Abdeljelil, Mohamed Turki",
-      "secteur": "Agritech Août",
+      "secteur": "Agritech",
       "resultat": "label accorde"
     },
     {
       "societe": "MRC SURVEY MRC SURVEY",
       "fondateurs": "Skander Hadj Mabrouk, Aymen Jhidri, Wassim Abdel Malek",
-      "secteur": "Octobre",
+      "secteur": "Services",
       "resultat": "label accorde"
     },
     {
       "societe": "Workly Hub  Canadin",
       "fondateurs": "Mohamed Ali Ben Slimen, Souad Belghith, Dhiaeddinne Rahali",
-      "secteur": "Décembre",
+      "secteur": "Services",
       "resultat": "label accorde"
     },
     {
       "societe": "BEE SPRING",
       "fondateurs": "Elevage des abeilles pour la collecte  Chedly Ellijimi",
-      "secteur": "Wellness Août",
+      "secteur": "Wellness",
       "resultat": "label accorde"
-    },
-    {
-      "societe": "Avempace SARL Avempace",
-      "fondateurs": "Abdelhamid Kerkeni",
-      "secteur": "Juillet",
-      "resultat": "retrait du label"
     }
   ],
   "session_data": {

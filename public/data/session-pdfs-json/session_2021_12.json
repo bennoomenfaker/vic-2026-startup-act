@@ -3,7 +3,7 @@
   "annee": 2021,
   "mois": 12,
   "pdf": "session_2021_12.pdf",
-  "nb_entrees": 36,
+  "nb_entrees": 29,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -175,52 +175,10 @@
       "resultat": "label non accorde"
     },
     {
-      "societe": "STE NIWEES TUNISIA",
-      "fondateurs": "Boubaker KHALFAT, Nour BOUYEDDA, Mahassen MAHFOUDH, Mohamed NAJAH",
-      "secteur": "Marketplace Juillet",
-      "resultat": "retrait du label"
-    },
-    {
-      "societe": "Embedded Solutions and Adcanced",
-      "fondateurs": "Mohamed SELLAOUTI",
-      "secteur": "Advanced Manufacturing & Avril",
-      "resultat": "retrait du label"
-    },
-    {
       "societe": "Technology \"E.S.A.T\"",
       "fondateurs": "Skander Amor",
       "secteur": "Industry",
       "resultat": ""
-    },
-    {
-      "societe": "Datavision",
-      "fondateurs": "Borhen Jlidi, Majdouline Mansour",
-      "secteur": "AI Octobre",
-      "resultat": "retrait du label"
-    },
-    {
-      "societe": "Wireless Services",
-      "fondateurs": "Majed Jabri, Sahbi Mansour, Hamza SAIDI",
-      "secteur": "Mobility Avril",
-      "resultat": "retrait du label"
-    },
-    {
-      "societe": "WareCom",
-      "fondateurs": "Nour ABBOUS, Ali SAIDI, Montasar Zaroui",
-      "secteur": "Mobility Octobre",
-      "resultat": "retrait du label"
-    },
-    {
-      "societe": "We Code",
-      "fondateurs": "Mannai Karim, Mohamed ala eddine Ben trad",
-      "secteur": "EdTech Septembre",
-      "resultat": "retrait du label"
-    },
-    {
-      "societe": "VSOBER",
-      "fondateurs": "Syrine Boudriga",
-      "secteur": "Health tech & wellbeing Août",
-      "resultat": "retrait du label"
     }
   ],
   "session_data": {

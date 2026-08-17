@@ -3,7 +3,7 @@
   "annee": 2024,
   "mois": 12,
   "pdf": "session_2024_12.pdf",
-  "nb_entrees": 25,
+  "nb_entrees": 45,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -115,6 +115,132 @@
       "resultat": "label non accorde au 2 eme tour"
     },
     {
+      "societe": "MedSyn",
+      "fondateurs": "Faouzi Nouira",
+      "secteur": "HealthTech",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "IBDAA ACADEMY",
+      "fondateurs": "Fethi Zoghlami",
+      "secteur": "EdTech",
+      "resultat": "label non accorde au 3 eme tour"
+    },
+    {
+      "societe": "Medactis",
+      "fondateurs": "Karim Rekik",
+      "secteur": "HealthTech",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Aupiq Elites united for tax and legal services",
+      "fondateurs": "Sameh Ghanmi, Mohamed monem Kahouli",
+      "secteur": "Business Software and services",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Haier HR LA PAILLETTE A nous, A vous, A leur",
+      "fondateurs": "Moetaz Ben Charrada, Chouka Brahim",
+      "secteur": "Business Software and services",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Ôravie",
+      "fondateurs": "Monia Ezzalfani",
+      "secteur": "HealthTech",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "By4IM",
+      "fondateurs": "Yosri Ben Hmida, Ghanem Iheb",
+      "secteur": "Real Estate Tech",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Verdolive",
+      "fondateurs": "Omayma Dammak, Julie Déry",
+      "secteur": "Agritech",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Académie ACAM",
+      "fondateurs": "Nicole Gosselin",
+      "secteur": "Wellness",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "WAKKIL",
+      "fondateurs": "Mouna Ben Hassine, Ines Ben Abdallah",
+      "secteur": "Communication services",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "ABRID",
+      "fondateurs": "Marwa Boubaker, Emna Siala",
+      "secteur": "Advanced Manufacturing & Robotics",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Propertates",
+      "fondateurs": "Monem Hmila, Mohamed Jasser Ben Smida, Aymen Bouzgarrou",
+      "secteur": "Business Software and services",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Cash Flow",
+      "fondateurs": "Ichrak Bouzgarrou, Chirine Bouzgarrou, Mohamed Guemri",
+      "secteur": "Business Software and services",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Maktoub",
+      "fondateurs": "Souhail Kaboura, Charbeji Mohamed Majd",
+      "secteur": "Communication services",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "check'n",
+      "fondateurs": "Karim Atrous, Khalil Ben Ticha",
+      "secteur": "Ad Tech and Creative Tech",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Improve",
+      "fondateurs": "Fawzy Othman",
+      "secteur": "Business Software and services",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Rhai",
+      "fondateurs": "Ilyes ali Jeridi, Iskander Kamel Fhima",
+      "secteur": "Business Software and services",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Multipay",
+      "fondateurs": "Majdoub Hazem, Med Khalfallah, Samar Saidi",
+      "secteur": "Fintech",
+      "resultat": "prelabel non accorde au 3 eme tour"
+    },
+    {
+      "societe": "MarketMe",
+      "fondateurs": "Haifa Ben Khalaf, Iskander Kamel Fhima",
+      "secteur": "Ad Tech and Creative Tech",
+      "resultat": "prelabel non accorde au 3 eme tour"
+    },
+    {
+      "societe": "Multipay",
+      "fondateurs": "Majdoub Hazem, Med Khalfallah",
+      "secteur": "Fintech",
+      "resultat": "prelabel non accorde au 3 eme tour"
+    },
+    {
+      "societe": "Labels",
+      "fondateurs": "",
+      "secteur": "",
+      "resultat": ""
+    },
+    {
       "societe": "mevenda mevenda solutions",
       "fondateurs": "Amal Hemdana, Hamza Borchani",
       "secteur": "Commerce and shopping",
@@ -149,12 +275,6 @@
       "fondateurs": "Jamila Tarhouni, Salma Bouabdellaoui",
       "secteur": "Agritech",
       "resultat": "label accorde"
-    },
-    {
-      "societe": "Société Secteur ABRAR SERVICES TUNISIE Business Software and services",
-      "fondateurs": "",
-      "secteur": "Janvier",
-      "resultat": "retrait du label"
     }
   ],
   "session_data": {
