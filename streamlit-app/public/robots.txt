@@ -2,9 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /api/
 
-# Désindexation temporaire — extraction PDF brute (parsing partiel/bruyant, à fiabiliser).
-# Les données affichées dans la section "JSON des Sessions" sont provisoirement exclues.
-Disallow: /data/session_pdfs_extracted.json
-Disallow: /data/session-pdfs-json/
-
 Sitemap: https://vic-esen-iscae-2026-startup-act.onrender.com/sitemap.xml
