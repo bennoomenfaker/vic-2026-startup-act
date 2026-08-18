@@ -3749,7 +3749,7 @@ function renderAdvCharts() {
 
   // Decision donut
   const decCount = { label: 0, prelabel: 0, refused: 0, irrecevable: 0, unknown: 0 };
-  allEntries.forEach(e => { decCount[normRes(e.resultat)] = (decCount[normRes(e.resultat)] || 0) + 1; });
+  allEntries.forEach(e => { const d = e._displayDecision || normRes(e.resultat); decCount[d] = (decCount[d] || 0) + 1; });
   new Chart(document.getElementById('advChartDecisions'), {
     type: 'doughnut', data: {
       labels: ['Labels', 'Pré-labels', 'Refusés', 'Irrecevables', 'Inconnus'],
@@ -3958,7 +3958,7 @@ function renderExtractedTable() {
   if (!tbody) return;
   const rows = extractedCache.allEntries.filter(e => {
     if (sess && e._session !== sess) return false;
-    if (dec && normResultat(e.resultat) !== dec) return false;
+    if (dec && (e._displayDecision || normResultat(e.resultat)) !== dec) return false;
     if (q) {
       const hay = ((e.societe || '') + ' ' + (e.fondateurs || '') + ' ' + (e.secteur || '') + ' ' + e._session).toLowerCase();
       if (!hay.includes(q)) return false;
@@ -3967,7 +3967,7 @@ function renderExtractedTable() {
   });
   document.getElementById('extractedCount').textContent = rows.length + ' / ' + extractedCache.allEntries.length + ' entrées';
   tbody.innerHTML = rows.slice(0, 1000).map(e => {
-    const nr = normResultat(e.resultat);
+    const nr = e._displayDecision || normResultat(e.resultat);
     return '<tr style="cursor:pointer" onclick="openExtractedDetail(\'' + escapeAttr(e._file) + '\')">' +
     '<td style="white-space:nowrap">' + escapeHtml(e._session) + '</td>' +
     '<td><strong>' + escapeHtml(e.societe || '—') + '</strong></td>' +
