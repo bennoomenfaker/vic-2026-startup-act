@@ -1,385 +1,264 @@
 {
-  "session_id": "session_2021_09",
   "session": "09/2021",
-  "year": 2021,
-  "month": 9,
-  "total_entries": 25,
-  "source": "firecrawl_md",
-  "entries": [
+  "annee": 2021,
+  "mois": 9,
+  "pdf": "session_2021_09.pdf",
+  "nb_entrees": 36,
+  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
+  "entrees": [
     {
-      "societe": "Seedle",
-      "fondateurs": "Femaleurs",
-      "secteur": "Secteur",
-      "type_label": "Label",
-      "labelType": "Label",
-      "votes_for": 0,
-      "votes_against": 0,
-      "resultat": "unknown",
-      "recevable": "2mme Tour",
-      "commentaires": "Communities",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
-    },
-    {
-      "societe": "Seedle",
-      "fondateurs": "Femaleurs",
-      "secteur": "Secteur",
-      "type_label": "Label",
-      "labelType": "Label",
-      "votes_for": 0,
-      "votes_against": 0,
-      "resultat": "unknown",
-      "recevable": "Receivable",
-      "commentaires": "Communities",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
-    },
-    {
-      "societe": "TADREX",
-      "fondateurs": "Nouar Delley Zid zmuntur",
+      "societe": "TADREEX",
+      "fondateurs": "Zied Zmantar, Malek Hamouda",
       "secteur": "EdTech",
-      "type_label": "Label",
-      "labelType": "Label",
-      "votes_for": 6,
-      "votes_against": 0,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Label accorde",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "label accorde"
     },
     {
       "societe": "Urban Green",
-      "fondateurs": "Malek Hammoud Hamed bakali Albedhjam Zahli",
+      "fondateurs": "Hamed Baltagi, Abdelhalim Zaibi, Ahmed Ben Mahmoud",
       "secteur": "Agritech",
-      "type_label": "Label",
-      "labelType": "Label",
-      "votes_for": 3,
-      "votes_against": 1,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Label accorde",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "label accorde"
     },
     {
       "societe": "Unify",
-      "fondateurs": "Ben Mamhmoud Wad Georgou Armen Boula",
+      "fondateurs": "Wael Gargouri, Adam Boulila",
       "secteur": "Creative industry",
-      "type_label": "PreLabel",
-      "labelType": "PreLabel",
-      "votes_for": 5,
-      "votes_against": 1,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Label accorde",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "prelabel accorde"
     },
     {
-      "societe": "Smartfeet",
-      "fondateurs": "Inez Behjy",
+      "societe": "Smartfleet",
+      "fondateurs": "Ilyes Belhaj, Kamel Sanai, Yousri Filali, Majdi Sidaoui, Farhat Akrout",
       "secteur": "Business Software",
-      "type_label": "PreLabel",
-      "labelType": "PreLabel",
-      "votes_for": 5,
-      "votes_against": 1,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Label accorde",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "prelabel accorde"
     },
     {
       "societe": "CUIDA",
-      "fondateurs": "Kamel Sanai Yoshi Flasi Mokke Gokou Fathat Akrout Houssam Edhein Sanai World Gigool Amel Saf Ersasser Amrein Akoul Armaen Ben Abdallah",
+      "fondateurs": "Houssem Eddine Sanai, Walid Zaghdoud, Amel Saif Ennasser, Ameni Jebahi, Asma Ben Abdallah, Basma Yacoubi",
       "secteur": "Health care",
-      "type_label": "PreLabel",
-      "labelType": "PreLabel",
-      "votes_for": 5,
-      "votes_against": 1,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Prelabel accorde",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "prelabel accorde"
     },
     {
       "societe": "CAIRUS DIGITAL BUSINESS CENTER",
-      "fondateurs": "Bama Yousulu Chrissan Tovolai",
+      "fondateurs": "Oussema Yacoubi, Haithem Besghaier",
       "secteur": "Fintech",
-      "type_label": "PreLabel",
-      "labelType": "PreLabel",
-      "votes_for": 0,
-      "votes_against": 0,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Prelabel accorde",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "prelabel accorde"
     },
     {
       "societe": "GARK",
-      "fondateurs": "Harthem Beghairze Amine Gong Mohammed Jahn Jammali",
+      "fondateurs": "Amine Gongi, Mohamed Taha Jemmali, Hamadi Ben Slimane",
       "secteur": "Health care",
-      "type_label": "PreLabel",
-      "labelType": "PreLabel",
-      "votes_for": 3,
-      "votes_against": 1,
-      "resultat": "label",
-      "recevable": "Oui",
-      "commentaires": "Prelabel accorde",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "prelabel accorde"
     },
     {
-      "societe": "Pielo",
-      "fondateurs": "Harmen Bassim Moehamed Mohamed Montassar",
+      "societe": "Pivlo",
+      "fondateurs": "Mosbehi Mohamed Montassar",
       "secteur": "Business Software",
-      "type_label": "PreLabel",
-      "labelType": "PreLabel",
-      "votes_for": 3,
-      "votes_against": 0,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Prelabel accorde",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "prelabel accorde"
     },
     {
-      "societe": "D-SIGNAIITIQUE",
-      "fondateurs": "Jawhar Ben Avis",
+      "societe": "D-SIGNALITIQUE",
+      "fondateurs": "Jawhara Ben Aissa, Ramzi Hmani",
       "secteur": "Services de communication",
-      "type_label": "Label",
-      "labelType": "Label",
-      "votes_for": 0,
-      "votes_against": 8,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Label non accorde",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "label non accorde"
     },
     {
       "societe": "DIGITAL DRINA",
-      "fondateurs": "Rami Imani Leila Slim",
+      "fondateurs": "Leila Slim, Boubaker Tilouche",
       "secteur": "Services de communication",
-      "type_label": "Label",
-      "labelType": "Label",
-      "votes_for": 0,
-      "votes_against": 5,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Label non accorde",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "label non accorde"
     },
     {
-      "societe": "IBHEI",
-      "fondateurs": "Boobah Tilhueche Boibah Kochat Habib Ivdi",
+      "societe": "Jibheli",
+      "fondateurs": "Ibtihel Kochat, Habib Jrad, Amine Zgarni",
       "secteur": "Mobility",
-      "type_label": "Label",
-      "labelType": "Label",
-      "votes_for": 3,
-      "votes_against": 2,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Label non accorde",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "label non accorde"
     },
     {
       "societe": "Meducol",
-      "fondateurs": "Amine Zagiri Bassem Djahman Sarra Barkini",
-      "secteur": "Efftech",
-      "type_label": "PreLabel",
-      "labelType": "PreLabel",
-      "votes_for": 2,
-      "votes_against": 5,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Prelabel non accorde",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "fondateurs": "Bassem Dahmani, Sarra Bahrini",
+      "secteur": "EdTech",
+      "resultat": "prelabel non accorde"
     },
     {
       "societe": "Delivery",
-      "fondateurs": "Habib Muiti",
+      "fondateurs": "Habib Miladi, Marwen Ferchichi",
       "secteur": "Marketplace",
-      "type_label": "PreLabel",
-      "labelType": "PreLabel",
-      "votes_for": 0,
-      "votes_against": 6,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Prelabel non accorde",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "prelabel non accorde"
     },
     {
       "societe": "Promo alert",
-      "fondateurs": "Marwen Fenchchi Ghassen Cherri",
+      "fondateurs": "Ghassen Cherif, Mounir secrafi",
       "secteur": "Services de communication",
-      "type_label": "PreLabel",
-      "labelType": "PreLabel",
-      "votes_for": 0,
-      "votes_against": 0,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Prelabel non accorde",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "prelabel non accorde"
     },
     {
-      "societe": "MostaRIHI",
-      "fondateurs": "Muon secafi Eline Gohna",
+      "societe": "Mosta9bli",
+      "fondateurs": "Elyes Chihaoui, Lynda Belhadj",
       "secteur": "Services de communication",
-      "type_label": "PreLabel",
-      "labelType": "PreLabel",
-      "votes_for": 0,
-      "votes_against": 0,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Prelabel non accorde",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "prelabel non accorde"
     },
     {
       "societe": "NETOX",
-      "fondateurs": "Lynda Behjyj Jihne Daikaki",
-      "secteur": "Efftech",
-      "type_label": "PreLabel",
-      "labelType": "PreLabel",
-      "votes_for": 0,
-      "votes_against": 8,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Prelabel non accorde",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "fondateurs": "Lina Belhadj, Jihene El Ouakdi, Fatma Abou el hija",
+      "secteur": "EdTech",
+      "resultat": "prelabel non accorde"
     },
     {
       "societe": "Baazar",
-      "fondateurs": "Faima Abou el hija glossen korsit Wahther Kerrfd",
+      "fondateurs": "ghassen ksouri, Wathek BenFradj",
       "secteur": "Business Software",
-      "type_label": "PreLabel",
-      "labelType": "PreLabel",
-      "votes_for": 0,
-      "votes_against": 0,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Prelabel non accorde",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "prelabel non accorde"
     },
     {
-      "societe": "STAGY",
-      "fondateurs": "Sara Mannee Eva Chebli",
+      "societe": "STAGGY",
+      "fondateurs": "Sarra Mannai, Eya Chebili",
       "secteur": "Health care",
-      "type_label": "PreLabel",
-      "labelType": "PreLabel",
-      "votes_for": 0,
-      "votes_against": 0,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Prelabel non accorde",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "prelabel non accorde"
     },
     {
-      "societe": "VARAKA PROTEIN",
-      "fondateurs": "Bassen Louati",
+      "societe": "YARAKA PROTEIN",
+      "fondateurs": "Bassem Louati",
       "secteur": "FoodTech & New Food",
-      "type_label": "PreLabel",
-      "labelType": "PreLabel",
-      "votes_for": 0,
-      "votes_against": 0,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Prelabel non accorde",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "prelabel non accorde"
     },
     {
-      "societe": "Medboranean Advanced Marine Engineering",
-      "fondateurs": "Albekader Malmoud Zoidak",
-      "secteur": "Creative Industry",
-      "type_label": "PreLabel",
-      "labelType": "PreLabel",
-      "votes_for": 0,
-      "votes_against": 6,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Prelabel non accorde",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "societe": "Mediterranean Advanced Marine",
+      "fondateurs": "Abdelkader Mahmoud",
+      "secteur": "Creative industry",
+      "resultat": "prelabel non accorde"
     },
     {
-      "societe": "La Beycale",
-      "fondateurs": "Medeha Hamontoni Knuill Agroji Imen Geogje",
+      "societe": "Engineering La Beylicale",
+      "fondateurs": "Zied Manai, Mehdi Hamrouni, Khalil Agrebi, Imen Guezguez, Mohamed Jawher Hamed",
       "secteur": "FoodTech & New Food",
-      "type_label": "PreLabel",
-      "labelType": "PreLabel",
-      "votes_for": 2,
-      "votes_against": 5,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Prelabel non accorde",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "prelabel non accorde"
     },
     {
       "societe": "SOSADRESSE.COM",
-      "fondateurs": "Moohamed Bahson贝哈 Soma Proxima",
+      "fondateurs": "Bellahssen Bellili, Syrine Rhoùma, Ghassen Sghaier",
       "secteur": "Services de communication",
-      "type_label": "PreLabel",
-      "labelType": "PreLabel",
-      "votes_for": 0,
-      "votes_against": 6,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Prelabel non accorde",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "prelabel non accorde"
     },
     {
-      "societe": "istlam",
-      "fondateurs": "Glassan Sgailer Senda Alli Moohamed Kabba Grahler",
+      "societe": "iziclaim",
+      "fondateurs": "Senda Akili, Mohamed Habib Sghaier",
       "secteur": "Fintech",
-      "type_label": "PreLabel",
-      "labelType": "PreLabel",
-      "votes_for": 1,
-      "votes_against": 0,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Prelabel non accorde",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "Provectus Technology",
+      "fondateurs": "Provectus Dhia Jemli, Monji Jemli",
+      "secteur": "Advanced Manufacturing &",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "DIGITIN",
+      "fondateurs": "DIGITIN Aymen Bergaoui, Hichem Mokni",
+      "secteur": "Creative industry",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "STE PERSAVIA",
+      "fondateurs": "NextAV, Foued Elkamel, Fatma Abou El Hija",
+      "secteur": "Mobility",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "EdTrust",
+      "fondateurs": "School Pack, Ahmed Maalej",
+      "secteur": "EdTech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "REDUP",
+      "fondateurs": "KICK LIGHT Med Amir Lahmar",
+      "secteur": "Health care",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "STE Vizmerald",
+      "fondateurs": "Vizmerald Bassem Seddik, Mohamed Ali Brini",
+      "secteur": "Industry",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Cooptatio",
+      "fondateurs": "Cooptatio, Hayfa Ben Mohamed, Wael Hassen, Ala Eddine Hassen",
+      "secteur": "Business Software",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "INVESTHUNE PLUS",
+      "fondateurs": "Investhune plus, Malek Chaabane, Mohamed Amine Berguiga, mariam ouanes, Ahmed Becha",
+      "secteur": "Fintech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Analytix YS",
+      "fondateurs": "Analytix, Ines El Ayeb, Amine Gara",
+      "secteur": "Fintech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "FIVE DELIVERY",
+      "fondateurs": "Deliv's Sinda Bououn",
+      "secteur": "FoodTech & New Food",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "WELINCO",
+      "fondateurs": "TiKtak Pro Zied Bouhejba, Hadded Malek",
+      "secteur": "Services de communication",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "RIBLUM",
+      "fondateurs": "RIBLUM, Sara Bennour",
+      "secteur": "Environement",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "DIMAZINA",
+      "fondateurs": "DIMAZINA Hajer Sahnoun",
+      "secteur": "Social business",
+      "resultat": ""
+    }
+  ],
+  "session_data": {
+    "candidatures": 15,
+    "labels": 15,
+    "preLabels": 6,
+    "taux_acceptation_pct": 100.0,
+    "statut": "corrigee",
+    "retraits": 0,
+    "conversions": 0,
+    "newLabels": 15,
+    "correction": {
+      "session": "09/2021",
+      "candidatures": 15,
+      "old": {
+        "labels": 13,
+        "preLabels": 6,
+        "taux": "86.7"
+      },
+      "new": {
+        "labels": 15,
+        "preLabels": 6,
+        "tauxExact": 100.0,
+        "taux": "100.0",
+        "echec": "0.0"
+      },
+      "reason": "2 nouveaux labels + 13 conversions = 15 (scrapé : 13)",
+      "commentaires": "2 Labels et 13 Prelabels à Labels"
+    }
+  },
+  "pages_text": [
+    {
+      "page": 1,
+      "text": "Startup Act | Session 30 | Septembre 2021 | Compte-Rendu\nSociété\nFondateurs\nSecteur\nLabel/Prélabel\n1er Tour\n2ème  Tour\n3ème  Tour\nRésultat\nCommentaires\nRecevabilité\nOui\nNon\nPitching\nConflit\nOui\nNon\nTADREEX\nNizar Chelly\nZied Zmantar\nEdTech\nLabel\nOui\n6\n-\n-\n-\nN.A\nN.A\nLabel accordé\nLabel accordé dès le 2ème tour\nUrban Green\nMalek Hamouda\nHamed Baltagi\nAgritech\nLabel \nOui\n3\n1\n2\n-\n5\n3\nLabel accordé\nLabel accordé suite au pitching\nUnify\nAbdelhalim Zaibi\nAhmed Ben Mahmoud\nWael Gargouri\nAdam Boulila\nCreative industry\nPrélabel\nOui\n5\n1\n-\n-\nN.A\nN.A\nPrélabel accordé\nPrélabel accordé dès le 2ème tour\nSmartfleet\nIlyes Belhaj\nBusiness Software\nPrélabel\nOui\n5\n1\n1\n-\nN.A\nN.A\nPrélabel accordé\nPrélabel accordé dès le 2ème tour\nCUIDA\nKamel Sanai\nYousri Filali\nMajdi Sidaoui\n Farhat Akrout\n Houssem Eddine Sanai\n Walid Zaghdoud\n Amel Saif Ennasser\n Ameni Jebahi\n Asma Ben Abdallah\nHealth care\nPrélabel\nOui\n5\n1\n-\n-\nN.A\nN.A\nPrélabel accordé\nPrélabel accordé dès le 2ème tour\nCAIRUS DIGITAL BUSINESS CENTER\nBasma Yacoubi\nOussema Yacoubi\nFintech\nPrélabel\nOui\n6\n-\n-\n-\nN.A\nN.A\nPrélabel accordé\nPrélabel accordé dès le 2ème tour\nGARK\nHaithem Besghaier\nAmine Gongi\nMohamed Taha Jemmali\nHealth care\nPrélabel\nOui\n3\n1\n2\n-\n7\n-\nPrélabel accordé\nPrélabel accordé suite au pitching\nPivlo\nHamadi Ben Slimane\nMosbehi Mohamed Montassar\nBusiness Software\nPrélabel\nOui\n3\n-\n3\n-\n6\n1\nPrélabel accordé\nPrélabel accordé suite au pitching\nD-SIGNALITIQUE\nJawhara Ben Aissa\nServices de communication\nLabel \nOui\n-\n6\n-\n-\nN.A\nN.A\nLabel non accordé\nLabel non accordé dès le 2ème tour\nDIGITAL DRINA\nRamzi Hmani \nLeila Slim\nServices de communication\nLabel \nOui\n-\n5\n1\n-\nN.A\nN.A\nLabel non accordé\nLabel non accordé dès le 2ème tour\nJibheli\nBoubaker Tilouche\nIbtihel Kochat\nHabib Jrad\nMobility\nLabel \nOui\n3\n2\n1\n-\n3\n4\nLabel non accordé\nLabel non accordé suite au pitching\nMeducol\nAmine Zgarni\nBassem Dahmani\nSarra Bahrini\nEdTech\nPrélabel\nOui\n2\n5\n-\n-\nN.A\nN.A\nPrélabel non accordé\nPrélabel non accordé dès le 2ème tour\nDelivery\nHabib Miladi\nMarketplace \nPrélabel\nOui\n-\n6\n-\n-\nN.A\nN.A\nPrélabel non accordé Prélabel non accordé dès le 2ème tour\nPromo alert\nMarwen Ferchichi\nGhassen Cherif\nServices de communication\nPrélabel\nOui\n-\n6\n-\n-\nN.A\nN.A\nPrélabel non accordé Prélabel non accordé dès le 2ème tour\nMosta9bli\nMounir secrafi\nElyes Chihaoui \nServices de communication\nPrélabel\nOui\n-\n6\n-\n-\nN.A\nN.A\nPrélabel non accordé Prélabel non accordé dès le 2ème tour\nNETOX\nLynda Belhadj\nLina Belhadj\nJihene El Ouakdi\nEdTech\nPrélabel\nOui\n-\n6\n-\n-\nN.A\nN.A\nPrélabel non accordé\nPrélabel non accordé dès le 2ème tour\nBaazar\nFatma Abou el hija\nghassen ksouri\nBusiness Software\nPrélabel\nOui\n-\n6\n-\n-\nN.A\nN.A\nPrélabel non accordé Prélabel non accordé dès le 2ème tour\nSTAGGY\nWathek BenFradj\nSarra Mannai\nEya Chebili\nHealth care\nPrélabel\nOui\n-\n6\n-\n-\nN.A\nN.A\nPrélabel non accordé\nPrélabel non accordé dès le 2ème tour\nYARAKA PROTEIN\nBassem Louati\nFoodTech & New Food\nPrélabel\nOui\n-\n6\n-\n-\nN.A\nN.A\nPrélabel non accordé Prélabel non accordé dès le 2ème tour\nMediterranean Advanced Marine \nEngineering\nAbdelkader Mahmoud\nZied Manai\nCreative industry\nPrélabel\nOui\n-\n6\n-\n-\nN.A\nN.A\nPrélabel non accordé Prélabel non accordé dès le 2ème tour\nLa Beylicale\nMehdi Hamrouni\nKhalil Agrebi\nImen Guezguez\nFoodTech & New Food\nPrélabel\nOui\n2\n5\n-\n-\nN.A\nN.A\nPrélabel non accordé\nPrélabel non accordé dès le 2ème tour\nSOSADRESSE.COM\nMohamed Jawher Hamed\nBellahssen Bellili\nSyrine Rhoùma\nServices de communication\nPrélabel\nOui\n-\n6\n-\n-\nN.A\nN.A\nPrélabel non accordé\nPrélabel non accordé dès le 2ème tour\niziclaim\nGhassen Sghaier\nSenda Akili\nMohamed Habib Sghaier\nFintech\nPrélabel\nOui\n1\n-\n5\n-\n-\n7\nPrélabel non accordé Prélabel non accordé suite au pitching\n"
+    },
+    {
+      "page": 2,
+      "text": "Kiné Plus\nRahma Dakhli\nAmal Mejri\nBoutheina Boughanmi\nHealth care\nPrélabel\nOui\n1\n2\n3\n-\n-\n8\nPrélabel non accordé Prélabel non accordé suite au pitching\nSHYK\nMohamed Nathan Fenina\nNadia El Jed\nWellness\nPrélabel\nOui\nCandidature reportée\nLa candidature a été reportée à la session de Septembre\nPassage de Prélabels aux Labels\nSociété\nProjet\nFondateurs\nSecteur\nSession d'obtention \ndu Prélabel\nRésultat\nCommentaires\nProvectus Technology\nProvectus\nKamel Jemli\nDhia Jemli\nMonji Jemli\nAdvanced Manufacturing & \nIndustry\nJuin 2021\nLabel accordé\nLabel accordé suite à la création de la Startup et le respect des \nconditions d'octroi                        \nDIGITIN\nDIGITIN\nAymen Bergaoui\nCreative industry\nAvril 2021\nLabel accordé\nLabel accordé suite à la création de la Startup et le respect des \nconditions d'octroi                        \nSTE PERSAVIA\nNextAV\nHichem Mokni\nFoued Elkamel\nMobility\nAvril 2021\nLabel accordé\nLabel accordé suite à la création de la Startup et le respect des \nconditions d'octroi                        \nEdTrust\nSchool Pack\nFatma Abou El Hija\nAhmed Maalej \nEdTech\nAvril 2021\nLabel accordé\nLabel accordé suite à la création de la Startup et le respect des \nconditions d'octroi                        \nREDUP\nKICK LIGHT\nMed Amir Lahmar\nHealth care\nAvril 2021\nLabel accordé\nLabel accordé suite à la création de la Startup et le respect des \nconditions d'octroi                        \nSTE Vizmerald\nVizmerald\nBassem Seddik\nAdvanced Manufacturing & \nIndustry\nAvril 2021\nLabel accordé\nLabel accordé suite à la création de la Startup et le respect des \nconditions d'octroi                        \nCooptatio\nCooptatio\nMohamed Ali Brini\nHayfa Ben Mohamed\nBusiness Software\nJuin 2021\nLabel accordé\nLabel accordé suite à la création de la Startup et le respect des \nconditions d'octroi                        \nINVESTHUNE PLUS\nInvesthune plus\nWael Hassen\nAla Eddine Hassen\nMalek Chaabane\nMohamed Amine Berguiga\nFintech\nMai 2021\nLabel accordé\nLabel accordé suite à la création de la Startup et le respect des \nconditions d'octroi                        \nAnalytix YS\nAnalytix\nmariam ouanes\nAhmed Becha\nInes El Ayeb\nAmine Gara\nFintech\nAvril 2021\nLabel accordé\nLabel accordé suite à la création de la Startup et le respect des \nconditions d'octroi                        \nFIVE DELIVERY\nDeliv's\nSinda Bououn\nFoodTech & New Food\nMars 2021\nLabel accordé\nLabel accordé suite à la création de la Startup et le respect des \nconditions d'octroi                        \nWELINCO\nTiKtak Pro\nZied Bouhejba\nServices de communication\nJuillet 2021\nLabel accordé\nLabel accordé suite à la création de la Startup et le respect des \nconditions d'octroi                        \nRIBLUM\nRIBLUM\nHadded Malek\nSara Bennour\nEnvironement\nJuillet 2021\nLabel accordé\nLabel accordé suite à la création de la Startup et le respect des \nconditions d'octroi                        \nDIMAZINA\nDIMAZINA\nHajer Sahnoun\nSocial business\nAvril 2021\nLabel accordé\nLabel accordé suite à la création de la Startup et le respect des \nconditions d'octroi                        \n"
     }
   ]
 }

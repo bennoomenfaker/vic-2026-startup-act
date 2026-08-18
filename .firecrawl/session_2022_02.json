@@ -1,280 +1,152 @@
 {
-  "session_id": "session_2022_02",
   "session": "02/2022",
-  "year": 2022,
-  "month": 2,
-  "total_entries": 18,
-  "source": "firecrawl_md",
-  "entries": [
+  "annee": 2022,
+  "mois": 2,
+  "pdf": "session_2022_02.pdf",
+  "nb_entrees": 21,
+  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
+  "entrees": [
     {
       "societe": "TELA",
-      "fondateurs": "Chaima Chauochi",
+      "fondateurs": "Chaima Chaouachi",
       "secteur": "Marketplace",
-      "type_label": "Label",
-      "labelType": "Label",
-      "votes_for": 9,
-      "votes_against": 0,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Label accordé",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "label accorde"
     },
     {
       "societe": "Fidness",
-      "fondateurs": "Ahmed Najar",
+      "fondateurs": "Ahmed Najjar",
       "secteur": "BusinessSoftware & Services",
-      "type_label": "Label",
-      "labelType": "Label",
-      "votes_for": 9,
-      "votes_against": 0,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Label accordé",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "label accorde"
     },
     {
-      "societe": "Naqllek Haja",
+      "societe": "Nqollek Haja",
       "fondateurs": "Yasmine Ansari",
       "secteur": "Social Business",
-      "type_label": "Label",
-      "labelType": "Label",
-      "votes_for": 9,
-      "votes_against": 0,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Label accordé",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "label accorde"
     },
     {
       "societe": "Wefix",
-      "fondateurs": "Sabri Cheriha",
+      "fondateurs": "Sabri Cheriha, Houssem Eddine Ben Smida",
       "secteur": "Environment/Energie",
-      "type_label": "Label",
-      "labelType": "Label",
-      "votes_for": 9,
-      "votes_against": 0,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Label accordé",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "label accorde"
     },
     {
       "societe": "Trivaw",
-      "fondateurs": "Houssem Eddine Ben Smida Awatef Rebhi",
+      "fondateurs": "Awatef Rebhi, Iheb Triki",
       "secteur": "TravelTech",
-      "type_label": "Label",
-      "labelType": "Label",
-      "votes_for": 9,
-      "votes_against": 0,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Label accordé",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "label accorde"
     },
     {
       "societe": "Kumulus",
-      "fondateurs": "Mohamed Ali Abid Nouha Abroug",
+      "fondateurs": "Mohamed Ali Abid, Nouha Abroug, Nesrine Welhezi",
       "secteur": "Environment/Energie",
-      "type_label": "Label",
-      "labelType": "Label",
-      "votes_for": 9,
-      "votes_against": 0,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Label accordé",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "label accorde"
     },
     {
       "societe": "WIN NOW",
-      "fondateurs": "Nesrine Wellezi Nizar Wehazi",
+      "fondateurs": "Nizar Welhazi, Ahmed Jemaa",
       "secteur": "Services de communication",
-      "type_label": "Label",
-      "labelType": "Label",
-      "votes_for": 5,
-      "votes_against": 1,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Label accordé",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "label accorde"
     },
     {
       "societe": "Kiddo",
-      "fondateurs": "Ahmed Jemaa ines Rahrah",
+      "fondateurs": "Ines Rahrah, Nour Kraiem",
       "secteur": "EdTech",
-      "type_label": "Label",
-      "labelType": "Label",
-      "votes_for": 6,
-      "votes_against": 0,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Label accordé",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "label accorde"
     },
     {
       "societe": "Qr Menu",
-      "fondateurs": "Nour Kraiem Simee Kraem",
+      "fondateurs": "Sirine Kraiem, Sonia Othman",
       "secteur": "FoodTech & New Food",
-      "type_label": "PreLabel",
-      "labelType": "PreLabel",
-      "votes_for": 8,
-      "votes_against": 1,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Prélabel accordé",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "prelabel accorde"
     },
     {
       "societe": "Foodoo.tn",
-      "fondateurs": "Sonia Ottman Houssem Sahil",
+      "fondateurs": "",
       "secteur": "FoodTech & New Food",
-      "type_label": "PreLabel",
-      "labelType": "PreLabel",
-      "votes_for": 7,
-      "votes_against": 1,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Prélabel accordé",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "prelabel accorde"
     },
     {
       "societe": "Clic to know",
-      "fondateurs": "Zied Teber Nejmeddrine Sakly Houssem Chikoua",
+      "fondateurs": "Nejmeddinne Sakly, Houssem Chkioua, Amira Guermazi",
       "secteur": "EdTech",
-      "type_label": "PreLabel",
-      "labelType": "PreLabel",
-      "votes_for": 9,
-      "votes_against": 0,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Prélabel accordé",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
-    },
-    {
-      "societe": "NEFEL EDUCATION",
-      "fondateurs": "Amir Gerrmann Addeleaz Lazar Baskar Kamel Lazar",
-      "secteur": "EdTech",
-      "type_label": "Label",
-      "labelType": "Label",
-      "votes_for": 1,
-      "votes_against": 6,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Label non accordé",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "prelabel accorde"
     },
     {
       "societe": "VIRIBUS CENTER",
-      "fondateurs": "Houssem Sim Ahmed Lannouchi",
+      "fondateurs": "Ahmed Laamouchi, Meriem Bel Haj Mohamed",
       "secteur": "Services de communication",
-      "type_label": "Label",
-      "labelType": "Label",
-      "votes_for": 0,
-      "votes_against": 9,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Label non accordé",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "label non accorde"
     },
     {
       "societe": "SAFE STUDENT",
-      "fondateurs": "Mereni Bel Haj Mohamed Hajer Mzoughi Eya Bel Haj Mohamed Mustapha Boourouj Karthen White",
+      "fondateurs": "Hajer Mzoughi, Eya Bel Haj Mohamed, Mustapha Bouarrouj",
       "secteur": "Proptech",
-      "type_label": "PreLabel",
-      "labelType": "PreLabel",
-      "votes_for": 0,
-      "votes_against": 7,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Prélabel non accordé",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "prelabel non accorde"
     },
     {
-      "societe": "Tunfund",
-      "fondateurs": "Mohamed Kallel Achral Chabbouh Amel Abouldo Salbe Ben Nibouk Rateb Jabbar Ahmed Ben Said",
-      "secteur": "Mobile",
-      "type_label": "PreLabel",
-      "labelType": "PreLabel",
-      "votes_for": 0,
-      "votes_against": 9,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Prélabel non accordé",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "societe": "Tunifund",
+      "fondateurs": "Kathleen White, Mohamed Kallel, Achraf Chabbouh, Amel Aloulou",
+      "secteur": "Mobility",
+      "resultat": "prelabel non accorde"
     },
     {
-      "societe": "Stile ai",
-      "fondateurs": "Amir Trigui",
-      "secteur": "Social Business",
-      "type_label": "PreLabel",
-      "labelType": "PreLabel",
-      "votes_for": 2,
-      "votes_against": 5,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Prélabel non accordé",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "societe": "Stile.ai",
+      "fondateurs": "Sahar Ben Mabrouk, Rateb Jabbar, Ahmed Ben Said",
+      "secteur": "Creative industry",
+      "resultat": "prelabel non accorde"
     },
     {
       "societe": "Digix",
-      "fondateurs": "Amir Trigui",
+      "fondateurs": "Amir Trigui, Ahmed Jemaa",
       "secteur": "Social Business",
-      "type_label": "PreLabel",
-      "labelType": "PreLabel",
-      "votes_for": 0,
-      "votes_against": 0,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Prélabel non accordé",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "prelabel non accorde"
     },
     {
       "societe": "Kiddo",
-      "fondateurs": "Ahmed Jemaa ines Rahrah",
+      "fondateurs": "Ines Rahrah",
       "secteur": "EdTech",
-      "type_label": "PreLabel",
-      "labelType": "PreLabel",
-      "votes_for": 0,
-      "votes_against": 0,
-      "resultat": "unknown",
-      "recevable": "Non",
-      "commentaires": "Prélabel non accordé",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "STE COACHINI",
+      "fondateurs": "Coachini",
+      "secteur": "Lotfi Mzoughi",
+      "resultat": "Services de communication"
+    },
+    {
+      "societe": "SECRET SUCRE KIDS",
+      "fondateurs": "SECRET SUCRE KIDS",
+      "secteur": "Mohamed amine Mhiri",
+      "resultat": "Creative industry"
+    },
+    {
+      "societe": "WEDTECT",
+      "fondateurs": "Smart Detection",
+      "secteur": "Manel Elleuchi",
+      "resultat": "Agritech"
+    },
+    {
+      "societe": "Data For Brands",
+      "fondateurs": "Insight Lab",
+      "secteur": "Idris Bachali losada",
+      "resultat": "AI"
+    }
+  ],
+  "session_data": {
+    "candidatures": 18,
+    "labels": 12,
+    "preLabels": 3,
+    "taux_acceptation_pct": 66.7,
+    "statut": "conforme",
+    "retraits": 0,
+    "conversions": 0,
+    "newLabels": 12
+  },
+  "pages_text": [
+    {
+      "page": 1,
+      "text": "Startup Act | Session 35 | Février 2022 | Compte-Rendu\nSociété\nFondateurs\nSecteur\nLabel/Prélabel\n1er Tour\n2ème  Tour\n3ème  Tour\nRésultat\nCommentaires\nRecevabilité\nOui\nNon\nPitching\nConflit\nOui\nNon\nTELA\nChaima Chaouachi\nMarketplace\nLabel\nOui\n9\n-\n-\n-\nN.A\nN.A\nLabel accordé\nLabel accordé dès le 2ème tour\nFidness\nAhmed Najjar\nBusinessSoftware & Services\nLabel\nOui\n9\n-\n-\n-\nN.A\nN.A\nLabel accordé\nLabel accordé dès le 2ème tour\nNqollek Haja\nYasmine Ansari\nSocial Business\nLabel\nOui\n9\n-\n-\n-\nN.A\nN.A\nLabel accordé\nLabel accordé dès le 2ème tour\nWefix\nSabri Cheriha\nEnvironment/Energie\nLabel\nOui\n9\n-\n-\n-\nN.A\nN.A\nLabel accordé\nLabel accordé dès le 2ème tour\nTrivaw\nHoussem Eddine Ben Smida\nAwatef Rebhi\nTravelTech\nLabel\nOui\n9\n-\n-\n-\nN.A\nN.A\nLabel accordé\nLabel accordé dès le 2ème tour\nKumulus\nIheb Triki\nMohamed Ali Abid\nNouha Abroug\nEnvironment/Energie\nLabel\nOui\n9\n-\n-\n-\nN.A\nN.A\nLabel accordé\nLabel accordé dès le 2ème tour\nWIN NOW\nNesrine Welhezi\nNizar Welhazi\nServices de communication\nLabel\nOui\n5\n1\n1\n-\nN.A\nN.A\nLabel accordé\nLabel accordé dès le 2ème tour\nKiddo\nAhmed Jemaa\nInes Rahrah\nEdTech\nLabel\nOui\n6\n-\n3\n-\nN.A\nN.A\nLabel accordé\nLabel accordé dès le 2ème tour\nQr Menu\nNour Kraiem\nSirine Kraiem\nFoodTech & New Food\nPrélabel\nOui\n8\n1\n-\n-\nN.A\nN.A\nPrélabel accordé\nPrélabel accordé dès le 2ème tour\nFoodoo.tn\nSonia Othman\nHoussem Sahli\nFoodTech & New Food\nPrélabel\nOui\n7\n1\n-\n1\nN.A\nN.A\nPrélabel accordé\nPrélabel accordé dès le 2ème tour\nMohamed Salah Frad a déclaré un conflit d'intérêt\nClic to know\nZied Teber\nNejmeddinne Sakly\nHoussem Chkioua\nEdTech\nPrélabel\nOui\n9\n-\n-\n-\nN.A\nN.A\nPrélabel accordé\nPrélabel accordé dès le 2ème tour\nNEFEL EDUCATION\nAmira Guermazi\nAbdeljelil Lazaar\nBashar Kamel Lazaar\nEdTech\nLabel\nOui\n1\n6\n-\n2\nN.A\nN.A\nLabel non accordé\nLabel non accordé dès le 2ème tour\nKhaled Ben Jilani a déclaré avoir un conflit d'intérêt\nMonia Jendoubi a décalré avoir un conflit d'intérêt \nVIRIBUS CENTER\nHoussem Sliti\nAhmed Laamouchi\nServices de communication\nLabel\nOui\n-\n9\n-\n-\nN.A\nN.A\nLabel non accordé\nLabel non accordé dès le 2ème tour\nSAFE STUDENT\nMeriem Bel Haj Mohamed\nHajer Mzoughi\nEya Bel Haj Mohamed\nProptech\nPrélabel\nOui\n-\n7\n1\n-\nN.A\nN.A\nPrélabel non accordé\nPrélabel non accordé dès le 2ème tour\nTunifund\nMustapha Bouarrouj\nKathleen White\nMobility\nPrélabel\nOui\n-\n9\n-\n-\nN.A\nN.A\nPrélabel non accordé\nPrélabel non accordé dès le 2ème tour\nStile.ai\nMohamed Kallel\nAchraf Chabbouh\nAmel Aloulou\nSahar Ben Mabrouk\nRateb Jabbar\nAhmed Ben Said\nCreative industry\nPrélabel\nOui\n-\n7\n-\n-\nN.A\nN.A\nPrélabel non accordé\nPrélabel non accordé dès le 2ème tour\nDigix\nAmir Trigui\nSocial Business\nPrélabel\nOui\n2\n5\n-\n-\nN.A\nN.A\nPrélabel non accordé\nPrélabel non accordé dès le 2ème tour\nKiddo\nAhmed Jemaa\nInes Rahrah\nEdTech\nPrélabel\nNon\nN.A\nN.A\nN.A\nN.A\nN.A\nN.A\nPrélabel non accordé\nPrélabel non accordé dès le 1 er tour. \nLe projet a candidaté pour le Label durant la même session.\nPassage de Prélabels aux Labels\nSociété\nProjet\nFondateurs\nSecteur\nSession d'obtention \ndu Prélabel\nRésultat\nCommentaires\nSTE COACHINI\nCoachini\nSawsen Dhifallah\nLotfi Mzoughi\nServices de communication\nNovembre 2021\nLabel accordé\nLabel accordé suite à la création de la Startup et le respect des \nconditions d'octroi                        \nSECRET SUCRE KIDS\nSECRET SUCRE KIDS\nSana Abid\nMohamed amine Mhiri\nCreative industry\nDécembre 2021\nLabel accordé\nLabel accordé suite à la création de la Startup et le respect des \nconditions d'octroi                        \nWEDTECT \nSmart Detection\nManel Elleuchi\nAgritech\nNovembre 2021 \nLabel accordé\nLabel accordé suite à la création de la Startup et le respect des \nconditions d'octroi                        \nData For Brands\nInsight Lab\nMyryam Toukabri\nIdris Bachali losada\nAbir Chérif\nAI\nDécembre 2021\nLabel accordé\nLabel accordé suite à la création de la Startup et le respect des \nconditions d'octroi  \n"
     }
   ]
 }

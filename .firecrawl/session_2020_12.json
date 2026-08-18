@@ -1,190 +1,242 @@
 {
-  "session_id": "session_2020_12",
   "session": "12/2020",
-  "year": 2020,
-  "month": 12,
-  "total_entries": 12,
-  "source": "firecrawl_md",
-  "entries": [
+  "annee": 2020,
+  "mois": 12,
+  "pdf": "session_2020_12.pdf",
+  "nb_entrees": 36,
+  "source": "Texte du Compte-Rendu fourni par l'utilisateur (OCR du PDF sans couche texte) — 18/08/2026",
+  "entrees": [
     {
       "societe": "Telum",
       "fondateurs": "Nour Ehore Ghoseh Amal",
       "secteur": "Logiciel",
-      "type_label": "Label",
-      "labelType": "Label",
-      "votes_for": 8,
-      "votes_against": 0,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Label accorde",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "label accorde"
     },
     {
       "societe": "Ma Formation Privilee",
       "fondateurs": "Helmi Mash",
       "secteur": "E-commerce",
-      "type_label": "Label",
-      "labelType": "Label",
-      "votes_for": 6,
-      "votes_against": 0,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Label accorde",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "label accorde"
     },
     {
       "societe": "AirGraph",
       "fondateurs": "GHAYTH Bouygatta Lafalfa Rash Edouard Guilhot Daniel Balleger",
       "secteur": "Robotique",
-      "type_label": "Label",
-      "labelType": "Label",
-      "votes_for": 8,
-      "votes_against": 0,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Label accorde",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "label accorde"
     },
     {
       "societe": "LG P",
       "fondateurs": "Ahmed Miffes",
       "secteur": "Autre contenu créatif",
-      "type_label": "Label",
-      "labelType": "Label",
-      "votes_for": 8,
-      "votes_against": 0,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Label accorde",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "label accorde"
     },
     {
       "societe": "WAMIA",
       "fondateurs": "Abdereazak Ahlou Al Cherif Amri Kekasae",
       "secteur": "E-commerce",
-      "type_label": "Label",
-      "labelType": "Label",
-      "votes_for": 5,
-      "votes_against": 1,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Label accorde",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "label accorde"
     },
     {
       "societe": "moudda.com",
       "fondateurs": "Meeki Musselderb Karman Rokkane",
       "secteur": "E-commerce",
-      "type_label": "Label",
-      "labelType": "Label",
-      "votes_for": 7,
-      "votes_against": 1,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Label accorde",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "label accorde"
     },
     {
       "societe": "wiTrade",
       "fondateurs": "Mierten Nebi Zainib Nebi Taha Haitie",
       "secteur": "E-commerce",
-      "type_label": "Label",
-      "labelType": "Label",
-      "votes_for": 5,
-      "votes_against": 0,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Label accorde",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "label accorde"
     },
     {
       "societe": "SOAR",
       "fondateurs": "Aymen Tabi Nour Bourataize",
       "secteur": "Health Tech",
-      "type_label": "Label",
-      "labelType": "Label",
-      "votes_for": 5,
-      "votes_against": 1,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Label accorde",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "label accorde"
     },
     {
       "societe": "Datagram",
       "fondateurs": "Mohamed Ali Ben Aleya",
       "secteur": "Big Data",
-      "type_label": "Label",
-      "labelType": "Label",
-      "votes_for": 8,
-      "votes_against": 0,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Label accorde",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "label accorde"
     },
     {
       "societe": "IBIS Technologies",
       "fondateurs": "Khaled Bouchousha",
       "secteur": "Agrtech",
-      "type_label": "Label",
-      "labelType": "Label",
-      "votes_for": 7,
-      "votes_against": 0,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Label accorde",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "label accorde"
     },
     {
       "societe": "PROSERVY",
       "fondateurs": "Ahmed Didi Wassim Ioani Mohamed Diyan Koutini",
       "secteur": "Logiciel",
-      "type_label": "Label",
-      "labelType": "Label",
-      "votes_for": 1,
-      "votes_against": 1,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Label accorde",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "label accorde"
     },
     {
       "societe": "Cagronte Fid",
       "fondateurs": "Omar Bacar Cager Bouchousha",
       "secteur": "E-commerce",
-      "type_label": "Label",
-      "labelType": "Label",
-      "votes_for": 4,
-      "votes_against": 1,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Label accorde",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Smarth",
+      "fondateurs": "Ramzi Zefani",
+      "secteur": "Logiciel",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "NetShake",
+      "fondateurs": "Raith Bensi Abdalah Bakke",
+      "secteur": "EdTech",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Go Staff",
+      "fondateurs": "Mohamed Hanoun Ouannes Wassim Khalfa",
+      "secteur": "Health Tech",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Kn_Traffic",
+      "fondateurs": "Mohamed Salah Zaggar",
+      "secteur": "Autre contenu créatif",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Bridge ITops",
+      "fondateurs": "Wald Saad",
+      "secteur": "Logiciel",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "WARM",
+      "fondateurs": "Marwa Ben Aissa",
+      "secteur": "E-commerce",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "LEEVVA Communication",
+      "fondateurs": "Wissem Bougulla Loc Lafhiq",
+      "secteur": "Telecom",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "BasketID",
+      "fondateurs": "Karmir Jabali Maker Chukai Wael Kaiso",
+      "secteur": "Fintech",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Key Software",
+      "fondateurs": "Khaled Saddani",
+      "secteur": "Logiciel",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "BAIT",
+      "fondateurs": "Ahmed Trad",
+      "secteur": "Logiciel",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "The Mission",
+      "fondateurs": "Fatin Maslei Sandari Elbawi",
+      "secteur": "EdTech",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "instead",
+      "fondateurs": "Karmir Ben Abdalaziz Arwa Bel Hiji Taha Beri Amal Guzman",
+      "secteur": "Fintech",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "MICRO DEVICE TUNISA",
+      "fondateurs": "Hamdil Ben Amor",
+      "secteur": "IoT",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "Droopex",
+      "fondateurs": "Ahmed Allesch Waet Allesch",
+      "secteur": "Logistique",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "OnePack",
+      "fondateurs": "Sarra Fehail Firas Dheouad Malik Ahmed",
+      "secteur": "EdTech",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "Omaris Wood",
+      "fondateurs": "Omar Trabelsi",
+      "secteur": "Autre contenu créatif",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "OMNIUP",
+      "fondateurs": "Karim Jelliti Issam Essefi Ali Sakka",
+      "secteur": "Marketing",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "إبراهيم الدين - VirtuA Agency",
+      "fondateurs": "Siem Ouled Hsin",
+      "secteur": "Autre contenu créatif",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "EVO ENERGIZE",
+      "fondateurs": "Maher Amara Safa Bouhajar",
+      "secteur": "IoT",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "Pabitel.tn",
+      "fondateurs": "Syrine Zgueb",
+      "secteur": "Logiciel",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "Jood Lab",
+      "fondateurs": "Mohamed Belghith Younes Ben Mabrouk",
+      "secteur": "Logiciel",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "World Wide Security",
+      "fondateurs": "Mohamed Aziz Elmabrouk",
+      "secteur": "Autre contenu créatif",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "Mat7irech",
+      "fondateurs": "Mohamed Harbaoui",
+      "secteur": "Mobile",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "Flow",
+      "fondateurs": "Omar Guizani Maher Bouzid",
+      "secteur": "Fintech",
+      "resultat": "prelabel non accorde"
+    }
+  ],
+  "session_data": {
+    "candidatures": 36,
+    "labels": 21,
+    "preLabels": 8,
+    "taux_acceptation_pct": 58.3,
+    "statut": "conforme",
+    "retraits": 0,
+    "conversions": 0,
+    "newLabels": 21
+  },
+  "pages_text": [
+    {
+      "page": 1,
+      "text": "Startup Act | Session 21 | Décembre 2020 | Compte-Rendu\n\nTelum | Nour Ehore Ghoseh Amal | Logiciel | label accorde\nMa Formation Privilee | Helmi Mash | E-commerce | label accorde\nAirGraph | GHAYTH Bouygatta Lafalfa Rash Edouard Guilhot Daniel Balleger | Robotique | label accorde\nLG P | Ahmed Miffes | Autre contenu créatif | label accorde\nWAMIA | Abdereazak Ahlou Al Cherif Amri Kekasae | E-commerce | label accorde\nmoudda.com | Meeki Musselderb Karman Rokkane | E-commerce | label accorde\nwiTrade | Mierten Nebi Zainib Nebi Taha Haitie | E-commerce | label accorde\nSOAR | Aymen Tabi Nour Bourataize | Health Tech | label accorde\nDatagram | Mohamed Ali Ben Aleya | Big Data | label accorde\nIBIS Technologies | Khaled Bouchousha | Agrtech | label accorde\nPROSERVY | Ahmed Didi Wassim Ioani Mohamed Diyan Koutini | Logiciel | label accorde\nCagronte Fid | Omar Bacar Cager Bouchousha | E-commerce | label accorde\nSmarth | Ramzi Zefani | Logiciel | prelabel accorde\nNetShake | Raith Bensi Abdalah Bakke | EdTech | prelabel accorde\nGo Staff | Mohamed Hanoun Ouannes Wassim Khalfa | Health Tech | prelabel accorde\nKn_Traffic | Mohamed Salah Zaggar | Autre contenu créatif | prelabel accorde\nBridge ITops | Wald Saad | Logiciel | prelabel accorde\nWARM | Marwa Ben Aissa | E-commerce | prelabel accorde\nLEEVVA Communication | Wissem Bougulla Loc Lafhiq | Telecom | prelabel accorde\nBasketID | Karmir Jabali Maker Chukai Wael Kaiso | Fintech | prelabel accorde\nKey Software | Khaled Saddani | Logiciel | label non accorde\nBAIT | Ahmed Trad | Logiciel | label non accorde\nThe Mission | Fatin Maslei Sandari Elbawi | EdTech | label non accorde\ninstead | Karmir Ben Abdalaziz Arwa Bel Hiji Taha Beri Amal Guzman | Fintech | label non accorde\nMICRO DEVICE TUNISA | Hamdil Ben Amor | IoT | label non accorde\nDroopex | Ahmed Allesch Waet Allesch | Logistique | label non accorde\nOnePack | Sarra Fehail Firas Dheouad Malik Ahmed | EdTech | label non accorde\nOmaris Wood | Omar Trabelsi | Autre contenu créatif | label non accorde\nOMNIUP | Karim Jelliti Issam Essefi Ali Sakka | Marketing | label non accorde\nإبراهيم الدين - VirtuA Agency | Siem Ouled Hsin | Autre contenu créatif | prelabel non accorde\nEVO ENERGIZE | Maher Amara Safa Bouhajar | IoT | prelabel non accorde\nPabitel.tn | Syrine Zgueb | Logiciel | prelabel non accorde\nJood Lab | Mohamed Belghith Younes Ben Mabrouk | Logiciel | prelabel non accorde\nWorld Wide Security | Mohamed Aziz Elmabrouk | Autre contenu créatif | prelabel non accorde\nMat7irech | Mohamed Harbaoui | Mobile | prelabel non accorde\nFlow | Omar Guizani Maher Bouzid | Fintech | prelabel non accorde\n\nPassage de Prélabels aux Labels\n\nCertely Expert System | MTCE | Fares Amor Dhafer Ben Amor Nidhal Ben Amor | Autre contenu créatif | Prélabel Août 2020 | label accordé\nArtGuru | Ba9chich | Melek Gharbi Bilel Ouersighni | Media | Prélabel Novembre 2020 | label accordé\nSprindt Technologies | Sprindt | Habib Wenish Ramzi Hamrouni Hédi Akrout | Fintech | Prélabel Mai 2020 | label accordé\nLiberrex Tunisia | Liberrex | Achraf Ammar | Logiciel | Prélabel Octobre 2020 | label accordé\nJeeby Technologies | Jeeby | Malek Zlitni Walid Bousnina Chamseddine Bezzaouia | E-commerce | Prélabel Novembre 2020 | label accordé\nBUS APP | Tchou-Tchou Your school bus tracking App | Narjes Ben Slimane | Logiciel | Prélabel Avril 2020 | label accordé\nBioagri helpers | BIOAGRIHELPERS | Syrine Baghdadi Yosr Baghdadi Mayssa Ghazel | Agritech | Prélabel Juillet 2020 | label accordé\nE W | E W | Mohamed Baazaoui | E-commerce | Prélabel Octobre 2020 | label accordé\nFLAHTIK | GENI | Mohamed RAJHI Mohamed Ali TBESSI | Agritech | Prélabel Août 2020 | label accordé"
     }
   ]
 }

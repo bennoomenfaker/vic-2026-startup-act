@@ -1,340 +1,280 @@
 {
-  "session_id": "session_2025_10",
   "session": "10/2025",
-  "year": 2025,
-  "month": 10,
-  "total_entries": 22,
-  "source": "firecrawl_md",
-  "entries": [
+  "annee": 2025,
+  "mois": 10,
+  "pdf": "session_2025_10.pdf",
+  "nb_entrees": 41,
+  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
+  "entrees": [
     {
       "societe": "PAYDAY TAKAFUL",
-      "fondateurs": "Mohamed Amour Godhour Marouan OMEZINE Shaheen Abbas",
+      "fondateurs": "Marouan OMEZZINE, Shaher Abbas",
       "secteur": "Fintech",
-      "type_label": "Label",
-      "labelType": "Label",
-      "votes_for": 7,
-      "votes_against": 0,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Label Accorde au 2 éme Tour Hassam Aartfoul a déclare avoir un confit d'interêt",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "1 ! N.A"
     },
     {
       "societe": "Eddium Platinuim",
-      "fondateurs": "Nasri Ala Aniha Yora",
-      "secteur": "Ad Tech and Creative Tech",
-      "type_label": "Label",
-      "labelType": "Label",
-      "votes_for": 6,
-      "votes_against": 1,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Label Accorde au 2 éme Tour",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "fondateurs": "Aniba Yosra, Karim Rekik",
+      "secteur": "Tech",
+      "resultat": "label accorde au 2 eme tour"
     },
     {
-      "societe": "CADUSAV",
-      "fondateurs": "Karim Reik Amir Kraal",
+      "societe": "CADUSAY",
+      "fondateurs": "",
       "secteur": "HealthTech",
-      "type_label": "Label",
-      "labelType": "Label",
-      "votes_for": 5,
-      "votes_against": 0,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Label Accorde au 2 éme Tour Meldi Nakkori a déclare avoir un confit d'interêt",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": ""
     },
     {
       "societe": "Scientiworld",
-      "fondateurs": "Mohamed Dnia Frej Safa Ben Romdhiane Khaleed Khelief",
+      "fondateurs": "Safa Ben Romdhane, Khaled Khelifi, Abdelhalim Alahoum",
       "secteur": "EdTech",
-      "type_label": "Label",
-      "labelType": "Label",
-      "votes_for": 7,
-      "votes_against": 0,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Label Accorde au 2 éme Tour",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "label accorde au 2 eme tour"
     },
     {
-      "societe": "Footlinktn",
-      "fondateurs": "Abdelhamil Alahoum Amis AKABI",
+      "societe": "Footlink.tn",
+      "fondateurs": "Anis NAJJAR, Abderrahman Jalled",
       "secteur": "HealthTech",
-      "type_label": "Label",
-      "labelType": "Label",
-      "votes_for": 4,
-      "votes_against": 0,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Label Accorde au 3 éme Tour",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "label accorde au 3 eme tour"
     },
     {
-      "societe": "One Beauty",
-      "fondateurs": "Abderrahman Jailed Rachwan Taraf Skander Duwi",
+      "societe": "One Beauty EGAMarketplace",
+      "fondateurs": "Rachwan Tarraf, Skander Ouni, Mourad Benyounes, Hichem Chouaibi, Yassine BEN GHANEM",
       "secteur": "Wellness",
-      "type_label": "Label",
-      "labelType": "Label",
-      "votes_for": 0,
-      "votes_against": 4,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Label Accorde au 3 éme Tour",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
-    },
-    {
-      "societe": "EGAMarketplace",
-      "fondateurs": "Mourad Bengounes Hichem Choumai Business and shopping",
-      "secteur": "Commerce and shopping",
-      "type_label": "Label",
-      "labelType": "Label",
-      "votes_for": 2,
-      "votes_against": 0,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Label Accorde au 3 éme Tour",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "label accorde au 3 eme tour"
     },
     {
       "societe": "Shoot",
-      "fondateurs": "Vassim BEN GHANEM Souhal BOOBI Mohau ANNEI Makaie Bey yaghane",
-      "secteur": "Business Software and services",
-      "type_label": "PreLabel",
-      "labelType": "PreLabel",
-      "votes_for": 7,
-      "votes_against": 0,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Prelabel Accorde au 2 éme Tour",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "fondateurs": "Souhail SBOUI, Marwa ANNEBI",
+      "secteur": "and services",
+      "resultat": "prelabel accorde au 2 eme tour"
     },
     {
-      "societe": "HistoryConneKion",
-      "fondateurs": "Makaie Bey yaghane HealthTech",
+      "societe": "HistoryConneXion",
+      "fondateurs": "Malek Ben yaghlane, Yassine Ahmed, Fedi Khaled",
       "secteur": "HealthTech",
-      "type_label": "PreLabel",
-      "labelType": "PreLabel",
-      "votes_for": 6,
-      "votes_against": 1,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Prelabel Accorde au 2 éme Tour",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "prelabel accorde au 2 eme tour"
     },
     {
       "societe": "Clubedge",
-      "fondateurs": "Yassime Ahmed Mohamed Fedi Mohamed Fedi MAGHREBI Achdai HADRICH",
+      "fondateurs": "Mohamed hedi MAGHREBI, Achraf HADRICH, Thaer Tafesh",
       "secteur": "Social Business",
-      "type_label": "PreLabel",
-      "labelType": "PreLabel",
-      "votes_for": 7,
-      "votes_against": 0,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Prelabel Accorde au 2 éme Tour",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "prelabel accorde au 2 eme tour"
     },
     {
       "societe": "COLEA AgriTech",
-      "fondateurs": "Theuer Taishih Katthias Wittenberger Agriculture",
+      "fondateurs": "Matthias Würtenberger, Ahmed Gargouri, Youssef Boutaleb, Moez Zouari",
       "secteur": "Agritech",
-      "type_label": "PreLabel",
-      "labelType": "PreLabel",
-      "votes_for": 7,
-      "votes_against": 0,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Prelabel Accorde au 2 éme Tour",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "prelabel accorde au 2 eme tour"
     },
     {
-      "societe": "AIVA",
-      "fondateurs": "Ahmed Gargouri Yousef Boutalei Mohamed Zozari MOHAMED ALI KHEMAKHEMI Rafik Rekhi Mohame Keliel",
+      "societe": "AIVIA",
+      "fondateurs": "MOHAMED ALI KHEMAKHEM, Rafik Rekhis",
       "secteur": "HealthTech",
-      "type_label": "PreLabel",
-      "labelType": "PreLabel",
-      "votes_for": 6,
-      "votes_against": 0,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Prelabel Accorde au 2 éme Tour Hassam Aartfoul a déclare avoir un confit d'interêt",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "prelabel accorde au 2 eme tour"
     },
     {
       "societe": "Absher AI",
-      "fondateurs": "Ghada Eladeb Yahya Samet Mohammed Hachcha Mohamed Regaya",
-      "secteur": "Business Software and services",
-      "type_label": "PreLabel",
-      "labelType": "PreLabel",
-      "votes_for": 5,
-      "votes_against": 1,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Prelabel Accorde au 2 éme Tour",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "fondateurs": "Mohamed Hachicha, Mohamed Regaya",
+      "secteur": "and services",
+      "resultat": "prelabel accorde au 2 eme tour"
     },
     {
       "societe": "SymbioWave",
-      "fondateurs": "Oussama Ben Salem Business Software and services",
-      "secteur": "Business Software and services",
-      "type_label": "PreLabel",
-      "labelType": "PreLabel",
-      "votes_for": 7,
-      "votes_against": 0,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Prelabel Accorde au 2 éme Tour",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "fondateurs": "Oussama Ben Salem, Ali Boukhris",
+      "secteur": "and services",
+      "resultat": "prelabel accorde au 2 eme tour"
     },
     {
       "societe": "Raba7ni",
-      "fondateurs": "All Boukhris salim dagdog taieb ben all Consumer products and services",
-      "secteur": "Consumer products and services",
-      "type_label": "PreLabel",
-      "labelType": "PreLabel",
-      "votes_for": 6,
-      "votes_against": 1,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Prelabel Accorde au 2 éme Tour",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "fondateurs": "salim dagdoug, taieb ben ali, Ahmed Zahaf",
+      "secteur": "Business Software",
+      "resultat": "prelabel accorde au 2 eme tour"
     },
     {
-      "societe": "Compta Smart Solution",
-      "fondateurs": "Ahmed Zahaf Mohamed Elys Bazazi Hedi Zahaf",
-      "secteur": "Business Software and services",
-      "type_label": "PreLabel",
-      "labelType": "PreLabel",
-      "votes_for": 6,
-      "votes_against": 1,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Prelabel Accorde au 2 éme Tour",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
-    },
-    {
-      "societe": "Innovia360",
-      "fondateurs": "slim zghal Kimmuz AwAJI",
-      "secteur": "Business Software and services",
-      "type_label": "PreLabel",
-      "labelType": "PreLabel",
-      "votes_for": 5,
-      "votes_against": 1,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Prelabel Accorde au 2 éme Tour",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "societe": "Compta Smart Solution innovia360",
+      "fondateurs": "Mohamed Elyas Bazazi, Hedi Zahaf, slim zghal, Momtez AYADI, Chawki Gharsellaoui, Mbarki Kabil",
+      "secteur": "and services",
+      "resultat": "prelabel accorde au 2 eme tour"
     },
     {
       "societe": "SerBot",
-      "fondateurs": "Chawka Ghanaelleoui Mbarki Himecha Anjed Weil Hein",
-      "secteur": "Advanced Manufacturing & Robotics",
-      "type_label": "PreLabel",
-      "labelType": "PreLabel",
-      "votes_for": 3,
-      "votes_against": 4,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Prelabel Accorde au 3 éme Tour",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "fondateurs": "Hmercha Amjed, Wael Hichri, Nada Mejri",
+      "secteur": "Manufacturing &",
+      "resultat": "prelabel accorde au 3 eme tour"
     },
     {
       "societe": "Cogitoly",
-      "fondateurs": "Nada Mejri Isam Melahi EdTech",
+      "fondateurs": "Issam Mellah, Rahma zbidi",
       "secteur": "EdTech",
-      "type_label": "PreLabel",
-      "labelType": "PreLabel",
-      "votes_for": 1,
-      "votes_against": 1,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Prelabel Accorde au 3 éme Tour",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "resultat": "prelabel accorde au 3 eme tour"
     },
     {
       "societe": "RMC",
-      "fondateurs": "Bharma Jadi anis Indhii KHAIL BELLAI mohamed ali Derbel AFEE5 BILEL Mahi Chira",
-      "secteur": "Advanced Manufacturing & Robotics",
-      "type_label": "Label",
-      "labelType": "Label",
-      "votes_for": 0,
-      "votes_against": 7,
-      "resultat": "unknown",
-      "recevable": "Oui",
-      "commentaires": "Label Non Accorde au 2 éme Tour",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "fondateurs": "anis hdhili, KHALIL BELLALI, mohamed ali Derbel",
+      "secteur": "Manufacturing &",
+      "resultat": "label non accorde au 2 eme tour"
     },
     {
-      "societe": "ONE ERP",
-      "fondateurs": "Mohamed Critiba Walmaklouf Business Software and services",
-      "secteur": "Label",
-      "type_label": "",
-      "labelType": "",
-      "votes_for": 8,
-      "votes_against": 0,
-      "resultat": "refused",
-      "recevable": "0",
-      "commentaires": "",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "societe": "ONE ERP Price Forging",
+      "fondateurs": "AFFES BILEL, Mahdi Chiha, Mohamed Chtiba, Walid Makhlouf",
+      "secteur": "Fintech",
+      "resultat": "label non accorde au 2 eme tour"
     },
     {
-      "societe": "Price Forging",
-      "fondateurs": "Mohamed Critiba Walmaklouf Business Software and services",
-      "secteur": "Label",
-      "type_label": "",
-      "labelType": "",
-      "votes_for": 5,
-      "votes_against": 0,
-      "resultat": "refused",
-      "recevable": "2",
-      "commentaires": "",
-      "conflit": "",
-      "is_conversion": false,
-      "is_retrait": false
+      "societe": "PERF ANALYSIS CONSULTING wedo distribution services",
+      "fondateurs": "Mohamed Ayachi, Mohamed Riahi, Radhouen Boughanmi",
+      "secteur": "and services",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Innoteam Solutions",
+      "fondateurs": "Hijen EL KHALIFI, rayen trabelsi",
+      "secteur": "EdTech",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "B-SMART GO Bid Shine",
+      "fondateurs": "Mohamed Trabelsi, Trabelsi Iyed, Taha Triki, Mejdi Dhokar, Maria Amaidi",
+      "secteur": "TravelTech",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Etudianet/Studianat",
+      "fondateurs": "Montassar Jandoubi, Hadil Ltifi",
+      "secteur": "Tech",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "tenjah",
+      "fondateurs": "Ahmed Ben Aissa, Firas Ellini",
+      "secteur": "EdTech",
+      "resultat": "label non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Encore Bon",
+      "fondateurs": "Ezzeddine Jrad, Samir AKACHI, Manel Affi",
+      "secteur": "Environment",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "XMap",
+      "fondateurs": "khouloud affi, Chedy HORCHANI",
+      "secteur": "Social Business",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "LuxePass SidiChat",
+      "fondateurs": "mohamed ben mrad, Mhimdi Mouhib, amen allah fraj, Walid Mezghani",
+      "secteur": "and services",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Vybtor Key Marketplace Next Afri Log",
+      "fondateurs": "AMANI GHEZAL, Achraf Kchaou, Mohamed Wael Daly, Dorra Haddad, Hatem Chatti",
+      "secteur": "EdTech",
+      "resultat": "prelabel non accorde au 2 eme tour"
+    },
+    {
+      "societe": "Tache-Lik",
+      "fondateurs": "Oussama Aissaoui, Yassine Cherif",
+      "secteur": "EdTech",
+      "resultat": "prelabel non accorde au 3 eme tour"
+    },
+    {
+      "societe": "TUNIAI",
+      "fondateurs": "Houssem aouedni",
+      "secteur": "",
+      "resultat": ""
+    },
+    {
+      "societe": "Bloom Venom",
+      "fondateurs": "ghanem toumi, Imen Rabeh",
+      "secteur": "HealthTech",
+      "resultat": "N.A N.A N.A vertu de l’article 4 du Décret gouvernemental n°"
+    },
+    {
+      "societe": "PreempTix PREEMPTIX",
+      "fondateurs": "Khalil Bendriss",
+      "secteur": "Security",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "TMAPS MapWay",
+      "fondateurs": "Ahmed Ben Salha, Sana Boubaker",
+      "secteur": "Business Software and services",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "SLAYTON SLAYTON",
+      "fondateurs": "Nadege Legendre, Franck Legendre, Mohamed Taha Sta",
+      "secteur": "Ad Tech and Creative Tech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "POLY ETHIONAI",
+      "fondateurs": "fares makki, Mehdi Chelbi, Stephane Rocchi",
+      "secteur": "Business Software and services",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "BIPER Therapeutics BIPER Therapeutics",
+      "fondateurs": "Cyril Ronco, Rachid Benhida, Walid Hached",
+      "secteur": "HealthTech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Senbiosys Tunisia Senbiosys Tunisia",
+      "fondateurs": "Taha Ben Mrad, yassin Guirat, ala eddine maatoug, ines msekni",
+      "secteur": "Consumer products and services",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "MedCity MedCity Connect",
+      "fondateurs": "Fadi Kacem, Mohamed Arbi Baklouti, Mounira Zouaghi, nada bougoffa, Rouissi Khaled",
+      "secteur": "HealthTech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "JeridSchool NEXT VISION SERVICES",
+      "fondateurs": "youssef degachi, Rakia JAZIRI",
+      "secteur": "EdTech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Wealthy Technology Wealthy Tech world",
+      "fondateurs": "Asma Jouini, Chahine Fersi",
+      "secteur": "HealthTech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "LKESSA Peregrine Vision Technologies",
+      "fondateurs": "Nour Saied, Fahmy Abdslem Fersi",
+      "secteur": "Business Software and services",
+      "resultat": "label accorde"
+    }
+  ],
+  "session_data": {
+    "candidatures": 41,
+    "labels": 17,
+    "preLabels": 12,
+    "taux_acceptation_pct": 41.5,
+    "statut": "conforme",
+    "retraits": 0,
+    "conversions": 0,
+    "newLabels": 17
+  },
+  "pages_text": [
+    {
+      "page": 1,
+      "text": "Startup Act | Session 79 | Octobre 2025| Compte-Rendu\nSociété\nFondateurs\nSecteur\nLabel/Prélabel\n1er Tour\n2ème  Tour\n3ème  Tour\nRésultat\nRecevabilité\nOui\nNon\nPitching\nConflit\nOui\nNon\nPAYDAY TAKAFUL\nMohamed Anouar Gadhoum\n Marouan OMEZZINE\n Shaher Abbas\nFintech\nLabel\nOui\n7\n0\n0\n1\n!\nN.A\nLabel Accordé au 2 ème Tour\nHassen Aarfaoui a déclaré avoir un conflit d'intérêt\nEddium Platinuim\nNasri Ala\n Aniba Yosra\nAd Tech and Creative \nTech\nLabel\nOui\n6\n1\n0\n0\nN.A\nN.A\nLabel Accordé au 2 ème Tour\nCADUSAY\nKarim Rekik\n Amir Knani\nHealthTech\nLabel\nOui\n5\n0\n1\n1\nN.A\nN.A\nLabel Accordé au 2 ème Tour\nMehdi Nakouri a déclaré avoir un conflit d'intérêt\nScientiworld\nMohamed Dhia Fredj\n Safa Ben Romdhane\n Khaled Khelifi\nEdTech\nLabel\nOui\n7\n0\n0\n0\nN.A\nN.A\nLabel Accordé au 2 ème Tour\nFootlink.tn\nAbdelhalim Alahoum\n Anis NAJJAR\nHealthTech\nLabel\nOui\n4\n0\n3\n0\n8\n0\nLabel Accordé au 3 ème Tour\nOne Beauty\nAbderrahman Jalled\n Rachwan Tarraf\n Skander Ouni\nWellness\nLabel\nOui\n0\n4\n3\n0\n8\n0\nLabel Accordé au 3 ème Tour\nEGAMarketplace\nMourad Benyounes\n Hichem Chouaibi\nCommerce and \nshopping\nLabel\nOui\n2\n0\n5\n0\n8\n0\nLabel Accordé au 3 ème Tour\nShoot\nYassine BEN GHANEM\n Souhail SBOUI\n Marwa ANNEBI\nBusiness Software \nand services\nPrélabel\nOui\n7\n0\n0\n0\nN.A\nN.A\nPrélabel Accordé au 2 ème Tour\nHistoryConneXion\nMalek Ben yaghlane\nHealthTech\nPrélabel\nOui\n6\n1\n0\n0\nN.A\nN.A\nPrélabel Accordé au 2 ème Tour\nClubedge\nYassine Ahmed\n Fedi Khaled\n Mohamed hedi MAGHREBI\n Achraf HADRICH\nSocial Business\nPrélabel\nOui\n7\n0\n0\n0\nN.A\nN.A\nPrélabel Accordé au 2 ème Tour\nCOLEA AgriTech\nThaer Tafesh\n Matthias Würtenberger\nAgritech\nPrélabel\nOui\n7\n0\n0\n0\nN.A\nN.A\nPrélabel Accordé au 2 ème Tour\nAIVIA\nAhmed Gargouri\n Youssef Boutaleb\n Moez Zouari\n MOHAMED ALI KHEMAKHEM\n Rafik Rekhis\n Manel Kallel\nHealthTech\nPrélabel\nOui\n6\n0\n0\n1\nN.A\nN.A\nPrélabel Accordé au 2 ème Tour\nHassen Aarfaoui a déclaré avoir un conflit d'intérêt\nAbsher AI\nGhada Eladeb\n Yahya Samet\n Mohamed Hachicha\n Mohamed Regaya\nBusiness Software \nand services\nPrélabel\nOui\n5\n1\n1\n0\nN.A\nN.A\nPrélabel Accordé au 2 ème Tour\nSymbioWave\nOussama Ben Salem\nBusiness Software \nand services\nPrélabel\nOui\n7\n0\n0\n0\nN.A\nN.A\nPrélabel Accordé au 2 ème Tour\nRaba7ni\nAli Boukhris\n salim dagdoug\n taieb ben ali\nConsumer products \nand services\nPrélabel\nOui\n6\n1\n0\n0\nN.A\nN.A\nPrélabel Accordé au 2 ème Tour\nCompta Smart Solution\nAhmed Zahaf\n Mohamed Elyas Bazazi\n Hedi Zahaf\nBusiness Software \nand services\nPrélabel\nOui\n6\n1\n0\n0\nN.A\nN.A\nPrélabel Accordé au 2 ème Tour\ninnovia360\nslim zghal\n Momtez AYADI\nBusiness Software \nand services\nPrélabel\nOui\n5\n1\n1\n0\nN.A\nN.A\nPrélabel Accordé au 2 ème Tour\nSerBot\nChawki Gharsellaoui\n Mbarki Kabil\n Hmercha Amjed\n Wael Hichri\nAdvanced \nManufacturing & \nRobotics\nPrélabel\nOui\n3\n4\n0\n0\n8\n0\nPrélabel Accordé au 3 ème Tour\nCogitoly\nNada Mejri\n Issam Mellah\nEdTech\nPrélabel\nOui\n1\n1\n5\n0\n7\n1\nPrélabel Accordé au 3 ème Tour\nRMC\nRahma zbidi\n anis hdhili\n KHALIL BELLALI\nAdvanced \nManufacturing & \nRobotics\nLabel\nOui\n0\n7\n1\n0\nN.A\nN.A\nLabel Non Accordé au 2 ème Tour\nONE ERP\nmohamed ali Derbel\n AFFES BILEL\n Mahdi Chiha\nFintech\nLabel\nOui\n0\n8\n0\n0\nN.A\nN.A\nLabel Non Accordé au 2 ème Tour\nPrice Forging\nMohamed Chtiba\n Walid Makhlouf\nBusiness Software \nand services\nLabel\nOui\n2\n5\n0\n0\nN.A\nN.A\nLabel Non Accordé au 2 ème Tour\n"
+    },
+    {
+      "page": 2,
+      "text": "PERF ANALYSIS CONSULTING\nMohamed Ayachi\nBusiness Software \nand services\nLabel\nOui\n0\n6\n1\n0\nN.A\nN.A\nLabel Non Accordé au 2 ème Tour\nwedo distribution services\nMohamed Riahi\nConsumer products \nand services\nLabel\nOui\n0\n7\n0\n0\nN.A\nN.A\nLabel Non Accordé au 2 ème Tour\nInnoteam Solutions\nRadhouen Boughanmi\n Hijen EL KHALIFI\nEdTech\nLabel\nOui\n0\n7\n0\n0\nN.A\nN.A\nLabel Non Accordé au 2 ème Tour\nB-SMART GO\nrayen trabelsi\n Mohamed Trabelsi\n Trabelsi Iyed\nTravelTech\nLabel\nOui\n0\n7\n0\n0\nN.A\nN.A\nLabel Non Accordé au 2 ème Tour\nBid Shine\nTaha Triki\n Mejdi Dhokar\nBusiness Software \nand services\nLabel\nOui\n0\n7\n0\n0\nN.A\nN.A\nLabel Non Accordé au 2 ème Tour\nEtudianet/Studianat\nMaria Amaidi\n Montassar Jandoubi\n Hadil Ltifi\nAd Tech and Creative \nTech\nLabel\nOui\n0\n7\n0\n0\nN.A\nN.A\nLabel Non Accordé au 2 ème Tour\ntenjah\nAhmed Ben Aissa\nEdTech\nLabel\nOui\n0\n7\n0\n0\nN.A\nN.A\nLabel Non Accordé au 2 ème Tour\nEncore Bon\nFiras Ellini\n Ezzeddine Jrad\nEnvironment\nPrélabel\nOui\n0\n7\n0\n0\nN.A\nN.A\nPrélabel Non Accordé au 2 ème Tour\nXMap\nSamir AKACHI\n Manel Affi\n khouloud affi\n Chedy HORCHANI\nSocial Business\nPrélabel\nOui\n0\n6\n1\n0\nN.A\nN.A\nPrélabel Non Accordé au 2 ème Tour\nLuxePass\nmohamed ben mrad\nBusiness Software \nand services\nPrélabel\nOui\n0\n7\n0\n0\nN.A\nN.A\nPrélabel Non Accordé au 2 ème Tour\nSidiChat\nMhimdi Mouhib\n amen allah fraj\nBusiness Software \nand services\nPrélabel\nOui\n0\n7\n0\n0\nN.A\nN.A\nPrélabel Non Accordé au 2 ème Tour\nVybtor\nWalid Mezghani\n AMANI GHEZAL\n Achraf Kchaou\nEdTech\nPrélabel\nOui\n1\n5\n1\n0\nN.A\nN.A\nPrélabel Non Accordé au 2 ème Tour\nKey Marketplace\nMohamed Wael Daly\n Dorra Haddad\nCommerce and \nshopping\nPrélabel\nOui\n0\n7\n0\n0\nN.A\nN.A\nPrélabel Non Accordé au 2 ème Tour\nNext Afri Log\nHatem Chatti\n Mohamed touijer\nBusiness Software \nand services\nPrélabel\nOui\n4\n1\n1\n1\n0\n6\nPrélabel Non Accordé au 3 ème Tour\nHassen Aarfaoui a déclaré avoir un conflit d'intérêt\nTache-Lik\nMohamed Abidi\n Oussama Aissaoui\n Yassine Cherif\nEdTech\nPrélabel\nOui\n3\n2\n2\n0\n4\n5\nPrélabel Non Accordé au 3 ème Tour\nTUNIAI\nHoussem aouedni\nBusiness Software \nand services\nPrélabel\nOui\n1\n3\n2\n1\n0\n7\nPrélabel Non Accordé au 3 ème Tour\nHassen Aarfaoui a déclaré avoir un conflit d'intérêt\nBloom Venom\nissam hmandi\n ghanem toumi\n Imen Rabeh\nHealthTech\nLabel\nNon\nN.A\nN.A\nN.A\nN.A\nN.A\nN.A\n Label Non Accordé au 1 er Tour pour présentation de \ndocuments des états financiers des deux derniers \nexercices précédents (2023et 2024) non conformes \naux exigences légales. Ces Documents sont exigés en \nvertu de l’article 4 du Décret gouvernemental n°\n2018-840 du 11 octobre\n2018 et requis pour la vérification de la\ncondition stipulée au point 2 de l’article 3 de\nla loi n°2018-20 du 17 avril 2018\nEduImpact.tn\nJilani Garraoui\nHealthTech\nLabel\nNon\nN.A\nN.A\nN.A\nN.A\nN.A\nN.A\n Label Non Accordé au 1 er Tour pour non soumission \nde documents des états financiers de L’exercice \n2024. Ces Documents sont exigés en vertu de l’article \n4 du Décret gouvernemental n°2018-840 du 11 \noctobre\n2018 et requis pour la vérification de la\ncondition stipulée au point 2 de l’article 3 de\nla loi n°2018-20 du 17 avril 2018\nARTROK\nFeres Messaoudi\nCommerce and \nshopping\nLabel\nNon\nN.A\nN.A\nN.A\nN.A\nN.A\nN.A\n Label Non Accordé au 1 er Tour pour non soumission \nde documents des états financiers de L’exercice \n2024. Ces Documents sont exigés en vertu de l’article \n4 du Décret gouvernemental n°2018-840 du 11 \noctobre\n2018 et requis pour la vérification de la\ncondition stipulée au point 2 de l’article 3 de\nla loi n°2018-20 du 17 avril 2018\n"
+    },
+    {
+      "page": 3,
+      "text": "Passage de Prélabels aux Labels\nProjet\nSociété\nFondateurs\nSecteur\nSession d'obtention \ndu Prélabel\nRésultat\nCommentaires\nPreempTix\nPREEMPTIX \nKhaled BEN DRISS\nKhalil Bendriss\nSecurity\nJuin 2025\nLabel accordé\nLabel accordé suite à la création de la Startup et le respect des conditions d'octroi\nTMAPS\nMapWay\nAhmed Ben Salha\nBusiness Software and services\nMai 2025\nLabel accordé\nLabel accordé suite à la création de la Startup et le respect des conditions d'octroi\nSLAYTON\nSLAYTON\nSana Boubaker\nNadege Legendre\nFranck Legendre\nAd Tech and Creative Tech\nSeptembre 2024\nLabel accordé\nLabel accordé suite à la création de la Startup et le respect des conditions d'octroi\nPOLY\nETHIONAI\nMohamed Taha Sta\nfares makki\nBusiness Software and services\nJuillet 2025\nLabel accordé\nLabel accordé suite à la création de la Startup et le respect des conditions d'octroi\nBIPER Therapeutics\nBIPER Therapeutics\nMehdi Chelbi\nStephane Rocchi\nCyril Ronco\nRachid Benhida\nHealthTech\nMai 2025\nLabel accordé\nLabel accordé suite à la création de la Startup et le respect des conditions d'octroi\nSenbiosys Tunisia\nSenbiosys Tunisia\nWalid Hached\nTaha Ben Mrad\nConsumer products and services\nMai 2025\nLabel accordé\nLabel accordé suite à la création de la Startup et le respect des conditions d'octroi\nMedCity\nMedCity Connect\nyassin Guirat\nala eddine maatoug\nines msekni\nFadi Kacem\nMohamed Arbi Baklouti\nMounira Zouaghi\nnada bougoffa\nHealthTech\nJuillet 2025\nLabel accordé\nLabel accordé suite à la création de la Startup et le respect des conditions d'octroi\nJeridSchool\nNEXT VISION SERVICES\nRouissi Khaled\nyoussef degachi\nEdTech\nJuin 2025\nLabel accordé\nLabel accordé suite à la création de la Startup et le respect des conditions d'octroi\nWealthy Technology\nWealthy Tech world\nRakia JAZIRI\nAsma Jouini\nHealthTech\nJuin 2025\nLabel accordé\nLabel accordé suite à la création de la Startup et le respect des conditions d'octroi\nLKESSA\nPeregrine Vision Technologies\nChahine Fersi\nNour Saied\nFahmy Abdslem Fersi\nBusiness Software and services\nMai 2025\nLabel accordé\nLabel accordé suite à la création de la Startup et le respect des conditions d'octroi\nRetraits Labels\nSociété\nSecteur\nSession d'obtention \ndu Label\nDécision\nCommentaires\nMETHANIA INDUSTRIES (SA)\nEnergie\navril 2019\nRetrait du Label\nLa société a dépassé l'âge maximum de 8 ans fixé par \nla loi 20-2018 pour les sociétés bénéficiaires du Label\neDream commerce\nE-commerce\naoût 2019\nRetrait du Label\nLa société a dépassé l'âge maximum de 8 ans fixé par \nla loi 20-2018 pour les sociétés bénéficiaires du Label\nKalys Distribution\nE-commerce\njanvier 2020\nRetrait du Label\nLa société a dépassé l'âge maximum de 8 ans fixé par \nla loi 20-2018 pour les sociétés bénéficiaires du Label\n"
     }
   ]
 }
