@@ -978,6 +978,7 @@
     </div>
     <div class="nav-links" id="navLinks">
       <a href="#" class="active" data-page="dashboard">📊 Dashboard</a>
+      <a href="#" data-page="advanced-dashboard">📈 Dashboard Avancé</a>
       <div class="dropdown" data-dd>
         <button type="button" class="dropdown-toggle">📈 Données</button>
         <div class="dropdown-menu">
@@ -1070,6 +1071,40 @@
     <div class="chart-grid">
       <div class="chart-card"><h3>Cumul des labels et pré-labels (KPI-27)</h3><div class="chart-wrapper"><canvas id="chartCumul"></canvas></div></div>
       <div class="chart-card"><h3>Âge des startups à la labellisation (KPI-32)</h3><div class="chart-wrapper"><canvas id="chartAgeLabel"></canvas></div></div>
+    </div>
+  </section>
+
+  <!-- ADVANCED DASHBOARD -->
+  <section id="page-advanced-dashboard">
+    <div class="page-header">
+      <div class="dash-hero">
+        <div class="dash-hero-text">
+          <h1>Dashboard Avancé — Données Extraites</h1>
+          <p>Visualisations interactives basées sur les 85 JSON de session · 2 958 candidatures · 1 311 labels · 623 pré-labels</p>
+        </div>
+      </div>
+    </div>
+    <div id="advKpis" class="kpi-grid" style="margin-bottom:20px"></div>
+    <div class="chart-grid">
+      <div class="chart-card" style="grid-column:span 2"><h3>📈 Évolution annuelle — Labels vs Pré-labels vs Candidatures</h3><div class="chart-wrapper"><canvas id="advChartYearly"></canvas></div></div>
+    </div>
+    <div class="chart-grid">
+      <div class="chart-card"><h3>🏢 Top 10 Secteurs</h3><div class="chart-wrapper"><canvas id="advChartSectors"></canvas></div></div>
+      <div class="chart-card"><h3>📊 Répartition des Décisions</h3><div class="chart-wrapper"><canvas id="advChartDecisions"></canvas></div></div>
+    </div>
+    <div class="chart-grid">
+      <div class="chart-card"><h3>📅 Labels par mois (saisonnalité)</h3><div class="chart-wrapper"><canvas id="advChartMonthly"></canvas></div></div>
+      <div class="chart-card"><h3>🔄 Funnel Conversion Prélabel → Label</h3><div class="chart-wrapper"><canvas id="advChartFunnel"></canvas></div></div>
+    </div>
+    <div class="chart-grid">
+      <div class="chart-card" style="grid-column:span 2"><h3>🏷️ Nuage de Mots — Noms des Startups</h3><div id="advWordCloud" style="width:100%;height:350px;position:relative;overflow:hidden;background:#fafbfc;border-radius:8px"></div></div>
+    </div>
+    <div class="chart-grid">
+      <div class="chart-card" style="grid-column:span 2"><h3>🧠 Carte Mentale — Écosystème Startup Act</h3><div id="advMindMap" style="width:100%;height:500px;position:relative;overflow:auto;background:#fafbfc;border-radius:8px"></div></div>
+    </div>
+    <div class="chart-grid">
+      <div class="chart-card"><h3>⚡ Taux de Succès par Année</h3><div class="chart-wrapper"><canvas id="advChartSuccess"></canvas></div></div>
+      <div class="chart-card"><h3>🏷️ Répartition Label vs Pré-label par Année</h3><div class="chart-wrapper"><canvas id="advChartLabelType"></canvas></div></div>
     </div>
   </section>
 
@@ -2504,6 +2539,7 @@ function switchPage(page) {
   if (page === 'impact') setTimeout(renderImpactCharts, 200);
   if (page === 'kpis') renderKpiCatalogue();
   if (page === 'extracted-data') setTimeout(renderExtractedData, 200);
+  if (page === 'advanced-dashboard') setTimeout(renderAdvancedDashboard, 200);
   document.getElementById('navLinks')?.classList.remove('open');
   document.getElementById('navToggle')?.classList.remove('active');
   document.getElementById('page-' + page)?.scrollIntoView({behavior:'smooth'});
@@ -3623,6 +3659,218 @@ function filterPdfs(q) {
       grid.appendChild(msg);
     }
   } else if (msg) msg.remove();
+}
+
+// ===== DASHBOARD AVANCE =====
+let advDataCache = null;
+
+function renderAdvancedDashboard() {
+  if (advDataCache) { renderAdvCharts(); return; }
+  fetch('/api/session-json').then(r => r.json()).then(async files => {
+    const dataMap = {};
+    await Promise.all(files.map(async f => {
+      try { dataMap[f] = await fetch('/api/session-json/' + f).then(r => r.json()); }
+      catch(e) { dataMap[f] = null; }
+    }));
+    const sessions = [];
+    const allEntries = [];
+    files.forEach(f => {
+      const d = dataMap[f]; if (!d) return;
+      const m = f.match(/session_(\d{4})_(\d{2})\.json/);
+      if (!m) return;
+      const sess = m[2] + '/' + m[1];
+      const sd = d.session_data || {};
+      sessions.push({ session: sess, year: parseInt(m[1]), month: parseInt(m[2]), ...sd });
+      (d.entrees || []).forEach(e => { e._session = sess; e._year = parseInt(m[1]); allEntries.push(e); });
+    });
+    advDataCache = { sessions, allEntries };
+    renderAdvCharts();
+  });
+}
+
+function normRes(r) {
+  if (!r) return 'unknown';
+  const t = r.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  if (t.includes('irrecevable')) return 'irrecevable';
+  if (t.includes('retrait')) return 'retrait';
+  if (t.includes('label') && !t.includes('pre') && !t.includes('non')) return 'label';
+  if (t.includes('prelabel') && !t.includes('non')) return 'prelabel';
+  if (t.includes('label') && t.includes('non')) return 'refused';
+  if (t.includes('prelabel') && t.includes('non')) return 'refused';
+  if (t.includes('accorde') && !t.includes('non')) return 'label';
+  if (t.includes('non accord')) return 'refused';
+  return 'unknown';
+}
+
+function renderAdvCharts() {
+  if (!advDataCache) return;
+  const { sessions, allEntries } = advDataCache;
+
+  // KPIs
+  const totalC = sessions.reduce((s, d) => s + (d.candidatures || 0), 0);
+  const totalL = sessions.reduce((s, d) => s + (d.labels || 0), 0);
+  const totalP = sessions.reduce((s, d) => s + (d.preLabels || 0), 0);
+  const totalR = sessions.reduce((s, d) => s + (d.retraits || 0), 0);
+  const totalConv = sessions.reduce((s, d) => s + (d.conversions || 0), 0);
+  const taux = totalC ? (totalL / totalC * 100).toFixed(1) : 0;
+
+  document.getElementById('advKpis').innerHTML = [
+    ['📋', totalC, 'candidatures'], ['✅', totalL, 'labels'], ['🟠', totalP, 'pré-labels'],
+    ['🔁', totalConv, 'conversions'], ['⛔', totalR, 'retraits'], ['📊', taux + '%', 'taux succès']
+  ].map(([i, n, l]) => '<div class="kpi-card"><div class="kpi-head"><span class="kpi-icon">' + i + '</span></div><div class="kpi-label">' + l + '</div><div class="kpi-value">' + (typeof n === 'number' ? n.toLocaleString('fr-FR') : n) + '</div></div>').join('');
+
+  // Yearly evolution
+  const years = [...new Set(sessions.map(s => s.year))].sort();
+  const yearData = years.map(y => {
+    const ys = sessions.filter(s => s.year === y);
+    return { year: y, c: ys.reduce((s, d) => s + (d.candidatures || 0), 0), l: ys.reduce((s, d) => s + (d.labels || 0), 0), p: ys.reduce((s, d) => s + (d.preLabels || 0), 0) };
+  });
+  new Chart(document.getElementById('advChartYearly'), {
+    type: 'bar', data: {
+      labels: yearData.map(d => d.year),
+      datasets: [
+        { label: 'Candidatures', data: yearData.map(d => d.c), backgroundColor: 'rgba(59,130,246,0.3)', borderColor: '#3b82f6', borderWidth: 2, order: 2 },
+        { label: 'Labels', data: yearData.map(d => d.l), backgroundColor: '#22c55e', borderRadius: 4, order: 1 },
+        { label: 'Pré-labels', data: yearData.map(d => d.p), backgroundColor: '#f59e0b', borderRadius: 4, order: 1 }
+      ]
+    }, options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'top' } }, scales: { y: { beginAtZero: true } } }
+  });
+
+  // Top sectors
+  const sectorCount = {};
+  allEntries.forEach(e => { const s = (e.secteur || 'N/A').trim(); sectorCount[s] = (sectorCount[s] || 0) + 1; });
+  const topSectors = Object.entries(sectorCount).sort((a, b) => b[1] - a[1]).slice(0, 10);
+  new Chart(document.getElementById('advChartSectors'), {
+    type: 'bar', data: {
+      labels: topSectors.map(s => s[0]),
+      datasets: [{ label: 'Startups', data: topSectors.map(s => s[1]), backgroundColor: ['#3b82f6', '#22c55e', '#f59e0b', '#ef4444', '#8b5cf6', '#06b6d4', '#f97316', '#ec4899', '#14b8a6', '#6366f1'] }]
+    }, options: { indexAxis: 'y', responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } } }
+  });
+
+  // Decision donut
+  const decCount = { label: 0, prelabel: 0, refused: 0, irrecevable: 0, unknown: 0 };
+  allEntries.forEach(e => { decCount[normRes(e.resultat)] = (decCount[normRes(e.resultat)] || 0) + 1; });
+  new Chart(document.getElementById('advChartDecisions'), {
+    type: 'doughnut', data: {
+      labels: ['Labels', 'Pré-labels', 'Refusés', 'Irrecevables', 'Inconnus'],
+      datasets: [{ data: [decCount.label, decCount.prelabel, decCount.refused, decCount.irrecevable, decCount.unknown], backgroundColor: ['#22c55e', '#f59e0b', '#ef4444', '#6b7280', '#d1d5db'] }]
+    }, options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'right' } } }
+  });
+
+  // Monthly seasonality
+  const months = ['Jan', 'Fév', 'Mar', 'Avr', 'Mai', 'Jun', 'Jul', 'Aoû', 'Sep', 'Oct', 'Nov', 'Déc'];
+  const monthLabels = Array(12).fill(0);
+  sessions.forEach(s => { if (s.month >= 1 && s.month <= 12) monthLabels[s.month - 1] += (s.labels || 0); });
+  new Chart(document.getElementById('advChartMonthly'), {
+    type: 'line', data: {
+      labels: months,
+      datasets: [{ label: 'Labels', data: monthLabels, borderColor: '#22c55e', backgroundColor: 'rgba(34,197,94,0.1)', fill: true, tension: 0.4 }]
+    }, options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } } }
+  });
+
+  // Funnel
+  const funnelData = [
+    { label: 'Candidatures', value: totalC, color: '#3b82f6' },
+    { label: 'Labels', value: totalL, color: '#22c55e' },
+    { label: 'Pré-labels', value: totalP, color: '#f59e0b' },
+    { label: 'Conversions', value: totalConv, color: '#8b5cf6' }
+  ];
+  new Chart(document.getElementById('advChartFunnel'), {
+    type: 'bar', data: {
+      labels: funnelData.map(d => d.label),
+      datasets: [{ data: funnelData.map(d => d.value), backgroundColor: funnelData.map(d => d.color), borderRadius: 6 }]
+    }, options: { indexAxis: 'y', responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } } }
+  });
+
+  // Word Cloud
+  renderWordCloud(allEntries);
+
+  // Mind Map
+  renderMindMap(sessions, allEntries);
+
+  // Success rate by year
+  const successData = yearData.map(d => ({ year: d.year, rate: d.c ? (d.l / d.c * 100).toFixed(1) : 0 }));
+  new Chart(document.getElementById('advChartSuccess'), {
+    type: 'line', data: {
+      labels: successData.map(d => d.year),
+      datasets: [{ label: 'Taux succès %', data: successData.map(d => d.rate), borderColor: '#3b82f6', backgroundColor: 'rgba(59,130,246,0.1)', fill: true, tension: 0.4 }]
+    }, options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true, max: 100 } } }
+  });
+
+  // Label type by year
+  new Chart(document.getElementById('advChartLabelType'), {
+    type: 'bar', data: {
+      labels: yearData.map(d => d.year),
+      datasets: [
+        { label: 'Labels', data: yearData.map(d => d.l), backgroundColor: '#22c55e', borderRadius: 4 },
+        { label: 'Pré-labels', data: yearData.map(d => d.p), backgroundColor: '#f59e0b', borderRadius: 4 }
+      ]
+    }, options: { responsive: true, maintainAspectRatio: false, scales: { x: { stacked: true }, y: { stacked: true, beginAtZero: true } } }
+  });
+}
+
+function renderWordCloud(entries) {
+  const container = document.getElementById('advWordCloud');
+  const freq = {};
+  entries.forEach(e => { const n = (e.societe || '').trim(); if (n && n.length > 2) freq[n] = (freq[n] || 0) + 1; });
+  const sorted = Object.entries(freq).sort((a, b) => b[1] - a[1]).slice(0, 80);
+  const maxF = sorted.length ? sorted[0][1] : 1;
+  const colors = ['#3b82f6', '#22c55e', '#f59e0b', '#ef4444', '#8b5cf6', '#06b6d4', '#f97316', '#ec4899'];
+  const html = sorted.map(([name, count], i) => {
+    const size = 12 + (count / maxF) * 28;
+    const color = colors[i % colors.length];
+    const opacity = 0.5 + (count / maxF) * 0.5;
+    const rotate = (Math.random() - 0.5) * 20;
+    return '<span style="display:inline-block;margin:4px 8px;font-size:' + size + 'px;color:' + color + ';opacity:' + opacity + ';transform:rotate(' + rotate + 'deg);font-weight:' + (count > 1 ? '700' : '400') + ';cursor:default" title="' + name + ': ' + count + ' fois">' + name + '</span>';
+  }).join(' ');
+  container.innerHTML = '<div style="padding:16px;text-align:center;line-height:1.8">' + html + '</div>';
+}
+
+function renderMindMap(sessions, entries) {
+  const container = document.getElementById('advMindMap');
+  const sectors = {};
+  entries.forEach(e => { const s = (e.secteur || 'N/A').trim(); sectors[s] = (sectors[s] || 0) + 1; });
+  const topS = Object.entries(sectors).sort((a, b) => b[1] - a[1]).slice(0, 8);
+  const years = [...new Set(sessions.map(s => s.year))].sort();
+  const yearStats = years.map(y => {
+    const ys = sessions.filter(s => s.year === y);
+    return { year: y, l: ys.reduce((s, d) => s + (d.labels || 0), 0), p: ys.reduce((s, d) => s + (d.preLabels || 0), 0) };
+  });
+
+  const cx = 400, cy = 250;
+  let svg = '<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">';
+  svg += '<circle cx="' + cx + '" cy="' + cy + '" r="60" fill="#1e40af" stroke="#3b82f6" stroke-width="3"/>';
+  svg += '<text x="' + cx + '" y="' + cy + '" text-anchor="middle" dy="5" fill="white" font-size="13" font-weight="700">Startup Act</text>';
+
+  // Sectors branch (right)
+  const sectorAngle = (Math.PI * 2) / topS.length;
+  topS.forEach(([name, count], i) => {
+    const angle = -Math.PI / 2 + i * sectorAngle;
+    const x = cx + 200 * Math.cos(angle);
+    const y = cy + 200 * Math.sin(angle);
+    const r = 15 + (count / topS[0][1]) * 25;
+    svg += '<line x1="' + cx + '" y1="' + cy + '" x2="' + x + '" y2="' + y + '" stroke="#dbeafe" stroke-width="2"/>';
+    svg += '<circle cx="' + x + '" cy="' + y + '" r="' + r + '" fill="#3b82f6" opacity="0.85"/>';
+    svg += '<text x="' + x + '" y="' + (y - r - 5) + '" text-anchor="middle" fill="#1e3a8a" font-size="10" font-weight="600">' + name.slice(0, 15) + '</text>';
+    svg += '<text x="' + x + '" y="' + (y + 4) + '" text-anchor="middle" fill="white" font-size="11" font-weight="700">' + count + '</text>';
+  });
+
+  // Year branch (bottom)
+  yearStats.forEach((ys, i) => {
+    const x = 100 + i * 85;
+    const y = cy + 180;
+    svg += '<line x1="' + cx + '" y1="' + cy + '" x2="' + x + '" y2="' + y + '" stroke="#fce7f3" stroke-width="2"/>';
+    svg += '<rect x="' + (x - 30) + '" y="' + (y - 15) + '" width="60" height="30" rx="6" fill="#ec4899" opacity="0.85"/>';
+    svg += '<text x="' + x + '" y="' + (y + 4) + '" text-anchor="middle" fill="white" font-size="10" font-weight="700">' + ys.year + '</text>';
+    svg += '<text x="' + x + '" y="' + (y + 28) + '" text-anchor="middle" fill="#be185d" font-size="9">' + ys.l + 'L ' + ys.p + 'P</text>';
+  });
+
+  // Title labels
+  svg += '<text x="720" y="30" text-anchor="middle" fill="#64748b" font-size="11" font-weight="600">Secteurs</text>';
+  svg += '<text x="400" y="490" text-anchor="middle" fill="#64748b" font-size="11" font-weight="600">Évolution annuelle</text>';
+
+  svg += '</svg>';
+  container.innerHTML = svg;
 }
 
 // ===== DONNEES EXTRAITES (85 PDFs) =====
