@@ -23,3 +23,9 @@ public/data/pdf-text-recheck/
 
 
 public/data/session-pdfs-json.bak/
+
+# Extraction freebuff (PyMuPDF) — format texte brut, moins utile que .firecrawl (pipe tables)
+/tmp/freebuff/
+
+# Extraction agy raw JSON — texte brut sans parsing structuré (0 entries)
+public/data/agy/

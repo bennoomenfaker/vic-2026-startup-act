@@ -1,0 +1,40 @@
+{
+  "session_id": "session_2023_07",
+  "session": "07/2023",
+  "year": 2023,
+  "month": 7,
+  "total_entries": 2,
+  "source": "firecrawl_md",
+  "entries": [
+    {
+      "societe": "Arès",
+      "fondateurs": "Ahmed Souissi Zaineb Gabsi Saafi Khalil Younes Mezen",
+      "secteur": "EdTech",
+      "type_label": "PreLabel",
+      "labelType": "PreLabel",
+      "votes_for": 2,
+      "votes_against": 5,
+      "resultat": "unknown",
+      "recevable": "Oui",
+      "commentaires": "Prélabel Non accordé Prélabel Non accordé dès le 2ème tour",
+      "conflit": "",
+      "is_conversion": false,
+      "is_retrait": false
+    },
+    {
+      "societe": "MSSYNDIC.com",
+      "fondateurs": "Sami Marouani",
+      "secteur": "Consumer products and services",
+      "type_label": "PreLabel",
+      "labelType": "PreLabel",
+      "votes_for": 0,
+      "votes_against": 0,
+      "resultat": "unknown",
+      "recevable": "Oui",
+      "commentaires": "Prélabel Non accordé Prélabel Non accordé suite au pitching",
+      "conflit": "",
+      "is_conversion": false,
+      "is_retrait": false
+    }
+  ]
+}
