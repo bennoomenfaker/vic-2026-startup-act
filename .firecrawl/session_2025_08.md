@@ -1,0 +1,184 @@
+**Startup Act | Session 77 | Août 2025| Compte-Rendu**
+
+| Société | Fondateurs | Secteur | Label/Prélabel | 1er Tour |  | 2ème Tour |  |  | 6ème Tour |  | Résultat |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Société | Fondateurs | Secteur | Label/Prélabel | Recevabilité | Oui | Non | Pitching | Conflit | Oui | Non | Résultat |
+| Karhabt.app | Amina Chouchane Adrien Mrad | Business Software and services | Label | Oui | 6 | 1 | 0 | 0 | N.A | N.A | Label Accordé au 2 éme Tour |
+| Dawwerni | Mohsen Fennira | Business Software and services | Label | Oui | 6 | 0 | 0 | 0 | N.A | N.A | Label Accordé au 2 éme Tour |
+| Deepic | Ahmad Ghazli BLAIECH Amri Bouden Khajoua (BRAKI) | HealthTech | Label | Oui | 5 | 1 | 0 | 0 | N.A | N.A | Label Accordé au 2 éme Tour |
+| WELLNESS HUB | YOUSEF BOUSSAA D | Wellness | Label | Oui | 2 | 3 | 3 | 0 | 5 | 2 | Label Accordé au 3 éme Tour |
+| Doxaria | wesam Mizadi Ghassen Bettieb Kales Lamri | Business Software and services | Label | Oui | 3 | 2 | 2 | 0 | 6 | 1 | Label Accordé au 3 éme Tour |
+| Sté Green Nonwoven VISINE G N V | wael cambah | Environment | Label | Oui | 3 | 4 | 0 | 0 | 5 | 4 | Label Accordé au 3 éme Tour |
+| Tak Tak | Alaa BEN SAID Sonia Najjar Mohamed Aztz Ben Said | Mobility | Prélabel | Oui | 5 | 1 | 0 | 0 | N.A | N.A | Prélabel Accordé au 2 éme Tour |
+| Talifouni+ | Baha Kaabouil | Business Software and services | Prélabel | Oui | 6 | 0 | 0 | 0 | N.A | N.A | Prélabel Accordé au 2 éme Tour |
+| Rhizome | Adlene Bouderbala | HealthTech | Prélabel | Oui | 5 | 0 | 0 | 0 | N.A | N.A | Prélabel Accordé au 2 éme Tour |
+| Hanoutik | Mohamed Yasine Derbel Adem Bouatay Mohammed Ben Abdelhafid | Business Software and services | Prélabel | Oui | 5 | 0 | 1 | 0 | N.A | N.A | Prélabel Accordé au 2 éme Tour |
+| Erpy | Ail Nasr | Business Software and services | Prélabel | Oui | 6 | 0 | 0 | 0 | N.A | N.A | Prélabel Accordé au 2 éme Tour |
+| Play and Code | Taha Jassi ramma et wah ep jasi Kurun JASSI | Edtech | Prélabel | Oui | 3 | 4 | 0 | 0 | 6 | 1 | Prélabel Accordé au 3 éme Tour |
+| OraNext AI | Aymen Yahyoul Mahke Boughdin Ineh Chrabil Rami Heoff | Advanced Manufacturing &amp; Booths | Prélabel | Oui | 1 | 1 | 5 | 0 | 7 | 0 | Prélabel Accordé au 3 éme Tour |
+| Park &amp; Charge | Zaid Duraful Ghassen Chattouna | Mobility | Prélabel | Oui | 3 | 4 | 0 | 0 | 7 | 0 | Prélabel Accordé au 3 éme Tour |
+| Fast Help | Maek hassine | HealthTech | Prélabel | Oui | 2 | 1 | 4 | 0 | 7 | 0 | Prélabel Accordé au 3 éme Tour |
+| CLUBI | kaies bedou Aymen BEDOUI Kales Bedou | Consumer products and services | Label | Oui | 0 | 8 | 0 | 0 | N.A | N.A | Label Non Accordé au 2 éme Tour |
+| Ordering Dashboard Solution (DOS) | Houssem Charsali | FoodTech &amp; New Food | Label | Oui | 0 | 6 | 0 | 0 | N.A | N.A | Label Non Accordé au 2 éme Tour |
+| MData One | Omar iSMAIL Arafat Sibel Shimran HAMOUT Mohamed Tayeb Makni | Business Software and services | Label | Oui | 0 | 6 | 0 | 0 | N.A | N.A | Label Non Accordé au 2 éme Tour |
+| DoWell | Med Amine Ladib Eyes Milawh | HealthTech | Label | Oui | 0 | 5 | 2 | 0 | N.A | N.A | Label Non Accordé au 2 éme Tour |
+| Te Quero | daal Chached Trabeker Wardine | Business Software and services | Label | Oui | 0 | 5 | 1 | 0 | N.A | N.A | Label Non Accordé au 2 éme Tour |
+| Exposia | Ilyss Almmed Gussama Belaid Guzeni | Edtech | Label | Oui | 0 | 6 | 0 | 0 | N.A | N.A | Label Non Accordé au 2 éme Tour |
+| Habitz | Issam Bouhouch | Real Estate Tech | Label | Oui | 0 | 6 | 0 | 0 | N.A | N.A | Label Non Accordé au 2 éme Tour |
+
+---
+
+|2 2 3 1 4|3 4 4 4 3|3 1|0|0|7|Label Non Accordé au 3 ème Tour|
+|---|---|---|---|---|---|---|
+||||0|1|6|Label Non Accordé au 3 ème Tour|
+|||0|0|0|7|Label Non Accordé au 3 ème Tour|
+|||2|0|0|7|Label Non Accordé au 3 ème Tour|
+|||0|0|1|6|Label Non Accordé au 3 ème Tour|
+|0 0|7 6|0 1|0 0|N.A N.A|N.A N.A|Prélabel Non Accordé au 2 ème Tour Prélabel Non Accordé au 2 ème Tour|
+|1|6|0|0|N.A|N.A|Prélabel Non Accordé au 2 ème Tour|
+|0 0 0 0|5 6 5 6|1 0 0 0|0 0 1 0|N.A N.A N.A N.A|N.A N.A N.A N.A|Prélabel Non Accordé au 2 ème Tour Prélabel Non Accordé au 2 ème Tour Prélabel Non Accordé au 2 ème Tour Hassen Aarfaoui a déclaré avoir un conflit d'intérêt Prélabel Non Accordé au 2 ème Tour|
+|2|5|0|0|N.A|N.A|Prélabel Non Accordé au 2 ème Tour|
+|0 0 N.A N.A N.A|6 5|0 1|0 0|N.A N.A|N.A N.A|Prélabel Non Accordé au 2 ème Tour Prélabel Non Accordé au 2 ème Tour|
+||N.A N.A N.A|N.A N.A N.A|N.A N.A N.A|N.A N.A N.A|N.A N.A N.A|Label Non Accordé au 1 er Tour pour Non communication des états financiers exigés en vertu de l’article 4 du Décret gouvernemental n°2018-840 du 11 octobre 2018 et requis pour la vérification de la condition stipulée au point 2 de l’article 3 de la loi n°2018-20 du 17 avril 2018 Label Non Accordé au 1 er Tour pour Non communication des Statuts de la société dûment signés et enregistrés auprès des autorités compétentes exigés en vertu de l’ article 4 du Décret gouvernemental n°2018- 840 du 11 octobre 2018 et requis pour la vérification de la condition stipulée au point 2 de l’article 3 de la loi n°2018-20 du 17 avril 2018 Label Non Accordé au 1 er Tour pour Non communication des Statuts de la société dûment signés et enregistrés auprès des autorités compétentes exigés en vertu de l’ article 4 du Décret gouvernemental n°2018- 840 du 11 octobre 2018 et requis pour la vérification de la condition stipulée au point 2 de l’article 3 de la loi n°2018-20 du 17 avril 2018|
+
+Kharajni.tn
+
+Farbi.tn
+
+Badel
+
+TRUSTMOVE TUNISIA
+
+SANEOB
+
+KSIBA
+
+Terrametrics
+
+Booklyne
+
+CashFloow
+
+VERDOLIVE
+
+LexIA
+
+compta-smart
+
+ICHFINI
+
+Rendez-vous
+
+BioH2O
+
+AZRO EVENTS
+
+Stocky Downy
+
+Technozor
+
+Mohamed Béchir Lansari Yasmine Ansari Taha Dahech Omar GASSAB
+
+sfaxi firas
+
+Mehdi Hammami
+
+Mouna Boussetta Roua Boussetta Noureddine Rezgui Amine Ferjani Hanedi Elleuch amine raouafi yassine labiedh youssef arrari Aymen Bouzgarrou Menyar Debbebi marwa essid ghanem iheb Nidhal Rahali asma taba Mouhanned Rahali saber ghanmi
+
+afef Akremi ghada khedira kais boumaiza Ameni Kabboudi
+
+TIJANI RKIWA AFEF BOUAZIZI
+
+TravelTech Advanced Manufacturing & Robotics Social Business Consumer products and services HealthTech Consumer products and services Environment Business Software and services Business Software and services Agritech Business Software and services Fintech
+
+HealthTech Consumer products and services FoodTech & New Food
+
+TravelTech
+
+Label Oui
+
+Prélabel Oui
+
+Prélabel Oui
+
+Label Oui
+
+Label Oui
+
+Prélabel Oui
+
+Prélabel Oui
+
+Prélabel Oui
+
+Prélabel Oui
+
+Prélabel Oui
+
+Prélabel Oui
+
+Prélabel Oui
+
+Prélabel Oui
+
+Prélabel Oui
+
+Prélabel Oui
+
+Non
+
+Label
+
+Non
+
+Label
+
+Non
+
+Label
+
+othmani moufida
+
+SLIM BOUFADEN AMIRA BEN JEMAA zied boufaden
+
+Business Software and services
+
+Business Software and services
+
+GHALLEB Mohamed Mustapha
+
+---
+
+| Recolab technologies |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| Ahmed Welhezi Manel BEN HASSINE Ossama Hidri |  |  |  |  |  |
+| EdTech Non | N.A N.A N.A N.A N.A N.A |  |  |  |  |
+| Label |  |  |  |  |  |
+|  |  |  |  |  |  |
+
+**Passage de Prélabels aux Labels**
+
+| Projet | Société | Fondateurs | Secteur | Session d'obtentiondu Prélabel | Résultat | Commentaires |
+| --- | --- | --- | --- | --- | --- | --- |
+| UVEY                UVEY        Youssef Meddeb |  |  | Fintech          Février 2025 |  | Label accordé | Label accordé suite à la création de la Startup et le respect des conditions d'octroi |
+| DEFENDR             DEFENDR |  | Mottaki HajouniSeifeddineBahroun | Business Software andservices | Février 2025 | Label accordé | Label accordé suite à la création de la Startup et le respect des conditions d'octroi |
+| Waaw             Waaw Network |  | Wael yahiaouiMohamedThamlaOuiSaid Kouki | Commerce and shopping | Avril 2025 | Label accordé | Label accordé suite à la création de la Startup et le respect des conditions d'octroi |
+| Stocki               Stocki it |  | Ikdem BenMohamed HajriMbarekjdidi hamdi | Business Software andservices | Juillet 2025 | Label accordé | Label accordé suite à la création de la Startup et le respect des conditions d'octroi |
+| CarboTraker            CarboTraker |  | SAFA BOUHJARAya BouhlaliAmira Yahmadi | Environment | Juin 2025 | Label accordé | Label accordé suite à la création de la Startup et le respect des conditions d'octroi |
+| klemy             QODEK EMEA |  | maher amaraHassine Achour | Communication services | Février 2025 | Label accordé | Label accordé suite à la création de la Startup et le respect des conditions d'octroi |
+| Dootify           SparkEdge Solutions |  | Rafik Gharbi | Business Software andservices | Février 2025 | Label accordé | Label accordé suite à la création de la Startup et le respect des conditions d'octroi |
+| MYCLINIC.TNhttp://myclinic.tn/         KRIAA Digital Solutions |  | AbderrahmenKriaaYesmin Maalej | HealthTech | Février 2025 | Label accordé | Label accordé suite à la création de la Startup et le respect des conditions d'octroi |
+| Amine BenBusiness Room           Business RoomHmida |  |  | Business Software andservices | Février 2025 | Label accordé | Label accordé suite à la création de la Startup et le respect des conditions d'octroi |
+
+## Retraits Labels
+
+| Société | Secteur | Session d'obtention du Label | Décision | Commentaires |
+| --- | --- | --- | --- | --- |
+| BiG DEAL | Mobile | décembre 2019 | Retrait du Label | La société a dépassé l&#x27;age maximum de 8 ans fixe par la loi 20-2018 pour les sociétés bénéficiaires du Label |
+| NACHD-IT | Business Software and services | août 2019 | Retrait du Label | La société a dépassé l&#x27;age maximum de 8 ans fixe par la loi 20-2018 pour les sociétés bénéficiaires du Label |
+
+---
+
+| WAKAHAW | Big Data | mai 2020 | Retrait du Label | La société a dépassé l&#x27;age maximum de 8 ans fixe par la loi 20-2018 pour les sociétés bénéficiaires du Label |
+| --- | --- | --- | --- | --- |
+| SOLIXY | Business Software and services | novembre 2019 | Retrait du Label | La société a dépassé l&#x27;age maximum de 8 ans fixe par la loi 20-2018 pour les sociétés bénéficiaires du Label |

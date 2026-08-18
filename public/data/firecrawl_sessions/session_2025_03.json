@@ -1,0 +1,229 @@
+{
+  "session": "03/2025",
+  "year": 2025,
+  "month": 3,
+  "total_entries": 20,
+  "source": "firecrawl",
+  "entries": [
+    {
+      "societe": "SoKan",
+      "fondateurs": "Manel Mrad Mohamed Amine Maad Mohamed Rashid Nabouli",
+      "secteur": "HealthTech",
+      "type_label": "Label",
+      "recevabilite": "Oui",
+      "oui": 5,
+      "non": 0,
+      "resultat": "N.A",
+      "commentaires": "Label Accordé au 2 éme Tour"
+    },
+    {
+      "societe": "Addvocate AI",
+      "fondateurs": "Mohamed Rifha Mami Solyan Chekir",
+      "secteur": "Business Software and services",
+      "type_label": "Label",
+      "recevabilite": "Oui",
+      "oui": 5,
+      "non": 0,
+      "resultat": "N.A",
+      "commentaires": "Label Accordé au 2 éme Tour"
+    },
+    {
+      "societe": "yalla play",
+      "fondateurs": "Ayoub Debchichi Hed Sim",
+      "secteur": "Social Business",
+      "type_label": "Label",
+      "recevabilite": "Oui",
+      "oui": 4,
+      "non": 0,
+      "resultat": "N.A",
+      "commentaires": "Label Accordé au 2 éme Tour"
+    },
+    {
+      "societe": "BYOKOB Cosmetics",
+      "fondateurs": "Rushib Dukhughi Jilen Ben Mohamed",
+      "secteur": "Wellness",
+      "type_label": "Label",
+      "recevabilite": "Oui",
+      "oui": 2,
+      "non": 0,
+      "resultat": "2",
+      "commentaires": "Label Accordé au 3 éme Tour"
+    },
+    {
+      "societe": "Oratio",
+      "fondateurs": "Oussama Chelly",
+      "secteur": "Consumer products and services",
+      "type_label": "Label",
+      "recevabilite": "Oui",
+      "oui": 3,
+      "non": 0,
+      "resultat": "0",
+      "commentaires": "Label Accordé au 3 éme Tour"
+    },
+    {
+      "societe": "Inveep",
+      "fondateurs": "Ramri Houdi AbdBasin Huddad Ari Bad Basin Rachdi Harabi Saddam Harabi",
+      "secteur": "Business Software and services",
+      "type_label": "Label",
+      "recevabilite": "Oui",
+      "oui": 1,
+      "non": 0,
+      "resultat": "0",
+      "commentaires": "Label Accordé au 3 éme Tour"
+    },
+    {
+      "societe": "TENDER FLOW",
+      "fondateurs": "Charfédine BertSlama Makkaa Matmug Sim Bhuri Aymen Tabi",
+      "secteur": "Business Software and services",
+      "type_label": "Prélabel",
+      "recevabilite": "Oui",
+      "oui": 5,
+      "non": 0,
+      "resultat": "N.A",
+      "commentaires": "Prélabel Accordé au 2 éme Tour"
+    },
+    {
+      "societe": "EyeFish",
+      "fondateurs": "Wajj El Hadj Youssef Manel Lahal Kharrudi Felmi",
+      "secteur": "Agrtech",
+      "type_label": "Prélabel",
+      "recevabilite": "Oui",
+      "oui": 5,
+      "non": 0,
+      "resultat": "N.A",
+      "commentaires": "Prélabel Accordé au 2 éme Tour"
+    },
+    {
+      "societe": "ITS boX",
+      "fondateurs": "Badr Housesem Meji Wajj",
+      "secteur": "Security",
+      "type_label": "Prélabel",
+      "recevabilite": "Oui",
+      "oui": 5,
+      "non": 0,
+      "resultat": "N.A",
+      "commentaires": "Prélabel Accordé au 2 éme Tour"
+    },
+    {
+      "societe": "Bestrade",
+      "fondateurs": "Mourad Zid Khaled Kai Hothane ajiji Heli Ben Ammar",
+      "secteur": "Business Software and services",
+      "type_label": "Prélabel",
+      "recevabilite": "Oui",
+      "oui": 2,
+      "non": 3,
+      "resultat": "0",
+      "commentaires": "Prélabel Accordé au 6 éme Tour"
+    },
+    {
+      "societe": "AuroraQ",
+      "fondateurs": "Amina Maddi Aymen Frifha",
+      "secteur": "Business Software and services",
+      "type_label": "Prélabel",
+      "recevabilite": "Oui",
+      "oui": 0,
+      "non": 0,
+      "resultat": "0",
+      "commentaires": "Prélabel Accordé au 6 éme Tour"
+    },
+    {
+      "societe": "BATISTUDIO.TN",
+      "fondateurs": "Emna Mitmet",
+      "secteur": "Consumer products and services",
+      "type_label": "Label",
+      "recevabilite": "Oui",
+      "oui": 0,
+      "non": 5,
+      "resultat": "N.A",
+      "commentaires": "Label Non Accordé au 2 éme Tour"
+    },
+    {
+      "societe": "BIZM",
+      "fondateurs": "Salem Malabrouki",
+      "secteur": "Ad Tech and Creative Tech",
+      "type_label": "Label",
+      "recevabilite": "Oui",
+      "oui": 0,
+      "non": 5,
+      "resultat": "N.A",
+      "commentaires": "Label Non Accordé au 2 éme Tour"
+    },
+    {
+      "societe": "CLICK AND COLLECT",
+      "fondateurs": "Khraeddine Ben Merdes",
+      "secteur": "Commerce and shopping",
+      "type_label": "Label",
+      "recevabilite": "Oui",
+      "oui": 0,
+      "non": 0,
+      "resultat": "6",
+      "commentaires": "Label Non Accordé au 3 éme Tour"
+    },
+    {
+      "societe": "Weestest",
+      "fondateurs": "Senda Khemiri Hajer Gafaj",
+      "secteur": "Ad Tech and Creative Tech",
+      "type_label": "Prélabel",
+      "recevabilite": "Oui",
+      "oui": 1,
+      "non": 5,
+      "resultat": "N.A",
+      "commentaires": "Prélabel Non Accordé au 2 éme Tour"
+    },
+    {
+      "societe": "Palmyra",
+      "fondateurs": "Weel Hadj",
+      "secteur": "Ad Tech and Creative Tech",
+      "type_label": "Prélabel",
+      "recevabilite": "Oui",
+      "oui": 0,
+      "non": 5,
+      "resultat": "N.A",
+      "commentaires": "Prélabel Non Accordé au 2 éme Tour"
+    },
+    {
+      "societe": "Asfora",
+      "fondateurs": "Emmanuel Bruno",
+      "secteur": "Business Software and services",
+      "type_label": "Prélabel",
+      "recevabilite": "Oui",
+      "oui": 0,
+      "non": 5,
+      "resultat": "N.A",
+      "commentaires": "Prélabel Non Accordé au 2 éme Tour"
+    },
+    {
+      "societe": "Karleas",
+      "fondateurs": "Bads El Ouzi Mohummed Ala Zeid Jamal",
+      "secteur": "Business Software and services",
+      "type_label": "Prélabel",
+      "recevabilite": "Oui",
+      "oui": 0,
+      "non": 5,
+      "resultat": "N.A",
+      "commentaires": "Prélabel Non Accordé au 2 éme Tour"
+    },
+    {
+      "societe": "Thymsys",
+      "fondateurs": "Ramy Hamza",
+      "secteur": "Business Software and services",
+      "type_label": "Prélabel",
+      "recevabilite": "Oui",
+      "oui": 0,
+      "non": 5,
+      "resultat": "N.A",
+      "commentaires": "Prélabel Non Accordé au 2 ème Tour"
+    },
+    {
+      "societe": "CODOC",
+      "fondateurs": "Mouheb Merii Jerbi Rahma",
+      "secteur": "EdTech",
+      "type_label": "Prélabel",
+      "recevabilite": "Oui",
+      "oui": 1,
+      "non": 0,
+      "resultat": "7",
+      "commentaires": "Prélabel Non Accordé au 3 ème Tour"
+    }
+  ]
+}

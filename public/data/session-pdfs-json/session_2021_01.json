@@ -3,9 +3,226 @@
   "annee": 2021,
   "mois": 1,
   "pdf": "session_2021_01.pdf",
-  "nb_entrees": 0,
-  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
-  "entrees": [],
+  "nb_entrees": 36,
+  "source": "Texte du Compte-Rendu fourni par l'utilisateur (OCR du PDF sans couche texte) — 18/08/2026",
+  "entrees": [
+    {
+      "societe": "Menutium",
+      "fondateurs": "Salem Moubah Amine Milka",
+      "secteur": "Logiciel",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Mymall.tn",
+      "fondateurs": "Inks Béjar",
+      "secteur": "E-commerce",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "IMMOTECH",
+      "fondateurs": "Cyrine Ben Ayed Andolsi Jhed Yasinie Lakib Mohamed Raafal Limam",
+      "secteur": "Logiciel",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "XQant Software",
+      "fondateurs": "Chea Srun",
+      "secteur": "Fintech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Medquick",
+      "fondateurs": "Ahmad Turki Mustapha Turkı",
+      "secteur": "E-commerce",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "z healthcare",
+      "fondateurs": "Haryhem Zouauoul Mohamed Rush Bhar Khadjaj Moyoud Taha Harden",
+      "secteur": "Health Tech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Coqira Tunisia",
+      "fondateurs": "Hatem Selami",
+      "secteur": "AI",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Linkedfishers/Hookedup",
+      "fondateurs": "Mahrem Zannouni Kake Iraq Ayed Gonbirni Abdessat Taipur Nareif Ben Moosaia",
+      "secteur": "Plateforme Sociale",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "SeaBot",
+      "fondateurs": "Kebousu Rami Marwen Bosmina",
+      "secteur": "IoT",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Ms. Marion",
+      "fondateurs": "Selma Belkodja Insuf Hamdi",
+      "secteur": "E-commerce",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "WKF par FLEXITEK",
+      "fondateurs": "Alexandre FLORES Mohamed DOMAA",
+      "secteur": "Logiciel",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "e-Sola",
+      "fondateurs": "Sami Malaki David Simb",
+      "secteur": "EdTech",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Tinith IBPM Automation Booster",
+      "fondateurs": "Duassim Bourid Ramio Abidi",
+      "secteur": "Logiciel",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Pulpetech",
+      "fondateurs": "Wika Abbes Ousasian Ali",
+      "secteur": "AI",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "MineClap",
+      "fondateurs": "Harned Khail Maaref Taha Yassine Chached Slim Maaref",
+      "secteur": "Logistique",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "FinBudd.com",
+      "fondateurs": "Ors Bouali",
+      "secteur": "EdTech",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "YAGRI",
+      "fondateurs": "Yasser Belguesini Bouallagu Dorsaf",
+      "secteur": "Agritech",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Zheema",
+      "fondateurs": "Amr Baik Salar Awald Tamer Shawer",
+      "secteur": "Cleantech",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Arabclassroom",
+      "fondateurs": "Cheki Samaali",
+      "secteur": "EdTech",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Smart Racing Hub",
+      "fondateurs": "Dussima Dhouadi",
+      "secteur": "Autre contenu créatif",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "société Lave rit",
+      "fondateurs": "Hedi Hrigua Oussai Hlauou",
+      "secteur": "Logistique",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Arty",
+      "fondateurs": "Mohamed Ali Said Innis Gharrib Amour Kabel",
+      "secteur": "E-commerce",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "PLUS WEB Solutions",
+      "fondateurs": "Amina Triki",
+      "secteur": "Plateforme Sociale",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "AREAS (Agro Responsible Ecologic African Services)",
+      "fondateurs": "Zahra Shiri Hassen Ouerghemmi",
+      "secteur": "Agritech",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "EZ-TOOL",
+      "fondateurs": "Mehdi Tatar Khalil Chelly",
+      "secteur": "Logiciel",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "e-dengri",
+      "fondateurs": "Maroua Ben Charrada",
+      "secteur": "Plateforme Sociale",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "JEY",
+      "fondateurs": "Belhaj Ines Seifedine Miladi Slim Sghir",
+      "secteur": "IoT",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "SMARTravel",
+      "fondateurs": "Houcem Hajji",
+      "secteur": "Logiciel",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "HiMyCoach.com",
+      "fondateurs": "Wajdi Bechaouech Rassil Rhouma Enkhanaa Achour",
+      "secteur": "Plateforme Sociale",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "Itialus Fidexia North Africa",
+      "fondateurs": "Sami Ben Salem Wafa Cherid",
+      "secteur": "Autre contenu créatif",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "zeromate",
+      "fondateurs": "Samir Chafai",
+      "secteur": "Gaming",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "Koodys / Thor System",
+      "fondateurs": "Mohamed Salah Nachi Malek Redissi",
+      "secteur": "Logiciel",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "Chill&Lit",
+      "fondateurs": "Fares Kotti",
+      "secteur": "E-commerce",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "Overlapping UVs",
+      "fondateurs": "Youssef Mejri",
+      "secteur": "Autre contenu créatif",
+      "resultat": "prelabel non accorde"
+    },
+    {
+      "societe": "ABC Dev",
+      "fondateurs": "Makrem Cherni Sdiri Mahdi Manel Ouerhani",
+      "secteur": "Logiciel",
+      "resultat": "label non accorde"
+    },
+    {
+      "societe": "BOXSTOP",
+      "fondateurs": "Ghada Jandoubi Lauret Hanout",
+      "secteur": "Logistique",
+      "resultat": "label non accorde"
+    }
+  ],
   "session_data": {
     "candidatures": 36,
     "labels": 24,

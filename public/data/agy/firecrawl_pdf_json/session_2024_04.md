@@ -1,0 +1,62 @@
+| Société | Fundateurs | Secteur | Label/Prélabel | 1st Tour |  |  |  | 2nd Tour |  | 3rd Tour |  | Réalisation |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Société | Fundateurs | Secteur | Label/Prélabel | Recevabilité | Oui | Non | Pitching | Conflit | Oui | Non |  | Réalisation |
+| agol | Karim Bahi Ijeb Jendoubi Soud Annabi | EdTech | Label | Oui | 5 | 0 | 0 | 0 | N.A | N.A | N.A | Label Accordée au 2ème Tour |
+| Graines Academy | Sana Kousi Dhaha Kousi Mohamed Ghassen Fhiimi | EdTech | Label | Oui | 5 | 0 | 0 | 0 | N.A | N.A | N.A | Label Accordée au 2ème Tour |
+| EASY TRANSFER | Iosmal Khensisi Jahane Thenosi | Fintech | Label | Oui | 5 | 0 | 0 | 0 | N.A | N.A | N.A | Label Accordée au 2ème Tour |
+| conception de biocapteur pour la maison Roverior | Makel Dhahri | HealthTech | Label | Oui | 5 | 0 | 0 | 0 | N.A | N.A | N.A | Label Accordée au 2ème Tour |
+| Tisu.tn | Mercerie tn | Majdi Dhahri Maozi Dhahri Nawae Dhahri | Commerce and shopping | Label | Oui | 5 | 0 | 0 | 0 | N.A | N.A | N.A | Label Accordée au 2ème Tour |
+| ISTYA NATURAL POOL | Aizia Ibn Hadj Hassine Mohamed Nefaa Dghim Nahdar Chelbi | Environment | Label | Oui | 5 | 0 | 0 | 0 | N.A | N.A | N.A | Label Accordée au 2ème Tour |
+| Gorifit | Mohamed Itheb Ben Abbes Ahmed Mcchergui | Wellness | Label | Oui | 5 | 0 | 0 | 0 | N.A | N.A | N.A | Label Accordée au 2ème Tour |
+| TunBra | Monassur Moussa Frida Roume Mohamed Moncer | EdTech | Label | Oui | 5 | 0 | 0 | 0 | N.A | N.A | N.A | Label Accordée au 2ème Tour |
+| SAFESPHERE | Maher Fekih Samar Oum | Security | Label | Oui | 1 | 1 | 3 | 0 | 5 | 0 | Label Accordée au 3ème Tour |  |
+| 123booking | Akran Reiki | TravelTech | Prélabel | Oui | 0 | 1 | 4 | 0 | 5 | 0 | Prelabel Non Accordée à 3ème Tour |  |
+| Perro | Mohamed Yassine Brahem Ihai Makour Ahmed Bechir Mezhoud Salah Daibech Acha Farah Soueltmi | EdTech | Prélabel | Oui | 6 | 0 | 0 | 0 | N.A | N.A | Prelabel Accordée au 2ème Tour |  |
+| ACRIDIDEA | Nova Avadi Najet Ayadi | FoodTech &amp; New Food | Prélabel | Oui | 5 | 0 | 0 | 0 | N.A | N.A | Prelabel Accordée au 2ème Tour |  |
+| ALTABIB | Mohamed Ali Ben Chaabane Naqshi Ghaffari | HealthTech | Prélabel | Oui | 5 | 0 | 0 | 0 | N.A | N.A | Prelabel Accordée au 2ème Tour |  |
+| ITri | Hanen Louait Ramzi Halouani | Environment | Prélabel | Oui | 5 | 0 | 0 | 0 | N.A | N.A | Prelabel Accordée au 2ème Tour |  |
+| Hapivot | Francois Depager Saber Jelasii | Business Software and services | Prélabel | Oui | 5 | 0 | 0 | 0 | N.A | N.A | Prelabel Accordée au 2ème Tour |  |
+| R&amp;D-Riders and Drivers | Sana Elleuch Mohamed Elleuch | Mobility | Label | Oui | 2 | 5 | 0 | 0 | N.A | N.A | Label Non Accordé au 2ème Tour |  |
+| Scale Pro | Makrem Chachouk Marwa Abrougui | Business Software and services | Label | Oui | 1 | 6 | 0 | 0 | N.A | N.A | Label Non Accordé au 2ème Tour |  |
+| PERMA EMERGENCY ASSISTANCE Mustapha Nasraoul Parlay Hotel | Communication services | Label | Oui | 0 | 5 | 0 | 0 | 0 | N.A | N.A | Label Non Accordé au 2ème Tour |  |
+| Eside | Mohamed Jaidane Abdallah Raies Riad Delbabi | Business Software and services | Label | Oui | 0 | 5 | 0 | 0 | N.A | N.A | Label Non Accordé au 2ème Tour |  |
+| MINA | Mohama Madani Rhémadani | Ad Tech &amp; Creative Tech | Label | Oui | 1 | 0 | 4 | 0 | 1 | 5 | Label Non Accordé au 3ème Tour |  |
+| JAIW | Jamar Trabisi Karim Trabisi | FoodTech &amp; New Food | Label | Oui | 0 | 4 | 3 | 0 | 0 | 5 | Label Non Accordé au 3ème Tour |  |
+| Vivala Travel | Akhat Kauren Mawen Mahmoud Ahmed Hmahchi | TravelTech | Label | Oui | 0 | 2 | 3 | 0 | 0 | 5 | Label Non Accordé au 3ème Tour |  |
+| Uni-job | Mohame Edine Saadoui Baarem Rehni | EdTech | Label | Oui | 0 | 4 | 1 | 0 | 0 | 5 | Label Non Accordé au 3ème Tour |  |
+
+---
+
+|  | Mohamed Ksantini Mohamed Karray Nesrine Triki Associe Amma Turki Sirine ammar Ameni Ellouze Asma Fattouch Mohamed Amine Ben Amor Ela Manai Houssem Ben Haj Boubaker Environment | Ad Tech and Creative Tech | Prélabel | Oui | 0 | 1 | 6 | 0 | N.A | N.A | Label Non Accordé au 2ème Tour |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Smart Cars Solutions |  |  |  |  |  |  |  |  |  |  |  |
+| Loc-Waste | Mohamed Amine Ben Amor Ela Manai Houssem Ben Haj Boubaker Environment | Environment | Prélabel | Oui | 0 | 0 | 5 | 0 | N.A | N.A | Label Non Accordé au 2ème Tour |
+| Swiftlane | Rayen Naimi Mohamed Softene Barka Mobility | Mobility | Prélabel | Oui | 0 | 0 | 5 | 0 | N.A | N.A | Label Non Accordé au 2ème Tour |
+| Kickoff | Handi Mehni Yasine Yousef Social Business | Social Business | Prélabel | Oui | 0 | 0 | 5 | 0 | N.A | N.A | Label Non Accordé au 2ème Tour |
+| content360 | Slim Zghal Momtez Ayadi Business Software and services | Business Software and services | Prélabel | Oui | 0 | 0 | 5 | 0 | N.A | N.A | Label Non Accordé au 2ème Tour |
+| Eco Velo | Zineb Sahil Mooruz Cherif Kaouther Sahil Mobility | Mobility | Prélabel | Oui | 1 | 0 | 6 | 0 | N.A | N.A | Prélabel Non Accordé au 2ème Tour |
+| Charliz | Maaref Yathreb Daboussi Rima Hafer Akari Commerce and shopping | Commerce and shopping | Prélabel | Oui | 0 | 0 | 5 | 0 | N.A | N.A | Prélabel Non Accordé au 2ème Tour |
+| TIE-UP | Iyadh Achouri Rami Kosuri Business Software and services | Business Software and services | Prélabel | Oui | 0 | 0 | 5 | 0 | N.A | N.A | Prélabel Non Accordé au 2ème Tour |
+| Torrecarb | Amin Limaiem Environment | Environment | Prélabel | Oui | 0 | 0 | 5 | 0 | N.A | N.A | Prélabel Non Accordé au 2ème Tour |
+| ROAMINGO | Saddem Abderrahmen Achref Jannene Sadok Saddem Mohamoud Elouze Saddem Tassin Amor Kerkeni Communication services | Communication services | Prélabel | Oui | 0 | 0 | 5 | 0 | N.A | N.A | Prélabel Non Accordé au 2ème Tour |
+| Exam-Craft | Khaled Khelifi Abrar Hammami EdTech | EdTech | Prélabel | Oui | 1 | 0 | 6 | 0 | N.A | N.A | Prélabel Non Accordé au 2ème Tour |
+| Fastoch Car Wash | Hedi Affes Consumer products and services | Consumer products and services | Prélabel | Oui | 0 | 0 | 6 | 0 | N.A | N.A | Prélabel Non Accordé au 2ème Tour |
+| TrackSite | Hamza Sakarni Chayma sakran Business Software and services | Business Software and services | Prélabel | Oui | 0 | 0 | 5 | 0 | N.A | N.A | Prélabel Non Accordé au 2ème Tour |
+| LEBESTY | Mohamed Tili Ikram Zakjour Commerce and shopping | Commerce and shopping | Prélabel | Oui | 4 | 2 | 1 | 0 | 0 | 5 | Prélabel Non Accordé au 3ème Tour |
+
+## Passage de Prélabels aux Labels
+
+| Société | Projet | Fondateurs | Secteur | Session d'obtentiondu Prélabel | Résultat | Commentaires |
+| --- | --- | --- | --- | --- | --- | --- |
+| OPTOSCOPIA INTELLIGENTDIAGNOSTIC ANALYZERS | OPTOSCOPIA INTELLIGENT      Marouen AkermiDIAGNOSTIC ANALYZERS       Francesc Gomez |  | HealthTech | Mars 2024 | Label accordé | Label accordé suite à la création de la Startup et le respect des conditions d'octroi |
+| COLOMBUS CAPITAL | CC-Colombus Capital, The infinite  Mezri KarouiTrust                   Eymen Errais |  | Fintech | Mars 2024 | Label accordé | Label accordé suite à la création de la Startup et le respect des conditions d'octroi |
+| QualiMaker | QualiMaker               Mehdi Zaabar |  | Business Software andservices | Janvier 2024 | Label accordé | Label accordé suite à la création de la Startup et le respect des conditions d'octroi |
+| Aouaieb KaisCHITELIX              CHITELIX                                      Agritech                 Octobre 2023Mohamed Anis Ben GhaliaTanit HealthCare Technologies Tanit.ai                 Kais Zhioua               HealthTech              Décembre 2023 |  |  |  |  | Label accordé | Label accordé suite à la création de la Startup et le respect des conditions d'octroiLabel accordé suite à la création de la Startup et le respect des conditions d'octroi |
+| Aouaieb KaisCHITELIX              CHITELIX                                      Agritech                 Octobre 2023Mohamed Anis Ben GhaliaTanit HealthCare Technologies Tanit.ai                 Kais Zhioua               HealthTech              Décembre 2023 |  |  |  |  | Label accordé | Label accordé suite à la création de la Startup et le respect des conditions d'octroiLabel accordé suite à la création de la Startup et le respect des conditions d'octroi |
+
+## Retraits Labels
+
+| Société | Secteur | Session d'obtentiondu Label | Décision | Commentaires |
+| --- | --- | --- | --- | --- |
+| NEXT PROTEIN TUNISIA     Agritech                                 Juin 2019COGNIRA TUNISIA        Business Software &amp; Services                    Janvier 2021 |  |  | Retrait du Label | La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-2018 pour les sociétés bénéficiaires du LabelLa société a dépassé l'âge maximum de 8 ans fixé par la loi 20-2018 pour les sociétés bénéficiaires du Label |
+| NEXT PROTEIN TUNISIA     Agritech                                 Juin 2019COGNIRA TUNISIA        Business Software &amp; Services                    Janvier 2021 |  |  | Retrait du Label | La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-2018 pour les sociétés bénéficiaires du LabelLa société a dépassé l'âge maximum de 8 ans fixé par la loi 20-2018 pour les sociétés bénéficiaires du Label |

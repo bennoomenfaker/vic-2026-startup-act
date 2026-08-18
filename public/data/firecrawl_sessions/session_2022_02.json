@@ -1,0 +1,251 @@
+{
+  "session": "02/2022",
+  "year": 2022,
+  "month": 2,
+  "total_entries": 22,
+  "source": "firecrawl",
+  "entries": [
+    {
+      "societe": "TELA",
+      "fondateurs": "Chaima Chauochi",
+      "secteur": "Marketplace",
+      "type_label": "Label",
+      "recevabilite": "Oui",
+      "oui": 9,
+      "non": 0,
+      "resultat": "N.A",
+      "commentaires": "Label accordé"
+    },
+    {
+      "societe": "Fidness",
+      "fondateurs": "Ahmed Najar",
+      "secteur": "BusinessSoftware &amp; Services",
+      "type_label": "Label",
+      "recevabilite": "Oui",
+      "oui": 9,
+      "non": 0,
+      "resultat": "N.A",
+      "commentaires": "Label accordé"
+    },
+    {
+      "societe": "Naqllek Haja",
+      "fondateurs": "Yasmine Ansari",
+      "secteur": "Social Business",
+      "type_label": "Label",
+      "recevabilite": "Oui",
+      "oui": 9,
+      "non": 0,
+      "resultat": "N.A",
+      "commentaires": "Label accordé"
+    },
+    {
+      "societe": "Wefix",
+      "fondateurs": "Sabri Cheriha",
+      "secteur": "Environment/Energie",
+      "type_label": "Label",
+      "recevabilite": "Oui",
+      "oui": 9,
+      "non": 0,
+      "resultat": "N.A",
+      "commentaires": "Label accordé"
+    },
+    {
+      "societe": "Trivaw",
+      "fondateurs": "Houssem Eddine Ben Smida Awatef Rebhi",
+      "secteur": "TravelTech",
+      "type_label": "Label",
+      "recevabilite": "Oui",
+      "oui": 9,
+      "non": 0,
+      "resultat": "N.A",
+      "commentaires": "Label accordé"
+    },
+    {
+      "societe": "Kumulus",
+      "fondateurs": "Mohamed Ali Abid Nouha Abroug",
+      "secteur": "Environment/Energie",
+      "type_label": "Label",
+      "recevabilite": "Oui",
+      "oui": 9,
+      "non": 0,
+      "resultat": "N.A",
+      "commentaires": "Label accordé"
+    },
+    {
+      "societe": "WIN NOW",
+      "fondateurs": "Nesrine Wellezi Nizar Wehazi",
+      "secteur": "Services de communication",
+      "type_label": "Label",
+      "recevabilite": "Oui",
+      "oui": 5,
+      "non": 1,
+      "resultat": "N.A",
+      "commentaires": "Label accordé"
+    },
+    {
+      "societe": "Kiddo",
+      "fondateurs": "Ahmed Jemaa ines Rahrah",
+      "secteur": "EdTech",
+      "type_label": "Label",
+      "recevabilite": "Oui",
+      "oui": 6,
+      "non": 0,
+      "resultat": "N.A",
+      "commentaires": "Label accordé"
+    },
+    {
+      "societe": "Qr Menu",
+      "fondateurs": "Nour Kraiem Simee Kraem",
+      "secteur": "FoodTech &amp; New Food",
+      "type_label": "Prélabel",
+      "recevabilite": "Oui",
+      "oui": 8,
+      "non": 1,
+      "resultat": "N.A",
+      "commentaires": "Prélabel accordé"
+    },
+    {
+      "societe": "Foodoo.tn",
+      "fondateurs": "Sonia Ottman Houssem Sahil",
+      "secteur": "FoodTech &amp; New Food",
+      "type_label": "Prélabel",
+      "recevabilite": "Oui",
+      "oui": 7,
+      "non": 1,
+      "resultat": "N.A",
+      "commentaires": "Prélabel accordé"
+    },
+    {
+      "societe": "Clic to know",
+      "fondateurs": "Zied Teber Nejmeddrine Sakly Houssem Chikoua",
+      "secteur": "EdTech",
+      "type_label": "Prélabel",
+      "recevabilite": "Oui",
+      "oui": 9,
+      "non": 0,
+      "resultat": "N.A",
+      "commentaires": "Prélabel accordé"
+    },
+    {
+      "societe": "NEFEL EDUCATION",
+      "fondateurs": "Amir Gerrmann Addeleaz Lazar Baskar Kamel Lazar",
+      "secteur": "EdTech",
+      "type_label": "Label",
+      "recevabilite": "Oui",
+      "oui": 1,
+      "non": 6,
+      "resultat": "N.A",
+      "commentaires": "Label non accordé"
+    },
+    {
+      "societe": "VIRIBUS CENTER",
+      "fondateurs": "Houssem Sim Ahmed Lannouchi",
+      "secteur": "Services de communication",
+      "type_label": "Label",
+      "recevabilite": "Oui",
+      "oui": 0,
+      "non": 9,
+      "resultat": "N.A",
+      "commentaires": "Label non accordé"
+    },
+    {
+      "societe": "SAFE STUDENT",
+      "fondateurs": "Mereni Bel Haj Mohamed Hajer Mzoughi Eya Bel Haj Mohamed Mustapha Boourouj Karthen White",
+      "secteur": "Proptech",
+      "type_label": "Prélabel",
+      "recevabilite": "Oui",
+      "oui": 0,
+      "non": 7,
+      "resultat": "N.A",
+      "commentaires": "Prélabel non accordé"
+    },
+    {
+      "societe": "Tunfund",
+      "fondateurs": "Mohamed Kallel Achral Chabbouh Amel Abouldo Salbe Ben Nibouk Rateb Jabbar Ahmed Ben Said",
+      "secteur": "Mobile",
+      "type_label": "Prélabel",
+      "recevabilite": "Oui",
+      "oui": 0,
+      "non": 9,
+      "resultat": "N.A",
+      "commentaires": "Prélabel non accordé"
+    },
+    {
+      "societe": "Stile ai",
+      "fondateurs": "Amir Trigui",
+      "secteur": "Social Business",
+      "type_label": "Prélabel",
+      "recevabilite": "Oui",
+      "oui": 2,
+      "non": 5,
+      "resultat": "N.A",
+      "commentaires": "Prélabel non accordé"
+    },
+    {
+      "societe": "Digix",
+      "fondateurs": "Amir Trigui",
+      "secteur": "Social Business",
+      "type_label": "Prélabel",
+      "recevabilite": "Oui",
+      "oui": 0,
+      "non": 0,
+      "resultat": "N.A",
+      "commentaires": "Prélabel non accordé"
+    },
+    {
+      "societe": "Kiddo",
+      "fondateurs": "Ahmed Jemaa ines Rahrah",
+      "secteur": "EdTech",
+      "type_label": "Prélabel",
+      "recevabilite": "Non",
+      "oui": 0,
+      "non": 0,
+      "resultat": "N.A",
+      "commentaires": "Prélabel non accordé"
+    },
+    {
+      "societe": "Sawsen DhifallahSTE COACHINI                     Coachini                                  Services de communicationLotfi Mzoughi",
+      "fondateurs": "",
+      "secteur": "",
+      "type_label": "",
+      "recevabilite": "Novembre 2021",
+      "oui": 0,
+      "non": 0,
+      "resultat": "",
+      "commentaires": ""
+    },
+    {
+      "societe": "Sana AbidSECRET SUCRE KIDS                 SECRET SUCRE KIDSMohamed amine Mhiri",
+      "fondateurs": "",
+      "secteur": "",
+      "type_label": "Creative industry",
+      "recevabilite": "Décembre 2021",
+      "oui": 0,
+      "non": 0,
+      "resultat": "",
+      "commentaires": ""
+    },
+    {
+      "societe": "WEDTECT                        Smart Detection          Manel ElleuchiMyryam ToukabriData For Brands                     Insight Lab            Idris Bachali losada        AIAbir Chérif",
+      "fondateurs": "",
+      "secteur": "",
+      "type_label": "",
+      "recevabilite": "",
+      "oui": 0,
+      "non": 0,
+      "resultat": "",
+      "commentaires": ""
+    },
+    {
+      "societe": "WEDTECT                        Smart Detection          Manel ElleuchiMyryam ToukabriData For Brands                     Insight Lab            Idris Bachali losada        AIAbir Chérif",
+      "fondateurs": "",
+      "secteur": "",
+      "type_label": "",
+      "recevabilite": "Décembre 2021",
+      "oui": 0,
+      "non": 0,
+      "resultat": "",
+      "commentaires": ""
+    }
+  ]
+}

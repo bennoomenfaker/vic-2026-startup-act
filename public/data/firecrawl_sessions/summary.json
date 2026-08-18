@@ -1,0 +1,439 @@
+{
+  "total_sessions": 85,
+  "total_entries": 3206,
+  "sessions": [
+    {
+      "session": "03/2019",
+      "entries": 14,
+      "source": "firecrawl"
+    },
+    {
+      "session": "04/2019",
+      "entries": 52,
+      "source": "firecrawl"
+    },
+    {
+      "session": "05/2019",
+      "entries": 29,
+      "source": "firecrawl"
+    },
+    {
+      "session": "06/2019",
+      "entries": 32,
+      "source": "firecrawl"
+    },
+    {
+      "session": "07/2019",
+      "entries": 29,
+      "source": "firecrawl"
+    },
+    {
+      "session": "08/2019",
+      "entries": 26,
+      "source": "firecrawl"
+    },
+    {
+      "session": "09/2019",
+      "entries": 26,
+      "source": "firecrawl"
+    },
+    {
+      "session": "10/2019",
+      "entries": 39,
+      "source": "firecrawl"
+    },
+    {
+      "session": "11/2019",
+      "entries": 41,
+      "source": "firecrawl"
+    },
+    {
+      "session": "12/2019",
+      "entries": 41,
+      "source": "firecrawl"
+    },
+    {
+      "session": "01/2020",
+      "entries": 42,
+      "source": "firecrawl"
+    },
+    {
+      "session": "02/2020",
+      "entries": 41,
+      "source": "firecrawl"
+    },
+    {
+      "session": "03/2020",
+      "entries": 42,
+      "source": "firecrawl"
+    },
+    {
+      "session": "04/2020",
+      "entries": 45,
+      "source": "firecrawl"
+    },
+    {
+      "session": "05/2020",
+      "entries": 32,
+      "source": "firecrawl"
+    },
+    {
+      "session": "06/2020",
+      "entries": 32,
+      "source": "firecrawl"
+    },
+    {
+      "session": "07/2020",
+      "entries": 0,
+      "source": "antigravity"
+    },
+    {
+      "session": "08/2020",
+      "entries": 39,
+      "source": "firecrawl"
+    },
+    {
+      "session": "09/2020",
+      "entries": 32,
+      "source": "firecrawl"
+    },
+    {
+      "session": "10/2020",
+      "entries": 48,
+      "source": "firecrawl"
+    },
+    {
+      "session": "11/2020",
+      "entries": 55,
+      "source": "firecrawl"
+    },
+    {
+      "session": "12/2020",
+      "entries": 0,
+      "source": "antigravity"
+    },
+    {
+      "session": "01/2021",
+      "entries": 0,
+      "source": "antigravity"
+    },
+    {
+      "session": "02/2021",
+      "entries": 45,
+      "source": "firecrawl"
+    },
+    {
+      "session": "03/2021",
+      "entries": 52,
+      "source": "firecrawl"
+    },
+    {
+      "session": "04/2021",
+      "entries": 60,
+      "source": "firecrawl"
+    },
+    {
+      "session": "05/2021",
+      "entries": 46,
+      "source": "firecrawl"
+    },
+    {
+      "session": "06/2021",
+      "entries": 47,
+      "source": "firecrawl"
+    },
+    {
+      "session": "07/2021",
+      "entries": 50,
+      "source": "firecrawl"
+    },
+    {
+      "session": "08/2021",
+      "entries": 30,
+      "source": "firecrawl"
+    },
+    {
+      "session": "09/2021",
+      "entries": 40,
+      "source": "firecrawl"
+    },
+    {
+      "session": "10/2021",
+      "entries": 48,
+      "source": "firecrawl"
+    },
+    {
+      "session": "11/2021",
+      "entries": 48,
+      "source": "firecrawl"
+    },
+    {
+      "session": "12/2021",
+      "entries": 51,
+      "source": "firecrawl"
+    },
+    {
+      "session": "01/2022",
+      "entries": 41,
+      "source": "firecrawl"
+    },
+    {
+      "session": "02/2022",
+      "entries": 22,
+      "source": "firecrawl"
+    },
+    {
+      "session": "03/2022",
+      "entries": 36,
+      "source": "firecrawl"
+    },
+    {
+      "session": "04/2022",
+      "entries": 26,
+      "source": "firecrawl"
+    },
+    {
+      "session": "05/2022",
+      "entries": 52,
+      "source": "firecrawl"
+    },
+    {
+      "session": "06/2022",
+      "entries": 44,
+      "source": "firecrawl"
+    },
+    {
+      "session": "07/2022",
+      "entries": 44,
+      "source": "firecrawl"
+    },
+    {
+      "session": "08/2022",
+      "entries": 42,
+      "source": "firecrawl"
+    },
+    {
+      "session": "09/2022",
+      "entries": 50,
+      "source": "firecrawl"
+    },
+    {
+      "session": "10/2022",
+      "entries": 44,
+      "source": "firecrawl"
+    },
+    {
+      "session": "11/2022",
+      "entries": 47,
+      "source": "firecrawl"
+    },
+    {
+      "session": "12/2022",
+      "entries": 39,
+      "source": "firecrawl"
+    },
+    {
+      "session": "01/2023",
+      "entries": 36,
+      "source": "firecrawl"
+    },
+    {
+      "session": "02/2023",
+      "entries": 45,
+      "source": "firecrawl"
+    },
+    {
+      "session": "03/2023",
+      "entries": 36,
+      "source": "firecrawl"
+    },
+    {
+      "session": "04/2023",
+      "entries": 44,
+      "source": "firecrawl"
+    },
+    {
+      "session": "05/2023",
+      "entries": 49,
+      "source": "firecrawl"
+    },
+    {
+      "session": "06/2023",
+      "entries": 34,
+      "source": "firecrawl"
+    },
+    {
+      "session": "07/2023",
+      "entries": 42,
+      "source": "firecrawl"
+    },
+    {
+      "session": "08/2023",
+      "entries": 33,
+      "source": "firecrawl"
+    },
+    {
+      "session": "09/2023",
+      "entries": 43,
+      "source": "firecrawl"
+    },
+    {
+      "session": "10/2023",
+      "entries": 31,
+      "source": "firecrawl"
+    },
+    {
+      "session": "11/2023",
+      "entries": 39,
+      "source": "firecrawl"
+    },
+    {
+      "session": "12/2023",
+      "entries": 47,
+      "source": "firecrawl"
+    },
+    {
+      "session": "01/2024",
+      "entries": 0,
+      "source": "antigravity"
+    },
+    {
+      "session": "02/2024",
+      "entries": 0,
+      "source": "antigravity"
+    },
+    {
+      "session": "03/2024",
+      "entries": 33,
+      "source": "firecrawl"
+    },
+    {
+      "session": "04/2024",
+      "entries": 42,
+      "source": "firecrawl"
+    },
+    {
+      "session": "05/2024",
+      "entries": 42,
+      "source": "firecrawl"
+    },
+    {
+      "session": "06/2024",
+      "entries": 39,
+      "source": "firecrawl"
+    },
+    {
+      "session": "07/2024",
+      "entries": 35,
+      "source": "firecrawl"
+    },
+    {
+      "session": "08/2024",
+      "entries": 41,
+      "source": "firecrawl"
+    },
+    {
+      "session": "09/2024",
+      "entries": 39,
+      "source": "firecrawl"
+    },
+    {
+      "session": "10/2024",
+      "entries": 49,
+      "source": "firecrawl"
+    },
+    {
+      "session": "11/2024",
+      "entries": 48,
+      "source": "firecrawl"
+    },
+    {
+      "session": "12/2024",
+      "entries": 46,
+      "source": "firecrawl"
+    },
+    {
+      "session": "01/2025",
+      "entries": 44,
+      "source": "firecrawl"
+    },
+    {
+      "session": "02/2025",
+      "entries": 45,
+      "source": "firecrawl"
+    },
+    {
+      "session": "03/2025",
+      "entries": 20,
+      "source": "firecrawl"
+    },
+    {
+      "session": "04/2025",
+      "entries": 29,
+      "source": "firecrawl"
+    },
+    {
+      "session": "05/2025",
+      "entries": 48,
+      "source": "firecrawl"
+    },
+    {
+      "session": "06/2025",
+      "entries": 43,
+      "source": "firecrawl"
+    },
+    {
+      "session": "07/2025",
+      "entries": 34,
+      "source": "firecrawl"
+    },
+    {
+      "session": "08/2025",
+      "entries": 41,
+      "source": "firecrawl"
+    },
+    {
+      "session": "09/2025",
+      "entries": 0,
+      "source": "antigravity"
+    },
+    {
+      "session": "10/2025",
+      "entries": 41,
+      "source": "firecrawl"
+    },
+    {
+      "session": "11/2025",
+      "entries": 50,
+      "source": "firecrawl"
+    },
+    {
+      "session": "12/2025",
+      "entries": 52,
+      "source": "firecrawl"
+    },
+    {
+      "session": "01/2026",
+      "entries": 36,
+      "source": "firecrawl"
+    },
+    {
+      "session": "02/2026",
+      "entries": 44,
+      "source": "firecrawl"
+    },
+    {
+      "session": "03/2026",
+      "entries": 45,
+      "source": "firecrawl"
+    }
+  ],
+  "issues": [
+    "⚠️  07/2020: 0 entries!",
+    "⚠️  12/2020: 0 entries!",
+    "⚠️  01/2021: 0 entries!",
+    "⚠️  01/2024: 0 entries!",
+    "⚠️  02/2024: 0 entries!",
+    "⚠️  09/2025: 0 entries!"
+  ]
+}
