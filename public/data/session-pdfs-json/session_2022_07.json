@@ -10,145 +10,169 @@
       "societe": "Pet Pals",
       "fondateurs": "Iyed Ben Hadj Dahmen, Walid Nouni",
       "secteur": "Creative industry",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Contratou",
       "fondateurs": "Kais Ferchiou",
       "secteur": "Business Software & Services",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Vintage Bae Studio",
       "fondateurs": "Khouloud Torkhani, Khaireddine Fredj",
       "secteur": "Commerce & Shopping",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Swieq",
       "fondateurs": "Zied Jallouli, Tarek Trabelsi, Fedia Zribi",
       "secteur": "Ad Tech and Creative Tech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "INTERMISSA VENOM",
       "fondateurs": "Mohamed Kamel Abderrahim, Anouar Kanzari, Nedya kanzari, Mayssa Ben kahla, Jlassi Wael",
       "secteur": "Wellness",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "TripAware",
       "fondateurs": "Aymen Sellaouti, Dalel Kanzari, Abdelmonem Tlili, Mohamed Ali Toumi, Marwa Souki",
       "secteur": "TravelTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "SMARTY",
       "fondateurs": "Mayssa Souki",
       "secteur": "EdTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Digipages",
       "fondateurs": "Anis Touibi, Gael Personnaz",
       "secteur": "FoodTech & New Food",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Shopy Science",
       "fondateurs": "Gaelle Personnaz",
       "secteur": "Business Software & Services",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "VENARI SECURITY TUN...",
       "fondateurs": "Millar Thoms John",
       "secteur": "CyberSecurity",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Tabaani",
       "fondateurs": "Hamza Moussi, Marouen Jlassi, Khaled Jelassi",
       "secteur": "TravelTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "O2W",
       "fondateurs": "Mahdi Mhiri, Mokhtar Hichri, Mohamed Bouhlel",
       "secteur": "Business Software & Services",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Energy expert team c...",
       "fondateurs": "Mohamed Anouar Brini, Ali Mekni, Fatma Ben Amar",
       "secteur": "Environment/Energie",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "International Highwa...",
       "fondateurs": "Soumaya Dammak, Youssef Ouenniche, Kamel Chahed",
       "secteur": "EdTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "eDATA",
       "fondateurs": "Fakhri Jemail, Fedia El Ayeb, Fahmi Ayeb",
       "secteur": "Business Software & Services",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Pozitron",
       "fondateurs": "Mohamed Saadi, Mohamed Wael Sghaier, Imen Zouari",
       "secteur": "Mobility",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "IZAGRI",
       "fondateurs": "Zineb Zouari",
       "secteur": "Agritech",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "TAOO",
       "fondateurs": "Walid Hached",
       "secteur": "Fintech",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "AquaNergy",
       "fondateurs": "Hejra Melanie Trabelsi, Eskander Alaya",
       "secteur": "Environment/Energie",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Power solution",
       "fondateurs": "Ahmed Baccouch, Chaima Grira, Slim El Benna",
       "secteur": "Environment/Energie",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "FinConnect Financial...",
       "fondateurs": "Taha Bennasr",
       "secteur": "Fintech",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Taw Taw Delivery",
       "fondateurs": "Nacir Bouazizi, Jihen Guerchi",
       "secteur": "Mobility",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Nero",
       "fondateurs": "Ahmed Ferchichi, Mohamed Chatti",
       "secteur": "Agritech",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Projet BoGo",
       "fondateurs": "Mohamed Jaouadi",
       "secteur": "Communication services",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     }
   ],
   "session_data": {
@@ -160,5 +184,8 @@
     "retraits": 0,
     "conversions": 0,
     "newLabels": 18
-  }
+  },
+  "_displayLabels": 18,
+  "_displayPreLabels": 9,
+  "_displayCandidatures": 40
 }

@@ -10,211 +10,246 @@
       "societe": "KIAN TECHNOLOGY – Plateforme Itona",
       "fondateurs": "Nezih Dammak, Amal Chebbi",
       "secteur": "Business Software and services",
-      "resultat": "label accorde au 2 eme tour"
+      "resultat": "label accorde au 2 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "Pigmentoco",
       "fondateurs": "Ayoub Lassoued, Afef Othman",
       "secteur": "Environment",
-      "resultat": "label accorde au 2 eme tour"
+      "resultat": "label accorde au 2 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "Algora Group",
       "fondateurs": "Hayouni Rafedh, Wajih El Hadj Youssef",
       "secteur": "Communication services",
-      "resultat": "label accorde au 2 eme tour"
+      "resultat": "label accorde au 2 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "EyeFish/ExypnoTech",
       "fondateurs": "Manel Lakhal, Fehmi Kharroubi, Mariem Dhaouadi",
       "secteur": "Agritech",
-      "resultat": "label accorde au 2 eme tour"
+      "resultat": "label accorde au 2 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "Inst ar WattyGo : Founisseur 100% Tunisien de solutions intelligentes de recharge pour Véhicules Electriques",
       "fondateurs": "Yassine Ajroud, Abd Razek Dhaouadi, Haythem Belmabrouk, Khaled Fourati, Mondher Makni, Ahmed Ben Issia",
       "secteur": "Ad Tech and Creative Tech",
-      "resultat": "label accorde au 3 eme tour"
+      "resultat": "label accorde au 3 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "Pharmaco",
       "fondateurs": "Fattouma Sana Ben Issia",
       "secteur": "HealthTech",
-      "resultat": "prelabel accorde au 2 eme tour"
+      "resultat": "prelabel accorde au 2 eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Vegana",
       "fondateurs": "Mehdi Ben Hamouda, Mohamed ThamlaOui",
       "secteur": "FoodTech & New Food",
-      "resultat": "prelabel accorde au 2 eme tour"
+      "resultat": "prelabel accorde au 2 eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Waaw",
       "fondateurs": "Said Kouki, Ikdem Ben Mbarek",
       "secteur": "Commerce and shopping",
-      "resultat": "prelabel accorde au 3 eme tour"
+      "resultat": "prelabel accorde au 3 eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Gamefy Academy",
       "fondateurs": "Aymen Jadallah, Saifeddine Berhouma",
       "secteur": "EdTech",
-      "resultat": "prelabel accorde au 3 eme tour"
+      "resultat": "prelabel accorde au 3 eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "DecliTech",
       "fondateurs": "Salma Berhouma, Wiem Ben Yahia",
       "secteur": "EdTech",
-      "resultat": "label non accorde au 2 eme tour"
+      "resultat": "label non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "TenasBook",
       "fondateurs": "Wael Ben Yahia, Adel Kmiha",
       "secteur": "TravelTech",
-      "resultat": "label non accorde au 2 eme tour"
+      "resultat": "label non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Owe",
       "fondateurs": "Bilel Gtifi",
       "secteur": "Commerce and shopping",
-      "resultat": "label non accorde au 2 eme tour"
+      "resultat": "label non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "CRISPY DOC",
       "fondateurs": "Mohamed Bouazza",
       "secteur": "Business Software and services",
-      "resultat": "label non accorde au 3 eme tour"
+      "resultat": "label non accorde au 3 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "PerfectGen",
       "fondateurs": "Seifeddine Ben Hamouda, Ridha Chammam",
       "secteur": "Ad Tech and Creative Tech",
-      "resultat": "prelabel non accorde au 2 eme tour"
+      "resultat": "prelabel non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "RD Nexa",
       "fondateurs": "Nouha Slimane, Dhiya Edine Selmi",
       "secteur": "Business Software and services",
-      "resultat": "prelabel non accorde au 2 eme tour"
+      "resultat": "prelabel non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "AGHSALNI",
       "fondateurs": "Mohamed Mehrzi, Mohamed Amine Ben Farhat",
       "secteur": "Environment",
-      "resultat": "prelabel non accorde au 2 eme tour"
+      "resultat": "prelabel non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "ATLAS Robotics",
       "fondateurs": "Yasser Bououd, Malek Baklouti",
       "secteur": "Agritech",
-      "resultat": "prelabel non accorde au 3 eme tour"
+      "resultat": "prelabel non accorde au 3 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "DG TWIN",
       "fondateurs": "Mohamed Yassine Yahia",
       "secteur": "Real Estate Tech",
-      "resultat": "prelabel non accorde au 3 eme tour"
+      "resultat": "prelabel non accorde au 3 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "PLANIF PAY",
       "fondateurs": "Houssem Djelassi",
       "secteur": "Fintech",
-      "resultat": "prelabel non accorde au 3 eme tour"
+      "resultat": "prelabel non accorde au 3 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "ITMMA",
       "fondateurs": "Amine Mhedhbi",
       "secteur": "Consumer products and services",
-      "resultat": "N.A N.A N.A gouvernemental n°2018-840 du 11 octobre"
+      "resultat": "N.A N.A N.A gouvernemental n°2018-840 du 11 octobre",
+      "_displayDecision": "unknown"
     },
     {
       "societe": "Syndiki Syndiki Solutions",
       "fondateurs": "Haroun Cheriha, Marwa Baccouche",
       "secteur": "Real Estate Tech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Oop'la Imagitoys",
       "fondateurs": "Faouzi Kadous, Christian Ruiz",
       "secteur": "services",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Moonlight AI TN Moonlight AI TN",
       "fondateurs": "Nicole Romano, Stefan Habringer, Aziz Benchedli",
       "secteur": "HealthTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Order Station ORDER STATION",
       "fondateurs": "Ahmed Selmi, Karim Tounsi, Mehemed Bougsea",
       "secteur": "FoodTech & New Food",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Krypton Think it Connected Data Labs",
       "fondateurs": "Joscha Raue, Beldi Zied",
       "secteur": "services",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Mintounes MinTounes",
       "fondateurs": "Anis Harzallah, Ghizlaine Beldi",
       "secteur": "Commerce and shopping",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "HAROON HAROON TALK",
       "fondateurs": "Wafa Makni, Kayoum Djedidi, Azer ben abdallah",
       "secteur": "Social Business",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "OORB Open Organic Robotics SOCIETE OPEN ORGANIC ROBOTICS",
       "fondateurs": "Bassem Gouti, Basly Asma",
       "secteur": "& Robotics",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Linkivia HealthTech",
       "fondateurs": "Février 2023",
       "secteur": "Retrait du Label",
-      "resultat": "20-2018 pour les sociétés bénéficiaires du Label"
+      "resultat": "20-2018 pour les sociétés bénéficiaires du Label",
+      "_displayDecision": "label"
     },
     {
       "societe": "3S : Software and Security  Advanced Manufacturing &",
       "fondateurs": "",
       "secteur": "",
-      "resultat": "La société a dépassé l'âge maximum de 8 ans fixé par la loi"
+      "resultat": "La société a dépassé l'âge maximum de 8 ans fixé par la loi",
+      "_displayDecision": "unknown"
     },
     {
       "societe": "Solutions Robotics ASTRUM BIOTECH HealthTech",
       "fondateurs": "Août 2024",
       "secteur": "Retrait du Label",
-      "resultat": "20-2018 pour les sociétés bénéficiaires du Label"
+      "resultat": "20-2018 pour les sociétés bénéficiaires du Label",
+      "_displayDecision": "label"
     },
     {
       "societe": "Baity tn \"Decoriz\" SARL Commerce and shopping",
       "fondateurs": "Novembre 2019",
       "secteur": "Retrait du Label",
-      "resultat": "20-2018 pour les sociétés bénéficiaires du Label"
+      "resultat": "20-2018 pour les sociétés bénéficiaires du Label",
+      "_displayDecision": "label"
     },
     {
       "societe": "DigiConstat Business Software and services",
       "fondateurs": "Mars 2020",
       "secteur": "Retrait du Label",
-      "resultat": "20-2018 pour les sociétés bénéficiaires du Label"
+      "resultat": "20-2018 pour les sociétés bénéficiaires du Label",
+      "_displayDecision": "label"
     },
     {
       "societe": "Apprentus Tunisie EdTech",
       "fondateurs": "Avril 2019",
       "secteur": "Retrait du Label",
-      "resultat": "20-2018 pour les sociétés bénéficiaires du Label"
+      "resultat": "20-2018 pour les sociétés bénéficiaires du Label",
+      "_displayDecision": "label"
     },
     {
       "societe": "Finansya Ecosystem Fintech",
       "fondateurs": "Avril 2022",
       "secteur": "Retrait du Label",
-      "resultat": "20-2018 pour les sociétés bénéficiaires du Label"
+      "resultat": "20-2018 pour les sociétés bénéficiaires du Label",
+      "_displayDecision": "label"
     }
   ],
   "session_data": {
@@ -226,5 +261,8 @@
     "retraits": 0,
     "conversions": 0,
     "newLabels": 13
-  }
+  },
+  "_displayLabels": 13,
+  "_displayPreLabels": 5,
+  "_displayCandidatures": 21
 }

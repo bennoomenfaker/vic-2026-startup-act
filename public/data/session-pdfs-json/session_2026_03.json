@@ -10,199 +10,232 @@
       "societe": "DigiQuorum",
       "fondateurs": "Sofiane MABROUK, Mériem Jaïdane",
       "secteur": "Business Software and",
-      "resultat": "label accorde au 2 eme tour"
+      "resultat": "label accorde au 2 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "WIDITION",
       "fondateurs": "Nader Mechergui, Neska Elhaouij, Aymen El Kadhi",
       "secteur": "Wellness",
-      "resultat": "Rim Saied et Anis Sahbani ont déclaré avoir un"
+      "resultat": "Rim Saied et Anis Sahbani ont déclaré avoir un",
+      "_displayDecision": "unknown"
     },
     {
       "societe": "LEGALYZ",
       "fondateurs": "Khalil Bessaad, hassen noamen, Saifeddine Mgasseb",
       "secteur": "services",
-      "resultat": "label accorde au 2 eme tour"
+      "resultat": "label accorde au 2 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "Talent 619 ComptaRise WISER DESIGN TECHNOLOGY",
       "fondateurs": "bacha baha eddine, karim Nouira, Ines Ben khalifa, MOHAMED MEHDI, BACCOUCHE, MOHAMED LOTFI",
       "secteur": "services",
-      "resultat": "label accorde au 3 eme tour"
+      "resultat": "label accorde au 3 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "TUNISIA",
       "fondateurs": "DEROUICHE",
       "secteur": "Robotics",
-      "resultat": "label accorde au 3 eme tour"
+      "resultat": "label accorde au 3 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "Pharma link",
       "fondateurs": "Anis Hafoudhi, Wafa Aouine, Anas HAJLAOUI",
       "secteur": "HealthTech",
-      "resultat": "label accorde au 3 eme tour"
+      "resultat": "label accorde au 3 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "Fitories",
       "fondateurs": "Sofiene Ben romdhane, Sami sghaier",
       "secteur": "HealthTech",
-      "resultat": "label accorde au 3 eme tour"
+      "resultat": "label accorde au 3 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "WattzHub Tunisie",
       "fondateurs": "Oumayma AMRI, Jaouher Mghirbi",
       "secteur": "Mobility",
-      "resultat": "label accorde au 3 eme tour"
+      "resultat": "label accorde au 3 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "CnBees TrinovaQ",
       "fondateurs": "Adel Ghorbel, Raef Ben Jeddou, Hela Bouallegue, Iyed Gabsi",
       "secteur": "Fintech",
-      "resultat": "label accorde au 3 eme tour"
+      "resultat": "label accorde au 3 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "Cosmos",
       "fondateurs": "mohamed dahmani, Sabrine Hammami",
       "secteur": "services",
-      "resultat": "prelabel accorde au 2 eme tour"
+      "resultat": "prelabel accorde au 2 eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "FOODIERI",
       "fondateurs": "Dina Mechergui, Sabrine Golli",
       "secteur": "FoodTech & New Food",
-      "resultat": "prelabel accorde au 2 eme tour"
+      "resultat": "prelabel accorde au 2 eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "RASD - Risk Assessment &",
       "fondateurs": "Houcem KOLSI",
       "secteur": "Business Software and",
-      "resultat": ""
+      "resultat": "",
+      "_displayDecision": "unknown"
     },
     {
       "societe": "Security Dashboard",
       "fondateurs": "Jihed El Hak Bakalti",
       "secteur": "services",
-      "resultat": "prelabel accorde au 3 eme tour"
+      "resultat": "prelabel accorde au 3 eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Drivi.tn",
       "fondateurs": "Mohamed Aissa MAAMER, Med Ben aoun, Aziz Hanafi",
       "secteur": "EdTech",
-      "resultat": "prelabel accorde au 3 eme tour"
+      "resultat": "prelabel accorde au 3 eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Degla",
       "fondateurs": "Ahmed Mohmedzain",
       "secteur": "services",
-      "resultat": "prelabel accorde au 3 eme tour"
+      "resultat": "prelabel accorde au 3 eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Elbat7a.tn",
       "fondateurs": "abdelaziz ben yahia, Oussama Ben achour, Adnen Romdhane",
       "secteur": "Tech",
-      "resultat": "label non accorde au 2 eme tour"
+      "resultat": "label non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "B-CAR",
       "fondateurs": "Siwar Hafian, Nizar JLASSI",
       "secteur": "Mobility",
-      "resultat": "label non accorde au 2 eme tour"
+      "resultat": "label non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "N2VERSE",
       "fondateurs": "Rym Sghaier",
       "secteur": "Real Estate Tech",
-      "resultat": "label non accorde au 2 eme tour"
+      "resultat": "label non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Confirmed",
       "fondateurs": "chahine elamri",
       "secteur": "shopping",
-      "resultat": "label non accorde au 2 eme tour"
+      "resultat": "label non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Taniterra",
       "fondateurs": "Nadhem Chroudi",
       "secteur": "services",
-      "resultat": "label non accorde au 2 eme tour"
+      "resultat": "label non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "LoopImpact",
       "fondateurs": "Imed Hamdi",
       "secteur": "Environment",
-      "resultat": "label non accorde au 2 eme tour"
+      "resultat": "label non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Vexylio Reg.",
       "fondateurs": "AHMED TARHOUNI TRABELSI",
       "secteur": "HealthTech",
-      "resultat": "label non accorde au 2 eme tour"
+      "resultat": "label non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "SOCIETE FLASHBAC CREATIVE",
       "fondateurs": "Mohamed Mouhib Meddeb",
       "secteur": "EdTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Flashbac LEARNING",
       "fondateurs": "Hazem Ben Saria",
       "secteur": "",
-      "resultat": ""
+      "resultat": "",
+      "_displayDecision": "unknown"
     },
     {
       "societe": "Fiel Medina DACNIS SARL",
       "fondateurs": "Mohamed Touati, Ben thabet Mohamed, Charfeddine Aziza",
       "secteur": "TravelTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Trip Hive Technologies",
       "fondateurs": "Souaf Amir, Rebhi Amira",
       "secteur": "TravelTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Trip Hive",
       "fondateurs": "Hamden Nasri",
       "secteur": "",
-      "resultat": ""
+      "resultat": "",
+      "_displayDecision": "unknown"
     },
     {
       "societe": "Digital Cultural eXperience EdTech",
       "fondateurs": "",
       "secteur": "",
-      "resultat": ""
+      "resultat": "",
+      "_displayDecision": "unknown"
     },
     {
       "societe": "Neopolis Development Insurance Tech",
       "fondateurs": "",
       "secteur": "",
-      "resultat": ""
+      "resultat": "",
+      "_displayDecision": "unknown"
     },
     {
       "societe": "NATDYES Wearables",
       "fondateurs": "",
       "secteur": "",
-      "resultat": ""
+      "resultat": "",
+      "_displayDecision": "unknown"
     },
     {
       "societe": "IDARA TN Plateforme Sociale",
       "fondateurs": "",
       "secteur": "",
-      "resultat": ""
+      "resultat": "",
+      "_displayDecision": "unknown"
     },
     {
       "societe": "Aston technologies Fintech",
       "fondateurs": "",
       "secteur": "",
-      "resultat": ""
+      "resultat": "",
+      "_displayDecision": "unknown"
     },
     {
       "societe": "Teens Media Creative industry",
       "fondateurs": "",
       "secteur": "",
-      "resultat": ""
+      "resultat": "",
+      "_displayDecision": "unknown"
     }
   ],
   "session_data": {
@@ -214,5 +247,8 @@
     "retraits": 0,
     "conversions": 0,
     "newLabels": 13
-  }
+  },
+  "_displayLabels": 13,
+  "_displayPreLabels": 7,
+  "_displayCandidatures": 41
 }

@@ -10,205 +10,239 @@
       "societe": "KOOL",
       "fondateurs": "Mohsen Ayari",
       "secteur": "FoodTech & New Food",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "DRYSEK",
       "fondateurs": "Elyes Said, Tawfik Ben Hamadi",
       "secteur": "Agritech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "HYDROPEN TECHNOLOGIE",
       "fondateurs": "Zied Boukhris, Mourad Chaabane, Amira Cheniour",
       "secteur": "Agritech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Seabex Middle East and Africa",
       "fondateurs": "Ines Hamida, Taher Mestiri, Youssef Boumahdef",
       "secteur": "Agritech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "GO TO MATCH",
       "fondateurs": "Wissem Ata, Khaled Hamila, Ghassen Selmi, Amen Eddine Mili, Houssam Jedidi",
       "secteur": "Gaming",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "MARKET360DEGREES",
       "fondateurs": "Rene Sehi, Joerg Funder, Guenter Althaus, Mohamed Bechir Chniti",
       "secteur": "Business Software",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "B2B Tunisia",
       "fondateurs": "Nedra Neffeti, Hajer Siala",
       "secteur": "Marketplace / e-commerce",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Agritable",
       "fondateurs": "Sophiene Jebabli",
       "secteur": "Marketplace / e-commerce",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Ghazela Technology",
       "fondateurs": "Anis Hachani",
       "secteur": "Business Software",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "GDTC",
       "fondateurs": "Haithem Cherni, Oussama Romdhane",
       "secteur": "EdTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Kabylis",
       "fondateurs": "Khalil Fakhfekh, Moussa Tajouri",
       "secteur": "Marketplace / e-commerce",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Dlilek",
       "fondateurs": "Chourouk Attig, Mohamed Ghazi Baccouche",
       "secteur": "Plateforme Social",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "robotdot",
       "fondateurs": "Habib Gafsi, Kamel Jemli",
       "secteur": "Industry",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Provectus",
       "fondateurs": "Dhia Jemli, Monji Jemli, Mohamed Ben Ahmed",
       "secteur": "Environment",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "AquaDeep",
       "fondateurs": "Mohamed Youssef Chahed, Rami Brahem",
       "secteur": "Agritech",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "myCarCare",
       "fondateurs": "Amani Bettaieb, Ahmed Ben Yedder, Mohamed Ali BRINI",
       "secteur": "Mobility",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Cooptatio",
       "fondateurs": "Hayfa Ben Mohamed",
       "secteur": "Social Business",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "WIKI ACADEMY SA",
       "fondateurs": "Wassef Ben Ounis, Marwa Ferchichi",
       "secteur": "Social Business",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Mirva Intertnational Trading",
       "fondateurs": "Severin Judicael Mombembo, Sarah Lamine",
       "secteur": "Agritech",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Convergen",
       "fondateurs": "Mohamed Ali Aguel, Marwane Arsslene Zribi",
       "secteur": "Creative industry",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "RED LION MATRIX",
       "fondateurs": "Rhym Ben Ghazi, Teja Kallel",
       "secteur": "Services de communication",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "TEK4OFFICE",
       "fondateurs": "Ali Khelifi, Khelifi Ibrahim",
       "secteur": "Business Software",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Tunisia's Harvest",
       "fondateurs": "Nahla Elmi, Nadhmi Jourchi",
       "secteur": "Health care",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Escape Room Tunisia",
       "fondateurs": "Narjess Derouiche, Firas Raddadi",
       "secteur": "Creative industry",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Roost",
       "fondateurs": "Ghada Radadi",
       "secteur": "Services de communication",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "KatYos",
       "fondateurs": "",
       "secteur": "Creative industry",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "JOBGATE LE BISCUIT FONCTIONNEL",
       "fondateurs": "Angoud Houssem, Neila Hafsia, Seifeddine Memmiche",
       "secteur": "EdTech",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "SMART SPORTS",
       "fondateurs": "Smart Racing Hub Oussema Dhaouadi, Monaam Ayachi",
       "secteur": "Creative industry",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "NeoBionics",
       "fondateurs": "Bionics, Ikhlas Ayachi, Yasser Belguesmi",
       "secteur": "Health care",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "STE YAGRI",
       "fondateurs": "YAGRI, Dorsaf Bouallagui, Ibrahim Jlassi",
       "secteur": "Agritech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "IH PAPRITECH",
       "fondateurs": "Paprika Solutions Mohamed Belouaer, Houssem Chaabani, Souhail Msakni",
       "secteur": "Creative industry",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Eva Dam Technology",
       "fondateurs": "EVADAM Sami Sghaier, Ahmed Liouene, Karim Jebali",
       "secteur": "Fintech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Tunisian identity online",
       "fondateurs": "BankeID Nader Chibani, wael kassis",
       "secteur": "Fintech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "STE KTN TRAFFIC",
       "fondateurs": "Ktn_Traffic Mohamed Salah Zaggar",
       "secteur": "Business Software",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     }
   ],
   "session_data": {
@@ -220,5 +254,8 @@
     "retraits": 0,
     "conversions": 0,
     "newLabels": 18
-  }
+  },
+  "_displayLabels": 18,
+  "_displayPreLabels": 6,
+  "_displayCandidatures": 41
 }

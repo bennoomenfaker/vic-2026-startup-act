@@ -10,181 +10,211 @@
       "societe": "Autoecoleplus.tn",
       "fondateurs": "",
       "secteur": "",
-      "resultat": ""
+      "resultat": "",
+      "_displayDecision": "unknown"
     },
     {
       "societe": "Fripeji.tn",
       "fondateurs": "Ahmed Ferjani, Mohamed Salah Elbach, Yassine Ajili",
       "secteur": "Marketplace / e-commerce Label",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "CarHuB-TI",
       "fondateurs": "Nidhal Akrout, Aymen Zouaoui, Kais Zouaoui",
       "secteur": "Mobility",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "MicroAcess",
       "fondateurs": "Imen Ben Nsir, Marwa Mejri, Marouan Ariane",
       "secteur": "Mobility",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "IMPACT NUTRITION",
       "fondateurs": "Houda Saied, Rania Fakhfakh",
       "secteur": "FoodTech & New Food",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Vife",
       "fondateurs": "Emna Souid, Marwa Hannachi, Alexandre Cour",
       "secteur": "Health care",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Shipzzer",
       "fondateurs": "Sami Landoulsi, Mehdi Mhamdi",
       "secteur": "Business Software",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Freelancy",
       "fondateurs": "Karim Zribi",
       "secteur": "Marketplace / e-commerce Label",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Controlmed",
       "fondateurs": "Faten Hamdi",
       "secteur": "Agritech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Moline",
       "fondateurs": "Alia Belkhodja, Sassi Siwar",
       "secteur": "Health care",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Kids protect",
       "fondateurs": "Yasmine Selmi, Mohamed Omrane Mzabi",
       "secteur": "Health care",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Drest.tn",
       "fondateurs": "",
       "secteur": "Business Software",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Deepth",
       "fondateurs": "Bouchra Bel Haj Abdallah, Mehdi Ben Abdallah",
       "secteur": "Health care",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "ILEY'COM- مﻛﯾﻟإ",
       "fondateurs": "Marwa Moula, Mohamed Taha Ben Mhenni",
       "secteur": "Social Business",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Vitah",
       "fondateurs": "Iheb Sahloul, Saifeddine Ben Mhenni, Khalil Zammeli",
       "secteur": "Health care",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Skilled",
       "fondateurs": "Hosn el Oujoud Tebourski, Hajer Kharrat",
       "secteur": "EdTech",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Skills21",
       "fondateurs": "Rami Mestiri, Mohamed Khalil Liouane",
       "secteur": "EdTech",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Deliv's",
       "fondateurs": "Sinda Bououn, Ayachi Monaam",
       "secteur": "FoodTech & New Food",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Bionics",
       "fondateurs": "Ikhlas Ayachi",
       "secteur": "Health care",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Suprem",
       "fondateurs": "Khaireddine Mejri, Nesrine Welhezi",
       "secteur": "Creative industry",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Win now",
       "fondateurs": "Oussema Khlifi, Nizar Welhezi, Wassim Ghozlani, Nadia Redissi",
       "secteur": "Marketplace / e-commerce Label",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Art Culture Studio",
       "fondateurs": "Amine Landoulsi, Arbi Dridi, Amine Kéfi",
       "secteur": "Creative industry",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Flexipik",
       "fondateurs": "Beya Ben Saad",
       "secteur": "Creative industry",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "OVVA SYSTEMS",
       "fondateurs": "affipro Youssef Ennasri, Mounir Ghlaiel",
       "secteur": "Marketing",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Creometry",
       "fondateurs": "Creometry, Aymen El Amri, Hanene Moalla",
       "secteur": "Telecom",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "REC-INov",
       "fondateurs": "REC-INov Jamila Khlif, Wajdi Moalla, Ali Safsafi",
       "secteur": "cryptocurrency",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "ETNAFES",
       "fondateurs": "ETNAFES Ichrak Aouissaoui, Najeh Bedhief, Bechir Gtari",
       "secteur": "Autre contenu créatif",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "CIVITAS DIGITAL",
       "fondateurs": "Civitas Firas Gaffari, Houssem Akrout",
       "secteur": "Business Software",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Next Gen Corp",
       "fondateurs": "Souamay Tlili, Faten Manai, Abd El Aziz Trabelsi",
       "secteur": "Santé",
-      "resultat": ""
+      "resultat": "",
+      "_displayDecision": "unknown"
     },
     {
       "societe": "Orient Tea",
       "fondateurs": "Tarek Talbi",
       "secteur": "Biotechnologie",
-      "resultat": ""
+      "resultat": "",
+      "_displayDecision": "unknown"
     }
   ],
   "session_data": {
@@ -196,5 +226,8 @@
     "retraits": 0,
     "conversions": 0,
     "newLabels": 25
-  }
+  },
+  "_displayLabels": 25,
+  "_displayPreLabels": 8,
+  "_displayCandidatures": 41
 }

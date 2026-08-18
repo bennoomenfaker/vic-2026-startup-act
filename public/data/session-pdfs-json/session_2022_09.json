@@ -10,217 +10,253 @@
       "societe": "AROTEQ",
       "fondateurs": "Issam Abeda",
       "secteur": "Consumer Product & Services",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Super Senses",
       "fondateurs": "Sarra Boufayed, Aymen Abid Boukadida, Hamza Ben Ammar",
       "secteur": "Business Software & Services",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Teligencia.io",
       "fondateurs": "Aymen Gatri",
       "secteur": "CyberSecurity",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Pedalo",
       "fondateurs": "Amany Hamdany",
       "secteur": "Business Software & Services",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "DSAP (Data System Analysis Platform)",
       "fondateurs": "Elyes Maherzi",
       "secteur": "Ad Tech and Creative Tech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Lissene- نﺎﺳﻟ",
       "fondateurs": "Hachem Charfi, Romain Lamaison",
       "secteur": "EdTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "QUANTA TN",
       "fondateurs": "Guillaume THIBAUX, Aymen Fezai",
       "secteur": "Business Software & Services",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Screenflex",
       "fondateurs": "Bilel Nsibi, Anis Mzali",
       "secteur": "Ad Tech and Creative Tech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "aivataria",
       "fondateurs": "Youssef Boufaied, Mohamed Ali Belajouza, Ramzi Larbi, Khouloud Abid",
       "secteur": "Ad Tech and Creative Tech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "El Fallega",
       "fondateurs": "Med Khalil Terzi, Ali Gaigi, Moez Lidinellah Waddey",
       "secteur": "TravelTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "dyno",
       "fondateurs": "Mohamad Obeid, Mohamed-Hedi Jridi, Ali Mehrez",
       "secteur": "FinTech",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Storycraft",
       "fondateurs": "Meher Somrani, Mustapha Lejri, Sami Bellalah",
       "secteur": "Ad Tech and Creative Tech",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Oceanus",
       "fondateurs": "Houneida Majdoub, Seifeddine Majdoub, Zied Ben Slimen, Najla Hamza",
       "secteur": "Environment",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Kayotica",
       "fondateurs": "Yassine Jdey, Mohamed Salem Menssi, Amine Angliz",
       "secteur": "Ad Tech and Creative Tech",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Bitaqa.tn",
       "fondateurs": "Amine Miladi",
       "secteur": "Business Software and services",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "CHLORIS Flowers",
       "fondateurs": "Ines Chouchi, Eya Khamassi, Mohamed Souidi",
       "secteur": "Consumer products and services",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Sefer",
       "fondateurs": "Mohamed Oussama Ben Yahia",
       "secteur": "Mobility",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "AZRO EVENTS",
       "fondateurs": "Afef Bouazizi, Rkiwa Tijani, Saima Znaidi",
       "secteur": "TravelTech",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "DABy Go",
       "fondateurs": "Cyrine Znaidi, Mahmoud Hattab",
       "secteur": "Fintech",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "DATUM karhebti / sociéte :CHIRON",
       "fondateurs": "Fatma Zahra Hichri, Marwene Khouaja, Houssem Eddine Noamen, Mohamed Amine Amdouni",
       "secteur": "Ad Tech and Creative Tech",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "ABBK Physicsworks",
       "fondateurs": "Ammar Kouki, Mohamed Khebir, Med Amine Brinis, Ghofrane Brinis",
       "secteur": "Ad Tech and Creative Tech",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Viore digital",
       "fondateurs": "Azza Channoufi, Hamza Nechi, Ali Abdallah",
       "secteur": "Business Software and services",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Sellkit",
       "fondateurs": "Ala Touati, Mariem Ben Maallem, Majdi Ben Maallem",
       "secteur": "Commerce and shopping",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Home Decor AR",
       "fondateurs": "Firas Bouzou, Yosri Kossontini, Mustapha Gharbi",
       "secteur": "Consumer products and services",
-      "resultat": "prelabel non accorde"
+      "resultat": "prelabel non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Noir Ou Blanc",
       "fondateurs": "Alaa Edinee Ben Mbarek, Adel Askri",
       "secteur": "Ad Tech and Creative Tech",
-      "resultat": "prelabel non accorde"
+      "resultat": "prelabel non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Opus",
       "fondateurs": "Youssef Ben Abdallah, Atef Askri, Fahd Guedoiri",
       "secteur": "Business Software and services",
-      "resultat": "prelabel non accorde"
+      "resultat": "prelabel non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "PINUS",
       "fondateurs": "Sofien Saadaoui, Siwar Khadhraoui",
       "secteur": "Agritech",
-      "resultat": "prelabel non accorde"
+      "resultat": "prelabel non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "HealthyGO",
       "fondateurs": "Hayfa Oueslati",
       "secteur": "FoodTech & New Food",
-      "resultat": "prelabel non accorde"
+      "resultat": "prelabel non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Digital work solutions",
       "fondateurs": "Digital work solutions  Yousser Sabbagh, Slim Dhahri, Mohamed Medhaffar, Ghabri Siwar",
       "secteur": "Business Software & Services",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "VAL BIO DECHETS COMPOSITE",
       "fondateurs": "VAL BIO DECHETS COMPOSITE Raja Dhief, Rabiaa Abdaoui, Chefia Nasr, Wissal Farjallah, Lotfi Ben Romdhane",
       "secteur": "Environment/Energie",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "STE Vivia Clinical Network",
       "fondateurs": "CRAWN, Lotfi Ammar, Souad Dziri, Faten Meziou, Ahmed Chabchoub",
       "secteur": "HealthTech & wellbeing",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Offensylab moovin 360",
       "fondateurs": "IGIDER, Moataz Jemni, Koussay Bouchaala, Dheker Hamami, Moovin 360, Bilel Chebbi, Hatem Ben Brahim",
       "secteur": "CyberSecurity",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "HUBS TRAVEL",
       "fondateurs": "HUBS TRAVEL, Wafa Ghrir, Aberraouf Terres",
       "secteur": "TravelTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "CARGOWEEN",
       "fondateurs": "Cargoween  Yasmine Terres, Dhia El Hak Merai",
       "secteur": "Business Software & Services",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Mini Jobi",
       "fondateurs": "Staffiny Zied Brahem, Ouissem Lahouar",
       "secteur": "Business Software & Services",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Womia",
       "fondateurs": "Womia Anas Dogui, Sabrine Aidi",
       "secteur": "Health tech & wellbeing",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     }
   ],
   "session_data": {
@@ -232,5 +268,8 @@
     "retraits": 0,
     "conversions": 0,
     "newLabels": 19
-  }
+  },
+  "_displayLabels": 19,
+  "_displayPreLabels": 5,
+  "_displayCandidatures": 40
 }

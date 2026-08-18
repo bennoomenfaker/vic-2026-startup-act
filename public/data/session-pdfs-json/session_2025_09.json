@@ -10,145 +10,169 @@
       "societe": "PSYNARIOS Ligalo",
       "fondateurs": "Mohamed Ali Gamha, Alaa Adouni, Salem Moussa Adouni, Mohamed Mouhib Meddeb",
       "secteur": "EdTech",
-      "resultat": "label accorde au 2 eme tour"
+      "resultat": "label accorde au 2 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "Flashbac",
       "fondateurs": "Hazem Ben Saria",
       "secteur": "EdTech",
-      "resultat": "prelabel accorde au 2 eme tour"
+      "resultat": "prelabel accorde au 2 eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "The pointing graphical tablet",
       "fondateurs": "Mohamed Taibah, Mohamed Kais Ben Rhouma, Ben thabet Mohamed, Charfeddine Aziza",
       "secteur": "Advanced Manufacturing &",
-      "resultat": "prelabel accorde au 2 eme tour"
+      "resultat": "prelabel accorde au 2 eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Trip Hive",
       "fondateurs": "Souaf Amir",
       "secteur": "TravelTech",
-      "resultat": "prelabel accorde au 2 eme tour"
+      "resultat": "prelabel accorde au 2 eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "ProgressBox El Qemma",
       "fondateurs": "houssem ben brahim, Abdelhakim Haddad, oueslati salim, Mehdi Essalah, khaled makhlouf",
       "secteur": "Agritech",
-      "resultat": "prelabel accorde au 2 eme tour"
+      "resultat": "prelabel accorde au 2 eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Gotei",
       "fondateurs": "Amine Ben Messaoud, assad yahyawi, SABRINE MARZOUGUI",
       "secteur": "Ad Tech and Creative Tech",
-      "resultat": "prelabel accorde au 2 eme tour"
+      "resultat": "prelabel accorde au 2 eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "نﯾﺗﻣﺎﻣﯾﻟا  LYAMAMATAYN DIA industries",
       "fondateurs": "Kawther Marzouki, Norene Sakouhi, Mohamed Yessine KSIBI, Dia Ali, Hamza Bouajila, Mehdi ZAYET, Ali Abdallah",
       "secteur": "EdTech",
-      "resultat": "prelabel accorde au 2 eme tour"
+      "resultat": "prelabel accorde au 2 eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "VIBE FLOW AI",
       "fondateurs": "ala touati",
       "secteur": "Ad Tech and Creative Tech",
-      "resultat": "prelabel accorde au 3 eme tour"
+      "resultat": "prelabel accorde au 3 eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "BxB Studio",
       "fondateurs": "Yassine Boumaiza",
       "secteur": "Ad Tech and Creative Tech",
-      "resultat": "label non accorde au 2 eme tour"
+      "resultat": "label non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Boon",
       "fondateurs": "Safa Bouabdallah, Fatma Bouhajeb, Ibrahim Daami",
       "secteur": "Real Estate Tech",
-      "resultat": "label non accorde au 3 eme tour"
+      "resultat": "label non accorde au 3 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Millisave",
       "fondateurs": "Mahmoud DAAMI",
       "secteur": "services",
-      "resultat": "label non accorde au 3 eme tour"
+      "resultat": "label non accorde au 3 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "سﻧوﺗ تارﺎﻘﻋ : Akarat.tn",
       "fondateurs": "Amari Aida",
       "secteur": "Commerce and shopping",
-      "resultat": "prelabel non accorde au 2 eme tour"
+      "resultat": "prelabel non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "OptiPlanex",
       "fondateurs": "Amal Louati",
       "secteur": "services",
-      "resultat": "prelabel non accorde au 2 eme tour"
+      "resultat": "prelabel non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "URBANAV",
       "fondateurs": "Saifeddine Bessaidi, aziz zaag",
       "secteur": "Mobility",
-      "resultat": "prelabel non accorde au 2 eme tour"
+      "resultat": "prelabel non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Darraja لﻣﻋ  3MAL",
       "fondateurs": "Aymen Bouhaha, Mohamed Bayar, SADRI BEN AHMED",
       "secteur": "Mobility",
-      "resultat": "prelabel non accorde au 2 eme tour"
+      "resultat": "prelabel non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "TENDER FLOW OptimAi Tender Flow",
       "fondateurs": "Slim Bhiri, Aymen Talbi",
       "secteur": "services",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Palm.ai Palm Solutions RH Tunisie",
       "fondateurs": "Hela Atmani, NOUR GHALIA ABASSI, Lyle Halliday",
       "secteur": "EdTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Digehealth TN Dige Health Tunisia",
       "fondateurs": "Marcel Wuethrich, Daniel Pohl, Mohamed Yassine Derbel",
       "secteur": "HealthTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Hanoutik M M HANOUTEK WattyGo : Founisseur 100% Tunisien de solutions",
       "fondateurs": "Adem Bouatay, Mouhaned Ben Abdelhafidh, Haythem Belmabrouk",
       "secteur": "services",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "WattyGo technologies intelligentes de recharge pour Véhicules Electriques",
       "fondateurs": "Khaled Fourati, Mondher Makni",
       "secteur": "Mobility",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Talifouni+ TPLUS INNOVATION",
       "fondateurs": "Baha Kaabaoui",
       "secteur": "Business Software and",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "ESKY Professionnel Services",
       "fondateurs": "",
       "secteur": "",
-      "resultat": "La société a dépassé l'âge maximum de 8 ans fixé par"
+      "resultat": "La société a dépassé l'âge maximum de 8 ans fixé par",
+      "_displayDecision": "unknown"
     },
     {
       "societe": "South Fruits Agri",
       "fondateurs": "",
       "secteur": "",
-      "resultat": ""
+      "resultat": "",
+      "_displayDecision": "unknown"
     },
     {
       "societe": "Think-IT lABS",
       "fondateurs": "",
       "secteur": "",
-      "resultat": ""
+      "resultat": "",
+      "_displayDecision": "unknown"
     }
   ],
   "session_data": {
@@ -160,5 +184,8 @@
     "retraits": 0,
     "conversions": 0,
     "newLabels": 7
-  }
+  },
+  "_displayLabels": 7,
+  "_displayPreLabels": 10,
+  "_displayCandidatures": 25
 }

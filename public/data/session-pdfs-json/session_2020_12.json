@@ -10,217 +10,253 @@
       "societe": "Telum",
       "fondateurs": "Nour Ehore Ghoseh Amal",
       "secteur": "Logiciel",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Ma Formation Privilee",
       "fondateurs": "Helmi Mash",
       "secteur": "E-commerce",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "AirGraph",
       "fondateurs": "GHAYTH Bouygatta Lafalfa Rash Edouard Guilhot Daniel Balleger",
       "secteur": "Robotique",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "LG P",
       "fondateurs": "Ahmed Miffes",
       "secteur": "Autre contenu créatif",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "WAMIA",
       "fondateurs": "Abdereazak Ahlou Al Cherif Amri Kekasae",
       "secteur": "E-commerce",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "moudda.com",
       "fondateurs": "Meeki Musselderb Karman Rokkane",
       "secteur": "E-commerce",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "wiTrade",
       "fondateurs": "Mierten Nebi Zainib Nebi Taha Haitie",
       "secteur": "E-commerce",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "SOAR",
       "fondateurs": "Aymen Tabi Nour Bourataize",
       "secteur": "Health Tech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Datagram",
       "fondateurs": "Mohamed Ali Ben Aleya",
       "secteur": "Big Data",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "IBIS Technologies",
       "fondateurs": "Khaled Bouchousha",
       "secteur": "Agrtech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "PROSERVY",
       "fondateurs": "Ahmed Didi Wassim Ioani Mohamed Diyan Koutini",
       "secteur": "Logiciel",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Cagronte Fid",
       "fondateurs": "Omar Bacar Cager Bouchousha",
       "secteur": "E-commerce",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Smarth",
       "fondateurs": "Ramzi Zefani",
       "secteur": "Logiciel",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "NetShake",
       "fondateurs": "Raith Bensi Abdalah Bakke",
       "secteur": "EdTech",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Go Staff",
       "fondateurs": "Mohamed Hanoun Ouannes Wassim Khalfa",
       "secteur": "Health Tech",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Kn_Traffic",
       "fondateurs": "Mohamed Salah Zaggar",
       "secteur": "Autre contenu créatif",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Bridge ITops",
       "fondateurs": "Wald Saad",
       "secteur": "Logiciel",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "WARM",
       "fondateurs": "Marwa Ben Aissa",
       "secteur": "E-commerce",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "LEEVVA Communication",
       "fondateurs": "Wissem Bougulla Loc Lafhiq",
       "secteur": "Telecom",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "BasketID",
       "fondateurs": "Karmir Jabali Maker Chukai Wael Kaiso",
       "secteur": "Fintech",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Key Software",
       "fondateurs": "Khaled Saddani",
       "secteur": "Logiciel",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "BAIT",
       "fondateurs": "Ahmed Trad",
       "secteur": "Logiciel",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "The Mission",
       "fondateurs": "Fatin Maslei Sandari Elbawi",
       "secteur": "EdTech",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "instead",
       "fondateurs": "Karmir Ben Abdalaziz Arwa Bel Hiji Taha Beri Amal Guzman",
       "secteur": "Fintech",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "MICRO DEVICE TUNISA",
       "fondateurs": "Hamdil Ben Amor",
       "secteur": "IoT",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Droopex",
       "fondateurs": "Ahmed Allesch Waet Allesch",
       "secteur": "Logistique",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "OnePack",
       "fondateurs": "Sarra Fehail Firas Dheouad Malik Ahmed",
       "secteur": "EdTech",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Omaris Wood",
       "fondateurs": "Omar Trabelsi",
       "secteur": "Autre contenu créatif",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "OMNIUP",
       "fondateurs": "Karim Jelliti Issam Essefi Ali Sakka",
       "secteur": "Marketing",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "إبراهيم الدين - VirtuA Agency",
       "fondateurs": "Siem Ouled Hsin",
       "secteur": "Autre contenu créatif",
-      "resultat": "prelabel non accorde"
+      "resultat": "prelabel non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "EVO ENERGIZE",
       "fondateurs": "Maher Amara Safa Bouhajar",
       "secteur": "IoT",
-      "resultat": "prelabel non accorde"
+      "resultat": "prelabel non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Pabitel.tn",
       "fondateurs": "Syrine Zgueb",
       "secteur": "Logiciel",
-      "resultat": "prelabel non accorde"
+      "resultat": "prelabel non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Jood Lab",
       "fondateurs": "Mohamed Belghith Younes Ben Mabrouk",
       "secteur": "Logiciel",
-      "resultat": "prelabel non accorde"
+      "resultat": "prelabel non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "World Wide Security",
       "fondateurs": "Mohamed Aziz Elmabrouk",
       "secteur": "Autre contenu créatif",
-      "resultat": "prelabel non accorde"
+      "resultat": "prelabel non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Mat7irech",
       "fondateurs": "Mohamed Harbaoui",
       "secteur": "Mobile",
-      "resultat": "prelabel non accorde"
+      "resultat": "prelabel non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Flow",
       "fondateurs": "Omar Guizani Maher Bouzid",
       "secteur": "Fintech",
-      "resultat": "prelabel non accorde"
+      "resultat": "prelabel non accorde",
+      "_displayDecision": "refused"
     }
   ],
   "session_data": {
@@ -232,5 +268,8 @@
     "retraits": 0,
     "conversions": 0,
     "newLabels": 21
-  }
+  },
+  "_displayLabels": 21,
+  "_displayPreLabels": 8,
+  "_displayCandidatures": 36
 }

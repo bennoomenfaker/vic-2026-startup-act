@@ -10,169 +10,197 @@
       "societe": "OSTELFLOW",
       "fondateurs": "Amine Riahi, Lilia Skhiri, Nassira Barhoumi",
       "secteur": "TravelTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Tunarco",
       "fondateurs": "Marwen El Bari, Héla Majdoub",
       "secteur": "Advanced Manufacturing & Industry",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Gloristory",
       "fondateurs": "Afef Majdoub, Zied Ayedi",
       "secteur": "Ad Tech and Creative Tech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "CIVILAB",
       "fondateurs": "Amine Grichi, Ali Ben Mohamed, Mansour Noucair",
       "secteur": "Ad Tech and Creative Tech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "DLSgaming",
       "fondateurs": "Mansour Haroun, Khalil Dridi, Mohamed Salem",
       "secteur": "EdTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Detavoon",
       "fondateurs": "Luay Ben Ali",
       "secteur": "HealthTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Laboratoire SCI",
       "fondateurs": "Chokri Nader, Mouayed Errahmene Sahnoun",
       "secteur": "Wellness",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Contigo Booking Events",
       "fondateurs": "Wassim Ayari, Mehdi Ben Abdallah",
       "secteur": "Consumer Product & Services",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Innovation production Services",
       "fondateurs": "Hichem Mansour, Chris Bennie, Majdi Saidi",
       "secteur": "Advanced Manufacturing & Industry",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "ARRIMA-AGRITECH",
       "fondateurs": "Khouloud Ghorraf, Mohamed Kristou",
       "secteur": "Agritech",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Probe.tn",
       "fondateurs": "Mohamed Hedi Jebali, Adnane Abdelghani",
       "secteur": "HealthTech",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "MIGsens",
       "fondateurs": "Khalifa Aguir",
       "secteur": "Environment",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "iTrend",
       "fondateurs": "Mohamed Ali Blaiti, Fayçal Hamrouni",
       "secteur": "Business Software and services",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "RAF TELCOS",
       "fondateurs": "Sami Karzout, Mehdi Ben Hassine",
       "secteur": "Fintech",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Digify",
       "fondateurs": "Khaled Ben Hassine, Fatma Houissa",
       "secteur": "EdTech",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Green foods traiteur vegan",
       "fondateurs": "Nefaa Abdessalem, Rihab Hmida",
       "secteur": "Consumer products and services",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Bridella",
       "fondateurs": "Amel Amamou, Firas Boukhriss, Manel Souai",
       "secteur": "Commerce and shopping",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Curve & Smiles",
       "fondateurs": "Mohamed Benyaiche, Anas Ben Yaiche",
       "secteur": "HealthTech",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "DEKORTIK PLUS",
       "fondateurs": "Foued Jaballah, Idris Tlili, Dirar Rtima",
       "secteur": "Real Estate Tech",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "HIVE",
       "fondateurs": "Aymen Tlili, Wiem Tlili, Maycène Mejri",
       "secteur": "Business Software and services",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Ostedhy",
       "fondateurs": "Yassine Boubaker, Sabryn Hamrouny, Wael Belaid",
       "secteur": "EdTech",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Studenty",
       "fondateurs": "",
       "secteur": "EdTech",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "DourbIA",
       "fondateurs": "Alia Belkaid",
       "secteur": "TravelTech",
-      "resultat": "prelabel non accorde"
+      "resultat": "prelabel non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "ID grouping&connect",
       "fondateurs": "ID Grouping & connect, Mahdi Ben Ahmed, Iheb Lourimi, Saif touzi, Haoua Guezguez",
       "secteur": "HealthTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "DM NOVA DigiMove",
       "fondateurs": "Nour Ladhari, Nassim Bensassi, Hfaiedh Bedoui, Chouchene Achref, Mohamed Houcem Eddine Ibn Essghaier",
       "secteur": "EdTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "ELINA DEV",
       "fondateurs": "PlanetDev, Khouloud Essghaier, Nermine Abid, Wael El Amri",
       "secteur": "Social Business",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "JEUCIJAN X-Mall",
       "fondateurs": "Helmi Bouraoui Cherif, Aymen Sarraj",
       "secteur": "Commerce and shopping",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "ContyFind",
       "fondateurs": "ContyFind Maan Mrabet, Hassen Tahri",
       "secteur": "Services",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     }
   ],
   "session_data": {
@@ -202,5 +230,8 @@
       "reason": "9 nouveaux labels + 5 conversions = 14 (scrapé : 13)",
       "commentaires": "8 Labels et 5 Prélabels à Labels"
     }
-  }
+  },
+  "_displayLabels": 14,
+  "_displayPreLabels": 6,
+  "_displayCandidatures": 37
 }

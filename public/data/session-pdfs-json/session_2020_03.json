@@ -10,223 +10,260 @@
       "societe": "I POMM",
       "fondateurs": "Saber Bellaj, Iyed Benhassen, Ouanes Taha Boumiza",
       "secteur": "Logiciel",
-      "resultat": "label"
+      "resultat": "label",
+      "_displayDecision": "label"
     },
     {
       "societe": "NATULYN",
       "fondateurs": "Sirine Kallel, Kaouther Mouelhi",
       "secteur": "Autre contenu créatif",
-      "resultat": "label"
+      "resultat": "label",
+      "_displayDecision": "label"
     },
     {
       "societe": "She Shares",
       "fondateurs": "Hamza Arfaoui",
       "secteur": "Ecommerce",
-      "resultat": "label"
+      "resultat": "label",
+      "_displayDecision": "label"
     },
     {
       "societe": "Auto-plus",
       "fondateurs": "Amine Mliki",
       "secteur": "Ecommerce",
-      "resultat": "label"
+      "resultat": "label",
+      "_displayDecision": "label"
     },
     {
       "societe": "Makroudh Kairouan à Domicile",
       "fondateurs": "Mohamed Wajih Allani, Jaafar Nasri",
       "secteur": "Ecommerce",
-      "resultat": "label"
+      "resultat": "label",
+      "_displayDecision": "label"
     },
     {
       "societe": "DigiConstat",
       "fondateurs": "Anis Nasraoui, Mehdi Doghri",
       "secteur": "Insurance Tech",
-      "resultat": "label"
+      "resultat": "label",
+      "_displayDecision": "label"
     },
     {
       "societe": "Save Your Wardrobe",
       "fondateurs": "Hasna Kourda, Emna Makni",
       "secteur": "AI",
-      "resultat": "label"
+      "resultat": "label",
+      "_displayDecision": "label"
     },
     {
       "societe": "Go Online Africa",
       "fondateurs": "Salma Amor, Abdelbari Ben Yagouta",
       "secteur": "Ecommerce",
-      "resultat": "label"
+      "resultat": "label",
+      "_displayDecision": "label"
     },
     {
       "societe": "3S : Software and Security Solutions",
       "fondateurs": "Wrida Ben Yaghouta",
       "secteur": "IoT",
-      "resultat": "label"
+      "resultat": "label",
+      "_displayDecision": "label"
     },
     {
       "societe": "GATE INDUSTRIELLE",
       "fondateurs": "Mohamed Sahlaoui, Nesrine Tekitek",
       "secteur": "IoT",
-      "resultat": "label"
+      "resultat": "label",
+      "_displayDecision": "label"
     },
     {
       "societe": "Rayhane",
       "fondateurs": "Nidhal Tekitek, Khaled Aouij",
       "secteur": "Ecommerce",
-      "resultat": "label"
+      "resultat": "label",
+      "_displayDecision": "label"
     },
     {
       "societe": "Tunisie Co / Resa Privee",
       "fondateurs": "Abir Fares, Lotfi Ben Mosbah, Aziz Ben Mosbah",
       "secteur": "Autre contenu créatif",
-      "resultat": "label"
+      "resultat": "label",
+      "_displayDecision": "label"
     },
     {
       "societe": "TOLEDO",
       "fondateurs": "Zied Chaabane, Haifa Fodha",
       "secteur": "Health Tech",
-      "resultat": "prelabel"
+      "resultat": "prelabel",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "CHMISA",
       "fondateurs": "Bechir Taboubi, Mohamed Hedi Ben Hamed",
       "secteur": "Ecommerce",
-      "resultat": "prelabel"
+      "resultat": "prelabel",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "KLAY",
       "fondateurs": "Moez Aousji, Amine Rekhiss",
       "secteur": "Autre contenu créatif",
-      "resultat": "prelabel"
+      "resultat": "prelabel",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "FACTOORYA",
       "fondateurs": "Yassine Khlass, Mohamed Seifeddine Bouarada, Houssem Sahli",
       "secteur": "IoT",
-      "resultat": "prelabel"
+      "resultat": "prelabel",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "KWIN.",
       "fondateurs": "Sonia Othman, Alaa Guidara",
       "secteur": "IoT",
-      "resultat": "prelabel"
+      "resultat": "prelabel",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Finispia",
       "fondateurs": "Mohamed Kallel, Youssef Said",
       "secteur": "Fintech",
-      "resultat": "prelabel"
+      "resultat": "prelabel",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Travaris",
       "fondateurs": "Berklay Alkisel, Ahmed Abdarrahman, Ines Soyah",
       "secteur": "AI",
-      "resultat": "prelabel"
+      "resultat": "prelabel",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Barbecha",
       "fondateurs": "Zeineb Bouassida, Chiheb Karoui",
       "secteur": "Ecommerce",
-      "resultat": "prelabel"
+      "resultat": "prelabel",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Dentic",
       "fondateurs": "Hakim Yahyaoui",
       "secteur": "Health Tech",
-      "resultat": "prelabel"
+      "resultat": "prelabel",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Tunisiabiotech",
       "fondateurs": "Oualid Sebai",
       "secteur": "Biotechnologie",
-      "resultat": "prelabel"
+      "resultat": "prelabel",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Welyne",
       "fondateurs": "Mohamed Ben Arfa, Aymen Hammami",
       "secteur": "Ecommerce",
-      "resultat": "label"
+      "resultat": "label",
+      "_displayDecision": "label"
     },
     {
       "societe": "Univers VR",
       "fondateurs": "Abir Ben Achour, Mehdi Dellagi",
       "secteur": "Gaming",
-      "resultat": "label"
+      "resultat": "label",
+      "_displayDecision": "label"
     },
     {
       "societe": "ebniecolo",
       "fondateurs": "Dorra Ismail, Mehdi Zorgati, Becem Jebali",
       "secteur": "Big Data",
-      "resultat": "label"
+      "resultat": "label",
+      "_displayDecision": "label"
     },
     {
       "societe": "MY DEV CONSULTING DU CAP BON",
       "fondateurs": "Youssef Omrani",
       "secteur": "Développement personnel",
-      "resultat": "label"
+      "resultat": "label",
+      "_displayDecision": "label"
     },
     {
       "societe": "CITIUS",
       "fondateurs": "Emna Hamdi",
       "secteur": "Logistique",
-      "resultat": "label"
+      "resultat": "label",
+      "_displayDecision": "label"
     },
     {
       "societe": "All o khadmet",
       "fondateurs": "Amine Hammi",
       "secteur": "Plateforme Sociale",
-      "resultat": "label"
+      "resultat": "label",
+      "_displayDecision": "label"
     },
     {
       "societe": "Analyse numérique des donnes ( AMCI)",
       "fondateurs": "Abdelhamid Ben Rabah, Seifeddine Trabelsi",
       "secteur": "Logiciel",
-      "resultat": "label"
+      "resultat": "label",
+      "_displayDecision": "label"
     },
     {
       "societe": "The BoxOffice",
       "fondateurs": "Meriem Lejmi, Selim Thmouni, Selim Mraidi",
       "secteur": "Autre contenu créatif",
-      "resultat": "prelabel"
+      "resultat": "prelabel",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Khadamni",
       "fondateurs": "Atef Sedraoui, Molka Kouraychi, Manel Salhi",
       "secteur": "Ecommerce",
-      "resultat": "prelabel"
+      "resultat": "prelabel",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Soldy",
       "fondateurs": "Mokhles Souissi, Manel Alayet, Ahmed Melki",
       "secteur": "Ecommerce",
-      "resultat": "prelabel"
+      "resultat": "prelabel",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "COSTUN",
       "fondateurs": "Houssem Ben Ghozzi, Hamdi Marrouchi",
       "secteur": "Ecommerce",
-      "resultat": "prelabel"
+      "resultat": "prelabel",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Start Smart Studio",
       "fondateurs": "Yassine Ben Mansour, Hadhemi Ragoubi",
       "secteur": "Autre Contenu Créatif",
-      "resultat": "prelabel"
+      "resultat": "prelabel",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Compass IT Candidature reportée à la prochaine session",
       "fondateurs": "Foudhaili Ragoubi",
       "secteur": "Autre Contenu Créatif",
-      "resultat": "prelabel"
+      "resultat": "prelabel",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Campus Numérique des métiers",
       "fondateurs": "Fethi Zoghlami",
       "secteur": "Edtech",
-      "resultat": "label"
+      "resultat": "label",
+      "_displayDecision": "label"
     },
     {
       "societe": "Société",
       "fondateurs": "Fondateurs",
       "secteur": "Secteur",
-      "resultat": "Session d'obtention"
+      "resultat": "Session d'obtention",
+      "_displayDecision": "unknown"
     }
   ],
   "session_data": {
@@ -238,5 +275,8 @@
     "retraits": 0,
     "conversions": 0,
     "newLabels": 16
-  }
+  },
+  "_displayLabels": 16,
+  "_displayPreLabels": 10,
+  "_displayCandidatures": 35
 }

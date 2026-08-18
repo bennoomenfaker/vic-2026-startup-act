@@ -10,169 +10,197 @@
       "societe": "SmartShift",
       "fondateurs": "Ouns Taj, Sami Jilani",
       "secteur": "Business Software and services",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "ShippingLog",
       "fondateurs": "Meriem Trabelsi, Riadh Ben Meftah",
       "secteur": "Mobility",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "COLLARY",
       "fondateurs": "Jamel Gafsi, Anis Montacer, Aymen Souissi",
       "secteur": "Business Software and services",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "SEA DESIGN LAB/OUTA",
       "fondateurs": "Asma Benyoussef, Sami Montacer, Atef Meftah",
       "secteur": "Environment",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Empowair",
       "fondateurs": "Iuliia Matviets, Houssem Eddine Rammeh",
       "secteur": "TravelTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "xscan",
       "fondateurs": "Oussama Ben Wahiba, Abderrahim Gdah, Kais Aouieb",
       "secteur": "Business Software and services",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "CHITELIX",
       "fondateurs": "Mohamed Anis Ben Ghalia, Zeineb Blaiech",
       "secteur": "Agritech",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Tadwir",
       "fondateurs": "Dali Blaiech, Fares Messedi",
       "secteur": "Consumer products and services",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Saydalid",
       "fondateurs": "Rayen Miaoui, Ahmed Jedidi Yadh Khalfallah",
       "secteur": "HealthTech",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Techno Shark",
       "fondateurs": "Ali Jedidi, Hsan Jedidi",
       "secteur": "HealthTech",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Emyehr",
       "fondateurs": "Mohamed Aimen Jouini, Houcem Kolsi",
       "secteur": "Business Software and services",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "SILVER-MADE CONSULTING",
       "fondateurs": "Issam Kolsi",
       "secteur": "Security",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "LAND WASH",
       "fondateurs": "Mohamed Aziz Landolssi",
       "secteur": "Environment",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "HIPPOMED AI",
       "fondateurs": "Walid Guellouz, Ilyes Karray",
       "secteur": "Healthtech",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "TBRL",
       "fondateurs": "Ahmed Azer Ghimeji, Sondes Massoudi",
       "secteur": "Ad Tech and Creative Tech",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "C&S EoleAvia",
       "fondateurs": "Chiheb Ben Rekaya, Yosri Belhadj",
       "secteur": "Communication services",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "AquaWise Solutions",
       "fondateurs": "Hamdi Maslah, May Mallouli, Mohamed Taibah",
       "secteur": "Advanced Manufacturing & Robotics",
-      "resultat": "prelabel non accorde"
+      "resultat": "prelabel non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "The pointing graphical tablet",
       "fondateurs": "Kais Ben Rhouma, Wafa Smaoui, Nadhir Chebbi",
       "secteur": "Advanced Manufacturing & Robotics",
-      "resultat": "prelabel non accorde"
+      "resultat": "prelabel non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Gori'fit",
       "fondateurs": "Mohamed Itheb Ben Abbes, Mohamed Najar",
       "secteur": "Wellness",
-      "resultat": "prelabel non accorde"
+      "resultat": "prelabel non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "GOATech",
       "fondateurs": "Seifeddine Adouani, Firas Fejjeri, Saaidi Abdel Aziz",
       "secteur": "Business Software and services",
-      "resultat": "prelabel non accorde"
+      "resultat": "prelabel non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "myparcel.tn",
       "fondateurs": "Safa Soltani",
       "secteur": "Business Software and services",
-      "resultat": "prelabel non accorde"
+      "resultat": "prelabel non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Tadaa",
       "fondateurs": "Amine Ben Hmida, Adnene Kammoun, Mohamed Nassim Chouchene, Salah Bannour",
       "secteur": "Business Software and services",
-      "resultat": "prelabel non accorde"
+      "resultat": "prelabel non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "KYTOSAN TECHNOLOGIES",
       "fondateurs": "Wassim Kammoun, Khawla Dhahri, Nasreddine Soualhia, Samia Noureddine, Mohamed Khalil Kouki",
       "secteur": "Agritech",
-      "resultat": "prelabel non accorde"
+      "resultat": "prelabel non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Haven",
       "fondateurs": "Khaled Ben ammar",
       "secteur": "Business Software and services",
-      "resultat": "prelabel non accorde"
+      "resultat": "prelabel non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Abajim.com",
       "fondateurs": "Abajim.com m Yassine Rhouma, Mohamed Ben Romdhane",
       "secteur": "EdTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "iowaves",
       "fondateurs": "Envrionment",
       "secteur": "Retrait du Label",
-      "resultat": "2018 pour les sociétés bénéficiaires du Label"
+      "resultat": "2018 pour les sociétés bénéficiaires du Label",
+      "_displayDecision": "label"
     },
     {
       "societe": "LISTA INTERNATIONAL",
       "fondateurs": "Commerce & Shopping",
       "secteur": "Retrait du Label",
-      "resultat": "2018 pour les sociétés bénéficiaires du Label"
+      "resultat": "2018 pour les sociétés bénéficiaires du Label",
+      "_displayDecision": "label"
     },
     {
       "societe": "CREATIVE CULINARY",
       "fondateurs": "FoodTech & New Food",
       "secteur": "Retrait du Label",
-      "resultat": "2018 pour les sociétés bénéficiaires du Label"
+      "resultat": "2018 pour les sociétés bénéficiaires du Label",
+      "_displayDecision": "label"
     }
   ],
   "session_data": {
@@ -202,5 +230,8 @@
       "reason": "5 nouveaux labels + 1 conversion − 3 retraits = 6 (Techno Shark rejeté)",
       "commentaires": "5 Labels et 1 Prélabel à Label"
     }
-  }
+  },
+  "_displayLabels": 6,
+  "_displayPreLabels": 4,
+  "_displayCandidatures": 31
 }

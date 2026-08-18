@@ -10,157 +10,183 @@
       "societe": "QUOPROD",
       "fondateurs": "Mohamad Koubar, Kelven Raymond, Ayoub Nejem, Sami Kammoun",
       "secteur": "Robotics",
-      "resultat": "label accorde au 2eme tour"
+      "resultat": "label accorde au 2eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "Converty",
       "fondateurs": "Ahmed Abid, Ali Sakka, Mohamed Abderrahim Khouaja",
       "secteur": "Commerce and shopping",
-      "resultat": "label accorde au 2eme tour"
+      "resultat": "label accorde au 2eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "EDUCATE ME",
       "fondateurs": "Ala Eddine Khouja, Mhamed Raboudi",
       "secteur": "EdTech",
-      "resultat": "label accorde au 2eme tour"
+      "resultat": "label accorde au 2eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "ALDER Green Solutions",
       "fondateurs": "Thamer Dridi, Fourat Beji, Abdelaziz Ayed",
       "secteur": "Environment",
-      "resultat": "label accorde au 2eme tour"
+      "resultat": "label accorde au 2eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "Hannibal VR",
       "fondateurs": "Imen Lazhar, Aya Nouira, Farah Hamrouni",
       "secteur": "EdTech",
-      "resultat": "label accorde au 3 eme tour"
+      "resultat": "label accorde au 3 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "Gifted",
       "fondateurs": "Rabii Ben Tili, Nour Rafiâa KALLEL",
       "secteur": "Commerce and shopping",
-      "resultat": "label accorde au 3 eme tour"
+      "resultat": "label accorde au 3 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "Business Academy",
       "fondateurs": "Walid KALLEL, Mehemed Bougsea",
       "secteur": "EdTech",
-      "resultat": "prelabel accorde au 2eme tour"
+      "resultat": "prelabel accorde au 2eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Krypton",
       "fondateurs": "Joscha Raue, Aziz Benchedli",
       "secteur": "Business Software and services",
-      "resultat": "prelabel accorde au 2eme tour"
+      "resultat": "prelabel accorde au 2eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Order Station",
       "fondateurs": "Ahmed Selmi, Karim Tounsi Ahmed Hermassi, Anas Neumann",
       "secteur": "FoodTech & New Food",
-      "resultat": "prelabel accorde au 2eme tour"
+      "resultat": "prelabel accorde au 2eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "CWcloud",
       "fondateurs": "driss Neumann, Habib Bane, Beldi Zied",
       "secteur": "Business Software and services",
-      "resultat": "prelabel accorde au 2eme tour"
+      "resultat": "prelabel accorde au 2eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Mintounes",
       "fondateurs": "Anis Harzallah, Ghizlaine Beldi",
       "secteur": "Commerce and shopping",
-      "resultat": "prelabel accorde au 3eme tour"
+      "resultat": "prelabel accorde au 3eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "VYZYOSCHOOL",
       "fondateurs": "Marwa Mhedhebi, Manel Ennahedh, Mohamed Rajhi",
       "secteur": "EdTech",
-      "resultat": "prelabel accorde au 3eme tour"
+      "resultat": "prelabel accorde au 3eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "TerraSens",
       "fondateurs": "Jamila Tarhouni, Salma Bouabdellaoui",
       "secteur": "Agritech",
-      "resultat": "prelabel accorde au 3eme tour"
+      "resultat": "prelabel accorde au 3eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Syndiki",
       "fondateurs": "Haroun Cheriha, Christian Ruiz",
       "secteur": "Real Estate Tech",
-      "resultat": "prelabel accorde au 3eme tour"
+      "resultat": "prelabel accorde au 3eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Moonlight AI TN",
       "fondateurs": "Nicole Romano, Stefan Habringer",
       "secteur": "HealthTech",
-      "resultat": "prelabel accorde au 3eme tour"
+      "resultat": "prelabel accorde au 3eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Rebelink",
       "fondateurs": "Faiza Skandarni, Ghaith Troudi",
       "secteur": "EdTech",
-      "resultat": "label non accorde au 2eme tour"
+      "resultat": "label non accorde au 2eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "K-Noon",
       "fondateurs": "Ramla Baccar, Hamza Othmani",
       "secteur": "Fintech",
-      "resultat": "label non accorde au 2eme tour"
+      "resultat": "label non accorde au 2eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "STE ZURVANET",
       "fondateurs": "Lobna Hamdi, Nassira Barhoumi",
       "secteur": "Agritech",
-      "resultat": "label non accorde au 2eme tour"
+      "resultat": "label non accorde au 2eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "InnovAir",
       "fondateurs": "Mrabet Omar, Marwen El bari, Ghassen Chattouna",
       "secteur": "HealthTech",
-      "resultat": "label non accorde au 2eme tour"
+      "resultat": "label non accorde au 2eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Park&Charge by Asteroidea",
       "fondateurs": "Rami Hedfi, Zied Bradai",
       "secteur": "Mobility",
-      "resultat": "label non accorde au 3eme tour"
+      "resultat": "label non accorde au 3eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Astratransit CLICK TRANS",
       "fondateurs": "Majdi Ahmed, Sami Amri Najoua Kassaoui",
       "secteur": "services",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Aventoura Aventoura Outdoors",
       "fondateurs": "Mohamed Ali Maazoun, Dhia Saadi, Mejda Khaled",
       "secteur": "TravelTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "AGARUW HUB AGARUW HUB",
       "fondateurs": "Zeineb Ben Abdallah, Hedi BenRomdhane, Majdi Ben Farhat",
       "secteur": "Environment",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "ITri Smart & Sustainable Collect",
       "fondateurs": "Hanen Louati, Ramzi Halouani, Francois Dejeager",
       "secteur": "Environment",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Hapivot Hapivot",
       "fondateurs": "Anis Dabbebi, Saber Jelassi",
       "secteur": "services",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "NEWGEN Ad Tech & Creative Tech",
       "fondateurs": "",
       "secteur": "Retrait du Label",
-      "resultat": "2018 pour les sociétés bénéficiaires du Label"
+      "resultat": "2018 pour les sociétés bénéficiaires du Label",
+      "_displayDecision": "label"
     }
   ],
   "session_data": {
@@ -172,5 +198,8 @@
     "retraits": 0,
     "conversions": 0,
     "newLabels": 11
-  }
+  },
+  "_displayLabels": 11,
+  "_displayPreLabels": 9,
+  "_displayCandidatures": 34
 }

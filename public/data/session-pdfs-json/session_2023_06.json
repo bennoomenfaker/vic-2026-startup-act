@@ -10,199 +10,232 @@
       "societe": "cookit",
       "fondateurs": "Khlil Gargouri",
       "secteur": "FoodTech & New Food Label",
-      "resultat": "label accorde des le 2 eme tour"
+      "resultat": "label accorde des le 2 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "Bionic Soul",
       "fondateurs": "Nada Ghanem, Mohamed Aziz Ben Mahmoud, Imed Hanana",
       "secteur": "Healthtech Label",
-      "resultat": "label accorde label accorde des le 2 eme tour"
+      "resultat": "label accorde label accorde des le 2 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "SamRise",
       "fondateurs": "Mariem Hamzaoui, Arbi Soussi, Feriel Ben Hassine, Ines Borni",
       "secteur": "Business Software and services Label",
-      "resultat": "label accorde label accorde des le 2 eme tour"
+      "resultat": "label accorde label accorde des le 2 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "Minwin",
       "fondateurs": "Mohamed Choucheni, Alaa Boukhchina, Mohamed Toumi",
       "secteur": "Wellness Label",
-      "resultat": "label accorde label accorde suite au pitching"
+      "resultat": "label accorde label accorde suite au pitching",
+      "_displayDecision": "label"
     },
     {
       "societe": "Rackham",
       "fondateurs": "Djohra Berki",
       "secteur": "Business Software and services Label",
-      "resultat": "label non accorde label non accorde des le 2eme tour"
+      "resultat": "label non accorde label non accorde des le 2eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Proximabel Development",
       "fondateurs": "Abbassi Ahdi",
       "secteur": "Security Label",
-      "resultat": "label non accorde label non accorde suite au pitching"
+      "resultat": "label non accorde label non accorde suite au pitching",
+      "_displayDecision": "refused"
     },
     {
       "societe": "TuniMeet",
       "fondateurs": "Business Software and services",
       "secteur": "Label",
-      "resultat": "label non accorde label non accorde suite au pitching"
+      "resultat": "label non accorde label non accorde suite au pitching",
+      "_displayDecision": "refused"
     },
     {
       "societe": "www.kawanin.com",
       "fondateurs": "Business Software and services, Khouloud Mhamdi",
       "secteur": "Mehdi Aloulou Label",
-      "resultat": "label non accorde label non accorde suite au pitching"
+      "resultat": "label non accorde label non accorde suite au pitching",
+      "_displayDecision": "refused"
     },
     {
       "societe": "ARKHOU-DRONE",
       "fondateurs": "Elarbi Machraoui, Ahmed Ben Bouzid, Mohamed Berber",
       "secteur": "Prélabel",
-      "resultat": "prelabel accorde prelabel accorde des le 2eme tour"
+      "resultat": "prelabel accorde prelabel accorde des le 2eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "OPUS LAB",
       "fondateurs": "Siwar Gharbi, Mohmmed Sayed Hamdi, Melek Mehrez",
       "secteur": "EdTech Prélabel",
-      "resultat": "prelabel accorde prelabel accorde des le 2eme tour"
+      "resultat": "prelabel accorde prelabel accorde des le 2eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "LeanTex",
       "fondateurs": "Nihel Beji, Firas Mehrez, Wael Lakhrach",
       "secteur": "Prélabel",
-      "resultat": "prelabel accorde prelabel accorde des le 2eme tour"
+      "resultat": "prelabel accorde prelabel accorde des le 2eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "GymSwitch",
       "fondateurs": "Siwar Houssaî, Hiba Mned, Habib Chaari",
       "secteur": "Wellness Prélabel",
-      "resultat": "prelabel accorde prelabel accorde des le 2eme tour"
+      "resultat": "prelabel accorde prelabel accorde des le 2eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Colisnet",
       "fondateurs": "Mehdi Ben Hmida, Wajdi Bouaziz, Slim Nabli",
       "secteur": "Business Software and services Prélabel",
-      "resultat": "prelabel accorde prelabel accorde des le 2eme tour"
+      "resultat": "prelabel accorde prelabel accorde des le 2eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Expy.ai",
       "fondateurs": "Luay Ben Ali, khouloud Abada",
       "secteur": "Business Software and services Prélabel",
-      "resultat": "prelabel accorde prelabel accorde des le 2eme tour"
+      "resultat": "prelabel accorde prelabel accorde des le 2eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "SKINPHILOSOPHY Car Box",
       "fondateurs": "Saida Akermi, Wajih Messaoudi",
       "secteur": "Wellness Prélabel",
-      "resultat": "prelabel accorde prelabel accorde des le 2eme tour"
+      "resultat": "prelabel accorde prelabel accorde des le 2eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "So Green",
       "fondateurs": "Amira Guesmi",
       "secteur": "Environment Prélabel",
-      "resultat": "prelabel non accorde prelabel non accorde des le 2eme tour"
+      "resultat": "prelabel non accorde prelabel non accorde des le 2eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "TuniToonz",
       "fondateurs": "Sana Makhloufi",
       "secteur": "EdTech Prélabel",
-      "resultat": "prelabel non accorde prelabel non accorde des le 2eme tour"
+      "resultat": "prelabel non accorde prelabel non accorde des le 2eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "ENER ZED",
       "fondateurs": "Amor El Masri, Seif Nemri",
       "secteur": "Environment Prélabel",
-      "resultat": "prelabel non accorde prelabel non accorde des le 2eme tour"
+      "resultat": "prelabel non accorde prelabel non accorde des le 2eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "CamGoal",
       "fondateurs": "Mohamed Mehdi Ben Mlouka, Mohamed Touhami Rhaima",
       "secteur": "Ad Tech and Creative Tech Prélabel",
-      "resultat": "prelabel non accorde prelabel non accorde des le 2eme tour"
+      "resultat": "prelabel non accorde prelabel non accorde des le 2eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Chicify",
       "fondateurs": "Rehayma Maher, Mohamed Achraf Mrabet, Ahmed Gouiaa",
       "secteur": "Commerce and shopping Prélabel",
-      "resultat": "prelabel non accorde prelabel non accorde des le 2eme tour"
+      "resultat": "prelabel non accorde prelabel non accorde des le 2eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Ukla",
       "fondateurs": "Mohamed Khalil Hosni",
       "secteur": "FoodTech & New Food Prélabel",
-      "resultat": "prelabel non accorde prelabel non accorde des le 2eme tour"
+      "resultat": "prelabel non accorde prelabel non accorde des le 2eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Book Pickups",
       "fondateurs": "Hajer Gabteni",
       "secteur": "TravelTech Prélabel",
-      "resultat": "prelabel non accorde prelabel non accorde des le 2eme tour"
+      "resultat": "prelabel non accorde prelabel non accorde des le 2eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Ommi",
       "fondateurs": "Mohamed Amine Mamlouk, Eskander Nasri, Mehdy Belkhiria",
       "secteur": "Social Business Prélabel",
-      "resultat": "prelabel non accorde prelabel non accorde des le 2eme tour"
+      "resultat": "prelabel non accorde prelabel non accorde des le 2eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Padel Up",
       "fondateurs": "Salah Ayed, Amine Hammami, Ramzi Laâmouri",
       "secteur": "Wellness Prélabel",
-      "resultat": "prelabel non accorde prelabel non accorde des le 2eme tour"
+      "resultat": "prelabel non accorde prelabel non accorde des le 2eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "AntiBioGen",
       "fondateurs": "Chahnez Naccache, Iyadh Bouzghiba, Oussama Ben Wafi",
       "secteur": "Healthtech Prélabel",
-      "resultat": "prelabel non accorde prelabel non accorde des le 2eme tour"
+      "resultat": "prelabel non accorde prelabel non accorde des le 2eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Travelween",
       "fondateurs": "Safa Ben WafI, Sawssen Atoui",
       "secteur": "TravelTech Prélabel",
-      "resultat": "prelabel non accorde prelabel non accorde des le 2eme tour"
+      "resultat": "prelabel non accorde prelabel non accorde des le 2eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "RGPD Tunisie",
       "fondateurs": "RGPD Tunisie Rayen Cherni, Slim Abdejlil, Amel Ben Ammar  Elgaied",
       "secteur": "Business Software & Services",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "A.M.I.S. RESEARCH",
       "fondateurs": "A.M.I.S. RESEARCH, Rabie Razgallah, Zied Hriz",
       "secteur": "HealthTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "LABORATOIRE HRIZ PHARMA",
       "fondateurs": "Xpro, Yosra Tahri",
       "secteur": "Agritech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "ITREND TECHNOLOGY",
       "fondateurs": "iTrend Mohamed Ali Blaiti, Mohamed Khelifi",
       "secteur": "Business Software & Services",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Easy Finance Corporate",
       "fondateurs": "EasyBank, Maher Khelifi",
       "secteur": "Fintech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Knowledge and Business intelligence",
       "fondateurs": "",
       "secteur": "",
-      "resultat": "La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-"
+      "resultat": "La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-",
+      "_displayDecision": "unknown"
     },
     {
       "societe": "integration Tunisie",
       "fondateurs": "",
       "secteur": "",
-      "resultat": "2018 pour les sociétés bénéficiaires du Label"
+      "resultat": "2018 pour les sociétés bénéficiaires du Label",
+      "_displayDecision": "label"
     }
   ],
   "session_data": {
@@ -214,5 +247,8 @@
     "retraits": 0,
     "conversions": 0,
     "newLabels": 10
-  }
+  },
+  "_displayLabels": 10,
+  "_displayPreLabels": 8,
+  "_displayCandidatures": 28
 }

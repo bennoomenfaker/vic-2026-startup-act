@@ -10,193 +10,225 @@
       "societe": "Thunder code",
       "fondateurs": "Jihed Othmani, Nabil Majoul, Emna Sahraoui",
       "secteur": "Business Software and services",
-      "resultat": "label accorde au 2 eme tour"
+      "resultat": "label accorde au 2 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "Healio Technology",
       "fondateurs": "Elyes Darghouth, Emna Argoubi, Ahmad Choucheni, Nour Rafiâa Kallel",
       "secteur": "HealthTech",
-      "resultat": "label accorde au 2 eme tour"
+      "resultat": "label accorde au 2 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "Business Academy",
       "fondateurs": "Walid Kallel",
       "secteur": "EdTech",
-      "resultat": "label accorde au 2 eme tour"
+      "resultat": "label accorde au 2 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "KeplerAi",
       "fondateurs": "Mohamed Bahri, Hayet Rais ep Skandrani, Mohamed Cherif",
       "secteur": "Fintech",
-      "resultat": "label accorde au 2 eme tour"
+      "resultat": "label accorde au 2 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "Dose'On",
       "fondateurs": "Mohamed Tanfous, Dhia Eddine Zouari",
       "secteur": "Ad Tech and Creative Tech",
-      "resultat": "label accorde au 2 eme tour"
+      "resultat": "label accorde au 2 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "Save the plate",
       "fondateurs": "Sarra Soussia, Hadil Yahyaoui",
       "secteur": "Environment",
-      "resultat": "label accorde au 2 eme tour"
+      "resultat": "label accorde au 2 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "VitaDood etanfidh-solution digitale pour huissiers",
       "fondateurs": "Ines Alaya, Hichem Ben Dai, Nour Ghalia Abassi, Lyle Halliday",
       "secteur": "FoodTech & New Food",
-      "resultat": "label accorde au 3 eme tour"
+      "resultat": "label accorde au 3 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "Digehealth TN",
       "fondateurs": "Marcel Wuethrich, Daniel Pohl, Rouissi Khaled",
       "secteur": "HealthTech",
-      "resultat": "prelabel accorde au 2 eme tour"
+      "resultat": "prelabel accorde au 2 eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Jeridschool",
       "fondateurs": "Youssef Degachi, Safa Bouhjar, Aya Bouhlali",
       "secteur": "EdTech",
-      "resultat": "prelabel accorde au 2 eme tour"
+      "resultat": "prelabel accorde au 2 eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Carbotracker",
       "fondateurs": "Amira Yahmadi, Maher Amara, Khaled Bendriss",
       "secteur": "Environment",
-      "resultat": "prelabel accorde au 2 eme tour"
+      "resultat": "prelabel accorde au 2 eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Preemptix",
       "fondateurs": "Khalil Bendriss",
       "secteur": "Security",
-      "resultat": "prelabel accorde au 2 eme tour"
+      "resultat": "prelabel accorde au 2 eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Wealthy Technology",
       "fondateurs": "Rakia Jaziri, Asma Jouini",
       "secteur": "HealthTech",
-      "resultat": "prelabel accorde au 3 eme tour"
+      "resultat": "prelabel accorde au 3 eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "QueDCo",
       "fondateurs": "Ramzi Nasr, Mohamed Elyes Ben Haj Kbair",
       "secteur": "Business Software and services",
-      "resultat": "prelabel accorde au 3 eme tour"
+      "resultat": "prelabel accorde au 3 eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "EKRI",
       "fondateurs": "Marouene Draoui, Thouraya Ftouh Walker",
       "secteur": "TravelTech",
-      "resultat": "prelabel accorde au 3 eme tour"
+      "resultat": "prelabel accorde au 3 eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Rakis Technology",
       "fondateurs": "Daniel Atherton",
       "secteur": "Business Software and services",
-      "resultat": "label non accorde au 2 eme tour"
+      "resultat": "label non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Academia Hub",
       "fondateurs": "Abderrahmen Feki",
       "secteur": "Business Software and services",
-      "resultat": "label non accorde au 2 eme tour"
+      "resultat": "label non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "A plus Trade and",
       "fondateurs": "Asswar Boulifi",
       "secteur": "Environment",
-      "resultat": "label non accorde au 2 eme tour"
+      "resultat": "label non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Forwarding Solutions",
       "fondateurs": "Boulifi Oussama",
       "secteur": "",
-      "resultat": ""
+      "resultat": "",
+      "_displayDecision": "unknown"
     },
     {
       "societe": "MENUPRO",
       "fondateurs": "Wathek Bellah Jaballah, Khelifi Ali",
       "secteur": "FoodTech & New Food",
-      "resultat": "label non accorde au 2 eme tour"
+      "resultat": "label non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "AgriSmart",
       "fondateurs": "Nama Hamdi",
       "secteur": "Agritech",
-      "resultat": "label non accorde au 2 eme tour"
+      "resultat": "label non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Version Healthy",
       "fondateurs": "Ghada Cherif, Yacine Aridhi",
       "secteur": "FoodTech & New Food",
-      "resultat": "label non accorde au 2 eme tour"
+      "resultat": "label non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Tuniform",
       "fondateurs": "Wassim Aloui",
       "secteur": "Communication services",
-      "resultat": "label non accorde au 2 eme tour"
+      "resultat": "label non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "NINGEN",
       "fondateurs": "Ali Hamouda, Khalil Bessaad",
       "secteur": "Business Software and services",
-      "resultat": "label non accorde au 3 eme tour"
+      "resultat": "label non accorde au 3 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "LEGALYZ",
       "fondateurs": "Aymen El Kadhi, Hassen Noamen, Mohamed khalil Aniba",
       "secteur": "Communication services",
-      "resultat": "label non accorde au 3 eme tour"
+      "resultat": "label non accorde au 3 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Clean2win",
       "fondateurs": "Sameh Sellami, Yassine Aniba",
       "secteur": "Environment",
-      "resultat": "prelabel non accorde au 2 eme tour"
+      "resultat": "prelabel non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Investir UTILE",
       "fondateurs": "Fatma Kobbi, Abdelkader Boussetta",
       "secteur": "Real Estate Tech",
-      "resultat": "prelabel non accorde au 2 eme tour"
+      "resultat": "prelabel non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "AuroraIQ Aurora IQ",
       "fondateurs": "Aymen Frikha, Khalil Bourguiba",
       "secteur": "services",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "INCYIA INCYIA",
       "fondateurs": "Fatma Jedidi, Mohamed Khalil Ben Mohamed",
       "secteur": "Security",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Aycheek NOMOW",
       "fondateurs": "Mohamed Amine Ben Samir, Fedi Chebbi, Tijani Boujdaria, Minyar Meksi",
       "secteur": "Fintech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "BeEmo FEELIO",
       "fondateurs": "Walid Jlassi, Mohamed Rouini, Mourad Zid, Khaled Klai",
       "secteur": "EdTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Bestrade Best Tech Systems",
       "fondateurs": "Heithem Jeljli, Héla Ben Ammar",
       "secteur": "services",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "bqube Business Software and services",
       "fondateurs": "",
       "secteur": "Retrait du Label",
-      "resultat": "les sociétés bénéficiaires du Label"
+      "resultat": "les sociétés bénéficiaires du Label",
+      "_displayDecision": "label"
     }
   ],
   "session_data": {
@@ -208,5 +240,8 @@
     "retraits": 0,
     "conversions": 0,
     "newLabels": 12
-  }
+  },
+  "_displayLabels": 12,
+  "_displayPreLabels": 8,
+  "_displayCandidatures": 36
 }

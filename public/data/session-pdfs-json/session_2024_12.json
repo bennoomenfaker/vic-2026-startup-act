@@ -10,271 +10,316 @@
       "societe": "Millim",
       "fondateurs": "Ayoub Kammoun, Rahma Ben Abid",
       "secteur": "Consumer products and services",
-      "resultat": "label accorde au 2 eme tour"
+      "resultat": "label accorde au 2 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "T7D Gaming",
       "fondateurs": "Houcem Maiza, Ghaleb Ben Ali",
       "secteur": "Ad Tech and Creative Tech",
-      "resultat": "label accorde au 2 eme tour"
+      "resultat": "label accorde au 2 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "ORGAXYA",
       "fondateurs": "Karim Daghari, Mohamed Aziz Fekih Ali",
       "secteur": "Business Software and services",
-      "resultat": "label accorde au 2 eme tour"
+      "resultat": "label accorde au 2 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "Nexaminds",
       "fondateurs": "Hamza Nasra, Mohamed El Kamel, Amine Abdennour",
       "secteur": "Business Software and services",
-      "resultat": "label accorde au 2 eme tour"
+      "resultat": "label accorde au 2 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "SELLMAX",
       "fondateurs": "Ayoub Nejem, Marouane Khadhraoui, Helmi Cherif, Sana Ben Rahma",
       "secteur": "Commerce and shopping",
-      "resultat": "label accorde au 2 eme tour"
+      "resultat": "label accorde au 2 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "Droppy",
       "fondateurs": "Imen Nasri, Rania Amamou, Abdelkader Ben khalifa",
       "secteur": "Commerce and shopping",
-      "resultat": "label accorde au 2 eme tour"
+      "resultat": "label accorde au 2 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "Depogro",
       "fondateurs": "Aymen Manai, Abdelmonam Kouka",
       "secteur": "Commerce and shopping",
-      "resultat": "label accorde au 2 eme tour"
+      "resultat": "label accorde au 2 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "Elastic-Watch",
       "fondateurs": "Ayed Akrout, Marwa Abrougui",
       "secteur": "Agritech",
-      "resultat": "label accorde au 2 eme tour"
+      "resultat": "label accorde au 2 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "PERMA EMERGENCY ASSISTANCE",
       "fondateurs": "Mustapha Nasraoui, Fares Hana, Yassine Ben Himene",
       "secteur": "Communication services",
-      "resultat": "label accorde au 3 eme tour"
+      "resultat": "label accorde au 3 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "SMARTBAT",
       "fondateurs": "Mohamed Skander Ben Himene, Meryam Boughzala",
       "secteur": "Consumer products and services",
-      "resultat": "label accorde au 3 eme tour"
+      "resultat": "label accorde au 3 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "IsOne Hr",
       "fondateurs": "Louay Atoui, Bilel Ben Salem, Tijani Boujdaria, Minyar Meksi",
       "secteur": "Business Software and services",
-      "resultat": "prelabel accorde au 2 eme tour"
+      "resultat": "prelabel accorde au 2 eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "BeEmo",
       "fondateurs": "Walid Jlassi, Mohamed Rouini, Malak Belkacem",
       "secteur": "EdTech",
-      "resultat": "prelabel accorde au 2 eme tour"
+      "resultat": "prelabel accorde au 2 eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "linkbook",
       "fondateurs": "Dhia Fekih, Mohamed Mehdi Nouira, Rahma Ayari",
       "secteur": "EdTech",
-      "resultat": "prelabel accorde au 3 eme tour"
+      "resultat": "prelabel accorde au 3 eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Mashroom",
       "fondateurs": "Anis Benna, Touati Selsebil",
       "secteur": "Ad Tech and Creative Tech",
-      "resultat": "prelabel accorde au 3 eme tour"
+      "resultat": "prelabel accorde au 3 eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Dagish",
       "fondateurs": "Rania Mani",
       "secteur": "Ad Tech and Creative Tech",
-      "resultat": "label non accorde au 2 eme tour"
+      "resultat": "label non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Sport federation",
       "fondateurs": "Radhouen Assakra, Aymen Sellaouti",
       "secteur": "Social Business",
-      "resultat": "label non accorde au 2 eme tour"
+      "resultat": "label non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "mypharmacy.tn",
       "fondateurs": "Kais Ben Youssef, ssam Moalla, Hedi Ben Abbess",
       "secteur": "HealthTech",
-      "resultat": "label non accorde au 2 eme tour"
+      "resultat": "label non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "SOASY",
       "fondateurs": "Naoufel Amri",
       "secteur": "Advanced Manufacturing & Robotics",
-      "resultat": "label non accorde au 2 eme tour"
+      "resultat": "label non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "MedSyn",
       "fondateurs": "Faouzi Nouira",
       "secteur": "HealthTech",
-      "resultat": "label non accorde au 2 eme tour"
+      "resultat": "label non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "IBDAA ACADEMY",
       "fondateurs": "Fethi Zoghlami",
       "secteur": "EdTech",
-      "resultat": "label non accorde au 3 eme tour"
+      "resultat": "label non accorde au 3 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Medactis",
       "fondateurs": "Karim Rekik",
       "secteur": "HealthTech",
-      "resultat": "label non accorde au 2 eme tour"
+      "resultat": "label non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Aupiq Elites united for tax and legal services",
       "fondateurs": "Sameh Ghanmi, Mohamed monem Kahouli",
       "secteur": "Business Software and services",
-      "resultat": "label non accorde au 2 eme tour"
+      "resultat": "label non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Haier HR LA PAILLETTE A nous, A vous, A leur",
       "fondateurs": "Moetaz Ben Charrada, Chouka Brahim",
       "secteur": "Business Software and services",
-      "resultat": "prelabel non accorde au 2 eme tour"
+      "resultat": "prelabel non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Ôravie",
       "fondateurs": "Monia Ezzalfani",
       "secteur": "HealthTech",
-      "resultat": "prelabel non accorde au 2 eme tour"
+      "resultat": "prelabel non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "By4IM",
       "fondateurs": "Yosri Ben Hmida, Ghanem Iheb",
       "secteur": "Real Estate Tech",
-      "resultat": "prelabel non accorde au 2 eme tour"
+      "resultat": "prelabel non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Verdolive",
       "fondateurs": "Omayma Dammak, Julie Déry",
       "secteur": "Agritech",
-      "resultat": "prelabel non accorde au 2 eme tour"
+      "resultat": "prelabel non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Académie ACAM",
       "fondateurs": "Nicole Gosselin",
       "secteur": "Wellness",
-      "resultat": "prelabel non accorde au 2 eme tour"
+      "resultat": "prelabel non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "WAKKIL",
       "fondateurs": "Mouna Ben Hassine, Ines Ben Abdallah",
       "secteur": "Communication services",
-      "resultat": "prelabel non accorde au 2 eme tour"
+      "resultat": "prelabel non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "ABRID",
       "fondateurs": "Marwa Boubaker, Emna Siala",
       "secteur": "Advanced Manufacturing & Robotics",
-      "resultat": "prelabel non accorde au 2 eme tour"
+      "resultat": "prelabel non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Propertates",
       "fondateurs": "Monem Hmila, Mohamed Jasser Ben Smida, Aymen Bouzgarrou",
       "secteur": "Business Software and services",
-      "resultat": "prelabel non accorde au 2 eme tour"
+      "resultat": "prelabel non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Cash Flow",
       "fondateurs": "Ichrak Bouzgarrou, Chirine Bouzgarrou, Mohamed Guemri",
       "secteur": "Business Software and services",
-      "resultat": "prelabel non accorde au 2 eme tour"
+      "resultat": "prelabel non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Maktoub",
       "fondateurs": "Souhail Kaboura, Charbeji Mohamed Majd",
       "secteur": "Communication services",
-      "resultat": "prelabel non accorde au 2 eme tour"
+      "resultat": "prelabel non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "check'n",
       "fondateurs": "Karim Atrous, Khalil Ben Ticha",
       "secteur": "Ad Tech and Creative Tech",
-      "resultat": "prelabel non accorde au 2 eme tour"
+      "resultat": "prelabel non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Improve",
       "fondateurs": "Fawzy Othman",
       "secteur": "Business Software and services",
-      "resultat": "prelabel non accorde au 2 eme tour"
+      "resultat": "prelabel non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Rhai",
       "fondateurs": "Ilyes ali Jeridi, Iskander Kamel Fhima",
       "secteur": "Business Software and services",
-      "resultat": "prelabel non accorde au 2 eme tour"
+      "resultat": "prelabel non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Multipay",
       "fondateurs": "Majdoub Hazem, Med Khalfallah, Samar Saidi",
       "secteur": "Fintech",
-      "resultat": "prelabel non accorde au 3 eme tour"
+      "resultat": "prelabel non accorde au 3 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "MarketMe",
       "fondateurs": "Haifa Ben Khalaf, Iskander Kamel Fhima",
       "secteur": "Ad Tech and Creative Tech",
-      "resultat": "prelabel non accorde au 3 eme tour"
+      "resultat": "prelabel non accorde au 3 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Multipay",
       "fondateurs": "Majdoub Hazem, Med Khalfallah",
       "secteur": "Fintech",
-      "resultat": "prelabel non accorde au 3 eme tour"
+      "resultat": "prelabel non accorde au 3 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Labels",
       "fondateurs": "",
       "secteur": "",
-      "resultat": ""
+      "resultat": "",
+      "_displayDecision": "unknown"
     },
     {
       "societe": "mevenda mevenda solutions",
       "fondateurs": "Amal Hemdana, Hamza Borchani",
       "secteur": "Commerce and shopping",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Receeto RECEETO",
       "fondateurs": "Business Software and services, Aymen Bjaoui",
       "secteur": "Souha Bouslimi",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "SV Lab Seven Verses Laboratory",
       "fondateurs": "Marzouki Mohamed Amine, Moez Ben Mosbah",
       "secteur": "Agritech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Greeny Solutions Greeny Solutions Engineering",
       "fondateurs": "Agritech",
       "secteur": "Mohamed Zied Madini",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "CARWAYS Dot Ways",
       "fondateurs": "Commerce and shopping, Manel Ennahedh, Mohamed Rajhi",
       "secteur": "Oumayma Boughdiri",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "TerraSens TerraSens",
       "fondateurs": "Jamila Tarhouni, Salma Bouabdellaoui",
       "secteur": "Agritech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     }
   ],
   "session_data": {
@@ -286,5 +331,8 @@
     "retraits": 0,
     "conversions": 0,
     "newLabels": 16
-  }
+  },
+  "_displayLabels": 16,
+  "_displayPreLabels": 4,
+  "_displayCandidatures": 40
 }

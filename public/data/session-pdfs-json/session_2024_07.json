@@ -10,151 +10,176 @@
       "societe": "ASTRUM BIOTECH",
       "fondateurs": "Manel Ben Ali, Kaouther El Mejdi",
       "secteur": "HealthTech",
-      "resultat": "label accorde au 2eme tour"
+      "resultat": "label accorde au 2eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "Ecojina",
       "fondateurs": "Sara El Fray, Badis Zormati",
       "secteur": "Consumer products and services",
-      "resultat": "label accorde au 2eme tour"
+      "resultat": "label accorde au 2eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "FAANG",
       "fondateurs": "Gouty Bassem, Rihab Lajmi",
       "secteur": "Business Software and services",
-      "resultat": "label accorde au 2eme tour"
+      "resultat": "label accorde au 2eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "Laboratoires hygie",
       "fondateurs": "Sahbi Ben Lamine, Ines Barkaoui",
       "secteur": "HealthTech",
-      "resultat": "label accorde au 3eme tour"
+      "resultat": "label accorde au 3eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "Sinister scripts studios",
       "fondateurs": "Rihab Bejaoui, Mohamed Wassim Hamrouni",
       "secteur": "Ad Tech and Creative Tech",
-      "resultat": "label non accorde au 2eme tour"
+      "resultat": "label non accorde au 2eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Boukle Waste Management",
       "fondateurs": "Rania Matoussi, Mohamed Ridha Mami",
       "secteur": "Environment",
-      "resultat": "label non accorde au 2eme tour"
+      "resultat": "label non accorde au 2eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Addvocate AI",
       "fondateurs": "Sofyan Chekir",
       "secteur": "Business Software and services",
-      "resultat": "label non accorde au 2eme tour"
+      "resultat": "label non accorde au 2eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Odin international services and consulting",
       "fondateurs": "Abdelaziz Ben Othman, Mohamed Amine Dridi",
       "secteur": "Communication services",
-      "resultat": "label non accorde au 2eme tour"
+      "resultat": "label non accorde au 2eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Flayes",
       "fondateurs": "Mahdi Said, Khairi Hammami",
       "secteur": "Consumer products and services",
-      "resultat": "label non accorde au 2eme tour"
+      "resultat": "label non accorde au 2eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "ITMMA",
       "fondateurs": "Amine Mhedhbi, Mahdi Oueslati, Yassmine Gritli",
       "secteur": "Consumer products and services",
-      "resultat": "label non accorde au 3eme tour"
+      "resultat": "label non accorde au 3eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "LR CONFORT MOBILITE",
       "fondateurs": "Aymen Masmoudi, Zeynab Gritli, Imen Oueslati, Ibtihel Driss, Wahib Zerrim",
       "secteur": "TravelTech",
-      "resultat": "prelabel accorde au 2eme tour"
+      "resultat": "prelabel accorde au 2eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "EduZen",
       "fondateurs": "Khouloud Rinez, Jihen Rahmouni",
       "secteur": "EdTech",
-      "resultat": "prelabel accorde au 2eme tour"
+      "resultat": "prelabel accorde au 2eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "YOPEX",
       "fondateurs": "Mouhib Touaiti, Cheima Cherih",
       "secteur": "Business Software and services",
-      "resultat": "prelabel accorde au 2eme tour"
+      "resultat": "prelabel accorde au 2eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "ZAYOLI",
       "fondateurs": "Leila Rekbi",
       "secteur": "HealthTech",
-      "resultat": "prelabel accorde au 2eme tour"
+      "resultat": "prelabel accorde au 2eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Vegana",
       "fondateurs": "Mehdi Ben Hamouda, Sami Amri",
       "secteur": "FoodTech & New Food",
-      "resultat": "prelabel accorde au 2eme tour"
+      "resultat": "prelabel accorde au 2eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Aventoura",
       "fondateurs": "Mohamed Ali Maazoun, Dhia Saadi, Tarek Zouari",
       "secteur": "TravelTech",
-      "resultat": "prelabel accorde au 2eme tour"
+      "resultat": "prelabel accorde au 2eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Paytea",
       "fondateurs": "Rania Kammoun",
       "secteur": "Business Software and services",
-      "resultat": "prelabel accorde au 3eme tour"
+      "resultat": "prelabel accorde au 3eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Galilei",
       "fondateurs": "Amir Askri, Mohamed Rahmouni, Moemen Amaira, Sami Slama, Alaeddine Nasri, Ghassen Boufaden",
       "secteur": "Ad Tech and Creative Tech",
-      "resultat": "prelabel non accorde au 2eme tour"
+      "resultat": "prelabel non accorde au 2eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Bimpack",
       "fondateurs": "Atef Mechken, Haythem Maddouri",
       "secteur": "Business Software and services",
-      "resultat": "prelabel non accorde au 2eme tour"
+      "resultat": "prelabel non accorde au 2eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "MACONDO ENGINEERING",
       "fondateurs": "yahya Machat, Shayma Kaabi",
       "secteur": "Fintech",
-      "resultat": "prelabel non accorde au 2eme tour"
+      "resultat": "prelabel non accorde au 2eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Infinite communities",
       "fondateurs": "Aymen Touhent, Karim Gharbi, Fatma Techini",
       "secteur": "Business Software and services",
-      "resultat": "prelabel non accorde au 2eme tour"
+      "resultat": "prelabel non accorde au 2eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Smart Escape",
       "fondateurs": "Ahmed Yassine Chouk, Guerfela Mohamed amine, Mohamed Salah Maaref",
       "secteur": "TravelTech",
-      "resultat": "prelabel non accorde au 2eme tour"
+      "resultat": "prelabel non accorde au 2eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Be-Smart",
       "fondateurs": "Khadraoui Khaled, Yesser Ajili",
       "secteur": "Ad Tech and Creative Tech",
-      "resultat": "prelabel non accorde au 2eme tour"
+      "resultat": "prelabel non accorde au 2eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "twinnoverse",
       "fondateurs": "TWINNOVERSE SOLUTION, Adam Bouchaala, Sofien Guesmi",
       "secteur": "Advanced Manufacturing & Robotics",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "tipstalks",
       "fondateurs": "Tiptalk solutions, Mraihi Ilies",
       "secteur": "Real Estate Tech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     }
   ],
   "session_data": {
@@ -184,5 +209,8 @@
       "reason": "4 nouveaux labels + 2 conversions − 3 retraits = 6 (scrapé : 5)",
       "commentaires": "05 Labels et 2 Prélabel à Label"
     }
-  }
+  },
+  "_displayLabels": 6,
+  "_displayPreLabels": 7,
+  "_displayCandidatures": 33
 }

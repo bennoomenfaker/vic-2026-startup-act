@@ -10,205 +10,239 @@
       "societe": "VB SMART",
       "fondateurs": "Amine Fourati, Sahli Houssem",
       "secteur": "Robotics",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Foodoo Nutrition",
       "fondateurs": "Sonia Othman, Hadhami Rjiba",
       "secteur": "FoodTech & New Food",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Relead",
       "fondateurs": "",
       "secteur": "Ad Tech and Creative Tech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "AMAL XR",
       "fondateurs": "Mohamed Bassem Mazghouni, Mohamed Kharrat, Mohamed Belghith, Hassen Marzouk",
       "secteur": "HealthTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Arkan",
       "fondateurs": "Tarek Marzouk",
       "secteur": "Commerce and shopping",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Shape",
       "fondateurs": "Rahma Ben Abid, Mohamed Moez Touil",
       "secteur": "EdTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Elokencia",
       "fondateurs": "Houcem Ben Lasfar, Mohamed Moatez Jendoubi",
       "secteur": "Services de communication",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Mon Ingénieur Express",
       "fondateurs": "Frederic Delahaigue",
       "secteur": "Business Software & Services",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Rendez vous",
       "fondateurs": "Zied Hamouda",
       "secteur": "Consumer products and services Label",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "DeepAI",
       "fondateurs": "Seifedine Guizeni, Jihène Ben Slimene, Mohamed Adel Tarki",
       "secteur": "Ad Tech and Creative Tech",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "YARI",
       "fondateurs": "Mohamed Nejib Bejar, Ghassen Sghaier",
       "secteur": "HealthTech",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "IZICLAIM",
       "fondateurs": "Mohamed Sghaier, Senda Akili",
       "secteur": "FinTech",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "FeedIn",
       "fondateurs": "Amal khémira, Hamza Mehdaoui",
       "secteur": "AgriTech",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Firma Solutions",
       "fondateurs": "Haythem Ilehi, Ghazi Tlalet, Achref Chouchene, Mohamed Houcem Eddine Ibn Essghaier",
       "secteur": "AgriTech",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Planet Dev",
       "fondateurs": "Khouloud Essghaier, Nermine Abid, Mohamed Amine Kefi",
       "secteur": "Social Business",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Flexipik",
       "fondateurs": "Beya Ben Saâd, Karim Ben Saber",
       "secteur": "Communication services",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "OTOSPEX",
       "fondateurs": "Houssam Rihane, Ftouma Bannour",
       "secteur": "Business Software and services",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "ID grouping&connect",
       "fondateurs": "Mahdi Ben Ahmed, Salim Benaoun",
       "secteur": "HealthTech",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "PRO'FIT",
       "fondateurs": "Mohamed Wassim Abidi, Hela Msaddek, Ayoub Maatallaoui",
       "secteur": "Consumer products and services Prélabel",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Dentallx",
       "fondateurs": "Hanane El Kaoui, Sirine Guediche",
       "secteur": "HealthTech",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "EPI GreenVision",
       "fondateurs": "Mohamed Ali Karoui, Francois Dejeager",
       "secteur": "Environment",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Plateformance",
       "fondateurs": "Anis Dabbebi, Saber Jelassi, Rami Htira",
       "secteur": "Business Software and services",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "FTM",
       "fondateurs": "Mondher Htira, Hamza Naoui",
       "secteur": "Ad Tech and Creative Tech",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "MIZZA",
       "fondateurs": "Aya Kelthoumi, Najmeddine Bouzir",
       "secteur": "Business Software and services",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Stardust.tn",
       "fondateurs": "Emna Bahri, Melek Mehrez",
       "secteur": "Commerce and shopping",
-      "resultat": "prelabel non accorde"
+      "resultat": "prelabel non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Smart Factory",
       "fondateurs": "Firas Mehrez, Hamdi Amine Elkhaldi",
       "secteur": "Robotics",
-      "resultat": "prelabel non accorde"
+      "resultat": "prelabel non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "tracetech",
       "fondateurs": "Ferid Rahmani, Adel Loussaief",
       "secteur": "Robotics",
-      "resultat": "prelabel non accorde"
+      "resultat": "prelabel non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "D-carte solutions",
       "fondateurs": "D-Carte Skander Hadj Romdhan, Ala Ben Hassen",
       "secteur": "Business Software & Services",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Ste BITAQA TN Wisevision Artificial Intelligence Technologies",
       "fondateurs": "Bitaqa Amine Miladi, Soufi Majdeddine, Bassem Mathlouthi, Wise Vision Rawand Skoury, Malek Zribi, Kenza Boukhris",
       "secteur": "Business Software & Services",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "ITOps Bridge",
       "fondateurs": "Bridge Itops Walid Saad, Hamza Jabnouni",
       "secteur": "Business Software & Services",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "SOUGUI E-SHOP",
       "fondateurs": "Sougui Abderraouf Achouch, Alaeddine Abidi, Selim Mohamed Gharbi",
       "secteur": "Commerce and shopping",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Denarius Payment Services",
       "fondateurs": "Watto, Omar Khemakhem, Dhia Elhak Guedri",
       "secteur": "FinTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Deltabionic",
       "fondateurs": "Tunibionics Farah Jenhani, Nasreddine Hamdi, Sami Bellalah",
       "secteur": "Robotics",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "STE OCEANUSTART",
       "fondateurs": "Oceanus Houneida Majdoub, Seifeddine Majdoub",
       "secteur": "Environment",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     }
   ],
   "session_data": {
@@ -220,5 +254,8 @@
     "retraits": 0,
     "conversions": 0,
     "newLabels": 17
-  }
+  },
+  "_displayLabels": 17,
+  "_displayPreLabels": 10,
+  "_displayCandidatures": 34
 }

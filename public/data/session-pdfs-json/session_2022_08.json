@@ -10,121 +10,141 @@
       "societe": "SmarDac",
       "fondateurs": "Jawhar Ben Abdallah, Ghassen Alibi, Mohamed Aziz Ghorbel",
       "secteur": "Environment/Energie",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Miam!",
       "fondateurs": "Chedly Soltana, Rami Touati",
       "secteur": "Business Software & Services",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "HEROI",
       "fondateurs": "Taha Ben Abdelmalek",
       "secteur": "Ad Tech and Creative Tech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Slidzo",
       "fondateurs": "Fedi Ben Nejma, Mohamed Amine Messaoudi",
       "secteur": "FoodTech & New Food",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "The Vastlight Platform",
       "fondateurs": "Seif Islem Messaoudi, Abdel Baset Mrabet, Jawher Thabet, Fakher Bourray",
       "secteur": "Business Software & Services",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Rivezli.tn Elevage des abeilles pour la collecte de leurs venins pour des fins cosmétiques et thérapeutiques",
       "fondateurs": "Ghaith Thabet, Moncef Ben Rabia, Chedly Ellijimi, Dheker Hamami",
       "secteur": "EdTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Moovin360",
       "fondateurs": "Bilel Chebbi, Cyrine Atallah, Emilio Illc La Peruta",
       "secteur": "Communication services",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Waf Waf House",
       "fondateurs": "Ridha Bouasker, Yusbely Nacary Jimenez Guerra, Hassine Atallah, Anouar Abdelkoudous Bouassida",
       "secteur": "Consumer products and services",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Thnity",
       "fondateurs": "Amina Garbouj, Sayma Besbes, Oussama Dhahri",
       "secteur": "Mobility",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "CapsaFood cell pulse",
       "fondateurs": "Amine Chortani, Hadil Fouli, Halima Mahjoubi, Jihed Jridi, Kaouther Zenati, Salem Hamidi, Elhem Cheour, Rami Khouja",
       "secteur": "Mobility",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Innovega",
       "fondateurs": "Rym Ghribi, Amira Ben Abdeljelil, Skander Khaled Fourati",
       "secteur": "Agritech",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Tabachir Games",
       "fondateurs": "Aymen Ayadi, Yassine Mohammed Bouassida, Salma Bessalah",
       "secteur": "EdTech",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Caminova Meeda la table connectée destinée à votre usage intérieur et extérieur.",
       "fondateurs": "Sihem Bessalah, Aziz Annabi, Slim Abdeljelil, Ali Ayari",
       "secteur": "HealthTech",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "WiseBoard",
       "fondateurs": "Slim Oueslati, Rym Oueslati, Fourat Ouerghemmi",
       "secteur": "Fintech",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "D-carte",
       "fondateurs": "Skander Hadj Romdhan, Ala Ben Hassen, Pagnagda Frederic Soubeiga",
       "secteur": "Business Software and services",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Mraabila",
       "fondateurs": "Alia Sabah, Mahdi Kharrat, Fedia ayari",
       "secteur": "Social Business",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Boosty/Almoshtari",
       "fondateurs": "Mohamed Amine Bensalem, Mohamed Badreddine Kharrat, Sabri Abassi",
       "secteur": "Social Business",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Axifraud",
       "fondateurs": "Abdesslem Bhouri khila, Badis Souissi, Borni Dhifi",
       "secteur": "Business Software and services",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Hadooc",
       "fondateurs": "Walid Mchiri, Walid Oussai",
       "secteur": "Business Software and services",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "MSS CONSULTING",
       "fondateurs": "Karim Gharbi",
       "secteur": "Business Software and services",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     }
   ],
   "session_data": {
@@ -136,5 +156,8 @@
     "retraits": 0,
     "conversions": 0,
     "newLabels": 12
-  }
+  },
+  "_displayLabels": 12,
+  "_displayPreLabels": 12,
+  "_displayCandidatures": 36
 }

@@ -10,235 +10,274 @@
       "societe": "IHSCEN for Startups",
       "fondateurs": "Najia Dhiab",
       "secteur": "Business Software and services Label",
-      "resultat": "label accorde label accorde des le 2 eme tour"
+      "resultat": "label accorde label accorde des le 2 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "FININFO SOLUTIONS",
       "fondateurs": "Fares Naiet El Gaied",
       "secteur": "Fintech Label",
-      "resultat": "label accorde label accorde des le 2 eme tour"
+      "resultat": "label accorde label accorde des le 2 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "Damdoum",
       "fondateurs": "Faten Matmati, Mohamed Dhia Ben Fraj",
       "secteur": "Ad Tech & Creative Tech Label",
-      "resultat": "label accorde suite au pitching"
+      "resultat": "label accorde suite au pitching",
+      "_displayDecision": "label"
     },
     {
       "societe": "Block plus plus La Galerie VR",
       "fondateurs": "Asma Yousfi, Siryne Elouede, Hamza Chakroun, Montassar Chakroun, Sabri Mzoughizoughi",
       "secteur": "Fintech Label",
-      "resultat": "label accorde label accorde des le 2eme tour"
+      "resultat": "label accorde label accorde des le 2eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "SK TECH",
       "fondateurs": "Karim Jelliti, Ramzi Hmani",
       "secteur": "Consumer Products and Services Label",
-      "resultat": "label accorde label accorde suite au pitching"
+      "resultat": "label accorde label accorde suite au pitching",
+      "_displayDecision": "label"
     },
     {
       "societe": "Ghramna / Digital Drina",
       "fondateurs": "Leila Slim, Mourad Mezghani",
       "secteur": "Communication services Label",
-      "resultat": "label non accorde label non accorde suite au pitching"
+      "resultat": "label non accorde label non accorde suite au pitching",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Xtendmind / Novea",
       "fondateurs": "Hassan Cheriha, Ahmed Ben Hamouda, Sarra Ben Romdhane",
       "secteur": "HealthTech Label",
-      "resultat": "label non accorde label non accorde suite au pitching"
+      "resultat": "label non accorde label non accorde suite au pitching",
+      "_displayDecision": "refused"
     },
     {
       "societe": "PeaceSight",
       "fondateurs": "Mehdi Mouelhi, Emna Rassaa",
       "secteur": "TravelTech Label",
-      "resultat": "label non accorde label non accorde des le 2eme tour"
+      "resultat": "label non accorde label non accorde des le 2eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "SahEAT",
       "fondateurs": "Taha Karoui, Mohamed Islem Ben Ali, Houssem Kanzari",
       "secteur": "FoodTech & New Food Label",
-      "resultat": "label non accorde label non accorde des le 2eme tour"
+      "resultat": "label non accorde label non accorde des le 2eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "UWAS",
       "fondateurs": "Mohamed Laouini, Ahmed Nizar Kalai",
       "secteur": "TravelTech Label",
-      "resultat": "label non accorde des le 2eme tour"
+      "resultat": "label non accorde des le 2eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Schwaus",
       "fondateurs": "Ahmed Ben Hassana",
       "secteur": "Advanced Manufacturing & Robotics Label",
-      "resultat": "label non accorde label non accorde suite au pitching"
+      "resultat": "label non accorde label non accorde suite au pitching",
+      "_displayDecision": "refused"
     },
     {
       "societe": "HulpAI",
       "fondateurs": "Abir Mahouchi",
       "secteur": "Business Software and services Label",
-      "resultat": "label non accorde label non accorde suite au pitching"
+      "resultat": "label non accorde label non accorde suite au pitching",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Smarting Serve",
       "fondateurs": "Mourad Sahloul, Dhouha Belhaj Yahia",
       "secteur": "Business Software and services Prélabel",
-      "resultat": "prelabel accorde prelabel accorde des le 2eme tour"
+      "resultat": "prelabel accorde prelabel accorde des le 2eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "PTITAPTIT",
       "fondateurs": "Makrem Aoun",
       "secteur": "Consumer products and services Prélabel",
-      "resultat": "prelabel accorde prelabel accorde suite au pitching"
+      "resultat": "prelabel accorde prelabel accorde suite au pitching",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Clic Holidays",
       "fondateurs": "Mohamed El Haj Abdallah",
       "secteur": "Prélabel",
-      "resultat": "prelabel accorde des le 2eme tour"
+      "resultat": "prelabel accorde des le 2eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Arsek dripbox",
       "fondateurs": "Kais Oueslati, Ahmed Boufahja",
       "secteur": "Agritech Prélabel",
-      "resultat": "prelabel accorde prelabel accorde des le 2eme tour"
+      "resultat": "prelabel accorde prelabel accorde des le 2eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "ORcompost",
       "fondateurs": "Emna Boufahja",
       "secteur": "Agritech Prélabel",
-      "resultat": "prelabel accorde prelabel accorde des le 2eme tour"
+      "resultat": "prelabel accorde prelabel accorde des le 2eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "United VITO",
       "fondateurs": "Nizar Affi, Anissa Najjar",
       "secteur": "Business Software and services Prélabel",
-      "resultat": "prelabel accorde prelabel accorde suite au pitching"
+      "resultat": "prelabel accorde prelabel accorde suite au pitching",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "SUCCESS STUDY",
       "fondateurs": "Kais Dridi",
       "secteur": "Consumer products and services Prélabel",
-      "resultat": "prelabel accorde prelabel accorde suite au pitching"
+      "resultat": "prelabel accorde prelabel accorde suite au pitching",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "NetConf",
       "fondateurs": "Houssem Jarraya",
       "secteur": "Ad Tech and Creative Tech Prélabel",
-      "resultat": "prelabel accorde suite au pitching"
+      "resultat": "prelabel accorde suite au pitching",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "ReBoS",
       "fondateurs": "Aymen Mabrouki, Maher Ben Najm",
       "secteur": "Environment Prélabel",
-      "resultat": "prelabel non accorde prelabel non accorde des le 2eme tour"
+      "resultat": "prelabel non accorde prelabel non accorde des le 2eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "SAVEE",
       "fondateurs": "Nabil Ben Najem, Nadhem Lihiouiel",
       "secteur": "FoodTech & New Food Prélabel",
-      "resultat": "prelabel non accorde prelabel non accorde des le 2eme tour"
+      "resultat": "prelabel non accorde prelabel non accorde des le 2eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "nivanta",
       "fondateurs": "Ismail Kahri, Azzez Moatez, Associé",
       "secteur": "Business Software and services Prélabel",
-      "resultat": "prelabel non accorde prelabel non accorde des le 2eme tour"
+      "resultat": "prelabel non accorde prelabel non accorde des le 2eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "E-mima food",
       "fondateurs": "azzez Houssem, Hamza Gassab",
       "secteur": "FoodTech & New Food Prélabel",
-      "resultat": "prelabel non accorde prelabel non accorde des le 2eme tour"
+      "resultat": "prelabel non accorde prelabel non accorde des le 2eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Fabrication des produits électroniques",
       "fondateurs": "Marwene Selmi, Oussama Souaf, Fahmi Haouala",
       "secteur": "Consumer products and services Prélabel",
-      "resultat": "prelabel non accorde prelabel non accorde des le 2eme tour"
+      "resultat": "prelabel non accorde prelabel non accorde des le 2eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "DentistUP",
       "fondateurs": "Soulaimane Guedria, Loua Slama, Mohamed Malek, Khouloud Bannour",
       "secteur": "HealthTech Prélabel",
-      "resultat": "prelabel non accorde prelabel non accorde des le 2eme tour"
+      "resultat": "prelabel non accorde prelabel non accorde des le 2eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Sea Safe",
       "fondateurs": "Houssem Saadaoui, Meriem Zouali, Nour Salah, Asma Mhadheb",
       "secteur": "Security Prélabel",
-      "resultat": "prelabel non accorde prelabel non accorde des le 2eme tour"
+      "resultat": "prelabel non accorde prelabel non accorde des le 2eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Vivlio",
       "fondateurs": "Ahmed Hamouda, Mohamed Fadhel Saada, Zeineb Hadj Ali",
       "secteur": "Communication services Prélabel",
-      "resultat": "prelabel non accorde prelabel non accorde des le 2eme tour"
+      "resultat": "prelabel non accorde prelabel non accorde des le 2eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Barsha Food",
       "fondateurs": "Rania Souei, Alaa Bouajila",
       "secteur": "Prélabel",
-      "resultat": "prelabel non accorde prelabel non accorde des le 2eme tour"
+      "resultat": "prelabel non accorde prelabel non accorde des le 2eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "TOUTA",
       "fondateurs": "Nourhene Mhennaoui, Wael Chaouch",
       "secteur": "EdTech Prélabel",
-      "resultat": "prelabel non accorde prelabel non accorde des le 2eme tour"
+      "resultat": "prelabel non accorde prelabel non accorde des le 2eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "AGUA DE SOL TUNISIE",
       "fondateurs": "de boisson atmosphérique par le, Luc Metivier, solaire",
       "secteur": "Environment",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "MOBYERA",
       "fondateurs": "Parkey Mehdi Romdhane, Chaker Trabelsi",
       "secteur": "Mobility",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "HS WARE",
       "fondateurs": "Coadis Imen Jridi, Kaouther Hedhly",
       "secteur": "Advanced Manufacturing & Robotics",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "THIQAB",
       "fondateurs": "Thiqab, Hatem Zegnani, Ghofrane Ben Mabrouk",
       "secteur": "Business Software and services",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Tym Solutions",
       "fondateurs": "Train Your Mind Mohamed Khalil Ben Chebil, Mohamed Salah Ouelhazi",
       "secteur": "HealthTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Digi Portal",
       "fondateurs": "Mouqawel Ikbel Sassi, Slim Nabli",
       "secteur": "Business Software and services",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Expy",
       "fondateurs": "Expy AI, Luay Ben Ali, Jihene Arzaak",
       "secteur": "Business Software and services",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Académie artisanal Arzaak",
       "fondateurs": "Arzaak Eya Akir, Racha Chwiref",
       "secteur": "Social Business",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Carthage Eyewear international",
       "fondateurs": "Consumer Products & Services",
       "secteur": "",
-      "resultat": ""
+      "resultat": "",
+      "_displayDecision": "unknown"
     }
   ],
   "session_data": {
@@ -250,5 +289,8 @@
     "retraits": 0,
     "conversions": 0,
     "newLabels": 15
-  }
+  },
+  "_displayLabels": 15,
+  "_displayPreLabels": 8,
+  "_displayCandidatures": 33
 }

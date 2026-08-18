@@ -10,187 +10,218 @@
       "societe": "HEXA5 SOLUTIONS",
       "fondateurs": "Mohamed TLICH",
       "secteur": "Security",
-      "resultat": "label accorde au 2 eme tour"
+      "resultat": "label accorde au 2 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "MASSAR PERFECTION",
       "fondateurs": "Mahmoud Trabelsi",
       "secteur": "Software and",
-      "resultat": "label accorde au 2 eme tour"
+      "resultat": "label accorde au 2 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "Kessa",
       "fondateurs": "Chaibi Ahmed Fares",
       "secteur": "Fintech",
-      "resultat": ""
+      "resultat": "",
+      "_displayDecision": "unknown"
     },
     {
       "societe": "My Quality Assistant Team /",
       "fondateurs": "Saadi Ismail, wissem barouni",
       "secteur": "Software and",
-      "resultat": "label accorde au 2 eme tour"
+      "resultat": "label accorde au 2 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "ALGORIA FACTORY",
       "fondateurs": "Wissem Abdelhak, Abdallah Ben jamaa",
       "secteur": "Software and",
-      "resultat": "label accorde au 2 eme tour"
+      "resultat": "label accorde au 2 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "citrustech",
       "fondateurs": "Insaf Ben Othman",
       "secteur": "Agritech",
-      "resultat": "label accorde au 2 eme tour"
+      "resultat": "label accorde au 2 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "Estimo",
       "fondateurs": "Mohamed Amir Boufaden, Marion Sardou",
       "secteur": "Tech",
-      "resultat": "label accorde au 2 eme tour"
+      "resultat": "label accorde au 2 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "Intheair Labs",
       "fondateurs": "Bruno GUTTON, Olivier Apicella",
       "secteur": "Software and",
-      "resultat": "label accorde au 3 eme tour"
+      "resultat": "label accorde au 3 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "Teleon",
       "fondateurs": "Karim Ben Khaled",
       "secteur": "Software and",
-      "resultat": "label accorde au 3 eme tour"
+      "resultat": "label accorde au 3 eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "Talento",
       "fondateurs": "Ghazi Smach, Mohamed aziz Hlaoua, zied harzallah",
       "secteur": "Software and",
-      "resultat": "prelabel accorde au 2 eme tour"
+      "resultat": "prelabel accorde au 2 eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Freshk",
       "fondateurs": "Rayane Ben abdelhalid, Bouaziz Wissem, mohamed aymen hassen",
       "secteur": "Agritech",
-      "resultat": "prelabel accorde au 2 eme tour"
+      "resultat": "prelabel accorde au 2 eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "cognitiex",
       "fondateurs": "amine salah hassen, Affes Hedi",
       "secteur": "EdTech",
-      "resultat": "prelabel accorde au 3 eme tour"
+      "resultat": "prelabel accorde au 3 eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Fastoch",
       "fondateurs": "Khaled Affes",
       "secteur": "Mobility",
-      "resultat": "label non accorde au 2 eme tour"
+      "resultat": "label non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Styly App",
       "fondateurs": "Soumaya Sebai",
       "secteur": "and shopping",
-      "resultat": "label non accorde au 2 eme tour"
+      "resultat": "label non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "ERPOptic",
       "fondateurs": "mohamed amine saadaoui, Adnen Selmi",
       "secteur": "Fintech",
-      "resultat": "label non accorde au 2 eme tour"
+      "resultat": "label non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Diyese-GEN",
       "fondateurs": "Zied Selmi, Tajer Karim",
       "secteur": "Software and",
-      "resultat": "label non accorde au 2 eme tour"
+      "resultat": "label non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "GALYLIO",
       "fondateurs": "Wala Naghmouchi, Haydar Boudhrioua, Nawres Askri, belhadj amir",
       "secteur": "Software and",
-      "resultat": "label non accorde au 2 eme tour"
+      "resultat": "label non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Hamo",
       "fondateurs": "Ouled Yahya Mohamed, Mariem Ben Hmad, Ala Din Habibi",
       "secteur": "Software and",
-      "resultat": "label non accorde au 2 eme tour"
+      "resultat": "label non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Innovia360 Société d'innovation en intelligence",
       "fondateurs": "slim zghal",
       "secteur": "Business Software and services",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "artificielle",
       "fondateurs": "Momtez AYADI, Mokhtar HARRABI, Adam Ben Slama",
       "secteur": "",
-      "resultat": ""
+      "resultat": "",
+      "_displayDecision": "unknown"
     },
     {
       "societe": "Real Time Data Logger-RTDL AIOT LABS",
       "fondateurs": "Mohamed Ameur, BEN, ABDESSALEM, Mohamed Taibah",
       "secteur": "HealthTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "The pointing Graphical Tablet Digi Draw",
       "fondateurs": "Mohamed Kais, Ben Rhouma",
       "secteur": "Advanced Manufacturing & Robotics",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "نﯾﺗﻣﺎﻣﯾﻟا  LAYAMAMATAYN LAYAMAMATAYN BILA HOUDOUD",
       "fondateurs": "Kawther Marzouki, Norene Sakouhi, Aymen Yahyaoui, Maher Boughdiri",
       "secteur": "EdTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Moodicament Wejden Spire",
       "fondateurs": "Haroun Ouanes, Ala Ben Aicha, Chawki, Gharsellaoui",
       "secteur": "HealthTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Serbot AUVEXIS",
       "fondateurs": "Mbarki Kabil, Hmercha Amjed, Wael Hichri, Taha Jlassi, ramla el ayeb ep",
       "secteur": "Advanced Manufacturing & Robotics",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Play and Code NOON PLAY AND CODE",
       "fondateurs": "jlassi, Karim JLASSI, Ali Abdallah",
       "secteur": "EdTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "VIBE FLOW Ai VIBE FLOW Ai",
       "fondateurs": "ala touati, abderrahmen, abdelkabir",
       "secteur": "Ad Tech and Creative Tech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "SAHTEE NormSafety",
       "fondateurs": "Slaheddine, Dardouri, Asma Ferchichi",
       "secteur": "HealthTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Riyasol RIYASOL",
       "fondateurs": "Houda Ferchichi",
       "secteur": "Business Software and services",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "ADVALIANCE CONSULTING Marketing",
       "fondateurs": "",
       "secteur": "",
-      "resultat": "La société a dépassé l'âge maximum de 8 ans fixé par"
+      "resultat": "La société a dépassé l'âge maximum de 8 ans fixé par",
+      "_displayDecision": "unknown"
     },
     {
       "societe": "MOLINE Health care",
       "fondateurs": "",
       "secteur": "",
-      "resultat": ""
+      "resultat": "",
+      "_displayDecision": "unknown"
     }
   ],
   "session_data": {
@@ -220,5 +251,8 @@
       "reason": "9 nouveaux labels + 11 conversions − 2 retraits = 20",
       "commentaires": "10 Labels et 11 Prélabels à Labels"
     }
-  }
+  },
+  "_displayLabels": 20,
+  "_displayPreLabels": 3,
+  "_displayCandidatures": 36
 }

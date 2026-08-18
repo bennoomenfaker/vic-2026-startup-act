@@ -10,211 +10,246 @@
       "societe": "Top Nearshore",
       "fondateurs": "Pierre Maxime",
       "secteur": "Business Software and services",
-      "resultat": "label accorde au 2eme tour"
+      "resultat": "label accorde au 2eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "Link 2 Grow Network",
       "fondateurs": "Rym Ayari Walid Ayari, Hamza MAGRIMariem",
       "secteur": "Business Software and services",
-      "resultat": "label accorde au 2eme tour"
+      "resultat": "label accorde au 2eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "Vesna Biotech",
       "fondateurs": "MAGRIAymen CHEIBI, Abir Ben ArbiaAnis Ben",
       "secteur": "HealthTech",
-      "resultat": "label accorde au 2eme tour"
+      "resultat": "label accorde au 2eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "DATABLIC",
       "fondateurs": "ArbiaRami Chermiti, Marwa SettiMohamed Aziz",
       "secteur": "Communication services",
-      "resultat": "label accorde au 2eme tour"
+      "resultat": "label accorde au 2eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "Go Switch Home",
       "fondateurs": "Setti",
       "secteur": "TravelTech",
-      "resultat": "label accorde au 2eme tour"
+      "resultat": "label accorde au 2eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "UCOD",
       "fondateurs": "Mouadh Hsoumi, Maroua Ben Charrada",
       "secteur": "Business Software and services",
-      "resultat": "label accorde au 2eme tour"
+      "resultat": "label accorde au 2eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "MOOM",
       "fondateurs": "Mohamed Aymen, Bachrouch, Rym Bendhief Akremi",
       "secteur": "Social Business",
-      "resultat": "label accorde au 2eme tour"
+      "resultat": "label accorde au 2eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "RSE Time",
       "fondateurs": "Mohamed Hbib Ben Akremi, Mohamed Aziz Ben Akremi",
       "secteur": "Business Software and services",
-      "resultat": "label non accorde au 3 eme tour"
+      "resultat": "label non accorde au 3 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "South Fruits Agri",
       "fondateurs": "Thouraya Rajah, Mohamed Oualid Guellouz",
       "secteur": "Agritech",
-      "resultat": "label non accorde au 3 eme tour"
+      "resultat": "label non accorde au 3 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Hippomed Entreprise SA",
       "fondateurs": "Pascaline Mussot",
       "secteur": "HealthTech",
-      "resultat": "prelabel accorde au 2 eme tour"
+      "resultat": "prelabel accorde au 2 eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Contractzlab",
       "fondateurs": "Mohamed Rafik Hwimli",
       "secteur": "Business Software and services",
-      "resultat": "prelabel accorde au 2 eme tour"
+      "resultat": "prelabel accorde au 2 eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Uvey",
       "fondateurs": "Youssef Meddeb",
       "secteur": "Fintech",
-      "resultat": "prelabel accorde au 2 eme tour"
+      "resultat": "prelabel accorde au 2 eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Tanit.ai",
       "fondateurs": "Kais Zhioua, Foued Jaballah",
       "secteur": "HealthTech",
-      "resultat": "prelabel accorde au 3 eme tour"
+      "resultat": "prelabel accorde au 3 eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "JIOTIFY",
       "fondateurs": "Rafik Jaballah",
       "secteur": "Agritech",
-      "resultat": "prelabel accorde au 3 eme tour"
+      "resultat": "prelabel accorde au 3 eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "IOT Bridges",
       "fondateurs": "Walid Khenissi, Makram TorjemenSouissi",
       "secteur": "Business Software and services",
-      "resultat": "label non accorde au 2 eme tour"
+      "resultat": "label non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "DeviceSpeak",
       "fondateurs": "AlHabib, Houssem Ben Slama",
       "secteur": "Consumer products and services",
-      "resultat": "label non accorde au 2 eme tour"
+      "resultat": "label non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "WLEDI",
       "fondateurs": "Dhouha Allagui, Abderrazak Hakim",
       "secteur": "Business Software and services",
-      "resultat": "label non accorde au 2 eme tour"
+      "resultat": "label non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "mypharmacy.",
       "fondateurs": "Kais Ben YoussefAymen",
       "secteur": "HealthTech",
-      "resultat": "label non accorde au 2 eme tour"
+      "resultat": "label non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "tn/Sharedpharma",
       "fondateurs": "SellaoutiIssam Moalla",
       "secteur": "",
-      "resultat": ""
+      "resultat": "",
+      "_displayDecision": "unknown"
     },
     {
       "societe": "Gorilla",
       "fondateurs": "Aymen KochtiSahar Toujani, Hela Mghaieth",
       "secteur": "Ad Tech and Creative Tech",
-      "resultat": "label non accorde au 2 eme tour"
+      "resultat": "label non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Magic nature",
       "fondateurs": "Ahmed Mghaieth, Majed DammakSaber",
       "secteur": "Consumer products and services",
-      "resultat": "label non accorde au 2 eme tour"
+      "resultat": "label non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Food Safety",
       "fondateurs": "Naffati",
       "secteur": "Business Software and services",
-      "resultat": "label non accorde au 2 eme tour"
+      "resultat": "label non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "BRANDYU (application",
       "fondateurs": "Amine OueslatiOumaima",
       "secteur": "Communication services",
-      "resultat": "label non accorde au 2 eme tour"
+      "resultat": "label non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "mobile).",
       "fondateurs": "MahmoudSoufien Bsili",
       "secteur": "",
-      "resultat": "label non accorde au 3eme tour"
+      "resultat": "label non accorde au 3eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Domaine El Htouba",
       "fondateurs": "Amine Boufaied",
       "secteur": "Consumer products and services",
-      "resultat": "2 0 5 Mohamed Salah Frad a décalré avoir un conflit d'intérêt"
+      "resultat": "2 0 5 Mohamed Salah Frad a décalré avoir un conflit d'intérêt",
+      "_displayDecision": "unknown"
     },
     {
       "societe": "OLINDIAS",
       "fondateurs": "Mohamed Lotfi Sassi, Amani ChattiMahmoud",
       "secteur": "Business Software and services",
-      "resultat": "label non accorde au 3eme tour"
+      "resultat": "label non accorde au 3eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Kridipay",
       "fondateurs": "ChattiMohamed Neji, KalboussiMakrem Jlassi",
       "secteur": "Fintech",
-      "resultat": "prelabel non accorde au 2 eme tour"
+      "resultat": "prelabel non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Afrique vapeur",
       "fondateurs": "Saadallah Aymen, Mouhamed Nourdine",
       "secteur": "Consumer products and services",
-      "resultat": "prelabel non accorde au 2 eme tour"
+      "resultat": "prelabel non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "ADDEL",
       "fondateurs": "GuitouniKarima Tekaya, Maghri, Ibrahim BoubakriBadreddine",
       "secteur": "Social Business",
-      "resultat": "prelabel non accorde au 2 eme tour"
+      "resultat": "prelabel non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "TIKTAK CV",
       "fondateurs": "Ben Cheikh AhmedMoussa, Ouechtati, Maha Ben Fredj",
       "secteur": "Business Software and services",
-      "resultat": "prelabel non accorde au 2 eme tour"
+      "resultat": "prelabel non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Ad. Mall",
       "fondateurs": "Malek Ben Fredj, Mouna Karoui",
       "secteur": "Commerce and shopping",
-      "resultat": "prelabel non accorde au 2 eme tour"
+      "resultat": "prelabel non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "ARKHOU DRONE",
       "fondateurs": "Arkhou-Drone, Elarbi Machraoui, Ahmed Ben Bouzid, Mohamed Berber",
       "secteur": "Robotics",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "OPUSLAB EdTECH Opus Lab",
       "fondateurs": "Siwar Gharbi, Mohmmed Sayed Hamdi, Habib Chaari",
       "secteur": "EdTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "OCEAN SOFT Colisnet",
       "fondateurs": "Mehdi Ben Hmida, Wajdi Buaziz, Amira Ben Amira",
       "secteur": "services",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "PROTEINEW iLOCKER Drop'NGO",
       "fondateurs": "Protei New, Issam Ben Amira, Riadh Bouassida, Ahmed Bouassida, Ramzi Arous",
       "secteur": "Agritech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     }
   ],
   "session_data": {
@@ -244,5 +279,8 @@
       "reason": "7 nouveaux labels + 5 conversions = 12 (scrapé : 14)",
       "commentaires": "7 Labels et 5 Prélabel à Label"
     }
-  }
+  },
+  "_displayLabels": 12,
+  "_displayPreLabels": 5,
+  "_displayCandidatures": 39
 }

@@ -10,205 +10,239 @@
       "societe": "Addresti",
       "fondateurs": "Nour El Houda Benzarti, Mohamed Ali Torjmen, Mohamed Salem Bchir, Hichem Elloumi, Fatma Mokadmi",
       "secteur": "Mobile",
-      "resultat": "label"
+      "resultat": "label",
+      "_displayDecision": "label"
     },
     {
       "societe": "DEDALE SOLUTIONS",
       "fondateurs": "Riadh Brinis, Khalil Masmoudi, Sawsan Bellaj",
       "secteur": "Fintech",
-      "resultat": "label"
+      "resultat": "label",
+      "_displayDecision": "label"
     },
     {
       "societe": "Etakwin",
       "fondateurs": "Moez Bouhlel, Mhammed Bellaj, Bassem Ben Jmeaa",
       "secteur": "E-commerce",
-      "resultat": "label"
+      "resultat": "label",
+      "_displayDecision": "label"
     },
     {
       "societe": "Autoshop.tn/ETL Technology",
       "fondateurs": "Mohamed Ali Ellouze, Achraf Guidara, Hatem Abidi",
       "secteur": "E-commerce",
-      "resultat": "label"
+      "resultat": "label",
+      "_displayDecision": "label"
     },
     {
       "societe": "DIDA MIND",
       "fondateurs": "Soumaya Ben Abdallah",
       "secteur": "IoT",
-      "resultat": "label"
+      "resultat": "label",
+      "_displayDecision": "label"
     },
     {
       "societe": "GST",
       "fondateurs": "Nesria Lehiani",
       "secteur": "Logistique",
-      "resultat": "label"
+      "resultat": "label",
+      "_displayDecision": "label"
     },
     {
       "societe": "Improve Software TN ai diagnosis vision",
       "fondateurs": "Salah El Amami, Saoussen Ayari, Anouar Nechi",
       "secteur": "Agritech",
-      "resultat": "label"
+      "resultat": "label",
+      "_displayDecision": "label"
     },
     {
       "societe": "GENI",
       "fondateurs": "Mohamed Ali TBESSI",
       "secteur": "Agritech",
-      "resultat": "prelabel"
+      "resultat": "prelabel",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "HAKIM TECHNOLOGIES",
       "fondateurs": "Mondher Hakim, Mohamed Mabrouk, Nermine Marzouki",
       "secteur": "Energie",
-      "resultat": "prelabel"
+      "resultat": "prelabel",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "D-WEE",
       "fondateurs": "Taha Grach, Bassem Mlayah, Mohamed Aziz Hannachi",
       "secteur": "Health Tech",
-      "resultat": "prelabel"
+      "resultat": "prelabel",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "HOMEJEK",
       "fondateurs": "Anis Mzoughi, Fares Amor",
       "secteur": "E-commerce",
-      "resultat": "prelabel"
+      "resultat": "prelabel",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "MTCE",
       "fondateurs": "Dhafer Ben Amor, Nidhal Ben Amor, Zied Rouissi",
       "secteur": "Autre contenu créatif",
-      "resultat": "prelabel"
+      "resultat": "prelabel",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Angel Protector/ AMZi Smart Solutions",
       "fondateurs": "Yassine Timoumi, Johannes Jones, Jihed Jaouabi",
       "secteur": "AI",
-      "resultat": "label"
+      "resultat": "label",
+      "_displayDecision": "label"
     },
     {
       "societe": "Lanterns",
       "fondateurs": "Oussama mariem, Nabil Brahem, Amine Gara",
       "secteur": "Gaming",
-      "resultat": "label"
+      "resultat": "label",
+      "_displayDecision": "label"
     },
     {
       "societe": "Analytix",
       "fondateurs": "Mariam Ouanes, Sami Chammakhi",
       "secteur": "Fintech",
-      "resultat": "label"
+      "resultat": "label",
+      "_displayDecision": "label"
     },
     {
       "societe": "M&C",
       "fondateurs": "Aymen Mechria",
       "secteur": "AI",
-      "resultat": "label"
+      "resultat": "label",
+      "_displayDecision": "label"
     },
     {
       "societe": "Makerfy",
       "fondateurs": "Hani Hamrouni, Davide Di Majo, Mohamed Nawes",
       "secteur": "Logiciel",
-      "resultat": "label"
+      "resultat": "label",
+      "_displayDecision": "label"
     },
     {
       "societe": "Lead Youth",
       "fondateurs": "Yasmine Ferchichi, Walid Slama",
       "secteur": "Développement personnel",
-      "resultat": "prelabel"
+      "resultat": "prelabel",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Points Cadeaux",
       "fondateurs": "Ahmed Ayadi, Beldi Zied",
       "secteur": "Logiciel",
-      "resultat": "prelabel"
+      "resultat": "prelabel",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "mintounes",
       "fondateurs": "Ghizlaine Beldi, Anis Harzallah, Med Salah Mbarek",
       "secteur": "E-commerce",
-      "resultat": "prelabel"
+      "resultat": "prelabel",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "TAWA",
       "fondateurs": "Mohamed Maalej, Mohamed Elaid Karaouli, Oussama Karaouli",
       "secteur": "Marketing",
-      "resultat": "prelabel"
+      "resultat": "prelabel",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Drone filaire",
       "fondateurs": "Yassine Karaouli, Wassim Karaouli",
       "secteur": "Autre contenu créatif",
-      "resultat": "prelabel"
+      "resultat": "prelabel",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Full Health",
       "fondateurs": "Selim Ben Mrad, Ghaleb Ben Ali, Imen Baklouti",
       "secteur": "Développement personnel",
-      "resultat": "prelabel"
+      "resultat": "prelabel",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "WeRebase",
       "fondateurs": "Nadhir Douma, Karim Daghari",
       "secteur": "EdTech",
-      "resultat": "prelabel"
+      "resultat": "prelabel",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Afia Tech",
       "fondateurs": "Afia Tech Laith Glissa, Mohamed Hedi Ben Hamed",
       "secteur": "Health Tech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "SPORTOLOGY",
       "fondateurs": "KLAY, Moez Aousji, Sabrine Ibrahim",
       "secteur": "Autre contenu créatif",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Société Classquiz",
       "fondateurs": "Class Quiz Achref Dawahi, Omar Trabelsi, Haithem Kchaou",
       "secteur": "EdTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Nebulabs",
       "fondateurs": "Kyteb, Chehir Dhawedi",
       "secteur": "EdTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Scaphandry",
       "fondateurs": "Rent a tutor Abdeljalil Ghattas",
       "secteur": "EdTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Digital GROWUP APPLICATIONS « DGA »",
       "fondateurs": "GrowApp Wael Aouididi",
       "secteur": "Logiciel",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Ste Hope Healthcare Solutions",
       "fondateurs": "Le Comet  Tarek Mnaffakh, Mohamed Hedi Achour, Yosr Naija",
       "secteur": "Health Tech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "THEMAZEGROUP",
       "fondateurs": "iSporit Yassine Achour, Karim Zehani, Mohamed Wassim Benzarti, Khalil Ben Zineb",
       "secteur": "Autre contenu créatif",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "School Upgrader",
       "fondateurs": "School Upgrader, Oussama Ben Zineb, Amine Rekhis",
       "secteur": "EdTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "STE Industrial FACTOORYA Tech",
       "fondateurs": "FACTOORYA Yassine Khlass, Mohamed Seifedinne Bouarada",
       "secteur": "IoT",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     }
   ],
   "session_data": {
@@ -220,5 +254,8 @@
     "retraits": 0,
     "conversions": 0,
     "newLabels": 17
-  }
+  },
+  "_displayLabels": 17,
+  "_displayPreLabels": 6,
+  "_displayCandidatures": 28
 }

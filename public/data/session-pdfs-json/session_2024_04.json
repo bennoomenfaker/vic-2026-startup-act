@@ -10,175 +10,204 @@
       "societe": "xgol",
       "fondateurs": "Iheb Jendoubi, Souad Annabi, Sana Ksouri",
       "secteur": "EdTech",
-      "resultat": "label accorde au 2eme tour"
+      "resultat": "label accorde au 2eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "Graines Academy",
       "fondateurs": "Dhouha Ksouri, Mohamed Ghassen Fhimi, Ismail Khenissi",
       "secteur": "EdTech",
-      "resultat": "label accorde au 2eme tour"
+      "resultat": "label accorde au 2eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "EASY TRANSFER",
       "fondateurs": "Jabrane Khenissi, conception de biocapteur pour la détection des bactéries dans le lait Imen Biosensor, Malek Dhahri",
       "secteur": "Fintech",
-      "resultat": "label accorde au 2eme tour"
+      "resultat": "label accorde au 2eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "Tissu.tn | Mercerie.tn",
       "fondateurs": "Majdi Dhahri, Moez Dhahri, Nawel Dghim",
       "secteur": "Commerce and shopping",
-      "resultat": "label accorde au 2eme tour"
+      "resultat": "label accorde au 2eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "ISTYA NATURAL POOL",
       "fondateurs": "Aziza Ibn Hadj Hassine, Mohamed Nefaa Dghim, Nadhir Chebbi",
       "secteur": "Environment",
-      "resultat": "label accorde au 2eme tour"
+      "resultat": "label accorde au 2eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "Gori'fit",
       "fondateurs": "Mohamed Itheb Ben Abbes, Ahmed Méchergui, Montassar Moussa",
       "secteur": "Wellness",
-      "resultat": "label accorde au 2eme tour"
+      "resultat": "label accorde au 2eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "TunBra",
       "fondateurs": "Firas Rouine, Mhamed Moncer, Maher Fekih",
       "secteur": "EdTech",
-      "resultat": "label accorde au 2eme tour"
+      "resultat": "label accorde au 2eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "SAFESPHERE",
       "fondateurs": "Samar Ouni, Mahdi Taghouti",
       "secteur": "Security",
-      "resultat": "label accorde au 3eme tour"
+      "resultat": "label accorde au 3eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "123booking",
       "fondateurs": "Akram Rekik, Mohamed Yassine Brahem, Hiba Mateur",
       "secteur": "TravelTech",
-      "resultat": "prelabel non accorde au 3eme tour"
+      "resultat": "prelabel non accorde au 3eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Perro",
       "fondateurs": "Ahmed Bechir Mezhoud, Salah Dabbech, Aicha Farah Souelmi, Noura Ayadi",
       "secteur": "EdTech",
-      "resultat": "prelabel accorde au 2eme tour"
+      "resultat": "prelabel accorde au 2eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "ACRIDIDEA",
       "fondateurs": "Najet Ayadi, Mohamed Ali Ben Chaabane",
       "secteur": "FoodTech & New Food",
-      "resultat": "prelabel accorde au 2eme tour"
+      "resultat": "prelabel accorde au 2eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "ALTABIB",
       "fondateurs": "Hadhami Ghaffari, Majdi Ben Farhat",
       "secteur": "HealthTech",
-      "resultat": "prelabel accorde au 2eme tour"
+      "resultat": "prelabel accorde au 2eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "ITri",
       "fondateurs": "Hanen Louati, Ramzi Halouani, Francois Dejeager",
       "secteur": "Environment",
-      "resultat": "prelabel accorde au 2eme tour"
+      "resultat": "prelabel accorde au 2eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Hapivot",
       "fondateurs": "Anis Dabbebi, Saber Jelassi, Sana Elleuch",
       "secteur": "Business Software and services",
-      "resultat": "prelabel accorde au 2eme tour"
+      "resultat": "prelabel accorde au 2eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "R&D=Riders and Drivers",
       "fondateurs": "Mohamed Elleuch",
       "secteur": "Mobility",
-      "resultat": "label non accorde au 2eme tour"
+      "resultat": "label non accorde au 2eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Scale Pro",
       "fondateurs": "Makrem Chakchouk, Marwa Abrougui",
       "secteur": "Business Software and services",
-      "resultat": "label non accorde au 2eme tour"
+      "resultat": "label non accorde au 2eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "PERMA EMERGENCY ASSISTANCE",
       "fondateurs": "Mustapha Nasraoui, Fares Hana, Mohamed Jaidane",
       "secteur": "Communication services",
-      "resultat": "label non accorde au 2eme tour"
+      "resultat": "label non accorde au 2eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Eside",
       "fondateurs": "Abdallah Raies, Raed Debbabi, Moutaa Madani",
       "secteur": "Business Software and services",
-      "resultat": "label non accorde au 2eme tour"
+      "resultat": "label non accorde au 2eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "MINA",
       "fondateurs": "Rihem Madani, Omar Trabelsi",
       "secteur": "Ad Tech & Creative Tech",
-      "resultat": "label non accorde au 3eme tour"
+      "resultat": "label non accorde au 3eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "JAWI",
       "fondateurs": "Karim Trabelsi, Achraf Kacem",
       "secteur": "FoodTech & New Food",
-      "resultat": "label non accorde au 3eme tour"
+      "resultat": "label non accorde au 3eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Vivala Travel",
       "fondateurs": "Marwen Mahmoud, Imen Selmi Ahmed Hchaichi",
       "secteur": "TravelTech",
-      "resultat": "label non accorde au 3eme tour"
+      "resultat": "label non accorde au 3eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Uni-Job",
       "fondateurs": "Mouheb Eddine Saadaoui, Bairem Khedhri",
       "secteur": "EdTech",
-      "resultat": "label non accorde au 3eme tour"
+      "resultat": "label non accorde au 3eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "OPTOSCOPIA INTELLIGENT",
       "fondateurs": "OPTOSCOPIA INTELLIGENT  Marouen Akermi",
       "secteur": "HealthTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "DIAGNOSTIC ANALYZERS",
       "fondateurs": "DIAGNOSTIC ANALYZERS Francesc Gomez, CC-Colombus Capital, The infinite  Mezri Karoui",
       "secteur": "",
-      "resultat": ""
+      "resultat": "",
+      "_displayDecision": "unknown"
     },
     {
       "societe": "COLOMBUS CAPITAL Trust",
       "fondateurs": "Eymen Errais",
       "secteur": "Fintech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "QualiMaker QualiMaker",
       "fondateurs": "Mehdi Zaabar, Aouaieb Kais",
       "secteur": "services",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "CHITELIX CHITELIX",
       "fondateurs": "Mohamed Anis Ben Ghalia",
       "secteur": "Agritech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Tanit HealthCare Technologies Tanit.ai",
       "fondateurs": "Kais Zhioua",
       "secteur": "HealthTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "NEXT PROTEIN TUNISIA Agritech COGNIRA TUNISIA",
       "fondateurs": "Business Software & Services",
       "secteur": "Retrait du Label",
-      "resultat": "2018 pour les sociétés bénéficiaires du Label"
+      "resultat": "2018 pour les sociétés bénéficiaires du Label",
+      "_displayDecision": "label"
     }
   ],
   "session_data": {
@@ -190,5 +219,8 @@
     "retraits": 0,
     "conversions": 0,
     "newLabels": 14
-  }
+  },
+  "_displayLabels": 14,
+  "_displayPreLabels": 5,
+  "_displayCandidatures": 39
 }

@@ -10,151 +10,176 @@
       "societe": "iWassel",
       "fondateurs": "Sarra Khemakhem, Firas Rhaiem, Anis Mezghani",
       "secteur": "Logistique",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Farm Trust",
       "fondateurs": "",
       "secteur": "E-commerce",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "TrustiT",
       "fondateurs": "Mohamed Amine Ouni",
       "secteur": "E-commerce",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "fixiha.tn",
       "fondateurs": "Ahmed Ben Said",
       "secteur": "E-commerce",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Société DOM Services",
       "fondateurs": "Khaled Dhifallah Ennefii",
       "secteur": "Mobile",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "The Landlord",
       "fondateurs": "Mohamed Farouk Ben Achour, Zaroui Montasar",
       "secteur": "E-commerce",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "BeNeutron",
       "fondateurs": "Mannai Karim, Firas Rhaiem",
       "secteur": "EdTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Epilert",
       "fondateurs": "Haroun Moula, Amine Riahi, Mohamed Ali Hammami, Hamad Mohamed Hamad Abden El Mra",
       "secteur": "Health tech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Black Dune Studio",
       "fondateurs": "Ahmed EL KADHI, Mohamed BOUABIDI, Ayoub KHAMESSI, Jelassi Mohamed Amine, Baklouti Bassem",
       "secteur": "EdTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Idara Tn",
       "fondateurs": "Ben Salah Slim, Nouri Houssem Eddine",
       "secteur": "Plateforme sociale",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Teskerti.tn",
       "fondateurs": "Karim Jelliti",
       "secteur": "E-commerce",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "GETPAY",
       "fondateurs": "Salma Moalla",
       "secteur": "Fintech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Kamioun",
       "fondateurs": "Abdelrahman Ghariani, Abdelhamid Boukhari",
       "secteur": "Logistique",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Tuni'AR",
       "fondateurs": "Kalfat Sarra, Mohamed Karim Sakrani, Safwen Bouali",
       "secteur": "Autre contenu créatif",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Athena-IO",
       "fondateurs": "Cherif Redissi",
       "secteur": "Logiciel",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "ﻰَﻔﻟُز ZOLFA",
       "fondateurs": "Adel Jeridi",
       "secteur": "Hardware",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "GoFields",
       "fondateurs": "Youssef Cherif, Olfa Kilani ep Feki, Takwa Mrabet",
       "secteur": "Mobile",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Kyto-Prod",
       "fondateurs": "Safa Ben Khedher, Mohamed Amine Bourkhis",
       "secteur": "Biotechnologie",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "SBA Workforce",
       "fondateurs": "Perrine Mihelic, Joscha Raue",
       "secteur": "Fintech",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Think-it",
       "fondateurs": "Mehemed Bougsea, Mohamed Aziz Belhadj Jrad",
       "secteur": "HR",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Servis.tn",
       "fondateurs": "",
       "secteur": "E-commerce",
-      "resultat": "prelabel non accorde"
+      "resultat": "prelabel non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "HOOLOOS",
       "fondateurs": "Mehdi Gabsi",
       "secteur": "Marketing",
-      "resultat": "prelabel non accorde"
+      "resultat": "prelabel non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Go Field",
       "fondateurs": "Hela Gabsi, Alaa Mokrani, Chehrazade Remadi",
       "secteur": "AI",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Wantotrip",
       "fondateurs": "Makrem Hermassi",
       "secteur": "E-commerce",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Technologia Academy",
       "fondateurs": "Mohamed Amine Hlaili",
       "secteur": "Edtech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     }
   ],
   "session_data": {
@@ -166,5 +191,8 @@
     "retraits": 0,
     "conversions": 0,
     "newLabels": 15
-  }
+  },
+  "_displayLabels": 15,
+  "_displayPreLabels": 6,
+  "_displayCandidatures": 24
 }

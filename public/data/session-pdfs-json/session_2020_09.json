@@ -10,139 +10,162 @@
       "societe": "WeMove",
       "fondateurs": "Mohamed Khelil, Mejdi Mbarek, Ghanmi Ayhem",
       "secteur": "Health Tech",
-      "resultat": "label"
+      "resultat": "label",
+      "_displayDecision": "label"
     },
     {
       "societe": "HackUp",
       "fondateurs": "",
       "secteur": "HR",
-      "resultat": "label"
+      "resultat": "label",
+      "_displayDecision": "label"
     },
     {
       "societe": "wammya",
       "fondateurs": "Ahmed Lachheb Lahlaoui, Walid Negra",
       "secteur": "Logistique",
-      "resultat": "label"
+      "resultat": "label",
+      "_displayDecision": "label"
     },
     {
       "societe": "Orthlane",
       "fondateurs": "Ali Karray, Ali Safsafi",
       "secteur": "Health Tech",
-      "resultat": "prelabel"
+      "resultat": "prelabel",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "ETNAFES",
       "fondateurs": "Ichrak Aouissaoui, Najeh Bedhief",
       "secteur": "Autre contenu créatif",
-      "resultat": "prelabel"
+      "resultat": "prelabel",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Idaraty.tn",
       "fondateurs": "Ahmed Zoghlami",
       "secteur": "Plateforme Sociale",
-      "resultat": "prelabel"
+      "resultat": "prelabel",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Healthy & Bnin",
       "fondateurs": "Soumaya Atoui, Farah M'seddi",
       "secteur": "E-commerce",
-      "resultat": "prelabel"
+      "resultat": "prelabel",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Services voitures épaves (SVE)",
       "fondateurs": "Slim M'seddi, Jalel Satouri",
       "secteur": "E-commerce",
-      "resultat": "prelabel"
+      "resultat": "prelabel",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Autorent",
       "fondateurs": "Moslem Ben Dhaou, Achref Hayouni",
       "secteur": "Logiciel",
-      "resultat": "prelabel"
+      "resultat": "prelabel",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Cubed",
       "fondateurs": "Hassen Mezghani, Sarra Ben Helal",
       "secteur": "Marketing",
-      "resultat": "prelabel"
+      "resultat": "prelabel",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Smelsy.com",
       "fondateurs": "Med slim BOUAZIZ",
       "secteur": "EdTech",
-      "resultat": "prelabel"
+      "resultat": "prelabel",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "iCan-C",
       "fondateurs": "Ali Ajili, Yosr Jazzar, Sami Khouaja",
       "secteur": "IoT",
-      "resultat": "prelabel"
+      "resultat": "prelabel",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "MTTN",
       "fondateurs": "Naji Bou Habib, Nabil Fatmi",
       "secteur": "Big Data",
-      "resultat": "label"
+      "resultat": "label",
+      "_displayDecision": "label"
     },
     {
       "societe": "Bladiz king Chemicals Solutions",
       "fondateurs": "Ameur Baccoucha, Sadok Maamar, Hassen Mchaalia, Ons Ayari, Mohamed Nejib Youssef, Jalel Dahas",
       "secteur": "Marketing",
-      "resultat": "label"
+      "resultat": "label",
+      "_displayDecision": "label"
     },
     {
       "societe": "MEDICAL SERVICES & SOLUTIONS INTER",
       "fondateurs": "souhir Zaoui, Sami Hamila, Maher Cheour",
       "secteur": "Health Tech",
-      "resultat": "label"
+      "resultat": "label",
+      "_displayDecision": "label"
     },
     {
       "societe": "Doctourna",
       "fondateurs": "Moetaz Torkhani",
       "secteur": "Health Tech",
-      "resultat": "label"
+      "resultat": "label",
+      "_displayDecision": "label"
     },
     {
       "societe": "Aladdin",
       "fondateurs": "Hichème Kaboudi, Mohamed Wissem Landolsi",
       "secteur": "Telecom",
-      "resultat": "prelabel"
+      "resultat": "prelabel",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Portail de technologies industrielles et innovations",
       "fondateurs": "Walid Landolsi, Imen Gaida, Heni Mechichi",
       "secteur": "Autre contenu créatif",
-      "resultat": "prelabel"
+      "resultat": "prelabel",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "New Life",
       "fondateurs": "Abderrahmen Ben Gdara",
       "secteur": "E-commerce",
-      "resultat": "prelabel"
+      "resultat": "prelabel",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Sampapp",
       "fondateurs": "Taher Ghrissi",
       "secteur": "Health Tech",
-      "resultat": "prelabel"
+      "resultat": "prelabel",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "SAFEOPS",
       "fondateurs": "Hakim Chemam",
       "secteur": "Logiciel",
-      "resultat": "label"
+      "resultat": "label",
+      "_displayDecision": "label"
     },
     {
       "societe": "Dinaro",
       "fondateurs": "Khalil Jelassi, Radhouane Slimani, Saif eddine Souilmi",
       "secteur": "Fintech",
-      "resultat": "prelabel"
+      "resultat": "prelabel",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Farmvie",
       "fondateurs": "Yasser Souilmi, Hamza Beji",
       "secteur": "Agritech",
-      "resultat": "prelabel"
+      "resultat": "prelabel",
+      "_displayDecision": "prelabel"
     }
   ],
   "session_data": {
@@ -154,5 +177,8 @@
     "retraits": 0,
     "conversions": 0,
     "newLabels": 11
-  }
+  },
+  "_displayLabels": 11,
+  "_displayPreLabels": 9,
+  "_displayCandidatures": 24
 }

@@ -10,223 +10,260 @@
       "societe": "Leadership 4.0",
       "fondateurs": "Khaled Gharsalli, Ala Eddine Dhaouafi, Rayen Nahdi",
       "secteur": "Business Software and services",
-      "resultat": "label accorde au 2eme tour"
+      "resultat": "label accorde au 2eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "ApiShield",
       "fondateurs": "Hédil Fraihi, Yassine Ben Ali, Hajer Terras",
       "secteur": "Agritech",
-      "resultat": "label accorde au 2eme tour"
+      "resultat": "label accorde au 2eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "Au delà du Bio",
       "fondateurs": "Heithem Zaghouani, Elyes Jeribi",
       "secteur": "Agritech",
-      "resultat": "label accorde au 2eme tour"
+      "resultat": "label accorde au 2eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "ProtiBox / Kosmos Tech",
       "fondateurs": "Wassim Amri",
       "secteur": "Agritech",
-      "resultat": "label accorde au 2eme tour"
+      "resultat": "label accorde au 2eme tour",
+      "_displayDecision": "label"
     },
     {
       "societe": "Innovation",
       "fondateurs": "Asma Kilani, Nabil Ben Nasrallah",
       "secteur": "",
-      "resultat": ""
+      "resultat": "",
+      "_displayDecision": "unknown"
     },
     {
       "societe": "CarNet",
       "fondateurs": "Sana Balti, Wissem Mazgou, Mohamed Aziz Chibani",
       "secteur": "Mobility",
-      "resultat": "prelabel accorde au 2 eme tour"
+      "resultat": "prelabel accorde au 2 eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "NeuralBey",
       "fondateurs": "Mahdi Lazreg, Mechria Mohamed Aziz, Saif Eddine Naffati",
       "secteur": "Business Software and services",
-      "resultat": "prelabel accorde au 2 eme tour"
+      "resultat": "prelabel accorde au 2 eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "BE-SIYESSAH",
       "fondateurs": "Fedia Ayari",
       "secteur": "Ad Tech and Creative Tech",
-      "resultat": "prelabel accorde au 2 eme tour"
+      "resultat": "prelabel accorde au 2 eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Intake",
       "fondateurs": "Marouane Trimeche ?, Montasser Khamassi, Nour El Houda Shili",
       "secteur": "HealthTech",
-      "resultat": "prelabel accorde au 2 eme tour"
+      "resultat": "prelabel accorde au 2 eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "BRAIN-TEK",
       "fondateurs": "Mohieddine Drissi, Slim Griri, Salmen Ajili",
       "secteur": "Business Software and services",
-      "resultat": "prelabel accorde au 3 eme tour"
+      "resultat": "prelabel accorde au 3 eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Digital Catering Solution",
       "fondateurs": "Mahdi Abdelmalek, Sahbi Ben hmida, Hamza Bourougaa",
       "secteur": "Business Software and services",
-      "resultat": "prelabel accorde au 2 eme tour"
+      "resultat": "prelabel accorde au 2 eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Deelshop",
       "fondateurs": "Rachwan Tarraf, Aziz Kouki, Zina Gachaoui",
       "secteur": "Consumer products and services Prélabel",
-      "resultat": "prelabel accorde au 2 eme tour"
+      "resultat": "prelabel accorde au 2 eme tour",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "K-EYES",
       "fondateurs": "Ziad Kadhi, Ibtihel Driss",
       "secteur": "Business Software and services",
-      "resultat": "label non accorde au 2 eme tour"
+      "resultat": "label non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "BRIDGE IT",
       "fondateurs": "Lassaad Aissa Berraiess, Mohamed Ghodbane",
       "secteur": "Business Software and services",
-      "resultat": "label non accorde au 2 eme tour"
+      "resultat": "label non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "DourbIA",
       "fondateurs": "Ines Hassoumi",
       "secteur": "TravelTech",
-      "resultat": "prelabel non accorde au 2 eme tour"
+      "resultat": "prelabel non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Vocalyst",
       "fondateurs": "Mohamed Omar Chaari",
       "secteur": "Business Software and services",
-      "resultat": "prelabel non accorde au 2 eme tour"
+      "resultat": "prelabel non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "STOREX",
       "fondateurs": "Mahdi Benabdallah, Azer Taieb",
       "secteur": "Business Software and services",
-      "resultat": "prelabel non accorde au 2 eme tour"
+      "resultat": "prelabel non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "X-Green",
       "fondateurs": "Houssem Tayeb, Mouheb Mehdoui",
       "secteur": "Mobility",
-      "resultat": "prelabel non accorde au 2 eme tour"
+      "resultat": "prelabel non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "WeeCode Development withe shark kayak",
       "fondateurs": "Riadh Baroudi, Oussama Noumi, Karim Bouchiba, Yosri Jlassi, Mhamed Ali Ben, Mahmoud",
       "secteur": "EdTech",
-      "resultat": "prelabel non accorde au 2 eme tour"
+      "resultat": "prelabel non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "BuzzBip LES ÉDITIONS IRIS",
       "fondateurs": "Walid Tanazefti, Sabri Ben Marzouk, Youssef Denguir, Malik Ayachi",
       "secteur": "Ad Tech and Creative Tech",
-      "resultat": "prelabel non accorde au 2 eme tour"
+      "resultat": "prelabel non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "BIM STRATEGY",
       "fondateurs": "Khalil Mhamdi, Khaled Saidani",
       "secteur": "Real Estate Tech",
-      "resultat": "prelabel non accorde au 2 eme tour"
+      "resultat": "prelabel non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "TestWize",
       "fondateurs": "Azza Sandly",
       "secteur": "Business Software and services",
-      "resultat": "prelabel non accorde au 2 eme tour"
+      "resultat": "prelabel non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Mntly",
       "fondateurs": "Hassen Saadi, Ranim Zouari",
       "secteur": "FoodTech & New Food",
-      "resultat": "prelabel non accorde au 2 eme tour"
+      "resultat": "prelabel non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "VRmersion",
       "fondateurs": "Sonda Charfi",
       "secteur": "HealthTech",
-      "resultat": "prelabel non accorde au 2 eme tour"
+      "resultat": "prelabel non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "agazone",
       "fondateurs": "Mohamed Boussaidi",
       "secteur": "Agritech",
-      "resultat": "prelabel non accorde au 2 eme tour"
+      "resultat": "prelabel non accorde au 2 eme tour",
+      "_displayDecision": "refused"
     },
     {
       "societe": "GAMAPPS",
       "fondateurs": "FIDELIUM Ghaith Ben Mansour",
       "secteur": "Environment",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "ORcompost solutions",
       "fondateurs": "Ahmed Boufahja, ORcompost",
       "secteur": "Agritech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "naturelles",
       "fondateurs": "Emna Boufahja",
       "secteur": "Business",
-      "resultat": ""
+      "resultat": "",
+      "_displayDecision": "unknown"
     },
     {
       "societe": "United VITO",
       "fondateurs": "United VITO Nizar Affi, Khouloud Abada",
       "secteur": "Software and",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Skinphilosophy",
       "fondateurs": "SKINPHILOSOPHY, Saida Akermi, Aymen Yahyaoui",
       "secteur": "Wellness",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "MultiVerse Ai Société internationale d'élevages des espèces nutri protein",
       "fondateurs": "MultiVerse Ai, Amine Mosbah, Elevage des insectes, Helmi Abed, (nutri-protéine)",
       "secteur": "Software and",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "FORCE DE VENTE DIGITAL",
       "fondateurs": "E-KMANDI Baha Hajri, Safouene Ratel",
       "secteur": "Software and",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "ONEGLOBB",
       "fondateurs": "OneGlobb Younes Saidani, Marouene Ratel",
       "secteur": "Software and",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "EZZAYRA SOLUTIONS Agritech TAKI ACADEMY Edtech MedilSys",
       "fondateurs": "Healthtech",
       "secteur": "Retrait du Label",
-      "resultat": "La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-2018 pour les sociétés bénéficiaires du Label"
+      "resultat": "La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-2018 pour les sociétés bénéficiaires du Label",
+      "_displayDecision": "label"
     },
     {
       "societe": "Tunisie Compagnie",
       "fondateurs": "Commerce & shopping",
       "secteur": "",
-      "resultat": "La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-2018 pour les sociétés bénéficiaires du Label"
+      "resultat": "La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-2018 pour les sociétés bénéficiaires du Label",
+      "_displayDecision": "label"
     },
     {
       "societe": "Société arabe de commerce électronique",
       "fondateurs": "Commerce & shopping",
       "secteur": "Retrait du Label",
-      "resultat": "La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-2018 pour les sociétés bénéficiaires du Label"
+      "resultat": "La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-2018 pour les sociétés bénéficiaires du Label",
+      "_displayDecision": "label"
     },
     {
       "societe": "Quantylix R&D Fintech",
       "fondateurs": "",
       "secteur": "Retrait du Label",
-      "resultat": "La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-2018 pour les sociétés bénéficiaires du Label"
+      "resultat": "La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-2018 pour les sociétés bénéficiaires du Label",
+      "_displayDecision": "label"
     }
   ],
   "session_data": {
@@ -256,5 +293,8 @@
       "reason": "4 nouveaux labels + 8 conversions − 6 retraits = 12, 7 prélabels",
       "commentaires": "6 Labels et 8 Prélabel à Label"
     }
-  }
+  },
+  "_displayLabels": 12,
+  "_displayPreLabels": 7,
+  "_displayCandidatures": 30
 }

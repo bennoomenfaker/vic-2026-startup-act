@@ -15,5 +15,8 @@
     "retraits": 0,
     "conversions": 0,
     "newLabels": 18
-  }
+  },
+  "_displayLabels": 18,
+  "_displayPreLabels": 7,
+  "_displayCandidatures": 40
 }

@@ -10,175 +10,204 @@
       "societe": "Business Computer Services",
       "fondateurs": "Aissa Boulila, Issam Ghdiri, Abdellaziz Boujbel",
       "secteur": "Business Software & Services",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Koofin.co",
       "fondateurs": "Molka Khemir, Monia Boujbel, Mohamed Riadh Hamama",
       "secteur": "Marketplace",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "LoxBox Services",
       "fondateurs": "Helmi Selmi, Henda Hamama, Taieb Nemissi",
       "secteur": "Mobility",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "ALGAEPOOL",
       "fondateurs": "Dominique Delobel, Ikram Aloui",
       "secteur": "Agritech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Shwoppy",
       "fondateurs": "Karim Aloui, Yussr Chaouach",
       "secteur": "Marketplace",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "TUNISIE ENCHERE",
       "fondateurs": "Yassine Jebir",
       "secteur": "Marketplace",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Koors",
       "fondateurs": "Mehdi Ben Abi Zid, Souhail Berhouma",
       "secteur": "EdTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Shotime",
       "fondateurs": "Eya Kochta, Saifeddine Berhouma, Khalil Jebeniani",
       "secteur": "Marketplace",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "allcarta",
       "fondateurs": "Ahmed Omar Miladi, Adam Marzouki",
       "secteur": "EdTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Care-Up",
       "fondateurs": "Emna Graja, Wael Ben Echikh",
       "secteur": "Health care",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "lexi",
       "fondateurs": "chadli Ouhichi, Foued Amiri",
       "secteur": "Business Software & Services",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "On hand Apps",
       "fondateurs": "Malek Amiri",
       "secteur": "Business Software & Services",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "ZID.tn",
       "fondateurs": "Iheb Souilem, Amen Allah Souli",
       "secteur": "Marketplace",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Dracoss",
       "fondateurs": "Amal Bououd, Akram Bsila",
       "secteur": "Environment & Energy",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "mramma.tn",
       "fondateurs": "Marwen Ben Mzoughia, Nizar Said, Myryam Toukabri",
       "secteur": "Proptech",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Data For Brands",
       "fondateurs": "Idris Bachali losada",
       "secteur": "Business Software & Services",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Karni",
       "fondateurs": "Mahmoud Hachicha",
       "secteur": "Fintech",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Fidness arsek dripbox",
       "fondateurs": "Ahmed Najjar, Mohamed Haj Abdallah, Kais Oueslati, Bilel Gassara",
       "secteur": "Business Software & Services",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Génération de l'hydrogène vert et son application aux stockage et conversion",
       "fondateurs": "Kais Jamoussi, Nabil Kechaou",
       "secteur": "Environment & Energy",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "d'énergie",
       "fondateurs": "Mounir Trabelsi, Fatma Mellouli, Abdelkarim Rahal",
       "secteur": "",
-      "resultat": ""
+      "resultat": "",
+      "_displayDecision": "unknown"
     },
     {
       "societe": "Skanit",
       "fondateurs": "Nada Dkhil, Sana Abid",
       "secteur": "Marketplace",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Secret Sucré Kids",
       "fondateurs": "Mohamed Amine Mhiri, Firas Ben Abid, Marwen Sallem",
       "secteur": "Creative industry",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Revampr",
       "fondateurs": "Adnen Saadaoui, Adnen Somai, Mahdi Gargouri",
       "secteur": "AI",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "E-Fair",
       "fondateurs": "Hana Fersi",
       "secteur": "Services de communication",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "LeTakeAway",
       "fondateurs": "Mohamed Bilel Fitouri, Hassen Marzouk",
       "secteur": "FoodTech & New Food",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Arkan",
       "fondateurs": "Tarek Marzouk",
       "secteur": "Marketplace",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "AIFOG",
       "fondateurs": "Bassem Hadjkacem, Hanen Hadjkacem",
       "secteur": "Services de communication",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Evidens",
       "fondateurs": "Zied Jayari",
       "secteur": "Industry",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Technology \"E.S.A.T\"",
       "fondateurs": "Skander Amor",
       "secteur": "Industry",
-      "resultat": ""
+      "resultat": "",
+      "_displayDecision": "unknown"
     }
   ],
   "session_data": {
@@ -190,5 +219,8 @@
     "retraits": 0,
     "conversions": 0,
     "newLabels": 20
-  }
+  },
+  "_displayLabels": 20,
+  "_displayPreLabels": 11,
+  "_displayCandidatures": 38
 }

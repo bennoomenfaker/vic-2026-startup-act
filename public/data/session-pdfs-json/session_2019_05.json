@@ -10,169 +10,197 @@
       "societe": "TakiAcademy",
       "fondateurs": "Takieddine Ben Messaoud",
       "secteur": "EdTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "NewGen",
       "fondateurs": "Seifeddine Ben Hamouda",
       "secteur": "Gaming",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Lifeye",
       "fondateurs": "",
       "secteur": "Agritech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Echo",
       "fondateurs": "Amine Laaroussi",
       "secteur": "IT",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Seemba Gaming",
       "fondateurs": "Mohamed Ben Hadj Aissa",
       "secteur": "Gaming",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "WeCode Land",
       "fondateurs": "",
       "secteur": "EdTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Smart Med SA",
       "fondateurs": "Aymen Turki, Emna Jellouli",
       "secteur": "Plateforme Sociale",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Société STBI",
       "fondateurs": "Sofiene Horrigue, Hajer Derouiche",
       "secteur": "Autre contenu créatif",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Actifs Précieux Apex S.A",
       "fondateurs": "",
       "secteur": "Biotechnologie",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Neopolis Development",
       "fondateurs": "Jacques-Yves Foucou",
       "secteur": "Insurance Tech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "9arini.tn (édité par Digital World",
       "fondateurs": "Kais Assali",
       "secteur": "EdTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "SARL)",
       "fondateurs": "Anis Wahabi",
       "secteur": "",
-      "resultat": ""
+      "resultat": "",
+      "_displayDecision": "unknown"
     },
     {
       "societe": "Fouta Tunisia",
       "fondateurs": "Beldi Zied, Hichem RADOINE",
       "secteur": "E-Commerce",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Swiver",
       "fondateurs": "Azzam Souelmia, Anis Maghar",
       "secteur": "FinTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "profils.tn",
       "fondateurs": "Imen Maghar, Hazem Guent",
       "secteur": "HR",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Go Up Stand Up (Goupsup)",
       "fondateurs": "Yassine Dimassi, Oussema Marai",
       "secteur": "Mobile",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "TransFacile",
       "fondateurs": "Ghada Chelly, Marwen Badri",
       "secteur": "Logistique",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Asklepios",
       "fondateurs": "Youssef El Behi",
       "secteur": "Health Tech",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Bookingtodo",
       "fondateurs": "Aziz Annabi, Bilel Labidi",
       "secteur": "Autre contenu créatif",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Industry X.0",
       "fondateurs": "Med Abdel Aziz Battikh, Nour Tekaya",
       "secteur": "Logiciel",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Bon'Heure",
       "fondateurs": "Iskander Gafsi, Ayoub Ben younes",
       "secteur": "HR",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Be bouncy Développement d'applications comptables, gestion , finance",
       "fondateurs": "Sophie Alexandra Aiachi, Mehdi Mabrouk",
       "secteur": "Marketing",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Domotec",
       "fondateurs": "Yahia Moalla",
       "secteur": "IOT",
-      "resultat": "- N.A N.A Label Non-Accordé"
+      "resultat": "- N.A N.A Label Non-Accordé",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Vim It",
       "fondateurs": "Imen Issaoui",
       "secteur": "Logiciel",
-      "resultat": "- N.A N.A Label Non-Accordé"
+      "resultat": "- N.A N.A Label Non-Accordé",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Indigo Business Solutions",
       "fondateurs": "Mohamed Aloulou",
       "secteur": "Logiciel",
-      "resultat": "- 2 4 Label Non-Accordé"
+      "resultat": "- 2 4 Label Non-Accordé",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Professional System",
       "fondateurs": "Hichem Ben Hammouda",
       "secteur": "Logiciel",
-      "resultat": "- N.A N.A Label Non-Accordé"
+      "resultat": "- N.A N.A Label Non-Accordé",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Beego",
       "fondateurs": "Mohamed Amine Sammari",
       "secteur": "Mobile",
-      "resultat": "N.A N.A N.A Label Non-Accordé"
+      "resultat": "N.A N.A N.A Label Non-Accordé",
+      "_displayDecision": "refused"
     },
     {
       "societe": "B'rain",
       "fondateurs": "Rami Boudaya",
       "secteur": "Health Tech",
-      "resultat": "N.A N.A N.A Label Non-Accordé"
+      "resultat": "N.A N.A N.A Label Non-Accordé",
+      "_displayDecision": "refused"
     }
   ],
   "session_data": {
@@ -184,5 +212,8 @@
     "retraits": 0,
     "conversions": 0,
     "newLabels": 15
-  }
+  },
+  "_displayLabels": 15,
+  "_displayPreLabels": 8,
+  "_displayCandidatures": 30
 }

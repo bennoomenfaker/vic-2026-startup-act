@@ -10,229 +10,267 @@
       "societe": "Tajrabti",
       "fondateurs": "Akram Bouslama",
       "secteur": "TravelTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "BaBa Ali",
       "fondateurs": "Hichem Chelbi",
       "secteur": "Marketplace",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Pwn & Patch",
       "fondateurs": "Oussama Lessis, Mohamed Slim Mansouri",
       "secteur": "CyberSecurity",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Byessa.com",
       "fondateurs": "Asma Saidi",
       "secteur": "Marketplace",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Ground Transportation Business",
       "fondateurs": "Kamel Alouani",
       "secteur": "Mobility",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Management Suite",
       "fondateurs": "Jacer Omri",
       "secteur": "",
-      "resultat": ""
+      "resultat": "",
+      "_displayDecision": "unknown"
     },
     {
       "societe": "Limonade Technologies",
       "fondateurs": "Aymen Sakka",
       "secteur": "Fintech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Domicilier.tn",
       "fondateurs": "Aymen Mokadem, Haykel Ben othman, Syrine Elaydi",
       "secteur": "Business Software",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Tagamuta Valley",
       "fondateurs": "Ahmed Gammoudi, Hani Hamrouni",
       "secteur": "Health care",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Makerfy",
       "fondateurs": "David Di Majo",
       "secteur": "Business Software",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Pure Beauty Labs",
       "fondateurs": "Yassine Zrelli",
       "secteur": "Health care & wellnace",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Ijeni",
       "fondateurs": "Safi Eddine Negra, kais Assali, Mohamed Ali Belajouza",
       "secteur": "Marketplace",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "JURIDOC",
       "fondateurs": "Maya Boureghda, Anis Wahabi",
       "secteur": "LegalTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Faza.tn",
       "fondateurs": "Zahra Jenane",
       "secteur": "Creative industry",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "bmoov",
       "fondateurs": "Ghassen Chattouna, Fares Kotti",
       "secteur": "Mobility",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Chill&Lit",
       "fondateurs": "",
       "secteur": "Marketplace",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Storzy (Myairstorage)",
       "fondateurs": "Samer Ouerfelli, Yazid Ouerfelli, Sahli Sonia",
       "secteur": "Marketplace",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "BIESSA AUTO",
       "fondateurs": "Ahmed Sahli, Bochra Bouchhima",
       "secteur": "Marketplace",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Bartita",
       "fondateurs": "Said Mseddi, Abbes Mseddi, Amelle Homrani",
       "secteur": "EdTech",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Quiz Mentor",
       "fondateurs": "Hayfa Hosni",
       "secteur": "EdTech",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "WaveOn",
       "fondateurs": "Houssem Ouali, Alaa edinee Ben Mbarek",
       "secteur": "Creative industry",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Avoconsulte",
       "fondateurs": "Nahdi Ali, Mohamed Nathan Fenina",
       "secteur": "Marketplace",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "SHYK",
       "fondateurs": "Nadia El Jed, Wissam Siblini",
       "secteur": "Wellness",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "VOLUS",
       "fondateurs": "Gilbert Fakhoury, Anis Mzali",
       "secteur": "Creative industry",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "aivataria",
       "fondateurs": "Mohamed Ali Belajouza, Youssef Boufaied",
       "secteur": "Creative industry",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Digipages",
       "fondateurs": "Anis Touibi",
       "secteur": "FoodTech & New Food",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "INNOV'ALGUE",
       "fondateurs": "Myriam Belgacem, Aymen Yahmed, Khalifa Haythem",
       "secteur": "Health care",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "chendir",
       "fondateurs": "Ines Yahmed, Bassem Rejeb",
       "secteur": "Social Business",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Litteuls",
       "fondateurs": "Abir Barket, Sofiene Msadek",
       "secteur": "Creative industry",
-      "resultat": "prelabel non accorde"
+      "resultat": "prelabel non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Tawelti",
       "fondateurs": "Nader Ben Cheikh Brahim, Ismai Benmiled",
       "secteur": "Business Software",
-      "resultat": "prelabel non accorde"
+      "resultat": "prelabel non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "SNO",
       "fondateurs": "Walid Ksouri",
       "secteur": "Environment",
-      "resultat": "prelabel non accorde"
+      "resultat": "prelabel non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "PROTABAR COM",
       "fondateurs": "PROTABAR Walid Trabelsi",
       "secteur": "FoodTech & New Food",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "ROBODOT",
       "fondateurs": "ROBODOT Mohamed Ghazi Baccouche, Habib Gafsi, Meher Hedhli",
       "secteur": "Advanced Manufacturing &",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Décotis Les Ateliers de Yallaa",
       "fondateurs": "Décotis, Mohamed Barki, Rania WERDA Rania Werda",
       "secteur": "Real Estate tech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Z-Partners",
       "fondateurs": "capxvalue Maher Zaanouni, Firas Yousfi",
       "secteur": "Business Software",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Click and Win",
       "fondateurs": "isondF Abdessalem Bazine, Mehdi Maalawi, Hajer Romdhani",
       "secteur": "Services de communication",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "WASSALNI EXPRESS",
       "fondateurs": "TAWSILA, Hafedh Ben Abdelhafidh, Khaled Mediouni",
       "secteur": "Mobility",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "DIGIZONE",
       "fondateurs": "MCOM Mohamed Haythem Goddi",
       "secteur": "Marketplace",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     }
   ],
   "session_data": {
@@ -244,5 +282,8 @@
     "retraits": 0,
     "conversions": 0,
     "newLabels": 23
-  }
+  },
+  "_displayLabels": 23,
+  "_displayPreLabels": 7,
+  "_displayCandidatures": 41
 }

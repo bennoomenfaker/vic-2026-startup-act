@@ -10,175 +10,204 @@
       "societe": "Scaylab",
       "fondateurs": "Taher Siala, May Tounsi",
       "secteur": "Business Software and services",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "SD Academy",
       "fondateurs": "Farah Tounsi, Leila Ben Abdallah, Belhassen Chelbi",
       "secteur": "EdTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Deep Camp",
       "fondateurs": "Sabrine Labidi, Ahmed Sami Meksi",
       "secteur": "EdTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "clik2read/MIPLIVREL",
       "fondateurs": "Mourad Boubaker, Hamza Zarrouk",
       "secteur": "",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "sellya.net",
       "fondateurs": "Rihem Ghzaiel, Ala Guezzi, Hassen Serkhane",
       "secteur": "Commerce and shopping",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Verse",
       "fondateurs": "Malek Baouindi, Riadh Bouassida",
       "secteur": "Commerce and shopping",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "Drop'n Go",
       "fondateurs": "Ahmed Bouassida, Ramzi Arous, Jihen Kboubi, Aschraf Chadli",
       "secteur": "Consumer products and services",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "HygieSys",
       "fondateurs": "Chiheb Kboubi, Adem Kboubi",
       "secteur": "Environment",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "FIDELIUM",
       "fondateurs": "Ghaith Ben Mansour",
       "secteur": "Consumer products and services",
-      "resultat": "prelabel accorde"
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel"
     },
     {
       "societe": "WOLO",
       "fondateurs": "Mohamed Ali Hergli, Hafedh Farhani",
       "secteur": "Ad Tech and Creative Tech",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Elodox",
       "fondateurs": "Abdelrahman Nasser, Cyrine Ben Haj Ali, Mortadha Mehri",
       "secteur": "HealthTech",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Restojob",
       "fondateurs": "Adem Mehri, Mojtabah Mehri",
       "secteur": "Business Software and services",
-      "resultat": "prelabel non accorde"
+      "resultat": "prelabel non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Yolyc",
       "fondateurs": "Amine Maalaoui",
       "secteur": "Real estate Tech",
-      "resultat": "prelabel non accorde"
+      "resultat": "prelabel non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "GMT International",
       "fondateurs": "Amal Abdelkafi, Rayen Naimi",
       "secteur": "Communication services",
-      "resultat": "prelabel non accorde"
+      "resultat": "prelabel non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "EagleEye",
       "fondateurs": "Dabboussi Hassen, Mohamed Amine Naimi, Raef RezguI, Badis Kardous",
       "secteur": "Business Software and services",
-      "resultat": "prelabel non accorde"
+      "resultat": "prelabel non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "BTG : Bridging The Gap",
       "fondateurs": "Chiheb Baazaoui, Firas Koraani, Sarra Goddi",
       "secteur": "Ad Tech and Creative Tech",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "ZMEN dash sports",
       "fondateurs": "Imen Ben Slimen, Melek Chakchouk, Bilel Ben Atitallah, Jawhar Ben Salem, Hatem Halouani, Jawhar Farhat",
       "secteur": "Ad Tech and Creative Tech",
-      "resultat": "label non accorde"
+      "resultat": "label non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Tutwide",
       "fondateurs": "Sami Hamdi",
       "secteur": "EdTech",
-      "resultat": "prelabel non accorde"
+      "resultat": "prelabel non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "Modhif",
       "fondateurs": "Achraf Sekri, Achouri Iyadh",
       "secteur": "Real Estate Tech",
-      "resultat": "prelabel non accorde"
+      "resultat": "prelabel non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "TIE-UP",
       "fondateurs": "Rami Ksouri, Miled Mohamed",
       "secteur": "Consumer products and services",
-      "resultat": "prelabel non accorde"
+      "resultat": "prelabel non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "nextview",
       "fondateurs": "Mohamed ali Zorgui",
       "secteur": "Real Estate Tech",
-      "resultat": "prelabel non accorde"
+      "resultat": "prelabel non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "AlloFermli",
       "fondateurs": "Naja Benali",
       "secteur": "Healthtech",
-      "resultat": "prelabel non accorde"
+      "resultat": "prelabel non accorde",
+      "_displayDecision": "refused"
     },
     {
       "societe": "ste vetalyst tech solution Beitary",
       "fondateurs": "Firas Jribi",
       "secteur": "HealthTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Be Synchro NetConf",
       "fondateurs": "Houssem Jarraya, Mechri Siwar, Nawres Mechri",
       "secteur": "Ad Tech & Creative Tech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Ziwziw Family Friend",
       "fondateurs": "Ziwziw Family Friend, Zardi Samar, Yassmine Dahmene, Mehdi Ben Hassine",
       "secteur": "EdTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "MK Talent Digify",
       "fondateurs": "Khaled Ben hassine, Foued Kilani",
       "secteur": "EdTech",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Grün Skincare",
       "fondateurs": "Grün Skincare, Djazia Messous, Melek Mehrez",
       "secteur": "Wellness",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Lean Manufacturing Company LeanTex",
       "fondateurs": "Nihel Beji, Firas Mehrez, Il Banney Haythem",
       "secteur": "Robotics",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     },
     {
       "societe": "Gifty Gifty",
       "fondateurs": "Jihed Chemlali",
       "secteur": "Commerce & Shopping",
-      "resultat": "label accorde"
+      "resultat": "label accorde",
+      "_displayDecision": "label"
     }
   ],
   "session_data": {
@@ -208,5 +237,8 @@
       "reason": "5 prélabels (scrapé : 6)",
       "commentaires": "4 Labels et 7 Prélabels à Labels"
     }
-  }
+  },
+  "_displayLabels": 11,
+  "_displayPreLabels": 5,
+  "_displayCandidatures": 26
 }
