@@ -4,7 +4,7 @@
   "mois": 9,
   "pdf": "session_2023_09.pdf",
   "nb_entrees": 26,
-  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
+  "source": "session_pdfs_json_sync",
   "entrees": [
     {
       "societe": "Wemake3D",

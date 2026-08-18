@@ -4,7 +4,7 @@
   "mois": 2,
   "pdf": "session_2025_02.pdf",
   "nb_entrees": 43,
-  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
+  "source": "session_pdfs_json_sync",
   "entrees": [
     {
       "societe": "Al Shamela Sports",

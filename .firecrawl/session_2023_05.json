@@ -4,7 +4,7 @@
   "mois": 5,
   "pdf": "session_2023_05.pdf",
   "nb_entrees": 37,
-  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
+  "source": "session_pdfs_json_sync",
   "entrees": [
     {
       "societe": "Acalainer",

@@ -4,7 +4,7 @@
   "mois": 5,
   "pdf": "session_2025_05.pdf",
   "nb_entrees": 48,
-  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
+  "source": "session_pdfs_json_sync",
   "entrees": [
     {
       "societe": "DentistUP / Yiatros Community",

@@ -4,7 +4,7 @@
   "mois": 3,
   "pdf": "session_2026_03.pdf",
   "nb_entrees": 33,
-  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
+  "source": "session_pdfs_json_sync",
   "entrees": [
     {
       "societe": "DigiQuorum",

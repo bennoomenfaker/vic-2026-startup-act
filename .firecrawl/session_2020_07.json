@@ -4,7 +4,7 @@
   "mois": 7,
   "pdf": "session_2020_07.pdf",
   "nb_entrees": 0,
-  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
+  "source": "session_pdfs_json_sync",
   "entrees": [],
   "session_data": {
     "candidatures": 40,

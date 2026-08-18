@@ -4,7 +4,7 @@
   "mois": 6,
   "pdf": "session_2020_06.pdf",
   "nb_entrees": 27,
-  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
+  "source": "session_pdfs_json_sync",
   "entrees": [
     {
       "societe": "FBS COMPANY",

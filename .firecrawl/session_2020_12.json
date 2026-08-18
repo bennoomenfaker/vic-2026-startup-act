@@ -4,7 +4,7 @@
   "mois": 12,
   "pdf": "session_2020_12.pdf",
   "nb_entrees": 36,
-  "source": "Texte du Compte-Rendu fourni par l'utilisateur (OCR du PDF sans couche texte) — 18/08/2026",
+  "source": "session_pdfs_json_sync",
   "entrees": [
     {
       "societe": "Telum",

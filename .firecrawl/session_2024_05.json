@@ -4,7 +4,7 @@
   "mois": 5,
   "pdf": "session_2024_05.pdf",
   "nb_entrees": 45,
-  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
+  "source": "session_pdfs_json_sync",
   "entrees": [
     {
       "societe": "DentaMeet",

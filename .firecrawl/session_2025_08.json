@@ -4,7 +4,7 @@
   "mois": 8,
   "pdf": "session_2025_08.pdf",
   "nb_entrees": 48,
-  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
+  "source": "session_pdfs_json_sync",
   "entrees": [
     {
       "societe": "Karhabti.app",
