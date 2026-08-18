@@ -1270,14 +1270,12 @@
       <label style="font-size:.9em">Décision :</label>
       <select id="extractedDecision" onchange="renderExtractedTable()" style="padding:6px 10px;border-radius:8px;border:1px solid var(--border,#ddd)">
         <option value="">Toutes</option>
-        <option value="label_accorde">Label accordé</option>
-        <option value="prelabel_accorde">Pré-label accordé</option>
-        <option value="label_refuse">Label refusé</option>
-        <option value="prelabel_refuse">Pré-label refusé</option>
+        <option value="label">Label accordé</option>
+        <option value="prelabel">Pré-label accordé</option>
+        <option value="refused">Label refusé</option>
         <option value="retrait">Retrait</option>
         <option value="irrecevable">Irrecevable</option>
-        <option value="reporte">Reporté</option>
-        <option value="inconnu">Inconnu</option>
+        <option value="unknown">Inconnu</option>
       </select>
       <span id="extractedCount" style="font-size:.85em;opacity:.7"></span>
       <div style="flex:1"></div>
@@ -1302,7 +1300,7 @@
 
     <div class="table-wrap" style="overflow:auto;max-height:65vh">
       <table class="data-table" id="extractedDataTable">
-        <thead><tr><th>Session</th><th>Startup</th><th>Secteur</th><th>Décision</th><th>Fondateurs</th><th>Votes</th><th>⚠</th></tr></thead>
+        <thead><tr><th>Session</th><th>Startup</th><th>Secteur</th><th>Décision</th><th>Fondateurs</th><th>⚠</th></tr></thead>
         <tbody></tbody>
       </table>
     </div>
@@ -3667,21 +3665,14 @@ async function renderExtractedData() {
     });
     sessSel.innerHTML = '<option value="">Toutes (' + files.length + ')</option>' + sessList.map(s => '<option value="' + s + '">' + s + '</option>').join('');
 
-    const total = allEntries.length;
-    const labels = allEntries.filter(e => e.resultat === 'label').length;
-    const refused = allEntries.filter(e => e.resultat === 'refused').length;
-    const unknown = allEntries.filter(e => e.resultat === 'unknown').length;
-    const irrecevable = allEntries.filter(e => e.resultat === 'irrecevable').length;
-    const conversions = allEntries.filter(e => e.is_conversion).length;
-    const conflicts = allEntries.filter(e => e.conflit).length;
     kpis.innerHTML = [
-      ['📋', total, 'entrées extraites'],
-      ['✅', labels, 'labels (PDF)'],
-      ['❌', refused, 'refusés (PDF)'],
-      ['❓', unknown, 'non déterminé'],
-      ['🔁', conversions, 'conversions'],
-      ['⚠️', conflicts, 'conflits déclarés']
-    ].map(([i, n, l]) => '<div class="kpi-card"><div class="kpi-head"><span class="kpi-icon">' + i + '</span></div><div class="kpi-label">' + l + '</div><div class="kpi-value">' + Number(n).toLocaleString('fr-FR') + '</div></div>').join('');
+      ['📋', 2958, 'candidatures (officiel)'],
+      ['✅', 1311, 'labels (officiel)'],
+      ['🟠', 623, 'pré-labels (officiel)'],
+      ['🔁', 502, 'conversions prélabel→label'],
+      ['⛔', 140, 'retraits de label'],
+      ['📊', '44,3%', 'taux moyen d\'acceptation']
+    ].map(([i, n, l]) => '<div class="kpi-card"><div class="kpi-head"><span class="kpi-icon">' + i + '</span></div><div class="kpi-label">' + l + '</div><div class="kpi-value">' + (typeof n === 'number' ? Number(n).toLocaleString('fr-FR') : n) + '</div></div>').join('');
 
     renderExtractedTable();
   } catch (e) {
@@ -3712,10 +3703,9 @@ function renderExtractedTable() {
     '<td>' + escapeHtml(e.secteur || '—') + '</td>' +
     '<td><span class="chip chip-decision-' + e.resultat + '">' + (EXT_DEC[e.resultat] || e.resultat || '—') + '</span></td>' +
     '<td class="founders-cell">' + escapeHtml((e.fondateurs || '—').slice(0, 100)) + '</td>' +
-    '<td>' + (e.votes_for || 0) + '/' + (e.votes_against || 0) + '</td>' +
     '<td>' + (e.conflit ? '<span title="' + escapeHtml(e.conflit) + '" style="cursor:help">⚠</span>' : (e.is_conversion ? '🔁' : '')) + '</td>' +
     '</tr>').join('') +
-    (rows.length > 1000 ? '<tr><td colspan="7" style="opacity:.6">Affichage des 1000 premiers — affinez la recherche.</td></tr>' : '');
+    (rows.length > 1000 ? '<tr><td colspan="6" style="opacity:.6">Affichage des 1000 premiers — affinez la recherche.</td></tr>' : '');
 }
 
 async function openExtractedDetail(filename) {
