@@ -3632,6 +3632,19 @@ const EXT_DEC = {
   refused: 'Label refusé', retrait: 'Retrait',
   irrecevable: 'Irrecevable', unknown: 'Inconnu', reporte: 'Reporté'
 };
+function normResultat(r) {
+  if (!r) return 'unknown';
+  const t = r.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  if (t.includes('irrecevable') || t.includes('irreceval')) return 'irrecevable';
+  if (t.includes('retrait')) return 'retrait';
+  if (t.includes('label') && !t.includes('pre') && !t.includes('non')) return 'label';
+  if ((t.includes('prelabel') || t.includes('prelabel')) && !t.includes('non')) return 'prelabel';
+  if (t.includes('label') && t.includes('non')) return 'refused';
+  if ((t.includes('prelabel') || t.includes('prelabel')) && t.includes('non')) return 'refused';
+  if (t.includes('accorde') && !t.includes('non')) return 'label';
+  if (t.includes('non accord')) return 'refused';
+  return 'unknown';
+}
 
 async function renderExtractedData() {
   const kpis = document.getElementById('extractedDataKpis');
@@ -3654,6 +3667,14 @@ async function renderExtractedData() {
       }
     });
     extractedCache.allEntries = allEntries;
+    extractedCache.sessionDataMap = {};
+    files.forEach(f => {
+      const d = dataMap[f];
+      if (d && d.session_data) {
+        const m = f.match(/session_(\d{4})_(\d{2})\.json/);
+        if (m) extractedCache.sessionDataMap[m[2] + '/' + m[1]] = d.session_data;
+      }
+    });
 
     const sessSel = document.getElementById('extractedSession');
     const sessList = [...new Set(files.map(f => {
@@ -3666,12 +3687,12 @@ async function renderExtractedData() {
     sessSel.innerHTML = '<option value="">Toutes (' + files.length + ')</option>' + sessList.map(s => '<option value="' + s + '">' + s + '</option>').join('');
 
     kpis.innerHTML = [
-      ['📋', 2958, 'candidatures (officiel)'],
-      ['✅', 1311, 'labels (officiel)'],
-      ['🟠', 623, 'pré-labels (officiel)'],
-      ['🔁', 502, 'conversions prélabel→label'],
-      ['⛔', 140, 'retraits de label'],
-      ['📊', '44,3%', 'taux moyen d\'acceptation']
+      ['📋', Object.values(extractedCache.sessionDataMap).reduce((s, sd) => s + (sd.candidatures || 0), 0), 'candidatures'],
+      ['✅', Object.values(extractedCache.sessionDataMap).reduce((s, sd) => s + (sd.labels || 0), 0), 'labels'],
+      ['🟠', Object.values(extractedCache.sessionDataMap).reduce((s, sd) => s + (sd.preLabels || 0), 0), 'pré-labels'],
+      ['🔁', Object.values(extractedCache.sessionDataMap).reduce((s, sd) => s + (sd.conversions || 0), 0), 'conversions prélabel→label'],
+      ['⛔', Object.values(extractedCache.sessionDataMap).reduce((s, sd) => s + (sd.retraits || 0), 0), 'retraits de label'],
+      ['📊', (Object.values(extractedCache.sessionDataMap).reduce((s, sd) => s + (sd.labels || 0), 0) / Object.values(extractedCache.sessionDataMap).reduce((s, sd) => s + (sd.candidatures || 0), 0) * 100).toFixed(1) + '%', 'taux moyen d\'acceptation']
     ].map(([i, n, l]) => '<div class="kpi-card"><div class="kpi-head"><span class="kpi-icon">' + i + '</span></div><div class="kpi-label">' + l + '</div><div class="kpi-value">' + (typeof n === 'number' ? Number(n).toLocaleString('fr-FR') : n) + '</div></div>').join('');
 
     renderExtractedTable();
@@ -3689,7 +3710,7 @@ function renderExtractedTable() {
   if (!tbody) return;
   const rows = extractedCache.allEntries.filter(e => {
     if (sess && e._session !== sess) return false;
-    if (dec && e.resultat !== dec) return false;
+    if (dec && normResultat(e.resultat) !== dec) return false;
     if (q) {
       const hay = ((e.societe || '') + ' ' + (e.fondateurs || '') + ' ' + (e.secteur || '') + ' ' + e._session).toLowerCase();
       if (!hay.includes(q)) return false;
@@ -3697,14 +3718,17 @@ function renderExtractedTable() {
     return true;
   });
   document.getElementById('extractedCount').textContent = rows.length + ' / ' + extractedCache.allEntries.length + ' entrées';
-  tbody.innerHTML = rows.slice(0, 1000).map(e => '<tr style="cursor:pointer" onclick="openExtractedDetail(\'' + escapeAttr(e._file) + '\')">' +
+  tbody.innerHTML = rows.slice(0, 1000).map(e => {
+    const nr = normResultat(e.resultat);
+    return '<tr style="cursor:pointer" onclick="openExtractedDetail(\'' + escapeAttr(e._file) + '\')">' +
     '<td style="white-space:nowrap">' + escapeHtml(e._session) + '</td>' +
     '<td><strong>' + escapeHtml(e.societe || '—') + '</strong></td>' +
     '<td>' + escapeHtml(e.secteur || '—') + '</td>' +
-    '<td><span class="chip chip-decision-' + e.resultat + '">' + (EXT_DEC[e.resultat] || e.resultat || '—') + '</span></td>' +
+    '<td><span class="chip chip-decision-' + nr + '">' + (EXT_DEC[nr] || nr || '—') + '</span></td>' +
     '<td class="founders-cell">' + escapeHtml((e.fondateurs || '—').slice(0, 100)) + '</td>' +
     '<td>' + (e.conflit ? '<span title="' + escapeHtml(e.conflit) + '" style="cursor:help">⚠</span>' : (e.is_conversion ? '🔁' : '')) + '</td>' +
-    '</tr>').join('') +
+    '</tr>';
+  }).join('') +
     (rows.length > 1000 ? '<tr><td colspan="6" style="opacity:.6">Affichage des 1000 premiers — affinez la recherche.</td></tr>' : '');
 }
 
