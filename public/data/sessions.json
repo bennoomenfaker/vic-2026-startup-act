@@ -426,16 +426,17 @@
     "month": 1,
     "year": 2024,
     "candidatures": 33,
-    "labels": 14,
-    "preLabels": 6,
+    "labels": 24,
+    "preLabels": 7,
     "commentaires": "8 Labels et 6 Prélabel à Label",
     "pdfUrl": "https://startup.gov.tn/sites/default/files/2024-02/01-Liste%20Startups%20Labellis%C3%A9es%20Session%20Janvier%202024%20-%20Compte%20Rendu.pdf",
-    "tauxAcceptation": "42.4",
-    "tauxEchec": "57.6",
+    "tauxAcceptation": "72.7",
+    "tauxEchec": "27.3",
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2024_01.pdf",
     "pdfFilename": "session_2024_01.pdf",
-    "tauxAcceptationExact": 42.42424242424242,
-    "tauxEchecExact": 57.575758
+    "tauxAcceptationExact": 72.72727272727273,
+    "tauxEchecExact": 27.27272727272727,
+    "conversions": 9
   },
   {
     "session": "12/2023",
@@ -1038,7 +1039,8 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2020_12.pdf",
     "pdfFilename": "session_2020_12.pdf",
     "tauxAcceptationExact": 58.333333333333336,
-    "tauxEchecExact": 41.666667
+    "tauxEchecExact": 41.666667,
+    "conversions": 9
   },
   {
     "session": "11/2020",
