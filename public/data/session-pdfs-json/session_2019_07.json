@@ -204,11 +204,11 @@
     }
   ],
   "session_data": {
-    "candidatures": 28,
+    "candidatures": 29,
     "labels": 14,
     "preLabels": 8,
     "taux_acceptation_pct": 50.0,
-    "statut": "corrigee",
+    "statut": "conforme_manuel",
     "retraits": 0,
     "conversions": 0,
     "newLabels": 14,

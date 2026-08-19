@@ -225,13 +225,13 @@
     }
   ],
   "session_data": {
-    "candidatures": 30,
+    "candidatures": 39,
     "labels": 16,
     "preLabels": 5,
     "taux_acceptation_pct": 53.3,
-    "statut": "corrigee",
+    "statut": "conforme_manuel",
     "retraits": 0,
-    "conversions": 0,
+    "conversions": 9,
     "newLabels": 16,
     "correction": {
       "session": "12/2022",

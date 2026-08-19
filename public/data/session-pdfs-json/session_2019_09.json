@@ -183,13 +183,13 @@
     }
   ],
   "session_data": {
-    "candidatures": 24,
+    "candidatures": 27,
     "labels": 15,
     "preLabels": 6,
     "taux_acceptation_pct": 62.5,
-    "statut": "conforme",
+    "statut": "conforme_manuel",
     "retraits": 0,
-    "conversions": 0,
+    "conversions": 3,
     "newLabels": 15
   },
   "_displayLabels": 15,

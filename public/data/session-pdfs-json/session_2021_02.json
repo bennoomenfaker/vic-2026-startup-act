@@ -197,13 +197,13 @@
     }
   ],
   "session_data": {
-    "candidatures": 41,
+    "candidatures": 48,
     "labels": 25,
     "preLabels": 10,
     "taux_acceptation_pct": 61.0,
-    "statut": "corrigee",
+    "statut": "conforme_manuel",
     "retraits": 0,
-    "conversions": 0,
+    "conversions": 7,
     "newLabels": 25,
     "correction": {
       "session": "02/2021",

@@ -204,13 +204,13 @@
     }
   ],
   "session_data": {
-    "candidatures": 37,
+    "candidatures": 43,
     "labels": 14,
     "preLabels": 6,
     "taux_acceptation_pct": 37.8,
-    "statut": "corrigee",
+    "statut": "conforme_manuel",
     "retraits": 0,
-    "conversions": 0,
+    "conversions": 5,
     "newLabels": 14,
     "correction": {
       "session": "03/2023",

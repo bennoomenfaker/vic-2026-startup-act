@@ -260,13 +260,13 @@
     }
   ],
   "session_data": {
-    "candidatures": 34,
+    "candidatures": 39,
     "labels": 23,
     "preLabels": 5,
     "taux_acceptation_pct": 67.6,
-    "statut": "corrigee",
+    "statut": "conforme_manuel",
     "retraits": 0,
-    "conversions": 0,
+    "conversions": 5,
     "newLabels": 23,
     "correction": {
       "session": "10/2019",

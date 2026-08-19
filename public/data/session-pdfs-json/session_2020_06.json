@@ -201,7 +201,7 @@
     "labels": 12,
     "preLabels": 5,
     "taux_acceptation_pct": 46.2,
-    "statut": "conforme",
+    "statut": "conforme_manuel",
     "retraits": 0,
     "conversions": 0,
     "newLabels": 12

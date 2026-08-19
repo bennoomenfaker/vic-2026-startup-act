@@ -201,9 +201,9 @@
     "labels": 10,
     "preLabels": 7,
     "taux_acceptation_pct": 32.3,
-    "statut": "corrigee",
-    "retraits": 0,
-    "conversions": 0,
+    "statut": "conforme_manuel",
+    "retraits": 5,
+    "conversions": 7,
     "newLabels": 10,
     "correction": {
       "session": "01/2026",

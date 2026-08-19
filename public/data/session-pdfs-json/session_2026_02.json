@@ -229,7 +229,7 @@
     "labels": 20,
     "preLabels": 3,
     "taux_acceptation_pct": 55.6,
-    "statut": "corrigee",
+    "statut": "conforme_manuel",
     "retraits": 0,
     "conversions": 0,
     "newLabels": 20,

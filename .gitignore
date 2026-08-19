@@ -29,3 +29,6 @@ public/data/session-pdfs-json.bak/
 
 # Extraction agy raw JSON — texte brut sans parsing structuré (0 entries)
 public/data/agy/
+
+# Freebuff — extraction PyMuPDF (texte brut + entries fusionnées depuis le projet)
+public/data/freebuff_dont_touch_me_dont_remove_me/
