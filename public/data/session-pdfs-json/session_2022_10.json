@@ -11,182 +11,182 @@
       "fondateurs": "Nour Elimene Essid, Radhouene Bousnina",
       "secteur": "HealthTech & wellbeing",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "KWIK",
       "fondateurs": "Sayf Eddine Brahmi, Arthur Callarec",
       "secteur": "Commerce & Shopping",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Brandee",
       "fondateurs": "Riadh Adouani",
       "secteur": "Business Software & Services",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Quenzi",
       "fondateurs": "Mariem Limam, Afef Belhadj, Mohamed Amine Boussarsar",
       "secteur": "Consumer Product & Services",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "KARNI",
       "fondateurs": "Mahmoud Hachicha, Walid Kaabachi",
       "secteur": "Fintech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "STE Birdhouce",
       "fondateurs": "Ramzi Chahin, Mohamed Amin Kallel, Aymen Feriani",
       "secteur": "Consumer Product & Services",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "FranchiseLab",
       "fondateurs": "Wissem Ben Ali, Amine Hariz, Mohamed Ali Bouchaala",
       "secteur": "Business Software & Services",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Queney Tunisie",
       "fondateurs": "Walid Khodja, Mahmoud Challouf, Selim Mohamed Gharbi",
       "secteur": "Business Software & Services",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Watto",
       "fondateurs": "Omar Khemakhem, Aymen Sarraj",
       "secteur": "Fintech",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "ContyFind",
       "fondateurs": "Maan Mrabet, Hassen Tahri, Hassouna Ben Jemaa",
       "secteur": "Business Software & Services",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "DIGITAL CITY INNOVATION",
       "fondateurs": "Noomen Tounsi, Sofiene Ben Hmida, Mohamed Zied Razzegui",
       "secteur": "Social Business",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "KARMA",
       "fondateurs": "Rania Zarg El Ayoun, Khaled Taher, Wael El Amri",
       "secteur": "Business Software & Services",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "X-Mall",
       "fondateurs": "Helmi Bouraoui Cherif, Mohamed Turki",
       "secteur": "Commerce & Shopping",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "MRC SURVEY",
       "fondateurs": "",
       "secteur": "Business Software & Services",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Color and Natural Extracts \"C-Nexts\"",
       "fondateurs": "Saloua Sadok, Chaima Torkhani",
       "secteur": "FoodTech & New Food",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Coloc'Qui",
       "fondateurs": "Maroua Torkhani",
       "secteur": "PropTech",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "First Master Class",
       "fondateurs": "Kais Khenine, Lilia Bouricha",
       "secteur": "EdTech",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "chilift",
       "fondateurs": "Hichem Bouricha, Mohamed salah NACHI, Kais Jrad",
       "secteur": "Wellness",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "BIOTOPE / SmartEcolo",
       "fondateurs": "Khaled Kekli, Kamel Belhadj",
       "secteur": "Environment",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "STERECO",
       "fondateurs": "Ala Eddine Maatoug, Anis Msahli",
       "secteur": "HealthTech",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "EUROMAGHREB BUSINESS CENTER",
       "fondateurs": "Asma Chaabi, Karim Jelliti",
       "secteur": "Business Software & Services",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "SK Tech",
       "fondateurs": "Sabri Mzoughi, Ons Kchaou",
       "secteur": "Fintech",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "YILDIZ BUSINESS TRAVEL",
       "fondateurs": "Sami Kchaou",
       "secteur": "TravelTech",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Open Mind Academy",
       "fondateurs": "Raouf Messai",
       "secteur": "Communication Services",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "RANKSTOP",
       "fondateurs": "Mohamed Ramzi Ben Youssef",
       "secteur": "Business Software & Services",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Smart Mobility",
       "fondateurs": "Mokhles Masmoudi",
       "secteur": "IoT",
       "resultat": "La société a dépassé l'âge maximum de 8 ans fixé par la loi 20-",
-      "_displayDecision": "unknown"
+      "_displayDecision": "label_refuse"
     }
   ],
   "session_data": {
@@ -194,10 +194,11 @@
     "labels": 14,
     "preLabels": 7,
     "taux_acceptation_pct": 36.8,
-    "statut": "conforme_manuel",
-    "retraits": 0,
-    "conversions": 0,
-    "newLabels": 14
+    "statut": "replit_csv_conforme",
+    "retraits": 1,
+    "conversions": 6,
+    "newLabels": 14,
+    "taux": 36.8
   },
   "_displayLabels": 14,
   "_displayPreLabels": 7,

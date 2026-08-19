@@ -11,182 +11,182 @@
       "fondateurs": "Karim Yahyaoui, Balkis Aifa, Rmili Akrem",
       "secteur": "Advanced Manufacturing & Robotics",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Dopawin MAKTOUB TECHNOLOGIES ET SERVICES Dactylos Service",
       "fondateurs": "Tarek Ben Ali, Achref Rmili, Amir Aouididi, Sahar Cheikh, Ali Nakti",
       "secteur": "Communication services",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "d-talk",
       "fondateurs": "Saber Bahri, Chaima Belhassen, Anis Fourati",
       "secteur": "Ad Tech and Creative Tech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "HAT Information Security Corporate",
       "fondateurs": "Randa Sellami, Mohamed Ali Fitouhi, Wael Mlak",
       "secteur": "Security",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Inspark",
       "fondateurs": "Salma Sayah ep Mallek, Mohamed Ali Zaier",
       "secteur": "EdTech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Abajim.com",
       "fondateurs": "Yassine Rhouma, Mohamed Ben Romdhan, Aamira Ben Aamira",
       "secteur": "EdTech",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "ProteiNew",
       "fondateurs": "Issam Ben Aamira",
       "secteur": "Agritech",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Line Analyzer",
       "fondateurs": "Ali Ibn Ammar, Nour El Houda benina, Rayhane Hedri",
       "secteur": "Ad Tech and Creative Tech",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Studenty",
       "fondateurs": "Mottaki Hajouni, Sabryn Hamrouni, Belaid Wael, Mathias Wrzoncki",
       "secteur": "",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Digi-QAL",
       "fondateurs": "Belgacem Toumi, Sondess Lazrak, Mohamed Nahouchi",
       "secteur": "Business Software and services",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Virtu-Lab",
       "fondateurs": "Amrou Kboubi, Siwar Ben Nejma, Jawher Ressaissi",
       "secteur": "EdTech",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Neural Genie",
       "fondateurs": "Hatem Ressaissi",
       "secteur": "Ad Tech and Creative Tech",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Elsabuy",
       "fondateurs": "Hichem Boughdiri, Emna Ouerchfani, Aya Ouhichi, Ajmi ouerchfani, Montassar Zorgani",
       "secteur": "Consumer products and services",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Docnet",
       "fondateurs": "Directeur Technique, Imen Ouerchfani, Mohamed Ali Jebali, Adam Louhichi, Firas Sfaxi, Achraf Ben Hiba",
       "secteur": "HealthTech",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "investy",
       "fondateurs": "Mohamed Rayen Dakhlaoui, Leith Cousseni, Ghassen Selmi",
       "secteur": "Communication services",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "IDOS DIGITAL Car Supervision",
       "fondateurs": "Amen Mili, Jamel Eddine Belmadhkour, Letaief Omar",
       "secteur": "Business Software and services",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "MyAuto",
       "fondateurs": "Hatem Ben Chaabane",
       "secteur": "Commerce and shopping",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "SuperFactorial Growth Starter : Plateforme de marketing digital et SEO",
       "fondateurs": "Aymen Ben Rjab, Mohamed Mounir Mejri, Abdelhakim Jamaaoui, Omrane Trabelssi",
       "secteur": "Business Software and services",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "Ambition Study",
       "fondateurs": "Success Study, Kais Dridi, Abdelghani Adnane",
       "secteur": "Products and",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "MiGsens",
       "fondateurs": "MiGsens, Khalifa Aguir, Jridi Jihed, Salem Hamidi",
       "secteur": "Environment",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Cell Pulse Harmony",
       "fondateurs": "cell pulse Halima Mahjoubi, Elhem Cheour, Neder Hamidi, Wael Lakhrach",
       "secteur": "HealthTech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "SPINSHARE",
       "fondateurs": "GymSwitch Siwar Houssaî, Hiba Mned, Hamza Zarrouk",
       "secteur": "Wellness",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Sellya Technologies",
       "fondateurs": "Sellya.net Rihem Ghzaiel, Ala Guezzi, Conception, formulation et",
       "secteur": "Shopping",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Venus Zora Pharm HygieSys Solutions for better tomorrow",
       "fondateurs": "production de dispositifs  Zohra Aloui-Zarrouk, pharmaceutiques, Jihen Kboubi, HygieSys Aschraf Chadli, Chiheb Kboubi, Adem Kboubi Mohamed Melki",
       "secteur": "HealthTech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Tunealgo",
       "fondateurs": "HelpyGo Yacine Maaroufi, Amani Khalfaoui",
       "secteur": "Products and",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Qartaj",
       "fondateurs": "Consumer Products & Services",
       "secteur": "Retrait du Label",
       "resultat": "2018 pour les sociétés bénéficiaires du Label",
-      "_displayDecision": "label"
+      "_displayDecision": "irrecevable"
     }
   ],
   "session_data": {
@@ -194,10 +194,11 @@
     "labels": 15,
     "preLabels": 6,
     "taux_acceptation_pct": 45.5,
-    "statut": "conforme_manuel",
-    "retraits": 0,
-    "conversions": 0,
-    "newLabels": 15
+    "statut": "replit_csv_conforme",
+    "retraits": 1,
+    "conversions": 8,
+    "newLabels": 15,
+    "taux": 45.5
   },
   "_displayLabels": 15,
   "_displayPreLabels": 6,

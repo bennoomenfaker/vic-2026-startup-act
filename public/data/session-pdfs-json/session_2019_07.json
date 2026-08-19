@@ -11,189 +11,189 @@
       "fondateurs": "Wahid Mnasri, Mohamed Amine Ghorbel",
       "secteur": "Insurance Tech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Catrim",
       "fondateurs": "",
       "secteur": "Fintech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "eDonec",
       "fondateurs": "Zakaria Hatira, Haythem Boughzala",
       "secteur": "Edtech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Avempace",
       "fondateurs": "Abdelhamid Kerkeni",
       "secteur": "IOT",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "NIWEES",
       "fondateurs": "Abdallah NAJAH, Ines Hafi",
       "secteur": "Marketing",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Arsela",
       "fondateurs": "Achref Ben Ouannes, Ahmed Adala Ahmed Ben Zineb",
       "secteur": "AI",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Coaching Foot",
       "fondateurs": "Kheireddine Fradj, Hussein Jenayah",
       "secteur": "E-commerce",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "AROM R SARL",
       "fondateurs": "Ellyes Chakroun",
       "secteur": "IoT",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Rahba.tn",
       "fondateurs": "Mahmoud Aboulrob, Hidayet Ayadi, Seifeddine Ben Achour",
       "secteur": "Agritech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "DeVolution studio",
       "fondateurs": "",
       "secteur": "Ed Tech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "ASEPTIKA LAB",
       "fondateurs": "Aziz Zaouali",
       "secteur": "E-commerce",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Faavly",
       "fondateurs": "Mohamed Amine Grichi, Omar Bouattay",
       "secteur": "Plateforme sociale",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Universa Blockchain",
       "fondateurs": "Alexandre Borodich",
       "secteur": "Blockchain & cryptocureency",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Surfin - powered by Incept",
       "fondateurs": "Sofiene Chaieb",
       "secteur": "Mobile",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "TuniBoat",
       "fondateurs": "Ahmed Ayadi, Walid Mzoughi",
       "secteur": "E-commerce",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Winshot",
       "fondateurs": "Hela Gabsi",
       "secteur": "AI",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Technologia Academy",
       "fondateurs": "Mohamed Amine Hlali",
       "secteur": "Edtech",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Minima.ai",
       "fondateurs": "Houssem eddine Mrad",
       "secteur": "AI",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Réseau social medical : Saheelha Advanced functionalities for smart home/company WiFi",
       "fondateurs": "Marwan Abidi, Lotfi Aguerbaoui",
       "secteur": "Big Data",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Zainpulse",
       "fondateurs": "Zaineb Rezgui, Mohamed Aymen Ben Elhaj Mabrouk",
       "secteur": "Health Tech",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Sala7li",
       "fondateurs": "Ines Dhaouadi, Haykel Mrad",
       "secteur": "Edtech",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Appinov",
       "fondateurs": "Yazid Rahoui, Heni Sabbeh",
       "secteur": "Logiciel",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "AES",
       "fondateurs": "Amine Souilhi",
       "secteur": "Service",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "STE VIF PRO",
       "fondateurs": "Sabri LACHAAL",
       "secteur": "E-commerce",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Glamour By Riyem",
       "fondateurs": "Riyem Saidi",
       "secteur": "Health Tech",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "Greendyzer",
       "fondateurs": "Bassem ABdelhak, Mohamed Nidham, Ahmed Khalil Abdelkhalek",
       "secteur": "iOT",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "VR Crystalized",
       "fondateurs": "Sfar Gandoura, Boulbaba Zitouni",
       "secteur": "créatif",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "Kademia",
@@ -229,7 +229,8 @@
       },
       "reason": "14 labels (scrapé : 15)",
       "commentaires": "14 Labels et 1 Prelabel (de la session de mai)"
-    }
+    },
+    "taux": 50.0
   },
   "_displayLabels": 14,
   "_displayPreLabels": 8,

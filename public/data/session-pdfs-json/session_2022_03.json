@@ -11,133 +11,133 @@
       "fondateurs": "Tarek Keskes",
       "secteur": "Mobility",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "FINBUDD",
       "fondateurs": "Ons Bouali, Seifallah Ben Ismail",
       "secteur": "EdTech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "smic",
       "fondateurs": "Riadh Ben Salem, Selim Benaoun, Amine Zgarni",
       "secteur": "Health tech & wellbeing",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Meducol",
       "fondateurs": "Sarra Bahrini, Bassem Dahmani, Mohamed Louati",
       "secteur": "EdTech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "LOGIMES",
       "fondateurs": "Taha Knani, Abdeljalil Trabelsi, Selim Ben Salem, Malek Fendri",
       "secteur": "BusinessSoftware & Services",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Water4all",
       "fondateurs": "Aziz Ben Nejma, Mohamed Hassan Aziz Gafsi, Wissal Farjallah, Lotfi Ben Romdhane",
       "secteur": "Environment/Energie",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "CRAWN",
       "fondateurs": "Lotfi Ammar, Souad Dziri, Talel Chaouch",
       "secteur": "Health tech & wellbeing",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "SMARTOOLS",
       "fondateurs": "Wajih Abdelhedi, Badii Gharbi, Rami Ben Mhenni",
       "secteur": "Fintech",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "ecn.tn",
       "fondateurs": "Kais Kharroubi, Yosr Belghith, Hamza Mansour",
       "secteur": "EdTech",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "StyleLinker",
       "fondateurs": "Oussema Chemingui",
       "secteur": "Social Business",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Atlas Security Tunisia",
       "fondateurs": "Slim Benkadhi",
       "secteur": "BusinessSoftware & Services",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Pineapple Studio & Shop",
       "fondateurs": "Dhouha Mechergui",
       "secteur": "Consumer Products & Services",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Start Line Skills",
       "fondateurs": "Haythem Ben Yahia, Mohamed Amine Landolsi",
       "secteur": "Creative industry",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Chatbot.tn",
       "fondateurs": "Wiem Ben Othmen, Hadhami Rjiba",
       "secteur": "Consumer Products & Services",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Relead",
       "fondateurs": "Rayen Cherni, Nizar Jeridi",
       "secteur": "Creative industry",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "TUILABS",
       "fondateurs": "Sameh Taktak, Montassar Dhiaf",
       "secteur": "Legal Tech",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "Marinus",
       "fondateurs": "Souha Soussi, Sabrine Beldi",
       "secteur": "Advanced Manufacturing & Industry",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "Tunisie Bartering",
       "fondateurs": "Rached Dridi, Sofiene Bouslimi",
       "secteur": "Plateforme Sociale",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "Trigo",
       "fondateurs": "Mohamed Charrada, Aicha Debaieb",
       "secteur": "Environment/Energie",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "كرﺎﺟ  / Jarek",
@@ -151,63 +151,63 @@
       "fondateurs": "Manel Yaakoubi, Imen Yaakoubi",
       "secteur": "Creative industry",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "Digital Fiber Solutions   Survey Fibre & Civil",
       "fondateurs": "Zohra Neffati, Monji Haddad, Alaa Edinee Ben Mbarek",
       "secteur": "Services de communication",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "AvoConsulte Avoconsulte",
       "fondateurs": "Nahdi Ali, Amelle Homrani",
       "secteur": "Services de communication",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "Quiz Mentor Quiz Mentor",
       "fondateurs": "Hayfa Hosni, Ibrahim Chouikh, Abdelfattah Lahbib",
       "secteur": "EdTech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "Terminal22 Tunisia Market",
       "fondateurs": "Abdelhamid Guinoubi, Ahmed Ettoumi, Laila Balti",
       "secteur": "Advanced Manufacturing & Industry",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "Halonursery Halonursery",
       "fondateurs": "Amira Dabbous",
       "secteur": "Agritech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "CAIRUS BUSINESS GROUP",
       "fondateurs": "CAIRUS DIGITAL BUSINESS CENTER, Oussama Yacoubi, Abdelkarim Rahal",
       "secteur": "Fintech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "SKANIT DIGITAL SOLUTIONS Skanit",
       "fondateurs": "Nada Dkhil, Yosri Ben Salah, Rayen Ben Nasr",
       "secteur": "FoodTech & New Food",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "Rythminno Yosri Ben Salah",
       "fondateurs": "Bydon Austin Nyimbri, Chafik Dridi, Kais Chihaoui",
       "secteur": "EdTech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "unknown"
     }
   ],
   "session_data": {
@@ -215,10 +215,11 @@
     "labels": 14,
     "preLabels": 5,
     "taux_acceptation_pct": 66.7,
-    "statut": "conforme_manuel",
+    "statut": "replit_csv_conforme",
     "retraits": 0,
-    "conversions": 0,
-    "newLabels": 14
+    "conversions": 9,
+    "newLabels": 14,
+    "taux": 66.7
   },
   "_displayLabels": 14,
   "_displayPreLabels": 5,

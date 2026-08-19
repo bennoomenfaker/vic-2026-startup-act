@@ -11,175 +11,175 @@
       "fondateurs": "Becem Zaghden, Mohamed Yassine Boumedien",
       "secteur": "Commerce and shopping",
       "resultat": "label accorde au 2eme tour",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Arcana Soft",
       "fondateurs": "Sofien Jerfel, Nabil Khedhri",
       "secteur": "Advanced Manufacturing & Robotics",
       "resultat": "label accorde au 2eme tour",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Smart Gros",
       "fondateurs": "Irad Khedhri, Sami Bouzekri",
       "secteur": "Business Software and services",
       "resultat": "label accorde au 2eme tour",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "NextGen Coding",
       "fondateurs": "Mohamed Amine El Ouederni",
       "secteur": "EdTech",
       "resultat": "label accorde au 2eme tour",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "EmyeHR",
       "fondateurs": "Mohamed Aimen Jouini",
       "secteur": "Business Software and services",
       "resultat": "label accorde au 3 eme tour",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Optypro.net Production d’additifs alimentaires animale et consulting",
       "fondateurs": "Oussama Meknassi, Marwa Mekni Toujani, Mhamed Ali Ben Mahmoud",
       "secteur": "Business Software and services",
       "resultat": "prelabel accorde au 2eme tour",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Buzzbip",
       "fondateurs": "Walid Tanazefti",
       "secteur": "Business Software and services",
       "resultat": "prelabel accorde au 2eme tour",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Kidcare",
       "fondateurs": "Yosra Ouertani, Jawher Ben Arbia, Amira Oueslati",
       "secteur": "Security",
       "resultat": "prelabel accorde au 2eme tour",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Alexis",
       "fondateurs": "Imen Wartani, Wiem Almahjoubi, Mohamed Amine Boussarsar",
       "secteur": "EdTech",
       "resultat": "prelabel accorde au 2eme tour",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "SYNAPSE-HR",
       "fondateurs": "Amira Eddhib, Yaniss Aïche",
       "secteur": "Business Software and services",
       "resultat": "prelabel accorde au 3 eme tour",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Cluebox Tunisia",
       "fondateurs": "Bretislav Simral, Bert De Maeyer, Bassem Lamouchi",
       "secteur": "Business Software and services",
       "resultat": "label non accorde au 2eme tour",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Quokka Agency",
       "fondateurs": "Hedi Manai, Aymen BOUNEB",
       "secteur": "Business Software and services",
       "resultat": "label non accorde au 2eme tour",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "SOCIETE VAERDIA SOLUTIONS",
       "fondateurs": "Meryam Brahim, Bilale Chaudhry",
       "secteur": "Business Software and services",
       "resultat": "label non accorde au 2eme tour",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "DOCTUNITY",
       "fondateurs": "Khairi Brahmi, Malek Belhaj",
       "secteur": "HealthTech",
       "resultat": "label non accorde au 2eme tour",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "FairConnect MEA",
       "fondateurs": "Moez Ben Hajhmida",
       "secteur": "Business Software and services",
       "resultat": "label non accorde au 3eme tour",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "AsOne4Health",
       "fondateurs": "Abdelhalim Rafrafi",
       "secteur": "HealthTech",
       "resultat": "",
-      "_displayDecision": "unknown"
+      "_displayDecision": "irrecevable"
     },
     {
       "societe": "Logidoo",
       "fondateurs": "Sassy Diop, Papa Birame Sene, Mohamed Alaoui, Khalsi Firas",
       "secteur": "Business Software and services",
       "resultat": "label non accorde au 3eme tour",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Flexy stores Plateforme Mobile dédiée à la vente et à l'achat d'articles d'occasion pour enfants",
       "fondateurs": "Brahim Ben Salah, Nesrine Bouaziz",
       "secteur": "Commerce and shopping",
       "resultat": "label non accorde au 3eme tour",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "PINE NEEDLES SOLUTION Tim'ess",
       "fondateurs": "Dorra Bouguella, Rania Chouchane, Mohamed Kchaou",
       "secteur": "Environment",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Owlinks Technologies Co Owlinks",
       "fondateurs": "Amine Guermazi, Chouikhi Seif",
       "secteur": "Services",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "DRIVOXE",
       "fondateurs": "DRIVOXE, Ranyme Trabelsy",
       "secteur": "Ad Tech & Creative Tech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "SPR 01 Labs Spr 01",
       "fondateurs": "Haithem Besghaier",
       "secteur": "Wellness",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "NANOSOFT",
       "fondateurs": "Speedy ERP Kais Chehuma",
       "secteur": "services",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "EDUZEN EduZen",
       "fondateurs": "Khouloud Rinez, Jihen Rahmouni",
       "secteur": "EdTech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "Be Wireless Solutions",
       "fondateurs": "Consumer Products & Services",
       "secteur": "Retrait du Label",
       "resultat": "2018 pour les sociétés bénéficiaires du Label",
-      "_displayDecision": "label"
+      "_displayDecision": "unknown"
     }
   ],
   "session_data": {
@@ -187,10 +187,11 @@
     "labels": 11,
     "preLabels": 6,
     "taux_acceptation_pct": 29.7,
-    "statut": "conforme_manuel",
-    "retraits": 0,
-    "conversions": 0,
-    "newLabels": 11
+    "statut": "replit_csv_conforme",
+    "retraits": 1,
+    "conversions": 6,
+    "newLabels": 11,
+    "taux": 29.7
   },
   "_displayLabels": 11,
   "_displayPreLabels": 6,

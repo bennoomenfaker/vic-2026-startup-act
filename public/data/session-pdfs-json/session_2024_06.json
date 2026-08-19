@@ -11,140 +11,140 @@
       "fondateurs": "Yazid Abela, Walid Ksouri",
       "secteur": "Business Software and services",
       "resultat": "label accorde au 2eme tour",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "SNO",
       "fondateurs": "Ismail Benmiled, Koutheir Cherni",
       "secteur": "Consumer products and services",
       "resultat": "label accorde au 2eme tour",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Guepard",
       "fondateurs": "Ghassen Menaouar, Hani Chalouati, Bayrem Benaglia",
       "secteur": "Business Software and services",
       "resultat": "label accorde au 2eme tour",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "PROXECO",
       "fondateurs": "Walid Kacem, Malek Khadhraoui, Rami Dridi, Ghazi Nhidi",
       "secteur": "Agritech",
       "resultat": "label accorde au 2eme tour",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Inkylab Technologies",
       "fondateurs": "Amal Aoun, Adel Ben Salem, Abed Issam",
       "secteur": "Business Software and services",
       "resultat": "label accorde au 2eme tour",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Odeev Tennex",
       "fondateurs": "Chahine Hamila, Mohamed Kallel",
       "secteur": "Business Software and services",
       "resultat": "label accorde au 2eme tour",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "IDIRIS",
       "fondateurs": "Imène Khanfir Kallel, Amin Kallel, Sadok Feki",
       "secteur": "Mobility",
       "resultat": "label accorde au 2eme tour",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Freelances.tn",
       "fondateurs": "Sylvain Dienst",
       "secteur": "Business Software and services",
       "resultat": "label accorde au 3 eme tour",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "ORION",
       "fondateurs": "Ghassen Ghouibi",
       "secteur": "Real Estate Tech",
       "resultat": "label accorde au 3 eme tour",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "HANDISUCCESS",
       "fondateurs": "Nejah Cherif",
       "secteur": "Social Business",
       "resultat": "label accorde au 3 eme tour",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "INTERNATIONAL",
       "fondateurs": "Nour El Houda Cherif",
       "secteur": "",
       "resultat": "",
-      "_displayDecision": "unknown"
+      "_displayDecision": "irrecevable"
     },
     {
       "societe": "DAR BLOCKCHAIN",
       "fondateurs": "Jaafar saied",
       "secteur": "Ad Tech and Creative Tech",
       "resultat": "label accorde au 3 eme tour",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "SPR01",
       "fondateurs": "Haithem Besghaier, Hamdi Zaghouani",
       "secteur": "Wellness",
       "resultat": "prelabel accorde au 2eme tour",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "CARWAYS",
       "fondateurs": "Oumayma Boughdiri, Yosra Benbrahem, Yosra Ahmed",
       "secteur": "Commerce and shopping",
       "resultat": "prelabel accorde au 2eme tour",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Astratransit",
       "fondateurs": "Majdi Ahmed, Najoua Kassaoui, Oussema Gharsalli",
       "secteur": "Business Software and services",
       "resultat": "prelabel accorde au 2eme tour",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Greeny Soliutions",
       "fondateurs": "Mohamed Zied Madini, Seifeddin Jenifen, Mohamed Ben Mahmoud",
       "secteur": "Agritech",
       "resultat": "prelabel accorde au 3 eme tour",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "SYSNAPSUS REFLECTION ENGINEERING CONSULTING REC",
       "fondateurs": "Mohamed Hechmi Louzir, Yasmine Boudhina, Sabri Oui",
       "secteur": "HealthTech",
       "resultat": "prelabel accorde au 3 eme tour",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Educap",
       "fondateurs": "Lobna Lahmar, Mayssem Ben Ammar",
       "secteur": "EdTech",
       "resultat": "label non accorde au 2eme tour",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Data Scale",
       "fondateurs": "Wassim Mjahed, Leith Mokaddem",
       "secteur": "Business Software and services",
       "resultat": "label non accorde au 2eme tour",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "AVATAR ID /THINKNEO",
       "fondateurs": "Sarah Ksibi",
       "secteur": "Fintech",
       "resultat": "label non accorde au 2eme tour",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Société Espoir services",
@@ -158,35 +158,35 @@
       "fondateurs": "Sana Hamdi, Jamila Ghediri, Saied Eddine Borghol, Kamel Ben Anaya",
       "secteur": "Mobility",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Officent IT officent",
       "fondateurs": "Asma Methamem, Soulayma Dhiab",
       "secteur": "services",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "BOOK NOW 123 booking",
       "fondateurs": "Akram Rekik",
       "secteur": "TravelTech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Firnas Engineering",
       "fondateurs": "FoodTech & New Food",
       "secteur": "Retrait du Label",
       "resultat": "2018 pour les sociétés bénéficiaires du Label",
-      "_displayDecision": "label"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "Dabchy",
       "fondateurs": "Commerce & Shopping",
       "secteur": "Retrait du Label",
       "resultat": "2018 pour les sociétés bénéficiaires du Label",
-      "_displayDecision": "label"
+      "_displayDecision": "unknown"
     }
   ],
   "session_data": {
@@ -194,10 +194,11 @@
     "labels": 14,
     "preLabels": 5,
     "taux_acceptation_pct": 37.8,
-    "statut": "conforme_manuel",
-    "retraits": 0,
-    "conversions": 0,
-    "newLabels": 14
+    "statut": "replit_csv_conforme",
+    "retraits": 2,
+    "conversions": 3,
+    "newLabels": 14,
+    "taux": 37.8
   },
   "_displayLabels": 14,
   "_displayPreLabels": 5,

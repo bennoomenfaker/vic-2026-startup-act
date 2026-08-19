@@ -13,7 +13,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2026_03.pdf",
     "pdfFilename": "session_2026_03.pdf",
     "tauxAcceptationExact": 31.70731707317073,
-    "tauxEchecExact": 68.292683
+    "tauxEchecExact": 68.29268292682927,
+    "conversions": 3,
+    "retraits": 6
   },
   {
     "session": "02/2026",
@@ -29,7 +31,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2026_02.pdf",
     "pdfFilename": "session_2026_02.pdf",
     "tauxAcceptationExact": 55.55555555555556,
-    "tauxEchecExact": 44.444444
+    "tauxEchecExact": 44.44444444444444,
+    "conversions": 11,
+    "retraits": 2
   },
   {
     "session": "01/2026",
@@ -45,7 +49,7 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2026_01.pdf",
     "pdfFilename": "session_2026_01.pdf",
     "tauxAcceptationExact": 32.25806451612903,
-    "tauxEchecExact": 67.741935,
+    "tauxEchecExact": 67.74193548387096,
     "conversions": 7,
     "retraits": 5
   },
@@ -63,7 +67,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2025_12.pdf",
     "pdfFilename": "session_2025_12.pdf",
     "tauxAcceptationExact": 39.02439024390244,
-    "tauxEchecExact": 60.97561
+    "tauxEchecExact": 60.97560975609756,
+    "conversions": 10,
+    "retraits": 5
   },
   {
     "session": "11/2025",
@@ -79,7 +85,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2025_11.pdf",
     "pdfFilename": "session_2025_11.pdf",
     "tauxAcceptationExact": 38.46153846153847,
-    "tauxEchecExact": 61.538462
+    "tauxEchecExact": 61.53846153846154,
+    "conversions": 8,
+    "retraits": 2
   },
   {
     "session": "10/2025",
@@ -95,7 +103,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2025_10.pdf",
     "pdfFilename": "session_2025_10.pdf",
     "tauxAcceptationExact": 41.46341463414634,
-    "tauxEchecExact": 58.536585
+    "tauxEchecExact": 58.536585365853654,
+    "conversions": 10,
+    "retraits": 3
   },
   {
     "session": "09/2025",
@@ -111,7 +121,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2025_09.pdf",
     "pdfFilename": "session_2025_09.pdf",
     "tauxAcceptationExact": 28.000000000000004,
-    "tauxEchecExact": 72.0
+    "tauxEchecExact": 72.0,
+    "conversions": 6,
+    "retraits": 4
   },
   {
     "session": "08/2025",
@@ -127,7 +139,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2025_08.pdf",
     "pdfFilename": "session_2025_08.pdf",
     "tauxAcceptationExact": 36.58536585365854,
-    "tauxEchecExact": 63.414634
+    "tauxEchecExact": 63.41463414634146,
+    "conversions": 9,
+    "retraits": 4
   },
   {
     "session": "07/2025",
@@ -143,7 +157,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2025_07.pdf",
     "pdfFilename": "session_2025_07.pdf",
     "tauxAcceptationExact": 31.03448275862069,
-    "tauxEchecExact": 68.965517
+    "tauxEchecExact": 68.96551724137932,
+    "conversions": 5,
+    "retraits": 6
   },
   {
     "session": "06/2025",
@@ -159,7 +175,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2025_06.pdf",
     "pdfFilename": "session_2025_06.pdf",
     "tauxAcceptationExact": 33.33333333333333,
-    "tauxEchecExact": 66.666667
+    "tauxEchecExact": 66.66666666666666,
+    "conversions": 5,
+    "retraits": 1
   },
   {
     "session": "05/2025",
@@ -175,7 +193,7 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2025_05.pdf",
     "pdfFilename": "session_2025_05.pdf",
     "tauxAcceptationExact": 27.659574468085108,
-    "tauxEchecExact": 72.340426,
+    "tauxEchecExact": 72.3404255319149,
     "conversions": 3,
     "retraits": 1
   },
@@ -193,7 +211,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2025_04.pdf",
     "pdfFilename": "session_2025_04.pdf",
     "tauxAcceptationExact": 61.904761904761905,
-    "tauxEchecExact": 38.095238
+    "tauxEchecExact": 38.095238095238095,
+    "conversions": 8,
+    "retraits": 7
   },
   {
     "session": "03/2025",
@@ -209,7 +229,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2025_03.pdf",
     "pdfFilename": "session_2025_03.pdf",
     "tauxAcceptationExact": 28.57142857142857,
-    "tauxEchecExact": 71.428571
+    "tauxEchecExact": 71.42857142857143,
+    "conversions": 0,
+    "retraits": 1
   },
   {
     "session": "02/2025",
@@ -225,7 +247,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2025_02.pdf",
     "pdfFilename": "session_2025_02.pdf",
     "tauxAcceptationExact": 31.70731707317073,
-    "tauxEchecExact": 68.292683
+    "tauxEchecExact": 68.29268292682927,
+    "conversions": 4,
+    "retraits": 4
   },
   {
     "session": "01/2025",
@@ -241,7 +265,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2025_01.pdf",
     "pdfFilename": "session_2025_01.pdf",
     "tauxAcceptationExact": 33.33333333333333,
-    "tauxEchecExact": 66.666667
+    "tauxEchecExact": 66.66666666666666,
+    "conversions": 5,
+    "retraits": 2
   },
   {
     "session": "12/2024",
@@ -257,7 +283,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2024_12.pdf",
     "pdfFilename": "session_2024_12.pdf",
     "tauxAcceptationExact": 40.0,
-    "tauxEchecExact": 60.0
+    "tauxEchecExact": 60.0,
+    "conversions": 6,
+    "retraits": 1
   },
   {
     "session": "11/2024",
@@ -273,7 +301,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2024_11.pdf",
     "pdfFilename": "session_2024_11.pdf",
     "tauxAcceptationExact": 34.146341463414636,
-    "tauxEchecExact": 65.853659
+    "tauxEchecExact": 65.85365853658537,
+    "conversions": 2,
+    "retraits": 2
   },
   {
     "session": "10/2024",
@@ -289,7 +319,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2024_10.pdf",
     "pdfFilename": "session_2024_10.pdf",
     "tauxAcceptationExact": 34.883720930232556,
-    "tauxEchecExact": 65.116279
+    "tauxEchecExact": 65.11627906976744,
+    "conversions": 6,
+    "retraits": 3
   },
   {
     "session": "09/2024",
@@ -305,7 +337,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2024_09.pdf",
     "pdfFilename": "session_2024_09.pdf",
     "tauxAcceptationExact": 32.35294117647059,
-    "tauxEchecExact": 67.647059
+    "tauxEchecExact": 67.64705882352942,
+    "conversions": 5,
+    "retraits": 1
   },
   {
     "session": "08/2024",
@@ -321,7 +355,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2024_08.pdf",
     "pdfFilename": "session_2024_08.pdf",
     "tauxAcceptationExact": 29.72972972972973,
-    "tauxEchecExact": 70.27027
+    "tauxEchecExact": 70.27027027027027,
+    "conversions": 6,
+    "retraits": 1
   },
   {
     "session": "07/2024",
@@ -337,7 +373,7 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2024_07.pdf",
     "pdfFilename": "session_2024_07.pdf",
     "tauxAcceptationExact": 18.181818181818183,
-    "tauxEchecExact": 81.818182,
+    "tauxEchecExact": 81.81818181818183,
     "conversions": 2,
     "retraits": 3
   },
@@ -355,7 +391,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2024_06.pdf",
     "pdfFilename": "session_2024_06.pdf",
     "tauxAcceptationExact": 37.83783783783784,
-    "tauxEchecExact": 62.162162
+    "tauxEchecExact": 62.16216216216216,
+    "conversions": 3,
+    "retraits": 2
   },
   {
     "session": "05/2024",
@@ -371,7 +409,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2024_05.pdf",
     "pdfFilename": "session_2024_05.pdf",
     "tauxAcceptationExact": 35.8974358974359,
-    "tauxEchecExact": 64.102564
+    "tauxEchecExact": 64.1025641025641,
+    "conversions": 5,
+    "retraits": 2
   },
   {
     "session": "04/2024",
@@ -387,7 +427,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2024_04.pdf",
     "pdfFilename": "session_2024_04.pdf",
     "tauxAcceptationExact": 35.8974358974359,
-    "tauxEchecExact": 64.102564
+    "tauxEchecExact": 64.1025641025641,
+    "conversions": 5,
+    "retraits": 2
   },
   {
     "session": "03/2024",
@@ -403,7 +445,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2024_03.pdf",
     "pdfFilename": "session_2024_03.pdf",
     "tauxAcceptationExact": 19.35483870967742,
-    "tauxEchecExact": 80.645161
+    "tauxEchecExact": 80.64516129032258,
+    "conversions": 4,
+    "retraits": 3
   },
   {
     "session": "02/2024",
@@ -419,24 +463,27 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2024_02.pdf",
     "pdfFilename": "session_2024_02.pdf",
     "tauxAcceptationExact": 27.27272727272727,
-    "tauxEchecExact": 72.727273
+    "tauxEchecExact": 72.72727272727273,
+    "conversions": 5,
+    "retraits": 3
   },
   {
     "session": "01/2024",
     "month": 1,
     "year": 2024,
     "candidatures": 33,
-    "labels": 24,
-    "preLabels": 7,
+    "labels": 14,
+    "preLabels": 6,
     "commentaires": "8 Labels et 6 Prélabel à Label",
     "pdfUrl": "https://startup.gov.tn/sites/default/files/2024-02/01-Liste%20Startups%20Labellis%C3%A9es%20Session%20Janvier%202024%20-%20Compte%20Rendu.pdf",
-    "tauxAcceptation": "72.7",
-    "tauxEchec": "27.3",
+    "tauxAcceptation": "42.4",
+    "tauxEchec": "57.6",
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2024_01.pdf",
     "pdfFilename": "session_2024_01.pdf",
-    "tauxAcceptationExact": 72.72727272727273,
-    "tauxEchecExact": 27.27272727272727,
-    "conversions": 9
+    "tauxAcceptationExact": 42.42424242424242,
+    "tauxEchecExact": 57.57575757575758,
+    "conversions": 6,
+    "retraits": 3
   },
   {
     "session": "12/2023",
@@ -453,7 +500,8 @@
     "pdfFilename": "session_2023_12.pdf",
     "tauxAcceptationExact": 30.76923076923077,
     "tauxEchecExact": 69.23076923076923,
-    "conversions": 5
+    "conversions": 5,
+    "retraits": 0
   },
   {
     "session": "11/2023",
@@ -487,7 +535,7 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2023_10.pdf",
     "pdfFilename": "session_2023_10.pdf",
     "tauxAcceptationExact": 19.35483870967742,
-    "tauxEchecExact": 80.645161,
+    "tauxEchecExact": 80.64516129032258,
     "conversions": 1,
     "retraits": 3
   },
@@ -505,7 +553,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2023_09.pdf",
     "pdfFilename": "session_2023_09.pdf",
     "tauxAcceptationExact": 45.45454545454545,
-    "tauxEchecExact": 54.545455
+    "tauxEchecExact": 54.54545454545454,
+    "conversions": 8,
+    "retraits": 1
   },
   {
     "session": "08/2023",
@@ -521,8 +571,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2023_08.pdf",
     "pdfFilename": "session_2023_08.pdf",
     "tauxAcceptationExact": 42.30769230769231,
-    "tauxEchecExact": 57.692308,
-    "conversions": 7
+    "tauxEchecExact": 57.692307692307686,
+    "conversions": 7,
+    "retraits": 0
   },
   {
     "session": "07/2023",
@@ -538,7 +589,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2023_07.pdf",
     "pdfFilename": "session_2023_07.pdf",
     "tauxAcceptationExact": 45.45454545454545,
-    "tauxEchecExact": 54.545455
+    "tauxEchecExact": 54.54545454545454,
+    "conversions": 9,
+    "retraits": 2
   },
   {
     "session": "06/2023",
@@ -554,7 +607,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2023_06.pdf",
     "pdfFilename": "session_2023_06.pdf",
     "tauxAcceptationExact": 35.714285714285715,
-    "tauxEchecExact": 64.285714
+    "tauxEchecExact": 64.28571428571429,
+    "conversions": 6,
+    "retraits": 0
   },
   {
     "session": "05/2023",
@@ -570,7 +625,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2023_05.pdf",
     "pdfFilename": "session_2023_05.pdf",
     "tauxAcceptationExact": 48.717948717948715,
-    "tauxEchecExact": 51.282051
+    "tauxEchecExact": 51.28205128205128,
+    "conversions": 6,
+    "retraits": 0
   },
   {
     "session": "04/2023",
@@ -587,7 +644,8 @@
     "pdfFilename": "session_2023_04.pdf",
     "tauxAcceptationExact": 32.5,
     "tauxEchecExact": 67.5,
-    "conversions": 11
+    "conversions": 4,
+    "retraits": 0
   },
   {
     "session": "03/2023",
@@ -603,8 +661,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2023_03.pdf",
     "pdfFilename": "session_2023_03.pdf",
     "tauxAcceptationExact": 37.83783783783784,
-    "tauxEchecExact": 62.162162,
-    "conversions": 5
+    "tauxEchecExact": 62.16216216216216,
+    "conversions": 5,
+    "retraits": 0
   },
   {
     "session": "02/2023",
@@ -620,7 +679,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2023_02.pdf",
     "pdfFilename": "session_2023_02.pdf",
     "tauxAcceptationExact": 54.54545454545454,
-    "tauxEchecExact": 45.454545
+    "tauxEchecExact": 45.45454545454545,
+    "conversions": 11,
+    "retraits": 1
   },
   {
     "session": "01/2023",
@@ -636,7 +697,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2023_01.pdf",
     "pdfFilename": "session_2023_01.pdf",
     "tauxAcceptationExact": 61.53846153846154,
-    "tauxEchecExact": 38.461538
+    "tauxEchecExact": 38.46153846153847,
+    "conversions": 10,
+    "retraits": 2
   },
   {
     "session": "12/2022",
@@ -652,8 +715,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2022_12.pdf",
     "pdfFilename": "session_2022_12.pdf",
     "tauxAcceptationExact": 53.333333333333336,
-    "tauxEchecExact": 46.666667,
-    "conversions": 9
+    "tauxEchecExact": 46.666666666666664,
+    "conversions": 9,
+    "retraits": 0
   },
   {
     "session": "11/2022",
@@ -669,7 +733,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2022_11.pdf",
     "pdfFilename": "session_2022_11.pdf",
     "tauxAcceptationExact": 50.0,
-    "tauxEchecExact": 50.0
+    "tauxEchecExact": 50.0,
+    "conversions": 8,
+    "retraits": 0
   },
   {
     "session": "10/2022",
@@ -685,7 +751,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2022_10.pdf",
     "pdfFilename": "session_2022_10.pdf",
     "tauxAcceptationExact": 36.84210526315789,
-    "tauxEchecExact": 63.157895
+    "tauxEchecExact": 63.1578947368421,
+    "conversions": 6,
+    "retraits": 1
   },
   {
     "session": "09/2022",
@@ -701,7 +769,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2022_09.pdf",
     "pdfFilename": "session_2022_09.pdf",
     "tauxAcceptationExact": 47.5,
-    "tauxEchecExact": 52.5
+    "tauxEchecExact": 52.5,
+    "conversions": 9,
+    "retraits": 0
   },
   {
     "session": "08/2022",
@@ -717,7 +787,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2022_08.pdf",
     "pdfFilename": "session_2022_08.pdf",
     "tauxAcceptationExact": 33.33333333333333,
-    "tauxEchecExact": 66.666667
+    "tauxEchecExact": 66.66666666666666,
+    "conversions": 6,
+    "retraits": 2
   },
   {
     "session": "07/2022",
@@ -733,7 +805,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2022_07.pdf",
     "pdfFilename": "session_2022_07.pdf",
     "tauxAcceptationExact": 45.0,
-    "tauxEchecExact": 55.0
+    "tauxEchecExact": 55.00000000000001,
+    "conversions": 4,
+    "retraits": 1
   },
   {
     "session": "06/2022",
@@ -749,7 +823,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2022_06.pdf",
     "pdfFilename": "session_2022_06.pdf",
     "tauxAcceptationExact": 35.0,
-    "tauxEchecExact": 65.0
+    "tauxEchecExact": 65.0,
+    "conversions": 4,
+    "retraits": 2
   },
   {
     "session": "05/2022",
@@ -765,7 +841,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2022_05.pdf",
     "pdfFilename": "session_2022_05.pdf",
     "tauxAcceptationExact": 34.146341463414636,
-    "tauxEchecExact": 65.853659
+    "tauxEchecExact": 65.85365853658537,
+    "conversions": 6,
+    "retraits": 2
   },
   {
     "session": "04/2022",
@@ -781,7 +859,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2022_04.pdf",
     "pdfFilename": "session_2022_04.pdf",
     "tauxAcceptationExact": 40.909090909090914,
-    "tauxEchecExact": 59.090909
+    "tauxEchecExact": 59.09090909090909,
+    "conversions": 4,
+    "retraits": 1
   },
   {
     "session": "03/2022",
@@ -797,7 +877,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2022_03.pdf",
     "pdfFilename": "session_2022_03.pdf",
     "tauxAcceptationExact": 66.66666666666666,
-    "tauxEchecExact": 33.333333
+    "tauxEchecExact": 33.33333333333333,
+    "conversions": 9,
+    "retraits": 0
   },
   {
     "session": "02/2022",
@@ -813,7 +895,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2022_02.pdf",
     "pdfFilename": "session_2022_02.pdf",
     "tauxAcceptationExact": 66.66666666666666,
-    "tauxEchecExact": 33.333333
+    "tauxEchecExact": 33.33333333333333,
+    "conversions": 4,
+    "retraits": 0
   },
   {
     "session": "01/2022",
@@ -829,7 +913,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2022_01.pdf",
     "pdfFilename": "session_2022_01.pdf",
     "tauxAcceptationExact": 39.473684210526315,
-    "tauxEchecExact": 60.526316
+    "tauxEchecExact": 60.526315789473685,
+    "conversions": 6,
+    "retraits": 4
   },
   {
     "session": "12/2021",
@@ -845,7 +931,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2021_12.pdf",
     "pdfFilename": "session_2021_12.pdf",
     "tauxAcceptationExact": 52.63157894736842,
-    "tauxEchecExact": 47.368421
+    "tauxEchecExact": 47.368421052631575,
+    "conversions": 6,
+    "retraits": 19
   },
   {
     "session": "11/2021",
@@ -861,7 +949,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2021_11.pdf",
     "pdfFilename": "session_2021_11.pdf",
     "tauxAcceptationExact": 47.5,
-    "tauxEchecExact": 52.5
+    "tauxEchecExact": 52.5,
+    "conversions": 7,
+    "retraits": 0
   },
   {
     "session": "10/2021",
@@ -877,7 +967,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2021_10.pdf",
     "pdfFilename": "session_2021_10.pdf",
     "tauxAcceptationExact": 56.09756097560976,
-    "tauxEchecExact": 43.902439
+    "tauxEchecExact": 43.90243902439025,
+    "conversions": 8,
+    "retraits": 0
   },
   {
     "session": "09/2021",
@@ -894,7 +986,8 @@
     "pdfFilename": "session_2021_09.pdf",
     "tauxAcceptationExact": 100.0,
     "tauxEchecExact": 0.0,
-    "conversions": 13
+    "conversions": 13,
+    "retraits": 0
   },
   {
     "session": "08/2021",
@@ -910,7 +1003,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2021_08.pdf",
     "pdfFilename": "session_2021_08.pdf",
     "tauxAcceptationExact": 52.0,
-    "tauxEchecExact": 48.0
+    "tauxEchecExact": 48.0,
+    "conversions": 7,
+    "retraits": 1
   },
   {
     "session": "07/2021",
@@ -926,7 +1021,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2021_07.pdf",
     "pdfFilename": "session_2021_07.pdf",
     "tauxAcceptationExact": 55.00000000000001,
-    "tauxEchecExact": 45.0
+    "tauxEchecExact": 45.0,
+    "conversions": 11,
+    "retraits": 0
   },
   {
     "session": "06/2021",
@@ -942,7 +1039,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2021_06.pdf",
     "pdfFilename": "session_2021_06.pdf",
     "tauxAcceptationExact": 43.90243902439025,
-    "tauxEchecExact": 56.097561
+    "tauxEchecExact": 56.09756097560976,
+    "conversions": 7,
+    "retraits": 0
   },
   {
     "session": "05/2021",
@@ -958,7 +1057,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2021_05.pdf",
     "pdfFilename": "session_2021_05.pdf",
     "tauxAcceptationExact": 47.5,
-    "tauxEchecExact": 52.5
+    "tauxEchecExact": 52.5,
+    "conversions": 6,
+    "retraits": 1
   },
   {
     "session": "04/2021",
@@ -974,7 +1075,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2021_04.pdf",
     "pdfFilename": "session_2021_04.pdf",
     "tauxAcceptationExact": 27.500000000000004,
-    "tauxEchecExact": 72.5
+    "tauxEchecExact": 72.5,
+    "conversions": 4,
+    "retraits": 1
   },
   {
     "session": "03/2021",
@@ -990,7 +1093,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2021_03.pdf",
     "pdfFilename": "session_2021_03.pdf",
     "tauxAcceptationExact": 60.97560975609756,
-    "tauxEchecExact": 39.02439
+    "tauxEchecExact": 39.02439024390244,
+    "conversions": 13,
+    "retraits": 2
   },
   {
     "session": "02/2021",
@@ -1006,8 +1111,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2021_02.pdf",
     "pdfFilename": "session_2021_02.pdf",
     "tauxAcceptationExact": 60.97560975609756,
-    "tauxEchecExact": 39.02439,
-    "conversions": 7
+    "tauxEchecExact": 39.02439024390244,
+    "conversions": 7,
+    "retraits": 0
   },
   {
     "session": "01/2021",
@@ -1023,7 +1129,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2021_01.pdf",
     "pdfFilename": "session_2021_01.pdf",
     "tauxAcceptationExact": 66.66666666666666,
-    "tauxEchecExact": 33.333333
+    "tauxEchecExact": 33.33333333333333,
+    "conversions": 9,
+    "retraits": 0
   },
   {
     "session": "12/2020",
@@ -1039,8 +1147,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2020_12.pdf",
     "pdfFilename": "session_2020_12.pdf",
     "tauxAcceptationExact": 58.333333333333336,
-    "tauxEchecExact": 41.666667,
-    "conversions": 9
+    "tauxEchecExact": 41.66666666666667,
+    "conversions": 9,
+    "retraits": 0
   },
   {
     "session": "11/2020",
@@ -1056,7 +1165,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2020_11.pdf",
     "pdfFilename": "session_2020_11.pdf",
     "tauxAcceptationExact": 63.41463414634146,
-    "tauxEchecExact": 36.585366
+    "tauxEchecExact": 36.58536585365854,
+    "conversions": 13,
+    "retraits": 1
   },
   {
     "session": "10/2020",
@@ -1072,7 +1183,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2020_10.pdf",
     "pdfFilename": "session_2020_10.pdf",
     "tauxAcceptationExact": 39.02439024390244,
-    "tauxEchecExact": 60.97561
+    "tauxEchecExact": 60.97560975609756,
+    "conversions": 7,
+    "retraits": 1
   },
   {
     "session": "09/2020",
@@ -1088,7 +1201,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2020_09.pdf",
     "pdfFilename": "session_2020_09.pdf",
     "tauxAcceptationExact": 45.83333333333333,
-    "tauxEchecExact": 54.166667
+    "tauxEchecExact": 54.166666666666664,
+    "conversions": 8,
+    "retraits": 5
   },
   {
     "session": "08/2020",
@@ -1104,7 +1219,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2020_08.pdf",
     "pdfFilename": "session_2020_08.pdf",
     "tauxAcceptationExact": 60.71428571428571,
-    "tauxEchecExact": 39.285714
+    "tauxEchecExact": 39.285714285714285,
+    "conversions": 10,
+    "retraits": 0
   },
   {
     "session": "07/2020",
@@ -1120,7 +1237,7 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2020_07.pdf",
     "pdfFilename": "session_2020_07.pdf",
     "tauxAcceptationExact": 45.0,
-    "tauxEchecExact": 55.0,
+    "tauxEchecExact": 55.00000000000001,
     "conversions": 9,
     "retraits": 2
   },
@@ -1138,7 +1255,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2020_06.pdf",
     "pdfFilename": "session_2020_06.pdf",
     "tauxAcceptationExact": 46.15384615384615,
-    "tauxEchecExact": 53.846154
+    "tauxEchecExact": 53.84615384615385,
+    "conversions": 4,
+    "retraits": 0
   },
   {
     "session": "05/2020",
@@ -1154,7 +1273,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2020_05.pdf",
     "pdfFilename": "session_2020_05.pdf",
     "tauxAcceptationExact": 46.15384615384615,
-    "tauxEchecExact": 53.846154
+    "tauxEchecExact": 53.84615384615385,
+    "conversions": 5,
+    "retraits": 1
   },
   {
     "session": "04/2020",
@@ -1170,7 +1291,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2020_04.pdf",
     "pdfFilename": "session_2020_04.pdf",
     "tauxAcceptationExact": 50.0,
-    "tauxEchecExact": 50.0
+    "tauxEchecExact": 50.0,
+    "conversions": 3,
+    "retraits": 1
   },
   {
     "session": "03/2020",
@@ -1186,7 +1309,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2020_03.pdf",
     "pdfFilename": "session_2020_03.pdf",
     "tauxAcceptationExact": 45.714285714285715,
-    "tauxEchecExact": 54.285714
+    "tauxEchecExact": 54.285714285714285,
+    "conversions": 4,
+    "retraits": 0
   },
   {
     "session": "02/2020",
@@ -1202,7 +1327,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2020_02.pdf",
     "pdfFilename": "session_2020_02.pdf",
     "tauxAcceptationExact": 68.75,
-    "tauxEchecExact": 31.25
+    "tauxEchecExact": 31.25,
+    "conversions": 9,
+    "retraits": 0
   },
   {
     "session": "01/2020",
@@ -1218,7 +1345,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2020_01.pdf",
     "pdfFilename": "session_2020_01.pdf",
     "tauxAcceptationExact": 47.368421052631575,
-    "tauxEchecExact": 52.631579
+    "tauxEchecExact": 52.63157894736842,
+    "conversions": 4,
+    "retraits": 0
   },
   {
     "session": "12/2019",
@@ -1234,7 +1363,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2019_12.pdf",
     "pdfFilename": "session_2019_12.pdf",
     "tauxAcceptationExact": 71.875,
-    "tauxEchecExact": 28.125
+    "tauxEchecExact": 28.125,
+    "conversions": 10,
+    "retraits": 0
   },
   {
     "session": "11/2019",
@@ -1250,7 +1381,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2019_11.pdf",
     "pdfFilename": "session_2019_11.pdf",
     "tauxAcceptationExact": 48.57142857142857,
-    "tauxEchecExact": 51.428571
+    "tauxEchecExact": 51.42857142857142,
+    "conversions": 6,
+    "retraits": 0
   },
   {
     "session": "10/2019",
@@ -1266,8 +1399,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2019_10.pdf",
     "pdfFilename": "session_2019_10.pdf",
     "tauxAcceptationExact": 67.64705882352942,
-    "tauxEchecExact": 32.352941,
-    "conversions": 5
+    "tauxEchecExact": 32.35294117647059,
+    "conversions": 5,
+    "retraits": 0
   },
   {
     "session": "09/2019",
@@ -1284,7 +1418,8 @@
     "pdfFilename": "session_2019_09.pdf",
     "tauxAcceptationExact": 62.5,
     "tauxEchecExact": 37.5,
-    "conversions": 3
+    "conversions": 3,
+    "retraits": 0
   },
   {
     "session": "08/2019",
@@ -1300,7 +1435,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2019_08.pdf",
     "pdfFilename": "session_2019_08.pdf",
     "tauxAcceptationExact": 71.42857142857143,
-    "tauxEchecExact": 28.571429
+    "tauxEchecExact": 28.57142857142857,
+    "conversions": 0,
+    "retraits": 0
   },
   {
     "session": "07/2019",
@@ -1316,7 +1453,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2019_07.pdf",
     "pdfFilename": "session_2019_07.pdf",
     "tauxAcceptationExact": 50.0,
-    "tauxEchecExact": 50.0
+    "tauxEchecExact": 50.0,
+    "conversions": 0,
+    "retraits": 0
   },
   {
     "session": "06/2019",
@@ -1332,7 +1471,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2019_06.pdf",
     "pdfFilename": "session_2019_06.pdf",
     "tauxAcceptationExact": 42.42424242424242,
-    "tauxEchecExact": 57.575758
+    "tauxEchecExact": 57.57575757575758,
+    "conversions": 0,
+    "retraits": 0
   },
   {
     "session": "05/2019",
@@ -1348,7 +1489,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2019_05.pdf",
     "pdfFilename": "session_2019_05.pdf",
     "tauxAcceptationExact": 50.0,
-    "tauxEchecExact": 50.0
+    "tauxEchecExact": 50.0,
+    "conversions": 0,
+    "retraits": 0
   },
   {
     "session": "04/2019",
@@ -1364,7 +1507,9 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2019_04.pdf",
     "pdfFilename": "session_2019_04.pdf",
     "tauxAcceptationExact": 64.70588235294117,
-    "tauxEchecExact": 35.294118
+    "tauxEchecExact": 35.294117647058826,
+    "conversions": 0,
+    "retraits": 0
   },
   {
     "session": "03/2019",
@@ -1380,6 +1525,8 @@
     "localPdf": "/home/himawari/Desktop/startup-act-dashboard/data/session-pdfs/session_2019_03.pdf",
     "pdfFilename": "session_2019_03.pdf",
     "tauxAcceptationExact": 75.0,
-    "tauxEchecExact": 25.0
+    "tauxEchecExact": 25.0,
+    "conversions": 0,
+    "retraits": 0
   }
 ]

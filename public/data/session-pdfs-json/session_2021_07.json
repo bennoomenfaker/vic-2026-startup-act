@@ -11,266 +11,266 @@
       "fondateurs": "Mohamed Fares Ghodhbani, Malek Maazoun",
       "secteur": "Logistique",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Coart Container Creatif",
       "fondateurs": "",
       "secteur": "Creative industry",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Hkeya w Ebra",
       "fondateurs": "Yatim Omar, Firas Ben Ghayadha, Mayssa Karchoud, Nadhmi Amara",
       "secteur": "Creative industry",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "DROBEE",
       "fondateurs": "Aladin Khantouch, Haytham Khemakhem, Ons El Gaied",
       "secteur": "Agritech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "FINRA Ltd",
       "fondateurs": "Amir Farah, Yassine Bouchoucha",
       "secteur": "Advanced Manufacturing & Industry",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Vital Tools",
       "fondateurs": "Ali Babbou, Sami Bouden",
       "secteur": "Business Software",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Ticketchainer",
       "fondateurs": "Walid Karray, Obeyd Melliti, Samy Jaidène",
       "secteur": "Business Software",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "STE JUNIORS CV",
       "fondateurs": "Mayassa Fehaiem, Sana Saadani",
       "secteur": "EdTech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "ELBIO",
       "fondateurs": "Haythem Dridi, Syrine Guettat, Mohamed Amine Omrani",
       "secteur": "FoodTech & New Food",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Compaktor",
       "fondateurs": "",
       "secteur": "Business Software",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "2BK Innovation",
       "fondateurs": "Omar Khalfet",
       "secteur": "Environment",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Tiktak PRO",
       "fondateurs": "Zied Bouhejba, Henda Regaya",
       "secteur": "Marketplace / e-commerce",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "TRUE DELTA",
       "fondateurs": "",
       "secteur": "Marketplace / e-commerce",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Société JPARTENERS TUNISIE SUARL",
       "fondateurs": "Zied Jbali",
       "secteur": "Logistique",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "DORRY",
       "fondateurs": "Ellouze Fares, Hadded Malek",
       "secteur": "Fintech",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "RIBLUM",
       "fondateurs": "Sara Bennour",
       "secteur": "Environment",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "AREMA international",
       "fondateurs": "Zina Kobbi, Rami Rouini",
       "secteur": "Health care",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Pipeline Studio",
       "fondateurs": "Amal Cherif, Mahdi Ben khmis",
       "secteur": "Creative industry",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "BORNTEQ",
       "fondateurs": "Mohamed Fekih-Romdhane, Malek Dey Daly",
       "secteur": "Business Software",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Tunisia Home Staging",
       "fondateurs": "Chahrazed Dey daly, Khawla Ben Mansour",
       "secteur": "Creative industry",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Goodif",
       "fondateurs": "Mohamed Kadi, Mohamed Limame, Soua Salah",
       "secteur": "Fintech",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "ECOPOINT",
       "fondateurs": "Zoubeida Chaouch, Najla Kacem, Sabryn Hamrouny, Khelifi Ahmed",
       "secteur": "Creative industry",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Nat-Hub / Pikoro",
       "fondateurs": "Ibrahim Sarray, Mohamed Amine Jebali",
       "secteur": "Business Software",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "SMARTI'Z",
       "fondateurs": "Karim Amous, Afef Mkaoure",
       "secteur": "Health care",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "Gold Queen",
       "fondateurs": "Abir Mkawar, Akrem Belguith, Tayeb Beb Ayed",
       "secteur": "Creative industry",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "GUISS",
       "fondateurs": "Fares Mallek, Maher Marwani",
       "secteur": "Business Software",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "Istidama",
       "fondateurs": "WaterSec, Zoubeir Zarrouk, Mohamed Guenbri, Azzez Moatez",
       "secteur": "Environement",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Mrcus Studio",
       "fondateurs": "Marcus Studio, Hamza Gassab, Hedi Hrigua",
       "secteur": "Creative industry",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "STE LAVERIT H O",
       "fondateurs": "société Lave'rit, Oussama Hlaoui, Abdeljelil Lazaar",
       "secteur": "Logistique",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Wassaloo Tunisie",
       "fondateurs": "Wassaloo Mustapha Guellaty, Mohamed Zouhaier Zammel",
       "secteur": "Agritech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Wimbee Product",
       "fondateurs": "WimbeyondAnalytica Neila Benzina, Mohamed Ben Ahmed",
       "secteur": "Business Software",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "AquaDeep",
       "fondateurs": "AquaDeep, Mohamed Youssef Chahed",
       "secteur": "Agritech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "KINDEAL EDUCATION",
       "fondateurs": "KINDEAL Mohamed Ali Shili, Moez Hammami",
       "secteur": "EdTech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Société de Services pour les Organismes",
       "fondateurs": "Mehdi Ben Abdallah, ILEY'COM- مﻛﯾﻟإ",
       "secteur": "Social Business",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "Solidaires",
       "fondateurs": "Marwa Moula, Amr Bakr",
       "secteur": "",
       "resultat": "",
-      "_displayDecision": "unknown"
+      "_displayDecision": "irrecevable"
     },
     {
       "societe": "HAKEEMA Pour la Santé",
       "fondateurs": "7keema Sahar Awad, Tamer Shawer",
       "secteur": "HealthTech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "Société ramzi de stock engineering et gestion de livraison",
       "fondateurs": "Ramzi Houidi, Gelivro, Rim Harabi, Rami Brahem",
       "secteur": "Marketplace / e-commerce",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "SAYARTICARE",
       "fondateurs": "myCarCare Amani Bettaieb, Ahmed Ben Yedder",
       "secteur": "Mobility",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     }
   ],
   "session_data": {
@@ -278,10 +278,11 @@
     "labels": 22,
     "preLabels": 5,
     "taux_acceptation_pct": 55.0,
-    "statut": "conforme_manuel",
+    "statut": "replit_csv_conforme",
     "retraits": 0,
-    "conversions": 0,
-    "newLabels": 22
+    "conversions": 11,
+    "newLabels": 22,
+    "taux": 55.0
   },
   "_displayLabels": 22,
   "_displayPreLabels": 5,

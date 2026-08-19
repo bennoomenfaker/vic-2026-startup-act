@@ -11,154 +11,154 @@
       "fondateurs": "Samy Mzali, Mohamed Saidi, Jihed Jaouabi",
       "secteur": "Business Software & Services",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Lanterns",
       "fondateurs": "Nabil Braham, Oussama Ben mariem, Mohamed Sadek Sassi",
       "secteur": "Ad Tech and Creative Tech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "SPOFUN",
       "fondateurs": "Samiha Hamdi, Farouk Laribi, Aymen Touhent",
       "secteur": "Wellness",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "WAY CARE",
       "fondateurs": "Souha Mander",
       "secteur": "Consumer Products & Services",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Finansya Ecosystem",
       "fondateurs": "Achref Sayadi, Mohamed Medhaffar, Ghabri Siwar",
       "secteur": "Business Software & Services",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "VAL BIO DECHETS COMPOSITE",
       "fondateurs": "Raja Dhief, Rabiaa Abdaoui, Chefia Nasr, Adnene Labidi",
       "secteur": "Environment/Energie",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "INSTAWARE",
       "fondateurs": "Abir Labidi, Sabri Bouzouita, Ahmed Ismail Azzabi",
       "secteur": "Advanced Manufacturing & Industry",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Digihunt",
       "fondateurs": "",
       "secteur": "Business Software & Services",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Digital work solutions",
       "fondateurs": "Yousser Sabbagh, Slim Dhahri, Mohamed Aziz Boufaied, Mohamed Khalil Mattar",
       "secteur": "Business Software & Services",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "INNOROV",
       "fondateurs": "Khalil Selmane, Yasmine Kerkeny",
       "secteur": "Advanced Manufacturing & Industry",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Saptun l'ERP du futur",
       "fondateurs": "Mahmoud Siala",
       "secteur": "Business Software & Services",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Basket of art",
       "fondateurs": "Ahdi Hidri",
       "secteur": "Marketplace",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "AB AUDIT",
       "fondateurs": "Walid Bouzouita",
       "secteur": "Business Software & Services",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Flouse",
       "fondateurs": "Hatem Chanoufi",
       "secteur": "Fintech",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "CG-Box",
       "fondateurs": "Mohamed Triki, Walid Saadaoui",
       "secteur": "Business Software & Services",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Taxiora Pub",
       "fondateurs": "Khaled Ben Latrach, Maher Chekir",
       "secteur": "Services de communication",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Kasero",
       "fondateurs": "Mohamed Amine Bellili, Nouha Kourda, Nour Tekaya",
       "secteur": "FoodTech & New Food",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "Oostoora",
       "fondateurs": "Iskander Gafsi, Hichem Boughdiri",
       "secteur": "Advanced Manufacturing & Industry",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "E-commerce Tunsia beauty",
       "fondateurs": "Bilel Ltifi, Hamdi Adnan",
       "secteur": "Marketplace",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "All Tounsi",
       "fondateurs": "Iliess Ajmi, Mehdi Romdhane",
       "secteur": "Marketplace",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "Parkey",
       "fondateurs": "Narjes Seffen, Neirouz Seffen",
       "secteur": "Mobility",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "GOtrial",
       "fondateurs": "Ayoub Zemni",
       "secteur": "Consumer Products & Services",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     }
   ],
   "session_data": {
@@ -166,10 +166,11 @@
     "labels": 9,
     "preLabels": 6,
     "taux_acceptation_pct": 40.9,
-    "statut": "conforme_manuel",
-    "retraits": 0,
-    "conversions": 0,
-    "newLabels": 9
+    "statut": "replit_csv_conforme",
+    "retraits": 1,
+    "conversions": 4,
+    "newLabels": 9,
+    "taux": 40.9
   },
   "_displayLabels": 9,
   "_displayPreLabels": 6,

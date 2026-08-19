@@ -11,210 +11,210 @@
       "fondateurs": "Raouia Khedher, Mourad Mezghenni, TechLead Informatique",
       "secteur": "Communication services",
       "resultat": "0 N.A N.A Label Accrodé au 2ème Tour",
-      "_displayDecision": "label"
+      "_displayDecision": "irrecevable"
     },
     {
       "societe": "XtendMedical par XtendMind",
       "fondateurs": "Ahmed Ben Hamouda, Hassan Cheriha, Oussema Rhif, Rached Fares",
       "secteur": "HealthTech",
       "resultat": "label accorde au 3eme tour",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Société : Learnset / Premier projet : Medset",
       "fondateurs": "Mohamed Ali Chemli, Mohamed Skander Soltane, Chokri Rayani",
       "secteur": "EdTech",
       "resultat": "label accorde au 3eme tour",
-      "_displayDecision": "label"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "OrderTech",
       "fondateurs": "Jaafer Chniter, Jihen Haddad",
       "secteur": "Business Software and services",
       "resultat": "label non accorde au 2eme tour",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "ROUNDESK TECHNOLOGIE",
       "fondateurs": "Franck Legendre, Fethi zoghlami, Slim Abeidi",
       "secteur": "Business Software and services",
       "resultat": "label non accorde au 2eme tour",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "CNM Community Hub",
       "fondateurs": "Makrem Jebali, Alaa Sebai",
       "secteur": "Business Software and services",
       "resultat": "label non accorde au 2eme tour",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "EuroVet Veterinaire",
       "fondateurs": "Riadh Zaidi, Ala Eddine Hsairi",
       "secteur": "HealthTech",
       "resultat": "label non accorde au 2eme tour",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Deevium",
       "fondateurs": "Raed Jridi, Imen Saidi",
       "secteur": "Business Software and services",
       "resultat": "label non accorde au 2eme tour",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Foootly",
       "fondateurs": "Zakaria Magouri, Sadok Kzadri, Feres Okbi",
       "secteur": "Wellness",
       "resultat": "label non accorde au 2eme tour",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "mekadesk.com",
       "fondateurs": "Ali Benmohamed, Youssef Kzadri",
       "secteur": "Business Software and services",
       "resultat": "label non accorde au 3eme tour",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Innoway Solutions",
       "fondateurs": "Alaa Maaoui, Tesnime Khemiri",
       "secteur": "Business Software and services",
       "resultat": "label non accorde au 3eme tour",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Green wall",
       "fondateurs": "Balkis Bettoumi, Mohamed Aziz Laourine, Mejda Khaled",
       "secteur": "Agritech",
       "resultat": "prelabel accorde au 2eme tour",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "AGARUW HUB",
       "fondateurs": "Zeineb Ben Abdallah, Hedi BenRomdhane, Mezri Karoui",
       "secteur": "Environment",
       "resultat": "prelabel accorde au 2eme tour",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "CC - Colombus Capital, The Infinite Trust",
       "fondateurs": "Eymen Errais",
       "secteur": "Fintech",
       "resultat": "prelabel accorde au 2eme tour",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "MSSyndic",
       "fondateurs": "Sami Marouani, Magda Chelly",
       "secteur": "Consumer products and services",
       "resultat": "prelabel accorde au 2eme tour",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Responsible Cyber",
       "fondateurs": "Mikko Laaksonen",
       "secteur": "Security",
       "resultat": "prelabel accorde au 2eme tour",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Speedy ERP",
       "fondateurs": "Kais Chehuma, Marouen Akermi",
       "secteur": "Business Software and services",
       "resultat": "prelabel accorde au 2eme tour",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "OPTOSCOPIA Intelligent Diagnostic Analyzers",
       "fondateurs": "Francesc Gomez, Mouna Abid",
       "secteur": "HealthTech",
       "resultat": "prelabel accorde au 3eme tour",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "LUNETTEC",
       "fondateurs": "Yosr Ghozzi, Sonia Abid",
       "secteur": "HealthTech",
       "resultat": "prelabel non accorde au 2eme tour",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "Noumeo Solutions",
       "fondateurs": "Mohamed Zlizi, Med khalil Bousnina",
       "secteur": "HealthTech",
       "resultat": "prelabel non accorde au 2eme tour",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "AIBC",
       "fondateurs": "Rahma Bousnina, Ala Larbi",
       "secteur": "Business Software and services",
       "resultat": "prelabel non accorde au 2eme tour",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "TRENA",
       "fondateurs": "Hatem Benchikh, Dorra Fredj, Moez Debara",
       "secteur": "Wellness",
       "resultat": "prelabel non accorde au 2eme tour",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "Mozolang",
       "fondateurs": "Jamila Khmiss, Hussein Dbara",
       "secteur": "EdTech",
       "resultat": "prelabel non accorde au 2eme tour",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "Nour Expert Telecom",
       "fondateurs": "Line Analyzer Ali Ibn ammar, Houssem eddine Rammeh",
       "secteur": "Ad Tech & Creative Tech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "AltaDigit",
       "fondateurs": "Xscan Oussama Ben Wahiba, Abderrahim Gdah, Khemiri Mohamed Amine",
       "secteur": "services",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "CHERRY SOFT",
       "fondateurs": "Cherry ERP, Maroua Ellouze, Mathias Wrzoncki",
       "secteur": "services",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "DQAL",
       "fondateurs": "Digi-QAL Belgacem Toumi, Sondess Lazrak",
       "secteur": "services",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "ASEPTIKA LAB",
       "fondateurs": "Wellness",
       "secteur": "Retrait du Label",
       "resultat": "2018 pour les sociétés bénéficiaires du Label",
-      "_displayDecision": "label"
+      "_displayDecision": "irrecevable"
     },
     {
       "societe": "Actifs Précieux Apex SA",
       "fondateurs": "Wellness",
       "secteur": "Retrait du Label",
       "resultat": "2018 pour les sociétés bénéficiaires du Label",
-      "_displayDecision": "label"
+      "_displayDecision": "irrecevable"
     },
     {
       "societe": "ALIDADE",
       "fondateurs": "Business Software and services",
       "secteur": "Retrait du Label",
       "resultat": "2018 pour les sociétés bénéficiaires du Label",
-      "_displayDecision": "label"
+      "_displayDecision": "irrecevable"
     }
   ],
   "session_data": {
@@ -222,9 +222,9 @@
     "labels": 6,
     "preLabels": 7,
     "taux_acceptation_pct": 19.4,
-    "statut": "conforme_manuel",
-    "retraits": 0,
-    "conversions": 0,
+    "statut": "replit_csv_conforme",
+    "retraits": 3,
+    "conversions": 4,
     "newLabels": 6,
     "correction": {
       "session": "03/2024",
@@ -243,7 +243,8 @@
       },
       "reason": "2 nouveaux labels + 4 conversions − 3 retraits = 6 (scrapé : 7)",
       "commentaires": "3 Labels et 4 Prélabel à Label"
-    }
+    },
+    "taux": 19.4
   },
   "_displayLabels": 6,
   "_displayPreLabels": 7,

@@ -11,203 +11,203 @@
       "fondateurs": "",
       "secteur": "Consumer Product & Services",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Dooda",
       "fondateurs": "Omar Louzir",
       "secteur": "FoodTech & New Food",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Crop's Talk",
       "fondateurs": "Chahine Fersi, Yassine Awadni, Riadh Jomaa, Anis Fekih",
       "secteur": "Agritech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Pixii Motors",
       "fondateurs": "koutheir cherni",
       "secteur": "Mobility",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "HawKar",
       "fondateurs": "Seifeddine Aissa, Mohamed Moez Touil Touil, Mohamed Hamdi",
       "secteur": "Mobility",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "IASOTWIN",
       "fondateurs": "Linda Touil, Yasmine Bziouech, Houcem Eddine Ben Lasfar, Sahli Nader, Sabri Sahli, Karim Fathallah",
       "secteur": "HealthTech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Smart For Green: Farm and",
       "fondateurs": "Rania Fathallah",
       "secteur": "Agritech",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Forest Fire Protection",
       "fondateurs": "Mohamed-Hedi Mellekh, Oussema Charbib, Wael Fathallah, Mohamed Ali Fathallah, Iheb Lourimi, Saif touzi, Haoua Guezguez",
       "secteur": "",
       "resultat": "",
-      "_displayDecision": "unknown"
+      "_displayDecision": "irrecevable"
     },
     {
       "societe": "DigiMove",
       "fondateurs": "Nour Ladhari, Nassim Bensassi, Hfaiedh Bedoui, Mohamed Aziz Brinis",
       "secteur": "EdTech",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Boky",
       "fondateurs": "Othmane Barnis, Ghofrane Ben Mabrouk",
       "secteur": "TravelTech",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Train Your Mind",
       "fondateurs": "Mohamed Khalil Ben Chebil, Mohamed Salah Ouelhazi",
       "secteur": "HealthTech",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Mouqawel",
       "fondateurs": "Ikbel Sassi, Emna Skhiri",
       "secteur": "Business Software & Services",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Link Park",
       "fondateurs": "Omar Triki, Ala Zrafi",
       "secteur": "Business Software & Services",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "URBAN DANCE",
       "fondateurs": "Mansoura Jilani, Rahma Mabrouk, Baha Wiem Agrebi EP Johnson",
       "secteur": "Wellness",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Hbibty Market",
       "fondateurs": "Skander Benzarti, Meriam Maaloul, Wifak Ghaddab",
       "secteur": "FoodTech & New Food",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "BusinessChat",
       "fondateurs": "Hayet El Ayeb, Nizar Romdhane",
       "secteur": "Business Software & Services",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "YASLINE ENGINEERING",
       "fondateurs": "Salsabil Mansouri",
       "secteur": "Business Software & Services",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "LIGHTRESA",
       "fondateurs": "Mohamed Mellouki",
       "secteur": "TravelTech",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "KLAP",
       "fondateurs": "Taoufik Belkhodja",
       "secteur": "Ad Tech and Creative Tech",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "C'MIND C'MIND",
       "fondateurs": "Sabri Barbaria, Imen Zouari",
       "secteur": "HealthTech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "IZ AGRI IZAGRI",
       "fondateurs": "Zineb Zouari, Ghassen Sghaier",
       "secteur": "Agritech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "IZICLAIM IZICLAIM",
       "fondateurs": "Mohamed Sghaier, Senda Akili, Cyrine Atallah, Emilio Illc La Peruta",
       "secteur": "InsuranceTech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "WAF WAF HOUSE",
       "fondateurs": "Waf Waf House Ridha Bouasker, Yusbely Nacary Jimenez Guerra, Hassine Atallah, Moez Lidinellah Waddey",
       "secteur": "Services",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Dyno & Motiva Systems dyno",
       "fondateurs": "Mohamad Obeid, Mohamed Hedi Jridi, Hassouna Ben Jemaa",
       "secteur": "Fintech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Digital city innovation",
       "fondateurs": "DIGITAL CITY INNOVATION, Noomen Tounsi, Anouar Abdelkoudous Bouassida",
       "secteur": "Social Business",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Thnity Maas Thnity",
       "fondateurs": "Amina Garbouj, Sayma Besbes, Walid Meddeb",
       "secteur": "Mobility",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "OPKODERLABS  Taskflow",
       "fondateurs": "Mohamed Aziz Lahkimi, Mohamed Adel Tarki",
       "secteur": "Mobility",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "YARI PROJECT YARI",
       "fondateurs": "Mohamed Nejib Bejar, Salim Benaoun",
       "secteur": "HealthTech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "WHEELZ PRO'FIT",
       "fondateurs": "Mohamed Wassim Abidi, Hela Msaddek",
       "secteur": "Mobility",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "unknown"
     }
   ],
   "session_data": {
@@ -215,10 +215,11 @@
     "labels": 16,
     "preLabels": 6,
     "taux_acceptation_pct": 61.5,
-    "statut": "conforme_manuel",
-    "retraits": 0,
-    "conversions": 0,
-    "newLabels": 16
+    "statut": "replit_csv_conforme",
+    "retraits": 2,
+    "conversions": 10,
+    "newLabels": 16,
+    "taux": 61.5
   },
   "_displayLabels": 16,
   "_displayPreLabels": 6,

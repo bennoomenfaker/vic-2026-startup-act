@@ -11,168 +11,168 @@
       "fondateurs": "Rafik Jaballah, Abid Khouloud, Ahmed Sahab",
       "secteur": "Agritech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "AUZY",
       "fondateurs": "Salma Ben Brahim, Amine Belkacem, Fares Zouari",
       "secteur": "HealthTech & wellbeing",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "BADDAL",
       "fondateurs": "Firas Gazzah, Chaouki Charfeddine",
       "secteur": "Plateforme Sociale",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "FINWEDGE MEA",
       "fondateurs": "Delphine Monti, Abdelaziz Sifaoui",
       "secteur": "Fintech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Soledu",
       "fondateurs": "",
       "secteur": "EdTech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Beenomi",
       "fondateurs": "Mohamed yassine Karaouli, Tarek Loukil, Sabrine Chennaoui",
       "secteur": "Real Estate Tech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "MONSAPO",
       "fondateurs": "Aziza Ibn Hadj Hassine, Amir Fourati, Mannana Dbibi",
       "secteur": "Environment/Energie",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Irbe7",
       "fondateurs": "Anis Habibi, Aymen Bouhlel, Farouk Bouzouita",
       "secteur": "EdTech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "EquiBooster",
       "fondateurs": "Saber Elabidi, Nadia Sghaier, Ali Koubaa",
       "secteur": "Plateforme Sociale",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Auto Sans Risque",
       "fondateurs": "Feryel Mechri, Mohamed Koubaa",
       "secteur": "Consumer products and services",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Bridge ITOPS",
       "fondateurs": "Walid Saad, Ramzi Maalej, Fakher Chabchoub",
       "secteur": "Business Software & Services",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Fluoink Nanotechnologies",
       "fondateurs": "Hanen Douiri, Marwa Abid, Oumaya Mejri",
       "secteur": "Advanced Manufacturing & Industry",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Bakourat",
       "fondateurs": "Wassim Hannachi, Asma Tezeghedenti, Ons Hamza",
       "secteur": "Agritech",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Njano",
       "fondateurs": "Houssem Aoudi",
       "secteur": "Business Software & Services",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "womia",
       "fondateurs": "Anas Dogui",
       "secteur": "HealthTech & wellbeing",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Vectors",
       "fondateurs": "Sofien Chaabouni",
       "secteur": "Business Software & Services",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Staffiny",
       "fondateurs": "Zied Brahim, Bilel Grindi, Wafa Attia",
       "secteur": "Business Software & Services",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Olivier Zone",
       "fondateurs": "Anis Selmani, Samir Benzineb",
       "secteur": "Agritech",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "LEDISON rdv B Le Lemon Tour",
       "fondateurs": "Safa Bouhajar, Ghassen Ben Jmeaa, Zied Allouch, Mohamed Abdelkefi, Nicolas Planchenault, Célia Corneil, Markus Breitweg, Ines Borni",
       "secteur": "Advanced Manufacturing & Industry",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "minwin",
       "fondateurs": "Mohamed Choucheni, Alaa Boukhchina, Ahmed Malek",
       "secteur": "HealthTech & wellbeing",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "TUNISIA BAITS",
       "fondateurs": "Marwen Mokdad, Ahmed Mahouachi, Mokhtar Ben Amor",
       "secteur": "Agritech",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Hayvan World",
       "fondateurs": "Radhouane Kouki, Mohamed Cherif, Jannet Kamoun",
       "secteur": "HealthTech & wellbeing",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Développement d'un biomédicament anti-obésité",
       "fondateurs": "Ahmed Aloulou",
       "secteur": "HealthTech & wellbeing",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "SimExperience",
       "fondateurs": "Mohamed Abichou",
       "secteur": "Advanced Manufacturing & Industry",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     }
   ],
   "session_data": {
@@ -180,10 +180,11 @@
     "labels": 14,
     "preLabels": 9,
     "taux_acceptation_pct": 34.1,
-    "statut": "conforme_manuel",
-    "retraits": 0,
-    "conversions": 0,
-    "newLabels": 14
+    "statut": "replit_csv_conforme",
+    "retraits": 2,
+    "conversions": 6,
+    "newLabels": 14,
+    "taux": 34.1
   },
   "_displayLabels": 14,
   "_displayPreLabels": 9,

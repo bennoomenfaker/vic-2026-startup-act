@@ -11,196 +11,196 @@
       "fondateurs": "Mohamed Hamdi, Thabet Esmail",
       "secteur": "CyberSecurity",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "ERWINI",
       "fondateurs": "Mekki Bahri, Ahmed Sghir, Anis Ben Arbia",
       "secteur": "Agritech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "DIGMACO",
       "fondateurs": "Abir Ben Arbia, Khalil Zammeli",
       "secteur": "Business Software & Services",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Lisssen",
       "fondateurs": "",
       "secteur": "Creative industry",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Comporoll",
       "fondateurs": "Mohamed Damak, Haythem Hamdi, Amine Hamdi",
       "secteur": "Environment/Energie",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Abneam",
       "fondateurs": "Seifeddine Hamdi, Abdelbasset Ben Hnia",
       "secteur": "Commerce Shopping",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Bakoo",
       "fondateurs": "Azza Dsouli",
       "secteur": "Social Business",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "LASERSEVEN",
       "fondateurs": "Mohamed Boudabbous",
       "secteur": "Industry",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "E-Tafakna",
       "fondateurs": "Norchen Mezni",
       "secteur": "Legal Tech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "khallasli",
       "fondateurs": "",
       "secteur": "Fintech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "BIGDATIS",
       "fondateurs": "Amine Fahem, Soufi Majdeddine, Bassem Mathlouthi",
       "secteur": "Real Estate Tech",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "WiseVision",
       "fondateurs": "Rawand Skoury, Malek Zribi, Kenza Boukhris, Maher Zahar",
       "secteur": "services",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "C'MIND",
       "fondateurs": "Sabri Barbaria, Aberraouf Terres",
       "secteur": "HealthTech",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "CargoWeen",
       "fondateurs": "Yasmine Terres, Dhia El Hak Merai, Maroua Boubaker",
       "secteur": "service",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Docinov",
       "fondateurs": "Sadok Derouich, Safwen Derouiche, Hatem Ben Brahim",
       "secteur": "HealthTech",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "HUBS TRAVEL",
       "fondateurs": "Wafa Ghrir, Hamza Jabnouni",
       "secteur": "TravelTech",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Sougui",
       "fondateurs": "Abderraouf Achouch, Alaeddine Abidi, Dhia Elhak Guedri",
       "secteur": "Commerce and shopping",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "TuniBionics",
       "fondateurs": "Farah Jenhani, Hamdi Nasreddin, Mohamed Mekki Maalej",
       "secteur": "HealthTech",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "IrriApp",
       "fondateurs": "Mohamed Wajdi Khelil, Jihed Becher, Faten Meziou, Ahmed Chabchoub",
       "secteur": "Agritech",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "IGIDER",
       "fondateurs": "",
       "secteur": "CyberSecurity",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "DEFOULI",
       "fondateurs": "Asma Barhoumi, Khalil Neffati, Messaoud Cherif",
       "secteur": "TravelTech",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "hormiga",
       "fondateurs": "Foued Tlahig",
       "secteur": "Ad Tech and Creative Tech",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "MAHLENI",
       "fondateurs": "Mohamed Mehdi Belhout",
       "secteur": "services",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Collaborative smartools  SMARTOOLS",
       "fondateurs": "Wajih Abdelhedi, Badii Gharbi",
       "secteur": "Fintech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Saptun Solution",
       "fondateurs": "Saptun Solution Mahmoud Siala, Bilel Gassra",
       "secteur": "Business Software & Services",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Génération de l'hydrogène vert et son application aux stockage  HyO-Tec et conversion d'énergie",
       "fondateurs": "Kais Jamoussi, Nabil Kechaou, Mounir Trabelsi, Fatma Mellouli, Mahdi Gargouri",
       "secteur": "Environment/Energie",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "E Fair E Fair",
       "fondateurs": "Hana Fersi",
       "secteur": "Services de communication",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "CONTROL-MED",
       "fondateurs": "Faten Hamdi",
       "secteur": "AgriTech",
       "resultat": "",
-      "_displayDecision": "unknown"
+      "_displayDecision": "irrecevable"
     }
   ],
   "session_data": {
@@ -208,10 +208,11 @@
     "labels": 14,
     "preLabels": 10,
     "taux_acceptation_pct": 35.0,
-    "statut": "conforme_manuel",
-    "retraits": 0,
-    "conversions": 0,
-    "newLabels": 14
+    "statut": "replit_csv_conforme",
+    "retraits": 2,
+    "conversions": 4,
+    "newLabels": 14,
+    "taux": 35.0
   },
   "_displayLabels": 14,
   "_displayPreLabels": 10,

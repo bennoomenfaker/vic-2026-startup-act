@@ -11,343 +11,343 @@
       "fondateurs": "Amine Bouhlel, Ramla Jarrar",
       "secteur": "EdTech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Mass SA",
       "fondateurs": "",
       "secteur": "AI",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "STE Kaoun",
       "fondateurs": "Anis Kallel",
       "secteur": "Fintech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Apprentus Tunisie",
       "fondateurs": "Marius Andra, Amor Sahnoun",
       "secteur": "EdTech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Bus Software",
       "fondateurs": "Makrem Erguez, Ismail Ben Sassi",
       "secteur": "IoT",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "ilboursa.com",
       "fondateurs": "Rodolphe Villaes, Selim Kanzari",
       "secteur": "IT",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Methania Industries",
       "fondateurs": "",
       "secteur": "Energie",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Wattnow",
       "fondateurs": "Issam Smaali",
       "secteur": "IoT",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "TechAccessibility",
       "fondateurs": "",
       "secteur": "IT",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Taysir Solutions Tunisia",
       "fondateurs": "Mohamed Belghith, Fakhreddine Hachfi",
       "secteur": "IT",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "UniQ Soft Technology",
       "fondateurs": "Bechir Yakhlef, Armani Arabic Academy Salwa Armani",
       "secteur": "IT",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Dqlick",
       "fondateurs": "Hamdi Bouslah",
       "secteur": "Insurance Tech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "KNSD",
       "fondateurs": "Ali Boulila",
       "secteur": "Big Data",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "MedCREtech",
       "fondateurs": "Nacef Bouzguenda, Zied Loukil",
       "secteur": "cryptocurrency",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Novel-Ti",
       "fondateurs": "Ferdaous Masmoudi, Moslem Ben Dhaou",
       "secteur": "AI",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "PEAK Technologies",
       "fondateurs": "Bilel Methnani",
       "secteur": "Fintech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Smart and Clean",
       "fondateurs": "Mourad Bouabdallah",
       "secteur": "Cleantech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Tadeco IT",
       "fondateurs": "Aymen Talbi, Dorra Kammoun",
       "secteur": "E-Commerce",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "TechAbility",
       "fondateurs": "Oussama Romdhane",
       "secteur": "IoT",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Empire communication",
       "fondateurs": "Hani Hamrouni, Davide David, Ferid Kamel",
       "secteur": "Services",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "3D Forge",
       "fondateurs": "Mohamed Abul Heija",
       "secteur": "Services",
       "resultat": "",
-      "_displayDecision": "unknown"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Africa Flying and",
       "fondateurs": "Walid Meskine",
       "secteur": "AgriTech",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Engineering Ticket Communication",
       "fondateurs": "Aida Rafrafi",
       "secteur": "Marketing",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "TICOM TeTa concept",
       "fondateurs": "Achraf Jamli, Abdelmajid Mathlouthi",
       "secteur": "Services",
       "resultat": "",
-      "_displayDecision": "unknown"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "WeMake",
       "fondateurs": "Karim Yahyaoui",
       "secteur": "Services",
       "resultat": "Accordé",
-      "_displayDecision": "label"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Micro Device Tunisia",
       "fondateurs": "Hamdi Ben Amor",
       "secteur": "IoT",
       "resultat": "Accordé",
-      "_displayDecision": "label"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Kiwi Softwares",
       "fondateurs": "Ali Bouslama",
       "secteur": "IT",
       "resultat": "Accordé",
-      "_displayDecision": "label"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Expensya (Pepino Tech)",
       "fondateurs": "Karim jouini",
       "secteur": "E-Commerce",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Smart Mobility",
       "fondateurs": "Mokhles Masmoudi",
       "secteur": "IoT",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Educanet",
       "fondateurs": "Anis Ben Arbia, Nidhal Abidi, Mohamed Selim",
       "secteur": "EdTech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Study.tn",
       "fondateurs": "Hadrich, Nadhir Abidi, Seyf Hamdaoui",
       "secteur": "E-Learning",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Tunisie Matériel",
       "fondateurs": "Amel Besbes",
       "secteur": "Marketing",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Roulant Embedded Solutions",
       "fondateurs": "Kais Aribi",
       "secteur": "",
       "resultat": "",
-      "_displayDecision": "unknown"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "and Advanced Technology",
       "fondateurs": "Mohamed Salouati, Mehdi Mazlout",
       "secteur": "IoT",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "Inotek engineering",
       "fondateurs": "Walid Saghari",
       "secteur": "IoT",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Paymee",
       "fondateurs": "Marwen Amamou",
       "secteur": "Fintech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Healthcare Anywhere",
       "fondateurs": "",
       "secteur": "Health Tech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "TunRooms",
       "fondateurs": "Mohamed Ali Afif",
       "secteur": "E-Commerce",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Galactech",
       "fondateurs": "Houssem Maiza, Rochdi Zaghden",
       "secteur": "Telcom",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Domodar",
       "fondateurs": "Walid Dieff Allah, Adam Chebbi",
       "secteur": "IoT",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Vynd",
       "fondateurs": "Khalil Ben Hamouda",
       "secteur": "E-Commerce",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Tunisie Co",
       "fondateurs": "Khaled Aouij",
       "secteur": "Services",
       "resultat": "",
-      "_displayDecision": "unknown"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Best Way",
       "fondateurs": "Ahmed Ben Hamida",
       "secteur": "Marketing",
       "resultat": "",
-      "_displayDecision": "unknown"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "ComEngineering",
       "fondateurs": "Ahmed Rouetbi",
       "secteur": "IoT",
       "resultat": "Accordé",
-      "_displayDecision": "label"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Testafid+ Afrique Charbon",
       "fondateurs": "Abdelaziz Bahri",
       "secteur": "Energie",
       "resultat": "Accordé",
-      "_displayDecision": "label"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Ironhoster",
       "fondateurs": "Naiim Lamloumi",
       "secteur": "E-Commerce",
       "resultat": "",
-      "_displayDecision": "unknown"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Boostiny",
       "fondateurs": "Forevermo (Paravoisin) Mohamed Methnani, Aymen Tleilia",
       "secteur": "Tarak Nachnouchi Marketing",
       "resultat": "Accordé",
-      "_displayDecision": "label"
+      "_displayDecision": "irrecevable"
     },
     {
       "societe": "Supply Air",
       "fondateurs": "Hatem Lefi",
       "secteur": "Services",
       "resultat": "Accordé",
-      "_displayDecision": "label"
+      "_displayDecision": "irrecevable"
     },
     {
       "societe": "Sawsan Bellaj Training",
       "fondateurs": "Sawssen Bellaj",
       "secteur": "E-Commerce",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "irrecevable"
     },
     {
       "societe": "& Consulting",
@@ -361,7 +361,7 @@
       "fondateurs": "Abderahmen, Mahmoudi",
       "secteur": "Gaming",
       "resultat": "Accordé",
-      "_displayDecision": "label"
+      "_displayDecision": "unknown"
     }
   ],
   "session_data": {
@@ -369,7 +369,7 @@
     "labels": 33,
     "preLabels": 0,
     "taux_acceptation_pct": 64.7,
-    "statut": "conforme_manuel",
+    "statut": "replit_csv_conforme",
     "retraits": 0,
     "conversions": 0,
     "newLabels": 33,
@@ -390,7 +390,8 @@
       },
       "reason": "CR = 52 décisions (33 labels) vs 51 candidatures affichées : « 1 ajourné à la session suivante » (reporté, décidé en mai 2019). 33 labels confirmés = chiffre officiel exact ; labels/prélabels non corrigés — écart de comptage documenté.",
       "commentaires": "1 ajourné à la session suivante"
-    }
+    },
+    "taux": 64.7
   },
   "_displayLabels": 33,
   "_displayPreLabels": 0,

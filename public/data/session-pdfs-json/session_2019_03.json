@@ -11,84 +11,84 @@
       "fondateurs": "",
       "secteur": "E-Commerce",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Enova Robotics",
       "fondateurs": "Philippe Bidaud, Christophe Grand",
       "secteur": "Industrie Robotique",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Ezzayra Solutions",
       "fondateurs": "Yasser Bououd",
       "secteur": "AgriTech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Be Wireless Solutions",
       "fondateurs": "Nizar Ghram, Sofiene Ghram, Anis Ghorbel",
       "secteur": "IOT",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Medilsys",
       "fondateurs": "Najmeddine Nouri, Sofiene Ghorbel, Walid Chamekh",
       "secteur": "HealthTech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Roamsmart",
       "fondateurs": "",
       "secteur": "Telecom",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Vitalight Lab",
       "fondateurs": "",
       "secteur": "E-Commerce | BioTech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Dabchy",
       "fondateurs": "Ameni Mansouri",
       "secteur": "E-Commerce",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Next Gen Corp",
       "fondateurs": "Ahmed Nabli",
       "secteur": "EdTech | HealthTech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Nostatik Media",
       "fondateurs": "Ramzi Mrad",
       "secteur": "IT | PharmaTech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Paypos Tunisie",
       "fondateurs": "Khatib Chakchouk",
       "secteur": "FinTech",
       "resultat": "label accorde d'interet",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Mitigan",
       "fondateurs": "Elyes Jouini, Hemdene Ben Othmane, Mohamed Ali Elloumi",
       "secteur": "FinTech",
       "resultat": "Accordé",
-      "_displayDecision": "label"
+      "_displayDecision": "irrecevable"
     }
   ],
   "session_data": {
@@ -96,10 +96,11 @@
     "labels": 12,
     "preLabels": 0,
     "taux_acceptation_pct": 75.0,
-    "statut": "conforme_manuel",
+    "statut": "replit_csv_conforme",
     "retraits": 0,
     "conversions": 0,
-    "newLabels": 12
+    "newLabels": 12,
+    "taux": 75.0
   },
   "_displayLabels": 12,
   "_displayPreLabels": 0,

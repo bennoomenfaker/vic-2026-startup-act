@@ -11,175 +11,175 @@
       "fondateurs": "Ottavio Lucifero",
       "secteur": "Business Software",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Smart Ecowico Technology",
       "fondateurs": "Achraf Zorgati, Mohamed Amine Chalbi",
       "secteur": "CyberSecurity",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "T Ū NIQ",
       "fondateurs": "Iman Masmoudi, Takoua Gharbi",
       "secteur": "Social Business",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Facstore",
       "fondateurs": "Aya Jallali, Jawhar Kobbi",
       "secteur": "EdTech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "istishara",
       "fondateurs": "Atef Azizi, Ibrahim Chouikh, Abdelfattah Lahbib",
       "secteur": "Services de communication",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Tunisia market",
       "fondateurs": "Abdelhamid Guinoubi, Ahmed Ettoumi, Laila Balti, Mohamed Amine Bensalem, Mohamed Kharrat",
       "secteur": "Marketplace",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Hayat Tech",
       "fondateurs": "Ahmed Yassine Bensalem, Habib Mestiri, Chedhli Hafien",
       "secteur": "Health care",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "SkyRanger",
       "fondateurs": "Ramzi Bouzaiene, Mokhtar Hafien, Jihene Chouiref",
       "secteur": "Agritech",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Food lab belarabi",
       "fondateurs": "Rasha Chwiref, Marwen Khouaja",
       "secteur": "FoodTech & New Food",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Softbook",
       "fondateurs": "Houssem Miled, Hedi Miled",
       "secteur": "Health care",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Bridge Technology",
       "fondateurs": "Hafedh Barhoumi, Slim Mahrsi",
       "secteur": "Business Software",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "EMISERV",
       "fondateurs": "Mahdi Truki, Walim JRIBI, Mohamed Ismail Mesbeh, Mohamed Amine Jarraya",
       "secteur": "Advanced Manufacturing &",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "BOOSTENO TUNISIE",
       "fondateurs": "Maher Tlili, Khalil Cherif, Mohamed salah Nachi",
       "secteur": "Services de communication",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Signalétique intelligente / Thor System",
       "fondateurs": "Malek Redissi",
       "secteur": "",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Learnygo",
       "fondateurs": "Samir Zabi, Mohamed Essid, Maroua Ben Ali",
       "secteur": "Business Software",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Herbéos",
       "fondateurs": "Mohamed Yassine Soussi, Walid Saadaoui",
       "secteur": "Agritech",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Taxiora Pub",
       "fondateurs": "Khaled Benlatrach, Youssef Hammami",
       "secteur": "Services de communication",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "The Bridge",
       "fondateurs": "Bassem Thabti",
       "secteur": "EdTech",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "Talasin",
       "fondateurs": "Majdi Ben Farhat",
       "secteur": "Social Business",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "Freeman",
       "fondateurs": "Khalil Hamdi, Mohamed Dridi",
       "secteur": "Social Business",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "ECOclicko",
       "fondateurs": "Nissaf Sleymi, Maher Zahar",
       "secteur": "EdTech",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "C'mind",
       "fondateurs": "Sabri Barbaria, Sofienne Mallek",
       "secteur": "Health care",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "TN Smartbot",
       "fondateurs": "Assil Salah",
       "secteur": "Creative industry",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Birou Suite",
       "fondateurs": "Birou Suite",
       "secteur": "Boumiza Imen",
       "resultat": "conditions d'octroi",
-      "_displayDecision": "unknown"
+      "_displayDecision": "irrecevable"
     },
     {
       "societe": "Lait Espoir",
       "fondateurs": "Lait Espoir",
       "secteur": "Hayfa KHALFAOUI",
       "resultat": "label accorde suite a la creation de la startup et le respect des",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "SUPREMCLOUD TECHNOLOGIES",
@@ -222,10 +222,11 @@
     "labels": 13,
     "preLabels": 4,
     "taux_acceptation_pct": 52.0,
-    "statut": "conforme_manuel",
-    "retraits": 0,
-    "conversions": 0,
-    "newLabels": 13
+    "statut": "replit_csv_conforme",
+    "retraits": 1,
+    "conversions": 7,
+    "newLabels": 13,
+    "taux": 52.0
   },
   "_displayLabels": 13,
   "_displayPreLabels": 4,

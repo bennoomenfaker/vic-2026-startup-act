@@ -11,217 +11,217 @@
       "fondateurs": "Naoufel Nabli, Mejdi Bouaﬁf",
       "secteur": "HealthTech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Replic-A",
       "fondateurs": "Wissem Jerbi, Sonia Issaad, Ahmed Malek",
       "secteur": "Business So�ware and services",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Tunisia Baits",
       "fondateurs": "Marwen Mokdad",
       "secteur": "Agritech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Tunisian Campers",
       "fondateurs": "Mohamed Temimi, Rania Makhlouf",
       "secteur": "Wellness",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Tsiwrat Stock",
       "fondateurs": "Firas Chetouane, Adam Bouchaala",
       "secteur": "Ad Tech and Crea�ve Tech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Advantry X",
       "fondateurs": "Kawthar Ayedi, Imene Aidi",
       "secteur": "Robo�cs",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "KOM YA",
       "fondateurs": "Yosra Aydi, Meriam Aidi, Wissal Dhuib",
       "secteur": "Commerce and shopping",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "My Brain",
       "fondateurs": "Rahma Harzi, Yasmine Ben Saad, Yassine Boumaiza",
       "secteur": "HealthTech",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "TOF: Tyres On Fire",
       "fondateurs": "Oussama Bel Hadj Ali, Ahmed Ben Othman",
       "secteur": "Ad Tech and Crea�ve Tech",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "cercina.ai",
       "fondateurs": "Oussema Bennour, Dhiaeddine Gharsallah, Foued Kilani",
       "secteur": "Ad Tech and Crea�ve Tech",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Grün Skincare",
       "fondateurs": "Djazia Messous, Zied Hriz",
       "secteur": "Wellness",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Xpro",
       "fondateurs": "Yosra Tahri, Haythem Il Banney",
       "secteur": "Agritech",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Gi�y.tn",
       "fondateurs": "Jihed Chemlali, Amel Ben Ammar Elgaïed",
       "secteur": "Commerce and shopping",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "A.M.I.S.",
       "fondateurs": "Rabie Razgallah, Siwar Mechri",
       "secteur": "HealthTech",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Ziwziw Family Friend",
       "fondateurs": "Nawres Mechri",
       "secteur": "EdTech",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "COADIS",
       "fondateurs": "Imen jridi",
       "secteur": "Robo�cs",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "PARKEY",
       "fondateurs": "Mehdi Romdhane",
       "secteur": "Mobility",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Thiqab",
       "fondateurs": "Kaouther Hedhly, Aicha Zahou",
       "secteur": "Business So�ware and services",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Cer�f.tn",
       "fondateurs": "Sameh Ben Hmida",
       "secteur": "Ad Tech and Crea�ve Tech",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "ITEM TUNISIA",
       "fondateurs": "Abdessalem Barkia",
       "secteur": "Robo�cs",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "DigiQuorum",
       "fondateurs": "Nawel Brahmi, Aymen El Kadhi",
       "secteur": "Business So�ware and services",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Addval Solu�ons",
       "fondateurs": "Noamen Hassen, Jean David Rombi",
       "secteur": "Business So�ware and services",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Ukka",
       "fondateurs": "Ukka Ukka",
       "secteur": "Ad Tech and Crea�ve Tech",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Voltat Technologies Pozitron",
       "fondateurs": "Saadi Mohamed, Sghaier Mohamed Wael, Salma Bessalah",
       "secteur": "Mobility",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "CAMINOVA Caminova",
       "fondateurs": "Sihem Bessalah, Oussama Dhahri",
       "secteur": "HealthTech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "SOCIETE  SAGUEDNI CapsaFood",
       "fondateurs": "Amine Chortani, Hadil Fouli, Eskander Alaya",
       "secteur": "Mobility",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "BLUEPSOL",
       "fondateurs": "Power solu�on Ahmed Baccouch, Chaima GRIRA, Rami Khouja",
       "secteur": "Environment",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "SOCIETE INNOVEGA Innovega",
       "fondateurs": "Rym Ghribi, Amira Ben Abdeljelil, Mohamed Turki",
       "secteur": "Agritech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "MRC SURVEY MRC SURVEY",
       "fondateurs": "Skander Hadj Mabrouk, Aymen Jhidri, Wassim Abdel Malek",
       "secteur": "Services",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Workly Hub  Canadin",
       "fondateurs": "Mohamed Ali Ben Slimen, Souad Belghith, Dhiaeddinne Rahali",
       "secteur": "Services",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "BEE SPRING",
       "fondateurs": "Elevage des abeilles pour la collecte  Chedly Ellijimi",
       "secteur": "Wellness",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     }
   ],
   "session_data": {
@@ -229,10 +229,11 @@
     "labels": 18,
     "preLabels": 11,
     "taux_acceptation_pct": 54.5,
-    "statut": "conforme_manuel",
-    "retraits": 0,
-    "conversions": 0,
-    "newLabels": 18
+    "statut": "replit_csv_conforme",
+    "retraits": 1,
+    "conversions": 11,
+    "newLabels": 18,
+    "taux": 54.5
   },
   "_displayLabels": 18,
   "_displayPreLabels": 11,

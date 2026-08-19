@@ -11,133 +11,133 @@
       "fondateurs": "Chaima Chaouachi",
       "secteur": "Marketplace",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Fidness",
       "fondateurs": "Ahmed Najjar",
       "secteur": "BusinessSoftware & Services",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Nqollek Haja",
       "fondateurs": "Yasmine Ansari",
       "secteur": "Social Business",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Wefix",
       "fondateurs": "Sabri Cheriha, Houssem Eddine Ben Smida",
       "secteur": "Environment/Energie",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Trivaw",
       "fondateurs": "Awatef Rebhi, Iheb Triki",
       "secteur": "TravelTech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Kumulus",
       "fondateurs": "Mohamed Ali Abid, Nouha Abroug, Nesrine Welhezi",
       "secteur": "Environment/Energie",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "WIN NOW",
       "fondateurs": "Nizar Welhazi, Ahmed Jemaa",
       "secteur": "Services de communication",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Kiddo",
       "fondateurs": "Ines Rahrah, Nour Kraiem",
       "secteur": "EdTech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Qr Menu",
       "fondateurs": "Sirine Kraiem, Sonia Othman",
       "secteur": "FoodTech & New Food",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Foodoo.tn",
       "fondateurs": "",
       "secteur": "FoodTech & New Food",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Clic to know",
       "fondateurs": "Nejmeddinne Sakly, Houssem Chkioua, Amira Guermazi",
       "secteur": "EdTech",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "VIRIBUS CENTER",
       "fondateurs": "Ahmed Laamouchi, Meriem Bel Haj Mohamed",
       "secteur": "Services de communication",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "SAFE STUDENT",
       "fondateurs": "Hajer Mzoughi, Eya Bel Haj Mohamed, Mustapha Bouarrouj",
       "secteur": "Proptech",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "Tunifund",
       "fondateurs": "Kathleen White, Mohamed Kallel, Achraf Chabbouh, Amel Aloulou",
       "secteur": "Mobility",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "Stile.ai",
       "fondateurs": "Sahar Ben Mabrouk, Rateb Jabbar, Ahmed Ben Said",
       "secteur": "Creative industry",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "Digix",
       "fondateurs": "Amir Trigui, Ahmed Jemaa",
       "secteur": "Social Business",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "Kiddo",
       "fondateurs": "Ines Rahrah",
       "secteur": "EdTech",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "STE COACHINI",
       "fondateurs": "Coachini",
       "secteur": "Lotfi Mzoughi",
       "resultat": "Services de communication",
-      "_displayDecision": "unknown"
+      "_displayDecision": "irrecevable"
     },
     {
       "societe": "SECRET SUCRE KIDS",
       "fondateurs": "SECRET SUCRE KIDS",
       "secteur": "Mohamed amine Mhiri",
       "resultat": "Creative industry",
-      "_displayDecision": "unknown"
+      "_displayDecision": "irrecevable"
     },
     {
       "societe": "WEDTECT",
@@ -159,10 +159,11 @@
     "labels": 12,
     "preLabels": 3,
     "taux_acceptation_pct": 66.7,
-    "statut": "conforme_manuel",
+    "statut": "replit_csv_conforme",
     "retraits": 0,
-    "conversions": 0,
-    "newLabels": 12
+    "conversions": 4,
+    "newLabels": 12,
+    "taux": 66.7
   },
   "_displayLabels": 12,
   "_displayPreLabels": 3,

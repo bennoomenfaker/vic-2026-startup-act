@@ -11,168 +11,168 @@
       "fondateurs": "Karim Daghari, Leila Marzoug",
       "secteur": "EdTech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "G.A.J",
       "fondateurs": "Skander daas, Moez Farhat",
       "secteur": "GreenTech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "GROW IT YOURSELF",
       "fondateurs": "Mohamed Amine Youssef, Ilyes Saidani",
       "secteur": "Agritech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "EMNA HUSSEIN",
       "fondateurs": "Emna Hussein",
       "secteur": "Creative industry",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "almourabi e-learning",
       "fondateurs": "Aya Drissi, Fatma Midani",
       "secteur": "EdTech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Soul & Planet",
       "fondateurs": "Mehdi Achour, Touhami Midani, Tarek Gasmi",
       "secteur": "Marketplace / e-commerce Label",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Lakadimia",
       "fondateurs": "Karim Ettabaa, Hassen Naas",
       "secteur": "EdTech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Laevitas",
       "fondateurs": "Amine Massaabi, Rassil Rhouma, Pierre Rinaldi",
       "secteur": "Fintech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "SESAMm invented technology",
       "fondateurs": "Sylvain Forte, Florian Aubry, Mohamed Bayouli, Emna Ben Jeddi",
       "secteur": "Fintech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "CAMPUSNA",
       "fondateurs": "Neila Alya Benzina",
       "secteur": "EdTech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "DIGI-TECH",
       "fondateurs": "Houssein Midouni, Yassine Boumaiza",
       "secteur": "Services de communication Prélabel",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "MediaMax",
       "fondateurs": "Oussama Bel Hadj Ali, Sonia Hafaiedh",
       "secteur": "Gaming",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Reserv",
       "fondateurs": "Anissa Hafaiedh, Aymen Aouadi, Malek Ben Yedder",
       "secteur": "FoodTech & New Food",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Hémisphère",
       "fondateurs": "Motaz Marzouki, Khaled Mejbri",
       "secteur": "EdTech",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "INOVA WIRELESS",
       "fondateurs": "Mohamed Tlich",
       "secteur": "Mobility",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "WimbeyondAnalytica",
       "fondateurs": "Neila Benzina, Mohamed Bahri",
       "secteur": "Business Software",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Smarketyrs",
       "fondateurs": "Hayet Rais, Jeremy Rochot, Kaies Tarres",
       "secteur": "Business Software",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Investhune plus",
       "fondateurs": "Malek Chaabane, Mohamed Amine Berguiga",
       "secteur": "Fintech",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "forsaty",
       "fondateurs": "Mohamed Slimeni, Khaled Chiboub",
       "secteur": "Marketplace / e-commerce Prélabel",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Hubs",
       "fondateurs": "Mohamed Hamlaoui, Karim Hammami",
       "secteur": "Wellness",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "CRABHOUSE",
       "fondateurs": "Mohamed Amine Battikh, Arselene Rouatbi",
       "secteur": "FoodTech & New Food",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Sté MASPET",
       "fondateurs": "Ridha Rouatbi, Ahdi Hidri",
       "secteur": "Creative industry",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "3D real",
       "fondateurs": "Youssef Chatti",
       "secteur": "Services de communication Label",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Digital group performance",
       "fondateurs": "Hatem Ben Brahim",
       "secteur": "Services de communication Label",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     }
   ],
   "session_data": {
@@ -180,10 +180,11 @@
     "labels": 19,
     "preLabels": 8,
     "taux_acceptation_pct": 47.5,
-    "statut": "conforme_manuel",
-    "retraits": 0,
-    "conversions": 0,
-    "newLabels": 19
+    "statut": "replit_csv_conforme",
+    "retraits": 1,
+    "conversions": 6,
+    "newLabels": 19,
+    "taux": 47.5
   },
   "_displayLabels": 19,
   "_displayPreLabels": 8,

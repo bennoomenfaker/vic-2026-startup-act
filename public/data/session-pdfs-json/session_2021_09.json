@@ -11,245 +11,245 @@
       "fondateurs": "Zied Zmantar, Malek Hamouda",
       "secteur": "EdTech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Urban Green",
       "fondateurs": "Hamed Baltagi, Abdelhalim Zaibi, Ahmed Ben Mahmoud",
       "secteur": "Agritech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Unify",
       "fondateurs": "Wael Gargouri, Adam Boulila",
       "secteur": "Creative industry",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Smartfleet",
       "fondateurs": "Ilyes Belhaj, Kamel Sanai, Yousri Filali, Majdi Sidaoui, Farhat Akrout",
       "secteur": "Business Software",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "CUIDA",
       "fondateurs": "Houssem Eddine Sanai, Walid Zaghdoud, Amel Saif Ennasser, Ameni Jebahi, Asma Ben Abdallah, Basma Yacoubi",
       "secteur": "Health care",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "CAIRUS DIGITAL BUSINESS CENTER",
       "fondateurs": "Oussema Yacoubi, Haithem Besghaier",
       "secteur": "Fintech",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "GARK",
       "fondateurs": "Amine Gongi, Mohamed Taha Jemmali, Hamadi Ben Slimane",
       "secteur": "Health care",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Pivlo",
       "fondateurs": "Mosbehi Mohamed Montassar",
       "secteur": "Business Software",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "D-SIGNALITIQUE",
       "fondateurs": "Jawhara Ben Aissa, Ramzi Hmani",
       "secteur": "Services de communication",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "DIGITAL DRINA",
       "fondateurs": "Leila Slim, Boubaker Tilouche",
       "secteur": "Services de communication",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Jibheli",
       "fondateurs": "Ibtihel Kochat, Habib Jrad, Amine Zgarni",
       "secteur": "Mobility",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Meducol",
       "fondateurs": "Bassem Dahmani, Sarra Bahrini",
       "secteur": "EdTech",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "Delivery",
       "fondateurs": "Habib Miladi, Marwen Ferchichi",
       "secteur": "Marketplace",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "Promo alert",
       "fondateurs": "Ghassen Cherif, Mounir secrafi",
       "secteur": "Services de communication",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "Mosta9bli",
       "fondateurs": "Elyes Chihaoui, Lynda Belhadj",
       "secteur": "Services de communication",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "NETOX",
       "fondateurs": "Lina Belhadj, Jihene El Ouakdi, Fatma Abou el hija",
       "secteur": "EdTech",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "Baazar",
       "fondateurs": "ghassen ksouri, Wathek BenFradj",
       "secteur": "Business Software",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "STAGGY",
       "fondateurs": "Sarra Mannai, Eya Chebili",
       "secteur": "Health care",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "YARAKA PROTEIN",
       "fondateurs": "Bassem Louati",
       "secteur": "FoodTech & New Food",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "Mediterranean Advanced Marine",
       "fondateurs": "Abdelkader Mahmoud",
       "secteur": "Creative industry",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "Engineering La Beylicale",
       "fondateurs": "Zied Manai, Mehdi Hamrouni, Khalil Agrebi, Imen Guezguez, Mohamed Jawher Hamed",
       "secteur": "FoodTech & New Food",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "SOSADRESSE.COM",
       "fondateurs": "Bellahssen Bellili, Syrine Rhoùma, Ghassen Sghaier",
       "secteur": "Services de communication",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "iziclaim",
       "fondateurs": "Senda Akili, Mohamed Habib Sghaier",
       "secteur": "Fintech",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "Provectus Technology",
       "fondateurs": "Provectus Dhia Jemli, Monji Jemli",
       "secteur": "Advanced Manufacturing &",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "DIGITIN",
       "fondateurs": "DIGITIN Aymen Bergaoui, Hichem Mokni",
       "secteur": "Creative industry",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "STE PERSAVIA",
       "fondateurs": "NextAV, Foued Elkamel, Fatma Abou El Hija",
       "secteur": "Mobility",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "EdTrust",
       "fondateurs": "School Pack, Ahmed Maalej",
       "secteur": "EdTech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "REDUP",
       "fondateurs": "KICK LIGHT Med Amir Lahmar",
       "secteur": "Health care",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "STE Vizmerald",
       "fondateurs": "Vizmerald Bassem Seddik, Mohamed Ali Brini",
       "secteur": "Industry",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "Cooptatio",
       "fondateurs": "Cooptatio, Hayfa Ben Mohamed, Wael Hassen, Ala Eddine Hassen",
       "secteur": "Business Software",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "INVESTHUNE PLUS",
       "fondateurs": "Investhune plus, Malek Chaabane, Mohamed Amine Berguiga, mariam ouanes, Ahmed Becha",
       "secteur": "Fintech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "Analytix YS",
       "fondateurs": "Analytix, Ines El Ayeb, Amine Gara",
       "secteur": "Fintech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "FIVE DELIVERY",
       "fondateurs": "Deliv's Sinda Bououn",
       "secteur": "FoodTech & New Food",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "WELINCO",
       "fondateurs": "TiKtak Pro Zied Bouhejba, Hadded Malek",
       "secteur": "Services de communication",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "RIBLUM",
       "fondateurs": "RIBLUM, Sara Bennour",
       "secteur": "Environement",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "DIMAZINA",
@@ -285,7 +285,8 @@
       },
       "reason": "2 nouveaux labels + 13 conversions = 15 (scrapé : 13)",
       "commentaires": "2 Labels et 13 Prelabels à Labels"
-    }
+    },
+    "taux": 100.0
   },
   "_displayLabels": 15,
   "_displayPreLabels": 6,

@@ -11,245 +11,245 @@
       "fondateurs": "Asma Reghimi, Bilel Barouni, Noureddine Ben Tahar",
       "secteur": "Business Software & Services",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Kinko",
       "fondateurs": "Mohamed bilel Kedidi, Atef Turki, Yosra Arous",
       "secteur": "Mobility",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "KatYos",
       "fondateurs": "Leila Bennasr, Mahdi Arous, Khelifi Ali",
       "secteur": "Marketplace",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Lavocato",
       "fondateurs": "Khelifi Ibrahim, Ines baccouche",
       "secteur": "Business Software & Services",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "ArtForNess",
       "fondateurs": "",
       "secteur": "Marketplace",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "GoPayzi",
       "fondateurs": "Houssem Charfi",
       "secteur": "Fintech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Above Creation",
       "fondateurs": "Houssem Othmeni, Hamdi Ammar",
       "secteur": "Business Software & Services",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Tomobile Store",
       "fondateurs": "",
       "secteur": "Mobility",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Ostool",
       "fondateurs": "Mehdi Maadi, Walid Ben Ali, Halim Boussada",
       "secteur": "Mobility",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Karriery",
       "fondateurs": "Samy Ben Chaalia, Mohamed Alaya Bouabda, Sofiene Haouas, Sahbi Helali, Ahmed Jlassi, Hamza Nouir, Yessine Bouriga, Karim Kachouri, Salem Abdessalem",
       "secteur": "EdTech",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "PolyPath HealthTech Company",
       "fondateurs": "Mohamed Zegdene, Nejah Ben Nasrallah, kawther Mouelhi",
       "secteur": "Health tech & wellbeing",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "Iysaal",
       "fondateurs": "Mahfoudh Aouichri, Haddad Rafik, Hichem Boussetta, Jamel Hassine",
       "secteur": "Business Software & Services",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Survey Fibre & Civil",
       "fondateurs": "Zohra Neffati, Monji Haddad, Mohamed Amine Mzoughi, Yassine Kardoun",
       "secteur": "Services de communication",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Tryppy",
       "fondateurs": "Skander Saidi, Guesmi Marwen, Hamdi Mustapha",
       "secteur": "Creative industry",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Deepth",
       "fondateurs": "Bouchra Abdallah, Madani Moutaa",
       "secteur": "Health tech & wellbeing",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "maginater",
       "fondateurs": "Bilel Bilelbasly, Mohamed Amine Bensalem, Mohamed Kharrat",
       "secteur": "Creative industry",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Hayat Tech",
       "fondateurs": "Ahmed Yassine Bensalem, Mestiri Habib",
       "secteur": "Health tech & wellbeing",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "ZNet-IT",
       "fondateurs": "Yassin Guirat, Hassen Krid, Ibrahim Hachicha, Khalil Zouari",
       "secteur": "Health tech & wellbeing",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "Sté Carcoliva Delifood",
       "fondateurs": "Moez Krid, Bassem Ayadi, Soufiane Saddoud, Lassaad Ben Rejeb",
       "secteur": "Agritech",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "Birdhouce",
       "fondateurs": "Ramzi Chahin",
       "secteur": "Creative industry",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "H2S",
       "fondateurs": "Amin Haddad, Fares Zarrouk",
       "secteur": "Health tech & wellbeing",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "Pharmadis",
       "fondateurs": "Hatem Zarrouk, Aouadi Aymen",
       "secteur": "Health tech & wellbeing",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "Hémisphère",
       "fondateurs": "Malek Ben Yeder, Firas Ben Hamida, Adnene Ayed",
       "secteur": "EdTech",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "Rewav",
       "fondateurs": "Hatem Ksouri, Seifeddine El Ayeb",
       "secteur": "Creative industry",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "IPOLY STUDIO",
       "fondateurs": "El Ayeb Houssem Eddine",
       "secteur": "Creative industry",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "LOCA BNB",
       "fondateurs": "Bassem Almarzouki",
       "secteur": "TravelTech",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "Dawyny",
       "fondateurs": "Ridha Mahjoub, Sami Arfaoui, Mohamed Takieddine Chabchoub",
       "secteur": "Health tech & wellbeing",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "AgroGrowth",
       "fondateurs": "Arij Ben Abid, Omri takwa, Fedia Ayari",
       "secteur": "Agritech",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "Fluffy Food",
       "fondateurs": "Fida Ailaoui, Ahmed Ayadi, Yosr Ksontini, Ahmed Sebai",
       "secteur": "FoodTech & New Food",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "Skillias",
       "fondateurs": "Nedra Khelil, Khemaies Ahmed, Houssem El Abed",
       "secteur": "EdTech",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "DJubatusR",
       "fondateurs": "Ali Bayoudh",
       "secteur": "Business Software & Services",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "Evoo",
       "fondateurs": "Mohamed Gorrab",
       "secteur": "Business Software & Services",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "Agazone",
       "fondateurs": "Boussaidi Mohamed, Sonia El Fekih",
       "secteur": "Agritech",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "ActivXtract",
       "fondateurs": "Faouzi Zaghbib, Amine Zaghbib, Bguir Abdallah, Hajar Bouchiba, Bakouch Abderrazag, Sameh Souissi, Nour Elimene Essid",
       "secteur": "Agritech",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "CORADASH",
       "fondateurs": "Radhouene Bousnina, Marah Bouzaida",
       "secteur": "Health tech & wellbeing",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "unknown"
     }
   ],
   "session_data": {
@@ -257,10 +257,11 @@
     "labels": 15,
     "preLabels": 9,
     "taux_acceptation_pct": 39.5,
-    "statut": "conforme_manuel",
-    "retraits": 0,
-    "conversions": 0,
-    "newLabels": 15
+    "statut": "replit_csv_conforme",
+    "retraits": 4,
+    "conversions": 6,
+    "newLabels": 15,
+    "taux": 39.5
   },
   "_displayLabels": 15,
   "_displayPreLabels": 9,

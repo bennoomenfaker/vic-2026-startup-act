@@ -11,259 +11,259 @@
       "fondateurs": "Oussama Bahri, Mariem Allouche, Sarah Lamine, Khalil Ben Said",
       "secteur": "EdTech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Live Metrics",
       "fondateurs": "Karim Bouafif, Kerchaoui Amine, Slim Makhlouf",
       "secteur": "Business Software and services",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "FALKU",
       "fondateurs": "Khaled Omri, Ali Amamou, Yousri Hajri",
       "secteur": "Advanced Manufacturing & Robotics Label",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Time and Money Tracker",
       "fondateurs": "Ahmed Ayadi, Abdelkader Boussetta",
       "secteur": "Fintech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Deepnrise",
       "fondateurs": "Youssef Meddeb, Nizar Ayadi",
       "secteur": "Business Software and services",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "2Y2S",
       "fondateurs": "Chermiti Rami Chermiti, Koussay Noomene",
       "secteur": "EdTech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Gigsdesk",
       "fondateurs": "Iyed Ghribi, Nabil Amara, Rayen Bouajaja",
       "secteur": "Business Software and services",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Lyceena",
       "fondateurs": "Jawher Thabet",
       "secteur": "EdTech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "INFINITE",
       "fondateurs": "Moez Jemaa",
       "secteur": "Mobility",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "SMOFT",
       "fondateurs": "Aymen Gahbiche",
       "secteur": "Business Software and services",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Wildkard",
       "fondateurs": "Skander Chouka, Mohamed Dhaouafi",
       "secteur": "Wellness",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Ecobees",
       "fondateurs": "Ali Dhaouafi, Ahmed Dhaouafi",
       "secteur": "Agritech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "BFP",
       "fondateurs": "Boubaker Elaabed, Omar Mellouli, Amira Jihène Kalai",
       "secteur": "Environment",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "immersion3D",
       "fondateurs": "Mohamed mohamed, Siwar Ben Abdelwahed, Fethi Zoghlami",
       "secteur": "Ad Tech and Creative Tech",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Campus Numérique des Métiers",
       "fondateurs": "Abeidi Slim, Ismail Ibala",
       "secteur": "Ad Tech and Creative Tech",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Green Card",
       "fondateurs": "Nebil Aydi",
       "secteur": "Business Software and services",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "South Fruits",
       "fondateurs": "Thouraya Rajah, Younsi Alaeddine",
       "secteur": "Agritech",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Djerba Digital",
       "fondateurs": "Mahjoubi Wael, Yassine Ben Ghorbal",
       "secteur": "Business Software and services",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "E-KMANDI",
       "fondateurs": "Baha Hajri, Mohamed Khelifi",
       "secteur": "Business Software and services",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "EasyBank",
       "fondateurs": "Maher Khelifi, Mohamed Bouhaouala",
       "secteur": "Fintech",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Jhonny Bikes",
       "fondateurs": "Miriam Abdeljaouad, Jihene Arzaak",
       "secteur": "Mobility",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Arzaak",
       "fondateurs": "Eya Akir, Racha Chwiref, Wissal Douissa",
       "secteur": "Social Business",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Tunisie RGPD",
       "fondateurs": "Rayen Cherni, Slim Abdejalil",
       "secteur": "Business Software and services",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Elevage des insectes (nutri-protéine)",
       "fondateurs": "Abed Helmi Abed, Mohamed Melki",
       "secteur": "FoodTech & New Food",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "HelpyGo",
       "fondateurs": "Yacine Maaroufi, Amani khalfaoui, Safouene Ratel",
       "secteur": "Consumer products and services",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "OneGlobb",
       "fondateurs": "Younes Saidani, Marouene Ratel",
       "secteur": "Business Software and services",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Multiverse AI",
       "fondateurs": "Aymen Yahyaoui, Amine Mosbah",
       "secteur": "Business Software and services",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "lingerie.tn",
       "fondateurs": "Zarami Manel Zarami, Nada Chatti, Mahdi Taghouti",
       "secteur": "Commerce and shopping",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "Lanci.io",
       "fondateurs": "Takwa Ben Abdessalem, Wifek Ben Romdhane, Karim Gharbi",
       "secteur": "Consumer products and services",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "SPADES",
       "fondateurs": "Marcel Deturche, Selim Mohamed Gharbi",
       "secteur": "Business Software and services",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "DEEPAI Artificial Intelligence and Softwares",
       "fondateurs": "DEEP AI Oussama Bahri, Mariem Allouche, Olfa Abid",
       "secteur": "Ad Tech & Creative Tech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "ALIFA FOR ANIMAL WELL BEING",
       "fondateurs": "Alifa, Karim Gharbi, Slim Makhlouf",
       "secteur": "Social Business",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "STE OTOSPEX SOULTIONS",
       "fondateurs": "Otopex Khaled Omri, Ali Amamou, Yousri Hajri",
       "secteur": "Consumer Products & Services",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "RAF Telcos",
       "fondateurs": "Raf Telcos, Ahmed Ayadi, Abdelkader Boussetta",
       "secteur": "Fintech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Cercina Artificial Intelligence",
       "fondateurs": "CERCINA AI Youssef Meddeb, Nizar Ayari",
       "secteur": "Ad Tech & Creative Tech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "National Smart For Green Solutions and",
       "fondateurs": "Smart for Green:Farm and, Rami Chermiti",
       "secteur": "Agritech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Applications",
       "fondateurs": "Forest Fire protection",
       "secteur": "",
       "resultat": "",
-      "_displayDecision": "unknown"
+      "_displayDecision": "irrecevable"
     }
   ],
   "session_data": {
@@ -271,10 +271,11 @@
     "labels": 19,
     "preLabels": 9,
     "taux_acceptation_pct": 48.7,
-    "statut": "conforme_manuel",
+    "statut": "replit_csv_conforme",
     "retraits": 0,
-    "conversions": 0,
-    "newLabels": 19
+    "conversions": 6,
+    "newLabels": 19,
+    "taux": 48.7
   },
   "_displayLabels": 19,
   "_displayPreLabels": 9,

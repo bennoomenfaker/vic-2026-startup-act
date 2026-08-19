@@ -11,133 +11,133 @@
       "fondateurs": "Fatma ELLOUMI, Ryadh BOUSLAMA",
       "secteur": "Ad Tech and",
       "resultat": "label accorde au 2 eme tour",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Data scale Ai",
       "fondateurs": "Mehdi Abdi",
       "secteur": "Advanced",
       "resultat": "label accorde au 3 eme tour",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "QHBuild",
       "fondateurs": "yassin Guirat, ala eddine maatoug, ines msekni, Fadi Kacem, Mohamed Arbi Baklouti, Mounira Zouaghi, nada bougoffa",
       "secteur": "HealthTech",
       "resultat": "prelabel accorde au 2 eme tour",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "MedCity",
       "fondateurs": "Khayri Romdhani, hachicha Mohamed taher",
       "secteur": "Business Software",
       "resultat": "prelabel accorde au 2 eme tour",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Assistant Manager IA QHSE",
       "fondateurs": "Mohamed Hajri, jdidi hamdi",
       "secteur": "Business Software",
       "resultat": "prelabel accorde au 2 eme tour",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Stocki",
       "fondateurs": "Hela Atmani",
       "secteur": "EdTech",
       "resultat": "prelabel accorde au 3 eme tour",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Poly",
       "fondateurs": "Mohamed BADRI",
       "secteur": "Fintech",
       "resultat": "prelabel accorde au 3 eme tour",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Flexee Pay",
       "fondateurs": "Marie Baudlot, Pierre LE ROY",
       "secteur": "Security",
       "resultat": "prelabel accorde au 3 eme tour",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Locknest Pro TN",
       "fondateurs": "mohamed cherif oussayef",
       "secteur": "Business Software",
       "resultat": "prelabel accorde au 3 eme tour",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "PHYLIA TECHNOLOGY",
       "fondateurs": "houssam hamdi",
       "secteur": "Business Software",
       "resultat": "label non accorde au 2 eme tour",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Kruzr",
       "fondateurs": "wael hadji, Elfazaa Majdeddine",
       "secteur": "EdTech",
       "resultat": "label non accorde au 2 eme tour",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Palmyra platform",
       "fondateurs": "hamrouni Adnen, Ludovic MOTTINI, Paul Fafard",
       "secteur": "Business Software",
       "resultat": "label non accorde au 2 eme tour",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Kiffcom Tunisie",
       "fondateurs": "Imed Jabnouni",
       "secteur": "Commerce and",
       "resultat": "label non accorde au 2 eme tour",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Qromo",
       "fondateurs": "",
       "secteur": "",
       "resultat": "prelabel non accorde au 2 eme tour",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "Mashroom Maison Darwa Design § Tech group pharmaco Prime pharmaco Group",
       "fondateurs": "Anis Benna, Ahmed Ben Issia, Fattouma Sana Ben Issia",
       "secteur": "Ad Tech and Creative Tech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "Connecteur bipolaire à serrage  Connecteurs électriques innovants indépendant (CB-SI) Boshiba SARL",
       "fondateurs": "Amor Bouchiba, Badr Houssem",
       "secteur": "Advanced Manufacturing &",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "ITS boX IT Secure Solution",
       "fondateurs": "Mejri Wajdi, Chiheb Mouelhi",
       "secteur": "Security",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "Waste Wise Solution STE FEEL CREATIVE",
       "fondateurs": "Mahdi Souki",
       "secteur": "Environment",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "unknown"
     },
     {
       "societe": "PEAK TECHNOLOGIES SARL Fintech Five Points EdTech SindiBad Group EdTech Black Dune Studio EdTech Khalta Other Majest Eye Business Software and services",
       "fondateurs": "",
       "secteur": "Retrait du Label",
       "resultat": "les sociétés bénéficiaires du Label",
-      "_displayDecision": "label"
+      "_displayDecision": "unknown"
     }
   ],
   "session_data": {
@@ -145,10 +145,11 @@
     "labels": 9,
     "preLabels": 8,
     "taux_acceptation_pct": 31.0,
-    "statut": "conforme_manuel",
-    "retraits": 0,
-    "conversions": 0,
-    "newLabels": 9
+    "statut": "replit_csv_conforme",
+    "retraits": 6,
+    "conversions": 5,
+    "newLabels": 9,
+    "taux": 31.0
   },
   "_displayLabels": 9,
   "_displayPreLabels": 8,

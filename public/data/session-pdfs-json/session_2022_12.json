@@ -11,217 +11,217 @@
       "fondateurs": "Skander Zoghlami, Dhia Zitouni",
       "secteur": "Business Software & Services",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Petsigo",
       "fondateurs": "Hafedh Dridi, Jannet Kamoun",
       "secteur": "HealthTech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "LIPONOV",
       "fondateurs": "Ahmed Aloulou, Mohamed Amine Ziraoui",
       "secteur": "HealthTech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Asterkid نﺋﺎﻛ",
       "fondateurs": "Amel Barbou, Khalifa Zeddini",
       "secteur": "Business Software & Services",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "KADRA NOVA - KN",
       "fondateurs": "Walid Zeddini, Yasmina Zarrouk, Malek Lamine",
       "secteur": "Environment/Energie",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Jemolio",
       "fondateurs": "Karim Soussi, Malek Ben Mbarek, Mohamed Khedher",
       "secteur": "Consumer Product & Services Label",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Yoteqi",
       "fondateurs": "Jalel Ben Romdhane, Walid Meddeb",
       "secteur": "Social Business",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Taskflow",
       "fondateurs": "Mohamed Aziz Lahkimi, Emna Bellagha, Achref Ksontini",
       "secteur": "Mobility",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Papi'Pets SunAir Fountain® : Générateur d’eau de boisson atmosphérique par le solaire",
       "fondateurs": "Chahrazed Remadi, Mortadha Ouadday, Rami Elgolli, Luc Metivier",
       "secteur": "FoodTech & New Food",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Tennex Tunisie",
       "fondateurs": "Chahine Hamila",
       "secteur": "Business Software & Services",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "WeMiam HappyTeams",
       "fondateurs": "Mohamed Aimen Jouini",
       "secteur": "EdTech",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Cava.tn",
       "fondateurs": "Mohamed Ben Youssef, Hamza Guizani",
       "secteur": "Commerce and shopping",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "FastCharging",
       "fondateurs": "Nizar Guizani, Mohamed Aziz Ben Mahmoud, Mariem Hamzaoui, Imed hanana",
       "secteur": "Mobility",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "SamRise",
       "fondateurs": "Meriem Dkhil, Feriel Ben Hassine, Arbi Soussi, Sami Mokaddem",
       "secteur": "Business Software & Services",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "OREADZ",
       "fondateurs": "Atef Attia, Aymen Draoui",
       "secteur": "Consumer products and",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Laboratoire HYGIE",
       "fondateurs": "Sahbi Ben Lamine, Dhouha Kouki",
       "secteur": "HealthTech",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Culinary",
       "fondateurs": "Asma Chebbi, Elyes Somai, Mohamed Naoues",
       "secteur": "FoodTech & New Food",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "WMS",
       "fondateurs": "Yosr Salhi",
       "secteur": "Business Software & Services",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "Fabriquer les produits électroniques",
       "fondateurs": "Marwene Selmi",
       "secteur": "services",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "Aram Clinic",
       "fondateurs": "Aymen Boujbel",
       "secteur": "HealthTech",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "AsOne4Health",
       "fondateurs": "Abdelhalim Rafrafi",
       "secteur": "HealthTech",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "Canadin Achref Bejaoui",
       "fondateurs": "Mohamed Ali Ben Slimen, Souad Belghith, Dhiaeddinne Rahali, Achref Bejaoui, Ilyes Elgaied",
       "secteur": "Business Software & Services",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "prelabel_refuse"
     },
     {
       "societe": "Baktrain Solutions",
       "fondateurs": "Bakourat  Hannachi Wassim, Tezeghedenti Asma",
       "secteur": "Agritech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "TAOO",
       "fondateurs": "TAOO Walid Hached",
       "secteur": "Fintech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Taw Taw Group",
       "fondateurs": "Taw Taw Group Nacir Bouazizi, Ali Koubaa",
       "secteur": "Mobility",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "DOTS TECHNOLOGY",
       "fondateurs": "Auto Sans Risque Feryel Mechri, Mohamed Koubaa, Farouk Bouzouita",
       "secteur": "services",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "EquiBooster",
       "fondateurs": "EquiBooster Saber Elabidi, Nadia Sghaier, Sofiene Ben Hamida, Mohamed Zied Razzegui",
       "secteur": "Social Business",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Karma solution",
       "fondateurs": "KARMA, Rania Zarg El Ayoun, Khaled Taher, Kamel Chahed",
       "secteur": "Services",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "EDATA WAREHOUSE",
       "fondateurs": "eDATA, Fakhri Jemail, Ahlem Bouchahda",
       "secteur": "Services",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "BIGDATIS",
       "fondateurs": "BIGDATIS, Amine Fahem",
       "secteur": "Real Estate Tech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Feed In Green",
       "fondateurs": "FeedIn Amal Khémira",
       "secteur": "Agritech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "unknown"
     }
   ],
   "session_data": {
@@ -250,7 +250,8 @@
       },
       "reason": "7 nouveaux labels + 9 conversions = 16 (scrapé : 17)",
       "commentaires": "07 Labels et 10 Prélabel à Label"
-    }
+    },
+    "taux": 53.3
   },
   "_displayLabels": 16,
   "_displayPreLabels": 5,

@@ -11,140 +11,140 @@
       "fondateurs": "Jawhar Ben Abdallah, Ghassen Alibi, Mohamed Aziz Ghorbel",
       "secteur": "Environment/Energie",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Miam!",
       "fondateurs": "Chedly Soltana, Rami Touati",
       "secteur": "Business Software & Services",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "HEROI",
       "fondateurs": "Taha Ben Abdelmalek",
       "secteur": "Ad Tech and Creative Tech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Slidzo",
       "fondateurs": "Fedi Ben Nejma, Mohamed Amine Messaoudi",
       "secteur": "FoodTech & New Food",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "The Vastlight Platform",
       "fondateurs": "Seif Islem Messaoudi, Abdel Baset Mrabet, Jawher Thabet, Fakher Bourray",
       "secteur": "Business Software & Services",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Rivezli.tn Elevage des abeilles pour la collecte de leurs venins pour des fins cosmétiques et thérapeutiques",
       "fondateurs": "Ghaith Thabet, Moncef Ben Rabia, Chedly Ellijimi, Dheker Hamami",
       "secteur": "EdTech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Moovin360",
       "fondateurs": "Bilel Chebbi, Cyrine Atallah, Emilio Illc La Peruta",
       "secteur": "Communication services",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Waf Waf House",
       "fondateurs": "Ridha Bouasker, Yusbely Nacary Jimenez Guerra, Hassine Atallah, Anouar Abdelkoudous Bouassida",
       "secteur": "Consumer products and services",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Thnity",
       "fondateurs": "Amina Garbouj, Sayma Besbes, Oussama Dhahri",
       "secteur": "Mobility",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "CapsaFood cell pulse",
       "fondateurs": "Amine Chortani, Hadil Fouli, Halima Mahjoubi, Jihed Jridi, Kaouther Zenati, Salem Hamidi, Elhem Cheour, Rami Khouja",
       "secteur": "Mobility",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Innovega",
       "fondateurs": "Rym Ghribi, Amira Ben Abdeljelil, Skander Khaled Fourati",
       "secteur": "Agritech",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Tabachir Games",
       "fondateurs": "Aymen Ayadi, Yassine Mohammed Bouassida, Salma Bessalah",
       "secteur": "EdTech",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Caminova Meeda la table connectée destinée à votre usage intérieur et extérieur.",
       "fondateurs": "Sihem Bessalah, Aziz Annabi, Slim Abdeljelil, Ali Ayari",
       "secteur": "HealthTech",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "WiseBoard",
       "fondateurs": "Slim Oueslati, Rym Oueslati, Fourat Ouerghemmi",
       "secteur": "Fintech",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "D-carte",
       "fondateurs": "Skander Hadj Romdhan, Ala Ben Hassen, Pagnagda Frederic Soubeiga",
       "secteur": "Business Software and services",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Mraabila",
       "fondateurs": "Alia Sabah, Mahdi Kharrat, Fedia ayari",
       "secteur": "Social Business",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Boosty/Almoshtari",
       "fondateurs": "Mohamed Amine Bensalem, Mohamed Badreddine Kharrat, Sabri Abassi",
       "secteur": "Social Business",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Axifraud",
       "fondateurs": "Abdesslem Bhouri khila, Badis Souissi, Borni Dhifi",
       "secteur": "Business Software and services",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Hadooc",
       "fondateurs": "Walid Mchiri, Walid Oussai",
       "secteur": "Business Software and services",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "MSS CONSULTING",
       "fondateurs": "Karim Gharbi",
       "secteur": "Business Software and services",
       "resultat": "label non accorde",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     }
   ],
   "session_data": {
@@ -152,10 +152,11 @@
     "labels": 12,
     "preLabels": 12,
     "taux_acceptation_pct": 33.3,
-    "statut": "conforme_manuel",
-    "retraits": 0,
-    "conversions": 0,
-    "newLabels": 12
+    "statut": "replit_csv_conforme",
+    "retraits": 2,
+    "conversions": 6,
+    "newLabels": 12,
+    "taux": 33.3
   },
   "_displayLabels": 12,
   "_displayPreLabels": 12,

@@ -11,175 +11,175 @@
       "fondateurs": "Faoizia Mehdhaoui, Sofiane Trabelsi",
       "secteur": "Agritech",
       "resultat": "label accorde au 2 eme tour",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Docic",
       "fondateurs": "Sami Kallel, Myriam Mouakhar, Ferid Hamida",
       "secteur": "HealthTech",
       "resultat": "label accorde au 2 eme tour",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "1FOR1 LEARNING",
       "fondateurs": "Cerine Hamida, Mohamed Ali Hmida",
       "secteur": "EdTech",
       "resultat": "label accorde au 2 eme tour",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Amperon Technologies",
       "fondateurs": "Mariem Mnasri, Fetni Mohamed, Anwer Boukmiha Hichem Abdennadher",
       "secteur": "Advanced Manufacturing & Robotics",
       "resultat": "label accorde au 2 eme tour",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Artizone",
       "fondateurs": "Ahmed Besrour, Wiem Klaa",
       "secteur": "Commerce and shopping",
       "resultat": "label accorde au 3 eme tour",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Pass excellence",
       "fondateurs": "Rim Kassous, Yassine Chaker, Al Kallel",
       "secteur": "Business Software and services",
       "resultat": "label accorde au 3 eme tour",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Nativeads Ai",
       "fondateurs": "Wael Abid, Yecin Dridi",
       "secteur": "Ad Tech and Creative Tech",
       "resultat": "label accorde au 3 eme tour",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Otravers",
       "fondateurs": "Alaa Edinee Ben Mbarek, Taycir Chouk",
       "secteur": "Commerce and shopping",
       "resultat": "label accorde au 3 eme tour",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Readdly",
       "fondateurs": "Fares Ben Younes",
       "secteur": "EdTech",
       "resultat": "prelabel accorde au 2 eme tour",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Dari",
       "fondateurs": "Souheil Bouzouita, Mohamed Latiri",
       "secteur": "Real Estate Tech",
       "resultat": "prelabel accorde au 2 eme tour",
-      "_displayDecision": "prelabel"
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Spirunat",
       "fondateurs": "Adnane Kacem, Aziza Ibn Hadj Hassine",
       "secteur": "HealthTech",
       "resultat": "label non accorde au 2 eme tour",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "E-edu",
       "fondateurs": "Mehdi Chelly",
       "secteur": "EdTech",
       "resultat": "label non accorde au 2 eme tour",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Glamour",
       "fondateurs": "Mohamed Yacine Missaoui, Mohsen Bouzid",
       "secteur": "Wellness",
       "resultat": "label non accorde au 2 eme tour",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "HOUKOUK.TECH",
       "fondateurs": "Eya Bouzid, Rayen Bouzid",
       "secteur": "Fintech",
       "resultat": "label non accorde au 2 eme tour",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "EDUCARE",
       "fondateurs": "Lilia Kamoun, Imed Mabrouk",
       "secteur": "EdTech",
       "resultat": "label non accorde au 3 eme tour",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "VIRTUAL ERA",
       "fondateurs": "Abdelkarim Mars, Dhouha Azri",
       "secteur": "Business Software and services",
       "resultat": "label non accorde au 3 eme tour",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Thagamuta Agro",
       "fondateurs": "Affi Khouloud",
       "secteur": "FoodTech & New Food",
       "resultat": "label non accorde au 3 eme tour",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Esticharati",
       "fondateurs": "Ali Dahmani, Arbi Soussi",
       "secteur": "Business Software and services",
       "resultat": "label non accorde au 3 eme tour",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Tale Platform",
       "fondateurs": "Fakhreddine Belgaied",
       "secteur": "Business Software and services",
       "resultat": "label non accorde au 3 eme tour",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "PERF ANALYSIS CONSULTING",
       "fondateurs": "Mohamed Ayachi, Abdelkarim Friaa",
       "secteur": "Business Software and services",
       "resultat": "label non accorde au 3 eme tour",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "SOFTAVERA TUNISIE",
       "fondateurs": "Bechir Ben Abdallah",
       "secteur": "Business Software and services",
       "resultat": "label non accorde au 3 eme tour",
-      "_displayDecision": "refused"
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "VYZYOSCHOOL VYZYOSCHOOL",
       "fondateurs": "Marwa Mhedhebi",
       "secteur": "EdTech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "ECOCODE ECOCODE ENGINEERING linkbook Link4book25",
       "fondateurs": "Business Software and services, EdTech",
       "secteur": "Ghassen Ghribi",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Paytea PayTea Production d'additifs alimentaires",
       "fondateurs": "Business Software and services",
       "secteur": "Rania Kammoun",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Healthy Animal World animale et consulting",
       "fondateurs": "Marwa Mekni Toujani",
       "secteur": "Agritech",
       "resultat": "label accorde",
-      "_displayDecision": "label"
+      "_displayDecision": "label_accorde"
     }
   ],
   "session_data": {
@@ -187,9 +187,9 @@
     "labels": 13,
     "preLabels": 2,
     "taux_acceptation_pct": 33.3,
-    "statut": "conforme_manuel",
-    "retraits": 0,
-    "conversions": 0,
+    "statut": "replit_csv_conforme",
+    "retraits": 2,
+    "conversions": 5,
     "newLabels": 13,
     "correction": {
       "session": "01/2025",
@@ -208,7 +208,8 @@
       },
       "reason": "8 nouveaux labels + 5 conversions − 2 retraits = 13 (scrapé : 18)",
       "commentaires": "13 Labels et 05 Prélabels à Labels"
-    }
+    },
+    "taux": 33.3
   },
   "_displayLabels": 13,
   "_displayPreLabels": 2,
