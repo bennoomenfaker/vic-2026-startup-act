@@ -1,0 +1,862 @@
+{
+  "source": "replit/sessions-visibles.csv",
+  "totals": {
+    "labels": 1311,
+    "preLabels": 623,
+    "candidatures": 2958,
+    "conversions": 502,
+    "retraits": 140
+  },
+  "sessions": [
+    {
+      "session": "03/2019",
+      "labels": 12,
+      "preLabels": 0,
+      "conversions": 0,
+      "retraits": 0,
+      "candidatures": 16,
+      "taux": 75.0,
+      "audit": "Conforme"
+    },
+    {
+      "session": "04/2019",
+      "labels": 33,
+      "preLabels": 0,
+      "conversions": 0,
+      "retraits": 0,
+      "candidatures": 51,
+      "taux": 64.7,
+      "audit": "Conforme"
+    },
+    {
+      "session": "05/2019",
+      "labels": 15,
+      "preLabels": 8,
+      "conversions": 0,
+      "retraits": 0,
+      "candidatures": 30,
+      "taux": 50.0,
+      "audit": "Conforme"
+    },
+    {
+      "session": "06/2019",
+      "labels": 14,
+      "preLabels": 8,
+      "conversions": 0,
+      "retraits": 0,
+      "candidatures": 33,
+      "taux": 42.4,
+      "audit": "Corrigée"
+    },
+    {
+      "session": "07/2019",
+      "labels": 14,
+      "preLabels": 8,
+      "conversions": 0,
+      "retraits": 0,
+      "candidatures": 28,
+      "taux": 50.0,
+      "audit": "Corrigée"
+    },
+    {
+      "session": "08/2019",
+      "labels": 20,
+      "preLabels": 5,
+      "conversions": 0,
+      "retraits": 0,
+      "candidatures": 28,
+      "taux": 71.4,
+      "audit": "Corrigée"
+    },
+    {
+      "session": "09/2019",
+      "labels": 15,
+      "preLabels": 6,
+      "conversions": 3,
+      "retraits": 0,
+      "candidatures": 24,
+      "taux": 62.5,
+      "audit": "Conforme"
+    },
+    {
+      "session": "10/2019",
+      "labels": 23,
+      "preLabels": 5,
+      "conversions": 0,
+      "retraits": 0,
+      "candidatures": 34,
+      "taux": 67.6,
+      "audit": "Corrigée"
+    },
+    {
+      "session": "11/2019",
+      "labels": 17,
+      "preLabels": 10,
+      "conversions": 6,
+      "retraits": 0,
+      "candidatures": 35,
+      "taux": 48.6,
+      "audit": "Conforme"
+    },
+    {
+      "session": "12/2019",
+      "labels": 23,
+      "preLabels": 8,
+      "conversions": 10,
+      "retraits": 0,
+      "candidatures": 32,
+      "taux": 71.9,
+      "audit": "Conforme"
+    },
+    {
+      "session": "01/2020",
+      "labels": 18,
+      "preLabels": 11,
+      "conversions": 4,
+      "retraits": 0,
+      "candidatures": 38,
+      "taux": 47.4,
+      "audit": "Conforme"
+    },
+    {
+      "session": "02/2020",
+      "labels": 22,
+      "preLabels": 11,
+      "conversions": 9,
+      "retraits": 0,
+      "candidatures": 32,
+      "taux": 68.8,
+      "audit": "Conforme"
+    },
+    {
+      "session": "03/2020",
+      "labels": 16,
+      "preLabels": 10,
+      "conversions": 4,
+      "retraits": 0,
+      "candidatures": 35,
+      "taux": 45.7,
+      "audit": "Conforme"
+    },
+    {
+      "session": "04/2020",
+      "labels": 20,
+      "preLabels": 7,
+      "conversions": 3,
+      "retraits": 1,
+      "candidatures": 40,
+      "taux": 50.0,
+      "audit": "Conforme"
+    },
+    {
+      "session": "05/2020",
+      "labels": 12,
+      "preLabels": 10,
+      "conversions": 5,
+      "retraits": 1,
+      "candidatures": 26,
+      "taux": 46.2,
+      "audit": "Conforme"
+    },
+    {
+      "session": "06/2020",
+      "labels": 12,
+      "preLabels": 5,
+      "conversions": 4,
+      "retraits": 0,
+      "candidatures": 26,
+      "taux": 46.2,
+      "audit": "Conforme"
+    },
+    {
+      "session": "07/2020",
+      "labels": 18,
+      "preLabels": 7,
+      "conversions": 9,
+      "retraits": 0,
+      "candidatures": 40,
+      "taux": 45.0,
+      "audit": "Conforme"
+    },
+    {
+      "session": "08/2020",
+      "labels": 17,
+      "preLabels": 6,
+      "conversions": 10,
+      "retraits": 0,
+      "candidatures": 28,
+      "taux": 60.7,
+      "audit": "Conforme"
+    },
+    {
+      "session": "09/2020",
+      "labels": 11,
+      "preLabels": 9,
+      "conversions": 8,
+      "retraits": 5,
+      "candidatures": 24,
+      "taux": 45.8,
+      "audit": "Conforme"
+    },
+    {
+      "session": "10/2020",
+      "labels": 16,
+      "preLabels": 10,
+      "conversions": 7,
+      "retraits": 1,
+      "candidatures": 41,
+      "taux": 39.0,
+      "audit": "Conforme"
+    },
+    {
+      "session": "11/2020",
+      "labels": 26,
+      "preLabels": 14,
+      "conversions": 13,
+      "retraits": 1,
+      "candidatures": 41,
+      "taux": 63.4,
+      "audit": "Conforme"
+    },
+    {
+      "session": "12/2020",
+      "labels": 21,
+      "preLabels": 8,
+      "conversions": 9,
+      "retraits": 0,
+      "candidatures": 36,
+      "taux": 58.3,
+      "audit": "Conforme"
+    },
+    {
+      "session": "01/2021",
+      "labels": 24,
+      "preLabels": 7,
+      "conversions": 9,
+      "retraits": 0,
+      "candidatures": 36,
+      "taux": 66.7,
+      "audit": "Conforme"
+    },
+    {
+      "session": "02/2021",
+      "labels": 25,
+      "preLabels": 10,
+      "conversions": 7,
+      "retraits": 0,
+      "candidatures": 41,
+      "taux": 61.0,
+      "audit": "Corrigée"
+    },
+    {
+      "session": "03/2021",
+      "labels": 25,
+      "preLabels": 8,
+      "conversions": 13,
+      "retraits": 2,
+      "candidatures": 41,
+      "taux": 61.0,
+      "audit": "Conforme"
+    },
+    {
+      "session": "04/2021",
+      "labels": 22,
+      "preLabels": 24,
+      "conversions": 4,
+      "retraits": 1,
+      "candidatures": 80,
+      "taux": 27.5,
+      "audit": "Conforme"
+    },
+    {
+      "session": "05/2021",
+      "labels": 19,
+      "preLabels": 8,
+      "conversions": 6,
+      "retraits": 1,
+      "candidatures": 40,
+      "taux": 47.5,
+      "audit": "Conforme"
+    },
+    {
+      "session": "06/2021",
+      "labels": 18,
+      "preLabels": 6,
+      "conversions": 7,
+      "retraits": 0,
+      "candidatures": 41,
+      "taux": 43.9,
+      "audit": "Conforme"
+    },
+    {
+      "session": "07/2021",
+      "labels": 22,
+      "preLabels": 5,
+      "conversions": 11,
+      "retraits": 0,
+      "candidatures": 40,
+      "taux": 55.0,
+      "audit": "Conforme"
+    },
+    {
+      "session": "08/2021",
+      "labels": 13,
+      "preLabels": 4,
+      "conversions": 7,
+      "retraits": 1,
+      "candidatures": 25,
+      "taux": 52.0,
+      "audit": "Conforme"
+    },
+    {
+      "session": "09/2021",
+      "labels": 15,
+      "preLabels": 6,
+      "conversions": 13,
+      "retraits": 0,
+      "candidatures": 15,
+      "taux": 100.0,
+      "audit": "Corrigée"
+    },
+    {
+      "session": "10/2021",
+      "labels": 23,
+      "preLabels": 7,
+      "conversions": 8,
+      "retraits": 0,
+      "candidatures": 41,
+      "taux": 56.1,
+      "audit": "Conforme"
+    },
+    {
+      "session": "11/2021",
+      "labels": 19,
+      "preLabels": 10,
+      "conversions": 7,
+      "retraits": 0,
+      "candidatures": 40,
+      "taux": 47.5,
+      "audit": "Conforme"
+    },
+    {
+      "session": "12/2021",
+      "labels": 20,
+      "preLabels": 11,
+      "conversions": 6,
+      "retraits": 19,
+      "candidatures": 38,
+      "taux": 52.6,
+      "audit": "Conforme"
+    },
+    {
+      "session": "01/2022",
+      "labels": 15,
+      "preLabels": 9,
+      "conversions": 6,
+      "retraits": 4,
+      "candidatures": 38,
+      "taux": 39.5,
+      "audit": "Conforme"
+    },
+    {
+      "session": "02/2022",
+      "labels": 12,
+      "preLabels": 3,
+      "conversions": 4,
+      "retraits": 0,
+      "candidatures": 18,
+      "taux": 66.7,
+      "audit": "Conforme"
+    },
+    {
+      "session": "03/2022",
+      "labels": 14,
+      "preLabels": 5,
+      "conversions": 9,
+      "retraits": 0,
+      "candidatures": 21,
+      "taux": 66.7,
+      "audit": "Conforme"
+    },
+    {
+      "session": "04/2022",
+      "labels": 9,
+      "preLabels": 6,
+      "conversions": 4,
+      "retraits": 1,
+      "candidatures": 22,
+      "taux": 40.9,
+      "audit": "Conforme"
+    },
+    {
+      "session": "05/2022",
+      "labels": 14,
+      "preLabels": 9,
+      "conversions": 6,
+      "retraits": 2,
+      "candidatures": 41,
+      "taux": 34.1,
+      "audit": "Conforme"
+    },
+    {
+      "session": "06/2022",
+      "labels": 14,
+      "preLabels": 10,
+      "conversions": 4,
+      "retraits": 2,
+      "candidatures": 40,
+      "taux": 35.0,
+      "audit": "Conforme"
+    },
+    {
+      "session": "07/2022",
+      "labels": 18,
+      "preLabels": 9,
+      "conversions": 4,
+      "retraits": 1,
+      "candidatures": 40,
+      "taux": 45.0,
+      "audit": "Conforme"
+    },
+    {
+      "session": "08/2022",
+      "labels": 12,
+      "preLabels": 12,
+      "conversions": 6,
+      "retraits": 2,
+      "candidatures": 36,
+      "taux": 33.3,
+      "audit": "Conforme"
+    },
+    {
+      "session": "09/2022",
+      "labels": 19,
+      "preLabels": 5,
+      "conversions": 9,
+      "retraits": 0,
+      "candidatures": 40,
+      "taux": 47.5,
+      "audit": "Conforme"
+    },
+    {
+      "session": "10/2022",
+      "labels": 14,
+      "preLabels": 7,
+      "conversions": 6,
+      "retraits": 1,
+      "candidatures": 38,
+      "taux": 36.8,
+      "audit": "Conforme"
+    },
+    {
+      "session": "11/2022",
+      "labels": 17,
+      "preLabels": 10,
+      "conversions": 8,
+      "retraits": 0,
+      "candidatures": 34,
+      "taux": 50.0,
+      "audit": "Conforme"
+    },
+    {
+      "session": "12/2022",
+      "labels": 16,
+      "preLabels": 5,
+      "conversions": 9,
+      "retraits": 0,
+      "candidatures": 30,
+      "taux": 53.3,
+      "audit": "Corrigée"
+    },
+    {
+      "session": "01/2023",
+      "labels": 16,
+      "preLabels": 6,
+      "conversions": 10,
+      "retraits": 2,
+      "candidatures": 26,
+      "taux": 61.5,
+      "audit": "Conforme"
+    },
+    {
+      "session": "02/2023",
+      "labels": 18,
+      "preLabels": 11,
+      "conversions": 11,
+      "retraits": 1,
+      "candidatures": 33,
+      "taux": 54.5,
+      "audit": "Conforme"
+    },
+    {
+      "session": "03/2023",
+      "labels": 14,
+      "preLabels": 6,
+      "conversions": 5,
+      "retraits": 0,
+      "candidatures": 37,
+      "taux": 37.8,
+      "audit": "Corrigée"
+    },
+    {
+      "session": "04/2023",
+      "labels": 13,
+      "preLabels": 5,
+      "conversions": 0,
+      "retraits": 0,
+      "candidatures": 40,
+      "taux": 32.5,
+      "audit": "Corrigée"
+    },
+    {
+      "session": "05/2023",
+      "labels": 19,
+      "preLabels": 9,
+      "conversions": 6,
+      "retraits": 0,
+      "candidatures": 39,
+      "taux": 48.7,
+      "audit": "Conforme"
+    },
+    {
+      "session": "06/2023",
+      "labels": 10,
+      "preLabels": 8,
+      "conversions": 6,
+      "retraits": 0,
+      "candidatures": 28,
+      "taux": 35.7,
+      "audit": "Conforme"
+    },
+    {
+      "session": "07/2023",
+      "labels": 15,
+      "preLabels": 8,
+      "conversions": 9,
+      "retraits": 2,
+      "candidatures": 33,
+      "taux": 45.5,
+      "audit": "Conforme"
+    },
+    {
+      "session": "08/2023",
+      "labels": 11,
+      "preLabels": 5,
+      "conversions": 7,
+      "retraits": 0,
+      "candidatures": 26,
+      "taux": 42.3,
+      "audit": "Corrigée"
+    },
+    {
+      "session": "09/2023",
+      "labels": 15,
+      "preLabels": 6,
+      "conversions": 8,
+      "retraits": 1,
+      "candidatures": 33,
+      "taux": 45.5,
+      "audit": "Conforme"
+    },
+    {
+      "session": "10/2023",
+      "labels": 6,
+      "preLabels": 4,
+      "conversions": 1,
+      "retraits": 3,
+      "candidatures": 31,
+      "taux": 19.4,
+      "audit": "Corrigée"
+    },
+    {
+      "session": "11/2023",
+      "labels": 12,
+      "preLabels": 7,
+      "conversions": 8,
+      "retraits": 6,
+      "candidatures": 30,
+      "taux": 40.0,
+      "audit": "Corrigée"
+    },
+    {
+      "session": "12/2023",
+      "labels": 12,
+      "preLabels": 5,
+      "conversions": 5,
+      "retraits": 0,
+      "candidatures": 39,
+      "taux": 30.8,
+      "audit": "Corrigée"
+    },
+    {
+      "session": "01/2024",
+      "labels": 14,
+      "preLabels": 6,
+      "conversions": 6,
+      "retraits": 3,
+      "candidatures": 33,
+      "taux": 42.4,
+      "audit": "Conforme"
+    },
+    {
+      "session": "02/2024",
+      "labels": 9,
+      "preLabels": 6,
+      "conversions": 5,
+      "retraits": 3,
+      "candidatures": 33,
+      "taux": 27.3,
+      "audit": "Conforme"
+    },
+    {
+      "session": "03/2024",
+      "labels": 6,
+      "preLabels": 7,
+      "conversions": 4,
+      "retraits": 3,
+      "candidatures": 31,
+      "taux": 19.4,
+      "audit": "Corrigée"
+    },
+    {
+      "session": "04/2024",
+      "labels": 14,
+      "preLabels": 5,
+      "conversions": 5,
+      "retraits": 2,
+      "candidatures": 39,
+      "taux": 35.9,
+      "audit": "Conforme"
+    },
+    {
+      "session": "05/2024",
+      "labels": 14,
+      "preLabels": 5,
+      "conversions": 5,
+      "retraits": 2,
+      "candidatures": 39,
+      "taux": 35.9,
+      "audit": "Conforme"
+    },
+    {
+      "session": "06/2024",
+      "labels": 14,
+      "preLabels": 5,
+      "conversions": 3,
+      "retraits": 2,
+      "candidatures": 37,
+      "taux": 37.8,
+      "audit": "Conforme"
+    },
+    {
+      "session": "07/2024",
+      "labels": 6,
+      "preLabels": 7,
+      "conversions": 2,
+      "retraits": 3,
+      "candidatures": 33,
+      "taux": 18.2,
+      "audit": "Corrigée"
+    },
+    {
+      "session": "08/2024",
+      "labels": 11,
+      "preLabels": 6,
+      "conversions": 6,
+      "retraits": 1,
+      "candidatures": 37,
+      "taux": 29.7,
+      "audit": "Conforme"
+    },
+    {
+      "session": "09/2024",
+      "labels": 11,
+      "preLabels": 9,
+      "conversions": 5,
+      "retraits": 1,
+      "candidatures": 34,
+      "taux": 32.4,
+      "audit": "Conforme"
+    },
+    {
+      "session": "10/2024",
+      "labels": 15,
+      "preLabels": 7,
+      "conversions": 6,
+      "retraits": 3,
+      "candidatures": 43,
+      "taux": 34.9,
+      "audit": "Conforme"
+    },
+    {
+      "session": "11/2024",
+      "labels": 14,
+      "preLabels": 7,
+      "conversions": 2,
+      "retraits": 2,
+      "candidatures": 41,
+      "taux": 34.1,
+      "audit": "Conforme"
+    },
+    {
+      "session": "12/2024",
+      "labels": 16,
+      "preLabels": 4,
+      "conversions": 6,
+      "retraits": 1,
+      "candidatures": 40,
+      "taux": 40.0,
+      "audit": "Conforme"
+    },
+    {
+      "session": "01/2025",
+      "labels": 13,
+      "preLabels": 2,
+      "conversions": 5,
+      "retraits": 2,
+      "candidatures": 39,
+      "taux": 33.3,
+      "audit": "Corrigée"
+    },
+    {
+      "session": "02/2025",
+      "labels": 13,
+      "preLabels": 9,
+      "conversions": 4,
+      "retraits": 4,
+      "candidatures": 41,
+      "taux": 31.7,
+      "audit": "Conforme"
+    },
+    {
+      "session": "03/2025",
+      "labels": 6,
+      "preLabels": 5,
+      "conversions": 0,
+      "retraits": 1,
+      "candidatures": 21,
+      "taux": 28.6,
+      "audit": "Conforme"
+    },
+    {
+      "session": "04/2025",
+      "labels": 13,
+      "preLabels": 5,
+      "conversions": 8,
+      "retraits": 7,
+      "candidatures": 21,
+      "taux": 61.9,
+      "audit": "Conforme"
+    },
+    {
+      "session": "05/2025",
+      "labels": 13,
+      "preLabels": 13,
+      "conversions": 3,
+      "retraits": 1,
+      "candidatures": 47,
+      "taux": 27.7,
+      "audit": "Corrigée"
+    },
+    {
+      "session": "06/2025",
+      "labels": 12,
+      "preLabels": 8,
+      "conversions": 5,
+      "retraits": 1,
+      "candidatures": 36,
+      "taux": 33.3,
+      "audit": "Conforme"
+    },
+    {
+      "session": "07/2025",
+      "labels": 9,
+      "preLabels": 8,
+      "conversions": 5,
+      "retraits": 6,
+      "candidatures": 29,
+      "taux": 31.0,
+      "audit": "Conforme"
+    },
+    {
+      "session": "08/2025",
+      "labels": 15,
+      "preLabels": 9,
+      "conversions": 9,
+      "retraits": 4,
+      "candidatures": 41,
+      "taux": 36.6,
+      "audit": "Conforme"
+    },
+    {
+      "session": "09/2025",
+      "labels": 7,
+      "preLabels": 10,
+      "conversions": 6,
+      "retraits": 4,
+      "candidatures": 25,
+      "taux": 28.0,
+      "audit": "Conforme"
+    },
+    {
+      "session": "10/2025",
+      "labels": 17,
+      "preLabels": 12,
+      "conversions": 10,
+      "retraits": 3,
+      "candidatures": 41,
+      "taux": 41.5,
+      "audit": "Conforme"
+    },
+    {
+      "session": "11/2025",
+      "labels": 15,
+      "preLabels": 3,
+      "conversions": 8,
+      "retraits": 2,
+      "candidatures": 39,
+      "taux": 38.5,
+      "audit": "Conforme"
+    },
+    {
+      "session": "12/2025",
+      "labels": 16,
+      "preLabels": 6,
+      "conversions": 10,
+      "retraits": 5,
+      "candidatures": 41,
+      "taux": 39.0,
+      "audit": "Corrigée"
+    },
+    {
+      "session": "01/2026",
+      "labels": 10,
+      "preLabels": 7,
+      "conversions": 7,
+      "retraits": 5,
+      "candidatures": 31,
+      "taux": 32.3,
+      "audit": "Corrigée"
+    },
+    {
+      "session": "02/2026",
+      "labels": 20,
+      "preLabels": 3,
+      "conversions": 11,
+      "retraits": 2,
+      "candidatures": 36,
+      "taux": 55.6,
+      "audit": "Corrigée"
+    },
+    {
+      "session": "03/2026",
+      "labels": 13,
+      "preLabels": 7,
+      "conversions": 3,
+      "retraits": 6,
+      "candidatures": 41,
+      "taux": 31.7,
+      "audit": "Conforme"
+    }
+  ]
+}

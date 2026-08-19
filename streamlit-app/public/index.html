@@ -21,7 +21,7 @@
   <meta property="og:url" content="https://vic-esen-iscae-2026-startup-act.onrender.com/">
   <meta property="og:site_name" content="Startup Act Tunisie — Étude Quantitative">
   <meta property="og:image" content="https://vic-esen-iscae-2026-startup-act.onrender.com/og-image.png">
-  <meta property="og:image:alt" content="Startup Act Tunisie — étude quantitative des sessions de labellisation 2019-2026 : 85 sessions, 2 958 candidatures, 1 311 labels">
+  <meta property="og:image:alt" content="Startup Act Tunisie — étude quantitative des sessions de labellisation 2019-2026 : 85 sessions, 3 015 candidatures, 1 311 labels">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:see_also" content="https://bennoomenfaker.github.io/">
@@ -1035,8 +1035,8 @@
           <div class="dash-hero-stats" id="dashHeroStats">
             <div class="hero-stat"><span class="hero-stat-num">1 311</span><span class="hero-stat-lbl">Labels</span></div>
             <div class="hero-stat"><span class="hero-stat-num">623</span><span class="hero-stat-lbl">Pré-Labels</span></div>
-            <div class="hero-stat"><span class="hero-stat-num">2 958</span><span class="hero-stat-lbl">Candidatures</span></div>
-            <div class="hero-stat"><span class="hero-stat-num">44,3 %</span><span class="hero-stat-lbl">Taux moyen</span></div>
+            <div class="hero-stat"><span class="hero-stat-num">3 015</span><span class="hero-stat-lbl">Candidatures</span></div>
+            <div class="hero-stat"><span class="hero-stat-num">43,5 %</span><span class="hero-stat-lbl">Taux moyen</span></div>
           </div>
         </div>
         <div class="dash-hero-badge">✓ Données corrigées</div>
@@ -1080,7 +1080,7 @@
       <div class="dash-hero">
         <div class="dash-hero-text">
           <h1>Dashboard Avancé — Données Extraites</h1>
-          <p>Visualisations interactives basées sur les 85 JSON de session · 2 958 candidatures · 1 311 labels · 623 pré-labels</p>
+          <p>Visualisations interactives basées sur les 85 JSON de session · 3 015 candidatures · 1 311 labels · 623 pré-labels</p>
         </div>
       </div>
     </div>
@@ -1110,7 +1110,7 @@
 
   <!-- SESSIONS -->
   <section id="page-sessions">
-    <div class="page-header"><h1>Sessions de Labellisation</h1><p>85 sessions · 2 958 candidatures · 1 311 labels · 623 pré-labels (données corrigées vs PDF)</p></div>
+    <div class="page-header"><h1>Sessions de Labellisation</h1><p>85 sessions · 3 015 candidatures · 1 311 labels · 623 pré-labels (données corrigées vs PDF)</p></div>
     <div class="filter-bar">
       <span class="filter-label">📅 Période :</span>
       <select id="sessionYearFilter" onchange="applyYearFilter(this.value, 'sessions')" aria-label="Filtrer par année"></select>
@@ -1279,7 +1279,7 @@
       <ul style="margin:8px 0 0 18px;line-height:1.7">
         <li><strong>Source :</strong> Extraction automatique via Firecrawl + PyMuPDF des PDFs officiels des sessions de labellisation</li>
         <li><strong>Format :</strong> Chaque session = un fichier JSON contenant <code>entrees[]</code> (lignes startups) + <code>session_data</code> (totaux corrigés)</li>
-        <li><strong>⚠ Fiabilité :</strong> Extraction automatique — noms de startups et fondateurs parfois approximatifs. Les totaux officiels corrigés (1 311 labels · 623 pré-labels · 140 retraits) restent la référence dans <code>sessions.json</code></li>
+        <li><strong>⚠ Fiabilité :</strong> Extraction automatique — noms de startups et fondateurs parfois approximatifs. Les totaux officiels corrigés (1 311 labels · 623 pré-labels · 142 retraits) restent la référence dans <code>sessions.json</code></li>
       </ul>
     </div>
     <div class="summary-box" style="margin-bottom:20px;border-left:4px solid #2563eb">
@@ -1364,17 +1364,17 @@
         <div>
           <div style="font-size:1.05em;font-weight:800;color:#1a1a2e">🧮 623 pré-labels accordés</div>
           <div style="font-size:.92em;margin-top:4px;color:#334">
-            = <strong style="color:#16a34a">502 convertis en label</strong> + <strong style="color:#d97706">121 restés pré-labels</strong>
+            = <strong style="color:#16a34a">511 convertis en label</strong> + <strong style="color:#d97706">112 restés pré-labels</strong>
           </div>
         </div>
         <div class="prelabel-bar">
-          <div class="seg conv" style="width:80.6%">502 convertis (80,6 %)</div>
-          <div class="seg rest" style="width:19.4%">121 restés (19,4 %)</div>
+          <div class="seg conv" style="width:82.0%">511 convertis (82,0 %)</div>
+          <div class="seg rest" style="width:18.0%">112 restés (18,0 %)</div>
         </div>
       </div>
       <div style="margin-top:14px;padding-top:10px;border-top:1px dashed #cbd5e1">
-        <strong>Qu'est-ce que le 121 ?</strong> Des <strong>pré-labels accordés mais jamais convertis en label</strong> : la startup a reçu un pré-label un jour (session N), mais n'a ensuite jamais obtenu le label. Elle est restée au statut « pré-label » — ce n'est ni un label, ni un refus après label.
-        <br><strong>Différence avec les 140 retraits :</strong> le <strong>121</strong> concerne des <strong>pré-labels jamais devenus labels</strong> ; les <strong>140 retraits</strong> concernent des <strong>labels accordés puis révoqués</strong> (startup labellisée, puis son label a été retiré). Deux populations différentes → on ne les additionne pas et on ne les compare pas directement.
+        <strong>Qu'est-ce que le 112 ?</strong> Des <strong>pré-labels accordés mais jamais convertis en label</strong> : la startup a reçu un pré-label un jour (session N), mais n'a ensuite jamais obtenu le label. Elle est restée au statut « pré-label » — ce n'est ni un label, ni un refus après label.
+        <br><strong>Différence avec les 142 retraits :</strong> le <strong>121</strong> concerne des <strong>pré-labels jamais devenus labels</strong> ; les <strong>142 retraits</strong> concernent des <strong>labels accordés puis révoqués</strong> (startup labellisée, puis son label a été retiré). Deux populations différentes → on ne les additionne pas et on ne les compare pas directement.
       </div>
     </div>
     </div>
@@ -1623,7 +1623,7 @@
       <div class="kpi-card blue"><div class="label">Investissements levés</div><div class="value">157 M USD</div><div class="sub">Rapport annuel 2021</div></div>
       <div class="kpi-card red"><div class="label">Part des femmes fondatrices</div><div class="value">35% → 21%</div><div class="sub">2019 → 2021 · en recul</div></div>
       <div class="kpi-card orange"><div class="label">Startups à l'international</div><div class="value">45%</div><div class="sub">Rapport annuel 2021</div></div>
-      <div class="kpi-card purple"><div class="label">Candidatures cumulées</div><div class="value">2 958</div><div class="sub">85 sessions · données corrigées</div></div>
+      <div class="kpi-card purple"><div class="label">Candidatures cumulées</div><div class="value">3 015</div><div class="sub">85 sessions · données corrigées</div></div>
       <div class="kpi-card blue"><div class="label">Labels cumulés</div><div class="value">1 311</div><div class="sub">corrigés vs PDF officiels</div></div>
     </div>
 
@@ -2110,20 +2110,20 @@ const KPI_INFO = {
     util: 'Mesure le flux brut de labellisation et sa croissance cumulée dans le temps.',
     interp: '1 311 labels cumulés. La valeur publiée par startup.gov.tn (1 324) était fausse : 20 sessions sur 85 portaient des labels erronés.',
     source: 'API : /api/dashboard (annuel) → public/data/dashboard_data.json, corrigé via corrections.json' },
-  'KPI-03': { nom: 'Candidatures déposées', valeur: '2 958', statut: 'ok', page: 'Dashboard',
+  'KPI-03': { nom: 'Candidatures déposées', valeur: '3 015', statut: 'ok', page: 'Dashboard',
     desc: 'Nombre total de candidatures reçues, somme de la colonne candidatures des 85 sessions.',
     util: 'Sert de base au taux d’acceptation et à la moyenne par session ; mesure la demande d’accès au dispositif.',
-    interp: '2 958 candidatures officielles. À ne pas confondre avec les 3 721 lignes startups extraites des PDF (base fondateurs) : une candidature peut engendrer plusieurs lignes PDF (renouvellement, pré-label puis label, retrait…) et le parse brut est partiel. Ni avec « 1 824 » : ce chiffre du fichier périmé était l’ancien nombre d’entrées PDF, pas les candidatures.',
+    interp: '3 015 candidatures officielles. À ne pas confondre avec les 3 721 lignes startups extraites des PDF (base fondateurs) : une candidature peut engendrer plusieurs lignes PDF (renouvellement, pré-label puis label, retrait…) et le parse brut est partiel. Ni avec « 1 824 » : ce chiffre du fichier périmé était l’ancien nombre d’entrées PDF, pas les candidatures.',
     source: 'API : /api/dashboard (annuel + sessions) → dashboard_data.json' },
   'KPI-04': { nom: 'Pré-labels accordés', valeur: '623', statut: 'ok', page: 'Dashboard',
     desc: 'Total de pré-labels attribués, corrigé vs PDF officiels.',
     util: 'Mesure la voie « pré-labels » (projets sans société créée) qui alimente ensuite les conversions.',
-    interp: '623 pré-labels (la valeur publiée de 617 était fausse). 80,6 % d’entre eux se convertissent en labels.',
+    interp: '623 pré-labels (la valeur publiée de 617 était fausse). 82,0 % d.entre eux se convertissent en labels.',
     source: 'API : /api/dashboard → dashboard_data.json, corrigé via corrections.json' },
-  'KPI-05': { nom: 'Taux d’acceptation moyen', valeur: '44,3 %', statut: 'ok', page: 'Dashboard',
+  'KPI-05': { nom: 'Taux d’acceptation moyen', valeur: '43,5 %', statut: 'ok', page: 'Dashboard',
     desc: 'Part des candidatures ayant abouti à un label, agrégée sur toute la période : labels ÷ candidatures.',
     util: 'Indicateur d’efficacité/sélectivité du dispositif ; permet les comparaisons annuelles et internationales.',
-    interp: '44,3 % = 1 311 labels / 2 958 candidatures (et non 44,8 % : valeurs corrigées). En baisse tendancielle : 59,8 % (2019) → 35,4 % (2025).',
+    interp: '43,5 % = 1 311 labels / 3 015 candidatures (et non 44,8 % : valeurs corrigées). En baisse tendancielle : 58,1 % (2019) → 35,4 % (2025).',
     source: 'Calcul direct dans l’app (labels/candidatures) sur données corrigées' },
   'KPI-06': { nom: 'Concentration sectorielle (HHI)', valeur: 'calculé en direct', statut: 'ok', page: 'Secteurs',
     desc: 'Indice de Herfindahl-Hirschman des parts de marché des secteurs : Σ(partᵢ²).',
@@ -2157,12 +2157,12 @@ const KPI_INFO = {
   'KPI-13': { nom: 'Conversions pré-label → label', valeur: '502', statut: 'ok', page: 'Parcours',
     desc: 'Nombre total de pré-labels convertis en labels.',
     util: 'Mesure le volume du « pipeline » pré-label → label.',
-    interp: '502 conversions : le parcours pré-label est un vrai réservoir de labels.',
+    interp: '511 conversions : le parcours pré-label est un vrai réservoir de labels.',
     source: 'API : /api/parcours → public/data/parcours.json' },
-  'KPI-14': { nom: 'Taux de conversion', valeur: '80,6 %', statut: 'ok', page: 'Parcours',
-    desc: 'Part des pré-labels accordés convertis en labels (502/623).',
+  'KPI-14': { nom: 'Taux de conversion', valeur: .82,0 %., statut: 'ok', page: 'Parcours',
+    desc: 'Part des pré-labels accordés convertis en labels (511/623).',
     util: 'Mesure l’efficacité du parcours pré-label et le risque de décrochage.',
-    interp: '80,6 % des pré-labels deviennent des labels — taux élevé, le dispositif « rattrape » bien ses pré-labellisés.',
+    interp: '82,0 % des pré-labels deviennent des labels — taux élevé, le dispositif « rattrape » bien ses pré-labellisés.',
     source: 'API : /api/parcours → parcours.json' },
   'KPI-15': { nom: 'Pré-labels accordés (Parcours)', valeur: '623', statut: 'ok', page: 'Parcours',
     desc: 'Total de pré-labels dans la lecture Parcours pré-label → label.',
@@ -2171,12 +2171,12 @@ const KPI_INFO = {
   'KPI-16': { nom: 'Retraits de labels', valeur: '140', statut: 'ok', page: 'Parcours',
     desc: 'Total de labels retirés sur la période, par année.',
     util: 'Mesure la solidité du portefeuille et la qualité du suivi des startups labellisées.',
-    interp: '140 retraits (valeur publiée 190 fausse). Le retrait rééquilibre le stock réel de startups actives.',
+    interp: '142 retraits (valeur publiée 190 fausse). Le retrait rééquilibre le stock réel de startups actives.',
     source: 'API : /api/parcours → parcours.json, corrigé via corrections.json' },
-  'KPI-17': { nom: 'Labels issus de conversion', valeur: '38,3 %', statut: 'ok', page: 'Parcours',
-    desc: 'Part des labels provenant d’une conversion pré-label → label (502/1 311).',
+  'KPI-17': { nom: 'Labels issus de conversion', valeur: '39,0 %', statut: 'ok', page: 'Parcours',
+    desc: 'Part des labels provenant d’une conversion pré-label → label (511/1 311).',
     util: 'Mesure l’importance du parcours pré-label dans la production totale de labels.',
-    interp: '38,3 % des labels viennent de conversions : le pré-label est un canal majeur, pas marginal.',
+    interp: '39,0 % des labels viennent de conversions : le pré-label est un canal majeur, pas marginal.',
     source: 'API : /api/parcours → parcours.json' },
   'KPI-18': { nom: 'Sessions vérifiées', valeur: '85', statut: 'ok', page: 'Corrections',
     desc: 'Nombre total de sessions de labellisation auditées face aux PDF officiels.',
@@ -2226,10 +2226,10 @@ const KPI_INFO = {
     util: 'Visualise la croissance du stock de labels dans le temps.',
     interp: 'Le cumul est quasi linéaire, avec un palier visible à partir de 2025.',
     source: 'Calcul en app : /api/dashboard (annuel) → dashboard_data.json' },
-  'KPI-28': { nom: 'Nombre moyen de candidatures par session', valeur: '34,8', statut: 'ok', page: 'Dashboard',
-    desc: 'Volume moyen de dossiers traités par session : 2 958 / 85.',
+  'KPI-28': { nom: 'Nombre moyen de candidatures par session', valeur: '35,5', statut: 'ok', page: 'Dashboard',
+    desc: 'Volume moyen de dossiers traités par session : 3 015 / 85.',
     util: 'Mesure la charge de traitement moyenne du comité de labellisation.',
-    interp: '34,8 candidatures/session en moyenne (2 958 / 85 sessions).',
+    interp: '35,5 candidatures/session en moyenne (3 015 / 85 sessions).',
     source: 'Calcul en app : /api/dashboard (sessions + annuel)' },
   'KPI-29': { nom: 'Délai moyen de conversion pré-label → label', valeur: '—', statut: 'miss', page: 'Parcours',
     desc: 'Temps moyen entre l’attribution du pré-label et sa conversion en label.',
@@ -2237,7 +2237,7 @@ const KPI_INFO = {
     interp: 'DONNÉE MANQUANTE : les dates de conversion ne sont pas encore extraites de parcours.json.',
     source: 'API à compléter : public/data/parcours.json (dates de conversion à ajouter)' },
   'KPI-30': { nom: 'Retraits par motif réglementaire', valeur: '—', statut: 'miss', page: 'Parcours',
-    desc: 'Répartition des 140 retraits selon le motif réglementaire.',
+    desc: 'Répartition des 142 retraits selon le motif réglementaire.',
     util: 'Comprend pourquoi des labels sont retirés (mise en demeure, non-conformité…).',
     interp: 'DONNÉE MANQUANTE : les motifs ne sont pas publics ; à collecter.',
     source: 'Collecte externe : communiqués ANPR / décisions officielles de retrait' },
@@ -2437,7 +2437,7 @@ const PARCOURS_EXPL = {
     sub: '{totalNewPreLabels} − {totalConversions} · jamais convertis en label',
     body: (m, fmt) => `
       <div class="parc-formula"><code>${fmt(m.totalNewPreLabels)} pré-labels − ${fmt(m.totalConversions)} convertis = <strong>${fmt(m.preLabelsRestants)}</strong> restés pré-labels</code></div>
-      <div class="parc-block parc-warn">❓ <strong>C'est ici le fameux « 121 ».</strong> Ce sont des <strong>pré-labels accordés mais jamais convertis en label</strong> : le projet a reçu son pré-label en session N, puis n'a jamais abouti à un label (société non créée, dossier non déposé, abandon). Il reste au statut « pré-label » — ce n'est ni un label, ni un refus.</div>
+      <div class="parc-block parc-warn">❓ <strong>C'est ici le fameux « 112 ».</strong> Ce sont des <strong>pré-labels accordés mais jamais convertis en label</strong> : le projet a reçu son pré-label en session N, puis n'a jamais abouti à un label (société non créée, dossier non déposé, abandon). Il reste au statut « pré-label » — ce n'est ni un label, ni un refus.</div>
       <div class="parc-block parc-danger">🚫 <strong>Ne pas confondre avec les ${fmt(m.totalRetraits)} retraits :</strong> le <strong>${fmt(m.preLabelsRestants)}</strong> concerne des <strong>pré-labels jamais devenus labels</strong> ; les <strong>${fmt(m.totalRetraits)} retraits</strong> concernent des <strong>labels accordés puis révoqués</strong>. Deux populations différentes → on ne les additionne pas.</div>
       <div class="parc-block">📌 <strong>En % :</strong> ${fmt(m.preLabelsRestants)} pré-labels non aboutis = ${m.preLabelsRestantsPct} % des ${fmt(m.totalNewPreLabels)} pré-labels accordés.</div>` },
   retraits: {
@@ -2453,7 +2453,7 @@ const PARCOURS_EXPL = {
     body: (m, fmt) => `
       <div class="parc-formula"><code>${fmt(m.totalConversions)} labels issus de conversions ÷ ${fmt(m.totalLabels)} labels au total = ${m.pctLabelsFromConversions} %</code></div>
       <div class="parc-block">📊 <strong>Lecture :</strong> plus d'un <strong>tiers des ${fmt(m.totalLabels)} labels</strong> cumulés provient de la voie pré-label → label (${fmt(m.totalConversions)}). Le reste (${fmt(m.totalNewLabels)} ≈ ${Math.round(100 - m.pctLabelsFromConversions)} %) sont des <strong>nouveaux labels directs</strong>.</div>
-      <div class="parc-block">🔄 <strong>Enjeu :</strong> le pré-label est un vrai sas d'entrée du dispositif. Le taux élevé (${m.convRate} %) valide cette voie d'accès, même si les 121 pré-labels non convertis restent un gisement d'amélioration (accompagnement, suivi).</div>` }
+      <div class="parc-block">🔄 <strong>Enjeu :</strong> le pré-label est un vrai sas d'entrée du dispositif. Le taux élevé (${m.convRate} %) valide cette voie d'accès, même si les 112 pré-labels non convertis restent un gisement d'amélioration (accompagnement, suivi).</div>` }
 };
 function bindKpiModals() {
   document.addEventListener('click', e => {
@@ -2711,7 +2711,7 @@ function renderImpactCharts() {
 function renderCollectPlan() {
   const rows = [
     [`KPI-29`, `Délai moyen de conversion pré-label → label`, `Dates de pré-label et de label de chaque startup`, `public/data/parcours.json — ajouter les dates de conversion manquantes`, `Parcours`],
-    [`KPI-30`, `Retraits par motif réglementaire`, `Motif officiel des 140 retraits de label`, `Communiqués ANPR / décisions officielles de retrait`, `Parcours`],
+    [`KPI-30`, `Retraits par motif réglementaire`, `Motif officiel des 142 retraits de label`, `Communiqués ANPR / décisions officielles de retrait`, `Parcours`],
     [`KPI-34`, `Répartition par forme juridique`, `Forme juridique des 922 startups (SARL, SUARL, SA…)`, `Registre National des Entreprises (RNE) / registre de commerce`, `Startups`],
     [`KPI-35`, `Nombre de fondateurs`, `Nettoyage et dédoublonnage du champ « founders »`, `public/data/database_startups.json — champ founders à structurer`, `Startups`],
     [`KPI-36`, `Répartition des fondateurs par genre`, `Genre de chaque fondateur (classification à construire)`, `Champ founders + rapports annuels`, `Entrepreneurs`],
@@ -4103,7 +4103,7 @@ function renderParcours() {
     <div class="kpi-card blue" data-pk="conversions" tabindex="0" role="button" aria-label="Détail : conversions prélabel → label"><div class="label">Conversions prélabel → label</div><div class="value">${m.totalConversions}</div><div class="sub">${m.sessionsWithConversions} sessions concernées · cliquer pour détail</div></div>
     <div class="kpi-card green" data-pk="rate" tabindex="0" role="button" aria-label="Détail : taux de conversion"><div class="label">Taux de conversion</div><div class="value">${m.convRate}%</div><div class="sub">${m.totalConversions}/${m.totalNewPreLabels} prélabels accordés · cliquer pour détail</div></div>
     <div class="kpi-card orange" data-pk="prelabels" tabindex="0" role="button" aria-label="Détail : prélabels accordés"><div class="label">Prélabels accordés</div><div class="value">${m.totalNewPreLabels}</div><div class="sub">restés prélabels si non convertis · cliquer pour détail</div></div>
-    <div class="kpi-card yellow" data-pk="restants" tabindex="0" role="button" aria-label="Détail : prélabels restés pré-labels"><div class="label">Prélabels restés pré-labels</div><div class="value">${m.preLabelsRestants}</div><div class="sub">623 − 502 = 121 · jamais convertis en label · cliquer pour détail</div></div>
+    <div class="kpi-card yellow" data-pk="restants" tabindex="0" role="button" aria-label="Détail : prélabels restés pré-labels"><div class="label">Prélabels restés pré-labels</div><div class="value">${m.preLabelsRestants}</div><div class="sub">623 − 511 = 112 · jamais convertis en label · cliquer pour détail</div></div>
     <div class="kpi-card red" data-pk="retraits" tabindex="0" role="button" aria-label="Détail : retraits de labels"><div class="label">Retraits de labels</div><div class="value">${m.totalRetraits}</div><div class="sub">${m.sessionsWithRetraits} sessions concernées · cliquer pour détail</div></div>
     <div class="kpi-card purple" data-pk="fromconversions" tabindex="0" role="button" aria-label="Détail : labels issus de conversion"><div class="label">Labels issus de conversion</div><div class="value">${m.pctLabelsFromConversions}%</div><div class="sub">${m.totalConversions} / ${m.totalLabels} labels · cliquer pour détail</div></div>
   `;
@@ -4463,16 +4463,16 @@ function renderStartupBlinkCharts() {
 // ===== INSIGHTS =====
 function renderInsights() {
   const base = (DATA.analysis.insights_cles || []).length > 0 ? DATA.analysis.insights_cles : [
-    "Baisse continue du taux d'acceptation: 59,8% (2019) → 35,4% (2025) = -41% — sélection plus rigoureuse",
+    "Baisse continue du taux d'acceptation: 58,1% (2019) → 35,4% (2025) = -41% — sélection plus rigoureuse",
     "Concentration sectorielle modérée: Top 4 secteurs = 51,6% des startups (Business Software domine à 23%)",
     "Pic de labellisation en 2020 (214 startups) puis déclin progressif — effet COVID + essoufflement",
-    "Taux de retrait des labels: 10,7% (140 retraits sur 1 311 labels) — taux modéré",
+    "Taux de retrait des labels: 10,8% (142 retraits sur 1 311 labels) — taux modéré",
     "Baisse de la part des femmes fondatrices: 35% (2019) → 21% (2021) — tendance préoccupante",
     "Concentration géographique: 48% des startups dans le Grand Tunis — déséquilibre régional",
     "Saisonnalité: décembre (102) et mai (98) sont les mois les plus actifs, juillet (45) le moins actif",
     "Investissement 2021: 157M USD mais 100M USD = 1 deal (Instadeep) — dépendance à un champion"
   ];
-  const insights = base.map(i => i.replace('61,7% (2019) → 36,3% (2025)', '59,8% (2019) → 35,4% (2025)'));
+  const insights = base.map(i => i.replace('61,7% (2019) → 36,3% (2025)', '58,1% (2019) → 35,4% (2025)'));
   document.getElementById('insightsContainer').innerHTML = insights.map((i, idx) => `
     <div class="insight-card"><div class="title"><span class="insight-num">${String(idx + 1).padStart(2, '0')}</span> Insight</div><p>${i}</p></div>
   `).join('');
