@@ -3958,7 +3958,12 @@ function renderExtractedTable() {
   if (!tbody) return;
   const rows = extractedCache.allEntries.filter(e => {
     if (sess && e._session !== sess) return false;
-    if (dec && (e._displayDecision || normResultat(e.resultat)) !== dec) return false;
+    if (dec) {
+      const ed = e._displayDecision || normResultat(e.resultat);
+      const filterMap = {label_accorde:'label',prelabel_accorde:'prelabel',label_refuse:'refused',prelabel_refuse:'refused',retrait:'retrait',irrecevable:'irrecevable'};
+      const normalized = filterMap[ed] || ed;
+      if (normalized !== dec) return false;
+    }
     if (q) {
       const hay = ((e.societe || '') + ' ' + (e.fondateurs || '') + ' ' + (e.secteur || '') + ' ' + e._session).toLowerCase();
       if (!hay.includes(q)) return false;
@@ -3967,7 +3972,9 @@ function renderExtractedTable() {
   });
   document.getElementById('extractedCount').textContent = rows.length + ' / ' + extractedCache.allEntries.length + ' entrées';
   tbody.innerHTML = rows.slice(0, 1000).map(e => {
-    const nr = e._displayDecision || normResultat(e.resultat);
+    const ed = e._displayDecision || normResultat(e.resultat);
+    const filterMap = {label_accorde:'label',prelabel_accorde:'prelabel',label_refuse:'refused',prelabel_refuse:'refused',retrait:'retrait',irrecevable:'irrecevable'};
+    const nr = filterMap[ed] || ed;
     return '<tr style="cursor:pointer" onclick="openExtractedDetail(\'' + escapeAttr(e._file) + '\')">' +
     '<td style="white-space:nowrap">' + escapeHtml(e._session) + '</td>' +
     '<td><strong>' + escapeHtml(e.societe || '—') + '</strong></td>' +
