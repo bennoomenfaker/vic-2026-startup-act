@@ -3,271 +3,306 @@
   "annee": 2019,
   "mois": 12,
   "pdf": "session_2019_12.pdf",
-  "nb_entrees": 37,
+  "nb_entrees": 42,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
       "societe": "CYNOIA",
-      "fondateurs": "Ayoub Rebeh, Nasreddine Riahi",
-      "secteur": "Telecom",
+      "fondateurs": "Skander Essid, Ayoub Rebeh, Nasreddine Riahi",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "Société Jhimi Pour Les Elévateurs Légers",
       "fondateurs": "Houcine Jhimi, Ali Jhimi",
-      "secteur": "Agritech",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "unknown"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "Grabingo",
       "fondateurs": "Mohamed Khalloufi",
-      "secteur": "Marketing",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "Logis Technologies",
       "fondateurs": "Riadh Ellouze",
-      "secteur": "Logiciel",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "K2LIS",
-      "fondateurs": "Farouk Kamoun, Mohamed Ben Laroussi Limame",
-      "secteur": "Fintech",
+      "fondateurs": "Tarek Kammoun, Farouk Kamoun, Mohamed Ben Laroussi Limame",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "STRIKE MOTOTRS",
-      "fondateurs": "Mohamed Ben Mahmoud, Chaker Lafi",
-      "secteur": "Cleantech",
+      "fondateurs": "Mohamed Ben Mahmoud",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "KHEER",
-      "fondateurs": "Haythem Khalifa, Salem Khalifa, Bechir Yahya",
-      "secteur": "iOT",
+      "fondateurs": "Chaker Lafi, Haythem Khalifa, Salem Khalifa, Bechir Yahya",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "Tap4glam",
       "fondateurs": "Maya Touati",
-      "secteur": "E-commerce",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "Ahmini",
-      "fondateurs": "Meher Khelifi, Moufid Ben Hmida",
-      "secteur": "Plateforme sociale",
+      "fondateurs": "Meher Khelifi",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "Chantier",
-      "fondateurs": "",
-      "secteur": "Marketing",
+      "fondateurs": "Moufid Ben Hmida, Shady Achouri",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "Club privilèges / BIGDeal",
-      "fondateurs": "Imededdine Essefi",
-      "secteur": "Mobile",
+      "fondateurs": "Issam Essefi, Imededdine Essefi, Iheb Beji",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "Iowaves",
       "fondateurs": "Amine Rahmouni",
-      "secteur": "Energie",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "Beego",
       "fondateurs": "Amine Sammary",
-      "secteur": "Mobile",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "AfiaTech",
-      "fondateurs": "Leith Glissa, Nasreddine Somaali",
-      "secteur": "Health tech",
+      "fondateurs": "Leith Glissa",
+      "secteur": "",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "MICE",
-      "fondateurs": "Marwa Khmissi, Kais Ben Ayed",
-      "secteur": "Agritech",
+      "fondateurs": "Nasreddine Somaali, Marwa Khmissi",
+      "secteur": "",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "Fasteas",
-      "fondateurs": "Meriem ElMay, Naoufel Elarayedh",
-      "secteur": "Plateforme sociale",
+      "fondateurs": "Kais Ben Ayed, Meriem ElMay",
+      "secteur": "",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "New Wave for communication & solutions",
-      "fondateurs": "Wael Dhouib, Imen Khanfir Kallel",
-      "secteur": "E-commerce",
+      "fondateurs": "Naoufel Elarayedh, Wael Dhouib",
+      "secteur": "",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "ALMOURAFEK",
-      "fondateurs": "Sonda Ammar Bouhamed, Amir Matallaoui",
-      "secteur": "Robotique",
+      "fondateurs": "Imen Khanfir Kallel, Sonda Ammar Bouhamed",
+      "secteur": "",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
+      "commentaires": "Prélabel accordé"
     },
     {
-      "societe": "Bouita ﻖﯿﺣر",
-      "fondateurs": "Nadjib Mammeri",
-      "secteur": "E-commerce",
+      "societe": "Bouita",
+      "fondateurs": "Amir Matallaoui, Nadjib Mammeri",
+      "secteur": "",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
+      "commentaires": "Prélabel accordé"
     },
     {
-      "societe": "- Raheeq",
-      "fondateurs": "Hamza Nechi, Jihed Rahmouni",
-      "secteur": "Agritech",
+      "societe": "Raheeq",
+      "fondateurs": "Hamza Nechi",
+      "secteur": "",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "Pepolls",
-      "fondateurs": "Jihen Rahmouni, Omar Bouattay",
-      "secteur": "Plateforme sociale",
+      "fondateurs": "Jihed Rahmouni, Jihen Rahmouni, Omar Bouattay",
+      "secteur": "",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "AUDACITY",
-      "fondateurs": "Mohamed Amine Ouichka, Selim Snoussi",
-      "secteur": "Marketing",
+      "fondateurs": "Mohamed Amine Ouichka",
+      "secteur": "",
       "resultat": "label non accorde",
-      "_displayDecision": "label_refuse"
+      "commentaires": "Label non-accordé"
     },
     {
       "societe": "SOCIETE ARDARY PARTNERS TUNISIA",
-      "fondateurs": "Radhi Khaled Bouloussa",
-      "secteur": "Logiciel",
+      "fondateurs": "Selim Snoussi, Radhi Khaled Bouloussa",
+      "secteur": "",
       "resultat": "label non accorde",
-      "_displayDecision": "label_refuse"
+      "commentaires": "Label non-accordé"
     },
     {
       "societe": "PROSERVY",
-      "fondateurs": "Ahmed Dridi, Hatem Lefi",
-      "secteur": "Logistique",
+      "fondateurs": "Ahmed Dridi",
+      "secteur": "",
       "resultat": "label non accorde",
-      "_displayDecision": "label_refuse"
+      "commentaires": "Label non-accordé"
     },
     {
       "societe": "SUPPLY AIR",
-      "fondateurs": "Aymen Tleilia",
-      "secteur": "Logiciel",
+      "fondateurs": "Hatem Lefi, Aymen Tleilia",
+      "secteur": "",
       "resultat": "label non accorde",
-      "_displayDecision": "label_refuse"
+      "commentaires": "Label non-accordé"
     },
     {
       "societe": "ALFA PRINT",
       "fondateurs": "Abdelkarim Feddal",
-      "secteur": "E-commerce",
+      "secteur": "",
       "resultat": "label non accorde",
-      "_displayDecision": "label_refuse"
+      "commentaires": "Label non-accordé"
     },
     {
       "societe": "Tun E-shop",
       "fondateurs": "Achref Riahi",
-      "secteur": "E-commerce",
+      "secteur": "",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "prelabel_refuse"
+      "commentaires": "Prélabel non-accordé"
+    },
+    {
+      "societe": "GPS-Infos",
+      "fondateurs": "Mohamed Amine Boubakeri",
+      "secteur": "",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
+    },
+    {
+      "societe": "Dyarna",
+      "fondateurs": "Slim Ben Salah, Ekram Mzoughi",
+      "secteur": "",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
+    },
+    {
+      "societe": "OFFBEAT MEDIA",
+      "fondateurs": "Tejeddine Mta'allah",
+      "secteur": "",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
+    },
+    {
+      "societe": "OXN",
+      "fondateurs": "Chamseddine Amaimia, Syrine Zitouni, Selim Lakhdhar",
+      "secteur": "",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
+    },
+    {
+      "societe": "StarTAW",
+      "fondateurs": "Dhafer Ben Amor, Fares Ben Amor, Nidhal Ben Amor",
+      "secteur": "",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
     },
     {
       "societe": "Advanced Functionalities For Smart Home - Kwiklink Technologies",
-      "fondateurs": "Lotfi Aguerbaoui, Oussema Marai",
-      "secteur": "Telecom",
+      "fondateurs": "Lotfi Aguerbaoui",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)"
     },
     {
       "societe": "Transfacile - Techno GM",
-      "fondateurs": "Ghada Chelly",
-      "secteur": "Logistique",
+      "fondateurs": "Oussema Marai, Ghada Chelly",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)"
     },
     {
       "societe": "Bookingtodo",
-      "fondateurs": "Aziz Annabi, Foued Ben Babis",
-      "secteur": "Autre contenu créatif",
+      "fondateurs": "Aziz Annabi",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)"
     },
     {
       "societe": "VME Internationale",
-      "fondateurs": "Montassar Gharssa, Fares Belghith",
-      "secteur": "Plateforme sociale",
+      "fondateurs": "Foued Ben Babis, Montassar Gharssa",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)"
     },
     {
       "societe": "Kamioun - Kriga Technologies",
-      "fondateurs": "Abdelrahmen Ghariani, Hamza Said",
-      "secteur": "Logistique",
+      "fondateurs": "Fares Belghith, Abdelrahmen Ghariani",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)"
     },
     {
       "societe": "Warecom",
-      "fondateurs": "Nour Abbous, Ali Saidi, Rim Elfahem",
-      "secteur": "IoT",
+      "fondateurs": "Hamza Said, Nour Abbous, Ali Saidi",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)"
     },
     {
       "societe": "Foodealz",
-      "fondateurs": "Iskander ELameri, Mohamed Aziz Chahed, Mohamed Itheb Ben Abbes",
-      "secteur": "E-commerce",
+      "fondateurs": "Rim Elfahem, Iskander ELameri",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "unknown"
+      "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)"
     },
     {
       "societe": "X.P.R",
-      "fondateurs": "Oussama Ouda, Mohamed Chebbi",
-      "secteur": "Logiciel",
+      "fondateurs": "Mohamed Aziz Chahed, Mohamed Itheb Ben Abbes, Oussama Ouda, Mohamed Chebbi",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "unknown"
+      "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)"
     },
     {
       "societe": "Natalista",
       "fondateurs": "Rim Besbes",
-      "secteur": "Plateforme sociale",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "unknown"
+      "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)"
     },
     {
       "societe": "Kyto Prod",
       "fondateurs": "Olfa Kilani Feki",
-      "secteur": "Biotechnologie",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "unknown"
+      "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)"
     }
   ],
   "session_data": {
-    "candidatures": 32,
+    "candidatures": 42,
     "labels": 23,
     "preLabels": 8,
     "taux_acceptation_pct": 71.9,

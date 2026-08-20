@@ -3,183 +3,197 @@
   "annee": 2019,
   "mois": 9,
   "pdf": "session_2019_09.pdf",
-  "nb_entrees": 25,
+  "nb_entrees": 27,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
       "societe": "iWassel",
-      "fondateurs": "Sarra Khemakhem, Firas Rhaiem, Anis Mezghani",
-      "secteur": "Logistique",
+      "fondateurs": "Yasmine Dahloul, Sarra Khemakhem, Firas Rhaiem",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "Farm Trust",
-      "fondateurs": "",
-      "secteur": "E-commerce",
+      "fondateurs": "Anis Mezghani, Wassim Khiari",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "TrustiT",
       "fondateurs": "Mohamed Amine Ouni",
-      "secteur": "E-commerce",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "fixiha.tn",
       "fondateurs": "Ahmed Ben Said",
-      "secteur": "E-commerce",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "Société DOM Services",
       "fondateurs": "Khaled Dhifallah Ennefii",
-      "secteur": "Mobile",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "unknown"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "The Landlord",
-      "fondateurs": "Mohamed Farouk Ben Achour, Zaroui Montasar",
-      "secteur": "E-commerce",
+      "fondateurs": "Mohamed Farouk Ben Achour",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "BeNeutron",
-      "fondateurs": "Mannai Karim, Firas Rhaiem",
-      "secteur": "EdTech",
+      "fondateurs": "Zaroui Montasar Mannai Karim",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "Epilert",
-      "fondateurs": "Haroun Moula, Amine Riahi, Mohamed Ali Hammami, Hamad Mohamed Hamad Abden El Mra",
-      "secteur": "Health tech",
+      "fondateurs": "Firas Rhaiem, Haroun Moula, Amine Riahi",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "Black Dune Studio",
-      "fondateurs": "Ahmed EL KADHI, Mohamed BOUABIDI, Ayoub KHAMESSI, Jelassi Mohamed Amine, Baklouti Bassem",
-      "secteur": "EdTech",
+      "fondateurs": "Mohamed Ali Hammami Hamad, Mohamed Hamad Abden El Mra, Ahmed EL KADHI, Mohamed BOUABIDI, Ayoub KHAMESSI",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "Idara Tn",
-      "fondateurs": "Ben Salah Slim, Nouri Houssem Eddine",
-      "secteur": "Plateforme sociale",
+      "fondateurs": "Jelassi Mohamed Amine, Baklouti Bassem, Ben Salah Slim, Nouri Houssem Eddine",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "Teskerti.tn",
       "fondateurs": "Karim Jelliti",
-      "secteur": "E-commerce",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "GETPAY",
-      "fondateurs": "Salma Moalla",
-      "secteur": "Fintech",
+      "fondateurs": "Slim MOalla, Salma Moalla, Fares Bouguecha",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
-    },
-    {
-      "societe": "Kamioun",
-      "fondateurs": "Abdelrahman Ghariani, Abdelhamid Boukhari",
-      "secteur": "Logistique",
-      "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
-    },
-    {
-      "societe": "Tuni'AR",
-      "fondateurs": "Kalfat Sarra, Mohamed Karim Sakrani, Safwen Bouali",
-      "secteur": "Autre contenu créatif",
-      "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
-    },
-    {
-      "societe": "Athena-IO",
-      "fondateurs": "Cherif Redissi",
-      "secteur": "Logiciel",
-      "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
-    },
-    {
-      "societe": "ﻰَﻔﻟُز ZOLFA",
-      "fondateurs": "Adel Jeridi",
-      "secteur": "Hardware",
-      "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
-    },
-    {
-      "societe": "GoFields",
-      "fondateurs": "Youssef Cherif, Olfa Kilani ep Feki, Takwa Mrabet",
-      "secteur": "Mobile",
-      "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
-    },
-    {
-      "societe": "Kyto-Prod",
-      "fondateurs": "Safa Ben Khedher, Mohamed Amine Bourkhis",
-      "secteur": "Biotechnologie",
-      "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
-    },
-    {
-      "societe": "SBA Workforce",
-      "fondateurs": "Perrine Mihelic, Joscha Raue",
-      "secteur": "Fintech",
-      "resultat": "label non accorde",
-      "_displayDecision": "label_refuse"
-    },
-    {
-      "societe": "Think-it",
-      "fondateurs": "Mehemed Bougsea, Mohamed Aziz Belhadj Jrad",
-      "secteur": "HR",
-      "resultat": "label non accorde",
-      "_displayDecision": "label_refuse"
-    },
-    {
-      "societe": "Servis.tn",
-      "fondateurs": "",
-      "secteur": "E-commerce",
-      "resultat": "prelabel non accorde",
-      "_displayDecision": "prelabel_refuse"
-    },
-    {
-      "societe": "HOOLOOS",
-      "fondateurs": "Mehdi Gabsi",
-      "secteur": "Marketing",
-      "resultat": "prelabel non accorde",
-      "_displayDecision": "prelabel_refuse"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "Go Field",
-      "fondateurs": "Hela Gabsi, Alaa Mokrani, Chehrazade Remadi",
-      "secteur": "AI",
+      "fondateurs": "Walid Mzoughi, Hela Gabsi, Alaa Mokrani",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé (conversion prelabel)"
     },
     {
       "societe": "Wantotrip",
-      "fondateurs": "Makrem Hermassi",
-      "secteur": "E-commerce",
+      "fondateurs": "Chehrazade Remadi, Makrem Hermassi",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé (conversion prelabel)"
     },
     {
       "societe": "Technologia Academy",
       "fondateurs": "Mohamed Amine Hlaili",
-      "secteur": "Edtech",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé (conversion prelabel)"
+    },
+    {
+      "societe": "Kamioun",
+      "fondateurs": "Fares Belghith, Abdelrahman Ghariani",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
+    },
+    {
+      "societe": "Tuni'AR",
+      "fondateurs": "Abdelhamid Boukhari, Kalfat Sarra, Mohamed Karim Sakrani",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
+    },
+    {
+      "societe": "Athena-IO",
+      "fondateurs": "Safwen Bouali, Cherif Redissi, Amine Troudi",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
+    },
+    {
+      "societe": "ZOLFA",
+      "fondateurs": "Adel Jeridi",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
+    },
+    {
+      "societe": "GoFields",
+      "fondateurs": "Youssef Cherif",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
+    },
+    {
+      "societe": "Kyto-Prod",
+      "fondateurs": "Olfa Kilani ep Feki, Takwa Mrabet, Safa Ben Khedher, Mohamed Amine Bourkhis",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
+    },
+    {
+      "societe": "SBA Workforce",
+      "fondateurs": "Perrine Mihelic",
+      "secteur": "",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé"
+    },
+    {
+      "societe": "Think-it",
+      "fondateurs": "Joscha Raue, Mehemed Bougsea",
+      "secteur": "",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé"
+    },
+    {
+      "societe": "Servis.tn",
+      "fondateurs": "Mohamed Aziz Belhadj, Jrad Nada Boukhalfa",
+      "secteur": "",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
+    },
+    {
+      "societe": "HOOLOOS",
+      "fondateurs": "Mohamed Bhibah, Mehdi Gabsi",
+      "secteur": "",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
+    },
+    {
+      "societe": "Best-Tech",
+      "fondateurs": "Mohamed Amine Boubakri",
+      "secteur": "",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
+    },
+    {
+      "societe": "Digistart",
+      "fondateurs": "Walid Bousnina, Aymen Hammemi, Chamseddine Bezzaouia",
+      "secteur": "",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
     }
   ],
   "session_data": {

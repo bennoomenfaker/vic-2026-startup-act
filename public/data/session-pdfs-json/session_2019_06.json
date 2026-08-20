@@ -3,243 +3,236 @@
   "annee": 2019,
   "mois": 6,
   "pdf": "session_2019_06.pdf",
-  "nb_entrees": 33,
+  "nb_entrees": 32,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
       "societe": "DEEPERA",
-      "fondateurs": "",
-      "secteur": "Fintech",
+      "fondateurs": "Faouzi Moussa, Mustapha Boughzou",
+      "secteur": "E-Commerce",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "FABSKILL",
-      "fondateurs": "Bechir Afifi",
-      "secteur": "HR Tech",
+      "fondateurs": "Sofiane Mabrouk, Bechir Afifi, Mohamed Ben Sfar",
+      "secteur": "E-Commerce",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "MajestEYE",
-      "fondateurs": "Rabie Saidi, Soufien Ben Hamza, Nizar Bouguila",
-      "secteur": "AI",
+      "fondateurs": "Jihed Hannachi, Rabie Saidi, Soufien Ben Hamza",
+      "secteur": "E-Commerce",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "HERUNDO",
-      "fondateurs": "Bessem Jallouli",
+      "fondateurs": "Nizar Bouguila, Bessem Jallouli, Mohamed Boujelban",
       "secteur": "E-Commerce",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "BioIntrants Technologie",
-      "fondateurs": "Chedli Ben Menadi, Sahar Ben Rached",
-      "secteur": "Biotechnologie",
+      "fondateurs": "Yassine Ben Menadi, Chedli Ben Menadi",
+      "secteur": "E-Commerce",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "JUNIOR NETWORK",
-      "fondateurs": "Zeineb Chabchoub",
-      "secteur": "Edtech",
+      "fondateurs": "Sahar Ben Rached, Zeineb Chabchoub, Oussema Ksontini",
+      "secteur": "E-Commerce",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "Siteflow Factory",
-      "fondateurs": "Etienne Barrault, Louis Hauvette, Adel Jenni",
-      "secteur": "Logiciel",
+      "fondateurs": "Samed Jalouali, Timothée Piette, Etienne Barrault, Louis Hauvette",
+      "secteur": "E-Commerce",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "Insight+",
-      "fondateurs": "Imed Kouki, Hedi Zouari",
-      "secteur": "Fintech",
+      "fondateurs": "Adel Jenni, Imed Kouki",
+      "secteur": "E-Commerce",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "DATAERA",
-      "fondateurs": "Maher Heni, Mohamed Taher",
-      "secteur": "Big Data",
+      "fondateurs": "Hedi Zouari, Maher Heni",
+      "secteur": "E-Commerce",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "SF Technologies",
-      "fondateurs": "",
-      "secteur": "Fintech",
+      "fondateurs": "Mohamed Taher Hammami",
+      "secteur": "E-Commerce",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "CREATIVE CULINARY",
-      "fondateurs": "Aziz Ben Chedli",
-      "secteur": "E-commerce",
+      "fondateurs": "",
+      "secteur": "E-Commerce",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "SAFOZI SARL",
-      "fondateurs": "Zied Ouled Ali",
-      "secteur": "Infrastructure",
+      "fondateurs": "",
+      "secteur": "E-Commerce",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "NEXTPROTEIN TUNISIA",
-      "fondateurs": "Syrine Chaalala",
-      "secteur": "Agritech",
+      "fondateurs": "Mohamed Gastli, Syrine Chaalala",
+      "secteur": "E-Commerce",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "SENIATNA",
-      "fondateurs": "Neil Boussofara",
-      "secteur": "Logistique",
+      "fondateurs": "",
+      "secteur": "E-Commerce",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "VME Internationale",
-      "fondateurs": "Montassar Gharsa, Mahdi Houli",
-      "secteur": "Plateforme sociale",
+      "fondateurs": "Foued Ben Babis, Montassar Gharsa",
+      "secteur": "E-Commerce",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "Zoor",
-      "fondateurs": "Radhi Houli",
-      "secteur": "E-commerce",
+      "fondateurs": "Mahdi Houli, Radhi Houli",
+      "secteur": "E-Commerce",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "Natalista",
-      "fondateurs": "Rim Besbes",
-      "secteur": "Plateforme sociale",
+      "fondateurs": "",
+      "secteur": "E-Commerce",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "Videsys",
-      "fondateurs": "Walid Messaoudia, Amine Dimassi",
-      "secteur": "Media",
+      "fondateurs": "Abdelaziz Ktari, Walid Messaoudia",
+      "secteur": "E-Commerce",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "AYSHEK",
-      "fondateurs": "Mohamed Amine Baatout, Mohamed Nadhir Belkhir",
-      "secteur": "E-commerce",
+      "fondateurs": "Amine Dimassi, Mohamed Amine Baatout",
+      "secteur": "E-Commerce",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "Kidsbook",
-      "fondateurs": "Hafedh Dziri",
-      "secteur": "Ed tech",
+      "fondateurs": "Mohamed Nadhir Belkhir, Hafedh Dziri",
+      "secteur": "E-Commerce",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "Hezni Maak",
-      "fondateurs": "Youssef Meksi",
-      "secteur": "Plateforme sociale",
+      "fondateurs": "",
+      "secteur": "E-Commerce",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
+      "commentaires": "Prélabel accordé"
     },
     {
-      "societe": "Pool & Fish Farm Smart Water",
-      "fondateurs": "Afef Bohli",
-      "secteur": "IOT",
+      "societe": "Pool & Fish Farm Smart Water Management",
+      "fondateurs": "Afef Bohli, Sami Tabbane",
+      "secteur": "E-Commerce",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
-    },
-    {
-      "societe": "Management “P&FF-SWM”",
-      "fondateurs": "Sami Tabbane",
-      "secteur": "",
-      "resultat": "",
-      "_displayDecision": "irrecevable"
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "Massart Engineering",
       "fondateurs": "Mahdi Ghribi",
-      "secteur": "Logiciel",
-      "resultat": "1 7 Label non-accordé",
-      "_displayDecision": "irrecevable"
+      "secteur": "E-Commerce",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé"
     },
     {
       "societe": "MyCity",
-      "fondateurs": "Mohamed Sami Rahoui",
-      "secteur": "Marketing",
-      "resultat": "1 7 Label non-accordé",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "",
+      "secteur": "E-Commerce",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé"
     },
     {
       "societe": "Tisopia",
-      "fondateurs": "Mohamed Boumiza",
-      "secteur": "(plateforme sociale)",
-      "resultat": "N.A N.A Label non-accordé",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Wala Kasmi, Mohamed Boumiza",
+      "secteur": "E-Commerce",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé"
     },
     {
       "societe": "TUNMOB SA (DIGIT-U)",
-      "fondateurs": "Houssine Midouni",
-      "secteur": "Insurance tech",
-      "resultat": "3 4 Label non-accordé",
-      "_displayDecision": "unknown"
+      "fondateurs": "",
+      "secteur": "E-Commerce",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé"
     },
     {
       "societe": "SMAAO Tunisie",
-      "fondateurs": "Amjed Ben Salah",
-      "secteur": "Insurance tech",
-      "resultat": "1 7 Label non-accordé",
-      "_displayDecision": "unknown"
-    },
-    {
-      "societe": "IYADATI",
-      "fondateurs": "Cheker Jarray",
-      "secteur": "Health tech",
-      "resultat": "1 7 Pré-label non-accordé",
-      "_displayDecision": "unknown"
-    },
-    {
-      "societe": "Aevny",
       "fondateurs": "",
-      "secteur": "E-commerce",
-      "resultat": "N.A N.A Pré-label non-accordé",
-      "_displayDecision": "unknown"
-    },
-    {
-      "societe": "Doctor Sina",
-      "fondateurs": "Laaroussi Ben Younes",
-      "secteur": "Health tech",
-      "resultat": "N.A N.A Pré-label non-accordé",
-      "_displayDecision": "unknown"
+      "secteur": "E-Commerce",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé"
     },
     {
       "societe": "Iris technologies",
-      "fondateurs": "Khaled Bouchoucha, Saifeddine Kacem",
-      "secteur": "Agritech",
-      "resultat": "N.A N.A N.A N.A Label non-accordé",
-      "_displayDecision": "unknown"
+      "fondateurs": "Khaled Bouchoucha",
+      "secteur": "E-Commerce",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé"
     },
     {
       "societe": "Agri Land",
-      "fondateurs": "AyetAllah Hlaiem",
-      "secteur": "Agritech",
-      "resultat": "N.A N.A N.A N.A Label non-accordé",
-      "_displayDecision": "unknown"
+      "fondateurs": "Saifeddine Kacem, AyetAllah Hlaiem",
+      "secteur": "E-Commerce",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé"
+    },
+    {
+      "societe": "Doctor Sina",
+      "fondateurs": "",
+      "secteur": "E-Commerce",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
+    },
+    {
+      "societe": "Aevny",
+      "fondateurs": "Nacir Bouazizi, Ahmed Ben Marzoug",
+      "secteur": "E-Commerce",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
+    },
+    {
+      "societe": "IYADATI",
+      "fondateurs": "",
+      "secteur": "E-Commerce",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
     }
   ],
   "session_data": {
-    "candidatures": 33,
+    "candidatures": 32,
     "labels": 14,
     "preLabels": 8,
     "taux_acceptation_pct": 42.4,

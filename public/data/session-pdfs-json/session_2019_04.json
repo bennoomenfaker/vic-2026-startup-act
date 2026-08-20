@@ -3,365 +3,372 @@
   "annee": 2019,
   "mois": 4,
   "pdf": "session_2019_04.pdf",
-  "nb_entrees": 51,
+  "nb_entrees": 52,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
       "societe": "GoMyCode",
-      "fondateurs": "Amine Bouhlel, Ramla Jarrar",
+      "fondateurs": "Yahya Bouhlel, Amine Bouhlel",
       "secteur": "EdTech",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé dès le 2ème Tour"
     },
     {
       "societe": "Mass SA",
-      "fondateurs": "",
+      "fondateurs": "Ramla Jarrar, Firas Jabloun",
       "secteur": "AI",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé dès le 2ème Tour"
     },
     {
       "societe": "STE Kaoun",
-      "fondateurs": "Anis Kallel",
+      "fondateurs": "Nebras Jemel, Anis Kallel, Rostom Bouazizi",
       "secteur": "Fintech",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé dès le 2ème Tour"
     },
     {
       "societe": "Apprentus Tunisie",
-      "fondateurs": "Marius Andra, Amor Sahnoun",
+      "fondateurs": "Gaetan Deremince, Marius Andra",
       "secteur": "EdTech",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé dès le 2ème Tour"
     },
     {
       "societe": "Bus Software",
-      "fondateurs": "Makrem Erguez, Ismail Ben Sassi",
+      "fondateurs": "Amor Sahnoun, Makrem Erguez",
       "secteur": "IoT",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé dès le 2ème Tour"
     },
     {
       "societe": "ilboursa.com",
-      "fondateurs": "Rodolphe Villaes, Selim Kanzari",
+      "fondateurs": "Ismail Ben Sassi, Rodolphe Villaes",
       "secteur": "IT",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé dès le 2ème Tour"
     },
     {
       "societe": "Methania Industries",
-      "fondateurs": "",
+      "fondateurs": "Selim Kanzari, Tahar Azizi",
       "secteur": "Energie",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé dès le 2ème Tour"
     },
     {
       "societe": "Wattnow",
       "fondateurs": "Issam Smaali",
       "secteur": "IoT",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé dès le 2ème Tour"
     },
     {
       "societe": "TechAccessibility",
-      "fondateurs": "",
+      "fondateurs": "Mohamed Nour Ben Yahia",
       "secteur": "IT",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé dès le 2ème Tour"
     },
     {
       "societe": "Taysir Solutions Tunisia",
       "fondateurs": "Mohamed Belghith, Fakhreddine Hachfi",
       "secteur": "IT",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé dès le 2ème Tour"
     },
     {
       "societe": "UniQ Soft Technology",
-      "fondateurs": "Bechir Yakhlef, Armani Arabic Academy Salwa Armani",
+      "fondateurs": "Bechir Yakhlef",
       "secteur": "IT",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé dès le 2ème Tour"
+    },
+    {
+      "societe": "Armani Arabic Academy",
+      "fondateurs": "Salwa Armani",
+      "secteur": "EdTech",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé dès le 2ème Tour"
     },
     {
       "societe": "Dqlick",
       "fondateurs": "Hamdi Bouslah",
       "secteur": "Insurance Tech",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé dès le 2ème Tour"
     },
     {
       "societe": "KNSD",
       "fondateurs": "Ali Boulila",
       "secteur": "Big Data",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé dès le 2ème Tour"
     },
     {
       "societe": "MedCREtech",
-      "fondateurs": "Nacef Bouzguenda, Zied Loukil",
-      "secteur": "cryptocurrency",
+      "fondateurs": "Nacef Bouzguenda",
+      "secteur": "Blockchain",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé dès le 2ème Tour"
     },
     {
       "societe": "Novel-Ti",
-      "fondateurs": "Ferdaous Masmoudi, Moslem Ben Dhaou",
+      "fondateurs": "Zied Loukil, Ferdaous Masmoudi",
       "secteur": "AI",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé dès le 2ème Tour"
     },
     {
       "societe": "PEAK Technologies",
-      "fondateurs": "Bilel Methnani",
+      "fondateurs": "Moslem Ben Dhaou, Bilel Methnani",
       "secteur": "Fintech",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé dès le 2ème Tour"
     },
     {
       "societe": "Smart and Clean",
       "fondateurs": "Mourad Bouabdallah",
       "secteur": "Cleantech",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé dès le 2ème Tour"
     },
     {
       "societe": "Tadeco IT",
-      "fondateurs": "Aymen Talbi, Dorra Kammoun",
+      "fondateurs": "Aymen Talbi",
       "secteur": "E-Commerce",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé dès le 2ème Tour"
     },
     {
       "societe": "TechAbility",
-      "fondateurs": "Oussama Romdhane",
+      "fondateurs": "Dorra Kammoun, Oussama Romdhane",
       "secteur": "IoT",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
-    },
-    {
-      "societe": "Empire communication",
-      "fondateurs": "Hani Hamrouni, Davide David, Ferid Kamel",
-      "secteur": "Services",
-      "resultat": "label non accorde",
-      "_displayDecision": "label_refuse"
-    },
-    {
-      "societe": "3D Forge",
-      "fondateurs": "Mohamed Abul Heija",
-      "secteur": "Services",
-      "resultat": "",
-      "_displayDecision": "label_refuse"
-    },
-    {
-      "societe": "Africa Flying and",
-      "fondateurs": "Walid Meskine",
-      "secteur": "AgriTech",
-      "resultat": "label non accorde",
-      "_displayDecision": "label_refuse"
-    },
-    {
-      "societe": "Engineering Ticket Communication",
-      "fondateurs": "Aida Rafrafi",
-      "secteur": "Marketing",
-      "resultat": "label non accorde",
-      "_displayDecision": "label_refuse"
-    },
-    {
-      "societe": "TICOM TeTa concept",
-      "fondateurs": "Achraf Jamli, Abdelmajid Mathlouthi",
-      "secteur": "Services",
-      "resultat": "",
-      "_displayDecision": "label_refuse"
-    },
-    {
-      "societe": "WeMake",
-      "fondateurs": "Karim Yahyaoui",
-      "secteur": "Services",
-      "resultat": "Accordé",
-      "_displayDecision": "label_refuse"
-    },
-    {
-      "societe": "Micro Device Tunisia",
-      "fondateurs": "Hamdi Ben Amor",
-      "secteur": "IoT",
-      "resultat": "Accordé",
-      "_displayDecision": "label_refuse"
-    },
-    {
-      "societe": "Kiwi Softwares",
-      "fondateurs": "Ali Bouslama",
-      "secteur": "IT",
-      "resultat": "Accordé",
-      "_displayDecision": "label_refuse"
+      "commentaires": "Label accordé dès le 2ème Tour"
     },
     {
       "societe": "Expensya (Pepino Tech)",
-      "fondateurs": "Karim jouini",
+      "fondateurs": "Karim Jouini, Jihed Othmani",
       "secteur": "E-Commerce",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé après le Pitching"
     },
     {
       "societe": "Smart Mobility",
       "fondateurs": "Mokhles Masmoudi",
       "secteur": "IoT",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé après le Pitching"
     },
     {
       "societe": "Educanet",
-      "fondateurs": "Anis Ben Arbia, Nidhal Abidi, Mohamed Selim",
+      "fondateurs": "Anis Ben Arbia",
       "secteur": "EdTech",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé après le Pitching"
     },
     {
       "societe": "Study.tn",
-      "fondateurs": "Hadrich, Nadhir Abidi, Seyf Hamdaoui",
+      "fondateurs": "Nidhal Abidi, Mohamed Selim Hadrich, Nadhir Abidi, Seyf Hamdaoui",
       "secteur": "E-Learning",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé après le Pitching"
     },
     {
-      "societe": "Tunisie Matériel",
-      "fondateurs": "Amel Besbes",
+      "societe": "Tunisie Matériel Roulant",
+      "fondateurs": "Amel Besbes, Kais Aribi",
       "secteur": "Marketing",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé après le Pitching"
     },
     {
-      "societe": "Roulant Embedded Solutions",
-      "fondateurs": "Kais Aribi",
-      "secteur": "",
-      "resultat": "",
-      "_displayDecision": "label_accorde"
-    },
-    {
-      "societe": "and Advanced Technology",
-      "fondateurs": "Mohamed Salouati, Mehdi Mazlout",
+      "societe": "Embedded Solutions and Advanced Technology",
+      "fondateurs": "Mohamed Salouati",
       "secteur": "IoT",
       "resultat": "label accorde",
-      "_displayDecision": "unknown"
+      "commentaires": "Label accordé après le Pitching"
     },
     {
       "societe": "Inotek engineering",
-      "fondateurs": "Walid Saghari",
+      "fondateurs": "Mehdi Mazlout, Walid Saghari",
       "secteur": "IoT",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé après le Pitching"
     },
     {
       "societe": "Paymee",
       "fondateurs": "Marwen Amamou",
       "secteur": "Fintech",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé après le Pitching"
     },
     {
       "societe": "Healthcare Anywhere",
-      "fondateurs": "",
+      "fondateurs": "Imed Abed, Fadoua Ouerdiane",
       "secteur": "Health Tech",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé après le Pitching"
     },
     {
       "societe": "TunRooms",
       "fondateurs": "Mohamed Ali Afif",
       "secteur": "E-Commerce",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé après le Pitching"
     },
     {
       "societe": "Galactech",
-      "fondateurs": "Houssem Maiza, Rochdi Zaghden",
+      "fondateurs": "Houssem Maiza",
       "secteur": "Telcom",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé après le Pitching"
     },
     {
       "societe": "Domodar",
-      "fondateurs": "Walid Dieff Allah, Adam Chebbi",
+      "fondateurs": "Rochdi Zaghden, Walid Dieff Allah",
       "secteur": "IoT",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé après le Pitching"
     },
     {
       "societe": "Vynd",
-      "fondateurs": "Khalil Ben Hamouda",
+      "fondateurs": "Adam Chebbi, Khalil Ben Hamouda",
       "secteur": "E-Commerce",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé après le Pitching"
+    },
+    {
+      "societe": "Empire communication",
+      "fondateurs": "Hani Hamrouni, Davide David",
+      "secteur": "Services",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé dès le 2ème Tour"
+    },
+    {
+      "societe": "3D Forge",
+      "fondateurs": "Ferid Kamel, Mohamed Abul Heija",
+      "secteur": "Services",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé dès le 2ème Tour"
+    },
+    {
+      "societe": "Africa Flying and Engineering",
+      "fondateurs": "Walid Meskine",
+      "secteur": "AgriTech",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé dès le 2ème Tour"
+    },
+    {
+      "societe": "Ticket Communication TICOM",
+      "fondateurs": "Aida Rafrafi",
+      "secteur": "Marketing",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé dès le 2ème Tour"
+    },
+    {
+      "societe": "TeTa concept",
+      "fondateurs": "Achraf Jamli",
+      "secteur": "Services",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé dès le 2ème Tour"
+    },
+    {
+      "societe": "WeMake",
+      "fondateurs": "Abdelmajid Mathlouthi, Karim Yahyaoui",
+      "secteur": "Services",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé dès le 2ème Tour"
+    },
+    {
+      "societe": "Micro Device Tunisia",
+      "fondateurs": "Hamdi Ben Amor",
+      "secteur": "IoT",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé dès le 2ème Tour"
+    },
+    {
+      "societe": "Kiwi Softwares",
+      "fondateurs": "Ali Bouslama",
+      "secteur": "IT",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé dès le 2ème Tour"
     },
     {
       "societe": "Tunisie Co",
       "fondateurs": "Khaled Aouij",
       "secteur": "Services",
-      "resultat": "",
-      "_displayDecision": "label_refuse"
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé après le Pitching"
     },
     {
       "societe": "Best Way",
       "fondateurs": "Ahmed Ben Hamida",
       "secteur": "Marketing",
-      "resultat": "",
-      "_displayDecision": "label_refuse"
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé après le Pitching"
     },
     {
       "societe": "ComEngineering",
-      "fondateurs": "Ahmed Rouetbi",
+      "fondateurs": "Omar Chahata, Ahmed Rouetbi",
       "secteur": "IoT",
-      "resultat": "Accordé",
-      "_displayDecision": "label_refuse"
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé après le Pitching"
     },
     {
-      "societe": "Testafid+ Afrique Charbon",
+      "societe": "Testafid+",
+      "fondateurs": "Mohamed Ghmadh",
+      "secteur": "E-Commerce",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé après le Pitching"
+    },
+    {
+      "societe": "Afrique Charbon",
       "fondateurs": "Abdelaziz Bahri",
       "secteur": "Energie",
-      "resultat": "Accordé",
-      "_displayDecision": "label_refuse"
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé après le Pitching"
     },
     {
       "societe": "Ironhoster",
       "fondateurs": "Naiim Lamloumi",
       "secteur": "E-Commerce",
-      "resultat": "",
-      "_displayDecision": "label_refuse"
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé après le Pitching"
     },
     {
       "societe": "Boostiny",
-      "fondateurs": "Forevermo (Paravoisin) Mohamed Methnani, Aymen Tleilia",
-      "secteur": "Tarak Nachnouchi Marketing",
-      "resultat": "Accordé",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Tarak Nachnouchi",
+      "secteur": "Marketing",
+      "resultat": "label non accorde",
+      "commentaires": "Dossier irrecevable pour non-indépendance du capital"
+    },
+    {
+      "societe": "Forevermo (Paravoisin)",
+      "fondateurs": "Mohamed Methnani",
+      "secteur": "Health Tech",
+      "resultat": "label non accorde",
+      "commentaires": "Dossier irrecevable pour cause de documents manquants"
     },
     {
       "societe": "Supply Air",
-      "fondateurs": "Hatem Lefi",
+      "fondateurs": "Aymen Tleilia, Hatem Lefi",
       "secteur": "Services",
-      "resultat": "Accordé",
-      "_displayDecision": "irrecevable"
+      "resultat": "label non accorde",
+      "commentaires": "Dossier irrecevable pour cause de documents manquants"
     },
     {
-      "societe": "Sawsan Bellaj Training",
+      "societe": "Sawsan Bellaj Training & Consulting",
       "fondateurs": "Sawssen Bellaj",
       "secteur": "E-Commerce",
       "resultat": "label non accorde",
-      "_displayDecision": "irrecevable"
-    },
-    {
-      "societe": "& Consulting",
-      "fondateurs": "Walid Balti",
-      "secteur": "",
-      "resultat": "",
-      "_displayDecision": "unknown"
+      "commentaires": "Dossier irrecevable pour cause de non-conformité de la forme juridique"
     },
     {
       "societe": "Casual Bet",
-      "fondateurs": "Abderahmen, Mahmoudi",
+      "fondateurs": "Walid Balti, Abderahmen Mahmoudi",
       "secteur": "Gaming",
-      "resultat": "Accordé",
-      "_displayDecision": "unknown"
+      "resultat": "label non accorde",
+      "commentaires": "Dossier irrecevable à cause d'un litige avec l'État Tunisien"
     }
   ],
   "session_data": {

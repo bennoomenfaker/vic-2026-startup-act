@@ -3,204 +3,211 @@
   "annee": 2019,
   "mois": 7,
   "pdf": "session_2019_07.pdf",
-  "nb_entrees": 28,
+  "nb_entrees": 29,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
       "societe": "TransIN / SmartIN",
-      "fondateurs": "Wahid Mnasri, Mohamed Amine Ghorbel",
+      "fondateurs": "Wahid Mnasri",
       "secteur": "Insurance Tech",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé dès le 2ème tour"
     },
     {
       "societe": "Catrim",
-      "fondateurs": "",
+      "fondateurs": "Mohamed Amine Ghorbel, Becem Ben Mustapha",
       "secteur": "Fintech",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé dès le 2ème tour"
     },
     {
       "societe": "eDonec",
-      "fondateurs": "Zakaria Hatira, Haythem Boughzala",
+      "fondateurs": "Nader Zouari, Zakaria Hatira",
       "secteur": "Edtech",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé dès le 2ème tour"
     },
     {
       "societe": "Avempace",
-      "fondateurs": "Abdelhamid Kerkeni",
+      "fondateurs": "Haythem Boughzala, Abdelhamid Kerkeni",
       "secteur": "IOT",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé dès le 2ème tour"
     },
     {
       "societe": "NIWEES",
-      "fondateurs": "Abdallah NAJAH, Ines Hafi",
+      "fondateurs": "Abdallah Najah",
       "secteur": "Marketing",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé dès le 2ème tour"
     },
     {
       "societe": "Arsela",
-      "fondateurs": "Achref Ben Ouannes, Ahmed Adala Ahmed Ben Zineb",
+      "fondateurs": "Ines Hafi, Achref Ben Ouannes, Ahmed Ben Zineb",
       "secteur": "AI",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé dès le 2ème tour"
     },
     {
       "societe": "Coaching Foot",
-      "fondateurs": "Kheireddine Fradj, Hussein Jenayah",
+      "fondateurs": "Ahmed Adala, Kheireddine Fradj, Hussein Jenayah",
       "secteur": "E-commerce",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé dès le 2ème tour"
     },
     {
       "societe": "AROM R SARL",
       "fondateurs": "Ellyes Chakroun",
       "secteur": "IoT",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé dès le 2ème tour"
     },
     {
       "societe": "Rahba.tn",
-      "fondateurs": "Mahmoud Aboulrob, Hidayet Ayadi, Seifeddine Ben Achour",
+      "fondateurs": "Mahmoud Aboulrob",
       "secteur": "Agritech",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé dès le 2ème tour"
     },
     {
       "societe": "DeVolution studio",
-      "fondateurs": "",
+      "fondateurs": "Hidayet Ayadi, Seifeddine Ben Achour, Oualid Khayatti, Oussema Maatouk",
       "secteur": "Ed Tech",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé dès le 2ème tour"
     },
     {
       "societe": "ASEPTIKA LAB",
-      "fondateurs": "Aziz Zaouali",
+      "fondateurs": "Selima Zaouali, Aziz Zaouali",
       "secteur": "E-commerce",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé après pitching"
     },
     {
       "societe": "Faavly",
-      "fondateurs": "Mohamed Amine Grichi, Omar Bouattay",
+      "fondateurs": "Mohamed Amine Grichi",
       "secteur": "Plateforme sociale",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé après pitching"
     },
     {
       "societe": "Universa Blockchain",
-      "fondateurs": "Alexandre Borodich",
-      "secteur": "Blockchain & cryptocureency",
+      "fondateurs": "Omar Bouattay, Alexandre Borodich",
+      "secteur": "Blockchain",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé après pitching"
     },
     {
       "societe": "Surfin - powered by Incept",
       "fondateurs": "Sofiene Chaieb",
       "secteur": "Mobile",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé après pitching"
     },
     {
       "societe": "TuniBoat",
-      "fondateurs": "Ahmed Ayadi, Walid Mzoughi",
+      "fondateurs": "Ahmed Ayadi",
       "secteur": "E-commerce",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
+      "commentaires": "Prélabel accordé dès le 2ème tour"
     },
     {
       "societe": "Winshot",
-      "fondateurs": "Hela Gabsi",
+      "fondateurs": "Walid Mzoughi, Hela Gabsi, Alaa Mokrani",
       "secteur": "AI",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
+      "commentaires": "Prélabel accordé dès le 2ème tour"
     },
     {
       "societe": "Technologia Academy",
       "fondateurs": "Mohamed Amine Hlali",
       "secteur": "Edtech",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
+      "commentaires": "Prélabel accordé dès le 2ème tour"
     },
     {
       "societe": "Minima.ai",
       "fondateurs": "Houssem eddine Mrad",
       "secteur": "AI",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
+      "commentaires": "Prélabel accordé dès le 2ème tour"
     },
     {
-      "societe": "Réseau social medical : Saheelha Advanced functionalities for smart home/company WiFi",
-      "fondateurs": "Marwan Abidi, Lotfi Aguerbaoui",
+      "societe": "Réseau social medical : Saheelha",
+      "fondateurs": "Marwan Abidi",
       "secteur": "Big Data",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
+      "commentaires": "Prélabel accordé dès le 2ème tour"
+    },
+    {
+      "societe": "Advanced functionalities for smart home/company WiFi",
+      "fondateurs": "Lotfi Aguerbaoui",
+      "secteur": "Telecom",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé dès le 2ème tour"
     },
     {
       "societe": "Zainpulse",
-      "fondateurs": "Zaineb Rezgui, Mohamed Aymen Ben Elhaj Mabrouk",
+      "fondateurs": "Zaineb Rezgui",
       "secteur": "Health Tech",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
+      "commentaires": "Prélabel accordé après pitching"
     },
     {
       "societe": "Sala7li",
-      "fondateurs": "Ines Dhaouadi, Haykel Mrad",
+      "fondateurs": "Mohamed Aymen Ben Elhaj Mabrouk, Ines Dhaouadi",
       "secteur": "Edtech",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
+      "commentaires": "Prélabel accordé après pitching"
     },
     {
       "societe": "Appinov",
-      "fondateurs": "Yazid Rahoui, Heni Sabbeh",
+      "fondateurs": "Haykel Mrad, Yazid Rahoui, Heni Sabbeh",
       "secteur": "Logiciel",
       "resultat": "label non accorde",
-      "_displayDecision": "label_refuse"
+      "commentaires": "Label non-accordé dès le 2ème tour"
     },
     {
       "societe": "AES",
       "fondateurs": "Amine Souilhi",
       "secteur": "Service",
       "resultat": "label non accorde",
-      "_displayDecision": "label_refuse"
+      "commentaires": "Label non-accordé dès le 2ème tour"
     },
     {
       "societe": "STE VIF PRO",
-      "fondateurs": "Sabri LACHAAL",
+      "fondateurs": "Mohamed Mouldi Ayed, Sabri Lachaal",
       "secteur": "E-commerce",
       "resultat": "label non accorde",
-      "_displayDecision": "label_refuse"
+      "commentaires": "Label non-accordé après pitching"
+    },
+    {
+      "societe": "Kademia",
+      "fondateurs": "Mohamed Ali Jomaa",
+      "secteur": "EdTech",
+      "resultat": "label non accorde",
+      "commentaires": "Dossier irrecevable pour non-conformité aux critères d'éligibilité"
     },
     {
       "societe": "Glamour By Riyem",
       "fondateurs": "Riyem Saidi",
       "secteur": "Health Tech",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "prelabel_refuse"
+      "commentaires": "Prélabel non-accordé dès le 2ème tour"
     },
     {
       "societe": "Greendyzer",
-      "fondateurs": "Bassem ABdelhak, Mohamed Nidham, Ahmed Khalil Abdelkhalek",
-      "secteur": "iOT",
+      "fondateurs": "Faycal Sessi, Bassem Abdelhak, Mohamed Nidham Sfar Gandoura",
+      "secteur": "IoT",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "prelabel_refuse"
+      "commentaires": "Prélabel non-accordé après pitching"
     },
     {
       "societe": "VR Crystalized",
-      "fondateurs": "Sfar Gandoura, Boulbaba Zitouni",
-      "secteur": "créatif",
+      "fondateurs": "Ahmed Khalil Abdelkhalek, Boulbaba Zitouni",
+      "secteur": "Autre contenu créatif",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "prelabel_refuse"
-    },
-    {
-      "societe": "Kademia",
-      "fondateurs": "Mohamed Ali Jomaa",
-      "secteur": "EDTECH",
-      "resultat": "",
-      "_displayDecision": "unknown"
+      "commentaires": "Prélabel non-accordé après pitching"
     }
   ],
   "session_data": {

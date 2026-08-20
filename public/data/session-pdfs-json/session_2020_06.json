@@ -3,209 +3,260 @@
   "annee": 2020,
   "mois": 6,
   "pdf": "session_2020_06.pdf",
-  "nb_entrees": 27,
+  "nb_entrees": 30,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
       "societe": "FBS COMPANY",
       "fondateurs": "Fatma Ben Soltane",
       "secteur": "E-commerce",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "type_label": "Label",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé dès le 2ème tour"
     },
     {
       "societe": "ADIOM",
-      "fondateurs": "Wael Kanzari, Mohamed Salah Karouia, Abdeljalil KAROUIA",
+      "fondateurs": "Wael Kanzari",
       "secteur": "Agritech",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "type_label": "Label",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé dès le 2ème tour"
     },
     {
       "societe": "Odacel",
-      "fondateurs": "Slim Ouichtati, Mourad Karouia, Mohamed Selim Bessi, Nidhal Ayari",
+      "fondateurs": "Mohamed Salah Karouia ; Abdeljalil Karouia ; Slim Ouichtati ; Mourad Karouia ; Mohamed Selim Bessi",
       "secteur": "IoT",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "type_label": "Label",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé dès le 2ème tour"
     },
     {
       "societe": "Firnas Engineering",
-      "fondateurs": "Marwa Sboui, Mahmoud Ayari, Ahmed Salah",
+      "fondateurs": "Nidhal Ayari ; Marwa Sboui ; Mahmoud Ayari",
       "secteur": "IoT",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "type_label": "Label",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé dès le 2ème tour"
     },
     {
       "societe": "CLEDISS",
-      "fondateurs": "Soumaya Dridi",
+      "fondateurs": "Ahmed Salah ; Soumaya Dridi",
       "secteur": "Logiciel",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "type_label": "Label",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé dès le 2ème tour"
     },
     {
       "societe": "Lemarché.tn",
-      "fondateurs": "Zied Gharsallah, Hassine Labaied",
+      "fondateurs": "Zied Gharsallah",
       "secteur": "Agritech",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "type_label": "Label",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé suite au pitching"
     },
     {
-      "societe": "Société NSIJA La Ferme Urbaine",
-      "fondateurs": "Malek hamza, Nedhir Jemmali, Skander Kacem, Jamoussi Ahmed, Jihed Bouguerra",
+      "societe": "Société NSIJA",
+      "fondateurs": "Hassine Labaied ; Malek Hamza ; Nedhir Jemmali",
       "secteur": "Autre contenu créatif",
-      "resultat": "label",
-      "_displayDecision": "unknown"
+      "type_label": "Label",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé suite au pitching"
+    },
+    {
+      "societe": "La Ferme Urbaine",
+      "fondateurs": "Skander Kacem",
+      "secteur": "Agritech",
+      "type_label": "Label",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé suite au pitching"
     },
     {
       "societe": "Eventizer",
-      "fondateurs": "Yassine Abbes, Oussema Samet, Haithem Kchaou",
+      "fondateurs": "Jamoussi Ahmed ; Jihed Bouguerra ; Yassine Abbes ; Oussema Samet",
       "secteur": "Logiciel",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "type_label": "Prelabel",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé dès le 2ème tour"
     },
     {
       "societe": "Kyteb",
-      "fondateurs": "Chehir Dhawedi, Jaweher Chatbri",
+      "fondateurs": "Haithem Kchaou ; Chehir Dhawedi",
       "secteur": "EdTech",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "type_label": "Prelabel",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé dès le 2ème tour"
     },
     {
       "societe": "Pura solutions",
-      "fondateurs": "Youssef Gaaliche, Ahmed Mrabet",
+      "fondateurs": "Jaweher Chatbri ; Youssef Gaaliche ; Ahmed Mrabet",
       "secteur": "Health Tech",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "type_label": "Prelabel",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé dès le 2ème tour"
     },
     {
       "societe": "School Upgrader",
-      "fondateurs": "Khalil Ben Zineb, Oussama Ben Zineb, Walid M'sallem",
+      "fondateurs": "Khalil Ben Zineb ; Oussama Ben Zineb",
       "secteur": "EdTech",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "type_label": "Prelabel",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé dès le 2ème tour"
     },
     {
       "societe": "StreetCarHub",
-      "fondateurs": "Ghazi Mensi, Marouen Hadhri",
+      "fondateurs": "Walid M'sallem ; Ghazi Mensi",
       "secteur": "Autre contenu créatif",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "type_label": "Prelabel",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé dès le 2ème tour"
     },
     {
       "societe": "Machrou3i Fi Bledi",
-      "fondateurs": "KHELIFA HADHRI",
+      "fondateurs": "Marouen Hadhri ; Khelifa Hadhri",
       "secteur": "EdTech",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "type_label": "Label",
+      "resultat": "label non accorde",
+      "commentaires": "Label non accordé dès le 2ème tour"
+    },
+    {
+      "societe": "Docodify Technologies",
+      "fondateurs": "Mohamed Ali Kharraf",
+      "secteur": "IoT",
+      "type_label": "Label",
+      "resultat": "label non accorde",
+      "commentaires": "Label non accordé suite au pitching"
+    },
+    {
+      "societe": "iMMOTECH",
+      "fondateurs": "Cyrine Ben Ayed ; Mohamed Raafet Limam",
+      "secteur": "Logiciel",
+      "type_label": "Label",
+      "resultat": "label non accorde",
+      "commentaires": "Dossier irrecevable pour motif de non-indépendance du capital"
     },
     {
       "societe": "Tela",
       "fondateurs": "Chaima Chaouachi",
       "secteur": "E-commerce",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "type_label": "Prelabel",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non accordé dès le 2ème tour"
     },
     {
       "societe": "Web2Advisor",
       "fondateurs": "Imed Zhir",
       "secteur": "E-commerce",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "type_label": "Prelabel",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non accordé dès le 2ème tour"
     },
     {
       "societe": "Limaalem",
-      "fondateurs": "Rafik Al Falah, Ahdi Hidri",
+      "fondateurs": "Rafik Al Falah",
       "secteur": "E-commerce",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "type_label": "Prelabel",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non accordé dès le 2ème tour"
     },
     {
-      "societe": "TDR Plateforme de recouvrement intelligente: recouv.tn",
-      "fondateurs": "Saifeddine Jabbes, Youssef Chatti, Yassine Jemal",
+      "societe": "TDR",
+      "fondateurs": "Ahdi Hidri ; Saifeddine Jabbes ; Youssef Chatti",
       "secteur": "E-commerce",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "type_label": "Prelabel",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non accordé dès le 2ème tour"
+    },
+    {
+      "societe": "Plateforme de recouvrement intelligente: recouv.tn",
+      "fondateurs": "Yassine Jemal",
+      "secteur": "Fintech",
+      "type_label": "Prelabel",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non accordé dès le 2ème tour"
     },
     {
       "societe": "Connect Talents",
       "fondateurs": "Sahbi Agerbi",
       "secteur": "HR",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
-    },
-    {
-      "societe": "Docodify Technologies",
-      "fondateurs": "Mohamed Ali Kharraf, Mohamed Aloui",
-      "secteur": "IoT",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "type_label": "Prelabel",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non accordé dès le 2ème tour"
     },
     {
       "societe": "SwalApp",
-      "fondateurs": "Rami Jegham, Aziz Kamarti, Akermi Abdekhalek",
+      "fondateurs": "Mohamed Aloui ; Rami Jegham ; Aziz Kamarti",
       "secteur": "Mobile",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "type_label": "Prelabel",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non accordé suite au pitching"
     },
     {
       "societe": "Azaward",
-      "fondateurs": "Mohamed Akermi, Tarek Saidi, Saïd Ben Jlili",
+      "fondateurs": "Akermi Abdekhalek ; Mohamed Akermi ; Tarek Saidi",
       "secteur": "E-commerce",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "type_label": "Prelabel",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non accordé suite au pitching"
     },
     {
       "societe": "branper",
-      "fondateurs": "Hamza Ben Jannet, Cyrine Ben Ayed",
+      "fondateurs": "Saïd Ben Jlili ; Hamza Ben Jannet",
       "secteur": "Big Data",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
-    },
-    {
-      "societe": "iMMOTECH",
-      "fondateurs": "Mohamed Raafet Limam, Mohamad Mouihbi",
-      "secteur": "",
-      "resultat": "",
-      "_displayDecision": "irrecevable"
+      "type_label": "Prelabel",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non accordé suite au pitching"
     },
     {
       "societe": "Carthachain",
-      "fondateurs": "Mahmoud Jebri",
+      "fondateurs": "Mohamad Mouihbi ; Mahmoud Jebri",
       "secteur": "Blockchain & cryptocurrency",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "type_label": "Prelabel",
+      "resultat": "irrecevable",
+      "commentaires": "Dossier irrecevable pour manque d'autorisation"
     },
     {
       "societe": "ORANGURU TECHDESIGN",
-      "fondateurs": "Nadjib Mammeri, Mohamed Ben Hmida",
+      "fondateurs": "Amir Matallaoui ; Nadjib Mammeri",
       "secteur": "E-commerce",
+      "type_label": "Label",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "is_conversion": true,
+      "commentaires": "Label accordé suite à la création de la Startup"
     },
     {
       "societe": "M eSANTE PLUS",
-      "fondateurs": "AHMED ABIDA, Aymen Bouchoucha",
+      "fondateurs": "Mohamed Ben Hmida ; Ahmed Abida",
       "secteur": "Health Tech",
+      "type_label": "Label",
       "resultat": "label accorde",
-      "_displayDecision": "unknown"
+      "is_conversion": true,
+      "commentaires": "Label accordé suite à la création de la Startup"
     },
     {
       "societe": "INERTIA",
-      "fondateurs": "Mohamed Saïd El Behi",
+      "fondateurs": "Aymen Bouchoucha ; Mohamed Saïd El Behi",
       "secteur": "E-commerce",
+      "type_label": "Label",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "is_conversion": true,
+      "commentaires": "Label accordé suite à la création de la Startup"
+    },
+    {
+      "societe": "IJA-SOLUTIONS",
+      "fondateurs": "Hatem Drira",
+      "secteur": "Plateforme Sociale",
+      "type_label": "Label",
+      "resultat": "label accorde",
+      "is_conversion": true,
+      "commentaires": "Label accordé suite à la création de la Startup"
     }
   ],
   "session_data": {
-    "candidatures": 26,
     "labels": 12,
     "preLabels": 5,
-    "taux_acceptation_pct": 46.2,
-    "statut": "replit_csv_conforme",
-    "retraits": 0,
     "conversions": 4,
-    "newLabels": 12,
-    "taux": 46.2
+    "retraits": 0,
+    "candidatures": 27
   },
   "_displayLabels": 12,
   "_displayPreLabels": 5,

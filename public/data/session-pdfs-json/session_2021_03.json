@@ -11,7 +11,7 @@
       "fondateurs": "",
       "secteur": "",
       "resultat": "",
-      "_displayDecision": "irrecevable"
+      "_displayDecision": "inconnu"
     },
     {
       "societe": "Fripeji.tn",
@@ -207,14 +207,14 @@
       "fondateurs": "Souamay Tlili, Faten Manai, Abd El Aziz Trabelsi",
       "secteur": "Santé",
       "resultat": "",
-      "_displayDecision": "irrecevable"
+      "_displayDecision": "inconnu"
     },
     {
       "societe": "Orient Tea",
       "fondateurs": "Tarek Talbi",
       "secteur": "Biotechnologie",
       "resultat": "",
-      "_displayDecision": "irrecevable"
+      "_displayDecision": "inconnu"
     }
   ],
   "session_data": {

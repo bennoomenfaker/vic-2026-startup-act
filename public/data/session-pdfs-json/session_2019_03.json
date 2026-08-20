@@ -3,92 +3,106 @@
   "annee": 2019,
   "mois": 3,
   "pdf": "session_2019_03.pdf",
-  "nb_entrees": 12,
+  "nb_entrees": 14,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
       "societe": "Datavora",
-      "fondateurs": "",
+      "fondateurs": "Hadi Zaher, Oussama Messaoud",
       "secteur": "E-Commerce",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé dès le 2ème Tour"
     },
     {
       "societe": "Enova Robotics",
-      "fondateurs": "Philippe Bidaud, Christophe Grand",
+      "fondateurs": "Anis Sahbani, Philippe Bidaud, Christophe Grand",
       "secteur": "Industrie Robotique",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé dès le 2ème Tour"
     },
     {
       "societe": "Ezzayra Solutions",
       "fondateurs": "Yasser Bououd",
       "secteur": "AgriTech",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé dès le 2ème Tour"
+    },
+    {
+      "societe": "Polysmart",
+      "fondateurs": "Ahmed Cheikhrouhou, Haroun Bouchrit",
+      "secteur": "Gaming",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé dès le 2ème Tour"
     },
     {
       "societe": "Be Wireless Solutions",
-      "fondateurs": "Nizar Ghram, Sofiene Ghram, Anis Ghorbel",
+      "fondateurs": "Karim Kharrat, Nizar Ghram, Sofiene Ghram",
       "secteur": "IOT",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé dès le 2ème Tour"
     },
     {
       "societe": "Medilsys",
-      "fondateurs": "Najmeddine Nouri, Sofiene Ghorbel, Walid Chamekh",
+      "fondateurs": "Anis Ghorbel, Najmeddine Nouri, Sofiene Ghorbel",
       "secteur": "HealthTech",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé dès le 2ème Tour"
     },
     {
       "societe": "Roamsmart",
-      "fondateurs": "",
+      "fondateurs": "Walid Chamekh, Mehdi Triki",
       "secteur": "Telecom",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé dès le 2ème Tour"
     },
     {
       "societe": "Vitalight Lab",
-      "fondateurs": "",
-      "secteur": "E-Commerce | BioTech",
+      "fondateurs": "Khaoula Ben Slimane, Ilyes Gouja",
+      "secteur": "E-Commerce",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé dès le 2ème Tour"
     },
     {
       "societe": "Dabchy",
-      "fondateurs": "Ameni Mansouri",
+      "fondateurs": "Ghazi Ketata, Ameni Mansouri, Oussama Mahjoub",
       "secteur": "E-Commerce",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé dès le 2ème Tour"
     },
     {
       "societe": "Next Gen Corp",
-      "fondateurs": "Ahmed Nabli",
-      "secteur": "EdTech | HealthTech",
+      "fondateurs": "Moez Lachned, Ahmed Nabli",
+      "secteur": "EdTech",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé après Pitching"
     },
     {
       "societe": "Nostatik Media",
-      "fondateurs": "Ramzi Mrad",
-      "secteur": "IT | PharmaTech",
+      "fondateurs": "Khaled Frad, Ramzi Mrad",
+      "secteur": "PharmaTech",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé après Pitching"
     },
     {
       "societe": "Paypos Tunisie",
       "fondateurs": "Khatib Chakchouk",
       "secteur": "FinTech",
-      "resultat": "label accorde d'interet",
-      "_displayDecision": "label_accorde"
+      "resultat": "label accorde",
+      "commentaires": "Label accordé après Pitching"
+    },
+    {
+      "societe": "Foua Shop",
+      "fondateurs": "Karim Skik",
+      "secteur": "E-Commerce",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé après Pitching"
     },
     {
       "societe": "Mitigan",
-      "fondateurs": "Elyes Jouini, Hemdene Ben Othmane, Mohamed Ali Elloumi",
+      "fondateurs": "Omar El Matri, Ahmed Farhat, Kais Laouiti, Elyes Jouini, Hemdene Ben Othmane, Mohamed Ali Elloumi",
       "secteur": "FinTech",
-      "resultat": "Accordé",
-      "_displayDecision": "irrecevable"
+      "resultat": "label non accorde",
+      "commentaires": "Dossier irrecevable pour motif de non-indépendance du capital"
     }
   ],
   "session_data": {

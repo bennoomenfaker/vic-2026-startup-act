@@ -186,7 +186,7 @@
       "fondateurs": "Soumaya Sebai",
       "secteur": "shopping",
       "resultat": "label non accorde au 2 eme tour",
-      "_displayDecision": "label_accorde"
+      "_displayDecision": "Label"
     },
     {
       "societe": "Passionne12",
@@ -214,14 +214,14 @@
       "fondateurs": "Ghada Lachhab, Malek Bahroun",
       "secteur": "Environment",
       "resultat": "label non accorde au 2 eme tour",
-      "_displayDecision": "label_refuse"
+      "_displayDecision": "Label Non Accordé au 2 ème Tour"
     },
     {
       "societe": "Tawelti Wiser Design Technology",
       "fondateurs": "Bilel Makhlouf",
       "secteur": "Food",
       "resultat": "label non accorde au 3 eme tour",
-      "_displayDecision": "label_refuse"
+      "_displayDecision": "Label Non Accordé au 3 ème Tour"
     },
     {
       "societe": "Tunisia",
@@ -242,14 +242,14 @@
       "fondateurs": "Saied Firas Chaieb, Amine Arous",
       "secteur": "Fintech",
       "resultat": "prelabel non accorde au 2 eme tour",
-      "_displayDecision": "label_refuse"
+      "_displayDecision": "Prélabel Non Accordé au 2 ème Tour"
     },
     {
       "societe": "Chkobba Heroes",
       "fondateurs": "Ahmed Khemiri, Skander Khiari",
       "secteur": "Tech",
       "resultat": "prelabel non accorde au 2 eme tour",
-      "_displayDecision": "label_refuse"
+      "_displayDecision": "Prélabel Non Accordé au 2 ème Tour"
     },
     {
       "societe": "ichrili.tn",
@@ -284,14 +284,14 @@
       "fondateurs": "Karim Mathlouthi, Lotfi Cherif",
       "secteur": "Fintech",
       "resultat": "prelabel non accorde au 2 eme tour",
-      "_displayDecision": "label_refuse"
+      "_displayDecision": "Prélabel Non Accordé au 2 ème Tour"
     },
     {
       "societe": "Yeiza",
       "fondateurs": "Karim Ayadi, Olivia Gallardo, Anis Mrad",
       "secteur": "shopping",
       "resultat": "prelabel non accorde au 2 eme tour",
-      "_displayDecision": "prelabel_accorde"
+      "_displayDecision": "Prélabel"
     },
     {
       "societe": "Smart Net",
@@ -312,7 +312,7 @@
       "fondateurs": "Ghada Lachhab",
       "secteur": "Environment",
       "resultat": "candidature durant la même session",
-      "_displayDecision": "label_refuse"
+      "_displayDecision": "Label Non Accordé au 2 ème Tour"
     },
     {
       "societe": "Lura Lura Law",
@@ -340,7 +340,7 @@
       "fondateurs": "Janvier 2020",
       "secteur": "Retrait du Label",
       "resultat": "20-2018 pour les sociétés bénéficiaires du Label",
-      "_displayDecision": "irrecevable"
+      "_displayDecision": "inconnu"
     }
   ],
   "session_data": {

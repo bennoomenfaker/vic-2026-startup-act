@@ -3,190 +3,204 @@
   "annee": 2019,
   "mois": 8,
   "pdf": "session_2019_08.pdf",
-  "nb_entrees": 26,
+  "nb_entrees": 28,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
       "societe": "EVOCRAFT",
-      "fondateurs": "Haythem Dabbabi, Imen Hajji, Bechir Ben Brika",
-      "secteur": "Robotique",
+      "fondateurs": "Ali Belhaj Zahi, Haythem Dabbabi, Imen Hajji",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "Smart Farm",
-      "fondateurs": "Hamza Khechine, Issam Ezzeddine",
-      "secteur": "Agritech",
+      "fondateurs": "Bechir Ben Brika, Hamza Khechine",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "HealUp",
-      "fondateurs": "Imed Ezzeddine",
-      "secteur": "Health tech",
+      "fondateurs": "Issam Ezzeddine, Imed Ezzeddine, Badi Bouteraa",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "MOOVOBRAIN",
-      "fondateurs": "Ghofrane Ayari, Souleima Ben Temim",
-      "secteur": "Health tech",
+      "fondateurs": "Khaoula Ben Ahmed, Syrine Ayari, Ghofrane Ayari, Souleima Ben Temim",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "Dataperformers",
-      "fondateurs": "Mehdi Merai, Slim Amamou",
-      "secteur": "AI",
+      "fondateurs": "Mehdi Merai",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "Appro.tn (L6)",
-      "fondateurs": "Nabegh Bechir Hatira",
-      "secteur": "Logistique",
+      "fondateurs": "Slim Amamou, Nabegh Bechir Hatira, Hassen Marzouki",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "FoundPad",
-      "fondateurs": "Hazem Mhiri, Amine Allah Manai",
-      "secteur": "Autre contenu créatif",
+      "fondateurs": "Mehdi Nakouri, Hazem Mhiri",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
-      "societe": "Société KAPTY SARL",
-      "fondateurs": "Khaled Dridi, Elyes Elloumi",
-      "secteur": "Logistique",
+      "societe": "KAPTY SARL",
+      "fondateurs": "Amine Allah Manai, Khaled Dridi",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "unknown"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "OTO TRAVEL",
-      "fondateurs": "Ali ABid",
-      "secteur": "Autre contenu créatif",
+      "fondateurs": "Elyes Elloumi, Ali ABid",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "IDEAL CONCEPTION",
       "fondateurs": "Mehdi Zaabar",
-      "secteur": "Health tech",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
-      "societe": "iCompass eDream Commerce",
-      "fondateurs": "Mohamed Hatem Haddad, Kacem Ghozzi",
-      "secteur": "AI",
+      "societe": "iCompass",
+      "fondateurs": "Ahmed Nouisser, Mohamed Hatem Haddad",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
+    },
+    {
+      "societe": "eDream Commerce",
+      "fondateurs": "Kacem Ghozzi, Nebyl Ben Attia",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé"
     },
     {
       "societe": "Vsober",
-      "fondateurs": "Mohamed Ala eddine Ben Trad",
-      "secteur": "Health Tech",
+      "fondateurs": "Syrine Boudriga, Mohamed Ala eddine Ben Trad",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
-      "societe": "Société institution des modes",
-      "fondateurs": "Kaouther Selmi",
-      "secteur": "Autre contenu créatif",
+      "societe": "Société institution des modes alternatifs de règlement des litiges",
+      "fondateurs": "Kaouther Selmi, Khalil Ben Salah",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "unknown"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "Historio",
-      "fondateurs": "Marwen Sami, Skander Amor, Ahmed Ben Hssouna",
-      "secteur": "Gaming",
+      "fondateurs": "Youssef Boufaied, Mustapha Gharbi, Marwen Sami, Skander Amor",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "NACHD-IT",
-      "fondateurs": "Nourhane Amara, Noomane Lahimer",
-      "secteur": "Logiciel",
+      "fondateurs": "Ahmed Ben Hssouna, Nourhane Amara",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "Evey Technologies",
-      "fondateurs": "",
-      "secteur": "Plateforme Sociale",
+      "fondateurs": "Noomane Lahimer, Maher Hanafi",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "SCIENCIA",
-      "fondateurs": "Mohamed Jaidane, Chahrazed Remadi",
-      "secteur": "Edtech",
+      "fondateurs": "Latifa El Ghezal, Mohamed Jaidane",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
-    },
-    {
-      "societe": "WanToTrip",
-      "fondateurs": "Makrem Hermassi, Mohamed Aziz CHAHED, Mohamed Itheb Ben Abbes",
-      "secteur": "Ecommerce",
-      "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
-    },
-    {
-      "societe": "X-P-R",
-      "fondateurs": "Oussama Ouda, Mohamed Chebbi",
-      "secteur": "Logiciel",
-      "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "Zatex",
       "fondateurs": "Mohamed Mekki Maalej",
-      "secteur": "IoT",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
       "societe": "Eat & Fit",
-      "fondateurs": "Skander Ben Sassi, Nasreddine Cherih",
-      "secteur": "Autre contenu créatif",
+      "fondateurs": "Skander Ben Sassi",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
     },
     {
-      "societe": "Plateforme de Formation E-learning Projet de valorisation des coproduits issus de l'engraissement du thon rouge (Oleomar Start-up Projet)",
-      "fondateurs": "Marouane El Behi, Sami Guetari, Nadia Bouslimi Guetari",
-      "secteur": "Autre contenu créatif",
+      "societe": "WanToTrip",
+      "fondateurs": "Chahrazed Remadi, Makrem Hermassi",
+      "secteur": "",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
+      "commentaires": "Prélabel accordé"
+    },
+    {
+      "societe": "X-P-R",
+      "fondateurs": "Mohamed Aziz CHAHED, Mohamed Itheb Ben Abbes, Oussama Ouda, Mohamed Chebbi",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
+    },
+    {
+      "societe": "Plateforme de Formation E-learning",
+      "fondateurs": "Nasreddine Cherih, Marouane El Behi",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
+    },
+    {
+      "societe": "Oleomar Start-up Projet",
+      "fondateurs": "Sami Guetari, Nadia Bouslimi Guetari",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "UTIK",
-      "fondateurs": "Aymen Gatri, Mounir Bezzarga",
-      "secteur": "Blockchain & cryptocurrency Prélabel",
+      "fondateurs": "Makrem Dhifalli, Aymen Gatri, Mounir Bezzarga",
+      "secteur": "",
       "resultat": "prelabel accorde",
-      "_displayDecision": "unknown"
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "Smart Brand Web",
       "fondateurs": "Wajdi El Fehem",
-      "secteur": "Ecommerce",
+      "secteur": "",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "unknown"
+      "commentaires": "Prélabel non-accordé"
     },
     {
       "societe": "MAIZ FARM",
-      "fondateurs": "Hassen Maiz, Khaled Ben Ali, Fatma Ghizaoui",
-      "secteur": "Agritech",
+      "fondateurs": "Hassen Maiz",
+      "secteur": "",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "unknown"
+      "commentaires": "Prélabel non-accordé"
     },
     {
       "societe": "MAGNITECHS",
-      "fondateurs": "Mohamed Ben Hadj Hmida",
-      "secteur": "Ecommerce",
+      "fondateurs": "Khaled Ben Ali, Fatma Ghizaoui, Mohamed Ben Hadj Hmida, Wajih Gafsi, Mariem Gannouni",
+      "secteur": "",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "unknown"
+      "commentaires": "Prélabel non-accordé"
     }
   ],
   "session_data": {

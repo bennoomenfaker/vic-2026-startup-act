@@ -137,70 +137,70 @@
       "fondateurs": "Wissem Ben Amor, Rashed Bedhiafi",
       "secteur": "Business Software and services",
       "resultat": "label non accorde au 2eme tour",
-      "_displayDecision": "label_refuse"
+      "_displayDecision": "Label Non Accordé au 2ème Tour"
     },
     {
       "societe": "Qoon",
       "fondateurs": "Amine Lamine",
       "secteur": "EdTech",
       "resultat": "label non accorde au 2eme tour",
-      "_displayDecision": "label_refuse"
+      "_displayDecision": "Label Non Accordé au 2ème Tour"
     },
     {
       "societe": "Mat7irch",
       "fondateurs": "Ali Horchani, Badii Gharbi",
       "secteur": "Social Platform",
       "resultat": "label non accorde au 3 eme tour",
-      "_displayDecision": "label_refuse"
+      "_displayDecision": "Label Non Accordé au 3 ème tour"
     },
     {
       "societe": "NEXTOOLS",
       "fondateurs": "Haythem Hamdani, Walid Jemaa, Rahma Dhib",
       "secteur": "Business Software and services",
       "resultat": "prelabel non accorde au 2eme tour",
-      "_displayDecision": "label_refuse"
+      "_displayDecision": "Prélabel Non Accordé au 2ème Tour"
     },
     {
       "societe": "Joyness",
       "fondateurs": "Rahma Hadj Ali, El Abed Ilyes, Zayneb Aouani",
       "secteur": "Wellness",
       "resultat": "prelabel non accorde au 2eme tour",
-      "_displayDecision": "label_refuse"
+      "_displayDecision": "Prélabel Non Accordé au 2ème Tour"
     },
     {
       "societe": "Keef",
       "fondateurs": "Ihab Kahri",
       "secteur": "FoodTech & New Food",
       "resultat": "prelabel non accorde au 2eme tour",
-      "_displayDecision": "label_refuse"
+      "_displayDecision": "Prélabel Non Accordé au 2ème Tour"
     },
     {
       "societe": "ADAM DIGITAL CARD",
       "fondateurs": "Haythem Belhaj, Amel Haddad",
       "secteur": "Communication services",
       "resultat": "prelabel non accorde au 2eme tour",
-      "_displayDecision": "label_refuse"
+      "_displayDecision": "Prélabel Non Accordé au 2ème Tour"
     },
     {
       "societe": "Rewardini",
       "fondateurs": "Shili Badie, Chiraz Othmani, Meher farhat",
       "secteur": "Consumer products and services",
       "resultat": "prelabel non accorde au 2eme tour",
-      "_displayDecision": "label_refuse"
+      "_displayDecision": "Prélabel Non Accordé au 2ème Tour"
     },
     {
       "societe": "Jek Job",
       "fondateurs": "Ismail El Hamad, Adnan Ben Youssef, Amine Ben Dhiab",
       "secteur": "EdTech",
       "resultat": "prelabel non accorde au 2eme tour",
-      "_displayDecision": "label_refuse"
+      "_displayDecision": "Prélabel Non Accordé au 2ème Tour"
     },
     {
       "societe": "Medidoc",
       "fondateurs": "Jamel Malek, Fakhreddine Kraiem, Mehdi Zine Abidine Aidoudi, Malek Taktak",
       "secteur": "HealthTech",
       "resultat": "prelabel non accorde au 2eme tour",
-      "_displayDecision": "label_refuse"
+      "_displayDecision": "Prélabel Non Accordé au 2ème Tour"
     },
     {
       "societe": "pathtrail",
@@ -214,35 +214,35 @@
       "fondateurs": "Hamdi Bouabdallah, Khaled Hadj Ali, Baha Eddine Missaoui",
       "secteur": "HealthTech",
       "resultat": "prelabel non accorde au 2eme tour",
-      "_displayDecision": "label_refuse"
+      "_displayDecision": "Prélabel Non Accordé au 2ème Tour"
     },
     {
       "societe": "CraftARoom",
       "fondateurs": "Wassim Hamdaoui, Siwar Missaoui",
       "secteur": "Business Software and services",
       "resultat": "prelabel non accorde au 2eme tour",
-      "_displayDecision": "label_refuse"
+      "_displayDecision": "Prélabel Non Accordé au 2ème Tour"
     },
     {
       "societe": "CLUB",
       "fondateurs": "Ghaith Labbèdi, Seifeddine Ben Hamouda",
       "secteur": "Consumer products and services",
       "resultat": "prelabel non accorde au 2eme tour",
-      "_displayDecision": "label_refuse"
+      "_displayDecision": "Prélabel Non Accordé au 2ème Tour"
     },
     {
       "societe": "Perfect Gen",
       "fondateurs": "Mohamed Hizabri, Issam Nouri",
       "secteur": "Ad Tech and Creative Tech",
       "resultat": "prelabel non accorde au 3 eme tour",
-      "_displayDecision": "label_refuse"
+      "_displayDecision": "Prélabel Non Accordé au 3 ème Tour"
     },
     {
       "societe": "Smart Farm Solutions",
       "fondateurs": "Béchir Ben Brika",
       "secteur": "Agritech",
       "resultat": "prelabel non accorde au 3 eme tour",
-      "_displayDecision": "label_refuse"
+      "_displayDecision": "Prélabel Non Accordé au 3 ème Tour"
     },
     {
       "societe": "Oratio",
@@ -298,7 +298,7 @@
       "fondateurs": "Deelshop, Rachwan Tarraf, Aziz Kouki",
       "secteur": "Services",
       "resultat": "label accorde",
-      "_displayDecision": "unknown"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Contractzlab",
@@ -319,7 +319,7 @@
       "fondateurs": "Business Software & Services",
       "secteur": "Retrait du Label",
       "resultat": "2018 pour les sociétés bénéficiaires du Label",
-      "_displayDecision": "irrecevable"
+      "_displayDecision": "inconnu"
     }
   ],
   "session_data": {

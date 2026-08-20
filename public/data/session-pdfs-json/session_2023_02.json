@@ -186,7 +186,7 @@
       "fondateurs": "Amine Chortani, Hadil Fouli, Eskander Alaya",
       "secteur": "Mobility",
       "resultat": "label accorde",
-      "_displayDecision": "unknown"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "BLUEPSOL",
@@ -214,7 +214,7 @@
       "fondateurs": "Mohamed Ali Ben Slimen, Souad Belghith, Dhiaeddinne Rahali",
       "secteur": "Services",
       "resultat": "label accorde",
-      "_displayDecision": "unknown"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "BEE SPRING",

@@ -3,271 +3,292 @@
   "annee": 2020,
   "mois": 3,
   "pdf": "session_2020_03.pdf",
-  "nb_entrees": 37,
+  "nb_entrees": 40,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
       "societe": "I POMM",
-      "fondateurs": "Saber Bellaj, Iyed Benhassen, Ouanes Taha Boumiza",
-      "secteur": "Logiciel",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Aymen Karoui, Saber Bellaj, Iyed Benhassen",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé en 2ème tour"
     },
     {
       "societe": "NATULYN",
-      "fondateurs": "Sirine Kallel, Kaouther Mouelhi",
-      "secteur": "Autre contenu créatif",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Ouanes Taha Boumiza, Sirine Kallel",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé en 2ème tour"
     },
     {
       "societe": "She Shares",
-      "fondateurs": "Hamza Arfaoui",
-      "secteur": "Ecommerce",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Kaouther Mouelhi, Hamza Arfaoui",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé en 2ème tour"
     },
     {
       "societe": "Auto-plus",
       "fondateurs": "Amine Mliki",
-      "secteur": "Ecommerce",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé en 2ème tour"
     },
     {
       "societe": "Makroudh Kairouan à Domicile",
-      "fondateurs": "Mohamed Wajih Allani, Jaafar Nasri",
-      "secteur": "Ecommerce",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Mohamed Wajih Allani",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé en 2ème tour"
     },
     {
       "societe": "DigiConstat",
-      "fondateurs": "Anis Nasraoui, Mehdi Doghri",
-      "secteur": "Insurance Tech",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Jaafar Nasri, Anis Nasraoui",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé en 2ème tour"
     },
     {
       "societe": "Save Your Wardrobe",
-      "fondateurs": "Hasna Kourda, Emna Makni",
-      "secteur": "AI",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Mehdi Doghri, Hasna Kourda",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé en 2ème tour"
     },
     {
       "societe": "Go Online Africa",
-      "fondateurs": "Salma Amor, Abdelbari Ben Yagouta",
-      "secteur": "Ecommerce",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Emna Makni, Salma Amor",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé en 2ème tour"
     },
     {
       "societe": "3S : Software and Security Solutions",
-      "fondateurs": "Wrida Ben Yaghouta",
-      "secteur": "IoT",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Abdelbari Ben Yagouta, Wrida Ben Yaghouta",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé en 2ème tour"
     },
     {
       "societe": "GATE INDUSTRIELLE",
-      "fondateurs": "Mohamed Sahlaoui, Nesrine Tekitek",
-      "secteur": "IoT",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Mohamed Sahlaoui",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé en 2ème tour"
     },
     {
       "societe": "Rayhane",
-      "fondateurs": "Nidhal Tekitek, Khaled Aouij",
-      "secteur": "Ecommerce",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Nesrine Tekitek, Nidhal Tekitek",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé après pitching"
     },
     {
       "societe": "Tunisie Co / Resa Privee",
-      "fondateurs": "Abir Fares, Lotfi Ben Mosbah, Aziz Ben Mosbah",
-      "secteur": "Autre contenu créatif",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Khaled Aouij, Abir Fares",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé après pitching"
     },
     {
       "societe": "TOLEDO",
-      "fondateurs": "Zied Chaabane, Haifa Fodha",
-      "secteur": "Health Tech",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Lotfi Ben Mosbah, Aziz Ben Mosbah, Zied Chaabane, Haifa Fodha",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "CHMISA",
-      "fondateurs": "Bechir Taboubi, Mohamed Hedi Ben Hamed",
-      "secteur": "Ecommerce",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Bechir Taboubi",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "KLAY",
-      "fondateurs": "Moez Aousji, Amine Rekhiss",
-      "secteur": "Autre contenu créatif",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Mohamed Hedi Ben Hamed, Moez Aousji",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "FACTOORYA",
-      "fondateurs": "Yassine Khlass, Mohamed Seifeddine Bouarada, Houssem Sahli",
-      "secteur": "IoT",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Amine Rekhiss, Yassine Khlass, Mohamed Seifeddine Bouarada",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "KWIN.",
-      "fondateurs": "Sonia Othman, Alaa Guidara",
-      "secteur": "IoT",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Houssem Sahli, Sonia Othman",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "Finispia",
-      "fondateurs": "Mohamed Kallel, Youssef Said",
-      "secteur": "Fintech",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Alaa Guidara, Mohamed Kallel",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "Travaris",
-      "fondateurs": "Berklay Alkisel, Ahmed Abdarrahman, Ines Soyah",
-      "secteur": "AI",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Youssef Said Berklay Alkisel, Ahmed Abdarrahman",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "Barbecha",
-      "fondateurs": "Zeineb Bouassida, Chiheb Karoui",
-      "secteur": "Ecommerce",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Ines Soyah, Zeineb Bouassida, Chiheb Karoui",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "Dentic",
       "fondateurs": "Hakim Yahyaoui",
-      "secteur": "Health Tech",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "Tunisiabiotech",
       "fondateurs": "Oualid Sebai",
-      "secteur": "Biotechnologie",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "Welyne",
-      "fondateurs": "Mohamed Ben Arfa, Aymen Hammami",
-      "secteur": "Ecommerce",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Mohamed Ben Arfa",
+      "secteur": "",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé"
     },
     {
       "societe": "Univers VR",
-      "fondateurs": "Abir Ben Achour, Mehdi Dellagi",
-      "secteur": "Gaming",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Aymen Hammami, Abir Ben Achour",
+      "secteur": "",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé"
     },
     {
       "societe": "ebniecolo",
-      "fondateurs": "Dorra Ismail, Mehdi Zorgati, Becem Jebali",
-      "secteur": "Big Data",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Mehdi Dellagi, Dorra Ismail, Mehdi Zorgati",
+      "secteur": "",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé"
     },
     {
       "societe": "MY DEV CONSULTING DU CAP BON",
-      "fondateurs": "Youssef Omrani",
-      "secteur": "Développement personnel",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Becem Jebali, Youssef Omrani",
+      "secteur": "",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé"
     },
     {
       "societe": "CITIUS",
-      "fondateurs": "Emna Hamdi",
-      "secteur": "Logistique",
-      "resultat": "label",
-      "_displayDecision": "unknown"
+      "fondateurs": "Riadh Felhi, Emna Hamdi",
+      "secteur": "",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé"
     },
     {
       "societe": "All o khadmet",
       "fondateurs": "Amine Hammi",
-      "secteur": "Plateforme Sociale",
-      "resultat": "label",
-      "_displayDecision": "unknown"
+      "secteur": "",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé"
     },
     {
-      "societe": "Analyse numérique des donnes ( AMCI)",
-      "fondateurs": "Abdelhamid Ben Rabah, Seifeddine Trabelsi",
-      "secteur": "Logiciel",
-      "resultat": "label",
-      "_displayDecision": "unknown"
+      "societe": "Analyse numérique des donnes (AMCI)",
+      "fondateurs": "Abdelhamid Ben Rabah",
+      "secteur": "",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé"
     },
     {
       "societe": "The BoxOffice",
-      "fondateurs": "Meriem Lejmi, Selim Thmouni, Selim Mraidi",
-      "secteur": "Autre contenu créatif",
-      "resultat": "prelabel",
-      "_displayDecision": "unknown"
+      "fondateurs": "Seifeddine Trabelsi, Meriem Lejmi",
+      "secteur": "",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
     },
     {
       "societe": "Khadamni",
-      "fondateurs": "Atef Sedraoui, Molka Kouraychi, Manel Salhi",
-      "secteur": "Ecommerce",
-      "resultat": "prelabel",
-      "_displayDecision": "unknown"
+      "fondateurs": "Selim Thmouni, Selim Mraidi, Atef Sedraoui, Molka Kouraychi",
+      "secteur": "",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
     },
     {
       "societe": "Soldy",
-      "fondateurs": "Mokhles Souissi, Manel Alayet, Ahmed Melki",
-      "secteur": "Ecommerce",
-      "resultat": "prelabel",
-      "_displayDecision": "unknown"
+      "fondateurs": "Manel Salhi, Mokhles Souissi, Manel Alayet",
+      "secteur": "",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
     },
     {
       "societe": "COSTUN",
-      "fondateurs": "Houssem Ben Ghozzi, Hamdi Marrouchi",
-      "secteur": "Ecommerce",
-      "resultat": "prelabel",
-      "_displayDecision": "unknown"
+      "fondateurs": "Ahmed Melki, Houssem Ben Ghozzi, Hamdi Marrouchi",
+      "secteur": "",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
     },
     {
       "societe": "Start Smart Studio",
-      "fondateurs": "Yassine Ben Mansour, Hadhemi Ragoubi",
-      "secteur": "Autre Contenu Créatif",
-      "resultat": "prelabel",
-      "_displayDecision": "unknown"
+      "fondateurs": "Yassine Ben Mansour",
+      "secteur": "",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
     },
     {
-      "societe": "Compass IT Candidature reportée à la prochaine session",
-      "fondateurs": "Foudhaili Ragoubi",
-      "secteur": "Autre Contenu Créatif",
-      "resultat": "prelabel",
-      "_displayDecision": "unknown"
+      "societe": "Compass IT",
+      "fondateurs": "Hadhemi Ragoubi, Foudhaili Ragoubi",
+      "secteur": "",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
     },
     {
       "societe": "Campus Numérique des métiers",
       "fondateurs": "Fethi Zoghlami",
-      "secteur": "Edtech",
-      "resultat": "label",
-      "_displayDecision": "unknown"
+      "secteur": "",
+      "resultat": "candidature reportee",
+      "commentaires": "Candidature reportée à la prochaine session - problèmes techniques lors du pitching"
     },
     {
-      "societe": "Société",
-      "fondateurs": "Fondateurs",
-      "secteur": "Secteur",
-      "resultat": "Session d'obtention",
-      "_displayDecision": "unknown"
+      "societe": "Zolfa",
+      "fondateurs": "Adel Jridi",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)"
+    },
+    {
+      "societe": "Go My Biz",
+      "fondateurs": "Mohamed Achref Gabsi, Mehdi Touati, Yassine Touati, Sofiane Jait",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)"
+    },
+    {
+      "societe": "Kayco.",
+      "fondateurs": "Mohamed Ali Salmi, Hela Agrebi, Anas Zouabi",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)"
+    },
+    {
+      "societe": "Mice",
+      "fondateurs": "Nasreddine Somaali, Marwa Khnissi",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)"
     }
   ],
   "session_data": {
-    "candidatures": 35,
+    "candidatures": 40,
     "labels": 16,
     "preLabels": 10,
     "taux_acceptation_pct": 45.7,

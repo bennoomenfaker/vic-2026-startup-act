@@ -3,180 +3,236 @@
   "annee": 2020,
   "mois": 5,
   "pdf": "session_2020_05.pdf",
-  "nb_entrees": 24,
+  "nb_entrees": 32,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
       "societe": "Digitus Technologies",
       "fondateurs": "Walid Driss",
-      "secteur": "Blockchain & cryptocurrency",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé en 2ème tour"
     },
     {
       "societe": "STARK",
-      "fondateurs": "Mohamed Mzid, Mohamed Farouk Mhenni",
-      "secteur": "Logiciel",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Mohamed Mzid",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé en 2ème tour"
     },
     {
       "societe": "NATDYES",
-      "fondateurs": "Mohamed Ahmed Mhenni, Amira Mhenni, Mourad Elfelah",
-      "secteur": "Wearables",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Mohamed Farouk Mhenni, Mohamed Ahmed Mhenni, Amira Mhenni",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé en 2ème tour"
     },
     {
       "societe": "Carpet Plus",
-      "fondateurs": "Moncef Ben Rejeb, Amani Abid, Asma Bayouli",
-      "secteur": "E-commerce",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Mourad Elfelah, Moncef Ben Rejeb, Amani Abid",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé en 2ème tour"
     },
     {
       "societe": "Hand & Crafts",
-      "fondateurs": "Ameni Ben Hmida, Haythem Cherif",
-      "secteur": "E-commerce",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Asma Bayouli, Ameni Ben Hmida",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé en 2ème tour"
     },
     {
       "societe": "YASSIR",
-      "fondateurs": "Noureddine Tayebi, Kais Ben Amar",
-      "secteur": "Logistique",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Haythem Cherif, Noureddine Tayebi",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé en 2ème tour"
     },
     {
       "societe": "Wakahaw",
-      "fondateurs": "Haythem Benna, Wajih Hajji",
-      "secteur": "Big Data",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Kais Ben Amar, Haythem Benna, Wajih Hajji",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé après pitching"
     },
     {
       "societe": "Amiral",
-      "fondateurs": "Amine Ben Abdallah, Habib Wenish",
-      "secteur": "E-commerce",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Amine Ben Abdallah",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "Sprindt",
-      "fondateurs": "Ramzi Hamrouni, Hedi Akrout",
-      "secteur": "Fintech",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Habib Wenish, Ramzi Hamrouni, Hedi Akrout",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "Global World Transformer",
-      "fondateurs": "Mohamed Amine Hamdi, Mohamed Hedi Achour, Yosr Naija",
-      "secteur": "IoT",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Mohamed Amine Hamdi",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "iSporit",
-      "fondateurs": "Yassine Achour, Karim Zehani, Mohamed Wassim Benzarti, Maya Mathari",
-      "secteur": "Autre contenu créatif",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Mohamed Hedi Achour, Yosr Naija, Yassine Achour, Karim Zehani, Mohamed Wassim Benzarti",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "Evolutik",
-      "fondateurs": "",
-      "secteur": "Autre contenu créatif",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Maya Mathari, Mourad Mathari",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "El Food Lab",
       "fondateurs": "Nesrine Chemkhi, Mohamed Guinoubi",
-      "secteur": "Autre contenu créatif",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "Fouita",
       "fondateurs": "Abdelhay Najjar",
-      "secteur": "Logiciel",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "GrowApp",
-      "fondateurs": "Wael Aouididi, Wael Moula",
-      "secteur": "Growapp",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Wael Aouididi",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "We-Settle",
-      "fondateurs": "Naima Moula, Conception et vente d'un système de télégestion d'énergie électrique Sabri Mhimdi, Henda Zribi, Jamel Hattay",
-      "secteur": "Fintech",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Wael Moula, Naima Moula",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
+    },
+    {
+      "societe": "Conception et vente d'un système de télégestion d'énergie électrique",
+      "fondateurs": "Sabri Mhimdi, Henda Zribi",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "IOT Medical Technology",
-      "fondateurs": "Samir Belaid, Mohsen Machhout, Karim Jelliti",
-      "secteur": "Health tech",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Jamel Hattay, Samir Belaid, Mohsen Machhout",
+      "secteur": "",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé"
     },
     {
-      "societe": "Omniup Tunisie LE PORTAIL DES LANGUES",
-      "fondateurs": "Issam Essefi, Ali Sakka, Sahbi Agrebi, Haythem Besghaier",
-      "secteur": "Marketing",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "societe": "Omniup Tunisie",
+      "fondateurs": "Karim Jelliti, Issam Essefi, Ali Sakka",
+      "secteur": "",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé"
     },
     {
-      "societe": "GARK",
-      "fondateurs": "Khaled Guedria, Mansour Mechmech",
-      "secteur": "Mobile",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
-    },
-    {
-      "societe": "GASPYCH",
-      "fondateurs": "Hend Kefi",
-      "secteur": "E-commerce",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
-    },
-    {
-      "societe": "EMNA HUSSEIN",
-      "fondateurs": "Emna Hussein, Racem Smaouo",
-      "secteur": "Wearables",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
-    },
-    {
-      "societe": "Doctorka",
-      "fondateurs": "Aymen Ben Amor, Walid Ben Djemaa",
-      "secteur": "Health Tech",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
-    },
-    {
-      "societe": "Renini",
-      "fondateurs": "Abdelaziz Ben Chaabane, Arslene Rouatbi",
-      "secteur": "Plateforme sociale",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "societe": "LE PORTAIL DES LANGUES",
+      "fondateurs": "Sahbi Agrebi",
+      "secteur": "",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé"
     },
     {
       "societe": "Société Polyouate",
-      "fondateurs": "Ridha Rouatbi",
-      "secteur": "Autre contenu créatif",
-      "resultat": "label",
-      "_displayDecision": "unknown"
+      "fondateurs": "Arslene Rouatbi, Ridha Rouatbi",
+      "secteur": "",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé"
+    },
+    {
+      "societe": "GARK",
+      "fondateurs": "Haythem Besghaier, Khaled Guedria",
+      "secteur": "",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
+    },
+    {
+      "societe": "GASPYCH",
+      "fondateurs": "Mansour Mechmech, Hend Kefi",
+      "secteur": "",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
+    },
+    {
+      "societe": "EMNA HUSSEIN",
+      "fondateurs": "Emna Hussein",
+      "secteur": "",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
+    },
+    {
+      "societe": "Doctorka",
+      "fondateurs": "Racem Smaouo, Aymen Ben Amor, Walid Ben Djemaa",
+      "secteur": "",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
+    },
+    {
+      "societe": "Renini",
+      "fondateurs": "Abdelaziz Ben Chaabane",
+      "secteur": "",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
+    },
+    {
+      "societe": "Société Datasphera",
+      "fondateurs": "Noureddine Louki, Achref Kechaou",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)"
+    },
+    {
+      "societe": "Innov'Edition",
+      "fondateurs": "Fedi Belkacem, Cyrine Bouaziz",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)"
+    },
+    {
+      "societe": "Smek's Invest",
+      "fondateurs": "Mohamed Ben Hammed, Sonia Laribi",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)"
+    },
+    {
+      "societe": "Lamma City App",
+      "fondateurs": "Hamza Guesmi, Reda Mansouri",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)"
+    },
+    {
+      "societe": "Quantilyx R&D",
+      "fondateurs": "Hamza Amiri, Moez Hammami, Mohamed Bessa",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)"
+    },
+    {
+      "societe": "Techability",
+      "fondateurs": "Dorra Kamoun, Oussama Romdhane",
+      "secteur": "IoT",
+      "resultat": "retrait label",
+      "commentaires": "Retrait de label startup"
     }
   ],
   "session_data": {
-    "candidatures": 26,
+    "candidatures": 32,
     "labels": 12,
     "preLabels": 10,
     "taux_acceptation_pct": 46.2,

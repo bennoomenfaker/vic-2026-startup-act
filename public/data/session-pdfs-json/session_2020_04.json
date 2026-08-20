@@ -3,285 +3,327 @@
   "annee": 2020,
   "mois": 4,
   "pdf": "session_2020_04.pdf",
-  "nb_entrees": 39,
+  "nb_entrees": 45,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
       "societe": "Viventis",
-      "fondateurs": "Chema Zoghlami",
-      "secteur": "Health Tech",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Mehdi Bouzouita, Hamed Baltagi, Chema Zoghlami, Hela Kamoun, Firas Hammami",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé"
     },
     {
       "societe": "ZATEX",
-      "fondateurs": "Faten Maalej, Houssem Amara, Hamdi Boujneh",
-      "secteur": "IoT",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Mohamed Maalej, Faten Maalej, Houssem Amara",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé"
     },
     {
       "societe": "Insurise",
-      "fondateurs": "Hedi Harzallah, Salma Ben Hamida",
-      "secteur": "Insurance tech",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Hamdi Boujneh, Hedi Harzallah",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé"
     },
     {
       "societe": "LORE AND HEART",
-      "fondateurs": "Cyrine Ben Hamida",
-      "secteur": "E-commerce",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Salma Ben Hamida, Cyrine Ben Hamida",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé"
     },
     {
       "societe": "SLAMA DATTES",
       "fondateurs": "Abdelkader Slama",
-      "secteur": "E-commerce",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé"
     },
     {
       "societe": "Arion",
-      "fondateurs": "Ahmed Gharbi, Karim Harmouni",
-      "secteur": "Logiciel",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Ahmed Gharbi",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé"
     },
     {
       "societe": "BipEvents",
-      "fondateurs": "Sarah Arbi, Amen Ben Mlouka, Aziza Inoubli",
-      "secteur": "Logiciel",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Karim Harmouni, Sarah Arbi, Amen Ben Mlouka",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé"
     },
     {
-      "societe": "Lysi wireless services",
-      "fondateurs": "Ali Bouslimi, Majdouline Mansour, Majed Jabri, Sahbi Mansour",
-      "secteur": "Autre contenu créatif",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "societe": "Lysi",
+      "fondateurs": "Aziza Inoubli, Ali Bouslimi",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé"
+    },
+    {
+      "societe": "wireless services",
+      "fondateurs": "Majdouline Mansour, Majed Jabri, Sahbi Mansour",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé"
     },
     {
       "societe": "Ernest",
-      "fondateurs": "Fayçal Derouiche, Lamia Chouk",
-      "secteur": "Logiciel",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Fayçal Derouiche",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé"
     },
     {
       "societe": "Ahkili",
-      "fondateurs": "Ghaith Souissi, Hakim Njim",
-      "secteur": "Health Tech",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Lamia Chouk, Ghaith Souissi",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé"
     },
     {
       "societe": "Carwell",
-      "fondateurs": "Omar Zouari, Hakim Loukil, Bilel Methnani",
-      "secteur": "Gaming",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Hakim Njim, Omar Zouari, Hakim Loukil",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé"
     },
     {
       "societe": "MAZED",
-      "fondateurs": "Mohamed Aymen Jomaa, Yassine Zrigue, Molka Ayadi",
-      "secteur": "E-commerce",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Bilel Methnani, Mohamed Aymen Jomaa, Yassine Zrigue",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé"
     },
     {
       "societe": "Khalta",
-      "fondateurs": "Imen Farah, Ezzedine Cherif",
-      "secteur": "Autre contenu créatif",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Molka Ayadi, Imen Farah",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé"
     },
     {
       "societe": "Split",
-      "fondateurs": "Alaeddine Jrad, Adam Abdelmoula",
-      "secteur": "Logistique",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Ezzedine Cherif, Alaeddine Jrad, Adam Abdelmoula",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé"
     },
     {
       "societe": "Food4Future",
       "fondateurs": "Insaf Ayari",
-      "secteur": "Biotechnologie",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé"
     },
     {
       "societe": "Think-it",
-      "fondateurs": "Josha Raue, Imen Hbiri",
-      "secteur": "AI",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Mehemed Bougsea, Josha Raue",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé"
     },
     {
       "societe": "RoboCare",
-      "fondateurs": "Abdelaziz Kallel, Zied Said, Zeineb Ben Salah",
-      "secteur": "Agritech",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Imen Hbiri, Abdelaziz Kallel",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "FI THNITI",
-      "fondateurs": "Bilel Said, Mohamed Chaabane, Narjess Ben Slimane",
-      "secteur": "Autre contenu créatif",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Zied Said, Zeineb Ben Salah, Bilel Said, Mohamed Chaabane",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "Tchou-Tchou Your school bus tracking App",
-      "fondateurs": "Mohamed Ali Belajouza",
-      "secteur": "Logiciel",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Narjess Ben Slimane, Mohamed Ali Belajouza, Bacem Bergaoui",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "FlowsMaster",
-      "fondateurs": "Wajih Abidi, Khaled Ben Younes, Ahmed Mnasri",
-      "secteur": "Logiciel",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Jamel Gasri, Nesrine Ben Guirat, Wajih Abidi, Khaled Ben Younes, Ahmed Mnasri",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
     },
     {
-      "societe": "(akarat.tn)  ﺲﻧﻮﺗ تارﺎﻘﻋ",
-      "fondateurs": "Ali Benzaied, Mohammed Ben Hammed",
-      "secteur": "E-commerce",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "societe": "akarat.tn",
+      "fondateurs": "Ali Benzaied",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "SMEK'S",
-      "fondateurs": "Sonia Laribi",
-      "secteur": "Logistique",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Mohammed Ben Hammed, Sonia Laribi",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "Khobzti",
-      "fondateurs": "Marwen Khemiss, Rabie Radhouan",
-      "secteur": "E-commerce",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Marwen Khemiss",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "SOFTIFI",
-      "fondateurs": "Idriss Ben Ali, Adel Ben Merteh, Yassine Hamdaoui",
-      "secteur": "E-commerce",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Rabie Radhouan, Idriss Ben Ali, Adel Ben Merteh",
+      "secteur": "",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé"
     },
     {
       "societe": "NeuroData",
-      "fondateurs": "Ahmed Abassi",
-      "secteur": "AI",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Yassine Hamdaoui, Ahmed Abassi",
+      "secteur": "",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé"
     },
     {
       "societe": "Ghazela Technology Academy",
       "fondateurs": "Anis Hachani",
-      "secteur": "Edtech",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "secteur": "",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé"
     },
     {
       "societe": "FYMI",
       "fondateurs": "Habib Ben Debba",
-      "secteur": "Mobile",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "secteur": "",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé"
     },
     {
       "societe": "Traitement des données structurées",
       "fondateurs": "Hamdi Karray",
-      "secteur": "Logiciel",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "secteur": "",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé"
     },
     {
       "societe": "The BIM Square",
-      "fondateurs": "Safa Othmani, Anis Hasnaoui",
-      "secteur": "Marketing",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Safa Othmani",
+      "secteur": "",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé"
     },
     {
       "societe": "Azedda",
-      "fondateurs": "Rihab Ghodbane, Aymen Aouadi",
-      "secteur": "Healthtech",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
-    },
-    {
-      "societe": "CheezWall",
-      "fondateurs": "Sondess Khedhiri, Houssem Fatnassi",
-      "secteur": "Autre contenu créatif",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
-    },
-    {
-      "societe": "Winrents",
-      "fondateurs": "Saif Eddine Kouti, Alaeddine Jedda",
-      "secteur": "E-commerce",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
-    },
-    {
-      "societe": "Next",
-      "fondateurs": "Montassar Elkamel",
-      "secteur": "AI",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
-    },
-    {
-      "societe": "Wondding",
-      "fondateurs": "Khouloud Masmoudi",
-      "secteur": "Logiciel",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
-    },
-    {
-      "societe": "Information anticipative",
-      "fondateurs": "Sofiene Hadhri",
-      "secteur": "Big Data",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
-    },
-    {
-      "societe": "Explore Tunisia AIDI : Académie Internationale pour le développement et l'innovation",
-      "fondateurs": "Aymen Montacer, Imen Selmi, Amen Allah Souli",
-      "secteur": "E-commerce",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
-    },
-    {
-      "societe": "DRACOSS",
-      "fondateurs": "Amira Mahdi, Amal Bououd, Kheireddine Fredj",
-      "secteur": "Autre contenu créatif",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Anis Hasnaoui, Rihab Ghodbane",
+      "secteur": "",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé"
     },
     {
       "societe": "Quicktext",
-      "fondateurs": "Daniel Doppler, Candidature reportée de la session de Mars 2020",
-      "secteur": "AI",
-      "resultat": "label",
-      "_displayDecision": "unknown"
+      "fondateurs": "Kheireddine Fredj, Daniel Doppler",
+      "secteur": "",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé"
     },
     {
       "societe": "Campus Numérique des métiers",
       "fondateurs": "Fethi Zoghlami",
-      "secteur": "Edtech",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "secteur": "",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé"
+    },
+    {
+      "societe": "CheezWall",
+      "fondateurs": "Aymen Aouadi, Sondess Khedhiri",
+      "secteur": "",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
+    },
+    {
+      "societe": "Winrents",
+      "fondateurs": "Houssem Fatnassi, Saif Eddine Kouti, Alaeddine Jedda",
+      "secteur": "",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
+    },
+    {
+      "societe": "Next",
+      "fondateurs": "Montassar Elkamel",
+      "secteur": "",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
+    },
+    {
+      "societe": "Wondding",
+      "fondateurs": "Khouloud Masmoudi",
+      "secteur": "",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
+    },
+    {
+      "societe": "Information anticipative",
+      "fondateurs": "Sofiene Hadhri",
+      "secteur": "",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
+    },
+    {
+      "societe": "Explore Tunisia",
+      "fondateurs": "Aymen Montacer",
+      "secteur": "",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
+    },
+    {
+      "societe": "AIDI : Académie Internationale pour le développement et l'innovation",
+      "fondateurs": "Imen Selmi",
+      "secteur": "",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
+    },
+    {
+      "societe": "DRACOSS",
+      "fondateurs": "Amen Allah Souli, Amira Mahdi, Amal Bououd",
+      "secteur": "",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
+    },
+    {
+      "societe": "Course Golf",
+      "fondateurs": "Assil Talmoudi",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)"
+    },
+    {
+      "societe": "Domoticaza",
+      "fondateurs": "Mohamed Zouhaier Zammel, Youssef Barketi",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)"
+    },
+    {
+      "societe": "Miral Things",
+      "fondateurs": "Anouer Kebir, Abdelrahman Ferchichi",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)"
+    },
+    {
+      "societe": "Symmetryk / No Statik Media",
+      "fondateurs": "Khaled Frad, Ramzi Frad",
+      "secteur": "",
+      "resultat": "retrait label",
+      "commentaires": "Retrait de label startup"
     }
   ],
   "session_data": {
-    "candidatures": 40,
+    "candidatures": 45,
     "labels": 20,
     "preLabels": 7,
     "taux_acceptation_pct": 50.0,

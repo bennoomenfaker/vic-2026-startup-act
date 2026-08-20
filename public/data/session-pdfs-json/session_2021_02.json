@@ -25,7 +25,7 @@
       "fondateurs": "Samia Mbarek",
       "secteur": "E-commerce",
       "resultat": "",
-      "_displayDecision": "irrecevable"
+      "_displayDecision": "inconnu"
     },
     {
       "societe": "LUNAR EPS",
@@ -165,7 +165,7 @@
       "fondateurs": "بﺎﺗﻛ ﺔﻠﺣر  Journey Aya Achour, Bilal Nsib, Mohamed Debbabi",
       "secteur": "EdTech",
       "resultat": "label accorde",
-      "_displayDecision": "unknown"
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Dev2Dev",

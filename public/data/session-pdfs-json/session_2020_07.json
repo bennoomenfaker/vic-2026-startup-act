@@ -3,9 +3,427 @@
   "annee": 2020,
   "mois": 7,
   "pdf": "session_2020_07.pdf",
-  "nb_entrees": 0,
+  "nb_entrees": 51,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
-  "entrees": [],
+  "entrees": [
+    {
+      "societe": "Bouquiniste.tn",
+      "fondateurs": "Youssef Bayouli ; Rayen Manaa",
+      "secteur": "E-commerce",
+      "type_label": "Label",
+      "resultat": "label accorde",
+      "commentaires": ""
+    },
+    {
+      "societe": "Klink",
+      "fondateurs": "Sherazade Amous ; Sendy Zardi ; Hichem Zidi ; Zied Hagu",
+      "secteur": "Logiciel",
+      "type_label": "Label",
+      "resultat": "label accorde",
+      "commentaires": ""
+    },
+    {
+      "societe": "CrocoCoder",
+      "fondateurs": "Abderrahmen Masmoudi ; Zied Feki",
+      "secteur": "EdTech",
+      "type_label": "Label",
+      "resultat": "label accorde",
+      "commentaires": ""
+    },
+    {
+      "societe": "floraison natural beauty",
+      "fondateurs": "Khawla Chedly",
+      "secteur": "E-commerce",
+      "type_label": "Label",
+      "resultat": "label accorde",
+      "commentaires": ""
+    },
+    {
+      "societe": "Kiwi Stock Light",
+      "fondateurs": "Ali Bouslama",
+      "secteur": "Logiciel",
+      "type_label": "Label",
+      "resultat": "label accorde",
+      "commentaires": ""
+    },
+    {
+      "societe": "Access Aligner",
+      "fondateurs": "Hind Ben Salem ; Wassim Toukaibri ; Sofiane Gritli",
+      "secteur": "Health Tech",
+      "type_label": "Label",
+      "resultat": "label accorde",
+      "commentaires": ""
+    },
+    {
+      "societe": "ROBOGRAF",
+      "fondateurs": "Ismail Benmiled",
+      "secteur": "IoT",
+      "type_label": "Label",
+      "resultat": "label accorde",
+      "commentaires": ""
+    },
+    {
+      "societe": "فرید حول العالم",
+      "fondateurs": "Mohamed Amine Belkhahla ; Mohamed Nahbi ; Mouadh Mkadmi",
+      "secteur": "Autre contenu créatif",
+      "type_label": "Label",
+      "resultat": "label accorde",
+      "commentaires": ""
+    },
+    {
+      "societe": "DATASCAI",
+      "fondateurs": "Mohamed Karim Bouziz",
+      "secteur": "Big Data",
+      "type_label": "Label",
+      "resultat": "label accorde",
+      "commentaires": ""
+    },
+    {
+      "societe": "Amonak",
+      "fondateurs": "Jean Philippe Kokora ; Joseph Adai",
+      "secteur": "E-commerce",
+      "type_label": "Prelabel",
+      "resultat": "prelabel accorde",
+      "commentaires": ""
+    },
+    {
+      "societe": "IotBlocks",
+      "fondateurs": "Ghnichi Mohamed ; Oussama Triki",
+      "secteur": "IoT",
+      "type_label": "Prelabel",
+      "resultat": "prelabel accorde",
+      "commentaires": ""
+    },
+    {
+      "societe": "ell and beyond Tunisie",
+      "fondateurs": "Aymen Ellouze",
+      "secteur": "Logiciel",
+      "type_label": "Prelabel",
+      "resultat": "prelabel accorde",
+      "commentaires": ""
+    },
+    {
+      "societe": "Meditech",
+      "fondateurs": "Ferid Kamel",
+      "secteur": "Health Tech",
+      "type_label": "Prelabel",
+      "resultat": "prelabel accorde",
+      "commentaires": ""
+    },
+    {
+      "societe": "BioAgrilhelpers (BAH)",
+      "fondateurs": "Syrine Baghdadi ; Yosr Baghdadi ; Mayssa Ghazel",
+      "secteur": "Agritech",
+      "type_label": "Prelabel",
+      "resultat": "prelabel accorde",
+      "commentaires": ""
+    },
+    {
+      "societe": "Wanawaa",
+      "fondateurs": "Mohamed Ali Haddad ; Mohamed Amine Gharbi ; Sami Essid",
+      "secteur": "E-commerce",
+      "type_label": "Prelabel",
+      "resultat": "prelabel accorde",
+      "commentaires": ""
+    },
+    {
+      "societe": "Le Comet",
+      "fondateurs": "Tarek Mnaffakh",
+      "secteur": "Logiciel",
+      "type_label": "Prelabel",
+      "resultat": "prelabel accorde",
+      "commentaires": ""
+    },
+    {
+      "societe": "10nar",
+      "fondateurs": "Moncef Brick",
+      "secteur": "E-commerce",
+      "type_label": "Label",
+      "resultat": "label non accorde",
+      "commentaires": ""
+    },
+    {
+      "societe": "Home's Aroma",
+      "fondateurs": "Raed Oueslati ; Khalil Oueslati ; Mouadh Tammah",
+      "secteur": "E-commerce",
+      "type_label": "Label",
+      "resultat": "label non accorde",
+      "commentaires": ""
+    },
+    {
+      "societe": "GuestnHouse",
+      "fondateurs": "Mohamed Khedher ; Nadia Ben Hafiedh ; Taher Karmandi",
+      "secteur": "E-commerce",
+      "type_label": "Label",
+      "resultat": "label non accorde",
+      "commentaires": ""
+    },
+    {
+      "societe": "ACES",
+      "fondateurs": "Mohamed Riadh Aissaoui ; Jihene Aissaoui ; Nesrine Aissaoui",
+      "secteur": "E-commerce",
+      "type_label": "Label",
+      "resultat": "label non accorde",
+      "commentaires": ""
+    },
+    {
+      "societe": "Ecomptable.tn",
+      "fondateurs": "Amir Khadhri ; Ammar El Ferjani ; Ahmed Darbi",
+      "secteur": "Logiciel",
+      "type_label": "Label",
+      "resultat": "label non accorde",
+      "commentaires": ""
+    },
+    {
+      "societe": "Home School Tunisia",
+      "fondateurs": "Abdelaziz Beldy ; Alessandro Baccini ; Kevin East",
+      "secteur": "EdTech",
+      "type_label": "Label",
+      "resultat": "label non accorde",
+      "commentaires": ""
+    },
+    {
+      "societe": "Wiki Academy",
+      "fondateurs": "Ons Ben Ounis ; Wassen Ben Ounis",
+      "secteur": "EdTech",
+      "type_label": "Label",
+      "resultat": "label non accorde",
+      "commentaires": ""
+    },
+    {
+      "societe": "1wayFM",
+      "fondateurs": "Ramzi Cherif ; Hamadi Maroufi ; Slim Ben Tarek",
+      "secteur": "Autre contenu créatif",
+      "type_label": "Label",
+      "resultat": "label non accorde",
+      "commentaires": ""
+    },
+    {
+      "societe": "Maniaro",
+      "fondateurs": "Iheb Mansour ; Sonia Jebira ; Ramzi Nsibi",
+      "secteur": "E-commerce",
+      "type_label": "Label",
+      "resultat": "label non accorde",
+      "commentaires": ""
+    },
+    {
+      "societe": "Rankstop",
+      "fondateurs": "Mohamed Ramzi Ben Youssef ; Zoubier Ben Salah ; Halima Tounsi",
+      "secteur": "Marketing",
+      "type_label": "Label",
+      "resultat": "label non accorde",
+      "commentaires": ""
+    },
+    {
+      "societe": "Oryx Guide",
+      "fondateurs": "Mohamed Abbes Dziri ; Zakaria Hattouni ; Chahbi Oussama ; Fares Dziri ; Nader Zouaoui",
+      "secteur": "E-commerce",
+      "type_label": "Label",
+      "resultat": "label non accorde",
+      "commentaires": ""
+    },
+    {
+      "societe": "BuildUp",
+      "fondateurs": "Hamdi Belgacem",
+      "secteur": "Logiciel",
+      "type_label": "Prelabel",
+      "resultat": "prelabel non accorde",
+      "commentaires": ""
+    },
+    {
+      "societe": "Better Mood",
+      "fondateurs": "Ghaith Souissi ; Mariem Mastouri ; Mohamed Chadli Ayachi",
+      "secteur": "Health Tech",
+      "type_label": "Prelabel",
+      "resultat": "prelabel non accorde",
+      "commentaires": ""
+    },
+    {
+      "societe": "Tastybox",
+      "fondateurs": "Marwa Dhifallah ; Najet Brik ; Nidhal Chabchoubi",
+      "secteur": "E-commerce",
+      "type_label": "Prelabel",
+      "resultat": "prelabel non accorde",
+      "commentaires": ""
+    },
+    {
+      "societe": "UniBoard",
+      "fondateurs": "Mejdi M'tir ; Marwen Badri ; Youssef El Behi",
+      "secteur": "EdTech",
+      "type_label": "Prelabel",
+      "resultat": "prelabel non accorde",
+      "commentaires": ""
+    },
+    {
+      "societe": "Synapse",
+      "fondateurs": "Mohamed Amine Boussarsar ; Walid Kaabachi",
+      "secteur": "Logiciel",
+      "type_label": "Prelabel",
+      "resultat": "prelabel non accorde",
+      "commentaires": ""
+    },
+    {
+      "societe": "TIDY",
+      "fondateurs": "Nabil Chaabane ; Mohamed Nabi El Arbi ; Bilel Ben Jmeaa",
+      "secteur": "E-commerce",
+      "type_label": "Prelabel",
+      "resultat": "prelabel non accorde",
+      "commentaires": ""
+    },
+    {
+      "societe": "ÖMyCamp",
+      "fondateurs": "Mehdy Chebbah ; Nadya Elouari ; Selim Doukali ; Mohamed Ali Atig",
+      "secteur": "E-commerce",
+      "type_label": "Prelabel",
+      "resultat": "prelabel non accorde",
+      "commentaires": ""
+    },
+    {
+      "societe": "econsulting",
+      "fondateurs": "Imededdine Snoussi",
+      "secteur": "Logiciel",
+      "type_label": "Prelabel",
+      "resultat": "prelabel non accorde",
+      "commentaires": ""
+    },
+    {
+      "societe": "صحّتي (صحتّي)",
+      "fondateurs": "Wissem Labbadi ; Aymen Gabsni",
+      "secteur": "Health Tech",
+      "type_label": "Prelabel",
+      "resultat": "prelabel non accorde",
+      "commentaires": ""
+    },
+    {
+      "societe": "Artisup",
+      "fondateurs": "Seif Eddine Saâdaoui ; Mohamed Khlifi El Abed ; Tarek Guermazi",
+      "secteur": "E-commerce",
+      "type_label": "Prelabel",
+      "resultat": "prelabel non accorde",
+      "commentaires": ""
+    },
+    {
+      "societe": "Expenditure",
+      "fondateurs": "Iheb Akrimi",
+      "secteur": "Fintech",
+      "type_label": "Prelabel",
+      "resultat": "prelabel non accorde",
+      "commentaires": ""
+    },
+    {
+      "societe": "APP4MOB BUSINESS SOLUTIONS",
+      "fondateurs": "Khalil Ben Romdhane",
+      "secteur": "Logiciel",
+      "type_label": "Prelabel",
+      "resultat": "prelabel non accorde",
+      "commentaires": ""
+    },
+    {
+      "societe": "TAMWIL.TN",
+      "fondateurs": "Nihed Ben Youssef ; Elmed Bensaoudi ; Ichrak Ben Youssef",
+      "secteur": "Fintech",
+      "type_label": "Prelabel",
+      "resultat": "prelabel non accorde",
+      "commentaires": ""
+    },
+    {
+      "societe": "ALMOURAFEK",
+      "fondateurs": "Imène Khanfir Kallel ; Sonda Ammar Bouhamed",
+      "secteur": "E-commerce",
+      "type_label": "Label",
+      "resultat": "label accorde",
+      "is_conversion": true,
+      "commentaires": "Label accordé suite à la création de la Startup"
+    },
+    {
+      "societe": "SECURAS",
+      "fondateurs": "Mohamed Amine Guettat",
+      "secteur": "Logiciel",
+      "type_label": "Label",
+      "resultat": "label accorde",
+      "is_conversion": true,
+      "commentaires": "Label accordé suite à la création de la Startup"
+    },
+    {
+      "societe": "Examido",
+      "fondateurs": "Hajer El Hedi",
+      "secteur": "EdTech",
+      "type_label": "Label",
+      "resultat": "label accorde",
+      "is_conversion": true,
+      "commentaires": "Label accordé suite à la création de la Startup"
+    },
+    {
+      "societe": "TOLEDO",
+      "fondateurs": "Lotfi Benmosbah ; Aziz Benmosbah ; Zied Chaabane ; Haifa Fodha",
+      "secteur": "E-commerce",
+      "type_label": "Label",
+      "resultat": "label accorde",
+      "is_conversion": true,
+      "commentaires": "Label accordé suite à la création de la Startup"
+    },
+    {
+      "societe": "Finispia",
+      "fondateurs": "Alaa Guidara ; Mohamed Kallel",
+      "secteur": "Logiciel",
+      "type_label": "Label",
+      "resultat": "label accorde",
+      "is_conversion": true,
+      "commentaires": "Label accordé suite à la création de la Startup"
+    },
+    {
+      "societe": "Amiral",
+      "fondateurs": "Amin Ben Abdallah",
+      "secteur": "IoT",
+      "type_label": "Label",
+      "resultat": "label accorde",
+      "is_conversion": true,
+      "commentaires": "Label accordé suite à la création de la Startup"
+    },
+    {
+      "societe": "We-Settle",
+      "fondateurs": "Wael Moula ; Naima Moula",
+      "secteur": "E-commerce",
+      "type_label": "Label",
+      "resultat": "label accorde",
+      "is_conversion": true,
+      "commentaires": "Label accordé suite à la création de la Startup"
+    },
+    {
+      "societe": "Chmisa",
+      "fondateurs": "Bechir Taboubi",
+      "secteur": "Logiciel",
+      "type_label": "Label",
+      "resultat": "label accorde",
+      "is_conversion": true,
+      "commentaires": "Label accordé suite à la création de la Startup"
+    },
+    {
+      "societe": "Street Car Hub",
+      "fondateurs": "Walid M'Sallem ; Ghazi Mensi",
+      "secteur": "Autre contenu créatif",
+      "type_label": "Label",
+      "resultat": "label accorde",
+      "is_conversion": true,
+      "commentaires": "Label accordé suite à la création de la Startup"
+    },
+    {
+      "societe": "NG Technologies",
+      "fondateurs": "Moez Ben Mbarka ; Khadija Ferjani",
+      "secteur": "Logiciel",
+      "type_label": "Label",
+      "resultat": "retrait label",
+      "commentaires": "Retrait de label"
+    },
+    {
+      "societe": "Safozi",
+      "fondateurs": "Zied Ouled Ali",
+      "secteur": "E-commerce",
+      "type_label": "Label",
+      "resultat": "retrait label",
+      "commentaires": "Retrait de label"
+    }
+  ],
   "session_data": {
     "candidatures": 40,
     "labels": 18,

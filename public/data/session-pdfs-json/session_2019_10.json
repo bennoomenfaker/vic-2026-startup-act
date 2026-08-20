@@ -3,260 +3,281 @@
   "annee": 2019,
   "mois": 10,
   "pdf": "session_2019_10.pdf",
-  "nb_entrees": 36,
+  "nb_entrees": 39,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
       "societe": "Fivepoints",
-      "fondateurs": "Mohamed Fares Oueslati, Skander Amor",
-      "secteur": "EdTech",
+      "fondateurs": "Wassim Jouini, Mohamed Fares Oueslati",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé en 2ème tour"
     },
     {
       "societe": "Datavision",
-      "fondateurs": "",
-      "secteur": "AI",
+      "fondateurs": "Skander Amor, Borhen Jlidi",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé en 2ème tour"
     },
     {
       "societe": "RESRV",
-      "fondateurs": "Nabil Gazdar",
-      "secteur": "Logiciel",
+      "fondateurs": "Ahmed Taktak, Nabil Gazdar",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé en 2ème tour"
     },
     {
       "societe": "NEPTUNE MOSAIC",
       "fondateurs": "Zied Abbes",
-      "secteur": "Autre contenu créatif",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé en 2ème tour"
     },
     {
       "societe": "Taderok",
-      "fondateurs": "",
-      "secteur": "EdTech",
+      "fondateurs": "Ahmed Dhieb, Anoir Dhieb",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé en 2ème tour"
     },
     {
       "societe": "Intigrow",
-      "fondateurs": "",
-      "secteur": "Logistique",
+      "fondateurs": "Bassem Bouguerra, Nebil Jridet",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé en 2ème tour"
     },
     {
       "societe": "Artify",
       "fondateurs": "Yahia Mgarrech",
-      "secteur": "Autre contenu créatif",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé en 2ème tour"
     },
     {
       "societe": "TIRA ROBOTS",
-      "fondateurs": "",
-      "secteur": "Robotique",
+      "fondateurs": "Wassim ben Hmida, Azza Attia",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé en 2ème tour"
     },
     {
       "societe": "HISTORIAR",
-      "fondateurs": "",
-      "secteur": "Autre contenu créatif",
+      "fondateurs": "Houda Bakir, Jihed Makni",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé en 2ème tour"
     },
     {
       "societe": "Couscous Connection",
-      "fondateurs": "Rachid Kharroubi Essaied",
-      "secteur": "E-commerce",
+      "fondateurs": "Edriss Kharroubi Essaied, Rachid Kharroubi Essaied",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé en 2ème tour"
     },
     {
       "societe": "Neoshop",
-      "fondateurs": "Ahmed Nsiri",
-      "secteur": "E-commerce",
+      "fondateurs": "Donia Fayach, Ahmed Nsiri",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé en 2ème tour"
     },
     {
       "societe": "Swanina",
       "fondateurs": "Sana Hafsa",
-      "secteur": "Agritech",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé en 2ème tour"
     },
     {
       "societe": "SMART LOGGER",
-      "fondateurs": "Mehdi Taghouti",
-      "secteur": "iOT",
+      "fondateurs": "Mohamed Taghouti, Mehdi Taghouti",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé en 2ème tour"
     },
     {
       "societe": "ProvenMed",
-      "fondateurs": "Amine Staali",
-      "secteur": "Health Tech",
+      "fondateurs": "Souheil Guessoum, Amine Staali, Ahmed Boughaleb",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé en 2ème tour"
     },
     {
       "societe": "Lightency",
-      "fondateurs": "Mohamed Mnif, Boubaker Selmi",
-      "secteur": "Blockchain",
+      "fondateurs": "Jaafar Saied, Mohamed Mnif, Boubaker Selmi",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé en 2ème tour"
     },
     {
       "societe": "CURE",
       "fondateurs": "Mohamed Dhaouafi",
-      "secteur": "Health Tech",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé en 2ème tour"
     },
     {
       "societe": "REBOOTKAMP",
-      "fondateurs": "Hugh Bosely, Tarek Chehidi, Aymen Ben Hassine, Bilel Labidi, Hichem Ben Fadhl",
-      "secteur": "EdTech",
+      "fondateurs": "Lotfi Darragi, Hugh Bosely, Tarek Chehidi, Aymen Ben Hassine, Bilel Labidi",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé en 2ème tour"
     },
     {
       "societe": "Tledger",
-      "fondateurs": "",
+      "fondateurs": "Hichem Ben Fadhl, Amine Ben Abderrahman",
       "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé"
+    },
+    {
+      "societe": "Sala7li",
+      "fondateurs": "Mohamed Aymen Ben Hadj Mabrouk, Ines Dhaouadi",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé (conversion prelabel)"
+    },
+    {
+      "societe": "TuniBoat",
+      "fondateurs": "Ahmed Ayadi",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé (conversion prelabel)"
+    },
+    {
+      "societe": "BeBouncy",
+      "fondateurs": "Ayoub Ben Younes, Sophie Alexandra Aiachi, Assad Ben Mrad",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé (conversion prelabel)"
+    },
+    {
+      "societe": "CreatiView",
+      "fondateurs": "Youssef Meksi, Nour Alaya",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé (conversion prelabel)"
+    },
+    {
+      "societe": "Bon'Heure",
+      "fondateurs": "Nour Tekaya, Skander Gafsi",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé (conversion prelabel)"
     },
     {
       "societe": "Coursesgolf",
       "fondateurs": "Assil Talmoudi",
-      "secteur": "E-commerce",
+      "secteur": "",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "Rhintos Games",
-      "fondateurs": "Ahmed Chlagou",
-      "secteur": "Gaming",
+      "fondateurs": "Ayoub Ben Thabet, Ahmed Chlagou, Hishem Zarrad",
+      "secteur": "",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "WareCom",
-      "fondateurs": "Nour Abbous",
-      "secteur": "iOT",
+      "fondateurs": "Hamza SAIDI, Nour Abbous, Ali Saidi",
+      "secteur": "",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "Foodealz",
-      "fondateurs": "",
-      "secteur": "E-commerce",
+      "fondateurs": "Rim ELFAHEM, Iskander EL AMRI",
+      "secteur": "",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "IDWEY",
-      "fondateurs": "Meriem Amamou",
-      "secteur": "Plateforme sociale",
+      "fondateurs": "Khouloud Kaabi, Meriem Amamou, Borhen Mansouri Khmaiess, Ahmed",
+      "secteur": "",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "Humansys",
-      "fondateurs": "Mariem Ouanes, Mohamed Bechir Chniti",
-      "secteur": "Logiciel",
+      "fondateurs": "Amine Gara, Mariem Ouanes",
+      "secteur": "",
       "resultat": "label non accorde",
-      "_displayDecision": "label_refuse"
+      "commentaires": "Label non-accordé"
     },
     {
       "societe": "2ME | Machining & Manufacturing Engineering",
-      "fondateurs": "Nedra Neffeti, Amen Allah Missaoui",
-      "secteur": "Service",
+      "fondateurs": "Mohamed Bechir Chniti, Nedra Neffeti",
+      "secteur": "",
       "resultat": "label non accorde",
-      "_displayDecision": "label_refuse"
+      "commentaires": "Label non-accordé"
     },
     {
       "societe": "Prodcom",
-      "fondateurs": "Hassen Missaoui, Asma Gaabal",
-      "secteur": "Plateforme sociale",
+      "fondateurs": "Amen Allah Missaoui, Hassen Missaoui",
+      "secteur": "",
       "resultat": "label non accorde",
-      "_displayDecision": "label_refuse"
+      "commentaires": "Label non-accordé"
     },
     {
-      "societe": "Plateforme de Tele-Medecine et mSante ( KoalX )",
-      "fondateurs": "Achref Mabrouk",
-      "secteur": "Health Tech",
+      "societe": "Plateforme de Tele-Medecine et mSante (KoalX)",
+      "fondateurs": "Asma Gaabal, Achref Mabrouk",
+      "secteur": "",
       "resultat": "label non accorde",
-      "_displayDecision": "label_refuse"
+      "commentaires": "Label non-accordé"
     },
     {
       "societe": "Meilleure Vie Etudiants Tunisie",
-      "fondateurs": "Mohamed Guediche",
-      "secteur": "Plateforme sociale",
+      "fondateurs": "Wissem hakiri, Mohamed Guediche",
+      "secteur": "",
       "resultat": "label non accorde",
-      "_displayDecision": "label_refuse"
+      "commentaires": "Label non-accordé"
     },
     {
       "societe": "SPX",
       "fondateurs": "Rabii Jhinaoui",
-      "secteur": "Logiciel",
+      "secteur": "",
       "resultat": "label non accorde",
-      "_displayDecision": "label_refuse"
+      "commentaires": "Label non-accordé"
     },
     {
       "societe": "Bambinosit",
       "fondateurs": "Nivine Mussi",
-      "secteur": "Plateforme sociale",
+      "secteur": "",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "prelabel_refuse"
+      "commentaires": "Prélabel non-accordé"
     },
     {
       "societe": "Smart-Ways",
       "fondateurs": "Walid Labidi",
-      "secteur": "iOT",
+      "secteur": "",
       "resultat": "prelabel non accorde",
-      "_displayDecision": "prelabel_refuse"
+      "commentaires": "Prélabel non-accordé"
     },
     {
-      "societe": "Sala7li",
-      "fondateurs": "Ines Dhaouadi",
-      "secteur": "EdTech",
-      "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "societe": "One Shot",
+      "fondateurs": "Khemais Ben Mustapha",
+      "secteur": "",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
     },
     {
-      "societe": "TuniBoat",
-      "fondateurs": "Ahmed Ayadi, Ayoub Ben Younes",
-      "secteur": "E-commerce",
-      "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "societe": "Municipalité 4.0",
+      "fondateurs": "Amal Baccara, Ala eddine Soltani",
+      "secteur": "",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
     },
     {
-      "societe": "BeBouncy",
-      "fondateurs": "Sophie Alexandra Aiachi, Assad Ben Mrad, Youssef Meksi",
-      "secteur": "Marketing",
-      "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
-    },
-    {
-      "societe": "CreatiView",
-      "fondateurs": "Nour Alaya, Nour Tekaya",
-      "secteur": "Plateforme sociale",
-      "resultat": "label accorde",
-      "_displayDecision": "unknown"
-    },
-    {
-      "societe": "Bon'Heure",
-      "fondateurs": "Skander Gafsi",
-      "secteur": "HR",
-      "resultat": "label accorde",
-      "_displayDecision": "unknown"
+      "societe": "Al madina",
+      "fondateurs": "Saief Eddine Djibali",
+      "secteur": "",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
     }
   ],
   "session_data": {

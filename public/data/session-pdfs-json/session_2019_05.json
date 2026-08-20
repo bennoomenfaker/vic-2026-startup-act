@@ -3,7 +3,7 @@
   "annee": 2019,
   "mois": 5,
   "pdf": "session_2019_05.pdf",
-  "nb_entrees": 28,
+  "nb_entrees": 30,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
@@ -11,196 +11,210 @@
       "fondateurs": "Takieddine Ben Messaoud",
       "secteur": "EdTech",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé après le Pitching"
+    },
+    {
+      "societe": "Deli Solutions",
+      "fondateurs": "Sami Tounsi, Zied Ouerdani",
+      "secteur": "E-Commerce",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé après le Pitching"
     },
     {
       "societe": "NewGen",
       "fondateurs": "Seifeddine Ben Hamouda",
       "secteur": "Gaming",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé dès le 2ème tour"
+    },
+    {
+      "societe": "InstaDeep",
+      "fondateurs": "Zohra Slim, Karim Beguir",
+      "secteur": "AI",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé dès le 2ème tour"
     },
     {
       "societe": "Lifeye",
-      "fondateurs": "",
+      "fondateurs": "Ahmed Ben Achballah, Bassem Boujelben, Zied Chabchoub, Tarek Blaiech, Mohamed Kallel, Achraf Chabbouh, Ahmed Ben Said, Rateb Jabbar",
       "secteur": "Agritech",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé dès le 2ème tour"
     },
     {
       "societe": "Echo",
       "fondateurs": "Amine Laaroussi",
       "secteur": "IT",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé dès le 2ème tour"
     },
     {
       "societe": "Seemba Gaming",
-      "fondateurs": "Mohamed Ben Hadj Aissa",
+      "fondateurs": "Slim Ben Nasrsallah, Jacer Omri, Mohamed Ben Hadj Aissa, Jihed Bibani, Ben Messaoud TakiEddine",
       "secteur": "Gaming",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé dès le 2ème tour"
     },
     {
       "societe": "WeCode Land",
-      "fondateurs": "",
+      "fondateurs": "Wala Kasmi, Mohamed Ali Boumiza",
       "secteur": "EdTech",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé dès le 2ème tour"
     },
     {
       "societe": "Smart Med SA",
-      "fondateurs": "Aymen Turki, Emna Jellouli",
+      "fondateurs": "Issam Bellaj, Aymen Turki, Emna Jellouli",
       "secteur": "Plateforme Sociale",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé dès le 2ème tour"
     },
     {
       "societe": "Société STBI",
-      "fondateurs": "Sofiene Horrigue, Hajer Derouiche",
+      "fondateurs": "Sofiene Horrigue",
       "secteur": "Autre contenu créatif",
       "resultat": "label accorde",
-      "_displayDecision": "unknown"
+      "commentaires": "Label accordé après le Pitching"
     },
     {
       "societe": "Actifs Précieux Apex S.A",
-      "fondateurs": "",
+      "fondateurs": "Hajer Derouiche, Hedi Derouiche",
       "secteur": "Biotechnologie",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé dès le 2ème tour"
     },
     {
       "societe": "Neopolis Development",
-      "fondateurs": "Jacques-Yves Foucou",
+      "fondateurs": "Achraf Khelil, Jacques-Yves Foucou",
       "secteur": "Insurance Tech",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé après le Pitching"
     },
     {
-      "societe": "9arini.tn (édité par Digital World",
-      "fondateurs": "Kais Assali",
+      "societe": "9arini.tn (édité par Digital World SARL)",
+      "fondateurs": "Kais Assali, Anis Wahabi",
       "secteur": "EdTech",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
-    },
-    {
-      "societe": "SARL)",
-      "fondateurs": "Anis Wahabi",
-      "secteur": "",
-      "resultat": "",
-      "_displayDecision": "irrecevable"
+      "commentaires": "Label accordé dès le 2ème tour"
     },
     {
       "societe": "Fouta Tunisia",
-      "fondateurs": "Beldi Zied, Hichem RADOINE",
+      "fondateurs": "Beldi Zied",
       "secteur": "E-Commerce",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé dès le 2ème tour"
     },
     {
       "societe": "Swiver",
-      "fondateurs": "Azzam Souelmia, Anis Maghar",
+      "fondateurs": "Hichem Radoine, Azzam Souelmia",
       "secteur": "FinTech",
       "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "commentaires": "Label accordé dès le 2ème tour"
     },
     {
       "societe": "profils.tn",
-      "fondateurs": "Imen Maghar, Hazem Guent",
+      "fondateurs": "Anis Maghar, Imen Maghar",
       "secteur": "HR",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
+      "commentaires": "Prélabel accordé dès le 2ème tour"
     },
     {
       "societe": "Go Up Stand Up (Goupsup)",
-      "fondateurs": "Yassine Dimassi, Oussema Marai",
+      "fondateurs": "Hazem Guent, Yassine Dimassi",
       "secteur": "Mobile",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
+      "commentaires": "Prélabel accordé dès le 2ème tour"
     },
     {
       "societe": "TransFacile",
-      "fondateurs": "Ghada Chelly, Marwen Badri",
+      "fondateurs": "Oussema Marai, Ghada Chelly",
       "secteur": "Logistique",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
+      "commentaires": "Prélabel accordé dès le 2ème tour"
     },
     {
       "societe": "Asklepios",
-      "fondateurs": "Youssef El Behi",
+      "fondateurs": "Marwen Badri, Youssef El Behi",
       "secteur": "Health Tech",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
+      "commentaires": "Prélabel accordé dès le 2ème tour"
     },
     {
       "societe": "Bookingtodo",
-      "fondateurs": "Aziz Annabi, Bilel Labidi",
+      "fondateurs": "Aziz Annabi",
       "secteur": "Autre contenu créatif",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
+      "commentaires": "Prélabel accordé dès le 2ème tour"
     },
     {
       "societe": "Industry X.0",
-      "fondateurs": "Med Abdel Aziz Battikh, Nour Tekaya",
+      "fondateurs": "Bilel Labidi, Med Abdel Aziz Battikh",
       "secteur": "Logiciel",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
+      "commentaires": "Prélabel accordé dès le 2ème tour"
     },
     {
       "societe": "Bon'Heure",
-      "fondateurs": "Iskander Gafsi, Ayoub Ben younes",
+      "fondateurs": "Nour Tekaya, Iskander Gafsi",
       "secteur": "HR",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
+      "commentaires": "Prélabel accordé dès le 2ème tour"
     },
     {
-      "societe": "Be bouncy Développement d'applications comptables, gestion , finance",
-      "fondateurs": "Sophie Alexandra Aiachi, Mehdi Mabrouk",
+      "societe": "Be bouncy",
+      "fondateurs": "Ayoub Ben younes, Sophie Alexandra Aiachi",
       "secteur": "Marketing",
       "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
+      "commentaires": "Prélabel accordé dès le 2ème tour"
     },
     {
       "societe": "Domotec",
-      "fondateurs": "Yahia Moalla",
+      "fondateurs": "Hichem Moalla, Yahia Moalla",
       "secteur": "IOT",
-      "resultat": "- N.A N.A Label Non-Accordé",
-      "_displayDecision": "unknown"
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé après le 2ème tour"
     },
     {
       "societe": "Vim It",
       "fondateurs": "Imen Issaoui",
       "secteur": "Logiciel",
-      "resultat": "- N.A N.A Label Non-Accordé",
-      "_displayDecision": "unknown"
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé après le 2ème tour"
     },
     {
       "societe": "Indigo Business Solutions",
       "fondateurs": "Mohamed Aloulou",
       "secteur": "Logiciel",
-      "resultat": "- 2 4 Label Non-Accordé",
-      "_displayDecision": "unknown"
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé après le 2ème tour"
     },
     {
       "societe": "Professional System",
       "fondateurs": "Hichem Ben Hammouda",
       "secteur": "Logiciel",
-      "resultat": "- N.A N.A Label Non-Accordé",
-      "_displayDecision": "unknown"
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé après le 2ème tour"
     },
     {
       "societe": "Beego",
       "fondateurs": "Mohamed Amine Sammari",
       "secteur": "Mobile",
-      "resultat": "N.A N.A N.A Label Non-Accordé",
-      "_displayDecision": "unknown"
+      "resultat": "label non accorde",
+      "commentaires": "Dossier irrecevable pour manque de documents"
     },
     {
       "societe": "B'rain",
       "fondateurs": "Rami Boudaya",
       "secteur": "Health Tech",
-      "resultat": "N.A N.A N.A Label Non-Accordé",
-      "_displayDecision": "unknown"
+      "resultat": "label non accorde",
+      "commentaires": "Dossier irrecevable pour non-indépendance du capital"
+    },
+    {
+      "societe": "Développement d'applications comptables, gestion, finance",
+      "fondateurs": "Mehdi Mabrouk",
+      "secteur": "Logiciel",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
     }
   ],
   "session_data": {

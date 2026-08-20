@@ -3,250 +3,299 @@
   "annee": 2020,
   "mois": 2,
   "pdf": "session_2020_02.pdf",
-  "nb_entrees": 34,
+  "nb_entrees": 41,
   "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
       "societe": "Katomi",
-      "fondateurs": "Firas Mezghani",
-      "secteur": "Health tech",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Hedi Michau, Firas Mezghani",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé en 2ème tour"
     },
     {
       "societe": "Société Saghroun.com",
-      "fondateurs": "Ayet Elmouna Chemli, Walid Ammar",
-      "secteur": "E-commerce",
-      "resultat": "label",
-      "_displayDecision": "unknown"
+      "fondateurs": "Ayet Elmouna Chemli",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé en 2ème tour"
     },
     {
       "societe": "BSmart SARL",
-      "fondateurs": "Ahmed Fessi, Achref Mattar",
-      "secteur": "Logiciel",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Walid Ammar, Ahmed Fessi",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé en 2ème tour"
     },
     {
       "societe": "Youth Hub",
-      "fondateurs": "Salsabil Thabti, Mehdi Bhouri, Olfa Bousselmi",
-      "secteur": "EdTech",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Achref Mattar, Salsabil Thabti",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé en 2ème tour"
     },
     {
       "societe": "WaterSpirit",
-      "fondateurs": "Chaima Belhajamor, Amir Ben Hajhassine",
-      "secteur": "Biotechnologie",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Mehdi Bhouri, Olfa Bousselmi, Chaima Belhajamor, Amir Ben Hajhassine",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé en 2ème tour"
     },
     {
       "societe": "RENTAL RIDE",
       "fondateurs": "Mourad Hammami",
-      "secteur": "E-commerce",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé en 2ème tour"
     },
     {
       "societe": "OXAHOST",
       "fondateurs": "Tarek Nakbi",
-      "secteur": "Infrastructure",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé en 2ème tour"
     },
     {
       "societe": "QualiFour",
-      "fondateurs": "Mehdi Boudhraa, Saeed Zarrouk",
-      "secteur": "Logiciel",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Mohamed Kaddech, Mehdi Boudhraa",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé en 2ème tour"
     },
     {
       "societe": "Edutest",
-      "fondateurs": "Imen Yahyaoui, Ahmed Cheriha",
-      "secteur": "Edtech",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Saeed Zarrouk, Imen Yahyaoui",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé en 2ème tour"
     },
     {
       "societe": "Xtendplex",
-      "fondateurs": "Ahmed Ben Hamouda",
-      "secteur": "Fintech",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Ahmed Cheriha, Ahmed Ben Hamouda",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé en 2ème tour"
     },
     {
       "societe": "Kyufi",
-      "fondateurs": "Tarek Talbi, Houssem Sellami",
-      "secteur": "Biotechnologie",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Tarek Talbi",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé en 2ème tour"
     },
     {
       "societe": "Sportopia",
-      "fondateurs": "Oussema Noureddine Metoui, Mourad Masmoudi",
-      "secteur": "Autre contenu créatif",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Houssem Sellami, Oussema Noureddine Metoui",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé après pitching"
     },
     {
       "societe": "Accent",
-      "fondateurs": "Malek Aloulou, Moez Affes, Aymen Bouchoucha",
-      "secteur": "IoT",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Mourad Masmoudi, Malek Aloulou, Moez Affes",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé après pitching"
     },
     {
       "societe": "Allô Réparateur",
-      "fondateurs": "Mohamed Said Elbehi, Sabrine Ibrahim",
-      "secteur": "E-commerce",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Aymen Bouchoucha, Mohamed Said Elbehi",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "Class Quiz",
-      "fondateurs": "Achref Dawahi, Omar Trabelsi, Mohamed Amine Jendoubi",
-      "secteur": "Edtech",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Sabrine Ibrahim, Achref Dawahi, Omar Trabelsi",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "autoecoleplus",
-      "fondateurs": "Ahmed Nemlaghi",
-      "secteur": "Logiciel",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Mohamed Amine Jendoubi, Ahmed Nemlaghi",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "SECURAS",
-      "fondateurs": "Mohamed Amine Guettat, Mohamed Ali Salmi",
-      "secteur": "Cybersécurité",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Mohamed Amine Guettat",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "Kaco.",
-      "fondateurs": "",
-      "secteur": "Energie",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
-    },
-    {
-      "societe": "Coinsence",
-      "fondateurs": "Karim Chabrak, Achref Chouchene, Yasmine Ben Ameur",
-      "secteur": "Blockchain & Cryptocurrency",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Mohamed Ali Salmi, Hela Agrebi, Anas Zouabi",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "Smart House Tunisia",
-      "fondateurs": "Seif Souilem, Siwar Boufares, Mahmoud Hammami",
-      "secteur": "IoT",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Achref Chouchene, Yasmine Ben Ameur, Seif Souilem, Siwar Boufares",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "Co-Solar",
-      "fondateurs": "Yassine Boutabba, Karim Hermi",
-      "secteur": "Energie",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Mahmoud Hammami, Yassine Boutabba",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "Tynass",
-      "fondateurs": "Sami Ben Chaalia, Khalil Ben Ali",
-      "secteur": "Autre contenu créatif",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Karim Hermi, Sami Ben Chaalia, Khalil Ben Ali",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "Rent a tutor",
-      "fondateurs": "Abdeljalil Ghattas, Moez Hammami",
-      "secteur": "Edtech",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Abdeljalil Ghattas",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "Quantylix Risk & Data",
-      "fondateurs": "Hamza Amiri, Mohamed Bessa",
-      "secteur": "Fintech",
-      "resultat": "prelabel",
-      "_displayDecision": "irrecevable"
+      "fondateurs": "Moez Hammami, Hamza Amiri, Mohamed Bessa",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
     },
     {
       "societe": "Heptatronics",
       "fondateurs": "Issam Trabelsi",
-      "secteur": "IoT",
-      "resultat": "label",
-      "_displayDecision": "irrecevable"
+      "secteur": "",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé"
     },
     {
-      "societe": "Support de coupe à couvercle automatique",
-      "fondateurs": "Markrem Gharbi, Khouloud Kaabi, Meriem Amamou",
-      "secteur": "Autre contenu créatif",
-      "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "societe": "freeoui",
+      "fondateurs": "Amine Ennouri, Moez Beddi",
+      "secteur": "",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé"
     },
     {
-      "societe": "Idwey",
-      "fondateurs": "Borhen Mansouri, Khmaiess Ahmed, Safa Bouhajar",
-      "secteur": "Plateforme sociale",
-      "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "societe": "Eklectic",
+      "fondateurs": "Anis Abidi",
+      "secteur": "",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé"
     },
     {
-      "societe": "NovaTEK Solutions",
-      "fondateurs": "Karim Boughanmi, Ilyes Karma, Amal Torkhani",
-      "secteur": "Agritech",
-      "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "societe": "Société Tunipages",
+      "fondateurs": "Hafidha Grissa, Raouf Fathallah",
+      "secteur": "",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé"
     },
     {
-      "societe": "Shadoc",
-      "fondateurs": "Amal Selami, Zakaria Karim Mekni",
-      "secteur": "Logiciel",
-      "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "societe": "FormaClick",
+      "fondateurs": "Olfa Benchaabane, Chedia Benchaabane",
+      "secteur": "",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
     },
     {
-      "societe": "Innofab",
-      "fondateurs": "Nadim Kharraz, Karim Sellami",
-      "secteur": "Autre contenu créatif",
-      "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "societe": "Marhbebik.com",
+      "fondateurs": "Sabri Fehri",
+      "secteur": "",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
     },
     {
-      "societe": "Quermes",
-      "fondateurs": "Faiz Baccour",
-      "secteur": "IoT",
-      "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "societe": "RASCALTOU !",
+      "fondateurs": "Raouf Medimagh, Karim Medimagh, Haifa Elkamel",
+      "secteur": "",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
     },
     {
-      "societe": "Consulti",
-      "fondateurs": "Alaeddine Jalel",
-      "secteur": "Plateforme sociale",
-      "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
-    },
-    {
-      "societe": "Gofields (Sportfields)",
-      "fondateurs": "Youssef Cherif",
-      "secteur": "Mobile",
-      "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "societe": "Tunisia Biotech",
+      "fondateurs": "Oualid Sebai",
+      "secteur": "",
+      "resultat": "candidature reportee",
+      "commentaires": "Candidature reportée"
     },
     {
       "societe": "Coinsence",
       "fondateurs": "Karim Chabrak",
-      "secteur": "Blockchain & Cryptocurrency",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
+    },
+    {
+      "societe": "Support de coupe à couvercle automatique",
+      "fondateurs": "Markrem Gharbi",
+      "secteur": "",
       "resultat": "label accorde",
-      "_displayDecision": "irrecevable"
+      "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)"
+    },
+    {
+      "societe": "IDWEY",
+      "fondateurs": "Khouloud Kaabi, Meriem Amamou, Borhen Mansouri Khmaiess, Ahmed",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)"
+    },
+    {
+      "societe": "NovaTEK Solutions",
+      "fondateurs": "Safa Bouhajar, Karim Boughanmi, Ilyes Karma",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)"
+    },
+    {
+      "societe": "Shadoc",
+      "fondateurs": "Amal Torkhani, Amal Selami, Zakaria Karim Mekni",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)"
+    },
+    {
+      "societe": "Innofab",
+      "fondateurs": "Nadim Kharraz",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)"
+    },
+    {
+      "societe": "Quermes",
+      "fondateurs": "Karim Sellami, Faiz Baccour",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)"
+    },
+    {
+      "societe": "Consulti",
+      "fondateurs": "Alaeddine Jalel",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)"
+    },
+    {
+      "societe": "Gofields (Sportfields)",
+      "fondateurs": "Youssef Cherif",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)"
+    },
+    {
+      "societe": "Coinsence",
+      "fondateurs": "Karim Chabrak",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)"
     }
   ],
   "session_data": {
-    "candidatures": 32,
+    "candidatures": 41,
     "labels": 22,
     "preLabels": 11,
     "taux_acceptation_pct": 68.8,
