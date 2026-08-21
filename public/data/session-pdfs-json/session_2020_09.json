@@ -328,18 +328,6 @@
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
       "_displayDecision": "prelabel_accorde"
-    },
-    {
-      "societe": "À vérifier (PDF scanné)",
-      "fondateurs": "",
-      "_displayDecision": "label_accorde",
-      "resultat": "label accorde"
-    },
-    {
-      "societe": "À vérifier (PDF scanné)",
-      "fondateurs": "",
-      "_displayDecision": "label_accorde",
-      "resultat": "label accorde"
     }
   ],
   "session_data": {
