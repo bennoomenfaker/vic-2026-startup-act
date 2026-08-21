@@ -8,134 +8,233 @@
   "nb_entrees": 21,
   "entrees": [
     {
-      "societe": "Startup 1 (à vérifier)",
-      "fondateurs": "",
-      "_displayDecision": "label_accorde",
-      "resultat": "label accorde"
+      "societe": "DentaMeet",
+      "decision": "Label accordé",
+      "_displayDecision": "label_accorde"
     },
     {
-      "societe": "Startup 2 (à vérifier)",
-      "fondateurs": "",
-      "_displayDecision": "label_accorde",
-      "resultat": "label accorde"
+      "societe": "Saheat",
+      "decision": "Label accordé",
+      "_displayDecision": "label_accorde"
     },
     {
-      "societe": "Startup 3 (à vérifier)",
-      "fondateurs": "",
-      "_displayDecision": "label_accorde",
-      "resultat": "label accorde"
+      "societe": "IoTbyte",
+      "decision": "Label accordé",
+      "_displayDecision": "label_accorde"
     },
     {
-      "societe": "Startup 4 (à vérifier)",
-      "fondateurs": "",
-      "_displayDecision": "label_accorde",
-      "resultat": "label accorde"
+      "societe": "WeGestU",
+      "decision": "Label accordé",
+      "_displayDecision": "label_accorde"
     },
     {
-      "societe": "Startup 5 (à vérifier)",
-      "fondateurs": "",
-      "_displayDecision": "label_accorde",
-      "resultat": "label accorde"
+      "societe": "KidzRise",
+      "decision": "Label accordé",
+      "_displayDecision": "label_accorde"
     },
     {
-      "societe": "Startup 6 (à vérifier)",
-      "fondateurs": "",
-      "_displayDecision": "label_accorde",
-      "resultat": "label accorde"
+      "societe": "Proximabel Development",
+      "decision": "Label accordé",
+      "_displayDecision": "label_accorde"
     },
     {
-      "societe": "Startup 7 (à vérifier)",
-      "fondateurs": "",
-      "_displayDecision": "label_accorde",
-      "resultat": "label accorde"
+      "societe": "KDM",
+      "decision": "Label accordé",
+      "_displayDecision": "label_accorde"
     },
     {
-      "societe": "Startup 8 (à vérifier)",
-      "fondateurs": "",
-      "_displayDecision": "label_accorde",
-      "resultat": "label accorde"
+      "societe": "Satisfy Insight",
+      "decision": "Label accordé",
+      "_displayDecision": "label_accorde"
     },
     {
-      "societe": "Startup 9 (à vérifier)",
-      "fondateurs": "",
-      "_displayDecision": "label_accorde",
-      "resultat": "label accorde"
+      "societe": "Volo",
+      "decision": "Label accordé",
+      "_displayDecision": "label_accorde"
     },
     {
-      "societe": "Startup 10 (à vérifier)",
-      "fondateurs": "",
-      "_displayDecision": "label_accorde",
-      "resultat": "label accorde"
+      "societe": "tipstalks",
+      "decision": "Prélabel accordé",
+      "_displayDecision": "prelabel_accorde"
     },
     {
-      "societe": "Startup 11 (à vérifier)",
-      "fondateurs": "",
-      "_displayDecision": "label_accorde",
-      "resultat": "label accorde"
+      "societe": "Riven Crown",
+      "decision": "Prélabel accordé",
+      "_displayDecision": "prelabel_accorde"
     },
     {
-      "societe": "Startup 12 (à vérifier)",
-      "fondateurs": "",
-      "_displayDecision": "label_accorde",
-      "resultat": "label accorde"
+      "societe": "U!NOW",
+      "decision": "Prélabel accordé",
+      "_displayDecision": "prelabel_accorde"
     },
     {
-      "societe": "Startup 13 (à vérifier)",
-      "fondateurs": "",
-      "_displayDecision": "label_accorde",
-      "resultat": "label accorde"
+      "societe": "Tim'ess",
+      "decision": "Prélabel accordé",
+      "_displayDecision": "prelabel_accorde"
     },
     {
-      "societe": "Startup 14 (à vérifier)",
-      "fondateurs": "",
-      "_displayDecision": "label_accorde",
-      "resultat": "label accorde"
+      "societe": "DRIVOXE.",
+      "decision": "Prélabel accordé",
+      "_displayDecision": "prelabel_accorde"
     },
     {
-      "societe": "Startup 15 (à vérifier)",
-      "fondateurs": "",
-      "_displayDecision": "prelabel_accorde",
-      "resultat": "prelabel accorde"
+      "societe": "DAKTARI",
+      "decision": "Label non accordé",
+      "_displayDecision": "label_refuse"
     },
     {
-      "societe": "Startup 16 (à vérifier)",
-      "fondateurs": "",
-      "_displayDecision": "prelabel_accorde",
-      "resultat": "prelabel accorde"
+      "societe": "Société livraison ija",
+      "decision": "Label non accordé",
+      "_displayDecision": "label_refuse"
     },
     {
-      "societe": "Startup 17 (à vérifier)",
-      "fondateurs": "",
-      "_displayDecision": "prelabel_accorde",
-      "resultat": "prelabel accorde"
+      "societe": "Louna",
+      "decision": "Label non accordé",
+      "_displayDecision": "label_refuse"
     },
     {
-      "societe": "Startup 18 (à vérifier)",
-      "fondateurs": "",
-      "_displayDecision": "prelabel_accorde",
-      "resultat": "prelabel accorde"
+      "societe": "DEGLOLIVA",
+      "decision": "Label non accordé",
+      "_displayDecision": "label_refuse"
     },
     {
-      "societe": "Startup 19 (à vérifier)",
-      "fondateurs": "",
-      "_displayDecision": "prelabel_accorde",
-      "resultat": "prelabel accorde"
+      "societe": "AGRONIX",
+      "decision": "Label non accordé",
+      "_displayDecision": "label_refuse"
     },
     {
-      "societe": "Startup 20 (à vérifier)",
-      "fondateurs": "",
-      "_displayDecision": "retrait",
-      "resultat": "retrait"
+      "societe": "Qoon",
+      "decision": "Label non accordé",
+      "_displayDecision": "label_refuse"
     },
     {
-      "societe": "Startup 21 (à vérifier)",
-      "fondateurs": "",
-      "_displayDecision": "retrait",
-      "resultat": "retrait"
+      "societe": "Mat7irch",
+      "decision": "Label non accordé",
+      "_displayDecision": "label_refuse"
+    },
+    {
+      "societe": "NEXTOOLS",
+      "decision": "Prélabel non accordé",
+      "_displayDecision": "prelabel_refuse"
+    },
+    {
+      "societe": "Joyness",
+      "decision": "Prélabel non accordé",
+      "_displayDecision": "prelabel_refuse"
+    },
+    {
+      "societe": "Keef",
+      "decision": "Prélabel non accordé",
+      "_displayDecision": "prelabel_refuse"
+    },
+    {
+      "societe": "ADAM DIGITAL CARD",
+      "decision": "Prélabel non accordé",
+      "_displayDecision": "prelabel_refuse"
+    },
+    {
+      "societe": "Rewardini",
+      "decision": "Prélabel non accordé",
+      "_displayDecision": "prelabel_refuse"
+    },
+    {
+      "societe": "Jek Job",
+      "decision": "Prélabel non accordé",
+      "_displayDecision": "prelabel_refuse"
+    },
+    {
+      "societe": "Medidoc",
+      "decision": "Prélabel non accordé",
+      "_displayDecision": "prelabel_refuse"
+    },
+    {
+      "societe": "pathtrail",
+      "decision": "Prélabel non accordé",
+      "_displayDecision": "prelabel_refuse"
+    },
+    {
+      "societe": "Alt Doc",
+      "decision": "Prélabel non accordé",
+      "_displayDecision": "prelabel_refuse"
+    },
+    {
+      "societe": "CraftARoom",
+      "decision": "Prélabel non accordé",
+      "_displayDecision": "prelabel_refuse"
+    },
+    {
+      "societe": "CLUB",
+      "decision": "Prélabel non accordé",
+      "_displayDecision": "prelabel_refuse"
+    },
+    {
+      "societe": "Perfect Gen",
+      "decision": "Prélabel non accordé",
+      "_displayDecision": "prelabel_refuse"
+    },
+    {
+      "societe": "Smart Farm Solutions",
+      "decision": "Prélabel non accordé",
+      "_displayDecision": "prelabel_refuse"
+    },
+    {
+      "societe": "Oratio",
+      "decision": "Prélabel non accordé",
+      "_displayDecision": "prelabel_refuse"
+    },
+    {
+      "societe": "Numeryx MEA",
+      "decision": "Reporté",
+      "_displayDecision": "reporte"
+    },
+    {
+      "societe": "Télésurveillance profonde des patients via une plateforme clinique de suivi",
+      "decision": "Reporté",
+      "_displayDecision": "reporte"
+    },
+    {
+      "societe": "médical",
+      "decision": "Reporté",
+      "_displayDecision": "reporte"
+    },
+    {
+      "societe": "TECHPRO SOLUTION",
+      "decision": "Reporté",
+      "_displayDecision": "reporte"
+    },
+    {
+      "societe": "Hive",
+      "decision": "Reporté",
+      "_displayDecision": "reporte"
+    },
+    {
+      "societe": "ACRIDIDEA culturify DourbIA",
+      "decision": "Label accordé",
+      "_displayDecision": "label_accorde"
+    },
+    {
+      "societe": "R H  A development",
+      "decision": "Label accordé",
+      "_displayDecision": "label_accorde"
+    },
+    {
+      "societe": "Contractzlab",
+      "decision": "Label accordé",
+      "_displayDecision": "label_accorde"
+    },
+    {
+      "societe": "JIOTIFY Solutions Jiotify",
+      "decision": "Label accordé",
+      "_displayDecision": "label_accorde"
+    },
+    {
+      "societe": "NEXT PROTEIN TUNISIA Agritech COGNIRA TUNISIA",
+      "decision": "Label accordé",
+      "_displayDecision": "label_accorde"
     }
   ],
   "session_data": {
-    "candidatures": 0,
+    "candidatures": 45,
     "labels": 14,
     "preLabels": 5,
     "retraits": 2,
