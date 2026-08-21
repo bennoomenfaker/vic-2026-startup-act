@@ -1,262 +1,465 @@
 {
   "session": "08/2020",
+  "session_number": 17,
   "annee": 2020,
   "mois": 8,
   "pdf": "session_2020_08.pdf",
+  "source": "Généré à partir du fichier Excel corrigé; les compteurs officiels sont conservés séparément",
   "nb_entrees": 34,
-  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
       "societe": "Addresti",
+      "projet": "Non renseigné",
       "fondateurs": "Nour El Houda Benzarti, Mohamed Ali Torjmen, Mohamed Salem Bchir, Hichem Elloumi, Fatma Mokadmi",
+      "decision": "label",
+      "type_label": "Non renseigné",
       "secteur": "Mobile",
-      "resultat": "label",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "DEDALE SOLUTIONS",
+      "projet": "Non renseigné",
       "fondateurs": "Riadh Brinis, Khalil Masmoudi, Sawsan Bellaj",
+      "decision": "label",
+      "type_label": "Non renseigné",
       "secteur": "Fintech",
-      "resultat": "label",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Etakwin",
+      "projet": "Non renseigné",
       "fondateurs": "Moez Bouhlel, Mhammed Bellaj, Bassem Ben Jmeaa",
+      "decision": "label",
+      "type_label": "Non renseigné",
       "secteur": "E-commerce",
-      "resultat": "label",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Autoshop.tn/ETL Technology",
+      "projet": "Non renseigné",
       "fondateurs": "Mohamed Ali Ellouze, Achraf Guidara, Hatem Abidi",
+      "decision": "label",
+      "type_label": "Non renseigné",
       "secteur": "E-commerce",
-      "resultat": "label",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "DIDA MIND",
+      "projet": "Non renseigné",
       "fondateurs": "Soumaya Ben Abdallah",
+      "decision": "label",
+      "type_label": "Non renseigné",
       "secteur": "IoT",
-      "resultat": "label",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "GST",
+      "projet": "Non renseigné",
       "fondateurs": "Nesria Lehiani",
+      "decision": "label",
+      "type_label": "Non renseigné",
       "secteur": "Logistique",
-      "resultat": "label",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Improve Software TN ai diagnosis vision",
+      "projet": "Non renseigné",
       "fondateurs": "Salah El Amami, Saoussen Ayari, Anouar Nechi",
+      "decision": "label",
+      "type_label": "Non renseigné",
       "secteur": "Agritech",
-      "resultat": "label",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "GENI",
+      "projet": "Non renseigné",
       "fondateurs": "Mohamed Ali TBESSI",
+      "decision": "prelabel",
+      "type_label": "Non renseigné",
       "secteur": "Agritech",
-      "resultat": "prelabel",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "HAKIM TECHNOLOGIES",
+      "projet": "Non renseigné",
       "fondateurs": "Mondher Hakim, Mohamed Mabrouk, Nermine Marzouki",
+      "decision": "prelabel",
+      "type_label": "Non renseigné",
       "secteur": "Energie",
-      "resultat": "prelabel",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "D-WEE",
+      "projet": "Non renseigné",
       "fondateurs": "Taha Grach, Bassem Mlayah, Mohamed Aziz Hannachi",
+      "decision": "prelabel",
+      "type_label": "Non renseigné",
       "secteur": "Health Tech",
-      "resultat": "prelabel",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "HOMEJEK",
+      "projet": "Non renseigné",
       "fondateurs": "Anis Mzoughi, Fares Amor",
+      "decision": "prelabel",
+      "type_label": "Non renseigné",
       "secteur": "E-commerce",
-      "resultat": "prelabel",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "MTCE",
+      "projet": "Non renseigné",
       "fondateurs": "Dhafer Ben Amor, Nidhal Ben Amor, Zied Rouissi",
+      "decision": "prelabel",
+      "type_label": "Non renseigné",
       "secteur": "Autre contenu créatif",
-      "resultat": "prelabel",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Angel Protector/ AMZi Smart Solutions",
+      "projet": "Non renseigné",
       "fondateurs": "Yassine Timoumi, Johannes Jones, Jihed Jaouabi",
+      "decision": "label",
+      "type_label": "Non renseigné",
       "secteur": "AI",
-      "resultat": "label",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Lanterns",
+      "projet": "Non renseigné",
       "fondateurs": "Oussama mariem, Nabil Brahem, Amine Gara",
+      "decision": "label",
+      "type_label": "Non renseigné",
       "secteur": "Gaming",
-      "resultat": "label",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Analytix",
+      "projet": "Non renseigné",
       "fondateurs": "Mariam Ouanes, Sami Chammakhi",
+      "decision": "label",
+      "type_label": "Non renseigné",
       "secteur": "Fintech",
-      "resultat": "label",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "M&C",
+      "projet": "Non renseigné",
       "fondateurs": "Aymen Mechria",
+      "decision": "label",
+      "type_label": "Non renseigné",
       "secteur": "AI",
-      "resultat": "label",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Makerfy",
+      "projet": "Non renseigné",
       "fondateurs": "Hani Hamrouni, Davide Di Majo, Mohamed Nawes",
+      "decision": "label",
+      "type_label": "Non renseigné",
       "secteur": "Logiciel",
-      "resultat": "label",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Lead Youth",
+      "projet": "Non renseigné",
       "fondateurs": "Yasmine Ferchichi, Walid Slama",
+      "decision": "prelabel",
+      "type_label": "Non renseigné",
       "secteur": "Développement personnel",
-      "resultat": "prelabel",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Points Cadeaux",
+      "projet": "Non renseigné",
       "fondateurs": "Ahmed Ayadi, Beldi Zied",
+      "decision": "prelabel",
+      "type_label": "Non renseigné",
       "secteur": "Logiciel",
-      "resultat": "prelabel",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "mintounes",
+      "projet": "Non renseigné",
       "fondateurs": "Ghizlaine Beldi, Anis Harzallah, Med Salah Mbarek",
+      "decision": "prelabel",
+      "type_label": "Non renseigné",
       "secteur": "E-commerce",
-      "resultat": "prelabel",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "TAWA",
+      "projet": "Non renseigné",
       "fondateurs": "Mohamed Maalej, Mohamed Elaid Karaouli, Oussama Karaouli",
+      "decision": "prelabel",
+      "type_label": "Non renseigné",
       "secteur": "Marketing",
-      "resultat": "prelabel",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Drone filaire",
+      "projet": "Non renseigné",
       "fondateurs": "Yassine Karaouli, Wassim Karaouli",
+      "decision": "prelabel",
+      "type_label": "Non renseigné",
       "secteur": "Autre contenu créatif",
-      "resultat": "prelabel",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Full Health",
+      "projet": "Non renseigné",
       "fondateurs": "Selim Ben Mrad, Ghaleb Ben Ali, Imen Baklouti",
+      "decision": "prelabel",
+      "type_label": "Non renseigné",
       "secteur": "Développement personnel",
-      "resultat": "prelabel",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "WeRebase",
+      "projet": "Non renseigné",
       "fondateurs": "Nadhir Douma, Karim Daghari",
+      "decision": "prelabel",
+      "type_label": "Non renseigné",
       "secteur": "EdTech",
-      "resultat": "prelabel",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Afia Tech",
+      "projet": "Non renseigné",
       "fondateurs": "Afia Tech Laith Glissa, Mohamed Hedi Ben Hamed",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "Health Tech",
-      "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "SPORTOLOGY",
+      "projet": "Non renseigné",
       "fondateurs": "KLAY, Moez Aousji, Sabrine Ibrahim",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "Autre contenu créatif",
-      "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Société Classquiz",
+      "projet": "Non renseigné",
       "fondateurs": "Class Quiz Achref Dawahi, Omar Trabelsi, Haithem Kchaou",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "EdTech",
-      "resultat": "label accorde",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Nebulabs",
+      "projet": "Non renseigné",
       "fondateurs": "Kyteb, Chehir Dhawedi",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "EdTech",
-      "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Scaphandry",
+      "projet": "Non renseigné",
       "fondateurs": "Rent a tutor Abdeljalil Ghattas",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "EdTech",
-      "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Digital GROWUP APPLICATIONS « DGA »",
+      "projet": "Non renseigné",
       "fondateurs": "GrowApp Wael Aouididi",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "Logiciel",
-      "resultat": "label accorde",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Ste Hope Healthcare Solutions",
+      "projet": "Non renseigné",
       "fondateurs": "Le Comet  Tarek Mnaffakh, Mohamed Hedi Achour, Yosr Naija",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "Health Tech",
-      "resultat": "label accorde",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "THEMAZEGROUP",
+      "projet": "Non renseigné",
       "fondateurs": "iSporit Yassine Achour, Karim Zehani, Mohamed Wassim Benzarti, Khalil Ben Zineb",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "Autre contenu créatif",
-      "resultat": "label accorde",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "School Upgrader",
+      "projet": "Non renseigné",
       "fondateurs": "School Upgrader, Oussama Ben Zineb, Amine Rekhis",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "EdTech",
-      "resultat": "label accorde",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "STE Industrial FACTOORYA Tech",
+      "projet": "Non renseigné",
       "fondateurs": "FACTOORYA Yassine Khlass, Mohamed Seifedinne Bouarada",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "IoT",
-      "resultat": "label accorde",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     }
   ],
   "session_data": {
-    "candidatures": 28,
+    "candidatures": 34,
     "labels": 17,
     "preLabels": 6,
-    "taux_acceptation_pct": 60.7,
-    "statut": "replit_csv_conforme",
     "retraits": 0,
-    "conversions": 10,
-    "newLabels": 17,
-    "taux": 60.7
+    "labels_extraits_des_lignes": 10,
+    "preLabels_extraits_des_lignes": 0,
+    "qualite": [
+      "Écart compteurs Excel lignes/compteurs officiels: lignes Label=10, officiel Label=17; lignes Prélabel=0, officiel Prélabel=6"
+    ]
   },
-  "_displayLabels": 17,
-  "_displayPreLabels": 6,
-  "_displayCandidatures": 28
+  "generated_at": "2026-08-20T17:13:25"
 }

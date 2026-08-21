@@ -1,339 +1,530 @@
 {
   "session": "12/2024",
+  "session_number": 69,
   "annee": 2024,
   "mois": 12,
   "pdf": "session_2024_12.pdf",
-  "nb_entrees": 45,
-  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
+  "source": "Généré à partir du fichier Excel corrigé; les compteurs officiels sont conservés séparément",
+  "nb_entrees": 39,
   "entrees": [
     {
       "societe": "Millim",
-      "fondateurs": "Ayoub Kammoun, Rahma Ben Abid",
+      "projet": "Non renseigné",
+      "fondateurs": "Ayed Mami Khalil Turki Ayoub Kammoun Rahma Ben Abid",
+      "decision": "Label Accordé au 2 ème Tour",
+      "type_label": "Label",
       "secteur": "Consumer products and services",
-      "resultat": "label accorde au 2 eme tour",
-      "_displayDecision": "label_accorde"
+      "tour_moment": "Non précisé",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "T7D Gaming",
-      "fondateurs": "Houcem Maiza, Ghaleb Ben Ali",
+      "projet": "Non renseigné",
+      "fondateurs": "Houcem Maiza",
+      "decision": "Label Accordé au 2 ème Tour",
+      "type_label": "Label",
       "secteur": "Ad Tech and Creative Tech",
-      "resultat": "label accorde au 2 eme tour",
-      "_displayDecision": "label_accorde"
+      "tour_moment": "Non précisé",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "ORGAXYA",
-      "fondateurs": "Karim Daghari, Mohamed Aziz Fekih Ali",
+      "projet": "Non renseigné",
+      "fondateurs": "Ghaleb Ben Ali Karim Daghari",
+      "decision": "Label Accordé au 2 ème Tour",
+      "type_label": "Label",
       "secteur": "Business Software and services",
-      "resultat": "label accorde au 2 eme tour",
-      "_displayDecision": "label_accorde"
+      "tour_moment": "Non précisé",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "Nexaminds",
-      "fondateurs": "Hamza Nasra, Mohamed El Kamel, Amine Abdennour",
+      "projet": "Non renseigné",
+      "fondateurs": "Mohamed Aziz Fekih Ali Hamza Nasra",
+      "decision": "Label Accordé au 2 ème Tour",
+      "type_label": "Label",
       "secteur": "Business Software and services",
-      "resultat": "label accorde au 2 eme tour",
-      "_displayDecision": "label_accorde"
+      "tour_moment": "Non précisé",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "SELLMAX",
-      "fondateurs": "Ayoub Nejem, Marouane Khadhraoui, Helmi Cherif, Sana Ben Rahma",
+      "projet": "Non renseigné",
+      "fondateurs": "Mohamed El Kamel Amine Abdennour Ayoub Nejem Marouane Khadhraoui",
+      "decision": "Label Accordé au 2 ème Tour",
+      "type_label": "Label",
       "secteur": "Commerce and shopping",
-      "resultat": "label accorde au 2 eme tour",
-      "_displayDecision": "label_accorde"
+      "tour_moment": "Non précisé",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "Droppy",
-      "fondateurs": "Imen Nasri, Rania Amamou, Abdelkader Ben khalifa",
+      "projet": "Non renseigné",
+      "fondateurs": "Helmi Cherif Sana Ben Rahma Imen Nasri Rania Amamou",
+      "decision": "Label Accordé au 2 ème Tour",
+      "type_label": "Label",
       "secteur": "Commerce and shopping",
-      "resultat": "label accorde au 2 eme tour",
-      "_displayDecision": "label_accorde"
+      "tour_moment": "Non précisé",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "Depogro",
-      "fondateurs": "Aymen Manai, Abdelmonam Kouka",
+      "projet": "Non renseigné",
+      "fondateurs": "Abdelkader Ben khalifa Aymen Manai",
+      "decision": "Label Accordé au 2 ème Tour",
+      "type_label": "Label",
       "secteur": "Commerce and shopping",
-      "resultat": "label accorde au 2 eme tour",
-      "_displayDecision": "label_accorde"
+      "tour_moment": "Non précisé",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "Elastic-Watch",
-      "fondateurs": "Ayed Akrout, Marwa Abrougui",
+      "projet": "Non renseigné",
+      "fondateurs": "Abdelmonam Kouka Ayed Akrout",
+      "decision": "Label Accordé au 2 ème Tour",
+      "type_label": "Label",
       "secteur": "Agritech",
-      "resultat": "label accorde au 2 eme tour",
-      "_displayDecision": "label_accorde"
+      "tour_moment": "Non précisé",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "PERMA EMERGENCY ASSISTANCE",
-      "fondateurs": "Mustapha Nasraoui, Fares Hana, Yassine Ben Himene",
+      "projet": "Non renseigné",
+      "fondateurs": "Marwa Abrougui Mustapha Nasraoui Fares Hana",
+      "decision": "Label Accordé au 3 ème Tour",
+      "type_label": "Label",
       "secteur": "Communication services",
-      "resultat": "label accorde au 3 eme tour",
-      "_displayDecision": "label_accorde"
+      "tour_moment": "Non précisé",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "SMARTBAT",
-      "fondateurs": "Mohamed Skander Ben Himene, Meryam Boughzala",
+      "projet": "Non renseigné",
+      "fondateurs": "Yassine Ben Himene Mohamed Skander Ben Himene",
+      "decision": "Label Accordé au 3 ème Tour",
+      "type_label": "Label",
       "secteur": "Consumer products and services",
-      "resultat": "label accorde au 3 eme tour",
-      "_displayDecision": "label_accorde"
+      "tour_moment": "Non précisé",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "IsOne Hr",
-      "fondateurs": "Louay Atoui, Bilel Ben Salem, Tijani Boujdaria, Minyar Meksi",
+      "projet": "Non renseigné",
+      "fondateurs": "Meryam Boughzala Louay Atoui Bilel Ben Salem",
+      "decision": "Prélabel Accordé au 2 ème Tour",
+      "type_label": "Prélabel",
       "secteur": "Business Software and services",
-      "resultat": "prelabel accorde au 2 eme tour",
-      "_displayDecision": "prelabel_accorde"
+      "tour_moment": "Non précisé",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "BeEmo",
-      "fondateurs": "Walid Jlassi, Mohamed Rouini, Malak Belkacem",
+      "projet": "Non renseigné",
+      "fondateurs": "Tijani Boujdaria Minyar Meksi Walid Jlassi Mohamed Rouini",
+      "decision": "Prélabel Accordé au 2 ème Tour",
+      "type_label": "Prélabel",
       "secteur": "EdTech",
-      "resultat": "prelabel accorde au 2 eme tour",
-      "_displayDecision": "prelabel_accorde"
+      "tour_moment": "Non précisé",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "linkbook",
-      "fondateurs": "Dhia Fekih, Mohamed Mehdi Nouira, Rahma Ayari",
+      "projet": "Non renseigné",
+      "fondateurs": "Malak Belkacem Dhia Fekih Mohamed Mehdi Nouira",
+      "decision": "Prélabel Accordé au 3 ème Tour",
+      "type_label": "Prélabel",
       "secteur": "EdTech",
-      "resultat": "prelabel accorde au 3 eme tour",
-      "_displayDecision": "prelabel_accorde"
+      "tour_moment": "Non précisé",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "Mashroom",
-      "fondateurs": "Anis Benna, Touati Selsebil",
+      "projet": "Non renseigné",
+      "fondateurs": "Rahma Ayari Anis Benna",
+      "decision": "Prélabel Accordé au 3 ème Tour",
+      "type_label": "Prélabel",
       "secteur": "Ad Tech and Creative Tech",
-      "resultat": "prelabel accorde au 3 eme tour",
-      "_displayDecision": "prelabel_accorde"
+      "tour_moment": "Non précisé",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "Dagish",
-      "fondateurs": "Rania Mani",
+      "projet": "Non renseigné",
+      "fondateurs": "Touati Selsebil Rania Mani",
+      "decision": "Label Non Accordé au 2 ème Tour",
+      "type_label": "Label",
       "secteur": "Ad Tech and Creative Tech",
-      "resultat": "label non accorde au 2 eme tour",
-      "_displayDecision": "label_refuse"
+      "tour_moment": "Non précisé",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "Sport federation",
-      "fondateurs": "Radhouen Assakra, Aymen Sellaouti",
+      "projet": "Non renseigné",
+      "fondateurs": "Radhouen Assakra",
+      "decision": "Label Non Accordé au 2 ème Tour",
+      "type_label": "Label",
       "secteur": "Social Business",
-      "resultat": "label non accorde au 2 eme tour",
-      "_displayDecision": "label_refuse"
+      "tour_moment": "Non précisé",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "mypharmacy.tn",
-      "fondateurs": "Kais Ben Youssef, ssam Moalla, Hedi Ben Abbess",
+      "projet": "Non renseigné",
+      "fondateurs": "Aymen Sellaouti Kais Ben Youssef",
+      "decision": "Label Non Accordé au 2 ème Tour",
+      "type_label": "Label",
       "secteur": "HealthTech",
-      "resultat": "label non accorde au 2 eme tour",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non précisé",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "SOASY",
-      "fondateurs": "Naoufel Amri",
+      "projet": "Non renseigné",
+      "fondateurs": "sHseadmi BMeon aAllbabess Naoufel Amri",
+      "decision": "Label Non Accordé au 2 ème Tour",
+      "type_label": "Label",
       "secteur": "Advanced Manufacturing & Robotics",
-      "resultat": "label non accorde au 2 eme tour",
-      "_displayDecision": "label_refuse"
+      "tour_moment": "Non précisé",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "MedSyn",
-      "fondateurs": "Faouzi Nouira",
+      "projet": "Non renseigné",
+      "fondateurs": "Malek Gharsallah Faouzi Nouira",
+      "decision": "Label Non Accordé au 2 ème Tour",
+      "type_label": "Label",
       "secteur": "HealthTech",
-      "resultat": "label non accorde au 2 eme tour",
-      "_displayDecision": "Label Non Accordé au 2 ème Tour"
+      "tour_moment": "Non précisé",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "IBDAA ACADEMY",
+      "projet": "Non renseigné",
       "fondateurs": "Fethi Zoghlami",
+      "decision": "Label Non Accordé au 3 ème Tour",
+      "type_label": "Label",
       "secteur": "EdTech",
-      "resultat": "label non accorde au 3 eme tour",
-      "_displayDecision": "Label Non Accordé au 3 ème Tour"
+      "tour_moment": "Non précisé",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "Medactis",
+      "projet": "Non renseigné",
       "fondateurs": "Karim Rekik",
+      "decision": "Label Non Accordé au 2 ème Tour",
+      "type_label": "Label",
       "secteur": "HealthTech",
-      "resultat": "label non accorde au 2 eme tour",
-      "_displayDecision": "Label Non Accordé au 2 ème Tour"
+      "tour_moment": "Non précisé",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
-      "societe": "Aupiq Elites united for tax and legal services",
-      "fondateurs": "Sameh Ghanmi, Mohamed monem Kahouli",
+      "societe": "Aupiq",
+      "projet": "Non renseigné",
+      "fondateurs": "Sameh Ghanmi",
+      "decision": "Label Non Accordé au 2 ème Tour",
+      "type_label": "Label",
       "secteur": "Business Software and services",
-      "resultat": "label non accorde au 2 eme tour",
-      "_displayDecision": "Mohamed monem Kahouli"
+      "tour_moment": "Non précisé",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
-      "societe": "Haier HR LA PAILLETTE A nous, A vous, A leur",
-      "fondateurs": "Moetaz Ben Charrada, Chouka Brahim",
+      "societe": "Elites united for tax and legal services",
+      "projet": "Non renseigné",
+      "fondateurs": "Mohamed monem Kahouli",
+      "decision": "Prélabel Non Accordé au 2 ème Tour",
+      "type_label": "Prélabel",
       "secteur": "Business Software and services",
-      "resultat": "prelabel non accorde au 2 eme tour",
-      "_displayDecision": "Prélabel Non Accordé au 2 ème Tour"
+      "tour_moment": "Non précisé",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
+    },
+    {
+      "societe": "Haier HR",
+      "projet": "Non renseigné",
+      "fondateurs": "Moetaz Ben Charrada",
+      "decision": "Prélabel Non Accordé au 2 ème Tour",
+      "type_label": "Prélabel",
+      "secteur": "Business Software and services",
+      "tour_moment": "Non précisé",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
+    },
+    {
+      "societe": "LA PAILLETTE A nous, A vous, A leur",
+      "projet": "Non renseigné",
+      "fondateurs": "Chouka Brahim",
+      "decision": "Prélabel Non Accordé au 2 ème Tour",
+      "type_label": "Prélabel",
+      "secteur": "Social Business",
+      "tour_moment": "Non précisé",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "Ôravie",
+      "projet": "Non renseigné",
       "fondateurs": "Monia Ezzalfani",
+      "decision": "Prélabel Non Accordé au 2 ème Tour",
+      "type_label": "Prélabel",
       "secteur": "HealthTech",
-      "resultat": "prelabel non accorde au 2 eme tour",
-      "_displayDecision": "Prélabel Non Accordé au 2 ème Tour"
+      "tour_moment": "Non précisé",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "By4IM",
-      "fondateurs": "Yosri Ben Hmida, Ghanem Iheb",
+      "projet": "Non renseigné",
+      "fondateurs": "Yosri Ben Hmida",
+      "decision": "Prélabel Non Accordé au 2 ème Tour",
+      "type_label": "Prélabel",
       "secteur": "Real Estate Tech",
-      "resultat": "prelabel non accorde au 2 eme tour",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non précisé",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "Verdolive",
-      "fondateurs": "Omayma Dammak, Julie Déry",
+      "projet": "Non renseigné",
+      "fondateurs": "Ghanem Iheb Omayma Dammak",
+      "decision": "Prélabel Non Accordé au 2 ème Tour",
+      "type_label": "Prélabel",
       "secteur": "Agritech",
-      "resultat": "prelabel non accorde au 2 eme tour",
-      "_displayDecision": "Prélabel Non Accordé au 2 ème Tour"
+      "tour_moment": "Non précisé",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "Académie ACAM",
-      "fondateurs": "Nicole Gosselin",
+      "projet": "Non renseigné",
+      "fondateurs": "Julie Déry Nicole Gosselin",
+      "decision": "Prélabel Non Accordé au 2 ème Tour",
+      "type_label": "Prélabel",
       "secteur": "Wellness",
-      "resultat": "prelabel non accorde au 2 eme tour",
-      "_displayDecision": "Prélabel Non Accordé au 2 ème Tour"
+      "tour_moment": "Non précisé",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "WAKKIL",
-      "fondateurs": "Mouna Ben Hassine, Ines Ben Abdallah",
+      "projet": "Non renseigné",
+      "fondateurs": "Mouna Ben Hassine",
+      "decision": "Prélabel Non Accordé au 2 ème Tour",
+      "type_label": "Prélabel",
       "secteur": "Communication services",
-      "resultat": "prelabel non accorde au 2 eme tour",
-      "_displayDecision": "Prélabel Non Accordé au 2 ème Tour"
+      "tour_moment": "Non précisé",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "ABRID",
-      "fondateurs": "Marwa Boubaker, Emna Siala",
+      "projet": "Non renseigné",
+      "fondateurs": "Ines Ben Abdallah Marwa Boubaker",
+      "decision": "Prélabel Non Accordé au 2 ème Tour",
+      "type_label": "Prélabel",
       "secteur": "Advanced Manufacturing & Robotics",
-      "resultat": "prelabel non accorde au 2 eme tour",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non précisé",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "Propertates",
-      "fondateurs": "Monem Hmila, Mohamed Jasser Ben Smida, Aymen Bouzgarrou",
+      "projet": "Non renseigné",
+      "fondateurs": "Emna Siala Monem Hmila Mohamed Jasser Ben Smida",
+      "decision": "Prélabel Non Accordé au 2 ème Tour",
+      "type_label": "Prélabel",
       "secteur": "Business Software and services",
-      "resultat": "prelabel non accorde au 2 eme tour",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non précisé",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "Cash Flow",
-      "fondateurs": "Ichrak Bouzgarrou, Chirine Bouzgarrou, Mohamed Guemri",
+      "projet": "Non renseigné",
+      "fondateurs": "Aymen Bouzgarrou Ichrak Bouzgarrou Chirine Bouzgarrou",
+      "decision": "Prélabel Non Accordé au 2 ème Tour",
+      "type_label": "Prélabel",
       "secteur": "Business Software and services",
-      "resultat": "prelabel non accorde au 2 eme tour",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non précisé",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "Maktoub",
-      "fondateurs": "Souhail Kaboura, Charbeji Mohamed Majd",
+      "projet": "Non renseigné",
+      "fondateurs": "Mohamed Guemri Souhail Kaboura",
+      "decision": "Prélabel Non Accordé au 2 ème Tour",
+      "type_label": "Prélabel",
       "secteur": "Communication services",
-      "resultat": "prelabel non accorde au 2 eme tour",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non précisé",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "check'n",
-      "fondateurs": "Karim Atrous, Khalil Ben Ticha",
+      "projet": "Non renseigné",
+      "fondateurs": "Charbeji Mohamed Majd Karim Atrous Khalil Ben Ticha",
+      "decision": "Prélabel Non Accordé au 2 ème Tour",
+      "type_label": "Prélabel",
       "secteur": "Ad Tech and Creative Tech",
-      "resultat": "prelabel non accorde au 2 eme tour",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non précisé",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "Improve",
+      "projet": "Non renseigné",
       "fondateurs": "Fawzy Othman",
+      "decision": "Prélabel Non Accordé au 2 ème Tour",
+      "type_label": "Prélabel",
       "secteur": "Business Software and services",
-      "resultat": "prelabel non accorde au 2 eme tour",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non précisé",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "Rhai",
-      "fondateurs": "Ilyes ali Jeridi, Iskander Kamel Fhima",
+      "projet": "Non renseigné",
+      "fondateurs": "Ilyes ali Jeridi",
+      "decision": "Prélabel Non Accordé au 2 ème Tour",
+      "type_label": "Prélabel",
       "secteur": "Business Software and services",
-      "resultat": "prelabel non accorde au 2 eme tour",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non précisé",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "Multipay",
-      "fondateurs": "Majdoub Hazem, Med Khalfallah, Samar Saidi",
+      "projet": "Non renseigné",
+      "fondateurs": "Iskander Kamel Fhima Majdoub Hazem Med Khalfallah",
+      "decision": "Prélabel Non Accordé au 3 ème Tour",
+      "type_label": "Prélabel",
       "secteur": "Fintech",
-      "resultat": "prelabel non accorde au 3 eme tour",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non précisé",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "MarketMe",
-      "fondateurs": "Haifa Ben Khalaf, Iskander Kamel Fhima",
+      "projet": "Non renseigné",
+      "fondateurs": "Samar Saidi Haifa Ben Khalaf",
+      "decision": "Prélabel Non Accordé au 3 ème Tour",
+      "type_label": "Label",
       "secteur": "Ad Tech and Creative Tech",
-      "resultat": "prelabel non accorde au 3 eme tour",
-      "_displayDecision": "unknown"
-    },
-    {
-      "societe": "Multipay",
-      "fondateurs": "Majdoub Hazem, Med Khalfallah",
-      "secteur": "Fintech",
-      "resultat": "prelabel non accorde au 3 eme tour",
-      "_displayDecision": "unknown"
-    },
-    {
-      "societe": "Labels",
-      "fondateurs": "",
-      "secteur": "",
-      "resultat": "",
-      "_displayDecision": "unknown"
-    },
-    {
-      "societe": "mevenda mevenda solutions",
-      "fondateurs": "Amal Hemdana, Hamza Borchani",
-      "secteur": "Commerce and shopping",
-      "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
-    },
-    {
-      "societe": "Receeto RECEETO",
-      "fondateurs": "Business Software and services, Aymen Bjaoui",
-      "secteur": "Souha Bouslimi",
-      "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
-    },
-    {
-      "societe": "SV Lab Seven Verses Laboratory",
-      "fondateurs": "Marzouki Mohamed Amine, Moez Ben Mosbah",
-      "secteur": "Agritech",
-      "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
-    },
-    {
-      "societe": "Greeny Solutions Greeny Solutions Engineering",
-      "fondateurs": "Agritech",
-      "secteur": "Mohamed Zied Madini",
-      "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
-    },
-    {
-      "societe": "CARWAYS Dot Ways",
-      "fondateurs": "Commerce and shopping, Manel Ennahedh, Mohamed Rajhi",
-      "secteur": "Oumayma Boughdiri",
-      "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
-    },
-    {
-      "societe": "TerraSens TerraSens",
-      "fondateurs": "Jamila Tarhouni, Salma Bouabdellaoui",
-      "secteur": "Agritech",
-      "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "tour_moment": "Non précisé",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     }
   ],
   "session_data": {
-    "candidatures": 40,
+    "candidatures": 39,
     "labels": 16,
     "preLabels": 4,
-    "taux_acceptation_pct": 40.0,
-    "statut": "replit_csv_conforme",
     "retraits": 1,
-    "conversions": 6,
-    "newLabels": 16,
-    "taux": 40.0
+    "labels_extraits_des_lignes": 10,
+    "preLabels_extraits_des_lignes": 4,
+    "qualite": [
+      "Écart compteurs Excel lignes/compteurs officiels: lignes Label=10, officiel Label=16; lignes Prélabel=4, officiel Prélabel=4"
+    ]
   },
-  "_displayLabels": 16,
-  "_displayPreLabels": 4,
-  "_displayCandidatures": 40
+  "generated_at": "2026-08-20T17:13:26"
 }

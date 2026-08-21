@@ -1,0 +1,192 @@
+{
+  "session": "05/2020",
+  "annee": 2020,
+  "mois": 5,
+  "pdf": "session_2020_05.pdf",
+  "nb_entrees": 24,
+  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
+  "entrees": [
+    {
+      "societe": "Digitus Technologies",
+      "fondateurs": "Walid Driss",
+      "secteur": "Blockchain & cryptocurrency",
+      "resultat": "label",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "STARK",
+      "fondateurs": "Mohamed Mzid, Mohamed Farouk Mhenni",
+      "secteur": "Logiciel",
+      "resultat": "label",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "NATDYES",
+      "fondateurs": "Mohamed Ahmed Mhenni, Amira Mhenni, Mourad Elfelah",
+      "secteur": "Wearables",
+      "resultat": "label",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "Carpet Plus",
+      "fondateurs": "Moncef Ben Rejeb, Amani Abid, Asma Bayouli",
+      "secteur": "E-commerce",
+      "resultat": "label",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "Hand & Crafts",
+      "fondateurs": "Ameni Ben Hmida, Haythem Cherif",
+      "secteur": "E-commerce",
+      "resultat": "label",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "YASSIR",
+      "fondateurs": "Noureddine Tayebi, Kais Ben Amar",
+      "secteur": "Logistique",
+      "resultat": "label",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "Wakahaw",
+      "fondateurs": "Haythem Benna, Wajih Hajji",
+      "secteur": "Big Data",
+      "resultat": "label",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "Amiral",
+      "fondateurs": "Amine Ben Abdallah, Habib Wenish",
+      "secteur": "E-commerce",
+      "resultat": "prelabel",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "Sprindt",
+      "fondateurs": "Ramzi Hamrouni, Hedi Akrout",
+      "secteur": "Fintech",
+      "resultat": "prelabel",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "Global World Transformer",
+      "fondateurs": "Mohamed Amine Hamdi, Mohamed Hedi Achour, Yosr Naija",
+      "secteur": "IoT",
+      "resultat": "prelabel",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "iSporit",
+      "fondateurs": "Yassine Achour, Karim Zehani, Mohamed Wassim Benzarti, Maya Mathari",
+      "secteur": "Autre contenu créatif",
+      "resultat": "prelabel",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "Evolutik",
+      "fondateurs": "",
+      "secteur": "Autre contenu créatif",
+      "resultat": "prelabel",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "El Food Lab",
+      "fondateurs": "Nesrine Chemkhi, Mohamed Guinoubi",
+      "secteur": "Autre contenu créatif",
+      "resultat": "prelabel",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "Fouita",
+      "fondateurs": "Abdelhay Najjar",
+      "secteur": "Logiciel",
+      "resultat": "prelabel",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "GrowApp",
+      "fondateurs": "Wael Aouididi, Wael Moula",
+      "secteur": "Growapp",
+      "resultat": "prelabel",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "We-Settle",
+      "fondateurs": "Naima Moula, Conception et vente d'un système de télégestion d'énergie électrique Sabri Mhimdi, Henda Zribi, Jamel Hattay",
+      "secteur": "Fintech",
+      "resultat": "prelabel",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "IOT Medical Technology",
+      "fondateurs": "Samir Belaid, Mohsen Machhout, Karim Jelliti",
+      "secteur": "Health tech",
+      "resultat": "label",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "Omniup Tunisie LE PORTAIL DES LANGUES",
+      "fondateurs": "Issam Essefi, Ali Sakka, Sahbi Agrebi, Haythem Besghaier",
+      "secteur": "Marketing",
+      "resultat": "label",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "GARK",
+      "fondateurs": "Khaled Guedria, Mansour Mechmech",
+      "secteur": "Mobile",
+      "resultat": "prelabel",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "GASPYCH",
+      "fondateurs": "Hend Kefi",
+      "secteur": "E-commerce",
+      "resultat": "prelabel",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "EMNA HUSSEIN",
+      "fondateurs": "Emna Hussein, Racem Smaouo",
+      "secteur": "Wearables",
+      "resultat": "prelabel",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "Doctorka",
+      "fondateurs": "Aymen Ben Amor, Walid Ben Djemaa",
+      "secteur": "Health Tech",
+      "resultat": "prelabel",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "Renini",
+      "fondateurs": "Abdelaziz Ben Chaabane, Arslene Rouatbi",
+      "secteur": "Plateforme sociale",
+      "resultat": "prelabel",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "Société Polyouate",
+      "fondateurs": "Ridha Rouatbi",
+      "secteur": "Autre contenu créatif",
+      "resultat": "label",
+      "_displayDecision": "unknown"
+    }
+  ],
+  "session_data": {
+    "candidatures": 26,
+    "labels": 12,
+    "preLabels": 10,
+    "taux_acceptation_pct": 46.2,
+    "statut": "replit_csv_conforme",
+    "retraits": 1,
+    "conversions": 5,
+    "newLabels": 12,
+    "taux": 46.2
+  },
+  "_displayLabels": 12,
+  "_displayPreLabels": 10,
+  "_displayCandidatures": 26
+}

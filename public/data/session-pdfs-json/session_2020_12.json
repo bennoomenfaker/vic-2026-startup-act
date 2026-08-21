@@ -1,276 +1,491 @@
 {
   "session": "12/2020",
+  "session_number": 21,
   "annee": 2020,
   "mois": 12,
   "pdf": "session_2020_12.pdf",
+  "source": "Généré à partir du fichier Excel corrigé; les compteurs officiels sont conservés séparément",
   "nb_entrees": 36,
-  "source": "Texte du Compte-Rendu fourni par l'utilisateur (OCR du PDF sans couche texte) — 18/08/2026",
   "entrees": [
     {
       "societe": "Telum",
+      "projet": "Non renseigné",
       "fondateurs": "Nour Ehore Ghoseh Amal",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "Logiciel",
-      "resultat": "label accorde",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Ma Formation Privilee",
+      "projet": "Non renseigné",
       "fondateurs": "Helmi Mash",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "E-commerce",
-      "resultat": "label accorde",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "AirGraph",
+      "projet": "Non renseigné",
       "fondateurs": "GHAYTH Bouygatta Lafalfa Rash Edouard Guilhot Daniel Balleger",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "Robotique",
-      "resultat": "label accorde",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "LG P",
+      "projet": "Non renseigné",
       "fondateurs": "Ahmed Miffes",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "Autre contenu créatif",
-      "resultat": "label accorde",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "WAMIA",
+      "projet": "Non renseigné",
       "fondateurs": "Abdereazak Ahlou Al Cherif Amri Kekasae",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "E-commerce",
-      "resultat": "label accorde",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "moudda.com",
+      "projet": "Non renseigné",
       "fondateurs": "Meeki Musselderb Karman Rokkane",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "E-commerce",
-      "resultat": "label accorde",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "wiTrade",
+      "projet": "Non renseigné",
       "fondateurs": "Mierten Nebi Zainib Nebi Taha Haitie",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "E-commerce",
-      "resultat": "label accorde",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "SOAR",
+      "projet": "Non renseigné",
       "fondateurs": "Aymen Tabi Nour Bourataize",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "Health Tech",
-      "resultat": "label accorde",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Datagram",
+      "projet": "Non renseigné",
       "fondateurs": "Mohamed Ali Ben Aleya",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "Big Data",
-      "resultat": "label accorde",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "IBIS Technologies",
+      "projet": "Non renseigné",
       "fondateurs": "Khaled Bouchousha",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "Agrtech",
-      "resultat": "label accorde",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "PROSERVY",
+      "projet": "Non renseigné",
       "fondateurs": "Ahmed Didi Wassim Ioani Mohamed Diyan Koutini",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "Logiciel",
-      "resultat": "label accorde",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Cagronte Fid",
+      "projet": "Non renseigné",
       "fondateurs": "Omar Bacar Cager Bouchousha",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "E-commerce",
-      "resultat": "label accorde",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Smarth",
+      "projet": "Non renseigné",
       "fondateurs": "Ramzi Zefani",
+      "decision": "Prélabel accordé",
+      "type_label": "Prélabel",
       "secteur": "Logiciel",
-      "resultat": "prelabel accorde",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "NetShake",
+      "projet": "Non renseigné",
       "fondateurs": "Raith Bensi Abdalah Bakke",
+      "decision": "Prélabel accordé",
+      "type_label": "Prélabel",
       "secteur": "EdTech",
-      "resultat": "prelabel accorde",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Go Staff",
+      "projet": "Non renseigné",
       "fondateurs": "Mohamed Hanoun Ouannes Wassim Khalfa",
+      "decision": "Prélabel accordé",
+      "type_label": "Prélabel",
       "secteur": "Health Tech",
-      "resultat": "prelabel accorde",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Kn_Traffic",
+      "projet": "Non renseigné",
       "fondateurs": "Mohamed Salah Zaggar",
+      "decision": "Prélabel accordé",
+      "type_label": "Prélabel",
       "secteur": "Autre contenu créatif",
-      "resultat": "prelabel accorde",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Bridge ITops",
+      "projet": "Non renseigné",
       "fondateurs": "Wald Saad",
+      "decision": "Prélabel accordé",
+      "type_label": "Prélabel",
       "secteur": "Logiciel",
-      "resultat": "prelabel accorde",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "WARM",
+      "projet": "Non renseigné",
       "fondateurs": "Marwa Ben Aissa",
+      "decision": "Prélabel accordé",
+      "type_label": "Prélabel",
       "secteur": "E-commerce",
-      "resultat": "prelabel accorde",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "LEEVVA Communication",
+      "projet": "Non renseigné",
       "fondateurs": "Wissem Bougulla Loc Lafhiq",
+      "decision": "Prélabel accordé",
+      "type_label": "Prélabel",
       "secteur": "Telecom",
-      "resultat": "prelabel accorde",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "BasketID",
+      "projet": "Non renseigné",
       "fondateurs": "Karmir Jabali Maker Chukai Wael Kaiso",
+      "decision": "Prélabel accordé",
+      "type_label": "Prélabel",
       "secteur": "Fintech",
-      "resultat": "prelabel accorde",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Key Software",
+      "projet": "Non renseigné",
       "fondateurs": "Khaled Saddani",
+      "decision": "Label non accordé",
+      "type_label": "Label",
       "secteur": "Logiciel",
-      "resultat": "label non accorde",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "BAIT",
+      "projet": "Non renseigné",
       "fondateurs": "Ahmed Trad",
+      "decision": "Label non accordé",
+      "type_label": "Label",
       "secteur": "Logiciel",
-      "resultat": "label non accorde",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "The Mission",
+      "projet": "Non renseigné",
       "fondateurs": "Fatin Maslei Sandari Elbawi",
+      "decision": "Label non accordé",
+      "type_label": "Label",
       "secteur": "EdTech",
-      "resultat": "label non accorde",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "instead",
+      "projet": "Non renseigné",
       "fondateurs": "Karmir Ben Abdalaziz Arwa Bel Hiji Taha Beri Amal Guzman",
+      "decision": "Label non accordé",
+      "type_label": "Label",
       "secteur": "Fintech",
-      "resultat": "label non accorde",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "MICRO DEVICE TUNISA",
+      "projet": "Non renseigné",
       "fondateurs": "Hamdil Ben Amor",
+      "decision": "Label non accordé",
+      "type_label": "Label",
       "secteur": "IoT",
-      "resultat": "label non accorde",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Droopex",
+      "projet": "Non renseigné",
       "fondateurs": "Ahmed Allesch Waet Allesch",
+      "decision": "Label non accordé",
+      "type_label": "Label",
       "secteur": "Logistique",
-      "resultat": "label non accorde",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "OnePack",
+      "projet": "Non renseigné",
       "fondateurs": "Sarra Fehail Firas Dheouad Malik Ahmed",
+      "decision": "Label non accordé",
+      "type_label": "Label",
       "secteur": "EdTech",
-      "resultat": "label non accorde",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Omaris Wood",
+      "projet": "Non renseigné",
       "fondateurs": "Omar Trabelsi",
+      "decision": "Label non accordé",
+      "type_label": "Label",
       "secteur": "Autre contenu créatif",
-      "resultat": "label non accorde",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "OMNIUP",
+      "projet": "Non renseigné",
       "fondateurs": "Karim Jelliti Issam Essefi Ali Sakka",
+      "decision": "Label non accordé",
+      "type_label": "Label",
       "secteur": "Marketing",
-      "resultat": "label non accorde",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "إبراهيم الدين - VirtuA Agency",
+      "projet": "Non renseigné",
       "fondateurs": "Siem Ouled Hsin",
+      "decision": "Prélabel non accordé",
+      "type_label": "Prélabel",
       "secteur": "Autre contenu créatif",
-      "resultat": "prelabel non accorde",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "EVO ENERGIZE",
+      "projet": "Non renseigné",
       "fondateurs": "Maher Amara Safa Bouhajar",
+      "decision": "Prélabel non accordé",
+      "type_label": "Prélabel",
       "secteur": "IoT",
-      "resultat": "prelabel non accorde",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Pabitel.tn",
+      "projet": "Non renseigné",
       "fondateurs": "Syrine Zgueb",
+      "decision": "Prélabel non accordé",
+      "type_label": "Prélabel",
       "secteur": "Logiciel",
-      "resultat": "prelabel non accorde",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Jood Lab",
+      "projet": "Non renseigné",
       "fondateurs": "Mohamed Belghith Younes Ben Mabrouk",
+      "decision": "Prélabel non accordé",
+      "type_label": "Prélabel",
       "secteur": "Logiciel",
-      "resultat": "prelabel non accorde",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "World Wide Security",
+      "projet": "Non renseigné",
       "fondateurs": "Mohamed Aziz Elmabrouk",
+      "decision": "Prélabel non accordé",
+      "type_label": "Prélabel",
       "secteur": "Autre contenu créatif",
-      "resultat": "prelabel non accorde",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Mat7irech",
+      "projet": "Non renseigné",
       "fondateurs": "Mohamed Harbaoui",
+      "decision": "Prélabel non accordé",
+      "type_label": "Prélabel",
       "secteur": "Mobile",
-      "resultat": "prelabel non accorde",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Flow",
+      "projet": "Non renseigné",
       "fondateurs": "Omar Guizani Maher Bouzid",
+      "decision": "Prélabel non accordé",
+      "type_label": "Prélabel",
       "secteur": "Fintech",
-      "resultat": "prelabel non accorde",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     }
   ],
   "session_data": {
     "candidatures": 36,
     "labels": 21,
     "preLabels": 8,
-    "taux_acceptation_pct": 58.3,
-    "statut": "replit_csv_conforme",
     "retraits": 0,
-    "conversions": 9,
-    "newLabels": 21,
-    "taux": 58.3
+    "labels_extraits_des_lignes": 12,
+    "preLabels_extraits_des_lignes": 8,
+    "qualite": [
+      "Écart compteurs Excel lignes/compteurs officiels: lignes Label=12, officiel Label=21; lignes Prélabel=8, officiel Prélabel=8"
+    ]
   },
-  "_displayLabels": 21,
-  "_displayPreLabels": 8,
-  "_displayCandidatures": 36
+  "generated_at": "2026-08-20T17:13:25"
 }

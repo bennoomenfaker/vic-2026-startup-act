@@ -1,0 +1,192 @@
+{
+  "session": "01/2020",
+  "annee": 2020,
+  "mois": 1,
+  "pdf": "session_2020_01.pdf",
+  "nb_entrees": 24,
+  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
+  "entrees": [
+    {
+      "societe": "Optimalogistic",
+      "fondateurs": "Maher Chakroun",
+      "secteur": "Logistique",
+      "resultat": "label accorde",
+      "_displayDecision": "label_accorde"
+    },
+    {
+      "societe": "Next Gen Solution / UnFrauded",
+      "fondateurs": "Taha Cabani",
+      "secteur": "AI",
+      "resultat": "label accorde",
+      "_displayDecision": "label_accorde"
+    },
+    {
+      "societe": "Digital2Value",
+      "fondateurs": "Foued Manaa",
+      "secteur": "Logiciel",
+      "resultat": "",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "STE ESKY PROFESSIONAL SERVICES LIMITED",
+      "fondateurs": "Kais Khadhraoui",
+      "secteur": "Logistique",
+      "resultat": "label accorde",
+      "_displayDecision": "label_accorde"
+    },
+    {
+      "societe": "Sentinel Data",
+      "fondateurs": "Walid Mnif",
+      "secteur": "Health Tech",
+      "resultat": "label accorde",
+      "_displayDecision": "label_accorde"
+    },
+    {
+      "societe": "DCX",
+      "fondateurs": "Mohamed Ali Midani",
+      "secteur": "Edtech",
+      "resultat": "label accorde",
+      "_displayDecision": "label_accorde"
+    },
+    {
+      "societe": "Paygrant",
+      "fondateurs": "Khalil Manai",
+      "secteur": "Blockchain & Cryptocurrency",
+      "resultat": "label accorde",
+      "_displayDecision": "label_accorde"
+    },
+    {
+      "societe": "AbrarCom Analytics",
+      "fondateurs": "Houssem Nouri",
+      "secteur": "Big data",
+      "resultat": "label accorde",
+      "_displayDecision": "label_accorde"
+    },
+    {
+      "societe": "Prefabulous",
+      "fondateurs": "Malik Nouira",
+      "secteur": "Cleantech",
+      "resultat": "",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "Societe Tunisian Online Teachers",
+      "fondateurs": "Rania Khelil",
+      "secteur": "Edtech",
+      "resultat": "label accorde",
+      "_displayDecision": "label_accorde"
+    },
+    {
+      "societe": "GLOLIX TUNISIA La relation client à l’ère du digital",
+      "fondateurs": "Mourad Othmane, Mohamed Achref Gabsi",
+      "secteur": "AI",
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel_accorde"
+    },
+    {
+      "societe": "Support de coupe a couvercle automatique",
+      "fondateurs": "Makrem Gharbi",
+      "secteur": "Autre contenu créatif",
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel_accorde"
+    },
+    {
+      "societe": "IJA SOLUTION",
+      "fondateurs": "Hatem Drira",
+      "secteur": "Plateforme sociale",
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel_accorde"
+    },
+    {
+      "societe": "QUERMES",
+      "fondateurs": "Karim Sellami",
+      "secteur": "IoT",
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel_accorde"
+    },
+    {
+      "societe": "Doqtoor",
+      "fondateurs": "Mohamed Ben Hmida",
+      "secteur": "Health Tech",
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel_accorde"
+    },
+    {
+      "societe": "Sun Tracker",
+      "fondateurs": "Mohamed Achref Ben Sghaier",
+      "secteur": "Energie",
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel_accorde"
+    },
+    {
+      "societe": "DaryDar",
+      "fondateurs": "Taha Khaled",
+      "secteur": "E-commerce",
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel_accorde"
+    },
+    {
+      "societe": "Zcare",
+      "fondateurs": "Haythem Zouaoui",
+      "secteur": "Health Tech",
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel_accorde"
+    },
+    {
+      "societe": "Examido",
+      "fondateurs": "Hajer ELhedi",
+      "secteur": "Edtech",
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel_accorde"
+    },
+    {
+      "societe": "Consulti",
+      "fondateurs": "Alaeddine Jalel",
+      "secteur": "Plateforme sociale",
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel_accorde"
+    },
+    {
+      "societe": "DRYSEK",
+      "fondateurs": "Amjed Teraa",
+      "secteur": "Agritech",
+      "resultat": "",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "VDOC Projet de valorisation des coproduits issus de l'engraissement du thon rouge (Oleomar Start- up Projet)",
+      "fondateurs": "Mohamed Aymen Saadani, Sami Guetari, Nadia Bouslimi Guetari, Makrem Dhifalli, Aymen Gatri",
+      "secteur": "Health tech",
+      "resultat": "label accorde",
+      "_displayDecision": "label_accorde"
+    },
+    {
+      "societe": "Universal Technology of infinite keys",
+      "fondateurs": "Mounir Bezzarga, Abdelhamid Boukhari, Sarra Kalfet",
+      "secteur": "Autre contenu créatif",
+      "resultat": "label accorde",
+      "_displayDecision": "label_accorde"
+    },
+    {
+      "societe": "Tuni'AR",
+      "fondateurs": "Mohamed Karim Sakrani",
+      "secteur": "",
+      "resultat": "",
+      "_displayDecision": "inconnu"
+    }
+  ],
+  "session_data": {
+    "candidatures": 38,
+    "labels": 18,
+    "preLabels": 11,
+    "taux_acceptation_pct": 47.4,
+    "statut": "replit_csv_conforme",
+    "retraits": 0,
+    "conversions": 4,
+    "newLabels": 18,
+    "taux": 47.4
+  },
+  "_displayLabels": 18,
+  "_displayPreLabels": 11,
+  "_displayCandidatures": 38
+}

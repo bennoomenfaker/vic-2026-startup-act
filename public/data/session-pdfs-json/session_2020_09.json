@@ -1,185 +1,323 @@
 {
   "session": "09/2020",
+  "session_number": 18,
   "annee": 2020,
   "mois": 9,
   "pdf": "session_2020_09.pdf",
+  "source": "Généré à partir du fichier Excel corrigé; les compteurs officiels sont conservés séparément",
   "nb_entrees": 23,
-  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
       "societe": "WeMove",
+      "projet": "Non renseigné",
       "fondateurs": "Mohamed Khelil, Mejdi Mbarek, Ghanmi Ayhem",
+      "decision": "label",
+      "type_label": "Non renseigné",
       "secteur": "Health Tech",
-      "resultat": "label",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "HackUp",
-      "fondateurs": "",
+      "projet": "Non renseigné",
+      "fondateurs": "Non renseigné",
+      "decision": "label",
+      "type_label": "Non renseigné",
       "secteur": "HR",
-      "resultat": "label",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Fondateur(s) absent du JSON; vérifier PDF"
     },
     {
       "societe": "wammya",
+      "projet": "Non renseigné",
       "fondateurs": "Ahmed Lachheb Lahlaoui, Walid Negra",
+      "decision": "label",
+      "type_label": "Non renseigné",
       "secteur": "Logistique",
-      "resultat": "label",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Orthlane",
+      "projet": "Non renseigné",
       "fondateurs": "Ali Karray, Ali Safsafi",
+      "decision": "prelabel",
+      "type_label": "Non renseigné",
       "secteur": "Health Tech",
-      "resultat": "prelabel",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "ETNAFES",
+      "projet": "Non renseigné",
       "fondateurs": "Ichrak Aouissaoui, Najeh Bedhief",
+      "decision": "prelabel",
+      "type_label": "Non renseigné",
       "secteur": "Autre contenu créatif",
-      "resultat": "prelabel",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Idaraty.tn",
+      "projet": "Non renseigné",
       "fondateurs": "Ahmed Zoghlami",
+      "decision": "prelabel",
+      "type_label": "Non renseigné",
       "secteur": "Plateforme Sociale",
-      "resultat": "prelabel",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Healthy & Bnin",
+      "projet": "Non renseigné",
       "fondateurs": "Soumaya Atoui, Farah M'seddi",
+      "decision": "prelabel",
+      "type_label": "Non renseigné",
       "secteur": "E-commerce",
-      "resultat": "prelabel",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Services voitures épaves (SVE)",
+      "projet": "Non renseigné",
       "fondateurs": "Slim M'seddi, Jalel Satouri",
+      "decision": "prelabel",
+      "type_label": "Non renseigné",
       "secteur": "E-commerce",
-      "resultat": "prelabel",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Autorent",
+      "projet": "Non renseigné",
       "fondateurs": "Moslem Ben Dhaou, Achref Hayouni",
+      "decision": "prelabel",
+      "type_label": "Non renseigné",
       "secteur": "Logiciel",
-      "resultat": "prelabel",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Cubed",
+      "projet": "Non renseigné",
       "fondateurs": "Hassen Mezghani, Sarra Ben Helal",
+      "decision": "prelabel",
+      "type_label": "Non renseigné",
       "secteur": "Marketing",
-      "resultat": "prelabel",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Smelsy.com",
+      "projet": "Non renseigné",
       "fondateurs": "Med slim BOUAZIZ",
+      "decision": "prelabel",
+      "type_label": "Non renseigné",
       "secteur": "EdTech",
-      "resultat": "prelabel",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "iCan-C",
+      "projet": "Non renseigné",
       "fondateurs": "Ali Ajili, Yosr Jazzar, Sami Khouaja",
+      "decision": "prelabel",
+      "type_label": "Non renseigné",
       "secteur": "IoT",
-      "resultat": "prelabel",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "MTTN",
+      "projet": "Non renseigné",
       "fondateurs": "Naji Bou Habib, Nabil Fatmi",
+      "decision": "label",
+      "type_label": "Non renseigné",
       "secteur": "Big Data",
-      "resultat": "label",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Bladiz king Chemicals Solutions",
+      "projet": "Non renseigné",
       "fondateurs": "Ameur Baccoucha, Sadok Maamar, Hassen Mchaalia, Ons Ayari, Mohamed Nejib Youssef, Jalel Dahas",
+      "decision": "label",
+      "type_label": "Non renseigné",
       "secteur": "Marketing",
-      "resultat": "label",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "MEDICAL SERVICES & SOLUTIONS INTER",
+      "projet": "Non renseigné",
       "fondateurs": "souhir Zaoui, Sami Hamila, Maher Cheour",
+      "decision": "label",
+      "type_label": "Non renseigné",
       "secteur": "Health Tech",
-      "resultat": "label",
-      "_displayDecision": "unknown"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Doctourna",
+      "projet": "Non renseigné",
       "fondateurs": "Moetaz Torkhani",
+      "decision": "label",
+      "type_label": "Non renseigné",
       "secteur": "Health Tech",
-      "resultat": "label",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Aladdin",
+      "projet": "Non renseigné",
       "fondateurs": "Hichème Kaboudi, Mohamed Wissem Landolsi",
+      "decision": "prelabel",
+      "type_label": "Non renseigné",
       "secteur": "Telecom",
-      "resultat": "prelabel",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Portail de technologies industrielles et innovations",
+      "projet": "Non renseigné",
       "fondateurs": "Walid Landolsi, Imen Gaida, Heni Mechichi",
+      "decision": "prelabel",
+      "type_label": "Non renseigné",
       "secteur": "Autre contenu créatif",
-      "resultat": "prelabel",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "New Life",
+      "projet": "Non renseigné",
       "fondateurs": "Abderrahmen Ben Gdara",
+      "decision": "prelabel",
+      "type_label": "Non renseigné",
       "secteur": "E-commerce",
-      "resultat": "prelabel",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Sampapp",
+      "projet": "Non renseigné",
       "fondateurs": "Taher Ghrissi",
+      "decision": "prelabel",
+      "type_label": "Non renseigné",
       "secteur": "Health Tech",
-      "resultat": "prelabel",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "SAFEOPS",
+      "projet": "Non renseigné",
       "fondateurs": "Hakim Chemam",
+      "decision": "label",
+      "type_label": "Non renseigné",
       "secteur": "Logiciel",
-      "resultat": "label",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Dinaro",
+      "projet": "Non renseigné",
       "fondateurs": "Khalil Jelassi, Radhouane Slimani, Saif eddine Souilmi",
+      "decision": "prelabel",
+      "type_label": "Non renseigné",
       "secteur": "Fintech",
-      "resultat": "prelabel",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Farmvie",
+      "projet": "Non renseigné",
       "fondateurs": "Yasser Souilmi, Hamza Beji",
+      "decision": "prelabel",
+      "type_label": "Non renseigné",
       "secteur": "Agritech",
-      "resultat": "prelabel",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Non renseigné",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     }
   ],
   "session_data": {
-    "candidatures": 24,
+    "candidatures": 23,
     "labels": 11,
     "preLabels": 9,
-    "taux_acceptation_pct": 45.8,
-    "statut": "replit_csv_conforme",
     "retraits": 5,
-    "conversions": 8,
-    "newLabels": 11,
-    "taux": 45.8
+    "labels_extraits_des_lignes": 0,
+    "preLabels_extraits_des_lignes": 0,
+    "qualite": [
+      "Écart compteurs Excel lignes/compteurs officiels: lignes Label=0, officiel Label=11; lignes Prélabel=0, officiel Prélabel=9",
+      "Au moins un fondateur est Non renseigné"
+    ]
   },
-  "_displayLabels": 11,
-  "_displayPreLabels": 9,
-  "_displayCandidatures": 24
+  "generated_at": "2026-08-20T17:13:25"
 }

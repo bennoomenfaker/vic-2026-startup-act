@@ -1,245 +1,400 @@
 {
   "session": "07/2019",
+  "session_number": 4,
   "annee": 2019,
   "mois": 7,
   "pdf": "session_2019_07.pdf",
+  "source": "Généré à partir du fichier Excel corrigé; les compteurs officiels sont conservés séparément",
   "nb_entrees": 29,
-  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
       "societe": "TransIN / SmartIN",
+      "projet": "Non renseigné",
       "fondateurs": "Wahid Mnasri",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "Insurance Tech",
-      "resultat": "label accorde",
-      "commentaires": "Label accordé dès le 2ème tour"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé dès le 2ème tour",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Catrim",
+      "projet": "Non renseigné",
       "fondateurs": "Mohamed Amine Ghorbel, Becem Ben Mustapha",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "Fintech",
-      "resultat": "label accorde",
-      "commentaires": "Label accordé dès le 2ème tour"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé dès le 2ème tour",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "eDonec",
+      "projet": "Non renseigné",
       "fondateurs": "Nader Zouari, Zakaria Hatira",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "Edtech",
-      "resultat": "label accorde",
-      "commentaires": "Label accordé dès le 2ème tour"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé dès le 2ème tour",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Avempace",
+      "projet": "Non renseigné",
       "fondateurs": "Haythem Boughzala, Abdelhamid Kerkeni",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "IOT",
-      "resultat": "label accorde",
-      "commentaires": "Label accordé dès le 2ème tour"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé dès le 2ème tour",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "NIWEES",
+      "projet": "Non renseigné",
       "fondateurs": "Abdallah Najah",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "Marketing",
-      "resultat": "label accorde",
-      "commentaires": "Label accordé dès le 2ème tour"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé dès le 2ème tour",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Arsela",
+      "projet": "Non renseigné",
       "fondateurs": "Ines Hafi, Achref Ben Ouannes, Ahmed Ben Zineb",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "AI",
-      "resultat": "label accorde",
-      "commentaires": "Label accordé dès le 2ème tour"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé dès le 2ème tour",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Coaching Foot",
+      "projet": "Non renseigné",
       "fondateurs": "Ahmed Adala, Kheireddine Fradj, Hussein Jenayah",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "E-commerce",
-      "resultat": "label accorde",
-      "commentaires": "Label accordé dès le 2ème tour"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé dès le 2ème tour",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "AROM R SARL",
+      "projet": "Non renseigné",
       "fondateurs": "Ellyes Chakroun",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "IoT",
-      "resultat": "label accorde",
-      "commentaires": "Label accordé dès le 2ème tour"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé dès le 2ème tour",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Rahba.tn",
+      "projet": "Non renseigné",
       "fondateurs": "Mahmoud Aboulrob",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "Agritech",
-      "resultat": "label accorde",
-      "commentaires": "Label accordé dès le 2ème tour"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé dès le 2ème tour",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "DeVolution studio",
+      "projet": "Non renseigné",
       "fondateurs": "Hidayet Ayadi, Seifeddine Ben Achour, Oualid Khayatti, Oussema Maatouk",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "Ed Tech",
-      "resultat": "label accorde",
-      "commentaires": "Label accordé dès le 2ème tour"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé dès le 2ème tour",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "ASEPTIKA LAB",
+      "projet": "Non renseigné",
       "fondateurs": "Selima Zaouali, Aziz Zaouali",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "E-commerce",
-      "resultat": "label accorde",
-      "commentaires": "Label accordé après pitching"
+      "tour_moment": "Après pitching",
+      "apres_pitching": "Oui",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé après pitching",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Faavly",
+      "projet": "Non renseigné",
       "fondateurs": "Mohamed Amine Grichi",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "Plateforme sociale",
-      "resultat": "label accorde",
-      "commentaires": "Label accordé après pitching"
+      "tour_moment": "Après pitching",
+      "apres_pitching": "Oui",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé après pitching",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Universa Blockchain",
+      "projet": "Non renseigné",
       "fondateurs": "Omar Bouattay, Alexandre Borodich",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "Blockchain",
-      "resultat": "label accorde",
-      "commentaires": "Label accordé après pitching"
+      "tour_moment": "Après pitching",
+      "apres_pitching": "Oui",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé après pitching",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Surfin - powered by Incept",
+      "projet": "Non renseigné",
       "fondateurs": "Sofiene Chaieb",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "Mobile",
-      "resultat": "label accorde",
-      "commentaires": "Label accordé après pitching"
+      "tour_moment": "Après pitching",
+      "apres_pitching": "Oui",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé après pitching",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "TuniBoat",
+      "projet": "Non renseigné",
       "fondateurs": "Ahmed Ayadi",
+      "decision": "Prélabel accordé",
+      "type_label": "Prélabel",
       "secteur": "E-commerce",
-      "resultat": "prelabel accorde",
-      "commentaires": "Prélabel accordé dès le 2ème tour"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel accordé dès le 2ème tour",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Winshot",
+      "projet": "Non renseigné",
       "fondateurs": "Walid Mzoughi, Hela Gabsi, Alaa Mokrani",
+      "decision": "Prélabel accordé",
+      "type_label": "Prélabel",
       "secteur": "AI",
-      "resultat": "prelabel accorde",
-      "commentaires": "Prélabel accordé dès le 2ème tour"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel accordé dès le 2ème tour",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Technologia Academy",
+      "projet": "Non renseigné",
       "fondateurs": "Mohamed Amine Hlali",
+      "decision": "Prélabel accordé",
+      "type_label": "Prélabel",
       "secteur": "Edtech",
-      "resultat": "prelabel accorde",
-      "commentaires": "Prélabel accordé dès le 2ème tour"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel accordé dès le 2ème tour",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Minima.ai",
+      "projet": "Non renseigné",
       "fondateurs": "Houssem eddine Mrad",
+      "decision": "Prélabel accordé",
+      "type_label": "Prélabel",
       "secteur": "AI",
-      "resultat": "prelabel accorde",
-      "commentaires": "Prélabel accordé dès le 2ème tour"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel accordé dès le 2ème tour",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Réseau social medical : Saheelha",
+      "projet": "Non renseigné",
       "fondateurs": "Marwan Abidi",
+      "decision": "Prélabel accordé",
+      "type_label": "Prélabel",
       "secteur": "Big Data",
-      "resultat": "prelabel accorde",
-      "commentaires": "Prélabel accordé dès le 2ème tour"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel accordé dès le 2ème tour",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Advanced functionalities for smart home/company WiFi",
+      "projet": "Non renseigné",
       "fondateurs": "Lotfi Aguerbaoui",
+      "decision": "Prélabel accordé",
+      "type_label": "Prélabel",
       "secteur": "Telecom",
-      "resultat": "prelabel accorde",
-      "commentaires": "Prélabel accordé dès le 2ème tour"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel accordé dès le 2ème tour",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Zainpulse",
+      "projet": "Non renseigné",
       "fondateurs": "Zaineb Rezgui",
+      "decision": "Prélabel accordé",
+      "type_label": "Prélabel",
       "secteur": "Health Tech",
-      "resultat": "prelabel accorde",
-      "commentaires": "Prélabel accordé après pitching"
+      "tour_moment": "Après pitching",
+      "apres_pitching": "Oui",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel accordé après pitching",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Sala7li",
+      "projet": "Non renseigné",
       "fondateurs": "Mohamed Aymen Ben Elhaj Mabrouk, Ines Dhaouadi",
+      "decision": "Prélabel accordé",
+      "type_label": "Prélabel",
       "secteur": "Edtech",
-      "resultat": "prelabel accorde",
-      "commentaires": "Prélabel accordé après pitching"
+      "tour_moment": "Après pitching",
+      "apres_pitching": "Oui",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel accordé après pitching",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Appinov",
+      "projet": "Non renseigné",
       "fondateurs": "Haykel Mrad, Yazid Rahoui, Heni Sabbeh",
+      "decision": "Label non accordé",
+      "type_label": "Label",
       "secteur": "Logiciel",
-      "resultat": "label non accorde",
-      "commentaires": "Label non-accordé dès le 2ème tour"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label non-accordé dès le 2ème tour",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "AES",
+      "projet": "Non renseigné",
       "fondateurs": "Amine Souilhi",
+      "decision": "Label non accordé",
+      "type_label": "Label",
       "secteur": "Service",
-      "resultat": "label non accorde",
-      "commentaires": "Label non-accordé dès le 2ème tour"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label non-accordé dès le 2ème tour",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "STE VIF PRO",
+      "projet": "Non renseigné",
       "fondateurs": "Mohamed Mouldi Ayed, Sabri Lachaal",
+      "decision": "Label non accordé",
+      "type_label": "Label",
       "secteur": "E-commerce",
-      "resultat": "label non accorde",
-      "commentaires": "Label non-accordé après pitching"
+      "tour_moment": "Après pitching",
+      "apres_pitching": "Oui",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label non-accordé après pitching",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Kademia",
+      "projet": "Non renseigné",
       "fondateurs": "Mohamed Ali Jomaa",
+      "decision": "Label non accordé",
+      "type_label": "Label",
       "secteur": "EdTech",
-      "resultat": "label non accorde",
-      "commentaires": "Dossier irrecevable pour non-conformité aux critères d'éligibilité"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Dossier irrecevable pour non-conformité aux critères d'éligibilité",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Glamour By Riyem",
+      "projet": "Non renseigné",
       "fondateurs": "Riyem Saidi",
+      "decision": "Prélabel non accordé",
+      "type_label": "Prélabel",
       "secteur": "Health Tech",
-      "resultat": "prelabel non accorde",
-      "commentaires": "Prélabel non-accordé dès le 2ème tour"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel non-accordé dès le 2ème tour",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Greendyzer",
+      "projet": "Non renseigné",
       "fondateurs": "Faycal Sessi, Bassem Abdelhak, Mohamed Nidham Sfar Gandoura",
+      "decision": "Prélabel non accordé",
+      "type_label": "Prélabel",
       "secteur": "IoT",
-      "resultat": "prelabel non accorde",
-      "commentaires": "Prélabel non-accordé après pitching"
+      "tour_moment": "Après pitching",
+      "apres_pitching": "Oui",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel non-accordé après pitching",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "VR Crystalized",
+      "projet": "Non renseigné",
       "fondateurs": "Ahmed Khalil Abdelkhalek, Boulbaba Zitouni",
+      "decision": "Prélabel non accordé",
+      "type_label": "Prélabel",
       "secteur": "Autre contenu créatif",
-      "resultat": "prelabel non accorde",
-      "commentaires": "Prélabel non-accordé après pitching"
+      "tour_moment": "Après pitching",
+      "apres_pitching": "Oui",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel non-accordé après pitching",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     }
   ],
   "session_data": {
     "candidatures": 29,
     "labels": 14,
     "preLabels": 8,
-    "taux_acceptation_pct": 50.0,
-    "statut": "conforme_manuel",
     "retraits": 0,
-    "conversions": 0,
-    "newLabels": 14,
-    "correction": {
-      "session": "07/2019",
-      "candidatures": 28,
-      "old": {
-        "labels": 15,
-        "preLabels": 8,
-        "taux": "53.6"
-      },
-      "new": {
-        "labels": 14,
-        "preLabels": 8,
-        "tauxExact": 50.0,
-        "taux": "50.0",
-        "echec": "50.0"
-      },
-      "reason": "14 labels (scrapé : 15)",
-      "commentaires": "14 Labels et 1 Prelabel (de la session de mai)"
-    },
-    "taux": 50.0
+    "labels_extraits_des_lignes": 14,
+    "preLabels_extraits_des_lignes": 8,
+    "qualite": [
+      "Compteurs lignes et compteurs officiels concordants"
+    ]
   },
-  "_displayLabels": 14,
-  "_displayPreLabels": 8,
-  "_displayCandidatures": 28
+  "generated_at": "2026-08-20T17:13:25"
 }

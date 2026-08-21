@@ -1,0 +1,241 @@
+{
+  "session": "11/2019",
+  "annee": 2019,
+  "mois": 11,
+  "pdf": "session_2019_11.pdf",
+  "nb_entrees": 31,
+  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
+  "entrees": [
+    {
+      "societe": "Orbitech (SeekMake)",
+      "fondateurs": "Adel Ayari",
+      "secteur": "E-commerce",
+      "resultat": "label accorde",
+      "_displayDecision": "label_accorde"
+    },
+    {
+      "societe": "NG Technologies",
+      "fondateurs": "Moez Ben Mbarka",
+      "secteur": "Logiciel",
+      "resultat": "label accorde",
+      "_displayDecision": "label_accorde"
+    },
+    {
+      "societe": "VAKAY",
+      "fondateurs": "Adam Jabeur",
+      "secteur": "Wearables",
+      "resultat": "label accorde",
+      "_displayDecision": "label_accorde"
+    },
+    {
+      "societe": "EDUC'ART",
+      "fondateurs": "Henda Sahnoun",
+      "secteur": "Autre contenu créatif",
+      "resultat": "label accorde",
+      "_displayDecision": "label_accorde"
+    },
+    {
+      "societe": "AZÄ",
+      "fondateurs": "Oussama Gmati",
+      "secteur": "E-commerce",
+      "resultat": "label accorde",
+      "_displayDecision": "label_accorde"
+    },
+    {
+      "societe": "Anavid",
+      "fondateurs": "Ahmed Chaari",
+      "secteur": "AI",
+      "resultat": "label accorde",
+      "_displayDecision": "label_accorde"
+    },
+    {
+      "societe": "DrillSERV",
+      "fondateurs": "Ahmed Aouiti",
+      "secteur": "Agritech",
+      "resultat": "label accorde",
+      "_displayDecision": "label_accorde"
+    },
+    {
+      "societe": "SOLIXY",
+      "fondateurs": "Haythem Khalifa",
+      "secteur": "AI",
+      "resultat": "label accorde",
+      "_displayDecision": "label_accorde"
+    },
+    {
+      "societe": "SAMM TEST & AUTOMATION",
+      "fondateurs": "Mohamed Anane",
+      "secteur": "Robotique",
+      "resultat": "label accorde",
+      "_displayDecision": "label_accorde"
+    },
+    {
+      "societe": "Baity tn \"Decoriz\" SARL",
+      "fondateurs": "Saber Gharsellaoui",
+      "secteur": "E-commerce",
+      "resultat": "label accorde",
+      "_displayDecision": "label_accorde"
+    },
+    {
+      "societe": "PROSUMERS",
+      "fondateurs": "Haythem Zouari",
+      "secteur": "Cleantech",
+      "resultat": "label accorde",
+      "_displayDecision": "label_accorde"
+    },
+    {
+      "societe": "7keema",
+      "fondateurs": "Amr Bakr",
+      "secteur": "Health Tech",
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel_accorde"
+    },
+    {
+      "societe": "Salaire.tn",
+      "fondateurs": "Fédi Belkacem",
+      "secteur": "HR",
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel_accorde"
+    },
+    {
+      "societe": "VDOC",
+      "fondateurs": "Aymen Saadani",
+      "secteur": "Health Tech",
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel_accorde"
+    },
+    {
+      "societe": "Lamma",
+      "fondateurs": "Hamza Guesmi",
+      "secteur": "Logistique",
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel_accorde"
+    },
+    {
+      "societe": "INNOFAB",
+      "fondateurs": "Nadim Kharraz",
+      "secteur": "Autre contenu créatif",
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel_accorde"
+    },
+    {
+      "societe": "NovaTEK Solution",
+      "fondateurs": "Safa Bouhajar",
+      "secteur": "Agritech",
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel_accorde"
+    },
+    {
+      "societe": "Miral Things",
+      "fondateurs": "Anouer Kebir",
+      "secteur": "iOT",
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel_accorde"
+    },
+    {
+      "societe": "Shadoc (société Sirat Edition spin off de Sirat )",
+      "fondateurs": "Amel Torkhani",
+      "secteur": "Logiciel",
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel_accorde"
+    },
+    {
+      "societe": "Exacctly",
+      "fondateurs": "Noureddine Loukil",
+      "secteur": "AI",
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel_accorde"
+    },
+    {
+      "societe": "Domoticaza",
+      "fondateurs": "Mohamed Zammel",
+      "secteur": "iOT",
+      "resultat": "prelabel accorde",
+      "_displayDecision": "prelabel_accorde"
+    },
+    {
+      "societe": "Supermarché Founa",
+      "fondateurs": "Karim Skik",
+      "secteur": "E-commerce",
+      "resultat": "label non accorde",
+      "_displayDecision": "label_refuse"
+    },
+    {
+      "societe": "B4 PRINT",
+      "fondateurs": "Mohamed Sami Adouani",
+      "secteur": "Commerce",
+      "resultat": "label non accorde",
+      "_displayDecision": "label_refuse"
+    },
+    {
+      "societe": "BS partage",
+      "fondateurs": "Boutheina Hamdi",
+      "secteur": "Service",
+      "resultat": "label non accorde",
+      "_displayDecision": "label_refuse"
+    },
+    {
+      "societe": "Oxygen Design",
+      "fondateurs": "Anas Ben Amar",
+      "secteur": "E-commerce",
+      "resultat": "label non accorde",
+      "_displayDecision": "label_refuse"
+    },
+    {
+      "societe": "Eat & Fit",
+      "fondateurs": "Skander Ben Sassi",
+      "secteur": "Autre contenu créatif",
+      "resultat": "label accorde",
+      "_displayDecision": "label_accorde"
+    },
+    {
+      "societe": "MINIMA AI",
+      "fondateurs": "Houssem eddine Mrad, Anis Maghar",
+      "secteur": "AI",
+      "resultat": "label accorde",
+      "_displayDecision": "label_accorde"
+    },
+    {
+      "societe": "PROFILTHEQUE",
+      "fondateurs": "Imen Maghar, Ayoub Ben Thabet",
+      "secteur": "HR",
+      "resultat": "label accorde",
+      "_displayDecision": "label_accorde"
+    },
+    {
+      "societe": "RHINTOS GAMES",
+      "fondateurs": "Ahmed Chlagou, Hishem Zarrad, Hazem Guent",
+      "secteur": "Gaming",
+      "resultat": "label accorde",
+      "_displayDecision": "label_accorde"
+    },
+    {
+      "societe": "GO UP STAND UP",
+      "fondateurs": "Yassine Dimassi, Safwen Bouali",
+      "secteur": "Mobile",
+      "resultat": "label accorde",
+      "_displayDecision": "label_accorde"
+    },
+    {
+      "societe": "Athena-IO",
+      "fondateurs": "Cherif Redissi, Amine Troudi",
+      "secteur": "Logiciel",
+      "resultat": "label accorde",
+      "_displayDecision": "label_accorde"
+    }
+  ],
+  "session_data": {
+    "candidatures": 35,
+    "labels": 17,
+    "preLabels": 10,
+    "taux_acceptation_pct": 48.6,
+    "statut": "replit_csv_conforme",
+    "retraits": 0,
+    "conversions": 6,
+    "newLabels": 17,
+    "taux": 48.6
+  },
+  "_displayLabels": 17,
+  "_displayPreLabels": 10,
+  "_displayCandidatures": 35
+}

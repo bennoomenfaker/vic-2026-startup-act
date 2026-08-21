@@ -1,213 +1,374 @@
 {
   "session": "09/2019",
+  "session_number": 6,
   "annee": 2019,
   "mois": 9,
   "pdf": "session_2019_09.pdf",
+  "source": "Généré à partir du fichier Excel corrigé; les compteurs officiels sont conservés séparément",
   "nb_entrees": 27,
-  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
       "societe": "iWassel",
+      "projet": "Non renseigné",
       "fondateurs": "Yasmine Dahloul, Sarra Khemakhem, Firas Rhaiem",
-      "secteur": "",
-      "resultat": "label accorde",
-      "commentaires": "Label accordé"
+      "decision": "Label accordé",
+      "type_label": "Label",
+      "secteur": "Non renseigné",
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé",
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
     },
     {
       "societe": "Farm Trust",
+      "projet": "Non renseigné",
       "fondateurs": "Anis Mezghani, Wassim Khiari",
-      "secteur": "",
-      "resultat": "label accorde",
-      "commentaires": "Label accordé"
+      "decision": "Label accordé",
+      "type_label": "Label",
+      "secteur": "Non renseigné",
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé",
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
     },
     {
       "societe": "TrustiT",
+      "projet": "Non renseigné",
       "fondateurs": "Mohamed Amine Ouni",
-      "secteur": "",
-      "resultat": "label accorde",
-      "commentaires": "Label accordé"
+      "decision": "Label accordé",
+      "type_label": "Label",
+      "secteur": "Non renseigné",
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé",
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
     },
     {
       "societe": "fixiha.tn",
+      "projet": "Non renseigné",
       "fondateurs": "Ahmed Ben Said",
-      "secteur": "",
-      "resultat": "label accorde",
-      "commentaires": "Label accordé"
+      "decision": "Label accordé",
+      "type_label": "Label",
+      "secteur": "Non renseigné",
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé",
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
     },
     {
       "societe": "Société DOM Services",
+      "projet": "Non renseigné",
       "fondateurs": "Khaled Dhifallah Ennefii",
-      "secteur": "",
-      "resultat": "label accorde",
-      "commentaires": "Label accordé"
+      "decision": "Label accordé",
+      "type_label": "Label",
+      "secteur": "Non renseigné",
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé",
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
     },
     {
       "societe": "The Landlord",
+      "projet": "Non renseigné",
       "fondateurs": "Mohamed Farouk Ben Achour",
-      "secteur": "",
-      "resultat": "label accorde",
-      "commentaires": "Label accordé"
+      "decision": "Label accordé",
+      "type_label": "Label",
+      "secteur": "Non renseigné",
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé",
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
     },
     {
       "societe": "BeNeutron",
+      "projet": "Non renseigné",
       "fondateurs": "Zaroui Montasar Mannai Karim",
-      "secteur": "",
-      "resultat": "label accorde",
-      "commentaires": "Label accordé"
+      "decision": "Label accordé",
+      "type_label": "Label",
+      "secteur": "Non renseigné",
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé",
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
     },
     {
       "societe": "Epilert",
+      "projet": "Non renseigné",
       "fondateurs": "Firas Rhaiem, Haroun Moula, Amine Riahi",
-      "secteur": "",
-      "resultat": "label accorde",
-      "commentaires": "Label accordé"
+      "decision": "Label accordé",
+      "type_label": "Label",
+      "secteur": "Non renseigné",
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé",
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
     },
     {
       "societe": "Black Dune Studio",
+      "projet": "Non renseigné",
       "fondateurs": "Mohamed Ali Hammami Hamad, Mohamed Hamad Abden El Mra, Ahmed EL KADHI, Mohamed BOUABIDI, Ayoub KHAMESSI",
-      "secteur": "",
-      "resultat": "label accorde",
-      "commentaires": "Label accordé"
+      "decision": "Label accordé",
+      "type_label": "Label",
+      "secteur": "Non renseigné",
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé",
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
     },
     {
       "societe": "Idara Tn",
+      "projet": "Non renseigné",
       "fondateurs": "Jelassi Mohamed Amine, Baklouti Bassem, Ben Salah Slim, Nouri Houssem Eddine",
-      "secteur": "",
-      "resultat": "label accorde",
-      "commentaires": "Label accordé"
+      "decision": "Label accordé",
+      "type_label": "Label",
+      "secteur": "Non renseigné",
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé",
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
     },
     {
       "societe": "Teskerti.tn",
+      "projet": "Non renseigné",
       "fondateurs": "Karim Jelliti",
-      "secteur": "",
-      "resultat": "label accorde",
-      "commentaires": "Label accordé"
+      "decision": "Label accordé",
+      "type_label": "Label",
+      "secteur": "Non renseigné",
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé",
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
     },
     {
       "societe": "GETPAY",
+      "projet": "Non renseigné",
       "fondateurs": "Slim MOalla, Salma Moalla, Fares Bouguecha",
-      "secteur": "",
-      "resultat": "label accorde",
-      "commentaires": "Label accordé"
+      "decision": "Label accordé",
+      "type_label": "Label",
+      "secteur": "Non renseigné",
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé",
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
     },
     {
       "societe": "Go Field",
+      "projet": "Non renseigné",
       "fondateurs": "Walid Mzoughi, Hela Gabsi, Alaa Mokrani",
-      "secteur": "",
-      "resultat": "label accorde",
-      "commentaires": "Label accordé (conversion prelabel)"
+      "decision": "Label accordé",
+      "type_label": "Label",
+      "secteur": "Non renseigné",
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé (conversion prelabel)",
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
     },
     {
       "societe": "Wantotrip",
+      "projet": "Non renseigné",
       "fondateurs": "Chehrazade Remadi, Makrem Hermassi",
-      "secteur": "",
-      "resultat": "label accorde",
-      "commentaires": "Label accordé (conversion prelabel)"
+      "decision": "Label accordé",
+      "type_label": "Label",
+      "secteur": "Non renseigné",
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé (conversion prelabel)",
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
     },
     {
       "societe": "Technologia Academy",
+      "projet": "Non renseigné",
       "fondateurs": "Mohamed Amine Hlaili",
-      "secteur": "",
-      "resultat": "label accorde",
-      "commentaires": "Label accordé (conversion prelabel)"
+      "decision": "Label accordé",
+      "type_label": "Label",
+      "secteur": "Non renseigné",
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé (conversion prelabel)",
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
     },
     {
       "societe": "Kamioun",
+      "projet": "Non renseigné",
       "fondateurs": "Fares Belghith, Abdelrahman Ghariani",
-      "secteur": "",
-      "resultat": "prelabel accorde",
-      "commentaires": "Prélabel accordé"
+      "decision": "Prélabel accordé",
+      "type_label": "Prélabel",
+      "secteur": "Non renseigné",
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel accordé",
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
     },
     {
       "societe": "Tuni'AR",
+      "projet": "Non renseigné",
       "fondateurs": "Abdelhamid Boukhari, Kalfat Sarra, Mohamed Karim Sakrani",
-      "secteur": "",
-      "resultat": "prelabel accorde",
-      "commentaires": "Prélabel accordé"
+      "decision": "Prélabel accordé",
+      "type_label": "Prélabel",
+      "secteur": "Non renseigné",
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel accordé",
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
     },
     {
       "societe": "Athena-IO",
+      "projet": "Non renseigné",
       "fondateurs": "Safwen Bouali, Cherif Redissi, Amine Troudi",
-      "secteur": "",
-      "resultat": "prelabel accorde",
-      "commentaires": "Prélabel accordé"
+      "decision": "Prélabel accordé",
+      "type_label": "Prélabel",
+      "secteur": "Non renseigné",
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel accordé",
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
     },
     {
       "societe": "ZOLFA",
+      "projet": "Non renseigné",
       "fondateurs": "Adel Jeridi",
-      "secteur": "",
-      "resultat": "prelabel accorde",
-      "commentaires": "Prélabel accordé"
+      "decision": "Prélabel accordé",
+      "type_label": "Prélabel",
+      "secteur": "Non renseigné",
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel accordé",
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
     },
     {
       "societe": "GoFields",
+      "projet": "Non renseigné",
       "fondateurs": "Youssef Cherif",
-      "secteur": "",
-      "resultat": "prelabel accorde",
-      "commentaires": "Prélabel accordé"
+      "decision": "Prélabel accordé",
+      "type_label": "Prélabel",
+      "secteur": "Non renseigné",
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel accordé",
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
     },
     {
       "societe": "Kyto-Prod",
+      "projet": "Non renseigné",
       "fondateurs": "Olfa Kilani ep Feki, Takwa Mrabet, Safa Ben Khedher, Mohamed Amine Bourkhis",
-      "secteur": "",
-      "resultat": "prelabel accorde",
-      "commentaires": "Prélabel accordé"
+      "decision": "Prélabel accordé",
+      "type_label": "Prélabel",
+      "secteur": "Non renseigné",
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel accordé",
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
     },
     {
       "societe": "SBA Workforce",
+      "projet": "Non renseigné",
       "fondateurs": "Perrine Mihelic",
-      "secteur": "",
-      "resultat": "label non accorde",
-      "commentaires": "Label non-accordé"
+      "decision": "Label non accordé",
+      "type_label": "Label",
+      "secteur": "Non renseigné",
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label non-accordé",
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
     },
     {
       "societe": "Think-it",
+      "projet": "Non renseigné",
       "fondateurs": "Joscha Raue, Mehemed Bougsea",
-      "secteur": "",
-      "resultat": "label non accorde",
-      "commentaires": "Label non-accordé"
+      "decision": "Label non accordé",
+      "type_label": "Label",
+      "secteur": "Non renseigné",
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label non-accordé",
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
     },
     {
       "societe": "Servis.tn",
+      "projet": "Non renseigné",
       "fondateurs": "Mohamed Aziz Belhadj, Jrad Nada Boukhalfa",
-      "secteur": "",
-      "resultat": "prelabel non accorde",
-      "commentaires": "Prélabel non-accordé"
+      "decision": "Prélabel non accordé",
+      "type_label": "Prélabel",
+      "secteur": "Non renseigné",
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel non-accordé",
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
     },
     {
       "societe": "HOOLOOS",
+      "projet": "Non renseigné",
       "fondateurs": "Mohamed Bhibah, Mehdi Gabsi",
-      "secteur": "",
-      "resultat": "prelabel non accorde",
-      "commentaires": "Prélabel non-accordé"
+      "decision": "Prélabel non accordé",
+      "type_label": "Prélabel",
+      "secteur": "Non renseigné",
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel non-accordé",
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
     },
     {
       "societe": "Best-Tech",
+      "projet": "Non renseigné",
       "fondateurs": "Mohamed Amine Boubakri",
-      "secteur": "",
-      "resultat": "prelabel non accorde",
-      "commentaires": "Prélabel non-accordé"
+      "decision": "Prélabel non accordé",
+      "type_label": "Prélabel",
+      "secteur": "Non renseigné",
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel non-accordé",
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
     },
     {
       "societe": "Digistart",
+      "projet": "Non renseigné",
       "fondateurs": "Walid Bousnina, Aymen Hammemi, Chamseddine Bezzaouia",
-      "secteur": "",
-      "resultat": "prelabel non accorde",
-      "commentaires": "Prélabel non-accordé"
+      "decision": "Prélabel non accordé",
+      "type_label": "Prélabel",
+      "secteur": "Non renseigné",
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel non-accordé",
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
     }
   ],
   "session_data": {
     "candidatures": 27,
     "labels": 15,
     "preLabels": 6,
-    "taux_acceptation_pct": 62.5,
-    "statut": "conforme_manuel",
     "retraits": 0,
-    "conversions": 3,
-    "newLabels": 15,
-    "taux": 62.5
+    "labels_extraits_des_lignes": 15,
+    "preLabels_extraits_des_lignes": 6,
+    "qualite": [
+      "Compteurs lignes et compteurs officiels concordants"
+    ]
   },
-  "_displayLabels": 15,
-  "_displayPreLabels": 6,
-  "_displayCandidatures": 24
+  "generated_at": "2026-08-20T17:13:25"
 }

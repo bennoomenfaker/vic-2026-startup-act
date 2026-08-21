@@ -1,0 +1,262 @@
+{
+  "session": "02/2020",
+  "annee": 2020,
+  "mois": 2,
+  "pdf": "session_2020_02.pdf",
+  "nb_entrees": 34,
+  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
+  "entrees": [
+    {
+      "societe": "Katomi",
+      "fondateurs": "Firas Mezghani",
+      "secteur": "Health tech",
+      "resultat": "label",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "Société Saghroun.com",
+      "fondateurs": "Ayet Elmouna Chemli, Walid Ammar",
+      "secteur": "E-commerce",
+      "resultat": "label",
+      "_displayDecision": "unknown"
+    },
+    {
+      "societe": "BSmart SARL",
+      "fondateurs": "Ahmed Fessi, Achref Mattar",
+      "secteur": "Logiciel",
+      "resultat": "label",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "Youth Hub",
+      "fondateurs": "Salsabil Thabti, Mehdi Bhouri, Olfa Bousselmi",
+      "secteur": "EdTech",
+      "resultat": "label",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "WaterSpirit",
+      "fondateurs": "Chaima Belhajamor, Amir Ben Hajhassine",
+      "secteur": "Biotechnologie",
+      "resultat": "label",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "RENTAL RIDE",
+      "fondateurs": "Mourad Hammami",
+      "secteur": "E-commerce",
+      "resultat": "label",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "OXAHOST",
+      "fondateurs": "Tarek Nakbi",
+      "secteur": "Infrastructure",
+      "resultat": "label",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "QualiFour",
+      "fondateurs": "Mehdi Boudhraa, Saeed Zarrouk",
+      "secteur": "Logiciel",
+      "resultat": "label",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "Edutest",
+      "fondateurs": "Imen Yahyaoui, Ahmed Cheriha",
+      "secteur": "Edtech",
+      "resultat": "label",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "Xtendplex",
+      "fondateurs": "Ahmed Ben Hamouda",
+      "secteur": "Fintech",
+      "resultat": "label",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "Kyufi",
+      "fondateurs": "Tarek Talbi, Houssem Sellami",
+      "secteur": "Biotechnologie",
+      "resultat": "label",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "Sportopia",
+      "fondateurs": "Oussema Noureddine Metoui, Mourad Masmoudi",
+      "secteur": "Autre contenu créatif",
+      "resultat": "label",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "Accent",
+      "fondateurs": "Malek Aloulou, Moez Affes, Aymen Bouchoucha",
+      "secteur": "IoT",
+      "resultat": "label",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "Allô Réparateur",
+      "fondateurs": "Mohamed Said Elbehi, Sabrine Ibrahim",
+      "secteur": "E-commerce",
+      "resultat": "prelabel",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "Class Quiz",
+      "fondateurs": "Achref Dawahi, Omar Trabelsi, Mohamed Amine Jendoubi",
+      "secteur": "Edtech",
+      "resultat": "prelabel",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "autoecoleplus",
+      "fondateurs": "Ahmed Nemlaghi",
+      "secteur": "Logiciel",
+      "resultat": "prelabel",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "SECURAS",
+      "fondateurs": "Mohamed Amine Guettat, Mohamed Ali Salmi",
+      "secteur": "Cybersécurité",
+      "resultat": "prelabel",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "Kaco.",
+      "fondateurs": "",
+      "secteur": "Energie",
+      "resultat": "prelabel",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "Coinsence",
+      "fondateurs": "Karim Chabrak, Achref Chouchene, Yasmine Ben Ameur",
+      "secteur": "Blockchain & Cryptocurrency",
+      "resultat": "prelabel",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "Smart House Tunisia",
+      "fondateurs": "Seif Souilem, Siwar Boufares, Mahmoud Hammami",
+      "secteur": "IoT",
+      "resultat": "prelabel",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "Co-Solar",
+      "fondateurs": "Yassine Boutabba, Karim Hermi",
+      "secteur": "Energie",
+      "resultat": "prelabel",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "Tynass",
+      "fondateurs": "Sami Ben Chaalia, Khalil Ben Ali",
+      "secteur": "Autre contenu créatif",
+      "resultat": "prelabel",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "Rent a tutor",
+      "fondateurs": "Abdeljalil Ghattas, Moez Hammami",
+      "secteur": "Edtech",
+      "resultat": "prelabel",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "Quantylix Risk & Data",
+      "fondateurs": "Hamza Amiri, Mohamed Bessa",
+      "secteur": "Fintech",
+      "resultat": "prelabel",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "Heptatronics",
+      "fondateurs": "Issam Trabelsi",
+      "secteur": "IoT",
+      "resultat": "label",
+      "_displayDecision": "inconnu"
+    },
+    {
+      "societe": "Support de coupe à couvercle automatique",
+      "fondateurs": "Markrem Gharbi, Khouloud Kaabi, Meriem Amamou",
+      "secteur": "Autre contenu créatif",
+      "resultat": "label accorde",
+      "_displayDecision": "label_accorde"
+    },
+    {
+      "societe": "Idwey",
+      "fondateurs": "Borhen Mansouri, Khmaiess Ahmed, Safa Bouhajar",
+      "secteur": "Plateforme sociale",
+      "resultat": "label accorde",
+      "_displayDecision": "label_accorde"
+    },
+    {
+      "societe": "NovaTEK Solutions",
+      "fondateurs": "Karim Boughanmi, Ilyes Karma, Amal Torkhani",
+      "secteur": "Agritech",
+      "resultat": "label accorde",
+      "_displayDecision": "label_accorde"
+    },
+    {
+      "societe": "Shadoc",
+      "fondateurs": "Amal Selami, Zakaria Karim Mekni",
+      "secteur": "Logiciel",
+      "resultat": "label accorde",
+      "_displayDecision": "label_accorde"
+    },
+    {
+      "societe": "Innofab",
+      "fondateurs": "Nadim Kharraz, Karim Sellami",
+      "secteur": "Autre contenu créatif",
+      "resultat": "label accorde",
+      "_displayDecision": "label_accorde"
+    },
+    {
+      "societe": "Quermes",
+      "fondateurs": "Faiz Baccour",
+      "secteur": "IoT",
+      "resultat": "label accorde",
+      "_displayDecision": "label_accorde"
+    },
+    {
+      "societe": "Consulti",
+      "fondateurs": "Alaeddine Jalel",
+      "secteur": "Plateforme sociale",
+      "resultat": "label accorde",
+      "_displayDecision": "label_accorde"
+    },
+    {
+      "societe": "Gofields (Sportfields)",
+      "fondateurs": "Youssef Cherif",
+      "secteur": "Mobile",
+      "resultat": "label accorde",
+      "_displayDecision": "label_accorde"
+    },
+    {
+      "societe": "Coinsence",
+      "fondateurs": "Karim Chabrak",
+      "secteur": "Blockchain & Cryptocurrency",
+      "resultat": "label accorde",
+      "_displayDecision": "inconnu"
+    }
+  ],
+  "session_data": {
+    "candidatures": 32,
+    "labels": 22,
+    "preLabels": 11,
+    "taux_acceptation_pct": 68.8,
+    "statut": "replit_csv_conforme",
+    "retraits": 0,
+    "conversions": 9,
+    "newLabels": 22,
+    "taux": 68.8
+  },
+  "_displayLabels": 22,
+  "_displayPreLabels": 11,
+  "_displayCandidatures": 32
+}

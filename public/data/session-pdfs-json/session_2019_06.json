@@ -1,266 +1,439 @@
 {
   "session": "06/2019",
+  "session_number": 3,
   "annee": 2019,
   "mois": 6,
   "pdf": "session_2019_06.pdf",
+  "source": "Généré à partir du fichier Excel corrigé; les compteurs officiels sont conservés séparément",
   "nb_entrees": 32,
-  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
   "entrees": [
     {
       "societe": "DEEPERA",
+      "projet": "Non renseigné",
       "fondateurs": "Faouzi Moussa, Mustapha Boughzou",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "E-Commerce",
-      "resultat": "label accorde",
-      "commentaires": "Label accordé"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "FABSKILL",
+      "projet": "Non renseigné",
       "fondateurs": "Sofiane Mabrouk, Bechir Afifi, Mohamed Ben Sfar",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "E-Commerce",
-      "resultat": "label accorde",
-      "commentaires": "Label accordé"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "MajestEYE",
+      "projet": "Non renseigné",
       "fondateurs": "Jihed Hannachi, Rabie Saidi, Soufien Ben Hamza",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "E-Commerce",
-      "resultat": "label accorde",
-      "commentaires": "Label accordé"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "HERUNDO",
+      "projet": "Non renseigné",
       "fondateurs": "Nizar Bouguila, Bessem Jallouli, Mohamed Boujelban",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "E-Commerce",
-      "resultat": "label accorde",
-      "commentaires": "Label accordé"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "BioIntrants Technologie",
+      "projet": "Non renseigné",
       "fondateurs": "Yassine Ben Menadi, Chedli Ben Menadi",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "E-Commerce",
-      "resultat": "label accorde",
-      "commentaires": "Label accordé"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "JUNIOR NETWORK",
+      "projet": "Non renseigné",
       "fondateurs": "Sahar Ben Rached, Zeineb Chabchoub, Oussema Ksontini",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "E-Commerce",
-      "resultat": "label accorde",
-      "commentaires": "Label accordé"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Siteflow Factory",
+      "projet": "Non renseigné",
       "fondateurs": "Samed Jalouali, Timothée Piette, Etienne Barrault, Louis Hauvette",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "E-Commerce",
-      "resultat": "label accorde",
-      "commentaires": "Label accordé"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Insight+",
+      "projet": "Non renseigné",
       "fondateurs": "Adel Jenni, Imed Kouki",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "E-Commerce",
-      "resultat": "label accorde",
-      "commentaires": "Label accordé"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "DATAERA",
+      "projet": "Non renseigné",
       "fondateurs": "Hedi Zouari, Maher Heni",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "E-Commerce",
-      "resultat": "label accorde",
-      "commentaires": "Label accordé"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "SF Technologies",
+      "projet": "Non renseigné",
       "fondateurs": "Mohamed Taher Hammami",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "E-Commerce",
-      "resultat": "label accorde",
-      "commentaires": "Label accordé"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "CREATIVE CULINARY",
-      "fondateurs": "",
+      "projet": "Non renseigné",
+      "fondateurs": "Non renseigné",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "E-Commerce",
-      "resultat": "label accorde",
-      "commentaires": "Label accordé"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé",
+      "controle_qualite": "Fondateur(s) absent du JSON; vérifier PDF"
     },
     {
       "societe": "SAFOZI SARL",
-      "fondateurs": "",
+      "projet": "Non renseigné",
+      "fondateurs": "Non renseigné",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "E-Commerce",
-      "resultat": "label accorde",
-      "commentaires": "Label accordé"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé",
+      "controle_qualite": "Fondateur(s) absent du JSON; vérifier PDF"
     },
     {
       "societe": "NEXTPROTEIN TUNISIA",
+      "projet": "Non renseigné",
       "fondateurs": "Mohamed Gastli, Syrine Chaalala",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "E-Commerce",
-      "resultat": "label accorde",
-      "commentaires": "Label accordé"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "SENIATNA",
-      "fondateurs": "",
+      "projet": "Non renseigné",
+      "fondateurs": "Non renseigné",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "E-Commerce",
-      "resultat": "label accorde",
-      "commentaires": "Label accordé"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé",
+      "controle_qualite": "Fondateur(s) absent du JSON; vérifier PDF"
     },
     {
       "societe": "VME Internationale",
+      "projet": "Non renseigné",
       "fondateurs": "Foued Ben Babis, Montassar Gharsa",
+      "decision": "Prélabel accordé",
+      "type_label": "Prélabel",
       "secteur": "E-Commerce",
-      "resultat": "prelabel accorde",
-      "commentaires": "Prélabel accordé"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel accordé",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Zoor",
+      "projet": "Non renseigné",
       "fondateurs": "Mahdi Houli, Radhi Houli",
+      "decision": "Prélabel accordé",
+      "type_label": "Prélabel",
       "secteur": "E-Commerce",
-      "resultat": "prelabel accorde",
-      "commentaires": "Prélabel accordé"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel accordé",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Natalista",
-      "fondateurs": "",
+      "projet": "Non renseigné",
+      "fondateurs": "Non renseigné",
+      "decision": "Prélabel accordé",
+      "type_label": "Prélabel",
       "secteur": "E-Commerce",
-      "resultat": "prelabel accorde",
-      "commentaires": "Prélabel accordé"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel accordé",
+      "controle_qualite": "Fondateur(s) absent du JSON; vérifier PDF"
     },
     {
       "societe": "Videsys",
+      "projet": "Non renseigné",
       "fondateurs": "Abdelaziz Ktari, Walid Messaoudia",
+      "decision": "Prélabel accordé",
+      "type_label": "Prélabel",
       "secteur": "E-Commerce",
-      "resultat": "prelabel accorde",
-      "commentaires": "Prélabel accordé"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel accordé",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "AYSHEK",
+      "projet": "Non renseigné",
       "fondateurs": "Amine Dimassi, Mohamed Amine Baatout",
+      "decision": "Prélabel accordé",
+      "type_label": "Prélabel",
       "secteur": "E-Commerce",
-      "resultat": "prelabel accorde",
-      "commentaires": "Prélabel accordé"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel accordé",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Kidsbook",
+      "projet": "Non renseigné",
       "fondateurs": "Mohamed Nadhir Belkhir, Hafedh Dziri",
+      "decision": "Prélabel accordé",
+      "type_label": "Prélabel",
       "secteur": "E-Commerce",
-      "resultat": "prelabel accorde",
-      "commentaires": "Prélabel accordé"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel accordé",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Hezni Maak",
-      "fondateurs": "",
+      "projet": "Non renseigné",
+      "fondateurs": "Non renseigné",
+      "decision": "Prélabel accordé",
+      "type_label": "Prélabel",
       "secteur": "E-Commerce",
-      "resultat": "prelabel accorde",
-      "commentaires": "Prélabel accordé"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel accordé",
+      "controle_qualite": "Fondateur(s) absent du JSON; vérifier PDF"
     },
     {
       "societe": "Pool & Fish Farm Smart Water Management",
+      "projet": "Non renseigné",
       "fondateurs": "Afef Bohli, Sami Tabbane",
+      "decision": "Prélabel accordé",
+      "type_label": "Prélabel",
       "secteur": "E-Commerce",
-      "resultat": "prelabel accorde",
-      "commentaires": "Prélabel accordé"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel accordé",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Massart Engineering",
+      "projet": "Non renseigné",
       "fondateurs": "Mahdi Ghribi",
+      "decision": "Label non accordé",
+      "type_label": "Label",
       "secteur": "E-Commerce",
-      "resultat": "label non accorde",
-      "commentaires": "Label non-accordé"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label non-accordé",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "MyCity",
-      "fondateurs": "",
+      "projet": "Non renseigné",
+      "fondateurs": "Non renseigné",
+      "decision": "Label non accordé",
+      "type_label": "Label",
       "secteur": "E-Commerce",
-      "resultat": "label non accorde",
-      "commentaires": "Label non-accordé"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label non-accordé",
+      "controle_qualite": "Fondateur(s) absent du JSON; vérifier PDF"
     },
     {
       "societe": "Tisopia",
+      "projet": "Non renseigné",
       "fondateurs": "Wala Kasmi, Mohamed Boumiza",
+      "decision": "Label non accordé",
+      "type_label": "Label",
       "secteur": "E-Commerce",
-      "resultat": "label non accorde",
-      "commentaires": "Label non-accordé"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label non-accordé",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "TUNMOB SA (DIGIT-U)",
-      "fondateurs": "",
+      "projet": "Non renseigné",
+      "fondateurs": "Non renseigné",
+      "decision": "Label non accordé",
+      "type_label": "Label",
       "secteur": "E-Commerce",
-      "resultat": "label non accorde",
-      "commentaires": "Label non-accordé"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label non-accordé",
+      "controle_qualite": "Fondateur(s) absent du JSON; vérifier PDF"
     },
     {
       "societe": "SMAAO Tunisie",
-      "fondateurs": "",
+      "projet": "Non renseigné",
+      "fondateurs": "Non renseigné",
+      "decision": "Label non accordé",
+      "type_label": "Label",
       "secteur": "E-Commerce",
-      "resultat": "label non accorde",
-      "commentaires": "Label non-accordé"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label non-accordé",
+      "controle_qualite": "Fondateur(s) absent du JSON; vérifier PDF"
     },
     {
       "societe": "Iris technologies",
+      "projet": "Non renseigné",
       "fondateurs": "Khaled Bouchoucha",
+      "decision": "Label non accordé",
+      "type_label": "Label",
       "secteur": "E-Commerce",
-      "resultat": "label non accorde",
-      "commentaires": "Label non-accordé"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label non-accordé",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Agri Land",
+      "projet": "Non renseigné",
       "fondateurs": "Saifeddine Kacem, AyetAllah Hlaiem",
+      "decision": "Label non accordé",
+      "type_label": "Label",
       "secteur": "E-Commerce",
-      "resultat": "label non accorde",
-      "commentaires": "Label non-accordé"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label non-accordé",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "Doctor Sina",
-      "fondateurs": "",
+      "projet": "Non renseigné",
+      "fondateurs": "Non renseigné",
+      "decision": "Prélabel non accordé",
+      "type_label": "Prélabel",
       "secteur": "E-Commerce",
-      "resultat": "prelabel non accorde",
-      "commentaires": "Prélabel non-accordé"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel non-accordé",
+      "controle_qualite": "Fondateur(s) absent du JSON; vérifier PDF"
     },
     {
       "societe": "Aevny",
+      "projet": "Non renseigné",
       "fondateurs": "Nacir Bouazizi, Ahmed Ben Marzoug",
+      "decision": "Prélabel non accordé",
+      "type_label": "Prélabel",
       "secteur": "E-Commerce",
-      "resultat": "prelabel non accorde",
-      "commentaires": "Prélabel non-accordé"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel non-accordé",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
     },
     {
       "societe": "IYADATI",
-      "fondateurs": "",
+      "projet": "Non renseigné",
+      "fondateurs": "Non renseigné",
+      "decision": "Prélabel non accordé",
+      "type_label": "Prélabel",
       "secteur": "E-Commerce",
-      "resultat": "prelabel non accorde",
-      "commentaires": "Prélabel non-accordé"
+      "tour_moment": "Non renseigné",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel non-accordé",
+      "controle_qualite": "Fondateur(s) absent du JSON; vérifier PDF"
     }
   ],
   "session_data": {
     "candidatures": 32,
     "labels": 14,
     "preLabels": 8,
-    "taux_acceptation_pct": 42.4,
-    "statut": "replit_csv_conforme",
     "retraits": 0,
-    "conversions": 0,
-    "newLabels": 14,
-    "correction": {
-      "session": "06/2019",
-      "candidatures": 33,
-      "old": {
-        "labels": 15,
-        "preLabels": 8,
-        "taux": "45.5"
-      },
-      "new": {
-        "labels": 14,
-        "preLabels": 8,
-        "tauxExact": 42.424242,
-        "taux": "42.4",
-        "echec": "57.6"
-      },
-      "reason": "14 labels (scrapé : 15)",
-      "commentaires": "1 ajourné à la session suivante"
-    },
-    "taux": 42.4
+    "labels_extraits_des_lignes": 14,
+    "preLabels_extraits_des_lignes": 8,
+    "qualite": [
+      "Au moins un fondateur est Non renseigné"
+    ]
   },
-  "_displayLabels": 14,
-  "_displayPreLabels": 8,
-  "_displayCandidatures": 33
+  "generated_at": "2026-08-20T17:13:25"
 }

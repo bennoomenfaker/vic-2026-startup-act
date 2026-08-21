@@ -1,315 +1,543 @@
 {
   "session": "04/2023",
+  "session_number": 49,
   "annee": 2023,
   "mois": 4,
   "pdf": "session_2023_04.pdf",
-  "nb_entrees": 39,
-  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
+  "source": "Généré à partir du fichier Excel corrigé; les compteurs officiels sont conservés séparément",
+  "nb_entrees": 40,
   "entrees": [
     {
       "societe": "Bi'nergy",
-      "fondateurs": "Helmi Ben Amara, Helmi Ben Amara",
+      "projet": "Non renseigné",
+      "fondateurs": "Mohamed Wali Helmi Ben Amara",
+      "decision": "Label Accordé",
+      "type_label": "Label",
       "secteur": "Environment",
-      "resultat": "label",
-      "_displayDecision": "inconnu"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "ONECLOUD",
-      "fondateurs": "Mustafa Almawsoof, Malak Boukthir",
+      "projet": "Non renseigné",
+      "fondateurs": "Helmi Ben Amara Mustafa Almawsoof",
+      "decision": "Label Accordé",
+      "type_label": "Label",
       "secteur": "Business Software & Services",
-      "resultat": "label",
-      "_displayDecision": "inconnu"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "ECOFEED Tunisie",
-      "fondateurs": "Khoubaieb Samir, Ramzi Hachicha, Mohamed Achraf Jomaa",
+      "projet": "Non renseigné",
+      "fondateurs": "Malak Boukthir Khoubaieb Samir",
+      "decision": "Label Accordé",
+      "type_label": "Label",
       "secteur": "FoodTech & New Food",
-      "resultat": "label",
-      "_displayDecision": "inconnu"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "Servini",
-      "fondateurs": "Zied Hachicha, Dhia eddine Abdelli, Ahmed Bahaeddine Abdelwahed",
+      "projet": "Non renseigné",
+      "fondateurs": "Ramzi Hachicha Mohamed Achraf Jomaa Zied Hachicha Dhia eddine Abdelli",
+      "decision": "Label Accordé",
+      "type_label": "Label",
       "secteur": "Business Software & Services",
-      "resultat": "label",
-      "_displayDecision": "inconnu"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "Pas Comme Eux",
-      "fondateurs": "Ghofrane Amdouni, Hedi Amorri",
+      "projet": "Non renseigné",
+      "fondateurs": "Ahmed Bahaeddine Abdelwahed Ghofrane Amdouni",
+      "decision": "Label Accordé",
+      "type_label": "Label",
       "secteur": "Environment",
-      "resultat": "label",
-      "_displayDecision": "inconnu"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "H eco ferme",
-      "fondateurs": "Aboud Fatma, Naoufel Ben Moussa, Kais Jrad",
+      "projet": "Non renseigné",
+      "fondateurs": "Hedi Amorri Aboud Fatma",
+      "decision": "Label Accordé",
+      "type_label": "Label",
       "secteur": "Environment",
-      "resultat": "label",
-      "_displayDecision": "inconnu"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "Xgenbox",
-      "fondateurs": "Mohamed salah Nachi, Selim Ben Mansour",
+      "projet": "Non renseigné",
+      "fondateurs": "Naoufel Ben Moussa Kais Jrad Mohamed salah Nachi Selim Ben Mansour",
+      "decision": "Label Accordé",
+      "type_label": "Label",
       "secteur": "Commerce & Shopping",
-      "resultat": "label",
-      "_displayDecision": "inconnu"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "The Package Center",
+      "projet": "Non renseigné",
       "fondateurs": "Souheil Sassi",
+      "decision": "Label Accordé",
+      "type_label": "Label",
       "secteur": "Commerce and shopping",
-      "resultat": "label",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Après pitching",
+      "apres_pitching": "Oui",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label Accordé suite au pitching",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
-      "societe": "Bytale Games Oriwood/ Entreprise Wahy artisan du bois",
-      "fondateurs": "Saadaoui Ghassen, Farouk Wahi",
+      "societe": "Bytale Games",
+      "projet": "Non renseigné",
+      "fondateurs": "Saadaoui Ghassen",
+      "decision": "Label Accordé",
+      "type_label": "Label",
       "secteur": "Ad Tech and Creative Tech",
-      "resultat": "label",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Après pitching",
+      "apres_pitching": "Oui",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label Accordé suite au pitching",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
+    },
+    {
+      "societe": "Oriwood/ Entreprise Wahy artisan du bois",
+      "projet": "Non renseigné",
+      "fondateurs": "Farouk Wahi",
+      "decision": "Label Non Accordé",
+      "type_label": "Label",
+      "secteur": "Consumer products and services",
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label Non accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "Teachica",
-      "fondateurs": "Hichem Amami, Moatassem Belleh Guesmi, Rejeb Chaalia",
+      "projet": "Non renseigné",
+      "fondateurs": "Hichem Amami Moatassem Belleh Guesmi",
+      "decision": "Label Non Accordé",
+      "type_label": "Label",
       "secteur": "EdTech",
-      "resultat": "label",
-      "_displayDecision": "inconnu"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label Non accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "NORMA TUNISIE",
-      "fondateurs": "Khaled Hadj Ali, Jawad Alaoui M'hammed, Raouf Riahi",
+      "projet": "Non renseigné",
+      "fondateurs": "Rejeb Chaalia Khaled Hadj Ali Jawad Alaoui M'hammed",
+      "decision": "Label Non Accordé",
+      "type_label": "Label",
       "secteur": "Fintech",
-      "resultat": "label",
-      "_displayDecision": "inconnu"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label Non accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "SURVIVE RESILIENCE",
-      "fondateurs": "Walaeddine Riahi, Noura Nasri",
+      "projet": "Non renseigné",
+      "fondateurs": "Raouf Riahi Walaeddine Riahi Noura Nasri",
+      "decision": "Label Non Accordé",
+      "type_label": "Label",
       "secteur": "Business Software and services",
-      "resultat": "label",
-      "_displayDecision": "inconnu"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label Non accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
-      "societe": "droplocal.ai souk elfalleh",
-      "fondateurs": "Amine Abdennour, Riadh Felhi, Rani Ben Mahmoud",
+      "societe": "droplocal.ai",
+      "projet": "Non renseigné",
+      "fondateurs": "Amine Abdennour",
+      "decision": "Label Non Accordé",
+      "type_label": "Label",
       "secteur": "Commerce and shopping",
-      "resultat": "label",
-      "_displayDecision": "inconnu"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label Non accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
+    },
+    {
+      "societe": "souk elfalleh",
+      "projet": "Non renseigné",
+      "fondateurs": "Riadh Felhi",
+      "decision": "Label Non Accordé",
+      "type_label": "Label",
+      "secteur": "Agritech",
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label Non accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "Twansa",
-      "fondateurs": "",
+      "projet": "Non renseigné",
+      "fondateurs": "Rani Ben Mahmoud Safa Rzig",
+      "decision": "Label Non Accordé",
+      "type_label": "Label",
       "secteur": "Ad Tech and Creative Tech",
-      "resultat": "label",
-      "_displayDecision": "inconnu"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label Non accordé dès le 2ème tour Houda Ghozzi a déclaré avoir un conflit d'intérêt",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "Karhabti.app",
-      "fondateurs": "Amina Chouchane, Sanda Doghmen",
+      "projet": "Non renseigné",
+      "fondateurs": "Adnen Mrad Amina Chouchane Sanda Doghmen",
+      "decision": "Label Non Accordé",
+      "type_label": "Label",
       "secteur": "Business Software and services",
-      "resultat": "label",
-      "_displayDecision": "inconnu"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label Non accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "Kosmos technologies",
+      "projet": "Non renseigné",
       "fondateurs": "Wassim Amri",
+      "decision": "Label Non Accordé",
+      "type_label": "Label",
       "secteur": "Agritech",
-      "resultat": "label",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Après pitching",
+      "apres_pitching": "Oui",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label Non accordé suite au pitching Houda Ghozzi a déclaré avoir un conflit d'intérêt",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "IrWise",
-      "fondateurs": "Mohamed Dhaouafi",
+      "projet": "Non renseigné",
+      "fondateurs": "Mohamed Mekki Maalej Marouen HAMMAMI Mohamed Dhaouafi Morsi Hamza Hedi Neifar",
+      "decision": "Label Non Accordé",
+      "type_label": "Label",
       "secteur": "Agritech",
-      "resultat": "label",
-      "_displayDecision": "inconnu"
+      "tour_moment": "Après pitching",
+      "apres_pitching": "Oui",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label Non accordé suite au pitching Houda Ghozzi a déclaré avoir un conflit d'intérêt",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
-      "societe": "Alifa cell pulse Conception, formulation et production de dispositifs pharmaceutiques à base de principes actifs de plantes aromatiques et médicinales pour le traitement des altérations cutanées",
-      "fondateurs": "Karim Gharbi, Jihed Jridi, Salem Hamidi, Halima Mahjoubi, Elhem Cheour, Neder Hamidi, Zohra Aloui-Zarrouk, Mohamed Regaieg",
+      "societe": "Alifa",
+      "projet": "Non renseigné",
+      "fondateurs": "Olfa Abid Karim Gharbi",
+      "decision": "Prélabel Accordé",
+      "type_label": "Prélabel",
       "secteur": "Social Business",
-      "resultat": "prelabel",
-      "_displayDecision": "inconnu"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
-      "societe": "Randev infectées et non infectées.",
-      "fondateurs": "Younes Regaieg, Safa Rekik",
+      "societe": "cell pulse",
+      "projet": "Non renseigné",
+      "fondateurs": "Jihed Jridi Salem Hamidi Halima Mahjoubi Elhem Cheour Neder Hamidi",
+      "decision": "Prélabel Accordé",
+      "type_label": "Prélabel",
+      "secteur": "HealthTech",
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
+    },
+    {
+      "societe": "Conception, formulation et production de dispositifs pharmaceutiques à base de principes actifs de plantes aromatiques et médicinales pour le",
+      "projet": "Non renseigné",
+      "fondateurs": "Zohra Aloui-Zarrouk",
+      "decision": "Prélabel Accordé",
+      "type_label": "Prélabel",
+      "secteur": "HealthTech",
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
+    },
+    {
+      "societe": "traitement des altérations cutanées iRnafnecdteéves et non infectées.",
+      "projet": "Non renseigné",
+      "fondateurs": "Mohamed Regaieg Younes Regaieg Safa Rekik",
+      "decision": "Prélabel Accordé",
+      "type_label": "Prélabel",
       "secteur": "Consumer products and services",
-      "resultat": "prelabel",
-      "_displayDecision": "inconnu"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "Beitary",
+      "projet": "Non renseigné",
       "fondateurs": "Firas Jribi",
-      "secteur": "",
-      "resultat": "prelabel",
-      "_displayDecision": "inconnu"
+      "decision": "Prélabel Accordé",
+      "type_label": "Prélabel",
+      "secteur": "HealthTech",
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "GET BIG FAST",
-      "fondateurs": "Jean-David Rombi, Jasser Ben Saad",
+      "projet": "Non renseigné",
+      "fondateurs": "Jean-David Rombi",
+      "decision": "Prélabel Non Accordé",
+      "type_label": "Prélabel",
       "secteur": "Business Software and services",
-      "resultat": "prelabel",
-      "_displayDecision": "unknown"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel Non accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "WEeFARM",
-      "fondateurs": "Ayeb Rihab, Rayen Ben Saad, Khawla Hadriche",
+      "projet": "Non renseigné",
+      "fondateurs": "Jasser Ben Saad Ayeb Rihab Rayen Ben Saad",
+      "decision": "Prélabel Non Accordé",
+      "type_label": "Prélabel",
       "secteur": "Agritech",
-      "resultat": "prelabel",
-      "_displayDecision": "unknown"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel Non accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "ShooFu",
-      "fondateurs": "Houcem Ameur",
+      "projet": "Non renseigné",
+      "fondateurs": "Khawla Hadriche Houcem Ameur",
+      "decision": "Prélabel Non Accordé",
+      "type_label": "Prélabel",
       "secteur": "Consumer products and services",
-      "resultat": "prelabel",
-      "_displayDecision": "unknown"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel Non accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "halli.tn",
-      "fondateurs": "Farouk Ben Jaafar, Mohamed Thamlaoui",
+      "projet": "Non renseigné",
+      "fondateurs": "Farouk Ben Jaafar",
+      "decision": "Prélabel Non Accordé",
+      "type_label": "Prélabel",
       "secteur": "Commerce and shopping",
-      "resultat": "prelabel",
-      "_displayDecision": "unknown"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel Non accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "Noah",
-      "fondateurs": "Khaoula Souf, Rochdi Bchini, Mohamed Bouazizi",
+      "projet": "Non renseigné",
+      "fondateurs": "Mohamed Thamlaoui Khaoula Souf Rochdi Bchini",
+      "decision": "Prélabel Non Accordé",
+      "type_label": "Prélabel",
       "secteur": "Commerce and shopping",
-      "resultat": "prelabel",
-      "_displayDecision": "unknown"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel Non accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "BME-Power",
-      "fondateurs": "Youssef Kaabechi, Morci Telmoudi",
+      "projet": "Non renseigné",
+      "fondateurs": "Mohamed Bouazizi Youssef Kaabechi",
+      "decision": "Prélabel Non Accordé",
+      "type_label": "Prélabel",
       "secteur": "Ad Tech and Creative Tech",
-      "resultat": "prelabel",
-      "_displayDecision": "unknown"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel Non accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "ECORISE",
-      "fondateurs": "Safa Jridi, Issam Barhoumi",
+      "projet": "Non renseigné",
+      "fondateurs": "Morci Telmoudi Safa Jridi",
+      "decision": "Prélabel Non Accordé",
+      "type_label": "Prélabel",
       "secteur": "Business Software and services",
-      "resultat": "prelabel",
-      "_displayDecision": "unknown"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel Non accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "trymyculture",
-      "fondateurs": "Hassan Khadhri",
+      "projet": "Non renseigné",
+      "fondateurs": "Issam Barhoumi Hassan Khadhri",
+      "decision": "Prélabel Non Accordé",
+      "type_label": "Prélabel",
       "secteur": "TravelTech",
-      "resultat": "prelabel",
-      "_displayDecision": "unknown"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel Non accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "BiBin",
+      "projet": "Non renseigné",
       "fondateurs": "Firas Hakim",
+      "decision": "Prélabel Non Accordé",
+      "type_label": "Prélabel",
       "secteur": "EdTech",
-      "resultat": "prelabel",
-      "_displayDecision": "unknown"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel Non accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "Metamax",
+      "projet": "Non renseigné",
       "fondateurs": "Houssem Saadi",
+      "decision": "Prélabel Non Accordé",
+      "type_label": "Prélabel",
       "secteur": "Business Software and services",
-      "resultat": "prelabel",
-      "_displayDecision": "unknown"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel Non accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "HealthyGO",
+      "projet": "Non renseigné",
       "fondateurs": "Hayfa Oueslati",
+      "decision": "Prélabel Non Accordé",
+      "type_label": "Prélabel",
       "secteur": "Commerce and shopping",
-      "resultat": "prelabel",
-      "_displayDecision": "unknown"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel Non accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "goodbye",
-      "fondateurs": "Dalel Manai, Hayouni Rafedh",
+      "projet": "Non renseigné",
+      "fondateurs": "Dalel Manai",
+      "decision": "Prélabel Non Accordé",
+      "type_label": "Prélabel",
       "secteur": "Communication services",
-      "resultat": "prelabel",
-      "_displayDecision": "unknown"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel Non accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "AI WITH YOU",
-      "fondateurs": "Nasreddine Nasri, Mohamed Fateh Hajjej, Hajer Terras",
+      "projet": "Non renseigné",
+      "fondateurs": "Hayouni Rafedh Nasreddine Nasri Mohamed Fateh Hajjej",
+      "decision": "Prélabel Non Accordé",
+      "type_label": "Prélabel",
       "secteur": "Wellness",
-      "resultat": "prelabel",
-      "_displayDecision": "unknown"
+      "tour_moment": "Après pitching",
+      "apres_pitching": "Oui",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel non accordé suite au pitching",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "Au delà du Bio",
-      "fondateurs": "Heithe Zaghouani, Abdelhak Moussa",
+      "projet": "Non renseigné",
+      "fondateurs": "Hajer Terras Heithe Zaghouani",
+      "decision": "Prélabel Non Accordé",
+      "type_label": "Prélabel",
       "secteur": "Agritech",
-      "resultat": "prelabel",
-      "_displayDecision": "unknown"
+      "tour_moment": "Après pitching",
+      "apres_pitching": "Oui",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel non accordé suite au pitching",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
-      "societe": "BE beverages verified authentic Passage Prélabel Label",
-      "fondateurs": "Ahlem Zrig, Mohamed Maher Elbekri, Imed mabrouk, Firas Mabrouk",
+      "societe": "BE beverages",
+      "projet": "Non renseigné",
+      "fondateurs": "Abdelhak Moussa Ahlem Zrig Mohamed Maher Elbekri",
+      "decision": "Prélabel Non Accordé",
+      "type_label": "Prélabel",
       "secteur": "FoodTech & New Food",
-      "resultat": "prelabel",
-      "_displayDecision": "unknown"
+      "tour_moment": "Après pitching",
+      "apres_pitching": "Oui",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel non accordé suite au pitching",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
-      "societe": "vivid",
-      "fondateurs": "Flexipik",
-      "secteur": "Beya Ben Saâd",
-      "resultat": "Services",
-      "_displayDecision": "unknown"
-    },
-    {
-      "societe": "SOCIETE FIRMASOLUTIONS STARTUP",
-      "fondateurs": "Firma Solutions",
-      "secteur": "Ilehi Haythem",
-      "resultat": "Agritech",
-      "_displayDecision": "unknown"
-    },
-    {
-      "societe": "Color and Natural Extracts C NEXTS",
-      "fondateurs": "Color and Natural Extracts C-Nexts",
-      "secteur": "Saloua Sadok",
-      "resultat": "FoodTech & New",
-      "_displayDecision": "Ste Arrimapp Tech"
-    },
-    {
-      "societe": "Ste Arrimapp Tech",
-      "fondateurs": "Arrima Agritech",
-      "secteur": "Khouloud Ghorraf",
-      "resultat": "Agritech",
-      "_displayDecision": "unknown"
+      "societe": "verified authentic",
+      "projet": "Non renseigné",
+      "fondateurs": "Imed mabrouk Firas Mabrouk",
+      "decision": "Label Non accordé",
+      "type_label": "Label",
+      "secteur": "Consumer products and services",
+      "tour_moment": "1er tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label non accordé dès le 1 er tour. Le dossier est irrecevable pour manque de documents requis par le décret 2018-840",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     }
   ],
   "session_data": {
-    "candidatures": 44,
+    "candidatures": 40,
     "labels": 13,
     "preLabels": 5,
-    "taux_acceptation_pct": 32.5,
-    "statut": "conforme_manuel",
     "retraits": 0,
-    "conversions": 4,
-    "newLabels": 13,
-    "correction": {
-      "session": "04/2023",
-      "candidatures": 40,
-      "old": {
-        "labels": 14,
-        "preLabels": 5,
-        "taux": "35.0"
-      },
-      "new": {
-        "labels": 13,
-        "preLabels": 5,
-        "tauxExact": 32.5,
-        "taux": "32.5",
-        "echec": "67.5"
-      },
-      "reason": "13 labels (scrapé : 14)",
-      "commentaires": "10 Labels et 4  Prélabels à Labels"
-    },
-    "taux": 32.5
+    "labels_extraits_des_lignes": 9,
+    "preLabels_extraits_des_lignes": 5,
+    "qualite": [
+      "Écart compteurs Excel lignes/compteurs officiels: lignes Label=9, officiel Label=13; lignes Prélabel=5, officiel Prélabel=5"
+    ]
   },
-  "_displayLabels": 13,
-  "_displayPreLabels": 5,
-  "_displayCandidatures": 40
+  "generated_at": "2026-08-20T17:13:25"
 }

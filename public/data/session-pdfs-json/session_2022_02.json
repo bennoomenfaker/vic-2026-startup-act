@@ -1,171 +1,309 @@
 {
   "session": "02/2022",
+  "session_number": 35,
   "annee": 2022,
   "mois": 2,
   "pdf": "session_2022_02.pdf",
-  "nb_entrees": 21,
-  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
+  "source": "Généré à partir du fichier Excel corrigé; les compteurs officiels sont conservés séparément",
+  "nb_entrees": 22,
   "entrees": [
     {
       "societe": "TELA",
+      "projet": "Non renseigné",
       "fondateurs": "Chaima Chaouachi",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "Marketplace",
-      "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "Fidness",
+      "projet": "Non renseigné",
       "fondateurs": "Ahmed Najjar",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "BusinessSoftware & Services",
-      "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "Nqollek Haja",
+      "projet": "Non renseigné",
       "fondateurs": "Yasmine Ansari",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "Social Business",
-      "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "Wefix",
-      "fondateurs": "Sabri Cheriha, Houssem Eddine Ben Smida",
+      "projet": "Non renseigné",
+      "fondateurs": "Sabri Cheriha",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "Environment/Energie",
-      "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "Trivaw",
-      "fondateurs": "Awatef Rebhi, Iheb Triki",
+      "projet": "Non renseigné",
+      "fondateurs": "Houssem Eddine Ben Smida Awatef Rebhi",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "TravelTech",
-      "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "Kumulus",
-      "fondateurs": "Mohamed Ali Abid, Nouha Abroug, Nesrine Welhezi",
+      "projet": "Non renseigné",
+      "fondateurs": "Iheb Triki Mohamed Ali Abid Nouha Abroug",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "Environment/Energie",
-      "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "WIN NOW",
-      "fondateurs": "Nizar Welhazi, Ahmed Jemaa",
+      "projet": "Non renseigné",
+      "fondateurs": "Nesrine Welhezi Nizar Welhazi",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "Services de communication",
-      "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "Kiddo",
-      "fondateurs": "Ines Rahrah, Nour Kraiem",
+      "projet": "Non renseigné",
+      "fondateurs": "Ahmed Jemaa Ines Rahrah",
+      "decision": "Label accordé",
+      "type_label": "Label",
       "secteur": "EdTech",
-      "resultat": "label accorde",
-      "_displayDecision": "label_accorde"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "Qr Menu",
-      "fondateurs": "Sirine Kraiem, Sonia Othman",
+      "projet": "Non renseigné",
+      "fondateurs": "Nour Kraiem Sirine Kraiem",
+      "decision": "Prélabel accordé",
+      "type_label": "Prélabel",
       "secteur": "FoodTech & New Food",
-      "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "Foodoo.tn",
-      "fondateurs": "",
+      "projet": "Non renseigné",
+      "fondateurs": "Sonia Othman Houssem Sahli",
+      "decision": "Prélabel accordé",
+      "type_label": "Prélabel",
       "secteur": "FoodTech & New Food",
-      "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel accordé dès le 2ème tour Mohamed Salah Frad a déclaré un conflit d'intérêt",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "Clic to know",
-      "fondateurs": "Nejmeddinne Sakly, Houssem Chkioua, Amira Guermazi",
+      "projet": "Non renseigné",
+      "fondateurs": "Zied Teber Nejmeddinne Sakly Houssem Chkioua",
+      "decision": "Prélabel accordé",
+      "type_label": "Prélabel",
       "secteur": "EdTech",
-      "resultat": "prelabel accorde",
-      "_displayDecision": "prelabel_accorde"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
+    },
+    {
+      "societe": "NEFEL EDUCATION",
+      "projet": "Non renseigné",
+      "fondateurs": "Amira Guermazi Abdeljelil Lazaar Bashar Kamel Lazaar",
+      "decision": "Label non accordé",
+      "type_label": "Label",
+      "secteur": "EdTech",
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label non accordé dès le 2ème tour Khaled Ben Jilani a déclaré avoir un conflit d'intérêt Monia Jendoubi a décalré avoir un conflit d'intérêt",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "VIRIBUS CENTER",
-      "fondateurs": "Ahmed Laamouchi, Meriem Bel Haj Mohamed",
+      "projet": "Non renseigné",
+      "fondateurs": "Houssem Sliti Ahmed Laamouchi",
+      "decision": "Label non accordé",
+      "type_label": "Label",
       "secteur": "Services de communication",
-      "resultat": "label non accorde",
-      "_displayDecision": "label_refuse"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Label non accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "SAFE STUDENT",
-      "fondateurs": "Hajer Mzoughi, Eya Bel Haj Mohamed, Mustapha Bouarrouj",
+      "projet": "Non renseigné",
+      "fondateurs": "Meriem Bel Haj Mohamed Hajer Mzoughi Eya Bel Haj Mohamed",
+      "decision": "Prélabel non accordé",
+      "type_label": "Prélabel",
       "secteur": "Proptech",
-      "resultat": "prelabel non accorde",
-      "_displayDecision": "prelabel_refuse"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel non accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "Tunifund",
-      "fondateurs": "Kathleen White, Mohamed Kallel, Achraf Chabbouh, Amel Aloulou",
+      "projet": "Non renseigné",
+      "fondateurs": "Mustapha Bouarrouj Kathleen White",
+      "decision": "Prélabel non accordé",
+      "type_label": "Prélabel",
       "secteur": "Mobility",
-      "resultat": "prelabel non accorde",
-      "_displayDecision": "prelabel_refuse"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel non accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "Stile.ai",
-      "fondateurs": "Sahar Ben Mabrouk, Rateb Jabbar, Ahmed Ben Said",
+      "projet": "Non renseigné",
+      "fondateurs": "Mohamed Kallel Achraf Chabbouh Amel Aloulou Sahar Ben Mabrouk Rateb Jabbar Ahmed Ben Said",
+      "decision": "Prélabel non accordé",
+      "type_label": "Prélabel",
       "secteur": "Creative industry",
-      "resultat": "prelabel non accorde",
-      "_displayDecision": "prelabel_refuse"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel non accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "Digix",
-      "fondateurs": "Amir Trigui, Ahmed Jemaa",
+      "projet": "Non renseigné",
+      "fondateurs": "Amir Trigui",
+      "decision": "Prélabel non accordé",
+      "type_label": "Prélabel",
       "secteur": "Social Business",
-      "resultat": "prelabel non accorde",
-      "_displayDecision": "prelabel_refuse"
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel non accordé dès le 2ème tour",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "Kiddo",
-      "fondateurs": "Ines Rahrah",
+      "projet": "Non renseigné",
+      "fondateurs": "Ahmed Jemaa Ines Rahrah",
+      "decision": "Prélabel non accordé",
+      "type_label": "Prélabel",
       "secteur": "EdTech",
-      "resultat": "prelabel non accorde",
-      "_displayDecision": "label_accorde"
+      "tour_moment": "1er tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Non renseigné",
+      "commentaires": "Prélabel non accordé dès le 1 er tour. Le projet a candidaté pour le Label durant la même se",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "STE COACHINI",
-      "fondateurs": "Coachini",
-      "secteur": "Lotfi Mzoughi",
-      "resultat": "Services de communication",
-      "_displayDecision": "inconnu"
+      "projet": "Coachini",
+      "fondateurs": "Sawsen Dhifallah Lotfi Mzoughi",
+      "decision": "Label accordé",
+      "type_label": "Label",
+      "secteur": "Services de communication",
+      "tour_moment": "Après création / conditions",
+      "apres_pitching": "Non",
+      "session_obtention_retrait": "Novembre 2021",
+      "commentaires": "Label accordé suite à la création de la Startup et le respect des conditions d'octroi",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "SECRET SUCRE KIDS",
-      "fondateurs": "SECRET SUCRE KIDS",
-      "secteur": "Mohamed amine Mhiri",
-      "resultat": "Creative industry",
-      "_displayDecision": "inconnu"
+      "projet": "SECRET SUCRE KIDS",
+      "fondateurs": "Sana Abid Mohamed amine Mhiri",
+      "decision": "Label accordé",
+      "type_label": "Label",
+      "secteur": "Creative industry",
+      "tour_moment": "Après création / conditions",
+      "apres_pitching": "Non",
+      "session_obtention_retrait": "Décembre 2021",
+      "commentaires": "Label accordé suite à la création de la Startup et le respect des conditions d'octroi",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "WEDTECT",
-      "fondateurs": "Smart Detection",
-      "secteur": "Manel Elleuchi",
-      "resultat": "Agritech",
-      "_displayDecision": "unknown"
+      "projet": "Smart Detection",
+      "fondateurs": "Manel Elleuchi",
+      "decision": "Label accordé",
+      "type_label": "Label",
+      "secteur": "Agritech",
+      "tour_moment": "Après création / conditions",
+      "apres_pitching": "Non",
+      "session_obtention_retrait": "Novembre 2021",
+      "commentaires": "Label accordé suite à la création de la Startup et le respect des conditions d'octroi",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     },
     {
       "societe": "Data For Brands",
-      "fondateurs": "Insight Lab",
-      "secteur": "Idris Bachali losada",
-      "resultat": "AI",
-      "_displayDecision": "unknown"
+      "projet": "Insight Lab",
+      "fondateurs": "Myryam Toukabri Idris Bachali losada Abir Chérif",
+      "decision": "Label accordé",
+      "type_label": "Label",
+      "secteur": "AI",
+      "tour_moment": "Après création / conditions",
+      "apres_pitching": "Non",
+      "session_obtention_retrait": "Décembre 2021",
+      "commentaires": "Label accordé suite à la création de la Startup et le respect des conditions d'octroi",
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
     }
   ],
   "session_data": {
-    "candidatures": 18,
+    "candidatures": 22,
     "labels": 12,
     "preLabels": 3,
-    "taux_acceptation_pct": 66.7,
-    "statut": "replit_csv_conforme",
     "retraits": 0,
-    "conversions": 4,
-    "newLabels": 12,
-    "taux": 66.7
+    "labels_extraits_des_lignes": 12,
+    "preLabels_extraits_des_lignes": 3,
+    "qualite": [
+      "Compteurs lignes et compteurs officiels concordants"
+    ]
   },
-  "_displayLabels": 12,
-  "_displayPreLabels": 3,
-  "_displayCandidatures": 18
+  "generated_at": "2026-08-20T17:13:25"
 }

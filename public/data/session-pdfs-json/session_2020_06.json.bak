@@ -1,0 +1,234 @@
+{
+  "session": "06/2020",
+  "annee": 2020,
+  "mois": 6,
+  "pdf": "session_2020_06.pdf",
+  "nb_entrees": 30,
+  "source": "Extraction des PDF officiels des sessions — startup.gov.tn",
+  "entrees": [
+    {
+      "societe": "FBS COMPANY",
+      "fondateurs": "Fatma Ben Soltane",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé"
+    },
+    {
+      "societe": "ADIOM",
+      "fondateurs": "Wael Kanzari",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé"
+    },
+    {
+      "societe": "Odacel",
+      "fondateurs": "Mohamed Salah Karouia, Abdeljalil Karouia, Slim Ouichtati, Mourad Karouia, Mohamed Selim Bessi",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé"
+    },
+    {
+      "societe": "Firnas Engineering",
+      "fondateurs": "Nidhal Ayari, Marwa Sboui, Mahmoud Ayari",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé"
+    },
+    {
+      "societe": "CLEDISS",
+      "fondateurs": "Ahmed Salah, Soumaya Dridi",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé"
+    },
+    {
+      "societe": "Lemarché.tn",
+      "fondateurs": "Zied Gharsallah",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé"
+    },
+    {
+      "societe": "Société NSIJA",
+      "fondateurs": "Hassine Labaied, Malek Hamza, Nedhir Jemmali",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé"
+    },
+    {
+      "societe": "La Ferme Urbaine",
+      "fondateurs": "Skander Kacem",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé"
+    },
+    {
+      "societe": "Eventizer",
+      "fondateurs": "Jamoussi Ahmed, Jihed Bouguerra, Yassine Abbes, Oussema Samet",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
+    },
+    {
+      "societe": "Kyteb",
+      "fondateurs": "Haithem Kchaou, Chehir Dhawedi",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
+    },
+    {
+      "societe": "Pura solutions",
+      "fondateurs": "Jaweher Chatbri, Youssef Gaaliche, Ahmed Mrabet",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
+    },
+    {
+      "societe": "School Upgrader",
+      "fondateurs": "Khalil Ben Zineb, Oussama Ben Zineb",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
+    },
+    {
+      "societe": "StreetCarHub",
+      "fondateurs": "Walid M'sallem, Ghazi Mensi",
+      "secteur": "",
+      "resultat": "prelabel accorde",
+      "commentaires": "Prélabel accordé"
+    },
+    {
+      "societe": "Machrou3i Fi Bledi",
+      "fondateurs": "Marouen Hadhri, Khelifa Hadhri",
+      "secteur": "",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé"
+    },
+    {
+      "societe": "Docodify Technologies",
+      "fondateurs": "Mohamed Ali Kharraf",
+      "secteur": "",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé"
+    },
+    {
+      "societe": "iMMOTECH",
+      "fondateurs": "Cyrine Ben Ayed, Mohamed Raafet Limam",
+      "secteur": "",
+      "resultat": "label non accorde",
+      "commentaires": "Label non-accordé"
+    },
+    {
+      "societe": "Tela",
+      "fondateurs": "Chaima Chaouachi",
+      "secteur": "",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
+    },
+    {
+      "societe": "Web2Advisor",
+      "fondateurs": "Imed Zhir",
+      "secteur": "",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
+    },
+    {
+      "societe": "Limaalem",
+      "fondateurs": "Rafik Al Falah",
+      "secteur": "",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
+    },
+    {
+      "societe": "TDR",
+      "fondateurs": "Ahdi Hidri, Saifeddine Jabbes, Youssef Chatti",
+      "secteur": "",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
+    },
+    {
+      "societe": "recouv.tn",
+      "fondateurs": "Yassine Jemal",
+      "secteur": "",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
+    },
+    {
+      "societe": "Connect Talents",
+      "fondateurs": "Sahbi Agerbi",
+      "secteur": "",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
+    },
+    {
+      "societe": "SwalApp",
+      "fondateurs": "Mohamed Aloui, Rami Jegham, Aziz Kamarti",
+      "secteur": "",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
+    },
+    {
+      "societe": "Azaward",
+      "fondateurs": "Akermi Abdekhalek, Mohamed Akermi, Tarek Saidi",
+      "secteur": "",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
+    },
+    {
+      "societe": "branper",
+      "fondateurs": "Saïd Ben Jlili, Hamza Ben Jannet",
+      "secteur": "",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
+    },
+    {
+      "societe": "Carthachain",
+      "fondateurs": "Mohamad Mouihbi, Mahmoud Jebri",
+      "secteur": "",
+      "resultat": "prelabel non accorde",
+      "commentaires": "Prélabel non-accordé"
+    },
+    {
+      "societe": "ORANGURU TECHDESIGN",
+      "fondateurs": "Amir Matallaoui, Nadjib Mammeri",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)"
+    },
+    {
+      "societe": "eSANTE PLUS",
+      "fondateurs": "Mohamed Ben Hmida, Ahmed Abida",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)"
+    },
+    {
+      "societe": "INERTIA",
+      "fondateurs": "Aymen Bouchoucha, Mohamed Saïd El Behi",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)"
+    },
+    {
+      "societe": "IJA-SOLUTIONS",
+      "fondateurs": "Hatem Drira",
+      "secteur": "",
+      "resultat": "label accorde",
+      "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)"
+    }
+  ],
+  "session_data": {
+    "candidatures": 30,
+    "labels": 12,
+    "preLabels": 5,
+    "taux_acceptation_pct": 46.2,
+    "statut": "replit_csv_conforme",
+    "retraits": 0,
+    "conversions": 4,
+    "newLabels": 12,
+    "taux": 46.2
+  },
+  "_displayLabels": 12,
+  "_displayPreLabels": 5,
+  "_displayCandidatures": 26
+}
