@@ -1,2100 +1,2100 @@
 {
- "meta": {
-  "totalSessions": 85,
-  "corrected": 21,
-  "totalsOld": {
-   "labels": 1324,
-   "preLabels": 617
-  },
-  "totalsNew": {
-   "labels": 1311,
-   "preLabels": 623
-  },
-  "lastUpdated": "2026-08-16T00:00:00Z",
-  "verified": "85/85 sessions vérifiées (82 parseur v7 + audit freebuff, 3 scans vectoriels confirmés manuellement ; 11 sessions relues manuellement via comptes-rendus officiels : 04/2019, 06/2025, 07/2025, 08/2025, 09/2025, 10/2025, 11/2025, 12/2025, 01/2026, 02/2026, 03/2026)"
- },
- "originalTable": [
-  {
-   "session": "01/2020",
-   "candidatures": 38,
-   "labels": 18,
-   "preLabels": 11,
-   "taux": "47.4",
-   "echec": "52.6",
-   "commentaires": "14 Labels et 4 Prelabels à Labels"
-  },
-  {
-   "session": "01/2021",
-   "candidatures": 36,
-   "labels": 24,
-   "preLabels": 7,
-   "taux": "66.7",
-   "echec": "33.3",
-   "commentaires": "15 Labels et 9 Prelabels à Labels"
-  },
-  {
-   "session": "01/2022",
-   "candidatures": 38,
-   "labels": 15,
-   "preLabels": 9,
-   "taux": "39.5",
-   "echec": "60.5",
-   "commentaires": "9 Labels et 6 Prelabels à Labels"
-  },
-  {
-   "session": "01/2023",
-   "candidatures": 26,
-   "labels": 16,
-   "preLabels": 6,
-   "taux": "61.5",
-   "echec": "38.5",
-   "commentaires": "6 Labels et 10  Prélabels à Labels"
-  },
-  {
-   "session": "01/2024",
-   "candidatures": 33,
-   "labels": 14,
-   "preLabels": 6,
-   "taux": "42.4",
-   "echec": "57.6",
-   "commentaires": "8 Labels et 6 Prélabel à Label"
-  },
-  {
-   "session": "01/2025",
-   "candidatures": 39,
-   "labels": 18,
-   "preLabels": 2,
-   "taux": "46.2",
-   "echec": "53.8",
-   "commentaires": "13 Labels et 05 Prélabels à Labels"
-  },
-  {
-   "session": "01/2026",
-   "candidatures": 31,
-   "labels": 9,
-   "preLabels": 7,
-   "taux": "29.0",
-   "echec": "71.0",
-   "commentaires": "03 Labels et 06 Prélabels à Labels"
-  },
-  {
-   "session": "02/2020",
-   "candidatures": 32,
-   "labels": 22,
-   "preLabels": 11,
-   "taux": "68.8",
-   "echec": "31.3",
-   "commentaires": "13 Labels et 9 Prelabels à Labels"
-  },
-  {
-   "session": "02/2021",
-   "candidatures": 41,
-   "labels": 25,
-   "preLabels": 7,
-   "taux": "61.0",
-   "echec": "39.0",
-   "commentaires": "18 Labels et 7 Prelabels à Labels"
-  },
-  {
-   "session": "02/2022",
-   "candidatures": 18,
-   "labels": 12,
-   "preLabels": 3,
-   "taux": "66.7",
-   "echec": "33.3",
-   "commentaires": "8 Labels et 4 Prélabels à Labels"
-  },
-  {
-   "session": "02/2023",
-   "candidatures": 33,
-   "labels": 18,
-   "preLabels": 11,
-   "taux": "54.5",
-   "echec": "45.5",
-   "commentaires": "7 Labels et 11 Prélabels à Labels"
-  },
-  {
-   "session": "02/2024",
-   "candidatures": 33,
-   "labels": 9,
-   "preLabels": 6,
-   "taux": "27.3",
-   "echec": "72.7",
-   "commentaires": "4 Labels et 5 Prélabel à Label"
-  },
-  {
-   "session": "02/2025",
-   "candidatures": 41,
-   "labels": 13,
-   "preLabels": 9,
-   "taux": "31.7",
-   "echec": "68.3",
-   "commentaires": "13 Labels et 04 Prélabels à Labels"
-  },
-  {
-   "session": "02/2026",
-   "candidatures": 36,
-   "labels": 21,
-   "preLabels": 3,
-   "taux": "58.3",
-   "echec": "41.7",
-   "commentaires": "10 Labels et 11 Prélabels à Labels"
-  },
-  {
-   "session": "03/2019",
-   "candidatures": 16,
-   "labels": 12,
-   "preLabels": 0,
-   "taux": "75.0",
-   "echec": "25.0",
-   "commentaires": "2 ajourné à la session suivante"
-  },
-  {
-   "session": "03/2020",
-   "candidatures": 35,
-   "labels": 16,
-   "preLabels": 10,
-   "taux": "45.7",
-   "echec": "54.3",
-   "commentaires": "12 Labels et 4 Prelabels à Labels"
-  },
-  {
-   "session": "03/2021",
-   "candidatures": 41,
-   "labels": 25,
-   "preLabels": 8,
-   "taux": "61.0",
-   "echec": "39.0",
-   "commentaires": "12 Labels et 13 Prelabels à Labels"
-  },
-  {
-   "session": "03/2022",
-   "candidatures": 21,
-   "labels": 14,
-   "preLabels": 5,
-   "taux": "66.7",
-   "echec": "33.3",
-   "commentaires": "5 Labels et 9 Prélabels à Labels"
-  },
-  {
-   "session": "03/2023",
-   "candidatures": 37,
-   "labels": 13,
-   "preLabels": 6,
-   "taux": "35.1",
-   "echec": "64.9",
-   "commentaires": "8 Labels et 5 Prélabels à Labels"
-  },
-  {
-   "session": "03/2024",
-   "candidatures": 31,
-   "labels": 7,
-   "preLabels": 7,
-   "taux": "22.6",
-   "echec": "77.4",
-   "commentaires": "3 Labels et 4 Prélabel à Label"
-  },
-  {
-   "session": "03/2025",
-   "candidatures": 21,
-   "labels": 6,
-   "preLabels": 5,
-   "taux": "28.6",
-   "echec": "71.4",
-   "commentaires": "06 Labels et 0 Prélabels à Labels"
-  },
-  {
-   "session": "03/2026",
-   "candidatures": 41,
-   "labels": 13,
-   "preLabels": 7,
-   "taux": "31.7",
-   "echec": "68.3",
-   "commentaires": "10 Labels et 03 Prélabels à Labels"
-  },
-  {
-   "session": "04/2019",
-   "candidatures": 51,
-   "labels": 33,
-   "preLabels": 0,
-   "taux": "64.7",
-   "echec": "35.3",
-   "commentaires": "1 ajourné à la session suivante"
-  },
-  {
-   "session": "04/2020",
-   "candidatures": 40,
-   "labels": 20,
-   "preLabels": 7,
-   "taux": "50.0",
-   "echec": "50.0",
-   "commentaires": "17 Labels et 3 Prelabels à Labels"
-  },
-  {
-   "session": "04/2021",
-   "candidatures": 80,
-   "labels": 22,
-   "preLabels": 24,
-   "taux": "27.5",
-   "echec": "72.5",
-   "commentaires": "18 Labels et 4 Prelabels à Labels"
-  },
-  {
-   "session": "04/2022",
-   "candidatures": 22,
-   "labels": 9,
-   "preLabels": 6,
-   "taux": "40.9",
-   "echec": "59.1",
-   "commentaires": "5 Labels et 4 Prélabels à Labels"
-  },
-  {
-   "session": "04/2023",
-   "candidatures": 40,
-   "labels": 14,
-   "preLabels": 5,
-   "taux": "35.0",
-   "echec": "65.0",
-   "commentaires": "10 Labels et 4  Prélabels à Labels"
-  },
-  {
-   "session": "04/2024",
-   "candidatures": 39,
-   "labels": 14,
-   "preLabels": 5,
-   "taux": "35.9",
-   "echec": "64.1",
-   "commentaires": "9 Labels et 5 Prélabel à Label"
-  },
-  {
-   "session": "04/2025",
-   "candidatures": 21,
-   "labels": 13,
-   "preLabels": 5,
-   "taux": "61.9",
-   "echec": "38.1",
-   "commentaires": "05 Labels et 08 Prélabels à Labels"
-  },
-  {
-   "session": "05/2019",
-   "candidatures": 30,
-   "labels": 15,
-   "preLabels": 8,
-   "taux": "50.0",
-   "echec": "50.0",
-   "commentaires": "29 candidats pour mai + 1 candidat de la session d'avril"
-  },
-  {
-   "session": "05/2020",
-   "candidatures": 26,
-   "labels": 12,
-   "preLabels": 10,
-   "taux": "46.2",
-   "echec": "53.8",
-   "commentaires": "7 Labels et 5 Prelabels à Labels"
-  },
-  {
-   "session": "05/2021",
-   "candidatures": 40,
-   "labels": 19,
-   "preLabels": 8,
-   "taux": "47.5",
-   "echec": "52.5",
-   "commentaires": "13 Labels et 6 Prelabels à Labels"
-  },
-  {
-   "session": "05/2022",
-   "candidatures": 41,
-   "labels": 14,
-   "preLabels": 9,
-   "taux": "34.1",
-   "echec": "65.9",
-   "commentaires": "8 Labels et 6 Prélabels à Labels"
-  },
-  {
-   "session": "05/2023",
-   "candidatures": 39,
-   "labels": 19,
-   "preLabels": 9,
-   "taux": "48.7",
-   "echec": "51.3",
-   "commentaires": "13 Labels et 6  Prélabels à Labels"
-  },
-  {
-   "session": "05/2024",
-   "candidatures": 39,
-   "labels": 14,
-   "preLabels": 5,
-   "taux": "35.9",
-   "echec": "64.1",
-   "commentaires": "14 Labels et 5 Prélabel à Label"
-  },
-  {
-   "session": "05/2025",
-   "candidatures": 47,
-   "labels": 13,
-   "preLabels": 10,
-   "taux": "27.7",
-   "echec": "72.3",
-   "commentaires": "10 Labels et 03 Prélabels à Labels"
-  },
-  {
-   "session": "06/2019",
-   "candidatures": 33,
-   "labels": 15,
-   "preLabels": 8,
-   "taux": "45.5",
-   "echec": "54.5",
-   "commentaires": "1 ajourné à la session suivante"
-  },
-  {
-   "session": "06/2020",
-   "candidatures": 26,
-   "labels": 12,
-   "preLabels": 5,
-   "taux": "46.2",
-   "echec": "53.8",
-   "commentaires": "8 Labels et 4 Prelabels à Labels"
-  },
-  {
-   "session": "06/2021",
-   "candidatures": 41,
-   "labels": 18,
-   "preLabels": 6,
-   "taux": "43.9",
-   "echec": "56.1",
-   "commentaires": "11 Labels et 7 Prelabels à Labels"
-  },
-  {
-   "session": "06/2022",
-   "candidatures": 40,
-   "labels": 14,
-   "preLabels": 10,
-   "taux": "35.0",
-   "echec": "65.0",
-   "commentaires": "10 Labels et 4 Prélabels à Labels"
-  },
-  {
-   "session": "06/2023",
-   "candidatures": 28,
-   "labels": 10,
-   "preLabels": 8,
-   "taux": "35.7",
-   "echec": "64.3",
-   "commentaires": "4 Labels et 6 Prélabels à Labels"
-  },
-  {
-   "session": "06/2024",
-   "candidatures": 37,
-   "labels": 14,
-   "preLabels": 5,
-   "taux": "37.8",
-   "echec": "62.2",
-   "commentaires": "11 Labels et 3 Prélabel à Label"
-  },
-  {
-   "session": "06/2025",
-   "candidatures": 36,
-   "labels": 12,
-   "preLabels": 8,
-   "taux": "33.3",
-   "echec": "66.7",
-   "commentaires": "07 Labels et 05 Prélabels à Labels"
-  },
-  {
-   "session": "07/2019",
-   "candidatures": 28,
-   "labels": 15,
-   "preLabels": 8,
-   "taux": "53.6",
-   "echec": "46.4",
-   "commentaires": "14 Labels et 1 Prelabel (de la session de mai)"
-  },
-  {
-   "session": "07/2020",
-   "candidatures": 40,
-   "labels": 18,
-   "preLabels": 7,
-   "taux": "45.0",
-   "echec": "55.0",
-   "commentaires": "9 Labels et 9 Prelabels à Labels"
-  },
-  {
-   "session": "07/2021",
-   "candidatures": 40,
-   "labels": 22,
-   "preLabels": 5,
-   "taux": "55.0",
-   "echec": "45.0",
-   "commentaires": "11 Labels et 11 Prelabels à Labels"
-  },
-  {
-   "session": "07/2022",
-   "candidatures": 40,
-   "labels": 18,
-   "preLabels": 9,
-   "taux": "45.0",
-   "echec": "55.0",
-   "commentaires": "14 Labels et 4 Prélabels à Labels"
-  },
-  {
-   "session": "07/2023",
-   "candidatures": 33,
-   "labels": 15,
-   "preLabels": 8,
-   "taux": "45.5",
-   "echec": "54.5",
-   "commentaires": "6 Labels et 9 Prélabels à Labels"
-  },
-  {
-   "session": "07/2024",
-   "candidatures": 33,
-   "labels": 5,
-   "preLabels": 7,
-   "taux": "15.2",
-   "echec": "84.8",
-   "commentaires": "05 Labels et 2 Prélabel à Label"
-  },
-  {
-   "session": "07/2025",
-   "candidatures": 29,
-   "labels": 9,
-   "preLabels": 8,
-   "taux": "31.0",
-   "echec": "69.0",
-   "commentaires": "04 Labels et 05 Prélabels à Labels"
-  },
-  {
-   "session": "08/2019",
-   "candidatures": 28,
-   "labels": 24,
-   "preLabels": 7,
-   "taux": "85.7",
-   "echec": "14.3",
-   "commentaires": "18 Labels et 6 Prelabels à Labels"
-  },
-  {
-   "session": "08/2020",
-   "candidatures": 28,
-   "labels": 17,
-   "preLabels": 6,
-   "taux": "60.7",
-   "echec": "39.3",
-   "commentaires": "7 Labels et 10 Prelabels à Labels"
-  },
-  {
-   "session": "08/2021",
-   "candidatures": 25,
-   "labels": 13,
-   "preLabels": 4,
-   "taux": "52.0",
-   "echec": "48.0",
-   "commentaires": "6 Labels et 7 Prelabels à Labels"
-  },
-  {
-   "session": "08/2022",
-   "candidatures": 36,
-   "labels": 12,
-   "preLabels": 12,
-   "taux": "33.3",
-   "echec": "66.7",
-   "commentaires": "6 Labels et 6 Prélabels à Labels"
-  },
-  {
-   "session": "08/2023",
-   "candidatures": 26,
-   "labels": 11,
-   "preLabels": 6,
-   "taux": "42.3",
-   "echec": "57.7",
-   "commentaires": "4 Labels et 7 Prélabels à Labels"
-  },
-  {
-   "session": "08/2024",
-   "candidatures": 37,
-   "labels": 11,
-   "preLabels": 6,
-   "taux": "29.7",
-   "echec": "70.3",
-   "commentaires": "05 Labels et 06 Prélabel à Label"
-  },
-  {
-   "session": "08/2025",
-   "candidatures": 41,
-   "labels": 15,
-   "preLabels": 9,
-   "taux": "36.6",
-   "echec": "63.4",
-   "commentaires": "06 Labels et 09 Prélabels à Labels"
-  },
-  {
-   "session": "09/2019",
-   "candidatures": 24,
-   "labels": 15,
-   "preLabels": 6,
-   "taux": "62.5",
-   "echec": "37.5",
-   "commentaires": "12 Labels et 3 Prelabels à Labels"
-  },
-  {
-   "session": "09/2020",
-   "candidatures": 24,
-   "labels": 11,
-   "preLabels": 9,
-   "taux": "45.8",
-   "echec": "54.2",
-   "commentaires": "3 Labels et 8 Prelabels à Labels"
-  },
-  {
-   "session": "09/2021",
-   "candidatures": 15,
-   "labels": 13,
-   "preLabels": 6,
-   "taux": "86.7",
-   "echec": "13.3",
-   "commentaires": "2 Labels et 13 Prelabels à Labels"
-  },
-  {
-   "session": "09/2022",
-   "candidatures": 40,
-   "labels": 19,
-   "preLabels": 5,
-   "taux": "47.5",
-   "echec": "52.5",
-   "commentaires": "10 Labels et 9 Prélabels à Labels"
-  },
-  {
-   "session": "09/2023",
-   "candidatures": 33,
-   "labels": 15,
-   "preLabels": 6,
-   "taux": "45.5",
-   "echec": "54.5",
-   "commentaires": "7 Labels et 8 Prélabels à Labels"
-  },
-  {
-   "session": "09/2024",
-   "candidatures": 34,
-   "labels": 11,
-   "preLabels": 9,
-   "taux": "32.4",
-   "echec": "67.6",
-   "commentaires": "06 Labels et 05 Prélabel à Label"
-  },
-  {
-   "session": "09/2025",
-   "candidatures": 25,
-   "labels": 7,
-   "preLabels": 10,
-   "taux": "28.0",
-   "echec": "72.0",
-   "commentaires": "01 Labels et 06 Prélabels à Labels"
-  },
-  {
-   "session": "10/2019",
-   "candidatures": 34,
-   "labels": 23,
-   "preLabels": 4,
-   "taux": "67.6",
-   "echec": "32.4",
-   "commentaires": "18 Labels et 5 Prelabels à Labels"
-  },
-  {
-   "session": "10/2020",
-   "candidatures": 41,
-   "labels": 16,
-   "preLabels": 10,
-   "taux": "39.0",
-   "echec": "61.0",
-   "commentaires": "9 Labels et 7 Prelabels à Labels"
-  },
-  {
-   "session": "10/2021",
-   "candidatures": 41,
-   "labels": 23,
-   "preLabels": 7,
-   "taux": "56.1",
-   "echec": "43.9",
-   "commentaires": "2 Labels et 13 Prelabels à Labels"
-  },
-  {
-   "session": "10/2022",
-   "candidatures": 38,
-   "labels": 14,
-   "preLabels": 7,
-   "taux": "36.8",
-   "echec": "63.2",
-   "commentaires": "8 Labels et 6 Prélabels à Labels"
-  },
-  {
-   "session": "10/2023",
-   "candidatures": 31,
-   "labels": 6,
-   "preLabels": 5,
-   "taux": "19.4",
-   "echec": "80.6",
-   "commentaires": "5 Labels et 1 Prélabel à Label"
-  },
-  {
-   "session": "10/2024",
-   "candidatures": 43,
-   "labels": 15,
-   "preLabels": 7,
-   "taux": "34.9",
-   "echec": "65.1",
-   "commentaires": "09 Labels et 06 Prélabel à Label"
-  },
-  {
-   "session": "10/2025",
-   "candidatures": 41,
-   "labels": 17,
-   "preLabels": 12,
-   "taux": "41.5",
-   "echec": "58.5",
-   "commentaires": "10 Labels et 07 Prélabels à Labels"
-  },
-  {
-   "session": "11/2019",
-   "candidatures": 35,
-   "labels": 17,
-   "preLabels": 10,
-   "taux": "48.6",
-   "echec": "51.4",
-   "commentaires": "11 Labels et 6 Prelabels à Labels"
-  },
-  {
-   "session": "11/2020",
-   "candidatures": 41,
-   "labels": 26,
-   "preLabels": 14,
-   "taux": "63.4",
-   "echec": "36.6",
-   "commentaires": "13 Labels et 12 Prelabels à Labels"
-  },
-  {
-   "session": "11/2021",
-   "candidatures": 40,
-   "labels": 19,
-   "preLabels": 10,
-   "taux": "47.5",
-   "echec": "52.5",
-   "commentaires": "12 Labels et 7 Prelabels à Labels"
-  },
-  {
-   "session": "11/2022",
-   "candidatures": 34,
-   "labels": 17,
-   "preLabels": 10,
-   "taux": "50.0",
-   "echec": "50.0",
-   "commentaires": "9 Labels et 8 Prélabels à Labels"
-  },
-  {
-   "session": "11/2023",
-   "candidatures": 30,
-   "labels": 14,
-   "preLabels": 4,
-   "taux": "46.7",
-   "echec": "53.3",
-   "commentaires": "6 Labels et 8 Prélabel à Label"
-  },
-  {
-   "session": "11/2024",
-   "candidatures": 41,
-   "labels": 14,
-   "preLabels": 7,
-   "taux": "34.1",
-   "echec": "65.9",
-   "commentaires": "12 Labels et 02 Prélabel à Label"
-  },
-  {
-   "session": "11/2025",
-   "candidatures": 39,
-   "labels": 15,
-   "preLabels": 3,
-   "taux": "38.5",
-   "echec": "61.5",
-   "commentaires": "07 Labels et 08 Prélabels à Labels"
-  },
-  {
-   "session": "12/2019",
-   "candidatures": 32,
-   "labels": 23,
-   "preLabels": 8,
-   "taux": "71.9",
-   "echec": "28.1",
-   "commentaires": "13 Labels et 10 Prelabels à Labels"
-  },
-  {
-   "session": "12/2020",
-   "candidatures": 36,
-   "labels": 21,
-   "preLabels": 8,
-   "taux": "58.3",
-   "echec": "41.7",
-   "commentaires": "12 Labels et 9 Prelabels à Labels"
-  },
-  {
-   "session": "12/2021",
-   "candidatures": 38,
-   "labels": 20,
-   "preLabels": 11,
-   "taux": "52.6",
-   "echec": "47.4",
-   "commentaires": "14 Labels et 6 Prelabels à Labels"
-  },
-  {
-   "session": "12/2022",
-   "candidatures": 30,
-   "labels": 17,
-   "preLabels": 5,
-   "taux": "56.7",
-   "echec": "43.3",
-   "commentaires": "07 Labels et 10 Prélabel à Label"
-  },
-  {
-   "session": "12/2023",
-   "candidatures": 39,
-   "labels": 14,
-   "preLabels": 5,
-   "taux": "35.9",
-   "echec": "64.1",
-   "commentaires": "9 Labels et 5 Prélabel à Label"
-  },
-  {
-   "session": "12/2024",
-   "candidatures": 40,
-   "labels": 16,
-   "preLabels": 4,
-   "taux": "40.0",
-   "echec": "60.0",
-   "commentaires": "10 Labels et 06 Prélabels à Labels"
-  },
-  {
-   "session": "12/2025",
-   "candidatures": 41,
-   "labels": 15,
-   "preLabels": 6,
-   "taux": "36.6",
-   "echec": "63.4",
-   "commentaires": "05 Labels et 10 Prélabels à Labels"
-  }
- ],
- "correctedTable": [
-  {
-   "session": "01/2020",
-   "candidatures": 38,
-   "labels": 18,
-   "preLabels": 11,
-   "taux": "47.4",
-   "tauxExact": 47.368421052631575,
-   "echec": "52.6",
-   "echecExact": 52.631579,
-   "commentaires": "14 Labels et 4 Prelabels à Labels"
-  },
-  {
-   "session": "01/2021",
-   "candidatures": 36,
-   "labels": 24,
-   "preLabels": 7,
-   "taux": "66.7",
-   "tauxExact": 66.66666666666666,
-   "echec": "33.3",
-   "echecExact": 33.333333,
-   "commentaires": "15 Labels et 9 Prelabels à Labels"
-  },
-  {
-   "session": "01/2022",
-   "candidatures": 38,
-   "labels": 15,
-   "preLabels": 9,
-   "taux": "39.5",
-   "tauxExact": 39.473684210526315,
-   "echec": "60.5",
-   "echecExact": 60.526316,
-   "commentaires": "9 Labels et 6 Prelabels à Labels"
-  },
-  {
-   "session": "01/2023",
-   "candidatures": 26,
-   "labels": 16,
-   "preLabels": 6,
-   "taux": "61.5",
-   "tauxExact": 61.53846153846154,
-   "echec": "38.5",
-   "echecExact": 38.461538,
-   "commentaires": "6 Labels et 10  Prélabels à Labels"
-  },
-  {
-   "session": "01/2024",
-   "candidatures": 33,
-   "labels": 14,
-   "preLabels": 6,
-   "taux": "42.4",
-   "tauxExact": 42.42424242424242,
-   "echec": "57.6",
-   "echecExact": 57.575758,
-   "commentaires": "8 Labels et 6 Prélabel à Label"
-  },
-  {
-   "session": "01/2025",
-   "candidatures": 39,
-   "labels": 13,
-   "preLabels": 2,
-   "taux": "33.3",
-   "tauxExact": 33.33333333333333,
-   "echec": "66.7",
-   "echecExact": 66.666667,
-   "commentaires": "13 Labels et 05 Prélabels à Labels"
-  },
-  {
-   "session": "01/2026",
-   "candidatures": 31,
-   "labels": 10,
-   "preLabels": 7,
-   "taux": "32.3",
-   "tauxExact": 32.25806451612903,
-   "echec": "67.7",
-   "echecExact": 67.741935,
-   "commentaires": "03 Labels et 06 Prélabels à Labels"
-  },
-  {
-   "session": "02/2020",
-   "candidatures": 32,
-   "labels": 22,
-   "preLabels": 11,
-   "taux": "68.8",
-   "tauxExact": 68.75,
-   "echec": "31.2",
-   "echecExact": 31.25,
-   "commentaires": "13 Labels et 9 Prelabels à Labels"
-  },
-  {
-   "session": "02/2021",
-   "candidatures": 41,
-   "labels": 25,
-   "preLabels": 10,
-   "taux": "61.0",
-   "tauxExact": 60.97560975609756,
-   "echec": "39.0",
-   "echecExact": 39.02439,
-   "commentaires": "18 Labels et 7 Prelabels à Labels"
-  },
-  {
-   "session": "02/2022",
-   "candidatures": 18,
-   "labels": 12,
-   "preLabels": 3,
-   "taux": "66.7",
-   "tauxExact": 66.66666666666666,
-   "echec": "33.3",
-   "echecExact": 33.333333,
-   "commentaires": "8 Labels et 4 Prélabels à Labels"
-  },
-  {
-   "session": "02/2023",
-   "candidatures": 33,
-   "labels": 18,
-   "preLabels": 11,
-   "taux": "54.5",
-   "tauxExact": 54.54545454545454,
-   "echec": "45.5",
-   "echecExact": 45.454545,
-   "commentaires": "7 Labels et 11 Prélabels à Labels"
-  },
-  {
-   "session": "02/2024",
-   "candidatures": 33,
-   "labels": 9,
-   "preLabels": 6,
-   "taux": "27.3",
-   "tauxExact": 27.27272727272727,
-   "echec": "72.7",
-   "echecExact": 72.727273,
-   "commentaires": "4 Labels et 5 Prélabel à Label"
-  },
-  {
-   "session": "02/2025",
-   "candidatures": 41,
-   "labels": 13,
-   "preLabels": 9,
-   "taux": "31.7",
-   "tauxExact": 31.70731707317073,
-   "echec": "68.3",
-   "echecExact": 68.292683,
-   "commentaires": "13 Labels et 04 Prélabels à Labels"
-  },
-  {
-   "session": "02/2026",
-   "candidatures": 36,
-   "labels": 20,
-   "preLabels": 3,
-   "taux": "55.6",
-   "tauxExact": 55.55555555555556,
-   "echec": "44.4",
-   "echecExact": 44.444444,
-   "commentaires": "10 Labels et 11 Prélabels à Labels"
-  },
-  {
-   "session": "03/2019",
-   "candidatures": 16,
-   "labels": 12,
-   "preLabels": 0,
-   "taux": "75.0",
-   "tauxExact": 75.0,
-   "echec": "25.0",
-   "echecExact": 25.0,
-   "commentaires": "2 ajourné à la session suivante"
-  },
-  {
-   "session": "03/2020",
-   "candidatures": 35,
-   "labels": 16,
-   "preLabels": 10,
-   "taux": "45.7",
-   "tauxExact": 45.714285714285715,
-   "echec": "54.3",
-   "echecExact": 54.285714,
-   "commentaires": "12 Labels et 4 Prelabels à Labels"
-  },
-  {
-   "session": "03/2021",
-   "candidatures": 41,
-   "labels": 25,
-   "preLabels": 8,
-   "taux": "61.0",
-   "tauxExact": 60.97560975609756,
-   "echec": "39.0",
-   "echecExact": 39.02439,
-   "commentaires": "12 Labels et 13 Prelabels à Labels"
-  },
-  {
-   "session": "03/2022",
-   "candidatures": 21,
-   "labels": 14,
-   "preLabels": 5,
-   "taux": "66.7",
-   "tauxExact": 66.66666666666666,
-   "echec": "33.3",
-   "echecExact": 33.333333,
-   "commentaires": "5 Labels et 9 Prélabels à Labels"
-  },
-  {
-   "session": "03/2023",
-   "candidatures": 37,
-   "labels": 14,
-   "preLabels": 6,
-   "taux": "37.8",
-   "tauxExact": 37.83783783783784,
-   "echec": "62.2",
-   "echecExact": 62.162162,
-   "commentaires": "8 Labels et 5 Prélabels à Labels"
-  },
-  {
-   "session": "03/2024",
-   "candidatures": 31,
-   "labels": 6,
-   "preLabels": 7,
-   "taux": "19.4",
-   "tauxExact": 19.35483870967742,
-   "echec": "80.6",
-   "echecExact": 80.645161,
-   "commentaires": "3 Labels et 4 Prélabel à Label"
-  },
-  {
-   "session": "03/2025",
-   "candidatures": 21,
-   "labels": 6,
-   "preLabels": 5,
-   "taux": "28.6",
-   "tauxExact": 28.57142857142857,
-   "echec": "71.4",
-   "echecExact": 71.428571,
-   "commentaires": "06 Labels et 0 Prélabels à Labels"
-  },
-  {
-   "session": "03/2026",
-   "candidatures": 41,
-   "labels": 13,
-   "preLabels": 7,
-   "taux": "31.7",
-   "tauxExact": 31.70731707317073,
-   "echec": "68.3",
-   "echecExact": 68.292683,
-   "commentaires": "10 Labels et 03 Prélabels à Labels"
-  },
-  {
-   "session": "04/2019",
-   "candidatures": 51,
-   "labels": 33,
-   "preLabels": 0,
-   "taux": "64.7",
-   "tauxExact": 64.70588235294117,
-   "echec": "35.3",
-   "echecExact": 35.294118,
-   "commentaires": "1 ajourné à la session suivante"
-  },
-  {
-   "session": "04/2020",
-   "candidatures": 40,
-   "labels": 20,
-   "preLabels": 7,
-   "taux": "50.0",
-   "tauxExact": 50.0,
-   "echec": "50.0",
-   "echecExact": 50.0,
-   "commentaires": "17 Labels et 3 Prelabels à Labels"
-  },
-  {
-   "session": "04/2021",
-   "candidatures": 80,
-   "labels": 22,
-   "preLabels": 24,
-   "taux": "27.5",
-   "tauxExact": 27.500000000000004,
-   "echec": "72.5",
-   "echecExact": 72.5,
-   "commentaires": "18 Labels et 4 Prelabels à Labels"
-  },
-  {
-   "session": "04/2022",
-   "candidatures": 22,
-   "labels": 9,
-   "preLabels": 6,
-   "taux": "40.9",
-   "tauxExact": 40.909090909090914,
-   "echec": "59.1",
-   "echecExact": 59.090909,
-   "commentaires": "5 Labels et 4 Prélabels à Labels"
-  },
-  {
-   "session": "04/2023",
-   "candidatures": 40,
-   "labels": 13,
-   "preLabels": 5,
-   "taux": "32.5",
-   "tauxExact": 32.5,
-   "echec": "67.5",
-   "echecExact": 67.5,
-   "commentaires": "10 Labels et 4  Prélabels à Labels"
-  },
-  {
-   "session": "04/2024",
-   "candidatures": 39,
-   "labels": 14,
-   "preLabels": 5,
-   "taux": "35.9",
-   "tauxExact": 35.8974358974359,
-   "echec": "64.1",
-   "echecExact": 64.102564,
-   "commentaires": "9 Labels et 5 Prélabel à Label"
-  },
-  {
-   "session": "04/2025",
-   "candidatures": 21,
-   "labels": 13,
-   "preLabels": 5,
-   "taux": "61.9",
-   "tauxExact": 61.904761904761905,
-   "echec": "38.1",
-   "echecExact": 38.095238,
-   "commentaires": "05 Labels et 08 Prélabels à Labels"
-  },
-  {
-   "session": "05/2019",
-   "candidatures": 30,
-   "labels": 15,
-   "preLabels": 8,
-   "taux": "50.0",
-   "tauxExact": 50.0,
-   "echec": "50.0",
-   "echecExact": 50.0,
-   "commentaires": "29 candidats pour mai + 1 candidat de la session d'avril"
-  },
-  {
-   "session": "05/2020",
-   "candidatures": 26,
-   "labels": 12,
-   "preLabels": 10,
-   "taux": "46.2",
-   "tauxExact": 46.15384615384615,
-   "echec": "53.8",
-   "echecExact": 53.846154,
-   "commentaires": "7 Labels et 5 Prelabels à Labels"
-  },
-  {
-   "session": "05/2021",
-   "candidatures": 40,
-   "labels": 19,
-   "preLabels": 8,
-   "taux": "47.5",
-   "tauxExact": 47.5,
-   "echec": "52.5",
-   "echecExact": 52.5,
-   "commentaires": "13 Labels et 6 Prelabels à Labels"
-  },
-  {
-   "session": "05/2022",
-   "candidatures": 41,
-   "labels": 14,
-   "preLabels": 9,
-   "taux": "34.1",
-   "tauxExact": 34.146341463414636,
-   "echec": "65.9",
-   "echecExact": 65.853659,
-   "commentaires": "8 Labels et 6 Prélabels à Labels"
-  },
-  {
-   "session": "05/2023",
-   "candidatures": 39,
-   "labels": 19,
-   "preLabels": 9,
-   "taux": "48.7",
-   "tauxExact": 48.717948717948715,
-   "echec": "51.3",
-   "echecExact": 51.282051,
-   "commentaires": "13 Labels et 6  Prélabels à Labels"
-  },
-  {
-   "session": "05/2024",
-   "candidatures": 39,
-   "labels": 14,
-   "preLabels": 5,
-   "taux": "35.9",
-   "tauxExact": 35.8974358974359,
-   "echec": "64.1",
-   "echecExact": 64.102564,
-   "commentaires": "14 Labels et 5 Prélabel à Label"
-  },
-  {
-   "session": "05/2025",
-   "candidatures": 47,
-   "labels": 13,
-   "preLabels": 13,
-   "taux": "27.7",
-   "tauxExact": 27.659574468085108,
-   "echec": "72.3",
-   "echecExact": 72.340426,
-   "commentaires": "10 Labels et 03 Prélabels à Labels"
-  },
-  {
-   "session": "06/2019",
-   "candidatures": 33,
-   "labels": 14,
-   "preLabels": 8,
-   "taux": "42.4",
-   "tauxExact": 42.42424242424242,
-   "echec": "57.6",
-   "echecExact": 57.575758,
-   "commentaires": "1 ajourné à la session suivante"
-  },
-  {
-   "session": "06/2020",
-   "candidatures": 26,
-   "labels": 12,
-   "preLabels": 5,
-   "taux": "46.2",
-   "tauxExact": 46.15384615384615,
-   "echec": "53.8",
-   "echecExact": 53.846154,
-   "commentaires": "8 Labels et 4 Prelabels à Labels"
-  },
-  {
-   "session": "06/2021",
-   "candidatures": 41,
-   "labels": 18,
-   "preLabels": 6,
-   "taux": "43.9",
-   "tauxExact": 43.90243902439025,
-   "echec": "56.1",
-   "echecExact": 56.097561,
-   "commentaires": "11 Labels et 7 Prelabels à Labels"
-  },
-  {
-   "session": "06/2022",
-   "candidatures": 40,
-   "labels": 14,
-   "preLabels": 10,
-   "taux": "35.0",
-   "tauxExact": 35.0,
-   "echec": "65.0",
-   "echecExact": 65.0,
-   "commentaires": "10 Labels et 4 Prélabels à Labels"
-  },
-  {
-   "session": "06/2023",
-   "candidatures": 28,
-   "labels": 10,
-   "preLabels": 8,
-   "taux": "35.7",
-   "tauxExact": 35.714285714285715,
-   "echec": "64.3",
-   "echecExact": 64.285714,
-   "commentaires": "4 Labels et 6 Prélabels à Labels"
-  },
-  {
-   "session": "06/2024",
-   "candidatures": 37,
-   "labels": 14,
-   "preLabels": 5,
-   "taux": "37.8",
-   "tauxExact": 37.83783783783784,
-   "echec": "62.2",
-   "echecExact": 62.162162,
-   "commentaires": "11 Labels et 3 Prélabel à Label"
-  },
-  {
-   "session": "06/2025",
-   "candidatures": 36,
-   "labels": 12,
-   "preLabels": 8,
-   "taux": "33.3",
-   "tauxExact": 33.33333333333333,
-   "echec": "66.7",
-   "echecExact": 66.666667,
-   "commentaires": "07 Labels et 05 Prélabels à Labels"
-  },
-  {
-   "session": "07/2019",
-   "candidatures": 28,
-   "labels": 14,
-   "preLabels": 8,
-   "taux": "50.0",
-   "tauxExact": 50.0,
-   "echec": "50.0",
-   "echecExact": 50.0,
-   "commentaires": "14 Labels et 1 Prelabel (de la session de mai)"
-  },
-  {
-   "session": "07/2020",
-   "candidatures": 40,
-   "labels": 18,
-   "preLabels": 7,
-   "taux": "45.0",
-   "tauxExact": 45.0,
-   "echec": "55.0",
-   "echecExact": 55.0,
-   "commentaires": "9 Labels et 9 Prelabels à Labels"
-  },
-  {
-   "session": "07/2021",
-   "candidatures": 40,
-   "labels": 22,
-   "preLabels": 5,
-   "taux": "55.0",
-   "tauxExact": 55.00000000000001,
-   "echec": "45.0",
-   "echecExact": 45.0,
-   "commentaires": "11 Labels et 11 Prelabels à Labels"
-  },
-  {
-   "session": "07/2022",
-   "candidatures": 40,
-   "labels": 18,
-   "preLabels": 9,
-   "taux": "45.0",
-   "tauxExact": 45.0,
-   "echec": "55.0",
-   "echecExact": 55.0,
-   "commentaires": "14 Labels et 4 Prélabels à Labels"
-  },
-  {
-   "session": "07/2023",
-   "candidatures": 33,
-   "labels": 15,
-   "preLabels": 8,
-   "taux": "45.5",
-   "tauxExact": 45.45454545454545,
-   "echec": "54.5",
-   "echecExact": 54.545455,
-   "commentaires": "6 Labels et 9 Prélabels à Labels"
-  },
-  {
-   "session": "07/2024",
-   "candidatures": 33,
-   "labels": 6,
-   "preLabels": 7,
-   "taux": "18.2",
-   "tauxExact": 18.181818181818183,
-   "echec": "81.8",
-   "echecExact": 81.818182,
-   "commentaires": "05 Labels et 2 Prélabel à Label"
-  },
-  {
-   "session": "07/2025",
-   "candidatures": 29,
-   "labels": 9,
-   "preLabels": 8,
-   "taux": "31.0",
-   "tauxExact": 31.03448275862069,
-   "echec": "69.0",
-   "echecExact": 68.965517,
-   "commentaires": "04 Labels et 05 Prélabels à Labels"
-  },
-  {
-   "session": "08/2019",
-   "candidatures": 28,
-   "labels": 20,
-   "preLabels": 5,
-   "taux": "71.4",
-   "tauxExact": 71.42857142857143,
-   "echec": "28.6",
-   "echecExact": 28.571429,
-   "commentaires": "18 Labels et 6 Prelabels à Labels"
-  },
-  {
-   "session": "08/2020",
-   "candidatures": 28,
-   "labels": 17,
-   "preLabels": 6,
-   "taux": "60.7",
-   "tauxExact": 60.71428571428571,
-   "echec": "39.3",
-   "echecExact": 39.285714,
-   "commentaires": "7 Labels et 10 Prelabels à Labels"
-  },
-  {
-   "session": "08/2021",
-   "candidatures": 25,
-   "labels": 13,
-   "preLabels": 4,
-   "taux": "52.0",
-   "tauxExact": 52.0,
-   "echec": "48.0",
-   "echecExact": 48.0,
-   "commentaires": "6 Labels et 7 Prelabels à Labels"
-  },
-  {
-   "session": "08/2022",
-   "candidatures": 36,
-   "labels": 12,
-   "preLabels": 12,
-   "taux": "33.3",
-   "tauxExact": 33.33333333333333,
-   "echec": "66.7",
-   "echecExact": 66.666667,
-   "commentaires": "6 Labels et 6 Prélabels à Labels"
-  },
-  {
-   "session": "08/2023",
-   "candidatures": 26,
-   "labels": 11,
-   "preLabels": 5,
-   "taux": "42.3",
-   "tauxExact": 42.30769230769231,
-   "echec": "57.7",
-   "echecExact": 57.692308,
-   "commentaires": "4 Labels et 7 Prélabels à Labels"
-  },
-  {
-   "session": "08/2024",
-   "candidatures": 37,
-   "labels": 11,
-   "preLabels": 6,
-   "taux": "29.7",
-   "tauxExact": 29.72972972972973,
-   "echec": "70.3",
-   "echecExact": 70.27027,
-   "commentaires": "05 Labels et 06 Prélabel à Label"
-  },
-  {
-   "session": "08/2025",
-   "candidatures": 41,
-   "labels": 15,
-   "preLabels": 9,
-   "taux": "36.6",
-   "tauxExact": 36.58536585365854,
-   "echec": "63.4",
-   "echecExact": 63.414634,
-   "commentaires": "06 Labels et 09 Prélabels à Labels"
-  },
-  {
-   "session": "09/2019",
-   "candidatures": 24,
-   "labels": 15,
-   "preLabels": 6,
-   "taux": "62.5",
-   "tauxExact": 62.5,
-   "echec": "37.5",
-   "echecExact": 37.5,
-   "commentaires": "12 Labels et 3 Prelabels à Labels"
-  },
-  {
-   "session": "09/2020",
-   "candidatures": 24,
-   "labels": 11,
-   "preLabels": 9,
-   "taux": "45.8",
-   "tauxExact": 45.83333333333333,
-   "echec": "54.2",
-   "echecExact": 54.166667,
-   "commentaires": "3 Labels et 8 Prelabels à Labels"
-  },
-  {
-   "session": "09/2021",
-   "candidatures": 15,
-   "labels": 15,
-   "preLabels": 6,
-   "taux": "100.0",
-   "tauxExact": 100.0,
-   "echec": "0.0",
-   "echecExact": 0.0,
-   "commentaires": "2 Labels et 13 Prelabels à Labels"
-  },
-  {
-   "session": "09/2022",
-   "candidatures": 40,
-   "labels": 19,
-   "preLabels": 5,
-   "taux": "47.5",
-   "tauxExact": 47.5,
-   "echec": "52.5",
-   "echecExact": 52.5,
-   "commentaires": "10 Labels et 9 Prélabels à Labels"
-  },
-  {
-   "session": "09/2023",
-   "candidatures": 33,
-   "labels": 15,
-   "preLabels": 6,
-   "taux": "45.5",
-   "tauxExact": 45.45454545454545,
-   "echec": "54.5",
-   "echecExact": 54.545455,
-   "commentaires": "7 Labels et 8 Prélabels à Labels"
-  },
-  {
-   "session": "09/2024",
-   "candidatures": 34,
-   "labels": 11,
-   "preLabels": 9,
-   "taux": "32.4",
-   "tauxExact": 32.35294117647059,
-   "echec": "67.6",
-   "echecExact": 67.647059,
-   "commentaires": "06 Labels et 05 Prélabel à Label"
-  },
-  {
-   "session": "09/2025",
-   "candidatures": 25,
-   "labels": 7,
-   "preLabels": 10,
-   "taux": "28.0",
-   "tauxExact": 28.000000000000004,
-   "echec": "72.0",
-   "echecExact": 72.0,
-   "commentaires": "01 Labels et 06 Prélabels à Labels"
-  },
-  {
-   "session": "10/2019",
-   "candidatures": 34,
-   "labels": 23,
-   "preLabels": 5,
-   "taux": "67.6",
-   "tauxExact": 67.64705882352942,
-   "echec": "32.4",
-   "echecExact": 32.352941,
-   "commentaires": "18 Labels et 5 Prelabels à Labels"
-  },
-  {
-   "session": "10/2020",
-   "candidatures": 41,
-   "labels": 16,
-   "preLabels": 10,
-   "taux": "39.0",
-   "tauxExact": 39.02439024390244,
-   "echec": "61.0",
-   "echecExact": 60.97561,
-   "commentaires": "9 Labels et 7 Prelabels à Labels"
-  },
-  {
-   "session": "10/2021",
-   "candidatures": 41,
-   "labels": 23,
-   "preLabels": 7,
-   "taux": "56.1",
-   "tauxExact": 56.09756097560976,
-   "echec": "43.9",
-   "echecExact": 43.902439,
-   "commentaires": "2 Labels et 13 Prelabels à Labels"
-  },
-  {
-   "session": "10/2022",
-   "candidatures": 38,
-   "labels": 14,
-   "preLabels": 7,
-   "taux": "36.8",
-   "tauxExact": 36.84210526315789,
-   "echec": "63.2",
-   "echecExact": 63.157895,
-   "commentaires": "8 Labels et 6 Prélabels à Labels"
-  },
-  {
-   "session": "10/2023",
-   "candidatures": 31,
-   "labels": 6,
-   "preLabels": 4,
-   "taux": "19.4",
-   "tauxExact": 19.35483870967742,
-   "echec": "80.6",
-   "echecExact": 80.645161,
-   "commentaires": "5 Labels et 1 Prélabel à Label"
-  },
-  {
-   "session": "10/2024",
-   "candidatures": 43,
-   "labels": 15,
-   "preLabels": 7,
-   "taux": "34.9",
-   "tauxExact": 34.883720930232556,
-   "echec": "65.1",
-   "echecExact": 65.116279,
-   "commentaires": "09 Labels et 06 Prélabel à Label"
-  },
-  {
-   "session": "10/2025",
-   "candidatures": 41,
-   "labels": 17,
-   "preLabels": 12,
-   "taux": "41.5",
-   "tauxExact": 41.46341463414634,
-   "echec": "58.5",
-   "echecExact": 58.536585,
-   "commentaires": "10 Labels et 07 Prélabels à Labels"
-  },
-  {
-   "session": "11/2019",
-   "candidatures": 35,
-   "labels": 17,
-   "preLabels": 10,
-   "taux": "48.6",
-   "tauxExact": 48.57142857142857,
-   "echec": "51.4",
-   "echecExact": 51.428571,
-   "commentaires": "11 Labels et 6 Prelabels à Labels"
-  },
-  {
-   "session": "11/2020",
-   "candidatures": 41,
-   "labels": 26,
-   "preLabels": 14,
-   "taux": "63.4",
-   "tauxExact": 63.41463414634146,
-   "echec": "36.6",
-   "echecExact": 36.585366,
-   "commentaires": "13 Labels et 12 Prelabels à Labels"
-  },
-  {
-   "session": "11/2021",
-   "candidatures": 40,
-   "labels": 19,
-   "preLabels": 10,
-   "taux": "47.5",
-   "tauxExact": 47.5,
-   "echec": "52.5",
-   "echecExact": 52.5,
-   "commentaires": "12 Labels et 7 Prelabels à Labels"
-  },
-  {
-   "session": "11/2022",
-   "candidatures": 34,
-   "labels": 17,
-   "preLabels": 10,
-   "taux": "50.0",
-   "tauxExact": 50.0,
-   "echec": "50.0",
-   "echecExact": 50.0,
-   "commentaires": "9 Labels et 8 Prélabels à Labels"
-  },
-  {
-   "session": "11/2023",
-   "candidatures": 30,
-   "labels": 12,
-   "preLabels": 7,
-   "taux": "40.0",
-   "tauxExact": 40.0,
-   "echec": "60.0",
-   "echecExact": 60.0,
-   "commentaires": "6 Labels et 8 Prélabel à Label"
-  },
-  {
-   "session": "11/2024",
-   "candidatures": 41,
-   "labels": 14,
-   "preLabels": 7,
-   "taux": "34.1",
-   "tauxExact": 34.146341463414636,
-   "echec": "65.9",
-   "echecExact": 65.853659,
-   "commentaires": "12 Labels et 02 Prélabel à Label"
-  },
-  {
-   "session": "11/2025",
-   "candidatures": 39,
-   "labels": 15,
-   "preLabels": 3,
-   "taux": "38.5",
-   "tauxExact": 38.46153846153847,
-   "echec": "61.5",
-   "echecExact": 61.538462,
-   "commentaires": "07 Labels et 08 Prélabels à Labels"
-  },
-  {
-   "session": "12/2019",
-   "candidatures": 32,
-   "labels": 23,
-   "preLabels": 8,
-   "taux": "71.9",
-   "tauxExact": 71.875,
-   "echec": "28.1",
-   "echecExact": 28.125,
-   "commentaires": "13 Labels et 10 Prelabels à Labels"
-  },
-  {
-   "session": "12/2020",
-   "candidatures": 36,
-   "labels": 21,
-   "preLabels": 8,
-   "taux": "58.3",
-   "tauxExact": 58.333333333333336,
-   "echec": "41.7",
-   "echecExact": 41.666667,
-   "commentaires": "12 Labels et 9 Prelabels à Labels"
-  },
-  {
-   "session": "12/2021",
-   "candidatures": 38,
-   "labels": 20,
-   "preLabels": 11,
-   "taux": "52.6",
-   "tauxExact": 52.63157894736842,
-   "echec": "47.4",
-   "echecExact": 47.368421,
-   "commentaires": "14 Labels et 6 Prelabels à Labels"
-  },
-  {
-   "session": "12/2022",
-   "candidatures": 30,
-   "labels": 16,
-   "preLabels": 5,
-   "taux": "53.3",
-   "tauxExact": 53.333333333333336,
-   "echec": "46.7",
-   "echecExact": 46.666667,
-   "commentaires": "07 Labels et 10 Prélabel à Label"
-  },
-  {
-   "session": "12/2023",
-   "candidatures": 39,
-   "labels": 12,
-   "preLabels": 5,
-   "taux": "30.8",
-   "tauxExact": 30.76923076923077,
-   "echec": "69.2",
-   "echecExact": 69.230769,
-   "commentaires": "7 Labels et 5 Prélabel à Label"
-  },
-  {
-   "session": "12/2024",
-   "candidatures": 40,
-   "labels": 16,
-   "preLabels": 4,
-   "taux": "40.0",
-   "tauxExact": 40.0,
-   "echec": "60.0",
-   "echecExact": 60.0,
-   "commentaires": "10 Labels et 06 Prélabels à Labels"
-  },
-  {
-   "session": "12/2025",
-   "candidatures": 41,
-   "labels": 16,
-   "preLabels": 6,
-   "taux": "39.0",
-   "tauxExact": 39.02439024390244,
-   "echec": "61.0",
-   "echecExact": 60.97561,
-   "commentaires": "05 Labels et 10 Prélabels à Labels"
-  }
- ],
- "corrections": [
-  {
-   "session": "01/2025",
-   "candidatures": 39,
-   "old": {
-    "labels": 18,
-    "preLabels": 2,
-    "taux": "46.2"
-   },
-   "new": {
-    "labels": 13,
-    "preLabels": 2,
-    "tauxExact": 33.333333,
-    "taux": "33.3",
-    "echec": "66.7"
-   },
-   "reason": "8 nouveaux labels + 5 conversions − 2 retraits = 13 (scrapé : 18)",
-   "commentaires": "13 Labels et 05 Prélabels à Labels"
-  },
-  {
-   "session": "01/2026",
-   "candidatures": 31,
-   "old": {
-    "labels": 9,
-    "preLabels": 7,
-    "taux": "29.0"
-   },
-   "new": {
-    "labels": 10,
-    "preLabels": 7,
-    "tauxExact": 32.258065,
-    "taux": "32.3",
-    "echec": "67.7"
-   },
-   "reason": "3 nouveaux labels + 7 conversions − 5 retraits = 10. Écart documentaire candidatures : sessions.json annonce 31 candidatures, mais le CR/PDF officiel (Session 82) liste 30 dossiers (24 page 1 + 6 page 2) — aucune mention « ajourné » ; 1 candidature non identifiable par recoupement. Les 10 labels officiels (3 labels + 7 conversions) et les 7 prélabels sont confirmés par le CR. Ne pas recalculer le taux officiel 10/31 = 32,3 % sur une base de 30.",
-   "commentaires": "03 Labels et 06 Prélabels à Labels (commentaire officiel erroné : 7 conversions réelles, total labels 10 cohérent)"
-   },
-  {
-   "session": "02/2021",
-   "candidatures": 41,
-   "old": {
-    "labels": 25,
-    "preLabels": 7,
-    "taux": "61.0"
-   },
-   "new": {
-    "labels": 25,
-    "preLabels": 10,
-    "tauxExact": 60.97561,
-    "taux": "61.0",
-    "echec": "39.0"
-   },
-   "reason": "18 nouveaux labels + 7 conversions = 25, 10 prélabels",
-   "commentaires": "18 Labels et 7 Prelabels à Labels"
-  },
-  {
-   "session": "02/2026",
-   "candidatures": 36,
-   "old": {
-    "labels": 21,
-    "preLabels": 3,
-    "taux": "58.3"
-   },
-   "new": {
-    "labels": 20,
-    "preLabels": 3,
-    "tauxExact": 55.555556,
-    "taux": "55.6",
-    "echec": "44.4"
-   },
-   "reason": "9 nouveaux labels + 11 conversions − 2 retraits = 20",
-   "commentaires": "10 Labels et 11 Prélabels à Labels"
-  },
-  {
-   "session": "03/2023",
-   "candidatures": 37,
-   "old": {
-    "labels": 13,
-    "preLabels": 6,
-    "taux": "35.1"
-   },
-   "new": {
-    "labels": 14,
-    "preLabels": 6,
-    "tauxExact": 37.837838,
-    "taux": "37.8",
-    "echec": "62.2"
-   },
-   "reason": "9 nouveaux labels + 5 conversions = 14 (scrapé : 13)",
-   "commentaires": "8 Labels et 5 Prélabels à Labels"
-  },
-  {
-   "session": "03/2024",
-   "candidatures": 31,
-   "old": {
-    "labels": 7,
-    "preLabels": 7,
-    "taux": "22.6"
-   },
-   "new": {
-    "labels": 6,
-    "preLabels": 7,
-    "tauxExact": 19.354839,
-    "taux": "19.4",
-    "echec": "80.6"
-   },
-   "reason": "2 nouveaux labels + 4 conversions − 3 retraits = 6 (scrapé : 7)",
-   "commentaires": "3 Labels et 4 Prélabel à Label"
-  },
-  {
-   "session": "04/2023",
-   "candidatures": 40,
-   "old": {
-    "labels": 14,
-    "preLabels": 5,
-    "taux": "35.0"
-   },
-   "new": {
-    "labels": 13,
-    "preLabels": 5,
-    "tauxExact": 32.5,
-    "taux": "32.5",
-    "echec": "67.5"
-   },
-   "reason": "13 labels (scrapé : 14)",
-   "commentaires": "10 Labels et 4  Prélabels à Labels"
-  },
-  {
-   "session": "05/2025",
-   "candidatures": 47,
-   "old": {
-    "labels": 13,
-    "preLabels": 10,
-    "taux": "27.7"
-   },
-   "new": {
-    "labels": 13,
-    "preLabels": 13,
-    "tauxExact": 27.659574,
-    "taux": "27.7",
-    "echec": "72.3"
-   },
-   "reason": "13 prélabels listés (scrapé : 10)",
-   "commentaires": "10 Labels et 03 Prélabels à Labels"
-  },
-  {
-   "session": "06/2019",
-   "candidatures": 33,
-   "old": {
-    "labels": 15,
-    "preLabels": 8,
-    "taux": "45.5"
-   },
-   "new": {
-    "labels": 14,
-    "preLabels": 8,
-    "tauxExact": 42.424242,
-    "taux": "42.4",
-    "echec": "57.6"
-   },
-   "reason": "14 labels (scrapé : 15)",
-   "commentaires": "1 ajourné à la session suivante"
-  },
-  {
-   "session": "07/2019",
-   "candidatures": 28,
-   "old": {
-    "labels": 15,
-    "preLabels": 8,
-    "taux": "53.6"
-   },
-   "new": {
-    "labels": 14,
-    "preLabels": 8,
-    "tauxExact": 50.0,
-    "taux": "50.0",
-    "echec": "50.0"
-   },
-   "reason": "14 labels (scrapé : 15)",
-   "commentaires": "14 Labels et 1 Prelabel (de la session de mai)"
-  },
-  {
-   "session": "07/2024",
-   "candidatures": 33,
-   "old": {
-    "labels": 5,
-    "preLabels": 7,
-    "taux": "15.2"
-   },
-   "new": {
-    "labels": 6,
-    "preLabels": 7,
-    "tauxExact": 18.181818,
-    "taux": "18.2",
-    "echec": "81.8"
-   },
-   "reason": "4 nouveaux labels + 2 conversions − 3 retraits = 6 (scrapé : 5)",
-   "commentaires": "05 Labels et 2 Prélabel à Label"
-  },
-  {
-   "session": "08/2019",
-   "candidatures": 28,
-   "old": {
-    "labels": 24,
-    "preLabels": 7,
-    "taux": "85.7"
-   },
-   "new": {
-    "labels": 20,
-    "preLabels": 5,
-    "tauxExact": 71.428571,
-    "taux": "71.4",
-    "echec": "28.6"
-   },
-   "reason": "20 labels (scrapé : 24), 5 prélabels",
-   "commentaires": "18 Labels et 6 Prelabels à Labels"
-  },
-  {
-   "session": "08/2023",
-   "candidatures": 26,
-   "old": {
-    "labels": 11,
-    "preLabels": 6,
-    "taux": "42.3"
-   },
-   "new": {
-    "labels": 11,
-    "preLabels": 5,
-    "tauxExact": 42.307692,
-    "taux": "42.3",
-    "echec": "57.7"
-   },
-   "reason": "5 prélabels (scrapé : 6)",
-   "commentaires": "4 Labels et 7 Prélabels à Labels"
-  },
-  {
-   "session": "09/2021",
-   "candidatures": 15,
-   "old": {
-    "labels": 13,
-    "preLabels": 6,
-    "taux": "86.7"
-   },
-   "new": {
-    "labels": 15,
-    "preLabels": 6,
-    "tauxExact": 100.0,
-    "taux": "100.0",
-    "echec": "0.0"
-   },
-   "reason": "2 nouveaux labels + 13 conversions = 15 (scrapé : 13)",
-   "commentaires": "2 Labels et 13 Prelabels à Labels"
-  },
-  {
-   "session": "10/2019",
-   "candidatures": 34,
-   "old": {
-    "labels": 23,
-    "preLabels": 4,
-    "taux": "67.6"
-   },
-   "new": {
-    "labels": 23,
-    "preLabels": 5,
-    "tauxExact": 67.647059,
-    "taux": "67.6",
-    "echec": "32.4"
-   },
-   "reason": "5 prélabels (scrapé : 4)",
-   "commentaires": "18 Labels et 5 Prelabels à Labels"
-  },
-  {
-   "session": "10/2023",
-   "candidatures": 31,
-   "old": {
-    "labels": 6,
-    "preLabels": 5,
-    "taux": "19.4"
-   },
-   "new": {
-    "labels": 6,
-    "preLabels": 4,
-    "tauxExact": 19.354839,
-    "taux": "19.4",
-    "echec": "80.6"
-   },
-   "reason": "5 nouveaux labels + 1 conversion − 3 retraits = 6 (Techno Shark rejeté)",
-   "commentaires": "5 Labels et 1 Prélabel à Label"
-  },
-  {
-   "session": "11/2023",
-   "candidatures": 30,
-   "old": {
-    "labels": 14,
-    "preLabels": 4,
-    "taux": "46.7"
-   },
-   "new": {
-    "labels": 12,
-    "preLabels": 7,
-    "tauxExact": 40.0,
-    "taux": "40.0",
-    "echec": "60.0"
-   },
-   "reason": "4 nouveaux labels + 8 conversions − 6 retraits = 12, 7 prélabels",
-   "commentaires": "6 Labels et 8 Prélabel à Label"
-  },
-  {
-   "session": "12/2022",
-   "candidatures": 30,
-   "old": {
-    "labels": 17,
-    "preLabels": 5,
-    "taux": "56.7"
-   },
-   "new": {
-    "labels": 16,
-    "preLabels": 5,
-    "tauxExact": 53.333333,
-    "taux": "53.3",
-    "echec": "46.7"
-   },
-   "reason": "7 nouveaux labels + 9 conversions = 16 (scrapé : 17)",
-   "commentaires": "07 Labels et 10 Prélabel à Label"
-  },
-  {
-   "session": "12/2023",
-   "candidatures": 39,
-   "old": {
-    "labels": 14,
-    "preLabels": 5,
-    "taux": "35.9"
-   },
-   "new": {
-    "labels": 12,
-    "preLabels": 5,
-    "tauxExact": 30.769231,
-    "taux": "30.8",
-    "echec": "69.2"
-   },
-   "reason": "7 nouveaux labels + 5 conversions = 12 (scrapé : 14)",
-   "commentaires": "7 Labels et 5 Prélabel à Label"
-  },
-  {
-   "session": "12/2025",
-   "candidatures": 41,
-   "old": {
-    "labels": 15,
-    "preLabels": 6,
-    "taux": "36.6"
-   },
-   "new": {
-    "labels": 16,
-    "preLabels": 6,
-    "tauxExact": 39.02439,
-    "taux": "39.0",
-    "echec": "61.0"
-   },
-   "reason": "6 nouveaux labels + 10 conversions − 5 retraits = 16",
-   "commentaires": "05 Labels et 10 Prélabels à Labels"
-  },
-  {
-   "session": "04/2019",
-   "candidatures": 52,
-   "old": {
-    "labels": 33,
-    "preLabels": 0,
-    "taux": "64.7"
-   },
-   "new": {
-    "labels": 33,
-    "preLabels": 0,
-    "tauxExact": 64.705882,
-    "taux": "64.7",
-    "echec": "35.3"
-   },
-   "reason": "CR = 52 décisions (33 labels) vs 51 candidatures affichées : « 1 ajourné à la session suivante » (reporté, décidé en mai 2019). 33 labels confirmés = chiffre officiel exact ; labels/prélabels non corrigés — écart de comptage documenté.",
-   "commentaires": "1 ajourné à la session suivante"
-  }
- ]
+  "meta": {
+    "totalSessions": 85,
+    "corrected": 21,
+    "totalsOld": {
+      "labels": 1324,
+      "preLabels": 617
+    },
+    "totalsNew": {
+      "labels": 1311,
+      "preLabels": 623
+    },
+    "lastUpdated": "2026-08-16T00:00:00Z",
+    "verified": "85/85 sessions vérifiées (85/85 sessions vérifiées, 3 scans vectoriels confirmés manuellement ; 11 sessions relues manuellement via comptes-rendus officiels : 04/2019, 06/2025, 07/2025, 08/2025, 09/2025, 10/2025, 11/2025, 12/2025, 01/2026, 02/2026, 03/2026)"
+  },
+  "originalTable": [
+    {
+      "session": "01/2020",
+      "candidatures": 38,
+      "labels": 18,
+      "preLabels": 11,
+      "taux": "47.4",
+      "echec": "52.6",
+      "commentaires": "14 Labels et 4 Prelabels à Labels"
+    },
+    {
+      "session": "01/2021",
+      "candidatures": 36,
+      "labels": 24,
+      "preLabels": 7,
+      "taux": "66.7",
+      "echec": "33.3",
+      "commentaires": "15 Labels et 9 Prelabels à Labels"
+    },
+    {
+      "session": "01/2022",
+      "candidatures": 38,
+      "labels": 15,
+      "preLabels": 9,
+      "taux": "39.5",
+      "echec": "60.5",
+      "commentaires": "9 Labels et 6 Prelabels à Labels"
+    },
+    {
+      "session": "01/2023",
+      "candidatures": 26,
+      "labels": 16,
+      "preLabels": 6,
+      "taux": "61.5",
+      "echec": "38.5",
+      "commentaires": "6 Labels et 10  Prélabels à Labels"
+    },
+    {
+      "session": "01/2024",
+      "candidatures": 33,
+      "labels": 14,
+      "preLabels": 6,
+      "taux": "42.4",
+      "echec": "57.6",
+      "commentaires": "8 Labels et 6 Prélabel à Label"
+    },
+    {
+      "session": "01/2025",
+      "candidatures": 39,
+      "labels": 18,
+      "preLabels": 2,
+      "taux": "46.2",
+      "echec": "53.8",
+      "commentaires": "13 Labels et 05 Prélabels à Labels"
+    },
+    {
+      "session": "01/2026",
+      "candidatures": 31,
+      "labels": 9,
+      "preLabels": 7,
+      "taux": "29.0",
+      "echec": "71.0",
+      "commentaires": "03 Labels et 06 Prélabels à Labels"
+    },
+    {
+      "session": "02/2020",
+      "candidatures": 32,
+      "labels": 22,
+      "preLabels": 11,
+      "taux": "68.8",
+      "echec": "31.3",
+      "commentaires": "13 Labels et 9 Prelabels à Labels"
+    },
+    {
+      "session": "02/2021",
+      "candidatures": 41,
+      "labels": 25,
+      "preLabels": 7,
+      "taux": "61.0",
+      "echec": "39.0",
+      "commentaires": "18 Labels et 7 Prelabels à Labels"
+    },
+    {
+      "session": "02/2022",
+      "candidatures": 18,
+      "labels": 12,
+      "preLabels": 3,
+      "taux": "66.7",
+      "echec": "33.3",
+      "commentaires": "8 Labels et 4 Prélabels à Labels"
+    },
+    {
+      "session": "02/2023",
+      "candidatures": 33,
+      "labels": 18,
+      "preLabels": 11,
+      "taux": "54.5",
+      "echec": "45.5",
+      "commentaires": "7 Labels et 11 Prélabels à Labels"
+    },
+    {
+      "session": "02/2024",
+      "candidatures": 33,
+      "labels": 9,
+      "preLabels": 6,
+      "taux": "27.3",
+      "echec": "72.7",
+      "commentaires": "4 Labels et 5 Prélabel à Label"
+    },
+    {
+      "session": "02/2025",
+      "candidatures": 41,
+      "labels": 13,
+      "preLabels": 9,
+      "taux": "31.7",
+      "echec": "68.3",
+      "commentaires": "13 Labels et 04 Prélabels à Labels"
+    },
+    {
+      "session": "02/2026",
+      "candidatures": 36,
+      "labels": 21,
+      "preLabels": 3,
+      "taux": "58.3",
+      "echec": "41.7",
+      "commentaires": "10 Labels et 11 Prélabels à Labels"
+    },
+    {
+      "session": "03/2019",
+      "candidatures": 16,
+      "labels": 12,
+      "preLabels": 0,
+      "taux": "75.0",
+      "echec": "25.0",
+      "commentaires": "2 ajourné à la session suivante"
+    },
+    {
+      "session": "03/2020",
+      "candidatures": 35,
+      "labels": 16,
+      "preLabels": 10,
+      "taux": "45.7",
+      "echec": "54.3",
+      "commentaires": "12 Labels et 4 Prelabels à Labels"
+    },
+    {
+      "session": "03/2021",
+      "candidatures": 41,
+      "labels": 25,
+      "preLabels": 8,
+      "taux": "61.0",
+      "echec": "39.0",
+      "commentaires": "12 Labels et 13 Prelabels à Labels"
+    },
+    {
+      "session": "03/2022",
+      "candidatures": 21,
+      "labels": 14,
+      "preLabels": 5,
+      "taux": "66.7",
+      "echec": "33.3",
+      "commentaires": "5 Labels et 9 Prélabels à Labels"
+    },
+    {
+      "session": "03/2023",
+      "candidatures": 37,
+      "labels": 13,
+      "preLabels": 6,
+      "taux": "35.1",
+      "echec": "64.9",
+      "commentaires": "8 Labels et 5 Prélabels à Labels"
+    },
+    {
+      "session": "03/2024",
+      "candidatures": 31,
+      "labels": 7,
+      "preLabels": 7,
+      "taux": "22.6",
+      "echec": "77.4",
+      "commentaires": "3 Labels et 4 Prélabel à Label"
+    },
+    {
+      "session": "03/2025",
+      "candidatures": 21,
+      "labels": 6,
+      "preLabels": 5,
+      "taux": "28.6",
+      "echec": "71.4",
+      "commentaires": "06 Labels et 0 Prélabels à Labels"
+    },
+    {
+      "session": "03/2026",
+      "candidatures": 41,
+      "labels": 13,
+      "preLabels": 7,
+      "taux": "31.7",
+      "echec": "68.3",
+      "commentaires": "10 Labels et 03 Prélabels à Labels"
+    },
+    {
+      "session": "04/2019",
+      "candidatures": 51,
+      "labels": 33,
+      "preLabels": 0,
+      "taux": "64.7",
+      "echec": "35.3",
+      "commentaires": "1 ajourné à la session suivante"
+    },
+    {
+      "session": "04/2020",
+      "candidatures": 40,
+      "labels": 20,
+      "preLabels": 7,
+      "taux": "50.0",
+      "echec": "50.0",
+      "commentaires": "17 Labels et 3 Prelabels à Labels"
+    },
+    {
+      "session": "04/2021",
+      "candidatures": 80,
+      "labels": 22,
+      "preLabels": 24,
+      "taux": "27.5",
+      "echec": "72.5",
+      "commentaires": "18 Labels et 4 Prelabels à Labels"
+    },
+    {
+      "session": "04/2022",
+      "candidatures": 22,
+      "labels": 9,
+      "preLabels": 6,
+      "taux": "40.9",
+      "echec": "59.1",
+      "commentaires": "5 Labels et 4 Prélabels à Labels"
+    },
+    {
+      "session": "04/2023",
+      "candidatures": 40,
+      "labels": 14,
+      "preLabels": 5,
+      "taux": "35.0",
+      "echec": "65.0",
+      "commentaires": "10 Labels et 4  Prélabels à Labels"
+    },
+    {
+      "session": "04/2024",
+      "candidatures": 39,
+      "labels": 14,
+      "preLabels": 5,
+      "taux": "35.9",
+      "echec": "64.1",
+      "commentaires": "9 Labels et 5 Prélabel à Label"
+    },
+    {
+      "session": "04/2025",
+      "candidatures": 21,
+      "labels": 13,
+      "preLabels": 5,
+      "taux": "61.9",
+      "echec": "38.1",
+      "commentaires": "05 Labels et 08 Prélabels à Labels"
+    },
+    {
+      "session": "05/2019",
+      "candidatures": 30,
+      "labels": 15,
+      "preLabels": 8,
+      "taux": "50.0",
+      "echec": "50.0",
+      "commentaires": "29 candidats pour mai + 1 candidat de la session d'avril"
+    },
+    {
+      "session": "05/2020",
+      "candidatures": 26,
+      "labels": 12,
+      "preLabels": 10,
+      "taux": "46.2",
+      "echec": "53.8",
+      "commentaires": "7 Labels et 5 Prelabels à Labels"
+    },
+    {
+      "session": "05/2021",
+      "candidatures": 40,
+      "labels": 19,
+      "preLabels": 8,
+      "taux": "47.5",
+      "echec": "52.5",
+      "commentaires": "13 Labels et 6 Prelabels à Labels"
+    },
+    {
+      "session": "05/2022",
+      "candidatures": 41,
+      "labels": 14,
+      "preLabels": 9,
+      "taux": "34.1",
+      "echec": "65.9",
+      "commentaires": "8 Labels et 6 Prélabels à Labels"
+    },
+    {
+      "session": "05/2023",
+      "candidatures": 39,
+      "labels": 19,
+      "preLabels": 9,
+      "taux": "48.7",
+      "echec": "51.3",
+      "commentaires": "13 Labels et 6  Prélabels à Labels"
+    },
+    {
+      "session": "05/2024",
+      "candidatures": 39,
+      "labels": 14,
+      "preLabels": 5,
+      "taux": "35.9",
+      "echec": "64.1",
+      "commentaires": "14 Labels et 5 Prélabel à Label"
+    },
+    {
+      "session": "05/2025",
+      "candidatures": 47,
+      "labels": 13,
+      "preLabels": 10,
+      "taux": "27.7",
+      "echec": "72.3",
+      "commentaires": "10 Labels et 03 Prélabels à Labels"
+    },
+    {
+      "session": "06/2019",
+      "candidatures": 33,
+      "labels": 15,
+      "preLabels": 8,
+      "taux": "45.5",
+      "echec": "54.5",
+      "commentaires": "1 ajourné à la session suivante"
+    },
+    {
+      "session": "06/2020",
+      "candidatures": 26,
+      "labels": 12,
+      "preLabels": 5,
+      "taux": "46.2",
+      "echec": "53.8",
+      "commentaires": "8 Labels et 4 Prelabels à Labels"
+    },
+    {
+      "session": "06/2021",
+      "candidatures": 41,
+      "labels": 18,
+      "preLabels": 6,
+      "taux": "43.9",
+      "echec": "56.1",
+      "commentaires": "11 Labels et 7 Prelabels à Labels"
+    },
+    {
+      "session": "06/2022",
+      "candidatures": 40,
+      "labels": 14,
+      "preLabels": 10,
+      "taux": "35.0",
+      "echec": "65.0",
+      "commentaires": "10 Labels et 4 Prélabels à Labels"
+    },
+    {
+      "session": "06/2023",
+      "candidatures": 28,
+      "labels": 10,
+      "preLabels": 8,
+      "taux": "35.7",
+      "echec": "64.3",
+      "commentaires": "4 Labels et 6 Prélabels à Labels"
+    },
+    {
+      "session": "06/2024",
+      "candidatures": 37,
+      "labels": 14,
+      "preLabels": 5,
+      "taux": "37.8",
+      "echec": "62.2",
+      "commentaires": "11 Labels et 3 Prélabel à Label"
+    },
+    {
+      "session": "06/2025",
+      "candidatures": 36,
+      "labels": 12,
+      "preLabels": 8,
+      "taux": "33.3",
+      "echec": "66.7",
+      "commentaires": "07 Labels et 05 Prélabels à Labels"
+    },
+    {
+      "session": "07/2019",
+      "candidatures": 28,
+      "labels": 15,
+      "preLabels": 8,
+      "taux": "53.6",
+      "echec": "46.4",
+      "commentaires": "14 Labels et 1 Prelabel (de la session de mai)"
+    },
+    {
+      "session": "07/2020",
+      "candidatures": 40,
+      "labels": 18,
+      "preLabels": 7,
+      "taux": "45.0",
+      "echec": "55.0",
+      "commentaires": "9 Labels et 9 Prelabels à Labels"
+    },
+    {
+      "session": "07/2021",
+      "candidatures": 40,
+      "labels": 22,
+      "preLabels": 5,
+      "taux": "55.0",
+      "echec": "45.0",
+      "commentaires": "11 Labels et 11 Prelabels à Labels"
+    },
+    {
+      "session": "07/2022",
+      "candidatures": 40,
+      "labels": 18,
+      "preLabels": 9,
+      "taux": "45.0",
+      "echec": "55.0",
+      "commentaires": "14 Labels et 4 Prélabels à Labels"
+    },
+    {
+      "session": "07/2023",
+      "candidatures": 33,
+      "labels": 15,
+      "preLabels": 8,
+      "taux": "45.5",
+      "echec": "54.5",
+      "commentaires": "6 Labels et 9 Prélabels à Labels"
+    },
+    {
+      "session": "07/2024",
+      "candidatures": 33,
+      "labels": 5,
+      "preLabels": 7,
+      "taux": "15.2",
+      "echec": "84.8",
+      "commentaires": "05 Labels et 2 Prélabel à Label"
+    },
+    {
+      "session": "07/2025",
+      "candidatures": 29,
+      "labels": 9,
+      "preLabels": 8,
+      "taux": "31.0",
+      "echec": "69.0",
+      "commentaires": "04 Labels et 05 Prélabels à Labels"
+    },
+    {
+      "session": "08/2019",
+      "candidatures": 28,
+      "labels": 24,
+      "preLabels": 7,
+      "taux": "85.7",
+      "echec": "14.3",
+      "commentaires": "18 Labels et 6 Prelabels à Labels"
+    },
+    {
+      "session": "08/2020",
+      "candidatures": 28,
+      "labels": 17,
+      "preLabels": 6,
+      "taux": "60.7",
+      "echec": "39.3",
+      "commentaires": "7 Labels et 10 Prelabels à Labels"
+    },
+    {
+      "session": "08/2021",
+      "candidatures": 25,
+      "labels": 13,
+      "preLabels": 4,
+      "taux": "52.0",
+      "echec": "48.0",
+      "commentaires": "6 Labels et 7 Prelabels à Labels"
+    },
+    {
+      "session": "08/2022",
+      "candidatures": 36,
+      "labels": 12,
+      "preLabels": 12,
+      "taux": "33.3",
+      "echec": "66.7",
+      "commentaires": "6 Labels et 6 Prélabels à Labels"
+    },
+    {
+      "session": "08/2023",
+      "candidatures": 26,
+      "labels": 11,
+      "preLabels": 6,
+      "taux": "42.3",
+      "echec": "57.7",
+      "commentaires": "4 Labels et 7 Prélabels à Labels"
+    },
+    {
+      "session": "08/2024",
+      "candidatures": 37,
+      "labels": 11,
+      "preLabels": 6,
+      "taux": "29.7",
+      "echec": "70.3",
+      "commentaires": "05 Labels et 06 Prélabel à Label"
+    },
+    {
+      "session": "08/2025",
+      "candidatures": 41,
+      "labels": 15,
+      "preLabels": 9,
+      "taux": "36.6",
+      "echec": "63.4",
+      "commentaires": "06 Labels et 09 Prélabels à Labels"
+    },
+    {
+      "session": "09/2019",
+      "candidatures": 24,
+      "labels": 15,
+      "preLabels": 6,
+      "taux": "62.5",
+      "echec": "37.5",
+      "commentaires": "12 Labels et 3 Prelabels à Labels"
+    },
+    {
+      "session": "09/2020",
+      "candidatures": 24,
+      "labels": 11,
+      "preLabels": 9,
+      "taux": "45.8",
+      "echec": "54.2",
+      "commentaires": "3 Labels et 8 Prelabels à Labels"
+    },
+    {
+      "session": "09/2021",
+      "candidatures": 15,
+      "labels": 13,
+      "preLabels": 6,
+      "taux": "86.7",
+      "echec": "13.3",
+      "commentaires": "2 Labels et 13 Prelabels à Labels"
+    },
+    {
+      "session": "09/2022",
+      "candidatures": 40,
+      "labels": 19,
+      "preLabels": 5,
+      "taux": "47.5",
+      "echec": "52.5",
+      "commentaires": "10 Labels et 9 Prélabels à Labels"
+    },
+    {
+      "session": "09/2023",
+      "candidatures": 33,
+      "labels": 15,
+      "preLabels": 6,
+      "taux": "45.5",
+      "echec": "54.5",
+      "commentaires": "7 Labels et 8 Prélabels à Labels"
+    },
+    {
+      "session": "09/2024",
+      "candidatures": 34,
+      "labels": 11,
+      "preLabels": 9,
+      "taux": "32.4",
+      "echec": "67.6",
+      "commentaires": "06 Labels et 05 Prélabel à Label"
+    },
+    {
+      "session": "09/2025",
+      "candidatures": 25,
+      "labels": 7,
+      "preLabels": 10,
+      "taux": "28.0",
+      "echec": "72.0",
+      "commentaires": "01 Labels et 06 Prélabels à Labels"
+    },
+    {
+      "session": "10/2019",
+      "candidatures": 34,
+      "labels": 23,
+      "preLabels": 4,
+      "taux": "67.6",
+      "echec": "32.4",
+      "commentaires": "18 Labels et 5 Prelabels à Labels"
+    },
+    {
+      "session": "10/2020",
+      "candidatures": 41,
+      "labels": 16,
+      "preLabels": 10,
+      "taux": "39.0",
+      "echec": "61.0",
+      "commentaires": "9 Labels et 7 Prelabels à Labels"
+    },
+    {
+      "session": "10/2021",
+      "candidatures": 41,
+      "labels": 23,
+      "preLabels": 7,
+      "taux": "56.1",
+      "echec": "43.9",
+      "commentaires": "2 Labels et 13 Prelabels à Labels"
+    },
+    {
+      "session": "10/2022",
+      "candidatures": 38,
+      "labels": 14,
+      "preLabels": 7,
+      "taux": "36.8",
+      "echec": "63.2",
+      "commentaires": "8 Labels et 6 Prélabels à Labels"
+    },
+    {
+      "session": "10/2023",
+      "candidatures": 31,
+      "labels": 6,
+      "preLabels": 5,
+      "taux": "19.4",
+      "echec": "80.6",
+      "commentaires": "5 Labels et 1 Prélabel à Label"
+    },
+    {
+      "session": "10/2024",
+      "candidatures": 43,
+      "labels": 15,
+      "preLabels": 7,
+      "taux": "34.9",
+      "echec": "65.1",
+      "commentaires": "09 Labels et 06 Prélabel à Label"
+    },
+    {
+      "session": "10/2025",
+      "candidatures": 41,
+      "labels": 17,
+      "preLabels": 12,
+      "taux": "41.5",
+      "echec": "58.5",
+      "commentaires": "10 Labels et 07 Prélabels à Labels"
+    },
+    {
+      "session": "11/2019",
+      "candidatures": 35,
+      "labels": 17,
+      "preLabels": 10,
+      "taux": "48.6",
+      "echec": "51.4",
+      "commentaires": "11 Labels et 6 Prelabels à Labels"
+    },
+    {
+      "session": "11/2020",
+      "candidatures": 41,
+      "labels": 26,
+      "preLabels": 14,
+      "taux": "63.4",
+      "echec": "36.6",
+      "commentaires": "13 Labels et 12 Prelabels à Labels"
+    },
+    {
+      "session": "11/2021",
+      "candidatures": 40,
+      "labels": 19,
+      "preLabels": 10,
+      "taux": "47.5",
+      "echec": "52.5",
+      "commentaires": "12 Labels et 7 Prelabels à Labels"
+    },
+    {
+      "session": "11/2022",
+      "candidatures": 34,
+      "labels": 17,
+      "preLabels": 10,
+      "taux": "50.0",
+      "echec": "50.0",
+      "commentaires": "9 Labels et 8 Prélabels à Labels"
+    },
+    {
+      "session": "11/2023",
+      "candidatures": 30,
+      "labels": 14,
+      "preLabels": 4,
+      "taux": "46.7",
+      "echec": "53.3",
+      "commentaires": "6 Labels et 8 Prélabel à Label"
+    },
+    {
+      "session": "11/2024",
+      "candidatures": 41,
+      "labels": 14,
+      "preLabels": 7,
+      "taux": "34.1",
+      "echec": "65.9",
+      "commentaires": "12 Labels et 02 Prélabel à Label"
+    },
+    {
+      "session": "11/2025",
+      "candidatures": 39,
+      "labels": 15,
+      "preLabels": 3,
+      "taux": "38.5",
+      "echec": "61.5",
+      "commentaires": "07 Labels et 08 Prélabels à Labels"
+    },
+    {
+      "session": "12/2019",
+      "candidatures": 32,
+      "labels": 23,
+      "preLabels": 8,
+      "taux": "71.9",
+      "echec": "28.1",
+      "commentaires": "13 Labels et 10 Prelabels à Labels"
+    },
+    {
+      "session": "12/2020",
+      "candidatures": 36,
+      "labels": 21,
+      "preLabels": 8,
+      "taux": "58.3",
+      "echec": "41.7",
+      "commentaires": "12 Labels et 9 Prelabels à Labels"
+    },
+    {
+      "session": "12/2021",
+      "candidatures": 38,
+      "labels": 20,
+      "preLabels": 11,
+      "taux": "52.6",
+      "echec": "47.4",
+      "commentaires": "14 Labels et 6 Prelabels à Labels"
+    },
+    {
+      "session": "12/2022",
+      "candidatures": 30,
+      "labels": 17,
+      "preLabels": 5,
+      "taux": "56.7",
+      "echec": "43.3",
+      "commentaires": "07 Labels et 10 Prélabel à Label"
+    },
+    {
+      "session": "12/2023",
+      "candidatures": 39,
+      "labels": 14,
+      "preLabels": 5,
+      "taux": "35.9",
+      "echec": "64.1",
+      "commentaires": "9 Labels et 5 Prélabel à Label"
+    },
+    {
+      "session": "12/2024",
+      "candidatures": 40,
+      "labels": 16,
+      "preLabels": 4,
+      "taux": "40.0",
+      "echec": "60.0",
+      "commentaires": "10 Labels et 06 Prélabels à Labels"
+    },
+    {
+      "session": "12/2025",
+      "candidatures": 41,
+      "labels": 15,
+      "preLabels": 6,
+      "taux": "36.6",
+      "echec": "63.4",
+      "commentaires": "05 Labels et 10 Prélabels à Labels"
+    }
+  ],
+  "correctedTable": [
+    {
+      "session": "01/2020",
+      "candidatures": 38,
+      "labels": 18,
+      "preLabels": 11,
+      "taux": "47.4",
+      "tauxExact": 47.368421052631575,
+      "echec": "52.6",
+      "echecExact": 52.631579,
+      "commentaires": "14 Labels et 4 Prelabels à Labels"
+    },
+    {
+      "session": "01/2021",
+      "candidatures": 36,
+      "labels": 24,
+      "preLabels": 7,
+      "taux": "66.7",
+      "tauxExact": 66.66666666666666,
+      "echec": "33.3",
+      "echecExact": 33.333333,
+      "commentaires": "15 Labels et 9 Prelabels à Labels"
+    },
+    {
+      "session": "01/2022",
+      "candidatures": 38,
+      "labels": 15,
+      "preLabels": 9,
+      "taux": "39.5",
+      "tauxExact": 39.473684210526315,
+      "echec": "60.5",
+      "echecExact": 60.526316,
+      "commentaires": "9 Labels et 6 Prelabels à Labels"
+    },
+    {
+      "session": "01/2023",
+      "candidatures": 26,
+      "labels": 16,
+      "preLabels": 6,
+      "taux": "61.5",
+      "tauxExact": 61.53846153846154,
+      "echec": "38.5",
+      "echecExact": 38.461538,
+      "commentaires": "6 Labels et 10  Prélabels à Labels"
+    },
+    {
+      "session": "01/2024",
+      "candidatures": 33,
+      "labels": 14,
+      "preLabels": 6,
+      "taux": "42.4",
+      "tauxExact": 42.42424242424242,
+      "echec": "57.6",
+      "echecExact": 57.575758,
+      "commentaires": "8 Labels et 6 Prélabel à Label"
+    },
+    {
+      "session": "01/2025",
+      "candidatures": 39,
+      "labels": 13,
+      "preLabels": 2,
+      "taux": "33.3",
+      "tauxExact": 33.33333333333333,
+      "echec": "66.7",
+      "echecExact": 66.666667,
+      "commentaires": "13 Labels et 05 Prélabels à Labels"
+    },
+    {
+      "session": "01/2026",
+      "candidatures": 31,
+      "labels": 10,
+      "preLabels": 7,
+      "taux": "32.3",
+      "tauxExact": 32.25806451612903,
+      "echec": "67.7",
+      "echecExact": 67.741935,
+      "commentaires": "03 Labels et 06 Prélabels à Labels"
+    },
+    {
+      "session": "02/2020",
+      "candidatures": 32,
+      "labels": 22,
+      "preLabels": 11,
+      "taux": "68.8",
+      "tauxExact": 68.75,
+      "echec": "31.2",
+      "echecExact": 31.25,
+      "commentaires": "13 Labels et 9 Prelabels à Labels"
+    },
+    {
+      "session": "02/2021",
+      "candidatures": 41,
+      "labels": 25,
+      "preLabels": 10,
+      "taux": "61.0",
+      "tauxExact": 60.97560975609756,
+      "echec": "39.0",
+      "echecExact": 39.02439,
+      "commentaires": "18 Labels et 7 Prelabels à Labels"
+    },
+    {
+      "session": "02/2022",
+      "candidatures": 18,
+      "labels": 12,
+      "preLabels": 3,
+      "taux": "66.7",
+      "tauxExact": 66.66666666666666,
+      "echec": "33.3",
+      "echecExact": 33.333333,
+      "commentaires": "8 Labels et 4 Prélabels à Labels"
+    },
+    {
+      "session": "02/2023",
+      "candidatures": 33,
+      "labels": 18,
+      "preLabels": 11,
+      "taux": "54.5",
+      "tauxExact": 54.54545454545454,
+      "echec": "45.5",
+      "echecExact": 45.454545,
+      "commentaires": "7 Labels et 11 Prélabels à Labels"
+    },
+    {
+      "session": "02/2024",
+      "candidatures": 33,
+      "labels": 9,
+      "preLabels": 6,
+      "taux": "27.3",
+      "tauxExact": 27.27272727272727,
+      "echec": "72.7",
+      "echecExact": 72.727273,
+      "commentaires": "4 Labels et 5 Prélabel à Label"
+    },
+    {
+      "session": "02/2025",
+      "candidatures": 41,
+      "labels": 13,
+      "preLabels": 9,
+      "taux": "31.7",
+      "tauxExact": 31.70731707317073,
+      "echec": "68.3",
+      "echecExact": 68.292683,
+      "commentaires": "13 Labels et 04 Prélabels à Labels"
+    },
+    {
+      "session": "02/2026",
+      "candidatures": 36,
+      "labels": 20,
+      "preLabels": 3,
+      "taux": "55.6",
+      "tauxExact": 55.55555555555556,
+      "echec": "44.4",
+      "echecExact": 44.444444,
+      "commentaires": "10 Labels et 11 Prélabels à Labels"
+    },
+    {
+      "session": "03/2019",
+      "candidatures": 16,
+      "labels": 12,
+      "preLabels": 0,
+      "taux": "75.0",
+      "tauxExact": 75.0,
+      "echec": "25.0",
+      "echecExact": 25.0,
+      "commentaires": "2 ajourné à la session suivante"
+    },
+    {
+      "session": "03/2020",
+      "candidatures": 35,
+      "labels": 16,
+      "preLabels": 10,
+      "taux": "45.7",
+      "tauxExact": 45.714285714285715,
+      "echec": "54.3",
+      "echecExact": 54.285714,
+      "commentaires": "12 Labels et 4 Prelabels à Labels"
+    },
+    {
+      "session": "03/2021",
+      "candidatures": 41,
+      "labels": 25,
+      "preLabels": 8,
+      "taux": "61.0",
+      "tauxExact": 60.97560975609756,
+      "echec": "39.0",
+      "echecExact": 39.02439,
+      "commentaires": "12 Labels et 13 Prelabels à Labels"
+    },
+    {
+      "session": "03/2022",
+      "candidatures": 21,
+      "labels": 14,
+      "preLabels": 5,
+      "taux": "66.7",
+      "tauxExact": 66.66666666666666,
+      "echec": "33.3",
+      "echecExact": 33.333333,
+      "commentaires": "5 Labels et 9 Prélabels à Labels"
+    },
+    {
+      "session": "03/2023",
+      "candidatures": 37,
+      "labels": 14,
+      "preLabels": 6,
+      "taux": "37.8",
+      "tauxExact": 37.83783783783784,
+      "echec": "62.2",
+      "echecExact": 62.162162,
+      "commentaires": "8 Labels et 5 Prélabels à Labels"
+    },
+    {
+      "session": "03/2024",
+      "candidatures": 31,
+      "labels": 6,
+      "preLabels": 7,
+      "taux": "19.4",
+      "tauxExact": 19.35483870967742,
+      "echec": "80.6",
+      "echecExact": 80.645161,
+      "commentaires": "3 Labels et 4 Prélabel à Label"
+    },
+    {
+      "session": "03/2025",
+      "candidatures": 21,
+      "labels": 6,
+      "preLabels": 5,
+      "taux": "28.6",
+      "tauxExact": 28.57142857142857,
+      "echec": "71.4",
+      "echecExact": 71.428571,
+      "commentaires": "06 Labels et 0 Prélabels à Labels"
+    },
+    {
+      "session": "03/2026",
+      "candidatures": 41,
+      "labels": 13,
+      "preLabels": 7,
+      "taux": "31.7",
+      "tauxExact": 31.70731707317073,
+      "echec": "68.3",
+      "echecExact": 68.292683,
+      "commentaires": "10 Labels et 03 Prélabels à Labels"
+    },
+    {
+      "session": "04/2019",
+      "candidatures": 51,
+      "labels": 33,
+      "preLabels": 0,
+      "taux": "64.7",
+      "tauxExact": 64.70588235294117,
+      "echec": "35.3",
+      "echecExact": 35.294118,
+      "commentaires": "1 ajourné à la session suivante"
+    },
+    {
+      "session": "04/2020",
+      "candidatures": 40,
+      "labels": 20,
+      "preLabels": 7,
+      "taux": "50.0",
+      "tauxExact": 50.0,
+      "echec": "50.0",
+      "echecExact": 50.0,
+      "commentaires": "17 Labels et 3 Prelabels à Labels"
+    },
+    {
+      "session": "04/2021",
+      "candidatures": 80,
+      "labels": 22,
+      "preLabels": 24,
+      "taux": "27.5",
+      "tauxExact": 27.500000000000004,
+      "echec": "72.5",
+      "echecExact": 72.5,
+      "commentaires": "18 Labels et 4 Prelabels à Labels"
+    },
+    {
+      "session": "04/2022",
+      "candidatures": 22,
+      "labels": 9,
+      "preLabels": 6,
+      "taux": "40.9",
+      "tauxExact": 40.909090909090914,
+      "echec": "59.1",
+      "echecExact": 59.090909,
+      "commentaires": "5 Labels et 4 Prélabels à Labels"
+    },
+    {
+      "session": "04/2023",
+      "candidatures": 40,
+      "labels": 13,
+      "preLabels": 5,
+      "taux": "32.5",
+      "tauxExact": 32.5,
+      "echec": "67.5",
+      "echecExact": 67.5,
+      "commentaires": "10 Labels et 4  Prélabels à Labels"
+    },
+    {
+      "session": "04/2024",
+      "candidatures": 39,
+      "labels": 14,
+      "preLabels": 5,
+      "taux": "35.9",
+      "tauxExact": 35.8974358974359,
+      "echec": "64.1",
+      "echecExact": 64.102564,
+      "commentaires": "9 Labels et 5 Prélabel à Label"
+    },
+    {
+      "session": "04/2025",
+      "candidatures": 21,
+      "labels": 13,
+      "preLabels": 5,
+      "taux": "61.9",
+      "tauxExact": 61.904761904761905,
+      "echec": "38.1",
+      "echecExact": 38.095238,
+      "commentaires": "05 Labels et 08 Prélabels à Labels"
+    },
+    {
+      "session": "05/2019",
+      "candidatures": 30,
+      "labels": 15,
+      "preLabels": 8,
+      "taux": "50.0",
+      "tauxExact": 50.0,
+      "echec": "50.0",
+      "echecExact": 50.0,
+      "commentaires": "29 candidats pour mai + 1 candidat de la session d'avril"
+    },
+    {
+      "session": "05/2020",
+      "candidatures": 26,
+      "labels": 12,
+      "preLabels": 10,
+      "taux": "46.2",
+      "tauxExact": 46.15384615384615,
+      "echec": "53.8",
+      "echecExact": 53.846154,
+      "commentaires": "7 Labels et 5 Prelabels à Labels"
+    },
+    {
+      "session": "05/2021",
+      "candidatures": 40,
+      "labels": 19,
+      "preLabels": 8,
+      "taux": "47.5",
+      "tauxExact": 47.5,
+      "echec": "52.5",
+      "echecExact": 52.5,
+      "commentaires": "13 Labels et 6 Prelabels à Labels"
+    },
+    {
+      "session": "05/2022",
+      "candidatures": 41,
+      "labels": 14,
+      "preLabels": 9,
+      "taux": "34.1",
+      "tauxExact": 34.146341463414636,
+      "echec": "65.9",
+      "echecExact": 65.853659,
+      "commentaires": "8 Labels et 6 Prélabels à Labels"
+    },
+    {
+      "session": "05/2023",
+      "candidatures": 39,
+      "labels": 19,
+      "preLabels": 9,
+      "taux": "48.7",
+      "tauxExact": 48.717948717948715,
+      "echec": "51.3",
+      "echecExact": 51.282051,
+      "commentaires": "13 Labels et 6  Prélabels à Labels"
+    },
+    {
+      "session": "05/2024",
+      "candidatures": 39,
+      "labels": 14,
+      "preLabels": 5,
+      "taux": "35.9",
+      "tauxExact": 35.8974358974359,
+      "echec": "64.1",
+      "echecExact": 64.102564,
+      "commentaires": "14 Labels et 5 Prélabel à Label"
+    },
+    {
+      "session": "05/2025",
+      "candidatures": 47,
+      "labels": 13,
+      "preLabels": 13,
+      "taux": "27.7",
+      "tauxExact": 27.659574468085108,
+      "echec": "72.3",
+      "echecExact": 72.340426,
+      "commentaires": "10 Labels et 03 Prélabels à Labels"
+    },
+    {
+      "session": "06/2019",
+      "candidatures": 33,
+      "labels": 14,
+      "preLabels": 8,
+      "taux": "42.4",
+      "tauxExact": 42.42424242424242,
+      "echec": "57.6",
+      "echecExact": 57.575758,
+      "commentaires": "1 ajourné à la session suivante"
+    },
+    {
+      "session": "06/2020",
+      "candidatures": 26,
+      "labels": 12,
+      "preLabels": 5,
+      "taux": "46.2",
+      "tauxExact": 46.15384615384615,
+      "echec": "53.8",
+      "echecExact": 53.846154,
+      "commentaires": "8 Labels et 4 Prelabels à Labels"
+    },
+    {
+      "session": "06/2021",
+      "candidatures": 41,
+      "labels": 18,
+      "preLabels": 6,
+      "taux": "43.9",
+      "tauxExact": 43.90243902439025,
+      "echec": "56.1",
+      "echecExact": 56.097561,
+      "commentaires": "11 Labels et 7 Prelabels à Labels"
+    },
+    {
+      "session": "06/2022",
+      "candidatures": 40,
+      "labels": 14,
+      "preLabels": 10,
+      "taux": "35.0",
+      "tauxExact": 35.0,
+      "echec": "65.0",
+      "echecExact": 65.0,
+      "commentaires": "10 Labels et 4 Prélabels à Labels"
+    },
+    {
+      "session": "06/2023",
+      "candidatures": 28,
+      "labels": 10,
+      "preLabels": 8,
+      "taux": "35.7",
+      "tauxExact": 35.714285714285715,
+      "echec": "64.3",
+      "echecExact": 64.285714,
+      "commentaires": "4 Labels et 6 Prélabels à Labels"
+    },
+    {
+      "session": "06/2024",
+      "candidatures": 37,
+      "labels": 14,
+      "preLabels": 5,
+      "taux": "37.8",
+      "tauxExact": 37.83783783783784,
+      "echec": "62.2",
+      "echecExact": 62.162162,
+      "commentaires": "11 Labels et 3 Prélabel à Label"
+    },
+    {
+      "session": "06/2025",
+      "candidatures": 36,
+      "labels": 12,
+      "preLabels": 8,
+      "taux": "33.3",
+      "tauxExact": 33.33333333333333,
+      "echec": "66.7",
+      "echecExact": 66.666667,
+      "commentaires": "07 Labels et 05 Prélabels à Labels"
+    },
+    {
+      "session": "07/2019",
+      "candidatures": 28,
+      "labels": 14,
+      "preLabels": 8,
+      "taux": "50.0",
+      "tauxExact": 50.0,
+      "echec": "50.0",
+      "echecExact": 50.0,
+      "commentaires": "14 Labels et 1 Prelabel (de la session de mai)"
+    },
+    {
+      "session": "07/2020",
+      "candidatures": 40,
+      "labels": 18,
+      "preLabels": 7,
+      "taux": "45.0",
+      "tauxExact": 45.0,
+      "echec": "55.0",
+      "echecExact": 55.0,
+      "commentaires": "9 Labels et 9 Prelabels à Labels"
+    },
+    {
+      "session": "07/2021",
+      "candidatures": 40,
+      "labels": 22,
+      "preLabels": 5,
+      "taux": "55.0",
+      "tauxExact": 55.00000000000001,
+      "echec": "45.0",
+      "echecExact": 45.0,
+      "commentaires": "11 Labels et 11 Prelabels à Labels"
+    },
+    {
+      "session": "07/2022",
+      "candidatures": 40,
+      "labels": 18,
+      "preLabels": 9,
+      "taux": "45.0",
+      "tauxExact": 45.0,
+      "echec": "55.0",
+      "echecExact": 55.0,
+      "commentaires": "14 Labels et 4 Prélabels à Labels"
+    },
+    {
+      "session": "07/2023",
+      "candidatures": 33,
+      "labels": 15,
+      "preLabels": 8,
+      "taux": "45.5",
+      "tauxExact": 45.45454545454545,
+      "echec": "54.5",
+      "echecExact": 54.545455,
+      "commentaires": "6 Labels et 9 Prélabels à Labels"
+    },
+    {
+      "session": "07/2024",
+      "candidatures": 33,
+      "labels": 6,
+      "preLabels": 7,
+      "taux": "18.2",
+      "tauxExact": 18.181818181818183,
+      "echec": "81.8",
+      "echecExact": 81.818182,
+      "commentaires": "05 Labels et 2 Prélabel à Label"
+    },
+    {
+      "session": "07/2025",
+      "candidatures": 29,
+      "labels": 9,
+      "preLabels": 8,
+      "taux": "31.0",
+      "tauxExact": 31.03448275862069,
+      "echec": "69.0",
+      "echecExact": 68.965517,
+      "commentaires": "04 Labels et 05 Prélabels à Labels"
+    },
+    {
+      "session": "08/2019",
+      "candidatures": 28,
+      "labels": 20,
+      "preLabels": 5,
+      "taux": "71.4",
+      "tauxExact": 71.42857142857143,
+      "echec": "28.6",
+      "echecExact": 28.571429,
+      "commentaires": "18 Labels et 6 Prelabels à Labels"
+    },
+    {
+      "session": "08/2020",
+      "candidatures": 28,
+      "labels": 17,
+      "preLabels": 6,
+      "taux": "60.7",
+      "tauxExact": 60.71428571428571,
+      "echec": "39.3",
+      "echecExact": 39.285714,
+      "commentaires": "7 Labels et 10 Prelabels à Labels"
+    },
+    {
+      "session": "08/2021",
+      "candidatures": 25,
+      "labels": 13,
+      "preLabels": 4,
+      "taux": "52.0",
+      "tauxExact": 52.0,
+      "echec": "48.0",
+      "echecExact": 48.0,
+      "commentaires": "6 Labels et 7 Prelabels à Labels"
+    },
+    {
+      "session": "08/2022",
+      "candidatures": 36,
+      "labels": 12,
+      "preLabels": 12,
+      "taux": "33.3",
+      "tauxExact": 33.33333333333333,
+      "echec": "66.7",
+      "echecExact": 66.666667,
+      "commentaires": "6 Labels et 6 Prélabels à Labels"
+    },
+    {
+      "session": "08/2023",
+      "candidatures": 26,
+      "labels": 11,
+      "preLabels": 5,
+      "taux": "42.3",
+      "tauxExact": 42.30769230769231,
+      "echec": "57.7",
+      "echecExact": 57.692308,
+      "commentaires": "4 Labels et 7 Prélabels à Labels"
+    },
+    {
+      "session": "08/2024",
+      "candidatures": 37,
+      "labels": 11,
+      "preLabels": 6,
+      "taux": "29.7",
+      "tauxExact": 29.72972972972973,
+      "echec": "70.3",
+      "echecExact": 70.27027,
+      "commentaires": "05 Labels et 06 Prélabel à Label"
+    },
+    {
+      "session": "08/2025",
+      "candidatures": 41,
+      "labels": 15,
+      "preLabels": 9,
+      "taux": "36.6",
+      "tauxExact": 36.58536585365854,
+      "echec": "63.4",
+      "echecExact": 63.414634,
+      "commentaires": "06 Labels et 09 Prélabels à Labels"
+    },
+    {
+      "session": "09/2019",
+      "candidatures": 24,
+      "labels": 15,
+      "preLabels": 6,
+      "taux": "62.5",
+      "tauxExact": 62.5,
+      "echec": "37.5",
+      "echecExact": 37.5,
+      "commentaires": "12 Labels et 3 Prelabels à Labels"
+    },
+    {
+      "session": "09/2020",
+      "candidatures": 24,
+      "labels": 11,
+      "preLabels": 9,
+      "taux": "45.8",
+      "tauxExact": 45.83333333333333,
+      "echec": "54.2",
+      "echecExact": 54.166667,
+      "commentaires": "3 Labels et 8 Prelabels à Labels"
+    },
+    {
+      "session": "09/2021",
+      "candidatures": 15,
+      "labels": 15,
+      "preLabels": 6,
+      "taux": "100.0",
+      "tauxExact": 100.0,
+      "echec": "0.0",
+      "echecExact": 0.0,
+      "commentaires": "2 Labels et 13 Prelabels à Labels"
+    },
+    {
+      "session": "09/2022",
+      "candidatures": 40,
+      "labels": 19,
+      "preLabels": 5,
+      "taux": "47.5",
+      "tauxExact": 47.5,
+      "echec": "52.5",
+      "echecExact": 52.5,
+      "commentaires": "10 Labels et 9 Prélabels à Labels"
+    },
+    {
+      "session": "09/2023",
+      "candidatures": 33,
+      "labels": 15,
+      "preLabels": 6,
+      "taux": "45.5",
+      "tauxExact": 45.45454545454545,
+      "echec": "54.5",
+      "echecExact": 54.545455,
+      "commentaires": "7 Labels et 8 Prélabels à Labels"
+    },
+    {
+      "session": "09/2024",
+      "candidatures": 34,
+      "labels": 11,
+      "preLabels": 9,
+      "taux": "32.4",
+      "tauxExact": 32.35294117647059,
+      "echec": "67.6",
+      "echecExact": 67.647059,
+      "commentaires": "06 Labels et 05 Prélabel à Label"
+    },
+    {
+      "session": "09/2025",
+      "candidatures": 25,
+      "labels": 7,
+      "preLabels": 10,
+      "taux": "28.0",
+      "tauxExact": 28.000000000000004,
+      "echec": "72.0",
+      "echecExact": 72.0,
+      "commentaires": "01 Labels et 06 Prélabels à Labels"
+    },
+    {
+      "session": "10/2019",
+      "candidatures": 34,
+      "labels": 23,
+      "preLabels": 5,
+      "taux": "67.6",
+      "tauxExact": 67.64705882352942,
+      "echec": "32.4",
+      "echecExact": 32.352941,
+      "commentaires": "18 Labels et 5 Prelabels à Labels"
+    },
+    {
+      "session": "10/2020",
+      "candidatures": 41,
+      "labels": 16,
+      "preLabels": 10,
+      "taux": "39.0",
+      "tauxExact": 39.02439024390244,
+      "echec": "61.0",
+      "echecExact": 60.97561,
+      "commentaires": "9 Labels et 7 Prelabels à Labels"
+    },
+    {
+      "session": "10/2021",
+      "candidatures": 41,
+      "labels": 23,
+      "preLabels": 7,
+      "taux": "56.1",
+      "tauxExact": 56.09756097560976,
+      "echec": "43.9",
+      "echecExact": 43.902439,
+      "commentaires": "2 Labels et 13 Prelabels à Labels"
+    },
+    {
+      "session": "10/2022",
+      "candidatures": 38,
+      "labels": 14,
+      "preLabels": 7,
+      "taux": "36.8",
+      "tauxExact": 36.84210526315789,
+      "echec": "63.2",
+      "echecExact": 63.157895,
+      "commentaires": "8 Labels et 6 Prélabels à Labels"
+    },
+    {
+      "session": "10/2023",
+      "candidatures": 31,
+      "labels": 6,
+      "preLabels": 4,
+      "taux": "19.4",
+      "tauxExact": 19.35483870967742,
+      "echec": "80.6",
+      "echecExact": 80.645161,
+      "commentaires": "5 Labels et 1 Prélabel à Label"
+    },
+    {
+      "session": "10/2024",
+      "candidatures": 43,
+      "labels": 15,
+      "preLabels": 7,
+      "taux": "34.9",
+      "tauxExact": 34.883720930232556,
+      "echec": "65.1",
+      "echecExact": 65.116279,
+      "commentaires": "09 Labels et 06 Prélabel à Label"
+    },
+    {
+      "session": "10/2025",
+      "candidatures": 41,
+      "labels": 17,
+      "preLabels": 12,
+      "taux": "41.5",
+      "tauxExact": 41.46341463414634,
+      "echec": "58.5",
+      "echecExact": 58.536585,
+      "commentaires": "10 Labels et 07 Prélabels à Labels"
+    },
+    {
+      "session": "11/2019",
+      "candidatures": 35,
+      "labels": 17,
+      "preLabels": 10,
+      "taux": "48.6",
+      "tauxExact": 48.57142857142857,
+      "echec": "51.4",
+      "echecExact": 51.428571,
+      "commentaires": "11 Labels et 6 Prelabels à Labels"
+    },
+    {
+      "session": "11/2020",
+      "candidatures": 41,
+      "labels": 26,
+      "preLabels": 14,
+      "taux": "63.4",
+      "tauxExact": 63.41463414634146,
+      "echec": "36.6",
+      "echecExact": 36.585366,
+      "commentaires": "13 Labels et 12 Prelabels à Labels"
+    },
+    {
+      "session": "11/2021",
+      "candidatures": 40,
+      "labels": 19,
+      "preLabels": 10,
+      "taux": "47.5",
+      "tauxExact": 47.5,
+      "echec": "52.5",
+      "echecExact": 52.5,
+      "commentaires": "12 Labels et 7 Prelabels à Labels"
+    },
+    {
+      "session": "11/2022",
+      "candidatures": 34,
+      "labels": 17,
+      "preLabels": 10,
+      "taux": "50.0",
+      "tauxExact": 50.0,
+      "echec": "50.0",
+      "echecExact": 50.0,
+      "commentaires": "9 Labels et 8 Prélabels à Labels"
+    },
+    {
+      "session": "11/2023",
+      "candidatures": 30,
+      "labels": 12,
+      "preLabels": 7,
+      "taux": "40.0",
+      "tauxExact": 40.0,
+      "echec": "60.0",
+      "echecExact": 60.0,
+      "commentaires": "6 Labels et 8 Prélabel à Label"
+    },
+    {
+      "session": "11/2024",
+      "candidatures": 41,
+      "labels": 14,
+      "preLabels": 7,
+      "taux": "34.1",
+      "tauxExact": 34.146341463414636,
+      "echec": "65.9",
+      "echecExact": 65.853659,
+      "commentaires": "12 Labels et 02 Prélabel à Label"
+    },
+    {
+      "session": "11/2025",
+      "candidatures": 39,
+      "labels": 15,
+      "preLabels": 3,
+      "taux": "38.5",
+      "tauxExact": 38.46153846153847,
+      "echec": "61.5",
+      "echecExact": 61.538462,
+      "commentaires": "07 Labels et 08 Prélabels à Labels"
+    },
+    {
+      "session": "12/2019",
+      "candidatures": 32,
+      "labels": 23,
+      "preLabels": 8,
+      "taux": "71.9",
+      "tauxExact": 71.875,
+      "echec": "28.1",
+      "echecExact": 28.125,
+      "commentaires": "13 Labels et 10 Prelabels à Labels"
+    },
+    {
+      "session": "12/2020",
+      "candidatures": 36,
+      "labels": 21,
+      "preLabels": 8,
+      "taux": "58.3",
+      "tauxExact": 58.333333333333336,
+      "echec": "41.7",
+      "echecExact": 41.666667,
+      "commentaires": "12 Labels et 9 Prelabels à Labels"
+    },
+    {
+      "session": "12/2021",
+      "candidatures": 38,
+      "labels": 20,
+      "preLabels": 11,
+      "taux": "52.6",
+      "tauxExact": 52.63157894736842,
+      "echec": "47.4",
+      "echecExact": 47.368421,
+      "commentaires": "14 Labels et 6 Prelabels à Labels"
+    },
+    {
+      "session": "12/2022",
+      "candidatures": 30,
+      "labels": 16,
+      "preLabels": 5,
+      "taux": "53.3",
+      "tauxExact": 53.333333333333336,
+      "echec": "46.7",
+      "echecExact": 46.666667,
+      "commentaires": "07 Labels et 10 Prélabel à Label"
+    },
+    {
+      "session": "12/2023",
+      "candidatures": 39,
+      "labels": 12,
+      "preLabels": 5,
+      "taux": "30.8",
+      "tauxExact": 30.76923076923077,
+      "echec": "69.2",
+      "echecExact": 69.230769,
+      "commentaires": "7 Labels et 5 Prélabel à Label"
+    },
+    {
+      "session": "12/2024",
+      "candidatures": 40,
+      "labels": 16,
+      "preLabels": 4,
+      "taux": "40.0",
+      "tauxExact": 40.0,
+      "echec": "60.0",
+      "echecExact": 60.0,
+      "commentaires": "10 Labels et 06 Prélabels à Labels"
+    },
+    {
+      "session": "12/2025",
+      "candidatures": 41,
+      "labels": 16,
+      "preLabels": 6,
+      "taux": "39.0",
+      "tauxExact": 39.02439024390244,
+      "echec": "61.0",
+      "echecExact": 60.97561,
+      "commentaires": "05 Labels et 10 Prélabels à Labels"
+    }
+  ],
+  "corrections": [
+    {
+      "session": "01/2025",
+      "candidatures": 39,
+      "old": {
+        "labels": 18,
+        "preLabels": 2,
+        "taux": "46.2"
+      },
+      "new": {
+        "labels": 13,
+        "preLabels": 2,
+        "tauxExact": 33.333333,
+        "taux": "33.3",
+        "echec": "66.7"
+      },
+      "reason": "8 nouveaux labels + 5 conversions − 2 retraits = 13 (scrapé : 18)",
+      "commentaires": "13 Labels et 05 Prélabels à Labels"
+    },
+    {
+      "session": "01/2026",
+      "candidatures": 31,
+      "old": {
+        "labels": 9,
+        "preLabels": 7,
+        "taux": "29.0"
+      },
+      "new": {
+        "labels": 10,
+        "preLabels": 7,
+        "tauxExact": 32.258065,
+        "taux": "32.3",
+        "echec": "67.7"
+      },
+      "reason": "3 nouveaux labels + 7 conversions − 5 retraits = 10. Écart documentaire candidatures : sessions.json annonce 31 candidatures, mais le CR/PDF officiel (Session 82) liste 30 dossiers (24 page 1 + 6 page 2) — aucune mention « ajourné » ; 1 candidature non identifiable par recoupement. Les 10 labels officiels (3 labels + 7 conversions) et les 7 prélabels sont confirmés par le CR. Ne pas recalculer le taux officiel 10/31 = 32,3 % sur une base de 30.",
+      "commentaires": "03 Labels et 06 Prélabels à Labels (commentaire officiel erroné : 7 conversions réelles, total labels 10 cohérent)"
+    },
+    {
+      "session": "02/2021",
+      "candidatures": 41,
+      "old": {
+        "labels": 25,
+        "preLabels": 7,
+        "taux": "61.0"
+      },
+      "new": {
+        "labels": 25,
+        "preLabels": 10,
+        "tauxExact": 60.97561,
+        "taux": "61.0",
+        "echec": "39.0"
+      },
+      "reason": "18 nouveaux labels + 7 conversions = 25, 10 prélabels",
+      "commentaires": "18 Labels et 7 Prelabels à Labels"
+    },
+    {
+      "session": "02/2026",
+      "candidatures": 36,
+      "old": {
+        "labels": 21,
+        "preLabels": 3,
+        "taux": "58.3"
+      },
+      "new": {
+        "labels": 20,
+        "preLabels": 3,
+        "tauxExact": 55.555556,
+        "taux": "55.6",
+        "echec": "44.4"
+      },
+      "reason": "9 nouveaux labels + 11 conversions − 2 retraits = 20",
+      "commentaires": "10 Labels et 11 Prélabels à Labels"
+    },
+    {
+      "session": "03/2023",
+      "candidatures": 37,
+      "old": {
+        "labels": 13,
+        "preLabels": 6,
+        "taux": "35.1"
+      },
+      "new": {
+        "labels": 14,
+        "preLabels": 6,
+        "tauxExact": 37.837838,
+        "taux": "37.8",
+        "echec": "62.2"
+      },
+      "reason": "9 nouveaux labels + 5 conversions = 14 (scrapé : 13)",
+      "commentaires": "8 Labels et 5 Prélabels à Labels"
+    },
+    {
+      "session": "03/2024",
+      "candidatures": 31,
+      "old": {
+        "labels": 7,
+        "preLabels": 7,
+        "taux": "22.6"
+      },
+      "new": {
+        "labels": 6,
+        "preLabels": 7,
+        "tauxExact": 19.354839,
+        "taux": "19.4",
+        "echec": "80.6"
+      },
+      "reason": "2 nouveaux labels + 4 conversions − 3 retraits = 6 (scrapé : 7)",
+      "commentaires": "3 Labels et 4 Prélabel à Label"
+    },
+    {
+      "session": "04/2023",
+      "candidatures": 40,
+      "old": {
+        "labels": 14,
+        "preLabels": 5,
+        "taux": "35.0"
+      },
+      "new": {
+        "labels": 13,
+        "preLabels": 5,
+        "tauxExact": 32.5,
+        "taux": "32.5",
+        "echec": "67.5"
+      },
+      "reason": "13 labels (scrapé : 14)",
+      "commentaires": "10 Labels et 4  Prélabels à Labels"
+    },
+    {
+      "session": "05/2025",
+      "candidatures": 47,
+      "old": {
+        "labels": 13,
+        "preLabels": 10,
+        "taux": "27.7"
+      },
+      "new": {
+        "labels": 13,
+        "preLabels": 13,
+        "tauxExact": 27.659574,
+        "taux": "27.7",
+        "echec": "72.3"
+      },
+      "reason": "13 prélabels listés (scrapé : 10)",
+      "commentaires": "10 Labels et 03 Prélabels à Labels"
+    },
+    {
+      "session": "06/2019",
+      "candidatures": 33,
+      "old": {
+        "labels": 15,
+        "preLabels": 8,
+        "taux": "45.5"
+      },
+      "new": {
+        "labels": 14,
+        "preLabels": 8,
+        "tauxExact": 42.424242,
+        "taux": "42.4",
+        "echec": "57.6"
+      },
+      "reason": "14 labels (scrapé : 15)",
+      "commentaires": "1 ajourné à la session suivante"
+    },
+    {
+      "session": "07/2019",
+      "candidatures": 28,
+      "old": {
+        "labels": 15,
+        "preLabels": 8,
+        "taux": "53.6"
+      },
+      "new": {
+        "labels": 14,
+        "preLabels": 8,
+        "tauxExact": 50.0,
+        "taux": "50.0",
+        "echec": "50.0"
+      },
+      "reason": "14 labels (scrapé : 15)",
+      "commentaires": "14 Labels et 1 Prelabel (de la session de mai)"
+    },
+    {
+      "session": "07/2024",
+      "candidatures": 33,
+      "old": {
+        "labels": 5,
+        "preLabels": 7,
+        "taux": "15.2"
+      },
+      "new": {
+        "labels": 6,
+        "preLabels": 7,
+        "tauxExact": 18.181818,
+        "taux": "18.2",
+        "echec": "81.8"
+      },
+      "reason": "4 nouveaux labels + 2 conversions − 3 retraits = 6 (scrapé : 5)",
+      "commentaires": "05 Labels et 2 Prélabel à Label"
+    },
+    {
+      "session": "08/2019",
+      "candidatures": 28,
+      "old": {
+        "labels": 24,
+        "preLabels": 7,
+        "taux": "85.7"
+      },
+      "new": {
+        "labels": 20,
+        "preLabels": 5,
+        "tauxExact": 71.428571,
+        "taux": "71.4",
+        "echec": "28.6"
+      },
+      "reason": "20 labels (scrapé : 24), 5 prélabels",
+      "commentaires": "18 Labels et 6 Prelabels à Labels"
+    },
+    {
+      "session": "08/2023",
+      "candidatures": 26,
+      "old": {
+        "labels": 11,
+        "preLabels": 6,
+        "taux": "42.3"
+      },
+      "new": {
+        "labels": 11,
+        "preLabels": 5,
+        "tauxExact": 42.307692,
+        "taux": "42.3",
+        "echec": "57.7"
+      },
+      "reason": "5 prélabels (scrapé : 6)",
+      "commentaires": "4 Labels et 7 Prélabels à Labels"
+    },
+    {
+      "session": "09/2021",
+      "candidatures": 15,
+      "old": {
+        "labels": 13,
+        "preLabels": 6,
+        "taux": "86.7"
+      },
+      "new": {
+        "labels": 15,
+        "preLabels": 6,
+        "tauxExact": 100.0,
+        "taux": "100.0",
+        "echec": "0.0"
+      },
+      "reason": "2 nouveaux labels + 13 conversions = 15 (scrapé : 13)",
+      "commentaires": "2 Labels et 13 Prelabels à Labels"
+    },
+    {
+      "session": "10/2019",
+      "candidatures": 34,
+      "old": {
+        "labels": 23,
+        "preLabels": 4,
+        "taux": "67.6"
+      },
+      "new": {
+        "labels": 23,
+        "preLabels": 5,
+        "tauxExact": 67.647059,
+        "taux": "67.6",
+        "echec": "32.4"
+      },
+      "reason": "5 prélabels (scrapé : 4)",
+      "commentaires": "18 Labels et 5 Prelabels à Labels"
+    },
+    {
+      "session": "10/2023",
+      "candidatures": 31,
+      "old": {
+        "labels": 6,
+        "preLabels": 5,
+        "taux": "19.4"
+      },
+      "new": {
+        "labels": 6,
+        "preLabels": 4,
+        "tauxExact": 19.354839,
+        "taux": "19.4",
+        "echec": "80.6"
+      },
+      "reason": "5 nouveaux labels + 1 conversion − 3 retraits = 6 (Techno Shark rejeté)",
+      "commentaires": "5 Labels et 1 Prélabel à Label"
+    },
+    {
+      "session": "11/2023",
+      "candidatures": 30,
+      "old": {
+        "labels": 14,
+        "preLabels": 4,
+        "taux": "46.7"
+      },
+      "new": {
+        "labels": 12,
+        "preLabels": 7,
+        "tauxExact": 40.0,
+        "taux": "40.0",
+        "echec": "60.0"
+      },
+      "reason": "4 nouveaux labels + 8 conversions − 6 retraits = 12, 7 prélabels",
+      "commentaires": "6 Labels et 8 Prélabel à Label"
+    },
+    {
+      "session": "12/2022",
+      "candidatures": 30,
+      "old": {
+        "labels": 17,
+        "preLabels": 5,
+        "taux": "56.7"
+      },
+      "new": {
+        "labels": 16,
+        "preLabels": 5,
+        "tauxExact": 53.333333,
+        "taux": "53.3",
+        "echec": "46.7"
+      },
+      "reason": "7 nouveaux labels + 9 conversions = 16 (scrapé : 17)",
+      "commentaires": "07 Labels et 10 Prélabel à Label"
+    },
+    {
+      "session": "12/2023",
+      "candidatures": 39,
+      "old": {
+        "labels": 14,
+        "preLabels": 5,
+        "taux": "35.9"
+      },
+      "new": {
+        "labels": 12,
+        "preLabels": 5,
+        "tauxExact": 30.769231,
+        "taux": "30.8",
+        "echec": "69.2"
+      },
+      "reason": "7 nouveaux labels + 5 conversions = 12 (scrapé : 14)",
+      "commentaires": "7 Labels et 5 Prélabel à Label"
+    },
+    {
+      "session": "12/2025",
+      "candidatures": 41,
+      "old": {
+        "labels": 15,
+        "preLabels": 6,
+        "taux": "36.6"
+      },
+      "new": {
+        "labels": 16,
+        "preLabels": 6,
+        "tauxExact": 39.02439,
+        "taux": "39.0",
+        "echec": "61.0"
+      },
+      "reason": "6 nouveaux labels + 10 conversions − 5 retraits = 16",
+      "commentaires": "05 Labels et 10 Prélabels à Labels"
+    },
+    {
+      "session": "04/2019",
+      "candidatures": 52,
+      "old": {
+        "labels": 33,
+        "preLabels": 0,
+        "taux": "64.7"
+      },
+      "new": {
+        "labels": 33,
+        "preLabels": 0,
+        "tauxExact": 64.705882,
+        "taux": "64.7",
+        "echec": "35.3"
+      },
+      "reason": "CR = 52 décisions (33 labels) vs 51 candidatures affichées : « 1 ajourné à la session suivante » (reporté, décidé en mai 2019). 33 labels confirmés = chiffre officiel exact ; labels/prélabels non corrigés — écart de comptage documenté.",
+      "commentaires": "1 ajourné à la session suivante"
+    }
+  ]
 }
