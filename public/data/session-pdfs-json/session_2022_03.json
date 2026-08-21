@@ -18,7 +18,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé dès le 2ème tour",
-      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire",
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "FINBUDD",
@@ -31,7 +32,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé dès le 2ème tour",
-      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire",
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "smic",
@@ -44,7 +46,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé dès le 2ème tour",
-      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire",
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Meducol",
@@ -57,7 +60,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé dès le 2ème tour",
-      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire",
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "LOGIMES",
@@ -70,7 +74,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé dès le 2ème tour",
-      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire",
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Water4all",
@@ -83,7 +88,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé dès le 2ème tour",
-      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire",
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "CRAWN",
@@ -96,7 +102,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé dès le 2ème tour",
-      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire",
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "SMARTOOLS",
@@ -109,7 +116,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé dès le 2ème tour",
-      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire",
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "ecn.tn",
@@ -122,7 +130,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé dès le 2ème tour",
-      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire",
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "StyleLinker",
@@ -135,7 +144,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé dès le 2ème tour",
-      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire",
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Atlas Security Tunisia",
@@ -148,7 +158,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label non accordé dès le 2ème tour",
-      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire",
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Pineapple Studio & Shop",
@@ -161,7 +172,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label non accordé dès le 2ème tour",
-      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire",
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Start Line Skills",
@@ -174,7 +186,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label non accordé dès le 2ème tour",
-      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire",
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Chatbot.tn",
@@ -187,7 +200,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label non accordé dès le 2ème tour",
-      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire",
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Relead",
@@ -200,7 +214,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label non accordé dès le 2ème tour Houda Ghozzi a décalré avoir un conflit d'i",
-      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire",
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "TUILABS",
@@ -213,7 +228,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel non accordé dès le 2ème tour",
-      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire",
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Marinus",
@@ -226,7 +242,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel non accordé dès le 2ème tour",
-      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire",
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Tunisie Bartering",
@@ -239,7 +256,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel non accordé dès le 2ème tour",
-      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire",
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Trigo",
@@ -252,7 +270,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel non accordé dès le 2ème tour",
-      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire",
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "كرﺎﺟ / Jarek",
@@ -265,7 +284,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel non accordé dès le 2ème tour",
-      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire",
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Meetart",
@@ -278,7 +298,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel non accordé dès le 2ème tour",
-      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire",
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Digital Fiber Solutions",
@@ -291,7 +312,8 @@
       "apres_pitching": "Non",
       "session_obtention_retrait": "Janvier 2022",
       "commentaires": "Label accordé suite à la création de la Startup et le respect des conditions d'octroi",
-      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire",
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "AvoConsulte",
@@ -304,7 +326,8 @@
       "apres_pitching": "Non",
       "session_obtention_retrait": "Octobre 2020",
       "commentaires": "Label accordé suite à la création de la Startup et le respect des conditions d'octroi",
-      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire",
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Quiz Mentor",
@@ -317,7 +340,8 @@
       "apres_pitching": "Non",
       "session_obtention_retrait": "Octobre 2021",
       "commentaires": "Label accordé suite à la création de la Startup et le respect des conditions d'octroi",
-      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire",
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Terminal22",
@@ -330,7 +354,8 @@
       "apres_pitching": "Non",
       "session_obtention_retrait": "Août 2021",
       "commentaires": "Label accordé suite à la création de la Startup et le respect des conditions d'octroi",
-      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire",
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Halonursery",
@@ -343,7 +368,8 @@
       "apres_pitching": "Non",
       "session_obtention_retrait": "Novembre 2021",
       "commentaires": "Label accordé suite à la création de la Startup et le respect des conditions d'octroi",
-      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire",
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Proxifleet",
@@ -356,7 +382,8 @@
       "apres_pitching": "Non",
       "session_obtention_retrait": "Septembre 2021",
       "commentaires": "Label accordé suite à la création de la Startup et le respect des conditions d'octroi",
-      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire",
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "CAIRUS BUSINESS GROUP",
@@ -369,7 +396,8 @@
       "apres_pitching": "Non",
       "session_obtention_retrait": "Septembre 2021",
       "commentaires": "Label accordé suite à la création de la Startup et le respect des conditions d'octroi",
-      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire",
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "SKANIT DIGITAL SOLUTIONS",
@@ -382,7 +410,8 @@
       "apres_pitching": "Non",
       "session_obtention_retrait": "Décembre 2021",
       "commentaires": "Label accordé suite à la création de la Startup et le respect des conditions d'octroi",
-      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire",
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Rythminno",
@@ -395,7 +424,8 @@
       "apres_pitching": "Non",
       "session_obtention_retrait": "Novembre 2021",
       "commentaires": "Label accordé suite à la création de la Startup et le respect des conditions d'octroi",
-      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire"
+      "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire",
+      "_displayDecision": "label_accorde"
     }
   ],
   "session_data": {

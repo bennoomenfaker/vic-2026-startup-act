@@ -18,7 +18,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé en 2ème tour",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "STARK",
@@ -31,7 +32,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé en 2ème tour",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "NATDYES",
@@ -44,7 +46,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé en 2ème tour",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Carpet Plus",
@@ -57,7 +60,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé en 2ème tour",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Hand & Crafts",
@@ -70,7 +74,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé en 2ème tour",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "YASSIR",
@@ -83,7 +88,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé en 2ème tour",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Wakahaw",
@@ -96,7 +102,8 @@
       "apres_pitching": "Oui",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé après pitching",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Amiral",
@@ -109,7 +116,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Sprindt",
@@ -122,7 +130,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Global World Transformer",
@@ -135,7 +144,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "iSporit",
@@ -148,7 +158,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Evolutik",
@@ -161,7 +172,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "El Food Lab",
@@ -174,7 +186,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Fouita",
@@ -187,7 +200,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "GrowApp",
@@ -200,7 +214,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "We-Settle",
@@ -213,7 +228,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Conception et vente d'un système de télégestion d'énergie électrique",
@@ -226,7 +242,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "IOT Medical Technology",
@@ -239,7 +256,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label non-accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Omniup Tunisie",
@@ -252,7 +270,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label non-accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "LE PORTAIL DES LANGUES",
@@ -265,7 +284,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label non-accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Société Polyouate",
@@ -278,7 +298,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label non-accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "GARK",
@@ -291,7 +312,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel non-accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "GASPYCH",
@@ -304,7 +326,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel non-accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "EMNA HUSSEIN",
@@ -317,7 +340,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel non-accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Doctorka",
@@ -330,7 +354,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel non-accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Renini",
@@ -343,7 +368,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel non-accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Société Datasphera",
@@ -356,7 +382,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Innov'Edition",
@@ -369,7 +396,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Smek's Invest",
@@ -382,7 +410,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Lamma City App",
@@ -395,7 +424,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Quantilyx R&D",
@@ -408,7 +438,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Techability",
@@ -421,7 +452,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Retrait de label startup",
-      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "_displayDecision": "retrait"
     }
   ],
   "session_data": {

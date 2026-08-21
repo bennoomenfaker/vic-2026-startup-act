@@ -18,7 +18,8 @@
       "apres_pitching": "Oui",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé après le Pitching",
-      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Deli Solutions",
@@ -31,7 +32,8 @@
       "apres_pitching": "Oui",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé après le Pitching",
-      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "NewGen",
@@ -44,7 +46,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé dès le 2ème tour",
-      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "InstaDeep",
@@ -57,7 +60,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé dès le 2ème tour",
-      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Lifeye",
@@ -70,7 +74,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé dès le 2ème tour",
-      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Echo",
@@ -83,7 +88,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé dès le 2ème tour",
-      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Seemba Gaming",
@@ -96,7 +102,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé dès le 2ème tour",
-      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "WeCode Land",
@@ -109,7 +116,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé dès le 2ème tour",
-      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Smart Med SA",
@@ -122,7 +130,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé dès le 2ème tour",
-      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Société STBI",
@@ -135,7 +144,8 @@
       "apres_pitching": "Oui",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé après le Pitching",
-      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Actifs Précieux Apex S.A",
@@ -148,7 +158,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé dès le 2ème tour",
-      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Neopolis Development",
@@ -161,7 +172,8 @@
       "apres_pitching": "Oui",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé après le Pitching",
-      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "9arini.tn (édité par Digital World SARL)",
@@ -174,7 +186,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé dès le 2ème tour",
-      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Fouta Tunisia",
@@ -187,7 +200,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé dès le 2ème tour",
-      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Swiver",
@@ -200,7 +214,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé dès le 2ème tour",
-      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "profils.tn",
@@ -213,7 +228,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé dès le 2ème tour",
-      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Go Up Stand Up (Goupsup)",
@@ -226,7 +242,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé dès le 2ème tour",
-      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "TransFacile",
@@ -239,7 +256,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé dès le 2ème tour",
-      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Asklepios",
@@ -252,7 +270,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé dès le 2ème tour",
-      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Bookingtodo",
@@ -265,7 +284,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé dès le 2ème tour",
-      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Industry X.0",
@@ -278,7 +298,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé dès le 2ème tour",
-      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Bon'Heure",
@@ -291,7 +312,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé dès le 2ème tour",
-      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Be bouncy",
@@ -304,7 +326,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé dès le 2ème tour",
-      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Domotec",
@@ -317,7 +340,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label non-accordé après le 2ème tour",
-      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Vim It",
@@ -330,7 +354,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label non-accordé après le 2ème tour",
-      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Indigo Business Solutions",
@@ -343,7 +368,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label non-accordé après le 2ème tour",
-      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Professional System",
@@ -356,7 +382,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label non-accordé après le 2ème tour",
-      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Beego",
@@ -369,7 +396,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Dossier irrecevable pour manque de documents",
-      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "B'rain",
@@ -382,7 +410,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Dossier irrecevable pour non-indépendance du capital",
-      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "_displayDecision": "label_refuse"
     },
     {
       "societe": "Développement d'applications comptables, gestion, finance",
@@ -395,7 +424,8 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel non-accordé",
-      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "_displayDecision": "label_refuse"
     }
   ],
   "session_data": {

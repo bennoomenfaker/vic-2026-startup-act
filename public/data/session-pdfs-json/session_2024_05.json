@@ -5,8 +5,135 @@
   "mois": 5,
   "pdf": "session_2024_05.pdf",
   "source": "Généré à partir du fichier Excel corrigé; les compteurs officiels sont conservés séparément",
-  "nb_entrees": 0,
-  "entrees": [],
+  "nb_entrees": 21,
+  "entrees": [
+    {
+      "societe": "Startup 1 (à vérifier)",
+      "fondateurs": "",
+      "_displayDecision": "label_accorde",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Startup 2 (à vérifier)",
+      "fondateurs": "",
+      "_displayDecision": "label_accorde",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Startup 3 (à vérifier)",
+      "fondateurs": "",
+      "_displayDecision": "label_accorde",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Startup 4 (à vérifier)",
+      "fondateurs": "",
+      "_displayDecision": "label_accorde",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Startup 5 (à vérifier)",
+      "fondateurs": "",
+      "_displayDecision": "label_accorde",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Startup 6 (à vérifier)",
+      "fondateurs": "",
+      "_displayDecision": "label_accorde",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Startup 7 (à vérifier)",
+      "fondateurs": "",
+      "_displayDecision": "label_accorde",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Startup 8 (à vérifier)",
+      "fondateurs": "",
+      "_displayDecision": "label_accorde",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Startup 9 (à vérifier)",
+      "fondateurs": "",
+      "_displayDecision": "label_accorde",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Startup 10 (à vérifier)",
+      "fondateurs": "",
+      "_displayDecision": "label_accorde",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Startup 11 (à vérifier)",
+      "fondateurs": "",
+      "_displayDecision": "label_accorde",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Startup 12 (à vérifier)",
+      "fondateurs": "",
+      "_displayDecision": "label_accorde",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Startup 13 (à vérifier)",
+      "fondateurs": "",
+      "_displayDecision": "label_accorde",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Startup 14 (à vérifier)",
+      "fondateurs": "",
+      "_displayDecision": "label_accorde",
+      "resultat": "label accorde"
+    },
+    {
+      "societe": "Startup 15 (à vérifier)",
+      "fondateurs": "",
+      "_displayDecision": "prelabel_accorde",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Startup 16 (à vérifier)",
+      "fondateurs": "",
+      "_displayDecision": "prelabel_accorde",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Startup 17 (à vérifier)",
+      "fondateurs": "",
+      "_displayDecision": "prelabel_accorde",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Startup 18 (à vérifier)",
+      "fondateurs": "",
+      "_displayDecision": "prelabel_accorde",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Startup 19 (à vérifier)",
+      "fondateurs": "",
+      "_displayDecision": "prelabel_accorde",
+      "resultat": "prelabel accorde"
+    },
+    {
+      "societe": "Startup 20 (à vérifier)",
+      "fondateurs": "",
+      "_displayDecision": "retrait",
+      "resultat": "retrait"
+    },
+    {
+      "societe": "Startup 21 (à vérifier)",
+      "fondateurs": "",
+      "_displayDecision": "retrait",
+      "resultat": "retrait"
+    }
+  ],
   "session_data": {
     "candidatures": 0,
     "labels": 14,
