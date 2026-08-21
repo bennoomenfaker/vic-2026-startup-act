@@ -134,7 +134,7 @@ export default function Home() {
         {view === "catalogue" && <CatalogueView catalogue={catalogue} query={query} setQuery={setQuery} onSelect={setSelectedKpi} />}
         {view === "quality" && <QualityView qualityKpis={qualityKpis} />}
 
-        <footer className="footer-note"><span>Source de travail: <strong>dashboard_data.json</strong> + classeur Excel corrigé</span><span>Dernière mise à jour: 31 juillet 2026</span></footer>
+        <footer className="footer-note"><span>Source de travail: <strong>dashboard_data.json</strong> + classeur Excel corrigé</span><span>Dernière mise à jour: 21 août 2026</span></footer>
       </main>
       {selectedKpi && <div className="modal-backdrop" onClick={() => setSelectedKpi(null)}><div className="kpi-modal" onClick={(e) => e.stopPropagation()}><button className="modal-close" onClick={() => setSelectedKpi(null)} aria-label="Fermer">×</button><div className="kpi-modal-id">{selectedKpi.id} · {selectedKpi.page}</div><h2>{selectedKpi.nom}</h2><div className="modal-value">{selectedKpi.valeur}</div><p>Ce KPI est repris du catalogue du dépôt ou calculé de manière dérivée à partir des données des 85 sessions. Les chiffres externes ou non calculables restent marqués.</p><div className={`catalogue-badge ${selectedKpi.statut}`}>{selectedKpi.statut === "ok" ? "Calculé" : selectedKpi.statut === "warn" ? "Donnée externe" : "À collecter"}</div></div></div>}
     </div>
