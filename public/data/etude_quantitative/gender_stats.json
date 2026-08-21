@@ -1,0 +1,59 @@
+{
+  "macro": {
+    "totalFounders": 4764,
+    "femmesFounders": 1153,
+    "hommesFounders": 3611,
+    "pctFemmes": 24.21,
+    "ratioHF": 3.13,
+    "totalStartups": 2630,
+    "startupsWithWomen": 915,
+    "pctStartupsWithWomen": 34.79,
+    "allWomenStartups": 312,
+    "pctAllWomenStartups": 11.86,
+    "allMenStartups": 1403,
+    "pctAllMenStartups": 53.35,
+    "tauxSuccesEquipesMixtes": 54.6,
+    "tauxSuccesEquipesMasculines": 47.2,
+    "tauxConversionPrelabelMixtes": 84.2,
+    "tauxConversionPrelabelMasculines": 78.5,
+    "pctFemmes2019": 18.4,
+    "pctFemmes2026": 31.4,
+    "gainPointsPct": 13.0,
+    "progressionRelative": 70.65,
+    "source": "genderData.ts — estimations calibrées sur les 85 PVs"
+  },
+  "yearly": [
+    {"year": 2019, "totalFounders": 520, "femmes": 96, "hommes": 424, "pctFemmes": 18.46, "startupsTotal": 288, "startupsWithWomen": 81, "pctStartupsWithWomen": 28.12},
+    {"year": 2020, "totalFounders": 680, "femmes": 137, "hommes": 543, "pctFemmes": 20.15, "startupsTotal": 375, "startupsWithWomen": 114, "pctStartupsWithWomen": 30.40},
+    {"year": 2021, "totalFounders": 840, "femmes": 190, "hommes": 650, "pctFemmes": 22.62, "startupsTotal": 464, "startupsWithWomen": 154, "pctStartupsWithWomen": 33.19},
+    {"year": 2022, "totalFounders": 790, "femmes": 196, "hommes": 594, "pctFemmes": 24.81, "startupsTotal": 436, "startupsWithWomen": 156, "pctStartupsWithWomen": 35.78},
+    {"year": 2023, "totalFounders": 750, "femmes": 197, "hommes": 553, "pctFemmes": 26.27, "startupsTotal": 414, "startupsWithWomen": 155, "pctStartupsWithWomen": 37.44},
+    {"year": 2024, "totalFounders": 690, "femmes": 197, "hommes": 493, "pctFemmes": 28.55, "startupsTotal": 381, "startupsWithWomen": 153, "pctStartupsWithWomen": 40.16},
+    {"year": 2025, "totalFounders": 380, "femmes": 117, "hommes": 263, "pctFemmes": 30.79, "startupsTotal": 210, "startupsWithWomen": 88, "pctStartupsWithWomen": 41.90},
+    {"year": 2026, "totalFounders": 114, "femmes": 36, "hommes": 78, "pctFemmes": 31.58, "startupsTotal": 62, "startupsWithWomen": 26, "pctStartupsWithWomen": 41.94}
+  ],
+  "sectors": [
+    {"sector": "MedTech / Santé & Biotech", "pctFemmes": 38.64, "startupsCount": 316, "pctMixtes": 48.1},
+    {"sector": "EdTech & HRTech", "pctFemmes": 36.25, "startupsCount": 177, "pctMixtes": 45.8},
+    {"sector": "GreenTech", "pctFemmes": 30.50, "startupsCount": 188, "pctMixtes": 39.4},
+    {"sector": "E-Commerce", "pctFemmes": 28.41, "startupsCount": 393, "pctMixtes": 37.2},
+    {"sector": "B2B SaaS", "pctFemmes": 24.12, "startupsCount": 421, "pctMixtes": 32.8},
+    {"sector": "AgriTech", "pctFemmes": 23.51, "startupsCount": 315, "pctMixtes": 31.7},
+    {"sector": "FinTech", "pctFemmes": 19.82, "startupsCount": 426, "pctMixtes": 27.5},
+    {"sector": "IA & DeepTech", "pctFemmes": 17.51, "startupsCount": 293, "pctMixtes": 24.6},
+    {"sector": "Logistique & Transport", "pctFemmes": 21.48, "startupsCount": 149, "pctMixtes": 28.2},
+    {"sector": "IoT & Industrie 4.0", "pctFemmes": 18.75, "startupsCount": 132, "pctMixtes": 25.0}
+  ],
+  "insights": [
+    "Équipes mixtes: 54.6% de succès vs 47.2% pour les 100% masculines (+7.4 pts)",
+    "Conversion Prélabel→Label: 84.2% (mixtes) vs 78.5% (hommes seuls)",
+    "MedTech: 38.6% de femmes — vivier académique exceptionnel",
+    "Progression: +70.7% relative de la part féminine en 7 ans (18.4%→31.4%)",
+    "312 startups 100% féminines (11.9%), 1403 startups 100% masculines (53.4%)"
+  ],
+  "recommendations": [
+    "Bonus de co-investissement public pour les fonds investissant dans des startups fondées par des femmes",
+    "Renforcer les programmes de valorisation de la recherche universitaire féminine",
+    "Structurer un réseau de mentoring 'Women in Startup Act'"
+  ]
+}

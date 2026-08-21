@@ -966,6 +966,19 @@
       .choropleth-side { flex-basis: 100%; }
       .timeline { min-width: 1180px; }
     }
+    /* Print / PDF export */
+    @media print {
+      body { background: #fff !important; color: #000 !important; }
+      .page-header, nav, .sidebar, footer, .bottom-nav, #searchOverlay, .modal-overlay, .search-overlay { display: none !important; }
+      #page-etude-quantitative { display: block !important; }
+      #page-etude-quantitative * { color: #000 !important; background: #fff !important; border-color: #ccc !important; }
+      #page-etude-quantitative canvas { max-width: 100% !important; height: auto !important; page-break-inside: avoid; }
+      .kpi-card { border: 1px solid #ccc !important; page-break-inside: avoid; }
+      table { page-break-inside: auto; }
+      tr { page-break-inside: avoid; }
+      .chart-card { page-break-inside: avoid; }
+      h2 { page-break-after: avoid; }
+    }
   </style>
 </head>
 <body>
@@ -1510,6 +1523,15 @@
       <div class="kpi-card" style="text-align:center"><div class="kpi-value" style="color:#e94560">3 348</div><div class="kpi-label">Candidatures</div></div>
       <div class="kpi-card" style="text-align:center"><div class="kpi-value" style="color:#7c3aed">39,2%</div><div class="kpi-label">Taux Label pondéré</div></div>
       <div class="kpi-card" style="text-align:center"><div class="kpi-value" style="color:#0891b2">39,4</div><div class="kpi-label">Moy. candidatures/session</div></div>
+      <div class="kpi-card" style="text-align:center"><div class="kpi-value" style="color:#7c3aed">1 105</div><div class="kpi-label">2e tour</div></div>
+      <div class="kpi-card" style="text-align:center"><div class="kpi-value" style="color:#ff8f00">704</div><div class="kpi-label">Après pitching</div></div>
+    </div>
+
+    <div style="text-align:center;margin-bottom:20px">
+      <button onclick="window.print()" style="background:#e94560;color:#fff;border:none;padding:10px 24px;border-radius:8px;font-size:.9rem;font-weight:600;cursor:pointer">
+        📄 Exporter le rapport en PDF
+      </button>
+      <span style="font-size:.78rem;color:var(--text-muted);margin-left:10px">Ouvriries l'impression navigateur → « Enregistrer en PDF »</span>
     </div>
 
     <div style="background:var(--card-bg);border:1px solid var(--border-color);border-radius:var(--radius-lg);padding:24px;margin-bottom:24px">
@@ -1565,6 +1587,8 @@
             <th style="text-align:right;padding:6px;color:var(--text-secondary)">Labels</th>
             <th style="text-align:right;padding:6px;color:var(--text-secondary)">Prélabels</th>
             <th style="text-align:right;padding:6px;color:var(--text-secondary)">Retraits</th>
+            <th style="text-align:right;padding:6px;color:var(--text-secondary)">2e tour</th>
+            <th style="text-align:right;padding:6px;color:var(--text-secondary)">Pitching</th>
             <th style="text-align:right;padding:6px;color:var(--text-secondary)">Taux</th>
           </tr></thead>
           <tbody id="eq-sessions-body"></tbody>
@@ -1584,7 +1608,18 @@
     </div>
 
     <div style="background:var(--card-bg);border:1px solid var(--border-color);border-radius:var(--radius-lg);padding:24px;margin-bottom:24px">
-      <h2 style="font-size:1.2rem;font-weight:700;margin:0 0 12px;color:var(--text-primary)">8. Corrélations et indicateurs statistiques</h2>
+      <h2 style="font-size:1.2rem;font-weight:700;margin:0 0 12px;color:var(--text-primary)">8. Parité & Diversité Genre</h2>
+      <p style="font-size:.85rem;color:var(--text-secondary);margin:0 0 16px">Analyse genrée des 4 764 fondateurs sur 85 sessions. Les données sont des estimations calibrées à partir des PVs.</p>
+      <div id="eq-gender-kpis"></div>
+      <div style="margin-top:16px;display:grid;grid-template-columns:1fr 1fr;gap:16px">
+        <div><canvas id="eq-chart-gender-yearly" height="240"></canvas></div>
+        <div><canvas id="eq-chart-gender-sectors" height="240"></canvas></div>
+      </div>
+      <div id="eq-gender-insights" style="margin-top:16px"></div>
+    </div>
+
+    <div style="background:var(--card-bg);border:1px solid var(--border-color);border-radius:var(--radius-lg);padding:24px;margin-bottom:24px">
+      <h2 style="font-size:1.2rem;font-weight:700;margin:0 0 12px;color:var(--text-primary)">9. Corrélations et indicateurs statistiques</h2>
       <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px">
         <div class="kpi-card"><div class="kpi-label">Corrélation candidatures ↔ taux Label</div><div class="kpi-value" style="font-size:1.4rem;color:#e94560">r = −0,35</div><div class="kpi-desc">Négative modérée</div></div>
         <div class="kpi-card"><div class="kpi-label">Corrélation candidatures ↔ décisions positives</div><div class="kpi-value" style="font-size:1.4rem;color:#2e7d32">r = +0,62</div><div class="kpi-desc">Positive — plausible mécaniquement</div></div>
@@ -4959,7 +4994,7 @@ async function renderEtudeQuantitative() {
   if (_eqRendered) return;
   _eqRendered = true;
   try {
-    const [annualRes, sectorsRes, monthlyRes, geoRes, sessionsRes, creationRes, intlRes, metricsRes] = await Promise.all([
+    const [annualRes, sectorsRes, monthlyRes, geoRes, sessionsRes, creationRes, intlRes, metricsRes, genderRes, detailRes] = await Promise.all([
       fetch('data/etude_quantitative/annual_corrected.csv').then(r => r.text()),
       fetch('data/etude_quantitative/sectors_source.csv').then(r => r.text()),
       fetch('data/etude_quantitative/monthly_corrected.csv').then(r => r.text()),
@@ -4967,7 +5002,9 @@ async function renderEtudeQuantitative() {
       fetch('data/etude_quantitative/sessions_corrected.csv').then(r => r.text()),
       fetch('data/etude_quantitative/creation_source.csv').then(r => r.text()),
       fetch('data/etude_quantitative/geographie_international_2019_2021.csv').then(r => r.text()),
-      fetch('data/etude_quantitative/academic_metrics.json').then(r => r.json())
+      fetch('data/etude_quantitative/academic_metrics.json').then(r => r.json()),
+      fetch('data/etude_quantitative/gender_stats.json').then(r => r.json()),
+      fetch('data/etude_quantitative/sessions_decisions_detail.json').then(r => r.json())
     ]);
     const parseCSV = (txt) => {
       const lines = txt.trim().split('\n');
@@ -5103,19 +5140,26 @@ async function renderEtudeQuantitative() {
         }).join('') + '</tbody>';
     }
 
-    // 7. Sessions table
+    // 7. Sessions table (merged with detail data)
     var sessBody = document.getElementById('eq-sessions-body');
     if (sessBody) {
+      var detailMap = {};
+      if (detailRes) detailRes.forEach(function(d) { detailMap[d.session] = d; });
       sessBody.innerHTML = sessions.map(function(r) {
         var c = +r.candidatures, l = +r.labels, p = +r.preLabels, re = +(r.retraits||0);
         var taux = c ? (l/c*100).toFixed(1) : '0';
         var color = taux > 50 ? '#2e7d32' : taux > 35 ? '#e94560' : '#d32f2f';
+        var det = detailMap[r.session] || {};
+        var t2 = det.deuxieme_tour || 0;
+        var pitch = det.apres_pitching || 0;
         return '<tr style="border-bottom:1px solid var(--border-color)">' +
           '<td style="padding:6px;font-weight:600">' + r.session + '</td>' +
           '<td style="text-align:right;padding:6px">' + c + '</td>' +
           '<td style="text-align:right;padding:6px;color:#2e7d32;font-weight:600">' + l + '</td>' +
           '<td style="text-align:right;padding:6px;color:#1565c0">' + p + '</td>' +
           '<td style="text-align:right;padding:6px;color:#d32f2f">' + (re || '–') + '</td>' +
+          '<td style="text-align:right;padding:6px;color:#7c3aed">' + (t2 || '–') + '</td>' +
+          '<td style="text-align:right;padding:6px;color:#ff8f00">' + (pitch || '–') + '</td>' +
           '<td style="text-align:right;padding:6px;color:' + color + ';font-weight:600">' + taux + '%</td></tr>';
       }).join('');
     }
@@ -5165,8 +5209,59 @@ async function renderEtudeQuantitative() {
       intlDiv.innerHTML = html;
     }
 
+    // 10. Parité & Genre
+    renderGender(genderRes);
+
   } catch (e) {
     console.error('renderEtudeQuantitative error:', e);
+  }
+}
+
+// ===== GENDER DIVERSITY =====
+function renderGender(g) {
+  var m = g.macro;
+  // KPIs
+  var kpiDiv = document.getElementById('eq-gender-kpis');
+  if (kpiDiv) {
+    var kpis = [
+      {label: 'Femmes fondateures', value: m.femmesFounders, pct: m.pctFemmes + '%', color: '#e94560'},
+      {label: 'Ratio H/F', value: m.ratioHF, pct: 'pour 1 femme', color: '#7c3aed'},
+      {label: 'Startups équipe mixte', value: m.startupsWithWomen, pct: m.pctStartupsWithWomen + '%', color: '#1565c0'},
+      {label: 'Succès équipes mixtes', value: m.tauxSuccesEquipesMixtes + '%', pct: 'vs ' + m.tauxSuccesEquipesMasculines + '% masculines', color: '#2e7d32'},
+      {label: 'Conversion mixtes', value: m.tauxConversionPrelabelMixtes + '%', pct: 'vs ' + m.tauxConversionPrelabelMasculines + '% masculines', color: '#00897b'},
+      {label: 'Progression 2019→2026', value: '+' + m.gainPointsPct + ' pts', pct: m.pctFemmes2019 + '% → ' + m.pctFemmes2026 + '%', color: '#ff8f00'}
+    ];
+    kpiDiv.innerHTML = kpis.map(function(k) {
+      return '<div class="kpi-card"><div class="kpi-label">' + k.label + '</div><div class="kpi-value" style="font-size:1.3rem;color:' + k.color + '">' + k.value + '</div><div class="kpi-desc">' + k.pct + '</div></div>';
+    }).join('');
+  }
+  // Yearly chart
+  var yearly = g.yearly;
+  makeChart('eq-chart-gender-yearly', 'line', {
+    labels: yearly.map(function(r) { return r.year; }),
+    datasets: [
+      {label: '% Femmes', data: yearly.map(function(r) { return r.pctFemmes; }), borderColor: '#e94560', backgroundColor: 'rgba(233,69,96,.12)', fill: true, tension: .3},
+      {label: '% Startups mixtes', data: yearly.map(function(r) { return r.pctStartupsWithWomen; }), borderColor: '#1565c0', backgroundColor: 'rgba(21,101,192,.08)', fill: true, tension: .3}
+    ]
+  }, {plugins: {title: {display: true, text: 'Évolution par genre (2019–2026)', font: {size: 13}}}});
+  // Sectors chart
+  var sectors = g.sectors.slice(0, 8);
+  makeChart('eq-chart-gender-sectors', 'bar', {
+    labels: sectors.map(function(s) { return s.sector; }),
+    datasets: [
+      {label: '% Femmes', data: sectors.map(function(s) { return s.pctFemmes; }), backgroundColor: '#e94560'},
+      {label: '% Mixtes', data: sectors.map(function(s) { return s.pctMixtes; }), backgroundColor: '#1565c0'}
+    ]
+  }, {indexAxis: 'y', plugins: {title: {display: true, text: 'Part féminine par secteur', font: {size: 13}}}});
+  // Insights
+  var insDiv = document.getElementById('eq-gender-insights');
+  if (insDiv) {
+    insDiv.innerHTML = '<div style="font-size:.85rem;color:var(--text-secondary);line-height:1.7">' +
+      '<p style="margin:0 0 8px"><strong>Principaux constats :</strong></p><ul style="margin:0;padding-left:18px">' +
+      g.insights.map(function(t) { return '<li style="margin-bottom:4px">' + t + '</li>'; }).join('') +
+      '</ul><p style="margin:10px 0 0"><strong>Recommandations :</strong></p><ol style="margin:4px 0 0;padding-left:18px">' +
+      g.recommendations.map(function(t) { return '<li style="margin-bottom:4px">' + t + '</li>'; }).join('') +
+      '</ol><p style="margin:10px 0 0;font-size:.8rem;color:var(--text-muted)"><em>' + m.source + '</em></p></div>';
   }
 }
 
