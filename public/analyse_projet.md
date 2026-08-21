@@ -96,22 +96,22 @@ Produire un **Livre Blanc** sur le Startup Act Tunisien à travers une **étude 
 ### 2.4 Les 6 Axes d'Étude
 
 1. **Axe 1 — État des lieux quantitatif du Startup Act**
-   - Sessions de labellisation, startups labellisées, cartographie (gouvernorats, régions, secteurs, genre)
+ - Sessions de labellisation, startups labellisées, cartographie (gouvernorats, régions, secteurs, genre)
 
 2. **Axe 2 — Cadre juridique et gouvernance**
-   - Critères d'éligibilité, avantages, procédures, obstacles réglementaires
+ - Critères d'éligibilité, avantages, procédures, obstacles réglementaires
 
 3. **Axe 3 — Financement des startups**
-   - Dispositifs existants, montants mobilisés, bénéficiaires, impact
+ - Dispositifs existants, montants mobilisés, bénéficiaires, impact
 
 4. **Axe 4 — Accompagnement et écosystème**
-   - Acteurs, services, complémentarité, satisfaction, besoins non couverts
+ - Acteurs, services, complémentarité, satisfaction, besoins non couverts
 
 5. **Axe 5 — Évaluation des impacts**
-   - Économique, emploi, innovation, investissement, territorial, internationalisation
+ - Économique, emploi, innovation, investissement, territorial, internationalisation
 
 6. **Axe 6 — Benchmark international**
-   - Comparaison avec d'autres pays, meilleures pratiques, enseignements
+ - Comparaison avec d'autres pays, meilleures pratiques, enseignements
 
 ---
 
@@ -281,7 +281,7 @@ Construire un outil interactif d'analyse quantitative qui :
 
 **Backend (optionnel si besoin de traitement plus lourd) :**
 - Python (Flask/FastAPI) avec Pandas pour l'analyse
-- PyMuPDF pour parser les PDFs de sessions restants
+- pour parser les PDFs de sessions restants
 - Export PDF avec ReportLab / WeasyPrint
 
 **Données :** Les fichiers JSON/CSV existants peuvent être utilisés directement
@@ -299,7 +299,7 @@ Construire un outil interactif d'analyse quantitative qui :
 
 ### 5.5 Prochaines Étapes Immédiates
 
-1. **Extraire les PDFs de sessions** avec PyMuPDF (démarrer) pour enrichir les données
+1. **Extraire les PDFs de sessions** avec (démarrer) pour enrichir les données
 3. **Enrichir database_startups.json** avec les données des PDFs extraits
 4. **Développer le tableau de bord interactif** avec filtres et graphiques
 5. **Générer des rapports automatiques** pour chaque axe

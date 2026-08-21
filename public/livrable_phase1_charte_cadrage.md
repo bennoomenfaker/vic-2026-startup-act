@@ -141,7 +141,7 @@ Les décideurs (ATVIC, Ministère des Technologies, investisseurs, partenaires i
 | ☐ **Entretiens** | Entretiens avec acteurs clés (Phase 3) |
 | ☐ **Benchmark** | Comparaison internationale (Axe 6) |
 | ☐ **Tableau Excel / Google Sheets** | Consolidation et suivi |
-| ☒ **Python (Pandas, PyMuPDF)** | Analyse de données, extraction PDF |
+| ☒ **Python (Pandas, )** | Analyse de données, extraction PDF |
 | ☒ **JavaScript (Chart.js, Leaflet)** | Visualisation interactive |
 | ☐ **Google Data Studio / Power BI** | Dashboard complémentaire |
 

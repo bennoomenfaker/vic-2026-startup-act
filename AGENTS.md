@@ -33,31 +33,31 @@
 - Page `startupblink` dans `streamlit-app/public/index.html` = **veille comparative internationale** (données EXTERNES), jamais à confondre avec les données officielles corrigées ci-dessus.
 - Données : `public/data/startupblink_tunisia.json`. Rapport officiel **Global Startup Ecosystem Index 2026** consulté en ligne sur `lp.startupblink.com/report/` (copie locale archivée, **non versionnée** — les 3 PDFs StartupBlink/GSER sont dans `.gitignore`).
 - Vérifié le 11/08/2026 contre 5 sources : page web `/top-startups/tunisia`, API interne `/_next/data/.../startup-ecosystem/tunisia.json`, API fiche startup (`/startup/gomycode.json`), API `leaderboards?leaderboard_type=Cities|Countries&year=2026`, et le rapport PDF (p. 344–346). Tunisie #84 mondial, +36,6 %, #2 Afrique du Nord ; Tunis #330, Sousse #1074.
-- Les API StartupBlink sont bloquées par Cloudflare en curl direct : passer par Firecrawl pour les relire.
+- Les API StartupBlink sont bloquées par Cloudflare en curl direct : passer par crawl4ai pour les relire.
 - Règle : toute donnée ajoutée depuis StartupBlink doit afficher son lien de source (voir `sources` dans le JSON + carte de sources rendue par `renderStartupBlink`).
 - **Bloc « Financement 2025 »** ajouté le 11/08/2026 (clé `funding2025` du JSON) : Tunisie **#9 Afrique, 37 M USD levés en 2025**, **#7** en startups financées ≥ $100k (Africa: The Big Deal, 13/01/2026) + 31 investisseurs équité (+24 % YoY, Partech 2025). Sources liées dans le bloc. Ces données sont EXTERNES et indépendantes du Startup Act.
 - **PDFs vérifiés, non intégrés** (aucune donnée Tunisie) : `startupblinkcorporate-report-2025.pdf` (0 mention TN), `startupgenomegser-2026_9607.pdf` (1 mention TN, liste).
 - **Autres sources de données réelles identifiées** (veille à suivre) : Africa: The Big Deal, Partech Africa Report, Crunchbase (filtre TN), Dealroom, rapports ANAVA – Smart Capital / Startup Tunisia.
 
-## 🤖 Méthodologie d'extraction Firecrawl & Pipeline de Données
+## 🤖 Méthodologie d'extraction crawl4ai & Pipeline de Données
 
-- **Utilisation de Firecrawl** : Le tool `firecrawl parse` (`npx -y firecrawl-cli@latest parse <pdf>`) est utilisé pour convertir les comptes-rendus PDF des 85 sessions en documents Markdown structurés avec restitution fidèle des tableaux (`| Société | Fondateurs | Secteur | ... |`).
+- **Utilisation de crawl4ai** : Le tool `crawl4ai parse` (`npx -y crawl4ai-cli@latest parse <pdf>`) est utilisé pour convertir les comptes-rendus PDF des 85 sessions en documents Markdown structurés avec restitution fidèle des tableaux (`| Société | Fondateurs | Secteur | ... |`).
 - **Pipeline de fichiers** :
-  - **PDFs sources** : `public/data/session-pdfs/session_XXXX_XX.pdf`
-  - **Sortie Markdown & JSON Firecrawl** : `public/data/agy/firecrawl_pdf_json/` (contient 85 fichiers `.md` + 85 fichiers `.json` + `summary.json`).
-  - **Gestion du Rate Limit** : Exécution séquentielle avec temporisation (5-7 secondes entre requêtes) pour respecter le quota API distant sans échec.
+ - **PDFs sources** : `public/data/session-pdfs/session_XXXX_XX.pdf`
+ - **Sortie Markdown & JSON crawl4ai** : `public/data/agy/crawl4ai_pdf_json/` (contient 85 fichiers `.md` + 85 fichiers `.json` + `summary.json`).
+ - **Gestion du Rate Limit** : Exécution séquentielle avec temporisation (5-7 secondes entre requêtes) pour respecter le quota API distant sans échec.
 
-## 🛠️ Méthodologie complémentaire PyMuPDF / Buffy (Freebuff)
+## 🛠️ Méthodologie complémentaire 
 
-- **Extraction PyMuPDF (`fitz`)** :
-  - **83 sessions textuelles** extraites instantanément via la couche texte native du PDF (`doc = fitz.open(...)` / `page.get_text()`).
-  - **2 sessions image** (`2020_12` et `2021_01`) : complétées directement avec le texte du Compte-Rendu officiel fourni et formattées sous forme de vrais tableaux Markdown.
-  - **Session `2020_07`** : texte partiel (mixte FR/AR).
-- **Stockage Freebuff & Scripts** :
-  - **Fichiers Markdown** : `/tmp/freebuff/md/` (85 fichiers `.md`).
-  - **Fichiers JSON** : `/tmp/buffy_pdf_texts/` (85 fichiers `.json` + `summary.json`).
-  - **Rapport d'analyse** : `/tmp/RAPPORT_BUFFY_OPENCODE_MARKDOWN.md`.
-  - **Scripts racine** : `extract_all_md.py`, `fill_image_sessions_md.py`, `extract_pdfs_to_json.py`, `compare_extractions.py`.
+- **Extraction (`fitz`)** :
+ - **83 sessions textuelles** extraites instantanément via la couche texte native du PDF (`doc = fitz.open(...)` / `page.get_text`).
+ - **2 sessions image** (`2020_12` et `2021_01`) : complétées directement avec le texte du Compte-Rendu officiel fourni et formattées sous forme de vrais tableaux Markdown.
+ - **Session `2020_07`** : texte partiel (mixte FR/AR).
+- **Stockage & Scripts** :
+ - **Fichiers Markdown** : `/tmp//md/` (85 fichiers `.md`).
+ - **Fichiers JSON** : `/tmp/buffy_pdf_texts/` (85 fichiers `.json` + `summary.json`).
+ - **Rapport d'analyse** : `/tmp/RAPPORT_BUFFY_OPENCODE_MARKDOWN.md`.
+ - **Scripts racine** : `extract_all_md.py`, `fill_image_sessions_md.py`, `extract_pdfs_to_json.py`, `compare_extractions.py`.
 
 ## Projet
 

@@ -1,7 +1,7 @@
 # Tableau des sessions — `/sessions` (données corrigées)
 
 Tableau complet des 85 sessions avec les **données corrigées** (vérifiées contre les PDF officiels
-et auditées par freebuff). Les cellules **en vert** sont les valeurs corrigées par rapport au scrapé.
+et auditées par ). Les cellules **en vert** sont les valeurs corrigées par rapport au scrapé.
 Le taux d'acceptation est affiché en **valeur réelle exacte** avec l'arrondi.
 
 | Légende |
@@ -13,7 +13,7 @@ Le taux d'acceptation est affiché en **valeur réelle exacte** avec l'arrondi.
 | 1 | 01/2020 | 38 | 18 | 11 | 47.37% (arrondi 47.4%) | 52.6 | 14 Labels et 4 Prelabels à Labels |
 | 2 | 01/2021 | 36 | 24 | 7 | 66.67% (arrondi 66.7%) | 33.3 | 15 Labels et 9 Prelabels à Labels |
 | 3 | 01/2022 | 38 | 15 | 9 | 39.47% (arrondi 39.5%) | 60.5 | 9 Labels et 6 Prelabels à Labels |
-| 4 | 01/2023 | 26 | 16 | 6 | 61.54% (arrondi 61.5%) | 38.5 | 6 Labels et 10  Prélabels à Labels |
+| 4 | 01/2023 | 26 | 16 | 6 | 61.54% (arrondi 61.5%) | 38.5 | 6 Labels et 10 Prélabels à Labels |
 | 5 | 01/2024 | 33 | 14 | 6 | 42.42% (arrondi 42.4%) | 57.6 | 8 Labels et 6 Prélabel à Label |
 | 6 | 01/2025 | 39 | <span style="background:#e8f5e9;color:#1b5e20;font-weight:bold;">13</span> | <span style="background:#e8f5e9;color:#1b5e20;font-weight:bold;">2</span> | 33.33% (arrondi 33.3%) | <span style="background:#e8f5e9;color:#1b5e20;font-weight:bold;">66.7</span> | <span style="background:#e8f5e9;color:#1b5e20;font-weight:bold;">13 Labels et 05 Prélabels à Labels</span> |
 | 7 | 01/2026 | 31 | <span style="background:#e8f5e9;color:#1b5e20;font-weight:bold;">10</span> | <span style="background:#e8f5e9;color:#1b5e20;font-weight:bold;">7</span> | 32.26% (arrondi 32.3%) | <span style="background:#e8f5e9;color:#1b5e20;font-weight:bold;">67.7</span> | <span style="background:#e8f5e9;color:#1b5e20;font-weight:bold;">03 Labels et 06 Prélabels à Labels</span> |
@@ -36,14 +36,14 @@ Le taux d'acceptation est affiché en **valeur réelle exacte** avec l'arrondi.
 | 24 | 04/2020 | 40 | 20 | 7 | 50% (arrondi 50.0%) | 50.0 | 17 Labels et 3 Prelabels à Labels |
 | 25 | 04/2021 | 80 | 22 | 24 | 27.5% (arrondi 27.5%) | 72.5 | 18 Labels et 4 Prelabels à Labels |
 | 26 | 04/2022 | 22 | 9 | 6 | 40.91% (arrondi 40.9%) | 59.1 | 5 Labels et 4 Prélabels à Labels |
-| 27 | 04/2023 | 40 | <span style="background:#e8f5e9;color:#1b5e20;font-weight:bold;">13</span> | <span style="background:#e8f5e9;color:#1b5e20;font-weight:bold;">5</span> | 32.5% (arrondi 32.5%) | <span style="background:#e8f5e9;color:#1b5e20;font-weight:bold;">67.5</span> | <span style="background:#e8f5e9;color:#1b5e20;font-weight:bold;">10 Labels et 4  Prélabels à Labels</span> |
+| 27 | 04/2023 | 40 | <span style="background:#e8f5e9;color:#1b5e20;font-weight:bold;">13</span> | <span style="background:#e8f5e9;color:#1b5e20;font-weight:bold;">5</span> | 32.5% (arrondi 32.5%) | <span style="background:#e8f5e9;color:#1b5e20;font-weight:bold;">67.5</span> | <span style="background:#e8f5e9;color:#1b5e20;font-weight:bold;">10 Labels et 4 Prélabels à Labels</span> |
 | 28 | 04/2024 | 39 | 14 | 5 | 35.9% (arrondi 35.9%) | 64.1 | 9 Labels et 5 Prélabel à Label |
 | 29 | 04/2025 | 21 | 13 | 5 | 61.9% (arrondi 61.9%) | 38.1 | 05 Labels et 08 Prélabels à Labels |
 | 30 | 05/2019 | 30 | 15 | 8 | 50% (arrondi 50.0%) | 50.0 | 29 candidats pour mai + 1 candidat de la session d'avril |
 | 31 | 05/2020 | 26 | 12 | 10 | 46.15% (arrondi 46.2%) | 53.8 | 7 Labels et 5 Prelabels à Labels |
 | 32 | 05/2021 | 40 | 19 | 8 | 47.5% (arrondi 47.5%) | 52.5 | 13 Labels et 6 Prelabels à Labels |
 | 33 | 05/2022 | 41 | 14 | 9 | 34.15% (arrondi 34.1%) | 65.9 | 8 Labels et 6 Prélabels à Labels |
-| 34 | 05/2023 | 39 | 19 | 9 | 48.72% (arrondi 48.7%) | 51.3 | 13 Labels et 6  Prélabels à Labels |
+| 34 | 05/2023 | 39 | 19 | 9 | 48.72% (arrondi 48.7%) | 51.3 | 13 Labels et 6 Prélabels à Labels |
 | 35 | 05/2024 | 39 | 14 | 5 | 35.9% (arrondi 35.9%) | 64.1 | 14 Labels et 5 Prélabel à Label |
 | 36 | 05/2025 | 47 | <span style="background:#e8f5e9;color:#1b5e20;font-weight:bold;">13</span> | <span style="background:#e8f5e9;color:#1b5e20;font-weight:bold;">13</span> | 27.66% (arrondi 27.7%) | <span style="background:#e8f5e9;color:#1b5e20;font-weight:bold;">72.3</span> | <span style="background:#e8f5e9;color:#1b5e20;font-weight:bold;">10 Labels et 03 Prélabels à Labels</span> |
 | 37 | 06/2019 | 33 | <span style="background:#e8f5e9;color:#1b5e20;font-weight:bold;">14</span> | <span style="background:#e8f5e9;color:#1b5e20;font-weight:bold;">8</span> | 42.42% (arrondi 42.4%) | <span style="background:#e8f5e9;color:#1b5e20;font-weight:bold;">57.6</span> | <span style="background:#e8f5e9;color:#1b5e20;font-weight:bold;">1 ajourné à la session suivante</span> |
