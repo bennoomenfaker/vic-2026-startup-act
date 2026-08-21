@@ -995,6 +995,7 @@
           <a href="#" data-page="parcours">Parcours Prélabel→Label</a>
           <a href="#" data-page="impact">🎯 Impact</a>
           <a href="#" data-page="insights">Insights</a>
+          <a href="#" data-page="etude-quantitative">📊 Étude Quantitative</a>
           <a href="#" data-page="startupblink">🌍 StartupBlink</a>
           <a href="#" data-page="kpis">📌 Catalogue KPI</a>
         </div>
@@ -1485,6 +1486,119 @@
       <div class="chart-card"><h3>Labels vs Retraits vs Conversions</h3><div class="chart-wrapper"><canvas id="chartInsightPdf"></canvas></div></div>
     </div>
   </section>
+
+  <!-- ÉTUDE QUANTITATIVE -->
+  <section id="page-etude-quantitative">
+    <div class="page-header">
+      <h1>Étude Quantitative du Startup Act Tunisien</h1>
+      <p>85 sessions · 2019–2026 · 1 311 Labels · 623 Prélabels · Analyse longitudinale, sectorielle et géographique</p>
+    </div>
+
+    <div style="background:var(--card-bg);border:1px solid var(--border-color);border-radius:var(--radius-lg);padding:24px;margin-bottom:24px;">
+      <p style="font-size:.9rem;color:var(--text-secondary);line-height:1.6;margin:0 0 16px">
+        <strong>Auteur :</strong> Faker BEN NOOMEN · <strong>Formation :</strong> Mastère VIC (ESEN Manouba × ISCAE Manouba) · <strong>Version :</strong> 21 août 2026
+      </p>
+      <p style="font-size:.88rem;color:var(--text-secondary);line-height:1.6;margin:0;background:var(--danger-soft);padding:14px;border-radius:var(--radius-md);border-left:4px solid #e94560">
+        <strong>Résumé.</strong> Cette étude analyse quantitativement les sessions de labellisation du Startup Act tunisien à partir de 85 sessions (2019–2026), des rapports annuels officiels et des comptes rendus PDF. Après correction, le corpus totalise <strong>1 311 Labels</strong> et <strong>623 Prélabels</strong>, soit <strong>1 934 décisions positives</strong>. Le taux de Label pondéré est de <strong>44,3 %</strong>.
+      </p>
+    </div>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:14px;margin-bottom:28px">
+      <div class="kpi-card" style="text-align:center"><div class="kpi-value" style="color:var(--brand-primary)">85</div><div class="kpi-label">Sessions</div></div>
+      <div class="kpi-card" style="text-align:center"><div class="kpi-value" style="color:#2e7d32">1 311</div><div class="kpi-label">Labels</div></div>
+      <div class="kpi-card" style="text-align:center"><div class="kpi-value" style="color:#1565c0">623</div><div class="kpi-label">Prélabels</div></div>
+      <div class="kpi-card" style="text-align:center"><div class="kpi-value" style="color:#e94560">2 958</div><div class="kpi-label">Candidatures</div></div>
+      <div class="kpi-card" style="text-align:center"><div class="kpi-value" style="color:#7c3aed">44,3%</div><div class="kpi-label">Taux Label pondéré</div></div>
+      <div class="kpi-card" style="text-align:center"><div class="kpi-value" style="color:#0891b2">34,8</div><div class="kpi-label">Moy. candidatures/session</div></div>
+    </div>
+
+    <div style="background:var(--card-bg);border:1px solid var(--border-color);border-radius:var(--radius-lg);padding:24px;margin-bottom:24px">
+      <h2 style="font-size:1.2rem;font-weight:700;margin:0 0 16px;color:var(--text-primary)">1. Résultats annuels</h2>
+      <div style="overflow-x:auto">
+        <table style="width:100%;border-collapse:collapse;font-size:.85rem">
+          <thead><tr style="border-bottom:2px solid var(--border-color)">
+            <th style="text-align:left;padding:8px;color:var(--text-secondary)">Année</th>
+            <th style="text-align:right;padding:8px;color:var(--text-secondary)">Sessions</th>
+            <th style="text-align:right;padding:8px;color:var(--text-secondary)">Candidatures</th>
+            <th style="text-align:right;padding:8px;color:var(--text-secondary)">Labels</th>
+            <th style="text-align:right;padding:8px;color:var(--text-secondary)">Prélabels</th>
+            <th style="text-align:right;padding:8px;color:var(--text-secondary)">Taux Label</th>
+          </tr></thead>
+          <tbody id="eq-annual-body"></tbody>
+        </table>
+      </div>
+      <div style="margin-top:16px;display:grid;grid-template-columns:1fr 1fr;gap:16px">
+        <div><canvas id="eq-chart-evolution" height="220"></canvas></div>
+        <div><canvas id="eq-chart-taux" height="220"></canvas></div>
+      </div>
+    </div>
+
+    <div style="background:var(--card-bg);border:1px solid var(--border-color);border-radius:var(--radius-lg);padding:24px;margin-bottom:24px">
+      <h2 style="font-size:1.2rem;font-weight:700;margin:0 0 16px;color:var(--text-primary)">2. Saisonnalité des décisions</h2>
+      <p style="font-size:.85rem;color:var(--text-secondary);margin:0 0 12px">Le mois d'avril concentre le plus grand nombre cumulé de Labels (124), tandis septembre en compte 93.</p>
+      <canvas id="eq-chart-saison" height="200"></canvas>
+    </div>
+
+    <div style="background:var(--card-bg);border:1px solid var(--border-color);border-radius:var(--radius-lg);padding:24px;margin-bottom:24px">
+      <h2 style="font-size:1.2rem;font-weight:700;margin:0 0 8px;color:var(--text-primary)">3. Analyse sectorielle</h2>
+      <p style="font-size:.85rem;color:var(--text-secondary);margin:0 0 12px">922 startups · 18 secteurs · HHI = 1 044 (concentration modérée) · Top 4 = 51,6%</p>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+        <div><canvas id="eq-chart-sectors" height="300"></canvas></div>
+        <div id="eq-sectors-table"></div>
+      </div>
+    </div>
+
+    <div style="background:var(--card-bg);border:1px solid var(--border-color);border-radius:var(--radius-lg);padding:24px;margin-bottom:24px">
+      <h2 style="font-size:1.2rem;font-weight:700;margin:0 0 8px;color:var(--text-primary)">4. Répartition géographique (2019–2021)</h2>
+      <p style="font-size:.85rem;color:var(--text-secondary);margin:0 0 12px">~70% des startups dans le Grand Tunis. Progression du Centre-Est (10,5% → 13,85%).</p>
+      <canvas id="eq-chart-geo" height="240"></canvas>
+      <div style="overflow-x:auto;margin-top:16px"><table style="width:100%;border-collapse:collapse;font-size:.85rem" id="eq-geo-table"></table></div>
+    </div>
+
+    <div style="background:var(--card-bg);border:1px solid var(--border-color);border-radius:var(--radius-lg);padding:24px;margin-bottom:24px">
+      <h2 style="font-size:1.2rem;font-weight:700;margin:0 0 12px;color:var(--text-primary)">5. Corrélations et indicateurs statistiques</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px">
+        <div class="kpi-card"><div class="kpi-label">Corrélation candidatures ↔ taux Label</div><div class="kpi-value" style="font-size:1.4rem;color:#e94560">r = −0,35</div><div class="kpi-desc">Négative modérée</div></div>
+        <div class="kpi-card"><div class="kpi-label">Corrélation candidatures ↔ décisions positives</div><div class="kpi-value" style="font-size:1.4rem;color:#2e7d32">r = +0,62</div><div class="kpi-desc">Positive — plausible mécaniquement</div></div>
+        <div class="kpi-card"><div class="kpi-label">HHI sectoriel</div><div class="kpi-value" style="font-size:1.4rem;color:#7c3aed">1 044</div><div class="kpi-desc">Concentration modérée</div></div>
+        <div class="kpi-card"><div class="kpi-label">Sessions corrigées</div><div class="kpi-value" style="font-size:1.4rem;color:#e94560">21 / 85</div><div class="kpi-desc">Écart documenté initial → corrigé</div></div>
+      </div>
+    </div>
+
+    <div style="background:var(--card-bg);border:1px solid var(--border-color);border-radius:var(--radius-lg);padding:24px;margin-bottom:24px">
+      <h2 style="font-size:1.2rem;font-weight:700;margin:0 0 12px;color:var(--text-primary)">6. Qualité des données et limites</h2>
+      <div style="font-size:.88rem;color:var(--text-secondary);line-height:1.7">
+        <p style="margin:0 0 10px"><strong>Écart des candidatures :</strong> La somme du tableau corrigé est de 2 958, tandis que le site mentionne 3 015. Ce rapport utilise 2 958 pour les calculs sessionnels.</p>
+        <p style="margin:0 0 10px"><strong>Lignes PDF :</strong> 1 824 lignes extraites, 1 701 avec fondateur renseigné, 190 contenant un retrait.</p>
+        <p style="margin:0 0 10px"><strong>Géographie :</strong> Les rapports annuels donnent des pourcentages agrégés, pas une table startup par startup.</p>
+        <p style="margin:0"><strong>Correction :</strong> 21 sessions corrigées (1 324 → 1 311 Labels, 617 → 623 Prélabels).</p>
+      </div>
+    </div>
+
+    <div style="background:var(--card-bg);border:1px solid var(--border-color);border-radius:var(--radius-lg);padding:24px;margin-bottom:24px">
+      <h2 style="font-size:1.2rem;font-weight:700;margin:0 0 12px;color:var(--text-primary)">7. Recommandations méthodologiques</h2>
+      <ol style="font-size:.88rem;color:var(--text-secondary);line-height:1.7;margin:0;padding-left:20px">
+        <li style="margin-bottom:8px">Maintenir deux tables séparées : <code>session_counters</code> (compteurs officiels) et <code>decision_records</code> (lignes individuelles).</li>
+        <li style="margin-bottom:8px">Ajouter à chaque ligne : <code>source_page</code>, <code>extraction_method</code>, <code>confidence_level</code>, <code>last_verified_at</code>.</li>
+        <li style="margin-bottom:8px">Résoudre la divergence 2 958 – 3 015 candidatures.</li>
+        <li style="margin-bottom:8px">Publier un dictionnaire de données géographiques précisant le dénominateur.</li>
+      </ol>
+    </div>
+
+    <div style="background:var(--card-bg);border:1px solid var(--border-color);border-radius:var(--radius-lg);padding:24px;margin-bottom:24px">
+      <h2 style="font-size:1.2rem;font-weight:700;margin:0 0 12px;color:var(--text-primary)">Références</h2>
+      <ol style="font-size:.82rem;color:var(--text-secondary);line-height:1.8;margin:0;padding-left:20px">
+        <li>Dépôt du projet : <a href="https://github.com/bennoomenfaker/vic-2026-startup-act" target="_blank" rel="noopener" style="color:#7dd3fc">github.com/bennoomenfaker/vic-2026-startup-act</a></li>
+        <li>Corrections des données : <a href="https://github.com/bennoomenfaker/vic-2026-startup-act/blob/main/corrections.md" target="_blank" rel="noopener" style="color:#7dd3fc">corrections.md</a></li>
+        <li>Startup Tunisia — About Startup Act : <a href="https://startup.gov.tn/fr/startup_act/discover" target="_blank" rel="noopener" style="color:#7dd3fc">startup.gov.tn</a></li>
+        <li>Startup Tunisia — Résultats des sessions : <a href="https://startup.gov.tn/fr/startup_act/results" target="_blank" rel="noopener" style="color:#7dd3fc">startup.gov.tn/results</a></li>
+        <li>Startup Tunisia — Comment obtenir le Label : <a href="https://startup.gov.tn/fr/startup_act/how_to_obtain_the_label" target="_blank" rel="noopener" style="color:#7dd3fc">startup.gov.tn</a></li>
+        <li>Startup Tunisia — Rapports annuels 2019, 2020, 2021 : <a href="https://startup.gov.tn/fr/annual-reports" target="_blank" rel="noopener" style="color:#7dd3fc">startup.gov.tn/annual-reports</a></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- STARTUPBLINK (source externe — veille comparative) -->
 
   <!-- STARTUPBLINK (source externe — veille comparative) -->
   <section id="page-startupblink">
@@ -2536,6 +2650,7 @@ function switchPage(page) {
   if (page === 'reports') setTimeout(() => renderReportCharts(0), 200);
   if (page === 'insights') setTimeout(renderInsightCharts, 200);
   if (page === 'startupblink') setTimeout(renderStartupBlinkCharts, 200);
+  if (page === 'etude-quantitative') setTimeout(renderEtudeQuantitative, 200);
   if (page === 'impact') setTimeout(renderImpactCharts, 200);
   if (page === 'kpis') renderKpiCatalogue();
   if (page === 'extracted-data') setTimeout(renderExtractedData, 200);
@@ -4806,6 +4921,155 @@ function jumpToSession(session) {
     target.scrollIntoView({ behavior: 'smooth', block: 'center' });
     target.style.background = '#fff3d6';
     setTimeout(() => { target.style.transition = 'background 1s'; target.style.background = ''; }, 1800);
+  }
+}
+
+
+// ===== ÉTUDE QUANTITATIVE =====
+let _eqRendered = false;
+async function renderEtudeQuantitative() {
+  if (_eqRendered) return;
+  _eqRendered = true;
+  try {
+    const [annualRes, sectorsRes, monthlyRes, geoRes] = await Promise.all([
+      fetch('data/etude_quantitative/annual_corrected.csv').then(r => r.text()),
+      fetch('data/etude_quantitative/sectors_source.csv').then(r => r.text()),
+      fetch('data/etude_quantitative/monthly_corrected.csv').then(r => r.text()),
+      fetch('data/etude_quantitative/geographie_startups_2019_2021.csv').then(r => r.text())
+    ]);
+    const parseCSV = (txt) => {
+      const lines = txt.trim().split('\n');
+      const headers = lines[0].split(',');
+      return lines.slice(1).map(line => {
+        const vals = line.split(',');
+        const obj = {};
+        headers.forEach((h, i) => obj[h.trim()] = vals[i]?.trim());
+        return obj;
+      });
+    };
+    const annual = parseCSV(annualRes);
+    const sectors = parseCSV(sectorsRes);
+    const monthly = parseCSV(monthlyRes);
+    const geoRows = parseCSV(geoRes);
+
+    // 1. Annual table
+    const tbody = document.getElementById('eq-annual-body');
+    if (tbody) {
+      let tC = 0, tL = 0, tP = 0;
+      tbody.innerHTML = annual.map(r => {
+        const c = +r.candidatures, l = +r.labels, p = +r.preLabels;
+        tC += c; tL += l; tP += p;
+        return '<tr style="border-bottom:1px solid var(--border-color)">' +
+          '<td style="padding:8px;font-weight:600">' + r.year + (r.year === '2026' ? '*' : '') + '</td>' +
+          '<td style="text-align:right;padding:8px">' + r.sessions + '</td>' +
+          '<td style="text-align:right;padding:8px">' + c.toLocaleString('fr-FR') + '</td>' +
+          '<td style="text-align:right;padding:8px;color:#2e7d32;font-weight:600">' + l.toLocaleString('fr-FR') + '</td>' +
+          '<td style="text-align:right;padding:8px;color:#1565c0;font-weight:600">' + p.toLocaleString('fr-FR') + '</td>' +
+          '<td style="text-align:right;padding:8px;color:#e94560;font-weight:600">' + (c ? (l/c*100).toFixed(1) : '0') + '%</td></tr>';
+      }).join('') +
+        '<tr style="border-top:2px solid var(--border-color);font-weight:700">' +
+          '<td style="padding:8px">Total</td><td style="text-align:right;padding:8px">85</td>' +
+          '<td style="text-align:right;padding:8px">' + tC.toLocaleString('fr-FR') + '</td>' +
+          '<td style="text-align:right;padding:8px;color:#2e7d32">' + tL.toLocaleString('fr-FR') + '</td>' +
+          '<td style="text-align:right;padding:8px;color:#1565c0">' + tP.toLocaleString('fr-FR') + '</td>' +
+          '<td style="text-align:right;padding:8px;color:#e94560">44,3%</td></tr>';
+    }
+
+    // 2. Evolution chart
+    makeChart('eq-chart-evolution', 'bar', {
+      labels: annual.map(r => r.year),
+      datasets: [
+        { label: 'Candidatures', data: annual.map(r => +r.candidatures), backgroundColor: 'rgba(233,69,96,.6)', borderRadius: 4 },
+        { label: 'Labels', data: annual.map(r => +r.labels), backgroundColor: 'rgba(46,125,50,.7)', borderRadius: 4 },
+        { label: 'Prélabels', data: annual.map(r => +r.preLabels), backgroundColor: 'rgba(21,101,192,.6)', borderRadius: 4 }
+      ]
+    }, { plugins: { title: { display: true, text: 'Évolution annuelle', font: { size: 13 } } } });
+
+    // 3. Taux chart
+    makeChart('eq-chart-taux', 'line', {
+      labels: annual.map(r => r.year),
+      datasets: [{
+        label: 'Taux de Label (%)',
+        data: annual.map(r => +r.label_rate),
+        borderColor: '#e94560', backgroundColor: 'rgba(233,69,96,.1)',
+        fill: true, tension: .3, pointRadius: 5, pointBackgroundColor: '#e94560'
+      }]
+    }, { plugins: { title: { display: true, text: 'Taux de Label par année', font: { size: 13 } } }, scales: { y: { beginAtZero: false, min: 25, max: 65 } } });
+
+    // 4. Saison chart
+    var monthNames = ['Jan','Fév','Mar','Avr','Mai','Jun','Jul','Aoû','Sep','Oct','Nov','Déc'];
+    makeChart('eq-chart-saison', 'bar', {
+      labels: monthly.map(r => monthNames[+r.month_num - 1]),
+      datasets: [
+        { label: 'Labels', data: monthly.map(r => +r.labels), backgroundColor: 'rgba(46,125,50,.7)', borderRadius: 4 },
+        { label: 'Prélabels', data: monthly.map(r => +r.preLabels), backgroundColor: 'rgba(21,101,192,.6)', borderRadius: 4 }
+      ]
+    }, { plugins: { title: { display: true, text: 'Saisonnalité cumulée 2019–2026', font: { size: 13 } } } });
+
+    // 5. Sectors chart + table
+    var topS = sectors.slice(0, 10);
+    var palette = ['#e94560','#1565c0','#2e7d32','#7c3aed','#0891b2','#d97706','#dc2626','#059669','#7c2d12','#6366f1'];
+    makeChart('eq-chart-sectors', 'doughnut', {
+      labels: topS.map(s => s.name),
+      datasets: [{ data: topS.map(s => +s.count), backgroundColor: palette }]
+    }, { plugins: { title: { display: true, text: 'Top 10 secteurs (922 startups)', font: { size: 13 } } } });
+
+    var stbl = document.getElementById('eq-sectors-table');
+    if (stbl) {
+      stbl.innerHTML = '<table style="width:100%;border-collapse:collapse;font-size:.82rem">' +
+        '<thead><tr style="border-bottom:2px solid var(--border-color)">' +
+        '<th style="text-align:left;padding:6px;color:var(--text-secondary)">Secteur</th>' +
+        '<th style="text-align:right;padding:6px;color:var(--text-secondary)">Nombre</th>' +
+        '<th style="text-align:right;padding:6px;color:var(--text-secondary)">Part</th>' +
+        '</tr></thead><tbody>' +
+        sectors.map(function(s) {
+          var pct = (s.count / 922 * 100).toFixed(1);
+          return '<tr style="border-bottom:1px solid var(--border-color)">' +
+            '<td style="padding:6px">' + s.name + '</td>' +
+            '<td style="text-align:right;padding:6px;font-weight:600">' + s.count + '</td>' +
+            '<td style="text-align:right;padding:6px">' + pct + '%</td></tr>';
+        }).join('') + '</tbody></table>';
+    }
+
+    // 6. Geography (long format CSV -> pivot)
+    var regions = [];
+    var byYear = {};
+    geoRows.forEach(function(r) {
+      if (regions.indexOf(r.region_harmonisee) < 0) regions.push(r.region_harmonisee);
+      if (!byYear[r.annee]) byYear[r.annee] = {};
+      byYear[r.annee][r.region_harmonisee] = +r.part_pct;
+    });
+    var years = Object.keys(byYear).sort();
+    makeChart('eq-chart-geo', 'bar', {
+      labels: regions,
+      datasets: years.map(function(y, i) {
+        return {
+          label: y,
+          data: regions.map(function(r) { return byYear[y][r] || 0; }),
+          backgroundColor: ['rgba(233,69,96,.7)','rgba(21,101,192,.6)','rgba(46,125,50,.6)'][i],
+          borderRadius: 4
+        };
+      })
+    }, { plugins: { title: { display: true, text: 'Répartition régionale 2019–2021 (%)', font: { size: 13 } } }, scales: { y: { beginAtZero: true, max: 80 } } });
+
+    var gtbl = document.getElementById('eq-geo-table');
+    if (gtbl) {
+      gtbl.innerHTML = '<thead><tr style="border-bottom:2px solid var(--border-color)">' +
+        '<th style="text-align:left;padding:6px;color:var(--text-secondary)">Région</th>' +
+        years.map(function(y) { return '<th style="text-align:right;padding:6px;color:var(--text-secondary)">' + y + '</th>'; }).join('') +
+        '</tr></thead><tbody>' +
+        regions.map(function(reg) {
+          return '<tr style="border-bottom:1px solid var(--border-color)">' +
+            '<td style="padding:6px">' + reg + '</td>' +
+            years.map(function(y) {
+              var v = byYear[y][reg];
+              return '<td style="text-align:right;padding:6px">' + (v != null ? v + '%' : '–') + '</td>';
+            }).join('') + '</tr>';
+        }).join('') + '</tbody>';
+    }
+
+  } catch (e) {
+    console.error('renderEtudeQuantitative error:', e);
   }
 }
 
