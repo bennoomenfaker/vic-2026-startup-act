@@ -841,12 +841,12 @@ export const dashboardData = {
     "sessionId": "S62",
     "month": 5,
     "year": 2024,
-    "candidatures": 7,
+    "candidatures": 39,
     "labels": 14,
     "preLabels": 5,
-    "commentaires": "Compteurs officiels — 14 Labels, 5 Prélabels.",
-    "tauxAcceptationExact": 271.428571,
-    "tauxEchecExact": 0.0,
+    "commentaires": "S62 : 39 candidatures dans le bloc principal du PDF ; 5 conversions historiques et 2 retraits séparés.",
+    "tauxAcceptationExact": 48.717949,
+    "tauxEchecExact": 51.282051,
     "verification": "OK"
   },
   {
