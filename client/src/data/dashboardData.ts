@@ -45285,14 +45285,16 @@ export const dashboardData = {
       "nom": "Startups labellisées (base)",
       "valeur": "922",
       "statut": "ok",
-      "page": "Dashboard"
+      "page": "Dashboard",
+      "interp": "922 startups dans le registre de base; ce registre est distinct des 3528 décisions détaillées. Une variation de −100 % dans une année filtrée signifie 0 observation dans ce sous-ensemble, pas la disparition du corpus total."
     },
     {
       "id": "KPI-02",
       "nom": "Labels accordés",
-      "valeur": "1 311 (corrigé)",
+      "valeur": "1 356 (corrigé)",
       "statut": "ok",
-      "page": "Dashboard"
+      "page": "Dashboard",
+      "interp": "1356 labels officiels cumulés sur les 88 sessions."
     },
     {
       "id": "KPI-03",
@@ -45300,14 +45302,15 @@ export const dashboardData = {
       "valeur": "3 079",
       "statut": "ok",
       "page": "Dashboard",
-      "interp": "3 079 candidatures officielles publiées par session; à distinguer des 3 528 lignes détaillées."
+      "interp": "3079 candidatures officielles; à distinguer des 3528 lignes détaillées des PDF."
     },
     {
       "id": "KPI-04",
       "nom": "Pré-labels accordés",
       "valeur": "641",
       "statut": "ok",
-      "page": "Dashboard"
+      "page": "Dashboard",
+      "interp": "641 pré-labels officiels; le taux de conversion est un KPI distinct."
     },
     {
       "id": "KPI-05",
@@ -45315,7 +45318,7 @@ export const dashboardData = {
       "valeur": "44.0 %",
       "statut": "ok",
       "page": "Dashboard",
-      "interp": "Taux descriptif = 1 356 labels / 3 079 candidatures officielles; les lignes détaillées ne servent pas de dénominateur."
+      "interp": "Taux descriptif = 1356 labels / 3079 candidatures officielles; les lignes détaillées ne servent pas de dénominateur."
     },
     {
       "id": "KPI-06",
@@ -45369,44 +45372,50 @@ export const dashboardData = {
     {
       "id": "KPI-13",
       "nom": "Conversions pré-label → label",
-      "valeur": "502",
+      "valeur": "369",
       "statut": "ok",
-      "page": "Parcours"
+      "page": "Parcours",
+      "interp": "369 conversions documentées pré-label → label sur 59 sessions."
     },
     {
       "id": "KPI-14",
       "nom": "Taux de conversion",
-      "valeur": "82,0 %",
+      "valeur": "57,6 %",
       "statut": "ok",
-      "page": "Parcours"
+      "page": "Parcours",
+      "interp": "369 / 641 = 57.6 %; ce ratio compare un flux cumulé aux pré-labels accordés."
     },
     {
       "id": "KPI-15",
       "nom": "Pré-labels accordés (Parcours)",
-      "valeur": "623",
+      "valeur": "641",
       "statut": "ok",
-      "page": "Parcours"
+      "page": "Parcours",
+      "interp": "641 pré-labels accordés servent de dénominateur au taux de conversion."
     },
     {
       "id": "KPI-16",
       "nom": "Retraits de labels",
-      "valeur": "140",
+      "valeur": "153",
       "statut": "ok",
-      "page": "Parcours"
+      "page": "Parcours",
+      "interp": "153 retraits officiels sur 54 sessions; ils sont séparés des candidatures."
     },
     {
       "id": "KPI-17",
       "nom": "Labels issus de conversion",
-      "valeur": "39,0 %",
+      "valeur": "27,2 %",
       "statut": "ok",
-      "page": "Parcours"
+      "page": "Parcours",
+      "interp": "369 / 1356 = 27.2 % des labels officiels correspondent au compteur de conversions."
     },
     {
       "id": "KPI-18",
       "nom": "Sessions vérifiées",
-      "valeur": "85",
+      "valeur": "88",
       "statut": "ok",
-      "page": "Corrections"
+      "page": "Corrections",
+      "interp": "Le périmètre final couvre 88 sessions S0–S87."
     },
     {
       "id": "KPI-19",
@@ -45418,16 +45427,18 @@ export const dashboardData = {
     {
       "id": "KPI-20",
       "nom": "Labels avant → après correction",
-      "valeur": "1 324 → 1 311",
+      "valeur": "1 311 → 1 356",
       "statut": "ok",
-      "page": "Corrections"
+      "page": "Corrections",
+      "interp": "Le socle historique de 85 sessions est comparé au corpus final de 88 sessions: 1 311 → 1356 labels."
     },
     {
       "id": "KPI-21",
       "nom": "Pré-labels avant → après correction",
-      "valeur": "617 → 623",
+      "valeur": "617 → 641",
       "statut": "ok",
-      "page": "Corrections"
+      "page": "Corrections",
+      "interp": "Le compteur historique 617 est comparé au compteur final de 641 pré-labels."
     },
     {
       "id": "KPI-22",
@@ -45467,16 +45478,18 @@ export const dashboardData = {
     {
       "id": "KPI-27",
       "nom": "Cumul et évolution annuelle des labels et pré-labels",
-      "valeur": "1 311 / 623",
+      "valeur": "1 356 / 641",
       "statut": "ok",
-      "page": "Dashboard"
+      "page": "Dashboard",
+      "interp": "Cumul final: 1356 labels et 641 pré-labels."
     },
     {
       "id": "KPI-28",
       "nom": "Nombre moyen de candidatures par session",
-      "valeur": "35,5",
+      "valeur": "35,0",
       "statut": "ok",
-      "page": "Dashboard"
+      "page": "Dashboard",
+      "interp": "3079 / 88 = 35.0 candidatures officielles par session; aucune division par NaN."
     },
     {
       "id": "KPI-29",
@@ -45623,7 +45636,8 @@ export const dashboardData = {
       "nom": "Sessions avec retraits documentés",
       "valeur": "54",
       "statut": "ok",
-      "page": "Qualité des données"
+      "page": "Qualité des données",
+      "interp": "54 sessions comportent au moins un retrait documenté."
     },
     {
       "id": "KPI-50",
@@ -45633,6 +45647,6 @@ export const dashboardData = {
       "page": "Qualité des données"
     }
   ],
-  "catalogueSource": "40 KPI repris du catalogue GitHub + 10 KPI dérivés explicitement documentés; série 88 sessions auditée le 22 août 2026",
-  "qualityNote": "Compteurs officiels: 3 079 candidatures, 1 356 labels, 641 prélabels. Registre détaillé: 3 528 lignes. Quatre lignes Reporté confirmées (S11, S12, S28, S67); ITMMA/06-2024 reste Pitch décalé et n'est pas Reporté."
+  "catalogueSource": "50 KPI: catalogue repris et valeurs recalculées sur la série canonique 88 sessions auditée le 22 août 2026",
+  "qualityNote": "Compteurs officiels: 3079 candidatures, 1356 labels, 641 prélabels. Registre détaillé: 3528 lignes. Quatre lignes Reporté confirmées (S11, S12, S28, S67); ITMMA/06-2024 reste Pitch décalé et n'est pas Reporté."
 } as const;

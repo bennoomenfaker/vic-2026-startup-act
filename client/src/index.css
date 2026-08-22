@@ -48,7 +48,7 @@ h2 { font-family: "Source Serif 4", Georgia, serif; font-size: 22px; font-weight
 .hero-strip p { max-width: 720px; color: #344054; font-size: 17px; line-height: 1.45; }
 .hero-strip strong { color: #18263D; font-weight: 800; }
 .hero-meta { display: flex; gap: 14px; color: #8C8A88; font-size: 9px; letter-spacing: .08em; white-space: nowrap; }
-.metric-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.metric-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; }
 .metric-card { background: #FFFDF8; border: 1px solid #DDD4C6; padding: 17px 18px 15px; min-height: 142px; box-shadow: 0 9px 24px rgba(24,38,61,.045); position: relative; overflow: hidden; }
 .metric-card:before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 4px; background: #18263D; }
 .metric-card.saffron:before { background: #E9A23B; }.metric-card.moss:before { background: #4F7D68; }.metric-card.terracotta:before { background: #BD6B52; }
