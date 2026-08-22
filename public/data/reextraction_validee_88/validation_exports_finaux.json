@@ -1,0 +1,45 @@
+{
+  "sql_counts": {
+    "session_official_counts": 88,
+    "companies": 3088,
+    "founders": 3189,
+    "company_founders": 3643,
+    "decisions": 3528
+  },
+  "sql_decision_rows_and_unique_ids": [
+    3528,
+    3528
+  ],
+  "sql_official_sums": [
+    3079,
+    3528,
+    1356,
+    641,
+    369,
+    153,
+    4
+  ],
+  "xlsx_sheet_count": 92,
+  "xlsx_session_tabs": 88,
+  "xlsx_session_sums": {
+    "Candidatures officielles": 3079,
+    "Entrées détaillées": 3528,
+    "Labels": 1356,
+    "Prélabels": 641,
+    "Conversions": 369,
+    "Retraits": 153,
+    "Reportés": 4
+  },
+  "xlsx_decision_rows": 3528,
+  "xlsx_decision_distribution": {
+    "Label accordé": 1201,
+    "Label non accordé": 659,
+    "Prélabel accordé": 636,
+    "Prélabel non accordé": 982,
+    "Reporté": 4,
+    "Retrait Label": 45,
+    "Pitch décalé": 1
+  },
+  "xlsx_report_rows_highlight_target": 4,
+  "pass": true
+}

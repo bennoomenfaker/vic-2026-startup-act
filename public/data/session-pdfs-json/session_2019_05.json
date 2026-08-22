@@ -4,7 +4,7 @@
   "annee": 2019,
   "mois": 5,
   "pdf": "session_2019_05.pdf",
-  "source": "Généré à partir du fichier Excel corrigé; les compteurs officiels sont conservés séparément",
+  "source": "Généré depuis le corpus final validé de 88 sessions (S0–S87); décisions normalisées et sections conservées",
   "nb_entrees": 30,
   "entrees": [
     {
@@ -19,6 +19,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé après le Pitching",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_05.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -33,6 +36,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé après le Pitching",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_05.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -47,6 +53,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé dès le 2ème tour",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_05.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -61,6 +70,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé dès le 2ème tour",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_05.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -75,6 +87,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé dès le 2ème tour",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_05.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -89,6 +104,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé dès le 2ème tour",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_05.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -103,6 +121,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé dès le 2ème tour",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_05.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -117,6 +138,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé dès le 2ème tour",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_05.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -131,6 +155,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé dès le 2ème tour",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_05.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -145,6 +172,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé après le Pitching",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_05.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -159,6 +189,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé dès le 2ème tour",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_05.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -173,6 +206,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé après le Pitching",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_05.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -187,6 +223,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé dès le 2ème tour",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_05.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -201,6 +240,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé dès le 2ème tour",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_05.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -215,6 +257,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé dès le 2ème tour",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_05.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -229,6 +274,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé dès le 2ème tour",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_05.pdf",
       "_displayDecision": "prelabel_accorde"
     },
     {
@@ -243,6 +291,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé dès le 2ème tour",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_05.pdf",
       "_displayDecision": "prelabel_accorde"
     },
     {
@@ -257,6 +308,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé dès le 2ème tour",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_05.pdf",
       "_displayDecision": "prelabel_accorde"
     },
     {
@@ -271,6 +325,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé dès le 2ème tour",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_05.pdf",
       "_displayDecision": "prelabel_accorde"
     },
     {
@@ -285,6 +342,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé dès le 2ème tour",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_05.pdf",
       "_displayDecision": "prelabel_accorde"
     },
     {
@@ -299,6 +359,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé dès le 2ème tour",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_05.pdf",
       "_displayDecision": "prelabel_accorde"
     },
     {
@@ -313,6 +376,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé dès le 2ème tour",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_05.pdf",
       "_displayDecision": "prelabel_accorde"
     },
     {
@@ -327,6 +393,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé dès le 2ème tour",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_05.pdf",
       "_displayDecision": "prelabel_accorde"
     },
     {
@@ -341,7 +410,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label non-accordé après le 2ème tour",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_05.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "Vim It",
@@ -355,7 +427,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label non-accordé après le 2ème tour",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_05.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "Indigo Business Solutions",
@@ -369,7 +444,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label non-accordé après le 2ème tour",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_05.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "Professional System",
@@ -383,7 +461,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label non-accordé après le 2ème tour",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_05.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "Beego",
@@ -397,7 +478,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Dossier irrecevable pour manque de documents",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_05.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "B'rain",
@@ -411,7 +495,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Dossier irrecevable pour non-indépendance du capital",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_05.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "Développement d'applications comptables, gestion, finance",
@@ -425,7 +512,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel non-accordé",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_05.pdf",
+      "_displayDecision": "prelabel_non_accorde"
     }
   ],
   "session_data": {
@@ -433,11 +523,12 @@
     "labels": 15,
     "preLabels": 8,
     "retraits": 0,
-    "labels_extraits_des_lignes": 15,
-    "preLabels_extraits_des_lignes": 8,
+    "conversions": 0,
+    "reportes": 0,
+    "entries_detaillees": 30,
     "qualite": [
-      "Compteurs lignes et compteurs officiels concordants"
+      "Compteur officiel et lignes détaillées conservés dans des périmètres séparés"
     ]
   },
-  "generated_at": "2026-08-20T17:13:25"
+  "generated_at": "2026-08-22T15:45:03+00:00"
 }

@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "sessions": 88,
+    "gender_inference": false,
+    "source": "Estimations antérieures; les PDF 2026 ne fournissent pas de champ genre"
+  },
+  "macro": {
+    "totalFounders": 4764,
+    "femmesFounders": 1153,
+    "hommesFounders": 3611,
+    "pctFemmes": 24.21,
+    "pctHommes": 75.79,
+    "ratioHF": 3.13,
+    "totalStartups": 2630,
+    "startupsWithWomen": 915,
+    "pctStartupsWithWomen": 34.79,
+    "allWomenStartups": 312,
+    "pctAllWomenStartups": 11.86,
+    "allMenStartups": 1403,
+    "pctAllMenStartups": 53.35,
+    "tauxSuccesEquipesMixtes": 54.6,
+    "tauxSuccesEquipesMasculines": 47.2,
+    "tauxConversionPrelabelMixtes": 84.2,
+    "tauxConversionPrelabelMasculines": 78.5,
+    "pctFemmes2019": 18.4,
+    "pctFemmes2026": 31.4,
+    "gainPointsPct": 13.0,
+    "progressionRelative": 70.65,
+    "source": "pasted_content_18.txt — estimations calibrées sur les 85 PVs; non présentes comme variable dans Excel"
+  },
+  "yearly": [
+    {
+      "year": 2019,
+      "totalFounders": 520,
+      "femmes": 96,
+      "hommes": 424,
+      "pctFemmes": 18.46,
+      "startupsTotal": 288,
+      "startupsWithWomen": 81,
+      "pctStartupsWithWomen": 28.12
+    },
+    {
+      "year": 2020,
+      "totalFounders": 680,
+      "femmes": 137,
+      "hommes": 543,
+      "pctFemmes": 20.15,
+      "startupsTotal": 375,
+      "startupsWithWomen": 114,
+      "pctStartupsWithWomen": 30.4
+    },
+    {
+      "year": 2021,
+      "totalFounders": 840,
+      "femmes": 190,
+      "hommes": 650,
+      "pctFemmes": 22.62,
+      "startupsTotal": 464,
+      "startupsWithWomen": 154,
+      "pctStartupsWithWomen": 33.19
+    },
+    {
+      "year": 2022,
+      "totalFounders": 790,
+      "femmes": 196,
+      "hommes": 594,
+      "pctFemmes": 24.81,
+      "startupsTotal": 436,
+      "startupsWithWomen": 156,
+      "pctStartupsWithWomen": 35.78
+    },
+    {
+      "year": 2023,
+      "totalFounders": 750,
+      "femmes": 197,
+      "hommes": 553,
+      "pctFemmes": 26.27,
+      "startupsTotal": 414,
+      "startupsWithWomen": 155,
+      "pctStartupsWithWomen": 37.44
+    },
+    {
+      "year": 2024,
+      "totalFounders": 690,
+      "femmes": 197,
+      "hommes": 493,
+      "pctFemmes": 28.55,
+      "startupsTotal": 381,
+      "startupsWithWomen": 153,
+      "pctStartupsWithWomen": 40.16
+    },
+    {
+      "year": 2025,
+      "totalFounders": 380,
+      "femmes": 117,
+      "hommes": 263,
+      "pctFemmes": 30.79,
+      "startupsTotal": 210,
+      "startupsWithWomen": 88,
+      "pctStartupsWithWomen": 41.9
+    },
+    {
+      "year": 2026,
+      "totalFounders": 114,
+      "femmes": 36,
+      "hommes": 78,
+      "pctFemmes": 31.58,
+      "startupsTotal": 62,
+      "startupsWithWomen": 26,
+      "pctStartupsWithWomen": 41.94
+    }
+  ],
+  "observed_founders_total": 3708,
+  "observed_founders_new_sessions": 128
+}

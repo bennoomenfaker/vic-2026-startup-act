@@ -4,7 +4,7 @@
   "annee": 2020,
   "mois": 7,
   "pdf": "session_2020_07.pdf",
-  "source": "Généré à partir du fichier Excel corrigé; les compteurs officiels sont conservés séparément",
+  "source": "Généré depuis le corpus final validé de 88 sessions (S0–S87); décisions normalisées et sections conservées",
   "nb_entrees": 51,
   "entrees": [
     {
@@ -19,7 +19,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_accorde"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "Klink",
@@ -33,7 +36,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_accorde"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "CrocoCoder",
@@ -47,7 +53,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_accorde"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "floraison natural beauty",
@@ -61,7 +70,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_accorde"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "Kiwi Stock Light",
@@ -75,7 +87,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_accorde"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "Access Aligner",
@@ -89,7 +104,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_accorde"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "ROBOGRAF",
@@ -103,7 +121,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_accorde"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "فرید حول العالم",
@@ -117,7 +138,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_accorde"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "DATASCAI",
@@ -131,7 +155,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_accorde"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "Amonak",
@@ -145,7 +172,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "prelabel_accorde"
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
+      "_displayDecision": "prelabel_non_accorde"
     },
     {
       "societe": "IotBlocks",
@@ -159,7 +189,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "prelabel_accorde"
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
+      "_displayDecision": "prelabel_non_accorde"
     },
     {
       "societe": "ell and beyond Tunisie",
@@ -173,7 +206,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "prelabel_accorde"
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
+      "_displayDecision": "prelabel_non_accorde"
     },
     {
       "societe": "Meditech",
@@ -187,7 +223,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "prelabel_accorde"
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
+      "_displayDecision": "prelabel_non_accorde"
     },
     {
       "societe": "BioAgrilhelpers (BAH)",
@@ -201,7 +240,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "prelabel_accorde"
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
+      "_displayDecision": "prelabel_non_accorde"
     },
     {
       "societe": "Wanawaa",
@@ -215,7 +257,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "prelabel_accorde"
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
+      "_displayDecision": "prelabel_non_accorde"
     },
     {
       "societe": "Le Comet",
@@ -229,7 +274,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "prelabel_accorde"
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
+      "_displayDecision": "prelabel_non_accorde"
     },
     {
       "societe": "10nar",
@@ -243,7 +291,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "Home's Aroma",
@@ -257,7 +308,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "GuestnHouse",
@@ -271,7 +325,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "ACES",
@@ -285,7 +342,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "Ecomptable.tn",
@@ -299,7 +359,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "Home School Tunisia",
@@ -313,7 +376,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "Wiki Academy",
@@ -327,7 +393,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "1wayFM",
@@ -341,7 +410,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "Maniaro",
@@ -355,7 +427,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "Rankstop",
@@ -369,7 +444,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "Oryx Guide",
@@ -383,7 +461,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "BuildUp",
@@ -397,7 +478,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
+      "_displayDecision": "prelabel_non_accorde"
     },
     {
       "societe": "Better Mood",
@@ -411,7 +495,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
+      "_displayDecision": "prelabel_non_accorde"
     },
     {
       "societe": "Tastybox",
@@ -425,7 +512,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
+      "_displayDecision": "prelabel_non_accorde"
     },
     {
       "societe": "UniBoard",
@@ -439,7 +529,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
+      "_displayDecision": "prelabel_non_accorde"
     },
     {
       "societe": "Synapse",
@@ -453,7 +546,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
+      "_displayDecision": "prelabel_non_accorde"
     },
     {
       "societe": "TIDY",
@@ -467,7 +563,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
+      "_displayDecision": "prelabel_non_accorde"
     },
     {
       "societe": "ÖMyCamp",
@@ -481,7 +580,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
+      "_displayDecision": "prelabel_non_accorde"
     },
     {
       "societe": "econsulting",
@@ -495,10 +597,13 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
+      "_displayDecision": "prelabel_non_accorde"
     },
     {
-      "societe": "صحّتي (صحتّي)",
+      "societe": "فرید حول العالم",
       "projet": "Non renseigné",
       "fondateurs": "Wissem Labbadi ; Aymen Gabsni",
       "decision": "Prélabel non accordé",
@@ -508,7 +613,11 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
-      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
+      "_displayDecision": "prelabel_non_accorde"
     },
     {
       "societe": "Artisup",
@@ -522,7 +631,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
+      "_displayDecision": "prelabel_non_accorde"
     },
     {
       "societe": "Expenditure",
@@ -536,7 +648,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
+      "_displayDecision": "prelabel_non_accorde"
     },
     {
       "societe": "APP4MOB BUSINESS SOLUTIONS",
@@ -550,7 +665,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
+      "_displayDecision": "prelabel_non_accorde"
     },
     {
       "societe": "TAMWIL.TN",
@@ -564,7 +682,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
+      "_displayDecision": "prelabel_non_accorde"
     },
     {
       "societe": "ALMOURAFEK",
@@ -578,6 +699,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé suite à la création de la Startup",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -592,6 +716,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé suite à la création de la Startup",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -606,6 +733,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé suite à la création de la Startup",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -620,6 +750,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé suite à la création de la Startup",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -634,6 +767,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé suite à la création de la Startup",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -648,6 +784,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé suite à la création de la Startup",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -662,10 +801,13 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé suite à la création de la Startup",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
       "_displayDecision": "label_accorde"
     },
     {
-      "societe": "Chmisa",
+      "societe": "CHMISA",
       "projet": "Non renseigné",
       "fondateurs": "Bechir Taboubi",
       "decision": "Label accordé",
@@ -676,6 +818,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé suite à la création de la Startup",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -690,6 +835,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé suite à la création de la Startup",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -704,7 +852,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Retrait de label",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "retrait"
+      "resultat_normalise": "Retrait Label",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
+      "_displayDecision": "retrait_label"
     },
     {
       "societe": "Safozi",
@@ -718,19 +869,23 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Retrait de label",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "retrait"
+      "resultat_normalise": "Retrait Label",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_07.pdf",
+      "_displayDecision": "retrait_label"
     }
   ],
   "session_data": {
-    "candidatures": 51,
+    "candidatures": 40,
     "labels": 18,
     "preLabels": 7,
     "retraits": 2,
-    "labels_extraits_des_lignes": 18,
-    "preLabels_extraits_des_lignes": 7,
+    "conversions": 0,
+    "reportes": 0,
+    "entries_detaillees": 51,
     "qualite": [
-      "Compteurs lignes et compteurs officiels concordants"
+      "Compteur officiel et lignes détaillées conservés dans des périmètres séparés"
     ]
   },
-  "generated_at": "2026-08-20T17:13:25"
+  "generated_at": "2026-08-22T15:45:03+00:00"
 }

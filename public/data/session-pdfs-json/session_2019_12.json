@@ -4,7 +4,7 @@
   "annee": 2019,
   "mois": 12,
   "pdf": "session_2019_12.pdf",
-  "source": "Généré à partir du fichier Excel corrigé; les compteurs officiels sont conservés séparément",
+  "source": "Généré depuis le corpus final validé de 88 sessions (S0–S87); décisions normalisées et sections conservées",
   "nb_entrees": 42,
   "entrees": [
     {
@@ -19,6 +19,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_12.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -33,6 +36,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_12.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -47,6 +53,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_12.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -61,6 +70,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_12.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -75,6 +87,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_12.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -89,6 +104,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_12.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -103,6 +121,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_12.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -117,6 +138,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_12.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -131,6 +155,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_12.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -145,6 +172,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_12.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -159,6 +189,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_12.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -173,6 +206,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_12.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -187,6 +223,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_12.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -201,6 +240,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_12.pdf",
       "_displayDecision": "prelabel_accorde"
     },
     {
@@ -215,6 +257,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_12.pdf",
       "_displayDecision": "prelabel_accorde"
     },
     {
@@ -229,6 +274,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_12.pdf",
       "_displayDecision": "prelabel_accorde"
     },
     {
@@ -243,6 +291,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_12.pdf",
       "_displayDecision": "prelabel_accorde"
     },
     {
@@ -257,6 +308,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_12.pdf",
       "_displayDecision": "prelabel_accorde"
     },
     {
@@ -271,6 +325,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_12.pdf",
       "_displayDecision": "prelabel_accorde"
     },
     {
@@ -285,6 +342,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_12.pdf",
       "_displayDecision": "prelabel_accorde"
     },
     {
@@ -299,7 +359,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
-      "_displayDecision": "label_accorde"
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_12.pdf",
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "AUDACITY",
@@ -313,7 +376,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label non-accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
-      "_displayDecision": "prelabel_accorde"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_12.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "SOCIETE ARDARY PARTNERS TUNISIA",
@@ -327,7 +393,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label non-accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_12.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "PROSERVY",
@@ -341,10 +410,13 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label non-accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_12.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
-      "societe": "SUPPLY AIR",
+      "societe": "Supply Air",
       "projet": "Non renseigné",
       "fondateurs": "Hatem Lefi, Aymen Tleilia",
       "decision": "Label non accordé",
@@ -355,7 +427,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label non-accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_12.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "ALFA PRINT",
@@ -369,7 +444,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label non-accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_12.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "Tun E-shop",
@@ -383,7 +461,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel non-accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_12.pdf",
+      "_displayDecision": "prelabel_non_accorde"
     },
     {
       "societe": "GPS-Infos",
@@ -397,7 +478,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel non-accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_12.pdf",
+      "_displayDecision": "prelabel_non_accorde"
     },
     {
       "societe": "Dyarna",
@@ -411,7 +495,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel non-accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_12.pdf",
+      "_displayDecision": "prelabel_non_accorde"
     },
     {
       "societe": "OFFBEAT MEDIA",
@@ -425,7 +512,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel non-accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_12.pdf",
+      "_displayDecision": "prelabel_non_accorde"
     },
     {
       "societe": "OXN",
@@ -439,7 +529,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel non-accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_12.pdf",
+      "_displayDecision": "prelabel_non_accorde"
     },
     {
       "societe": "StarTAW",
@@ -453,7 +546,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel non-accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_12.pdf",
+      "_displayDecision": "prelabel_non_accorde"
     },
     {
       "societe": "Advanced Functionalities For Smart Home - Kwiklink Technologies",
@@ -467,7 +563,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
-      "_displayDecision": "label_accorde"
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_12.pdf",
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Transfacile - Techno GM",
@@ -481,7 +580,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
-      "_displayDecision": "label_accorde"
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_12.pdf",
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Bookingtodo",
@@ -495,7 +597,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
-      "_displayDecision": "label_accorde"
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_12.pdf",
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "VME Internationale",
@@ -509,7 +614,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
-      "_displayDecision": "label_accorde"
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_12.pdf",
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Kamioun - Kriga Technologies",
@@ -523,10 +631,13 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
-      "_displayDecision": "label_accorde"
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_12.pdf",
+      "_displayDecision": "prelabel_accorde"
     },
     {
-      "societe": "Warecom",
+      "societe": "WareCom",
       "projet": "Non renseigné",
       "fondateurs": "Hamza Said, Nour Abbous, Ali Saidi",
       "decision": "Label accordé",
@@ -537,7 +648,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
-      "_displayDecision": "label_accorde"
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_12.pdf",
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Foodealz",
@@ -551,10 +665,13 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
-      "_displayDecision": "label_accorde"
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_12.pdf",
+      "_displayDecision": "prelabel_accorde"
     },
     {
-      "societe": "X.P.R",
+      "societe": "X-P-R",
       "projet": "Non renseigné",
       "fondateurs": "Mohamed Aziz Chahed, Mohamed Itheb Ben Abbes, Oussama Ouda, Mohamed Chebbi",
       "decision": "Label accordé",
@@ -564,7 +681,11 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_12.pdf",
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Natalista",
@@ -578,10 +699,13 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
-      "_displayDecision": "label_accorde"
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_12.pdf",
+      "_displayDecision": "prelabel_accorde"
     },
     {
-      "societe": "Kyto Prod",
+      "societe": "Kyto-Prod",
       "projet": "Non renseigné",
       "fondateurs": "Olfa Kilani Feki",
       "decision": "Label accordé",
@@ -592,19 +716,23 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
-      "_displayDecision": "label_accorde"
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_12.pdf",
+      "_displayDecision": "prelabel_accorde"
     }
   ],
   "session_data": {
-    "candidatures": 42,
+    "candidatures": 32,
     "labels": 23,
     "preLabels": 8,
     "retraits": 0,
-    "labels_extraits_des_lignes": 23,
-    "preLabels_extraits_des_lignes": 8,
+    "conversions": 0,
+    "reportes": 0,
+    "entries_detaillees": 42,
     "qualite": [
-      "Compteurs lignes et compteurs officiels concordants"
+      "Compteur officiel et lignes détaillées conservés dans des périmètres séparés"
     ]
   },
-  "generated_at": "2026-08-20T17:13:25"
+  "generated_at": "2026-08-22T15:45:03+00:00"
 }

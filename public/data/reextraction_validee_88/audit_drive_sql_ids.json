@@ -1,0 +1,14 @@
+{
+  "parsed": 3528,
+  "unique": 3521,
+  "duplicate_rows": 7,
+  "duplicates": {
+    "2b6b5c0c6c36": 2,
+    "10cd542efdbe": 2,
+    "a74f4c9748a6": 2,
+    "9780dd8b85e2": 2,
+    "b9381eff7615": 2,
+    "3ed1eb6f859b": 2,
+    "8fd2378a1046": 2
+  }
+}

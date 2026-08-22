@@ -1,0 +1,349 @@
+{
+  "canonical": {
+    "sessions": 88,
+    "entries": 3528,
+    "decisions": {
+      "Label accordé": 1201,
+      "Label non accordé": 659,
+      "Prélabel accordé": 636,
+      "Prélabel non accordé": 982,
+      "Reporté": 4,
+      "Retrait Label": 45,
+      "Pitch décalé": 1
+    }
+  },
+  "files": {
+    "database_88.csv": {
+      "rows": 3528,
+      "fields": [
+        "decision_id",
+        "session_id",
+        "session",
+        "entreprise",
+        "source_file",
+        "section",
+        "projet",
+        "fondateurs",
+        "decision_brute",
+        "resultat_normalise",
+        "type_decision",
+        "statut_demande",
+        "secteur",
+        "tour",
+        "apres_pitching",
+        "obtention_retrait",
+        "commentaires",
+        "controle_qualite"
+      ],
+      "sessions": 88
+    },
+    "database_entrees_brutes.csv": {
+      "error": "Could not determine delimiter"
+    },
+    "database_entrees_brutes_88.csv": {
+      "rows": 3528,
+      "fields": [
+        "decision_id",
+        "session_id",
+        "session",
+        "entreprise",
+        "source_file",
+        "section",
+        "projet",
+        "fondateurs",
+        "decision_brute",
+        "resultat_normalise",
+        "type_decision",
+        "statut_demande",
+        "secteur",
+        "tour",
+        "apres_pitching",
+        "obtention_retrait",
+        "commentaires",
+        "controle_qualite"
+      ],
+      "sessions": 88,
+      "decision_distribution": {
+        "Label accordé": 1201,
+        "Label non accordé": 659,
+        "Prélabel accordé": 636,
+        "Prélabel non accordé": 982,
+        "Reporté": 4,
+        "Retrait Label": 45,
+        "Pitch décalé": 1
+      }
+    },
+    "database_startups_sessions.csv": {
+      "error": "Could not determine delimiter"
+    },
+    "database_founders_88.csv": {
+      "rows": 3708,
+      "fields": [
+        "id",
+        "nom",
+        "nom_normalise"
+      ]
+    },
+    "database_startup_founders_88.csv": {
+      "rows": 4291,
+      "fields": [
+        "startup_id",
+        "founder_id",
+        "session",
+        "societe",
+        "fondateur"
+      ],
+      "sessions": 88
+    },
+    "database_sessions_88.csv": {
+      "rows": 88,
+      "fields": [
+        "session",
+        "candidatures",
+        "labels",
+        "preLabels",
+        "retraits",
+        "conversions",
+        "newLabels",
+        "taux_acceptation_pct",
+        "statut",
+        "entries",
+        "reportes"
+      ],
+      "sessions": 88
+    },
+    "database_sessions.csv": {
+      "rows": 88,
+      "fields": [
+        "session",
+        "candidatures",
+        "labels",
+        "preLabels",
+        "retraits",
+        "conversions",
+        "newLabels",
+        "taux_acceptation_pct",
+        "statut",
+        "entries",
+        "reportes"
+      ],
+      "sessions": 88
+    },
+    "Startup_Act_88_sessions_fondateurs_decisions_qualite.xlsx": {
+      "sheet_count": 9,
+      "sheetnames": [
+        "Sessions_88",
+        "Décisions_88",
+        "Entreprises",
+        "Fondateurs",
+        "Entreprise_Fondateur",
+        "Genre_Général",
+        "Genre_Annuel",
+        "Contrôle_Qualité",
+        "Synthèse_88"
+      ],
+      "Sessions_88": {
+        "rows": 89,
+        "cols": 10,
+        "sample": [
+          [
+            "Session ID",
+            "Période",
+            "Candidatures officielles",
+            "Entrées détaillées",
+            "Labels officiels",
+            "Prélabels officiels",
+            "Conversions",
+            "Retraits documentés",
+            "Reportés détaillés",
+            "Définition"
+          ],
+          [
+            "S0",
+            "03/2019",
+            16,
+            14,
+            12,
+            0,
+            0,
+            0,
+            0,
+            "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+          ],
+          [
+            "S1",
+            "04/2019",
+            51,
+            52,
+            33,
+            0,
+            0,
+            0,
+            0,
+            "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+          ]
+        ]
+      }
+    },
+    "Faker85session_corrigee_compteurs_officiels.xlsx": {
+      "sheet_count": 91,
+      "sheetnames": [
+        "Synthèse",
+        "Compteurs_Officiels",
+        "S0",
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9"
+      ],
+      "Compteurs_Officiels": {
+        "rows": 88,
+        "cols": 7,
+        "sample": [
+          [
+            "Session",
+            "Période JSON",
+            "Label accordé officiel",
+            "Prélabel accordé officiel",
+            "Total accordé",
+            "Retraits",
+            "Note de contrôle"
+          ],
+          [
+            "S0",
+            "03/2019",
+            12,
+            0,
+            12,
+            0,
+            "Correction officielle du compteur"
+          ],
+          [
+            "S1",
+            "04/2019",
+            33,
+            0,
+            33,
+            0,
+            "Correction officielle du compteur"
+          ]
+        ]
+      },
+      "Synthèse": {
+        "rows": 3349,
+        "cols": 14,
+        "sample": [
+          [
+            "Fichier source",
+            "Session",
+            "Section / type de passage",
+            "Entreprise / Société",
+            "Projet",
+            "Fondateur(s)",
+            "Décision",
+            "Statut demandé",
+            "Secteur",
+            "Tour / moment de décision",
+            "Après pitching",
+            "Session d’obtention / retrait",
+            "Commentaires",
+            "Contrôle qualité"
+          ],
+          [
+            "session_2019_03.pdf",
+            "Session 0 — Mars 2019",
+            "Session de décision",
+            "Datavora",
+            "Non renseigné",
+            "Hadi Zaher, Oussama Messaoud",
+            "Label accordé",
+            "Label",
+            "E-Commerce",
+            "2ème tour",
+            "Non renseigné",
+            "Non renseigné",
+            "Label accordé dès le 2ème Tour",
+            "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
+          ],
+          [
+            "session_2019_03.pdf",
+            "Session 0 — Mars 2019",
+            "Session de décision",
+            "Enova Robotics",
+            "Non renseigné",
+            "Anis Sahbani, Philippe Bidaud, Christophe Grand",
+            "Label accordé",
+            "Label",
+            "Industrie Robotique",
+            "2ème tour",
+            "Non renseigné",
+            "Non renseigné",
+            "Label accordé dès le 2ème Tour",
+            "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF"
+          ]
+        ]
+      }
+    }
+  },
+  "comparison_database_entrees_brutes_88": {
+    "rows_old": 3528,
+    "matched_exact_key": 0,
+    "mismatches_count": 7,
+    "sample_mismatches": [
+      {
+        "type": "decision",
+        "session": "07/2020",
+        "company": "فرید حول العالم",
+        "old": "Prélabel non accordé",
+        "canonical": "Label non accordé"
+      },
+      {
+        "type": "decision",
+        "session": "02/2021",
+        "company": "Bridges S.A",
+        "old": "Label accordé",
+        "canonical": "Prélabel accordé"
+      },
+      {
+        "type": "decision",
+        "session": "12/2021",
+        "company": "allcarta",
+        "old": "Prélabel non accordé",
+        "canonical": "Label accordé"
+      },
+      {
+        "type": "decision",
+        "session": "01/2022",
+        "company": "Hayat Tech",
+        "old": "Label accordé",
+        "canonical": "Prélabel accordé"
+      },
+      {
+        "type": "decision",
+        "session": "02/2022",
+        "company": "Kiddo",
+        "old": "Prélabel non accordé",
+        "canonical": "Label accordé"
+      },
+      {
+        "type": "decision",
+        "session": "08/2022",
+        "company": "The Vastlight Platform",
+        "old": "Label non accordé",
+        "canonical": "Label accordé"
+      },
+      {
+        "type": "decision",
+        "session": "01/2024",
+        "company": "Catchy",
+        "old": "Prélabel non accordé",
+        "canonical": "Label accordé"
+      }
+    ]
+  }
+}

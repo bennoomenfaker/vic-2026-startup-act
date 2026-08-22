@@ -4,7 +4,7 @@
   "annee": 2020,
   "mois": 2,
   "pdf": "session_2020_02.pdf",
-  "source": "Généré à partir du fichier Excel corrigé; les compteurs officiels sont conservés séparément",
+  "source": "Généré depuis le corpus final validé de 88 sessions (S0–S87); décisions normalisées et sections conservées",
   "nb_entrees": 41,
   "entrees": [
     {
@@ -19,7 +19,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé en 2ème tour",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
-      "_displayDecision": "prelabel_refuse"
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_02.pdf",
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Société Saghroun.com",
@@ -33,6 +36,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé en 2ème tour",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_02.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -47,6 +53,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé en 2ème tour",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_02.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -61,6 +70,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé en 2ème tour",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_02.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -75,6 +87,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé en 2ème tour",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_02.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -89,6 +104,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé en 2ème tour",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_02.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -103,6 +121,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé en 2ème tour",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_02.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -117,6 +138,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé en 2ème tour",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_02.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -131,6 +155,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé en 2ème tour",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_02.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -145,6 +172,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé en 2ème tour",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_02.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -159,6 +189,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé en 2ème tour",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_02.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -173,6 +206,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé après pitching",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_02.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -187,6 +223,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé après pitching",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_02.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -201,6 +240,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_02.pdf",
       "_displayDecision": "prelabel_accorde"
     },
     {
@@ -215,6 +257,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_02.pdf",
       "_displayDecision": "prelabel_accorde"
     },
     {
@@ -229,6 +274,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_02.pdf",
       "_displayDecision": "prelabel_accorde"
     },
     {
@@ -243,6 +291,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_02.pdf",
       "_displayDecision": "prelabel_accorde"
     },
     {
@@ -257,6 +308,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_02.pdf",
       "_displayDecision": "prelabel_accorde"
     },
     {
@@ -271,6 +325,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_02.pdf",
       "_displayDecision": "prelabel_accorde"
     },
     {
@@ -285,6 +342,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_02.pdf",
       "_displayDecision": "prelabel_accorde"
     },
     {
@@ -299,6 +359,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_02.pdf",
       "_displayDecision": "prelabel_accorde"
     },
     {
@@ -313,6 +376,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_02.pdf",
       "_displayDecision": "prelabel_accorde"
     },
     {
@@ -327,6 +393,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_02.pdf",
       "_displayDecision": "prelabel_accorde"
     },
     {
@@ -341,7 +410,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label non-accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
-      "_displayDecision": "prelabel_accorde"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_02.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "freeoui",
@@ -355,7 +427,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label non-accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_02.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "Eklectic",
@@ -369,7 +444,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label non-accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_02.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "Société Tunipages",
@@ -383,7 +461,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label non-accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_02.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "FormaClick",
@@ -397,7 +478,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel non-accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_02.pdf",
+      "_displayDecision": "prelabel_non_accorde"
     },
     {
       "societe": "Marhbebik.com",
@@ -411,7 +495,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel non-accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_02.pdf",
+      "_displayDecision": "prelabel_non_accorde"
     },
     {
       "societe": "RASCALTOU !",
@@ -425,7 +512,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel non-accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_02.pdf",
+      "_displayDecision": "prelabel_non_accorde"
     },
     {
       "societe": "Tunisia Biotech",
@@ -438,7 +528,11 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Candidature reportée",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF"
+      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "resultat_normalise": "Reporté",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_02.pdf",
+      "_displayDecision": "reporte"
     },
     {
       "societe": "Coinsence",
@@ -452,7 +546,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
-      "_displayDecision": "label_accorde"
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_02.pdf",
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Support de coupe à couvercle automatique",
@@ -466,7 +563,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
-      "_displayDecision": "label_accorde"
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_02.pdf",
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "IDWEY",
@@ -480,7 +580,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
-      "_displayDecision": "label_accorde"
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_02.pdf",
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "NovaTEK Solutions",
@@ -494,7 +597,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
-      "_displayDecision": "label_accorde"
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_02.pdf",
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Shadoc",
@@ -508,10 +614,13 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
-      "_displayDecision": "label_accorde"
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_02.pdf",
+      "_displayDecision": "prelabel_accorde"
     },
     {
-      "societe": "Innofab",
+      "societe": "INNOFAB",
       "projet": "Non renseigné",
       "fondateurs": "Nadim Kharraz",
       "decision": "Label accordé",
@@ -522,10 +631,13 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
-      "_displayDecision": "label_accorde"
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_02.pdf",
+      "_displayDecision": "prelabel_accorde"
     },
     {
-      "societe": "Quermes",
+      "societe": "QUERMES",
       "projet": "Non renseigné",
       "fondateurs": "Karim Sellami, Faiz Baccour",
       "decision": "Label accordé",
@@ -536,7 +648,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
-      "_displayDecision": "label_accorde"
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_02.pdf",
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Consulti",
@@ -550,7 +665,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
-      "_displayDecision": "label_accorde"
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_02.pdf",
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Gofields (Sportfields)",
@@ -564,7 +682,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
-      "_displayDecision": "label_accorde"
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_02.pdf",
+      "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Coinsence",
@@ -578,19 +699,23 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé suite à la création de la Startup (conversion prelabel)",
       "controle_qualite": "Secteur absent du JSON; vérifier PDF",
-      "_displayDecision": "label_accorde"
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_02.pdf",
+      "_displayDecision": "prelabel_accorde"
     }
   ],
   "session_data": {
-    "candidatures": 40,
+    "candidatures": 32,
     "labels": 22,
     "preLabels": 11,
     "retraits": 0,
-    "labels_extraits_des_lignes": 22,
-    "preLabels_extraits_des_lignes": 11,
+    "conversions": 0,
+    "reportes": 1,
+    "entries_detaillees": 41,
     "qualite": [
-      "Compteurs lignes et compteurs officiels concordants"
+      "Compteur officiel et lignes détaillées conservés dans des périmètres séparés"
     ]
   },
-  "generated_at": "2026-08-20T17:13:25"
+  "generated_at": "2026-08-22T15:45:03+00:00"
 }

@@ -4,7 +4,7 @@
   "annee": 2020,
   "mois": 8,
   "pdf": "session_2020_08.pdf",
-  "source": "Généré à partir du fichier Excel corrigé; les compteurs officiels sont conservés séparément",
+  "source": "Généré depuis le corpus final validé de 88 sessions (S0–S87); décisions normalisées et sections conservées",
   "nb_entrees": 34,
   "entrees": [
     {
@@ -18,7 +18,10 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
-      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF; Reclassification audit 2026-08-22: faux Reporté S17-S20; décision confirmée par PDF/colonne brute",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_08.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -32,7 +35,10 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
-      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF; Reclassification audit 2026-08-22: faux Reporté S17-S20; décision confirmée par PDF/colonne brute",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_08.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -46,7 +52,10 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
-      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF; Reclassification audit 2026-08-22: faux Reporté S17-S20; décision confirmée par PDF/colonne brute",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_08.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -60,7 +69,10 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
-      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF; Reclassification audit 2026-08-22: faux Reporté S17-S20; décision confirmée par PDF/colonne brute",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_08.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -74,7 +86,10 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
-      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF; Reclassification audit 2026-08-22: faux Reporté S17-S20; décision confirmée par PDF/colonne brute",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_08.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -88,7 +103,10 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
-      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF; Reclassification audit 2026-08-22: faux Reporté S17-S20; décision confirmée par PDF/colonne brute",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_08.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -102,7 +120,10 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
-      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF; Reclassification audit 2026-08-22: faux Reporté S17-S20; décision confirmée par PDF/colonne brute",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_08.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -117,7 +138,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_accorde"
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_08.pdf",
+      "_displayDecision": "prelabel_non_accorde"
     },
     {
       "societe": "HAKIM TECHNOLOGIES",
@@ -131,7 +155,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_accorde"
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_08.pdf",
+      "_displayDecision": "prelabel_non_accorde"
     },
     {
       "societe": "D-WEE",
@@ -145,7 +172,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_accorde"
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_08.pdf",
+      "_displayDecision": "prelabel_non_accorde"
     },
     {
       "societe": "HOMEJEK",
@@ -159,7 +189,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_accorde"
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_08.pdf",
+      "_displayDecision": "prelabel_non_accorde"
     },
     {
       "societe": "MTCE",
@@ -173,7 +206,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_accorde"
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_08.pdf",
+      "_displayDecision": "prelabel_non_accorde"
     },
     {
       "societe": "Angel Protector/ AMZi Smart Solutions",
@@ -186,7 +222,10 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
-      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF; Reclassification audit 2026-08-22: faux Reporté S17-S20; décision confirmée par PDF/colonne brute",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_08.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -200,7 +239,10 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
-      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF; Reclassification audit 2026-08-22: faux Reporté S17-S20; décision confirmée par PDF/colonne brute",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_08.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -214,7 +256,10 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
-      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF; Reclassification audit 2026-08-22: faux Reporté S17-S20; décision confirmée par PDF/colonne brute",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_08.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -228,7 +273,10 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
-      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF; Reclassification audit 2026-08-22: faux Reporté S17-S20; décision confirmée par PDF/colonne brute",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_08.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -242,7 +290,10 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
-      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF; Reclassification audit 2026-08-22: faux Reporté S17-S20; décision confirmée par PDF/colonne brute",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_08.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -257,7 +308,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "prelabel_accorde"
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_08.pdf",
+      "_displayDecision": "prelabel_non_accorde"
     },
     {
       "societe": "Points Cadeaux",
@@ -271,7 +325,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "prelabel_accorde"
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_08.pdf",
+      "_displayDecision": "prelabel_non_accorde"
     },
     {
       "societe": "mintounes",
@@ -285,7 +342,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "prelabel_accorde"
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_08.pdf",
+      "_displayDecision": "prelabel_non_accorde"
     },
     {
       "societe": "TAWA",
@@ -299,7 +359,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "prelabel_accorde"
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_08.pdf",
+      "_displayDecision": "prelabel_non_accorde"
     },
     {
       "societe": "Drone filaire",
@@ -313,7 +376,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "prelabel_accorde"
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_08.pdf",
+      "_displayDecision": "prelabel_non_accorde"
     },
     {
       "societe": "Full Health",
@@ -327,7 +393,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "prelabel_accorde"
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_08.pdf",
+      "_displayDecision": "prelabel_non_accorde"
     },
     {
       "societe": "WeRebase",
@@ -341,7 +410,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_08.pdf",
+      "_displayDecision": "prelabel_non_accorde"
     },
     {
       "societe": "Afia Tech",
@@ -355,7 +427,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_08.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "SPORTOLOGY",
@@ -369,7 +444,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_08.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "Société Classquiz",
@@ -383,7 +461,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_08.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "Nebulabs",
@@ -397,7 +478,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_08.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "Scaphandry",
@@ -411,7 +495,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_08.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "Digital GROWUP APPLICATIONS « DGA »",
@@ -425,7 +512,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_08.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "Ste Hope Healthcare Solutions",
@@ -439,7 +529,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_08.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "THEMAZEGROUP",
@@ -453,7 +546,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_08.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "School Upgrader",
@@ -467,7 +563,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_08.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "STE Industrial FACTOORYA Tech",
@@ -481,19 +580,23 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2020_08.pdf",
+      "_displayDecision": "label_non_accorde"
     }
   ],
   "session_data": {
-    "candidatures": 34,
+    "candidatures": 28,
     "labels": 17,
     "preLabels": 6,
     "retraits": 0,
-    "labels_extraits_des_lignes": 10,
-    "preLabels_extraits_des_lignes": 0,
+    "conversions": 0,
+    "reportes": 0,
+    "entries_detaillees": 34,
     "qualite": [
-      "Écart compteurs Excel lignes/compteurs officiels: lignes Label=10, officiel Label=17; lignes Prélabel=0, officiel Prélabel=6"
+      "Compteur officiel et lignes détaillées conservés dans des périmètres séparés"
     ]
   },
-  "generated_at": "2026-08-20T17:13:25"
+  "generated_at": "2026-08-22T15:45:03+00:00"
 }

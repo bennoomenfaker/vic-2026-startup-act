@@ -4,7 +4,7 @@
   "annee": 2019,
   "mois": 6,
   "pdf": "session_2019_06.pdf",
-  "source": "Généré à partir du fichier Excel corrigé; les compteurs officiels sont conservés séparément",
+  "source": "Généré depuis le corpus final validé de 88 sessions (S0–S87); décisions normalisées et sections conservées",
   "nb_entrees": 32,
   "entrees": [
     {
@@ -19,6 +19,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_06.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -33,6 +36,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_06.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -47,6 +53,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_06.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -61,6 +70,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_06.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -75,6 +87,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_06.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -89,6 +104,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_06.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -103,6 +121,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_06.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -117,6 +138,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_06.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -131,6 +155,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_06.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -145,34 +172,43 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_06.pdf",
       "_displayDecision": "label_accorde"
     },
     {
       "societe": "CREATIVE CULINARY",
       "projet": "Non renseigné",
-      "fondateurs": "Non renseigné",
+      "fondateurs": "Aziz Ben Chedli",
       "decision": "Label accordé",
       "type_label": "Label",
-      "secteur": "E-Commerce",
-      "tour_moment": "Non renseigné",
-      "apres_pitching": "Non renseigné",
+      "secteur": "E-commerce",
+      "tour_moment": "Après pitching",
+      "apres_pitching": "Oui",
       "session_obtention_retrait": "Non renseigné",
-      "commentaires": "Label accordé",
-      "controle_qualite": "Fondateur(s) absent du JSON; vérifier PDF",
+      "commentaires": "Label accordé après pitching Elyes Jeribi, Ali Mnif et Zakaria Belkhoja ont déclaré un conflit d'intérêt",
+      "controle_qualite": "Correction propagée depuis Contrôle_Qualité",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_06.pdf",
       "_displayDecision": "label_accorde"
     },
     {
       "societe": "SAFOZI SARL",
       "projet": "Non renseigné",
-      "fondateurs": "Non renseigné",
+      "fondateurs": "Zied Ouled Ali",
       "decision": "Label accordé",
       "type_label": "Label",
-      "secteur": "E-Commerce",
-      "tour_moment": "Non renseigné",
+      "secteur": "Infrastructure",
+      "tour_moment": "2ème tour",
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
-      "commentaires": "Label accordé",
-      "controle_qualite": "Fondateur(s) absent du JSON; vérifier PDF",
+      "commentaires": "Label accordé dès le 2eme tour Zakaria Belkhoja a déclaré un conflit d'intérêt",
+      "controle_qualite": "Correction propagée depuis Contrôle_Qualité",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_06.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -187,20 +223,26 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_06.pdf",
       "_displayDecision": "label_accorde"
     },
     {
       "societe": "SENIATNA",
       "projet": "Non renseigné",
-      "fondateurs": "Non renseigné",
+      "fondateurs": "Neil Boussofara",
       "decision": "Label accordé",
       "type_label": "Label",
-      "secteur": "E-Commerce",
-      "tour_moment": "Non renseigné",
-      "apres_pitching": "Non renseigné",
+      "secteur": "Logistique",
+      "tour_moment": "Après pitching",
+      "apres_pitching": "Oui",
       "session_obtention_retrait": "Non renseigné",
-      "commentaires": "Label accordé",
-      "controle_qualite": "Fondateur(s) absent du JSON; vérifier PDF",
+      "commentaires": "Label accordé suite au pitching",
+      "controle_qualite": "Correction propagée depuis Contrôle_Qualité",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_06.pdf",
       "_displayDecision": "label_accorde"
     },
     {
@@ -215,6 +257,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_06.pdf",
       "_displayDecision": "prelabel_accorde"
     },
     {
@@ -229,21 +274,27 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_06.pdf",
       "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Natalista",
       "projet": "Non renseigné",
-      "fondateurs": "Non renseigné",
-      "decision": "Prélabel accordé",
-      "type_label": "Prélabel",
-      "secteur": "E-Commerce",
-      "tour_moment": "Non renseigné",
+      "fondateurs": "Rim Besbes",
+      "decision": "Pré-label accordé",
+      "type_label": "Label",
+      "secteur": "Plateforme sociale",
+      "tour_moment": "2ème tour",
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
-      "commentaires": "Prélabel accordé",
-      "controle_qualite": "Fondateur(s) absent du JSON; vérifier PDF",
-      "_displayDecision": "prelabel_accorde"
+      "commentaires": "Pré-Label accordé dès le 2ème tour",
+      "controle_qualite": "Correction propagée depuis Contrôle_Qualité",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_06.pdf",
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Videsys",
@@ -257,6 +308,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_06.pdf",
       "_displayDecision": "prelabel_accorde"
     },
     {
@@ -271,6 +325,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_06.pdf",
       "_displayDecision": "prelabel_accorde"
     },
     {
@@ -285,21 +342,27 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_06.pdf",
       "_displayDecision": "prelabel_accorde"
     },
     {
       "societe": "Hezni Maak",
       "projet": "Non renseigné",
-      "fondateurs": "Non renseigné",
-      "decision": "Prélabel accordé",
-      "type_label": "Prélabel",
-      "secteur": "E-Commerce",
-      "tour_moment": "Non renseigné",
-      "apres_pitching": "Non renseigné",
+      "fondateurs": "Youssef Meksi",
+      "decision": "Pré-label accordé",
+      "type_label": "Label",
+      "secteur": "Plateforme sociale",
+      "tour_moment": "Après pitching",
+      "apres_pitching": "Oui",
       "session_obtention_retrait": "Non renseigné",
-      "commentaires": "Prélabel accordé",
-      "controle_qualite": "Fondateur(s) absent du JSON; vérifier PDF",
-      "_displayDecision": "prelabel_accorde"
+      "commentaires": "Pré-Label accordé après pitching",
+      "controle_qualite": "Correction propagée depuis Contrôle_Qualité",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_06.pdf",
+      "_displayDecision": "label_accorde"
     },
     {
       "societe": "Pool & Fish Farm Smart Water Management",
@@ -313,6 +376,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_06.pdf",
       "_displayDecision": "prelabel_accorde"
     },
     {
@@ -327,21 +393,27 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label non-accordé",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_06.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "MyCity",
       "projet": "Non renseigné",
-      "fondateurs": "Non renseigné",
-      "decision": "Label non accordé",
+      "fondateurs": "Mohamed Sami Rahoui",
+      "decision": "Label non-accordé",
       "type_label": "Label",
-      "secteur": "E-Commerce",
-      "tour_moment": "Non renseigné",
-      "apres_pitching": "Non renseigné",
+      "secteur": "Marketing",
+      "tour_moment": "Après pitching",
+      "apres_pitching": "Oui",
       "session_obtention_retrait": "Non renseigné",
-      "commentaires": "Label non-accordé",
-      "controle_qualite": "Fondateur(s) absent du JSON; vérifier PDF",
-      "_displayDecision": "label_refuse"
+      "commentaires": "Label non accordé après pitching",
+      "controle_qualite": "Correction propagée depuis Contrôle_Qualité",
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_06.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "Tisopia",
@@ -355,35 +427,44 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label non-accordé",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_06.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "TUNMOB SA (DIGIT-U)",
       "projet": "Non renseigné",
-      "fondateurs": "Non renseigné",
-      "decision": "Label non accordé",
+      "fondateurs": "Houssine Midouni",
+      "decision": "Label non-accordé",
       "type_label": "Label",
-      "secteur": "E-Commerce",
-      "tour_moment": "Non renseigné",
-      "apres_pitching": "Non renseigné",
+      "secteur": "Insurance tech",
+      "tour_moment": "Après pitching",
+      "apres_pitching": "Oui",
       "session_obtention_retrait": "Non renseigné",
-      "commentaires": "Label non-accordé",
-      "controle_qualite": "Fondateur(s) absent du JSON; vérifier PDF",
-      "_displayDecision": "label_refuse"
+      "commentaires": "Label non accordé après pitching Zakaria Belkhoja a déclaré un conflit d'intérêt",
+      "controle_qualite": "Correction propagée depuis Contrôle_Qualité",
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_06.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "SMAAO Tunisie",
       "projet": "Non renseigné",
-      "fondateurs": "Non renseigné",
-      "decision": "Label non accordé",
+      "fondateurs": "Amjed Ben Salah",
+      "decision": "Label non-accordé",
       "type_label": "Label",
-      "secteur": "E-Commerce",
-      "tour_moment": "Non renseigné",
-      "apres_pitching": "Non renseigné",
+      "secteur": "Insurance tech",
+      "tour_moment": "Après pitching",
+      "apres_pitching": "Oui",
       "session_obtention_retrait": "Non renseigné",
-      "commentaires": "Label non-accordé",
-      "controle_qualite": "Fondateur(s) absent du JSON; vérifier PDF",
-      "_displayDecision": "label_refuse"
+      "commentaires": "Label non accordé après pitching",
+      "controle_qualite": "Correction propagée depuis Contrôle_Qualité",
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_06.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "Iris technologies",
@@ -397,7 +478,10 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label non-accordé",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_06.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "Agri Land",
@@ -411,21 +495,27 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label non-accordé",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_06.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "Doctor Sina",
       "projet": "Non renseigné",
-      "fondateurs": "Non renseigné",
-      "decision": "Prélabel non accordé",
-      "type_label": "Prélabel",
-      "secteur": "E-Commerce",
-      "tour_moment": "Non renseigné",
-      "apres_pitching": "Non renseigné",
+      "fondateurs": "Laaroussi Ben Younes",
+      "decision": "Pré-label non-accordé",
+      "type_label": "Label",
+      "secteur": "Health tech",
+      "tour_moment": "Après pitching",
+      "apres_pitching": "Oui",
       "session_obtention_retrait": "Non renseigné",
-      "commentaires": "Prélabel non-accordé",
-      "controle_qualite": "Fondateur(s) absent du JSON; vérifier PDF",
-      "_displayDecision": "label_refuse"
+      "commentaires": "Pré-Label non accordé après pitching",
+      "controle_qualite": "Correction propagée depuis Contrôle_Qualité",
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_06.pdf",
+      "_displayDecision": "label_non_accorde"
     },
     {
       "societe": "Aevny",
@@ -439,33 +529,40 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel non-accordé",
       "controle_qualite": "Donnée JSON ajoutée depuis le dépôt GitHub; contrôler le rattachement dans le PDF",
-      "_displayDecision": "label_refuse"
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_06.pdf",
+      "_displayDecision": "prelabel_non_accorde"
     },
     {
       "societe": "IYADATI",
       "projet": "Non renseigné",
-      "fondateurs": "Non renseigné",
-      "decision": "Prélabel non accordé",
-      "type_label": "Prélabel",
-      "secteur": "E-Commerce",
-      "tour_moment": "Non renseigné",
-      "apres_pitching": "Non renseigné",
+      "fondateurs": "Cheker Jarray",
+      "decision": "Pré-label non-accordé",
+      "type_label": "Label",
+      "secteur": "Health tech",
+      "tour_moment": "Après pitching",
+      "apres_pitching": "Oui",
       "session_obtention_retrait": "Non renseigné",
-      "commentaires": "Prélabel non-accordé",
-      "controle_qualite": "Fondateur(s) absent du JSON; vérifier PDF",
-      "_displayDecision": "label_refuse"
+      "commentaires": "Pré-Label non accordé après pitching",
+      "controle_qualite": "Correction propagée depuis Contrôle_Qualité",
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "Session de décision",
+      "source_pdf": "session_2019_06.pdf",
+      "_displayDecision": "label_non_accorde"
     }
   ],
   "session_data": {
-    "candidatures": 32,
-    "labels": 14,
+    "candidatures": 33,
+    "labels": 15,
     "preLabels": 8,
     "retraits": 0,
-    "labels_extraits_des_lignes": 14,
-    "preLabels_extraits_des_lignes": 8,
+    "conversions": 0,
+    "reportes": 0,
+    "entries_detaillees": 32,
     "qualite": [
-      "Au moins un fondateur est Non renseigné"
+      "Compteur officiel et lignes détaillées conservés dans des périmètres séparés"
     ]
   },
-  "generated_at": "2026-08-20T17:13:25"
+  "generated_at": "2026-08-22T15:45:03+00:00"
 }

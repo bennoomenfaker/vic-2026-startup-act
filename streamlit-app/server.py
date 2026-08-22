@@ -108,7 +108,7 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         self.send_response(status)
         self.send_header('Content-Type', 'application/json; charset=utf-8')
         self.send_header('Access-Control-Allow-Origin', '*')
-        self.send_header('Cache-Control', 'public, max-age=3600')  # 1h cache
+        self.send_header('Cache-Control', 'no-store, no-cache, must-revalidate, max-age=0')  # données versionnées : aucune réponse JSON périmée
         self.end_headers()
         if data is not None:
             self.wfile.write(json.dumps(data, ensure_ascii=False).encode())

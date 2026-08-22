@@ -7,6 +7,12 @@ const PORT = process.env.PORT || 8082;
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/data', express.static(path.join(__dirname, '..', 'public', 'data')));
 
+// Les exports JSON sont versionnés avec le dépôt : empêcher toute réponse API périmée.
+app.use('/api', (req, res, next) => {
+  res.set('Cache-Control', 'no-store, no-cache, must-revalidate, max-age=0');
+  next();
+});
+
 const DATA = path.join(__dirname, '..', 'public', 'data');
 
 app.get('/api/dashboard', (req, res) => {
