@@ -1,12 +1,12 @@
 {
   "sessions": 85,
-  "candidatures_total": 3393,
+  "candidatures_total": 3384,
   "labels_total": 1311,
   "prelabels_total": 623,
   "positive_total": 1934,
-  "mean_session_candidatures": 39.39,
-  "median_session_candidatures": 39.0,
-  "weighted_label_rate": 39.16,
+  "mean_session_candidatures": 39.8,
+  "median_session_candidatures": 40,
+  "weighted_label_rate": 38.74,
   "positive_share_descriptive": 57.76,
   "mean_acceptance_rate": 39.16,
   "max_acceptance_session": "03/2019",
@@ -18,7 +18,7 @@
   "old_prelabels": 617,
   "label_delta": -13,
   "prelabel_delta": 6,
-  "candidate_sum_dashboard": 3393,
+  "candidate_sum_dashboard": 3384,
   "pdf_rows": 1824,
   "pdf_with_founder": 1701,
   "pdf_retraits": 142,
@@ -34,5 +34,8 @@
   "data_source": "session_data (aligned with Excel officiel)",
   "last_updated": "2026-08-21",
   "taux_label_pondere": 38.6,
-  "moyenne_candidatures": 39.9
+  "moyenne_candidatures": 39.9,
+  "C": 3383,
+  "taux": 38.8,
+  "moy": 39.8
 }

@@ -184,57 +184,88 @@
     },
     {
       "societe": "Numeryx MEA",
-      "decision": "Reporté",
-      "_displayDecision": "reporte"
+      "decision": "label_refuse",
+      "_displayDecision": "Label non accordé",
+      "decision_label": "Label non accordé",
+      "commentaire": "Raison administrative (non-vérification indépendance capitalistique / non-présentation états financiers / statuts non signés)"
     },
     {
       "societe": "Télésurveillance profonde des patients via une plateforme clinique de suivi",
-      "decision": "Reporté",
-      "_displayDecision": "reporte"
+      "decision": "label_refuse",
+      "_displayDecision": "Label non accordé",
+      "decision_label": "Label non accordé",
+      "commentaire": "Raison administrative (non-vérification indépendance capitalistique / non-présentation états financiers / statuts non signés)"
     },
     {
       "societe": "médical",
-      "decision": "Reporté",
-      "_displayDecision": "reporte"
+      "decision": "label_refuse",
+      "_displayDecision": "Label non accordé",
+      "decision_label": "Label non accordé",
+      "commentaire": "Raison administrative (non-présentation états financiers / statuts non signés)"
     },
     {
       "societe": "TECHPRO SOLUTION",
-      "decision": "Reporté",
-      "_displayDecision": "reporte"
+      "decision": "label_refuse",
+      "_displayDecision": "Label non accordé",
+      "decision_label": "Label non accordé",
+      "commentaire": "Raison administrative (non-présentation états financiers / statuts non signés)"
     },
     {
       "societe": "Hive",
-      "decision": "Reporté",
-      "_displayDecision": "reporte"
+      "decision": "label_refuse",
+      "_displayDecision": "Label non accordé",
+      "decision_label": "Label non accordé",
+      "commentaire": "Raison administrative (non-vérification indépendance capitalistique / non-présentation états financiers / statuts non signés)"
     },
     {
       "societe": "ACRIDIDEA culturify DourbIA",
       "decision": "Label accordé",
-      "_displayDecision": "label_accorde"
+      "_displayDecision": "label_accorde",
+      "_isConversion": true,
+      "_conversionNote": "Conversion Prélabel → Label (pas une nouvelle candidature S62)"
     },
     {
       "societe": "R H  A development",
       "decision": "Label accordé",
-      "_displayDecision": "label_accorde"
+      "_displayDecision": "label_accorde",
+      "_isConversion": true,
+      "_conversionNote": "Conversion Prélabel → Label (pas une nouvelle candidature S62)"
     },
     {
       "societe": "Contractzlab",
       "decision": "Label accordé",
-      "_displayDecision": "label_accorde"
+      "_displayDecision": "label_accorde",
+      "_isConversion": true,
+      "_conversionNote": "Conversion Prélabel → Label (pas une nouvelle candidature S62)"
     },
     {
       "societe": "JIOTIFY Solutions Jiotify",
       "decision": "Label accordé",
-      "_displayDecision": "label_accorde"
+      "_displayDecision": "label_accorde",
+      "_isConversion": true,
+      "_conversionNote": "Conversion Prélabel → Label (pas une nouvelle candidature S62)"
     },
     {
-      "societe": "NEXT PROTEIN TUNISIA Agritech COGNIRA TUNISIA",
-      "decision": "Label accordé",
-      "_displayDecision": "label_accorde"
+      "societe": "NEXT PROTEIN TUNISIA",
+      "decision": "retrait_label",
+      "_displayDecision": "Retrait du Label",
+      "decision_label": "Retrait du Label",
+      "secteur": "Agritech",
+      "fondateurs": "",
+      "commentaire": "Retrait: dépassement âge maximum 8 ans (loi 20-2018). Label obtenu Juin 2019."
+    },
+    {
+      "societe": "COGNIRA TUNISIA",
+      "decision": "retrait_label",
+      "_displayDecision": "Retrait du Label",
+      "decision_label": "Retrait du Label",
+      "secteur": "Business Software & Services",
+      "fondateurs": "",
+      "commentaire": "Retrait: dépassement âge maximum 8 ans (loi 20-2018). Label obtenu Janvier 2021."
     }
   ],
   "session_data": {
-    "candidatures": 45,
+    "candidatures": 39,
     "labels": 14,
     "preLabels": 5,
     "retraits": 2,
@@ -242,7 +273,10 @@
     "preLabels_extraits_des_lignes": 0,
     "qualite": [
       "Écart compteurs Excel lignes/compteurs officiels: lignes Label=0, officiel Label=14; lignes Prélabel=0, officiel Prélabel=5"
-    ]
+    ],
+    "conversions": 5,
+    "_conversionsDetail": "5 passages Prélabel → Label (ACRIDIDEA, culturify, R H A development, Contractzlab, JIOTIFY)",
+    "_retraitsDetail": "2 retraits (NEXT PROTEIN TUNISIA, COGNIRA TUNISIA)"
   },
   "generated_at": "2026-08-20T17:13:25"
 }

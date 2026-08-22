@@ -543,7 +543,7 @@
       "societe": "TN Smartbot",
       "projet": "Non renseigné",
       "fondateurs": "Non renseigné",
-      "decision": "Non renseigné",
+      "decision": "reporte",
       "type_label": "Label",
       "secteur": "Non renseigné",
       "tour_moment": "Non précisé",
@@ -551,7 +551,9 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire",
-      "_displayDecision": "label_accorde"
+      "_displayDecision": "Reporté",
+      "decision_label": "Reporté",
+      "commentaire": "Candidature reportée (confirmé par contrôle qualité)"
     },
     {
       "societe": "Istidama",
@@ -709,7 +711,7 @@
     }
   ],
   "session_data": {
-    "candidatures": 50,
+    "candidatures": 49,
     "labels": 22,
     "preLabels": 5,
     "retraits": 0,

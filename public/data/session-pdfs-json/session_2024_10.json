@@ -599,7 +599,7 @@
       "societe": "RYBSEN",
       "projet": "Non renseigné",
       "fondateurs": "Yassine Rezgui Adnene Rezgui",
-      "decision": "Pitch reporté pour la session de novembre 2024",
+      "decision": "reporte",
       "type_label": "Label",
       "secteur": "Environment",
       "tour_moment": "Non précisé",
@@ -607,7 +607,8 @@
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Non renseigné",
       "controle_qualite": "Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire",
-      "_displayDecision": "label_accorde"
+      "_displayDecision": "Reporté",
+      "decision_label": "Reporté"
     },
     {
       "societe": "ZAYOLI",
@@ -695,7 +696,7 @@
     }
   ],
   "session_data": {
-    "candidatures": 49,
+    "candidatures": 48,
     "labels": 15,
     "preLabels": 7,
     "retraits": 3,

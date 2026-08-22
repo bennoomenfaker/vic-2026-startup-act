@@ -21,7 +21,7 @@
   <meta property="og:url" content="https://vic-esen-iscae-2026-startup-act.onrender.com/">
   <meta property="og:site_name" content="Startup Act Tunisie — Étude Quantitative">
   <meta property="og:image" content="https://vic-esen-iscae-2026-startup-act.onrender.com/og-image.png">
-  <meta property="og:image:alt" content="Startup Act Tunisie — étude quantitative des sessions de labellisation 2019-2026 : 85 sessions, 3 393 candidatures, 1 311 labels">
+  <meta property="og:image:alt" content="Startup Act Tunisie — étude quantitative des sessions de labellisation 2019-2026 : 85 sessions, 3 383 candidatures, 1 311 labels">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:see_also" content="https://bennoomenfaker.github.io/">
@@ -229,6 +229,9 @@
     .chip-decision-prelabel_accorde { background: #dbeafe; color: #1d4ed8; }
     .chip-decision-label_refuse, .chip-decision-prelabel_refuse { background: #fee2e2; color: #b91c1c; }
     .chip-decision-retrait { background: #fef3c7; color: #b45309; }
+    .chip-decision-reporte { background: #fce7f3; color: #be185d; font-weight: 600; }
+    .row-reporte { background: #fdf2f8 !important; border-left: 3px solid #ec4899; }
+    .row-reporte td { color: #9d174d; }
     .chip-decision-inconnu { background: #f3f3f7; color: #6b7280; }
     .chip-flag { background: #fef3c7; color: #b45309; border: 1px solid #fde68a; }
     .tabs { display: flex; gap: 4px; margin-bottom: 16px; flex-wrap: wrap; }
@@ -1049,8 +1052,8 @@
           <div class="dash-hero-stats" id="dashHeroStats">
             <div class="hero-stat"><span class="hero-stat-num">1 311</span><span class="hero-stat-lbl">Labels</span></div>
             <div class="hero-stat"><span class="hero-stat-num">623</span><span class="hero-stat-lbl">Pré-Labels</span></div>
-            <div class="hero-stat"><span class="hero-stat-num">3 393</span><span class="hero-stat-lbl">Candidatures</span></div>
-            <div class="hero-stat"><span class="hero-stat-num">43,5 %</span><span class="hero-stat-lbl">Taux moyen</span></div>
+            <div class="hero-stat"><span class="hero-stat-num">3 383</span><span class="hero-stat-lbl">Candidatures</span></div>
+            <div class="hero-stat"><span class="hero-stat-num">38,8 %</span><span class="hero-stat-lbl">Taux moyen</span></div>
           </div>
         </div>
         <div class="dash-hero-badge">✓ Données corrigées</div>
@@ -1094,7 +1097,7 @@
       <div class="dash-hero">
         <div class="dash-hero-text">
           <h1>Dashboard Avancé — Données Extraites</h1>
-          <p>Visualisations interactives basées sur les 85 JSON de session · 3 393 candidatures · 1 311 labels · 623 pré-labels</p>
+          <p>Visualisations interactives basées sur les 85 JSON de session · 3 383 candidatures · 1 311 labels · 623 pré-labels</p>
         </div>
       </div>
     </div>
@@ -1124,7 +1127,7 @@
 
   <!-- SESSIONS -->
   <section id="page-sessions">
-    <div class="page-header"><h1>Sessions de Labellisation</h1><p>85 sessions · 3 393 candidatures · 1 311 labels · 623 pré-labels (données corrigées vs PDF)</p></div>
+    <div class="page-header"><h1>Sessions de Labellisation</h1><p>85 sessions · 3 383 candidatures · 1 311 labels · 623 pré-labels (données corrigées vs PDF)</p></div>
     <div class="filter-bar">
       <span class="filter-label">📅 Période :</span>
       <select id="sessionYearFilter" onchange="applyYearFilter(this.value, 'sessions')" aria-label="Filtrer par année"></select>
@@ -1512,7 +1515,7 @@
         <strong>Auteur :</strong> Faker BEN NOOMEN · <strong>Formation :</strong> Mastère VIC (ESEN Manouba × ISCAE Manouba) · <strong>Version :</strong> 21 août 2026
       </p>
       <p style="font-size:.88rem;color:var(--text-secondary);line-height:1.6;margin:0;background:var(--danger-soft);padding:14px;border-radius:var(--radius-md);border-left:4px solid #e94560">
-        <strong>Résumé.</strong> Cette étude analyse quantitativement les sessions de labellisation du Startup Act tunisien à partir de 85 sessions (2019–2026), des rapports annuels officiels et des comptes rendus PDF. Après correction, le corpus totalise <strong>1 311 Labels</strong> et <strong>623 Prélabels</strong>, soit <strong>1 934 décisions positives</strong>. Le taux de Label pondéré est de <strong>38,6 %</strong>.
+        <strong>Résumé.</strong> Cette étude analyse quantitativement les sessions de labellisation du Startup Act tunisien à partir de 85 sessions (2019–2026), des rapports annuels officiels et des comptes rendus PDF. Après correction, le corpus totalise <strong>1 311 Labels</strong> et <strong>623 Prélabels</strong>, soit <strong>1 934 décisions positives</strong>. Le taux de Label pondéré est de <strong>38,8 %</strong>.
       </p>
     </div>
 
@@ -1520,9 +1523,9 @@
       <div class="kpi-card" style="text-align:center"><div class="kpi-value" style="color:var(--brand-primary)">85</div><div class="kpi-label">Sessions</div></div>
       <div class="kpi-card" style="text-align:center"><div class="kpi-value" style="color:#2e7d32">1 311</div><div class="kpi-label">Labels</div></div>
       <div class="kpi-card" style="text-align:center"><div class="kpi-value" style="color:#1565c0">623</div><div class="kpi-label">Prélabels</div></div>
-      <div class="kpi-card" style="text-align:center"><div class="kpi-value" style="color:#e94560">3 393</div><div class="kpi-label">Candidatures</div></div>
-      <div class="kpi-card" style="text-align:center"><div class="kpi-value" style="color:#7c3aed">38,6%</div><div class="kpi-label">Taux Label pondéré</div></div>
-      <div class="kpi-card" style="text-align:center"><div class="kpi-value" style="color:#0891b2">39,4</div><div class="kpi-label">Moy. candidatures/session</div></div>
+      <div class="kpi-card" style="text-align:center"><div class="kpi-value" style="color:#e94560">3 383</div><div class="kpi-label">Candidatures</div></div>
+      <div class="kpi-card" style="text-align:center"><div class="kpi-value" style="color:#7c3aed">38,8%</div><div class="kpi-label">Taux Label pondéré</div></div>
+      <div class="kpi-card" style="text-align:center"><div class="kpi-value" style="color:#0891b2">39,8</div><div class="kpi-label">Moy. candidatures/session</div></div>
       <div class="kpi-card" style="text-align:center"><div class="kpi-value" style="color:#7c3aed">1 105</div><div class="kpi-label">2e tour</div></div>
       <div class="kpi-card" style="text-align:center"><div class="kpi-value" style="color:#ff8f00">704</div><div class="kpi-label">Après pitching</div></div>
     </div>
@@ -1631,8 +1634,8 @@
     <div style="background:var(--card-bg);border:1px solid var(--border-color);border-radius:var(--radius-lg);padding:24px;margin-bottom:24px">
       <h2 style="font-size:1.2rem;font-weight:700;margin:0 0 12px;color:var(--text-primary)">6. Qualité des données et limites</h2>
       <div style="font-size:.88rem;color:var(--text-secondary);line-height:1.7">
-        <p style="margin:0 0 10px"><strong>Écart des candidatures :</strong> La somme du tableau corrigé est de 3 393, tandis que le site mentionne 3 393. Ce rapport utilise 3 393 pour les calculs sessionnels.</p>
-        <p style="margin:0 0 10px"><strong>Lignes PDF :</strong> 1 824 lignes extraites, 1 701 avec fondateur renseigné, 190 contenant un retrait.</p>
+        <p style="margin:0 0 10px"><strong>Écart des candidatures :</strong> 3 383 candidatures officielles (entries totales 3 394 − 4 reportés − 7 conversions/retraits S62). Les 4 reportés (02/2020, 03/2020, 07/2021, 10/2024) sont exclus du compteur de leur session d'origine.</p>
+        <p style="margin:0 0 10px"><strong>Lignes PDF :</strong> 3 394 lignes extraites, dont 4 dossiers reportés à une session ultérieure.</p>
         <p style="margin:0 0 10px"><strong>Géographie :</strong> Les rapports annuels donnent des pourcentages agrégés, pas une table startup par startup.</p>
         <p style="margin:0"><strong>Correction :</strong> 21 sessions corrigées (1 324 → 1 311 Labels, 617 → 623 Prélabels).</p>
       </div>
@@ -1643,7 +1646,7 @@
       <ol style="font-size:.88rem;color:var(--text-secondary);line-height:1.7;margin:0;padding-left:20px">
         <li style="margin-bottom:8px">Maintenir deux tables séparées : <code>session_counters</code> (compteurs officiels) et <code>decision_records</code> (lignes individuelles).</li>
         <li style="margin-bottom:8px">Ajouter à chaque ligne : <code>source_page</code>, <code>extraction_method</code>, <code>confidence_level</code>, <code>last_verified_at</code>.</li>
-        <li style="margin-bottom:8px">Résoudre la divergence 3 393 – 3 393 candidatures.</li>
+        <li style="margin-bottom:8px">La divergence 3 394 lignes / 3 383 candidatures est résolue : 4 reportés + 7 conversions/retraits S62.</li>
         <li style="margin-bottom:8px">Publier un dictionnaire de données géographiques précisant le dénominateur.</li>
       </ol>
     </div>
@@ -1800,7 +1803,7 @@
       <div class="kpi-card blue"><div class="label">Investissements levés</div><div class="value">157 M USD</div><div class="sub">Rapport annuel 2021</div></div>
       <div class="kpi-card red"><div class="label">Part des femmes fondatrices</div><div class="value">35% → 21%</div><div class="sub">2019 → 2021 · en recul</div></div>
       <div class="kpi-card orange"><div class="label">Startups à l'international</div><div class="value">45%</div><div class="sub">Rapport annuel 2021</div></div>
-      <div class="kpi-card purple"><div class="label">Candidatures cumulées</div><div class="value">3 393</div><div class="sub">85 sessions · données corrigées</div></div>
+      <div class="kpi-card purple"><div class="label">Candidatures cumulées</div><div class="value">3 383</div><div class="sub">85 sessions · données corrigées</div></div>
       <div class="kpi-card blue"><div class="label">Labels cumulés</div><div class="value">1 311</div><div class="sub">corrigés vs PDF officiels</div></div>
     </div>
 
@@ -2287,20 +2290,20 @@ const KPI_INFO = {
     util: 'Mesure le flux brut de labellisation et sa croissance cumulée dans le temps.',
     interp: '1 311 labels cumulés. La valeur publiée par startup.gov.tn (1 324) était fausse : 20 sessions sur 85 portaient des labels erronés.',
     source: 'API : /api/dashboard (annuel) → public/data/dashboard_data.json, corrigé via corrections.json' },
-  'KPI-03': { nom: 'Candidatures déposées', valeur: '3 393', statut: 'ok', page: 'Dashboard',
+  'KPI-03': { nom: 'Candidatures déposées', valeur: '3 383', statut: 'ok', page: 'Dashboard',
     desc: 'Nombre total de candidatures reçues, somme de la colonne candidatures des 85 sessions.',
     util: 'Sert de base au taux d’acceptation et à la moyenne par session ; mesure la demande d’accès au dispositif.',
-    interp: '3 393 candidatures officielles. À ne pas confondre avec les 3 721 lignes startups extraites des PDF (base fondateurs) : une candidature peut engendrer plusieurs lignes PDF (renouvellement, pré-label puis label, retrait…) et le parse brut est partiel. Ni avec « 1 824 » : ce chiffre du fichier périmé était l’ancien nombre d’entrées PDF, pas les candidatures.',
+    interp: '3 383 candidatures officielles (39 candidatures S62/05-2024). À ne pas confondre avec les 3 721 lignes startups extraites des PDF (base fondateurs) : une candidature peut engendrer plusieurs lignes PDF (renouvellement, pré-label puis label, retrait…) et le parse brut est partiel. Ni avec « 1 824 » : ce chiffre du fichier périmé était l’ancien nombre d’entrées PDF, pas les candidatures.',
     source: 'API : /api/dashboard (annuel + sessions) → dashboard_data.json' },
   'KPI-04': { nom: 'Pré-labels accordés', valeur: '623', statut: 'ok', page: 'Dashboard',
     desc: 'Total de pré-labels attribués, corrigé vs PDF officiels.',
     util: 'Mesure la voie « pré-labels » (projets sans société créée) qui alimente ensuite les conversions.',
     interp: '623 pré-labels (la valeur publiée de 617 était fausse). 82,0 % d.entre eux se convertissent en labels.',
     source: 'API : /api/dashboard → dashboard_data.json, corrigé via corrections.json' },
-  'KPI-05': { nom: 'Taux d’acceptation moyen', valeur: '43,5 %', statut: 'ok', page: 'Dashboard',
+  'KPI-05': { nom: 'Taux d’acceptation moyen', valeur: '38,8 %', statut: 'ok', page: 'Dashboard',
     desc: 'Part des candidatures ayant abouti à un label, agrégée sur toute la période : labels ÷ candidatures.',
     util: 'Indicateur d’efficacité/sélectivité du dispositif ; permet les comparaisons annuelles et internationales.',
-    interp: '43,5 % = 1 311 labels / 3 393 candidatures (et non 44,8 % : valeurs corrigées). En baisse tendancielle : 58,1 % (2019) → 35,4 % (2025).',
+    interp: '38,8 % = 1 311 labels / 3 383 candidatures (4 reportés exclus) (et non 44,8 % : valeurs corrigées). En baisse tendancielle : 58,1 % (2019) → 35,4 % (2025).',
     source: 'Calcul direct dans l’app (labels/candidatures) sur données corrigées' },
   'KPI-06': { nom: 'Concentration sectorielle (HHI)', valeur: 'calculé en direct', statut: 'ok', page: 'Secteurs',
     desc: 'Indice de Herfindahl-Hirschman des parts de marché des secteurs : Σ(partᵢ²).',
@@ -2403,10 +2406,10 @@ const KPI_INFO = {
     util: 'Visualise la croissance du stock de labels dans le temps.',
     interp: 'Le cumul est quasi linéaire, avec un palier visible à partir de 2025.',
     source: 'Calcul en app : /api/dashboard (annuel) → dashboard_data.json' },
-  'KPI-28': { nom: 'Nombre moyen de candidatures par session', valeur: '39,9', statut: 'ok', page: 'Dashboard',
-    desc: 'Volume moyen de dossiers traités par session : 3 393 / 85.',
+  'KPI-28': { nom: 'Nombre moyen de candidatures par session', valeur: '39,8', statut: 'ok', page: 'Dashboard',
+    desc: 'Volume moyen de dossiers traités par session : 3 383 / 85.',
     util: 'Mesure la charge de traitement moyenne du comité de labellisation.',
-    interp: '39,9 candidatures/session en moyenne (3 393 / 85 sessions).',
+    interp: '39,8 candidatures/session en moyenne (3 383 / 85 sessions).',
     source: 'Calcul en app : /api/dashboard (sessions + annuel)' },
   'KPI-29': { nom: 'Délai moyen de conversion pré-label → label', valeur: '—', statut: 'miss', page: 'Parcours',
     desc: 'Temps moyen entre l’attribution du pré-label et sa conversion en label.',
@@ -3268,21 +3271,25 @@ function renderDashboardCompare() {
 }
 
 // ===== SESSIONS =====
+const REPORTER_SESSIONS = ['02/2020','03/2020','07/2021','10/2024'];
 function renderSessions() {
   if (DATA.compare.active && DATA.compare.page === 'sessions') return renderSessionsCompare();
   const sessions = DATA.yearFilter === 'all'
     ? DATA.dashboard.sessions
     : DATA.dashboard.sessions.filter(s => s.year === DATA.yearFilter);
-  document.getElementById('sessionsTable').innerHTML = sessions.slice().reverse().map(s => `
-    <tr>
-      <td><strong>${s.session}</strong></td>
+  document.getElementById('sessionsTable').innerHTML = sessions.slice().reverse().map(s => {
+    const isRep = REPORTER_SESSIONS.includes(s.session);
+    const repNote = isRep ? ' <span style="color:#be185d;font-size:0.75em" title="Contient des dossiers reportés">⬥ reporté</span>' : '';
+    return `
+    <tr class="${isRep ? 'row-reporte' : ''}">
+      <td><strong>${s.session}</strong>${repNote}</td>
       <td>${s.candidatures}</td>
       <td>${s.labels}</td>
       <td>${s.preLabels}</td>
       <td><span class="badge ${parseFloat(s.tauxAcceptation) > 45 ? 'badge-green' : parseFloat(s.tauxAcceptation) > 35 ? 'badge-blue' : 'badge-red'}">${s.tauxAcceptation}%</span></td>
       <td style="font-size:0.85em;color:#666">${s.commentaires || '-'}</td>
-    </tr>
-  `).join('');
+    </tr>`;
+  }).join('');
 }
 
 function filterSessions(q) {
@@ -4472,6 +4479,21 @@ function renderCorrReport() {
         <thead><tr><th>Session</th><th>Cand.</th><th>Labels</th><th>Pré-Labels</th><th>Taux</th><th>Raison (PDF v7)</th></tr></thead>
         <tbody>${rows}</tbody>
       </table></div>
+    </div>
+    <div class="chart-card" style="border-left:3px solid #ec4899;margin-top:20px">
+      <h3>📋 Dossiers reportés — exclus des candidatures comptées</h3>
+      <p style="font-size:.9em;color:#555;margin:8px 0 12px">4 candidatures ont été <strong>reportées à une session ultérieure</strong> (et non refusées ni acceptées).
+        Elles sont comptées une seule fois lors de leur ré-examen. Le compteur de candidatures <em>exclut</em> ces reportés de la session d'origine.</p>
+      <div style="overflow-x:auto"><table>
+        <thead><tr><th>Session</th><th>Entreprise</th><th>Décision</th><th>Détail</th><th>Statut final</th></tr></thead>
+        <tbody>
+          <tr class="row-reporte"><td><strong>02/2020</strong></td><td>Tunisia Biotech</td><td>Candidature reportée</td><td>Reportée à la session suivante</td><td>Examinée en 03/2020</td></tr>
+          <tr class="row-reporte"><td><strong>03/2020</strong></td><td>Campus Numérique des métiers</td><td>Candidature reportée</td><td>Reportée à la session suivante</td><td>Examinée en 04/2020</td></tr>
+          <tr class="row-reporte"><td><strong>07/2021</strong></td><td>TN Smartbot</td><td>Candidature reportée</td><td>Reportée (contrôle qualité confirmé)</td><td>Examinée ultérieurement</td></tr>
+          <tr class="row-reporte"><td><strong>10/2024</strong></td><td>RYBSEN</td><td>Pitch reporté</td><td>Pitch reporté pour la session de novembre 2024</td><td>Label accordé en 11/2024</td></tr>
+        </tbody>
+      </table></div>
+      <p style="font-size:.8em;color:#888;margin-top:8px">⚠️ Ces lignes apparaissent en rose dans le tableau des sessions (page Principale).</p>
     </div>`;
 }
 

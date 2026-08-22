@@ -27,7 +27,10 @@
         "url": "https://startup.gov.tn/sites/default/files/2022-10/Rapport_annuel_2021_VERSIONWEB_opt_1.pdf",
         "type": "pdf"
       }
-    ]
+    ],
+    "totalCandidatures": 3384,
+    "totalLabels": 1311,
+    "totalPreLabels": 623
   },
   "sessions": [
     {
@@ -232,7 +235,7 @@
       "session": "02/2020",
       "month": 2,
       "year": 2020,
-      "candidatures": 41,
+      "candidatures": 40,
       "labels": 22,
       "preLabels": 11,
       "commentaires": "13 Labels et 9 Prelabels à Labels",
@@ -250,7 +253,7 @@
       "session": "03/2020",
       "month": 3,
       "year": 2020,
-      "candidatures": 40,
+      "candidatures": 39,
       "labels": 16,
       "preLabels": 10,
       "commentaires": "12 Labels et 4 Prelabels à Labels",
@@ -538,7 +541,7 @@
       "session": "07/2021",
       "month": 7,
       "year": 2021,
-      "candidatures": 50,
+      "candidatures": 49,
       "labels": 22,
       "preLabels": 5,
       "commentaires": "11 Labels et 11 Prelabels à Labels",
@@ -1150,7 +1153,7 @@
       "session": "05/2024",
       "month": 5,
       "year": 2024,
-      "candidatures": 0,
+      "candidatures": 39,
       "labels": 14,
       "preLabels": 5,
       "commentaires": "14 Labels et 5 Prélabel à Label",
@@ -1240,7 +1243,7 @@
       "session": "10/2024",
       "month": 10,
       "year": 2024,
-      "candidatures": 49,
+      "candidatures": 48,
       "labels": 15,
       "preLabels": 7,
       "commentaires": "09 Labels et 06 Prélabel à Label",
