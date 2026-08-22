@@ -45294,7 +45294,7 @@ export const dashboardData = {
       "valeur": "1 356 (corrigé)",
       "statut": "ok",
       "page": "Dashboard",
-      "interp": "1356 labels officiels cumulés sur les 88 sessions."
+      "interp": "1 356 Labels officiels = 987 labels nouveaux + 369 conversions documentées. Le tableau détaillé comporte 1 201 lignes Label accordé : l’écart de 155 provient de la différence entre un compteur officiel agrégé et une classification ligne par ligne; ce ne sont pas 155 lignes cachées."
     },
     {
       "id": "KPI-03",
