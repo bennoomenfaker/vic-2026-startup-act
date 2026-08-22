@@ -34,7 +34,8 @@
     "totalSessions": 88,
     "sessions": 88,
     "detailedEntries": 3528,
-    "dataNote": "Les candidatures sont les compteurs officiels publiés par session; les entries sont les lignes détaillées des PDF."
+    "dataNote": "Les candidatures sont les compteurs officiels publiés par session; les entries sont les lignes détaillées des PDF.",
+    "totalAjournes": 4
   },
   "sessions": [
     {
@@ -56,7 +57,8 @@
       "retraits": 0,
       "entries": 14,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 2
     },
     {
       "session": "04/2019",
@@ -77,7 +79,8 @@
       "retraits": 0,
       "entries": 52,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 1
     },
     {
       "session": "05/2019",
@@ -98,7 +101,8 @@
       "retraits": 0,
       "entries": 30,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "06/2019",
@@ -119,7 +123,8 @@
       "retraits": 0,
       "entries": 32,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 1
     },
     {
       "session": "07/2019",
@@ -140,7 +145,8 @@
       "retraits": 0,
       "entries": 29,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "08/2019",
@@ -161,7 +167,8 @@
       "retraits": 0,
       "entries": 28,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "09/2019",
@@ -182,7 +189,8 @@
       "retraits": 0,
       "entries": 27,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "10/2019",
@@ -203,7 +211,8 @@
       "retraits": 0,
       "entries": 39,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "11/2019",
@@ -224,7 +233,8 @@
       "retraits": 0,
       "entries": 41,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "12/2019",
@@ -245,7 +255,8 @@
       "retraits": 0,
       "entries": 42,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "01/2020",
@@ -266,7 +277,8 @@
       "retraits": 0,
       "entries": 42,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "02/2020",
@@ -287,7 +299,8 @@
       "retraits": 0,
       "entries": 41,
       "reportes": 1,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "03/2020",
@@ -308,7 +321,8 @@
       "retraits": 0,
       "entries": 40,
       "reportes": 1,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "04/2020",
@@ -329,7 +343,8 @@
       "retraits": 1,
       "entries": 45,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "05/2020",
@@ -350,7 +365,8 @@
       "retraits": 1,
       "entries": 32,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "06/2020",
@@ -371,7 +387,8 @@
       "retraits": 0,
       "entries": 30,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "07/2020",
@@ -392,7 +409,8 @@
       "retraits": 2,
       "entries": 51,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "08/2020",
@@ -413,7 +431,8 @@
       "retraits": 0,
       "entries": 34,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "09/2020",
@@ -434,7 +453,8 @@
       "retraits": 5,
       "entries": 23,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "10/2020",
@@ -455,7 +475,8 @@
       "retraits": 1,
       "entries": 24,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "11/2020",
@@ -476,7 +497,8 @@
       "retraits": 1,
       "entries": 40,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "12/2020",
@@ -497,7 +519,8 @@
       "retraits": 0,
       "entries": 36,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "01/2021",
@@ -518,7 +541,8 @@
       "retraits": 0,
       "entries": 36,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "02/2021",
@@ -539,7 +563,8 @@
       "retraits": 0,
       "entries": 48,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "03/2021",
@@ -560,7 +585,8 @@
       "retraits": 2,
       "entries": 56,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "04/2021",
@@ -581,7 +607,8 @@
       "retraits": 1,
       "entries": 81,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "05/2021",
@@ -602,7 +629,8 @@
       "retraits": 1,
       "entries": 47,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "06/2021",
@@ -623,7 +651,8 @@
       "retraits": 0,
       "entries": 47,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "07/2021",
@@ -644,7 +673,8 @@
       "retraits": 0,
       "entries": 50,
       "reportes": 1,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "08/2021",
@@ -665,7 +695,8 @@
       "retraits": 1,
       "entries": 33,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "09/2021",
@@ -686,7 +717,8 @@
       "retraits": 0,
       "entries": 38,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "10/2021",
@@ -707,7 +739,8 @@
       "retraits": 0,
       "entries": 49,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "11/2021",
@@ -728,7 +761,8 @@
       "retraits": 0,
       "entries": 47,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "12/2021",
@@ -749,7 +783,8 @@
       "retraits": 19,
       "entries": 51,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "01/2022",
@@ -770,7 +805,8 @@
       "retraits": 4,
       "entries": 46,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "02/2022",
@@ -791,7 +827,8 @@
       "retraits": 0,
       "entries": 22,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "03/2022",
@@ -812,7 +849,8 @@
       "retraits": 0,
       "entries": 30,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "04/2022",
@@ -833,7 +871,8 @@
       "retraits": 1,
       "entries": 27,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "05/2022",
@@ -854,7 +893,8 @@
       "retraits": 2,
       "entries": 49,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "06/2022",
@@ -875,7 +915,8 @@
       "retraits": 2,
       "entries": 46,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "07/2022",
@@ -896,7 +937,8 @@
       "retraits": 1,
       "entries": 45,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "08/2022",
@@ -917,7 +959,8 @@
       "retraits": 2,
       "entries": 44,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "09/2022",
@@ -938,7 +981,8 @@
       "retraits": 0,
       "entries": 49,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "10/2022",
@@ -959,7 +1003,8 @@
       "retraits": 1,
       "entries": 45,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "11/2022",
@@ -980,7 +1025,8 @@
       "retraits": 0,
       "entries": 42,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "12/2022",
@@ -1001,7 +1047,8 @@
       "retraits": 0,
       "entries": 39,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "01/2023",
@@ -1022,7 +1069,8 @@
       "retraits": 2,
       "entries": 38,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "02/2023",
@@ -1043,7 +1091,8 @@
       "retraits": 1,
       "entries": 42,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "03/2023",
@@ -1064,7 +1113,8 @@
       "retraits": 0,
       "entries": 42,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "04/2023",
@@ -1085,7 +1135,8 @@
       "retraits": 0,
       "entries": 40,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "05/2023",
@@ -1106,7 +1157,8 @@
       "retraits": 0,
       "entries": 45,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "06/2023",
@@ -1127,7 +1179,8 @@
       "retraits": 0,
       "entries": 34,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "07/2023",
@@ -1148,7 +1201,8 @@
       "retraits": 2,
       "entries": 42,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "08/2023",
@@ -1169,7 +1223,8 @@
       "retraits": 0,
       "entries": 33,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "09/2023",
@@ -1190,7 +1245,8 @@
       "retraits": 1,
       "entries": 41,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "10/2023",
@@ -1211,7 +1267,8 @@
       "retraits": 3,
       "entries": 31,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "11/2023",
@@ -1232,7 +1289,8 @@
       "retraits": 6,
       "entries": 38,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "12/2023",
@@ -1253,7 +1311,8 @@
       "retraits": 0,
       "entries": 43,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "01/2024",
@@ -1274,7 +1333,8 @@
       "retraits": 3,
       "entries": 36,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "02/2024",
@@ -1295,7 +1355,8 @@
       "retraits": 3,
       "entries": 33,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "03/2024",
@@ -1316,7 +1377,8 @@
       "retraits": 3,
       "entries": 34,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "04/2024",
@@ -1337,7 +1399,8 @@
       "retraits": 2,
       "entries": 42,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "05/2024",
@@ -1358,7 +1421,8 @@
       "retraits": 2,
       "entries": 46,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "06/2024",
@@ -1379,7 +1443,8 @@
       "retraits": 2,
       "entries": 40,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "07/2024",
@@ -1400,7 +1465,8 @@
       "retraits": 3,
       "entries": 34,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "08/2024",
@@ -1421,7 +1487,8 @@
       "retraits": 1,
       "entries": 39,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "09/2024",
@@ -1442,7 +1509,8 @@
       "retraits": 1,
       "entries": 39,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "10/2024",
@@ -1463,7 +1531,8 @@
       "retraits": 3,
       "entries": 49,
       "reportes": 1,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "11/2024",
@@ -1484,7 +1553,8 @@
       "retraits": 2,
       "entries": 43,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "12/2024",
@@ -1505,7 +1575,8 @@
       "retraits": 1,
       "entries": 39,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "01/2025",
@@ -1526,7 +1597,8 @@
       "retraits": 2,
       "entries": 44,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "02/2025",
@@ -1547,7 +1619,8 @@
       "retraits": 4,
       "entries": 45,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "03/2025",
@@ -1568,7 +1641,8 @@
       "retraits": 1,
       "entries": 21,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "04/2025",
@@ -1589,7 +1663,8 @@
       "retraits": 7,
       "entries": 27,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "05/2025",
@@ -1610,7 +1685,8 @@
       "retraits": 1,
       "entries": 50,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "06/2025",
@@ -1631,7 +1707,8 @@
       "retraits": 1,
       "entries": 41,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "07/2025",
@@ -1652,7 +1729,8 @@
       "retraits": 6,
       "entries": 34,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "08/2025",
@@ -1673,7 +1751,8 @@
       "retraits": 4,
       "entries": 50,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "09/2025",
@@ -1694,7 +1773,8 @@
       "retraits": 4,
       "entries": 31,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "10/2025",
@@ -1715,7 +1795,8 @@
       "retraits": 3,
       "entries": 51,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "11/2025",
@@ -1736,7 +1817,8 @@
       "retraits": 2,
       "entries": 47,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "12/2025",
@@ -1757,7 +1839,8 @@
       "retraits": 5,
       "entries": 51,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "01/2026",
@@ -1778,7 +1861,8 @@
       "retraits": 5,
       "entries": 37,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "02/2026",
@@ -1799,7 +1883,8 @@
       "retraits": 2,
       "entries": 39,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "03/2026",
@@ -1820,7 +1905,8 @@
       "retraits": 6,
       "entries": 44,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "04/2026",
@@ -1841,7 +1927,8 @@
       "retraits": 5,
       "entries": 47,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "05/2026",
@@ -1862,7 +1949,8 @@
       "retraits": 3,
       "entries": 42,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     },
     {
       "session": "06/2026",
@@ -1883,7 +1971,8 @@
       "retraits": 3,
       "entries": 45,
       "reportes": 0,
-      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées."
+      "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
+      "ajournes": 0
     }
   ],
   "yearly": [

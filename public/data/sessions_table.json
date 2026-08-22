@@ -9,7 +9,8 @@
     "totalRetraits": 153,
     "tauxMoyenPct": 44.04,
     "sessionsCorrigees": 88,
-    "source": "Master harmonisé 85 + PDF officiels 04/2026, 05/2026, 06/2026"
+    "source": "Master harmonisé 85 + PDF officiels 04/2026, 05/2026, 06/2026",
+    "totalAjournes": 4
   },
   "sessions": [
     {
@@ -23,7 +24,8 @@
       "tauxPct": 75.0,
       "statut": "Conforme",
       "entries": 14,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 2
     },
     {
       "session": "04/2019",
@@ -36,7 +38,8 @@
       "tauxPct": 64.71,
       "statut": "Conforme",
       "entries": 52,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 1
     },
     {
       "session": "05/2019",
@@ -49,7 +52,8 @@
       "tauxPct": 50.0,
       "statut": "Conforme",
       "entries": 30,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "06/2019",
@@ -62,7 +66,8 @@
       "tauxPct": 45.45,
       "statut": "Conforme",
       "entries": 32,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 1
     },
     {
       "session": "07/2019",
@@ -75,7 +80,8 @@
       "tauxPct": 53.57,
       "statut": "Conforme",
       "entries": 29,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "08/2019",
@@ -88,7 +94,8 @@
       "tauxPct": 85.71,
       "statut": "Conforme",
       "entries": 28,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "09/2019",
@@ -101,7 +108,8 @@
       "tauxPct": 62.5,
       "statut": "Conforme",
       "entries": 27,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "10/2019",
@@ -114,7 +122,8 @@
       "tauxPct": 67.65,
       "statut": "Conforme",
       "entries": 39,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "11/2019",
@@ -127,7 +136,8 @@
       "tauxPct": 48.57,
       "statut": "Conforme",
       "entries": 41,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "12/2019",
@@ -140,7 +150,8 @@
       "tauxPct": 71.88,
       "statut": "Conforme",
       "entries": 42,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "01/2020",
@@ -153,7 +164,8 @@
       "tauxPct": 47.37,
       "statut": "Conforme",
       "entries": 42,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "02/2020",
@@ -166,7 +178,8 @@
       "tauxPct": 68.75,
       "statut": "Reporté détecté dans les lignes détaillées",
       "entries": 41,
-      "reportes": 1
+      "reportes": 1,
+      "ajournes": 0
     },
     {
       "session": "03/2020",
@@ -179,7 +192,8 @@
       "tauxPct": 45.71,
       "statut": "Reporté détecté dans les lignes détaillées",
       "entries": 40,
-      "reportes": 1
+      "reportes": 1,
+      "ajournes": 0
     },
     {
       "session": "04/2020",
@@ -192,7 +206,8 @@
       "tauxPct": 50.0,
       "statut": "Conforme",
       "entries": 45,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "05/2020",
@@ -205,7 +220,8 @@
       "tauxPct": 46.15,
       "statut": "Conforme",
       "entries": 32,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "06/2020",
@@ -218,7 +234,8 @@
       "tauxPct": 46.15,
       "statut": "Conforme",
       "entries": 30,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "07/2020",
@@ -231,7 +248,8 @@
       "tauxPct": 45.0,
       "statut": "Conforme",
       "entries": 51,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "08/2020",
@@ -244,7 +262,8 @@
       "tauxPct": 60.71,
       "statut": "Conforme",
       "entries": 34,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "09/2020",
@@ -257,7 +276,8 @@
       "tauxPct": 45.83,
       "statut": "Conforme",
       "entries": 23,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "10/2020",
@@ -270,7 +290,8 @@
       "tauxPct": 39.02,
       "statut": "Conforme",
       "entries": 24,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "11/2020",
@@ -283,7 +304,8 @@
       "tauxPct": 63.41,
       "statut": "Conforme",
       "entries": 40,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "12/2020",
@@ -296,7 +318,8 @@
       "tauxPct": 58.33,
       "statut": "Conforme",
       "entries": 36,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "01/2021",
@@ -309,7 +332,8 @@
       "tauxPct": 66.67,
       "statut": "Conforme",
       "entries": 36,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "02/2021",
@@ -322,7 +346,8 @@
       "tauxPct": 60.98,
       "statut": "Conforme",
       "entries": 48,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "03/2021",
@@ -335,7 +360,8 @@
       "tauxPct": 60.98,
       "statut": "Conforme",
       "entries": 56,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "04/2021",
@@ -348,7 +374,8 @@
       "tauxPct": 27.5,
       "statut": "Conforme",
       "entries": 81,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "05/2021",
@@ -361,7 +388,8 @@
       "tauxPct": 47.5,
       "statut": "Conforme",
       "entries": 47,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "06/2021",
@@ -374,7 +402,8 @@
       "tauxPct": 43.9,
       "statut": "Conforme",
       "entries": 47,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "07/2021",
@@ -387,7 +416,8 @@
       "tauxPct": 55.0,
       "statut": "Reporté détecté dans les lignes détaillées",
       "entries": 50,
-      "reportes": 1
+      "reportes": 1,
+      "ajournes": 0
     },
     {
       "session": "08/2021",
@@ -400,7 +430,8 @@
       "tauxPct": 52.0,
       "statut": "Conforme",
       "entries": 33,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "09/2021",
@@ -413,7 +444,8 @@
       "tauxPct": 86.67,
       "statut": "Conforme",
       "entries": 38,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "10/2021",
@@ -426,7 +458,8 @@
       "tauxPct": 56.1,
       "statut": "Conforme",
       "entries": 49,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "11/2021",
@@ -439,7 +472,8 @@
       "tauxPct": 47.5,
       "statut": "Conforme",
       "entries": 47,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "12/2021",
@@ -452,7 +486,8 @@
       "tauxPct": 52.63,
       "statut": "Conforme",
       "entries": 51,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "01/2022",
@@ -465,7 +500,8 @@
       "tauxPct": 39.47,
       "statut": "Conforme",
       "entries": 46,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "02/2022",
@@ -478,7 +514,8 @@
       "tauxPct": 66.67,
       "statut": "Conforme",
       "entries": 22,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "03/2022",
@@ -491,7 +528,8 @@
       "tauxPct": 66.67,
       "statut": "Conforme",
       "entries": 30,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "04/2022",
@@ -504,7 +542,8 @@
       "tauxPct": 40.91,
       "statut": "Conforme",
       "entries": 27,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "05/2022",
@@ -517,7 +556,8 @@
       "tauxPct": 34.15,
       "statut": "Conforme",
       "entries": 49,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "06/2022",
@@ -530,7 +570,8 @@
       "tauxPct": 35.0,
       "statut": "Conforme",
       "entries": 46,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "07/2022",
@@ -543,7 +584,8 @@
       "tauxPct": 45.0,
       "statut": "Conforme",
       "entries": 45,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "08/2022",
@@ -556,7 +598,8 @@
       "tauxPct": 33.33,
       "statut": "Conforme",
       "entries": 44,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "09/2022",
@@ -569,7 +612,8 @@
       "tauxPct": 47.5,
       "statut": "Conforme",
       "entries": 49,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "10/2022",
@@ -582,7 +626,8 @@
       "tauxPct": 36.84,
       "statut": "Conforme",
       "entries": 45,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "11/2022",
@@ -595,7 +640,8 @@
       "tauxPct": 50.0,
       "statut": "Conforme",
       "entries": 42,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "12/2022",
@@ -608,7 +654,8 @@
       "tauxPct": 56.67,
       "statut": "Conforme",
       "entries": 39,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "01/2023",
@@ -621,7 +668,8 @@
       "tauxPct": 61.54,
       "statut": "Conforme",
       "entries": 38,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "02/2023",
@@ -634,7 +682,8 @@
       "tauxPct": 54.55,
       "statut": "Conforme",
       "entries": 42,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "03/2023",
@@ -647,7 +696,8 @@
       "tauxPct": 35.14,
       "statut": "Conforme",
       "entries": 42,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "04/2023",
@@ -660,7 +710,8 @@
       "tauxPct": 35.0,
       "statut": "Conforme",
       "entries": 40,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "05/2023",
@@ -673,7 +724,8 @@
       "tauxPct": 48.72,
       "statut": "Conforme",
       "entries": 45,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "06/2023",
@@ -686,7 +738,8 @@
       "tauxPct": 35.71,
       "statut": "Conforme",
       "entries": 34,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "07/2023",
@@ -699,7 +752,8 @@
       "tauxPct": 45.45,
       "statut": "Conforme",
       "entries": 42,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "08/2023",
@@ -712,7 +766,8 @@
       "tauxPct": 42.31,
       "statut": "Conforme",
       "entries": 33,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "09/2023",
@@ -725,7 +780,8 @@
       "tauxPct": 45.45,
       "statut": "Conforme",
       "entries": 41,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "10/2023",
@@ -738,7 +794,8 @@
       "tauxPct": 19.35,
       "statut": "Conforme",
       "entries": 31,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "11/2023",
@@ -751,7 +808,8 @@
       "tauxPct": 46.67,
       "statut": "Conforme",
       "entries": 38,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "12/2023",
@@ -764,7 +822,8 @@
       "tauxPct": 35.9,
       "statut": "Conforme",
       "entries": 43,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "01/2024",
@@ -777,7 +836,8 @@
       "tauxPct": 42.42,
       "statut": "Conforme",
       "entries": 36,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "02/2024",
@@ -790,7 +850,8 @@
       "tauxPct": 27.27,
       "statut": "Conforme",
       "entries": 33,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "03/2024",
@@ -803,7 +864,8 @@
       "tauxPct": 22.58,
       "statut": "Conforme",
       "entries": 34,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "04/2024",
@@ -816,7 +878,8 @@
       "tauxPct": 35.9,
       "statut": "Conforme",
       "entries": 42,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "05/2024",
@@ -829,7 +892,8 @@
       "tauxPct": 35.9,
       "statut": "Conforme",
       "entries": 46,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "06/2024",
@@ -842,7 +906,8 @@
       "tauxPct": 37.84,
       "statut": "Conforme",
       "entries": 40,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "07/2024",
@@ -855,7 +920,8 @@
       "tauxPct": 15.15,
       "statut": "Conforme",
       "entries": 34,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "08/2024",
@@ -868,7 +934,8 @@
       "tauxPct": 29.73,
       "statut": "Conforme",
       "entries": 39,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "09/2024",
@@ -881,7 +948,8 @@
       "tauxPct": 32.35,
       "statut": "Conforme",
       "entries": 39,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "10/2024",
@@ -894,7 +962,8 @@
       "tauxPct": 34.88,
       "statut": "Reporté détecté dans les lignes détaillées",
       "entries": 49,
-      "reportes": 1
+      "reportes": 1,
+      "ajournes": 0
     },
     {
       "session": "11/2024",
@@ -907,7 +976,8 @@
       "tauxPct": 34.15,
       "statut": "Conforme",
       "entries": 43,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "12/2024",
@@ -920,7 +990,8 @@
       "tauxPct": 40.0,
       "statut": "Conforme",
       "entries": 39,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "01/2025",
@@ -933,7 +1004,8 @@
       "tauxPct": 46.15,
       "statut": "Conforme",
       "entries": 44,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "02/2025",
@@ -946,7 +1018,8 @@
       "tauxPct": 31.71,
       "statut": "Conforme",
       "entries": 45,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "03/2025",
@@ -959,7 +1032,8 @@
       "tauxPct": 28.57,
       "statut": "Conforme",
       "entries": 21,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "04/2025",
@@ -972,7 +1046,8 @@
       "tauxPct": 61.9,
       "statut": "Conforme",
       "entries": 27,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "05/2025",
@@ -985,7 +1060,8 @@
       "tauxPct": 27.66,
       "statut": "Conforme",
       "entries": 50,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "06/2025",
@@ -998,7 +1074,8 @@
       "tauxPct": 33.33,
       "statut": "Conforme",
       "entries": 41,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "07/2025",
@@ -1011,7 +1088,8 @@
       "tauxPct": 31.03,
       "statut": "Conforme",
       "entries": 34,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "08/2025",
@@ -1024,7 +1102,8 @@
       "tauxPct": 36.59,
       "statut": "Conforme",
       "entries": 50,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "09/2025",
@@ -1037,7 +1116,8 @@
       "tauxPct": 28.0,
       "statut": "Conforme",
       "entries": 31,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "10/2025",
@@ -1050,7 +1130,8 @@
       "tauxPct": 41.46,
       "statut": "Conforme",
       "entries": 51,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "11/2025",
@@ -1063,7 +1144,8 @@
       "tauxPct": 38.46,
       "statut": "Conforme",
       "entries": 47,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "12/2025",
@@ -1076,7 +1158,8 @@
       "tauxPct": 36.59,
       "statut": "Conforme",
       "entries": 51,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "01/2026",
@@ -1089,7 +1172,8 @@
       "tauxPct": 29.03,
       "statut": "Conforme",
       "entries": 37,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "02/2026",
@@ -1102,7 +1186,8 @@
       "tauxPct": 58.33,
       "statut": "Conforme",
       "entries": 39,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "03/2026",
@@ -1115,7 +1200,8 @@
       "tauxPct": 31.71,
       "statut": "Conforme",
       "entries": 44,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "04/2026",
@@ -1128,7 +1214,8 @@
       "tauxPct": 29.27,
       "statut": "Conforme",
       "entries": 47,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "05/2026",
@@ -1141,7 +1228,8 @@
       "tauxPct": 32.5,
       "statut": "Conforme",
       "entries": 42,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     },
     {
       "session": "06/2026",
@@ -1154,7 +1242,8 @@
       "tauxPct": 17.5,
       "statut": "Conforme",
       "entries": 45,
-      "reportes": 0
+      "reportes": 0,
+      "ajournes": 0
     }
   ]
 }

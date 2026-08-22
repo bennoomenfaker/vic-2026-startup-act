@@ -732,7 +732,8 @@
     "entries_detaillees": 42,
     "qualite": [
       "Compteur officiel et lignes détaillées conservés dans des périmètres séparés"
-    ]
+    ],
+    "ajournes": 0
   },
   "generated_at": "2026-08-22T15:45:03+00:00"
 }

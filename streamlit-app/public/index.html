@@ -1346,7 +1346,7 @@
       <p style="margin:0 0 12px;font-size:.86rem;color:var(--text-secondary)">Cette table est la référence pour les compteurs publiés : la somme des 88 sessions donne <strong>3 079 candidatures, 1 356 Labels et 641 Prélabels</strong>. Le tableau détaillé situé plus bas sert uniquement à contrôler les lignes extraites des PDF.</p>
       <div style="overflow:auto;max-height:430px">
         <table class="data-table" id="officialSessionTable">
-          <thead><tr><th>Session</th><th>Candidatures officielles</th><th>Labels officiels</th><th>Prélabels officiels</th><th>Retraits</th><th>Reportés</th><th>Refus Label (dét.)</th><th>Refus Prélabel (dét.)</th><th>Lignes PDF</th></tr></thead>
+          <thead><tr><th>Session</th><th>Candidatures officielles</th><th>Labels officiels</th><th>Prélabels officiels</th><th>Retraits</th><th>Reportés</th><th>Ajournés</th><th>Refus Label (dét.)</th><th>Refus Prélabel (dét.)</th><th>Lignes PDF</th></tr></thead>
           <tbody id="officialSessionBody"></tbody>
         </table>
       </div>
@@ -1440,15 +1440,15 @@
       <strong>📌 Contexte :</strong> le tableau <code>/sessions</code> de <code>startup.gov.tn</code> présentait des divergences historiques sur certains labels et prélabels. Les données ont été ré-extraites des <strong>PDF officiels</strong> (<code>public/data/session-pdfs/</code>) par un parseur positionnel (v7), puis auditées indépendamment et vérifiées manuellement. Le corpus final couvre <strong>88 sessions</strong>.
     </div>
 
-    <div class="summary-box" style="margin-bottom:20px;border:2px solid #c62828;border-left:6px solid #c62828;background:#fff7f7">
-      <h2 style="margin:0 0 8px;color:#b71c1c;font-size:1.12rem">⚠ Candidatures officielles : écart à contrôler, pas « fausses » en bloc</h2>
-      <p style="margin:0 0 12px;color:#4a1c1c;line-height:1.6">Les <strong>3 079 candidatures officielles</strong> sont la référence publiée par session et ne doivent pas être remplacées par une soustraction automatique des lignes PDF. Le rouge signale ici un <strong>écart de définition nécessitant une vérification</strong>, pas une preuve que le compteur officiel est faux.</p>
-      <div style="overflow-x:auto"><table style="width:100%;border-collapse:collapse;font-size:.84rem;background:#fff"><thead><tr style="border-bottom:2px solid #ef9a9a"><th style="text-align:left;padding:8px;color:#7f1d1d">Périmètre</th><th style="text-align:right;padding:8px;color:#7f1d1d">Officiel</th><th style="text-align:right;padding:8px;color:#7f1d1d">Lignes détaillées</th><th style="text-align:right;padding:8px;color:#7f1d1d">Écart</th><th style="text-align:left;padding:8px;color:#7f1d1d">Statut</th></tr></thead><tbody>
-        <tr><td style="padding:8px">88 sessions</td><td style="padding:8px;text-align:right;font-weight:700">3 079 candidatures</td><td style="padding:8px;text-align:right">3 528 décisions</td><td style="padding:8px;text-align:right;color:#b71c1c;font-weight:700">+449</td><td style="padding:8px;color:#b71c1c;font-weight:700">À ne pas recalculer automatiquement</td></tr>
-        <tr style="border-top:1px solid #f3c2c2"><td style="padding:8px">03/2019</td><td style="padding:8px;text-align:right;font-weight:700">16 candidatures</td><td style="padding:8px;text-align:right">14 lignes : 12 Labels + 2 refus</td><td style="padding:8px;text-align:right;color:#b71c1c;font-weight:700">+2</td><td style="padding:8px;color:#7f1d1d">2 ajournés indiqués dans le commentaire officiel</td></tr>
-        <tr style="border-top:1px solid #f3c2c2"><td style="padding:8px">S62 · 05/2024</td><td style="padding:8px;text-align:right;font-weight:700">39 candidatures</td><td style="padding:8px;text-align:right">45 enregistrements</td><td style="padding:8px;text-align:right;color:#b71c1c;font-weight:700">−6</td><td style="padding:8px;color:#7f1d1d">4 conversions + 2 retraits ; compteur officiel conservé</td></tr>
+    <div class="summary-box" style="margin-bottom:20px;border:1px solid #9aa8b8;border-left:5px solid #64748b;background:#f8fafc">
+      <h2 style="margin:0 0 8px;color:#334155;font-size:1.12rem">Candidatures officielles et ajournements</h2>
+      <p style="margin:0 0 12px;color:#334155;line-height:1.6">Les <strong>3 079 candidatures officielles</strong> sont la référence publiée par session. Elles sont conservées séparément des lignes détaillées des PDF. La colonne <strong>Ajournés</strong> reprend les commentaires publiés sur la page officielle Startup Tunisia : <strong>4 dossiers au total</strong>, répartis sur trois sessions.</p>
+      <div style="overflow-x:auto"><table style="width:100%;border-collapse:collapse;font-size:.84rem;background:#fff"><thead><tr style="border-bottom:2px solid #cbd5e1"><th style="text-align:left;padding:8px;color:#334155">Périmètre</th><th style="text-align:right;padding:8px;color:#334155">Officiel</th><th style="text-align:right;padding:8px;color:#334155">Lignes détaillées</th><th style="text-align:right;padding:8px;color:#334155">Écart descriptif</th><th style="text-align:left;padding:8px;color:#334155">Statut</th></tr></thead><tbody>
+        <tr><td style="padding:8px">88 sessions</td><td style="padding:8px;text-align:right;font-weight:700">3 079 candidatures</td><td style="padding:8px;text-align:right">3 528 décisions</td><td style="padding:8px;text-align:right;font-weight:700">+449 lignes</td><td style="padding:8px;color:#334155;font-weight:700">Unités différentes — compteur officiel conservé</td></tr>
+        <tr style="border-top:1px solid #e2e8f0"><td style="padding:8px">03/2019</td><td style="padding:8px;text-align:right;font-weight:700">16 candidatures</td><td style="padding:8px;text-align:right">14 lignes : 12 Labels + 2 refus</td><td style="padding:8px;text-align:right;font-weight:700">+2</td><td style="padding:8px;color:#334155">2 Ajournés dans le commentaire officiel</td></tr>
+        <tr style="border-top:1px solid #e2e8f0"><td style="padding:8px">S62 · 05/2024</td><td style="padding:8px;text-align:right;font-weight:700">39 candidatures</td><td style="padding:8px;text-align:right">45 enregistrements</td><td style="padding:8px;text-align:right;font-weight:700">−6</td><td style="padding:8px;color:#334155">4 conversions + 2 retraits ; compteur officiel conservé</td></tr>
       </tbody></table></div>
-      <p style="margin:12px 0 0;color:#4a1c1c;font-size:.84rem"><strong>Règle :</strong> la table « Vue officielle par session » doit totaliser 3 079 candidatures et 1 356 Labels. La table « Lignes détaillées des PDF » sert au contrôle des entreprises et décisions ; elle ne doit pas être utilisée pour déclarer les compteurs officiels faux sans vérification du PDF.</p>
+      <p style="margin:12px 0 0;color:#475569;font-size:.84rem"><strong>Règle :</strong> « Candidatures », « Ajournés », « Reportés », « conversions » et « retraits » sont des variables distinctes. La table « Vue officielle par session » reste la source des compteurs publiés ; la table « Lignes détaillées des PDF » sert au contrôle des entreprises et décisions.</p>
     </div>
 
     <div class="tabs" id="corrTabs">
@@ -1460,12 +1460,12 @@
     <div id="corr-compare">
       <div class="chart-grid">
         <div class="chart-card">
-          <h3>⚠ Tableau web historique — startup.gov.tn <span style="color:#c62828;font-size:0.8em">(écarts signalés en rouge)</span></h3>
-          <div style="overflow-x:auto"><table><thead><tr><th>Session</th><th>Cand.</th><th>Labels</th><th>Pré-Labels</th><th>Taux</th><th>Commentaires</th></tr></thead><tbody id="corrOldTable"></tbody></table></div>
+          <h3>⚠ Tableau web historique — startup.gov.tn <span style="color:#64748b;font-size:0.8em">(écarts documentés)</span></h3>
+          <div style="overflow-x:auto"><table><thead><tr><th>Session</th><th>Cand.</th><th>Ajournés</th><th>Labels</th><th>Pré-Labels</th><th>Taux</th><th>Commentaires</th></tr></thead><tbody id="corrOldTable"></tbody></table></div>
         </div>
         <div class="chart-card">
-          <h3>✅ Tableau de référence — compteurs des PDF officiels <span style="color:#1b5e20;font-size:0.8em">(valeurs validées en vert)</span></h3>
-          <div style="overflow-x:auto"><table><thead><tr><th>Session</th><th>Cand.</th><th>Labels</th><th>Pré-Labels</th><th>Retraits</th><th>Taux (réel → arrondi)</th><th>Taux échec</th><th>Commentaires</th></tr></thead><tbody id="corrNewTable"></tbody></table></div>
+          <h3>✅ Tableau de référence — compteurs des PDF officiels <span style="color:#64748b;font-size:0.8em">(valeurs retenues)</span></h3>
+          <div style="overflow-x:auto"><table><thead><tr><th>Session</th><th>Cand.</th><th>Ajournés</th><th>Labels</th><th>Pré-Labels</th><th>Retraits</th><th>Taux (réel → arrondi)</th><th>Taux échec</th><th>Commentaires</th></tr></thead><tbody id="corrNewTable"></tbody></table></div>
         </div>
       </div>
     </div>
@@ -1473,7 +1473,7 @@
     <div id="corr-detail" style="display:none">
       <div class="chart-card">
         <h3 id="corrDetailTitle">Les 21 corrections — détail et raison</h3>
-        <div style="overflow-x:auto"><table><thead><tr><th>Session</th><th>Cand.</th><th>Labels (faux → vrai)</th><th>Pré-Labels (faux → vrai)</th><th>Taux réel → arrondi</th><th>Raison (PDF v7)</th></tr></thead><tbody id="corrDetailTable"></tbody></table></div>
+        <div style="overflow-x:auto"><table><thead><tr><th>Session</th><th>Cand.</th><th>Ajournés</th><th>Labels (écart → retenu)</th><th>Pré-Labels (écart → retenu)</th><th>Taux réel → arrondi</th><th>Raison (PDF v7)</th></tr></thead><tbody id="corrDetailTable"></tbody></table></div>
       </div>
     </div>
 
@@ -4166,6 +4166,7 @@ async function renderExtractedData() {
           preLabels: Number(sd.preLabels || 0),
           retraits: Number(sd.retraits || 0),
           reportes: Number(sd.reportes || 0),
+          ajournes: Number(sd.ajournes || 0),
           detailRows: Number(sd.entries_detaillees ?? detailRows.length),
           labelRefuse: Number(detailCounts.label_refuse || 0),
           prelabelRefuse: Number(detailCounts.prelabel_refuse || 0)
@@ -4177,7 +4178,7 @@ async function renderExtractedData() {
       const total = officialRows.reduce((acc, r) => {
         Object.keys(acc).forEach(k => { acc[k] += r[k]; });
         return acc;
-      }, { candidatures: 0, labels: 0, preLabels: 0, retraits: 0, reportes: 0, detailRows: 0, labelRefuse: 0, prelabelRefuse: 0 });
+      }, { candidatures: 0, labels: 0, preLabels: 0, retraits: 0, reportes: 0, ajournes: 0, detailRows: 0, labelRefuse: 0, prelabelRefuse: 0 });
       const fmt = n => Number(n || 0).toLocaleString('fr-FR');
       officialBody.innerHTML = officialRows.map(r => '<tr>' +
         '<td style="white-space:nowrap">' + escapeHtml(r.session) + '</td>' +
@@ -4186,12 +4187,13 @@ async function renderExtractedData() {
         '<td style="text-align:right">' + fmt(r.preLabels) + '</td>' +
         '<td style="text-align:right">' + fmt(r.retraits) + '</td>' +
         '<td style="text-align:right">' + fmt(r.reportes) + '</td>' +
+        '<td style="text-align:right">' + fmt(r.ajournes) + '</td>' +
         '<td style="text-align:right">' + fmt(r.labelRefuse) + '</td>' +
         '<td style="text-align:right">' + fmt(r.prelabelRefuse) + '</td>' +
         '<td style="text-align:right">' + fmt(r.detailRows) + '</td>' +
         '</tr>').join('') +
         '<tr style="font-weight:800;border-top:2px solid var(--border-color);background:rgba(37,99,235,.08)">' +
-        '<td>Total officiel / contrôle</td><td style="text-align:right">' + fmt(total.candidatures) + '</td><td style="text-align:right;color:#2563eb">' + fmt(total.labels) + '</td><td style="text-align:right">' + fmt(total.preLabels) + '</td><td style="text-align:right">' + fmt(total.retraits) + '</td><td style="text-align:right">' + fmt(total.reportes) + '</td><td style="text-align:right">' + fmt(total.labelRefuse) + '</td><td style="text-align:right">' + fmt(total.prelabelRefuse) + '</td><td style="text-align:right">' + fmt(total.detailRows) + '</td></tr>';
+        '<td>Total officiel / contrôle</td><td style="text-align:right">' + fmt(total.candidatures) + '</td><td style="text-align:right;color:#2563eb">' + fmt(total.labels) + '</td><td style="text-align:right">' + fmt(total.preLabels) + '</td><td style="text-align:right">' + fmt(total.retraits) + '</td><td style="text-align:right">' + fmt(total.reportes) + '</td><td style="text-align:right">' + fmt(total.ajournes) + '</td><td style="text-align:right">' + fmt(total.labelRefuse) + '</td><td style="text-align:right">' + fmt(total.prelabelRefuse) + '</td><td style="text-align:right">' + fmt(total.detailRows) + '</td></tr>';
     }
 
     const sessSel = document.getElementById('extractedSession');
@@ -4474,18 +4476,25 @@ function renderCorrections() {
 
   document.getElementById('corrKpis').innerHTML = `
     <div class="kpi-card blue"><div class="label">Socle historique</div><div class="value">${m.totalSessions}</div><div class="sub">sessions vérifiées · corpus final : 88</div></div>
-    <div class="kpi-card red"><div class="label">Sessions corrigées</div><div class="value">${m.corrected}</div><div class="sub">valeurs fausses corrigées</div></div>
-    <div class="kpi-card orange"><div class="label">Labels (avant → après)</div><div class="value">${m.totalsOld.labels} → ${m.totalsNew.labels}</div><div class="sub">scrapé → PDF</div></div>
-    <div class="kpi-card green"><div class="label">Pré-Labels (avant → après)</div><div class="value">${m.totalsOld.preLabels} → ${m.totalsNew.preLabels}</div><div class="sub">scrapé → PDF</div></div>
+    <div class="kpi-card orange"><div class="label">Sessions à documenter</div><div class="value">${m.corrected}</div><div class="sub">écarts historiques documentés</div></div>
+    <div class="kpi-card orange"><div class="label">Labels (web → PDF)</div><div class="value">${m.totalsOld.labels} → ${m.totalsNew.labels}</div><div class="sub">comparaison historique</div></div>
+    <div class="kpi-card green"><div class="label">Pré-Labels (web → PDF)</div><div class="value">${m.totalsOld.preLabels} → ${m.totalsNew.preLabels}</div><div class="sub">comparaison historique</div></div>
   `;
 
+  const officialSessionMap = Object.fromEntries((DATA.dashboard?.sessions || []).map(s => [s.session, s]));
+  const ajournesFor = (session, comment = '') => {
+    const source = officialSessionMap[session];
+    if (source && source.ajournes !== undefined) return Number(source.ajournes || 0);
+    const match = String(source?.commentaires || comment).match(/(\d+)\s+ajourn/i);
+    return match ? Number(match[1]) : 0;
+  };
   const oldRows = data.originalTable.map(t => {
     const c = CORR_SET[t.session];
     const wrong = c ? (t.labels !== c.new.labels || t.preLabels !== c.new.preLabels) : false;
     const clsL = c && t.labels !== c.new.labels ? 'cell-wrong' : '';
     const clsP = c && t.preLabels !== c.new.preLabels ? 'cell-wrong' : '';
     return `<tr>
-      <td><strong>${t.session}</strong></td><td>${t.candidatures}</td>
+      <td><strong>${t.session}</strong></td><td>${t.candidatures}</td><td>${ajournesFor(t.session, t.commentaires)}</td>
       <td class="${clsL}">${t.labels}</td><td class="${clsP}">${t.preLabels}</td>
       <td>${t.taux}%</td><td style="font-size:0.8em;color:#666">${t.commentaires || '-'}</td></tr>`;
   }).join('');
@@ -4500,7 +4509,7 @@ function renderCorrections() {
     const r = retr[t.session] || 0;
     const rowCls = c ? ' class="corr-row"' : '';
     return `<tr${rowCls}>
-      <td><strong>${t.session}</strong></td><td>${t.candidatures}</td>
+      <td><strong>${t.session}</strong></td><td>${t.candidatures}</td><td>${ajournesFor(t.session, t.commentaires)}</td>
       <td class="${fixedL ? 'cell-fixed' : ''}">${t.labels}</td>
       <td class="${fixedP ? 'cell-fixed' : ''}">${t.preLabels}</td>
       <td style="${r ? 'color:#dc2626;font-weight:600' : 'color:#999'}">${r || 0}</td>
@@ -4518,7 +4527,7 @@ function renderCorrections() {
 
   const detailRows = data.corrections.map(c => `
     <tr class="corr-row">
-      <td><strong>${c.session}</strong></td><td>${c.candidatures}</td>
+      <td><strong>${c.session}</strong></td><td>${c.candidatures}</td><td>${ajournesFor(c.session, c.new.commentaires || c.reason)}</td>
       <td><span class="cell-wrong">${c.old.labels}</span> → <span class="cell-fixed">${c.new.labels}</span></td>
       <td><span class="cell-wrong">${c.old.preLabels}</span> → <span class="cell-fixed">${c.new.preLabels}</span></td>
       <td>${fmtTaux(c.new.tauxExact)} → <b>${c.new.taux}%</b></td>
@@ -4550,10 +4559,17 @@ function renderCorrReport() {
     return;
   }
   const m = data.meta;
+  const reportAjournesFor = (session, comment = '') => {
+    const source = (DATA.dashboard?.sessions || []).find(s => s.session === session);
+    if (source && source.ajournes !== undefined) return Number(source.ajournes || 0);
+    const match = String(source?.commentaires || comment).match(/(\d+)\s+ajourn/i);
+    return match ? Number(match[1]) : 0;
+  };
   const rows = data.corrections.map(c => `
     <tr class="corr-row">
       <td><strong>${c.session}</strong></td>
       <td>${c.candidatures}</td>
+      <td>${reportAjournesFor(c.session, c.new.commentaires || c.reason)}</td>
       <td><span class="badge badge-red">${c.old.labels}</span> → <span class="badge badge-green">${c.new.labels}</span></td>
       <td><span class="badge badge-red">${c.old.preLabels}</span> → <span class="badge badge-green">${c.new.preLabels}</span></td>
       <td>${fmtTaux(c.new.tauxExact)} → <b>${c.new.taux}%</b></td>
@@ -4570,19 +4586,19 @@ function renderCorrReport() {
       <div class="metric-card"><div class="m-label">Socle historique vérifié</div><div class="m-value">${m.totalSessions}</div><div class="m-sub">corpus final : 88 sessions</div></div>
       <div class="metric-card"><div class="m-label">Sessions corrigées</div><div class="m-value">${m.corrected}</div></div>
       <div class="metric-card"><div class="m-label">Labels (avant → après)</div><div class="m-value">${m.totalsOld.labels} → ${m.totalsNew.labels}</div></div>
-      <div class="metric-card"><div class="m-label">Pré-Labels (avant → après)</div><div class="m-value">${m.totalsOld.preLabels} → ${m.totalsNew.preLabels}</div></div>
+      <div class="metric-card"><div class="m-label">Pré-Labels (web → PDF)</div><div class="m-value">${m.totalsOld.preLabels} → ${m.totalsNew.preLabels}</div></div>
+      <div class="metric-card"><div class="m-label">Ajournés officiels</div><div class="m-value">4</div><div class="m-sub">03/2019: 2 · 04/2019: 1 · 06/2019: 1</div></div>
     </div>
     <div class="chart-card">
-      <h3>📄 Détail des ${m.corrected} corrections — valeurs fausses (scrapé) → vraies (PDF officiels)</h3>
+      <h3>📄 Détail des ${m.corrected} corrections — écarts documentés (web) → valeurs retenues (PDF officiels)</h3>
       <div style="overflow-x:auto"><table>
-        <thead><tr><th>Session</th><th>Cand.</th><th>Labels</th><th>Pré-Labels</th><th>Taux</th><th>Raison (PDF v7)</th></tr></thead>
+        <thead><tr><th>Session</th><th>Cand.</th><th>Ajournés</th><th>Labels</th><th>Pré-Labels</th><th>Taux</th><th>Raison (PDF v7)</th></tr></thead>
         <tbody>${rows}</tbody>
       </table></div>
     </div>
     <div class="chart-card" style="border-left:3px solid #ec4899;margin-top:20px">
-      <h3>📋 Dossiers reportés — exclus des candidatures comptées</h3>
-      <p style="font-size:.9em;color:#555;margin:8px 0 12px">4 candidatures ont été <strong>reportées à une session ultérieure</strong> (et non refusées ni acceptées).
-        Elles sont comptées une seule fois lors de leur ré-examen. Le compteur de candidatures <em>exclut</em> ces reportés de la session d'origine.</p>
+      <h3>📋 Dossiers reportés — distinction avec Ajourné</h3>
+      <p style="font-size:.9em;color:#555;margin:8px 0 12px">La page officielle des résultats contient <strong>4 Ajournés</strong> (03/2019: 2, 04/2019: 1, 06/2019: 1). Cette catégorie est distincte des <strong>4 dossiers Reportés</strong> confirmés dans les rapports détaillés ci-dessous. Les dossiers reportés sont examinés à une session ultérieure et ne doivent pas être additionnés deux fois. Le compteur de candidatures reste celui publié par session ; il n’est pas recalculé automatiquement à partir des lignes.</p>
       <div style="overflow-x:auto"><table>
         <thead><tr><th>Session</th><th>Entreprise</th><th>Décision</th><th>Détail</th><th>Statut final</th></tr></thead>
         <tbody>
