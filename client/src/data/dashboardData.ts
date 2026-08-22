@@ -178,12 +178,12 @@ export const dashboardData = {
     "sessionId": "S11",
     "month": 2,
     "year": 2020,
-    "candidatures": 41,
+    "candidatures": 40,
     "labels": 22,
     "preLabels": 11,
     "commentaires": "Compteurs officiels — 22 Labels, 11 Prélabels.",
-    "tauxAcceptationExact": 80.487805,
-    "tauxEchecExact": 19.512195,
+    "tauxAcceptationExact": 82.5,
+    "tauxEchecExact": 17.5,
     "verification": "OK"
   },
   {
@@ -191,12 +191,12 @@ export const dashboardData = {
     "sessionId": "S12",
     "month": 3,
     "year": 2020,
-    "candidatures": 40,
+    "candidatures": 39,
     "labels": 16,
     "preLabels": 10,
     "commentaires": "Compteurs officiels — 16 Labels, 10 Prélabels.",
-    "tauxAcceptationExact": 65.0,
-    "tauxEchecExact": 35.0,
+    "tauxAcceptationExact": 66.666667,
+    "tauxEchecExact": 33.333333,
     "verification": "OK"
   },
   {
@@ -399,12 +399,12 @@ export const dashboardData = {
     "sessionId": "S28",
     "month": 7,
     "year": 2021,
-    "candidatures": 50,
+    "candidatures": 49,
     "labels": 22,
     "preLabels": 5,
     "commentaires": "Compteurs officiels — 22 Labels, 5 Prélabels.",
-    "tauxAcceptationExact": 54.0,
-    "tauxEchecExact": 46.0,
+    "tauxAcceptationExact": 55.102041,
+    "tauxEchecExact": 44.897959,
     "verification": "OK"
   },
   {
@@ -906,12 +906,12 @@ export const dashboardData = {
     "sessionId": "S67",
     "month": 10,
     "year": 2024,
-    "candidatures": 49,
+    "candidatures": 48,
     "labels": 15,
     "preLabels": 7,
     "commentaires": "Compteurs officiels — 15 Labels, 7 Prélabels.",
-    "tauxAcceptationExact": 44.897959,
-    "tauxEchecExact": 55.102041,
+    "tauxAcceptationExact": 45.833333,
+    "tauxEchecExact": 54.166667,
     "verification": "OK"
   },
   {
