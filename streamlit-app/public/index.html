@@ -229,9 +229,11 @@
     .chip-decision-prelabel_accorde { background: #dbeafe; color: #1d4ed8; }
     .chip-decision-label_refuse, .chip-decision-prelabel_refuse { background: #fee2e2; color: #b91c1c; }
     .chip-decision-retrait { background: #fef3c7; color: #b45309; }
-    .chip-decision-reporte { background: #fce7f3; color: #be185d; font-weight: 600; }
-    .row-reporte { background: #fdf2f8 !important; border-left: 3px solid #ec4899; }
-    .row-reporte td { color: #9d174d; }
+    .chip-decision-reporte { background: #f1d4c9; color: #8b4635; font-weight: 700; }
+    .chip-decision-pitch_decale { background: #fef3c7; color: #92400e; font-weight: 600; }
+    .row-reporte { background: #f8e8e1 !important; border-left: 4px solid #bd6b52; }
+    .row-reporte td { color: #7a3d2e; }
+    .row-pitch { background: #fff8e7 !important; border-left: 4px solid #d59b32; }
     .chip-decision-inconnu { background: #f3f3f7; color: #6b7280; }
     .chip-flag { background: #fef3c7; color: #b45309; border: 1px solid #fde68a; }
     .tabs { display: flex; gap: 4px; margin-bottom: 16px; flex-wrap: wrap; }
@@ -1274,7 +1276,7 @@
 
   <!-- PDFS SESSIONS -->
   <section id="page-pdfs">
-    <div class="page-header"><h1>PDFs des Sessions</h1><p>85 rapports de labellisation · Cliquez pour consulter</p></div>
+    <div class="page-header"><h1>PDFs des Sessions</h1><p>88 rapports de labellisation · Cliquez pour consulter</p></div>
     <div class="search-bar"><input type="text" id="pdfSearch" placeholder="Rechercher..." oninput="filterPdfs(this.value)"></div>
     <div id="pdfViewer" style="display:none;margin-bottom:20px">
       <div style="display:flex;gap:8px;margin-bottom:8px">
@@ -1324,8 +1326,11 @@
         <option value="">Toutes</option>
         <option value="label">Label accordé</option>
         <option value="prelabel">Pré-label accordé</option>
-        <option value="refused">Label refusé</option>
-        <option value="retrait">Retrait</option>
+        <option value="label_refuse">Label non accordé</option>
+        <option value="prelabel_refuse">Pré-label non accordé</option>
+        <option value="retrait">Retrait Label</option>
+        <option value="reporte">Reporté</option>
+        <option value="pitch_decale">Pitch décalé</option>
         <option value="irrecevable">Irrecevable</option>
         <option value="unknown">Inconnu</option>
       </select>
@@ -1381,17 +1386,17 @@
         <div>
           <div style="font-size:1.05em;font-weight:800;color:#1a1a2e">🧮 641 pré-labels accordés</div>
           <div style="font-size:.92em;margin-top:4px;color:#334">
-            = <strong style="color:#16a34a">511 convertis en label</strong> + <strong style="color:#d97706">112 restés pré-labels</strong>
+            = <strong style="color:#16a34a">369 convertis en label</strong> + <strong style="color:#d97706">272 restés pré-labels</strong>
           </div>
         </div>
         <div class="prelabel-bar">
-          <div class="seg conv" style="width:82.0%">511 convertis (82,0 %)</div>
-          <div class="seg rest" style="width:18.0%">112 restés (18,0 %)</div>
+          <div class="seg conv" style="width:57.6%">369 convertis (57,6 %)</div>
+          <div class="seg rest" style="width:42.4%">272 restés (42,4 %)</div>
         </div>
       </div>
       <div style="margin-top:14px;padding-top:10px;border-top:1px dashed #cbd5e1">
-        <strong>Qu'est-ce que le 112 ?</strong> Des <strong>pré-labels accordés mais jamais convertis en label</strong> : la startup a reçu un pré-label un jour (session N), mais n'a ensuite jamais obtenu le label. Elle est restée au statut « pré-label » — ce n'est ni un label, ni un refus après label.
-        <br><strong>Différence avec les 153 retraits :</strong> le <strong>121</strong> concerne des <strong>pré-labels jamais devenus labels</strong> ; les <strong>153 retraits</strong> concernent des <strong>labels accordés puis révoqués</strong> (startup labellisée, puis son label a été retiré). Deux populations différentes → on ne les additionne pas et on ne les compare pas directement.
+        <strong>Qu'est-ce que le 272 ?</strong> Des <strong>pré-labels accordés mais jamais convertis en label</strong> : la startup a reçu un pré-label un jour (session N), mais n'a ensuite jamais obtenu le label. Elle est restée au statut « pré-label » — ce n'est ni un label, ni un refus après label.
+        <br><strong>Différence avec les 153 retraits :</strong> le <strong>272</strong> concerne des <strong>pré-labels jamais devenus labels</strong> ; les <strong>153 retraits</strong> concernent des <strong>labels accordés puis révoqués</strong> (startup labellisée, puis son label a été retiré). Deux populations différentes → on ne les additionne pas et on ne les compare pas directement.
       </div>
     </div>
     </div>
@@ -2265,8 +2270,10 @@ function startupsForYear(year) {
 }
 
 function yearlyFor(year) {
-  return (DATA.dashboard.yearly || []).find(r => r.year === year) ||
-    { year, candidatures: 0, labels: 0, preLabels: 0, nbSessions: 0, tauxAcceptation: '0' };
+  const row = (DATA.dashboard.yearly || []).find(r => r.year === year) ||
+    { year, candidatures: 0, labels: 0, preLabels: 0, tauxAcceptation: '0' };
+  const nbSessions = Number(row.nbSessions || (DATA.dashboard.sessions || []).filter(s => Number(s.year) === Number(year)).length);
+  return { ...row, nbSessions };
 }
 
 /* Helper : répartition par secteur d'une liste de startups */
@@ -2283,27 +2290,27 @@ const KPI_INFO = {
     desc: 'Nombre total de startups uniques référencées dans la base de données du projet.',
     util: 'Donne la taille du portefeuille startups à étudier et sert de dénominateur pour les parts sectorielles, territoriales et par âge.',
     interp: '922 startups uniques sont suivies : c’est la population de référence de toute l’analyse. Une startup labellisée puis retirée reste comptée.',
-    trend: '🔻 <strong>−42,9 %</strong> = (28 − 49) / 49 : parmi les 922 startups du registre, celles labellisées en 2025 (28) contre 2024 (49). Ce recul reflète surtout que le <strong>registre 922 est incomplet pour 2024-2025</strong> (labels officiels : 144 en 2024, 149 en 2025). Les sessions officielles ne baissent pas — la baisse vient d’un sous-comptage du registre, pas d’un effondrement réel de la labellisation.',
+    trend: 'ℹ️ <strong>Variation à interpréter avec prudence.</strong> Une variation de −100 % dans une année filtrée signifie que le sous-ensemble courant contient 0 startup alors que l’année précédente en contenait; cela ne signifie pas que le corpus total a disparu. Le registre de 922 startups reste une base distincte du registre détaillé des 3 528 décisions.',
     source: 'API : /api/startups → public/data/database_startups.json' },
   'KPI-02': { nom: 'Labels accordés', valeur: '1 356 (corrigé)', statut: 'ok', page: 'Dashboard',
     desc: 'Total cumulé des labels Startup Act attribués sur les 88 sessions, après correction face aux PDF officiels.',
     util: 'Mesure le flux brut de labellisation et sa croissance cumulée dans le temps.',
-    interp: '1 356 labels cumulés. La valeur publiée par startup.gov.tn (1 324) était fausse : 20 sessions sur 85 portaient des labels erronés.',
+    interp: '1 356 labels officiels cumulés sur le corpus final de 88 sessions. Le chiffre 1 311 correspond au socle historique de 85 sessions après contrôle; il ne doit pas être mélangé au périmètre final.',
     source: 'API : /api/dashboard (annuel) → public/data/dashboard_data.json, corrigé via corrections.json' },
   'KPI-03': { nom: 'Candidatures déposées', valeur: '3 079', statut: 'ok', page: 'Dashboard',
     desc: 'Nombre total de candidatures reçues, somme de la colonne candidatures des 88 sessions.',
     util: 'Sert de base au taux d’acceptation et à la moyenne par session ; mesure la demande d’accès au dispositif.',
-    interp: '3 079 candidatures officielles officielles (39 candidatures S62/05-2024). À ne pas confondre avec les 3 721 lignes startups extraites des PDF (base fondateurs) : une candidature peut engendrer plusieurs lignes PDF (renouvellement, pré-label puis label, retrait…) et le parse brut est partiel. Ni avec « 1 824 » : ce chiffre du fichier périmé était l’ancien nombre d’entrées PDF, pas les candidatures.',
+    interp: '3 079 candidatures officielles, dont 39 pour S62/05-2024. À ne pas confondre avec les 3 528 lignes détaillées des PDF : une candidature peut produire plusieurs décisions documentaires (conversion, retrait ou réexamen). Les candidatures sont donc lues dans les compteurs officiels par session, jamais déduites du nombre de lignes.',
     source: 'API : /api/dashboard (annuel + sessions) → dashboard_data.json' },
   'KPI-04': { nom: 'Pré-labels accordés', valeur: '641', statut: 'ok', page: 'Dashboard',
     desc: 'Total de pré-labels attribués, corrigé vs PDF officiels.',
     util: 'Mesure la voie « pré-labels » (projets sans société créée) qui alimente ensuite les conversions.',
-    interp: '641 pré-labels (la valeur publiée de 617 était fausse). 82,0 % d.entre eux se convertissent en labels.',
+    interp: '641 pré-labels officiels dans les 88 sessions. Le taux de conversion est présenté séparément et ne doit pas être déduit des seules lignes détaillées; les quatre lignes Reporté restent hors de ce compteur.',
     source: 'API : /api/dashboard → dashboard_data.json, corrigé via corrections.json' },
   'KPI-05': { nom: 'Taux d’acceptation moyen', valeur: '44,0 %', statut: 'ok', page: 'Dashboard',
     desc: 'Part des candidatures ayant abouti à un label, agrégée sur toute la période : labels ÷ candidatures.',
     util: 'Indicateur d’efficacité/sélectivité du dispositif ; permet les comparaisons annuelles et internationales.',
-    interp: '44,0 % = 1 356 labels / 3 079 candidatures officielles (et non 44,8 % : valeurs corrigées). En baisse tendancielle : 58,1 % (2019) → 35,4 % (2025).',
+    interp: '44,0 % = 1 356 labels / 3 079 candidatures officielles. Les taux annuels corrigés sont 61,7 % (2019), 51,4 % (2020), 50,8 % (2021), 44,0 % (2022), 41,8 % (2023), 32,7 % (2024), 36,3 % (2025) et 32,8 % (2026, période partielle).',
     source: 'Calcul direct dans l’app (labels/candidatures) sur données corrigées' },
   'KPI-06': { nom: 'Concentration sectorielle (HHI)', valeur: 'calculé en direct', statut: 'ok', page: 'Secteurs',
     desc: 'Indice de Herfindahl-Hirschman des parts de marché des secteurs : Σ(partᵢ²).',
@@ -2371,7 +2378,7 @@ const KPI_INFO = {
   'KPI-20': { nom: 'Labels avant → après correction', valeur: '1 311 → 1 356', statut: 'ok', page: 'Corrections',
     desc: 'Écart entre les labels scrapés (startup.gov.tn) et les PDF officiels.',
     util: 'Quantifie l’impact de la correction sur l’indicateur phare.',
-    interp: '−13 labels : la valeur publiée était surestimée. Le socle historique est documenté séparément ; le corpus final utilise 1 356.',
+    interp: 'Le socle historique de 85 sessions est présenté à titre de comparaison (1 311). Le corpus final couvre 88 sessions et utilise 1 356 labels validés; l’écart combine les corrections et l’ajout de S85–S87.',
     source: 'API : /api/corrections → corrections.json' },
   'KPI-21': { nom: 'Pré-labels avant → après correction', valeur: '617 → 641', statut: 'ok', page: 'Corrections',
     desc: 'Écart entre pré-labels scrapés et PDF officiels.',
@@ -2399,7 +2406,7 @@ const KPI_INFO = {
   'KPI-26': { nom: 'Taux de croissance annuel des candidatures', valeur: 'voir graphique', statut: 'ok', page: 'Sessions',
     desc: 'Variation en % du nombre de candidatures entre deux années consécutives : (Candᵢ − Candᵢ₋₁)/Candᵢ₋₁ × 100.',
     util: 'Mesure la dynamique de la demande d’accès au dispositif.',
-    interp: '2020 : +30,9 % · 2021 : +17,4 % · 2022 : −16,7 % · 2023 : −0,8 % · 2024 : +11,4 % · 2025 : −4,3 %. La baisse 2026 est un effet de période incomplète.',
+    interp: 'Les candidatures passent de 311 (2019) à 407 (2020), 478 (2021), 398 (2022), 395 (2023), 440 (2024), 421 (2025) et 229 (2026). Les variations sont calculées seulement quand l’année précédente possède un dénominateur; la baisse 2026 doit être lue comme une période partielle.',
     source: 'Calcul en app : /api/dashboard (annuel) → dashboard_data.json' },
   'KPI-27': { nom: 'Cumul et évolution annuelle des labels et pré-labels', valeur: '1 356 / 641', statut: 'ok', page: 'Dashboard',
     desc: 'Courbe cumulative des labels et pré-labels + taux de variation annuel.',
@@ -2671,8 +2678,8 @@ const PAGE_META = {
   geography: 'Rapport annuel 2021',
   startupblink: 'Veille externe · StartupBlink.com (août 2026)',
   reports: 'Rapports officiels',
-  pdfs: '85 rapports de labellisation',
-  'session-json': '85 fichiers JSON · valeurs corrigées',
+  'pdfs': '88 rapports de labellisation',
+  'session-json': '88 fichiers JSON · valeurs corrigées',
   'founder-db': 'Base startups & fondateurs · extraction indicative',
   'annual-pdfs': 'Rapports annuels complets',
   parcours: 'Parcours Prélabel → Label',
@@ -2681,7 +2688,7 @@ const PAGE_META = {
   fiche: 'Cadrage du projet',
   livrables: 'Axe 1 · État des lieux quantitatif',
   insights: 'Interprétations',
-  kpis: '40 indicateurs répartis par axe / thème',
+  kpis: '50 indicateurs répartis par axe / thème',
   about: "Le projet & l'auteur",
   dispositif: "Loi 2018-20 · Label Startup · avantages & candidature"
 };
@@ -2738,7 +2745,7 @@ async function init() {
       fetch('/api/sessions', { cache: 'no-store' }).then(r => r.json()),
       fetch('/api/startups', { cache: 'no-store' }).then(r => r.json()),
       fetch('/api/reports', { cache: 'no-store' }).then(r => r.json()),
-      fetch('/api/analysis', { cache: 'no-store' }).then(r => r.json()).catch(() => ({sessions:{taux_acceptation_moyen:44.3}})),
+      fetch('/api/analysis', { cache: 'no-store' }).then(r => r.json()).catch(() => ({sessions:{taux_acceptation_moyen:44.0}})),
       fetch('/api/corrections', { cache: 'no-store' }).then(r => r.json()).catch(() => null),
       fetch('/api/parcours', { cache: 'no-store' }).then(r => r.json()).catch(() => null),
       fetch('/api/axes', { cache: 'no-store' }).then(r => r.json()).catch(() => ({axes: []})),
@@ -3067,7 +3074,9 @@ function renderDashboard() {
   const totalCand = yKpi.reduce((s, y) => s + y.candidatures, 0);
   const totalLabels = yKpi.reduce((s, y) => s + y.labels, 0);
   const totalPre = yKpi.reduce((s, y) => s + y.preLabels, 0);
-  const totalSessions = yKpi.reduce((s, y) => s + y.nbSessions, 0);
+  const totalSessions = filtered
+    ? (d.sessions || []).filter(s => Number(s.year) === Number(DATA.yearFilter)).length
+    : (d.sessions || []).length;
 
   const startups = filteredStartups();
   const astat = ageStats(startups);
@@ -3086,17 +3095,21 @@ function renderDashboard() {
   const suR = startupsForYear(refYear).length, suP = startupsForYear(prevYear).length;
   const ageR = ageStats(startupsForYear(refYear)), ageP = ageStats(startupsForYear(prevYear));
   const trend = (cur, prev, pts) => {
-    if (cur == null || prev == null || (!pts && prev === 0)) return '<span class="kpi-trend flat">—</span>';
+    const nCur = Number(cur), nPrev = Number(prev);
+    if (!Number.isFinite(nCur) || !Number.isFinite(nPrev) || nPrev === 0) return '<span class="kpi-trend flat" title="Variation non calculable : dénominateur nul ou donnée absente">—</span>';
     if (pts) {
-      const dd = cur - prev;
+      const dd = nCur - nPrev;
       const cls = Math.abs(dd) < 0.05 ? 'flat' : (dd > 0 ? 'up' : 'down');
       const arrow = Math.abs(dd) < 0.05 ? '＝' : (dd > 0 ? '▲' : '▼');
       return `<span class="kpi-trend ${cls}" title="vs ${prevYear}">${arrow} ${dd > 0 ? '+' : ''}${dd.toFixed(1)} pts</span>`;
     }
-    const p = (cur - prev) / prev * 100;
+    const p = (nCur - nPrev) / nPrev * 100;
     const cls = Math.abs(p) < 0.05 ? 'flat' : (p > 0 ? 'up' : 'down');
     const arrow = Math.abs(p) < 0.05 ? '＝' : (p > 0 ? '▲' : '▼');
-    return `<span class="kpi-trend ${cls}" title="vs ${prevYear}">${arrow} ${p > 0 ? '+' : ''}${p.toFixed(1)} %</span>`;
+    const title = cur === 0 && prev > 0
+      ? `vs ${prevYear} · −100 % signifie 0 dans l’année sélectionnée alors que l’année précédente avait des données; ce n’est pas une suppression du corpus total.`
+      : `vs ${prevYear}`;
+    return `<span class="kpi-trend ${cls}" title="${title}">${arrow} ${p > 0 ? '+' : ''}${p.toFixed(1)} %</span>`;
   };
 
   const yLbl = filtered ? ' (' + DATA.yearFilter + ')' : '';
@@ -3866,7 +3879,7 @@ function renderAdvancedDashboard() {
       const sess = m[2] + '/' + m[1];
       const sd = d.session_data || {};
       sessions.push({ session: sess, year: parseInt(m[1]), month: parseInt(m[2]), ...sd });
-      (d.entrees || []).forEach(e => { e._session = sess; e._year = parseInt(m[1]); allEntries.push(e); });
+      (d.entries || d.entrees || []).forEach(e => { e._session = sess; e._year = parseInt(m[1]); allEntries.push(e); });
     });
     advDataCache = { sessions, allEntries };
     renderAdvCharts();
@@ -3875,15 +3888,17 @@ function renderAdvancedDashboard() {
 
 function normRes(r) {
   if (!r) return 'unknown';
-  const t = r.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-  if (t.includes('irrecevable')) return 'irrecevable';
+  const t = String(r).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  if (t.includes('reporte') || t.includes('report')) return 'reporte';
+  if (t.includes('pitch') && t.includes('decal')) return 'pitch_decale';
+  if (t.includes('irrecevable') || t.includes('irreceval')) return 'irrecevable';
   if (t.includes('retrait')) return 'retrait';
-  if (t.includes('label') && !t.includes('pre') && !t.includes('non')) return 'label';
-  if (t.includes('prelabel') && !t.includes('non')) return 'prelabel';
-  if (t.includes('label') && t.includes('non')) return 'refused';
-  if (t.includes('prelabel') && t.includes('non')) return 'refused';
-  if (t.includes('accorde') && !t.includes('non')) return 'label';
-  if (t.includes('non accord')) return 'refused';
+  const isPre = t.includes('prelabel') || t.includes('pre-label');
+  if (isPre && (t.includes('non') || t.includes('refus'))) return 'prelabel_refuse';
+  if (!isPre && t.includes('label') && (t.includes('non') || t.includes('refus'))) return 'label_refuse';
+  if (isPre && (t.includes('accorde') || t.includes('accord'))) return 'prelabel';
+  if (t.includes('label') && (t.includes('accorde') || t.includes('accord'))) return 'label';
+  if (t.includes('non accord')) return isPre ? 'prelabel_refuse' : 'label_refuse';
   return 'unknown';
 }
 
@@ -3933,12 +3948,12 @@ function renderAdvCharts() {
   });
 
   // Decision donut
-  const decCount = { label: 0, prelabel: 0, refused: 0, irrecevable: 0, unknown: 0 };
-  allEntries.forEach(e => { const d = e._displayDecision || normRes(e.resultat); decCount[d] = (decCount[d] || 0) + 1; });
+  const decCount = { label: 0, prelabel: 0, label_refuse: 0, prelabel_refuse: 0, retrait: 0, reporte: 0, pitch_decale: 0, irrecevable: 0, unknown: 0 };
+  allEntries.forEach(e => { const d = normRes(e.resultat_normalise || e._displayDecision || e.resultat); decCount[d] = (decCount[d] || 0) + 1; });
   new Chart(document.getElementById('advChartDecisions'), {
     type: 'doughnut', data: {
-      labels: ['Labels', 'Pré-labels', 'Refusés', 'Irrecevables', 'Inconnus'],
-      datasets: [{ data: [decCount.label, decCount.prelabel, decCount.refused, decCount.irrecevable, decCount.unknown], backgroundColor: ['#22c55e', '#f59e0b', '#ef4444', '#6b7280', '#d1d5db'] }]
+      labels: ['Label accordé', 'Pré-label accordé', 'Label non accordé', 'Pré-label non accordé', 'Retrait Label', 'Reporté', 'Pitch décalé', 'Irrecevable', 'Inconnu'],
+      datasets: [{ data: [decCount.label, decCount.prelabel, decCount.label_refuse, decCount.prelabel_refuse, decCount.retrait, decCount.reporte, decCount.pitch_decale, decCount.irrecevable, decCount.unknown], backgroundColor: ['#22c55e', '#f59e0b', '#ef4444', '#b91c1c', '#d97706', '#bd6b52', '#eab308', '#6b7280', '#d1d5db'] }]
     }, options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'right' } } }
   });
 
@@ -4062,21 +4077,27 @@ function renderMindMap(sessions, entries) {
 let extractedCache = null;
 const EXT_DEC = {
   label: 'Label accordé', prelabel: 'Pré-label accordé',
-  refused: 'Label refusé', retrait: 'Retrait',
-  irrecevable: 'Irrecevable', unknown: 'Inconnu', reporte: 'Reporté'
+  label_refuse: 'Label non accordé', prelabel_refuse: 'Pré-label non accordé',
+  retrait: 'Retrait Label', reporte: 'Reporté', pitch_decale: 'Pitch décalé',
+  irrecevable: 'Irrecevable', unknown: 'Inconnu'
 };
 function normResultat(r) {
   if (!r) return 'unknown';
-  const t = r.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  const t = String(r).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  if (t.includes('reporte') || t.includes('report')) return 'reporte';
+  if (t.includes('pitch') && (t.includes('decal') || t.includes('report'))) return 'pitch_decale';
   if (t.includes('irrecevable') || t.includes('irreceval')) return 'irrecevable';
   if (t.includes('retrait')) return 'retrait';
-  if (t.includes('label') && !t.includes('pre') && !t.includes('non')) return 'label';
-  if ((t.includes('prelabel') || t.includes('prelabel')) && !t.includes('non')) return 'prelabel';
-  if (t.includes('label') && t.includes('non')) return 'refused';
-  if ((t.includes('prelabel') || t.includes('prelabel')) && t.includes('non')) return 'refused';
-  if (t.includes('accorde') && !t.includes('non')) return 'label';
-  if (t.includes('non accord')) return 'refused';
+  const isPre = t.includes('prelabel') || t.includes('pre-label');
+  if (isPre && (t.includes('non') || t.includes('refus'))) return 'prelabel_refuse';
+  if (!isPre && t.includes('label') && (t.includes('non') || t.includes('refus'))) return 'label_refuse';
+  if (isPre && (t.includes('accorde') || t.includes('accord'))) return 'prelabel';
+  if (t.includes('label') && (t.includes('accorde') || t.includes('accord'))) return 'label';
+  if (t.includes('non accord')) return isPre ? 'prelabel_refuse' : 'label_refuse';
   return 'unknown';
+}
+function decisionKey(e) {
+  return normResultat(e && (e.resultat_normalise || e._displayDecision || e.resultat));
 }
 
 async function renderExtractedData() {
@@ -4119,14 +4140,24 @@ async function renderExtractedData() {
     });
     sessSel.innerHTML = '<option value="">Toutes (' + files.length + ')</option>' + sessList.map(s => '<option value="' + s + '">' + s + '</option>').join('');
 
+    const officialMeta = (DATA.dashboard && DATA.dashboard.meta) || {};
+    const sessionValues = Object.values(extractedCache.sessionDataMap);
+    const sumSession = key => sessionValues.reduce((sum, sd) => sum + Number(sd[key] || 0), 0);
+    const officialCandidatures = Number(officialMeta.totalCandidatures ?? sumSession('candidatures'));
+    const officialLabels = Number(officialMeta.totalLabels ?? sumSession('labels'));
+    const officialPreLabels = Number(officialMeta.totalPreLabels ?? sumSession('preLabels'));
+    const officialRetraits = Number(officialMeta.totalRetraits ?? sumSession('retraits'));
+    const officialConversions = Number(officialMeta.totalConversions ?? sumSession('conversions'));
+    const officialRate = officialCandidatures ? (officialLabels / officialCandidatures * 100).toFixed(1) + '%' : '—';
     kpis.innerHTML = [
-      ['📋', Object.values(extractedCache.sessionDataMap).reduce((s, sd) => s + (sd.candidatures || 0), 0), 'candidatures'],
-      ['✅', Object.values(extractedCache.sessionDataMap).reduce((s, sd) => s + (sd.labels || 0), 0), 'labels'],
-      ['🟠', Object.values(extractedCache.sessionDataMap).reduce((s, sd) => s + (sd.preLabels || 0), 0), 'pré-labels'],
-      ['🔁', Object.values(extractedCache.sessionDataMap).reduce((s, sd) => s + (sd.conversions || 0), 0), 'conversions prélabel→label'],
-      ['⛔', Object.values(extractedCache.sessionDataMap).reduce((s, sd) => s + (sd.retraits || 0), 0), 'retraits de label'],
-      ['📊', (Object.values(extractedCache.sessionDataMap).reduce((s, sd) => s + (sd.labels || 0), 0) / Object.values(extractedCache.sessionDataMap).reduce((s, sd) => s + (sd.candidatures || 0), 0) * 100).toFixed(1) + '%', 'taux moyen d\'acceptation']
-    ].map(([i, n, l]) => '<div class="kpi-card"><div class="kpi-head"><span class="kpi-icon">' + i + '</span></div><div class="kpi-label">' + l + '</div><div class="kpi-value">' + (typeof n === 'number' ? Number(n).toLocaleString('fr-FR') : n) + '</div></div>').join('');
+      ['📋', officialCandidatures, 'candidatures officielles'],
+      ['✅', officialLabels, 'labels officiels'],
+      ['🟠', officialPreLabels, 'pré-labels officiels'],
+      ['🔁', officialConversions, 'conversions documentées'],
+      ['⛔', officialRetraits, 'retraits officiels'],
+      ['📊', officialRate, 'taux labels/candidatures']
+    ].map(([i, n, l]) => '<div class="kpi-card"><div class="kpi-head"><span class="kpi-icon">' + i + '</span></div><div class="kpi-label">' + l + '</div><div class="kpi-value">' + (typeof n === 'number' ? Number(n).toLocaleString('fr-FR') : n) + '</div></div>').join('') +
+      '<div class="summary-box" style="grid-column:1/-1;margin:0;border-left:4px solid #bd6b52"><strong>Lecture des compteurs :</strong> les cartes ci-dessus utilisent les compteurs officiels par session. Le tableau et ses filtres comptent des lignes détaillées des PDF : elles ne doivent donc pas être forcées à égaler les compteurs officiels. Par exemple, le filtre <strong>Label accordé</strong> peut afficher 1 201 lignes détaillées alors que le compteur officiel est 1 356. Les conversions, retraits et dossiers Reporté expliquent une partie de cet écart.</div>';
 
     renderExtractedTable();
   } catch (e) {
@@ -4143,24 +4174,26 @@ function renderExtractedTable() {
   if (!tbody) return;
   const rows = extractedCache.allEntries.filter(e => {
     if (sess && e._session !== sess) return false;
-    if (dec) {
-      const ed = e._displayDecision || normResultat(e.resultat);
-      const filterMap = {label_accorde:'label',prelabel_accorde:'prelabel',label_refuse:'refused',prelabel_refuse:'refused',retrait:'retrait',irrecevable:'irrecevable'};
-      const normalized = filterMap[ed] || ed;
-      if (normalized !== dec) return false;
-    }
+    if (dec && decisionKey(e) !== dec) return false;
     if (q) {
       const hay = ((e.societe || '') + ' ' + (e.fondateurs || '') + ' ' + (e.secteur || '') + ' ' + e._session).toLowerCase();
       if (!hay.includes(q)) return false;
     }
     return true;
   });
-  document.getElementById('extractedCount').textContent = rows.length + ' / ' + extractedCache.allEntries.length + ' entrées';
+  const officialMeta = (DATA.dashboard && DATA.dashboard.meta) || {};
+  const officialByDecision = {
+    label: Number(officialMeta.totalLabels || 0),
+    prelabel: Number(officialMeta.totalPreLabels || 0),
+    retrait: Number(officialMeta.totalRetraits || 0)
+  };
+  const countText = rows.length.toLocaleString('fr-FR') + ' / ' + extractedCache.allEntries.length.toLocaleString('fr-FR') + ' lignes détaillées';
+  const officialText = officialByDecision[dec] ? ' · compteur officiel correspondant : ' + officialByDecision[dec].toLocaleString('fr-FR') : '';
+  document.getElementById('extractedCount').textContent = countText + officialText;
   tbody.innerHTML = rows.slice(0, 1000).map(e => {
-    const ed = e._displayDecision || normResultat(e.resultat);
-    const filterMap = {label_accorde:'label',prelabel_accorde:'prelabel',label_refuse:'refused',prelabel_refuse:'refused',retrait:'retrait',irrecevable:'irrecevable'};
-    const nr = filterMap[ed] || ed;
-    return '<tr style="cursor:pointer" onclick="openExtractedDetail(\'' + escapeAttr(e._file) + '\')">' +
+    const nr = decisionKey(e);
+    const rowClass = nr === 'reporte' ? 'row-reporte' : nr === 'pitch_decale' ? 'row-pitch' : '';
+    return '<tr class="' + rowClass + '" style="cursor:pointer" onclick="openExtractedDetail(\'' + escapeAttr(e._file) + '\')">' +
     '<td style="white-space:nowrap">' + escapeHtml(e._session) + '</td>' +
     '<td><strong>' + escapeHtml(e.societe || '—') + '</strong></td>' +
     '<td>' + escapeHtml(e.secteur || '—') + '</td>' +
@@ -4169,7 +4202,7 @@ function renderExtractedTable() {
     '<td>' + (e.conflit ? '<span title="' + escapeHtml(e.conflit) + '" style="cursor:help">⚠</span>' : (e.is_conversion ? '🔁' : '')) + '</td>' +
     '</tr>';
   }).join('') +
-    (rows.length > 1000 ? '<tr><td colspan="6" style="opacity:.6">Affichage des 1000 premiers — affinez la recherche.</td></tr>' : '');
+    (rows.length > 1000 ? '<tr><td colspan="6" style="opacity:.6">Affichage des 1000 premières lignes détaillées — affinez la recherche.</td></tr>' : '');
 }
 
 async function openExtractedDetail(filename) {
@@ -4552,7 +4585,7 @@ function renderStartupBlink() {
     <div class="sb-compare-grid">
       <div class="sb-official-card">
         <h4>✅ Données officielles (ce projet — inchangées)</h4>
-        <p style="font-size:.82rem;margin:0 0 6px"><strong>${(DATA.startups || []).length || 922}</strong> startups labellisées · <strong>${cmp.officialSessions || 85}</strong> sessions</p>
+        <p style="font-size:.82rem;margin:0 0 6px"><strong>${(DATA.startups || []).length || 922}</strong> startups labellisées · <strong>${cmp.officialSessions || 88}</strong> sessions</p>
         <p style="font-size:.78rem;margin:0;color:#2e7d32">Source : PDF sessions startup.gov.tn, recalculés · voir <a href="#" onclick="switchPage('corrections');return false">Corrections</a></p>
       </div>
       <div class="sb-external-card">
@@ -5062,7 +5095,7 @@ async function renderEtudeQuantitative() {
           '<td style="text-align:right;padding:8px;color:#e94560;font-weight:600">' + (c ? (l/c*100).toFixed(1) : '0') + '%</td></tr>';
       }).join('') +
         '<tr style="border-top:2px solid var(--border-color);font-weight:700">' +
-          '<td style="padding:8px">Total</td><td style="text-align:right;padding:8px">85</td>' +
+          '<td style="padding:8px">Total</td><td style="text-align:right;padding:8px">88</td>' +
           '<td style="text-align:right;padding:8px">' + tC.toLocaleString('fr-FR') + '</td>' +
           '<td style="text-align:right;padding:8px;color:#2e7d32">' + tL.toLocaleString('fr-FR') + '</td>' +
           '<td style="text-align:right;padding:8px;color:#1565c0">' + tP.toLocaleString('fr-FR') + '</td>' +
