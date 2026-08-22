@@ -1432,15 +1432,23 @@
   <section id="page-corrections">
     <div class="page-header">
       <h1>Corrections des Données des Sessions</h1>
-      <p>Valeurs fausses (scrapé startup.gov.tn) vs valeurs vraies (PDF officiels) · 88 sessions, vérifiées</p>
+      <p>Divergences documentées entre le tableau web, les PDF officiels et les lignes détaillées · 88 sessions vérifiées</p>
     </div>
     <div class="kpi-grid" id="corrKpis"></div>
 
     <div class="summary-box" style="margin-bottom:20px">
-      <strong>📌 Contexte :</strong> le tableau <code>/sessions</code> de <code>startup.gov.tn</code> contenait des
-      valeurs erronées (labels/prélabels mal comptés sur 20 sessions sur 85). Les données ont été ré-extraites des
-      <strong>PDF officiels</strong> (<code>public/data/session-pdfs/</code>) par un parseur positionnel (v7) puis
-      auditées indépendamment (freebuff : 0 divergence) et vérifiées manuellement (3 scans vectoriels).
+      <strong>📌 Contexte :</strong> le tableau <code>/sessions</code> de <code>startup.gov.tn</code> présentait des divergences historiques sur certains labels et prélabels. Les données ont été ré-extraites des <strong>PDF officiels</strong> (<code>public/data/session-pdfs/</code>) par un parseur positionnel (v7), puis auditées indépendamment et vérifiées manuellement. Le corpus final couvre <strong>88 sessions</strong>.
+    </div>
+
+    <div class="summary-box" style="margin-bottom:20px;border:2px solid #c62828;border-left:6px solid #c62828;background:#fff7f7">
+      <h2 style="margin:0 0 8px;color:#b71c1c;font-size:1.12rem">⚠ Candidatures officielles : écart à contrôler, pas « fausses » en bloc</h2>
+      <p style="margin:0 0 12px;color:#4a1c1c;line-height:1.6">Les <strong>3 079 candidatures officielles</strong> sont la référence publiée par session et ne doivent pas être remplacées par une soustraction automatique des lignes PDF. Le rouge signale ici un <strong>écart de définition nécessitant une vérification</strong>, pas une preuve que le compteur officiel est faux.</p>
+      <div style="overflow-x:auto"><table style="width:100%;border-collapse:collapse;font-size:.84rem;background:#fff"><thead><tr style="border-bottom:2px solid #ef9a9a"><th style="text-align:left;padding:8px;color:#7f1d1d">Périmètre</th><th style="text-align:right;padding:8px;color:#7f1d1d">Officiel</th><th style="text-align:right;padding:8px;color:#7f1d1d">Lignes détaillées</th><th style="text-align:right;padding:8px;color:#7f1d1d">Écart</th><th style="text-align:left;padding:8px;color:#7f1d1d">Statut</th></tr></thead><tbody>
+        <tr><td style="padding:8px">88 sessions</td><td style="padding:8px;text-align:right;font-weight:700">3 079 candidatures</td><td style="padding:8px;text-align:right">3 528 décisions</td><td style="padding:8px;text-align:right;color:#b71c1c;font-weight:700">+449</td><td style="padding:8px;color:#b71c1c;font-weight:700">À ne pas recalculer automatiquement</td></tr>
+        <tr style="border-top:1px solid #f3c2c2"><td style="padding:8px">03/2019</td><td style="padding:8px;text-align:right;font-weight:700">16 candidatures</td><td style="padding:8px;text-align:right">14 lignes : 12 Labels + 2 refus</td><td style="padding:8px;text-align:right;color:#b71c1c;font-weight:700">+2</td><td style="padding:8px;color:#7f1d1d">2 ajournés indiqués dans le commentaire officiel</td></tr>
+        <tr style="border-top:1px solid #f3c2c2"><td style="padding:8px">S62 · 05/2024</td><td style="padding:8px;text-align:right;font-weight:700">39 candidatures</td><td style="padding:8px;text-align:right">45 enregistrements</td><td style="padding:8px;text-align:right;color:#b71c1c;font-weight:700">−6</td><td style="padding:8px;color:#7f1d1d">4 conversions + 2 retraits ; compteur officiel conservé</td></tr>
+      </tbody></table></div>
+      <p style="margin:12px 0 0;color:#4a1c1c;font-size:.84rem"><strong>Règle :</strong> la table « Vue officielle par session » doit totaliser 3 079 candidatures et 1 356 Labels. La table « Lignes détaillées des PDF » sert au contrôle des entreprises et décisions ; elle ne doit pas être utilisée pour déclarer les compteurs officiels faux sans vérification du PDF.</p>
     </div>
 
     <div class="tabs" id="corrTabs">
@@ -1452,11 +1460,11 @@
     <div id="corr-compare">
       <div class="chart-grid">
         <div class="chart-card">
-          <h3>❌ Tableau original — scrapé startup.gov.tn <span style="color:#c62828;font-size:0.8em">(valeurs fausses en rouge)</span></h3>
+          <h3>⚠ Tableau web historique — startup.gov.tn <span style="color:#c62828;font-size:0.8em">(écarts signalés en rouge)</span></h3>
           <div style="overflow-x:auto"><table><thead><tr><th>Session</th><th>Cand.</th><th>Labels</th><th>Pré-Labels</th><th>Taux</th><th>Commentaires</th></tr></thead><tbody id="corrOldTable"></tbody></table></div>
         </div>
         <div class="chart-card">
-          <h3>✅ Tableau corrigé — PDF officiels <span style="color:#1b5e20;font-size:0.8em">(valeurs corrigées en vert)</span></h3>
+          <h3>✅ Tableau de référence — compteurs des PDF officiels <span style="color:#1b5e20;font-size:0.8em">(valeurs validées en vert)</span></h3>
           <div style="overflow-x:auto"><table><thead><tr><th>Session</th><th>Cand.</th><th>Labels</th><th>Pré-Labels</th><th>Retraits</th><th>Taux (réel → arrondi)</th><th>Taux échec</th><th>Commentaires</th></tr></thead><tbody id="corrNewTable"></tbody></table></div>
         </div>
       </div>
