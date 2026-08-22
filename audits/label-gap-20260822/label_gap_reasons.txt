@@ -1,0 +1,122 @@
+gap_positive_sessions 30 gap_total 162
+columns: gap session official detailed entries prelabel_detail unknown any_positive_label_text type_label_label unknown_with_label
+(21, '12/2020', 21, 0, 36, 0, 0, 0, 21, 0)
+  sample: Telum | Label accordé |  | Label non accordé | Label | Non renseigné | Non renseigné | Session de décision
+  sample: Ma Formation Privilee | Label accordé |  | Label non accordé | Label | Non renseigné | Non renseigné | Session de décision
+  sample: AirGraph | Label accordé |  | Label non accordé | Label | Non renseigné | Non renseigné | Session de décision
+(12, '11/2020', 26, 14, 40, 2, 0, 1, 13, 0)
+  sample: Civitas | prelabel |  | Prélabel non accordé | Non renseigné | Non renseigné | Non renseigné | Session de décision
+  sample: Celebrioo | prelabel |  | Prélabel non accordé | Non renseigné | Non renseigné | Non renseigné | Session de décision
+  sample: elprojet | prelabel |  | Prélabel non accordé | Non renseigné | Non renseigné | Non renseigné | Session de décision
+(10, '12/2019', 23, 13, 42, 18, 0, 0, 28, 0)
+  sample: AfiaTech | Prélabel accordé |  | Prélabel accordé | Prélabel | Non renseigné | Prélabel accordé | Session de décision
+  sample: MICE | Prélabel accordé |  | Prélabel accordé | Prélabel | Non renseigné | Prélabel accordé | Session de décision
+  sample: Fasteas | Prélabel accordé |  | Prélabel accordé | Prélabel | Non renseigné | Prélabel accordé | Session de décision
+(9, '07/2020', 18, 9, 51, 0, 0, 0, 31, 0)
+  sample: Bouquiniste.tn | Label accordé |  | Label non accordé | Label | Non renseigné | Non renseigné | Session de décision
+  sample: Klink | Label accordé |  | Label non accordé | Label | Non renseigné | Non renseigné | Session de décision
+  sample: CrocoCoder | Label accordé |  | Label non accordé | Label | Non renseigné | Non renseigné | Session de décision
+(9, '02/2026', 21, 12, 39, 3, 0, 0, 19, 0)
+  sample: Talento | Prélabel Accordé au 2 ème Tour |  | Prélabel accordé | Prélabel | Non précisé |  | Session de décision
+  sample: Freshk | Prélabel Accordé au 2 ème Tour |  | Prélabel accordé | Prélabel | Non précisé |  | Session de décision
+  sample: cognitiex | Prélabel Accordé au 3 ème Tour |  | Prélabel accordé | Prélabel | Non précisé |  | Session de décision
+(9, '02/2020', 22, 13, 41, 20, 0, 13, 26, 0)
+  sample: Allô Réparateur | Prélabel accordé |  | Prélabel accordé | Prélabel | Non renseigné | Prélabel accordé | Session de décision
+  sample: Class Quiz | Prélabel accordé |  | Prélabel accordé | Prélabel | Non renseigné | Prélabel accordé | Session de décision
+  sample: autoecoleplus | Prélabel accordé |  | Prélabel accordé | Prélabel | Non renseigné | Prélabel accordé | Session de décision
+(9, '01/2021', 24, 15, 36, 7, 0, 15, 20, 0)
+  sample: FinBudd.com | Prélabel accordé |  | Prélabel accordé | Prélabel | 2ème tour |  | Session de décision
+  sample: YAGRI | Prélabel accordé |  | Prélabel accordé | Prélabel | 2ème tour |  | Session de décision
+  sample: 7keema | Prélabel accordé |  | Prélabel accordé | Prélabel | 2ème tour |  | Session de décision
+(6, '12/2024', 16, 10, 39, 4, 0, 0, 19, 0)
+  sample: IsOne Hr | Prélabel Accordé au 2 ème Tour |  | Prélabel accordé | Prélabel | Non précisé |  | Session de décision
+  sample: BeEmo | Prélabel Accordé au 2 ème Tour |  | Prélabel accordé | Prélabel | Non précisé |  | Session de décision
+  sample: linkbook | Prélabel Accordé au 3 ème Tour |  | Prélabel accordé | Prélabel | Non précisé |  | Session de décision
+(6, '11/2019', 17, 11, 41, 16, 0, 11, 21, 0)
+  sample: 7keema | Prélabel accordé |  | Prélabel accordé | Prélabel | Non renseigné | Prélabel accordé | Session de décision
+  sample: Salaire.tn | Prélabel accordé |  | Prélabel accordé | Prélabel | Non renseigné | Prélabel accordé | Session de décision
+  sample: VDOC | Prélabel accordé |  | Prélabel accordé | Prélabel | Non renseigné | Prélabel accordé | Session de décision
+(5, '10/2019', 23, 18, 39, 10, 0, 17, 29, 0)
+  sample: Sala7li | Label accordé |  | Prélabel accordé | Label | Non renseigné | Label accordé (conversion prelabel) | Session de décision
+  sample: TuniBoat | Label accordé |  | Prélabel accordé | Label | Non renseigné | Label accordé (conversion prelabel) | Session de décision
+  sample: BeBouncy | Label accordé |  | Prélabel accordé | Label | Non renseigné | Label accordé (conversion prelabel) | Session de décision
+(5, '08/2020', 17, 12, 34, 0, 0, 0, 10, 0)
+  sample: GENI | prelabel |  | Prélabel non accordé | Non renseigné | Non renseigné | Non renseigné | Session de décision
+  sample: HAKIM TECHNOLOGIES | prelabel |  | Prélabel non accordé | Non renseigné | Non renseigné | Non renseigné | Session de décision
+  sample: D-WEE | prelabel |  | Prélabel non accordé | Non renseigné | Non renseigné | Non renseigné | Session de décision
+(5, '05/2020', 12, 7, 32, 15, 0, 7, 17, 0)
+  sample: Amiral | Prélabel accordé |  | Prélabel accordé | Prélabel | Non renseigné | Prélabel accordé | Session de décision
+  sample: Sprindt | Prélabel accordé |  | Prélabel accordé | Prélabel | Non renseigné | Prélabel accordé | Session de décision
+  sample: Global World Transformer | Prélabel accordé |  | Prélabel accordé | Prélabel | Non renseigné | Prélabel accordé | Session de décision
+(5, '04/2023', 14, 9, 40, 5, 0, 9, 20, 0)
+  sample: Oriwood/ Entreprise Wahy artisan du bois | Label Non Accordé |  | Label non accordé | Label | 2ème tour | Label Non accordé dès le 2ème tour | Session de décision
+  sample: Teachica | Label Non Accordé |  | Label non accordé | Label | 2ème tour | Label Non accordé dès le 2ème tour | Session de décision
+  sample: NORMA TUNISIE | Label Non Accordé |  | Label non accordé | Label | 2ème tour | Label Non accordé dès le 2ème tour | Session de décision
+(5, '02/2024', 9, 4, 33, 6, 0, 0, 13, 0)
+  sample: Spooky And Diva | Label Non Accordé au 2ème Tour |  | Label non accordé | Label | Non précisé |  | Session de décision
+  sample: eduhelper | Label Non Accordé au 2ème Tour |  | Label non accordé | Label | Non précisé |  | Session de décision
+  sample: BiBoo Children's planet | Label Non Accordé au 2ème Tour |  | Label non accordé | Label | Non précisé |  | Session de décision
+(5, '01/2025', 18, 13, 44, 2, 0, 0, 25, 0)
+  sample: Readdly | Prélabel Accordé au 2 ème Tour |  | Prélabel accordé | Prélabel | Non précisé |  | Session de décision
+  sample: Dari | Prélabel Accordé au 2 ème Tour |  | Prélabel accordé | Prélabel | Non précisé |  | Session de décision
+  sample: Spirunat | Label Non Accordé au 2 ème Tour |  | Label non accordé | Label | Non précisé |  | Session de décision
+(4, '08/2019', 24, 20, 28, 5, 0, 0, 20, 0)
+  sample: WanToTrip | Prélabel accordé |  | Prélabel accordé | Prélabel | Non renseigné | Prélabel accordé | Session de décision
+  sample: X-P-R | Prélabel accordé |  | Prélabel accordé | Prélabel | Non renseigné | Prélabel accordé | Session de décision
+  sample: Plateforme de Formation E-learning | Prélabel accordé |  | Prélabel accordé | Prélabel | Non renseigné | Prélabel accordé | Session de décision
+(4, '04/2021', 22, 18, 81, 24, 0, 18, 26, 0)
+  sample: capxvalue | Prélabel accordé |  | Prélabel accordé | Prélabel | 2ème tour | Prélabel accordé dès le 2ème tour | Session de décision
+  sample: Rania WERDA | Prélabel accordé |  | Prélabel accordé | Prélabel | 2ème tour | Prélabel accordé dès le 2ème tour | Session de décision
+  sample: Takwira | Prélabel accordé |  | Prélabel accordé | Prélabel | 2ème tour | Prélabel accordé dès le 2ème tour | Session de décision
+(4, '03/2020', 16, 12, 40, 14, 0, 12, 23, 0)
+  sample: TOLEDO | Prélabel accordé |  | Prélabel accordé | Prélabel | Non renseigné | Prélabel accordé | Session de décision
+  sample: CHMISA | Prélabel accordé |  | Prélabel accordé | Prélabel | Non renseigné | Prélabel accordé | Session de décision
+  sample: KLAY | Prélabel accordé |  | Prélabel accordé | Prélabel | Non renseigné | Prélabel accordé | Session de décision
+(4, '01/2020', 18, 14, 42, 15, 0, 0, 27, 0)
+  sample: La relation client à l'ère du digital | Prélabel accordé |  | Prélabel accordé | Prélabel | Non renseigné | Prélabel accordé | Session de décision
+  sample: Support de coupe a couvercle automatique | Prélabel accordé |  | Prélabel accordé | Prélabel | Non renseigné | Prélabel accordé | Session de décision
+  sample: IJA SOLUTION | Prélabel accordé |  | Prélabel accordé | Prélabel | Non renseigné | Prélabel accordé | Session de décision
+(3, '12/2023', 14, 11, 43, 5, 0, 0, 23, 0)
+  sample: RSE Time | Label Non Accordé au 3 ème tour |  | Label non accordé | Label | Non précisé |  | Session de décision
+  sample: South Fruits Agri | Label Non Accordé au 3 ème tour |  | Label non accordé | Label | Non précisé |  | Session de décision
+  sample: Hippomed Entreprise SA | Prélabel Accordé au 2 ème tour |  | Prélabel accordé | Prélabel | Non précisé |  | Session de décision
+(3, '10/2020', 16, 13, 24, 0, 0, 0, 0, 0)
+  sample: Marhba.tn Experiences | prelabel |  | Prélabel non accordé | Non renseigné | Non renseigné | Non renseigné | Session de décision
+  sample: Fantastic Mall | prelabel |  | Prélabel non accordé | Non renseigné | Non renseigné | Non renseigné | Session de décision
+  sample: E W | prelabel |  | Prélabel non accordé | Non renseigné | Non renseigné | Non renseigné | Session de décision
+(3, '09/2020', 11, 8, 23, 0, 0, 1, 1, 0)
+  sample: Orthlane | prelabel |  | Prélabel non accordé | Non renseigné | Non renseigné | Non renseigné | Session de décision
+  sample: ETNAFES | prelabel |  | Prélabel non accordé | Non renseigné | Non renseigné | Non renseigné | Session de décision
+  sample: Idaraty.tn | prelabel |  | Prélabel non accordé | Non renseigné | Non renseigné | Non renseigné | Session de décision
+(3, '09/2019', 15, 12, 27, 9, 0, 0, 17, 0)
+  sample: Go Field | Label accordé |  | Prélabel accordé | Label | Non renseigné | Label accordé (conversion prelabel) | Session de décision
+  sample: WanToTrip | Label accordé |  | Prélabel accordé | Label | Non renseigné | Label accordé (conversion prelabel) | Session de décision
+  sample: Technologia Academy | Label accordé |  | Prélabel accordé | Label | Non renseigné | Label accordé (conversion prelabel) | Session de décision
+(3, '04/2020', 20, 17, 45, 10, 0, 0, 30, 0)
+  sample: RoboCare | Prélabel accordé |  | Prélabel accordé | Prélabel | Non renseigné | Prélabel accordé | Session de décision
+  sample: FI THNITI | Prélabel accordé |  | Prélabel accordé | Prélabel | Non renseigné | Prélabel accordé | Session de décision
+  sample: Tchou-Tchou Your school bus tracking App | Prélabel accordé |  | Prélabel accordé | Prélabel | Non renseigné | Prélabel accordé | Session de décision
+(3, '02/2023', 18, 15, 42, 11, 0, 7, 23, 0)
+  sample: My Brain | Prélabel accordé |  | Prélabel accordé | Prélabel | 2ème tour | Prélabel accordé dès le 2ème tour | Session de décision
+  sample: TOF: Tyres On Fire | Prélabel accordé |  | Prélabel accordé | Prélabel | 2ème tour | Prélabel accordé dès le 2ème tour | Session de décision
+  sample: cercina.ai | Prélabel accordé |  | Prélabel accordé | Prélabel | 2ème tour | Prélabel accordé dès le 2ème tour | Session de décision
+(2, '11/2023', 14, 12, 38, 7, 0, 0, 18, 0)
+  sample: CarNet | Prélabel Accordé au 2 ème tour |  | Prélabel accordé | Label | Non précisé |  | Session de décision
+  sample: NeuralBey | Prélabel Accordé au 2 ème tour |  | Prélabel accordé | Label | Non précisé |  | Session de décision
+  sample: BE-SIYESSAH | Prélabel Accordé au 2 ème tour |  | Prélabel accordé | Label | Non précisé |  | Session de décision
+(2, '08/2024', 11, 9, 39, 6, 0, 0, 17, 0)
+  sample: Optypro.net | Prélabel Accordé au 2ème Tour |  | Prélabel accordé | Prélabel | Non précisé |  | Session de décision
+  sample: Production d’additifs alimentaires animale et consulting | Prélabel Accordé au 2ème Tour |  | Prélabel accordé | Prélabel | Non précisé |  | Session de décision
+  sample: BuzzBip | Prélabel Accordé au 2ème Tour |  | Prélabel accordé | Prélabel | Non précisé |  | Session de décision
+(1, '12/2022', 17, 16, 39, 5, 0, 7, 21, 0)
+  sample: Taskflow | Prélabel accordé |  | Prélabel accordé | Prélabel | 2ème tour | Prélabel accordé dès le 2ème tour | Session de décision
+  sample: Papi'Pets | Prélabel accordé |  | Prélabel accordé | Prélabel | 2ème tour | Prélabel accordé dès le 2ème tour | Session de décision
+  sample: SunAir Fountain® : Générateur d’eau de boisson atmosphérique par le solaire | Prélabel accordé |  | Prélabel accordé | Prélabel | 2ème tour | Prélabel accordé dès le 2ème tour | Session de décision
+(1, '07/2021', 22, 21, 50, 5, 0, 10, 29, 0)
+  sample: Tiktak PRO | Prélabel accordé |  | Prélabel accordé | Prélabel | 2ème tour | Prélabel accordé dès le 2ème tour | Session de décision
+  sample: TRUE DELTA | Prélabel accordé |  | Prélabel accordé | Prélabel | 2ème tour | Prélabel accordé dès le 2ème tour Amel Saidane a déclaré un conflit d'interet | Session de décision
+  sample: Société JPARTENERS TUNISIE SUARL | Prélabel accordé |  | Prélabel accordé | Prélabel | 2ème tour | Prélabel accordé dès le 2ème tour | Session de décision
+(1, '07/2019', 15, 14, 29, 8, 0, 14, 18, 0)
+  sample: TuniBoat | Prélabel accordé |  | Prélabel accordé | Prélabel | 2ème tour | Prélabel accordé dès le 2ème tour | Session de décision
+  sample: Winshot | Prélabel accordé |  | Prélabel accordé | Prélabel | 2ème tour | Prélabel accordé dès le 2ème tour | Session de décision
+  sample: Technologia Academy | Prélabel accordé |  | Prélabel accordé | Prélabel | 2ème tour | Prélabel accordé dès le 2ème tour | Session de décision

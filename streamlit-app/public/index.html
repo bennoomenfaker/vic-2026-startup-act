@@ -2283,7 +2283,7 @@ function sectorCounts(list) {
   return Object.entries(counts).map(([name, count]) => ({ name, count })).sort((a, b) => b.count - a.count);
 }
 
-/* ===== KPI Info (catalogue 40 KPI) ===== */
+/* ===== KPI Info (catalogue 50 KPI) ===== */
 /* statut : 'ok' calculé/implémenté · 'warn' partiel · 'miss' donnée manquante / non calculable */
 const KPI_INFO = {
   'KPI-01': { nom: 'Startups labellisées (base)', valeur: '922', statut: 'ok', page: 'Dashboard',
@@ -2295,7 +2295,7 @@ const KPI_INFO = {
   'KPI-02': { nom: 'Labels accordés', valeur: '1 356 (corrigé)', statut: 'ok', page: 'Dashboard',
     desc: 'Total cumulé des labels Startup Act attribués sur les 88 sessions, après correction face aux PDF officiels.',
     util: 'Mesure le flux brut de labellisation et sa croissance cumulée dans le temps.',
-    interp: '1 356 labels officiels cumulés sur le corpus final de 88 sessions. Le chiffre 1 311 correspond au socle historique de 85 sessions après contrôle; il ne doit pas être mélangé au périmètre final.',
+    interp: '1 356 Labels officiels = 987 labels nouveaux + 369 conversions documentées. Le tableau détaillé affiche 1 201 lignes classées Label accordé : l’écart de 155 est un écart d’unité entre compteur officiel agrégé et classification ligne par ligne, pas 155 lignes cachées. Le chiffre 1 311 correspond au socle historique de 85 sessions et ne doit pas être mélangé au périmètre final.',
     source: 'API : /api/dashboard (annuel) → public/data/dashboard_data.json, corrigé via corrections.json' },
   'KPI-03': { nom: 'Candidatures déposées', valeur: '3 079', statut: 'ok', page: 'Dashboard',
     desc: 'Nombre total de candidatures reçues, somme de la colonne candidatures des 88 sessions.',
@@ -4157,7 +4157,7 @@ async function renderExtractedData() {
       ['⛔', officialRetraits, 'retraits officiels'],
       ['📊', officialRate, 'taux labels/candidatures']
     ].map(([i, n, l]) => '<div class="kpi-card"><div class="kpi-head"><span class="kpi-icon">' + i + '</span></div><div class="kpi-label">' + l + '</div><div class="kpi-value">' + (typeof n === 'number' ? Number(n).toLocaleString('fr-FR') : n) + '</div></div>').join('') +
-      '<div class="summary-box" style="grid-column:1/-1;margin:0;border-left:4px solid #bd6b52"><strong>Lecture des compteurs :</strong> les cartes ci-dessus utilisent les compteurs officiels par session. Le tableau et ses filtres comptent des lignes détaillées des PDF : elles ne doivent donc pas être forcées à égaler les compteurs officiels. Par exemple, le filtre <strong>Label accordé</strong> peut afficher 1 201 lignes détaillées alors que le compteur officiel est 1 356. Les conversions, retraits et dossiers Reporté expliquent une partie de cet écart.</div>';
+      '<div class="summary-box" style="grid-column:1/-1;margin:0;border-left:4px solid #bd6b52"><strong>À lire correctement :</strong> les cartes officielles comptent les résultats publiés par session. Le tableau compte les lignes détaillées des PDF. Le filtre <strong>Label accordé</strong> affiche <strong>1 201 lignes</strong> ; le compteur officiel est <strong>1 356 Labels = 987 labels nouveaux + 369 conversions documentées</strong>. Les 155 d’écart ne sont donc pas 155 lignes cachées à ajouter au tableau : c’est la différence entre une somme officielle agrégée et une classification ligne par ligne, à contrôler dans le rapprochement par session. Les retraits, conversions, décisions multi-tours et Reporté restent visibles dans leurs catégories propres.</div>';
 
     renderExtractedTable();
   } catch (e) {
@@ -4188,7 +4188,9 @@ function renderExtractedTable() {
     retrait: Number(officialMeta.totalRetraits || 0)
   };
   const countText = rows.length.toLocaleString('fr-FR') + ' / ' + extractedCache.allEntries.length.toLocaleString('fr-FR') + ' lignes détaillées';
-  const officialText = officialByDecision[dec] ? ' · compteur officiel correspondant : ' + officialByDecision[dec].toLocaleString('fr-FR') : '';
+  let officialText = officialByDecision[dec] ? ' · repère officiel : ' + officialByDecision[dec].toLocaleString('fr-FR') : '';
+  if (dec === 'label') officialText = ' · repère officiel : 1 356 Labels (987 nouveaux + 369 conversions)';
+  if (dec === 'prelabel') officialText = ' · repère officiel : 641 Prélabels';
   document.getElementById('extractedCount').textContent = countText + officialText;
   tbody.innerHTML = rows.slice(0, 1000).map(e => {
     const nr = decisionKey(e);
