@@ -60,7 +60,7 @@ if dashboard is not None:
         if taux is not None and echec is not None:
             check(abs(float(taux) + float(echec) - 100.0) < 0.01,
                   f"{s['session']}: tauxAcceptation + tauxEchec != 100 ({taux}+{echec})")
-    check(len(dashboard.get('sessions', [])) == 85, f"Attendu 85 sessions, trouvé {len(dashboard.get('sessions', []))}")
+    check(len(dashboard.get('sessions', [])) == 88, f"Attendu 88 sessions, trouvé {len(dashboard.get('sessions', []))}")
     raw = open(os.path.join(DATA, 'dashboard_data.json'), encoding='utf-8').read()
     check('"10/25"' not in raw, "Clé résiduelle '10/25' détectée (doit être 10/2025)")
 
@@ -78,7 +78,7 @@ if parcours is not None:
     check(sum_conv == meta.get('totalConversions'), f"parcours: conversions {sum_conv} != meta {meta.get('totalConversions')}")
     check(sum_ret == meta.get('totalRetraits'), f"parcours: retraits {sum_ret} != meta {meta.get('totalRetraits')}")
     check(sum_tot == meta.get('totalLabels'), f"parcours: totalLabels {sum_tot} != meta {meta.get('totalLabels')}")
-    check(len(ps) == 85, f"parcours: {len(ps)} sessions (attendu 85)")
+    check(len(ps) == 88, f"parcours: {len(ps)} sessions (attendu 88)")
     for s in ps:
         check(s.get('totalLabels') == s.get('newLabels') + s.get('conversions'),
               f"parcours {s['session']}: totalLabels != newLabels + conversions")
@@ -101,4 +101,4 @@ if ERRORS:
     for e in ERRORS:
         print('  -', e)
     sys.exit(1)
-print('OK — toutes les données sont cohérentes (85 sessions, 1311 labels, 623 prélabels, 21 corrections).')
+print('OK — toutes les données sont cohérentes (88 sessions, 1343 labels, 645 prélabels, 21 corrections).')

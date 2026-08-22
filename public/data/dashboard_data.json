@@ -28,9 +28,10 @@
         "type": "pdf"
       }
     ],
-    "totalCandidatures": 3384,
-    "totalLabels": 1311,
-    "totalPreLabels": 623
+    "totalCandidatures": 3493,
+    "totalLabels": 1343,
+    "totalPreLabels": 645,
+    "totalSessions": 88
   },
   "sessions": [
     {
@@ -1562,6 +1563,39 @@
       "tauxEchecExact": 70.5,
       "conversions": 3,
       "retraits": 6
+    },
+    {
+      "session": "04/2026",
+      "year": 2026,
+      "candidatures": 38,
+      "labels": 12,
+      "preLabels": 5,
+      "tauxAcceptation": "42.1",
+      "tauxAcceptationExact": 42.1,
+      "tauxEchec": "57.9",
+      "commentaires": "4 conversions prélabel→label, 5 retraits"
+    },
+    {
+      "session": "05/2026",
+      "year": 2026,
+      "candidatures": 34,
+      "labels": 13,
+      "preLabels": 8,
+      "tauxAcceptation": "61.8",
+      "tauxAcceptationExact": 61.8,
+      "tauxEchec": "38.2",
+      "commentaires": "5 conversions prélabel→label, 3 retraits"
+    },
+    {
+      "session": "06/2026",
+      "year": 2026,
+      "candidatures": 38,
+      "labels": 7,
+      "preLabels": 9,
+      "tauxAcceptation": "42.1",
+      "tauxAcceptationExact": 42.1,
+      "tauxEchec": "57.9",
+      "commentaires": "4 conversions prélabel→label, 3 retraits"
     }
   ],
   "yearly": [

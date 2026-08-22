@@ -1,10 +1,10 @@
 {
   "meta": {
     "totalConversions": 356,
-    "totalNewPreLabels": 623,
-    "totalNewLabels": 1311,
+    "totalNewPreLabels": 645,
+    "totalNewLabels": 1343,
     "totalRetraits": 142,
-    "totalLabels": 1667,
+    "totalLabels": 1699,
     "convRate": 57.1,
     "pctLabelsFromConversions": 21.4,
     "manualSessions": [
@@ -1019,6 +1019,36 @@
       "totalLabels": 16,
       "pctConversions": 23.1,
       "manual": false
+    },
+    {
+      "session": "04/2026",
+      "year": 2026,
+      "newLabels": 12,
+      "conversions": 0,
+      "preLabels": 5,
+      "totalLabels": 12,
+      "retraits": 0,
+      "pctConversions": 0.0
+    },
+    {
+      "session": "05/2026",
+      "year": 2026,
+      "newLabels": 13,
+      "conversions": 0,
+      "preLabels": 8,
+      "totalLabels": 13,
+      "retraits": 0,
+      "pctConversions": 0.0
+    },
+    {
+      "session": "06/2026",
+      "year": 2026,
+      "newLabels": 7,
+      "conversions": 0,
+      "preLabels": 9,
+      "totalLabels": 7,
+      "retraits": 0,
+      "pctConversions": 0.0
     }
   ]
 }

@@ -201,7 +201,7 @@
     "session": "02/2020",
     "month": 2,
     "year": 2020,
-    "candidatures": 41,
+    "candidatures": 40,
     "labels": 22,
     "preLabels": 11,
     "commentaires": "13 Labels et 9 Prelabels à Labels",
@@ -219,7 +219,7 @@
     "session": "03/2020",
     "month": 3,
     "year": 2020,
-    "candidatures": 40,
+    "candidatures": 39,
     "labels": 16,
     "preLabels": 10,
     "commentaires": "12 Labels et 4 Prelabels à Labels",
@@ -507,7 +507,7 @@
     "session": "07/2021",
     "month": 7,
     "year": 2021,
-    "candidatures": 50,
+    "candidatures": 49,
     "labels": 22,
     "preLabels": 5,
     "commentaires": "11 Labels et 11 Prelabels à Labels",
@@ -1119,7 +1119,7 @@
     "session": "05/2024",
     "month": 5,
     "year": 2024,
-    "candidatures": 0,
+    "candidatures": 39,
     "labels": 14,
     "preLabels": 5,
     "commentaires": "14 Labels et 5 Prélabel à Label",
@@ -1209,7 +1209,7 @@
     "session": "10/2024",
     "month": 10,
     "year": 2024,
-    "candidatures": 49,
+    "candidatures": 48,
     "labels": 15,
     "preLabels": 7,
     "commentaires": "09 Labels et 06 Prélabel à Label",
@@ -1528,5 +1528,29 @@
     "tauxEchecExact": 70.5,
     "conversions": 3,
     "retraits": 6
+  },
+  {
+    "session": "04/2026",
+    "candidatures": 38,
+    "labels": 12,
+    "preLabels": 5,
+    "tauxAcceptation": "42.1",
+    "commentaires": "4 conversions prélabel→label, 5 retraits"
+  },
+  {
+    "session": "05/2026",
+    "candidatures": 34,
+    "labels": 13,
+    "preLabels": 8,
+    "tauxAcceptation": "61.8",
+    "commentaires": "5 conversions prélabel→label, 3 retraits"
+  },
+  {
+    "session": "06/2026",
+    "candidatures": 38,
+    "labels": 7,
+    "preLabels": 9,
+    "tauxAcceptation": "42.1",
+    "commentaires": "4 conversions prélabel→label, 3 retraits"
   }
 ]
