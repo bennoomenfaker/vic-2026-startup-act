@@ -82,7 +82,7 @@ export default function Home() {
       }),
       { applications: 0, labels: 0, preLabels: 0, accepted: 0 },
     );
-    return year === "all" ? { ...calculated, applications: 3015 } : calculated;
+    return calculated;
   }, [filteredSessions, year]);
   const qualityKpis = dashboardData.kpis.filter((k) => k.statut !== "ok");
   const catalogue = dashboardData.kpis.filter((k) => {
