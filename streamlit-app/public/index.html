@@ -2215,6 +2215,7 @@
     <div class="kpi-section"><h4>Description</h4><p id="kpiModalDesc"></p></div>
     <div class="kpi-section" id="kpiModalTrendWrap" style="display:none"><h4>📈 Variation vs année précédente</h4><p id="kpiModalTrend"></p></div>
     <div class="kpi-section"><h4>Utilité</h4><p id="kpiModalUtil"></p></div>
+    <div class="kpi-section"><h4>Calcul / méthode</h4><p id="kpiModalCalc"></p></div>
     <div class="kpi-section"><h4>Interprétation du résultat</h4><p id="kpiModalInterp"></p></div>
     <div class="kpi-section"><h4>Source / API</h4><p id="kpiModalSource"></p></div>
     <div class="kpi-missing" id="kpiModalMissing" style="display:none"></div>
@@ -2562,10 +2563,104 @@ const KPI_INFO = {
     interp: 'Business Software domine chaque année (35→46→53→27→23→19→9) ; Commerce et HealthTech suivent. La baisse de volumes 2025-2026 reflète moins de sessions.',
     source: 'Calcul en app : /api/startups → database_startups.json' },
   'KPI-40': { nom: 'Part de startups DeepTech / brevets / PI', valeur: '—', statut: 'miss', page: 'Nouvelle page « Innovation »',
-    desc: '% de startups DeepTech, brevets nationaux et internationaux, marques et autres PI.',
-    util: 'Mesure l’intensité technologique et l’innovation protégée.',
+    desc: 'Part des startups liées à la DeepTech, aux brevets ou à la propriété intellectuelle.',
+    util: 'Mesure la capacité d’innovation technologique et la production de propriété intellectuelle.',
     interp: 'DONNÉE MANQUANTE : aucun indicateur innovation structuré.',
-    source: 'Collecte : INNORPI, Patentscope/Espacenet, questionnaire DeepTech' }
+    source: 'Collecte : INNORPI, Patentscope/Espacenet, questionnaire DeepTech' },
+  'KPI-41': { nom: 'Sessions couvertes', valeur: '88', statut: 'ok', page: 'Dynamique globale',
+    desc: 'Nombre de sessions incluses dans le corpus final.',
+    util: 'Définit l’étendue temporelle et la couverture de l’étude.',
+    interp: 'Le corpus couvre 88 sessions de 2019 à 2026.', source: 'dashboard_data.json → sessions' },
+  'KPI-42': { nom: 'Moyenne de Labels par session', valeur: '15,4', statut: 'ok', page: 'Sessions & labellisation',
+    desc: 'Nombre moyen de Labels accordés par session.',
+    util: 'Compare l’intensité de labellisation entre sessions.',
+    interp: 'La moyenne est calculée sur les 88 sessions ; elle ne remplace pas les distributions sessionnelles.', source: 'dashboard_data.json → sessions' },
+  'KPI-43': { nom: 'Moyenne de Prélabels par session', valeur: '7,3', statut: 'ok', page: 'Sessions & labellisation',
+    desc: 'Nombre moyen de Prélabels accordés par session.',
+    util: 'Mesure le flux moyen de la voie Prélabel.',
+    interp: 'La moyenne doit être lue séparément de celle des Labels.', source: 'dashboard_data.json → sessions' },
+  'KPI-44': { nom: 'Session au plus fort volume de Labels', valeur: 'S20 · 26', statut: 'ok', page: 'Sessions & labellisation',
+    desc: 'Session dont le compteur de Labels est maximal.',
+    util: 'Repère le pic ponctuel de labellisation.',
+    interp: 'S20 est la session ayant le plus fort volume de Labels dans la série contrôlée.', source: 'dashboard_data.json → sessions' },
+  'KPI-45': { nom: 'Session au plus fort volume de Prélabels', valeur: 'S25 · 24', statut: 'ok', page: 'Sessions & labellisation',
+    desc: 'Session dont le compteur de Prélabels est maximal.',
+    util: 'Repère le pic ponctuel de Prélabels.',
+    interp: 'S25 est la session ayant le plus fort volume de Prélabels dans la série contrôlée.', source: 'dashboard_data.json → sessions' },
+  'KPI-46': { nom: 'Année la plus labellisante', valeur: '2021 · 238', statut: 'ok', page: 'Dynamique globale',
+    desc: 'Année dont la somme annuelle de Labels est maximale.',
+    util: 'Identifie le sommet temporel de la labellisation.',
+    interp: '2021 est le sommet annuel de la série avec 238 Labels.', source: 'dashboard_data.json → yearly' },
+  'KPI-47': { nom: 'Part des Labels dans les décisions positives', valeur: '67,9 %', statut: 'ok', page: 'Sessions & labellisation',
+    desc: 'Part des Labels parmi Labels + Prélabels.',
+    util: 'Décrit la composition des décisions positives.',
+    interp: 'Les Labels représentent la majorité des décisions positives corrigées.', source: 'Calcul sur les compteurs Labels et Prélabels' },
+  'KPI-48': { nom: 'Part des Prélabels dans les décisions positives', valeur: '32,1 %', statut: 'ok', page: 'Sessions & labellisation',
+    desc: 'Part des Prélabels parmi Labels + Prélabels.',
+    util: 'Mesure le poids relatif de la voie Prélabel.',
+    interp: 'Les Prélabels constituent le complément des Labels dans les décisions positives.', source: 'Calcul sur les compteurs Labels et Prélabels' },
+  'KPI-49': { nom: 'Sessions avec retraits documentés', valeur: '54', statut: 'ok', page: 'Qualité des données',
+    desc: 'Nombre de sessions comportant au moins un retrait documenté.',
+    util: 'Signale l’étendue des événements de retrait dans le corpus.',
+    interp: '54 sessions comportent au moins un retrait documenté.', source: 'dashboard_data.json → sessions' },
+  'KPI-50': { nom: 'KPI externes ou à actualiser', valeur: '10', statut: 'warn', page: 'Qualité des données',
+    desc: 'Nombre de KPI dépendant d’une source externe ou d’une collecte complémentaire.',
+    util: 'Évite de présenter une donnée externe comme un calcul du corpus PDF.',
+    interp: 'Ces indicateurs sont signalés comme externes ou à actualiser et ne sont pas substitués silencieusement.', source: 'Catalogue KPI et inventaire des sources' }
+};
+
+/* ===== Modèles de calcul KPI : formule lisible dans chaque modal ===== */
+const KPI_CALCUL = {
+  'KPI-01': 'Comptage des startups uniques dans la base, après normalisation des noms.',
+  'KPI-02': 'Labels officiels = somme des Labels publiés par session ; Labels corrigés = nouveaux Labels + conversions Prélabel → Label.',
+  'KPI-03': 'Candidatures officielles = somme des compteurs institutionnels de candidatures des 88 sessions.',
+  'KPI-04': 'Prélabels officiels = somme des Prélabels publiés par session ; la série corrigée est recalculée depuis les lignes PDF contrôlées.',
+  'KPI-05': 'Taux = Labels ÷ candidatures × 100, en conservant le même périmètre au numérateur et au dénominateur.',
+  'KPI-06': 'HHI = Σ(part du secteur × 100)² ; un faible score indique une concentration limitée.',
+  'KPI-07': 'Secteur dominant = secteur dont le nombre de startups est maximal ; part = secteur dominant ÷ total × 100.',
+  'KPI-08': 'Top 4 = (effectif des quatre secteurs les plus représentés ÷ total startups) × 100.',
+  'KPI-09': 'Part Grand Tunis = startups du Grand Tunis ÷ startups géolocalisées × 100.',
+  'KPI-10': 'Part Sousse = startups de Sousse ÷ startups géolocalisées × 100.',
+  'KPI-11': 'Part Kairouan = startups de Kairouan ÷ startups géolocalisées × 100.',
+  'KPI-12': 'Part Kasserine = startups de Kasserine ÷ startups géolocalisées × 100.',
+  'KPI-13': 'Conversions = nombre de parcours documentés Prélabel → Label.',
+  'KPI-14': 'Taux de conversion = conversions Prélabel → Label ÷ Prélabels accordés × 100.',
+  'KPI-15': 'Comptage des Prélabels accordés dans le registre de parcours, sans les compter comme Labels.',
+  'KPI-16': 'Comptage des décisions de retrait de Label publiées dans les sessions.',
+  'KPI-17': 'Part des Labels issus de conversion = conversions ÷ Labels accordés × 100.',
+  'KPI-18': 'Comptage des sessions présentes dans le corpus audité.',
+  'KPI-19': 'Comptage des sessions ayant fait l’objet d’une correction documentée.',
+  'KPI-20': 'Comparaison du total Labels institutionnel avant correction avec le total corrigé après contrôle PDF.',
+  'KPI-21': 'Comparaison du total Prélabels institutionnel avant correction avec le total corrigé après contrôle PDF.',
+  'KPI-22': 'Valeur reprise du rapport annuel cité ; elle n’est pas recalculée à partir des lignes de session.',
+  'KPI-23': 'Valeur reprise du rapport annuel cité ; unité et année conservées telles que publiées.',
+  'KPI-24': 'Valeur reprise du rapport annuel cité ; conversion monétaire interdite sans source de change explicite.',
+  'KPI-25': 'Part femmes = fondatrices femmes ÷ fondateurs identifiés × 100 ; source rapport annuel.',
+  'KPI-26': 'Croissance annuelle = (candidatures année t − année t−1) ÷ candidatures année t−1 × 100.',
+  'KPI-27': 'Cumul annuel = somme progressive des Labels et Prélabels par année de session.',
+  'KPI-28': 'Moyenne = candidatures du périmètre ÷ nombre de sessions du même périmètre.',
+  'KPI-29': 'Délai moyen = moyenne de la différence entre date du Prélabel et date du Label pour les conversions appariées.',
+  'KPI-30': 'Répartition = comptage des retraits par motif réglementaire publié.',
+  'KPI-31': 'Âge moyen = moyenne de (année de labellisation − année de création) pour les startups datées.',
+  'KPI-32': 'Distribution = histogramme des âges individuels calculés à partir des deux dates disponibles.',
+  'KPI-33': 'Ancienneté = moyenne de (2026 − année de création) pour les startups dont l’année est connue.',
+  'KPI-34': 'Répartition = comptage des startups par forme juridique renseignée.',
+  'KPI-35': 'Nombre de fondateurs = comptage des personnes identifiées et dédoublonnées dans la base startups.',
+  'KPI-36': 'Part par genre = fondateurs d’un genre ÷ fondateurs dont le genre est connu × 100.',
+  'KPI-37': 'Profil = distribution descriptive des variables sociodémographiques disponibles, sans imputation de données absentes.',
+  'KPI-38': 'Répartition = comptage des startups par gouvernorat renseigné.',
+  'KPI-39': 'Évolution = comptage des startups par secteur et année, présenté sous forme de séries comparables.',
+  'KPI-40': 'Part DeepTech/PI = startups identifiées comme DeepTech, brevet ou propriété intellectuelle ÷ startups documentées × 100.',
+  'KPI-41': 'Comptage des sessions présentes dans le corpus final.',
+  'KPI-42': 'Labels accordés ÷ nombre de sessions.',
+  'KPI-43': 'Prélabels accordés ÷ nombre de sessions.',
+  'KPI-44': 'Maximum du compteur Labels parmi les sessions.',
+  'KPI-45': 'Maximum du compteur Prélabels parmi les sessions.',
+  'KPI-46': 'Maximum de la somme annuelle des Labels.',
+  'KPI-47': 'Labels ÷ (Labels + Prélabels) × 100.',
+  'KPI-48': 'Prélabels ÷ (Labels + Prélabels) × 100.',
+  'KPI-49': 'Comptage des sessions dont le nombre de retraits documentés est supérieur à zéro.',
+  'KPI-50': 'Comptage des KPI dont la source principale est externe ou dont le calcul est encore à compléter.'
 };
 
 /* ===== Catalogue KPI : regroupement par axe / thème ===== */
@@ -2642,6 +2737,7 @@ function renderKpiCatalogue() {
   document.getElementById('kpiModalPage').textContent = '📍 ' + info.page;
   document.getElementById('kpiModalDesc').textContent = info.desc;
   document.getElementById('kpiModalUtil').textContent = info.util;
+  document.getElementById('kpiModalCalc').textContent = KPI_CALCUL[id] || 'Méthode non calculable avec les données actuelles ; consulter la source indiquée.';
   document.getElementById('kpiModalInterp').textContent = info.interp;
   document.getElementById('kpiModalSource').textContent = info.source;
   const trendWrap = document.getElementById('kpiModalTrendWrap');
