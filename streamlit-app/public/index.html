@@ -2247,6 +2247,12 @@
 <script>
 const DATA = {};
 
+// Formatage partagé des KPI dynamiques. Doit être global : renderDashboard l’utilise
+// après l’hydratation des données, avant les formatteurs locaux d’autres vues.
+function fmt(value) {
+  return Number(value || 0).toLocaleString('fr-FR');
+}
+
 /* ===== Global year filter (Power BI style) ===== */
 DATA.yearFilter = 'all'; // 'all' | 2019 | 2020 | ...
 DATA.availableYears = [];
