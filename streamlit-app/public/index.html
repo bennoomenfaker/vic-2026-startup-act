@@ -1449,9 +1449,9 @@
       <div style="overflow-x:auto"><table style="width:100%;border-collapse:collapse;font-size:.84rem;background:#fff"><thead><tr style="border-bottom:2px solid #cbd5e1"><th style="text-align:left;padding:8px;color:#334155">Périmètre</th><th style="text-align:right;padding:8px;color:#334155">Officiel</th><th style="text-align:right;padding:8px;color:#334155">Lignes détaillées</th><th style="text-align:right;padding:8px;color:#334155">Écart descriptif</th><th style="text-align:left;padding:8px;color:#334155">Statut</th></tr></thead><tbody>
         <tr><td style="padding:8px">88 sessions</td><td style="padding:8px;text-align:right;font-weight:700">3 079 candidatures</td><td style="padding:8px;text-align:right">3 528 décisions</td><td style="padding:8px;text-align:right;font-weight:700">+449 lignes</td><td style="padding:8px;color:#334155;font-weight:700">Unités différentes — compteur officiel conservé</td></tr>
         <tr style="border-top:1px solid #e2e8f0"><td style="padding:8px">03/2019</td><td style="padding:8px;text-align:right;font-weight:700">16 candidatures</td><td style="padding:8px;text-align:right">14 lignes : 12 Labels + 2 refus</td><td style="padding:8px;text-align:right;font-weight:700">+2</td><td style="padding:8px;color:#334155">2 Ajournés dans le commentaire officiel</td></tr>
-        <tr style="border-top:1px solid #e2e8f0"><td style="padding:8px">S62 · 05/2024</td><td style="padding:8px;text-align:right;font-weight:700">39 candidatures</td><td style="padding:8px;text-align:right">46 lignes documentaires</td><td style="padding:8px;text-align:right;font-weight:700">−7</td><td style="padding:8px;color:#334155">5 conversions + 2 retraits ; 4 dossiers sans décision publiée, classés « Décision non précisée — motif administratif »</td></tr>
+        <tr style="border-top:1px solid #e2e8f0"><td style="padding:8px">S62 · 05/2024</td><td style="padding:8px;text-align:right;font-weight:700">39 candidatures officielles</td><td style="padding:8px;text-align:right">46 lignes documentaires</td><td style="padding:8px;text-align:right;font-weight:700">+7 lignes</td><td style="padding:8px;color:#334155">14 Labels au total (dont 5 conversions) · 5 Prélabels · 2 retraits · 4 décisions administratives non précisées</td></tr>
       </tbody></table></div>
-      <p style="margin:12px 0 0;color:#475569;font-size:.84rem"><strong>Cas S62 :</strong> le site officiel publie <strong>39 candidatures</strong>. Le PDF contient <strong>46 lignes documentaires</strong> : 39 dossiers de candidature (9 Labels accordés au premier examen + 5 Prélabels accordés + 7 Labels non accordés + 14 Prélabels non accordés + 4 dossiers à décision non précisée pour motif administratif), auxquels s’ajoutent 5 conversions Prélabel → Label et 2 retraits de Label. Les quatre dossiers administratifs ne sont donc ni « Reporté » ni « Label non accordé » : leur statut exact est documenté avec le motif administratif du PDF. La table « Vue officielle par session » reste la source des compteurs publiés ; la table « Lignes détaillées des PDF » sert au contrôle des entreprises et décisions.</p>
+      <p style="margin:12px 0 0;color:#475569;font-size:.84rem"><strong>Cas S62 :</strong> le site officiel publie <strong>39 candidatures officielles</strong> — ce n’est ni 46 ni 42. Les 4 dossiers à statut « Décision non précisée — motif administratif » sont bien des candidatures incluses dans ces 39, mais le PDF ne publie pas pour elles une décision Label/Prélabel. Le PDF contient <strong>46 lignes documentaires</strong> : 39 candidatures officielles + 5 conversions Prélabel → Label + 2 retraits de Label. Dans le détail, le total est de <strong>14 Labels accordés</strong> (9 Labels initiaux + 5 conversions), <strong>5 Prélabels accordés</strong>, <strong>7 Labels non accordés</strong>, <strong>14 Prélabels non accordés</strong>, <strong>2 retraits</strong> et <strong>4 décisions non précisées</strong>. Le commentaire « Non présentation des états financiers… » signifie que le dossier n’a pas présenté les états financiers exigés par le texte réglementaire ; c’est un motif administratif du PDF, pas un Reporté et pas une décision normalisée Label non accordé. La table « Vue officielle par session » reste la source des compteurs publiés ; la table « Lignes détaillées des PDF » sert au contrôle des entreprises et décisions.</p>
     </div>
 
     <div class="tabs" id="corrTabs">
@@ -4599,6 +4599,23 @@ function renderCorrReport() {
       <div style="overflow-x:auto"><table>
         <thead><tr><th>Session</th><th>Cand.</th><th>Ajournés</th><th>Labels</th><th>Pré-Labels</th><th>Taux</th><th>Raison (PDF v7)</th></tr></thead>
         <tbody>${rows}</tbody>
+      </table></div>
+    </div>
+    <div class="chart-card" style="border-left:3px solid #64748b;margin-top:20px">
+      <h3>📌 S62 · ventilation définitive du PDF</h3>
+      <p style="font-size:.9em;color:#475569;line-height:1.6;margin:8px 0 12px">Le compteur officiel est <strong>39 candidatures</strong>. Les quatre dossiers administratifs sont inclus dans ces 39 : ils correspondent à des candidatures déposées, mais le PDF indique seulement un motif administratif et ne donne pas de décision Label/Prélabel normalisée. Ils ne doivent donc pas être soustraits. Les <strong>46 lignes documentaires</strong> comprennent ces 39 candidatures, 5 conversions et 2 retraits.</p>
+      <div style="overflow-x:auto"><table>
+        <thead><tr><th>Élément S62</th><th>Nombre</th><th>Interprétation</th></tr></thead>
+        <tbody>
+          <tr><td>Labels accordés — total détaillé</td><td><strong>14</strong></td><td>9 Labels initiaux + 5 conversions Prélabel → Label</td></tr>
+          <tr><td>Prélabels accordés</td><td><strong>5</strong></td><td>Candidatures officielles</td></tr>
+          <tr><td>Labels non accordés</td><td><strong>7</strong></td><td>Candidatures officielles</td></tr>
+          <tr><td>Prélabels non accordés</td><td><strong>14</strong></td><td>Candidatures officielles</td></tr>
+          <tr><td>Décision non précisée — motif administratif</td><td><strong>4</strong></td><td>Candidatures incluses dans les 39, sans décision normalisée publiée</td></tr>
+          <tr><td>Retraits de Label</td><td><strong>2</strong></td><td>Lignes documentaires distinctes</td></tr>
+          <tr><td><strong>Candidatures officielles</strong></td><td><strong>39</strong></td><td>9 + 5 + 7 + 14 + 4</td></tr>
+          <tr><td><strong>Lignes documentaires du PDF</strong></td><td><strong>46</strong></td><td>39 + 5 conversions + 2 retraits</td></tr>
+        </tbody>
       </table></div>
     </div>
     <div class="chart-card" style="border-left:3px solid #ec4899;margin-top:20px">
