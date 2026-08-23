@@ -28,13 +28,21 @@ export const dashboardData = {
         "type": "pdf"
       }
     ],
-    "totalCandidatures": 3079,
-    "totalLabels": 1356,
-    "totalPreLabels": 641,
+    "totalCandidatures": 3555,
+    "totalLabels": 1343,
+    "totalPreLabels": 647,
     "totalSessions": 88,
     "sessions": 88,
     "detailedEntries": 3555,
-    "dataNote": "Candidatures officielles par session et entrées détaillées issues des PDF sont affichées séparément."
+    "dataNote": "KPI principaux calculés sur la série corrigée PDF : 3 555 lignes/candidatures documentaires, 1 343 Labels et 647 Prélabels. Les compteurs institutionnels restent visibles comme repère : 3 079, 1 356 et 641.",
+    "officialCandidatures": 3079,
+    "officialLabels": 1356,
+    "officialPreLabels": 641,
+    "correctedCandidatures": 3555,
+    "correctedLabels": 1343,
+    "correctedPreLabels": 647,
+    "pdfDetailedLabels": 1232,
+    "pdfDetailedPreLabels": 634
   },
   "sessions": [
     {
@@ -49,7 +57,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 14,
       "reportes": 0,
-      "session_id": "S0"
+      "session_id": "S0",
+      "candidaturesCorrigees": 14,
+      "labelsCorriges": 12,
+      "preLabelsCorriges": 0,
+      "candidaturesOfficielles": 16,
+      "labelsOfficiels": 12,
+      "preLabelsOfficiels": 0,
+      "lignesPdf": 14,
+      "ecartCandidatures": -2
     },
     {
       "session": "04/2019",
@@ -63,7 +79,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 52,
       "reportes": 0,
-      "session_id": "S1"
+      "session_id": "S1",
+      "candidaturesCorrigees": 52,
+      "labelsCorriges": 33,
+      "preLabelsCorriges": 0,
+      "candidaturesOfficielles": 51,
+      "labelsOfficiels": 33,
+      "preLabelsOfficiels": 0,
+      "lignesPdf": 52,
+      "ecartCandidatures": 1
     },
     {
       "session": "05/2019",
@@ -77,7 +101,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 30,
       "reportes": 0,
-      "session_id": "S2"
+      "session_id": "S2",
+      "candidaturesCorrigees": 30,
+      "labelsCorriges": 15,
+      "preLabelsCorriges": 8,
+      "candidaturesOfficielles": 30,
+      "labelsOfficiels": 15,
+      "preLabelsOfficiels": 8,
+      "lignesPdf": 30,
+      "ecartCandidatures": 0
     },
     {
       "session": "06/2019",
@@ -91,7 +123,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 32,
       "reportes": 0,
-      "session_id": "S3"
+      "session_id": "S3",
+      "candidaturesCorrigees": 32,
+      "labelsCorriges": 14,
+      "preLabelsCorriges": 8,
+      "candidaturesOfficielles": 33,
+      "labelsOfficiels": 15,
+      "preLabelsOfficiels": 8,
+      "lignesPdf": 32,
+      "ecartCandidatures": -1
     },
     {
       "session": "07/2019",
@@ -105,7 +145,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 29,
       "reportes": 0,
-      "session_id": "S4"
+      "session_id": "S4",
+      "candidaturesCorrigees": 29,
+      "labelsCorriges": 14,
+      "preLabelsCorriges": 8,
+      "candidaturesOfficielles": 28,
+      "labelsOfficiels": 15,
+      "preLabelsOfficiels": 8,
+      "lignesPdf": 29,
+      "ecartCandidatures": 1
     },
     {
       "session": "08/2019",
@@ -119,7 +167,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 28,
       "reportes": 0,
-      "session_id": "S5"
+      "session_id": "S5",
+      "candidaturesCorrigees": 28,
+      "labelsCorriges": 20,
+      "preLabelsCorriges": 5,
+      "candidaturesOfficielles": 28,
+      "labelsOfficiels": 24,
+      "preLabelsOfficiels": 7,
+      "lignesPdf": 28,
+      "ecartCandidatures": 0
     },
     {
       "session": "09/2019",
@@ -133,7 +189,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 27,
       "reportes": 0,
-      "session_id": "S6"
+      "session_id": "S6",
+      "candidaturesCorrigees": 27,
+      "labelsCorriges": 15,
+      "preLabelsCorriges": 6,
+      "candidaturesOfficielles": 24,
+      "labelsOfficiels": 15,
+      "preLabelsOfficiels": 6,
+      "lignesPdf": 27,
+      "ecartCandidatures": 3
     },
     {
       "session": "10/2019",
@@ -147,7 +211,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 39,
       "reportes": 0,
-      "session_id": "S7"
+      "session_id": "S7",
+      "candidaturesCorrigees": 39,
+      "labelsCorriges": 23,
+      "preLabelsCorriges": 5,
+      "candidaturesOfficielles": 34,
+      "labelsOfficiels": 23,
+      "preLabelsOfficiels": 4,
+      "lignesPdf": 39,
+      "ecartCandidatures": 5
     },
     {
       "session": "11/2019",
@@ -161,7 +233,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 41,
       "reportes": 0,
-      "session_id": "S8"
+      "session_id": "S8",
+      "candidaturesCorrigees": 41,
+      "labelsCorriges": 17,
+      "preLabelsCorriges": 10,
+      "candidaturesOfficielles": 35,
+      "labelsOfficiels": 17,
+      "preLabelsOfficiels": 10,
+      "lignesPdf": 41,
+      "ecartCandidatures": 6
     },
     {
       "session": "12/2019",
@@ -175,7 +255,15 @@ export const dashboardData = {
       "statut": "Réextrait PDF — section conversion séparée",
       "entries": 42,
       "reportes": 0,
-      "session_id": "S9"
+      "session_id": "S9",
+      "candidaturesCorrigees": 42,
+      "labelsCorriges": 23,
+      "preLabelsCorriges": 8,
+      "candidaturesOfficielles": 32,
+      "labelsOfficiels": 23,
+      "preLabelsOfficiels": 8,
+      "lignesPdf": 42,
+      "ecartCandidatures": 10
     },
     {
       "session": "01/2020",
@@ -189,7 +277,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 42,
       "reportes": 0,
-      "session_id": "S10"
+      "session_id": "S10",
+      "candidaturesCorrigees": 42,
+      "labelsCorriges": 18,
+      "preLabelsCorriges": 11,
+      "candidaturesOfficielles": 38,
+      "labelsOfficiels": 18,
+      "preLabelsOfficiels": 11,
+      "lignesPdf": 42,
+      "ecartCandidatures": 4
     },
     {
       "session": "02/2020",
@@ -203,7 +299,15 @@ export const dashboardData = {
       "statut": "Réextrait PDF — section conversion séparée",
       "entries": 41,
       "reportes": 1,
-      "session_id": "S11"
+      "session_id": "S11",
+      "candidaturesCorrigees": 41,
+      "labelsCorriges": 22,
+      "preLabelsCorriges": 11,
+      "candidaturesOfficielles": 32,
+      "labelsOfficiels": 22,
+      "preLabelsOfficiels": 11,
+      "lignesPdf": 41,
+      "ecartCandidatures": 9
     },
     {
       "session": "03/2020",
@@ -217,7 +321,15 @@ export const dashboardData = {
       "statut": "Reporté détecté dans les lignes détaillées",
       "entries": 40,
       "reportes": 1,
-      "session_id": "S12"
+      "session_id": "S12",
+      "candidaturesCorrigees": 40,
+      "labelsCorriges": 16,
+      "preLabelsCorriges": 10,
+      "candidaturesOfficielles": 35,
+      "labelsOfficiels": 16,
+      "preLabelsOfficiels": 10,
+      "lignesPdf": 40,
+      "ecartCandidatures": 5
     },
     {
       "session": "04/2020",
@@ -231,7 +343,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 45,
       "reportes": 0,
-      "session_id": "S13"
+      "session_id": "S13",
+      "candidaturesCorrigees": 45,
+      "labelsCorriges": 20,
+      "preLabelsCorriges": 7,
+      "candidaturesOfficielles": 40,
+      "labelsOfficiels": 20,
+      "preLabelsOfficiels": 7,
+      "lignesPdf": 45,
+      "ecartCandidatures": 5
     },
     {
       "session": "05/2020",
@@ -245,7 +365,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 32,
       "reportes": 0,
-      "session_id": "S14"
+      "session_id": "S14",
+      "candidaturesCorrigees": 32,
+      "labelsCorriges": 12,
+      "preLabelsCorriges": 10,
+      "candidaturesOfficielles": 26,
+      "labelsOfficiels": 12,
+      "preLabelsOfficiels": 10,
+      "lignesPdf": 32,
+      "ecartCandidatures": 6
     },
     {
       "session": "06/2020",
@@ -259,7 +387,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 30,
       "reportes": 0,
-      "session_id": "S15"
+      "session_id": "S15",
+      "candidaturesCorrigees": 30,
+      "labelsCorriges": 12,
+      "preLabelsCorriges": 5,
+      "candidaturesOfficielles": 26,
+      "labelsOfficiels": 12,
+      "preLabelsOfficiels": 5,
+      "lignesPdf": 30,
+      "ecartCandidatures": 4
     },
     {
       "session": "07/2020",
@@ -273,7 +409,15 @@ export const dashboardData = {
       "statut": "Réextrait PDF — OCR visuelle vérifiée",
       "entries": 51,
       "reportes": 0,
-      "session_id": "S16"
+      "session_id": "S16",
+      "candidaturesCorrigees": 51,
+      "labelsCorriges": 18,
+      "preLabelsCorriges": 7,
+      "candidaturesOfficielles": 40,
+      "labelsOfficiels": 18,
+      "preLabelsOfficiels": 7,
+      "lignesPdf": 51,
+      "ecartCandidatures": 11
     },
     {
       "session": "08/2020",
@@ -287,7 +431,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 34,
       "reportes": 0,
-      "session_id": "S17"
+      "session_id": "S17",
+      "candidaturesCorrigees": 34,
+      "labelsCorriges": 17,
+      "preLabelsCorriges": 6,
+      "candidaturesOfficielles": 28,
+      "labelsOfficiels": 17,
+      "preLabelsOfficiels": 6,
+      "lignesPdf": 34,
+      "ecartCandidatures": 6
     },
     {
       "session": "09/2020",
@@ -301,7 +453,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 23,
       "reportes": 0,
-      "session_id": "S18"
+      "session_id": "S18",
+      "candidaturesCorrigees": 23,
+      "labelsCorriges": 11,
+      "preLabelsCorriges": 9,
+      "candidaturesOfficielles": 24,
+      "labelsOfficiels": 11,
+      "preLabelsOfficiels": 9,
+      "lignesPdf": 23,
+      "ecartCandidatures": -1
     },
     {
       "session": "10/2020",
@@ -315,7 +475,15 @@ export const dashboardData = {
       "statut": "Réextrait PDF — cohérent",
       "entries": 49,
       "reportes": 0,
-      "session_id": "S19"
+      "session_id": "S19",
+      "candidaturesCorrigees": 49,
+      "labelsCorriges": 16,
+      "preLabelsCorriges": 10,
+      "candidaturesOfficielles": 41,
+      "labelsOfficiels": 16,
+      "preLabelsOfficiels": 10,
+      "lignesPdf": 49,
+      "ecartCandidatures": 8
     },
     {
       "session": "11/2020",
@@ -329,7 +497,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 40,
       "reportes": 0,
-      "session_id": "S20"
+      "session_id": "S20",
+      "candidaturesCorrigees": 40,
+      "labelsCorriges": 26,
+      "preLabelsCorriges": 14,
+      "candidaturesOfficielles": 41,
+      "labelsOfficiels": 26,
+      "preLabelsOfficiels": 14,
+      "lignesPdf": 40,
+      "ecartCandidatures": -1
     },
     {
       "session": "12/2020",
@@ -343,7 +519,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 36,
       "reportes": 0,
-      "session_id": "S21"
+      "session_id": "S21",
+      "candidaturesCorrigees": 36,
+      "labelsCorriges": 21,
+      "preLabelsCorriges": 8,
+      "candidaturesOfficielles": 36,
+      "labelsOfficiels": 21,
+      "preLabelsOfficiels": 8,
+      "lignesPdf": 36,
+      "ecartCandidatures": 0
     },
     {
       "session": "01/2021",
@@ -357,7 +541,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 36,
       "reportes": 0,
-      "session_id": "S22"
+      "session_id": "S22",
+      "candidaturesCorrigees": 36,
+      "labelsCorriges": 24,
+      "preLabelsCorriges": 7,
+      "candidaturesOfficielles": 36,
+      "labelsOfficiels": 24,
+      "preLabelsOfficiels": 7,
+      "lignesPdf": 36,
+      "ecartCandidatures": 0
     },
     {
       "session": "02/2021",
@@ -371,7 +563,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 48,
       "reportes": 0,
-      "session_id": "S23"
+      "session_id": "S23",
+      "candidaturesCorrigees": 48,
+      "labelsCorriges": 25,
+      "preLabelsCorriges": 10,
+      "candidaturesOfficielles": 41,
+      "labelsOfficiels": 25,
+      "preLabelsOfficiels": 7,
+      "lignesPdf": 48,
+      "ecartCandidatures": 7
     },
     {
       "session": "03/2021",
@@ -385,7 +585,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 56,
       "reportes": 0,
-      "session_id": "S24"
+      "session_id": "S24",
+      "candidaturesCorrigees": 56,
+      "labelsCorriges": 25,
+      "preLabelsCorriges": 8,
+      "candidaturesOfficielles": 41,
+      "labelsOfficiels": 25,
+      "preLabelsOfficiels": 8,
+      "lignesPdf": 56,
+      "ecartCandidatures": 15
     },
     {
       "session": "04/2021",
@@ -399,7 +607,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 81,
       "reportes": 0,
-      "session_id": "S25"
+      "session_id": "S25",
+      "candidaturesCorrigees": 81,
+      "labelsCorriges": 22,
+      "preLabelsCorriges": 24,
+      "candidaturesOfficielles": 80,
+      "labelsOfficiels": 22,
+      "preLabelsOfficiels": 24,
+      "lignesPdf": 81,
+      "ecartCandidatures": 1
     },
     {
       "session": "05/2021",
@@ -413,7 +629,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 47,
       "reportes": 0,
-      "session_id": "S26"
+      "session_id": "S26",
+      "candidaturesCorrigees": 47,
+      "labelsCorriges": 19,
+      "preLabelsCorriges": 8,
+      "candidaturesOfficielles": 40,
+      "labelsOfficiels": 19,
+      "preLabelsOfficiels": 8,
+      "lignesPdf": 47,
+      "ecartCandidatures": 7
     },
     {
       "session": "06/2021",
@@ -427,7 +651,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 47,
       "reportes": 0,
-      "session_id": "S27"
+      "session_id": "S27",
+      "candidaturesCorrigees": 47,
+      "labelsCorriges": 18,
+      "preLabelsCorriges": 6,
+      "candidaturesOfficielles": 41,
+      "labelsOfficiels": 18,
+      "preLabelsOfficiels": 6,
+      "lignesPdf": 47,
+      "ecartCandidatures": 6
     },
     {
       "session": "07/2021",
@@ -441,7 +673,15 @@ export const dashboardData = {
       "statut": "Reporté détecté dans les lignes détaillées",
       "entries": 50,
       "reportes": 1,
-      "session_id": "S28"
+      "session_id": "S28",
+      "candidaturesCorrigees": 50,
+      "labelsCorriges": 22,
+      "preLabelsCorriges": 5,
+      "candidaturesOfficielles": 40,
+      "labelsOfficiels": 22,
+      "preLabelsOfficiels": 5,
+      "lignesPdf": 50,
+      "ecartCandidatures": 10
     },
     {
       "session": "08/2021",
@@ -455,7 +695,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 33,
       "reportes": 0,
-      "session_id": "S29"
+      "session_id": "S29",
+      "candidaturesCorrigees": 33,
+      "labelsCorriges": 13,
+      "preLabelsCorriges": 4,
+      "candidaturesOfficielles": 25,
+      "labelsOfficiels": 13,
+      "preLabelsOfficiels": 4,
+      "lignesPdf": 33,
+      "ecartCandidatures": 8
     },
     {
       "session": "09/2021",
@@ -469,7 +717,15 @@ export const dashboardData = {
       "statut": "Reporté documenté par PDF",
       "entries": 38,
       "reportes": 1,
-      "session_id": "S30"
+      "session_id": "S30",
+      "candidaturesCorrigees": 38,
+      "labelsCorriges": 15,
+      "preLabelsCorriges": 6,
+      "candidaturesOfficielles": 15,
+      "labelsOfficiels": 13,
+      "preLabelsOfficiels": 6,
+      "lignesPdf": 38,
+      "ecartCandidatures": 23
     },
     {
       "session": "10/2021",
@@ -483,7 +739,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 49,
       "reportes": 0,
-      "session_id": "S31"
+      "session_id": "S31",
+      "candidaturesCorrigees": 49,
+      "labelsCorriges": 23,
+      "preLabelsCorriges": 7,
+      "candidaturesOfficielles": 41,
+      "labelsOfficiels": 23,
+      "preLabelsOfficiels": 7,
+      "lignesPdf": 49,
+      "ecartCandidatures": 8
     },
     {
       "session": "11/2021",
@@ -497,7 +761,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 47,
       "reportes": 0,
-      "session_id": "S32"
+      "session_id": "S32",
+      "candidaturesCorrigees": 47,
+      "labelsCorriges": 19,
+      "preLabelsCorriges": 10,
+      "candidaturesOfficielles": 40,
+      "labelsOfficiels": 19,
+      "preLabelsOfficiels": 10,
+      "lignesPdf": 47,
+      "ecartCandidatures": 7
     },
     {
       "session": "12/2021",
@@ -511,7 +783,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 51,
       "reportes": 0,
-      "session_id": "S33"
+      "session_id": "S33",
+      "candidaturesCorrigees": 51,
+      "labelsCorriges": 20,
+      "preLabelsCorriges": 11,
+      "candidaturesOfficielles": 38,
+      "labelsOfficiels": 20,
+      "preLabelsOfficiels": 11,
+      "lignesPdf": 51,
+      "ecartCandidatures": 13
     },
     {
       "session": "01/2022",
@@ -525,7 +805,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 46,
       "reportes": 0,
-      "session_id": "S34"
+      "session_id": "S34",
+      "candidaturesCorrigees": 46,
+      "labelsCorriges": 15,
+      "preLabelsCorriges": 9,
+      "candidaturesOfficielles": 38,
+      "labelsOfficiels": 15,
+      "preLabelsOfficiels": 9,
+      "lignesPdf": 46,
+      "ecartCandidatures": 8
     },
     {
       "session": "02/2022",
@@ -539,7 +827,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 22,
       "reportes": 0,
-      "session_id": "S35"
+      "session_id": "S35",
+      "candidaturesCorrigees": 22,
+      "labelsCorriges": 12,
+      "preLabelsCorriges": 3,
+      "candidaturesOfficielles": 18,
+      "labelsOfficiels": 12,
+      "preLabelsOfficiels": 3,
+      "lignesPdf": 22,
+      "ecartCandidatures": 4
     },
     {
       "session": "03/2022",
@@ -553,7 +849,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 30,
       "reportes": 0,
-      "session_id": "S36"
+      "session_id": "S36",
+      "candidaturesCorrigees": 30,
+      "labelsCorriges": 14,
+      "preLabelsCorriges": 5,
+      "candidaturesOfficielles": 21,
+      "labelsOfficiels": 14,
+      "preLabelsOfficiels": 5,
+      "lignesPdf": 30,
+      "ecartCandidatures": 9
     },
     {
       "session": "04/2022",
@@ -567,7 +871,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 27,
       "reportes": 0,
-      "session_id": "S37"
+      "session_id": "S37",
+      "candidaturesCorrigees": 27,
+      "labelsCorriges": 9,
+      "preLabelsCorriges": 6,
+      "candidaturesOfficielles": 22,
+      "labelsOfficiels": 9,
+      "preLabelsOfficiels": 6,
+      "lignesPdf": 27,
+      "ecartCandidatures": 5
     },
     {
       "session": "05/2022",
@@ -581,7 +893,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 49,
       "reportes": 0,
-      "session_id": "S38"
+      "session_id": "S38",
+      "candidaturesCorrigees": 49,
+      "labelsCorriges": 14,
+      "preLabelsCorriges": 9,
+      "candidaturesOfficielles": 41,
+      "labelsOfficiels": 14,
+      "preLabelsOfficiels": 9,
+      "lignesPdf": 49,
+      "ecartCandidatures": 8
     },
     {
       "session": "06/2022",
@@ -595,7 +915,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 46,
       "reportes": 0,
-      "session_id": "S39"
+      "session_id": "S39",
+      "candidaturesCorrigees": 46,
+      "labelsCorriges": 14,
+      "preLabelsCorriges": 10,
+      "candidaturesOfficielles": 40,
+      "labelsOfficiels": 14,
+      "preLabelsOfficiels": 10,
+      "lignesPdf": 46,
+      "ecartCandidatures": 6
     },
     {
       "session": "07/2022",
@@ -609,7 +937,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 45,
       "reportes": 0,
-      "session_id": "S40"
+      "session_id": "S40",
+      "candidaturesCorrigees": 45,
+      "labelsCorriges": 18,
+      "preLabelsCorriges": 9,
+      "candidaturesOfficielles": 40,
+      "labelsOfficiels": 18,
+      "preLabelsOfficiels": 9,
+      "lignesPdf": 45,
+      "ecartCandidatures": 5
     },
     {
       "session": "08/2022",
@@ -623,7 +959,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 44,
       "reportes": 0,
-      "session_id": "S41"
+      "session_id": "S41",
+      "candidaturesCorrigees": 44,
+      "labelsCorriges": 12,
+      "preLabelsCorriges": 12,
+      "candidaturesOfficielles": 36,
+      "labelsOfficiels": 12,
+      "preLabelsOfficiels": 12,
+      "lignesPdf": 44,
+      "ecartCandidatures": 8
     },
     {
       "session": "09/2022",
@@ -637,7 +981,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 49,
       "reportes": 0,
-      "session_id": "S42"
+      "session_id": "S42",
+      "candidaturesCorrigees": 49,
+      "labelsCorriges": 19,
+      "preLabelsCorriges": 5,
+      "candidaturesOfficielles": 40,
+      "labelsOfficiels": 19,
+      "preLabelsOfficiels": 5,
+      "lignesPdf": 49,
+      "ecartCandidatures": 9
     },
     {
       "session": "10/2022",
@@ -651,7 +1003,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 45,
       "reportes": 0,
-      "session_id": "S43"
+      "session_id": "S43",
+      "candidaturesCorrigees": 45,
+      "labelsCorriges": 14,
+      "preLabelsCorriges": 7,
+      "candidaturesOfficielles": 38,
+      "labelsOfficiels": 14,
+      "preLabelsOfficiels": 7,
+      "lignesPdf": 45,
+      "ecartCandidatures": 7
     },
     {
       "session": "11/2022",
@@ -665,7 +1025,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 42,
       "reportes": 0,
-      "session_id": "S44"
+      "session_id": "S44",
+      "candidaturesCorrigees": 42,
+      "labelsCorriges": 17,
+      "preLabelsCorriges": 10,
+      "candidaturesOfficielles": 34,
+      "labelsOfficiels": 17,
+      "preLabelsOfficiels": 10,
+      "lignesPdf": 42,
+      "ecartCandidatures": 8
     },
     {
       "session": "12/2022",
@@ -679,7 +1047,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 39,
       "reportes": 0,
-      "session_id": "S45"
+      "session_id": "S45",
+      "candidaturesCorrigees": 39,
+      "labelsCorriges": 16,
+      "preLabelsCorriges": 5,
+      "candidaturesOfficielles": 30,
+      "labelsOfficiels": 17,
+      "preLabelsOfficiels": 5,
+      "lignesPdf": 39,
+      "ecartCandidatures": 9
     },
     {
       "session": "01/2023",
@@ -693,7 +1069,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 38,
       "reportes": 0,
-      "session_id": "S46"
+      "session_id": "S46",
+      "candidaturesCorrigees": 38,
+      "labelsCorriges": 16,
+      "preLabelsCorriges": 6,
+      "candidaturesOfficielles": 26,
+      "labelsOfficiels": 16,
+      "preLabelsOfficiels": 6,
+      "lignesPdf": 38,
+      "ecartCandidatures": 12
     },
     {
       "session": "02/2023",
@@ -707,7 +1091,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 42,
       "reportes": 0,
-      "session_id": "S47"
+      "session_id": "S47",
+      "candidaturesCorrigees": 42,
+      "labelsCorriges": 18,
+      "preLabelsCorriges": 11,
+      "candidaturesOfficielles": 33,
+      "labelsOfficiels": 18,
+      "preLabelsOfficiels": 11,
+      "lignesPdf": 42,
+      "ecartCandidatures": 9
     },
     {
       "session": "03/2023",
@@ -721,7 +1113,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 42,
       "reportes": 0,
-      "session_id": "S48"
+      "session_id": "S48",
+      "candidaturesCorrigees": 42,
+      "labelsCorriges": 14,
+      "preLabelsCorriges": 6,
+      "candidaturesOfficielles": 37,
+      "labelsOfficiels": 13,
+      "preLabelsOfficiels": 6,
+      "lignesPdf": 42,
+      "ecartCandidatures": 5
     },
     {
       "session": "04/2023",
@@ -735,7 +1135,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 40,
       "reportes": 0,
-      "session_id": "S49"
+      "session_id": "S49",
+      "candidaturesCorrigees": 40,
+      "labelsCorriges": 13,
+      "preLabelsCorriges": 5,
+      "candidaturesOfficielles": 40,
+      "labelsOfficiels": 14,
+      "preLabelsOfficiels": 5,
+      "lignesPdf": 40,
+      "ecartCandidatures": 0
     },
     {
       "session": "05/2023",
@@ -749,7 +1157,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 45,
       "reportes": 0,
-      "session_id": "S50"
+      "session_id": "S50",
+      "candidaturesCorrigees": 45,
+      "labelsCorriges": 19,
+      "preLabelsCorriges": 9,
+      "candidaturesOfficielles": 39,
+      "labelsOfficiels": 19,
+      "preLabelsOfficiels": 9,
+      "lignesPdf": 45,
+      "ecartCandidatures": 6
     },
     {
       "session": "06/2023",
@@ -763,7 +1179,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 34,
       "reportes": 0,
-      "session_id": "S51"
+      "session_id": "S51",
+      "candidaturesCorrigees": 34,
+      "labelsCorriges": 10,
+      "preLabelsCorriges": 8,
+      "candidaturesOfficielles": 28,
+      "labelsOfficiels": 10,
+      "preLabelsOfficiels": 8,
+      "lignesPdf": 34,
+      "ecartCandidatures": 6
     },
     {
       "session": "07/2023",
@@ -777,7 +1201,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 42,
       "reportes": 0,
-      "session_id": "S52"
+      "session_id": "S52",
+      "candidaturesCorrigees": 42,
+      "labelsCorriges": 15,
+      "preLabelsCorriges": 8,
+      "candidaturesOfficielles": 33,
+      "labelsOfficiels": 15,
+      "preLabelsOfficiels": 8,
+      "lignesPdf": 42,
+      "ecartCandidatures": 9
     },
     {
       "session": "08/2023",
@@ -791,7 +1223,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 33,
       "reportes": 0,
-      "session_id": "S53"
+      "session_id": "S53",
+      "candidaturesCorrigees": 33,
+      "labelsCorriges": 11,
+      "preLabelsCorriges": 5,
+      "candidaturesOfficielles": 26,
+      "labelsOfficiels": 11,
+      "preLabelsOfficiels": 6,
+      "lignesPdf": 33,
+      "ecartCandidatures": 7
     },
     {
       "session": "09/2023",
@@ -805,7 +1245,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 41,
       "reportes": 0,
-      "session_id": "S54"
+      "session_id": "S54",
+      "candidaturesCorrigees": 41,
+      "labelsCorriges": 15,
+      "preLabelsCorriges": 6,
+      "candidaturesOfficielles": 33,
+      "labelsOfficiels": 15,
+      "preLabelsOfficiels": 6,
+      "lignesPdf": 41,
+      "ecartCandidatures": 8
     },
     {
       "session": "10/2023",
@@ -819,7 +1267,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 31,
       "reportes": 0,
-      "session_id": "S55"
+      "session_id": "S55",
+      "candidaturesCorrigees": 31,
+      "labelsCorriges": 6,
+      "preLabelsCorriges": 4,
+      "candidaturesOfficielles": 31,
+      "labelsOfficiels": 6,
+      "preLabelsOfficiels": 5,
+      "lignesPdf": 31,
+      "ecartCandidatures": 0
     },
     {
       "session": "11/2023",
@@ -833,7 +1289,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 38,
       "reportes": 0,
-      "session_id": "S56"
+      "session_id": "S56",
+      "candidaturesCorrigees": 38,
+      "labelsCorriges": 12,
+      "preLabelsCorriges": 7,
+      "candidaturesOfficielles": 30,
+      "labelsOfficiels": 14,
+      "preLabelsOfficiels": 4,
+      "lignesPdf": 38,
+      "ecartCandidatures": 8
     },
     {
       "session": "12/2023",
@@ -847,7 +1311,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 43,
       "reportes": 0,
-      "session_id": "S57"
+      "session_id": "S57",
+      "candidaturesCorrigees": 43,
+      "labelsCorriges": 12,
+      "preLabelsCorriges": 5,
+      "candidaturesOfficielles": 39,
+      "labelsOfficiels": 14,
+      "preLabelsOfficiels": 5,
+      "lignesPdf": 43,
+      "ecartCandidatures": 4
     },
     {
       "session": "01/2024",
@@ -861,7 +1333,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 36,
       "reportes": 0,
-      "session_id": "S58"
+      "session_id": "S58",
+      "candidaturesCorrigees": 36,
+      "labelsCorriges": 14,
+      "preLabelsCorriges": 6,
+      "candidaturesOfficielles": 33,
+      "labelsOfficiels": 14,
+      "preLabelsOfficiels": 6,
+      "lignesPdf": 36,
+      "ecartCandidatures": 3
     },
     {
       "session": "02/2024",
@@ -875,7 +1355,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 33,
       "reportes": 0,
-      "session_id": "S59"
+      "session_id": "S59",
+      "candidaturesCorrigees": 33,
+      "labelsCorriges": 9,
+      "preLabelsCorriges": 6,
+      "candidaturesOfficielles": 33,
+      "labelsOfficiels": 9,
+      "preLabelsOfficiels": 6,
+      "lignesPdf": 33,
+      "ecartCandidatures": 0
     },
     {
       "session": "03/2024",
@@ -889,7 +1377,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 34,
       "reportes": 0,
-      "session_id": "S60"
+      "session_id": "S60",
+      "candidaturesCorrigees": 34,
+      "labelsCorriges": 6,
+      "preLabelsCorriges": 7,
+      "candidaturesOfficielles": 31,
+      "labelsOfficiels": 7,
+      "preLabelsOfficiels": 7,
+      "lignesPdf": 34,
+      "ecartCandidatures": 3
     },
     {
       "session": "04/2024",
@@ -903,7 +1399,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 42,
       "reportes": 0,
-      "session_id": "S61"
+      "session_id": "S61",
+      "candidaturesCorrigees": 42,
+      "labelsCorriges": 14,
+      "preLabelsCorriges": 5,
+      "candidaturesOfficielles": 39,
+      "labelsOfficiels": 14,
+      "preLabelsOfficiels": 5,
+      "lignesPdf": 42,
+      "ecartCandidatures": 3
     },
     {
       "session": "05/2024",
@@ -917,7 +1421,15 @@ export const dashboardData = {
       "statut": "PDF vérifié — 4 motifs administratifs sans décision publiée",
       "entries": 46,
       "reportes": 0,
-      "session_id": "S62"
+      "session_id": "S62",
+      "candidaturesCorrigees": 46,
+      "labelsCorriges": 14,
+      "preLabelsCorriges": 5,
+      "candidaturesOfficielles": 39,
+      "labelsOfficiels": 14,
+      "preLabelsOfficiels": 5,
+      "lignesPdf": 46,
+      "ecartCandidatures": 7
     },
     {
       "session": "06/2024",
@@ -931,7 +1443,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 40,
       "reportes": 0,
-      "session_id": "S63"
+      "session_id": "S63",
+      "candidaturesCorrigees": 40,
+      "labelsCorriges": 14,
+      "preLabelsCorriges": 5,
+      "candidaturesOfficielles": 37,
+      "labelsOfficiels": 14,
+      "preLabelsOfficiels": 5,
+      "lignesPdf": 40,
+      "ecartCandidatures": 3
     },
     {
       "session": "07/2024",
@@ -945,7 +1465,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 34,
       "reportes": 0,
-      "session_id": "S64"
+      "session_id": "S64",
+      "candidaturesCorrigees": 34,
+      "labelsCorriges": 6,
+      "preLabelsCorriges": 7,
+      "candidaturesOfficielles": 33,
+      "labelsOfficiels": 5,
+      "preLabelsOfficiels": 7,
+      "lignesPdf": 34,
+      "ecartCandidatures": 1
     },
     {
       "session": "08/2024",
@@ -959,7 +1487,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 39,
       "reportes": 0,
-      "session_id": "S65"
+      "session_id": "S65",
+      "candidaturesCorrigees": 39,
+      "labelsCorriges": 11,
+      "preLabelsCorriges": 6,
+      "candidaturesOfficielles": 37,
+      "labelsOfficiels": 11,
+      "preLabelsOfficiels": 6,
+      "lignesPdf": 39,
+      "ecartCandidatures": 2
     },
     {
       "session": "09/2024",
@@ -973,7 +1509,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 39,
       "reportes": 0,
-      "session_id": "S66"
+      "session_id": "S66",
+      "candidaturesCorrigees": 39,
+      "labelsCorriges": 11,
+      "preLabelsCorriges": 9,
+      "candidaturesOfficielles": 34,
+      "labelsOfficiels": 11,
+      "preLabelsOfficiels": 9,
+      "lignesPdf": 39,
+      "ecartCandidatures": 5
     },
     {
       "session": "10/2024",
@@ -987,7 +1531,15 @@ export const dashboardData = {
       "statut": "Reporté détecté dans les lignes détaillées",
       "entries": 49,
       "reportes": 1,
-      "session_id": "S67"
+      "session_id": "S67",
+      "candidaturesCorrigees": 49,
+      "labelsCorriges": 15,
+      "preLabelsCorriges": 7,
+      "candidaturesOfficielles": 43,
+      "labelsOfficiels": 15,
+      "preLabelsOfficiels": 7,
+      "lignesPdf": 49,
+      "ecartCandidatures": 6
     },
     {
       "session": "11/2024",
@@ -1001,7 +1553,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 43,
       "reportes": 0,
-      "session_id": "S68"
+      "session_id": "S68",
+      "candidaturesCorrigees": 43,
+      "labelsCorriges": 14,
+      "preLabelsCorriges": 7,
+      "candidaturesOfficielles": 41,
+      "labelsOfficiels": 14,
+      "preLabelsOfficiels": 7,
+      "lignesPdf": 43,
+      "ecartCandidatures": 2
     },
     {
       "session": "12/2024",
@@ -1015,7 +1575,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 39,
       "reportes": 0,
-      "session_id": "S69"
+      "session_id": "S69",
+      "candidaturesCorrigees": 39,
+      "labelsCorriges": 16,
+      "preLabelsCorriges": 4,
+      "candidaturesOfficielles": 40,
+      "labelsOfficiels": 16,
+      "preLabelsOfficiels": 4,
+      "lignesPdf": 39,
+      "ecartCandidatures": -1
     },
     {
       "session": "01/2025",
@@ -1029,7 +1597,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 44,
       "reportes": 0,
-      "session_id": "S70"
+      "session_id": "S70",
+      "candidaturesCorrigees": 44,
+      "labelsCorriges": 13,
+      "preLabelsCorriges": 2,
+      "candidaturesOfficielles": 39,
+      "labelsOfficiels": 18,
+      "preLabelsOfficiels": 2,
+      "lignesPdf": 44,
+      "ecartCandidatures": 5
     },
     {
       "session": "02/2025",
@@ -1043,7 +1619,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 45,
       "reportes": 0,
-      "session_id": "S71"
+      "session_id": "S71",
+      "candidaturesCorrigees": 45,
+      "labelsCorriges": 13,
+      "preLabelsCorriges": 9,
+      "candidaturesOfficielles": 41,
+      "labelsOfficiels": 13,
+      "preLabelsOfficiels": 9,
+      "lignesPdf": 45,
+      "ecartCandidatures": 4
     },
     {
       "session": "03/2025",
@@ -1057,7 +1641,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 21,
       "reportes": 0,
-      "session_id": "S72"
+      "session_id": "S72",
+      "candidaturesCorrigees": 21,
+      "labelsCorriges": 6,
+      "preLabelsCorriges": 5,
+      "candidaturesOfficielles": 21,
+      "labelsOfficiels": 6,
+      "preLabelsOfficiels": 5,
+      "lignesPdf": 21,
+      "ecartCandidatures": 0
     },
     {
       "session": "04/2025",
@@ -1071,7 +1663,15 @@ export const dashboardData = {
       "statut": "Réextrait PDF — deux lignes ajoutées",
       "entries": 29,
       "reportes": 0,
-      "session_id": "S73"
+      "session_id": "S73",
+      "candidaturesCorrigees": 29,
+      "labelsCorriges": 13,
+      "preLabelsCorriges": 5,
+      "candidaturesOfficielles": 21,
+      "labelsOfficiels": 13,
+      "preLabelsOfficiels": 5,
+      "lignesPdf": 29,
+      "ecartCandidatures": 8
     },
     {
       "session": "05/2025",
@@ -1085,7 +1685,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 50,
       "reportes": 0,
-      "session_id": "S74"
+      "session_id": "S74",
+      "candidaturesCorrigees": 50,
+      "labelsCorriges": 13,
+      "preLabelsCorriges": 13,
+      "candidaturesOfficielles": 47,
+      "labelsOfficiels": 13,
+      "preLabelsOfficiels": 10,
+      "lignesPdf": 50,
+      "ecartCandidatures": 3
     },
     {
       "session": "06/2025",
@@ -1099,7 +1707,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 41,
       "reportes": 0,
-      "session_id": "S75"
+      "session_id": "S75",
+      "candidaturesCorrigees": 41,
+      "labelsCorriges": 12,
+      "preLabelsCorriges": 8,
+      "candidaturesOfficielles": 36,
+      "labelsOfficiels": 12,
+      "preLabelsOfficiels": 8,
+      "lignesPdf": 41,
+      "ecartCandidatures": 5
     },
     {
       "session": "07/2025",
@@ -1113,7 +1729,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 34,
       "reportes": 0,
-      "session_id": "S76"
+      "session_id": "S76",
+      "candidaturesCorrigees": 34,
+      "labelsCorriges": 9,
+      "preLabelsCorriges": 8,
+      "candidaturesOfficielles": 29,
+      "labelsOfficiels": 9,
+      "preLabelsOfficiels": 8,
+      "lignesPdf": 34,
+      "ecartCandidatures": 5
     },
     {
       "session": "08/2025",
@@ -1127,7 +1751,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 50,
       "reportes": 0,
-      "session_id": "S77"
+      "session_id": "S77",
+      "candidaturesCorrigees": 50,
+      "labelsCorriges": 15,
+      "preLabelsCorriges": 9,
+      "candidaturesOfficielles": 41,
+      "labelsOfficiels": 15,
+      "preLabelsOfficiels": 9,
+      "lignesPdf": 50,
+      "ecartCandidatures": 9
     },
     {
       "session": "09/2025",
@@ -1141,7 +1773,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 31,
       "reportes": 0,
-      "session_id": "S78"
+      "session_id": "S78",
+      "candidaturesCorrigees": 31,
+      "labelsCorriges": 7,
+      "preLabelsCorriges": 10,
+      "candidaturesOfficielles": 25,
+      "labelsOfficiels": 7,
+      "preLabelsOfficiels": 10,
+      "lignesPdf": 31,
+      "ecartCandidatures": 6
     },
     {
       "session": "10/2025",
@@ -1155,7 +1795,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 51,
       "reportes": 0,
-      "session_id": "S79"
+      "session_id": "S79",
+      "candidaturesCorrigees": 51,
+      "labelsCorriges": 17,
+      "preLabelsCorriges": 12,
+      "candidaturesOfficielles": 41,
+      "labelsOfficiels": 17,
+      "preLabelsOfficiels": 12,
+      "lignesPdf": 51,
+      "ecartCandidatures": 10
     },
     {
       "session": "11/2025",
@@ -1169,7 +1817,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 47,
       "reportes": 0,
-      "session_id": "S80"
+      "session_id": "S80",
+      "candidaturesCorrigees": 47,
+      "labelsCorriges": 15,
+      "preLabelsCorriges": 3,
+      "candidaturesOfficielles": 39,
+      "labelsOfficiels": 15,
+      "preLabelsOfficiels": 3,
+      "lignesPdf": 47,
+      "ecartCandidatures": 8
     },
     {
       "session": "12/2025",
@@ -1183,7 +1839,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 51,
       "reportes": 0,
-      "session_id": "S81"
+      "session_id": "S81",
+      "candidaturesCorrigees": 51,
+      "labelsCorriges": 16,
+      "preLabelsCorriges": 6,
+      "candidaturesOfficielles": 41,
+      "labelsOfficiels": 15,
+      "preLabelsOfficiels": 6,
+      "lignesPdf": 51,
+      "ecartCandidatures": 10
     },
     {
       "session": "01/2026",
@@ -1197,7 +1861,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 37,
       "reportes": 0,
-      "session_id": "S82"
+      "session_id": "S82",
+      "candidaturesCorrigees": 37,
+      "labelsCorriges": 10,
+      "preLabelsCorriges": 7,
+      "candidaturesOfficielles": 31,
+      "labelsOfficiels": 9,
+      "preLabelsOfficiels": 7,
+      "lignesPdf": 37,
+      "ecartCandidatures": 6
     },
     {
       "session": "02/2026",
@@ -1211,7 +1883,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 39,
       "reportes": 0,
-      "session_id": "S83"
+      "session_id": "S83",
+      "candidaturesCorrigees": 39,
+      "labelsCorriges": 20,
+      "preLabelsCorriges": 3,
+      "candidaturesOfficielles": 36,
+      "labelsOfficiels": 21,
+      "preLabelsOfficiels": 3,
+      "lignesPdf": 39,
+      "ecartCandidatures": 3
     },
     {
       "session": "03/2026",
@@ -1225,7 +1905,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 44,
       "reportes": 0,
-      "session_id": "S84"
+      "session_id": "S84",
+      "candidaturesCorrigees": 44,
+      "labelsCorriges": 13,
+      "preLabelsCorriges": 7,
+      "candidaturesOfficielles": 41,
+      "labelsOfficiels": 13,
+      "preLabelsOfficiels": 7,
+      "lignesPdf": 44,
+      "ecartCandidatures": 3
     },
     {
       "session": "04/2026",
@@ -1239,7 +1927,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 47,
       "reportes": 0,
-      "session_id": "S85"
+      "session_id": "S85",
+      "candidaturesCorrigees": 47,
+      "labelsCorriges": 12,
+      "preLabelsCorriges": 5,
+      "candidaturesOfficielles": 41,
+      "labelsOfficiels": 12,
+      "preLabelsOfficiels": 5,
+      "lignesPdf": 47,
+      "ecartCandidatures": 6
     },
     {
       "session": "05/2026",
@@ -1253,7 +1949,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 42,
       "reportes": 0,
-      "session_id": "S86"
+      "session_id": "S86",
+      "candidaturesCorrigees": 42,
+      "labelsCorriges": 13,
+      "preLabelsCorriges": 10,
+      "candidaturesOfficielles": 40,
+      "labelsOfficiels": 13,
+      "preLabelsOfficiels": 10,
+      "lignesPdf": 42,
+      "ecartCandidatures": 2
     },
     {
       "session": "06/2026",
@@ -1267,7 +1971,15 @@ export const dashboardData = {
       "statut": "Conforme",
       "entries": 45,
       "reportes": 0,
-      "session_id": "S87"
+      "session_id": "S87",
+      "candidaturesCorrigees": 45,
+      "labelsCorriges": 7,
+      "preLabelsCorriges": 9,
+      "candidaturesOfficielles": 40,
+      "labelsOfficiels": 7,
+      "preLabelsOfficiels": 9,
+      "lignesPdf": 45,
+      "ecartCandidatures": 5
     }
   ],
   "yearly": [
@@ -87578,18 +88290,18 @@ export const dashboardData = {
     {
       "id": "KPI-02",
       "nom": "Labels accordés",
-      "valeur": "1 356 (corrigé)",
+      "valeur": "1 343 (corrigé PDF)",
       "statut": "ok",
       "page": "Dashboard",
-      "interp": "1 356 Labels officiels = 987 labels nouveaux + 369 conversions documentées. Le tableau détaillé comporte 1 201 lignes Label accordé : l’écart de 155 provient de la différence entre un compteur officiel agrégé et une classification ligne par ligne; ce ne sont pas 155 lignes cachées."
+      "interp": "1 343 Labels du compteur corrigé PDF. Repère institutionnel séparé : 1 356 Labels officiels; détail ligne par ligne : 1 232."
     },
     {
       "id": "KPI-03",
       "nom": "Candidatures déposées",
-      "valeur": "3 079",
+      "valeur": "3 555",
       "statut": "ok",
       "page": "Dashboard",
-      "interp": "3079 candidatures officielles; à distinguer des 3528 lignes détaillées des PDF."
+      "interp": "3 555 lignes/candidatures corrigées selon les PDF. Le compteur institutionnel séparé reste 3 079."
     },
     {
       "id": "KPI-04",
@@ -87714,10 +88426,10 @@ export const dashboardData = {
     {
       "id": "KPI-20",
       "nom": "Labels avant → après correction",
-      "valeur": "1 311 → 1 356",
+      "valeur": "1 356 officiel → 1 343 corrigé PDF",
       "statut": "ok",
       "page": "Corrections",
-      "interp": "Le socle historique de 85 sessions est comparé au corpus final de 88 sessions: 1 311 → 1356 labels."
+      "interp": "Le compteur institutionnel 1 356 est conservé comme référence; la série corrigée issue de la table PDF est 1 343."
     },
     {
       "id": "KPI-21",
@@ -87773,10 +88485,10 @@ export const dashboardData = {
     {
       "id": "KPI-28",
       "nom": "Nombre moyen de candidatures par session",
-      "valeur": "35,0",
+      "valeur": "40,4",
       "statut": "ok",
       "page": "Dashboard",
-      "interp": "3079 / 88 = 35.0 candidatures officielles par session; aucune division par NaN."
+      "interp": "3 555 candidatures-lignes corrigées / 88 sessions = 40,4. Le repère officiel est 3 079 / 88 = 35,0."
     },
     {
       "id": "KPI-29",
@@ -87935,5 +88647,5 @@ export const dashboardData = {
     }
   ],
   "catalogueSource": "50 KPI: catalogue repris et valeurs recalculées sur la série canonique 88 sessions auditée le 22 août 2026",
-  "qualityNote": "Compteurs officiels: 3079 candidatures, 1356 labels, 641 prélabels. Registre détaillé: 3528 lignes. Quatre lignes Reporté confirmées (S11, S12, S28, S67); ITMMA/06-2024 reste Pitch décalé et n'est pas Reporté."
+  "qualityNote": "Série principale corrigée PDF : 3555 lignes/candidatures documentaires, 1343 Labels et 647 Prélabels. Référence institutionnelle séparée : 3079 candidatures, 1356 Labels et 641 Prélabels. Cinq Reporté confirmés (S11, S12, S28, S30, S67); ITMMA/06-2024 reste Pitch décalé et n'est pas Reporté."
 } as const;

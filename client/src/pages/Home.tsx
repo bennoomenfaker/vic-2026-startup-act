@@ -59,8 +59,14 @@ function normalizeSession(session: SessionRow, index: number): SessionRow {
   return {
     ...session,
     id: `S${index}`,
-    accepted: Number(session.labels || 0) + Number(session.preLabels || 0),
-    rate: Number(session.tauxAcceptationExact || session.tauxAcceptation || 0),
+    candidaturesOfficielles: Number(session.candidaturesOfficielles ?? session.candidatures ?? 0),
+    labelsOfficiels: Number(session.labelsOfficiels ?? session.labels ?? 0),
+    preLabelsOfficiels: Number(session.preLabelsOfficiels ?? session.preLabels ?? 0),
+    candidaturesCorrigees: Number(session.candidaturesCorrigees ?? session.entries ?? session.candidatures ?? 0),
+    labelsCorriges: Number(session.labelsCorriges ?? session.labels ?? 0),
+    preLabelsCorriges: Number(session.preLabelsCorriges ?? session.preLabels ?? 0),
+    accepted: Number(session.labelsCorriges ?? session.labels ?? 0) + Number(session.preLabelsCorriges ?? session.preLabels ?? 0),
+    rate: Number(session.candidaturesCorrigees) ? Number(session.labelsCorriges) / Number(session.candidaturesCorrigees) * 100 : 0,
   };
 }
 
@@ -79,9 +85,9 @@ export default function Home() {
   const totals = useMemo<{ applications: number; labels: number; preLabels: number; accepted: number; sessions: number; averageApplications: number }>(() => {
     const calculated = filteredSessions.reduce<{ applications: number; labels: number; preLabels: number; accepted: number }>(
       (acc, s) => ({
-        applications: acc.applications + Number(s.candidatures || 0),
-        labels: acc.labels + Number(s.labels || 0),
-        preLabels: acc.preLabels + Number(s.preLabels || 0),
+        applications: acc.applications + Number(s.candidaturesCorrigees || 0),
+        labels: acc.labels + Number(s.labelsCorriges || 0),
+        preLabels: acc.preLabels + Number(s.preLabelsCorriges || 0),
         accepted: acc.accepted + s.accepted,
       }),
       { applications: 0, labels: 0, preLabels: 0, accepted: 0 },
@@ -148,10 +154,10 @@ export default function Home() {
 
 function Overview({ totals, yearlyRows, sectorRows, setView }: { totals: { applications: number; labels: number; preLabels: number; accepted: number; sessions: number; averageApplications: number }; yearlyRows: readonly any[]; sectorRows: readonly { name: string; value: number }[]; setView: (view: View) => void }) {
   const cards = [
-    { label: "Candidatures déposées", value: totals.applications, note: "Périmètre sélectionné", accent: "ink", icon: BookOpen },
-    { label: "Labels accordés", value: totals.labels, note: "Compteur officiel corrigé", accent: "saffron", icon: CheckCircle2 },
-    { label: "Prélabels accordés", value: totals.preLabels, note: "Parcours à suivre", accent: "moss", icon: Sparkles },
-    { label: "Décisions positives", value: totals.accepted, note: "Label + Prélabel", accent: "terracotta", icon: BarChart3 },
+    { label: "Candidatures corrigées PDF", value: totals.applications, note: "Lignes/candidatures documentaires · officiel : 3 079", accent: "ink", icon: BookOpen },
+    { label: "Labels corrigés PDF", value: totals.labels, note: "Correction : 1 343 · officiel : 1 356", accent: "saffron", icon: CheckCircle2 },
+    { label: "Prélabels corrigés PDF", value: totals.preLabels, note: "Correction : 647 · officiel : 641", accent: "moss", icon: Sparkles },
+    { label: "Décisions positives corrigées", value: totals.accepted, note: "Labels + Prélabels · série corrigée", accent: "terracotta", icon: BarChart3 },
     { label: "Moyenne candidatures / session", value: fmtDecimal(totals.averageApplications), note: `${fmt(totals.applications)} / ${fmt(totals.sessions)} sessions`, accent: "ink", icon: CalendarDays },
   ];
   return <>
@@ -164,7 +170,7 @@ function Overview({ totals, yearlyRows, sectorRows, setView }: { totals: { appli
 }
 
 function SessionsView({ sessions }: { sessions: ReturnType<typeof normalizeSession>[] }) {
-  return <section className="content-stack"><div className="view-intro"><div><div className="section-kicker">REGISTRE SESSIONNEL</div><p>Candidatures = compteur officiel publié par session. Les entrées PDF détaillées sont affichées séparément et ne servent pas à recalculer ce compteur. Le classeur 1–88 confirme les volumes des huit sessions signalées ; ses champs individuels incomplets ne remplacent pas les informations PDF contrôlées.</p></div><div className="source-stamp large"><Database size={15} /><span>{sessions.length} sessions visibles</span></div></div><div className="report-legend"><span>3 079 candidatures officielles · 3 555 entrées détaillées</span><span className="report-legend-note">Volumes Excel confirmés : S16 · S19 · S24 · S28 · S30 · S33 · S46 · S62</span></div><div className="report-legend"><span className="report-legend-note">S62 : 39 candidatures / 46 entrées = 39 lignes du bloc + 5 conversions + 2 retraits</span></div><div className="panel session-chart"><ResponsiveContainer width="100%" height={340}><BarChart data={sessions}><CartesianGrid stroke="#E4DED4" strokeDasharray="3 5" vertical={false} /><XAxis dataKey="id" interval={Math.max(0, Math.floor(sessions.length / 14))} tick={{ fill: "#667085", fontSize: 11 }} axisLine={false} tickLine={false} /><YAxis axisLine={false} tickLine={false} tick={{ fill: "#667085", fontSize: 11 }} /><Tooltip contentStyle={{ border: "1px solid #D7D0C3", borderRadius: 4, background: "#FFFDF8", fontSize: 12 }} /><Legend /><Bar dataKey="labels" name="Labels" stackId="a" fill={INK} /><Bar dataKey="preLabels" name="Prélabels" stackId="a" fill={SAFFRON} /></BarChart></ResponsiveContainer></div><div className="panel table-panel"><div className="report-legend"><span className="report-key" aria-hidden="true" /> Ligne avec candidature reportée <span className="report-legend-note">02/2020 · 03/2020 · 07/2021 · 09/2021 · 10/2024</span></div><div className="table-scroll"><table><thead><tr><th>Session</th><th>Période</th><th>Candidatures officielles</th><th>Entrées PDF</th><th>Labels</th><th>Prélabels</th><th>Reportés</th><th>Taux</th><th>Statut</th></tr></thead><tbody>{sessions.map((s) => { const isReport = REPORT_SESSIONS.has(s.id); return <tr key={s.id} className={isReport ? "report-row" : undefined}><td className="strong-cell">{s.id}</td><td>{s.month}/{s.year}</td><td>{fmt(Number(s.candidatures || 0))}</td><td>{fmt(Number(s.entries || 0))}</td><td><span className="table-number ink-text">{fmt(Number(s.labels || 0))}</span></td><td><span className="table-number saffron-text">{fmt(Number(s.preLabels || 0))}</span></td><td>{fmt(Number(s.reportes || 0))}</td><td>{s.rate.toFixed(1)}%</td><td>{isReport ? <span className="report-badge">Reporté</span> : <span className="status-empty">—</span>}</td></tr>; })}</tbody></table></div></div></section>;
+  return <section className="content-stack"><div className="view-intro"><div><div className="section-kicker">REGISTRE SESSIONNEL</div><p>La vue principale utilise la série corrigée PDF : les lignes documentaires sont la mesure de l’étude. Le compteur officiel publié par session reste affiché séparément pour comparaison. Le classeur 1–88 confirme les volumes des huit sessions signalées ; ses champs individuels incomplets ne remplacent pas les informations PDF contrôlées.</p></div><div className="source-stamp large"><Database size={15} /><span>{sessions.length} sessions visibles</span></div></div><div className="report-legend"><span>3 555 candidatures/lignes corrigées PDF · 3 079 candidatures officielles</span><span className="report-legend-note">Volumes Excel confirmés : S16 · S19 · S24 · S28 · S30 · S33 · S46 · S62</span></div><div className="report-legend"><span className="report-legend-note">S62 : 39 candidatures / 46 entrées = 39 lignes du bloc + 5 conversions + 2 retraits</span></div><div className="panel session-chart"><ResponsiveContainer width="100%" height={340}><BarChart data={sessions}><CartesianGrid stroke="#E4DED4" strokeDasharray="3 5" vertical={false} /><XAxis dataKey="id" interval={Math.max(0, Math.floor(sessions.length / 14))} tick={{ fill: "#667085", fontSize: 11 }} axisLine={false} tickLine={false} /><YAxis axisLine={false} tickLine={false} tick={{ fill: "#667085", fontSize: 11 }} /><Tooltip contentStyle={{ border: "1px solid #D7D0C3", borderRadius: 4, background: "#FFFDF8", fontSize: 12 }} /><Legend /><Bar dataKey="labelsCorriges" name="Labels corrigés PDF" stackId="a" fill={INK} /><Bar dataKey="preLabelsCorriges" name="Prélabels corrigés PDF" stackId="a" fill={SAFFRON} /></BarChart></ResponsiveContainer></div><div className="panel table-panel"><div className="report-legend"><span className="report-key" aria-hidden="true" /> Ligne avec candidature reportée <span className="report-legend-note">02/2020 · 03/2020 · 07/2021 · 09/2021 · 10/2024</span></div><div className="table-scroll"><table><thead><tr><th>Session</th><th>Période</th><th>Candidatures officiel</th><th>Candidatures corrigé PDF</th><th>Labels officiel</th><th>Labels corrigé</th><th>Prélabels officiel</th><th>Prélabels corrigé</th><th>Reportés</th><th>Taux</th><th>Statut</th></tr></thead><tbody>{sessions.map((s) => { const isReport = REPORT_SESSIONS.has(s.id); return <tr key={s.id} className={isReport ? "report-row" : undefined}><td className="strong-cell">{s.id}</td><td>{s.month}/{s.year}</td><td>{fmt(Number(s.candidaturesOfficielles || 0))}</td><td className="corrected-cell">{fmt(Number(s.candidaturesCorrigees || 0))}</td><td><span className="table-number ink-text">{fmt(Number(s.labelsOfficiels || 0))}</span></td><td className="corrected-cell"><span className="table-number ink-text">{fmt(Number(s.labelsCorriges || 0))}</span></td><td><span className="table-number saffron-text">{fmt(Number(s.preLabelsOfficiels || 0))}</span></td><td className="corrected-cell"><span className="table-number saffron-text">{fmt(Number(s.preLabelsCorriges || 0))}</span></td><td>{fmt(Number(s.reportes || 0))}</td><td>{s.rate.toFixed(1)}%</td><td>{isReport ? <span className="report-badge">Reporté</span> : <span className="status-empty">—</span>}</td></tr>; })}</tbody></table></div></div></section>;
 }
 
 function CatalogueView({ catalogue, query, setQuery, onSelect }: { catalogue: readonly KpiRow[]; query: string; setQuery: (q: string) => void; onSelect: (kpi: KpiRow) => void }) {
