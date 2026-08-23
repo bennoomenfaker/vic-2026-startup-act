@@ -27,7 +27,7 @@ La normalisation distingue les catégories décisionnelles suivantes : `Label ac
 |---|---:|---|
 | Sessions couvertes | 88 | S0–S87, mars 2019–juin 2026 |
 | Candidatures officielles | 3 079 | Somme des compteurs par session |
-| Lignes détaillées | 3 528 | Registre des décisions/conversions/retraits |
+| Lignes détaillées | 3 555 | Registre des décisions/conversions/retraits |
 | Labels accordés | 1 356 | Compteur officiel |
 | Prélabels accordés | 641 | Compteur officiel |
 | Labels + Prélabels | 1 997 | Décisions positives officielles |

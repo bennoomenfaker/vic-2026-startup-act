@@ -34,7 +34,7 @@
     "totalSessions": 88,
     "sessions": 88,
     "detailedEntries": 3555,
-    "dataNote": "Candidatures officielles par session et entrées détaillées issues des PDF sont affichées séparément."
+    "dataNote": "Les candidatures officielles et les lignes PDF détaillées sont deux séries distinctes. Les volumes confirmés par le classeur sont S16=51, S19=49, S24=56, S28=50, S30=38, S33=51, S46=38 et S62=46."
   },
   "sessions": [
     {
@@ -49,7 +49,8 @@
       "statut": "Conforme",
       "entries": 14,
       "reportes": 0,
-      "session_id": "S0"
+      "session_id": "S0",
+      "detailedEntries": 14
     },
     {
       "session": "04/2019",
@@ -63,7 +64,8 @@
       "statut": "Conforme",
       "entries": 52,
       "reportes": 0,
-      "session_id": "S1"
+      "session_id": "S1",
+      "detailedEntries": 52
     },
     {
       "session": "05/2019",
@@ -77,7 +79,8 @@
       "statut": "Conforme",
       "entries": 30,
       "reportes": 0,
-      "session_id": "S2"
+      "session_id": "S2",
+      "detailedEntries": 30
     },
     {
       "session": "06/2019",
@@ -91,7 +94,8 @@
       "statut": "Conforme",
       "entries": 32,
       "reportes": 0,
-      "session_id": "S3"
+      "session_id": "S3",
+      "detailedEntries": 32
     },
     {
       "session": "07/2019",
@@ -105,7 +109,8 @@
       "statut": "Conforme",
       "entries": 29,
       "reportes": 0,
-      "session_id": "S4"
+      "session_id": "S4",
+      "detailedEntries": 29
     },
     {
       "session": "08/2019",
@@ -119,7 +124,8 @@
       "statut": "Conforme",
       "entries": 28,
       "reportes": 0,
-      "session_id": "S5"
+      "session_id": "S5",
+      "detailedEntries": 28
     },
     {
       "session": "09/2019",
@@ -133,7 +139,8 @@
       "statut": "Conforme",
       "entries": 27,
       "reportes": 0,
-      "session_id": "S6"
+      "session_id": "S6",
+      "detailedEntries": 27
     },
     {
       "session": "10/2019",
@@ -147,7 +154,8 @@
       "statut": "Conforme",
       "entries": 39,
       "reportes": 0,
-      "session_id": "S7"
+      "session_id": "S7",
+      "detailedEntries": 39
     },
     {
       "session": "11/2019",
@@ -161,7 +169,8 @@
       "statut": "Conforme",
       "entries": 41,
       "reportes": 0,
-      "session_id": "S8"
+      "session_id": "S8",
+      "detailedEntries": 41
     },
     {
       "session": "12/2019",
@@ -175,7 +184,8 @@
       "statut": "Réextrait PDF — section conversion séparée",
       "entries": 42,
       "reportes": 0,
-      "session_id": "S9"
+      "session_id": "S9",
+      "detailedEntries": 42
     },
     {
       "session": "01/2020",
@@ -189,7 +199,8 @@
       "statut": "Conforme",
       "entries": 42,
       "reportes": 0,
-      "session_id": "S10"
+      "session_id": "S10",
+      "detailedEntries": 42
     },
     {
       "session": "02/2020",
@@ -203,7 +214,8 @@
       "statut": "Réextrait PDF — section conversion séparée",
       "entries": 41,
       "reportes": 1,
-      "session_id": "S11"
+      "session_id": "S11",
+      "detailedEntries": 41
     },
     {
       "session": "03/2020",
@@ -217,7 +229,8 @@
       "statut": "Reporté détecté dans les lignes détaillées",
       "entries": 40,
       "reportes": 1,
-      "session_id": "S12"
+      "session_id": "S12",
+      "detailedEntries": 40
     },
     {
       "session": "04/2020",
@@ -231,7 +244,8 @@
       "statut": "Conforme",
       "entries": 45,
       "reportes": 0,
-      "session_id": "S13"
+      "session_id": "S13",
+      "detailedEntries": 45
     },
     {
       "session": "05/2020",
@@ -245,7 +259,8 @@
       "statut": "Conforme",
       "entries": 32,
       "reportes": 0,
-      "session_id": "S14"
+      "session_id": "S14",
+      "detailedEntries": 32
     },
     {
       "session": "06/2020",
@@ -259,7 +274,8 @@
       "statut": "Conforme",
       "entries": 30,
       "reportes": 0,
-      "session_id": "S15"
+      "session_id": "S15",
+      "detailedEntries": 30
     },
     {
       "session": "07/2020",
@@ -273,7 +289,8 @@
       "statut": "Réextrait PDF — OCR visuelle vérifiée",
       "entries": 51,
       "reportes": 0,
-      "session_id": "S16"
+      "session_id": "S16",
+      "detailedEntries": 51
     },
     {
       "session": "08/2020",
@@ -287,7 +304,8 @@
       "statut": "Conforme",
       "entries": 34,
       "reportes": 0,
-      "session_id": "S17"
+      "session_id": "S17",
+      "detailedEntries": 34
     },
     {
       "session": "09/2020",
@@ -301,7 +319,8 @@
       "statut": "Conforme",
       "entries": 23,
       "reportes": 0,
-      "session_id": "S18"
+      "session_id": "S18",
+      "detailedEntries": 23
     },
     {
       "session": "10/2020",
@@ -315,7 +334,8 @@
       "statut": "Réextrait PDF — cohérent",
       "entries": 49,
       "reportes": 0,
-      "session_id": "S19"
+      "session_id": "S19",
+      "detailedEntries": 49
     },
     {
       "session": "11/2020",
@@ -329,7 +349,8 @@
       "statut": "Conforme",
       "entries": 40,
       "reportes": 0,
-      "session_id": "S20"
+      "session_id": "S20",
+      "detailedEntries": 40
     },
     {
       "session": "12/2020",
@@ -343,7 +364,8 @@
       "statut": "Conforme",
       "entries": 36,
       "reportes": 0,
-      "session_id": "S21"
+      "session_id": "S21",
+      "detailedEntries": 36
     },
     {
       "session": "01/2021",
@@ -357,7 +379,8 @@
       "statut": "Conforme",
       "entries": 36,
       "reportes": 0,
-      "session_id": "S22"
+      "session_id": "S22",
+      "detailedEntries": 36
     },
     {
       "session": "02/2021",
@@ -371,7 +394,8 @@
       "statut": "Conforme",
       "entries": 48,
       "reportes": 0,
-      "session_id": "S23"
+      "session_id": "S23",
+      "detailedEntries": 48
     },
     {
       "session": "03/2021",
@@ -385,7 +409,8 @@
       "statut": "Conforme",
       "entries": 56,
       "reportes": 0,
-      "session_id": "S24"
+      "session_id": "S24",
+      "detailedEntries": 56
     },
     {
       "session": "04/2021",
@@ -399,7 +424,8 @@
       "statut": "Conforme",
       "entries": 81,
       "reportes": 0,
-      "session_id": "S25"
+      "session_id": "S25",
+      "detailedEntries": 81
     },
     {
       "session": "05/2021",
@@ -413,7 +439,8 @@
       "statut": "Conforme",
       "entries": 47,
       "reportes": 0,
-      "session_id": "S26"
+      "session_id": "S26",
+      "detailedEntries": 47
     },
     {
       "session": "06/2021",
@@ -427,7 +454,8 @@
       "statut": "Conforme",
       "entries": 47,
       "reportes": 0,
-      "session_id": "S27"
+      "session_id": "S27",
+      "detailedEntries": 47
     },
     {
       "session": "07/2021",
@@ -441,7 +469,8 @@
       "statut": "Reporté détecté dans les lignes détaillées",
       "entries": 50,
       "reportes": 1,
-      "session_id": "S28"
+      "session_id": "S28",
+      "detailedEntries": 50
     },
     {
       "session": "08/2021",
@@ -455,7 +484,8 @@
       "statut": "Conforme",
       "entries": 33,
       "reportes": 0,
-      "session_id": "S29"
+      "session_id": "S29",
+      "detailedEntries": 33
     },
     {
       "session": "09/2021",
@@ -469,7 +499,8 @@
       "statut": "Reporté documenté par PDF",
       "entries": 38,
       "reportes": 1,
-      "session_id": "S30"
+      "session_id": "S30",
+      "detailedEntries": 38
     },
     {
       "session": "10/2021",
@@ -483,7 +514,8 @@
       "statut": "Conforme",
       "entries": 49,
       "reportes": 0,
-      "session_id": "S31"
+      "session_id": "S31",
+      "detailedEntries": 49
     },
     {
       "session": "11/2021",
@@ -497,7 +529,8 @@
       "statut": "Conforme",
       "entries": 47,
       "reportes": 0,
-      "session_id": "S32"
+      "session_id": "S32",
+      "detailedEntries": 47
     },
     {
       "session": "12/2021",
@@ -511,7 +544,8 @@
       "statut": "Conforme",
       "entries": 51,
       "reportes": 0,
-      "session_id": "S33"
+      "session_id": "S33",
+      "detailedEntries": 51
     },
     {
       "session": "01/2022",
@@ -525,7 +559,8 @@
       "statut": "Conforme",
       "entries": 46,
       "reportes": 0,
-      "session_id": "S34"
+      "session_id": "S34",
+      "detailedEntries": 46
     },
     {
       "session": "02/2022",
@@ -539,7 +574,8 @@
       "statut": "Conforme",
       "entries": 22,
       "reportes": 0,
-      "session_id": "S35"
+      "session_id": "S35",
+      "detailedEntries": 22
     },
     {
       "session": "03/2022",
@@ -553,7 +589,8 @@
       "statut": "Conforme",
       "entries": 30,
       "reportes": 0,
-      "session_id": "S36"
+      "session_id": "S36",
+      "detailedEntries": 30
     },
     {
       "session": "04/2022",
@@ -567,7 +604,8 @@
       "statut": "Conforme",
       "entries": 27,
       "reportes": 0,
-      "session_id": "S37"
+      "session_id": "S37",
+      "detailedEntries": 27
     },
     {
       "session": "05/2022",
@@ -581,7 +619,8 @@
       "statut": "Conforme",
       "entries": 49,
       "reportes": 0,
-      "session_id": "S38"
+      "session_id": "S38",
+      "detailedEntries": 49
     },
     {
       "session": "06/2022",
@@ -595,7 +634,8 @@
       "statut": "Conforme",
       "entries": 46,
       "reportes": 0,
-      "session_id": "S39"
+      "session_id": "S39",
+      "detailedEntries": 46
     },
     {
       "session": "07/2022",
@@ -609,7 +649,8 @@
       "statut": "Conforme",
       "entries": 45,
       "reportes": 0,
-      "session_id": "S40"
+      "session_id": "S40",
+      "detailedEntries": 45
     },
     {
       "session": "08/2022",
@@ -623,7 +664,8 @@
       "statut": "Conforme",
       "entries": 44,
       "reportes": 0,
-      "session_id": "S41"
+      "session_id": "S41",
+      "detailedEntries": 44
     },
     {
       "session": "09/2022",
@@ -637,7 +679,8 @@
       "statut": "Conforme",
       "entries": 49,
       "reportes": 0,
-      "session_id": "S42"
+      "session_id": "S42",
+      "detailedEntries": 49
     },
     {
       "session": "10/2022",
@@ -651,7 +694,8 @@
       "statut": "Conforme",
       "entries": 45,
       "reportes": 0,
-      "session_id": "S43"
+      "session_id": "S43",
+      "detailedEntries": 45
     },
     {
       "session": "11/2022",
@@ -665,7 +709,8 @@
       "statut": "Conforme",
       "entries": 42,
       "reportes": 0,
-      "session_id": "S44"
+      "session_id": "S44",
+      "detailedEntries": 42
     },
     {
       "session": "12/2022",
@@ -679,7 +724,8 @@
       "statut": "Conforme",
       "entries": 39,
       "reportes": 0,
-      "session_id": "S45"
+      "session_id": "S45",
+      "detailedEntries": 39
     },
     {
       "session": "01/2023",
@@ -693,7 +739,8 @@
       "statut": "Conforme",
       "entries": 38,
       "reportes": 0,
-      "session_id": "S46"
+      "session_id": "S46",
+      "detailedEntries": 38
     },
     {
       "session": "02/2023",
@@ -707,7 +754,8 @@
       "statut": "Conforme",
       "entries": 42,
       "reportes": 0,
-      "session_id": "S47"
+      "session_id": "S47",
+      "detailedEntries": 42
     },
     {
       "session": "03/2023",
@@ -721,7 +769,8 @@
       "statut": "Conforme",
       "entries": 42,
       "reportes": 0,
-      "session_id": "S48"
+      "session_id": "S48",
+      "detailedEntries": 42
     },
     {
       "session": "04/2023",
@@ -735,7 +784,8 @@
       "statut": "Conforme",
       "entries": 40,
       "reportes": 0,
-      "session_id": "S49"
+      "session_id": "S49",
+      "detailedEntries": 40
     },
     {
       "session": "05/2023",
@@ -749,7 +799,8 @@
       "statut": "Conforme",
       "entries": 45,
       "reportes": 0,
-      "session_id": "S50"
+      "session_id": "S50",
+      "detailedEntries": 45
     },
     {
       "session": "06/2023",
@@ -763,7 +814,8 @@
       "statut": "Conforme",
       "entries": 34,
       "reportes": 0,
-      "session_id": "S51"
+      "session_id": "S51",
+      "detailedEntries": 34
     },
     {
       "session": "07/2023",
@@ -777,7 +829,8 @@
       "statut": "Conforme",
       "entries": 42,
       "reportes": 0,
-      "session_id": "S52"
+      "session_id": "S52",
+      "detailedEntries": 42
     },
     {
       "session": "08/2023",
@@ -791,7 +844,8 @@
       "statut": "Conforme",
       "entries": 33,
       "reportes": 0,
-      "session_id": "S53"
+      "session_id": "S53",
+      "detailedEntries": 33
     },
     {
       "session": "09/2023",
@@ -805,7 +859,8 @@
       "statut": "Conforme",
       "entries": 41,
       "reportes": 0,
-      "session_id": "S54"
+      "session_id": "S54",
+      "detailedEntries": 41
     },
     {
       "session": "10/2023",
@@ -819,7 +874,8 @@
       "statut": "Conforme",
       "entries": 31,
       "reportes": 0,
-      "session_id": "S55"
+      "session_id": "S55",
+      "detailedEntries": 31
     },
     {
       "session": "11/2023",
@@ -833,7 +889,8 @@
       "statut": "Conforme",
       "entries": 38,
       "reportes": 0,
-      "session_id": "S56"
+      "session_id": "S56",
+      "detailedEntries": 38
     },
     {
       "session": "12/2023",
@@ -847,7 +904,8 @@
       "statut": "Conforme",
       "entries": 43,
       "reportes": 0,
-      "session_id": "S57"
+      "session_id": "S57",
+      "detailedEntries": 43
     },
     {
       "session": "01/2024",
@@ -861,7 +919,8 @@
       "statut": "Conforme",
       "entries": 36,
       "reportes": 0,
-      "session_id": "S58"
+      "session_id": "S58",
+      "detailedEntries": 36
     },
     {
       "session": "02/2024",
@@ -875,7 +934,8 @@
       "statut": "Conforme",
       "entries": 33,
       "reportes": 0,
-      "session_id": "S59"
+      "session_id": "S59",
+      "detailedEntries": 33
     },
     {
       "session": "03/2024",
@@ -889,7 +949,8 @@
       "statut": "Conforme",
       "entries": 34,
       "reportes": 0,
-      "session_id": "S60"
+      "session_id": "S60",
+      "detailedEntries": 34
     },
     {
       "session": "04/2024",
@@ -903,7 +964,8 @@
       "statut": "Conforme",
       "entries": 42,
       "reportes": 0,
-      "session_id": "S61"
+      "session_id": "S61",
+      "detailedEntries": 42
     },
     {
       "session": "05/2024",
@@ -917,7 +979,8 @@
       "statut": "PDF vérifié — 4 motifs administratifs sans décision publiée",
       "entries": 46,
       "reportes": 0,
-      "session_id": "S62"
+      "session_id": "S62",
+      "detailedEntries": 46
     },
     {
       "session": "06/2024",
@@ -931,7 +994,8 @@
       "statut": "Conforme",
       "entries": 40,
       "reportes": 0,
-      "session_id": "S63"
+      "session_id": "S63",
+      "detailedEntries": 40
     },
     {
       "session": "07/2024",
@@ -945,7 +1009,8 @@
       "statut": "Conforme",
       "entries": 34,
       "reportes": 0,
-      "session_id": "S64"
+      "session_id": "S64",
+      "detailedEntries": 34
     },
     {
       "session": "08/2024",
@@ -959,7 +1024,8 @@
       "statut": "Conforme",
       "entries": 39,
       "reportes": 0,
-      "session_id": "S65"
+      "session_id": "S65",
+      "detailedEntries": 39
     },
     {
       "session": "09/2024",
@@ -973,7 +1039,8 @@
       "statut": "Conforme",
       "entries": 39,
       "reportes": 0,
-      "session_id": "S66"
+      "session_id": "S66",
+      "detailedEntries": 39
     },
     {
       "session": "10/2024",
@@ -987,7 +1054,8 @@
       "statut": "Reporté détecté dans les lignes détaillées",
       "entries": 49,
       "reportes": 1,
-      "session_id": "S67"
+      "session_id": "S67",
+      "detailedEntries": 49
     },
     {
       "session": "11/2024",
@@ -1001,7 +1069,8 @@
       "statut": "Conforme",
       "entries": 43,
       "reportes": 0,
-      "session_id": "S68"
+      "session_id": "S68",
+      "detailedEntries": 43
     },
     {
       "session": "12/2024",
@@ -1015,7 +1084,8 @@
       "statut": "Conforme",
       "entries": 39,
       "reportes": 0,
-      "session_id": "S69"
+      "session_id": "S69",
+      "detailedEntries": 39
     },
     {
       "session": "01/2025",
@@ -1029,7 +1099,8 @@
       "statut": "Conforme",
       "entries": 44,
       "reportes": 0,
-      "session_id": "S70"
+      "session_id": "S70",
+      "detailedEntries": 44
     },
     {
       "session": "02/2025",
@@ -1043,7 +1114,8 @@
       "statut": "Conforme",
       "entries": 45,
       "reportes": 0,
-      "session_id": "S71"
+      "session_id": "S71",
+      "detailedEntries": 45
     },
     {
       "session": "03/2025",
@@ -1057,7 +1129,8 @@
       "statut": "Conforme",
       "entries": 21,
       "reportes": 0,
-      "session_id": "S72"
+      "session_id": "S72",
+      "detailedEntries": 21
     },
     {
       "session": "04/2025",
@@ -1071,7 +1144,8 @@
       "statut": "Réextrait PDF — deux lignes ajoutées",
       "entries": 29,
       "reportes": 0,
-      "session_id": "S73"
+      "session_id": "S73",
+      "detailedEntries": 29
     },
     {
       "session": "05/2025",
@@ -1085,7 +1159,8 @@
       "statut": "Conforme",
       "entries": 50,
       "reportes": 0,
-      "session_id": "S74"
+      "session_id": "S74",
+      "detailedEntries": 50
     },
     {
       "session": "06/2025",
@@ -1099,7 +1174,8 @@
       "statut": "Conforme",
       "entries": 41,
       "reportes": 0,
-      "session_id": "S75"
+      "session_id": "S75",
+      "detailedEntries": 41
     },
     {
       "session": "07/2025",
@@ -1113,7 +1189,8 @@
       "statut": "Conforme",
       "entries": 34,
       "reportes": 0,
-      "session_id": "S76"
+      "session_id": "S76",
+      "detailedEntries": 34
     },
     {
       "session": "08/2025",
@@ -1127,7 +1204,8 @@
       "statut": "Conforme",
       "entries": 50,
       "reportes": 0,
-      "session_id": "S77"
+      "session_id": "S77",
+      "detailedEntries": 50
     },
     {
       "session": "09/2025",
@@ -1141,7 +1219,8 @@
       "statut": "Conforme",
       "entries": 31,
       "reportes": 0,
-      "session_id": "S78"
+      "session_id": "S78",
+      "detailedEntries": 31
     },
     {
       "session": "10/2025",
@@ -1155,7 +1234,8 @@
       "statut": "Conforme",
       "entries": 51,
       "reportes": 0,
-      "session_id": "S79"
+      "session_id": "S79",
+      "detailedEntries": 51
     },
     {
       "session": "11/2025",
@@ -1169,7 +1249,8 @@
       "statut": "Conforme",
       "entries": 47,
       "reportes": 0,
-      "session_id": "S80"
+      "session_id": "S80",
+      "detailedEntries": 47
     },
     {
       "session": "12/2025",
@@ -1183,7 +1264,8 @@
       "statut": "Conforme",
       "entries": 51,
       "reportes": 0,
-      "session_id": "S81"
+      "session_id": "S81",
+      "detailedEntries": 51
     },
     {
       "session": "01/2026",
@@ -1197,7 +1279,8 @@
       "statut": "Conforme",
       "entries": 37,
       "reportes": 0,
-      "session_id": "S82"
+      "session_id": "S82",
+      "detailedEntries": 37
     },
     {
       "session": "02/2026",
@@ -1211,7 +1294,8 @@
       "statut": "Conforme",
       "entries": 39,
       "reportes": 0,
-      "session_id": "S83"
+      "session_id": "S83",
+      "detailedEntries": 39
     },
     {
       "session": "03/2026",
@@ -1225,7 +1309,8 @@
       "statut": "Conforme",
       "entries": 44,
       "reportes": 0,
-      "session_id": "S84"
+      "session_id": "S84",
+      "detailedEntries": 44
     },
     {
       "session": "04/2026",
@@ -1239,7 +1324,8 @@
       "statut": "Conforme",
       "entries": 47,
       "reportes": 0,
-      "session_id": "S85"
+      "session_id": "S85",
+      "detailedEntries": 47
     },
     {
       "session": "05/2026",
@@ -1253,7 +1339,8 @@
       "statut": "Conforme",
       "entries": 42,
       "reportes": 0,
-      "session_id": "S86"
+      "session_id": "S86",
+      "detailedEntries": 42
     },
     {
       "session": "06/2026",
@@ -1267,7 +1354,8 @@
       "statut": "Conforme",
       "entries": 45,
       "reportes": 0,
-      "session_id": "S87"
+      "session_id": "S87",
+      "detailedEntries": 45
     }
   ],
   "yearly": [

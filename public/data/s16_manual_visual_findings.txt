@@ -1,0 +1,5 @@
+Contrôle visuel S16 — 07/2020
+
+Le PDF local /home/ubuntu/upload/07-2020.pdf contient 2 pages en format Letter. La page 1 présente le tableau principal avec les décisions « Label accordé », « Prélabel accordé », « Label non accordé » et « Prélabel non accordé ». La page 2 est explicitement intitulée « Passage Prélabel → Label — Juillet » et contient 9 lignes de conversion, puis une section « Retrait label » avec 2 lignes (NG Technologies et Safozi).
+
+Le compteur de 51 lignes détaillées doit donc inclure les lignes du bloc principal, les 9 conversions et les 2 retraits. Le JSON canonique ciblé est session_2020_07.json et le contrôle programmatique précédent indique 51 entrées, 40 candidatures officielles, aucun fondateur manquant et aucune décision manquante. Les textes minuscules/partiellement coupés dans la prévisualisation sont considérés comme OCR à vérifier au niveau ligne, mais la structure et le volume de 51 sont visuellement confirmés sans extrapolation de noms illisibles.

@@ -5,7 +5,7 @@
 
 ## Résumé
 
-Cette étude examine les 88 sessions de décision du Startup Act tunisien, de mars 2019 à juin 2026. Elle combine les compteurs officiels publiés par Startup Tunisia, les comptes rendus PDF et les exports normalisés du corpus. Le résultat principal est la présentation de deux séries distinctes : **3 531 dossiers/candidatures selon le réexamen PDF de l’étude** et **3 079 candidatures selon le site officiel**. Le corpus PDF conserve également **3 528 lignes documentaires** ; ces lignes incluent des décisions, conversions et retraits. Les deux séries ne sont pas fusionnées et le rapport indique toujours leur unité statistique.
+Cette étude examine les 88 sessions de décision du Startup Act tunisien, de mars 2019 à juin 2026. Elle combine les compteurs officiels publiés par Startup Tunisia, les comptes rendus PDF et les exports normalisés du corpus. Le résultat principal est la présentation de deux séries distinctes : **3 555 lignes détaillées selon le corpus PDF réextrait** et **3 079 candidatures selon le site officiel**. Le corpus PDF conserve également **3 555 lignes documentaires** ; ces lignes incluent des décisions, conversions et retraits. Les deux séries ne sont pas fusionnées et le rapport indique toujours leur unité statistique.
 
 Le corpus officiel agrégé contient **1 356 Labels**, **641 Prélabels**, **153 retraits officiels** et **369 conversions**. Quatre candidatures sont explicitement confirmées comme reportées : Tunisia Biotech (02/2020), Campus Numérique des métiers (03/2020), TN Smartbot (07/2021) et RYBSEN (10/2024, examiné en novembre 2024).
 
@@ -26,9 +26,9 @@ La normalisation distingue les catégories décisionnelles suivantes : `Label ac
 | Indicateur | Valeur | Interprétation |
 |---|---:|---|
 | Sessions couvertes | 88 | S0–S87, mars 2019–juin 2026 |
-| Candidatures selon réexamen PDF | 3 531 | Dossiers/lignes retenus par l’étude, avec ajournés hors lignes explicitement mentionnés |
+| Candidatures selon réexamen PDF | 3 555 | Dossiers/lignes retenus par l’étude, avec ajournés hors lignes explicitement mentionnés |
 | Candidatures selon le site officiel | 3 079 | Somme des compteurs publiés par session |
-| Lignes détaillées | 3 528 | Registre des décisions/conversions/retraits |
+| Lignes détaillées | 3 555 | Registre des décisions/conversions/retraits |
 | Écart réexamen PDF − site | +452 | Différence de périmètre documentaire et administratif |
 | Labels accordés | 1 356 | Compteur officiel |
 | Prélabels accordés | 641 | Compteur officiel |
@@ -36,7 +36,7 @@ La normalisation distingue les catégories décisionnelles suivantes : `Label ac
 | Taux descriptif Labels / candidatures | 44.0 % | Dénominateur officiel |
 | Reportés confirmés | 4 | S11, S12, S28, S67 |
 
-Le taux de 44.0 % est présenté avec le dénominateur officiel de 3 079 candidatures. Une analyse complémentaire peut rapporter les mêmes Labels au réexamen PDF de 3 531 dossiers, mais ce taux est une mesure analytique différente et doit être explicitement étiqueté comme telle.
+Le taux de 44.0 % est présenté avec le dénominateur officiel de 3 079 candidatures. Une analyse complémentaire peut rapporter les mêmes Labels au réexamen PDF de 3 555 lignes détaillées, mais ce taux est une mesure analytique différente et doit être explicitement étiqueté comme telle.
 
 ## 4. Évolution annuelle
 
@@ -96,13 +96,13 @@ Les PDF 2026 ne contiennent pas de variable de genre exploitable ; aucune infér
 
 ## 8. Cohérence des exports et limites
 
-Après correction, le SQL contient 88 sessions et 3 528 décisions sans `decision_id` dupliqué. Les champs de session enregistrent les compteurs officiels au lieu de valeurs nulles. Les catégories détaillées totalisent 1 201 Labels accordés, 659 Labels non accordés, 636 Prélabels accordés, 982 Prélabels non accordés, 45 retraits, 4 Reporté et 1 Pitch décalé ; cette distribution détaillée n’a pas vocation à remplacer les compteurs officiels.
+Après correction, le SQL contient 88 sessions et 3 555 décisions détaillées sans `decision_id` dupliqué. Les champs de session enregistrent les compteurs officiels au lieu de valeurs nulles. Les catégories détaillées totalisent 1 201 Labels accordés, 659 Labels non accordés, 636 Prélabels accordés, 982 Prélabels non accordés, 45 retraits, 5 Reporté et 1 Pitch décalé ; cette distribution détaillée n’a pas vocation à remplacer les compteurs officiels.
 
 Les données de genre et de géographie restent des indicateurs dérivés ou externes lorsqu’elles ne peuvent pas être observées directement dans chaque PDF. Les valeurs manquantes sont conservées comme telles. Toute publication doit indiquer la source, la période, l’unité statistique et le dénominateur.
 
 ## Conclusion
 
-La base finale est cohérente si elle conserve deux séries de candidatures : **3 531 dossiers selon le réexamen PDF de l’étude** et **3 079 candidatures selon le site officiel**, ainsi qu’un registre de **3 528 lignes documentaires**. S62 démontre pourquoi ces niveaux ne doivent pas être fusionnés : l’étude retient 46 dossiers observés, tandis que le site publie 39 candidatures. Le dashboard, les exports et la soutenance affichent désormais les deux périmètres avec leur définition respective.
+La base finale est cohérente si elle conserve deux séries de candidatures : **3 555 lignes détaillées selon le corpus PDF réextrait** et **3 079 candidatures selon le site officiel**, ainsi qu’un registre de **3 555 lignes documentaires**. S62 démontre pourquoi ces niveaux ne doivent pas être fusionnés : l’étude retient 46 dossiers observés, tandis que le site publie 39 candidatures. Le dashboard, les exports et la soutenance affichent désormais les deux périmètres avec leur définition respective.
 
 ## Références
 

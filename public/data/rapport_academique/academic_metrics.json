@@ -1,5 +1,5 @@
 {
-  "sessions": 85,
+  "sessions": 88,
   "candidatures_total": 3384,
   "labels_total": 1311,
   "prelabels_total": 623,
@@ -35,5 +35,23 @@
   "taux": 38.4,
   "moy": 39.7,
   "L": 1343,
-  "P": 645
+  "P": 645,
+  "candidatures_officielles": 3079,
+  "candidatures_reexamen_pdf": 3555,
+  "lignes_pdf_detaillees": 3555,
+  "labels_officiels": 1356,
+  "prelabels_officiels": 641,
+  "retraits_officiels": 153,
+  "reportes_confirmes": 5,
+  "decisions_detaillees_par_resultat": {
+    "Label accordé": 1232,
+    "Label non accordé": 653,
+    "Prélabel accordé": 634,
+    "Prélabel non accordé": 980,
+    "Retrait Label": 46,
+    "Reporté": 5,
+    "Décision non précisée — motif administratif": 4,
+    "Pitch décalé": 1
+  },
+  "ecart_lignes_pdf_moins_officiel": 476
 }

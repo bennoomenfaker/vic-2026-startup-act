@@ -1,15 +1,15 @@
 {
   "sessions": 88,
-  "candidatures_reexamen_pdf": 3531,
+  "candidatures_reexamen_pdf": 3555,
   "candidatures_site_officiel": 3079,
   "ecart_reexamen_moins_officiel": 452,
-  "lignes_pdf_detaillees": 3528,
+  "lignes_pdf_detaillees": 3555,
   "labels_total": 1356,
   "prelabels_total": 641,
   "positive_total": 1997,
   "retraits_officiels": 153,
   "conversions_officielles": 369,
-  "reportes_confirmes": 4,
+  "reportes_confirmes": 5,
   "ajournes_confirmes": 4,
   "s62_reexamen_pdf": 46,
   "s62_site_officiel": 39,
@@ -24,6 +24,20 @@
   "data_source": "88 PDF réexaminés, compteurs publiés Startup Tunisia et exports harmonisés",
   "method_note": "Le réexamen PDF compte les dossiers/lignes retenus par l'étude et les ajournés explicitement mentionnés hors lignes; le compteur site officiel est conservé séparément. Les deux séries ne sont pas fusionnées.",
   "official_label_rate_pct": 44.04,
-  "reexamen_label_share_pct": 38.40,
-  "last_updated": "2026-08-23"
+  "reexamen_label_share_pct": 38.4,
+  "last_updated": "2026-08-23",
+  "candidatures_officielles": 3079,
+  "labels_officiels": 1356,
+  "prelabels_officiels": 641,
+  "decisions_detaillees_par_resultat": {
+    "Label accordé": 1232,
+    "Label non accordé": 653,
+    "Prélabel accordé": 634,
+    "Prélabel non accordé": 980,
+    "Retrait Label": 46,
+    "Reporté": 5,
+    "Décision non précisée — motif administratif": 4,
+    "Pitch décalé": 1
+  },
+  "ecart_lignes_pdf_moins_officiel": 476
 }
