@@ -1,0 +1,11 @@
+{
+  "definition": "Un dossier Reporté est un même dossier suivi entre une session source et une session ultérieure. Il compte une fois dans la série des candidatures distinctes, mais chaque apparition reste une ligne documentaire dans la série PDF.",
+  "known_transitions": [
+    {"source_session":"05/2019","target_session":"07/2019","label":"Prélabel mentionné comme issu de la session de mai","company":"Non identifiée","status":"carryover_prelabel","documentary_lines":1,"distinct_applications":0,"confidence":"commentaire officiel 07/2019"},
+    {"source_session":"02/2020","target_session":"03/2020","label":"Tunisia Biotech","company":"Tunisia Biotech","status":"reported_then_resolved","documentary_lines":2,"distinct_applications":1,"confidence":"commentaires et lignes PDF"},
+    {"source_session":"03/2020","target_session":"04/2020","label":"Campus Numérique des métiers","company":"Campus Numérique des métiers","status":"reported_then_resolved","documentary_lines":2,"distinct_applications":1,"confidence":"commentaires et lignes PDF"},
+    {"source_session":"10/2024","target_session":"11/2024","label":"RYBSEN","company":"RYBSEN","status":"reported_then_resolved","documentary_lines":2,"distinct_applications":1,"confidence":"commentaire 10/2024 et label 11/2024"}
+  ],
+  "rule": "Ne pas additionner une même candidature deux fois dans une série distincte lorsqu’un lien source→session suivante est confirmé. Ne pas supprimer les deux événements du registre PDF : ils servent à documenter le parcours.",
+  "scope_note": "La série publiée comme 3 558 est la série corrigée documentaire : 3 555 lignes PDF + 3 ajournés hors PDF. Une série distincte dédoublonnée doit être présentée séparément et ne doit pas remplacer ce total sans identifiant fiable pour chaque dossier."
+}

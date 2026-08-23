@@ -17,7 +17,7 @@ final_note = (
     '> **Périmètre statistique final.** L’étude distingue le compteur institutionnel de **3 079 candidatures officielles**, '
     'le corpus de **3 555 lignes détaillées PDF**, et le compteur corrigé de **3 558 candidatures** obtenu en ajoutant '
     '**3 ajournés hors PDF** signalés par des commentaires officiels (2 en 03/2019 et 1 en 06/2019). '
-    'Le commentaire brut 04/2019 est conservé comme provenance mais n’est pas retenu dans le filtre validé faute de dossier confirmé. Ces trois mesures ne sont pas interchangeables.\n\n'
+    'Le commentaire brut 04/2019 est conservé comme provenance mais n’est pas retenu dans le filtre validé faute de dossier confirmé. Ces trois mesures ne sont pas interchangeables. En 07/2019, le commentaire officiel indique « 14 Labels et 1 Prelabel (de la session de mai) » : le PDF compte 29 lignes documentaires, mais le compteur officiel reste 28 candidatures ; la ligne héritée de mai n’est pas une nouvelle candidature. Un dossier Reporté est compté une seule fois dans une série distincte lorsqu’un lien source → session suivante est confirmé, tandis que les deux apparitions restent dans le registre PDF pour documenter le parcours.\n\n'
 )
 
 for p in mds:
