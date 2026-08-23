@@ -2820,6 +2820,19 @@ function switchPage(page) {
   }
 }
 
+function waitForChart(timeoutMs = 10000) {
+  if (window.Chart) return Promise.resolve(true);
+  return new Promise(resolve => {
+    const startedAt = Date.now();
+    const check = () => {
+      if (window.Chart) return resolve(true);
+      if (Date.now() - startedAt >= timeoutMs) return resolve(false);
+      window.setTimeout(check, 50);
+    };
+    check();
+  });
+}
+
 async function init() {
   try {
     const [dashboard, sessions, startups, reports, analysis, corrections, parcours, axes, startupblink] = await Promise.all([
@@ -2886,6 +2899,9 @@ async function init() {
       }
     });
 
+    // Chart.js est un script CDN : attendre sa disponibilité avant de créer les instances.
+    // Sans cette garde, un chargement réseau lent laisse les canvases vides sans nouvelle tentative.
+    await waitForChart();
     renderDashboard();
     renderSessions();
     renderStartups();
