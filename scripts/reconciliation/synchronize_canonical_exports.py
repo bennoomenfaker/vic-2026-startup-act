@@ -105,7 +105,9 @@ report_total = sum(int(s.get('reportes') or 0) for s in sessions)
 aux_rows = []
 for s in sessions:
     old = old_by_session.get(s['session'], {})
-    ajournes = int(old.get('ajournes') or 0)
+    # Validated ajournés: 03/2019 (2) and 06/2019 (1).
+    # The historical raw comment counter is not inherited because it exposed an unvalidated 04/2019 entry.
+    ajournes = AJOURNES_HORS_PDF.get(s['session'], 0)
     ajournes_hors_pdf = AJOURNES_HORS_PDF.get(s['session'], 0)
     pdf_calc = int(s['entries']) - int(s.get('conversions') or 0) - int(s.get('retraits') or 0) - int(s.get('reportes') or 0)
     row = dict(s)
@@ -345,7 +347,7 @@ db.close()
 dash_path = DATA / 'dashboard_data.json'
 if dash_path.exists():
     dash = json.loads(dash_path.read_text(encoding='utf-8'))
-    dash.setdefault('meta', {}).update({'totalCandidatures': sum(int(s['candidatures']) for s in sessions), 'correctedCandidatures': len(entries) + sum(AJOURNES_HORS_PDF.values()), 'ajournesHorsPdf': sum(AJOURNES_HORS_PDF.values()), 'totalLabels': sum(int(s['labels']) for s in sessions), 'totalPreLabels': sum(int(s['preLabels']) for s in sessions), 'totalSessions': len(sessions), 'detailedEntries': len(entries), 'lastUpdated': '2026-08-23T00:00:00+00:00'})
+    dash.setdefault('meta', {}).update({'totalCandidatures': sum(int(s['candidatures']) for s in sessions), 'correctedCandidatures': len(entries) + sum(AJOURNES_HORS_PDF.values()), 'ajournesHorsPdf': sum(AJOURNES_HORS_PDF.values()), 'totalLabels': sum(int(s['labels']) for s in sessions), 'totalPreLabels': sum(int(s['preLabels']) for s in sessions), 'totalSessions': len(sessions), 'detailedEntries': len(entries), 'totalCandidaturesCorrigees': len(entries) + sum(AJOURNES_HORS_PDF.values()), 'dataNote': '3 558 candidatures corrigées = 3 555 lignes PDF + 3 ajournés hors PDF ; 3 079 candidatures officielles conservées séparément.', 'lastUpdated': '2026-08-23T00:00:00+00:00'})
     dash['pdfExtracted'] = entries
     source = {s['session']: s for s in sessions}
     for row in dash.get('sessions', []):

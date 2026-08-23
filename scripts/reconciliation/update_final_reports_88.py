@@ -17,7 +17,7 @@ final_note = (
     '> **Périmètre statistique final.** L’étude distingue le compteur institutionnel de **3 079 candidatures officielles**, '
     'le corpus de **3 555 lignes détaillées PDF**, et le compteur corrigé de **3 558 candidatures** obtenu en ajoutant '
     '**3 ajournés hors PDF** signalés par des commentaires officiels (2 en 03/2019 et 1 en 06/2019). '
-    'Ces trois mesures ne sont pas interchangeables.\n\n'
+    'Le commentaire brut 04/2019 est conservé comme provenance mais n’est pas retenu dans le filtre validé faute de dossier confirmé. Ces trois mesures ne sont pas interchangeables.\n\n'
 )
 
 for p in mds:
@@ -35,6 +35,7 @@ for p in mds:
     text = text.replace('3 555 candidatures selon le réexamen PDF', '3 558 candidatures corrigées (3 555 lignes PDF + 3 ajournés hors PDF)')
     text = text.replace('3 555 dossiers/candidatures', '3 558 candidatures corrigées (3 555 lignes PDF + 3 ajournés hors PDF)')
     text = text.replace('Les deux séries ne sont pas fusionnées', 'Les trois périmètres ne sont pas fusionnés')
+    text = text.replace('Les 4 Ajournés publiés par la page institutionnelle restent une catégorie distincte.', 'Les 3 ajournés validés (03/2019 : 2 ; 06/2019 : 1) restent une catégorie distincte ; le commentaire brut 04/2019 est conservé comme provenance mais n’est pas retenu dans le filtre validé.')
     if 'Périmètre statistique final.' not in text:
         lines = text.splitlines(keepends=True)
         insert_at = 1 if lines and lines[0].startswith('# ') else 0
@@ -59,7 +60,7 @@ for p in [D / 'etude_quantitative' / 'academic_metrics.json', D / 'rapport_acade
         'reportes_confirmes': 5,
         'ecart_lignes_pdf_moins_officiel': 476,
         'ecart_candidatures_corrigees_moins_officiel': 479,
-        'candidatures_definition': '3 558 corrigées = 3 555 lignes PDF détaillées + 3 ajournés hors PDF ; 3 079 officiel = compteur institutionnel.',
+        'candidatures_definition': '3 558 corrigées = 3 555 lignes PDF détaillées + 3 ajournés hors PDF (03/2019: 2; 06/2019: 1); le commentaire 04/2019 n’est pas retenu dans le filtre validé ; 3 079 officiel = compteur institutionnel.',
     })
     d['decisions_detaillees_par_resultat'] = {
         'Label accordé': 1232,

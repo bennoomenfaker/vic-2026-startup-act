@@ -43,5 +43,5 @@
   "candidatures_corrigees": 3558,
   "ajournes_hors_pdf": 3,
   "ecart_candidatures_corrigees_moins_officiel": 479,
-  "candidatures_definition": "3 558 corrigées = 3 555 lignes PDF détaillées + 3 ajournés hors PDF ; 3 079 officiel = compteur institutionnel."
+  "candidatures_definition": "3 558 corrigées = 3 555 lignes PDF détaillées + 3 ajournés hors PDF (03/2019: 2; 06/2019: 1); le commentaire 04/2019 n’est pas retenu dans le filtre validé ; 3 079 officiel = compteur institutionnel."
 }

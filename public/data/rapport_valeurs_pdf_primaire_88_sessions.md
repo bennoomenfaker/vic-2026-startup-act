@@ -42,7 +42,7 @@ Le site institutionnel affiche **39 candidatures**. La lecture PDF contient **46
 
 ## Reporté et Ajourné
 
-Les cinq lignes Reporté confirmées sont conservées avec une couleur dédiée : 02/2020 Tunisia Biotech, 03/2020 Campus Numérique des métiers, 07/2021 TN Smartbot, 09/2021 SHYK et 10/2024 RYBSEN. Elles ne sont pas ajoutées deux fois au compteur institutionnel. Les 4 Ajournés publiés par la page institutionnelle restent une catégorie distincte.
+Les cinq lignes Reporté confirmées sont conservées avec une couleur dédiée : 02/2020 Tunisia Biotech, 03/2020 Campus Numérique des métiers, 07/2021 TN Smartbot, 09/2021 SHYK et 10/2024 RYBSEN. Elles ne sont pas ajoutées deux fois au compteur institutionnel. Les 3 ajournés validés (03/2019 : 2 ; 06/2019 : 1) restent une catégorie distincte ; le commentaire brut 04/2019 est conservé comme provenance mais n’est pas retenu dans le filtre validé.
 
 ## Limites
 
