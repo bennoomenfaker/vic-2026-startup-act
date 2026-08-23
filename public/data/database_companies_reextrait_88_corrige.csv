@@ -1,0 +1,3131 @@
+﻿company_id;company_name;sector;session
+C0001;Datavora;E-Commerce;03/2019
+C0002;Enova Robotics;Industrie Robotique;03/2019
+C0003;Ezzayra Solutions;AgriTech;03/2019
+C0004;Polysmart;Gaming;03/2019
+C0005;Be Wireless Solutions;IOT;03/2019
+C0006;Medilsys;HealthTech;03/2019
+C0007;Roamsmart;Telecom;03/2019
+C0008;Vitalight Lab;E-Commerce;03/2019
+C0009;Dabchy;E-Commerce;03/2019
+C0010;Next Gen Corp;EdTech;03/2019
+C0011;Nostatik Media;PharmaTech;03/2019
+C0012;Paypos Tunisie;FinTech;03/2019
+C0013;Foua Shop;E-Commerce;03/2019
+C0014;Mitigan;FinTech;03/2019
+C0015;GoMyCode;EdTech;04/2019
+C0016;Mass SA;AI;04/2019
+C0017;STE Kaoun;Fintech;04/2019
+C0018;Apprentus Tunisie;EdTech;04/2019
+C0019;Bus Software;IoT;04/2019
+C0020;ilboursa.com;IT;04/2019
+C0021;Methania Industries;Energie;04/2019
+C0022;Wattnow;IoT;04/2019
+C0023;TechAccessibility;IT;04/2019
+C0024;Taysir Solutions Tunisia;IT;04/2019
+C0025;UniQ Soft Technology;IT;04/2019
+C0026;Armani Arabic Academy;EdTech;04/2019
+C0027;Dqlick;Insurance Tech;04/2019
+C0028;KNSD;Big Data;04/2019
+C0029;MedCREtech;Blockchain;04/2019
+C0030;Novel-Ti;AI;04/2019
+C0031;PEAK Technologies;Fintech;04/2019
+C0032;Smart and Clean;Cleantech;04/2019
+C0033;Tadeco IT;E-Commerce;04/2019
+C0034;TechAbility;IoT;04/2019
+C0035;Expensya (Pepino Tech);E-Commerce;04/2019
+C0036;Smart Mobility;IoT;04/2019
+C0037;Educanet;EdTech;04/2019
+C0038;Study.tn;E-Learning;04/2019
+C0039;Tunisie Matériel Roulant;Marketing;04/2019
+C0040;Embedded Solutions and Advanced Technology;IoT;04/2019
+C0041;Inotek engineering;IoT;04/2019
+C0042;Paymee;Fintech;04/2019
+C0043;Healthcare Anywhere;Health Tech;04/2019
+C0044;TunRooms;E-Commerce;04/2019
+C0045;Galactech;Telcom;04/2019
+C0046;Domodar;IoT;04/2019
+C0047;Vynd;E-Commerce;04/2019
+C0048;Empire communication;Services;04/2019
+C0049;3D Forge;Services;04/2019
+C0050;Africa Flying and Engineering;AgriTech;04/2019
+C0051;Ticket Communication TICOM;Marketing;04/2019
+C0052;TeTa concept;Services;04/2019
+C0053;WeMake;Services;04/2019
+C0054;Micro Device Tunisia;IoT;04/2019
+C0055;Kiwi Softwares;IT;04/2019
+C0056;Tunisie Co;Services;04/2019
+C0057;Best Way;Marketing;04/2019
+C0058;ComEngineering;IoT;04/2019
+C0059;Testafid+;E-Commerce;04/2019
+C0060;Afrique Charbon;Energie;04/2019
+C0061;Ironhoster;E-Commerce;04/2019
+C0062;Boostiny;Marketing;04/2019
+C0063;Forevermo (Paravoisin);Health Tech;04/2019
+C0064;Supply Air;Services;04/2019
+C0065;Sawsan Bellaj Training & Consulting;E-Commerce;04/2019
+C0066;Casual Bet;Gaming;04/2019
+C0067;TakiAcademy;EdTech;05/2019
+C0068;Deli Solutions;E-Commerce;05/2019
+C0069;NewGen;Gaming;05/2019
+C0070;InstaDeep;AI;05/2019
+C0071;Lifeye;Agritech;05/2019
+C0072;Echo;IT;05/2019
+C0073;Seemba Gaming;Gaming;05/2019
+C0074;WeCode Land;EdTech;05/2019
+C0075;Smart Med SA;Plateforme Sociale;05/2019
+C0076;Société STBI;Autre contenu créatif;05/2019
+C0077;Actifs Précieux Apex S.A;Biotechnologie;05/2019
+C0078;Neopolis Development;Insurance Tech;05/2019
+C0079;9arini.tn (édité par Digital World SARL);EdTech;05/2019
+C0080;Fouta Tunisia;E-Commerce;05/2019
+C0081;Swiver;FinTech;05/2019
+C0082;profils.tn;HR;05/2019
+C0083;Go Up Stand Up (Goupsup);Mobile;05/2019
+C0084;TransFacile;Logistique;05/2019
+C0085;Asklepios;Health Tech;05/2019
+C0086;Bookingtodo;Autre contenu créatif;05/2019
+C0087;Industry X.0;Logiciel;05/2019
+C0088;Bon'Heure;HR;05/2019
+C0089;Be bouncy;Marketing;05/2019
+C0090;Domotec;IOT;05/2019
+C0091;Vim It;Logiciel;05/2019
+C0092;Indigo Business Solutions;Logiciel;05/2019
+C0093;Professional System;Logiciel;05/2019
+C0094;Beego;Mobile;05/2019
+C0095;B'rain;Health Tech;05/2019
+C0096;Développement d'applications comptables, gestion, finance;Logiciel;05/2019
+C0097;DEEPERA;E-Commerce;06/2019
+C0098;FABSKILL;E-Commerce;06/2019
+C0099;MajestEYE;E-Commerce;06/2019
+C0100;HERUNDO;E-Commerce;06/2019
+C0101;BioIntrants Technologie;E-Commerce;06/2019
+C0102;JUNIOR NETWORK;E-Commerce;06/2019
+C0103;Siteflow Factory;E-Commerce;06/2019
+C0104;Insight+;E-Commerce;06/2019
+C0105;DATAERA;E-Commerce;06/2019
+C0106;SF Technologies;E-Commerce;06/2019
+C0107;CREATIVE CULINARY;E-commerce;06/2019
+C0108;SAFOZI SARL;Infrastructure;06/2019
+C0109;NEXTPROTEIN TUNISIA;E-Commerce;06/2019
+C0110;SENIATNA;Logistique;06/2019
+C0111;VME Internationale;E-Commerce;06/2019
+C0112;Zoor;E-Commerce;06/2019
+C0113;Natalista;Plateforme sociale;06/2019
+C0114;Videsys;E-Commerce;06/2019
+C0115;AYSHEK;E-Commerce;06/2019
+C0116;Kidsbook;E-Commerce;06/2019
+C0117;Hezni Maak;Plateforme sociale;06/2019
+C0118;Pool & Fish Farm Smart Water Management;E-Commerce;06/2019
+C0119;Massart Engineering;E-Commerce;06/2019
+C0120;MyCity;Marketing;06/2019
+C0121;Tisopia;E-Commerce;06/2019
+C0122;TUNMOB SA (DIGIT-U);Insurance tech;06/2019
+C0123;SMAAO Tunisie;Insurance tech;06/2019
+C0124;Iris technologies;E-Commerce;06/2019
+C0125;Agri Land;E-Commerce;06/2019
+C0126;Doctor Sina;Health tech;06/2019
+C0127;Aevny;E-Commerce;06/2019
+C0128;IYADATI;Health tech;06/2019
+C0129;TransIN / SmartIN;Insurance Tech;07/2019
+C0130;Catrim;Fintech;07/2019
+C0131;eDonec;Edtech;07/2019
+C0132;Avempace;IOT;07/2019
+C0133;NIWEES;Marketing;07/2019
+C0134;Arsela;AI;07/2019
+C0135;Coaching Foot;E-commerce;07/2019
+C0136;AROM R SARL;IoT;07/2019
+C0137;Rahba.tn;Agritech;07/2019
+C0138;DeVolution studio;Ed Tech;07/2019
+C0139;ASEPTIKA LAB;E-commerce;07/2019
+C0140;Faavly;Plateforme sociale;07/2019
+C0141;Universa Blockchain;Blockchain;07/2019
+C0142;Surfin - powered by Incept;Mobile;07/2019
+C0143;TuniBoat;E-commerce;07/2019
+C0144;Winshot;AI;07/2019
+C0145;Technologia Academy;Edtech;07/2019
+C0146;Minima.ai;AI;07/2019
+C0147;Réseau social medical : Saheelha;Big Data;07/2019
+C0148;Advanced functionalities for smart home/company WiFi;Telecom;07/2019
+C0149;Zainpulse;Health Tech;07/2019
+C0150;Sala7li;Edtech;07/2019
+C0151;Appinov;Logiciel;07/2019
+C0152;AES;Service;07/2019
+C0153;STE VIF PRO;E-commerce;07/2019
+C0154;Kademia;EdTech;07/2019
+C0155;Glamour By Riyem;Health Tech;07/2019
+C0156;Greendyzer;IoT;07/2019
+C0157;VR Crystalized;Autre contenu créatif;07/2019
+C0158;EVOCRAFT;Non renseigné;08/2019
+C0159;Smart Farm;Non renseigné;08/2019
+C0160;HealUp;Non renseigné;08/2019
+C0161;MOOVOBRAIN;Non renseigné;08/2019
+C0162;Dataperformers;Non renseigné;08/2019
+C0163;Appro.tn (L6);Non renseigné;08/2019
+C0164;FoundPad;Non renseigné;08/2019
+C0165;KAPTY SARL;Non renseigné;08/2019
+C0166;OTO TRAVEL;Non renseigné;08/2019
+C0167;IDEAL CONCEPTION;Non renseigné;08/2019
+C0168;iCompass;Non renseigné;08/2019
+C0169;eDream Commerce;Non renseigné;08/2019
+C0170;Vsober;Non renseigné;08/2019
+C0171;Société institution des modes alternatifs de règlement des litiges;Non renseigné;08/2019
+C0172;Historio;Non renseigné;08/2019
+C0173;NACHD-IT;Non renseigné;08/2019
+C0174;Evey Technologies;Non renseigné;08/2019
+C0175;SCIENCIA;Non renseigné;08/2019
+C0176;Zatex;Non renseigné;08/2019
+C0177;Eat & Fit;Non renseigné;08/2019
+C0178;WanToTrip;Non renseigné;08/2019
+C0179;X-P-R;Non renseigné;08/2019
+C0180;Plateforme de Formation E-learning;Non renseigné;08/2019
+C0181;Oleomar Start-up Projet;Non renseigné;08/2019
+C0182;UTIK;Non renseigné;08/2019
+C0183;Smart Brand Web;Non renseigné;08/2019
+C0184;MAIZ FARM;Non renseigné;08/2019
+C0185;MAGNITECHS;Non renseigné;08/2019
+C0186;iWassel;Non renseigné;09/2019
+C0187;Farm Trust;Non renseigné;09/2019
+C0188;TrustiT;Non renseigné;09/2019
+C0189;fixiha.tn;Non renseigné;09/2019
+C0190;Société DOM Services;Non renseigné;09/2019
+C0191;The Landlord;Non renseigné;09/2019
+C0192;BeNeutron;Non renseigné;09/2019
+C0193;Epilert;Non renseigné;09/2019
+C0194;Black Dune Studio;Non renseigné;09/2019
+C0195;Idara Tn;Non renseigné;09/2019
+C0196;Teskerti.tn;Non renseigné;09/2019
+C0197;GETPAY;Non renseigné;09/2019
+C0198;Go Field;Non renseigné;09/2019
+C0199;Kamioun;Non renseigné;09/2019
+C0200;Tuni'AR;Non renseigné;09/2019
+C0201;Athena-IO;Non renseigné;09/2019
+C0202;ZOLFA;Non renseigné;09/2019
+C0203;GoFields;Non renseigné;09/2019
+C0204;Kyto-Prod;Non renseigné;09/2019
+C0205;SBA Workforce;Non renseigné;09/2019
+C0206;Think-it;Non renseigné;09/2019
+C0207;Servis.tn;Non renseigné;09/2019
+C0208;HOOLOOS;Non renseigné;09/2019
+C0209;Best-Tech;Non renseigné;09/2019
+C0210;Digistart;Non renseigné;09/2019
+C0211;Fivepoints;Non renseigné;10/2019
+C0212;Datavision;Non renseigné;10/2019
+C0213;RESRV;Non renseigné;10/2019
+C0214;NEPTUNE MOSAIC;Non renseigné;10/2019
+C0215;Taderok;Non renseigné;10/2019
+C0216;Intigrow;Non renseigné;10/2019
+C0217;Artify;Non renseigné;10/2019
+C0218;TIRA ROBOTS;Non renseigné;10/2019
+C0219;HISTORIAR;Non renseigné;10/2019
+C0220;Couscous Connection;Non renseigné;10/2019
+C0221;Neoshop;Non renseigné;10/2019
+C0222;Swanina;Non renseigné;10/2019
+C0223;SMART LOGGER;Non renseigné;10/2019
+C0224;ProvenMed;Non renseigné;10/2019
+C0225;Lightency;Non renseigné;10/2019
+C0226;CURE;Non renseigné;10/2019
+C0227;REBOOTKAMP;Non renseigné;10/2019
+C0228;Tledger;Non renseigné;10/2019
+C0229;BeBouncy;Non renseigné;10/2019
+C0230;CreatiView;Non renseigné;10/2019
+C0231;Coursesgolf;Non renseigné;10/2019
+C0232;Rhintos Games;Non renseigné;10/2019
+C0233;WareCom;Non renseigné;10/2019
+C0234;Foodealz;Non renseigné;10/2019
+C0235;IDWEY;Non renseigné;10/2019
+C0236;Humansys;Non renseigné;10/2019
+C0237;2ME | Machining & Manufacturing Engineering;Non renseigné;10/2019
+C0238;Prodcom;Non renseigné;10/2019
+C0239;Plateforme de Tele-Medecine et mSante (KoalX);Non renseigné;10/2019
+C0240;Meilleure Vie Etudiants Tunisie;Non renseigné;10/2019
+C0241;SPX;Non renseigné;10/2019
+C0242;Bambinosit;Non renseigné;10/2019
+C0243;Smart-Ways;Non renseigné;10/2019
+C0244;One Shot;Non renseigné;10/2019
+C0245;Municipalité 4.0;Non renseigné;10/2019
+C0246;Al madina;Non renseigné;10/2019
+C0247;Orbitech (SeekMake);Non renseigné;11/2019
+C0248;NG Technologies;Non renseigné;11/2019
+C0249;VAKAY;Non renseigné;11/2019
+C0250;EDUC'ART;Non renseigné;11/2019
+C0251;AZÄ;Non renseigné;11/2019
+C0252;Anavid;Non renseigné;11/2019
+C0253;DrillSERV;Non renseigné;11/2019
+C0254;SOLIXY;Non renseigné;11/2019
+C0255;SAMM TEST & AUTOMATION;Non renseigné;11/2019
+C0256;Baity tn Decoriz SARL;Non renseigné;11/2019
+C0257;PROSUMERS;Non renseigné;11/2019
+C0258;7keema;Non renseigné;11/2019
+C0259;Salaire.tn;Non renseigné;11/2019
+C0260;VDOC;Non renseigné;11/2019
+C0261;Lamma;Non renseigné;11/2019
+C0262;INNOFAB;Non renseigné;11/2019
+C0263;NovaTEK Solution;Non renseigné;11/2019
+C0264;Miral Things;Non renseigné;11/2019
+C0265;Shadoc (société Sirat Edition spin off de Sirat);Non renseigné;11/2019
+C0266;Exacctly;Non renseigné;11/2019
+C0267;Domoticaza;Non renseigné;11/2019
+C0268;Supermarché Founa;Non renseigné;11/2019
+C0269;B4 PRINT;Non renseigné;11/2019
+C0270;BS partage;Non renseigné;11/2019
+C0271;Oxygen Design;Non renseigné;11/2019
+C0272;OneCom;Non renseigné;11/2019
+C0273;Motion Ads;Non renseigné;11/2019
+C0274;Kot BJ;Non renseigné;11/2019
+C0275;Ifortic;Non renseigné;11/2019
+C0276;NO CUT;Non renseigné;11/2019
+C0277;eDallel;Non renseigné;11/2019
+C0278;School Upgrader;Non renseigné;11/2019
+C0279;PENTAPIX;Non renseigné;11/2019
+C0280;Fonderz;Non renseigné;11/2019
+C0281;HS Gaming;Non renseigné;11/2019
+C0282;PROFILTHEQUE;Non renseigné;11/2019
+C0283;GO UP STAND UP;Non renseigné;11/2019
+C0284;CYNOIA;Non renseigné;12/2019
+C0285;Société Jhimi Pour Les Elévateurs Légers;Non renseigné;12/2019
+C0286;Grabingo;Non renseigné;12/2019
+C0287;Logis Technologies;Non renseigné;12/2019
+C0288;K2LIS;Non renseigné;12/2019
+C0289;STRIKE MOTOTRS;Non renseigné;12/2019
+C0290;KHEER;Non renseigné;12/2019
+C0291;Tap4glam;Non renseigné;12/2019
+C0292;Ahmini;Non renseigné;12/2019
+C0293;Chantier;Non renseigné;12/2019
+C0294;Club privilèges / BIGDeal;Non renseigné;12/2019
+C0295;Iowaves;Non renseigné;12/2019
+C0296;AfiaTech;Non renseigné;12/2019
+C0297;MICE;Non renseigné;12/2019
+C0298;Fasteas;Non renseigné;12/2019
+C0299;New Wave for communication & solutions;Non renseigné;12/2019
+C0300;ALMOURAFEK;Non renseigné;12/2019
+C0301;Bouita;Non renseigné;12/2019
+C0302;Raheeq;Non renseigné;12/2019
+C0303;Pepolls;Non renseigné;12/2019
+C0304;AUDACITY;Non renseigné;12/2019
+C0305;SOCIETE ARDARY PARTNERS TUNISIA;Non renseigné;12/2019
+C0306;PROSERVY;Non renseigné;12/2019
+C0307;ALFA PRINT;Non renseigné;12/2019
+C0308;Tun E-shop;Non renseigné;12/2019
+C0309;GPS-Infos;Non renseigné;12/2019
+C0310;Dyarna;Non renseigné;12/2019
+C0311;OFFBEAT MEDIA;Non renseigné;12/2019
+C0312;OXN;Non renseigné;12/2019
+C0313;StarTAW;Non renseigné;12/2019
+C0314;Advanced Functionalities For Smart Home - Kwiklink Technologies;Non renseigné;12/2019
+C0315;Transfacile - Techno GM;Non renseigné;12/2019
+C0316;Kamioun - Kriga Technologies;Non renseigné;12/2019
+C0317;Optimalogistic;Non renseigné;01/2020
+C0318;Next Gen Solution / UnFrauded;Non renseigné;01/2020
+C0319;Digital2Value;Non renseigné;01/2020
+C0320;Junior Robotics Lab;Non renseigné;01/2020
+C0321;STE ESKY PROFESSIONAL SERVICES LIMITED;Non renseigné;01/2020
+C0322;Sentinel Data;Non renseigné;01/2020
+C0323;DCX;Non renseigné;01/2020
+C0324;KALYS;Non renseigné;01/2020
+C0325;Paygrant;Non renseigné;01/2020
+C0326;AbrarCom Analytics;Non renseigné;01/2020
+C0327;Prefabulous;Non renseigné;01/2020
+C0328;Societe Tunisian Online Teachers;Non renseigné;01/2020
+C0329;SQOIN;Non renseigné;01/2020
+C0330;GLOLIX TUNISIA;Non renseigné;01/2020
+C0331;La relation client à l'ère du digital;Non renseigné;01/2020
+C0332;Support de coupe a couvercle automatique;Non renseigné;01/2020
+C0333;IJA SOLUTION;Non renseigné;01/2020
+C0334;QUERMES;Non renseigné;01/2020
+C0335;Doqtoor;Non renseigné;01/2020
+C0336;Sun Tracker;Non renseigné;01/2020
+C0337;DaryDar;Non renseigné;01/2020
+C0338;Zcare;Non renseigné;01/2020
+C0339;Examido;Non renseigné;01/2020
+C0340;Consulti;Non renseigné;01/2020
+C0341;DRYSEK;Non renseigné;01/2020
+C0342;CRATOSUSA;Non renseigné;01/2020
+C0343;Baccouche Orthopedic Center;Non renseigné;01/2020
+C0344;Zemnistore;Non renseigné;01/2020
+C0345;Tunisian Cloud;Non renseigné;01/2020
+C0346;SKYTEK;Non renseigné;01/2020
+C0347;DSS COMPANY;Non renseigné;01/2020
+C0348;AddInn Tunisie;Non renseigné;01/2020
+C0349;FUZBUS;Non renseigné;01/2020
+C0350;Easy Touch Solutions (ETS);Non renseigné;01/2020
+C0351;Chèques Instantanés;Non renseigné;01/2020
+C0352;Papelstore;Non renseigné;01/2020
+C0353;Carbon2Heat;Non renseigné;01/2020
+C0354;Universal Technology of infinite keys;Non renseigné;01/2020
+C0355;Katomi;Non renseigné;02/2020
+C0356;Société Saghroun.com;Non renseigné;02/2020
+C0357;BSmart SARL;Non renseigné;02/2020
+C0358;Youth Hub;Non renseigné;02/2020
+C0359;WaterSpirit;Non renseigné;02/2020
+C0360;RENTAL RIDE;Non renseigné;02/2020
+C0361;OXAHOST;Non renseigné;02/2020
+C0362;QualiFour;Non renseigné;02/2020
+C0363;Edutest;Non renseigné;02/2020
+C0364;Xtendplex;Non renseigné;02/2020
+C0365;Kyufi;Non renseigné;02/2020
+C0366;Sportopia;Non renseigné;02/2020
+C0367;Accent;Non renseigné;02/2020
+C0368;Allô Réparateur;Non renseigné;02/2020
+C0369;Class Quiz;Non renseigné;02/2020
+C0370;autoecoleplus;Non renseigné;02/2020
+C0371;SECURAS;Non renseigné;02/2020
+C0372;Kaco.;Non renseigné;02/2020
+C0373;Smart House Tunisia;Non renseigné;02/2020
+C0374;Co-Solar;Non renseigné;02/2020
+C0375;Tynass;Non renseigné;02/2020
+C0376;Rent a tutor;Non renseigné;02/2020
+C0377;Quantylix Risk & Data;Non renseigné;02/2020
+C0378;Heptatronics;Non renseigné;02/2020
+C0379;freeoui;Non renseigné;02/2020
+C0380;Eklectic;Non renseigné;02/2020
+C0381;Société Tunipages;Non renseigné;02/2020
+C0382;FormaClick;Non renseigné;02/2020
+C0383;Marhbebik.com;Non renseigné;02/2020
+C0384;RASCALTOU !;Non renseigné;02/2020
+C0385;Tunisia Biotech;Non renseigné;02/2020
+C0386;Coinsence;Non renseigné;02/2020
+C0387;Support de coupe à couvercle automatique;Non renseigné;02/2020
+C0388;NovaTEK Solutions;Non renseigné;02/2020
+C0389;Shadoc;Non renseigné;02/2020
+C0390;Gofields (Sportfields);Non renseigné;02/2020
+C0391;I POMM;Non renseigné;03/2020
+C0392;NATULYN;Non renseigné;03/2020
+C0393;She Shares;Non renseigné;03/2020
+C0394;Auto-plus;Non renseigné;03/2020
+C0395;Makroudh Kairouan à Domicile;Non renseigné;03/2020
+C0396;DigiConstat;Non renseigné;03/2020
+C0397;Save Your Wardrobe;Non renseigné;03/2020
+C0398;Go Online Africa;Non renseigné;03/2020
+C0399;3S : Software and Security Solutions;Non renseigné;03/2020
+C0400;GATE INDUSTRIELLE;Non renseigné;03/2020
+C0401;Rayhane;Non renseigné;03/2020
+C0402;Tunisie Co / Resa Privee;Non renseigné;03/2020
+C0403;TOLEDO;Non renseigné;03/2020
+C0404;CHMISA;Non renseigné;03/2020
+C0405;KLAY;Non renseigné;03/2020
+C0406;FACTOORYA;Non renseigné;03/2020
+C0407;KWIN.;Non renseigné;03/2020
+C0408;Finispia;Non renseigné;03/2020
+C0409;Travaris;Non renseigné;03/2020
+C0410;Barbecha;Non renseigné;03/2020
+C0411;Dentic;Non renseigné;03/2020
+C0412;Tunisiabiotech;Non renseigné;03/2020
+C0413;Welyne;Non renseigné;03/2020
+C0414;Univers VR;Non renseigné;03/2020
+C0415;ebniecolo;Non renseigné;03/2020
+C0416;MY DEV CONSULTING DU CAP BON;Non renseigné;03/2020
+C0417;CITIUS;Non renseigné;03/2020
+C0418;All o khadmet;Non renseigné;03/2020
+C0419;Analyse numérique des donnes (AMCI);Non renseigné;03/2020
+C0420;The BoxOffice;Non renseigné;03/2020
+C0421;Khadamni;Non renseigné;03/2020
+C0422;Soldy;Non renseigné;03/2020
+C0423;COSTUN;Non renseigné;03/2020
+C0424;Start Smart Studio;Non renseigné;03/2020
+C0425;Compass IT;Non renseigné;03/2020
+C0426;Campus Numérique des métiers;Non renseigné;03/2020
+C0427;Go My Biz;Non renseigné;03/2020
+C0428;Kayco.;Non renseigné;03/2020
+C0429;Viventis;Non renseigné;04/2020
+C0430;Insurise;Non renseigné;04/2020
+C0431;LORE AND HEART;Non renseigné;04/2020
+C0432;SLAMA DATTES;Non renseigné;04/2020
+C0433;Arion;Non renseigné;04/2020
+C0434;BipEvents;Non renseigné;04/2020
+C0435;Lysi;Non renseigné;04/2020
+C0436;wireless services;Non renseigné;04/2020
+C0437;Ernest;Non renseigné;04/2020
+C0438;Ahkili;Non renseigné;04/2020
+C0439;Carwell;Non renseigné;04/2020
+C0440;MAZED;Non renseigné;04/2020
+C0441;Khalta;Non renseigné;04/2020
+C0442;Split;Non renseigné;04/2020
+C0443;Food4Future;Non renseigné;04/2020
+C0444;RoboCare;Non renseigné;04/2020
+C0445;FI THNITI;Non renseigné;04/2020
+C0446;Tchou-Tchou Your school bus tracking App;Non renseigné;04/2020
+C0447;FlowsMaster;Non renseigné;04/2020
+C0448;akarat.tn;Non renseigné;04/2020
+C0449;SMEK'S;Non renseigné;04/2020
+C0450;Khobzti;Non renseigné;04/2020
+C0451;SOFTIFI;Non renseigné;04/2020
+C0452;NeuroData;Non renseigné;04/2020
+C0453;Ghazela Technology Academy;Non renseigné;04/2020
+C0454;FYMI;Non renseigné;04/2020
+C0455;Traitement des données structurées;Non renseigné;04/2020
+C0456;The BIM Square;Non renseigné;04/2020
+C0457;Azedda;Non renseigné;04/2020
+C0458;Quicktext;Non renseigné;04/2020
+C0459;CheezWall;Non renseigné;04/2020
+C0460;Winrents;Non renseigné;04/2020
+C0461;Next;Non renseigné;04/2020
+C0462;Wondding;Non renseigné;04/2020
+C0463;Information anticipative;Non renseigné;04/2020
+C0464;Explore Tunisia;Non renseigné;04/2020
+C0465;AIDI : Académie Internationale pour le développement et l'innovation;Non renseigné;04/2020
+C0466;DRACOSS;Non renseigné;04/2020
+C0467;Course Golf;Non renseigné;04/2020
+C0468;Symmetryk / No Statik Media;Non renseigné;04/2020
+C0469;Digitus Technologies;Non renseigné;05/2020
+C0470;STARK;Non renseigné;05/2020
+C0471;NATDYES;Non renseigné;05/2020
+C0472;Carpet Plus;Non renseigné;05/2020
+C0473;Hand & Crafts;Non renseigné;05/2020
+C0474;YASSIR;Non renseigné;05/2020
+C0475;Wakahaw;Non renseigné;05/2020
+C0476;Amiral;Non renseigné;05/2020
+C0477;Sprindt;Non renseigné;05/2020
+C0478;Global World Transformer;Non renseigné;05/2020
+C0479;iSporit;Non renseigné;05/2020
+C0480;Evolutik;Non renseigné;05/2020
+C0481;El Food Lab;Non renseigné;05/2020
+C0482;Fouita;Non renseigné;05/2020
+C0483;GrowApp;Non renseigné;05/2020
+C0484;We-Settle;Non renseigné;05/2020
+C0485;Conception et vente d'un système de télégestion d'énergie électrique;Non renseigné;05/2020
+C0486;IOT Medical Technology;Non renseigné;05/2020
+C0487;Omniup Tunisie;Non renseigné;05/2020
+C0488;LE PORTAIL DES LANGUES;Non renseigné;05/2020
+C0489;Société Polyouate;Non renseigné;05/2020
+C0490;GARK;Non renseigné;05/2020
+C0491;GASPYCH;Non renseigné;05/2020
+C0492;EMNA HUSSEIN;Non renseigné;05/2020
+C0493;Doctorka;Non renseigné;05/2020
+C0494;Renini;Non renseigné;05/2020
+C0495;Société Datasphera;Non renseigné;05/2020
+C0496;Innov'Edition;Non renseigné;05/2020
+C0497;Smek's Invest;Non renseigné;05/2020
+C0498;Lamma City App;Non renseigné;05/2020
+C0499;Quantilyx R&D;Non renseigné;05/2020
+C0500;FBS COMPANY;E-commerce;06/2020
+C0501;ADIOM;Agritech;06/2020
+C0502;Odacel;IoT;06/2020
+C0503;Firnas Engineering;IoT;06/2020
+C0504;CLEDISS;Logiciel;06/2020
+C0505;Lemarché.tn;Agritech;06/2020
+C0506;Société NSIJA;Autre contenu créatif;06/2020
+C0507;La Ferme Urbaine;Agritech;06/2020
+C0508;Eventizer;Logiciel;06/2020
+C0509;Kyteb;EdTech;06/2020
+C0510;Pura solutions;Health Tech;06/2020
+C0511;StreetCarHub;Autre contenu créatif;06/2020
+C0512;Machrou3i Fi Bledi;EdTech;06/2020
+C0513;Docodify Technologies;IoT;06/2020
+C0514;iMMOTECH;Logiciel;06/2020
+C0515;Tela;E-commerce;06/2020
+C0516;Web2Advisor;E-commerce;06/2020
+C0517;Limaalem;E-commerce;06/2020
+C0518;TDR;E-commerce;06/2020
+C0519;Plateforme de recouvrement intelligente: recouv.tn;Fintech;06/2020
+C0520;Connect Talents;HR;06/2020
+C0521;SwalApp;Mobile;06/2020
+C0522;Azaward;E-commerce;06/2020
+C0523;branper;Big Data;06/2020
+C0524;Carthachain;Blockchain & cryptocurrency;06/2020
+C0525;ORANGURU TECHDESIGN;E-commerce;06/2020
+C0526;M eSANTE PLUS;Health Tech;06/2020
+C0527;INERTIA;E-commerce;06/2020
+C0528;IJA-SOLUTIONS;Plateforme Sociale;06/2020
+C0529;Bouquiniste.tn;E-commerce;07/2020
+C0530;Klink;Logiciel;07/2020
+C0531;CrocoCoder;EdTech;07/2020
+C0532;floraison natural beauty;E-commerce;07/2020
+C0533;Kiwi Stock Light;Logiciel;07/2020
+C0534;Access Aligner;Health Tech;07/2020
+C0535;ROBOGRAF;IoT;07/2020
+C0536;فرید حول العالم;Autre contenu créatif;07/2020
+C0537;DATASCAI;Big Data;07/2020
+C0538;Amonak;E-commerce;07/2020
+C0539;IotBlocks;IoT;07/2020
+C0540;ell and beyond Tunisie;Logiciel;07/2020
+C0541;Meditech;Health Tech;07/2020
+C0542;BioAgrilhelpers (BAH);Agritech;07/2020
+C0543;Wanawaa;E-commerce;07/2020
+C0544;Le Comet;Logiciel;07/2020
+C0545;10nar;E-commerce;07/2020
+C0546;Home's Aroma;E-commerce;07/2020
+C0547;GuestnHouse;E-commerce;07/2020
+C0548;ACES;E-commerce;07/2020
+C0549;Ecomptable.tn;Logiciel;07/2020
+C0550;Home School Tunisia;EdTech;07/2020
+C0551;Wiki Academy;EdTech;07/2020
+C0552;1wayFM;Autre contenu créatif;07/2020
+C0553;Maniaro;E-commerce;07/2020
+C0554;Rankstop;Marketing;07/2020
+C0555;Oryx Guide;E-commerce;07/2020
+C0556;BuildUp;Logiciel;07/2020
+C0557;Better Mood;Health Tech;07/2020
+C0558;Tastybox;E-commerce;07/2020
+C0559;UniBoard;EdTech;07/2020
+C0560;Synapse;Logiciel;07/2020
+C0561;TIDY;E-commerce;07/2020
+C0562;ÖMyCamp;E-commerce;07/2020
+C0563;econsulting;Logiciel;07/2020
+C0564;Artisup;E-commerce;07/2020
+C0565;Expenditure;Fintech;07/2020
+C0566;APP4MOB BUSINESS SOLUTIONS;Logiciel;07/2020
+C0567;TAMWIL.TN;Fintech;07/2020
+C0568;Street Car Hub;Autre contenu créatif;07/2020
+C0569;Safozi;E-commerce;07/2020
+C0570;Addresti;Mobile;08/2020
+C0571;DEDALE SOLUTIONS;Fintech;08/2020
+C0572;Etakwin;E-commerce;08/2020
+C0573;Autoshop.tn/ETL Technology;E-commerce;08/2020
+C0574;DIDA MIND;IoT;08/2020
+C0575;GST;Logistique;08/2020
+C0576;Improve Software TN ai diagnosis vision;Agritech;08/2020
+C0577;GENI;Agritech;08/2020
+C0578;HAKIM TECHNOLOGIES;Energie;08/2020
+C0579;D-WEE;Health Tech;08/2020
+C0580;HOMEJEK;E-commerce;08/2020
+C0581;MTCE;Autre contenu créatif;08/2020
+C0582;Angel Protector/ AMZi Smart Solutions;AI;08/2020
+C0583;Lanterns;Gaming;08/2020
+C0584;Analytix;Fintech;08/2020
+C0585;M&C;AI;08/2020
+C0586;Makerfy;Logiciel;08/2020
+C0587;Lead Youth;Développement personnel;08/2020
+C0588;Points Cadeaux;Logiciel;08/2020
+C0589;mintounes;E-commerce;08/2020
+C0590;TAWA;Marketing;08/2020
+C0591;Drone filaire;Autre contenu créatif;08/2020
+C0592;Full Health;Développement personnel;08/2020
+C0593;WeRebase;EdTech;08/2020
+C0594;Afia Tech;Health Tech;08/2020
+C0595;SPORTOLOGY;Autre contenu créatif;08/2020
+C0596;Société Classquiz;EdTech;08/2020
+C0597;Nebulabs;EdTech;08/2020
+C0598;Scaphandry;EdTech;08/2020
+C0599;Digital GROWUP APPLICATIONS « DGA »;Logiciel;08/2020
+C0600;Ste Hope Healthcare Solutions;Health Tech;08/2020
+C0601;THEMAZEGROUP;Autre contenu créatif;08/2020
+C0602;STE Industrial FACTOORYA Tech;IoT;08/2020
+C0603;WeMove;Health Tech;09/2020
+C0604;HackUp;HR;09/2020
+C0605;wammya;Logistique;09/2020
+C0606;Orthlane;Health Tech;09/2020
+C0607;ETNAFES;Autre contenu créatif;09/2020
+C0608;Idaraty.tn;Plateforme Sociale;09/2020
+C0609;Healthy & Bnin;E-commerce;09/2020
+C0610;Services voitures épaves (SVE);E-commerce;09/2020
+C0611;Autorent;Logiciel;09/2020
+C0612;Cubed;Marketing;09/2020
+C0613;Smelsy.com;EdTech;09/2020
+C0614;iCan-C;IoT;09/2020
+C0615;MTTN;Big Data;09/2020
+C0616;Bladiz king Chemicals Solutions;Marketing;09/2020
+C0617;MEDICAL SERVICES & SOLUTIONS INTER;Health Tech;09/2020
+C0618;Doctourna;Health Tech;09/2020
+C0619;Aladdin;Telecom;09/2020
+C0620;Portail de technologies industrielles et innovations;Autre contenu créatif;09/2020
+C0621;New Life;E-commerce;09/2020
+C0622;Sampapp;Health Tech;09/2020
+C0623;SAFEOPS;Logiciel;09/2020
+C0624;Dinaro;Fintech;09/2020
+C0625;Farmvie;Agritech;09/2020
+C0626;Groupado;Plateforme Sociale;11/2020
+C0627;WildyNess;Non renseigné;11/2020
+C0628;AVOPRO;Logiciel;11/2020
+C0629;ARCHIVART;Autre contenu créatif;11/2020
+C0630;Tinest;Agritech;11/2020
+C0631;Elco Solutions;IoT;11/2020
+C0632;Khadamny;E-commerce;11/2020
+C0633;WONDER WORK;Marketing;11/2020
+C0634;Tashfeen;Logiciel;11/2020
+C0635;Autoprix.tn;E-commerce;11/2020
+C0636;Société Souk El-Ghorba;E-commerce;11/2020
+C0637;Smart City;Logiciel;11/2020
+C0638;Civitas;Logiciel;11/2020
+C0639;Celebrioo;Autre contenu créatif;11/2020
+C0640;elprojet;EdTech;11/2020
+C0641;ﻲﺑﯾﺟد  - Jeeby;E-commerce;11/2020
+C0642;ClickBus;Logistique;11/2020
+C0643;Xchange;Fintech;11/2020
+C0644;Alfikr;EdTech;11/2020
+C0645;UpKurs;EdTech;11/2020
+C0646;WOTE;Health Tech;11/2020
+C0647;Ba9chich;Media;11/2020
+C0648;Machmoom;E-commerce;11/2020
+C0649;Hanoutify;E-commerce;11/2020
+C0650;LoDeep;EdTech;11/2020
+C0651;REC-INov سﻧوﺗ en ligne;Blockchain & cryptocurrency;11/2020
+C0652;Société Evolutik;Autre contenu créatif;11/2020
+C0653;STE SMELSY;EdTech;11/2020
+C0654;STE Fouita;Logiciel;11/2020
+C0655;Eventizer Platforms;Logiciel;11/2020
+C0656;4InA Technologie;Energie;11/2020
+C0657;El Food Lab Traiteur Cuisine Revisitée;Autre contenu créatif;11/2020
+C0658;STE TUNISIENNE CO-SOLAR DES INNOVATIONS;Energie;11/2020
+C0659;TECHNOLOGIQUES SOLAIRES;Non renseigné;11/2020
+C0660;Services Voitures Epaves;E-commerce;11/2020
+C0661;Fantastic Mall;E-commerce;11/2020
+C0662;STE D-WEE;Health Tech;11/2020
+C0663;Telum;Logiciel;12/2020
+C0664;Ma Formation Privilee;E-commerce;12/2020
+C0665;AirGraph;Robotique;12/2020
+C0666;LG P;Autre contenu créatif;12/2020
+C0667;WAMIA;E-commerce;12/2020
+C0668;moudda.com;E-commerce;12/2020
+C0669;wiTrade;E-commerce;12/2020
+C0670;SOAR;Health Tech;12/2020
+C0671;Datagram;Big Data;12/2020
+C0672;IBIS Technologies;Agrtech;12/2020
+C0673;Cagronte Fid;E-commerce;12/2020
+C0674;Smarth;Logiciel;12/2020
+C0675;NetShake;EdTech;12/2020
+C0676;Go Staff;Health Tech;12/2020
+C0677;Kn_Traffic;Autre contenu créatif;12/2020
+C0678;Bridge ITops;Logiciel;12/2020
+C0679;WARM;E-commerce;12/2020
+C0680;LEEVVA Communication;Telecom;12/2020
+C0681;BasketID;Fintech;12/2020
+C0682;Key Software;Logiciel;12/2020
+C0683;BAIT;Logiciel;12/2020
+C0684;The Mission;EdTech;12/2020
+C0685;instead;Fintech;12/2020
+C0686;MICRO DEVICE TUNISA;IoT;12/2020
+C0687;Droopex;Logistique;12/2020
+C0688;OnePack;EdTech;12/2020
+C0689;Omaris Wood;Autre contenu créatif;12/2020
+C0690;OMNIUP;Marketing;12/2020
+C0691;إبراهيم الدين - VirtuA Agency;Autre contenu créatif;12/2020
+C0692;EVO ENERGIZE;IoT;12/2020
+C0693;Pabitel.tn;Logiciel;12/2020
+C0694;Jood Lab;Logiciel;12/2020
+C0695;World Wide Security;Autre contenu créatif;12/2020
+C0696;Mat7irech;Mobile;12/2020
+C0697;Flow;Fintech;12/2020
+C0698;Menutium;Logiciel;01/2021
+C0699;Mymall.tn;E-commerce;01/2021
+C0700;XQuant Software;Fintech;01/2021
+C0701;Medquick;E-commerce;01/2021
+C0702;7 healthcare;Health Tech;01/2021
+C0703;Cognira Tunisia;AI;01/2021
+C0704;Linkedfishers/Hookedup;Plateforme Sociale;01/2021
+C0705;SeaBot;IoT;01/2021
+C0706;Ms. Marion;E-commerce;01/2021
+C0707;WKE par FLEXITEK;Logiciel;01/2021
+C0708;e-Scola;EdTech;01/2021
+C0709;Tinith IBPM Automation Booster;Logiciel;01/2021
+C0710;Pulpetech;AI;01/2021
+C0711;MineClap;Logistique;01/2021
+C0712;FinBudd.com;EdTech;01/2021
+C0713;YAGRI;Agritech;01/2021
+C0714;Arabclassroom;EdTech;01/2021
+C0715;Smart Racing Hub;Autre contenu créatif;01/2021
+C0716;société Lave'rit;Logistique;01/2021
+C0717;Arty;E-commerce;01/2021
+C0718;PLUS WEB Solutions;Plateforme Sociale;01/2021
+C0719;AREAS (Agro Responsible Ecologic African Services);Agritech;01/2021
+C0720;EZ-TOOL;Logiciel;01/2021
+C0721;e-dengri;Plateforme Sociale;01/2021
+C0722;JEY;IoT;01/2021
+C0723;SMARTravel;Logiciel;01/2021
+C0724;HiMyCoach.com;Plateforme Sociale;01/2021
+C0725;Itialus Fidexia North Africa;Autre contenu créatif;01/2021
+C0726;zeromate;Gaming;01/2021
+C0727;Koodys / Thor System;Logiciel;01/2021
+C0728;Chill&Lit;E-commerce;01/2021
+C0729;Overlapping UVs;Autre contenu créatif;01/2021
+C0730;ABC Dev;Logiciel;01/2021
+C0731;BOXSTOP;Logistique;01/2021
+C0732;Expert Team Tunisie;EdTech;02/2021
+C0733;Medikadvisor;Health Tech;02/2021
+C0734;UNIK CHIK;E-commerce;02/2021
+C0735;LUNAR EPS;Logiciel;02/2021
+C0736;AOS INTERNATIONAL;Cleantech;02/2021
+C0737;FelCloud;Telecom;02/2021
+C0738;Ste Magicube Industrie;Autre contenu créatif;02/2021
+C0739;Bepeep Health;Insurance Tech;02/2021
+C0740;WARENA;Gaming;02/2021
+C0741;LA FIBRE ARTISANALE;E-commerce;02/2021
+C0742;Handmade Tunisia;E-commerce;02/2021
+C0743;Kartago Dattes Snacks, Ingredients and Extracts;Agritech;02/2021
+C0744;BYEISSA;E-commerce;02/2021
+C0745;VISTASY;Health Tech;02/2021
+C0746;HOPE HORIZON;AI;02/2021
+C0747;Picstore;E-commerce;02/2021
+C0748;Fisco;Fintech;02/2021
+C0749;Bridges S.A;Insurance Tech;02/2021
+C0750;Soon Marine;Autre contenu créatif;02/2021
+C0751;BAKO MOTORS;Cleantech;02/2021
+C0752;affipro;Marketing;02/2021
+C0753;Lait Espoir;Agritech;02/2021
+C0754;Byessa.com;E-commerce;02/2021
+C0755;WaterSec;IoT;02/2021
+C0756;Gelivro;E-commerce;02/2021
+C0757;Konnect;Fintech;02/2021
+C0758;Vetsbook.net;Health Tech;02/2021
+C0759;GARANTY;Insurance Tech;02/2021
+C0760;WMS;IoT;02/2021
+C0761;Coursify;EdTech;02/2021
+C0762;Customing;Energie;02/2021
+C0763;Petit sook;E-commerce;02/2021
+C0764;OCTARYN;AI;02/2021
+C0765;Carhabty.tn;Marketing;02/2021
+C0766;Green Travel Solutions ( Zmorda );E-commerce;02/2021
+C0767;Jobelle;HR;02/2021
+C0768;Amazigh;E-commerce;02/2021
+C0769;Futura energy Tn;Energie;02/2021
+C0770;Ricality;Mobile;02/2021
+C0771;Hello Dati;Autre contenu créatif;02/2021
+C0772;IB Space;Autre contenu créatif;02/2021
+C0773;بﺎﺗﻛ ﺔﻠﺣر _Book Journey;EdTech;02/2021
+C0774;Dev2Dev;Fintech;02/2021
+C0775;Autorent Software;Logiciel;02/2021
+C0776;Healthy And Bnin Food;E-commerce;02/2021
+C0777;Autoecoleplus.tn;Business Software;03/2021
+C0778;Fripeji.tn;Marketplace / e-commerce;03/2021
+C0779;CarHuB-TI;Mobility;03/2021
+C0780;MicroAcess;Mobility;03/2021
+C0781;IMPACT NUTRITION;FoodTech & New Food;03/2021
+C0782;Vife;Health care;03/2021
+C0783;Shipzzer;Business Software;03/2021
+C0784;Freelancy;Marketplace / e-commerce;03/2021
+C0785;Controlmed;Agritech;03/2021
+C0786;Moline;Health care;03/2021
+C0787;Kids protect;Health care;03/2021
+C0788;Drest.tn;Business Software;03/2021
+C0789;Deepth;Health care;03/2021
+C0790;ILEY'COM-مﻛﯾﻟإ;Social Business;03/2021
+C0791;Vitah;Health care;03/2021
+C0792;Skilled;EdTech;03/2021
+C0793;Skills21;EdTech;03/2021
+C0794;Deliv's;FoodTech & New Food;03/2021
+C0795;Bionics;Health care;03/2021
+C0796;Suprem;Creative industry;03/2021
+C0797;Win now;Marketplace / e-commerce;03/2021
+C0798;Art Culture Studio;Creative industry;03/2021
+C0799;Flexipik;Creative industry;03/2021
+C0800;Oxacloud;Business Software;03/2021
+C0801;OLFA cosmetics;Health care;03/2021
+C0802;FIDNESS;Creative industry;03/2021
+C0803;Storyet;Business Software;03/2021
+C0804;TANIT VISION MONITORING;Business Software;03/2021
+C0805;CHIHEB RAIS;TravelTech;03/2021
+C0806;Heni OUNI;Mobility;03/2021
+C0807;Cashyi;Business Software;03/2021
+C0808;Africana Help Export;Services de communication;03/2021
+C0809;Foorsa;Services de communication;03/2021
+C0810;Fintech Tunisia;Fintech;03/2021
+C0811;Montage et intégration d'un système photovoltaïque smart Sun Tracker;Environment;03/2021
+C0812;YOLAA;Marketplace / e-commerce;03/2021
+C0813;Smart Switch Systems;Environment;03/2021
+C0814;E-bin;GreenTech;03/2021
+C0815;PASTECH;Business Software;03/2021
+C0816;Golyc Group;Business Software;03/2021
+C0817;OVVA SYSTEMS;Marketing;03/2021
+C0818;Creometry;Telecom;03/2021
+C0819;REC-INov;Blockchain & cryptocurrency;03/2021
+C0820;CIVITAS DIGITAL;Business Software;03/2021
+C0821;BKMC corp;Autre contenu créatif;03/2021
+C0822;NetShareK Technology;EdTech;03/2021
+C0823;ZeTaByte Software Solutions;Business Software;03/2021
+C0824;EZ-Pass;Mobility;03/2021
+C0825;The Digital Furniture Company;Marketplace / e-commerce;03/2021
+C0826;Konnect Networks;Fintech;03/2021
+C0827;Orhtlane Tunisie;Health care;03/2021
+C0828;TUNISPACE;Marketplace / e-commerce;03/2021
+C0829;Orient Tea;Biotechnologie;03/2021
+C0830;My Enlightened Mind;EdTech;04/2021
+C0831;DEEP FLOWS;Mobility;04/2021
+C0832;Autoween;CreativeTech;04/2021
+C0833;TAWA Digital Talents;Creative industry;04/2021
+C0834;ZIGOFILTRE;Environment;04/2021
+C0835;Taxiora / Smarteo;Mobility;04/2021
+C0836;Tunisie Aquaponie;Agritech;04/2021
+C0837;Ste Tildah;Business Software;04/2021
+C0838;Takwinland;EdTech;04/2021
+C0839;ODIX;Business Software;04/2021
+C0840;Nkawroo;Mobility;04/2021
+C0841;medtrip;Health Care & Wellbeing;04/2021
+C0842;Rednaks;Business Software;04/2021
+C0843;Be Smart Travel;TravelTech;04/2021
+C0844;Reevalo;Real Estate tech;04/2021
+C0845;elbusines.com;Marketplace;04/2021
+C0846;capxvalue;Business Software;04/2021
+C0847;Rania WERDA;Social Business;04/2021
+C0848;Takwira;Plateforme Social;04/2021
+C0849;flexiolar;Environment;04/2021
+C0850;Vizmerald;Creative industry;04/2021
+C0851;Birou Suite;Business Software;04/2021
+C0852;Décotis;Real Estate tech;04/2021
+C0853;MediTek;Health Care & Wellbeing;04/2021
+C0854;MCOM;Business Software;04/2021
+C0855;isondF;Plateforme Social;04/2021
+C0856;Wassaloo;Agritech;04/2021
+C0857;TAWSILA;Mobility;04/2021
+C0858;Paprika Solutions;Creative industry;04/2021
+C0859;Kindeal;EdTech;04/2021
+C0860;School Pack;EdTech;04/2021
+C0861;DataSense;Services de communication;04/2021
+C0862;Marcus Studio;Creative industry;04/2021
+C0863;DIGITIN;Creative industry;04/2021
+C0864;EVADAM;Fintech;04/2021
+C0865;DIMAZINA;Social Business;04/2021
+C0866;KICK LIGHT;Health Care & Wellbeing;04/2021
+C0867;NextAV;Creative industry;04/2021
+C0868;PROTABAR;FoodTech & New Food;04/2021
+C0869;MY-OYA;Marketplace / e-commerce;04/2021
+C0870;"""A7yini"" / CBM-EE";EdTech;04/2021
+C0871;ABONO\FINEX;Business Software;04/2021
+C0872;UNIVERSAL MARKETING;EdTech;04/2021
+C0873;STERECO;Health Care & Wellbeing;04/2021
+C0874;Wimbee;Business Software;04/2021
+C0875;"la ferme bio-écologique pédagogique ""Rissala Kids Farm""";Health Care & Wellbeing;04/2021
+C0876;Looklyoum;Développement personnel;04/2021
+C0877;Check Check;Fintech;04/2021
+C0878;Bee Eyes Tunisia;Services de communication;04/2021
+C0879;VirStand;Services de communication;04/2021
+C0880;MiamMiam;FoodTech & New Food;04/2021
+C0881;3DSky;EdTech;04/2021
+C0882;drone intelligent;Creative industry;04/2021
+C0883;EatHome Resto;FoodTech & New Food;04/2021
+C0884;Alpha Mall;Marketplace;04/2021
+C0885;Direct DK;FoodTech & New Food;04/2021
+C0886;BananaBlue;Plateforme Social;04/2021
+C0887;Lexperto;Plateforme Social;04/2021
+C0888;creances.tn;Fintech;04/2021
+C0889;twansa.tn;Social Business;04/2021
+C0890;EDL;Real Estate tech;04/2021
+C0891;Darenup;Plateforme Social;04/2021
+C0892;Sonia Ben Rejeb;Biotech;04/2021
+C0893;Digi-Hire;Business Software;04/2021
+C0894;SmartShop;Services de communication;04/2021
+C0895;HIPPOCRATES;Health Care & Wellbeing;04/2021
+C0896;CBOT;Services de communication;04/2021
+C0897;SwitchAutomobile;Marketplace;04/2021
+C0898;ija ndhayfek;Social Business;04/2021
+C0899;General Computing Solutions Company;Business Software;04/2021
+C0900;Particulier;Real Estate tech;04/2021
+C0901;Go switch;TravelTech;04/2021
+C0902;InBox;Logistics;04/2021
+C0903;Gestion Environnementale;Creative industry;04/2021
+C0904;ReMotion;Health Care & Wellbeing;04/2021
+C0905;AvatarBooking;Plateforme Social;04/2021
+C0906;Shwoppy;Advanced Manufacturing & Industry;04/2021
+C0907;Educanet Tunisia;EdTech;04/2021
+C0908;G.A.J;GreenTech;05/2021
+C0909;GROW IT YOURSELF;Agritech;05/2021
+C0910;almourabi e-learning;EdTech;05/2021
+C0911;Soul & Planet;Marketplace / e-commerce;05/2021
+C0912;Lakadimia;EdTech;05/2021
+C0913;Laevitas;Fintech;05/2021
+C0914;SESAMm;Fintech;05/2021
+C0915;invented technology;Creative industry;05/2021
+C0916;CAMPUSNA;EdTech;05/2021
+C0917;DIGI-TECH;Services de communication;05/2021
+C0918;MediaMax;Gaming;05/2021
+C0919;Reserv;FoodTech & New Food;05/2021
+C0920;Hémisphère;EdTech;05/2021
+C0921;INOVA WIRELESS;Mobility;05/2021
+C0922;WimbeyondAnalytica;Business Software;05/2021
+C0923;Smarketyrs;Business Software;05/2021
+C0924;SOFI;Marketplace / e-commerce;05/2021
+C0925;Investhune plus;Fintech;05/2021
+C0926;forsaty;Marketplace / e-commerce;05/2021
+C0927;Hubs;Wellness;05/2021
+C0928;CRABHOUSE;FoodTech & New Food;05/2021
+C0929;Sté MASPET;Creative industry;05/2021
+C0930;3D real;Services de communication;05/2021
+C0931;Digital group performance;Services de communication;05/2021
+C0932;Valet Hosting;Services de communication;05/2021
+C0933;Only recommended stays .;TravelTech;05/2021
+C0934;beeton;Services de communication;05/2021
+C0935;Impression 3D et fabrication des imprimantes 3D;Creative industry;05/2021
+C0936;LE GROUPEMENT;Social Business;05/2021
+C0937;PETICHOU;Business Software;05/2021
+C0938;Delifood;FoodTech & New Food;05/2021
+C0939;Speedy;Business Software;05/2021
+C0940;VB SMART;Advanced Manufacturing & Industry;05/2021
+C0941;Home Décor AR;Marketplace / e-commerce;05/2021
+C0942;FUGLAB;Advanced Manufacturing & Industry;05/2021
+C0943;Beauty Addict;Wellness;05/2021
+C0944;Due to Data;Fintech;05/2021
+C0945;LEEVYA Communication;Telecom;05/2021
+C0946;MIH STORE;Marketplace / e-commerce;05/2021
+C0947;SAHTICARE;Healthcare;05/2021
+C0948;WE WORK STUDIO WWS;Marketplace / e-commerce;05/2021
+C0949;Société NOVEL-TI;AI;05/2021
+C0950;KOOL;FoodTech & New Food;06/2021
+C0951;HYDROPEN TECHNOLOGIE;Agritech;06/2021
+C0952;Seabex Middle East and Africa;Agritech;06/2021
+C0953;GO TO MATCH;Gaming;06/2021
+C0954;MARKET360DEGREES;Business Software;06/2021
+C0955;B2B Tunisia;Marketplace / e-commerce;06/2021
+C0956;Agritable;Marketplace / e-commerce;06/2021
+C0957;Ghazela Technology;Business Software;06/2021
+C0958;GDTC;EdTech;06/2021
+C0959;Kabylis;Marketplace / e-commerce;06/2021
+C0960;Dlilek;Plateforme Social;06/2021
+C0961;robotdot;Advanced Manufacturing & Industry;06/2021
+C0962;Provectus;Environment;06/2021
+C0963;AquaDeep;Agritech;06/2021
+C0964;myCarCare;Mobility;06/2021
+C0965;Cooptatio;Social Business;06/2021
+C0966;WIKI ACADEMY SA;Social Business;06/2021
+C0967;Mirva Intertnational Trading;Agritech;06/2021
+C0968;Convergen;Creative industry;06/2021
+C0969;RED LION MATRIX;Services de communication;06/2021
+C0970;TEK4OFFICE;Business Software;06/2021
+C0971;Tunisia's Harvest;Health care;06/2021
+C0972;Escape Room Tunisia;Creative industry;06/2021
+C0973;Roost;Services de communication;06/2021
+C0974;KatYos;Creative industry;06/2021
+C0975;JOBGATE;EdTech;06/2021
+C0976;LE BISCUIT FONCTIONNEL;FoodTech & New Food;06/2021
+C0977;DDC Tunis;Creative industry;06/2021
+C0978;Inaya;Health care;06/2021
+C0979;Digital Deals;Social Business;06/2021
+C0980;ALEXEER Dynamics;Business Software;06/2021
+C0981;Dolce Vita Overseas;Social Business;06/2021
+C0982;Lamikal;Social Business;06/2021
+C0983;VirtoTrip;TravelTech;06/2021
+C0984;SUCCESS STORY;Social Business;06/2021
+C0985;WeFix;Environment;06/2021
+C0986;Sport Land;Social Business;06/2021
+C0987;EDU'COM;EdTech;06/2021
+C0988;Digiflow;Fintech;06/2021
+C0989;SMART SPORTS;Creative industry;06/2021
+C0990;NeoBionics;Health care;06/2021
+C0991;STE YAGRI;Agritech;06/2021
+C0992;IH PAPRITECH;Creative industry;06/2021
+C0993;Eva Dam Technology;Fintech;06/2021
+C0994;Tunisian identity online;Fintech;06/2021
+C0995;STE KTN TRAFFIC;Business Software;06/2021
+C0996;Livrina;Logistique;07/2021
+C0997;Coart Container Creatif;Creative industry;07/2021
+C0998;Hkeya w Ebra;Creative industry;07/2021
+C0999;DROBEE;Agritech;07/2021
+C1000;Vital Tools;Business Software;07/2021
+C1001;Ticketchainer;Business Software;07/2021
+C1002;STE JUNIORS CV;EdTech;07/2021
+C1003;ELBIO;FoodTech & New Food;07/2021
+C1004;Compaktor;Business Software;07/2021
+C1005;2BK Innovation;Environment;07/2021
+C1006;Tiktak PRO;Marketplace / e-commerce;07/2021
+C1007;TRUE DELTA;Marketplace / e-commerce;07/2021
+C1008;Société JPARTENERS TUNISIE SUARL;Logistique;07/2021
+C1009;DORRY;Fintech;07/2021
+C1010;RIBLUM;Environment;07/2021
+C1011;AREMA international;Health care;07/2021
+C1012;Pipeline Studio;Creative industry;07/2021
+C1013;BORNTEQ;Business Software;07/2021
+C1014;Tunisia Home Staging;Creative industry;07/2021
+C1015;Goodif;Fintech;07/2021
+C1016;ECOPOINT;Creative industry;07/2021
+C1017;Nat-Hub / Pikoro;Business Software;07/2021
+C1018;SMARTI'Z;Health care;07/2021
+C1019;Gold Queen;Creative industry;07/2021
+C1020;GUISS;Business Software;07/2021
+C1021;The English Lab;EdTech;07/2021
+C1022;E-pharmacy;Health care;07/2021
+C1023;Levry Food;Marketplace / e-commerce;07/2021
+C1024;Mantouj;Agritech;07/2021
+C1025;KOPRICE;Marketplace / e-commerce;07/2021
+C1026;StockPad;Business Software;07/2021
+C1027;HACHARA Novel Food;FoodTech & New Food;07/2021
+C1028;Swavl;Social Business;07/2021
+C1029;Karhebti;Creative industry;07/2021
+C1030;ELPERMIS;EdTech;07/2021
+C1031;Dokeni;Logistique;07/2021
+C1032;tnmarket;Marketplace / e-commerce;07/2021
+C1033;IBANFIRST TN;Fintech;07/2021
+C1034;TN Smartbot;Creative industry;07/2021
+C1035;Istidama;Environement;07/2021
+C1036;Mrcus Studio;Creative industry;07/2021
+C1037;STE LAVERIT H O;Logistique;07/2021
+C1038;Wassaloo Tunisie;Agritech;07/2021
+C1039;Wimbee Product;Business Software;07/2021
+C1040;KINDEAL EDUCATION;EdTech;07/2021
+C1041;Société de Services pour les Organismes Solidaires;Social Business;07/2021
+C1042;HAKEEMA Pour la Santé;HealthTech;07/2021
+C1043;Société ramzi de stock engineering et gestion de livraison;Marketplace / e-commerce;07/2021
+C1044;SAYARTICARE;Mobility;07/2021
+C1045;MSS GROUP;Business Software;08/2021
+C1046;ARTY COLLECTION;Marketplace;08/2021
+C1047;Smart Ecowico Technology;CyberSecurity;08/2021
+C1048;TŪNIQ;Social Business;08/2021
+C1049;Facstore;EdTech;08/2021
+C1050;Smart Factory Revolution;Advanced Manufacturing & Industry;08/2021
+C1051;istishara;Services de communication;08/2021
+C1052;Tunisia market;Marketplace;08/2021
+C1053;Hayat Tech;Health care;08/2021
+C1054;SkyRanger;Agritech;08/2021
+C1055;Food lab belarabi;FoodTech & New Food;08/2021
+C1056;Softbook;Health care;08/2021
+C1057;Bridge Technology;Business Software;08/2021
+C1058;EMISERV;Advanced Manufacturing & Industry;08/2021
+C1059;BOOSTENO TUNISIE;Services de communication;08/2021
+C1060;Signalétique intelligente / Thor System;Creative industry;08/2021
+C1061;Learnygo;Business Software;08/2021
+C1062;Herbéos;Agritech;08/2021
+C1063;Taxiora Pub;Services de communication;08/2021
+C1064;The Bridge;EdTech;08/2021
+C1065;Talasin;Social Business;08/2021
+C1066;Freeman;Social Business;08/2021
+C1067;ECOclicko;EdTech;08/2021
+C1068;C'mind;Health care;08/2021
+C1069;SUPREMCLOUD TECHNOLOGIES;Creative industry;08/2021
+C1070;ASQII;Health care;08/2021
+C1071;JPARTNERS TUNISIE;Business Software;08/2021
+C1072;Rebound Dev;Plateforme Social;08/2021
+C1073;STE SAMM TEST & AUTOMATION;Robotique;08/2021
+C1074;TADREEX;EdTech;09/2021
+C1075;Urban Green;Agritech;09/2021
+C1076;Unify;Creative industry;09/2021
+C1077;Smartfleet;Business Software;09/2021
+C1078;CUIDA;Health care;09/2021
+C1079;CAIRUS DIGITAL BUSINESS CENTER;Fintech;09/2021
+C1080;Pivlo;Business Software;09/2021
+C1081;D-SIGNALITIQUE;Services de communication;09/2021
+C1082;DIGITAL DRINA;Services de communication;09/2021
+C1083;Jibheli;Mobility;09/2021
+C1084;Meducol;EdTech;09/2021
+C1085;Delivery;Marketplace;09/2021
+C1086;Promo alert;Services de communication;09/2021
+C1087;Mosta9bli;Services de communication;09/2021
+C1088;NETOX;EdTech;09/2021
+C1089;Baazar;Business Software;09/2021
+C1090;STAGGY;Health care;09/2021
+C1091;YARAKA PROTEIN;FoodTech & New Food;09/2021
+C1092;Mediterranean Advanced Marine Engineering;Creative industry;09/2021
+C1093;La Beylicale;FoodTech & New Food;09/2021
+C1094;SOSADRESSE.COM;Services de communication;09/2021
+C1095;iziclaim;Fintech;09/2021
+C1096;Kiné Plus;Health care;09/2021
+C1097;SHYK;Wellness;09/2021
+C1098;Provectus Technology;Advanced Manufacturing & Industry;09/2021
+C1099;STE PERSAVIA;Mobility;09/2021
+C1100;EdTrust;EdTech;09/2021
+C1101;REDUP;Health care;09/2021
+C1102;STE Vizmerald;Advanced Manufacturing & Industry;09/2021
+C1103;Analytix YS;Fintech;09/2021
+C1104;FIVE DELIVERY;FoodTech & New Food;09/2021
+C1105;WELINCO;Services de communication;09/2021
+C1106;Tajrabti;TravelTech;10/2021
+C1107;BaBa Ali;Marketplace;10/2021
+C1108;Pwn & Patch;CyberSecurity;10/2021
+C1109;Ground Transportation Business Management Suite;Mobility;10/2021
+C1110;Limonade Technologies;Fintech;10/2021
+C1111;Domicilier.tn;Business Software;10/2021
+C1112;Tagamuta Valley;Health care;10/2021
+C1113;Pure Beauty Labs;Health care & wellnace;10/2021
+C1114;Ijeni;Marketplace;10/2021
+C1115;JURIDOC;LegalTech;10/2021
+C1116;Faza.tn;Creative industry;10/2021
+C1117;bmoov;Mobility;10/2021
+C1118;Storzy (Myairstorage);Marketplace;10/2021
+C1119;BIESSA AUTO;Marketplace;10/2021
+C1120;Bartita;EdTech;10/2021
+C1121;Quiz Mentor;EdTech;10/2021
+C1122;WaveOn;Creative industry;10/2021
+C1123;Avoconsulte;Marketplace;10/2021
+C1124;VOLUS;Creative industry;10/2021
+C1125;aivataria;Creative industry;10/2021
+C1126;Digipages;FoodTech & New Food;10/2021
+C1127;INNOV'ALGUE;Health care;10/2021
+C1128;chendir;Social Business;10/2021
+C1129;Litteuls;Creative industry;10/2021
+C1130;Tawelti;Business Software;10/2021
+C1131;SNO;Environment;10/2021
+C1132;CHLOROFIN;Marketplace;10/2021
+C1133;Guya Gang;Environment;10/2021
+C1134;i-mouzika;Creative industry;10/2021
+C1135;TIKA CLUB;Fintech;10/2021
+C1136;Hemileco-Plast;Environment;10/2021
+C1137;Organic City;Environment;10/2021
+C1138;The Hub Coworking;Creative industry;10/2021
+C1139;D-carte;Services de communication;10/2021
+C1140;Wassali;Business Software;10/2021
+C1141;Artalk;Marketplace;10/2021
+C1142;Log'In;Mobility;10/2021
+C1143;PROTABAR COM;FoodTech & New Food;10/2021
+C1144;ROBODOT;Advanced Manufacturing & Industry;10/2021
+C1145;Les Ateliers de Yallaa;Social Business;10/2021
+C1146;Z-Partners;Business Software;10/2021
+C1147;Click and Win;Services de communication;10/2021
+C1148;WASSALNI EXPRESS;Mobility;10/2021
+C1149;DIGIZONE;Marketplace;10/2021
+C1150;BIONESSANCE;Healthcare & Wellness;11/2021
+C1151;Festin/Vetcare;Agritech;11/2021
+C1152;WorkPoint / X-Point;Business Software;11/2021
+C1153;"""Ahyini""/ développé par la société CBM-EE (nom commercial : cbm eearning)";Environment;11/2021
+C1154;Livestore;Marketplace;11/2021
+C1155;e-health.tn;Healthcare & Wellness;11/2021
+C1156;Xchange Advisor;Fintech;11/2021
+C1157;Chosa;Business Software;11/2021
+C1158;InspireTech;Advanced Manufacturing & Industry;11/2021
+C1159;Myflix;Business Software;11/2021
+C1160;Rouet;Marketplace;11/2021
+C1161;Coachini;Marketplace;11/2021
+C1162;Farkito;Marketplace;11/2021
+C1163;Smart Detection;Agritech;11/2021
+C1164;LegalTech.tn;Legal Tech;11/2021
+C1165;Rezervini;Business Software;11/2021
+C1166;Digital Health Services & Solutions;Healthcare & Wellness;11/2021
+C1167;yosri ben salah;EdTech;11/2021
+C1168;Vardoc;Healthcare & Wellness;11/2021
+C1169;Halonursery;Agritech;11/2021
+C1170;IGREEN;Environment;11/2021
+C1171;SOLFA;Healthcare & Wellness;11/2021
+C1172;PICTUS CO;Services de communication;11/2021
+C1173;TAMMANI;Healthcare & Wellness;11/2021
+C1174;BOXSTAGE;Creative industry;11/2021
+C1175;Biocare Health;Healthcare & Wellness;11/2021
+C1176;Zriba SPA Thermoludism & Wellness;Healthcare & Wellness;11/2021
+C1177;Falta cycling;Mobility;11/2021
+C1178;MC SCALE UP;Creative industry;11/2021
+C1179;Thbet behi;Business Software;11/2021
+C1180;New Derby;Creative industry;11/2021
+C1181;Funڨi;FoodTech & New Food;11/2021
+C1182;FranchiseLab;Business Software;11/2021
+C1183;ebniecolo.tn;Environment;11/2021
+C1184;Elastic-Solutions;Agritech;11/2021
+C1185;EASYSHIP;Mobility;11/2021
+C1186;RAJJA3 FLOUSSEK;Business Software;11/2021
+C1187;DORRY BIO;Marketplace;11/2021
+C1188;S S S INNOVATION;Marketplace;11/2021
+C1189;Luceor Labs;Services de communication;11/2021
+C1190;Proway CONNECT;Services de communication;11/2021
+C1191;Business Computer Services;Business Software & Services;12/2021
+C1192;Koofin.co;Marketplace;12/2021
+C1193;LoxBox Services;Mobility;12/2021
+C1194;ALGAEPOOL;Agritech;12/2021
+C1195;TUNISIE ENCHERE;Marketplace;12/2021
+C1196;Koors;EdTech;12/2021
+C1197;Shotime;Marketplace;12/2021
+C1198;allcarta;EdTech;12/2021
+C1199;Care-Up;Health care;12/2021
+C1200;lexi;Business Software & Services;12/2021
+C1201;On hand Apps;Business Software & Services;12/2021
+C1202;ZID.tn;Marketplace;12/2021
+C1203;mramma.tn;Proptech;12/2021
+C1204;Data For Brands;Business Software & Services;12/2021
+C1205;Karni;Fintech;12/2021
+C1206;arsek dripbox;Agritech;12/2021
+C1207;Génération de l'hydrogène vert et son application aux stockage et conversion d'énergie;Environment & Energy;12/2021
+C1208;Skanit;Marketplace;12/2021
+C1209;Secret Sucré Kids;Creative industry;12/2021
+C1210;Revampr;AI;12/2021
+C1211;E-Fair;Services de communication;12/2021
+C1212;LeTakeAway;FoodTech & New Food;12/2021
+C1213;Arkan;Marketplace;12/2021
+C1214;AIFOG;Services de communication;12/2021
+C1215;Evidens;Advanced Manufacturing & Industry;12/2021
+C1216;Baddal;Social Business;12/2021
+C1217;Smart cube store;Advanced Manufacturing & Industry;12/2021
+C1218;GreenEdge;Creative industry;12/2021
+C1219;Polygone-learning;Health care;12/2021
+C1220;Pixii motors;Mobility;12/2021
+C1221;julapi;Marketplace;12/2021
+C1222;Innovant Screen Flex;Services de communication;12/2021
+C1223;Dlilek Network;Marketplace;12/2021
+C1224;KIDZOOLINK;EdTech;12/2021
+C1225;DEV and DATAOPS;Services de communication;12/2021
+C1226;STE NIWEES TUNISIA;Marketplace;12/2021
+C1227;"Embedded Solutions and Adcanced Technology ""E.S.A.T""";Advanced Manufacturing & Industry;12/2021
+C1228;We Code;EdTech;12/2021
+C1229;RAIS / SMART QUALITY GATE;Business Software & Services;01/2022
+C1230;Kinko;Mobility;01/2022
+C1231;Lavocato;Business Software & Services;01/2022
+C1232;ArtForNess;Marketplace;01/2022
+C1233;GoPayzi;Fintech;01/2022
+C1234;Above Creation;Business Software & Services;01/2022
+C1235;Tomobile Store;Mobility;01/2022
+C1236;Ostool;Mobility;01/2022
+C1237;Karriery;EdTech;01/2022
+C1238;PolyPath HealthTech Company;Health tech & wellbeing;01/2022
+C1239;Iysaal;Business Software & Services;01/2022
+C1240;Survey Fibre & Civil;Services de communication;01/2022
+C1241;Tryppy;Creative industry;01/2022
+C1242;maginater;Creative industry;01/2022
+C1243;ZNet-IT;Health tech & wellbeing;01/2022
+C1244;Sté Carcoliva;Agritech;01/2022
+C1245;Birdhouce;Creative industry;01/2022
+C1246;H2S;Health tech & wellbeing;01/2022
+C1247;Pharmadis;Health tech & wellbeing;01/2022
+C1248;Rewav;Creative industry;01/2022
+C1249;IPOLY STUDIO;Creative industry;01/2022
+C1250;LOCA BNB;TravelTech;01/2022
+C1251;Dawyny;Health tech & wellbeing;01/2022
+C1252;AgroGrowth;Agritech;01/2022
+C1253;Fluffy Food;FoodTech & New Food;01/2022
+C1254;Skillias;EdTech;01/2022
+C1255;DJubatusR;Business Software & Services;01/2022
+C1256;Evoo;Business Software & Services;01/2022
+C1257;Agazone;Agritech;01/2022
+C1258;ActivXtract;Agritech;01/2022
+C1259;CORADASH;Health tech & wellbeing;01/2022
+C1260;Shyk Voyage;Marketplace;01/2022
+C1261;STE DINEOMED SOLUTIONS;Health tech & wellbeing;01/2022
+C1262;AI REC;Fintech;01/2022
+C1263;Pivlo Technologies;Business Software & Services;01/2022
+C1264;SOCIETE CREATOR HUNTER;Creative industry;01/2022
+C1265;Géo Solutions Technologie;Mobility;01/2022
+C1266;Expensya Tunisie;Fintech;01/2022
+C1267;Nqollek Haja;Social Business;02/2022
+C1268;Trivaw;TravelTech;02/2022
+C1269;Kumulus;Environment/Energie;02/2022
+C1270;Kiddo;EdTech;02/2022
+C1271;Qr Menu;FoodTech & New Food;02/2022
+C1272;Foodoo.tn;FoodTech & New Food;02/2022
+C1273;Clic to know;EdTech;02/2022
+C1274;NEFEL EDUCATION;EdTech;02/2022
+C1275;VIRIBUS CENTER;Services de communication;02/2022
+C1276;SAFE STUDENT;Proptech;02/2022
+C1277;Tunifund;Mobility;02/2022
+C1278;Stile.ai;Creative industry;02/2022
+C1279;Digix;Social Business;02/2022
+C1280;STE COACHINI;Services de communication;02/2022
+C1281;SECRET SUCRE KIDS;Creative industry;02/2022
+C1282;WEDTECT;Agritech;02/2022
+C1283;DeepVolt;Mobility;03/2022
+C1284;FINBUDD;EdTech;03/2022
+C1285;smic;Health tech & wellbeing;03/2022
+C1286;LOGIMES;BusinessSoftware & Services;03/2022
+C1287;Water4all;Environment/Energie;03/2022
+C1288;CRAWN;Health tech & wellbeing;03/2022
+C1289;SMARTOOLS;Fintech;03/2022
+C1290;ecn.tn;EdTech;03/2022
+C1291;StyleLinker;Social Business;03/2022
+C1292;Atlas Security Tunisia;BusinessSoftware & Services;03/2022
+C1293;Pineapple Studio & Shop;Consumer Products & Services;03/2022
+C1294;Start Line Skills;Creative industry;03/2022
+C1295;Chatbot.tn;Consumer Products & Services;03/2022
+C1296;Relead;Creative industry;03/2022
+C1297;TUILABS;Legal Tech;03/2022
+C1298;Marinus;Advanced Manufacturing & Industry;03/2022
+C1299;Tunisie Bartering;Plateforme Sociale;03/2022
+C1300;Trigo;Environment/Energie;03/2022
+C1301;كرﺎﺟ / Jarek;FoodTech & New Food;03/2022
+C1302;Meetart;Creative industry;03/2022
+C1303;Digital Fiber Solutions;Services de communication;03/2022
+C1304;Terminal22;Advanced Manufacturing & Industry;03/2022
+C1305;Proxifleet;Business Software & Services;03/2022
+C1306;CAIRUS BUSINESS GROUP;Fintech;03/2022
+C1307;SKANIT DIGITAL SOLUTIONS;FoodTech & New Food;03/2022
+C1308;Rythminno;EdTech;03/2022
+C1309;bqube;Business Software & Services;04/2022
+C1310;SPOFUN;Wellness;04/2022
+C1311;WAY CARE;Consumer Products & Services;04/2022
+C1312;Finansya Ecosystem;Business Software & Services;04/2022
+C1313;VAL BIO DECHETS COMPOSITE;Environment/Energie;04/2022
+C1314;INSTAWARE;Advanced Manufacturing & Industry;04/2022
+C1315;Digihunt;Business Software & Services;04/2022
+C1316;Digital work solutions;Business Software & Services;04/2022
+C1317;INNOROV;Advanced Manufacturing & Industry;04/2022
+C1318;Saptun l'ERP du futur;Business Software & Services;04/2022
+C1319;Basket of art;Marketplace;04/2022
+C1320;AB AUDIT;Business Software & Services;04/2022
+C1321;Flouse;Fintech;04/2022
+C1322;CG-Box;Business Software & Services;04/2022
+C1323;Kasero;FoodTech & New Food;04/2022
+C1324;Oostoora;Advanced Manufacturing & Industry;04/2022
+C1325;E-commerce Tunsia beauty;Marketplace;04/2022
+C1326;All Tounsi;Marketplace;04/2022
+C1327;Parkey;Mobility;04/2022
+C1328;GOtrial;Consumer Products & Services;04/2022
+C1329;VARWARE;Health tech & wellbeing;04/2022
+C1330;Legaltech;Fintech;04/2022
+C1331;Palmotek;Agritech;05/2022
+C1332;AUZY;HealthTech & wellbeing;05/2022
+C1333;FINWEDGE MEA;Fintech;05/2022
+C1334;Soledu;EdTech;05/2022
+C1335;Beenomi;Real Estate Tech;05/2022
+C1336;MONSAPO;Environment/Energie;05/2022
+C1337;Irbe7;EdTech;05/2022
+C1338;EquiBooster;Plateforme Sociale;05/2022
+C1339;Auto Sans Risque;Consumer products and services;05/2022
+C1340;Fluoink Nanotechnologies;Advanced Manufacturing & Industry;05/2022
+C1341;Bakourat;Agritech;05/2022
+C1342;Njano;Business Software & Services;05/2022
+C1343;womia;HealthTech & wellbeing;05/2022
+C1344;Vectors;Business Software & Services;05/2022
+C1345;Staffiny;Business Software & Services;05/2022
+C1346;Olivier Zone;Agritech;05/2022
+C1347;LEDISON;Advanced Manufacturing & Industry;05/2022
+C1348;rdv B;Consumer products and services;05/2022
+C1349;Le Lemon Tour;TravelTech;05/2022
+C1350;minwin;HealthTech & wellbeing;05/2022
+C1351;TUNISIA BAITS;Agritech;05/2022
+C1352;Hayvan World;HealthTech & wellbeing;05/2022
+C1353;Développement d'un biomédicament anti-obésité;HealthTech & wellbeing;05/2022
+C1354;SimExperience;Advanced Manufacturing & Industry;05/2022
+C1355;We Talk Food;Creative industry;05/2022
+C1356;Verdeline;Commerce and shopping;05/2022
+C1357;DR.WELL;HealthTech & wellbeing;05/2022
+C1358;KARIA;Consumer products and services;05/2022
+C1359;ABC FORMATION;EdTech;05/2022
+C1360;Kardily;Fintech;05/2022
+C1361;LearnySlide;Business Software & Services;05/2022
+C1362;BOXI;Creative industry;05/2022
+C1363;Digital Deals Group;Commerce and shopping;05/2022
+C1364;B2fine;Commerce and shopping;05/2022
+C1365;Adeekt;Creative industry;05/2022
+C1366;KTEB;Commerce and shopping;05/2022
+C1367;Carthago3D;Advanced Manufacturing & Industry;05/2022
+C1368;New Life Babies;Consumer products and services;05/2022
+C1369;Hawkar;Mobility;05/2022
+C1370;Rooly s;Mobility;05/2022
+C1371;REVAMPR INTELLIGENCE;Creative industry;05/2022
+C1372;IYSSAL AMENA;Business Software & Services;05/2022
+C1373;Sophia software solutions;FoodTech & New Food;05/2022
+C1374;STE MRAMMA TN;Proptech;05/2022
+C1375;3M GLOBAL OPERATIONS ASSOCIATES;Business Software & Services;05/2022
+C1376;Sté WEBCOMING;Plateforme Sociale;05/2022
+C1377;Cytekia;CyberSecurity;06/2022
+C1378;ERWINI;Agritech;06/2022
+C1379;DIGMACO;Business Software & Services;06/2022
+C1380;Lisssen;Creative industry;06/2022
+C1381;Comporoll;Environment/Energie;06/2022
+C1382;Abneam;Commerce Shopping;06/2022
+C1383;Bakoo;Social Business;06/2022
+C1384;LASERSEVEN;Advanced Manufacturing & Industry;06/2022
+C1385;E-Tafakna;Legal Tech;06/2022
+C1386;khallasli;Fintech;06/2022
+C1387;BIGDATIS;Real Estate Tech;06/2022
+C1388;WiseVision;Business Software and services;06/2022
+C1389;CargoWeen;Business Software and service;06/2022
+C1390;Docinov;HealthTech;06/2022
+C1391;HUBS TRAVEL;TravelTech;06/2022
+C1392;Sougui;Commerce and shopping;06/2022
+C1393;TuniBionics;HealthTech;06/2022
+C1394;IrriApp;Agritech;06/2022
+C1395;IGIDER;CyberSecurity;06/2022
+C1396;DEFOULI;TravelTech;06/2022
+C1397;hormiga;Ad Tech and Creative Tech;06/2022
+C1398;MAHLENI;Business Software and services;06/2022
+C1399;chachia;Commerce and shopping;06/2022
+C1400;Ingenious labs;Business Software and services;06/2022
+C1401;WeaveLines;Business Software and services;06/2022
+C1402;STE EDEN ENGINEERING;Advanced Manufacturing & Robotics;06/2022
+C1403;Ostedhy;EdTech;06/2022
+C1404;tawalancer;Business Software and services;06/2022
+C1405;weerise;Business Software and services;06/2022
+C1406;gifty.tn;Commerce and shopping;06/2022
+C1407;DigiQuorum;Business Software and services;06/2022
+C1408;Zhezi;Commerce and shopping;06/2022
+C1409;eHealthBridge;HealthTech;06/2022
+C1410;WANIS;HealthTech;06/2022
+C1411;Bjomla;Commerce and shopping;06/2022
+C1412;Courskamp;EdTech;06/2022
+C1413;Gros.tn;Commerce and shopping;06/2022
+C1414;Skill ZONE;EdTech;06/2022
+C1415;Khelel.tn;Commerce and shopping;06/2022
+C1416;Collaborative smartools;Fintech;06/2022
+C1417;Saptun Solution;Business Software & Services;06/2022
+C1418;CONTROL-MED;AgriTech;06/2022
+C1419;Pet Pals;Creative industry;07/2022
+C1420;Contratou;Business Software & Services;07/2022
+C1421;Vintage Bae Studio;Commerce & Shopping;07/2022
+C1422;Swieq;Ad Tech and Creative Tech;07/2022
+C1423;INTERMISSA VENOM;Wellness;07/2022
+C1424;TripAware;TravelTech;07/2022
+C1425;SMARTY;EdTech;07/2022
+C1426;Shopy Science;Business Software & Services;07/2022
+C1427;VENARI SECURITY TUN...;CyberSecurity;07/2022
+C1428;Tabaani;TravelTech;07/2022
+C1429;O2W;Business Software & Services;07/2022
+C1430;Energy expert team c...;Environment/Energie;07/2022
+C1431;International Highwa...;EdTech;07/2022
+C1432;eDATA;Business Software & Services;07/2022
+C1433;Pozitron;Mobility;07/2022
+C1434;IZAGRI;Agritech;07/2022
+C1435;TAOO;Fintech;07/2022
+C1436;AquaNergy;Environment/Energie;07/2022
+C1437;Power solution;Environment/Energie;07/2022
+C1438;FinConnect Financial...;Fintech;07/2022
+C1439;Taw Taw Delivery;Mobility;07/2022
+C1440;Nero;Agritech;07/2022
+C1441;Projet BoGo;Communication services;07/2022
+C1442;Projet de production...;Environment/Energie;07/2022
+C1443;AERO CCF;Social Business;07/2022
+C1444;ireveal;Communication services;07/2022
+C1445;DENGRY619;Commerce and shopping;07/2022
+C1446;3annn;Ad Tech and Creative Tech;07/2022
+C1447;PUBAG;Communication services;07/2022
+C1448;KADRA NOVA BIOTECOIN;Environment/Energie;07/2022
+C1449;Get UP;Mobility;07/2022
+C1450;Never Lost;Mobility;07/2022
+C1451;SD Innovation;EdTech;07/2022
+C1452;Golden Hour;Ad Tech and Creative Tech;07/2022
+C1453;Tnker;Consumer products and services;07/2022
+C1454;Pas Comme Eux Entert...;Communication services;07/2022
+C1455;Atlas Mobility Platf...;Mobility;07/2022
+C1456;Valideeny;Business Software & Services;07/2022
+C1457;BMS TECHNOLOGY;FoodTech & New Food;07/2022
+C1458;POLYPATH HEALTH COMPANY;Health care;07/2022
+C1459;Tryppy Light;Creative industry;07/2022
+C1460;SmarDac;Environment/Energie;08/2022
+C1461;Miam!;Business Software & Services;08/2022
+C1462;HEROI;Ad Tech and Creative Tech;08/2022
+C1463;Slidzo;FoodTech & New Food;08/2022
+C1464;The Vastlight Platform;Business Software & Services;08/2022
+C1465;Rivezli.tn;EdTech;08/2022
+C1466;Elevage des abeilles pour la collecte de leurs venins pour des fins cosmétiques et thérapeutiques;HealthTech;08/2022
+C1467;Moovin360;Communication services;08/2022
+C1468;Waf Waf House;Consumer products and services;08/2022
+C1469;Thnity;Mobility;08/2022
+C1470;CapsaFood;Mobility;08/2022
+C1471;cell pulse;HealthTech;08/2022
+C1472;Innovega;Agritech;08/2022
+C1473;Tabachir Games;EdTech;08/2022
+C1474;Caminova;HealthTech;08/2022
+C1475;Meeda la table connectée destinée à votre usage intérieur et extérieur.;Consumer products and services;08/2022
+C1476;WiseBoard;Fintech;08/2022
+C1477;Mraabila;Social Business;08/2022
+C1478;Boosty/Almoshtari;Social Business;08/2022
+C1479;Axifraud;Business Software and services;08/2022
+C1480;Hadooc;Business Software and services;08/2022
+C1481;MSS CONSULTING;Business Software and services;08/2022
+C1482;Pure Juice;FoodTech & New Food;08/2022
+C1483;DocShipper;Consumer products and services;08/2022
+C1484;Matmour;Agritech;08/2022
+C1485;Meal_is_ Deal;Wellness;08/2022
+C1486;Edutech;Ad Tech and Creative Tech;08/2022
+C1487;Popeye's;FoodTech & New Food;08/2022
+C1488;SANAATY-T;Consumer products and services;08/2022
+C1489;Go Switch Home;TravelTech;08/2022
+C1490;Dream for fun;Business Software and services;08/2022
+C1491;Muziget;Consumer products and services;08/2022
+C1492;A.M.I.S.;HealthTech;08/2022
+C1493;AQDHILI;Mobility;08/2022
+C1494;Finconnect Financial Solutions;FinTech;08/2022
+C1495;LINKERS IT;Social Business;08/2022
+C1496;CLICK TO KNOW;EdTech;08/2022
+C1497;NJANOO;Business Software & Services;08/2022
+C1498;AROTEQ;Consumer Product & Services;09/2022
+C1499;Super Senses;Business Software & Services;09/2022
+C1500;Teligencia.io;CyberSecurity;09/2022
+C1501;Pedalo;Business Software & Services;09/2022
+C1502;DSAP (Data System Analysis Platform);Ad Tech and Creative Tech;09/2022
+C1503;Lissene-نﺎﺳﻟ;EdTech;09/2022
+C1504;QUANTA TN;Business Software & Services;09/2022
+C1505;Screenflex;Ad Tech and Creative Tech;09/2022
+C1506;El Fallega;TravelTech;09/2022
+C1507;dyno;FinTech;09/2022
+C1508;Storycraft;Ad Tech and Creative Tech;09/2022
+C1509;Oceanus;Environment;09/2022
+C1510;Kayotica;Ad Tech and Creative Tech;09/2022
+C1511;Bitaqa.tn;Business Software and services;09/2022
+C1512;CHLORIS Flowers;Consumer products and services;09/2022
+C1513;Sefer;Mobility;09/2022
+C1514;AZRO EVENTS;TravelTech;09/2022
+C1515;DABy Go;Fintech;09/2022
+C1516;DATUM;Ad Tech and Creative Tech;09/2022
+C1517;karhebti / sociéte :CHIRON;Consumer products and services;09/2022
+C1518;ABBK Physicsworks;Ad Tech and Creative Tech;09/2022
+C1519;Viore digital;Business Software and services;09/2022
+C1520;Sellkit;Commerce and shopping;09/2022
+C1521;Home Decor AR;Consumer products and services;09/2022
+C1522;Noir Ou Blanc;Ad Tech and Creative Tech;09/2022
+C1523;Opus;Business Software and services;09/2022
+C1524;PINUS;Agritech;09/2022
+C1525;HealthyGO;FoodTech & New Food;09/2022
+C1526;Flyss;Fintech;09/2022
+C1527;STEMA-Do;EdTech;09/2022
+C1528;taxi commande;Mobility;09/2022
+C1529;DentistUP;HealthTech;09/2022
+C1530;Tijara Lab;Communication services;09/2022
+C1531;Caduceus Company;Business Software and services;09/2022
+C1532;Cabello;Commerce and shopping;09/2022
+C1533;Easy Bank;Fintech;09/2022
+C1534;Poc Store;Commerce and shopping;09/2022
+C1535;SOCIETE INFOSQUARE TUNISIE;Business Software and services;09/2022
+C1536;Si-Gounda;Fintech;09/2022
+C1537;STE Vivia Clinical Network;HealthTech & wellbeing;09/2022
+C1538;Offensylab;CyberSecurity;09/2022
+C1539;moovin 360;Services de communication;09/2022
+C1540;Mini Jobi;Business Software & Services;09/2022
+C1541;KWIK;Commerce & Shopping;10/2022
+C1542;Brandee;Business Software & Services;10/2022
+C1543;Quenzi;Consumer Product & Services;10/2022
+C1544;STE Birdhouce;Consumer Product & Services;10/2022
+C1545;Queney Tunisie;Business Software & Services;10/2022
+C1546;Watto;Fintech;10/2022
+C1547;ContyFind;Business Software & Services;10/2022
+C1548;DIGITAL CITY INNOVATION;Social Business;10/2022
+C1549;KARMA;Business Software & Services;10/2022
+C1550;X-Mall;Commerce & Shopping;10/2022
+C1551;MRC SURVEY;Business Software & Services;10/2022
+C1552;"Color and Natural Extracts ""C-Nexts""";FoodTech & New Food;10/2022
+C1553;Coloc'Qui;PropTech;10/2022
+C1554;First Master Class;EdTech;10/2022
+C1555;chilift;Wellness;10/2022
+C1556;BIOTOPE / SmartEcolo;Environment;10/2022
+C1557;EUROMAGHREB BUSINESS CENTER;Business Software & Services;10/2022
+C1558;SK Tech;Fintech;10/2022
+C1559;YILDIZ BUSINESS TRAVEL;TravelTech;10/2022
+C1560;Open Mind Academy;Communication Services;10/2022
+C1561;Dailymaps;Ad Tech and Creative Tech;10/2022
+C1562;Ia4Med;HealthTech;10/2022
+C1563;Ukla;Consumer products and services;10/2022
+C1564;NovEV;Mobility;10/2022
+C1565;Prime Profs;EdTech;10/2022
+C1566;DRESTEK ( Destination Revenue Strategy Technologies);TravelTech;10/2022
+C1567;Rendez-vous RDV;Social Business;10/2022
+C1568;Digex;Commerce & Shopping;10/2022
+C1569;Upmarket;Communication services;10/2022
+C1570;KANTARA;Business Software & Services;10/2022
+C1571;ﺔﺑرﺟﺗﻟا شﯾﻋ / Ich Tajerba;EdTech;10/2022
+C1572;Shipper Network;Commerce & Shopping;10/2022
+C1573;AMIGO;Mobility;10/2022
+C1574;Vectors Software;Business Software & Services;10/2022
+C1575;Wise Board;Fintech;10/2022
+C1576;Meeda Inc;Consumer Product & Services;10/2022
+C1577;Foodoo Nutrition;FoodTech & New Food;11/2022
+C1578;AMAL XR;HealthTech;11/2022
+C1579;Shape;EdTech;11/2022
+C1580;Elokencia;Services de communication;11/2022
+C1581;Mon Ingénieur Express;Business Software & Services;11/2022
+C1582;Rendez vous;Consumer products and services;11/2022
+C1583;DeepAI;Ad Tech and Creative Tech;11/2022
+C1584;YARI;HealthTech;11/2022
+C1585;FeedIn;AgriTech;11/2022
+C1586;Firma Solutions;AgriTech;11/2022
+C1587;Planet Dev;Social Business;11/2022
+C1588;OTOSPEX;Business Software and services;11/2022
+C1589;ID grouping&connect;HealthTech;11/2022
+C1590;PRO'FIT;Consumer products and services;11/2022
+C1591;Dentallx;HealthTech;11/2022
+C1592;EPI GreenVision;Environment;11/2022
+C1593;Plateformance;Business Software and services;11/2022
+C1594;FTM;Ad Tech and Creative Tech;11/2022
+C1595;MIZZA;Business Software and services;11/2022
+C1596;Stardust.tn;Commerce and shopping;11/2022
+C1597;Smart Factory;Advanced Manufacturing & Robotics;11/2022
+C1598;tracetech;Advanced Manufacturing & Robotics;11/2022
+C1599;ANZAR;Real Estate Tech;11/2022
+C1600;wecoloc;Real Estate Tech;11/2022
+C1601;Livmo;TravelTech;11/2022
+C1602;Paymoi;Business Software and services;11/2022
+C1603;Education à l'entrepreneuriat pour les adolescents;EdTech;11/2022
+C1604;Nēo;FinTech;11/2022
+C1605;Lendi;FinTech;11/2022
+C1606;D-carte solutions;Business Software & Services;11/2022
+C1607;Ste BITAQA TN;Business Software & Services;11/2022
+C1608;Wisevision Artificial Intelligence Technologies;Business Software & Services;11/2022
+C1609;ITOps Bridge;Business Software & Services;11/2022
+C1610;SOUGUI E-SHOP;Commerce and shopping;11/2022
+C1611;Denarius Payment Services;FinTech;11/2022
+C1612;Deltabionic;Advanced Manufacturing & Robotics;11/2022
+C1613;STE OCEANUSTART;Environment;11/2022
+C1614;Dyxis;Business Software & Services;12/2022
+C1615;Petsigo;HealthTech;12/2022
+C1616;LIPONOV;HealthTech;12/2022
+C1617;Asterkid;Business Software & Services;12/2022
+C1618;KADRA NOVA - KN نﺋﺎﻛ;Environment/Energie;12/2022
+C1619;Jemolio;Consumer Product & Services;12/2022
+C1620;Yoteqi;Social Business;12/2022
+C1621;Taskflow;Mobility;12/2022
+C1622;Papi'Pets;FoodTech & New Food;12/2022
+C1623;SunAir Fountain® : Générateur d’eau de boisson atmosphérique par le solaire;Environment;12/2022
+C1624;Tennex Tunisie;Business Software & Services;12/2022
+C1625;WeMiam HappyTeams;EdTech;12/2022
+C1626;Cava.tn;Commerce and shopping;12/2022
+C1627;FastCharging;Mobility;12/2022
+C1628;SamRise;Business Software & Services;12/2022
+C1629;OREADZ;Consumer products and services;12/2022
+C1630;Laboratoire HYGIE;HealthTech;12/2022
+C1631;Culinary;FoodTech & New Food;12/2022
+C1632;Fabriquer les produits électroniques;Consumer products and services;12/2022
+C1633;Aram Clinic;HealthTech;12/2022
+C1634;AsOne4Health;HealthTech;12/2022
+C1635;Canadin;Business Software & Services;12/2022
+C1636;Achref Bejaoui;Advanced Manufacturing & Robotics;12/2022
+C1637;TGL - The German Lab;EdTech;12/2022
+C1638;MTM SOLUTIONS;Business Software & Services;12/2022
+C1639;Siraj'Tech;Environment;12/2022
+C1640;Chfamma Ftour;FoodTech & New Food;12/2022
+C1641;Marsix;Consumer products and services;12/2022
+C1642;TerraÏne;FoodTech & New Food;12/2022
+C1643;Baktrain Solutions;Agritech;12/2022
+C1644;Taw Taw Group;Mobility;12/2022
+C1645;DOTS TECHNOLOGY;Consumer products and services;12/2022
+C1646;Karma solution;Business Software & Services;12/2022
+C1647;EDATA WAREHOUSE;Business Software & Services;12/2022
+C1648;Feed In Green;Agritech;12/2022
+C1649;Dooda;FoodTech & New Food;01/2023
+C1650;Crop's Talk;Agritech;01/2023
+C1651;IASOTWIN;HealthTech;01/2023
+C1652;Smart For Green: Farm and Forest Fire Protection;Agritech;01/2023
+C1653;DigiMove;EdTech;01/2023
+C1654;Boky;TravelTech;01/2023
+C1655;Train Your Mind;HealthTech;01/2023
+C1656;Mouqawel;Business Software & Services;01/2023
+C1657;Link Park;Business Software & Services;01/2023
+C1658;URBAN DANCE;Wellness;01/2023
+C1659;Hbibty Market;FoodTech & New Food;01/2023
+C1660;BusinessChat;Business Software & Services;01/2023
+C1661;YASLINE ENGINEERING;Business Software & Services;01/2023
+C1662;LIGHTRESA;TravelTech;01/2023
+C1663;KLAP;Ad Tech and Creative Tech;01/2023
+C1664;AGROVAL PLUS;EdTech;01/2023
+C1665;Watar cover;Advanced Manufacturing & Robotics;01/2023
+C1666;Le dépanneur;Consumer Product & Services;01/2023
+C1667;COLISPO;TravelTech;01/2023
+C1668;Modèle SHE;Wellness;01/2023
+C1669;clik2read/MIP Livrel;EdTech;01/2023
+C1670;fulfillmentbridge;Business Software & Services;01/2023
+C1671;Machind Fitness;Consumer Product & Services;01/2023
+C1672;IZ AGRI;Agritech;01/2023
+C1673;Dyno & Motiva Systems;Fintech;01/2023
+C1674;Thnity Maas;Mobility;01/2023
+C1675;OPKODERLABS;Mobility;01/2023
+C1676;YARI PROJECT;HealthTech;01/2023
+C1677;WHEELZ;Mobility;01/2023
+C1678;XTENDPLEX S A R L;Ahmed Ben Hamouda Hassan Cheriha;01/2023
+C1679;Linkivia;HealthTech;02/2023
+C1680;Replic-A;Business Soware and services;02/2023
+C1681;Tunisian Campers;Wellness;02/2023
+C1682;Tsiwrat Stock;Ad Tech and Creave Tech;02/2023
+C1683;Advantry X;Advanced Manufacturing & Robocs;02/2023
+C1684;KOM YA;Commerce and shopping;02/2023
+C1685;My Brain;HealthTech;02/2023
+C1686;TOF: Tyres On Fire;Ad Tech and Creave Tech;02/2023
+C1687;cercina.ai;Ad Tech and Creave Tech;02/2023
+C1688;Grün Skincare;Wellness;02/2023
+C1689;Xpro;Agritech;02/2023
+C1690;Giy.tn;Commerce and shopping;02/2023
+C1691;Ziwziw Family Friend ﺔﻠﺋﺎﻌﻟا ﻖﻳﺪﺻ ﻮزﻮز;EdTech;02/2023
+C1692;COADIS;Advanced Manufacturing & Robocs;02/2023
+C1693;Thiqab;Business Soware and services;02/2023
+C1694;Cerf.tn;Ad Tech and Creave Tech;02/2023
+C1695;ITEM TUNISIA;Advanced Manufacturing & Robocs;02/2023
+C1696;Addval Soluons;Business Soware and services;02/2023
+C1697;Ukka;Ad Tech and Creave Tech;02/2023
+C1698;Arfis;Commerce and shopping;02/2023
+C1699;Afar tunisie;Commerce and shopping;02/2023
+C1700;Moneymakr;EdTech;02/2023
+C1701;NER;Real Estate Tech;02/2023
+C1702;NEWAY Soluons;Business Soware and services;02/2023
+C1703;booky;EdTech;02/2023
+C1704;Tunisie Colis;Business Soware and services;02/2023
+C1705;EyTecFarm;Agritech;02/2023
+C1706;Voltat Technologies;Mobility;02/2023
+C1707;SOCIETE SAGUEDNI;Mobility;02/2023
+C1708;BLUEPSOL;Environment;02/2023
+C1709;SOCIETE INNOVEGA;Agritech;02/2023
+C1710;Workly Hub;Business Soware and Services;02/2023
+C1711;BEE SPRING;Wellness;02/2023
+C1712;Avempace SARL;Haythem Boughzala Abdelhamid Kerkeni;02/2023
+C1713;OSTELFLOW;TravelTech;03/2023
+C1714;Tunarco;Advanced Manufacturing & Industry;03/2023
+C1715;Gloristory;Ad Tech and Creative Tech;03/2023
+C1716;CIVILAB;Ad Tech and Creative Tech;03/2023
+C1717;DLSgaming;EdTech;03/2023
+C1718;Detavoon;HealthTech;03/2023
+C1719;Laboratoire SCI;Wellness;03/2023
+C1720;Contigo Booking Events;Consumer Product & Services;03/2023
+C1721;Innovation production Services;Advanced Manufacturing & Industry;03/2023
+C1722;ARRIMA-AGRITECH;Agritech;03/2023
+C1723;Probe.tn;HealthTech;03/2023
+C1724;MIGsens;Environment;03/2023
+C1725;iTrend;Business Software and services;03/2023
+C1726;RAF TELCOS;Fintech;03/2023
+C1727;Digify;EdTech;03/2023
+C1728;Green foods traiteur vegan;Consumer products and services;03/2023
+C1729;Bridella;Commerce and shopping;03/2023
+C1730;Curve & Smiles;HealthTech;03/2023
+C1731;DEKORTIK PLUS;Real Estate Tech;03/2023
+C1732;HIVE;Business Software and services;03/2023
+C1733;Studenty;EdTech;03/2023
+C1734;DourbIA;TravelTech;03/2023
+C1735;CourZelo;EdTech;03/2023
+C1736;ASTlab (Art, Science and Technology Lab);Ad Tech and Creative Tech;03/2023
+C1737;Parkito;Fintech;03/2023
+C1738;Loesa ( ةزﯾوﻟ );Commerce and shopping;03/2023
+C1739;ImproBrain;HealthTech;03/2023
+C1740;Smart Maintenance & Control;Ad Tech and Creative Tech;03/2023
+C1741;InstaLink;Advanced Manufacturing & Robotics;03/2023
+C1742;Ai Cv Lab;Ad Tech and Creative Tech;03/2023
+C1743;SOK'ARI;HealthTech;03/2023
+C1744;Doulicha;TravelTech;03/2023
+C1745;Zarty;Commerce and shopping;03/2023
+C1746;SPADES;Business Software and services;03/2023
+C1747;Imova;Real Estate Tech;03/2023
+C1748;Digitalimmo;Real Estate Tech;03/2023
+C1749;DM NOVA;EdTech;03/2023
+C1750;ELINA DEV;Social Business;03/2023
+C1751;JEUCIJAN;Commerce and shopping;03/2023
+C1752;Bi'nergy;Environment;04/2023
+C1753;ONECLOUD;Business Software & Services;04/2023
+C1754;ECOFEED Tunisie;FoodTech & New Food;04/2023
+C1755;Servini;Business Software & Services;04/2023
+C1756;Pas Comme Eux;Environment;04/2023
+C1757;H eco ferme;Environment;04/2023
+C1758;Xgenbox;Commerce & Shopping;04/2023
+C1759;The Package Center;Commerce and shopping;04/2023
+C1760;Bytale Games;Ad Tech and Creative Tech;04/2023
+C1761;Oriwood/ Entreprise Wahy artisan du bois;Consumer products and services;04/2023
+C1762;Teachica;EdTech;04/2023
+C1763;NORMA TUNISIE;Fintech;04/2023
+C1764;SURVIVE RESILIENCE;Business Software and services;04/2023
+C1765;droplocal.ai;Commerce and shopping;04/2023
+C1766;souk elfalleh;Agritech;04/2023
+C1767;Twansa;Ad Tech and Creative Tech;04/2023
+C1768;Karhabti.app;Business Software and services;04/2023
+C1769;Kosmos technologies;Agritech;04/2023
+C1770;IrWise;Agritech;04/2023
+C1771;Alifa;Social Business;04/2023
+C1772;Conception, formulation et production de dispositifs pharmaceutiques à base de principes actifs de plantes aromatiques et médicinales pour le;HealthTech;04/2023
+C1773;traitement des altérations cutanées iRnafnecdteéves et non infectées.;Consumer products and services;04/2023
+C1774;Beitary;HealthTech;04/2023
+C1775;GET BIG FAST;Business Software and services;04/2023
+C1776;WEeFARM;Agritech;04/2023
+C1777;ShooFu;Consumer products and services;04/2023
+C1778;halli.tn;Commerce and shopping;04/2023
+C1779;Noah;Commerce and shopping;04/2023
+C1780;BME-Power;Ad Tech and Creative Tech;04/2023
+C1781;ECORISE;Business Software and services;04/2023
+C1782;trymyculture;TravelTech;04/2023
+C1783;BiBin;EdTech;04/2023
+C1784;Metamax;Business Software and services;04/2023
+C1785;goodbye;Communication services;04/2023
+C1786;AI WITH YOU;Wellness;04/2023
+C1787;Au delà du Bio;Agritech;04/2023
+C1788;BE beverages;FoodTech & New Food;04/2023
+C1789;verified authentic;Consumer products and services;04/2023
+C1790;Acalainer;EdTech;05/2023
+C1791;Live Metrics;Business Software and services;05/2023
+C1792;FALKU;Advanced Manufacturing & Robotics;05/2023
+C1793;Time and Money Tracker;Fintech;05/2023
+C1794;Deepnrise;Business Software and services;05/2023
+C1795;2Y2S;EdTech;05/2023
+C1796;Gigsdesk;Business Software and services;05/2023
+C1797;Lyceena;EdTech;05/2023
+C1798;INFINITE;Mobility;05/2023
+C1799;SMOFT;Business Software and services;05/2023
+C1800;Wildkard;Wellness;05/2023
+C1801;Ecobees;Agritech;05/2023
+C1802;BFP;Environment;05/2023
+C1803;immersion3D;Ad Tech and Creative Tech;05/2023
+C1804;Green Card;Business Software and services;05/2023
+C1805;South Fruits;Agritech;05/2023
+C1806;Djerba Digital;Business Software and services;05/2023
+C1807;E-KMANDI;Business Software and services;05/2023
+C1808;EasyBank;Fintech;05/2023
+C1809;Jhonny Bikes;Mobility;05/2023
+C1810;Arzaak;Social Business;05/2023
+C1811;Tunisie RGPD;Business Software and services;05/2023
+C1812;Elevage des insectes (nutri-protéine);FoodTech & New Food;05/2023
+C1813;HelpyGo;Consumer products and services;05/2023
+C1814;OneGlobb;Business Software and services;05/2023
+C1815;Multiverse AI;Business Software and services;05/2023
+C1816;lingerie.tn;Commerce and shopping;05/2023
+C1817;Lanci.io;Consumer products and services;05/2023
+C1818;Ontej;Communication services;05/2023
+C1819;Ethic Data;Ad Tech and Creative Tech;05/2023
+C1820;Orizon Booking;Consumer products and services;05/2023
+C1821;EYE-SPY SECURITY;Security;05/2023
+C1822;My3DClothes;Commerce and shopping;05/2023
+C1823;fabrication de papier minéral;Envionment;05/2023
+C1824;Creativecontent;Ad Tech and Creative Tech;05/2023
+C1825;algoRyhthme;Agritech;05/2023
+C1826;SmartPay;Fintech;05/2023
+C1827;DEEPAI Artificial Intelligence and Softwares;Ad Tech & Creative Tech;05/2023
+C1828;ALIFA FOR ANIMAL WELL BEING;Social Business;05/2023
+C1829;STE OTOSPEX SOULTIONS;Consumer Products & Services;05/2023
+C1830;Cercina Artificial Intelligence;Ad Tech & Creative Tech;05/2023
+C1831;National Smart For Green Solutions and Applications;Agritech;05/2023
+C1832;cookit;FoodTech & New Food;06/2023
+C1833;Bionic Soul;Healthtech;06/2023
+C1834;Rackham;Business Software and services;06/2023
+C1835;Proximabel Development;Security;06/2023
+C1836;TuniMeet;Omar Saif Eddin Gorrab Mohamed Halaili;06/2023
+C1837;www.kawanin.com;khaled sfar Mehdi Aloulou Elyes Gaigi;06/2023
+C1838;ARKHOU-DRONE;Advanced Manufacturing & Robotics;06/2023
+C1839;OPUS LAB;EdTech;06/2023
+C1840;LeanTex;Advanced Manufacturing & Robotics;06/2023
+C1841;GymSwitch;Wellness;06/2023
+C1842;Colisnet;Business Software and services;06/2023
+C1843;Expy.ai;Business Software and services;06/2023
+C1844;SKINPHILOSOPHY;Wellness;06/2023
+C1845;Car Box;Consumer Products & Services;06/2023
+C1846;So Green;Environment;06/2023
+C1847;TuniToonz;EdTech;06/2023
+C1848;ENER ZED;Environment;06/2023
+C1849;CamGoal;Ad Tech and Creative Tech;06/2023
+C1850;Chicify;Commerce and shopping;06/2023
+C1851;Book Pickups;TravelTech;06/2023
+C1852;Ommi;Social Business;06/2023
+C1853;Padel Up;Wellness;06/2023
+C1854;AntiBioGen;Healthtech;06/2023
+C1855;Travelween;TravelTech;06/2023
+C1856;SIGORO;Fintech;06/2023
+C1857;RGPD Tunisie;Business Software & Services;06/2023
+C1858;A.M.I.S. RESEARCH;HealthTech;06/2023
+C1859;LABORATOIRE HRIZ PHARMA;Agritech;06/2023
+C1860;ITREND TECHNOLOGY;Business Software & Services;06/2023
+C1861;Easy Finance Corporate;Fintech;06/2023
+C1862;UNDERSCORE;HealthTech;06/2023
+C1863;IHSCEN for Startups;Business Software and services;07/2023
+C1864;FININFO SOLUTIONS;Fintech;07/2023
+C1865;Damdoum;Ad Tech & Creative Tech;07/2023
+C1866;Block plus plus;Fintech;07/2023
+C1867;La Galerie VR;Communication Services;07/2023
+C1868;Ghramna / Digital Drina;Communication services;07/2023
+C1869;Xtendmind / Novea;HealthTech;07/2023
+C1870;PeaceSight;TravelTech;07/2023
+C1871;SahEAT;FoodTech & New Food;07/2023
+C1872;UWAS;TravelTech;07/2023
+C1873;Schwaus;Advanced Manufacturing & Robotics;07/2023
+C1874;HulpAI;Business Software and services;07/2023
+C1875;Smarting Serve;Business Software and services;07/2023
+C1876;PTITAPTIT;Consumer products and services;07/2023
+C1877;Clic Holidays;TravelTech;07/2023
+C1878;ORcompost;Agritech;07/2023
+C1879;United VITO;Business Software and services;07/2023
+C1880;SUCCESS STUDY;Consumer products and services;07/2023
+C1881;NetConf;Ad Tech and Creative Tech;07/2023
+C1882;ReBoS;Environment;07/2023
+C1883;SAVEE;FoodTech & New Food;07/2023
+C1884;nivanta;Business Software and services;07/2023
+C1885;E-mima food;FoodTech & New Food;07/2023
+C1886;Fabrication des produits électroniques;Consumer products and services;07/2023
+C1887;Sea Safe;Security;07/2023
+C1888;Vivlio;Communication services;07/2023
+C1889;Barsha Food;FoodTech & New Food;07/2023
+C1890;TOUTA;EdTech;07/2023
+C1891;Arès;EdTech;07/2023
+C1892;MSSYNDIC.com;Consumer products and services;07/2023
+C1893;Waqt Tech;Consumer Products and Services;07/2023
+C1894;AGUA DE SOL TUNISIE;Environment;07/2023
+C1895;MOBYERA;Mobility;07/2023
+C1896;HS WARE;Advanced Manufacturing & Robotics;07/2023
+C1897;Tym Solutions;HealthTech;07/2023
+C1898;Digi Portal;Business Software and services;07/2023
+C1899;Expy;Business Software and services;07/2023
+C1900;Académie artisanal Arzaak;Social Business;07/2023
+C1901;Scaylab;Business Software and services;08/2023
+C1902;SD Academy;EdTech;08/2023
+C1903;Deep Camp;EdTech;08/2023
+C1904;clik2read/MIPLIVREL;EdTech;08/2023
+C1905;sellya.net;Commerce and shopping;08/2023
+C1906;Verse;Commerce and shopping;08/2023
+C1907;Drop'n Go;Consumer products and services;08/2023
+C1908;HygieSys;Environment;08/2023
+C1909;FIDELIUM;Consumer products and services;08/2023
+C1910;WOLO;Ad Tech and Creative Tech;08/2023
+C1911;Elodox;HealthTech;08/2023
+C1912;Restojob;Business Software and services;08/2023
+C1913;Yolyc;Real estate Tech;08/2023
+C1914;GMT International;Communication services;08/2023
+C1915;EagleEye;Business Software and services;08/2023
+C1916;BTG : Bridging The Gap;Ad Tech and Creative Tech;08/2023
+C1917;ZMEN;Ad Tech and Creative Tech;08/2023
+C1918;dash sports;Welllness;08/2023
+C1919;Tutwide;EdTech;08/2023
+C1920;Modhif;Real Estate Tech;08/2023
+C1921;TIE-UP;Consumer products and services;08/2023
+C1922;nextview;Real Estate Tech;08/2023
+C1923;AlloFermli;Healthtech;08/2023
+C1924;IPPO;Advanced Manufacturing & Robotics;08/2023
+C1925;Kardili;Business Software and services;08/2023
+C1926;ste vetalyst tech solution;HealthTech;08/2023
+C1927;Be Synchro;Ad Tech & Creative Tech;08/2023
+C1928;MK Talent;EdTech;08/2023
+C1929;Lean Manufacturing Company;Advanced Manufacturing & Robotics;08/2023
+C1930;Gifty;Commerce & Shopping;08/2023
+C1931;Wemake3D;Advanced Manufacturing & Robotics;09/2023
+C1932;Dopawin;Communication services;09/2023
+C1933;MAKTOUB TECHNOLOGIES ET SERVICES;Communication services;09/2023
+C1934;Dactylos Service;Communication services;09/2023
+C1935;d-talk;Ad Tech and Creative Tech;09/2023
+C1936;HAT Information Security Corporate;Security;09/2023
+C1937;Inspark;EdTech;09/2023
+C1938;Abajim.com;EdTech;09/2023
+C1939;ProteiNew;Agritech;09/2023
+C1940;Line Analyzer;Ad Tech and Creative Tech;09/2023
+C1941;Digi-QAL;Business Software and services;09/2023
+C1942;Virtu-Lab;EdTech;09/2023
+C1943;Neural Genie;Ad Tech and Creative Tech;09/2023
+C1944;Elsabuy;Consumer products and services;09/2023
+C1945;Docnet;HealthTech;09/2023
+C1946;investy;Communication services;09/2023
+C1947;IDOS DIGITAL;Business Software and services;09/2023
+C1948;Car Supervision;Mobility;09/2023
+C1949;MyAuto;Commerce and shopping;09/2023
+C1950;SuperFactorial;Business Software and services;09/2023
+C1951;Growth Starter : Plateforme de marketing digital et SEO;Business Software and services;09/2023
+C1952;Autom8;Consumer products and services;09/2023
+C1953;Sayart;Communication services;09/2023
+C1954;SARBINI;FoodTech & New Food;09/2023
+C1955;AIO EVENTS;Business Software and services;09/2023
+C1956;Coccinelle Green;Mobility;09/2023
+C1957;Weventis;Social Business;09/2023
+C1958;Felbis.ai;Business Software and services;09/2023
+C1959;Myprint;Commerce and shopping;09/2023
+C1960;MData One;Business Software and services;09/2023
+C1961;TracklyGo;Mobility;09/2023
+C1962;MY EASY TRANSFER;Fintech;09/2023
+C1963;Ambition Study;Consumer Products and Services;09/2023
+C1964;Cell Pulse Harmony;HealthTech;09/2023
+C1965;SPINSHARE;Wellness;09/2023
+C1966;Sellya Technologies;Commerce & Shopping;09/2023
+C1967;Venus Zora Pharm;HealthTech;09/2023
+C1968;HygieSys Solutions for better tomorrow;Environment;09/2023
+C1969;Tunealgo;Consumer Products and Services;09/2023
+C1970;SmartShift;Business Software and services;10/2023
+C1971;ShippingLog;Mobility;10/2023
+C1972;COLLARY;Business Software and services;10/2023
+C1973;SEA DESIGN LAB/OUTA;Environment;10/2023
+C1974;Empowair;TravelTech;10/2023
+C1975;xscan;Business Software and services;10/2023
+C1976;CHITELIX;Agritech;10/2023
+C1977;Tadwir;Consumer products and services;10/2023
+C1978;Saydalid;HealthTech;10/2023
+C1979;Techno Shark;HealthTech;10/2023
+C1980;Emyehr;Business Software and services;10/2023
+C1981;SILVER-MADE CONSULTING;Security;10/2023
+C1982;LAND WASH;Environment;10/2023
+C1983;HIPPOMED AI;Healthtech;10/2023
+C1984;TBRL;Ad Tech and Creative Tech;10/2023
+C1985;C&S EoleAvia;Communication services;10/2023
+C1986;AquaWise Solutions;Advanced Manufacturing & Robotics;10/2023
+C1987;The pointing graphical tablet;Advanced Manufacturing & Robotics;10/2023
+C1988;Gori'fit;Wellness;10/2023
+C1989;GOATech;Business Software and services;10/2023
+C1990;myparcel.tn;Business Software and services;10/2023
+C1991;Tadaa;Business Software and services;10/2023
+C1992;KYTOSAN TECHNOLOGIES;Agritech;10/2023
+C1993;Haven;Business Software and services;10/2023
+C1994;DigiStract;HealthTech;10/2023
+C1995;Buy and Save;Commerce and shopping;10/2023
+C1996;EdgeCube;Consumer products and services;10/2023
+C1997;The New Generation : For high energy kids;EdTech;10/2023
+C1998;Maktba.tn;Commerce and shopping;10/2023
+C1999;Éyalla;TravelTech;10/2023
+C2000;Leadership 4.0;Business Software and services;11/2023
+C2001;ApiShield;Agritech;11/2023
+C2002;ProtiBox / Kosmos Tech Innovation;Agritech;11/2023
+C2003;CarNet;Mobility;11/2023
+C2004;NeuralBey;Business Software and services;11/2023
+C2005;BE-SIYESSAH;Ad Tech and Creative Tech;11/2023
+C2006;Intake;HealthTech;11/2023
+C2007;BRAIN-TEK;Business Software and services;11/2023
+C2008;Digital Catering Solution;Business Software and services;11/2023
+C2009;Deelshop;Consumer products and services;11/2023
+C2010;K-EYES;Business Software and services;11/2023
+C2011;BRIDGE IT;Business Software and services;11/2023
+C2012;Vocalyst;Business Software and services;11/2023
+C2013;STOREX;Business Software and services;11/2023
+C2014;X-Green;Mobility;11/2023
+C2015;WeeCode Development;EdTech;11/2023
+C2016;withe shark kayak;Ad Tech and Creative Tech;11/2023
+C2017;BuzzBip;Ad Tech and Creative Tech;11/2023
+C2018;LES ÉDITIONS IRIS;EdTech;11/2023
+C2019;BIM STRATEGY;Real Estate Tech;11/2023
+C2020;TestWize;Business Software and services;11/2023
+C2021;Mntly;FoodTech & New Food;11/2023
+C2022;VRmersion;HealthTech;11/2023
+C2023;Orion;Real Estate Tech;11/2023
+C2024;AhlaBik;Commerce and shopping;11/2023
+C2025;Chanvision;Business Software and services;11/2023
+C2026;Mellekher;Commerce and shopping;11/2023
+C2027;GAMAPPS;Environment;11/2023
+C2028;ORcompost solutions naturelles;Agritech;11/2023
+C2029;Société internationale d'élevages des espèces nutri protein;FoodTech & New Food;11/2023
+C2030;FORCE DE VENTE DIGITAL;Business Software and services;11/2023
+C2031;Top Nearshore;Business Software and services;12/2023
+C2032;Link 2 Grow Network;Business Software and services;12/2023
+C2033;Vesna Biotech;HealthTech;12/2023
+C2034;DATABLIC;Communication services;12/2023
+C2035;UCOD;Business Software and services;12/2023
+C2036;MOOM;Social Business;12/2023
+C2037;RSE Time;Business Software and services;12/2023
+C2038;South Fruits Agri;Agritech;12/2023
+C2039;Hippomed Entreprise SA;HealthTech;12/2023
+C2040;Contractzlab;Business Software and services;12/2023
+C2041;Uvey;Fintech;12/2023
+C2042;Tanit.ai;HealthTech;12/2023
+C2043;JIOTIFY;Agritech;12/2023
+C2044;IOT Bridges;Business Software and services;12/2023
+C2045;DeviceSpeak;Consumer products and services;12/2023
+C2046;WLEDI;Business Software and services;12/2023
+C2047;mypharmacy. tn/Sharedpharma;HealthTech;12/2023
+C2048;Gorilla;Ad Tech and Creative Tech;12/2023
+C2049;Magic nature;Consumer products and services;12/2023
+C2050;Food Safety;Business Software and services;12/2023
+C2051;BRANDYU (application mobile).;Communication services;12/2023
+C2052;Domaine El Htouba;Consumer products and services;12/2023
+C2053;OLINDIAS;Business Software and services;12/2023
+C2054;Kridipay;Fintech;12/2023
+C2055;Afrique vapeur;Consumer products and services;12/2023
+C2056;ADDEL;Social Business;12/2023
+C2057;TIKTAK CV;Business Software and services;12/2023
+C2058;Ad. Mall;Commerce and shopping;12/2023
+C2059;Tanit Corporate Solutions;Fintech;12/2023
+C2060;Doken;Ad Tech and Creative Tech;12/2023
+C2061;E-NERGIZE;Mobility;12/2023
+C2062;Olive Oil Connection;Commerce and shopping;12/2023
+C2063;Icecubex;FoodTech & New Food;12/2023
+C2064;Wittverse;Business Software and services;12/2023
+C2065;ANCA BOX;HealthTech;12/2023
+C2066;Cyra Auto Tunisie;Business Software and services;12/2023
+C2067;EVOPACK BIO;Advanced Manufacturing & Robotics;12/2023
+C2068;NutriCode;HealthTech;12/2023
+C2069;OPUSLAB EdTECH;EdTech;12/2023
+C2070;OCEAN SOFT;Business Software and services;12/2023
+C2071;Catchy;Communication services;01/2024
+C2072;Atome Academy;EdTech;01/2024
+C2073;ALIDADE;Business Software and services;01/2024
+C2074;Hi Interns;Business Software and services;01/2024
+C2075;Pedago;EdTech;01/2024
+C2076;FlexyFleet;Mobility;01/2024
+C2077;kortable;Ad Tech and Creative Tech;01/2024
+C2078;COSMETIQUE BIO-PHYTO;HealthTech;01/2024
+C2079;Caire Health AI;HealthTech;01/2024
+C2080;officent;Business Software and services;01/2024
+C2081;InnoDeep;HealthTech;01/2024
+C2082;Qualimaker;Business Software and services;01/2024
+C2083;eco Gwatring;Agritech;01/2024
+C2084;VISIMEDIA;Communication services;01/2024
+C2085;Quokka Agency;Communication services;01/2024
+C2086;Karthago Machine;Ad Tech and Creative Tech;01/2024
+C2087;Everwed;Commerce and shopping;01/2024
+C2088;lebondeal;Commerce and shopping;01/2024
+C2089;AIPenetraGuard;Security;01/2024
+C2090;Discover Tunisia;Ad Tech and Creative Tech;01/2024
+C2091;Ticka;Commerce and shopping;01/2024
+C2092;Festime;Consumer products and services;01/2024
+C2093;BNJMO;Business Software and services;01/2024
+C2094;Qrisp;Business Software and services;01/2024
+C2095;ExpatEase;Consumer products and services;01/2024
+C2096;WeeTest;Communication services;01/2024
+C2097;ZINA;Ad Tech and Creative Tech;01/2024
+C2098;HART Gaming;EdTech;01/2024
+C2099;OCTOMIRO;Business Software and services;01/2024
+C2100;COHEALTH;HealthTech;01/2024
+C2101;VLSoft;EdTech;01/2024
+C2102;Code Pro Qr;Business Software and services;01/2024
+C2103;D Customized Solution;Business Software and services;01/2024
+C2104;SupplyzPro;Business Software and services;02/2024
+C2105;ConvergenceAI;Business Software and services;02/2024
+C2106;TRUSTABLE;Security;02/2024
+C2107;Spooky And Diva;FoodTech & New Food;02/2024
+C2108;eduhelper;EdTech;02/2024
+C2109;BiBoo Children's planet;Social Business;02/2024
+C2110;eyodoo;Business Software and services;02/2024
+C2111;Moncoin;Advanced Manufacturing & Robotics;02/2024
+C2112;PlagPrevent;EdTech;02/2024
+C2113;Ligne 13;Commerce and shopping;02/2024
+C2114;Student Life Style;EdTech;02/2024
+C2115;ParkiHouni;Business Software and services;02/2024
+C2116;Cherry ERP;Business Software and services;02/2024
+C2117;WeenPan;Consumer products and services;02/2024
+C2118;Dari;Real Estate Tech;02/2024
+C2119;La réalité augmentée au service de la médecine;HealthTech;02/2024
+C2120;Owlinks;Real Estate Tech;02/2024
+C2121;Averroes Software;Business Software and services;02/2024
+C2122;brinnovat blockhaus;Advanced Manufacturing & Robotics;02/2024
+C2123;KAÏNAU;Consumer products and services;02/2024
+C2124;NAÂMÀ;FoodTech & New Food;02/2024
+C2125;Solar Chain;Fintech;02/2024
+C2126;YallaPlay;Social Business;02/2024
+C2127;CarCare;Business Software and services;02/2024
+C2128;Erp indusoft;Business Software and services;02/2024
+C2129;2BM - Business Builder by MedSirat;Business Software and services;02/2024
+C2130;Bolt Pick-Up;Mobility;02/2024
+C2131;MyMy;Fintech;02/2024
+C2132;Royaume d'amande;FoodTech & New Food;02/2024
+C2133;SKILLS 4 AFRICA;Social Business;02/2024
+C2134;COOP'ESS;Social Business;02/2024
+C2135;Flavor Med Fish;Environment;02/2024
+C2136;Tunisia Podcasts;Communication services;03/2024
+C2137;XtendMedical par XtendMind;HealthTech;03/2024
+C2138;Société : Learnset / Premier projet : Medset;EdTech;03/2024
+C2139;OrderTech;Business Software and services;03/2024
+C2140;ROUNDESK TECHNOLOGIE;Business Software and services;03/2024
+C2141;CNM Community Hub;Business Software and services;03/2024
+C2142;EuroVet Veterinaire;HealthTech;03/2024
+C2143;Deevium;Business Software and services;03/2024
+C2144;Foootly;Wellness;03/2024
+C2145;mekadesk.com;Business Software and services;03/2024
+C2146;Innoway Solutions;Business Software and services;03/2024
+C2147;Green wall;Agritech;03/2024
+C2148;AGARUW HUB;Environment;03/2024
+C2149;CC - Colombus Capital, The Infinite Trust;Fintech;03/2024
+C2150;MSSyndic;Consumer products and services;03/2024
+C2151;Responsible Cyber;Security;03/2024
+C2152;Speedy ERP;Business Software and services;03/2024
+C2153;OPTOSCOPIA Intelligent Diagnostic Analyzers;HealthTech;03/2024
+C2154;LUNETTEC;HealthTech;03/2024
+C2155;Noumeo Solutions;HealthTech;03/2024
+C2156;AIBC;Business Software and services;03/2024
+C2157;TRENA;Wellness;03/2024
+C2158;Mozolang;EdTech;03/2024
+C2159;éco-lavage;Consumer products and services;03/2024
+C2160;SM Business;Consumer products and services;03/2024
+C2161;a'BroadStudent;EdTech;03/2024
+C2162;ServiDrone Solutions;Agritech;03/2024
+C2163;Twiza;Consumer products and services;03/2024
+C2164;Kidso;Communication services;03/2024
+C2165;Ehdilou;Commerce and shopping;03/2024
+C2166;Nour Expert Telecom;Ad Tech & Creative Tech;03/2024
+C2167;AltaDigit;Business Software and services;03/2024
+C2168;CHERRY SOFT;Business Software and services;03/2024
+C2169;DQAL;Business Software and services;03/2024
+C2170;xgol;EdTech;04/2024
+C2171;Graines Academy;EdTech;04/2024
+C2172;EASY TRANSFER;Fintech;04/2024
+C2173;conception de biocapteur pour la;HealthTech;04/2024
+C2174;Tissu.tn | Mercerie.tn;Commerce and shopping;04/2024
+C2175;ISTYA NATURAL POOL;Environment;04/2024
+C2176;TunBra;EdTech;04/2024
+C2177;SAFESPHERE;Security;04/2024
+C2178;123booking;TravelTech;04/2024
+C2179;Perro;EdTech;04/2024
+C2180;ACRIDIDEA;FoodTech & New Food;04/2024
+C2181;ALTABIB;HealthTech;04/2024
+C2182;ITri;Environment;04/2024
+C2183;Hapivot;Business Software and services;04/2024
+C2184;R&D=Riders and Drivers;Mobility;04/2024
+C2185;Scale Pro;Business Software and services;04/2024
+C2186;PERMA EMERGENCY ASSISTANCE;Communication services;04/2024
+C2187;Eside;Business Software and services;04/2024
+C2188;MINA;Ad Tech & Creative Tech;04/2024
+C2189;JAWI;FoodTech & New Food;04/2024
+C2190;Vivala Travel;TravelTech;04/2024
+C2191;Uni-Job;EdTech;04/2024
+C2192;Smart Cars Solutions;Ad Tech and Creative Tech;04/2024
+C2193;Loc-Waste;Environment;04/2024
+C2194;Swiftlane;Mobility;04/2024
+C2195;Kickoff;Social Business;04/2024
+C2196;content360;Business Software and services;04/2024
+C2197;Eco Vélo;Mobility;04/2024
+C2198;Charliz;Commerce and shopping;04/2024
+C2199;Torrecarb;Environment;04/2024
+C2200;ROAMINGO;Communication services;04/2024
+C2201;Exam-Craft;EdTech;04/2024
+C2202;Fastoch Car Wash;Consumer products and services;04/2024
+C2203;TrackSite;Business Software and services;04/2024
+C2204;LEBESTY;Commerce and shopping;04/2024
+C2205;COLOMBUS CAPITAL;Fintech;04/2024
+C2206;Tanit HealthCare Technologies;HealthTech;04/2024
+C2207;DentaMeet;HealthTech;05/2024
+C2208;IoTbyte;Consumer products and services;05/2024
+C2209;WeGestU;Business Software and services;05/2024
+C2210;KidzRise;EdTech;05/2024
+C2211;KDM;Environment;05/2024
+C2212;Satisfy Insight;Traveltech;05/2024
+C2213;Volo;Mobility;05/2024
+C2214;tipstalks;Real Estate Tech;05/2024
+C2215;Riven Crown;Ad Tech and Creative Tech;05/2024
+C2216;U!NOW;EdTech;05/2024
+C2217;Tim'ess;Environment;05/2024
+C2218;DRIVOXE.;Ad Tech and Creative Tech;05/2024
+C2219;DAKTARI;HealthTech;05/2024
+C2220;Société livraison ija;Mobility;05/2024
+C2221;Louna;Consumer products and services;05/2024
+C2222;DEGLOLIVA;HealthTech;05/2024
+C2223;AGRONIX;Business Software and services;05/2024
+C2224;Qoon;EdTech;05/2024
+C2225;Mat7irch;Social Platform;05/2024
+C2226;NEXTOOLS;Business Software and services;05/2024
+C2227;Joyness;Wellness;05/2024
+C2228;Keef;FoodTech & New Food;05/2024
+C2229;ADAM DIGITAL CARD;Communication services;05/2024
+C2230;Rewardini;Consumer products and services;05/2024
+C2231;Jek Job;EdTech;05/2024
+C2232;Medidoc;HealthTech;05/2024
+C2233;pathtrail;Ad Tech and Creative Tech;05/2024
+C2234;Alt Doc;HealthTech;05/2024
+C2235;CraftARoom;Business Software and services;05/2024
+C2236;CLUB;Consumer products and services;05/2024
+C2237;Perfect Gen;Ad Tech and Creative Tech;05/2024
+C2238;Smart Farm Solutions;Agritech;05/2024
+C2239;Oratio;Business Software and services;05/2024
+C2240;Numeryx MEA;Business Software and services;05/2024
+C2241;Télésurveillance profonde des patients via une plateforme clinique de suivi médical;HealthTech;05/2024
+C2242;TECHPRO SOLUTION;Business Software and services;05/2024
+C2243;culturify;TravelTech;05/2024
+C2244;R H A development;Consumer Products and Services;05/2024
+C2245;JIOTIFY Solutions;Agritech;05/2024
+C2246;NEXT PROTEIN TUNISIA;Agritech;05/2024
+C2247;Kumeza;Business Software and services;06/2024
+C2248;Guepard;Business Software and services;06/2024
+C2249;PROXECO;Agritech;06/2024
+C2250;Inkylab Technologies;Business Software and services;06/2024
+C2251;Odeev Tennex;Business Software and services;06/2024
+C2252;IDIRIS;Mobility;06/2024
+C2253;Freelances.tn;Business Software and services;06/2024
+C2254;HANDISUCCESS INTERNATIONAL;Social Business;06/2024
+C2255;DAR BLOCKCHAIN;Ad Tech and Creative Tech;06/2024
+C2256;SPR01;Wellness;06/2024
+C2257;CARWAYS;Commerce and shopping;06/2024
+C2258;Astratransit;Business Software and services;06/2024
+C2259;Greeny Soliutions;Agritech;06/2024
+C2260;SYSNAPSUS;HealthTech;06/2024
+C2261;REFLECTION ENGINEERING CONSULTING REC;Business Software and services;06/2024
+C2262;Educap;EdTech;06/2024
+C2263;Data Scale;Business Software and services;06/2024
+C2264;AVATAR ID /THINKNEO;Fintech;06/2024
+C2265;Mariage Tunisie;Ad Tech and Creative Tech;06/2024
+C2266;ITMMA;Consumer products and services;06/2024
+C2267;BATIPRICE;Real Estate Tech;06/2024
+C2268;Craft'y;Commerce and shopping;06/2024
+C2269;Devortex;Environment;06/2024
+C2270;Koonwell;HealthTech;06/2024
+C2271;Kidzy Lab;EdTech;06/2024
+C2272;Econolotech;Environment;06/2024
+C2273;DestockingPartner;Commerce and shopping;06/2024
+C2274;Good Partners Cluster;Social Business;06/2024
+C2275;Ketrone;Commerce and shopping;06/2024
+C2276;Vap Shoes;Consumer products and services;06/2024
+C2277;LACARTECO;Business Software and services;06/2024
+C2278;Estishara;Business Software and services;06/2024
+C2279;MyAmbassador;Business Software and services;06/2024
+C2280;DEFENDR;Business Software and services;06/2024
+C2281;Oscaro;Commerce and shopping;06/2024
+C2282;Société Espoir services assistance des urgences;Mobility;06/2024
+C2283;Officent IT;Business Software and services;06/2024
+C2284;BOOK NOW;TravelTech;06/2024
+C2285;ASTRUM BIOTECH;HealthTech;07/2024
+C2286;Ecojina;Consumer products and services;07/2024
+C2287;FAANG;Business Software and services;07/2024
+C2288;Laboratoires hygie;HealthTech;07/2024
+C2289;Sinister scripts studios;Ad Tech and Creative Tech;07/2024
+C2290;Boukle Waste Management;Environment;07/2024
+C2291;Addvocate AI;Business Software and services;07/2024
+C2292;Odin international services and consulting;Communication services;07/2024
+C2293;Flayes;Consumer products and services;07/2024
+C2294;LR CONFORT MOBILITE;TravelTech;07/2024
+C2295;EduZen;EdTech;07/2024
+C2296;YOPEX;Business Software and services;07/2024
+C2297;ZAYOLI;HealthTech;07/2024
+C2298;Vegana;FoodTech & New Food;07/2024
+C2299;Aventoura;TravelTech;07/2024
+C2300;Paytea;Business Software and services;07/2024
+C2301;Galilei;Ad Tech and Creative Tech;07/2024
+C2302;Bimpack;Business Software and services;07/2024
+C2303;MACONDO ENGINEERING;Fintech;07/2024
+C2304;Infinite communities;Business Software and services;07/2024
+C2305;Smart Escape;TravelTech;07/2024
+C2306;Be-Smart;Ad Tech and Creative Tech;07/2024
+C2307;GERONET;Business Software and services;07/2024
+C2308;yes we can;Fintech;07/2024
+C2309;Barzakh;EdTech;07/2024
+C2310;ThinkAI;Business Software and services;07/2024
+C2311;Cadrini;EdTech;07/2024
+C2312;Sentinelia;Advanced Manufacturing & Robotics;07/2024
+C2313;Dry Rolls;FoodTech & New Food;07/2024
+C2314;PROBOUTIK TUNISIA;Fintech;07/2024
+C2315;HRMAPS;Business Software and services;07/2024
+C2316;twinnoverse;Advanced Manufacturing & Robotics;07/2024
+C2317;SHIPPER;Commerce and shopping;08/2024
+C2318;Smart Gros;Business Software and services;08/2024
+C2319;NextGen Coding;EdTech;08/2024
+C2320;Optypro.net;Business Software and services;08/2024
+C2321;Production d’additifs alimentaires animale et consulting;Agritech;08/2024
+C2322;Kidcare;Security;08/2024
+C2323;Alexis;EdTech;08/2024
+C2324;SYNAPSE-HR;Business Software and services;08/2024
+C2325;Cluebox Tunisia;Business Software and services;08/2024
+C2326;SOCIETE VAERDIA SOLUTIONS;Business Software and services;08/2024
+C2327;DOCTUNITY;HealthTech;08/2024
+C2328;FairConnect MEA;Business Software and services;08/2024
+C2329;Logidoo;Business Software and services;08/2024
+C2330;Flexy stores;Commerce and shopping;08/2024
+C2331;Plateforme Mobile dédiée à la vente et à l'achat d'articles d'occasion pour enfants;Commerce and shopping;08/2024
+C2332;LiteSell;Consumer products and services;08/2024
+C2333;AIGENTLAB;Ad Tech and Creative Tech;08/2024
+C2334;Educfr;EdTech;08/2024
+C2335;UNIGROS;Commerce and shopping;08/2024
+C2336;Switch - Plateforme de diagnostic et de conduite au changement numérique;Business Software and services;08/2024
+C2337;NOMAD Robotics;Mobility;08/2024
+C2338;Biscuify;Commerce and shopping;08/2024
+C2339;Kdayes;Business Software and services;08/2024
+C2340;ClickEvent;Social Business;08/2024
+C2341;TakwirTek;Business Software and services;08/2024
+C2342;nativeads.ai;Ad Tech and Creative Tech;08/2024
+C2343;code.tn;EdTech;08/2024
+C2344;PSYC;HealthTech;08/2024
+C2345;Rcrooter;Business Software and services;08/2024
+C2346;PINE NEEDLES SOLUTION;Environment;08/2024
+C2347;Owlinks Technologies Co;Consumer Products and Services;08/2024
+C2348;SPR 01 Labs;Wellness;08/2024
+C2349;NANOSOFT;Business Software and services;08/2024
+C2350;QUOPROD;Advanced Manufacturing & Robotics;09/2024
+C2351;Converty;Commerce and shopping;09/2024
+C2352;EDUCATE ME;EdTech;09/2024
+C2353;ALDER Green Solutions;Environment;09/2024
+C2354;Hannibal VR;EdTech;09/2024
+C2355;Gifted;Commerce and shopping;09/2024
+C2356;Business Academy;EdTech;09/2024
+C2357;Krypton;Business Software and services;09/2024
+C2358;Order Station;FoodTech & New Food;09/2024
+C2359;CWcloud;Business Software and services;09/2024
+C2360;VYZYOSCHOOL;EdTech;09/2024
+C2361;TerraSens;Agritech;09/2024
+C2362;Syndiki;Real Estate Tech;09/2024
+C2363;Moonlight AI TN;HealthTech;09/2024
+C2364;Rebelink;EdTech;09/2024
+C2365;K-Noon;Fintech;09/2024
+C2366;STE ZURVANET;Agritech;09/2024
+C2367;InnovAir;HealthTech;09/2024
+C2368;Park&Charge by Asteroidea;Mobility;09/2024
+C2369;Quark;Environment;09/2024
+C2370;Boomsnap;Ad Tech and Creative Tech;09/2024
+C2371;Mansour the Rebel Tarinet Village -MRTC REDEEM;Ad Tech and Creative Tech;09/2024
+C2372;sari3;Commerce and shopping;09/2024
+C2373;Assist IT;Business Software and services;09/2024
+C2374;Cogeex;Business Software and services;09/2024
+C2375;Battel Lab;HealthTech;09/2024
+C2376;Slayton;Ad Tech and Creative Tech;09/2024
+C2377;Digi Up Agri;Agritech;09/2024
+C2378;LearnA;EdTech;09/2024
+C2379;wyngo;Mobility;09/2024
+C2380;QuantoTrade;Fintech;09/2024
+C2381;Bio Green Pousses;FoodTech & New Food;09/2024
+C2382;Ailine Pro;Business Software and services;10/2024
+C2383;LR Move;Mobility;10/2024
+C2384;PlayHalla;Ad Tech and Creative Tech;10/2024
+C2385;Renaissance;Commerce and shopping;10/2024
+C2386;Twins;HealthTech;10/2024
+C2387;TOLLXPRESS;Mobility;10/2024
+C2388;Receeto;Chaima Bouslimi Souha Bouslimi Aymen Ben Selma;10/2024
+C2389;Save the Plate;Environment;10/2024
+C2390;SV LAB;Agritech;10/2024
+C2391;mevenda;Commerce and shopping;10/2024
+C2392;In2-Technologies;Selim Hadj Khalifa Ilyes Tlili;10/2024
+C2393;Skazy Tunisia;Business Software and services;10/2024
+C2394;Oop'la;Consumer products and services;10/2024
+C2395;Mathix Academy;EdTech;10/2024
+C2396;AlphaDeep Solutions;Business Software and services;10/2024
+C2397;Retraite en soleil;TravelTech;10/2024
+C2398;RecoLab;EdTech;10/2024
+C2399;imt/tradrly;Ad Tech and Creative Tech;10/2024
+C2400;Zeus Labs;Business Software and services;10/2024
+C2401;Sesamum Nutrition;FoodTech & New Food;10/2024
+C2402;HEALIO;HealthTech;10/2024
+C2403;Holistic babe;Consumer products and services;10/2024
+C2404;Way2Gym;Bilel Benmrad Elyes Ben Rhouma;10/2024
+C2405;PunicWallet;YHaosussinsee mBe Tna bJeibddou Rami Trabelsi;10/2024
+C2406;TODO;Moheb Awichewi;10/2024
+C2407;AnoYcker;Jassem Dahmani;10/2024
+C2408;Clicar;Riahi Thamer Jemaii Belhassen;10/2024
+C2409;SELF NUTRICARE;HealthTech;10/2024
+C2410;SP.one;Communication services;10/2024
+C2411;le cabinet;HealthTech;10/2024
+C2412;MECAMARKET;Commerce and shopping;10/2024
+C2413;Coq Pilot;Ad Tech and Creative Tech;10/2024
+C2414;PASS.tn;Business Software and services;10/2024
+C2415;Mobilia.tn;Business Software and services;10/2024
+C2416;Zenify Trip;Ihsen Mhadhbi Mohamed Ali Frad Sahbi Khalfallah Kantaoui Gallas;10/2024
+C2417;Petrac;Trabelsi Mohamed amine Mohamed Amen Allah Mechri Suzanne Hamden Hamza Ahmad;10/2024
+C2418;Chariotech;Mohamed Yassine Derbel Adem Bouatay Mouhaned Ben Abdelhafidh;10/2024
+C2419;DrugIT;HealthTech;10/2024
+C2420;RYBSEN;Environment;10/2024
+C2421;esteps Health;HealthTech;11/2024
+C2422;CAREDIFY;HealthTech;11/2024
+C2423;Next Wave Industries;Advanced Manufacturing & Robotics;11/2024
+C2424;Mobilité Canada;Business Software and services;11/2024
+C2425;Sheapit;Business Software and services;11/2024
+C2426;9esmi;EdTech;11/2024
+C2427;SKILINK AI;Business Software and services;11/2024
+C2428;WiseShare;Business Software and services;11/2024
+C2429;Lynx-ERP;Business Software and services;11/2024
+C2430;ZKBDI Protocol;Fintech;11/2024
+C2431;OORB Open Organic Robotics;Advanced Manufacturing & Robotics;11/2024
+C2432;MEMORALITY;Business Software and services;11/2024
+C2433;Lura;Business Software and services;11/2024
+C2434;ECOCODE;Business Software and services;11/2024
+C2435;Namlatic;TravelTech;11/2024
+C2436;HAROON;Social Business;11/2024
+C2437;YESS MIND SOLUTIONS;HealthTech;11/2024
+C2438;NEUTRINO;Fintech;11/2024
+C2439;edulysa;EdTech;11/2024
+C2440;OPTIMIZI TECH;FoodTech & New Food;11/2024
+C2441;Magic Real Solution;EdTech;11/2024
+C2442;DEEPROF;EdTech;11/2024
+C2443;Vortex Battle;Ad Tech and Creative Tech;11/2024
+C2444;Designland;Ad Tech and Creative Tech;11/2024
+C2445;NovaPyramidReef-NPR;Environment;11/2024
+C2446;AgricoTech;Agritech;11/2024
+C2447;HEIA;Consumer products and services;11/2024
+C2448;BxB Studio;Ad Tech and Creative Tech;11/2024
+C2449;Nuzhet;EdTech;11/2024
+C2450;NEXD.PM;Business Software and services;11/2024
+C2451;Tak Tak;Mobility;11/2024
+C2452;Doxaria;Business Software and services;11/2024
+C2453;Smart work;Business Software and services;11/2024
+C2454;NOURRICO;FoodTech & New Food;11/2024
+C2455;Blend Pixel Studio;Consumer products and services;11/2024
+C2456;PayTouch OÜ ( Point of Sales );Fintech;11/2024
+C2457;Millim;Consumer products and services;12/2024
+C2458;T7D Gaming;Ad Tech and Creative Tech;12/2024
+C2459;ORGAXYA;Business Software and services;12/2024
+C2460;Nexaminds;Business Software and services;12/2024
+C2461;SELLMAX;Commerce and shopping;12/2024
+C2462;Droppy;Commerce and shopping;12/2024
+C2463;Depogro;Commerce and shopping;12/2024
+C2464;Elastic-Watch;Agritech;12/2024
+C2465;SMARTBAT;Consumer products and services;12/2024
+C2466;IsOne Hr;Business Software and services;12/2024
+C2467;BeEmo;EdTech;12/2024
+C2468;linkbook;EdTech;12/2024
+C2469;Mashroom;Ad Tech and Creative Tech;12/2024
+C2470;Dagish;Ad Tech and Creative Tech;12/2024
+C2471;Sport federation;Social Business;12/2024
+C2472;mypharmacy.tn;HealthTech;12/2024
+C2473;SOASY;Advanced Manufacturing & Robotics;12/2024
+C2474;MedSyn;HealthTech;12/2024
+C2475;IBDAA ACADEMY;EdTech;12/2024
+C2476;Medactis;HealthTech;12/2024
+C2477;Aupiq;Business Software and services;12/2024
+C2478;Elites united for tax and legal services;Business Software and services;12/2024
+C2479;Haier HR;Business Software and services;12/2024
+C2480;LA PAILLETTE A nous, A vous, A leur;Social Business;12/2024
+C2481;Ôravie;HealthTech;12/2024
+C2482;By4IM;Real Estate Tech;12/2024
+C2483;Verdolive;Agritech;12/2024
+C2484;Académie ACAM;Wellness;12/2024
+C2485;WAKKIL;Communication services;12/2024
+C2486;ABRID;Advanced Manufacturing & Robotics;12/2024
+C2487;Propertates;Business Software and services;12/2024
+C2488;Cash Flow;Business Software and services;12/2024
+C2489;Maktoub;Communication services;12/2024
+C2490;check'n;Ad Tech and Creative Tech;12/2024
+C2491;Improve;Business Software and services;12/2024
+C2492;Rhai;Business Software and services;12/2024
+C2493;Multipay;Fintech;12/2024
+C2494;MarketMe;Ad Tech and Creative Tech;12/2024
+C2495;Vie verte BSF;Agritech;01/2025
+C2496;Docic;HealthTech;01/2025
+C2497;1FOR1 LEARNING;EdTech;01/2025
+C2498;Amperon Technologies;Advanced Manufacturing & Robotics;01/2025
+C2499;Artizone;Commerce and shopping;01/2025
+C2500;Pass excellence;Business Software and services;01/2025
+C2501;Otravers;Commerce and shopping;01/2025
+C2502;Readdly;EdTech;01/2025
+C2503;Spirunat;HealthTech;01/2025
+C2504;E-edu;EdTech;01/2025
+C2505;Glamour;Wellness;01/2025
+C2506;HOUKOUK.TECH;Fintech;01/2025
+C2507;EDUCARE;EdTech;01/2025
+C2508;VIRTUAL ERA;Business Software and services;01/2025
+C2509;Thagamuta Agro;FoodTech & New Food;01/2025
+C2510;Esticharati;Business Software and services;01/2025
+C2511;Tale Platform;Business Software and services;01/2025
+C2512;PERF ANALYSIS CONSULTING;Business Software and services;01/2025
+C2513;SOFTAVERA TUNISIE;Business Software and services;01/2025
+C2514;Naraggara;TravelTech;01/2025
+C2515;BinYdik;Business Software and services;01/2025
+C2516;MDBIM Innovations;TravelTech;01/2025
+C2517;MBH expertise;Fintech;01/2025
+C2518;Ta7richa;FoodTech & New Food;01/2025
+C2519;Zamzema;Communication services;01/2025
+C2520;Edu Memes (مﯾﻠﻌﺗﻟا و مﯾﻣﻟا);EdTech;01/2025
+C2521;DiDonData;HealthTech;01/2025
+C2522;PEDALII;Environment;01/2025
+C2523;Fiscal Suite;Business Software and services;01/2025
+C2524;APPLICATION MOBILE ANTI- GASPILLAGE ALIMENTAIRE : SMARTDEAL;Business Software and services;01/2025
+C2525;WEFE TECH;Environment;01/2025
+C2526;DroneVision;Business Software and services;01/2025
+C2527;Mellek Real Estate Platform;Real Estate Tech;01/2025
+C2528;HASHTI;Commerce and shopping;01/2025
+C2529;Bibinet;Consumer products and services;01/2025
+C2530;Al Shamela Sports;Business Software and services;02/2025
+C2531;Panne.auto;Mobility;02/2025
+C2532;Lalla Horti;Agritech;02/2025
+C2533;Qubitron-AI;Environment;02/2025
+C2534;SOFTSYS INTERNATIONALE SARL;HealthTech;02/2025
+C2535;Cleanance;Social Business;02/2025
+C2536;Imaginario Ai;Ad Tech and Creative Tech;02/2025
+C2537;Connecteur bipolaire à serrage indépendant (CB-SI);Advanced Manufacturing & Robotics;02/2025
+C2538;Incyia;Security;02/2025
+C2539;klemy;Communication services;02/2025
+C2540;TestoHire;Business Software and services;02/2025
+C2541;DootiFy;Business Software and services;02/2025
+C2542;Business Room;Business Software and services;02/2025
+C2543;MYCLINIC.TN;HealthTech;02/2025
+C2544;DIPAWER;Business Software and services;02/2025
+C2545;INNOSYS;Business Software and services;02/2025
+C2546;Farness;Business Software and services;02/2025
+C2547;Optimisation des procédés de transformation de matières plastiques via simulation nomérique_;Ad Tech and Creative Tech;02/2025
+C2548;Industrie 4.0 TroClub;Social Business;02/2025
+C2549;Tartaruga Catamaran;TravelTech;02/2025
+C2550;Way Interactive Convergence Tunisia;HealthTech;02/2025
+C2551;Amilcar Technologies;Ad Tech and Creative Tech;02/2025
+C2552;Loomexa;Commerce and shopping;02/2025
+C2553;Ctasim;HealthTech;02/2025
+C2554;SANITIO;HealthTech;02/2025
+C2555;MedSkool;EdTech;02/2025
+C2556;Renty;Real Estate Tech;02/2025
+C2557;Tyme;FoodTech & New Food;02/2025
+C2558;TECHPIONEER Embedded Solutions;Business Software and services;02/2025
+C2559;EcoMov: TryBike;Mobility;02/2025
+C2560;Statiscom;Business Software and services;02/2025
+C2561;Edyard;EdTech;02/2025
+C2562;IntakeAi;HealthTech;02/2025
+C2563;Cw Cloud;Business Software and services;02/2025
+C2564;yalla play;Social Business;03/2025
+C2565;BYOKOB Cosmetics;Wellness;03/2025
+C2566;Inveep;Business Software and services;03/2025
+C2567;TENDER FLOW;Business Software and services;03/2025
+C2568;EyeFish;Agritech;03/2025
+C2569;ITS boX;Security;03/2025
+C2570;Bestrade;Business Software and services;03/2025
+C2571;AuroraIQ;Business Software and services;03/2025
+C2572;BATISTUDIO.TN;Consumer products and services;03/2025
+C2573;Bi2M;Ad Tech and Creative Tech;03/2025
+C2574;CLICK AND COLLECT;Commerce and shopping;03/2025
+C2575;Palmyra;Ad Tech and Creative Tech;03/2025
+C2576;Asfora;Business Software and services;03/2025
+C2577;Karlezas;Business Software and services;03/2025
+C2578;Thymsys;Business Software and services;03/2025
+C2579;CODOC;EdTech;03/2025
+C2580;LogIn;Mobility;03/2025
+C2581;KIAN TECHNOLOGY – Plateforme Itona;Business Software and services;04/2025
+C2582;Pigmentoco;Environment;04/2025
+C2583;Algora Group;Communication services;04/2025
+C2584;EyeFish/ExypnoTech;Agritech;04/2025
+C2585;Inst ar;Ad Tech and Creative Tech;04/2025
+C2586;WattyGo : Founisseur 100% Tunisien de solutions intelligentes de recharge pour Véhicules Electriques;Mobility;04/2025
+C2587;Pharmaco;HealthTech;04/2025
+C2588;Waaw;Commerce and shopping;04/2025
+C2589;Gamefy Academy;EdTech;04/2025
+C2590;TenasBook;TravelTech;04/2025
+C2591;Owe;Commerce and shopping;04/2025
+C2592;CRISPY DOC;Business Software and services;04/2025
+C2593;PerfectGen;Ad Tech and Creative Tech;04/2025
+C2594;RD Nexa;Business Software and services;04/2025
+C2595;AGHSALNI;Environment;04/2025
+C2596;ATLAS Robotics;Agritech;04/2025
+C2597;DG TWIN;Real Estate Tech;04/2025
+C2598;PLANIF PAY;Fintech;04/2025
+C2599;DecliTech;EdTech;04/2025
+C2600;DentistUP / Yiatros Community;HealthTech;05/2025
+C2601;ProVerdy;Environment;05/2025
+C2602;SMARTWEYS;Business Software and services;05/2025
+C2603;Door Knock Pro;Business Software and services;05/2025
+C2604;Mnara;Fintech;05/2025
+C2605;Fallah.ai;Agritech;05/2025
+C2606;Apeiron AI;Business Software and services;05/2025
+C2607;Deepconvo;Business Software and services;05/2025
+C2608;BIOMIDEX;HealthTech;05/2025
+C2609;eejar;Real Estate Tech;05/2025
+C2610;Senbiosys Tunisia;Consumer products and services;05/2025
+C2611;TMAPS;Business Software and services;05/2025
+C2612;LKESSA;Business Software and services;05/2025
+C2613;Waste Wise Solution;Environment;05/2025
+C2614;Aycheek;Fintech;05/2025
+C2615;Eggmed;HealthTech;05/2025
+C2616;Yakoota;Fintech;05/2025
+C2617;BiPER Therapeutics;HealthTech;05/2025
+C2618;ASSALNI-AI;Business Software and services;05/2025
+C2619;Taniterra;EdTech;05/2025
+C2620;Styly;Commerce and shopping;05/2025
+C2621;Passionne12;Communication services;05/2025
+C2622;ecoplat;FoodTech & New Food;05/2025
+C2623;Anqua Edge Innovation;Environment;05/2025
+C2624;Wiser Design Technology Tunisia;Advanced Manufacturing & Robotics;05/2025
+C2625;HORIZOP ENERGY;Mobility;05/2025
+C2626;LSpace;EdTech;05/2025
+C2627;Budgeteuse;Fintech;05/2025
+C2628;Chkobba Heroes;Ad Tech and Creative Tech;05/2025
+C2629;ichrili.tn;Commerce and shopping;05/2025
+C2630;Nest360;Real Estate Tech;05/2025
+C2631;HandiArtisan;Social Business;05/2025
+C2632;Quantumium AI;Business Software and services;05/2025
+C2633;Hkeyetna;Ad Tech and Creative Tech;05/2025
+C2634;Swipe;Fintech;05/2025
+C2635;Yeiza;Commerce and shopping;05/2025
+C2636;Smart Net;Environment;05/2025
+C2637;DOCTOURI;HealthTech;05/2025
+C2638;STE TABHOTEL DIGITAL;Business Software and services;05/2025
+C2639;Anqua Edge Innovations;Environment;05/2025
+C2640;Thunder code;Business Software and services;06/2025
+C2641;Healio Technology;HealthTech;06/2025
+C2642;KeplerAi;Fintech;06/2025
+C2643;Dose'On;Ad Tech and Creative Tech;06/2025
+C2644;VitaDood;FoodTech & New Food;06/2025
+C2645;etanfidh-solution digitale pour huissiers;Fintech;06/2025
+C2646;Digehealth TN;HealthTech;06/2025
+C2647;Jeridschool;EdTech;06/2025
+C2648;Carbotracker;Environment;06/2025
+C2649;Preemptix;Security;06/2025
+C2650;Wealthy Technology;HealthTech;06/2025
+C2651;QueDCo;Business Software and services;06/2025
+C2652;EKRI;TravelTech;06/2025
+C2653;Rakis Technology;Business Software and services;06/2025
+C2654;Academia Hub;Business Software and services;06/2025
+C2655;A plus Trade and Forwarding Solutions;Environment;06/2025
+C2656;MENUPRO;FoodTech & New Food;06/2025
+C2657;AgriSmart;Agritech;06/2025
+C2658;Version Healthy;FoodTech & New Food;06/2025
+C2659;Tuniform;Communication services;06/2025
+C2660;NINGEN;Business Software and services;06/2025
+C2661;LEGALYZ;Communication services;06/2025
+C2662;Clean2win;Environment;06/2025
+C2663;Investir UTILE;Real Estate Tech;06/2025
+C2664;Tanit Sign;Business Software and services;06/2025
+C2665;TechBoss Women;Business Software and services;06/2025
+C2666;Dronia;Agritech;06/2025
+C2667;Neuraeon;Ad Tech and Creative Tech;06/2025
+C2668;Collabera;EdTech;06/2025
+C2669;Tuniwave Sounds;Commerce and shopping;06/2025
+C2670;VivaLoka;Consumer products and services;06/2025
+C2671;QuickMatch;Business Software and services;06/2025
+C2672;Solvizor;Fintech;06/2025
+C2673;ConvergeInnov;Real Estate Tech;06/2025
+C2674;SUPERHOST;TravelTech;07/2025
+C2675;SELF;Wellness;07/2025
+C2676;TH Ventures;Ad Tech and Creative Tech;07/2025
+C2677;Data scale Ai;Business Software and services;07/2025
+C2678;QHBuild;Advanced Manufacturing & Robotics;07/2025
+C2679;MedCity;HealthTech;07/2025
+C2680;Assistant Manager IA QHSE;Business Software and services;07/2025
+C2681;Stocki;Business Software and services;07/2025
+C2682;Palm.ai;EdTech;07/2025
+C2683;Poly;Business Software and services;07/2025
+C2684;Flexee Pay;Fintech;07/2025
+C2685;Locknest Pro TN;Security;07/2025
+C2686;PHYLIA TECHNOLOGY;Business Software and services;07/2025
+C2687;Kruzr;Business Software and services;07/2025
+C2688;Palmyra platform;EdTech;07/2025
+C2689;Kiffcom Tunisie;Business Software and services;07/2025
+C2690;SPORT MATES;Commerce and shopping;07/2025
+C2691;Qromo;Ad Tech and Creative Tech;07/2025
+C2692;NOURRI CO;FoodTech & New Food;07/2025
+C2693;le trading automatisé sur le marché du Forex;Fintech;07/2025
+C2694;GreenDream.world;Communication services;07/2025
+C2695;HiredUp;EdTech;07/2025
+C2696;Fok Nje7ik;EdTech;07/2025
+C2697;TakTak Food;FoodTech & New Food;07/2025
+C2698;Foodieri;FoodTech & New Food;07/2025
+C2699;D.A LABTECH;Business Software and services;07/2025
+C2700;Production des blocs de bois brut par;sE dnavtitrioenrsment;07/2025
+C2701;FinAIBot;Fintech;07/2025
+C2702;mechi Tunisie;Mobility;07/2025
+C2703;Dawwerni;Business Software and services;08/2025
+C2704;Deepic;HealthTech;08/2025
+C2705;WELLNESS HUB;Wellness;08/2025
+C2706;Sté Green Nonwoven Visline G N V;Environment;08/2025
+C2707;Talifouni+;Business Software and services;08/2025
+C2708;Rhizome;HealthTech;08/2025
+C2709;Hanoutik;Business Software and services;08/2025
+C2710;Erpy;Business Software and services;08/2025
+C2711;Play and Code;EdTech;08/2025
+C2712;OraNext AI;Advanced Manufacturing & Robotics;08/2025
+C2713;Park & Charge;Mobility;08/2025
+C2714;Fast Help;HealthTech;08/2025
+C2715;CLUBI;Consumer products and services;08/2025
+C2716;Ordering Dashboard Solution (ODS);FoodTech & New Food;08/2025
+C2717;DoWell;HealthTech;08/2025
+C2718;Te Quaero;Business Software and services;08/2025
+C2719;Exposia;EdTech;08/2025
+C2720;Habitiz;Real Estate Tech;08/2025
+C2721;Kharajni.tn;TravelTech;08/2025
+C2722;Farbi.tn;Advanced Manufacturing & Robotics;08/2025
+C2723;Badel;Social Business;08/2025
+C2724;TRUSTMOVE TUNISIA;Consumer products and services;08/2025
+C2725;SANEOB;HealthTech;08/2025
+C2726;KSIBA;Consumer products and services;08/2025
+C2727;Terrametrics;Environment;08/2025
+C2728;Booklyne;Business Software and services;08/2025
+C2729;CashFloow;Business Software and services;08/2025
+C2730;LexIA;Business Software and services;08/2025
+C2731;compta-smart;Fintech;08/2025
+C2732;ICHFINI;HealthTech;08/2025
+C2733;BioH2O;FoodTech & New Food;08/2025
+C2734;Stocky Downy;Business Software and services;08/2025
+C2735;Technozor;Business Software and services;08/2025
+C2736;Recolab technologies;EdTech;08/2025
+C2737;CarboTraker;Environment;08/2025
+C2738;PSYNARIOS;EdTech;09/2025
+C2739;Ligalo;Business Software and services;09/2025
+C2740;Flashbac;EdTech;09/2025
+C2741;Trip Hive;TravelTech;09/2025
+C2742;ProgressBox;Agritech;09/2025
+C2743;El Qemma;Business Software and services;09/2025
+C2744;Gotei;Ad Tech and Creative Tech;09/2025
+C2745;نﯾﺗﻣﺎﻣﯾﻟا LYAMAMATAYN;EdTech;09/2025
+C2746;DIA industries;Advanced Manufacturing & Robotics;09/2025
+C2747;VIBE FLOW AI;Ad Tech and Creative Tech;09/2025
+C2748;Boon;Real Estate Tech;09/2025
+C2749;Millisave;Business Software and services;09/2025
+C2750;OptiPlanex;Business Software and services;09/2025
+C2751;URBANAV;Mobility;09/2025
+C2752;Darraja;Mobility;09/2025
+C2753;لﻣﻋ 3MAL;Consumer products and services;09/2025
+C2754;TeraaVerra;Agritech;09/2025
+C2755;MedicusAI;HealthTech;09/2025
+C2756;Eco block;Environment;09/2025
+C2757;Quinexa;Commerce and shopping;09/2025
+C2758;Tajjer;Business Software and services;09/2025
+C2759;Cloud Commit Software Solutions;Security;09/2025
+C2760;PAYDAY TAKAFUL;Fintech;10/2025
+C2761;Eddium Platinuim;Ad Tech and Creative Tech;10/2025
+C2762;CADUSAY;HealthTech;10/2025
+C2763;Scientiworld;EdTech;10/2025
+C2764;Footlink.tn;HealthTech;10/2025
+C2765;One Beauty;Wellness;10/2025
+C2766;EGAMarketplace;Commerce and shopping;10/2025
+C2767;Shoot;Business Software and services;10/2025
+C2768;HistoryConneXion;HealthTech;10/2025
+C2769;Clubedge;Social Business;10/2025
+C2770;COLEA AgriTech;Agritech;10/2025
+C2771;AIVIA;HealthTech;10/2025
+C2772;Absher AI;Business Software and services;10/2025
+C2773;SymbioWave;Business Software and services;10/2025
+C2774;Raba7ni;Consumer products and services;10/2025
+C2775;Compta Smart Solution;Business Software and services;10/2025
+C2776;innovia360;Business Software and services;10/2025
+C2777;SerBot;Advanced Manufacturing & Robotics;10/2025
+C2778;Cogitoly;EdTech;10/2025
+C2779;RMC;Advanced Manufacturing & Robotics;10/2025
+C2780;ONE ERP;Fintech;10/2025
+C2781;Price Forging;Business Software and services;10/2025
+C2782;wedo distribution services;Consumer products and services;10/2025
+C2783;Innoteam Solutions;EdTech;10/2025
+C2784;B-SMART GO;TravelTech;10/2025
+C2785;Bid Shine;Business Software and services;10/2025
+C2786;Etudianet/Studianat;Ad Tech and Creative Tech;10/2025
+C2787;tenjah;EdTech;10/2025
+C2788;Encore Bon;Environment;10/2025
+C2789;XMap;Social Business;10/2025
+C2790;LuxePass;Business Software and services;10/2025
+C2791;SidiChat;Business Software and services;10/2025
+C2792;Vybtor;EdTech;10/2025
+C2793;Key Marketplace;Commerce and shopping;10/2025
+C2794;Next Afri Log;Business Software and services;10/2025
+C2795;Tache-Lik;EdTech;10/2025
+C2796;TUNIAI;Business Software and services;10/2025
+C2797;Bloom Venom;HealthTech;10/2025
+C2798;EduImpact.tn;HealthTech;10/2025
+C2799;ARTROK;Commerce and shopping;10/2025
+C2800;SEEVEND INDUSTRIES;Mobility;11/2025
+C2801;SOCIETE BE WISE;Business Software and services;11/2025
+C2802;Joya;Environment;11/2025
+C2803;SYLA AI TUNISIA;TravelTech;11/2025
+C2804;Predict'O Energy;Environment;11/2025
+C2805;BioExpert;HealthTech;11/2025
+C2806;216Bot;Communicatio n services;11/2025
+C2807;trendytek E-Learning;EdTech;11/2025
+C2808;SBA CONSULT;Business Software and services;11/2025
+C2809;MelqartX Corp;MobilitY;11/2025
+C2810;Jhezi.tn;Consumer products and services;11/2025
+C2811;Iridium X;Wellness;11/2025
+C2812;kobox designs;Environment;11/2025
+C2813;Smart Maker;Ad Tech and Creative Tech;11/2025
+C2814;Letusdify;Business Software and services;11/2025
+C2815;ReMine Technologies;Environment;11/2025
+C2816;Lift&Eat;HealthTech;11/2025
+C2817;Tender;Business Software and services;11/2025
+C2818;EmberForge Tech;Ad Tech and Creative Tech;11/2025
+C2819;MedSearch IA;Business Software and services;11/2025
+C2820;AD Vertising;Ad Tech and Creative Tech;11/2025
+C2821;AXIOM décorticage IA;Business Software and services;11/2025
+C2822;Choufli;Social Business;11/2025
+C2823;Oria;Ad Tech and Creative Tech;11/2025
+C2824;Clic SOS;Mobility;11/2025
+C2825;Triptopie;TravelTech;11/2025
+C2826;TooFresh;Environment;11/2025
+C2827;EcoRecy;Environment;11/2025
+C2828;Kidin;EdTech;11/2025
+C2829;CarbonTrack;Environment;11/2025
+C2830;GuaranteePay – Lasweq;Fintech;11/2025
+C2831;MCS - Mediterranean Creative Studio;Consumer products and services;11/2025
+C2832;Reality Tunisia Branch;Wellness;11/2025
+C2833;EVIMO;Mobility;12/2025
+C2834;Spark Auto;Mobility;12/2025
+C2835;Yalen Sentinel;Security;12/2025
+C2836;Future is Now;Business Software and services;12/2025
+C2837;FielMedina;TravelTech;12/2025
+C2838;DashMaster;Business Software and services;12/2025
+C2839;AionTime;Ad Tech and Creative Tech;12/2025
+C2840;Real Time Data Loger – RTDL;HealthTech;12/2025
+C2841;Sawakni;Communication services;12/2025
+C2842;Moodicament;HealthTech;12/2025
+C2843;FISSA3/URBAN CARTAGO SARL;Mobility;12/2025
+C2844;Yaluna;Communication services;12/2025
+C2845;WAW - When And Where;TravelTech;12/2025
+C2846;VAERDIA SOLUTIONS;Fintech;12/2025
+C2847;MEDA;HealthTech;12/2025
+C2848;Société Méditerranéenne de Distillerie Artisanale;FoodTech & New Food;12/2025
+C2849;PREDSiGHTX;Business Software and services;12/2025
+C2850;Aidloy;Wellness;12/2025
+C2851;Lanci Deliveries;Business Software and services;12/2025
+C2852;myPharmacy;HealthTech;12/2025
+C2853;BRIDGSIGN;Communication services;12/2025
+C2854;Jizzar;Communication services;12/2025
+C2855;Thanna Téléassistance;HealthTech;12/2025
+C2856;safka online;Business Software and services;12/2025
+C2857;Grenova– Gamme Écoresponsable de Produits Primaires à Base de Grenade;Environment;12/2025
+C2858;MAKASSUR;Fintech;12/2025
+C2859;Dingo;Mobility;12/2025
+C2860;Laformatik.ai;Consumer products and services;12/2025
+C2861;Kopno Game;Business Software and services;12/2025
+C2862;SaveMe;Environment;12/2025
+C2863;Koolny;FoodTech & New Food;12/2025
+C2864;makadija;FoodTech & New Food;12/2025
+C2865;Couche IA génératrice de workflow, Interfaces homme machine et reporting IA;Business Software and services;12/2025
+C2866;Annuaire Service;Consumer products and services;12/2025
+C2867;Deepinfluence;EdTech;12/2025
+C2868;Night Panel;Advanced Manufacturing & Robotics;12/2025
+C2869;InsurLink;Fintech;12/2025
+C2870;FTOUH pharmaceuticals;FoodTech & New Food;12/2025
+C2871;IMMUNO KAAR : (IMMU CAR- DER ) : Gamme de Phyto médicaments spécifiques pour: immunité, cardiologie carcinologie, cicatrisation et dermopharmacie .;HealthTech;01/2026
+C2872;Arcube;Fintech;01/2026
+C2873;GoToGreen;Environment;01/2026
+C2874;OTARI;Commerce and shopping;01/2026
+C2875;Yes-Sir;Ad Tech and Creative Tech;01/2026
+C2876;HopeVisionAI;HealthTech;01/2026
+C2877;SAHTEE;HealthTech;01/2026
+C2878;ALBUPAD-NA;HealthTech;01/2026
+C2879;Riyasol;Business Software and services;01/2026
+C2880;Qubit Labs Tunis;Business Software and services;01/2026
+C2881;Nuraxis Ai;HealthTech;01/2026
+C2882;The Landlord Manager;Real Estate Tech;01/2026
+C2883;TFCx;Fintech;01/2026
+C2884;DURABILIS CONSULTING;Environment;01/2026
+C2885;RDVEXPRESS;Business Software and services;01/2026
+C2886;Automatizi;Consumer products and services;01/2026
+C2887;TINNOBOTICS;Advanced Manufacturing & Robotics;01/2026
+C2888;Attoset - The Work OS for Intelligent Work Management;Business Software and services;01/2026
+C2889;GensisCode;EdTech;01/2026
+C2890;Nexor Robotics;Advanced Manufacturing & Robotics;01/2026
+C2891;CvHub;Ad Tech and Creative Tech;01/2026
+C2892;CarthaPos;Business Software and services;01/2026
+C2893;OpenSOC;Security;01/2026
+C2894;SM Drone;Advanced Manufacturing & Robotics;01/2026
+C2895;Eyproc;Business Software and services;01/2026
+C2896;JeelQuest;Social Business;01/2026
+C2897;9atratech;Agritech;01/2026
+C2898;AL BAYEN;Advanced Manufacturing & Robotics;01/2026
+C2899;Enissay Studio;Ad Tech and Creative Tech;01/2026
+C2900;BNJMO Studios;Ad Tech and Creative Tech;01/2026
+C2901;Compta Smart Solutions;Business Software and services;01/2026
+C2902;Dash Master;Business Software and services;01/2026
+C2903;HEXA5 SOLUTIONS;Security;02/2026
+C2904;MASSAR PERFECTION;Business Software and services;02/2026
+C2905;Kessa;Fintech;02/2026
+C2906;My Quality Assistant Team /;Business Software and;02/2026
+C2907;ALGORIA FACTORY;services Business Software and services;02/2026
+C2908;citrustech;Agritech;02/2026
+C2909;Estimo;Real Estate Tech;02/2026
+C2910;Intheair Labs;Business Software and services;02/2026
+C2911;Teleon;Business Software and services;02/2026
+C2912;Talento;Business Software and services;02/2026
+C2913;Freshk;Agritech;02/2026
+C2914;cognitiex;EdTech;02/2026
+C2915;Fastoch;Mobility;02/2026
+C2916;Styly App;Commerce and shopping;02/2026
+C2917;ERPOptic;Fintech;02/2026
+C2918;Diyese-GEN;Business Software and services;02/2026
+C2919;GALYLIO;Business Software and services;02/2026
+C2920;Hamo;Business Software and services;02/2026
+C2921;Darli;Real Estate Tech;02/2026
+C2922;Inlumya;EdTech;02/2026
+C2923;e-syndic;Business Software and services;02/2026
+C2924;Tunisia Camp;TravelTech;02/2026
+C2925;Integrated Analysis and Decision Solution;Ad Tech and Creative Tech;02/2026
+C2926;Spovio;Consumer products and services;02/2026
+C2927;zitoun ai technology lab;Business Software and services;02/2026
+C2928;Promoet;Commerce and shopping;02/2026
+C2929;Sensei AI;Business Software and services;02/2026
+C2930;KweekTech;FoodTech & New Food;02/2026
+C2931;Tiejob;Business Software and services;02/2026
+C2932;Edutime;EdTech;02/2026
+C2933;ZIARA;Real Estate Tech;02/2026
+C2934;LysiteK;Business Software and services;02/2026
+C2935;Casanova;Consumer products and services;02/2026
+C2936;Padel Insights;Business Software and services;02/2026
+C2937;AutoSimix;Advanced Manufacturing & Robotics;02/2026
+C2938;Real Time Data Logger-RTDL;HealthTech;02/2026
+C2939;WIDITION;Wellness;03/2026
+C2940;Talent 619;Business Software and services;03/2026
+C2941;ComptaRise;Fintech;03/2026
+C2942;Pharma link;HealthTech;03/2026
+C2943;Fitories;HealthTech;03/2026
+C2944;WattzHub Tunisie;Mobility;03/2026
+C2945;CnBees;Fintech;03/2026
+C2946;TrinovaQ;Business Software and services;03/2026
+C2947;Cosmos;Business Software and services;03/2026
+C2948;RASD - Risk Assessment & Security Dashboard;Business Software and services;03/2026
+C2949;Optiflows;Business Software and services;03/2026
+C2950;Drivi.tn;EdTech;03/2026
+C2951;Degla;Business Software and services;03/2026
+C2952;Elbat7a.tn;Ad Tech and Creative Tech;03/2026
+C2953;B-CAR;Mobility;03/2026
+C2954;N2VERSE;Real Estate Tech;03/2026
+C2955;Confirmed;Commerce and shopping;03/2026
+C2956;LoopImpact;Environment;03/2026
+C2957;Vexylio Reg.;HealthTech;03/2026
+C2958;DigiTechBridge360;Business Software and services;03/2026
+C2959;Djanguil;Business Software and services;03/2026
+C2960;DropWise Technologie;Agritech;03/2026
+C2961;Kiloklean;Environment;03/2026
+C2962;NB PRODUCTS;Agritech;03/2026
+C2963;DataIndus;Advanced Manufacturing & Robotics;03/2026
+C2964;NexioT;Advanced Manufacturing & Robotics;03/2026
+C2965;xshop;Business Software and services;03/2026
+C2966;cantinou;HealthTech;03/2026
+C2967;MindCura;HealthTech;03/2026
+C2968;KindOfHero;EdTech;03/2026
+C2969;Plantini;Agritech;03/2026
+C2970;SkySwift Medical;HealthTech;03/2026
+C2971;Cure Care;HealthTech;03/2026
+C2972;VLOX;Mobility;03/2026
+C2973;Société DoYield Tunisie / Projet RevMate;Business Software and services;03/2026
+C2974;Fiel Medina;TravelTech;03/2026
+C2975;Ecoshare;Transportation;04/2026
+C2976;MyLabSkills;EdTech;04/2026
+C2977;WiHelp;HealthTech;04/2026
+C2978;YesCodi;EdTech;04/2026
+C2979;Chimie Verte;CleanTech;04/2026
+C2980;PolstarAI;EdTech;04/2026
+C2981;agri résilience;FoodTech;04/2026
+C2982;Chabaqa;EdTech;04/2026
+C2983;EUKLYDIA;AdTech;04/2026
+C2984;TransitTN;Transportation;04/2026
+C2985;Qvision;Smart city;04/2026
+C2986;Houny;Websites and mobile apps;04/2026
+C2987;Alhazen AI;Logistics;04/2026
+C2988;Ask Tanit;HealthTech;04/2026
+C2989;Roots Care Cubes;CleanTech;04/2026
+C2990;moujib.com;Websites and mobile apps;04/2026
+C2991;Twee Ai;Employment;04/2026
+C2992;AL RAZI AI;HealthTech;04/2026
+C2993;Talent Verse;Employment;04/2026
+C2994;société VISENIOUS SUARL;ERP;04/2026
+C2995;Discounts;Marketplace / e-commerce;04/2026
+C2996;Hotelgenius.app;TravelTech;04/2026
+C2997;eco green watering / eco xtreme;Agritech;04/2026
+C2998;Tshopily;Websites and mobile apps;04/2026
+C2999;PARPECO;Construction;04/2026
+C3000;DIGIMY;Learning;04/2026
+C3001;TUTLAYT TRANSLATIONS;Marketplace / e-commerce;04/2026
+C3002;Terraconnect;SpaceTech;04/2026
+C3003;EcomEyes;Websites and mobile apps;04/2026
+C3004;Omni Links;Productivity;04/2026
+C3005;SMARTCO;Pharma;04/2026
+C3006;360TN;Retail;04/2026
+C3007;FitoGramme;HealthTech;04/2026
+C3008;Meta Health;HealthTech;04/2026
+C3009;Noqlah;Other;04/2026
+C3010;SmartGEO;AdTech;04/2026
+C3011;Proovlab;HealthTech;04/2026
+C3012;History Connexion;HealthTec h;04/2026
+C3013;Clubedge Digital Systems;Social Business;04/2026
+C3014;Tunisian Online Teachers;EdTech;04/2026
+C3015;Beauté privée;E-commerce;04/2026
+C3016;DeVolution;Edtech;04/2026
+C3017;AL idhafa;Other;05/2026
+C3018;Ansab ب سنأ;Websites and mobile apps;05/2026
+C3019;Biopot;Biotech;05/2026
+C3020;neptune.tn;Marketplace;05/2026
+C3021;Brimind;Other;05/2026
+C3022;Estateboost;PropTech;05/2026
+C3023;OKGO;Websites and mobile apps;05/2026
+C3024;Sidekick4All ONETEEM Tunisia SUARL;Productivity;05/2026
+C3025;Legatio Technologies;Legal Tech;05/2026
+C3026;INOVENTIS;Smart city;05/2026
+C3027;PLATEFORME AUTOMOBILE INTELLIGENTE;InsuranceTech;05/2026
+C3028;Qodecheck;Productivity;05/2026
+C3029;TaskWise AI;Productivity;05/2026
+C3030;ThreeRust Engine;Gaming;05/2026
+C3031;Tunisie Freelance;Employment;05/2026
+C3032;cleanoov;Robotics;05/2026
+C3033;BAYYOU LABS;Other;05/2026
+C3034;YuboKits;Robotics;05/2026
+C3035;BlueBox Labs;Agritech;05/2026
+C3036;kounfit;FoodTech;05/2026
+C3037;MOSOFTY;HealthTech;05/2026
+C3038;Komein;TravelTech;05/2026
+C3039;CorHexia;HealthTech;05/2026
+C3040;Workior;HealthTech;05/2026
+C3041;LeaCall;Websites and mobile apps;05/2026
+C3042;SIROCCO (Jobinterview.live);RH;05/2026
+C3043;Mariage TN;Events;05/2026
+C3044;Revisplus;EdTech;05/2026
+C3045;Playfast;Sport;05/2026
+C3046;DossiMed;HealthTech;05/2026
+C3047;ALCURA;HealthTech;05/2026
+C3048;Twelev8;EdTech;05/2026
+C3049;Tadbir AI;Environment;05/2026
+C3050;"STE ""ACCENT"" ALPHA CONNECT COMPUTING FOR ENTERPRISES";IoT;05/2026
+C3051;Dourou;Payments;06/2026
+C3052;Athletika;Sport;06/2026
+C3053;M2P INNOVATION;Customer support;06/2026
+C3054;Drive N Go Mobile Car Solutions;Logistics;06/2026
+C3055;IFBW;Other;06/2026
+C3056;MedCalc;HealthTech;06/2026
+C3057;montransporteur;Logistics;06/2026
+C3058;BeanBack;Biotech;06/2026
+C3059;Imperia AI;Websites and mobile apps;06/2026
+C3060;Ktebi Ktebek;Marketplace;06/2026
+C3061;Fouteta;Marketplace / e-commerce;06/2026
+C3062;CLEVERSCHED;RH;06/2026
+C3063;Barakeat;CleanTech;06/2026
+C3064;Nexæra AI;CyberSecurity;06/2026
+C3065;Chaima Création;Other;06/2026
+C3066;Rinpen;Smart devices;06/2026
+C3067;MediSync;HealthTech;06/2026
+C3068;SAVE YOUR ENERGY;Energy;06/2026
+C3069;Integrated Robotics & Intelligent Systems (IRIS);Maps;06/2026
+C3070;BE THE BOSS ACADEMY;AdTech;06/2026
+C3071;Tundata;E-commerce;06/2026
+C3072;OrdoScope;HealthTech;06/2026
+C3073;ARTCHAD;Art;06/2026
+C3074;smartbook.tn;Websites and mobile apps;06/2026
+C3075;CARBOLIA;CleanTech;06/2026
+C3076;Tikana;Productivity;06/2026
+C3077;Pixelgate studio;Entertainment;06/2026
+C3078;ConneXtream;AdTech;06/2026
+C3079;Semsem;FoodTech;06/2026
+C3080;ShadowTwin;CyberSecurity;06/2026
+C3081;Medify VR;HealthTech;06/2026
+C3082;DEVENCE LAB;CyberSecurity;06/2026
+C3083;Xapp;AdTech;06/2026
+C3084;GP9;Media;06/2026
+C3085;ONETEEM TUNISIA SUARL;Business Software and services;06/2026
+C3086;Optiflows Technologies;Business Software and services;06/2026
+C3087;TALENTO NETWORK;Business Software and services;06/2026
+C3088;APTYX;Iot;06/2026
+C3089;Saghroun.com;E-commerce;06/2026
+C3090;Fidelicia;Marketing;10/2020
+C3091;Qartaj;E-commerce;10/2020
+C3092;Animadop;Plateforme Sociale;10/2020
+C3093;EATISY;Logiciel;10/2020
+C3094;LES SOUKS.COM SARL;E-commerce;10/2020
+C3095;Knowledge and Business Intelligence Integration;Big Data;10/2020
+C3096;Toumi Electronics;Autre contenu créatif;10/2020
+C3097;Caprigène Impact Investing;Biotechnologie;10/2020
+C3098;Marhba.tn Experiences;E-commerce;10/2020
+C3099;E W;E-commerce;10/2020
+C3100;Liberrex;Logiciel;10/2020
+C3101;بﺎﺗﻛ ﺔﻠﺣر Journey;EdTech;10/2020
+C3102;Keto Life Style;E-commerce;10/2020
+C3103;ECG Lab;Health Tech;10/2020
+C3104;VIRGIN;Cleantech;10/2020
+C3105;international business space;Autre contenu créatif;10/2020
+C3106;DIGIWAY SOLUTIONS;AI;10/2020
+C3107;INTERNATIONAL COACH START-UP;IoT;10/2020
+C3108;eStores Factory;E-commerce;10/2020
+C3109;ibtikar;Autre contenu créatif;10/2020
+C3110;EXPLOIT CONSULT;Agritech;10/2020
+C3111;Classroom;Autre contenu créatif;10/2020
+C3112;prognet;Mobile;10/2020
+C3113;EVENT-TECH 3D;Plateforme Sociale;10/2020
+C3114;GestiOs;Logiciel;10/2020
+C3115;9dhaya.tn;Logistique;10/2020
+C3116;Business Medical Revolution;Health Tech;10/2020
+C3117;www.Legalup.tn;Autre contenu créatif;10/2020
+C3118;ReserviTounsi;E-commerce;10/2020
+C3119;La Moudha.tn;Marketing;10/2020
+C3120;ELECTRICITY B2B;E-commerce;10/2020
+C3121;FlahaTek;Agritech;10/2020
+C3122;PLEXUS;Health Tech;10/2020
+C3123;Tunisia-cryptomonnaies;Blockchain & cryptocurrency;10/2020
+C3124;Tynass information technologie;Autre contenu créatif;10/2020
+C3125;PEPOLLS;Plateforme Sociale;10/2020
+C3126;DariDar Corporation;E-commerce;10/2020
+C3127;Robo Care;Agritech;10/2020
+C3128;"AREV ""Makhbazti Digitale""";E-commerce;10/2020
+C3129;Fasteas technology;Plateforme Sociale;10/2020
+C3130;ilboursa.com / Société African Web Company;IT;10/2020
