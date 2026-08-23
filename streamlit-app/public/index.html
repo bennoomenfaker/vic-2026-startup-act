@@ -237,6 +237,7 @@
     .row-admin { background: #f8fafc !important; border-left: 4px solid #94a3b8; }
     .row-reporte { background: #f8e8e1 !important; border-left: 4px solid #bd6b52; }
     .row-reporte td { color: #7a3d2e; }
+    .metric-arrow { color: #bd6b52; font-weight: 600; white-space: nowrap; }
     .row-pitch { background: #fff8e7 !important; border-left: 4px solid #d59b32; }
     .chip-decision-inconnu { background: #f3f3f7; color: #6b7280; }
     .chip-flag { background: #fef3c7; color: #b45309; border: 1px solid #fde68a; }
@@ -1164,10 +1165,10 @@
     </div>
     <div style="overflow-x:auto"><table id="sessionsTableWrap"><thead><tr>
       <th class="sortable" data-col="0" data-num="0">Session</th>
-      <th class="sortable" data-col="1" data-num="1">Candidatures</th>
-      <th class="sortable" data-col="2" data-num="1">Labels</th>
-      <th class="sortable" data-col="3" data-num="1">Pré-Labels</th>
-      <th class="sortable" data-col="4" data-num="1">Taux</th>
+      <th class="sortable" data-col="1" data-num="1">Candidatures officiel → corrigé</th>
+      <th class="sortable" data-col="2" data-num="1">Labels officiel → corrigé</th>
+      <th class="sortable" data-col="3" data-num="1">Pré-Labels officiel → corrigé</th>
+      <th class="sortable" data-col="4" data-num="1">Taux officiel</th>
       <th class="sortable" data-col="5" data-num="0">Commentaires</th>
     </tr></thead><tbody id="sessionsTable"></tbody></table></div>
   </section>
@@ -3271,22 +3272,48 @@ function renderDashboard() {
   // Années <= filtre pour le cumul ; l'année seule pour les KPI
   const y = filtered ? allY.filter(r => r.year <= DATA.yearFilter) : allY;
   const yKpi = filtered ? allY.filter(r => r.year === DATA.yearFilter) : allY;
-  const totalCand = yKpi.reduce((s, y) => s + y.candidatures, 0);
-  const totalLabels = yKpi.reduce((s, y) => s + y.labels, 0);
-  const totalPre = yKpi.reduce((s, y) => s + y.preLabels, 0);
+  const totalCand = yKpi.reduce((s, y) => s + Number(y.candidatures || 0), 0);
+  const totalLabels = yKpi.reduce((s, y) => s + Number(y.labels || 0), 0);
+  const totalPre = yKpi.reduce((s, y) => s + Number(y.preLabels || 0), 0);
   const selectedSessions = filtered
     ? (d.sessions || []).filter(s => Number(s.year) === Number(DATA.yearFilter))
     : (d.sessions || []);
   const totalSessions = selectedSessions.length;
-  const sumSessionField = (field, fallback) => selectedSessions.reduce((sum, session) => sum + Number(session[field] ?? session[fallback] ?? 0), 0);
-  const totalOfficialCand = sumSessionField('candidaturesOfficielles', 'candidatures');
-  const totalCorrectedCand = sumSessionField('candidaturesCorrigees', 'entries');
-  const totalOfficialLabels = sumSessionField('labelsOfficiels', 'labels');
-  const totalCorrectedLabels = sumSessionField('labelsCorriges', 'labels');
-  const totalOfficialPre = sumSessionField('preLabelsOfficiels', 'preLabels');
-  const totalCorrectedPre = sumSessionField('preLabelsCorriges', 'preLabels');
-  const totalPdfLines = sumSessionField('lignesPdf', 'entries');
-  const totalAjournes = selectedSessions.reduce((sum, session) => sum + Number(session.ajournesHorsPdf || 0), 0);
+  const meta = d.meta || {};
+  const metaNumber = (...keys) => {
+    for (const key of keys) {
+      const value = Number(meta[key]);
+      if (Number.isFinite(value)) return value;
+    }
+    return null;
+  };
+  const sumExactSessionField = (fields) => {
+    const names = Array.isArray(fields) ? fields : [fields];
+    if (!names.length || !selectedSessions.length) return null;
+    const complete = selectedSessions.every(session => names.some(field => session[field] !== undefined && session[field] !== null));
+    if (!complete) return null;
+    return selectedSessions.reduce((sum, session) => {
+      const value = names.map(field => Number(session[field])).find(Number.isFinite);
+      return sum + (Number.isFinite(value) ? value : 0);
+    }, 0);
+  };
+  const sumMetric = (fields, metaKeys, yearlyField, secondaryFields = []) => {
+    const exact = sumExactSessionField(fields);
+    if (exact !== null) return exact;
+    const secondary = sumExactSessionField(secondaryFields);
+    if (secondary !== null) return secondary;
+    if (filtered && yearlyField) return yKpi.reduce((sum, row) => sum + Number(row[yearlyField] || 0), 0);
+    return metaNumber(...metaKeys) ?? 0;
+  };
+  // Les champs « corrigés » ne retombent jamais sur les champs officiels labels/candidatures.
+  const totalOfficialCand = sumMetric(['candidaturesOfficielles'], ['totalCandidaturesOfficielles', 'totalCandidatures'], 'candidatures', ['candidatures']);
+  const totalCorrectedCand = sumMetric(['candidaturesCorrigees', 'candidatures_corrigees'], ['totalCandidaturesCorrigees', 'correctedCandidatures'], null, ['entries', 'lignesPdf', 'detailedEntries']);
+  const totalOfficialLabels = sumMetric(['labelsOfficiels'], ['totalLabelsOfficiels', 'totalLabels'], 'labels', ['labels']);
+  const totalCorrectedLabels = sumMetric(['labelsCorriges', 'labels_corriges'], ['totalLabelsCorriges'], null);
+  const totalOfficialPre = sumMetric(['preLabelsOfficiels'], ['totalPreLabelsOfficiels', 'totalPreLabels'], 'preLabels', ['preLabels']);
+  const totalCorrectedPre = sumMetric(['preLabelsCorriges', 'preLabels_corriges'], ['totalPreLabelsCorriges'], null);
+  const totalPdfLines = sumMetric(['lignesPdf'], ['totalLignesPdf', 'detailedEntries'], 'entries', ['detailedEntries', 'entries']);
+  const totalAjournes = sumMetric(['ajournesHorsPdf', 'ajournes_hors_pdf'], ['ajournesHorsPdf'], null);
 
   const startups = filteredStartups();
   const astat = ageStats(startups);
@@ -3326,11 +3353,11 @@ function renderDashboard() {
   const kpiGrid = document.getElementById('kpiGrid');
   kpiGrid.innerHTML = `
     <div class="kpi-card blue" data-kpi="KPI-01" tabindex="0"><div class="kpi-head"><span class="kpi-icon">🏢</span>${trend(filtered ? startups.length : suR, suP)}</div><div class="label">Startups uniques${yLbl}</div><div class="value">${filtered ? startups.length : d.database.totalStartups}</div><div class="sub">${filtered ? 'labellisées en ' + DATA.yearFilter : 'dans la base'}</div></div>
-    <div class="kpi-card red" data-kpi="KPI-02" tabindex="0"><div class="kpi-head"><span class="kpi-icon">🏷️</span>${trend(yR.labels, yP.labels)}</div><div class="label">Labels accordés${yLbl}</div><div class="value">${totalLabels}</div><div class="sub">sur ${totalSessions} sessions</div></div>
-    <div class="kpi-card green" data-kpi="KPI-03" tabindex="0"><div class="kpi-head"><span class="kpi-icon">📨</span>${trend(yR.candidatures, yP.candidatures)}</div><div class="label">Candidatures${yLbl}</div><div class="value">${totalCand}</div><div class="sub">déposées</div></div>
-    <div class="kpi-card orange" data-kpi="KPI-04" tabindex="0"><div class="kpi-head"><span class="kpi-icon">🎟️</span>${trend(yR.preLabels, yP.preLabels)}</div><div class="label">Pré-Labels${yLbl}</div><div class="value">${totalPre}</div><div class="sub">accordés</div></div>
-    <div class="kpi-card purple" data-kpi="KPI-05" tabindex="0"><div class="kpi-head"><span class="kpi-icon">📊</span>${trend(yR.candidatures ? yR.labels / yR.candidatures * 100 : null, yP.candidatures ? yP.labels / yP.candidatures * 100 : null, true)}</div><div class="label">Taux moyen (KPI-05)</div><div class="value">${totalCand ? ((totalLabels / totalCand) * 100).toFixed(1) : '-'}%</div><div class="sub">${totalLabels} labels / ${totalCand} candidatures</div></div>
-    <div class="kpi-card blue" data-kpi="KPI-28" tabindex="0"><div class="kpi-head"><span class="kpi-icon">🎯</span>${trend(yR.nbSessions ? yR.candidatures / yR.nbSessions : null, yP.nbSessions ? yP.candidatures / yP.nbSessions : null)}</div><div class="label">Moyenne candidatures/session (KPI-28)</div><div class="value">${totalSessions ? (totalCand / totalSessions).toFixed(1) : '-'}</div><div class="sub">${totalCand} / ${totalSessions} sessions</div></div>
+    <div class="kpi-card red" data-kpi="KPI-02" tabindex="0"><div class="kpi-head"><span class="kpi-icon">🏷️</span>${trend(yR.labels, yP.labels)}</div><div class="label">Labels officiels${yLbl}</div><div class="value">${totalLabels}</div><div class="sub">corrigé : ${totalCorrectedLabels} · ${totalSessions} sessions</div></div>
+    <div class="kpi-card green" data-kpi="KPI-03" tabindex="0"><div class="kpi-head"><span class="kpi-icon">📨</span>${trend(yR.candidatures, yP.candidatures)}</div><div class="label">Candidatures officielles${yLbl}</div><div class="value">${totalCand}</div><div class="sub">corrigées : ${totalCorrectedCand} · déposées</div></div>
+    <div class="kpi-card orange" data-kpi="KPI-04" tabindex="0"><div class="kpi-head"><span class="kpi-icon">🎟️</span>${trend(yR.preLabels, yP.preLabels)}</div><div class="label">Pré-Labels officiels${yLbl}</div><div class="value">${totalPre}</div><div class="sub">corrigés : ${totalCorrectedPre} · accordés</div></div>
+    <div class="kpi-card purple" data-kpi="KPI-05" tabindex="0"><div class="kpi-head"><span class="kpi-icon">📊</span>${trend(yR.candidatures ? yR.labels / yR.candidatures * 100 : null, yP.candidatures ? yP.labels / yP.candidatures * 100 : null, true)}</div><div class="label">Taux officiel (KPI-05)</div><div class="value">${totalCand ? ((totalLabels / totalCand) * 100).toFixed(1) : '-'}%</div><div class="sub">${totalLabels} labels / ${totalCand} candidatures · corrigé : ${totalCorrectedLabels} / ${totalCorrectedCand}</div></div>
+    <div class="kpi-card blue" data-kpi="KPI-28" tabindex="0"><div class="kpi-head"><span class="kpi-icon">🎯</span>${trend(yR.nbSessions ? yR.candidatures / yR.nbSessions : null, yP.nbSessions ? yP.candidatures / yP.nbSessions : null)}</div><div class="label">Moyenne candidatures officielles/session (KPI-28)</div><div class="value">${totalSessions ? (totalCand / totalSessions).toFixed(1) : '-'}</div><div class="sub">${totalCand} officielles / ${totalSessions} sessions · corrigé : ${totalCorrectedCand}</div></div>
     <div class="kpi-card green" data-kpi="KPI-31" tabindex="0"><div class="kpi-head"><span class="kpi-icon">⏳</span>${trend(parseFloat(ageR.avgAge), parseFloat(ageP.avgAge), true)}</div><div class="label">Âge moyen à la labellisation (KPI-31)</div><div class="value">${astat.avgAge} an${astat.avgAge === '1.0' ? '' : 's'}</div><div class="sub">labelDate − année de création</div></div>
     <div class="kpi-card orange" data-kpi="KPI-33" tabindex="0"><div class="kpi-head"><span class="kpi-icon">🗓️</span>${trend(parseFloat(ageR.avgAnc), parseFloat(ageP.avgAnc), true)}</div><div class="label">Ancienneté moyenne (KPI-33)</div><div class="value">${astat.avgAnc} ans</div><div class="sub">2026 − année de création</div></div>
   `;
@@ -3504,17 +3531,33 @@ function renderSessions() {
   if (DATA.compare.active && DATA.compare.page === 'sessions') return renderSessionsCompare();
   const sessions = DATA.yearFilter === 'all'
     ? DATA.dashboard.sessions
-    : DATA.dashboard.sessions.filter(s => s.year === DATA.yearFilter);
+    : DATA.dashboard.sessions.filter(s => Number(s.year) === Number(DATA.yearFilter));
   document.getElementById('sessionsTable').innerHTML = sessions.slice().reverse().map(s => {
     const isRep = REPORTER_SESSIONS.includes(s.session);
     const repNote = isRep ? ' <span style="color:#be185d;font-size:0.75em" title="Contient des dossiers reportés">⬥ reporté</span>' : '';
+    const number = (...keys) => {
+      for (const key of keys) {
+        const n = Number(s[key]);
+        if (Number.isFinite(n)) return n;
+      }
+      return 0;
+    };
+    const officialCand = number('candidaturesOfficielles', 'candidatures_officielles', 'candidatures');
+    const correctedCand = number('candidaturesCorrigees', 'candidatures_corrigees', 'entries', 'detailedEntries', 'candidatures');
+    const officialLabels = number('labelsOfficiels', 'labels_officiels', 'labels');
+    const correctedLabels = number('labelsCorriges', 'labels_corriges', 'labels');
+    const officialPre = number('preLabelsOfficiels', 'preLabels_officiels', 'preLabels');
+    const correctedPre = number('preLabelsCorriges', 'preLabels_corriges', 'preLabels');
+    const officialRate = number('tauxPct', 'tauxAcceptation', 'tauxAcceptationExact') || (officialCand ? officialLabels / officialCand * 100 : null);
+    const rateText = Number.isFinite(officialRate) ? officialRate.toFixed(1).replace('.0', '') + '%' : '—';
+    const rateClass = officialRate > 45 ? 'badge-green' : officialRate > 35 ? 'badge-blue' : 'badge-red';
     return `
     <tr class="${isRep ? 'row-reporte' : ''}">
       <td><strong>${s.session}</strong>${repNote}</td>
-      <td>${s.candidatures}</td>
-      <td>${s.labels}</td>
-      <td>${s.preLabels}</td>
-      <td><span class="badge ${parseFloat(s.tauxAcceptation) > 45 ? 'badge-green' : parseFloat(s.tauxAcceptation) > 35 ? 'badge-blue' : 'badge-red'}">${s.tauxAcceptation}%</span></td>
+      <td><strong>${officialCand}</strong> <span class="metric-arrow">→ ${correctedCand}</span></td>
+      <td><strong>${officialLabels}</strong> <span class="metric-arrow">→ ${correctedLabels}</span></td>
+      <td><strong>${officialPre}</strong> <span class="metric-arrow">→ ${correctedPre}</span></td>
+      <td><span class="badge ${rateClass}">${rateText}</span></td>
       <td style="font-size:0.85em;color:#666">${s.commentaires || '-'}</td>
     </tr>`;
   }).join('');
@@ -3593,21 +3636,31 @@ function renderSessionCharts() {
 function renderSessionsCompare() {
   const a = DATA.compare.a, b = DATA.compare.b;
   const all = DATA.dashboard.sessions || [];
-  const rows = all.filter(s => s.year === a || s.year === b).slice().reverse();
-  const getBadge = (t) => {
-    const f = parseFloat(t);
-    return `<span class="badge ${f > 45 ? 'badge-green' : f > 35 ? 'badge-blue' : 'badge-red'}">${t}%</span>`;
+  const rows = all.filter(s => Number(s.year) === Number(a) || Number(s.year) === Number(b)).slice().reverse();
+  const getBadge = (t, labels, candidatures) => {
+    const f = Number(t);
+    const rate = Number.isFinite(f) ? f : (candidatures ? Number(labels) / Number(candidatures) * 100 : null);
+    return Number.isFinite(rate) ? `<span class="badge ${rate > 45 ? 'badge-green' : rate > 35 ? 'badge-blue' : 'badge-red'}">${rate.toFixed(1).replace('.0', '')}%</span>` : '<span class="badge">—</span>';
   };
-  document.getElementById('sessionsTable').innerHTML = rows.map(s => `
-    <tr class="${s.year === a ? 'cmp-row-a' : 'cmp-row-b'}">
-      <td><strong>${s.session}</strong> <span class="cmp-badge-${s.year === a ? 'a' : 'b'}">${s.year === a ? a : b}</span></td>
-      <td>${s.candidatures}</td>
-      <td>${s.labels}</td>
-      <td>${s.preLabels}</td>
-      <td>${getBadge(s.tauxAcceptation)}</td>
+  document.getElementById('sessionsTable').innerHTML = rows.map(s => {
+    const isA = Number(s.year) === Number(a);
+    const officialCand = Number(s.candidaturesOfficielles ?? s.candidatures_officielles ?? s.candidatures ?? 0);
+    const correctedCand = Number(s.candidaturesCorrigees ?? s.candidatures_corrigees ?? s.entries ?? officialCand);
+    const officialLabels = Number(s.labelsOfficiels ?? s.labels_officiels ?? s.labels ?? 0);
+    const correctedLabels = Number(s.labelsCorriges ?? s.labels_corriges ?? officialLabels);
+    const officialPre = Number(s.preLabelsOfficiels ?? s.preLabels_officiels ?? s.preLabels ?? 0);
+    const correctedPre = Number(s.preLabelsCorriges ?? s.preLabels_corriges ?? officialPre);
+    return `
+    <tr class="${isA ? 'cmp-row-a' : 'cmp-row-b'}">
+      <td><strong>${s.session}</strong> <span class="cmp-badge-${isA ? 'a' : 'b'}">${isA ? a : b}</span></td>
+      <td>${officialCand} <span class="metric-arrow">→ ${correctedCand}</span></td>
+      <td>${officialLabels} <span class="metric-arrow">→ ${correctedLabels}</span></td>
+      <td>${officialPre} <span class="metric-arrow">→ ${correctedPre}</span></td>
+      <td>${getBadge(s.tauxPct ?? s.tauxAcceptation ?? s.tauxAcceptationExact, officialLabels, officialCand)}</td>
       <td style="font-size:0.85em;color:#666">${s.commentaires || '-'}</td>
     </tr>
-  `).join('');
+  `;
+  }).join('');
 }
 
 function renderSessionChartsCompare() {
