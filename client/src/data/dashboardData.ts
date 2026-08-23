@@ -28,17 +28,17 @@ export const dashboardData = {
         "type": "pdf"
       }
     ],
-    "totalCandidatures": 3555,
+    "totalCandidatures": 3558,
     "totalLabels": 1343,
     "totalPreLabels": 647,
     "totalSessions": 88,
     "sessions": 88,
     "detailedEntries": 3555,
-    "dataNote": "KPI principaux calculés sur la série corrigée PDF : 3 555 lignes/candidatures documentaires, 1 343 Labels et 647 Prélabels. Les compteurs institutionnels restent visibles comme repère : 3 079, 1 356 et 641.",
+    "dataNote": "KPI principaux calculés sur 3 558 candidatures corrigées : 3 555 lignes PDF documentaires + 3 ajournés hors PDF signalés dans les commentaires officiels. Labels corrigés : 1 343 ; Prélabels corrigés : 647. Les compteurs institutionnels restent visibles comme repère : 3 079, 1 356 et 641.",
     "officialCandidatures": 3079,
     "officialLabels": 1356,
     "officialPreLabels": 641,
-    "correctedCandidatures": 3555,
+    "correctedCandidatures": 3558,
     "correctedLabels": 1343,
     "correctedPreLabels": 647,
     "pdfDetailedLabels": 1232,
@@ -54,18 +54,19 @@ export const dashboardData = {
       "conversions": 0,
       "newLabels": 12,
       "tauxPct": 75.0,
-      "statut": "Conforme",
+      "statut": "14 lignes PDF + 2 ajournés hors PDF (noms non identifiés)",
       "entries": 14,
       "reportes": 0,
+      "ajournesHorsPdf": 2,
       "session_id": "S0",
-      "candidaturesCorrigees": 14,
+      "candidaturesCorrigees": 16,
       "labelsCorriges": 12,
       "preLabelsCorriges": 0,
       "candidaturesOfficielles": 16,
       "labelsOfficiels": 12,
       "preLabelsOfficiels": 0,
       "lignesPdf": 14,
-      "ecartCandidatures": -2
+      "ecartCandidatures": 0
     },
     {
       "session": "04/2019",
@@ -120,18 +121,19 @@ export const dashboardData = {
       "conversions": 0,
       "newLabels": 15,
       "tauxPct": 45.45,
-      "statut": "Conforme",
+      "statut": "32 lignes PDF + 1 ajourné hors PDF (nom non identifié)",
       "entries": 32,
       "reportes": 0,
+      "ajournesHorsPdf": 1,
       "session_id": "S3",
-      "candidaturesCorrigees": 32,
+      "candidaturesCorrigees": 33,
       "labelsCorriges": 14,
       "preLabelsCorriges": 8,
       "candidaturesOfficielles": 33,
       "labelsOfficiels": 15,
       "preLabelsOfficiels": 8,
       "lignesPdf": 32,
-      "ecartCandidatures": -1
+      "ecartCandidatures": 0
     },
     {
       "session": "07/2019",
@@ -88298,10 +88300,10 @@ export const dashboardData = {
     {
       "id": "KPI-03",
       "nom": "Candidatures déposées",
-      "valeur": "3 555",
+      "valeur": "3 558",
       "statut": "ok",
       "page": "Dashboard",
-      "interp": "3 555 lignes/candidatures corrigées selon les PDF. Le compteur institutionnel séparé reste 3 079."
+      "interp": "3 558 candidatures corrigées = 3 555 lignes PDF + 3 ajournés hors PDF. Le compteur institutionnel séparé reste 3 079."
     },
     {
       "id": "KPI-04",
@@ -88488,7 +88490,7 @@ export const dashboardData = {
       "valeur": "40,4",
       "statut": "ok",
       "page": "Dashboard",
-      "interp": "3 555 candidatures-lignes corrigées / 88 sessions = 40,4. Le repère officiel est 3 079 / 88 = 35,0."
+      "interp": "3 558 candidatures corrigées / 88 sessions = 40,4. Le repère officiel est 3 079 / 88 = 35,0 ; le volume PDF seul reste 3 555 lignes."
     },
     {
       "id": "KPI-29",
@@ -88647,5 +88649,5 @@ export const dashboardData = {
     }
   ],
   "catalogueSource": "50 KPI: catalogue repris et valeurs recalculées sur la série canonique 88 sessions auditée le 22 août 2026",
-  "qualityNote": "Série principale corrigée PDF : 3555 lignes/candidatures documentaires, 1343 Labels et 647 Prélabels. Référence institutionnelle séparée : 3079 candidatures, 1356 Labels et 641 Prélabels. Cinq Reporté confirmés (S11, S12, S28, S30, S67); ITMMA/06-2024 reste Pitch décalé et n'est pas Reporté."
+  "qualityNote": "Série corrigée : 3558 candidatures = 3555 lignes PDF documentaires + 3 ajournés hors PDF (2 en 03/2019, 1 en 06/2019), 1343 Labels et 647 Prélabels. Référence institutionnelle séparée : 3079 candidatures, 1356 Labels et 641 Prélabels. Les 5 Reporté confirmés (S11, S12, S28, S30, S67) restent distincts des ajournés hors PDF ; ITMMA/06-2024 reste Pitch décalé et n'est pas Reporté."
 } as const;
