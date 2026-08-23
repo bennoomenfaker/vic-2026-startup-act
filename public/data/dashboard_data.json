@@ -34,7 +34,17 @@
     "totalSessions": 88,
     "sessions": 88,
     "detailedEntries": 3555,
-    "dataNote": "Les candidatures officielles et les lignes PDF détaillées sont deux séries distinctes. Les volumes confirmés par le classeur sont S16=51, S19=49, S24=56, S28=50, S30=38, S33=51, S46=38 et S62=46."
+    "dataNote": "Les KPI principaux utilisent la série corrigée issue des PDF; les compteurs officiels startup.gov.tn restent visibles séparément comme référence institutionnelle.",
+    "totalCandidaturesOfficielles": 3079,
+    "totalLabelsOfficiels": 1356,
+    "totalPreLabelsOfficiels": 641,
+    "totalCandidaturesCorrigees": 3555,
+    "totalLabelsCorriges": 1343,
+    "totalPreLabelsCorriges": 647,
+    "totalLignesPdf": 3555,
+    "totalLabelsPdfDetail": 1232,
+    "totalPreLabelsPdfDetail": 634,
+    "totalReportesPdf": 5
   },
   "sessions": [
     {
@@ -50,7 +60,19 @@
       "entries": 14,
       "reportes": 0,
       "session_id": "S0",
-      "detailedEntries": 14
+      "detailedEntries": 14,
+      "candidaturesOfficielles": 16,
+      "candidaturesCorrigees": 14,
+      "labelsOfficiels": 12,
+      "labelsCorriges": 12,
+      "preLabelsOfficiels": 0,
+      "preLabelsCorriges": 0,
+      "lignesPdf": 14,
+      "ecartCandidatures": -2,
+      "categoriesPdf": {
+        "Label accordé": 12,
+        "Label non accordé": 2
+      }
     },
     {
       "session": "04/2019",
@@ -65,7 +87,19 @@
       "entries": 52,
       "reportes": 0,
       "session_id": "S1",
-      "detailedEntries": 52
+      "detailedEntries": 52,
+      "candidaturesOfficielles": 51,
+      "candidaturesCorrigees": 52,
+      "labelsOfficiels": 33,
+      "labelsCorriges": 33,
+      "preLabelsOfficiels": 0,
+      "preLabelsCorriges": 0,
+      "lignesPdf": 52,
+      "ecartCandidatures": 1,
+      "categoriesPdf": {
+        "Label accordé": 33,
+        "Label non accordé": 19
+      }
     },
     {
       "session": "05/2019",
@@ -80,7 +114,21 @@
       "entries": 30,
       "reportes": 0,
       "session_id": "S2",
-      "detailedEntries": 30
+      "detailedEntries": 30,
+      "candidaturesOfficielles": 30,
+      "candidaturesCorrigees": 30,
+      "labelsOfficiels": 15,
+      "labelsCorriges": 15,
+      "preLabelsOfficiels": 8,
+      "preLabelsCorriges": 8,
+      "lignesPdf": 30,
+      "ecartCandidatures": 0,
+      "categoriesPdf": {
+        "Label accordé": 15,
+        "Label non accordé": 6,
+        "Prélabel accordé": 8,
+        "Prélabel non accordé": 1
+      }
     },
     {
       "session": "06/2019",
@@ -95,7 +143,21 @@
       "entries": 32,
       "reportes": 0,
       "session_id": "S3",
-      "detailedEntries": 32
+      "detailedEntries": 32,
+      "candidaturesOfficielles": 33,
+      "candidaturesCorrigees": 32,
+      "labelsOfficiels": 15,
+      "labelsCorriges": 14,
+      "preLabelsOfficiels": 8,
+      "preLabelsCorriges": 8,
+      "lignesPdf": 32,
+      "ecartCandidatures": -1,
+      "categoriesPdf": {
+        "Label accordé": 16,
+        "Label non accordé": 9,
+        "Prélabel accordé": 6,
+        "Prélabel non accordé": 1
+      }
     },
     {
       "session": "07/2019",
@@ -110,7 +172,21 @@
       "entries": 29,
       "reportes": 0,
       "session_id": "S4",
-      "detailedEntries": 29
+      "detailedEntries": 29,
+      "candidaturesOfficielles": 28,
+      "candidaturesCorrigees": 29,
+      "labelsOfficiels": 15,
+      "labelsCorriges": 14,
+      "preLabelsOfficiels": 8,
+      "preLabelsCorriges": 8,
+      "lignesPdf": 29,
+      "ecartCandidatures": 1,
+      "categoriesPdf": {
+        "Label accordé": 14,
+        "Label non accordé": 4,
+        "Prélabel accordé": 8,
+        "Prélabel non accordé": 3
+      }
     },
     {
       "session": "08/2019",
@@ -125,7 +201,20 @@
       "entries": 28,
       "reportes": 0,
       "session_id": "S5",
-      "detailedEntries": 28
+      "detailedEntries": 28,
+      "candidaturesOfficielles": 28,
+      "candidaturesCorrigees": 28,
+      "labelsOfficiels": 24,
+      "labelsCorriges": 20,
+      "preLabelsOfficiels": 7,
+      "preLabelsCorriges": 5,
+      "lignesPdf": 28,
+      "ecartCandidatures": 0,
+      "categoriesPdf": {
+        "Label accordé": 20,
+        "Prélabel accordé": 5,
+        "Prélabel non accordé": 3
+      }
     },
     {
       "session": "09/2019",
@@ -140,7 +229,21 @@
       "entries": 27,
       "reportes": 0,
       "session_id": "S6",
-      "detailedEntries": 27
+      "detailedEntries": 27,
+      "candidaturesOfficielles": 24,
+      "candidaturesCorrigees": 27,
+      "labelsOfficiels": 15,
+      "labelsCorriges": 15,
+      "preLabelsOfficiels": 6,
+      "preLabelsCorriges": 6,
+      "lignesPdf": 27,
+      "ecartCandidatures": 3,
+      "categoriesPdf": {
+        "Label accordé": 12,
+        "Label non accordé": 2,
+        "Prélabel accordé": 9,
+        "Prélabel non accordé": 4
+      }
     },
     {
       "session": "10/2019",
@@ -155,7 +258,21 @@
       "entries": 39,
       "reportes": 0,
       "session_id": "S7",
-      "detailedEntries": 39
+      "detailedEntries": 39,
+      "candidaturesOfficielles": 34,
+      "candidaturesCorrigees": 39,
+      "labelsOfficiels": 23,
+      "labelsCorriges": 23,
+      "preLabelsOfficiels": 4,
+      "preLabelsCorriges": 5,
+      "lignesPdf": 39,
+      "ecartCandidatures": 5,
+      "categoriesPdf": {
+        "Label accordé": 18,
+        "Label non accordé": 6,
+        "Prélabel accordé": 10,
+        "Prélabel non accordé": 5
+      }
     },
     {
       "session": "11/2019",
@@ -170,7 +287,21 @@
       "entries": 41,
       "reportes": 0,
       "session_id": "S8",
-      "detailedEntries": 41
+      "detailedEntries": 41,
+      "candidaturesOfficielles": 35,
+      "candidaturesCorrigees": 41,
+      "labelsOfficiels": 17,
+      "labelsCorriges": 17,
+      "preLabelsOfficiels": 10,
+      "preLabelsCorriges": 10,
+      "lignesPdf": 41,
+      "ecartCandidatures": 6,
+      "categoriesPdf": {
+        "Label accordé": 11,
+        "Label non accordé": 4,
+        "Prélabel accordé": 16,
+        "Prélabel non accordé": 10
+      }
     },
     {
       "session": "12/2019",
@@ -185,7 +316,21 @@
       "entries": 42,
       "reportes": 0,
       "session_id": "S9",
-      "detailedEntries": 42
+      "detailedEntries": 42,
+      "candidaturesOfficielles": 32,
+      "candidaturesCorrigees": 42,
+      "labelsOfficiels": 23,
+      "labelsCorriges": 23,
+      "preLabelsOfficiels": 8,
+      "preLabelsCorriges": 8,
+      "lignesPdf": 42,
+      "ecartCandidatures": 10,
+      "categoriesPdf": {
+        "Label accordé": 23,
+        "Label non accordé": 5,
+        "Prélabel accordé": 8,
+        "Prélabel non accordé": 6
+      }
     },
     {
       "session": "01/2020",
@@ -200,7 +345,21 @@
       "entries": 42,
       "reportes": 0,
       "session_id": "S10",
-      "detailedEntries": 42
+      "detailedEntries": 42,
+      "candidaturesOfficielles": 38,
+      "candidaturesCorrigees": 42,
+      "labelsOfficiels": 18,
+      "labelsCorriges": 18,
+      "preLabelsOfficiels": 11,
+      "preLabelsCorriges": 11,
+      "lignesPdf": 42,
+      "ecartCandidatures": 4,
+      "categoriesPdf": {
+        "Label accordé": 14,
+        "Label non accordé": 9,
+        "Prélabel accordé": 15,
+        "Prélabel non accordé": 4
+      }
     },
     {
       "session": "02/2020",
@@ -215,7 +374,22 @@
       "entries": 41,
       "reportes": 1,
       "session_id": "S11",
-      "detailedEntries": 41
+      "detailedEntries": 41,
+      "candidaturesOfficielles": 32,
+      "candidaturesCorrigees": 41,
+      "labelsOfficiels": 22,
+      "labelsCorriges": 22,
+      "preLabelsOfficiels": 11,
+      "preLabelsCorriges": 11,
+      "lignesPdf": 41,
+      "ecartCandidatures": 9,
+      "categoriesPdf": {
+        "Label accordé": 22,
+        "Label non accordé": 4,
+        "Prélabel accordé": 11,
+        "Prélabel non accordé": 3,
+        "Reporté": 1
+      }
     },
     {
       "session": "03/2020",
@@ -230,7 +404,22 @@
       "entries": 40,
       "reportes": 1,
       "session_id": "S12",
-      "detailedEntries": 40
+      "detailedEntries": 40,
+      "candidaturesOfficielles": 35,
+      "candidaturesCorrigees": 40,
+      "labelsOfficiels": 16,
+      "labelsCorriges": 16,
+      "preLabelsOfficiels": 10,
+      "preLabelsCorriges": 10,
+      "lignesPdf": 40,
+      "ecartCandidatures": 5,
+      "categoriesPdf": {
+        "Label accordé": 12,
+        "Label non accordé": 7,
+        "Prélabel accordé": 14,
+        "Prélabel non accordé": 6,
+        "Reporté": 1
+      }
     },
     {
       "session": "04/2020",
@@ -245,7 +434,22 @@
       "entries": 45,
       "reportes": 0,
       "session_id": "S13",
-      "detailedEntries": 45
+      "detailedEntries": 45,
+      "candidaturesOfficielles": 40,
+      "candidaturesCorrigees": 45,
+      "labelsOfficiels": 20,
+      "labelsCorriges": 20,
+      "preLabelsOfficiels": 7,
+      "preLabelsCorriges": 7,
+      "lignesPdf": 45,
+      "ecartCandidatures": 5,
+      "categoriesPdf": {
+        "Label accordé": 17,
+        "Label non accordé": 9,
+        "Prélabel accordé": 10,
+        "Prélabel non accordé": 8,
+        "Retrait Label": 1
+      }
     },
     {
       "session": "05/2020",
@@ -260,7 +464,22 @@
       "entries": 32,
       "reportes": 0,
       "session_id": "S14",
-      "detailedEntries": 32
+      "detailedEntries": 32,
+      "candidaturesOfficielles": 26,
+      "candidaturesCorrigees": 32,
+      "labelsOfficiels": 12,
+      "labelsCorriges": 12,
+      "preLabelsOfficiels": 10,
+      "preLabelsCorriges": 10,
+      "lignesPdf": 32,
+      "ecartCandidatures": 6,
+      "categoriesPdf": {
+        "Label accordé": 7,
+        "Label non accordé": 4,
+        "Prélabel accordé": 15,
+        "Prélabel non accordé": 5,
+        "Retrait Label": 1
+      }
     },
     {
       "session": "06/2020",
@@ -275,7 +494,21 @@
       "entries": 30,
       "reportes": 0,
       "session_id": "S15",
-      "detailedEntries": 30
+      "detailedEntries": 30,
+      "candidaturesOfficielles": 26,
+      "candidaturesCorrigees": 30,
+      "labelsOfficiels": 12,
+      "labelsCorriges": 12,
+      "preLabelsOfficiels": 5,
+      "preLabelsCorriges": 5,
+      "lignesPdf": 30,
+      "ecartCandidatures": 4,
+      "categoriesPdf": {
+        "Label accordé": 12,
+        "Label non accordé": 4,
+        "Prélabel accordé": 5,
+        "Prélabel non accordé": 9
+      }
     },
     {
       "session": "07/2020",
@@ -290,7 +523,22 @@
       "entries": 51,
       "reportes": 0,
       "session_id": "S16",
-      "detailedEntries": 51
+      "detailedEntries": 51,
+      "candidaturesOfficielles": 40,
+      "candidaturesCorrigees": 51,
+      "labelsOfficiels": 18,
+      "labelsCorriges": 18,
+      "preLabelsOfficiels": 7,
+      "preLabelsCorriges": 7,
+      "lignesPdf": 51,
+      "ecartCandidatures": 11,
+      "categoriesPdf": {
+        "Label accordé": 18,
+        "Label non accordé": 11,
+        "Prélabel accordé": 7,
+        "Prélabel non accordé": 13,
+        "Retrait Label": 2
+      }
     },
     {
       "session": "08/2020",
@@ -305,7 +553,20 @@
       "entries": 34,
       "reportes": 0,
       "session_id": "S17",
-      "detailedEntries": 34
+      "detailedEntries": 34,
+      "candidaturesOfficielles": 28,
+      "candidaturesCorrigees": 34,
+      "labelsOfficiels": 17,
+      "labelsCorriges": 17,
+      "preLabelsOfficiels": 6,
+      "preLabelsCorriges": 6,
+      "lignesPdf": 34,
+      "ecartCandidatures": 6,
+      "categoriesPdf": {
+        "Label accordé": 12,
+        "Label non accordé": 10,
+        "Prélabel non accordé": 12
+      }
     },
     {
       "session": "09/2020",
@@ -320,7 +581,19 @@
       "entries": 23,
       "reportes": 0,
       "session_id": "S18",
-      "detailedEntries": 23
+      "detailedEntries": 23,
+      "candidaturesOfficielles": 24,
+      "candidaturesCorrigees": 23,
+      "labelsOfficiels": 11,
+      "labelsCorriges": 11,
+      "preLabelsOfficiels": 9,
+      "preLabelsCorriges": 9,
+      "lignesPdf": 23,
+      "ecartCandidatures": -1,
+      "categoriesPdf": {
+        "Label accordé": 8,
+        "Prélabel non accordé": 15
+      }
     },
     {
       "session": "10/2020",
@@ -335,7 +608,22 @@
       "entries": 49,
       "reportes": 0,
       "session_id": "S19",
-      "detailedEntries": 49
+      "detailedEntries": 49,
+      "candidaturesOfficielles": 41,
+      "candidaturesCorrigees": 49,
+      "labelsOfficiels": 16,
+      "labelsCorriges": 16,
+      "preLabelsOfficiels": 10,
+      "preLabelsCorriges": 10,
+      "lignesPdf": 49,
+      "ecartCandidatures": 8,
+      "categoriesPdf": {
+        "Label accordé": 16,
+        "Label non accordé": 6,
+        "Prélabel accordé": 10,
+        "Prélabel non accordé": 16,
+        "Retrait Label": 1
+      }
     },
     {
       "session": "11/2020",
@@ -350,7 +638,21 @@
       "entries": 40,
       "reportes": 0,
       "session_id": "S20",
-      "detailedEntries": 40
+      "detailedEntries": 40,
+      "candidaturesOfficielles": 41,
+      "candidaturesCorrigees": 40,
+      "labelsOfficiels": 26,
+      "labelsCorriges": 26,
+      "preLabelsOfficiels": 14,
+      "preLabelsCorriges": 14,
+      "lignesPdf": 40,
+      "ecartCandidatures": -1,
+      "categoriesPdf": {
+        "Label accordé": 14,
+        "Label non accordé": 12,
+        "Prélabel accordé": 2,
+        "Prélabel non accordé": 12
+      }
     },
     {
       "session": "12/2020",
@@ -365,7 +667,19 @@
       "entries": 36,
       "reportes": 0,
       "session_id": "S21",
-      "detailedEntries": 36
+      "detailedEntries": 36,
+      "candidaturesOfficielles": 36,
+      "candidaturesCorrigees": 36,
+      "labelsOfficiels": 21,
+      "labelsCorriges": 21,
+      "preLabelsOfficiels": 8,
+      "preLabelsCorriges": 8,
+      "lignesPdf": 36,
+      "ecartCandidatures": 0,
+      "categoriesPdf": {
+        "Label non accordé": 21,
+        "Prélabel non accordé": 15
+      }
     },
     {
       "session": "01/2021",
@@ -380,7 +694,21 @@
       "entries": 36,
       "reportes": 0,
       "session_id": "S22",
-      "detailedEntries": 36
+      "detailedEntries": 36,
+      "candidaturesOfficielles": 36,
+      "candidaturesCorrigees": 36,
+      "labelsOfficiels": 24,
+      "labelsCorriges": 24,
+      "preLabelsOfficiels": 7,
+      "preLabelsCorriges": 7,
+      "lignesPdf": 36,
+      "ecartCandidatures": 0,
+      "categoriesPdf": {
+        "Label accordé": 15,
+        "Label non accordé": 5,
+        "Prélabel accordé": 7,
+        "Prélabel non accordé": 9
+      }
     },
     {
       "session": "02/2021",
@@ -395,7 +723,21 @@
       "entries": 48,
       "reportes": 0,
       "session_id": "S23",
-      "detailedEntries": 48
+      "detailedEntries": 48,
+      "candidaturesOfficielles": 41,
+      "candidaturesCorrigees": 48,
+      "labelsOfficiels": 25,
+      "labelsCorriges": 25,
+      "preLabelsOfficiels": 7,
+      "preLabelsCorriges": 10,
+      "lignesPdf": 48,
+      "ecartCandidatures": 7,
+      "categoriesPdf": {
+        "Label accordé": 25,
+        "Label non accordé": 7,
+        "Prélabel accordé": 10,
+        "Prélabel non accordé": 6
+      }
     },
     {
       "session": "03/2021",
@@ -410,7 +752,22 @@
       "entries": 56,
       "reportes": 0,
       "session_id": "S24",
-      "detailedEntries": 56
+      "detailedEntries": 56,
+      "candidaturesOfficielles": 41,
+      "candidaturesCorrigees": 56,
+      "labelsOfficiels": 25,
+      "labelsCorriges": 25,
+      "preLabelsOfficiels": 8,
+      "preLabelsCorriges": 8,
+      "lignesPdf": 56,
+      "ecartCandidatures": 15,
+      "categoriesPdf": {
+        "Label accordé": 25,
+        "Label non accordé": 8,
+        "Prélabel accordé": 8,
+        "Prélabel non accordé": 13,
+        "Retrait Label": 2
+      }
     },
     {
       "session": "04/2021",
@@ -425,7 +782,22 @@
       "entries": 81,
       "reportes": 0,
       "session_id": "S25",
-      "detailedEntries": 81
+      "detailedEntries": 81,
+      "candidaturesOfficielles": 80,
+      "candidaturesCorrigees": 81,
+      "labelsOfficiels": 22,
+      "labelsCorriges": 22,
+      "preLabelsOfficiels": 24,
+      "preLabelsCorriges": 24,
+      "lignesPdf": 81,
+      "ecartCandidatures": 1,
+      "categoriesPdf": {
+        "Label accordé": 18,
+        "Label non accordé": 7,
+        "Prélabel accordé": 24,
+        "Prélabel non accordé": 31,
+        "Retrait Label": 1
+      }
     },
     {
       "session": "05/2021",
@@ -440,7 +812,22 @@
       "entries": 47,
       "reportes": 0,
       "session_id": "S26",
-      "detailedEntries": 47
+      "detailedEntries": 47,
+      "candidaturesOfficielles": 40,
+      "candidaturesCorrigees": 47,
+      "labelsOfficiels": 19,
+      "labelsCorriges": 19,
+      "preLabelsOfficiels": 8,
+      "preLabelsCorriges": 8,
+      "lignesPdf": 47,
+      "ecartCandidatures": 7,
+      "categoriesPdf": {
+        "Label accordé": 19,
+        "Label non accordé": 7,
+        "Prélabel accordé": 8,
+        "Prélabel non accordé": 12,
+        "Retrait Label": 1
+      }
     },
     {
       "session": "06/2021",
@@ -455,7 +842,21 @@
       "entries": 47,
       "reportes": 0,
       "session_id": "S27",
-      "detailedEntries": 47
+      "detailedEntries": 47,
+      "candidaturesOfficielles": 41,
+      "candidaturesCorrigees": 47,
+      "labelsOfficiels": 18,
+      "labelsCorriges": 18,
+      "preLabelsOfficiels": 6,
+      "preLabelsCorriges": 6,
+      "lignesPdf": 47,
+      "ecartCandidatures": 6,
+      "categoriesPdf": {
+        "Label accordé": 18,
+        "Label non accordé": 10,
+        "Prélabel accordé": 6,
+        "Prélabel non accordé": 13
+      }
     },
     {
       "session": "07/2021",
@@ -470,7 +871,22 @@
       "entries": 50,
       "reportes": 1,
       "session_id": "S28",
-      "detailedEntries": 50
+      "detailedEntries": 50,
+      "candidaturesOfficielles": 40,
+      "candidaturesCorrigees": 50,
+      "labelsOfficiels": 22,
+      "labelsCorriges": 22,
+      "preLabelsOfficiels": 5,
+      "preLabelsCorriges": 5,
+      "lignesPdf": 50,
+      "ecartCandidatures": 10,
+      "categoriesPdf": {
+        "Label accordé": 21,
+        "Label non accordé": 8,
+        "Prélabel accordé": 5,
+        "Prélabel non accordé": 15,
+        "Reporté": 1
+      }
     },
     {
       "session": "08/2021",
@@ -485,7 +901,22 @@
       "entries": 33,
       "reportes": 0,
       "session_id": "S29",
-      "detailedEntries": 33
+      "detailedEntries": 33,
+      "candidaturesOfficielles": 25,
+      "candidaturesCorrigees": 33,
+      "labelsOfficiels": 13,
+      "labelsCorriges": 13,
+      "preLabelsOfficiels": 4,
+      "preLabelsCorriges": 4,
+      "lignesPdf": 33,
+      "ecartCandidatures": 8,
+      "categoriesPdf": {
+        "Label accordé": 13,
+        "Label non accordé": 9,
+        "Prélabel accordé": 4,
+        "Prélabel non accordé": 6,
+        "Retrait Label": 1
+      }
     },
     {
       "session": "09/2021",
@@ -500,7 +931,22 @@
       "entries": 38,
       "reportes": 1,
       "session_id": "S30",
-      "detailedEntries": 38
+      "detailedEntries": 38,
+      "candidaturesOfficielles": 15,
+      "candidaturesCorrigees": 38,
+      "labelsOfficiels": 13,
+      "labelsCorriges": 15,
+      "preLabelsOfficiels": 6,
+      "preLabelsCorriges": 6,
+      "lignesPdf": 38,
+      "ecartCandidatures": 23,
+      "categoriesPdf": {
+        "Label accordé": 15,
+        "Label non accordé": 3,
+        "Prélabel accordé": 6,
+        "Prélabel non accordé": 13,
+        "Reporté": 1
+      }
     },
     {
       "session": "10/2021",
@@ -515,7 +961,21 @@
       "entries": 49,
       "reportes": 0,
       "session_id": "S31",
-      "detailedEntries": 49
+      "detailedEntries": 49,
+      "candidaturesOfficielles": 41,
+      "candidaturesCorrigees": 49,
+      "labelsOfficiels": 23,
+      "labelsCorriges": 23,
+      "preLabelsOfficiels": 7,
+      "preLabelsCorriges": 7,
+      "lignesPdf": 49,
+      "ecartCandidatures": 8,
+      "categoriesPdf": {
+        "Label accordé": 23,
+        "Label non accordé": 2,
+        "Prélabel accordé": 7,
+        "Prélabel non accordé": 17
+      }
     },
     {
       "session": "11/2021",
@@ -530,7 +990,21 @@
       "entries": 47,
       "reportes": 0,
       "session_id": "S32",
-      "detailedEntries": 47
+      "detailedEntries": 47,
+      "candidaturesOfficielles": 40,
+      "candidaturesCorrigees": 47,
+      "labelsOfficiels": 19,
+      "labelsCorriges": 19,
+      "preLabelsOfficiels": 10,
+      "preLabelsCorriges": 10,
+      "lignesPdf": 47,
+      "ecartCandidatures": 7,
+      "categoriesPdf": {
+        "Label accordé": 19,
+        "Label non accordé": 3,
+        "Prélabel accordé": 10,
+        "Prélabel non accordé": 15
+      }
     },
     {
       "session": "12/2021",
@@ -545,7 +1019,22 @@
       "entries": 51,
       "reportes": 0,
       "session_id": "S33",
-      "detailedEntries": 51
+      "detailedEntries": 51,
+      "candidaturesOfficielles": 38,
+      "candidaturesCorrigees": 51,
+      "labelsOfficiels": 20,
+      "labelsCorriges": 20,
+      "preLabelsOfficiels": 11,
+      "preLabelsCorriges": 11,
+      "lignesPdf": 51,
+      "ecartCandidatures": 13,
+      "categoriesPdf": {
+        "Label accordé": 20,
+        "Label non accordé": 4,
+        "Prélabel accordé": 11,
+        "Prélabel non accordé": 9,
+        "Retrait Label": 7
+      }
     },
     {
       "session": "01/2022",
@@ -560,7 +1049,22 @@
       "entries": 46,
       "reportes": 0,
       "session_id": "S34",
-      "detailedEntries": 46
+      "detailedEntries": 46,
+      "candidaturesOfficielles": 38,
+      "candidaturesCorrigees": 46,
+      "labelsOfficiels": 15,
+      "labelsCorriges": 15,
+      "preLabelsOfficiels": 9,
+      "preLabelsCorriges": 9,
+      "lignesPdf": 46,
+      "ecartCandidatures": 8,
+      "categoriesPdf": {
+        "Label accordé": 15,
+        "Label non accordé": 9,
+        "Prélabel accordé": 8,
+        "Prélabel non accordé": 10,
+        "Retrait Label": 4
+      }
     },
     {
       "session": "02/2022",
@@ -575,7 +1079,21 @@
       "entries": 22,
       "reportes": 0,
       "session_id": "S35",
-      "detailedEntries": 22
+      "detailedEntries": 22,
+      "candidaturesOfficielles": 18,
+      "candidaturesCorrigees": 22,
+      "labelsOfficiels": 12,
+      "labelsCorriges": 12,
+      "preLabelsOfficiels": 3,
+      "preLabelsCorriges": 3,
+      "lignesPdf": 22,
+      "ecartCandidatures": 4,
+      "categoriesPdf": {
+        "Label accordé": 12,
+        "Label non accordé": 2,
+        "Prélabel accordé": 3,
+        "Prélabel non accordé": 5
+      }
     },
     {
       "session": "03/2022",
@@ -590,7 +1108,21 @@
       "entries": 30,
       "reportes": 0,
       "session_id": "S36",
-      "detailedEntries": 30
+      "detailedEntries": 30,
+      "candidaturesOfficielles": 21,
+      "candidaturesCorrigees": 30,
+      "labelsOfficiels": 14,
+      "labelsCorriges": 14,
+      "preLabelsOfficiels": 5,
+      "preLabelsCorriges": 5,
+      "lignesPdf": 30,
+      "ecartCandidatures": 9,
+      "categoriesPdf": {
+        "Label accordé": 14,
+        "Label non accordé": 5,
+        "Prélabel accordé": 5,
+        "Prélabel non accordé": 6
+      }
     },
     {
       "session": "04/2022",
@@ -605,7 +1137,22 @@
       "entries": 27,
       "reportes": 0,
       "session_id": "S37",
-      "detailedEntries": 27
+      "detailedEntries": 27,
+      "candidaturesOfficielles": 22,
+      "candidaturesCorrigees": 27,
+      "labelsOfficiels": 9,
+      "labelsCorriges": 9,
+      "preLabelsOfficiels": 6,
+      "preLabelsCorriges": 6,
+      "lignesPdf": 27,
+      "ecartCandidatures": 5,
+      "categoriesPdf": {
+        "Label accordé": 9,
+        "Label non accordé": 5,
+        "Prélabel accordé": 6,
+        "Prélabel non accordé": 6,
+        "Retrait Label": 1
+      }
     },
     {
       "session": "05/2022",
@@ -620,7 +1167,22 @@
       "entries": 49,
       "reportes": 0,
       "session_id": "S38",
-      "detailedEntries": 49
+      "detailedEntries": 49,
+      "candidaturesOfficielles": 41,
+      "candidaturesCorrigees": 49,
+      "labelsOfficiels": 14,
+      "labelsCorriges": 14,
+      "preLabelsOfficiels": 9,
+      "preLabelsCorriges": 9,
+      "lignesPdf": 49,
+      "ecartCandidatures": 8,
+      "categoriesPdf": {
+        "Label accordé": 14,
+        "Label non accordé": 12,
+        "Prélabel accordé": 9,
+        "Prélabel non accordé": 12,
+        "Retrait Label": 2
+      }
     },
     {
       "session": "06/2022",
@@ -635,7 +1197,22 @@
       "entries": 46,
       "reportes": 0,
       "session_id": "S39",
-      "detailedEntries": 46
+      "detailedEntries": 46,
+      "candidaturesOfficielles": 40,
+      "candidaturesCorrigees": 46,
+      "labelsOfficiels": 14,
+      "labelsCorriges": 14,
+      "preLabelsOfficiels": 10,
+      "preLabelsCorriges": 10,
+      "lignesPdf": 46,
+      "ecartCandidatures": 6,
+      "categoriesPdf": {
+        "Label accordé": 14,
+        "Label non accordé": 10,
+        "Prélabel accordé": 10,
+        "Prélabel non accordé": 10,
+        "Retrait Label": 2
+      }
     },
     {
       "session": "07/2022",
@@ -650,7 +1227,22 @@
       "entries": 45,
       "reportes": 0,
       "session_id": "S40",
-      "detailedEntries": 45
+      "detailedEntries": 45,
+      "candidaturesOfficielles": 40,
+      "candidaturesCorrigees": 45,
+      "labelsOfficiels": 18,
+      "labelsCorriges": 18,
+      "preLabelsOfficiels": 9,
+      "preLabelsCorriges": 9,
+      "lignesPdf": 45,
+      "ecartCandidatures": 5,
+      "categoriesPdf": {
+        "Label accordé": 18,
+        "Label non accordé": 2,
+        "Prélabel accordé": 9,
+        "Prélabel non accordé": 15,
+        "Retrait Label": 1
+      }
     },
     {
       "session": "08/2022",
@@ -665,7 +1257,22 @@
       "entries": 44,
       "reportes": 0,
       "session_id": "S41",
-      "detailedEntries": 44
+      "detailedEntries": 44,
+      "candidaturesOfficielles": 36,
+      "candidaturesCorrigees": 44,
+      "labelsOfficiels": 12,
+      "labelsCorriges": 12,
+      "preLabelsOfficiels": 12,
+      "preLabelsCorriges": 12,
+      "lignesPdf": 44,
+      "ecartCandidatures": 8,
+      "categoriesPdf": {
+        "Label accordé": 12,
+        "Label non accordé": 10,
+        "Prélabel accordé": 12,
+        "Prélabel non accordé": 8,
+        "Retrait Label": 2
+      }
     },
     {
       "session": "09/2022",
@@ -680,7 +1287,21 @@
       "entries": 49,
       "reportes": 0,
       "session_id": "S42",
-      "detailedEntries": 49
+      "detailedEntries": 49,
+      "candidaturesOfficielles": 40,
+      "candidaturesCorrigees": 49,
+      "labelsOfficiels": 19,
+      "labelsCorriges": 19,
+      "preLabelsOfficiels": 5,
+      "preLabelsCorriges": 5,
+      "lignesPdf": 49,
+      "ecartCandidatures": 9,
+      "categoriesPdf": {
+        "Label accordé": 19,
+        "Label non accordé": 10,
+        "Prélabel accordé": 5,
+        "Prélabel non accordé": 15
+      }
     },
     {
       "session": "10/2022",
@@ -695,7 +1316,22 @@
       "entries": 45,
       "reportes": 0,
       "session_id": "S43",
-      "detailedEntries": 45
+      "detailedEntries": 45,
+      "candidaturesOfficielles": 38,
+      "candidaturesCorrigees": 45,
+      "labelsOfficiels": 14,
+      "labelsCorriges": 14,
+      "preLabelsOfficiels": 7,
+      "preLabelsCorriges": 7,
+      "lignesPdf": 45,
+      "ecartCandidatures": 7,
+      "categoriesPdf": {
+        "Label accordé": 14,
+        "Label non accordé": 10,
+        "Prélabel accordé": 7,
+        "Prélabel non accordé": 13,
+        "Retrait Label": 1
+      }
     },
     {
       "session": "11/2022",
@@ -710,7 +1346,21 @@
       "entries": 42,
       "reportes": 0,
       "session_id": "S44",
-      "detailedEntries": 42
+      "detailedEntries": 42,
+      "candidaturesOfficielles": 34,
+      "candidaturesCorrigees": 42,
+      "labelsOfficiels": 17,
+      "labelsCorriges": 17,
+      "preLabelsOfficiels": 10,
+      "preLabelsCorriges": 10,
+      "lignesPdf": 42,
+      "ecartCandidatures": 8,
+      "categoriesPdf": {
+        "Label accordé": 17,
+        "Label non accordé": 5,
+        "Prélabel accordé": 10,
+        "Prélabel non accordé": 10
+      }
     },
     {
       "session": "12/2022",
@@ -725,7 +1375,21 @@
       "entries": 39,
       "reportes": 0,
       "session_id": "S45",
-      "detailedEntries": 39
+      "detailedEntries": 39,
+      "candidaturesOfficielles": 30,
+      "candidaturesCorrigees": 39,
+      "labelsOfficiels": 17,
+      "labelsCorriges": 16,
+      "preLabelsOfficiels": 5,
+      "preLabelsCorriges": 5,
+      "lignesPdf": 39,
+      "ecartCandidatures": 9,
+      "categoriesPdf": {
+        "Label accordé": 16,
+        "Label non accordé": 5,
+        "Prélabel accordé": 5,
+        "Prélabel non accordé": 13
+      }
     },
     {
       "session": "01/2023",
@@ -740,7 +1404,22 @@
       "entries": 38,
       "reportes": 0,
       "session_id": "S46",
-      "detailedEntries": 38
+      "detailedEntries": 38,
+      "candidaturesOfficielles": 26,
+      "candidaturesCorrigees": 38,
+      "labelsOfficiels": 16,
+      "labelsCorriges": 16,
+      "preLabelsOfficiels": 6,
+      "preLabelsCorriges": 6,
+      "lignesPdf": 38,
+      "ecartCandidatures": 12,
+      "categoriesPdf": {
+        "Label accordé": 16,
+        "Label non accordé": 9,
+        "Prélabel accordé": 6,
+        "Prélabel non accordé": 5,
+        "Retrait Label": 2
+      }
     },
     {
       "session": "02/2023",
@@ -755,7 +1434,22 @@
       "entries": 42,
       "reportes": 0,
       "session_id": "S47",
-      "detailedEntries": 42
+      "detailedEntries": 42,
+      "candidaturesOfficielles": 33,
+      "candidaturesCorrigees": 42,
+      "labelsOfficiels": 18,
+      "labelsCorriges": 18,
+      "preLabelsOfficiels": 11,
+      "preLabelsCorriges": 11,
+      "lignesPdf": 42,
+      "ecartCandidatures": 9,
+      "categoriesPdf": {
+        "Label accordé": 15,
+        "Label non accordé": 7,
+        "Prélabel accordé": 11,
+        "Prélabel non accordé": 8,
+        "Retrait Label": 1
+      }
     },
     {
       "session": "03/2023",
@@ -770,7 +1464,21 @@
       "entries": 42,
       "reportes": 0,
       "session_id": "S48",
-      "detailedEntries": 42
+      "detailedEntries": 42,
+      "candidaturesOfficielles": 37,
+      "candidaturesCorrigees": 42,
+      "labelsOfficiels": 13,
+      "labelsCorriges": 14,
+      "preLabelsOfficiels": 6,
+      "preLabelsCorriges": 6,
+      "lignesPdf": 42,
+      "ecartCandidatures": 5,
+      "categoriesPdf": {
+        "Label accordé": 14,
+        "Label non accordé": 7,
+        "Prélabel accordé": 6,
+        "Prélabel non accordé": 15
+      }
     },
     {
       "session": "04/2023",
@@ -785,7 +1493,21 @@
       "entries": 40,
       "reportes": 0,
       "session_id": "S49",
-      "detailedEntries": 40
+      "detailedEntries": 40,
+      "candidaturesOfficielles": 40,
+      "candidaturesCorrigees": 40,
+      "labelsOfficiels": 14,
+      "labelsCorriges": 13,
+      "preLabelsOfficiels": 5,
+      "preLabelsCorriges": 5,
+      "lignesPdf": 40,
+      "ecartCandidatures": 0,
+      "categoriesPdf": {
+        "Label accordé": 9,
+        "Label non accordé": 11,
+        "Prélabel accordé": 5,
+        "Prélabel non accordé": 15
+      }
     },
     {
       "session": "05/2023",
@@ -800,7 +1522,21 @@
       "entries": 45,
       "reportes": 0,
       "session_id": "S50",
-      "detailedEntries": 45
+      "detailedEntries": 45,
+      "candidaturesOfficielles": 39,
+      "candidaturesCorrigees": 45,
+      "labelsOfficiels": 19,
+      "labelsCorriges": 19,
+      "preLabelsOfficiels": 9,
+      "preLabelsCorriges": 9,
+      "lignesPdf": 45,
+      "ecartCandidatures": 6,
+      "categoriesPdf": {
+        "Label accordé": 19,
+        "Label non accordé": 6,
+        "Prélabel accordé": 8,
+        "Prélabel non accordé": 12
+      }
     },
     {
       "session": "06/2023",
@@ -815,7 +1551,21 @@
       "entries": 34,
       "reportes": 0,
       "session_id": "S51",
-      "detailedEntries": 34
+      "detailedEntries": 34,
+      "candidaturesOfficielles": 28,
+      "candidaturesCorrigees": 34,
+      "labelsOfficiels": 10,
+      "labelsCorriges": 10,
+      "preLabelsOfficiels": 8,
+      "preLabelsCorriges": 8,
+      "lignesPdf": 34,
+      "ecartCandidatures": 6,
+      "categoriesPdf": {
+        "Label accordé": 10,
+        "Label non accordé": 4,
+        "Prélabel accordé": 8,
+        "Prélabel non accordé": 12
+      }
     },
     {
       "session": "07/2023",
@@ -830,7 +1580,21 @@
       "entries": 42,
       "reportes": 0,
       "session_id": "S52",
-      "detailedEntries": 42
+      "detailedEntries": 42,
+      "candidaturesOfficielles": 33,
+      "candidaturesCorrigees": 42,
+      "labelsOfficiels": 15,
+      "labelsCorriges": 15,
+      "preLabelsOfficiels": 8,
+      "preLabelsCorriges": 8,
+      "lignesPdf": 42,
+      "ecartCandidatures": 9,
+      "categoriesPdf": {
+        "Label accordé": 15,
+        "Label non accordé": 7,
+        "Prélabel accordé": 8,
+        "Prélabel non accordé": 12
+      }
     },
     {
       "session": "08/2023",
@@ -845,7 +1609,21 @@
       "entries": 33,
       "reportes": 0,
       "session_id": "S53",
-      "detailedEntries": 33
+      "detailedEntries": 33,
+      "candidaturesOfficielles": 26,
+      "candidaturesCorrigees": 33,
+      "labelsOfficiels": 11,
+      "labelsCorriges": 11,
+      "preLabelsOfficiels": 6,
+      "preLabelsCorriges": 5,
+      "lignesPdf": 33,
+      "ecartCandidatures": 7,
+      "categoriesPdf": {
+        "Label accordé": 11,
+        "Label non accordé": 2,
+        "Prélabel accordé": 5,
+        "Prélabel non accordé": 15
+      }
     },
     {
       "session": "09/2023",
@@ -860,7 +1638,21 @@
       "entries": 41,
       "reportes": 0,
       "session_id": "S54",
-      "detailedEntries": 41
+      "detailedEntries": 41,
+      "candidaturesOfficielles": 33,
+      "candidaturesCorrigees": 41,
+      "labelsOfficiels": 15,
+      "labelsCorriges": 15,
+      "preLabelsOfficiels": 6,
+      "preLabelsCorriges": 6,
+      "lignesPdf": 41,
+      "ecartCandidatures": 8,
+      "categoriesPdf": {
+        "Label accordé": 15,
+        "Label non accordé": 5,
+        "Prélabel accordé": 6,
+        "Prélabel non accordé": 15
+      }
     },
     {
       "session": "10/2023",
@@ -875,7 +1667,21 @@
       "entries": 31,
       "reportes": 0,
       "session_id": "S55",
-      "detailedEntries": 31
+      "detailedEntries": 31,
+      "candidaturesOfficielles": 31,
+      "candidaturesCorrigees": 31,
+      "labelsOfficiels": 6,
+      "labelsCorriges": 6,
+      "preLabelsOfficiels": 5,
+      "preLabelsCorriges": 4,
+      "lignesPdf": 31,
+      "ecartCandidatures": 0,
+      "categoriesPdf": {
+        "Label accordé": 6,
+        "Label non accordé": 6,
+        "Prélabel accordé": 4,
+        "Prélabel non accordé": 15
+      }
     },
     {
       "session": "11/2023",
@@ -890,7 +1696,21 @@
       "entries": 38,
       "reportes": 0,
       "session_id": "S56",
-      "detailedEntries": 38
+      "detailedEntries": 38,
+      "candidaturesOfficielles": 30,
+      "candidaturesCorrigees": 38,
+      "labelsOfficiels": 14,
+      "labelsCorriges": 12,
+      "preLabelsOfficiels": 4,
+      "preLabelsCorriges": 7,
+      "lignesPdf": 38,
+      "ecartCandidatures": 8,
+      "categoriesPdf": {
+        "Label accordé": 12,
+        "Label non accordé": 2,
+        "Prélabel accordé": 7,
+        "Prélabel non accordé": 17
+      }
     },
     {
       "session": "12/2023",
@@ -905,7 +1725,21 @@
       "entries": 43,
       "reportes": 0,
       "session_id": "S57",
-      "detailedEntries": 43
+      "detailedEntries": 43,
+      "candidaturesOfficielles": 39,
+      "candidaturesCorrigees": 43,
+      "labelsOfficiels": 14,
+      "labelsCorriges": 12,
+      "preLabelsOfficiels": 5,
+      "preLabelsCorriges": 5,
+      "lignesPdf": 43,
+      "ecartCandidatures": 4,
+      "categoriesPdf": {
+        "Label accordé": 11,
+        "Label non accordé": 12,
+        "Prélabel accordé": 5,
+        "Prélabel non accordé": 15
+      }
     },
     {
       "session": "01/2024",
@@ -920,7 +1754,21 @@
       "entries": 36,
       "reportes": 0,
       "session_id": "S58",
-      "detailedEntries": 36
+      "detailedEntries": 36,
+      "candidaturesOfficielles": 33,
+      "candidaturesCorrigees": 36,
+      "labelsOfficiels": 14,
+      "labelsCorriges": 14,
+      "preLabelsOfficiels": 6,
+      "preLabelsCorriges": 6,
+      "lignesPdf": 36,
+      "ecartCandidatures": 3,
+      "categoriesPdf": {
+        "Label accordé": 14,
+        "Label non accordé": 5,
+        "Prélabel accordé": 4,
+        "Prélabel non accordé": 13
+      }
     },
     {
       "session": "02/2024",
@@ -935,7 +1783,21 @@
       "entries": 33,
       "reportes": 0,
       "session_id": "S59",
-      "detailedEntries": 33
+      "detailedEntries": 33,
+      "candidaturesOfficielles": 33,
+      "candidaturesCorrigees": 33,
+      "labelsOfficiels": 9,
+      "labelsCorriges": 9,
+      "preLabelsOfficiels": 6,
+      "preLabelsCorriges": 6,
+      "lignesPdf": 33,
+      "ecartCandidatures": 0,
+      "categoriesPdf": {
+        "Label accordé": 4,
+        "Label non accordé": 9,
+        "Prélabel accordé": 6,
+        "Prélabel non accordé": 14
+      }
     },
     {
       "session": "03/2024",
@@ -950,7 +1812,21 @@
       "entries": 34,
       "reportes": 0,
       "session_id": "S60",
-      "detailedEntries": 34
+      "detailedEntries": 34,
+      "candidaturesOfficielles": 31,
+      "candidaturesCorrigees": 34,
+      "labelsOfficiels": 7,
+      "labelsCorriges": 6,
+      "preLabelsOfficiels": 7,
+      "preLabelsCorriges": 7,
+      "lignesPdf": 34,
+      "ecartCandidatures": 3,
+      "categoriesPdf": {
+        "Label accordé": 7,
+        "Label non accordé": 8,
+        "Prélabel accordé": 7,
+        "Prélabel non accordé": 12
+      }
     },
     {
       "session": "04/2024",
@@ -965,7 +1841,21 @@
       "entries": 42,
       "reportes": 0,
       "session_id": "S61",
-      "detailedEntries": 42
+      "detailedEntries": 42,
+      "candidaturesOfficielles": 39,
+      "candidaturesCorrigees": 42,
+      "labelsOfficiels": 14,
+      "labelsCorriges": 14,
+      "preLabelsOfficiels": 5,
+      "preLabelsCorriges": 5,
+      "lignesPdf": 42,
+      "ecartCandidatures": 3,
+      "categoriesPdf": {
+        "Label accordé": 14,
+        "Label non accordé": 8,
+        "Prélabel accordé": 5,
+        "Prélabel non accordé": 15
+      }
     },
     {
       "session": "05/2024",
@@ -980,7 +1870,23 @@
       "entries": 46,
       "reportes": 0,
       "session_id": "S62",
-      "detailedEntries": 46
+      "detailedEntries": 46,
+      "candidaturesOfficielles": 39,
+      "candidaturesCorrigees": 46,
+      "labelsOfficiels": 14,
+      "labelsCorriges": 14,
+      "preLabelsOfficiels": 5,
+      "preLabelsCorriges": 5,
+      "lignesPdf": 46,
+      "ecartCandidatures": 7,
+      "categoriesPdf": {
+        "Décision non précisée — motif administratif": 4,
+        "Label accordé": 14,
+        "Label non accordé": 7,
+        "Prélabel accordé": 5,
+        "Prélabel non accordé": 14,
+        "Retrait Label": 2
+      }
     },
     {
       "session": "06/2024",
@@ -995,7 +1901,22 @@
       "entries": 40,
       "reportes": 0,
       "session_id": "S63",
-      "detailedEntries": 40
+      "detailedEntries": 40,
+      "candidaturesOfficielles": 37,
+      "candidaturesCorrigees": 40,
+      "labelsOfficiels": 14,
+      "labelsCorriges": 14,
+      "preLabelsOfficiels": 5,
+      "preLabelsCorriges": 5,
+      "lignesPdf": 40,
+      "ecartCandidatures": 3,
+      "categoriesPdf": {
+        "Label accordé": 14,
+        "Label non accordé": 5,
+        "Pitch décalé": 1,
+        "Prélabel accordé": 5,
+        "Prélabel non accordé": 15
+      }
     },
     {
       "session": "07/2024",
@@ -1010,7 +1931,21 @@
       "entries": 34,
       "reportes": 0,
       "session_id": "S64",
-      "detailedEntries": 34
+      "detailedEntries": 34,
+      "candidaturesOfficielles": 33,
+      "candidaturesCorrigees": 34,
+      "labelsOfficiels": 5,
+      "labelsCorriges": 6,
+      "preLabelsOfficiels": 7,
+      "preLabelsCorriges": 7,
+      "lignesPdf": 34,
+      "ecartCandidatures": 1,
+      "categoriesPdf": {
+        "Label accordé": 6,
+        "Label non accordé": 9,
+        "Prélabel accordé": 7,
+        "Prélabel non accordé": 12
+      }
     },
     {
       "session": "08/2024",
@@ -1025,7 +1960,21 @@
       "entries": 39,
       "reportes": 0,
       "session_id": "S65",
-      "detailedEntries": 39
+      "detailedEntries": 39,
+      "candidaturesOfficielles": 37,
+      "candidaturesCorrigees": 39,
+      "labelsOfficiels": 11,
+      "labelsCorriges": 11,
+      "preLabelsOfficiels": 6,
+      "preLabelsCorriges": 6,
+      "lignesPdf": 39,
+      "ecartCandidatures": 2,
+      "categoriesPdf": {
+        "Label accordé": 9,
+        "Label non accordé": 8,
+        "Prélabel accordé": 6,
+        "Prélabel non accordé": 16
+      }
     },
     {
       "session": "09/2024",
@@ -1040,7 +1989,21 @@
       "entries": 39,
       "reportes": 0,
       "session_id": "S66",
-      "detailedEntries": 39
+      "detailedEntries": 39,
+      "candidaturesOfficielles": 34,
+      "candidaturesCorrigees": 39,
+      "labelsOfficiels": 11,
+      "labelsCorriges": 11,
+      "preLabelsOfficiels": 9,
+      "preLabelsCorriges": 9,
+      "lignesPdf": 39,
+      "ecartCandidatures": 5,
+      "categoriesPdf": {
+        "Label accordé": 11,
+        "Label non accordé": 7,
+        "Prélabel accordé": 9,
+        "Prélabel non accordé": 12
+      }
     },
     {
       "session": "10/2024",
@@ -1055,7 +2018,22 @@
       "entries": 49,
       "reportes": 1,
       "session_id": "S67",
-      "detailedEntries": 49
+      "detailedEntries": 49,
+      "candidaturesOfficielles": 43,
+      "candidaturesCorrigees": 49,
+      "labelsOfficiels": 15,
+      "labelsCorriges": 15,
+      "preLabelsOfficiels": 7,
+      "preLabelsCorriges": 7,
+      "lignesPdf": 49,
+      "ecartCandidatures": 6,
+      "categoriesPdf": {
+        "Label accordé": 15,
+        "Label non accordé": 10,
+        "Prélabel accordé": 7,
+        "Prélabel non accordé": 16,
+        "Reporté": 1
+      }
     },
     {
       "session": "11/2024",
@@ -1070,7 +2048,21 @@
       "entries": 43,
       "reportes": 0,
       "session_id": "S68",
-      "detailedEntries": 43
+      "detailedEntries": 43,
+      "candidaturesOfficielles": 41,
+      "candidaturesCorrigees": 43,
+      "labelsOfficiels": 14,
+      "labelsCorriges": 14,
+      "preLabelsOfficiels": 7,
+      "preLabelsCorriges": 7,
+      "lignesPdf": 43,
+      "ecartCandidatures": 2,
+      "categoriesPdf": {
+        "Label accordé": 14,
+        "Label non accordé": 9,
+        "Prélabel accordé": 7,
+        "Prélabel non accordé": 13
+      }
     },
     {
       "session": "12/2024",
@@ -1085,7 +2077,21 @@
       "entries": 39,
       "reportes": 0,
       "session_id": "S69",
-      "detailedEntries": 39
+      "detailedEntries": 39,
+      "candidaturesOfficielles": 40,
+      "candidaturesCorrigees": 39,
+      "labelsOfficiels": 16,
+      "labelsCorriges": 16,
+      "preLabelsOfficiels": 4,
+      "preLabelsCorriges": 4,
+      "lignesPdf": 39,
+      "ecartCandidatures": -1,
+      "categoriesPdf": {
+        "Label accordé": 10,
+        "Label non accordé": 8,
+        "Prélabel accordé": 4,
+        "Prélabel non accordé": 17
+      }
     },
     {
       "session": "01/2025",
@@ -1100,7 +2106,21 @@
       "entries": 44,
       "reportes": 0,
       "session_id": "S70",
-      "detailedEntries": 44
+      "detailedEntries": 44,
+      "candidaturesOfficielles": 39,
+      "candidaturesCorrigees": 44,
+      "labelsOfficiels": 18,
+      "labelsCorriges": 13,
+      "preLabelsOfficiels": 2,
+      "preLabelsCorriges": 2,
+      "lignesPdf": 44,
+      "ecartCandidatures": 5,
+      "categoriesPdf": {
+        "Label accordé": 13,
+        "Label non accordé": 11,
+        "Prélabel accordé": 2,
+        "Prélabel non accordé": 18
+      }
     },
     {
       "session": "02/2025",
@@ -1115,7 +2135,21 @@
       "entries": 45,
       "reportes": 0,
       "session_id": "S71",
-      "detailedEntries": 45
+      "detailedEntries": 45,
+      "candidaturesOfficielles": 41,
+      "candidaturesCorrigees": 45,
+      "labelsOfficiels": 13,
+      "labelsCorriges": 13,
+      "preLabelsOfficiels": 9,
+      "preLabelsCorriges": 9,
+      "lignesPdf": 45,
+      "ecartCandidatures": 4,
+      "categoriesPdf": {
+        "Label accordé": 13,
+        "Label non accordé": 9,
+        "Prélabel accordé": 9,
+        "Prélabel non accordé": 14
+      }
     },
     {
       "session": "03/2025",
@@ -1130,7 +2164,21 @@
       "entries": 21,
       "reportes": 0,
       "session_id": "S72",
-      "detailedEntries": 21
+      "detailedEntries": 21,
+      "candidaturesOfficielles": 21,
+      "candidaturesCorrigees": 21,
+      "labelsOfficiels": 6,
+      "labelsCorriges": 6,
+      "preLabelsOfficiels": 5,
+      "preLabelsCorriges": 5,
+      "lignesPdf": 21,
+      "ecartCandidatures": 0,
+      "categoriesPdf": {
+        "Label accordé": 6,
+        "Label non accordé": 4,
+        "Prélabel accordé": 5,
+        "Prélabel non accordé": 6
+      }
     },
     {
       "session": "04/2025",
@@ -1145,7 +2193,21 @@
       "entries": 29,
       "reportes": 0,
       "session_id": "S73",
-      "detailedEntries": 29
+      "detailedEntries": 29,
+      "candidaturesOfficielles": 21,
+      "candidaturesCorrigees": 29,
+      "labelsOfficiels": 13,
+      "labelsCorriges": 13,
+      "preLabelsOfficiels": 5,
+      "preLabelsCorriges": 5,
+      "lignesPdf": 29,
+      "ecartCandidatures": 8,
+      "categoriesPdf": {
+        "Label accordé": 13,
+        "Label non accordé": 5,
+        "Prélabel accordé": 5,
+        "Prélabel non accordé": 6
+      }
     },
     {
       "session": "05/2025",
@@ -1160,7 +2222,21 @@
       "entries": 50,
       "reportes": 0,
       "session_id": "S74",
-      "detailedEntries": 50
+      "detailedEntries": 50,
+      "candidaturesOfficielles": 47,
+      "candidaturesCorrigees": 50,
+      "labelsOfficiels": 13,
+      "labelsCorriges": 13,
+      "preLabelsOfficiels": 10,
+      "preLabelsCorriges": 13,
+      "lignesPdf": 50,
+      "ecartCandidatures": 3,
+      "categoriesPdf": {
+        "Label accordé": 13,
+        "Label non accordé": 9,
+        "Prélabel accordé": 13,
+        "Prélabel non accordé": 15
+      }
     },
     {
       "session": "06/2025",
@@ -1175,7 +2251,21 @@
       "entries": 41,
       "reportes": 0,
       "session_id": "S75",
-      "detailedEntries": 41
+      "detailedEntries": 41,
+      "candidaturesOfficielles": 36,
+      "candidaturesCorrigees": 41,
+      "labelsOfficiels": 12,
+      "labelsCorriges": 12,
+      "preLabelsOfficiels": 8,
+      "preLabelsCorriges": 8,
+      "lignesPdf": 41,
+      "ecartCandidatures": 5,
+      "categoriesPdf": {
+        "Label accordé": 12,
+        "Label non accordé": 9,
+        "Prélabel accordé": 8,
+        "Prélabel non accordé": 12
+      }
     },
     {
       "session": "07/2025",
@@ -1190,7 +2280,21 @@
       "entries": 34,
       "reportes": 0,
       "session_id": "S76",
-      "detailedEntries": 34
+      "detailedEntries": 34,
+      "candidaturesOfficielles": 29,
+      "candidaturesCorrigees": 34,
+      "labelsOfficiels": 9,
+      "labelsCorriges": 9,
+      "preLabelsOfficiels": 8,
+      "preLabelsCorriges": 8,
+      "lignesPdf": 34,
+      "ecartCandidatures": 5,
+      "categoriesPdf": {
+        "Label accordé": 9,
+        "Label non accordé": 5,
+        "Prélabel accordé": 8,
+        "Prélabel non accordé": 12
+      }
     },
     {
       "session": "08/2025",
@@ -1205,7 +2309,21 @@
       "entries": 50,
       "reportes": 0,
       "session_id": "S77",
-      "detailedEntries": 50
+      "detailedEntries": 50,
+      "candidaturesOfficielles": 41,
+      "candidaturesCorrigees": 50,
+      "labelsOfficiels": 15,
+      "labelsCorriges": 15,
+      "preLabelsOfficiels": 9,
+      "preLabelsCorriges": 9,
+      "lignesPdf": 50,
+      "ecartCandidatures": 9,
+      "categoriesPdf": {
+        "Label accordé": 15,
+        "Label non accordé": 14,
+        "Prélabel accordé": 9,
+        "Prélabel non accordé": 12
+      }
     },
     {
       "session": "09/2025",
@@ -1220,7 +2338,21 @@
       "entries": 31,
       "reportes": 0,
       "session_id": "S78",
-      "detailedEntries": 31
+      "detailedEntries": 31,
+      "candidaturesOfficielles": 25,
+      "candidaturesCorrigees": 31,
+      "labelsOfficiels": 7,
+      "labelsCorriges": 7,
+      "preLabelsOfficiels": 10,
+      "preLabelsCorriges": 10,
+      "lignesPdf": 31,
+      "ecartCandidatures": 6,
+      "categoriesPdf": {
+        "Label accordé": 7,
+        "Label non accordé": 4,
+        "Prélabel accordé": 10,
+        "Prélabel non accordé": 10
+      }
     },
     {
       "session": "10/2025",
@@ -1235,7 +2367,21 @@
       "entries": 51,
       "reportes": 0,
       "session_id": "S79",
-      "detailedEntries": 51
+      "detailedEntries": 51,
+      "candidaturesOfficielles": 41,
+      "candidaturesCorrigees": 51,
+      "labelsOfficiels": 17,
+      "labelsCorriges": 17,
+      "preLabelsOfficiels": 12,
+      "preLabelsCorriges": 12,
+      "lignesPdf": 51,
+      "ecartCandidatures": 10,
+      "categoriesPdf": {
+        "Label accordé": 17,
+        "Label non accordé": 13,
+        "Prélabel accordé": 12,
+        "Prélabel non accordé": 9
+      }
     },
     {
       "session": "11/2025",
@@ -1250,7 +2396,21 @@
       "entries": 47,
       "reportes": 0,
       "session_id": "S80",
-      "detailedEntries": 47
+      "detailedEntries": 47,
+      "candidaturesOfficielles": 39,
+      "candidaturesCorrigees": 47,
+      "labelsOfficiels": 15,
+      "labelsCorriges": 15,
+      "preLabelsOfficiels": 3,
+      "preLabelsCorriges": 3,
+      "lignesPdf": 47,
+      "ecartCandidatures": 8,
+      "categoriesPdf": {
+        "Label accordé": 15,
+        "Label non accordé": 12,
+        "Prélabel accordé": 3,
+        "Prélabel non accordé": 17
+      }
     },
     {
       "session": "12/2025",
@@ -1265,7 +2425,21 @@
       "entries": 51,
       "reportes": 0,
       "session_id": "S81",
-      "detailedEntries": 51
+      "detailedEntries": 51,
+      "candidaturesOfficielles": 41,
+      "candidaturesCorrigees": 51,
+      "labelsOfficiels": 15,
+      "labelsCorriges": 16,
+      "preLabelsOfficiels": 6,
+      "preLabelsCorriges": 6,
+      "lignesPdf": 51,
+      "ecartCandidatures": 10,
+      "categoriesPdf": {
+        "Label accordé": 16,
+        "Label non accordé": 13,
+        "Prélabel accordé": 6,
+        "Prélabel non accordé": 16
+      }
     },
     {
       "session": "01/2026",
@@ -1280,7 +2454,21 @@
       "entries": 37,
       "reportes": 0,
       "session_id": "S82",
-      "detailedEntries": 37
+      "detailedEntries": 37,
+      "candidaturesOfficielles": 31,
+      "candidaturesCorrigees": 37,
+      "labelsOfficiels": 9,
+      "labelsCorriges": 10,
+      "preLabelsOfficiels": 7,
+      "preLabelsCorriges": 7,
+      "lignesPdf": 37,
+      "ecartCandidatures": 6,
+      "categoriesPdf": {
+        "Label accordé": 10,
+        "Label non accordé": 7,
+        "Prélabel accordé": 7,
+        "Prélabel non accordé": 13
+      }
     },
     {
       "session": "02/2026",
@@ -1295,7 +2483,21 @@
       "entries": 39,
       "reportes": 0,
       "session_id": "S83",
-      "detailedEntries": 39
+      "detailedEntries": 39,
+      "candidaturesOfficielles": 36,
+      "candidaturesCorrigees": 39,
+      "labelsOfficiels": 21,
+      "labelsCorriges": 20,
+      "preLabelsOfficiels": 3,
+      "preLabelsCorriges": 3,
+      "lignesPdf": 39,
+      "ecartCandidatures": 3,
+      "categoriesPdf": {
+        "Label accordé": 12,
+        "Label non accordé": 7,
+        "Prélabel accordé": 3,
+        "Prélabel non accordé": 17
+      }
     },
     {
       "session": "03/2026",
@@ -1310,7 +2512,21 @@
       "entries": 44,
       "reportes": 0,
       "session_id": "S84",
-      "detailedEntries": 44
+      "detailedEntries": 44,
+      "candidaturesOfficielles": 41,
+      "candidaturesCorrigees": 44,
+      "labelsOfficiels": 13,
+      "labelsCorriges": 13,
+      "preLabelsOfficiels": 7,
+      "preLabelsCorriges": 7,
+      "lignesPdf": 44,
+      "ecartCandidatures": 3,
+      "categoriesPdf": {
+        "Label accordé": 13,
+        "Label non accordé": 10,
+        "Prélabel accordé": 7,
+        "Prélabel non accordé": 14
+      }
     },
     {
       "session": "04/2026",
@@ -1325,7 +2541,22 @@
       "entries": 47,
       "reportes": 0,
       "session_id": "S85",
-      "detailedEntries": 47
+      "detailedEntries": 47,
+      "candidaturesOfficielles": 41,
+      "candidaturesCorrigees": 47,
+      "labelsOfficiels": 12,
+      "labelsCorriges": 12,
+      "preLabelsOfficiels": 5,
+      "preLabelsCorriges": 5,
+      "lignesPdf": 47,
+      "ecartCandidatures": 6,
+      "categoriesPdf": {
+        "Label accordé": 12,
+        "Label non accordé": 10,
+        "Prélabel accordé": 5,
+        "Prélabel non accordé": 15,
+        "Retrait Label": 5
+      }
     },
     {
       "session": "05/2026",
@@ -1340,7 +2571,22 @@
       "entries": 42,
       "reportes": 0,
       "session_id": "S86",
-      "detailedEntries": 42
+      "detailedEntries": 42,
+      "candidaturesOfficielles": 40,
+      "candidaturesCorrigees": 42,
+      "labelsOfficiels": 13,
+      "labelsCorriges": 13,
+      "preLabelsOfficiels": 10,
+      "preLabelsCorriges": 10,
+      "lignesPdf": 42,
+      "ecartCandidatures": 2,
+      "categoriesPdf": {
+        "Label accordé": 13,
+        "Label non accordé": 12,
+        "Prélabel accordé": 8,
+        "Prélabel non accordé": 6,
+        "Retrait Label": 3
+      }
     },
     {
       "session": "06/2026",
@@ -1355,7 +2601,22 @@
       "entries": 45,
       "reportes": 0,
       "session_id": "S87",
-      "detailedEntries": 45
+      "detailedEntries": 45,
+      "candidaturesOfficielles": 40,
+      "candidaturesCorrigees": 45,
+      "labelsOfficiels": 7,
+      "labelsCorriges": 7,
+      "preLabelsOfficiels": 9,
+      "preLabelsCorriges": 9,
+      "lignesPdf": 45,
+      "ecartCandidatures": 5,
+      "categoriesPdf": {
+        "Label accordé": 7,
+        "Label non accordé": 16,
+        "Prélabel accordé": 9,
+        "Prélabel non accordé": 10,
+        "Retrait Label": 3
+      }
     }
   ],
   "yearly": [

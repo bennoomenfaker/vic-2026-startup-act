@@ -22,7 +22,11 @@
     "detailed_entries": 3555,
     "official_withdrawals": 153,
     "confirmed_reportes": 5,
-    "note": "Les compteurs officiels et les 3 555 lignes détaillées PDF sont deux séries distinctes."
+    "note": "Les compteurs officiels et les 3 555 lignes détaillées PDF sont deux séries distinctes.",
+    "corrected_pdf_candidatures": 3555,
+    "corrected_pdf_labels": 1343,
+    "corrected_pdf_prelabels": 647,
+    "reconciliation_note": "PDF primaire; officiel et corrigé sont deux séries séparées."
   },
   "sessions": [
     {

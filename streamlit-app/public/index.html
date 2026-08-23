@@ -1346,10 +1346,10 @@
 
     <div class="summary-box" style="margin:0 0 20px;border-left:4px solid #2563eb">
       <h2 style="margin:0 0 6px;font-size:1.05rem;color:var(--text-primary)">Vue officielle par session</h2>
-      <p style="margin:0 0 12px;font-size:.86rem;color:var(--text-secondary)">Cette table est la référence pour les compteurs publiés : la somme des 88 sessions donne <strong>3 079 candidatures, 1 356 Labels et 641 Prélabels</strong>. Le tableau détaillé situé plus bas sert uniquement à contrôler les lignes extraites des PDF.</p>
+      <p style="margin:0 0 12px;font-size:.86rem;color:var(--text-secondary)">Cette table conserve les compteurs institutionnels et leur rapprochement PDF : la somme des 88 sessions donne <strong>3 079 candidatures officielles, 1 356 Labels et 641 Prélabels</strong>. La colonne corrigée PDF affiche les lignes documentaires contrôlées, notamment <strong>39 → 46</strong> pour 05/2024.</p>
       <div style="overflow:auto;max-height:430px">
         <table class="data-table" id="officialSessionTable">
-          <thead><tr><th>Session</th><th>Candidatures officielles</th><th>Labels officiels</th><th>Prélabels officiels</th><th>Retraits</th><th>Reportés</th><th>Ajournés</th><th>Refus Label (dét.)</th><th>Refus Prélabel (dét.)</th><th>Lignes PDF</th></tr></thead>
+          <thead><tr><th>Session</th><th>Candidatures officielles</th><th>Candidatures corrigées PDF</th><th>Labels officiels</th><th>Prélabels officiels</th><th>Retraits</th><th>Reportés</th><th>Ajournés</th><th>Refus Label (dét.)</th><th>Refus Prélabel (dét.)</th><th>Lignes PDF</th></tr></thead>
           <tbody id="officialSessionBody"></tbody>
         </table>
       </div>
@@ -1463,30 +1463,30 @@
     <div id="corr-compare">
       <div class="chart-grid">
         <div class="chart-card">
-          <h3>⚠ Tableau web historique — startup.gov.tn <span style="color:#64748b;font-size:0.8em">(écarts documentés)</span></h3>
-          <div style="overflow-x:auto"><table><thead><tr><th>Session</th><th>Candidatures officielles publiées</th><th>Ajournés</th><th>Labels</th><th>Pré-Labels</th><th>Taux</th><th>Commentaires</th></tr></thead><tbody id="corrOldTable"></tbody></table></div>
+          <h3>⚠ Tableau institutionnel — startup.gov.tn <span style="color:#64748b;font-size:0.8em">(référence publiée, non corrigée)</span></h3>
+          <div style="overflow-x:auto"><table><thead><tr><th>Session</th><th>Candidatures officiel</th><th>Candidatures corrigé PDF</th><th>Écart</th><th>Labels officiel</th><th>Labels corrigé</th><th>Prélabels officiel</th><th>Prélabels corrigé</th><th>Lignes PDF</th><th>Statut</th></tr></thead><tbody id="corrOldTable"></tbody></table></div>
         </div>
         <div class="chart-card">
-          <h3>✅ Tableau de référence — compteurs des PDF officiels <span style="color:#64748b;font-size:0.8em">(valeurs retenues)</span></h3>
-          <div style="overflow-x:auto"><table><thead><tr><th>Session</th><th>Candidatures officielles retenues</th><th>Ajournés</th><th>Labels</th><th>Pré-Labels</th><th>Retraits</th><th>Taux (réel → arrondi)</th><th>Taux échec</th><th>Commentaires</th></tr></thead><tbody id="corrNewTable"></tbody></table></div>
+          <h3>✅ Tableau corrigé — preuve PDF primaire <span style="color:#64748b;font-size:0.8em">(valeurs utilisées pour l’étude)</span></h3>
+          <div style="overflow-x:auto"><table><thead><tr><th>Session</th><th>Candidatures officiel</th><th>Candidatures corrigé PDF</th><th>Écart</th><th>Labels officiel</th><th>Labels corrigé</th><th>Prélabels officiel</th><th>Prélabels corrigé</th><th>Lignes PDF</th><th>Catégories PDF</th></tr></thead><tbody id="corrNewTable"></tbody></table></div>
         </div>
       </div>
       <div class="chart-card" style="margin-top:20px">
         <h3>📐 Deux méthodes de calcul des candidatures</h3>
-        <p style="font-size:.88em;color:#475569;line-height:1.6;margin:8px 0 12px">La page affiche d’abord la mesure de votre <strong>réexamen PDF</strong> : nombre de lignes/dossiers retenus dans l’étude, avec les ajournés explicitement mentionnés hors lignes. Elle affiche ensuite le <strong>compteur officiel Startup Tunisia</strong>. Ces deux mesures sont conservées séparément ; la première décrit le corpus analysé, la seconde décrit la valeur publiée par le site.</p>
-        <div style="overflow-x:auto"><table><thead><tr><th>Périmètre</th><th>Candidatures selon réexamen PDF</th><th>Candidatures selon site officiel</th><th>Écart réexamen − site</th><th>Interprétation</th></tr></thead><tbody>
-          <tr><td><strong>88 sessions</strong></td><td><strong>3 555</strong></td><td><strong>3 079</strong></td><td><strong>+476</strong></td><td>Corpus PDF de l’étude contre compteur publié</td></tr>
+        <p style="font-size:.88em;color:#475569;line-height:1.6;margin:8px 0 12px">La preuve primaire de cette étude est le <strong>PDF officiel</strong>. La colonne « corrigé PDF » compte les lignes documentaires réellement présentes dans le corpus, tandis que la colonne « officiel » conserve le compteur publié par Startup Tunisia. Les deux séries sont affichées ensemble et ne doivent pas être confondues : une conversion ou un retrait peut ajouter une ligne documentaire sans constituer une nouvelle candidature institutionnelle.</p>
+        <div style="overflow-x:auto"><table><thead><tr><th>Périmètre</th><th>Candidatures selon site officiel</th><th>Candidatures corrigées selon PDF</th><th>Écart corrigé − officiel</th><th>Interprétation</th></tr></thead><tbody>
+          <tr><td><strong>88 sessions</strong></td><td><strong>3 079</strong></td><td><strong>3 555</strong></td><td><strong>+476</strong></td><td>PDF primaire contre compteur institutionnel publié</td></tr>
           <tr><td>03/2019</td><td>16</td><td>16</td><td>0</td><td>12 Labels + 2 refus + 2 Ajournés</td></tr>
-          <tr><td>04/2019</td><td>52</td><td>51</td><td>+1</td><td>52 décisions documentaires, dont 1 Ajourné</td></tr>
-          <tr><td>S62 · 05/2024</td><td>46</td><td>39</td><td>+7</td><td>46 lignes : 39 dossiers + 5 conversions + 2 retraits</td></tr>
+          <tr><td>04/2019</td><td>51</td><td>52</td><td>+1</td><td>52 décisions documentaires, dont 1 Ajourné</td></tr>
+          <tr><td>S62 · 05/2024</td><td>39</td><td>46</td><td>+7</td><td>46 lignes : 39 dossiers + 5 conversions + 2 retraits</td></tr>
         </tbody></table></div>
       </div>
     </div>
 
     <div id="corr-detail" style="display:none">
       <div class="chart-card">
-        <h3 id="corrDetailTitle">Les 21 corrections — détail et raison</h3>
-        <div style="overflow-x:auto"><table><thead><tr><th>Session</th><th>Candidatures officielles</th><th>Ajournés</th><th>Labels (écart → retenu)</th><th>Pré-Labels (écart → retenu)</th><th>Taux réel → arrondi</th><th>Raison (PDF v7)</th></tr></thead><tbody id="corrDetailTable"></tbody></table></div>
+        <h3 id="corrDetailTitle">Les 88 sessions — détail officiel → corrigé PDF</h3>
+        <div style="overflow-x:auto"><table><thead><tr><th>Session</th><th>Candidatures officiel</th><th>Candidatures corrigé PDF</th><th>Labels officiel → corrigé</th><th>Prélabels officiel → corrigé</th><th>Lignes PDF</th><th>Provenance</th></tr></thead><tbody id="corrDetailTable"></tbody></table></div>
       </div>
     </div>
 
@@ -4201,8 +4201,8 @@ async function renderExtractedData() {
       const fmt = n => Number(n || 0).toLocaleString('fr-FR');
       officialBody.innerHTML = officialRows.map(r => '<tr>' +
         '<td style="white-space:nowrap">' + escapeHtml(r.session) + '</td>' +
-        '<td style="text-align:right;color:#334155;font-weight:700">' + fmt(r.candidaturesReexamen) + '</td>' +
         '<td style="text-align:right">' + fmt(r.candidatures) + '</td>' +
+        '<td style="text-align:right;color:#334155;font-weight:700">' + fmt(r.candidaturesReexamen) + '</td>' +
         '<td style="text-align:right;font-weight:700;color:#2563eb">' + fmt(r.labels) + '</td>' +
         '<td style="text-align:right">' + fmt(r.preLabels) + '</td>' +
         '<td style="text-align:right">' + fmt(r.retraits) + '</td>' +
@@ -4213,7 +4213,7 @@ async function renderExtractedData() {
         '<td style="text-align:right">' + fmt(r.detailRows) + '</td>' +
         '</tr>').join('') +
         '<tr style="font-weight:800;border-top:2px solid var(--border-color);background:rgba(37,99,235,.08)">' +
-        '<td>Total réexamen PDF / site officiel</td><td style="text-align:right;color:#334155;font-weight:700">' + fmt(total.candidaturesReexamen) + '</td><td style="text-align:right">' + fmt(total.candidatures) + '</td><td style="text-align:right;color:#2563eb">' + fmt(total.labels) + '</td><td style="text-align:right">' + fmt(total.preLabels) + '</td><td style="text-align:right">' + fmt(total.retraits) + '</td><td style="text-align:right">' + fmt(total.reportes) + '</td><td style="text-align:right">' + fmt(total.ajournes) + '</td><td style="text-align:right">' + fmt(total.labelRefuse) + '</td><td style="text-align:right">' + fmt(total.prelabelRefuse) + '</td><td style="text-align:right">' + fmt(total.detailRows) + '</td></tr>';
+        '<td>Total officiel / corrigé PDF</td><td style="text-align:right">' + fmt(total.candidatures) + '</td><td style="text-align:right;color:#334155;font-weight:700">' + fmt(total.candidaturesReexamen) + '</td><td style="text-align:right;color:#2563eb">' + fmt(total.labels) + '</td><td style="text-align:right">' + fmt(total.preLabels) + '</td><td style="text-align:right">' + fmt(total.retraits) + '</td><td style="text-align:right">' + fmt(total.reportes) + '</td><td style="text-align:right">' + fmt(total.ajournes) + '</td><td style="text-align:right">' + fmt(total.labelRefuse) + '</td><td style="text-align:right">' + fmt(total.prelabelRefuse) + '</td><td style="text-align:right">' + fmt(total.detailRows) + '</td></tr>';
     }
 
     const sessSel = document.getElementById('extractedSession');
@@ -4235,15 +4235,20 @@ async function renderExtractedData() {
     const officialRetraits = Number(officialMeta.totalRetraits ?? sumSession('retraits'));
     const officialConversions = Number(officialMeta.totalConversions ?? sumSession('conversions'));
     const officialRate = officialCandidatures ? (officialLabels / officialCandidatures * 100).toFixed(1) + '%' : '—';
+    const correctedCandidatures = Number(officialMeta.totalCandidaturesCorrigees ?? extractedCache.allEntries.length);
+    const correctedLabels = Number(officialMeta.totalLabelsCorriges ?? officialLabels);
+    const correctedPreLabels = Number(officialMeta.totalPreLabelsCorriges ?? officialPreLabels);
+    const correctedPositive = correctedLabels + correctedPreLabels;
+    const correctedRate = correctedCandidatures ? (correctedLabels / correctedCandidatures * 100).toFixed(1) + '%' : '—';
     kpis.innerHTML = [
-      ['📋', officialCandidatures, 'candidatures officielles'],
-      ['✅', officialLabels, 'labels officiels'],
-      ['🟠', officialPreLabels, 'pré-labels officiels'],
-      ['🔁', officialConversions, 'conversions documentées'],
-      ['⛔', officialRetraits, 'retraits officiels'],
-      ['📊', officialRate, 'taux labels/candidatures']
+      ['📋', correctedCandidatures, 'candidatures corrigées PDF'],
+      ['✅', correctedLabels, 'labels corrigés PDF'],
+      ['🟠', correctedPreLabels, 'pré-labels corrigés PDF'],
+      ['➕', correctedPositive, 'décisions positives corrigées'],
+      ['📄', correctedCandidatures, 'lignes PDF détaillées'],
+      ['📊', correctedRate, 'taux label corrigé']
     ].map(([i, n, l]) => '<div class="kpi-card"><div class="kpi-head"><span class="kpi-icon">' + i + '</span></div><div class="kpi-label">' + l + '</div><div class="kpi-value">' + (typeof n === 'number' ? Number(n).toLocaleString('fr-FR') : n) + '</div></div>').join('') +
-      '<div class="summary-box" style="grid-column:1/-1;margin:0;border-left:4px solid #bd6b52"><strong>À lire correctement :</strong> les cartes officielles comptent les résultats publiés par session. Le tableau compte les lignes détaillées des PDF. Le filtre <strong>Label accordé</strong> affiche <strong>1 201 lignes</strong> ; le compteur officiel est <strong>1 356 Labels = 987 labels nouveaux + 369 conversions documentées</strong>. Les 155 d’écart ne sont donc pas 155 lignes cachées à ajouter au tableau : c’est la différence entre une somme officielle agrégée et une classification ligne par ligne, à contrôler dans le rapprochement par session. Les retraits, conversions, décisions multi-tours et Reporté restent visibles dans leurs catégories propres.</div>';
+      '<div class="summary-box" style="grid-column:1/-1;margin:0;border-left:4px solid #bd6b52"><strong>Deux séries conservées :</strong> les KPI ci-dessus utilisent la correction fondée sur les PDF : <strong>3 555 candidatures/lignes détaillées, 1 343 Labels et 647 Prélabels</strong>. Le compteur institutionnel reste visible comme référence : <strong>3 079 candidatures, 1 356 Labels et 641 Prélabels</strong>. L’écart de candidatures est <strong>+476</strong> ; il provient notamment des conversions, retraits et lignes documentaires supplémentaires. Les Reporté et les 4 décisions administratives non précisées restent catégorisés séparément.</div>';
 
     renderExtractedTable();
   } catch (e) {
@@ -4273,10 +4278,31 @@ function renderExtractedTable() {
     prelabel: Number(officialMeta.totalPreLabels || 0),
     retrait: Number(officialMeta.totalRetraits || 0)
   };
-  const countText = rows.length.toLocaleString('fr-FR') + ' / ' + extractedCache.allEntries.length.toLocaleString('fr-FR') + ' lignes détaillées';
-  let officialText = officialByDecision[dec] ? ' · repère officiel : ' + officialByDecision[dec].toLocaleString('fr-FR') : '';
-  if (dec === 'label') officialText = ' · repère officiel : 1 356 Labels (987 nouveaux + 369 conversions)';
-  if (dec === 'prelabel') officialText = ' · repère officiel : 641 Prélabels';
+  const selectedOfficial = sess ? Number((extractedCache.sessionDataMap[sess] || {}).candidatures || 0) : 0;
+  let countText;
+  if (sess && !dec && !q) {
+    countText = 'Candidatures officielles : ' + selectedOfficial.toLocaleString('fr-FR') + ' · lignes PDF affichées : ' + rows.length.toLocaleString('fr-FR') + ' / ' + extractedCache.allEntries.length.toLocaleString('fr-FR');
+  } else if (!sess && !dec && !q) {
+    countText = 'Lignes PDF affichées : ' + rows.length.toLocaleString('fr-FR') + ' / ' + extractedCache.allEntries.length.toLocaleString('fr-FR');
+  } else {
+    countText = rows.length.toLocaleString('fr-FR') + ' lignes PDF correspondant au filtre';
+  }
+  const selectedSessionData = sess ? (extractedCache.sessionDataMap[sess] || {}) : {};
+  const sessionOfficialByDecision = {
+    label: Number(selectedSessionData.labels || 0),
+    prelabel: Number(selectedSessionData.preLabels || 0),
+    retrait: Number(selectedSessionData.retraits || 0),
+    reporte: Number(selectedSessionData.reportes || 0)
+  };
+  let officialText = '';
+  if (sess && Object.prototype.hasOwnProperty.call(sessionOfficialByDecision, dec)) {
+    officialText = ' · repère officiel session ' + sess + ' : ' + sessionOfficialByDecision[dec].toLocaleString('fr-FR');
+  } else if (officialByDecision[dec]) {
+    officialText = ' · repère officiel : ' + officialByDecision[dec].toLocaleString('fr-FR');
+  }
+  if (!sess && dec === 'label') officialText = ' · PDF détaillé : 1 232 lignes · corrigé : 1 343 · officiel : 1 356';
+  if (!sess && dec === 'prelabel') officialText = ' · PDF détaillé : 634 lignes · corrigé : 647 · officiel : 641';
+  if (dec === 'decision_non_precisee') officialText = ' · 4 dossiers administratifs sans décision publiée (05/2024)';
   document.getElementById('extractedCount').textContent = countText + officialText;
   tbody.innerHTML = rows.slice(0, 1000).map(e => {
     const nr = decisionKey(e);
@@ -4497,8 +4523,8 @@ function renderCorrections() {
   document.getElementById('corrKpis').innerHTML = `
     <div class="kpi-card blue"><div class="label">Socle historique</div><div class="value">${m.totalSessions}</div><div class="sub">sessions vérifiées · corpus final : 88</div></div>
     <div class="kpi-card orange"><div class="label">Sessions à documenter</div><div class="value">${m.corrected}</div><div class="sub">écarts historiques documentés</div></div>
-    <div class="kpi-card orange"><div class="label">Labels (web → PDF)</div><div class="value">${m.totalsOld.labels} → ${m.totalsNew.labels}</div><div class="sub">comparaison historique</div></div>
-    <div class="kpi-card green"><div class="label">Pré-Labels (web → PDF)</div><div class="value">${m.totalsOld.preLabels} → ${m.totalsNew.preLabels}</div><div class="sub">comparaison historique</div></div>
+    <div class="kpi-card orange"><div class="label">Labels (web → PDF)</div><div class="value">${(m.officialTotals88 || m.totalsOld).labels} → ${(m.correctedCounterTotals88 || m.totalsNew).labels}</div><div class="sub">comparaison historique</div></div>
+    <div class="kpi-card green"><div class="label">Pré-Labels (web → PDF)</div><div class="value">${(m.officialTotals88 || m.totalsOld).preLabels} → ${(m.correctedCounterTotals88 || m.totalsNew).preLabels}</div><div class="sub">comparaison historique</div></div>
   `;
 
   const officialSessionMap = Object.fromEntries((DATA.dashboard?.sessions || []).map(s => [s.session, s]));
@@ -4508,50 +4534,47 @@ function renderCorrections() {
     const match = String(source?.commentaires || comment).match(/(\d+)\s+ajourn/i);
     return match ? Number(match[1]) : 0;
   };
-  const oldRows = data.originalTable.map(t => {
-    const c = CORR_SET[t.session];
-    const wrong = c ? (t.labels !== c.new.labels || t.preLabels !== c.new.preLabels) : false;
-    const clsL = c && t.labels !== c.new.labels ? 'cell-wrong' : '';
-    const clsP = c && t.preLabels !== c.new.preLabels ? 'cell-wrong' : '';
+  const reconciliation = data.reconciliation88 || [];
+  const oldRows = reconciliation.map(r => {
+    const o = r.official || {};
+    const p = r.pdf_detail || {};
+    const c = r.corrected_counter || {};
     return `<tr>
-      <td><strong>${t.session}</strong></td><td>${t.candidatures}</td><td>${ajournesFor(t.session, t.commentaires)}</td>
-      <td class="${clsL}">${t.labels}</td><td class="${clsP}">${t.preLabels}</td>
-      <td>${t.taux}%</td><td style="font-size:0.8em;color:#666">${t.commentaires || '-'}</td></tr>`;
+      <td><strong>${r.session}</strong></td><td>${o.candidatures}</td><td>${c.candidatures}</td><td>${p.lignes - o.candidatures >= 0 ? '+' : ''}${p.lignes - o.candidatures}</td>
+      <td>${o.labels}</td><td>${c.labels}</td><td>${o.preLabels}</td><td>${c.preLabels}</td>
+      <td>${p.lignes}</td><td style="font-size:0.8em;color:#666">${r.statut || '-'}</td></tr>`;
   }).join('');
 
-  const retr = {};
-  (DATA.parcours?.sessions || []).forEach(s => { retr[s.session] = s.retraits || 0; });
-
-  const newRows = data.correctedTable.map(t => {
-    const c = CORR_SET[t.session];
-    const fixedL = c && t.labels !== c.old.labels;
-    const fixedP = c && t.preLabels !== c.old.preLabels;
-    const r = retr[t.session] || 0;
-    const rowCls = c ? ' class="corr-row"' : '';
+  const newRows = reconciliation.map(r => {
+    const o = r.official || {};
+    const p = r.pdf_detail || {};
+    const c = r.corrected_counter || {};
+    const rowCls = (p.reportes || 0) ? ' class="row-reporte"' : '';
     return `<tr${rowCls}>
-      <td><strong>${t.session}</strong></td><td>${t.candidatures}</td><td>${ajournesFor(t.session, t.commentaires)}</td>
-      <td class="${fixedL ? 'cell-fixed' : ''}">${t.labels}</td>
-      <td class="${fixedP ? 'cell-fixed' : ''}">${t.preLabels}</td>
-      <td style="${r ? 'color:#dc2626;font-weight:600' : 'color:#999'}">${r || 0}</td>
-      <td>${fmtTaux(t.tauxExact)} → <b>${t.taux}%</b></td>
-      <td>${t.echec}%</td>
-      <td style="font-size:0.8em;color:#666">${t.commentaires || '-'}</td></tr>`;
+      <td><strong>${r.session}</strong></td><td>${o.candidatures}</td><td class="cell-fixed">${c.candidatures}</td><td class="cell-fixed">${p.lignes - o.candidatures >= 0 ? '+' : ''}${p.lignes - o.candidatures}</td>
+      <td>${o.labels}</td><td class="cell-fixed">${c.labels}</td><td>${o.preLabels}</td><td class="cell-fixed">${c.preLabels}</td>
+      <td>${p.lignes}</td><td style="font-size:0.8em;color:#666">${Object.entries(p.categories || {}).map(([k,v]) => `${k}: ${v}`).join(' · ') || '-'}</td></tr>`;
   }).join('');
 
   document.getElementById('corrOldTable').innerHTML = oldRows;
   document.getElementById('corrNewTable').innerHTML = newRows;
 
   const dt = document.getElementById('corrDetailTitle');
-  if (dt) dt.innerHTML = `Les ${data.corrections.length} corrections — détail et raison` +
-    ` <span style="color:#666;font-size:0.75em;font-weight:normal">(${data.corrections.length - 20} écart documenté : 04/2019, labels déjà corrects, 52 lignes CR vs 51)</span>`;
+  if (dt) dt.innerHTML = `Les ${reconciliation.length} sessions auditées — détail officiel → corrigé PDF` +
+    ` <span style="color:#666;font-size:0.75em;font-weight:normal">(${data.corrections.length} corrections matérielles historiques sont signalées dans la provenance)</span>`;
 
-  const detailRows = data.corrections.map(c => `
-    <tr class="corr-row">
-      <td><strong>${c.session}</strong></td><td>${c.candidatures}</td><td>${ajournesFor(c.session, c.new.commentaires || c.reason)}</td>
-      <td><span class="cell-wrong">${c.old.labels}</span> → <span class="cell-fixed">${c.new.labels}</span></td>
-      <td><span class="cell-wrong">${c.old.preLabels}</span> → <span class="cell-fixed">${c.new.preLabels}</span></td>
-      <td>${fmtTaux(c.new.tauxExact)} → <b>${c.new.taux}%</b></td>
-      <td style="font-size:0.85em">${c.reason}</td></tr>`).join('');
+  const detailRows = reconciliation.map(r => {
+    const o = r.official || {};
+    const c = r.corrected_counter || {};
+    const p = r.pdf_detail || {};
+    const e = p.lignes - o.candidatures;
+    return `<tr class="${p.reportes ? 'row-reporte' : 'corr-row'}">
+      <td><strong>${r.session}</strong></td><td>${o.candidatures}</td><td class="cell-fixed">${c.candidatures}</td>
+      <td><span class="cell-wrong">${o.labels}</span> → <span class="cell-fixed">${c.labels}</span></td>
+      <td><span class="cell-wrong">${o.preLabels}</span> → <span class="cell-fixed">${c.preLabels}</span></td>
+      <td>${p.lignes} (${e >= 0 ? '+' : ''}${e})</td>
+      <td style="font-size:0.85em">${r.statut || Object.entries(p.categories || {}).map(([k,v]) => `${k}: ${v}`).join(' · ')}</td></tr>`;
+  }).join('');
   document.getElementById('corrDetailTable').innerHTML = detailRows;
 
   // tabs
@@ -4585,16 +4608,21 @@ function renderCorrReport() {
     const match = String(source?.commentaires || comment).match(/(\d+)\s+ajourn/i);
     return match ? Number(match[1]) : 0;
   };
-  const rows = data.corrections.map(c => `
-    <tr class="corr-row">
-      <td><strong>${c.session}</strong></td>
-      <td>${c.candidatures}</td>
-      <td>${reportAjournesFor(c.session, c.new.commentaires || c.reason)}</td>
-      <td><span class="badge badge-red">${c.old.labels}</span> → <span class="badge badge-green">${c.new.labels}</span></td>
-      <td><span class="badge badge-red">${c.old.preLabels}</span> → <span class="badge badge-green">${c.new.preLabels}</span></td>
-      <td>${fmtTaux(c.new.tauxExact)} → <b>${c.new.taux}%</b></td>
-      <td style="font-size:.85em">${c.reason}</td>
-    </tr>`).join('');
+  const rows = (data.reconciliation88 || []).map(r => {
+    const o = r.official || {};
+    const c = r.corrected_counter || {};
+    const p = r.pdf_detail || {};
+    const ecart = p.lignes - o.candidatures;
+    return `<tr class="${p.reportes ? 'row-reporte' : 'corr-row'}">
+      <td><strong>${r.session}</strong></td>
+      <td>${o.candidatures}</td>
+      <td class="cell-fixed">${c.candidatures}</td>
+      <td><span class="badge badge-red">${o.labels}</span> → <span class="badge badge-green">${c.labels}</span></td>
+      <td><span class="badge badge-red">${o.preLabels}</span> → <span class="badge badge-green">${c.preLabels}</span></td>
+      <td>${p.lignes} (${ecart >= 0 ? '+' : ''}${ecart})</td>
+      <td style="font-size:.85em">${r.statut || Object.entries(p.categories || {}).map(([k,v]) => `${k}: ${v}`).join(' · ')}</td>
+    </tr>`;
+  }).join('');
   box.innerHTML = `
     <div class="summary-box" style="margin-bottom:20px">
       <strong>📌 Contexte :</strong> le tableau historique <code>/sessions</code> de <code>startup.gov.tn</code> contenait des
@@ -4605,14 +4633,14 @@ function renderCorrReport() {
     <div class="metric-grid" style="margin-bottom:20px">
       <div class="metric-card"><div class="m-label">Socle historique vérifié</div><div class="m-value">${m.totalSessions}</div><div class="m-sub">corpus final : 88 sessions</div></div>
       <div class="metric-card"><div class="m-label">Sessions corrigées</div><div class="m-value">${m.corrected}</div></div>
-      <div class="metric-card"><div class="m-label">Labels (avant → après)</div><div class="m-value">${m.totalsOld.labels} → ${m.totalsNew.labels}</div></div>
-      <div class="metric-card"><div class="m-label">Pré-Labels (web → PDF)</div><div class="m-value">${m.totalsOld.preLabels} → ${m.totalsNew.preLabels}</div></div>
+      <div class="metric-card"><div class="m-label">Labels (avant → après)</div><div class="m-value">${(m.officialTotals88 || m.totalsOld).labels} → ${(m.correctedCounterTotals88 || m.totalsNew).labels}</div></div>
+      <div class="metric-card"><div class="m-label">Pré-Labels (web → PDF)</div><div class="m-value">${(m.officialTotals88 || m.totalsOld).preLabels} → ${(m.correctedCounterTotals88 || m.totalsNew).preLabels}</div></div>
       <div class="metric-card"><div class="m-label">Ajournés officiels</div><div class="m-value">4</div><div class="m-sub">03/2019: 2 · 04/2019: 1 · 06/2019: 1</div></div>
     </div>
     <div class="chart-card">
-      <h3>📄 Détail des ${m.corrected} corrections — écarts documentés (web) → valeurs retenues (PDF officiels)</h3>
+      <h3>📄 Rapprochement complet des 88 sessions — officiel → corrigé PDF</h3>
       <div style="overflow-x:auto"><table>
-        <thead><tr><th>Session</th><th>Candidatures officielles</th><th>Ajournés</th><th>Labels</th><th>Pré-Labels</th><th>Taux</th><th>Raison (PDF v7)</th></tr></thead>
+        <thead><tr><th>Session</th><th>Candidatures officiel</th><th>Candidatures corrigé PDF</th><th>Labels officiel → corrigé</th><th>Prélabels officiel → corrigé</th><th>Lignes PDF (écart)</th><th>Provenance / statut</th></tr></thead>
         <tbody>${rows}</tbody>
       </table></div>
     </div>

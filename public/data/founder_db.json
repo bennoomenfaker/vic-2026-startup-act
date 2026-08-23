@@ -16,7 +16,15 @@
       "retraits": 0,
       "conversions": 0,
       "entries": 14,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 16,
+      "candidatures_corrigees_pdf": 14,
+      "labels_officiels": 12,
+      "labels_corriges_pdf": 12,
+      "preLabels_officiels": 0,
+      "preLabels_corriges_pdf": 0,
+      "lignes_pdf": 14,
+      "ecart_corrige_officiel": -2
     },
     {
       "session": "04/2019",
@@ -26,7 +34,15 @@
       "retraits": 0,
       "conversions": 0,
       "entries": 52,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 51,
+      "candidatures_corrigees_pdf": 52,
+      "labels_officiels": 33,
+      "labels_corriges_pdf": 33,
+      "preLabels_officiels": 0,
+      "preLabels_corriges_pdf": 0,
+      "lignes_pdf": 52,
+      "ecart_corrige_officiel": 1
     },
     {
       "session": "05/2019",
@@ -36,7 +52,15 @@
       "retraits": 0,
       "conversions": 0,
       "entries": 30,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 30,
+      "candidatures_corrigees_pdf": 30,
+      "labels_officiels": 15,
+      "labels_corriges_pdf": 15,
+      "preLabels_officiels": 8,
+      "preLabels_corriges_pdf": 8,
+      "lignes_pdf": 30,
+      "ecart_corrige_officiel": 0
     },
     {
       "session": "06/2019",
@@ -46,7 +70,15 @@
       "retraits": 0,
       "conversions": 0,
       "entries": 32,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 33,
+      "candidatures_corrigees_pdf": 32,
+      "labels_officiels": 15,
+      "labels_corriges_pdf": 14,
+      "preLabels_officiels": 8,
+      "preLabels_corriges_pdf": 8,
+      "lignes_pdf": 32,
+      "ecart_corrige_officiel": -1
     },
     {
       "session": "07/2019",
@@ -56,7 +88,15 @@
       "retraits": 0,
       "conversions": 0,
       "entries": 29,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 28,
+      "candidatures_corrigees_pdf": 29,
+      "labels_officiels": 15,
+      "labels_corriges_pdf": 14,
+      "preLabels_officiels": 8,
+      "preLabels_corriges_pdf": 8,
+      "lignes_pdf": 29,
+      "ecart_corrige_officiel": 1
     },
     {
       "session": "08/2019",
@@ -66,7 +106,15 @@
       "retraits": 0,
       "conversions": 0,
       "entries": 28,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 28,
+      "candidatures_corrigees_pdf": 28,
+      "labels_officiels": 24,
+      "labels_corriges_pdf": 20,
+      "preLabels_officiels": 7,
+      "preLabels_corriges_pdf": 5,
+      "lignes_pdf": 28,
+      "ecart_corrige_officiel": 0
     },
     {
       "session": "09/2019",
@@ -76,7 +124,15 @@
       "retraits": 0,
       "conversions": 0,
       "entries": 27,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 24,
+      "candidatures_corrigees_pdf": 27,
+      "labels_officiels": 15,
+      "labels_corriges_pdf": 15,
+      "preLabels_officiels": 6,
+      "preLabels_corriges_pdf": 6,
+      "lignes_pdf": 27,
+      "ecart_corrige_officiel": 3
     },
     {
       "session": "10/2019",
@@ -86,7 +142,15 @@
       "retraits": 0,
       "conversions": 0,
       "entries": 39,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 34,
+      "candidatures_corrigees_pdf": 39,
+      "labels_officiels": 23,
+      "labels_corriges_pdf": 23,
+      "preLabels_officiels": 4,
+      "preLabels_corriges_pdf": 5,
+      "lignes_pdf": 39,
+      "ecart_corrige_officiel": 5
     },
     {
       "session": "11/2019",
@@ -96,7 +160,15 @@
       "retraits": 0,
       "conversions": 0,
       "entries": 41,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 35,
+      "candidatures_corrigees_pdf": 41,
+      "labels_officiels": 17,
+      "labels_corriges_pdf": 17,
+      "preLabels_officiels": 10,
+      "preLabels_corriges_pdf": 10,
+      "lignes_pdf": 41,
+      "ecart_corrige_officiel": 6
     },
     {
       "session": "12/2019",
@@ -106,7 +178,15 @@
       "retraits": 0,
       "conversions": 10,
       "entries": 42,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 32,
+      "candidatures_corrigees_pdf": 42,
+      "labels_officiels": 23,
+      "labels_corriges_pdf": 23,
+      "preLabels_officiels": 8,
+      "preLabels_corriges_pdf": 8,
+      "lignes_pdf": 42,
+      "ecart_corrige_officiel": 10
     },
     {
       "session": "01/2020",
@@ -116,7 +196,15 @@
       "retraits": 0,
       "conversions": 0,
       "entries": 42,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 38,
+      "candidatures_corrigees_pdf": 42,
+      "labels_officiels": 18,
+      "labels_corriges_pdf": 18,
+      "preLabels_officiels": 11,
+      "preLabels_corriges_pdf": 11,
+      "lignes_pdf": 42,
+      "ecart_corrige_officiel": 4
     },
     {
       "session": "02/2020",
@@ -126,7 +214,15 @@
       "retraits": 0,
       "conversions": 9,
       "entries": 41,
-      "reportes": 1
+      "reportes": 1,
+      "candidatures_officielles": 32,
+      "candidatures_corrigees_pdf": 41,
+      "labels_officiels": 22,
+      "labels_corriges_pdf": 22,
+      "preLabels_officiels": 11,
+      "preLabels_corriges_pdf": 11,
+      "lignes_pdf": 41,
+      "ecart_corrige_officiel": 9
     },
     {
       "session": "03/2020",
@@ -136,7 +232,15 @@
       "retraits": 0,
       "conversions": 0,
       "entries": 40,
-      "reportes": 1
+      "reportes": 1,
+      "candidatures_officielles": 35,
+      "candidatures_corrigees_pdf": 40,
+      "labels_officiels": 16,
+      "labels_corriges_pdf": 16,
+      "preLabels_officiels": 10,
+      "preLabels_corriges_pdf": 10,
+      "lignes_pdf": 40,
+      "ecart_corrige_officiel": 5
     },
     {
       "session": "04/2020",
@@ -146,7 +250,15 @@
       "retraits": 1,
       "conversions": 0,
       "entries": 45,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 40,
+      "candidatures_corrigees_pdf": 45,
+      "labels_officiels": 20,
+      "labels_corriges_pdf": 20,
+      "preLabels_officiels": 7,
+      "preLabels_corriges_pdf": 7,
+      "lignes_pdf": 45,
+      "ecart_corrige_officiel": 5
     },
     {
       "session": "05/2020",
@@ -156,7 +268,15 @@
       "retraits": 1,
       "conversions": 0,
       "entries": 32,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 26,
+      "candidatures_corrigees_pdf": 32,
+      "labels_officiels": 12,
+      "labels_corriges_pdf": 12,
+      "preLabels_officiels": 10,
+      "preLabels_corriges_pdf": 10,
+      "lignes_pdf": 32,
+      "ecart_corrige_officiel": 6
     },
     {
       "session": "06/2020",
@@ -166,7 +286,15 @@
       "retraits": 0,
       "conversions": 0,
       "entries": 30,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 26,
+      "candidatures_corrigees_pdf": 30,
+      "labels_officiels": 12,
+      "labels_corriges_pdf": 12,
+      "preLabels_officiels": 5,
+      "preLabels_corriges_pdf": 5,
+      "lignes_pdf": 30,
+      "ecart_corrige_officiel": 4
     },
     {
       "session": "07/2020",
@@ -176,7 +304,15 @@
       "retraits": 2,
       "conversions": 9,
       "entries": 51,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 40,
+      "candidatures_corrigees_pdf": 51,
+      "labels_officiels": 18,
+      "labels_corriges_pdf": 18,
+      "preLabels_officiels": 7,
+      "preLabels_corriges_pdf": 7,
+      "lignes_pdf": 51,
+      "ecart_corrige_officiel": 11
     },
     {
       "session": "08/2020",
@@ -186,7 +322,15 @@
       "retraits": 0,
       "conversions": 0,
       "entries": 34,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 28,
+      "candidatures_corrigees_pdf": 34,
+      "labels_officiels": 17,
+      "labels_corriges_pdf": 17,
+      "preLabels_officiels": 6,
+      "preLabels_corriges_pdf": 6,
+      "lignes_pdf": 34,
+      "ecart_corrige_officiel": 6
     },
     {
       "session": "09/2020",
@@ -196,7 +340,15 @@
       "retraits": 5,
       "conversions": 0,
       "entries": 23,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 24,
+      "candidatures_corrigees_pdf": 23,
+      "labels_officiels": 11,
+      "labels_corriges_pdf": 11,
+      "preLabels_officiels": 9,
+      "preLabels_corriges_pdf": 9,
+      "lignes_pdf": 23,
+      "ecart_corrige_officiel": -1
     },
     {
       "session": "10/2020",
@@ -206,7 +358,15 @@
       "retraits": 1,
       "conversions": 7,
       "entries": 49,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 41,
+      "candidatures_corrigees_pdf": 49,
+      "labels_officiels": 16,
+      "labels_corriges_pdf": 16,
+      "preLabels_officiels": 10,
+      "preLabels_corriges_pdf": 10,
+      "lignes_pdf": 49,
+      "ecart_corrige_officiel": 8
     },
     {
       "session": "11/2020",
@@ -216,7 +376,15 @@
       "retraits": 1,
       "conversions": 0,
       "entries": 40,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 41,
+      "candidatures_corrigees_pdf": 40,
+      "labels_officiels": 26,
+      "labels_corriges_pdf": 26,
+      "preLabels_officiels": 14,
+      "preLabels_corriges_pdf": 14,
+      "lignes_pdf": 40,
+      "ecart_corrige_officiel": -1
     },
     {
       "session": "12/2020",
@@ -226,7 +394,15 @@
       "retraits": 0,
       "conversions": 0,
       "entries": 36,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 36,
+      "candidatures_corrigees_pdf": 36,
+      "labels_officiels": 21,
+      "labels_corriges_pdf": 21,
+      "preLabels_officiels": 8,
+      "preLabels_corriges_pdf": 8,
+      "lignes_pdf": 36,
+      "ecart_corrige_officiel": 0
     },
     {
       "session": "01/2021",
@@ -236,7 +412,15 @@
       "retraits": 0,
       "conversions": 0,
       "entries": 36,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 36,
+      "candidatures_corrigees_pdf": 36,
+      "labels_officiels": 24,
+      "labels_corriges_pdf": 24,
+      "preLabels_officiels": 7,
+      "preLabels_corriges_pdf": 7,
+      "lignes_pdf": 36,
+      "ecart_corrige_officiel": 0
     },
     {
       "session": "02/2021",
@@ -246,7 +430,15 @@
       "retraits": 0,
       "conversions": 7,
       "entries": 48,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 41,
+      "candidatures_corrigees_pdf": 48,
+      "labels_officiels": 25,
+      "labels_corriges_pdf": 25,
+      "preLabels_officiels": 7,
+      "preLabels_corriges_pdf": 10,
+      "lignes_pdf": 48,
+      "ecart_corrige_officiel": 7
     },
     {
       "session": "03/2021",
@@ -256,7 +448,15 @@
       "retraits": 2,
       "conversions": 13,
       "entries": 56,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 41,
+      "candidatures_corrigees_pdf": 56,
+      "labels_officiels": 25,
+      "labels_corriges_pdf": 25,
+      "preLabels_officiels": 8,
+      "preLabels_corriges_pdf": 8,
+      "lignes_pdf": 56,
+      "ecart_corrige_officiel": 15
     },
     {
       "session": "04/2021",
@@ -266,7 +466,15 @@
       "retraits": 1,
       "conversions": 0,
       "entries": 81,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 80,
+      "candidatures_corrigees_pdf": 81,
+      "labels_officiels": 22,
+      "labels_corriges_pdf": 22,
+      "preLabels_officiels": 24,
+      "preLabels_corriges_pdf": 24,
+      "lignes_pdf": 81,
+      "ecart_corrige_officiel": 1
     },
     {
       "session": "05/2021",
@@ -276,7 +484,15 @@
       "retraits": 1,
       "conversions": 6,
       "entries": 47,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 40,
+      "candidatures_corrigees_pdf": 47,
+      "labels_officiels": 19,
+      "labels_corriges_pdf": 19,
+      "preLabels_officiels": 8,
+      "preLabels_corriges_pdf": 8,
+      "lignes_pdf": 47,
+      "ecart_corrige_officiel": 7
     },
     {
       "session": "06/2021",
@@ -286,7 +502,15 @@
       "retraits": 0,
       "conversions": 7,
       "entries": 47,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 41,
+      "candidatures_corrigees_pdf": 47,
+      "labels_officiels": 18,
+      "labels_corriges_pdf": 18,
+      "preLabels_officiels": 6,
+      "preLabels_corriges_pdf": 6,
+      "lignes_pdf": 47,
+      "ecart_corrige_officiel": 6
     },
     {
       "session": "07/2021",
@@ -296,7 +520,15 @@
       "retraits": 0,
       "conversions": 11,
       "entries": 50,
-      "reportes": 1
+      "reportes": 1,
+      "candidatures_officielles": 40,
+      "candidatures_corrigees_pdf": 50,
+      "labels_officiels": 22,
+      "labels_corriges_pdf": 22,
+      "preLabels_officiels": 5,
+      "preLabels_corriges_pdf": 5,
+      "lignes_pdf": 50,
+      "ecart_corrige_officiel": 10
     },
     {
       "session": "08/2021",
@@ -306,7 +538,15 @@
       "retraits": 1,
       "conversions": 7,
       "entries": 33,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 25,
+      "candidatures_corrigees_pdf": 33,
+      "labels_officiels": 13,
+      "labels_corriges_pdf": 13,
+      "preLabels_officiels": 4,
+      "preLabels_corriges_pdf": 4,
+      "lignes_pdf": 33,
+      "ecart_corrige_officiel": 8
     },
     {
       "session": "09/2021",
@@ -316,7 +556,15 @@
       "retraits": 0,
       "conversions": 13,
       "entries": 38,
-      "reportes": 1
+      "reportes": 1,
+      "candidatures_officielles": 15,
+      "candidatures_corrigees_pdf": 38,
+      "labels_officiels": 13,
+      "labels_corriges_pdf": 15,
+      "preLabels_officiels": 6,
+      "preLabels_corriges_pdf": 6,
+      "lignes_pdf": 38,
+      "ecart_corrige_officiel": 23
     },
     {
       "session": "10/2021",
@@ -326,7 +574,15 @@
       "retraits": 0,
       "conversions": 8,
       "entries": 49,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 41,
+      "candidatures_corrigees_pdf": 49,
+      "labels_officiels": 23,
+      "labels_corriges_pdf": 23,
+      "preLabels_officiels": 7,
+      "preLabels_corriges_pdf": 7,
+      "lignes_pdf": 49,
+      "ecart_corrige_officiel": 8
     },
     {
       "session": "11/2021",
@@ -336,7 +592,15 @@
       "retraits": 0,
       "conversions": 7,
       "entries": 47,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 40,
+      "candidatures_corrigees_pdf": 47,
+      "labels_officiels": 19,
+      "labels_corriges_pdf": 19,
+      "preLabels_officiels": 10,
+      "preLabels_corriges_pdf": 10,
+      "lignes_pdf": 47,
+      "ecart_corrige_officiel": 7
     },
     {
       "session": "12/2021",
@@ -346,7 +610,15 @@
       "retraits": 19,
       "conversions": 6,
       "entries": 51,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 38,
+      "candidatures_corrigees_pdf": 51,
+      "labels_officiels": 20,
+      "labels_corriges_pdf": 20,
+      "preLabels_officiels": 11,
+      "preLabels_corriges_pdf": 11,
+      "lignes_pdf": 51,
+      "ecart_corrige_officiel": 13
     },
     {
       "session": "01/2022",
@@ -356,7 +628,15 @@
       "retraits": 4,
       "conversions": 6,
       "entries": 46,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 38,
+      "candidatures_corrigees_pdf": 46,
+      "labels_officiels": 15,
+      "labels_corriges_pdf": 15,
+      "preLabels_officiels": 9,
+      "preLabels_corriges_pdf": 9,
+      "lignes_pdf": 46,
+      "ecart_corrige_officiel": 8
     },
     {
       "session": "02/2022",
@@ -366,7 +646,15 @@
       "retraits": 0,
       "conversions": 4,
       "entries": 22,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 18,
+      "candidatures_corrigees_pdf": 22,
+      "labels_officiels": 12,
+      "labels_corriges_pdf": 12,
+      "preLabels_officiels": 3,
+      "preLabels_corriges_pdf": 3,
+      "lignes_pdf": 22,
+      "ecart_corrige_officiel": 4
     },
     {
       "session": "03/2022",
@@ -376,7 +664,15 @@
       "retraits": 0,
       "conversions": 9,
       "entries": 30,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 21,
+      "candidatures_corrigees_pdf": 30,
+      "labels_officiels": 14,
+      "labels_corriges_pdf": 14,
+      "preLabels_officiels": 5,
+      "preLabels_corriges_pdf": 5,
+      "lignes_pdf": 30,
+      "ecart_corrige_officiel": 9
     },
     {
       "session": "04/2022",
@@ -386,7 +682,15 @@
       "retraits": 1,
       "conversions": 4,
       "entries": 27,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 22,
+      "candidatures_corrigees_pdf": 27,
+      "labels_officiels": 9,
+      "labels_corriges_pdf": 9,
+      "preLabels_officiels": 6,
+      "preLabels_corriges_pdf": 6,
+      "lignes_pdf": 27,
+      "ecart_corrige_officiel": 5
     },
     {
       "session": "05/2022",
@@ -396,7 +700,15 @@
       "retraits": 2,
       "conversions": 6,
       "entries": 49,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 41,
+      "candidatures_corrigees_pdf": 49,
+      "labels_officiels": 14,
+      "labels_corriges_pdf": 14,
+      "preLabels_officiels": 9,
+      "preLabels_corriges_pdf": 9,
+      "lignes_pdf": 49,
+      "ecart_corrige_officiel": 8
     },
     {
       "session": "06/2022",
@@ -406,7 +718,15 @@
       "retraits": 2,
       "conversions": 4,
       "entries": 46,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 40,
+      "candidatures_corrigees_pdf": 46,
+      "labels_officiels": 14,
+      "labels_corriges_pdf": 14,
+      "preLabels_officiels": 10,
+      "preLabels_corriges_pdf": 10,
+      "lignes_pdf": 46,
+      "ecart_corrige_officiel": 6
     },
     {
       "session": "07/2022",
@@ -416,7 +736,15 @@
       "retraits": 1,
       "conversions": 4,
       "entries": 45,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 40,
+      "candidatures_corrigees_pdf": 45,
+      "labels_officiels": 18,
+      "labels_corriges_pdf": 18,
+      "preLabels_officiels": 9,
+      "preLabels_corriges_pdf": 9,
+      "lignes_pdf": 45,
+      "ecart_corrige_officiel": 5
     },
     {
       "session": "08/2022",
@@ -426,7 +754,15 @@
       "retraits": 2,
       "conversions": 6,
       "entries": 44,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 36,
+      "candidatures_corrigees_pdf": 44,
+      "labels_officiels": 12,
+      "labels_corriges_pdf": 12,
+      "preLabels_officiels": 12,
+      "preLabels_corriges_pdf": 12,
+      "lignes_pdf": 44,
+      "ecart_corrige_officiel": 8
     },
     {
       "session": "09/2022",
@@ -436,7 +772,15 @@
       "retraits": 0,
       "conversions": 9,
       "entries": 49,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 40,
+      "candidatures_corrigees_pdf": 49,
+      "labels_officiels": 19,
+      "labels_corriges_pdf": 19,
+      "preLabels_officiels": 5,
+      "preLabels_corriges_pdf": 5,
+      "lignes_pdf": 49,
+      "ecart_corrige_officiel": 9
     },
     {
       "session": "10/2022",
@@ -446,7 +790,15 @@
       "retraits": 1,
       "conversions": 6,
       "entries": 45,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 38,
+      "candidatures_corrigees_pdf": 45,
+      "labels_officiels": 14,
+      "labels_corriges_pdf": 14,
+      "preLabels_officiels": 7,
+      "preLabels_corriges_pdf": 7,
+      "lignes_pdf": 45,
+      "ecart_corrige_officiel": 7
     },
     {
       "session": "11/2022",
@@ -456,7 +808,15 @@
       "retraits": 0,
       "conversions": 8,
       "entries": 42,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 34,
+      "candidatures_corrigees_pdf": 42,
+      "labels_officiels": 17,
+      "labels_corriges_pdf": 17,
+      "preLabels_officiels": 10,
+      "preLabels_corriges_pdf": 10,
+      "lignes_pdf": 42,
+      "ecart_corrige_officiel": 8
     },
     {
       "session": "12/2022",
@@ -466,7 +826,15 @@
       "retraits": 0,
       "conversions": 9,
       "entries": 39,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 30,
+      "candidatures_corrigees_pdf": 39,
+      "labels_officiels": 17,
+      "labels_corriges_pdf": 16,
+      "preLabels_officiels": 5,
+      "preLabels_corriges_pdf": 5,
+      "lignes_pdf": 39,
+      "ecart_corrige_officiel": 9
     },
     {
       "session": "01/2023",
@@ -476,7 +844,15 @@
       "retraits": 2,
       "conversions": 10,
       "entries": 38,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 26,
+      "candidatures_corrigees_pdf": 38,
+      "labels_officiels": 16,
+      "labels_corriges_pdf": 16,
+      "preLabels_officiels": 6,
+      "preLabels_corriges_pdf": 6,
+      "lignes_pdf": 38,
+      "ecart_corrige_officiel": 12
     },
     {
       "session": "02/2023",
@@ -486,7 +862,15 @@
       "retraits": 1,
       "conversions": 8,
       "entries": 42,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 33,
+      "candidatures_corrigees_pdf": 42,
+      "labels_officiels": 18,
+      "labels_corriges_pdf": 18,
+      "preLabels_officiels": 11,
+      "preLabels_corriges_pdf": 11,
+      "lignes_pdf": 42,
+      "ecart_corrige_officiel": 9
     },
     {
       "session": "03/2023",
@@ -496,7 +880,15 @@
       "retraits": 0,
       "conversions": 5,
       "entries": 42,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 37,
+      "candidatures_corrigees_pdf": 42,
+      "labels_officiels": 13,
+      "labels_corriges_pdf": 14,
+      "preLabels_officiels": 6,
+      "preLabels_corriges_pdf": 6,
+      "lignes_pdf": 42,
+      "ecart_corrige_officiel": 5
     },
     {
       "session": "04/2023",
@@ -506,7 +898,15 @@
       "retraits": 0,
       "conversions": 0,
       "entries": 40,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 40,
+      "candidatures_corrigees_pdf": 40,
+      "labels_officiels": 14,
+      "labels_corriges_pdf": 13,
+      "preLabels_officiels": 5,
+      "preLabels_corriges_pdf": 5,
+      "lignes_pdf": 40,
+      "ecart_corrige_officiel": 0
     },
     {
       "session": "05/2023",
@@ -516,7 +916,15 @@
       "retraits": 0,
       "conversions": 6,
       "entries": 45,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 39,
+      "candidatures_corrigees_pdf": 45,
+      "labels_officiels": 19,
+      "labels_corriges_pdf": 19,
+      "preLabels_officiels": 9,
+      "preLabels_corriges_pdf": 9,
+      "lignes_pdf": 45,
+      "ecart_corrige_officiel": 6
     },
     {
       "session": "06/2023",
@@ -526,7 +934,15 @@
       "retraits": 0,
       "conversions": 6,
       "entries": 34,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 28,
+      "candidatures_corrigees_pdf": 34,
+      "labels_officiels": 10,
+      "labels_corriges_pdf": 10,
+      "preLabels_officiels": 8,
+      "preLabels_corriges_pdf": 8,
+      "lignes_pdf": 34,
+      "ecart_corrige_officiel": 6
     },
     {
       "session": "07/2023",
@@ -536,7 +952,15 @@
       "retraits": 2,
       "conversions": 9,
       "entries": 42,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 33,
+      "candidatures_corrigees_pdf": 42,
+      "labels_officiels": 15,
+      "labels_corriges_pdf": 15,
+      "preLabels_officiels": 8,
+      "preLabels_corriges_pdf": 8,
+      "lignes_pdf": 42,
+      "ecart_corrige_officiel": 9
     },
     {
       "session": "08/2023",
@@ -546,7 +970,15 @@
       "retraits": 0,
       "conversions": 7,
       "entries": 33,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 26,
+      "candidatures_corrigees_pdf": 33,
+      "labels_officiels": 11,
+      "labels_corriges_pdf": 11,
+      "preLabels_officiels": 6,
+      "preLabels_corriges_pdf": 5,
+      "lignes_pdf": 33,
+      "ecart_corrige_officiel": 7
     },
     {
       "session": "09/2023",
@@ -556,7 +988,15 @@
       "retraits": 1,
       "conversions": 8,
       "entries": 41,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 33,
+      "candidatures_corrigees_pdf": 41,
+      "labels_officiels": 15,
+      "labels_corriges_pdf": 15,
+      "preLabels_officiels": 6,
+      "preLabels_corriges_pdf": 6,
+      "lignes_pdf": 41,
+      "ecart_corrige_officiel": 8
     },
     {
       "session": "10/2023",
@@ -566,7 +1006,15 @@
       "retraits": 3,
       "conversions": 1,
       "entries": 31,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 31,
+      "candidatures_corrigees_pdf": 31,
+      "labels_officiels": 6,
+      "labels_corriges_pdf": 6,
+      "preLabels_officiels": 5,
+      "preLabels_corriges_pdf": 4,
+      "lignes_pdf": 31,
+      "ecart_corrige_officiel": 0
     },
     {
       "session": "11/2023",
@@ -576,7 +1024,15 @@
       "retraits": 6,
       "conversions": 8,
       "entries": 38,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 30,
+      "candidatures_corrigees_pdf": 38,
+      "labels_officiels": 14,
+      "labels_corriges_pdf": 12,
+      "preLabels_officiels": 4,
+      "preLabels_corriges_pdf": 7,
+      "lignes_pdf": 38,
+      "ecart_corrige_officiel": 8
     },
     {
       "session": "12/2023",
@@ -586,7 +1042,15 @@
       "retraits": 0,
       "conversions": 4,
       "entries": 43,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 39,
+      "candidatures_corrigees_pdf": 43,
+      "labels_officiels": 14,
+      "labels_corriges_pdf": 12,
+      "preLabels_officiels": 5,
+      "preLabels_corriges_pdf": 5,
+      "lignes_pdf": 43,
+      "ecart_corrige_officiel": 4
     },
     {
       "session": "01/2024",
@@ -596,7 +1060,15 @@
       "retraits": 3,
       "conversions": 6,
       "entries": 36,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 33,
+      "candidatures_corrigees_pdf": 36,
+      "labels_officiels": 14,
+      "labels_corriges_pdf": 14,
+      "preLabels_officiels": 6,
+      "preLabels_corriges_pdf": 6,
+      "lignes_pdf": 36,
+      "ecart_corrige_officiel": 3
     },
     {
       "session": "02/2024",
@@ -606,7 +1078,15 @@
       "retraits": 3,
       "conversions": 0,
       "entries": 33,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 33,
+      "candidatures_corrigees_pdf": 33,
+      "labels_officiels": 9,
+      "labels_corriges_pdf": 9,
+      "preLabels_officiels": 6,
+      "preLabels_corriges_pdf": 6,
+      "lignes_pdf": 33,
+      "ecart_corrige_officiel": 0
     },
     {
       "session": "03/2024",
@@ -616,7 +1096,15 @@
       "retraits": 3,
       "conversions": 4,
       "entries": 34,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 31,
+      "candidatures_corrigees_pdf": 34,
+      "labels_officiels": 7,
+      "labels_corriges_pdf": 6,
+      "preLabels_officiels": 7,
+      "preLabels_corriges_pdf": 7,
+      "lignes_pdf": 34,
+      "ecart_corrige_officiel": 3
     },
     {
       "session": "04/2024",
@@ -626,7 +1114,15 @@
       "retraits": 2,
       "conversions": 5,
       "entries": 42,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 39,
+      "candidatures_corrigees_pdf": 42,
+      "labels_officiels": 14,
+      "labels_corriges_pdf": 14,
+      "preLabels_officiels": 5,
+      "preLabels_corriges_pdf": 5,
+      "lignes_pdf": 42,
+      "ecart_corrige_officiel": 3
     },
     {
       "session": "05/2024",
@@ -636,7 +1132,15 @@
       "retraits": 2,
       "conversions": 0,
       "entries": 46,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 39,
+      "candidatures_corrigees_pdf": 46,
+      "labels_officiels": 14,
+      "labels_corriges_pdf": 14,
+      "preLabels_officiels": 5,
+      "preLabels_corriges_pdf": 5,
+      "lignes_pdf": 46,
+      "ecart_corrige_officiel": 7
     },
     {
       "session": "06/2024",
@@ -646,7 +1150,15 @@
       "retraits": 2,
       "conversions": 3,
       "entries": 40,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 37,
+      "candidatures_corrigees_pdf": 40,
+      "labels_officiels": 14,
+      "labels_corriges_pdf": 14,
+      "preLabels_officiels": 5,
+      "preLabels_corriges_pdf": 5,
+      "lignes_pdf": 40,
+      "ecart_corrige_officiel": 3
     },
     {
       "session": "07/2024",
@@ -656,7 +1168,15 @@
       "retraits": 3,
       "conversions": 2,
       "entries": 34,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 33,
+      "candidatures_corrigees_pdf": 34,
+      "labels_officiels": 5,
+      "labels_corriges_pdf": 6,
+      "preLabels_officiels": 7,
+      "preLabels_corriges_pdf": 7,
+      "lignes_pdf": 34,
+      "ecart_corrige_officiel": 1
     },
     {
       "session": "08/2024",
@@ -666,7 +1186,15 @@
       "retraits": 1,
       "conversions": 5,
       "entries": 39,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 37,
+      "candidatures_corrigees_pdf": 39,
+      "labels_officiels": 11,
+      "labels_corriges_pdf": 11,
+      "preLabels_officiels": 6,
+      "preLabels_corriges_pdf": 6,
+      "lignes_pdf": 39,
+      "ecart_corrige_officiel": 2
     },
     {
       "session": "09/2024",
@@ -676,7 +1204,15 @@
       "retraits": 1,
       "conversions": 5,
       "entries": 39,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 34,
+      "candidatures_corrigees_pdf": 39,
+      "labels_officiels": 11,
+      "labels_corriges_pdf": 11,
+      "preLabels_officiels": 9,
+      "preLabels_corriges_pdf": 9,
+      "lignes_pdf": 39,
+      "ecart_corrige_officiel": 5
     },
     {
       "session": "10/2024",
@@ -686,7 +1222,15 @@
       "retraits": 3,
       "conversions": 6,
       "entries": 49,
-      "reportes": 1
+      "reportes": 1,
+      "candidatures_officielles": 43,
+      "candidatures_corrigees_pdf": 49,
+      "labels_officiels": 15,
+      "labels_corriges_pdf": 15,
+      "preLabels_officiels": 7,
+      "preLabels_corriges_pdf": 7,
+      "lignes_pdf": 49,
+      "ecart_corrige_officiel": 6
     },
     {
       "session": "11/2024",
@@ -696,7 +1240,15 @@
       "retraits": 2,
       "conversions": 2,
       "entries": 43,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 41,
+      "candidatures_corrigees_pdf": 43,
+      "labels_officiels": 14,
+      "labels_corriges_pdf": 14,
+      "preLabels_officiels": 7,
+      "preLabels_corriges_pdf": 7,
+      "lignes_pdf": 43,
+      "ecart_corrige_officiel": 2
     },
     {
       "session": "12/2024",
@@ -706,7 +1258,15 @@
       "retraits": 1,
       "conversions": 0,
       "entries": 39,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 40,
+      "candidatures_corrigees_pdf": 39,
+      "labels_officiels": 16,
+      "labels_corriges_pdf": 16,
+      "preLabels_officiels": 4,
+      "preLabels_corriges_pdf": 4,
+      "lignes_pdf": 39,
+      "ecart_corrige_officiel": -1
     },
     {
       "session": "01/2025",
@@ -716,7 +1276,15 @@
       "retraits": 2,
       "conversions": 5,
       "entries": 44,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 39,
+      "candidatures_corrigees_pdf": 44,
+      "labels_officiels": 18,
+      "labels_corriges_pdf": 13,
+      "preLabels_officiels": 2,
+      "preLabels_corriges_pdf": 2,
+      "lignes_pdf": 44,
+      "ecart_corrige_officiel": 5
     },
     {
       "session": "02/2025",
@@ -726,7 +1294,15 @@
       "retraits": 4,
       "conversions": 4,
       "entries": 45,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 41,
+      "candidatures_corrigees_pdf": 45,
+      "labels_officiels": 13,
+      "labels_corriges_pdf": 13,
+      "preLabels_officiels": 9,
+      "preLabels_corriges_pdf": 9,
+      "lignes_pdf": 45,
+      "ecart_corrige_officiel": 4
     },
     {
       "session": "03/2025",
@@ -736,7 +1312,15 @@
       "retraits": 1,
       "conversions": 0,
       "entries": 21,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 21,
+      "candidatures_corrigees_pdf": 21,
+      "labels_officiels": 6,
+      "labels_corriges_pdf": 6,
+      "preLabels_officiels": 5,
+      "preLabels_corriges_pdf": 5,
+      "lignes_pdf": 21,
+      "ecart_corrige_officiel": 0
     },
     {
       "session": "04/2025",
@@ -746,7 +1330,15 @@
       "retraits": 7,
       "conversions": 8,
       "entries": 29,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 21,
+      "candidatures_corrigees_pdf": 29,
+      "labels_officiels": 13,
+      "labels_corriges_pdf": 13,
+      "preLabels_officiels": 5,
+      "preLabels_corriges_pdf": 5,
+      "lignes_pdf": 29,
+      "ecart_corrige_officiel": 8
     },
     {
       "session": "05/2025",
@@ -756,7 +1348,15 @@
       "retraits": 1,
       "conversions": 3,
       "entries": 50,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 47,
+      "candidatures_corrigees_pdf": 50,
+      "labels_officiels": 13,
+      "labels_corriges_pdf": 13,
+      "preLabels_officiels": 10,
+      "preLabels_corriges_pdf": 13,
+      "lignes_pdf": 50,
+      "ecart_corrige_officiel": 3
     },
     {
       "session": "06/2025",
@@ -766,7 +1366,15 @@
       "retraits": 1,
       "conversions": 5,
       "entries": 41,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 36,
+      "candidatures_corrigees_pdf": 41,
+      "labels_officiels": 12,
+      "labels_corriges_pdf": 12,
+      "preLabels_officiels": 8,
+      "preLabels_corriges_pdf": 8,
+      "lignes_pdf": 41,
+      "ecart_corrige_officiel": 5
     },
     {
       "session": "07/2025",
@@ -776,7 +1384,15 @@
       "retraits": 6,
       "conversions": 5,
       "entries": 34,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 29,
+      "candidatures_corrigees_pdf": 34,
+      "labels_officiels": 9,
+      "labels_corriges_pdf": 9,
+      "preLabels_officiels": 8,
+      "preLabels_corriges_pdf": 8,
+      "lignes_pdf": 34,
+      "ecart_corrige_officiel": 5
     },
     {
       "session": "08/2025",
@@ -786,7 +1402,15 @@
       "retraits": 4,
       "conversions": 9,
       "entries": 50,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 41,
+      "candidatures_corrigees_pdf": 50,
+      "labels_officiels": 15,
+      "labels_corriges_pdf": 15,
+      "preLabels_officiels": 9,
+      "preLabels_corriges_pdf": 9,
+      "lignes_pdf": 50,
+      "ecart_corrige_officiel": 9
     },
     {
       "session": "09/2025",
@@ -796,7 +1420,15 @@
       "retraits": 4,
       "conversions": 6,
       "entries": 31,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 25,
+      "candidatures_corrigees_pdf": 31,
+      "labels_officiels": 7,
+      "labels_corriges_pdf": 7,
+      "preLabels_officiels": 10,
+      "preLabels_corriges_pdf": 10,
+      "lignes_pdf": 31,
+      "ecart_corrige_officiel": 6
     },
     {
       "session": "10/2025",
@@ -806,7 +1438,15 @@
       "retraits": 3,
       "conversions": 10,
       "entries": 51,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 41,
+      "candidatures_corrigees_pdf": 51,
+      "labels_officiels": 17,
+      "labels_corriges_pdf": 17,
+      "preLabels_officiels": 12,
+      "preLabels_corriges_pdf": 12,
+      "lignes_pdf": 51,
+      "ecart_corrige_officiel": 10
     },
     {
       "session": "11/2025",
@@ -816,7 +1456,15 @@
       "retraits": 2,
       "conversions": 8,
       "entries": 47,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 39,
+      "candidatures_corrigees_pdf": 47,
+      "labels_officiels": 15,
+      "labels_corriges_pdf": 15,
+      "preLabels_officiels": 3,
+      "preLabels_corriges_pdf": 3,
+      "lignes_pdf": 47,
+      "ecart_corrige_officiel": 8
     },
     {
       "session": "12/2025",
@@ -826,7 +1474,15 @@
       "retraits": 5,
       "conversions": 10,
       "entries": 51,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 41,
+      "candidatures_corrigees_pdf": 51,
+      "labels_officiels": 15,
+      "labels_corriges_pdf": 16,
+      "preLabels_officiels": 6,
+      "preLabels_corriges_pdf": 6,
+      "lignes_pdf": 51,
+      "ecart_corrige_officiel": 10
     },
     {
       "session": "01/2026",
@@ -836,7 +1492,15 @@
       "retraits": 5,
       "conversions": 7,
       "entries": 37,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 31,
+      "candidatures_corrigees_pdf": 37,
+      "labels_officiels": 9,
+      "labels_corriges_pdf": 10,
+      "preLabels_officiels": 7,
+      "preLabels_corriges_pdf": 7,
+      "lignes_pdf": 37,
+      "ecart_corrige_officiel": 6
     },
     {
       "session": "02/2026",
@@ -846,7 +1510,15 @@
       "retraits": 2,
       "conversions": 3,
       "entries": 39,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 36,
+      "candidatures_corrigees_pdf": 39,
+      "labels_officiels": 21,
+      "labels_corriges_pdf": 20,
+      "preLabels_officiels": 3,
+      "preLabels_corriges_pdf": 3,
+      "lignes_pdf": 39,
+      "ecart_corrige_officiel": 3
     },
     {
       "session": "03/2026",
@@ -856,7 +1528,15 @@
       "retraits": 6,
       "conversions": 3,
       "entries": 44,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 41,
+      "candidatures_corrigees_pdf": 44,
+      "labels_officiels": 13,
+      "labels_corriges_pdf": 13,
+      "preLabels_officiels": 7,
+      "preLabels_corriges_pdf": 7,
+      "lignes_pdf": 44,
+      "ecart_corrige_officiel": 3
     },
     {
       "session": "04/2026",
@@ -866,7 +1546,15 @@
       "retraits": 5,
       "conversions": 4,
       "entries": 47,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 41,
+      "candidatures_corrigees_pdf": 47,
+      "labels_officiels": 12,
+      "labels_corriges_pdf": 12,
+      "preLabels_officiels": 5,
+      "preLabels_corriges_pdf": 5,
+      "lignes_pdf": 47,
+      "ecart_corrige_officiel": 6
     },
     {
       "session": "05/2026",
@@ -876,7 +1564,15 @@
       "retraits": 3,
       "conversions": 5,
       "entries": 42,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 40,
+      "candidatures_corrigees_pdf": 42,
+      "labels_officiels": 13,
+      "labels_corriges_pdf": 13,
+      "preLabels_officiels": 10,
+      "preLabels_corriges_pdf": 10,
+      "lignes_pdf": 42,
+      "ecart_corrige_officiel": 2
     },
     {
       "session": "06/2026",
@@ -886,7 +1582,15 @@
       "retraits": 3,
       "conversions": 4,
       "entries": 45,
-      "reportes": 0
+      "reportes": 0,
+      "candidatures_officielles": 40,
+      "candidatures_corrigees_pdf": 45,
+      "labels_officiels": 7,
+      "labels_corriges_pdf": 7,
+      "preLabels_officiels": 9,
+      "preLabels_corriges_pdf": 9,
+      "lignes_pdf": 45,
+      "ecart_corrige_officiel": 5
     }
   ],
   "startups": [
@@ -95114,5 +95818,13 @@
       "issue": "Fondateur manquant",
       "detail": "Non renseigné"
     }
-  ]
+  ],
+  "metadata": {
+    "official_candidatures": 3079,
+    "corrected_pdf_candidatures": 3555,
+    "corrected_pdf_labels": 1343,
+    "corrected_pdf_prelabels": 647,
+    "detailed_entries": 3555,
+    "reconciliation_note": "PDF primaire; officiel et corrigé sont deux séries séparées."
+  }
 }
