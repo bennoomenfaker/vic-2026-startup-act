@@ -107,7 +107,9 @@
       "retraits": 0,
       "labelsDirects": 12,
       "pctConversions": 0,
-      "pctRetraits": 0.0
+      "pctRetraits": 0.0,
+      "newLabels": 12,
+      "totalLabels": 12
     },
     {
       "session": "04/2019",
@@ -118,7 +120,9 @@
       "retraits": 0,
       "labelsDirects": 33,
       "pctConversions": 0,
-      "pctRetraits": 0.0
+      "pctRetraits": 0.0,
+      "newLabels": 33,
+      "totalLabels": 33
     },
     {
       "session": "05/2019",
@@ -129,7 +133,9 @@
       "retraits": 0,
       "labelsDirects": 15,
       "pctConversions": 0.0,
-      "pctRetraits": 0.0
+      "pctRetraits": 0.0,
+      "newLabels": 15,
+      "totalLabels": 15
     },
     {
       "session": "06/2019",
@@ -140,7 +146,9 @@
       "retraits": 0,
       "labelsDirects": 15,
       "pctConversions": 0.0,
-      "pctRetraits": 0.0
+      "pctRetraits": 0.0,
+      "newLabels": 15,
+      "totalLabels": 15
     },
     {
       "session": "07/2019",
@@ -151,7 +159,9 @@
       "retraits": 0,
       "labelsDirects": 15,
       "pctConversions": 0.0,
-      "pctRetraits": 0.0
+      "pctRetraits": 0.0,
+      "newLabels": 15,
+      "totalLabels": 15
     },
     {
       "session": "08/2019",
@@ -162,7 +172,9 @@
       "retraits": 0,
       "labelsDirects": 24,
       "pctConversions": 0.0,
-      "pctRetraits": 0.0
+      "pctRetraits": 0.0,
+      "newLabels": 24,
+      "totalLabels": 24
     },
     {
       "session": "09/2019",
@@ -173,7 +185,9 @@
       "retraits": 0,
       "labelsDirects": 15,
       "pctConversions": 0.0,
-      "pctRetraits": 0.0
+      "pctRetraits": 0.0,
+      "newLabels": 15,
+      "totalLabels": 15
     },
     {
       "session": "10/2019",
@@ -184,7 +198,9 @@
       "retraits": 0,
       "labelsDirects": 23,
       "pctConversions": 0.0,
-      "pctRetraits": 0.0
+      "pctRetraits": 0.0,
+      "newLabels": 23,
+      "totalLabels": 23
     },
     {
       "session": "11/2019",
@@ -195,7 +211,9 @@
       "retraits": 0,
       "labelsDirects": 17,
       "pctConversions": 0.0,
-      "pctRetraits": 0.0
+      "pctRetraits": 0.0,
+      "newLabels": 17,
+      "totalLabels": 17
     },
     {
       "session": "12/2019",
@@ -206,7 +224,9 @@
       "retraits": 0,
       "labelsDirects": 23,
       "pctConversions": 0.0,
-      "pctRetraits": 0.0
+      "pctRetraits": 0.0,
+      "newLabels": 23,
+      "totalLabels": 23
     },
     {
       "session": "01/2020",
@@ -217,7 +237,9 @@
       "retraits": 0,
       "labelsDirects": 18,
       "pctConversions": 0.0,
-      "pctRetraits": 0.0
+      "pctRetraits": 0.0,
+      "newLabels": 18,
+      "totalLabels": 18
     },
     {
       "session": "02/2020",
@@ -228,7 +250,9 @@
       "retraits": 0,
       "labelsDirects": 22,
       "pctConversions": 0.0,
-      "pctRetraits": 0.0
+      "pctRetraits": 0.0,
+      "newLabels": 22,
+      "totalLabels": 22
     },
     {
       "session": "03/2020",
@@ -239,7 +263,9 @@
       "retraits": 0,
       "labelsDirects": 16,
       "pctConversions": 0.0,
-      "pctRetraits": 0.0
+      "pctRetraits": 0.0,
+      "newLabels": 16,
+      "totalLabels": 16
     },
     {
       "session": "04/2020",
@@ -250,7 +276,9 @@
       "retraits": 1,
       "labelsDirects": 20,
       "pctConversions": 0.0,
-      "pctRetraits": 5.0
+      "pctRetraits": 5.0,
+      "newLabels": 20,
+      "totalLabels": 20
     },
     {
       "session": "05/2020",
@@ -261,7 +289,9 @@
       "retraits": 1,
       "labelsDirects": 12,
       "pctConversions": 0.0,
-      "pctRetraits": 8.3
+      "pctRetraits": 8.3,
+      "newLabels": 12,
+      "totalLabels": 12
     },
     {
       "session": "06/2020",
@@ -272,7 +302,9 @@
       "retraits": 0,
       "labelsDirects": 12,
       "pctConversions": 0.0,
-      "pctRetraits": 0.0
+      "pctRetraits": 0.0,
+      "newLabels": 12,
+      "totalLabels": 12
     },
     {
       "session": "07/2020",
@@ -283,7 +315,9 @@
       "retraits": 2,
       "labelsDirects": 18,
       "pctConversions": 0.0,
-      "pctRetraits": 11.1
+      "pctRetraits": 11.1,
+      "newLabels": 18,
+      "totalLabels": 18
     },
     {
       "session": "08/2020",
@@ -294,7 +328,9 @@
       "retraits": 0,
       "labelsDirects": 17,
       "pctConversions": 0.0,
-      "pctRetraits": 0.0
+      "pctRetraits": 0.0,
+      "newLabels": 17,
+      "totalLabels": 17
     },
     {
       "session": "09/2020",
@@ -305,7 +341,9 @@
       "retraits": 5,
       "labelsDirects": 11,
       "pctConversions": 0.0,
-      "pctRetraits": 45.5
+      "pctRetraits": 45.5,
+      "newLabels": 11,
+      "totalLabels": 11
     },
     {
       "session": "10/2020",
@@ -316,7 +354,9 @@
       "retraits": 1,
       "labelsDirects": 16,
       "pctConversions": 0.0,
-      "pctRetraits": 6.2
+      "pctRetraits": 6.2,
+      "newLabels": 16,
+      "totalLabels": 16
     },
     {
       "session": "11/2020",
@@ -327,7 +367,9 @@
       "retraits": 1,
       "labelsDirects": 26,
       "pctConversions": 0.0,
-      "pctRetraits": 3.8
+      "pctRetraits": 3.8,
+      "newLabels": 26,
+      "totalLabels": 26
     },
     {
       "session": "12/2020",
@@ -338,7 +380,9 @@
       "retraits": 0,
       "labelsDirects": 21,
       "pctConversions": 0.0,
-      "pctRetraits": 0.0
+      "pctRetraits": 0.0,
+      "newLabels": 21,
+      "totalLabels": 21
     },
     {
       "session": "01/2021",
@@ -349,7 +393,9 @@
       "retraits": 0,
       "labelsDirects": 24,
       "pctConversions": 0.0,
-      "pctRetraits": 0.0
+      "pctRetraits": 0.0,
+      "newLabels": 24,
+      "totalLabels": 24
     },
     {
       "session": "02/2021",
@@ -360,7 +406,9 @@
       "retraits": 0,
       "labelsDirects": 18,
       "pctConversions": 100.0,
-      "pctRetraits": 0.0
+      "pctRetraits": 0.0,
+      "newLabels": 18,
+      "totalLabels": 25
     },
     {
       "session": "03/2021",
@@ -371,7 +419,9 @@
       "retraits": 2,
       "labelsDirects": 12,
       "pctConversions": 162.5,
-      "pctRetraits": 8.0
+      "pctRetraits": 8.0,
+      "newLabels": 12,
+      "totalLabels": 25
     },
     {
       "session": "04/2021",
@@ -382,7 +432,9 @@
       "retraits": 1,
       "labelsDirects": 22,
       "pctConversions": 0.0,
-      "pctRetraits": 4.5
+      "pctRetraits": 4.5,
+      "newLabels": 22,
+      "totalLabels": 22
     },
     {
       "session": "05/2021",
@@ -393,7 +445,9 @@
       "retraits": 1,
       "labelsDirects": 13,
       "pctConversions": 75.0,
-      "pctRetraits": 5.3
+      "pctRetraits": 5.3,
+      "newLabels": 13,
+      "totalLabels": 19
     },
     {
       "session": "06/2021",
@@ -404,7 +458,9 @@
       "retraits": 0,
       "labelsDirects": 11,
       "pctConversions": 116.7,
-      "pctRetraits": 0.0
+      "pctRetraits": 0.0,
+      "newLabels": 11,
+      "totalLabels": 18
     },
     {
       "session": "07/2021",
@@ -415,7 +471,9 @@
       "retraits": 0,
       "labelsDirects": 11,
       "pctConversions": 220.0,
-      "pctRetraits": 0.0
+      "pctRetraits": 0.0,
+      "newLabels": 11,
+      "totalLabels": 22
     },
     {
       "session": "08/2021",
@@ -426,7 +484,9 @@
       "retraits": 1,
       "labelsDirects": 6,
       "pctConversions": 175.0,
-      "pctRetraits": 7.7
+      "pctRetraits": 7.7,
+      "newLabels": 6,
+      "totalLabels": 13
     },
     {
       "session": "09/2021",
@@ -437,7 +497,9 @@
       "retraits": 0,
       "labelsDirects": 0,
       "pctConversions": 216.7,
-      "pctRetraits": 0.0
+      "pctRetraits": 0.0,
+      "newLabels": 0,
+      "totalLabels": 13
     },
     {
       "session": "10/2021",
@@ -448,7 +510,9 @@
       "retraits": 0,
       "labelsDirects": 15,
       "pctConversions": 114.3,
-      "pctRetraits": 0.0
+      "pctRetraits": 0.0,
+      "newLabels": 15,
+      "totalLabels": 23
     },
     {
       "session": "11/2021",
@@ -459,7 +523,9 @@
       "retraits": 0,
       "labelsDirects": 12,
       "pctConversions": 70.0,
-      "pctRetraits": 0.0
+      "pctRetraits": 0.0,
+      "newLabels": 12,
+      "totalLabels": 19
     },
     {
       "session": "12/2021",
@@ -470,7 +536,9 @@
       "retraits": 19,
       "labelsDirects": 14,
       "pctConversions": 54.5,
-      "pctRetraits": 95.0
+      "pctRetraits": 95.0,
+      "newLabels": 14,
+      "totalLabels": 20
     },
     {
       "session": "01/2022",
@@ -481,7 +549,9 @@
       "retraits": 4,
       "labelsDirects": 9,
       "pctConversions": 66.7,
-      "pctRetraits": 26.7
+      "pctRetraits": 26.7,
+      "newLabels": 9,
+      "totalLabels": 15
     },
     {
       "session": "02/2022",
@@ -492,7 +562,9 @@
       "retraits": 0,
       "labelsDirects": 8,
       "pctConversions": 133.3,
-      "pctRetraits": 0.0
+      "pctRetraits": 0.0,
+      "newLabels": 8,
+      "totalLabels": 12
     },
     {
       "session": "03/2022",
@@ -503,7 +575,9 @@
       "retraits": 0,
       "labelsDirects": 5,
       "pctConversions": 180.0,
-      "pctRetraits": 0.0
+      "pctRetraits": 0.0,
+      "newLabels": 5,
+      "totalLabels": 14
     },
     {
       "session": "04/2022",
@@ -514,7 +588,9 @@
       "retraits": 1,
       "labelsDirects": 5,
       "pctConversions": 66.7,
-      "pctRetraits": 11.1
+      "pctRetraits": 11.1,
+      "newLabels": 5,
+      "totalLabels": 9
     },
     {
       "session": "05/2022",
@@ -525,7 +601,9 @@
       "retraits": 2,
       "labelsDirects": 8,
       "pctConversions": 66.7,
-      "pctRetraits": 14.3
+      "pctRetraits": 14.3,
+      "newLabels": 8,
+      "totalLabels": 14
     },
     {
       "session": "06/2022",
@@ -536,7 +614,9 @@
       "retraits": 2,
       "labelsDirects": 10,
       "pctConversions": 40.0,
-      "pctRetraits": 14.3
+      "pctRetraits": 14.3,
+      "newLabels": 10,
+      "totalLabels": 14
     },
     {
       "session": "07/2022",
@@ -547,7 +627,9 @@
       "retraits": 1,
       "labelsDirects": 14,
       "pctConversions": 44.4,
-      "pctRetraits": 5.6
+      "pctRetraits": 5.6,
+      "newLabels": 14,
+      "totalLabels": 18
     },
     {
       "session": "08/2022",
@@ -558,7 +640,9 @@
       "retraits": 2,
       "labelsDirects": 6,
       "pctConversions": 50.0,
-      "pctRetraits": 16.7
+      "pctRetraits": 16.7,
+      "newLabels": 6,
+      "totalLabels": 12
     },
     {
       "session": "09/2022",
@@ -569,7 +653,9 @@
       "retraits": 0,
       "labelsDirects": 10,
       "pctConversions": 180.0,
-      "pctRetraits": 0.0
+      "pctRetraits": 0.0,
+      "newLabels": 10,
+      "totalLabels": 19
     },
     {
       "session": "10/2022",
@@ -580,7 +666,9 @@
       "retraits": 1,
       "labelsDirects": 8,
       "pctConversions": 85.7,
-      "pctRetraits": 7.1
+      "pctRetraits": 7.1,
+      "newLabels": 8,
+      "totalLabels": 14
     },
     {
       "session": "11/2022",
@@ -591,7 +679,9 @@
       "retraits": 0,
       "labelsDirects": 9,
       "pctConversions": 80.0,
-      "pctRetraits": 0.0
+      "pctRetraits": 0.0,
+      "newLabels": 9,
+      "totalLabels": 17
     },
     {
       "session": "12/2022",
@@ -602,7 +692,9 @@
       "retraits": 0,
       "labelsDirects": 8,
       "pctConversions": 180.0,
-      "pctRetraits": 0.0
+      "pctRetraits": 0.0,
+      "newLabels": 8,
+      "totalLabels": 17
     },
     {
       "session": "01/2023",
@@ -613,7 +705,9 @@
       "retraits": 2,
       "labelsDirects": 6,
       "pctConversions": 166.7,
-      "pctRetraits": 12.5
+      "pctRetraits": 12.5,
+      "newLabels": 6,
+      "totalLabels": 16
     },
     {
       "session": "02/2023",
@@ -624,7 +718,9 @@
       "retraits": 1,
       "labelsDirects": 10,
       "pctConversions": 72.7,
-      "pctRetraits": 5.6
+      "pctRetraits": 5.6,
+      "newLabels": 10,
+      "totalLabels": 18
     },
     {
       "session": "03/2023",
@@ -635,7 +731,9 @@
       "retraits": 0,
       "labelsDirects": 8,
       "pctConversions": 83.3,
-      "pctRetraits": 0.0
+      "pctRetraits": 0.0,
+      "newLabels": 8,
+      "totalLabels": 13
     },
     {
       "session": "04/2023",
@@ -646,7 +744,9 @@
       "retraits": 0,
       "labelsDirects": 14,
       "pctConversions": 0.0,
-      "pctRetraits": 0.0
+      "pctRetraits": 0.0,
+      "newLabels": 14,
+      "totalLabels": 14
     },
     {
       "session": "05/2023",
@@ -657,7 +757,9 @@
       "retraits": 0,
       "labelsDirects": 13,
       "pctConversions": 66.7,
-      "pctRetraits": 0.0
+      "pctRetraits": 0.0,
+      "newLabels": 13,
+      "totalLabels": 19
     },
     {
       "session": "06/2023",
@@ -668,7 +770,9 @@
       "retraits": 0,
       "labelsDirects": 4,
       "pctConversions": 75.0,
-      "pctRetraits": 0.0
+      "pctRetraits": 0.0,
+      "newLabels": 4,
+      "totalLabels": 10
     },
     {
       "session": "07/2023",
@@ -679,7 +783,9 @@
       "retraits": 2,
       "labelsDirects": 6,
       "pctConversions": 112.5,
-      "pctRetraits": 13.3
+      "pctRetraits": 13.3,
+      "newLabels": 6,
+      "totalLabels": 15
     },
     {
       "session": "08/2023",
@@ -690,7 +796,9 @@
       "retraits": 0,
       "labelsDirects": 4,
       "pctConversions": 116.7,
-      "pctRetraits": 0.0
+      "pctRetraits": 0.0,
+      "newLabels": 4,
+      "totalLabels": 11
     },
     {
       "session": "09/2023",
@@ -701,7 +809,9 @@
       "retraits": 1,
       "labelsDirects": 7,
       "pctConversions": 133.3,
-      "pctRetraits": 6.7
+      "pctRetraits": 6.7,
+      "newLabels": 7,
+      "totalLabels": 15
     },
     {
       "session": "10/2023",
@@ -712,7 +822,9 @@
       "retraits": 3,
       "labelsDirects": 5,
       "pctConversions": 20.0,
-      "pctRetraits": 50.0
+      "pctRetraits": 50.0,
+      "newLabels": 5,
+      "totalLabels": 6
     },
     {
       "session": "11/2023",
@@ -723,7 +835,9 @@
       "retraits": 6,
       "labelsDirects": 6,
       "pctConversions": 200.0,
-      "pctRetraits": 42.9
+      "pctRetraits": 42.9,
+      "newLabels": 6,
+      "totalLabels": 14
     },
     {
       "session": "12/2023",
@@ -734,7 +848,9 @@
       "retraits": 0,
       "labelsDirects": 10,
       "pctConversions": 80.0,
-      "pctRetraits": 0.0
+      "pctRetraits": 0.0,
+      "newLabels": 10,
+      "totalLabels": 14
     },
     {
       "session": "01/2024",
@@ -745,7 +861,9 @@
       "retraits": 3,
       "labelsDirects": 8,
       "pctConversions": 100.0,
-      "pctRetraits": 21.4
+      "pctRetraits": 21.4,
+      "newLabels": 8,
+      "totalLabels": 14
     },
     {
       "session": "02/2024",
@@ -756,7 +874,9 @@
       "retraits": 3,
       "labelsDirects": 9,
       "pctConversions": 0.0,
-      "pctRetraits": 33.3
+      "pctRetraits": 33.3,
+      "newLabels": 9,
+      "totalLabels": 9
     },
     {
       "session": "03/2024",
@@ -767,7 +887,9 @@
       "retraits": 3,
       "labelsDirects": 3,
       "pctConversions": 57.1,
-      "pctRetraits": 42.9
+      "pctRetraits": 42.9,
+      "newLabels": 3,
+      "totalLabels": 7
     },
     {
       "session": "04/2024",
@@ -778,7 +900,9 @@
       "retraits": 2,
       "labelsDirects": 9,
       "pctConversions": 100.0,
-      "pctRetraits": 14.3
+      "pctRetraits": 14.3,
+      "newLabels": 9,
+      "totalLabels": 14
     },
     {
       "session": "05/2024",
@@ -789,7 +913,9 @@
       "retraits": 2,
       "labelsDirects": 14,
       "pctConversions": 0.0,
-      "pctRetraits": 14.3
+      "pctRetraits": 14.3,
+      "newLabels": 14,
+      "totalLabels": 14
     },
     {
       "session": "06/2024",
@@ -800,7 +926,9 @@
       "retraits": 2,
       "labelsDirects": 11,
       "pctConversions": 60.0,
-      "pctRetraits": 14.3
+      "pctRetraits": 14.3,
+      "newLabels": 11,
+      "totalLabels": 14
     },
     {
       "session": "07/2024",
@@ -811,7 +939,9 @@
       "retraits": 3,
       "labelsDirects": 3,
       "pctConversions": 28.6,
-      "pctRetraits": 60.0
+      "pctRetraits": 60.0,
+      "newLabels": 3,
+      "totalLabels": 5
     },
     {
       "session": "08/2024",
@@ -822,7 +952,9 @@
       "retraits": 1,
       "labelsDirects": 6,
       "pctConversions": 83.3,
-      "pctRetraits": 9.1
+      "pctRetraits": 9.1,
+      "newLabels": 6,
+      "totalLabels": 11
     },
     {
       "session": "09/2024",
@@ -833,7 +965,9 @@
       "retraits": 1,
       "labelsDirects": 6,
       "pctConversions": 55.6,
-      "pctRetraits": 9.1
+      "pctRetraits": 9.1,
+      "newLabels": 6,
+      "totalLabels": 11
     },
     {
       "session": "10/2024",
@@ -844,7 +978,9 @@
       "retraits": 3,
       "labelsDirects": 9,
       "pctConversions": 85.7,
-      "pctRetraits": 20.0
+      "pctRetraits": 20.0,
+      "newLabels": 9,
+      "totalLabels": 15
     },
     {
       "session": "11/2024",
@@ -855,7 +991,9 @@
       "retraits": 2,
       "labelsDirects": 12,
       "pctConversions": 28.6,
-      "pctRetraits": 14.3
+      "pctRetraits": 14.3,
+      "newLabels": 12,
+      "totalLabels": 14
     },
     {
       "session": "12/2024",
@@ -866,7 +1004,9 @@
       "retraits": 1,
       "labelsDirects": 16,
       "pctConversions": 0.0,
-      "pctRetraits": 6.2
+      "pctRetraits": 6.2,
+      "newLabels": 16,
+      "totalLabels": 16
     },
     {
       "session": "01/2025",
@@ -877,7 +1017,9 @@
       "retraits": 2,
       "labelsDirects": 13,
       "pctConversions": 250.0,
-      "pctRetraits": 11.1
+      "pctRetraits": 11.1,
+      "newLabels": 13,
+      "totalLabels": 18
     },
     {
       "session": "02/2025",
@@ -888,7 +1030,9 @@
       "retraits": 4,
       "labelsDirects": 9,
       "pctConversions": 44.4,
-      "pctRetraits": 30.8
+      "pctRetraits": 30.8,
+      "newLabels": 9,
+      "totalLabels": 13
     },
     {
       "session": "03/2025",
@@ -899,7 +1043,9 @@
       "retraits": 1,
       "labelsDirects": 6,
       "pctConversions": 0.0,
-      "pctRetraits": 16.7
+      "pctRetraits": 16.7,
+      "newLabels": 6,
+      "totalLabels": 6
     },
     {
       "session": "04/2025",
@@ -910,7 +1056,9 @@
       "retraits": 7,
       "labelsDirects": 5,
       "pctConversions": 160.0,
-      "pctRetraits": 53.8
+      "pctRetraits": 53.8,
+      "newLabels": 5,
+      "totalLabels": 13
     },
     {
       "session": "05/2025",
@@ -921,7 +1069,9 @@
       "retraits": 1,
       "labelsDirects": 10,
       "pctConversions": 30.0,
-      "pctRetraits": 7.7
+      "pctRetraits": 7.7,
+      "newLabels": 10,
+      "totalLabels": 13
     },
     {
       "session": "06/2025",
@@ -932,7 +1082,9 @@
       "retraits": 1,
       "labelsDirects": 7,
       "pctConversions": 62.5,
-      "pctRetraits": 8.3
+      "pctRetraits": 8.3,
+      "newLabels": 7,
+      "totalLabels": 12
     },
     {
       "session": "07/2025",
@@ -943,7 +1095,9 @@
       "retraits": 6,
       "labelsDirects": 4,
       "pctConversions": 62.5,
-      "pctRetraits": 66.7
+      "pctRetraits": 66.7,
+      "newLabels": 4,
+      "totalLabels": 9
     },
     {
       "session": "08/2025",
@@ -954,7 +1108,9 @@
       "retraits": 4,
       "labelsDirects": 6,
       "pctConversions": 100.0,
-      "pctRetraits": 26.7
+      "pctRetraits": 26.7,
+      "newLabels": 6,
+      "totalLabels": 15
     },
     {
       "session": "09/2025",
@@ -965,7 +1121,9 @@
       "retraits": 4,
       "labelsDirects": 1,
       "pctConversions": 60.0,
-      "pctRetraits": 57.1
+      "pctRetraits": 57.1,
+      "newLabels": 1,
+      "totalLabels": 7
     },
     {
       "session": "10/2025",
@@ -976,7 +1134,9 @@
       "retraits": 3,
       "labelsDirects": 7,
       "pctConversions": 83.3,
-      "pctRetraits": 17.6
+      "pctRetraits": 17.6,
+      "newLabels": 7,
+      "totalLabels": 17
     },
     {
       "session": "11/2025",
@@ -987,7 +1147,9 @@
       "retraits": 2,
       "labelsDirects": 7,
       "pctConversions": 266.7,
-      "pctRetraits": 13.3
+      "pctRetraits": 13.3,
+      "newLabels": 7,
+      "totalLabels": 15
     },
     {
       "session": "12/2025",
@@ -998,7 +1160,9 @@
       "retraits": 5,
       "labelsDirects": 5,
       "pctConversions": 166.7,
-      "pctRetraits": 33.3
+      "pctRetraits": 33.3,
+      "newLabels": 5,
+      "totalLabels": 15
     },
     {
       "session": "01/2026",
@@ -1009,7 +1173,9 @@
       "retraits": 5,
       "labelsDirects": 2,
       "pctConversions": 100.0,
-      "pctRetraits": 55.6
+      "pctRetraits": 55.6,
+      "newLabels": 2,
+      "totalLabels": 9
     },
     {
       "session": "02/2026",
@@ -1020,7 +1186,9 @@
       "retraits": 2,
       "labelsDirects": 18,
       "pctConversions": 100.0,
-      "pctRetraits": 9.5
+      "pctRetraits": 9.5,
+      "newLabels": 18,
+      "totalLabels": 21
     },
     {
       "session": "03/2026",
@@ -1031,7 +1199,9 @@
       "retraits": 6,
       "labelsDirects": 10,
       "pctConversions": 42.9,
-      "pctRetraits": 46.2
+      "pctRetraits": 46.2,
+      "newLabels": 10,
+      "totalLabels": 13
     },
     {
       "session": "04/2026",
@@ -1042,7 +1212,9 @@
       "retraits": 5,
       "labelsDirects": 8,
       "pctConversions": 80.0,
-      "pctRetraits": 41.7
+      "pctRetraits": 41.7,
+      "newLabels": 8,
+      "totalLabels": 12
     },
     {
       "session": "05/2026",
@@ -1053,7 +1225,9 @@
       "retraits": 3,
       "labelsDirects": 8,
       "pctConversions": 50.0,
-      "pctRetraits": 23.1
+      "pctRetraits": 23.1,
+      "newLabels": 8,
+      "totalLabels": 13
     },
     {
       "session": "06/2026",
@@ -1064,7 +1238,9 @@
       "retraits": 3,
       "labelsDirects": 3,
       "pctConversions": 44.4,
-      "pctRetraits": 42.9
+      "pctRetraits": 42.9,
+      "newLabels": 3,
+      "totalLabels": 7
     }
   ]
 }
