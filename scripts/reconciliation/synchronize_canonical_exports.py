@@ -21,6 +21,8 @@ sessions = canonical['sessions']
 entries = canonical['entries']
 entries_by_id = {e['decision_id']: e for e in entries}
 entries_by_session = defaultdict(list)
+# Ajournés signalés dans les commentaires officiels mais absents des lignes PDF nommées.
+AJOURNES_HORS_PDF = {'03/2019': 2, '06/2019': 1}
 for e in entries:
     entries_by_session[e['session']].append(e)
 for es in entries_by_session.values():
@@ -35,7 +37,7 @@ def read_csv(path, delimiter=';'):
 def write_csv(path, headers, rows, delimiter=';'):
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open('w', encoding='utf-8-sig', newline='') as f:
-        w = csv.DictWriter(f, fieldnames=headers, delimiter=delimiter, extrasaction='ignore')
+        w = csv.DictWriter(f, fieldnames=headers, delimiter=delimiter, extrasaction='ignore', lineterminator='\n')
         w.writeheader()
         w.writerows(rows)
 
@@ -104,6 +106,7 @@ aux_rows = []
 for s in sessions:
     old = old_by_session.get(s['session'], {})
     ajournes = int(old.get('ajournes') or 0)
+    ajournes_hors_pdf = AJOURNES_HORS_PDF.get(s['session'], 0)
     pdf_calc = int(s['entries']) - int(s.get('conversions') or 0) - int(s.get('retraits') or 0) - int(s.get('reportes') or 0)
     row = dict(s)
     row.update({
@@ -114,6 +117,8 @@ for s in sessions:
         'formule_candidatures_pdf': 'lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)',
         'candidatures_reexamen_pdf': int(s['entries']),
         'ajournes_hors_lignes_reexamen': ajournes,
+        'ajournes_hors_pdf': ajournes_hors_pdf,
+        'candidatures_corrigees': int(s['entries']) + ajournes_hors_pdf,
     })
     aux_rows.append(row)
 sessions_table = {
@@ -124,6 +129,8 @@ sessions_table = {
         'totalCandidatures': sum(int(s['candidatures']) for s in sessions),
         'totalCandidaturesPdfCalculees': sum(int(r['candidatures_pdf_calculees']) for r in aux_rows),
         'totalCandidaturesReexamenPdf': len(entries),
+        'totalCandidaturesCorrigees': len(entries) + sum(AJOURNES_HORS_PDF.values()),
+        'ajournesHorsPdf': sum(AJOURNES_HORS_PDF.values()),
         'ecartTotalPdfMoinsOfficiel': len(entries) - sum(int(s['candidatures']) for s in sessions),
         'totalLabels': sum(int(s['labels']) for s in sessions),
         'totalPreLabels': sum(int(s['preLabels']) for s in sessions),
@@ -184,7 +191,7 @@ def build_sessions_bundle():
         session_list.append({
             'session_id': s['session_id'], 'period': f"{periods.get(month, month)} {year}", 'entries': int(s['entries']),
             'official': {'period': f"{periods.get(month, month)} {year}", 'labels': int(s['labels']), 'prelabels': int(s['preLabels']), 'total': int(s['labels']) + int(s['preLabels']), 'withdrawals': int(s['retraits'])},
-            'candidatures_officielles': int(s['candidatures']), 'entries_detaillees': int(s['entries']),
+            'candidatures_officielles': int(s['candidatures']), 'entries_detaillees': int(s['entries']), 'ajournes_hors_pdf': AJOURNES_HORS_PDF.get(s['session'], 0), 'candidatures_corrigees': int(s['entries']) + AJOURNES_HORS_PDF.get(s['session'], 0),
             'conversions': int(s['conversions']), 'document_withdrawals': int(s['retraits']), 'reports': int(s.get('reportes') or 0),
         })
     decision_list = []
@@ -211,8 +218,8 @@ def build_sessions_bundle():
     metadata.update({
         'scope': '88 sessions S0-S87; corpus canonique réextrait', 'sessions': len(sessions), 'official_candidatures': sum(int(s['candidatures']) for s in sessions),
         'official_labels': sum(int(s['labels']) for s in sessions), 'official_prelabels': sum(int(s['preLabels']) for s in sessions),
-        'detailed_entries': len(entries), 'official_withdrawals': ret_total, 'confirmed_reportes': report_total,
-        'note': 'Les compteurs officiels et les 3 555 lignes détaillées PDF sont deux séries distinctes.',
+        'detailed_entries': len(entries), 'corrected_candidatures': len(entries) + sum(AJOURNES_HORS_PDF.values()), 'ajournes_hors_pdf': sum(AJOURNES_HORS_PDF.values()), 'official_withdrawals': ret_total, 'confirmed_reportes': report_total,
+        'note': 'Les compteurs officiels (3 079), les 3 555 lignes détaillées PDF et les 3 ajournés hors PDF (3 558 corrigées) sont trois périmètres distincts.',
     })
     out = {'metadata': metadata, 'sessions': session_list, 'decisions': decision_list, 'companies': company_list, 'founders': founder_list, 'company_founders': relation_list, 'quality_flags': flags}
     if old_gender_macro is not None: out['gender_macro'] = old_gender_macro
@@ -271,12 +278,12 @@ for src_key, target_name in [('sessions','database_sessions_reextrait_88_corrige
     shutil.copy2(source_csvs[src_key], DATA / target_name)
 
 # Dual-method CSV from canonical sessions.
-dual_headers = ['session_id','session','candidatures_officielles','lignes_pdf','conversions','retraits','reportes','candidatures_pdf','ecart_pdf_moins_officiel','decision_non_precisee','ajournes','candidatures_reexamen_pdf','ajournes_hors_lignes_reexamen']
+dual_headers = ['session_id','session','candidatures_officielles','lignes_pdf','conversions','retraits','reportes','candidatures_pdf','ecart_pdf_moins_officiel','decision_non_precisee','ajournes','ajournes_hors_pdf','candidatures_corrigees','candidatures_reexamen_pdf','ajournes_hors_lignes_reexamen']
 dual_rows = []
 for row in aux_rows:
     es = entries_by_session[row['session']]
     c = Counter(e.get('resultat_normalise') for e in es)
-    dual_rows.append({'session_id': row['session_id'], 'session': row['session'], 'candidatures_officielles': row['candidatures'], 'lignes_pdf': row['entries'], 'conversions': row['conversions'], 'retraits': row['retraits'], 'reportes': row.get('reportes', 0), 'candidatures_pdf': row['candidatures_pdf_calculees'], 'ecart_pdf_moins_officiel': row['ecart_candidatures_pdf_officiel'], 'decision_non_precisee': c.get('Décision non précisée — motif administratif', 0), 'ajournes': row['ajournes'], 'candidatures_reexamen_pdf': row['candidatures_reexamen_pdf'], 'ajournes_hors_lignes_reexamen': row['ajournes_hors_lignes_reexamen']})
+    dual_rows.append({'session_id': row['session_id'], 'session': row['session'], 'candidatures_officielles': row['candidatures'], 'lignes_pdf': row['entries'], 'conversions': row['conversions'], 'retraits': row['retraits'], 'reportes': row.get('reportes', 0), 'candidatures_pdf': row['candidatures_pdf_calculees'], 'ecart_pdf_moins_officiel': row['ecart_candidatures_pdf_officiel'], 'decision_non_precisee': c.get('Décision non précisée — motif administratif', 0), 'ajournes': row['ajournes'], 'ajournes_hors_pdf': row['ajournes_hors_pdf'], 'candidatures_corrigees': row['candidatures_corrigees'], 'candidatures_reexamen_pdf': row['candidatures_reexamen_pdf'], 'ajournes_hors_lignes_reexamen': row['ajournes_hors_lignes_reexamen']})
 write_csv(DATA / 'dual_candidate_counts_88.csv', dual_headers, dual_rows)
 
 # Canonical SQL with all 3,555 decisions and relational row counts matching the checked CSVs.
@@ -291,8 +298,8 @@ for t in ['company_founders','decisions','founders','companies','sessions','meta
     sql.append(f'DROP TABLE IF EXISTS {t};')
 sql += [
     'CREATE TABLE metadata (key TEXT PRIMARY KEY, value TEXT NOT NULL);',
-    'CREATE TABLE sessions (session_id TEXT PRIMARY KEY, session TEXT NOT NULL, official_candidatures INTEGER NOT NULL, detailed_entries INTEGER NOT NULL, official_labels INTEGER NOT NULL, official_prelabels INTEGER NOT NULL, official_conversions INTEGER NOT NULL, official_withdrawals INTEGER NOT NULL, detailed_reportes INTEGER NOT NULL);',
-    'CREATE VIEW session_official_counts AS SELECT session_id, session, official_candidatures AS candidatures, detailed_entries AS entries, official_labels AS labels, official_prelabels AS preLabels, official_conversions AS conversions, official_withdrawals AS retraits, detailed_reportes AS reportes FROM sessions;',
+    'CREATE TABLE sessions (session_id TEXT PRIMARY KEY, session TEXT NOT NULL, official_candidatures INTEGER NOT NULL, detailed_entries INTEGER NOT NULL, corrected_candidatures INTEGER NOT NULL, ajournes_hors_pdf INTEGER NOT NULL, official_labels INTEGER NOT NULL, official_prelabels INTEGER NOT NULL, official_conversions INTEGER NOT NULL, official_withdrawals INTEGER NOT NULL, detailed_reportes INTEGER NOT NULL);',
+    'CREATE VIEW session_official_counts AS SELECT session_id, session, official_candidatures AS candidatures, detailed_entries AS entries, corrected_candidatures AS candidatures_corrigees, ajournes_hors_pdf, official_labels AS labels, official_prelabels AS preLabels, official_conversions AS conversions, official_withdrawals AS retraits, detailed_reportes AS reportes FROM sessions;',
     'CREATE TABLE companies (company_id TEXT PRIMARY KEY, name TEXT NOT NULL, sector TEXT, session TEXT);',
     'CREATE TABLE founders (founder_id TEXT PRIMARY KEY, name TEXT NOT NULL);',
     'CREATE TABLE decisions (decision_id TEXT PRIMARY KEY, session_id TEXT NOT NULL, company_id TEXT, source_file TEXT, section TEXT, project TEXT, founders_raw TEXT, decision_raw TEXT, result_normalized TEXT, sector TEXT, tour TEXT, after_pitching TEXT, award_or_withdrawal TEXT, comments TEXT, quality_control TEXT);',
@@ -300,12 +307,13 @@ sql += [
 ]
 for key, value in {
     'scope':'88 sessions S0-S87; source reextraction_88_canonical.json',
-    'official_candidatures':sum(int(s['candidatures']) for s in sessions), 'official_labels':sum(int(s['labels']) for s in sessions),
+    'official_candidatures':sum(int(s['candidatures']) for s in sessions), 'corrected_candidatures':len(entries) + sum(AJOURNES_HORS_PDF.values()), 'ajournes_hors_pdf':sum(AJOURNES_HORS_PDF.values()), 'official_labels':sum(int(s['labels']) for s in sessions),
     'official_prelabels':sum(int(s['preLabels']) for s in sessions), 'detailed_entries':len(entries), 'official_withdrawals':ret_total, 'confirmed_reportes':report_total,
 }.items():
     sql.append(f'INSERT INTO metadata(key,value) VALUES ({sql_quote(key)},{sql_quote(value)});')
 for s in sessions:
-    sql.append('INSERT INTO sessions VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s);' % tuple(sql_quote(v) for v in [s['session_id'],s['session'],s['candidatures'],s['entries'],s['labels'],s['preLabels'],s['conversions'],s['retraits'],s.get('reportes',0)]))
+    ah = AJOURNES_HORS_PDF.get(s['session'], 0)
+    sql.append('INSERT INTO sessions VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s);' % tuple(sql_quote(v) for v in [s['session_id'],s['session'],s['candidatures'],s['entries'],s['entries'] + ah,ah,s['labels'],s['preLabels'],s['conversions'],s['retraits'],s.get('reportes',0)]))
 for r in company_rows:
     sql.append('INSERT INTO companies VALUES (%s,%s,%s,%s);' % tuple(sql_quote(r[k]) for k in ['company_id','company_name','sector','session']))
 for r in founder_rows:
@@ -337,13 +345,13 @@ db.close()
 dash_path = DATA / 'dashboard_data.json'
 if dash_path.exists():
     dash = json.loads(dash_path.read_text(encoding='utf-8'))
-    dash.setdefault('meta', {}).update({'totalCandidatures': sum(int(s['candidatures']) for s in sessions), 'totalLabels': sum(int(s['labels']) for s in sessions), 'totalPreLabels': sum(int(s['preLabels']) for s in sessions), 'totalSessions': len(sessions), 'detailedEntries': len(entries), 'lastUpdated': '2026-08-23T00:00:00+00:00'})
+    dash.setdefault('meta', {}).update({'totalCandidatures': sum(int(s['candidatures']) for s in sessions), 'correctedCandidatures': len(entries) + sum(AJOURNES_HORS_PDF.values()), 'ajournesHorsPdf': sum(AJOURNES_HORS_PDF.values()), 'totalLabels': sum(int(s['labels']) for s in sessions), 'totalPreLabels': sum(int(s['preLabels']) for s in sessions), 'totalSessions': len(sessions), 'detailedEntries': len(entries), 'lastUpdated': '2026-08-23T00:00:00+00:00'})
     dash['pdfExtracted'] = entries
     source = {s['session']: s for s in sessions}
     for row in dash.get('sessions', []):
         s = source.get(row.get('session'))
         if s:
-            row['entries'] = s['entries']; row['detailedEntries'] = s['entries']
+            row['entries'] = s['entries']; row['detailedEntries'] = s['entries']; row['ajournesHorsPdf'] = AJOURNES_HORS_PDF.get(s['session'], 0); row['candidaturesCorrigees'] = s['entries'] + AJOURNES_HORS_PDF.get(s['session'], 0)
     json_dump(dash_path, dash)
 
 print('SYNCHRONIZED')

@@ -1,11 +1,13 @@
 # Étude quantitative du Startup Act tunisien — 88 sessions (S0–S87)
+> **Périmètre statistique final.** L’étude distingue le compteur institutionnel de **3 079 candidatures officielles**, le corpus de **3 555 lignes détaillées PDF**, et le compteur corrigé de **3 558 candidatures** obtenu en ajoutant **3 ajournés hors PDF** signalés par des commentaires officiels (2 en 03/2019 et 1 en 06/2019). Ces trois mesures ne sont pas interchangeables.
+
 
 **Auteur : Faker BEN NOOMEN — ESEN / ISCAE Manouba**  
 **Date de consolidation : 22 août 2026**
 
 ## Résumé
 
-Cette étude examine les 88 sessions de décision du Startup Act tunisien, de mars 2019 à juin 2026. Elle combine les compteurs officiels publiés par Startup Tunisia, les comptes rendus PDF et les exports normalisés du corpus. Le résultat principal est la présentation de deux séries distinctes : **3 555 lignes détaillées selon le corpus PDF réextrait** et **3 079 candidatures selon le site officiel**. Le corpus PDF conserve également **3 555 lignes documentaires** ; ces lignes incluent des décisions, conversions et retraits. Les deux séries ne sont pas fusionnées et le rapport indique toujours leur unité statistique.
+Cette étude examine les 88 sessions de décision du Startup Act tunisien, de mars 2019 à juin 2026. Elle combine les compteurs officiels publiés par Startup Tunisia, les comptes rendus PDF et les exports normalisés du corpus. Le résultat principal est la présentation de deux séries distinctes : **3 555 lignes détaillées selon le corpus PDF réextrait** et **3 079 candidatures selon le site officiel**. Le corpus PDF conserve également **3 555 lignes documentaires** ; ces lignes incluent des décisions, conversions et retraits. Les trois périmètres ne sont pas fusionnés et le rapport indique toujours leur unité statistique.
 
 Le corpus officiel agrégé contient **1 356 Labels**, **641 Prélabels**, **153 retraits officiels** et **369 conversions**. Quatre candidatures sont explicitement confirmées comme reportées : Tunisia Biotech (02/2020), Campus Numérique des métiers (03/2020), TN Smartbot (07/2021) et RYBSEN (10/2024, examiné en novembre 2024).
 
@@ -26,7 +28,7 @@ La normalisation distingue les catégories décisionnelles suivantes : `Label ac
 | Indicateur | Valeur | Interprétation |
 |---|---:|---|
 | Sessions couvertes | 88 | S0–S87, mars 2019–juin 2026 |
-| Candidatures selon réexamen PDF | 3 555 | Dossiers/lignes retenus par l’étude, avec ajournés hors lignes explicitement mentionnés |
+| Candidatures corrigées de l’étude | 3 558 | Dossiers/lignes retenus par l’étude, avec ajournés hors lignes explicitement mentionnés |
 | Candidatures selon le site officiel | 3 079 | Somme des compteurs publiés par session |
 | Lignes détaillées | 3 555 | Registre des décisions/conversions/retraits |
 | Écart réexamen PDF − site | +452 | Différence de périmètre documentaire et administratif |

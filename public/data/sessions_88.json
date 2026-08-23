@@ -22,11 +22,13 @@
     "detailed_entries": 3555,
     "official_withdrawals": 153,
     "confirmed_reportes": 5,
-    "note": "Les compteurs officiels et les 3 555 lignes détaillées PDF sont deux séries distinctes.",
+    "note": "Les compteurs officiels (3 079), les 3 555 lignes détaillées PDF et les 3 ajournés hors PDF (3 558 corrigées) sont trois périmètres distincts.",
     "corrected_pdf_candidatures": 3555,
     "corrected_pdf_labels": 1343,
     "corrected_pdf_prelabels": 647,
-    "reconciliation_note": "PDF primaire; officiel et corrigé sont deux séries séparées."
+    "reconciliation_note": "PDF primaire; officiel et corrigé sont deux séries séparées.",
+    "corrected_candidatures": 3558,
+    "ajournes_hors_pdf": 3
   },
   "sessions": [
     {
@@ -42,6 +44,8 @@
       },
       "candidatures_officielles": 16,
       "entries_detaillees": 14,
+      "ajournes_hors_pdf": 2,
+      "candidatures_corrigees": 16,
       "conversions": 0,
       "document_withdrawals": 0,
       "reports": 0
@@ -59,6 +63,8 @@
       },
       "candidatures_officielles": 51,
       "entries_detaillees": 52,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 52,
       "conversions": 0,
       "document_withdrawals": 0,
       "reports": 0
@@ -76,6 +82,8 @@
       },
       "candidatures_officielles": 30,
       "entries_detaillees": 30,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 30,
       "conversions": 0,
       "document_withdrawals": 0,
       "reports": 0
@@ -93,6 +101,8 @@
       },
       "candidatures_officielles": 33,
       "entries_detaillees": 32,
+      "ajournes_hors_pdf": 1,
+      "candidatures_corrigees": 33,
       "conversions": 0,
       "document_withdrawals": 0,
       "reports": 0
@@ -110,6 +120,8 @@
       },
       "candidatures_officielles": 28,
       "entries_detaillees": 29,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 29,
       "conversions": 0,
       "document_withdrawals": 0,
       "reports": 0
@@ -127,6 +139,8 @@
       },
       "candidatures_officielles": 28,
       "entries_detaillees": 28,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 28,
       "conversions": 0,
       "document_withdrawals": 0,
       "reports": 0
@@ -144,6 +158,8 @@
       },
       "candidatures_officielles": 24,
       "entries_detaillees": 27,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 27,
       "conversions": 0,
       "document_withdrawals": 0,
       "reports": 0
@@ -161,6 +177,8 @@
       },
       "candidatures_officielles": 34,
       "entries_detaillees": 39,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 39,
       "conversions": 0,
       "document_withdrawals": 0,
       "reports": 0
@@ -178,6 +196,8 @@
       },
       "candidatures_officielles": 35,
       "entries_detaillees": 41,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 41,
       "conversions": 0,
       "document_withdrawals": 0,
       "reports": 0
@@ -195,6 +215,8 @@
       },
       "candidatures_officielles": 32,
       "entries_detaillees": 42,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 42,
       "conversions": 10,
       "document_withdrawals": 0,
       "reports": 0
@@ -212,6 +234,8 @@
       },
       "candidatures_officielles": 38,
       "entries_detaillees": 42,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 42,
       "conversions": 0,
       "document_withdrawals": 0,
       "reports": 0
@@ -229,6 +253,8 @@
       },
       "candidatures_officielles": 32,
       "entries_detaillees": 41,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 41,
       "conversions": 9,
       "document_withdrawals": 0,
       "reports": 1
@@ -246,6 +272,8 @@
       },
       "candidatures_officielles": 35,
       "entries_detaillees": 40,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 40,
       "conversions": 0,
       "document_withdrawals": 0,
       "reports": 1
@@ -263,6 +291,8 @@
       },
       "candidatures_officielles": 40,
       "entries_detaillees": 45,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 45,
       "conversions": 0,
       "document_withdrawals": 1,
       "reports": 0
@@ -280,6 +310,8 @@
       },
       "candidatures_officielles": 26,
       "entries_detaillees": 32,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 32,
       "conversions": 0,
       "document_withdrawals": 1,
       "reports": 0
@@ -297,6 +329,8 @@
       },
       "candidatures_officielles": 26,
       "entries_detaillees": 30,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 30,
       "conversions": 0,
       "document_withdrawals": 0,
       "reports": 0
@@ -314,6 +348,8 @@
       },
       "candidatures_officielles": 40,
       "entries_detaillees": 51,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 51,
       "conversions": 9,
       "document_withdrawals": 2,
       "reports": 0
@@ -331,6 +367,8 @@
       },
       "candidatures_officielles": 28,
       "entries_detaillees": 34,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 34,
       "conversions": 0,
       "document_withdrawals": 0,
       "reports": 0
@@ -348,6 +386,8 @@
       },
       "candidatures_officielles": 24,
       "entries_detaillees": 23,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 23,
       "conversions": 0,
       "document_withdrawals": 5,
       "reports": 0
@@ -365,6 +405,8 @@
       },
       "candidatures_officielles": 41,
       "entries_detaillees": 49,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 49,
       "conversions": 7,
       "document_withdrawals": 1,
       "reports": 0
@@ -382,6 +424,8 @@
       },
       "candidatures_officielles": 41,
       "entries_detaillees": 40,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 40,
       "conversions": 0,
       "document_withdrawals": 1,
       "reports": 0
@@ -399,6 +443,8 @@
       },
       "candidatures_officielles": 36,
       "entries_detaillees": 36,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 36,
       "conversions": 0,
       "document_withdrawals": 0,
       "reports": 0
@@ -416,6 +462,8 @@
       },
       "candidatures_officielles": 36,
       "entries_detaillees": 36,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 36,
       "conversions": 0,
       "document_withdrawals": 0,
       "reports": 0
@@ -433,6 +481,8 @@
       },
       "candidatures_officielles": 41,
       "entries_detaillees": 48,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 48,
       "conversions": 7,
       "document_withdrawals": 0,
       "reports": 0
@@ -450,6 +500,8 @@
       },
       "candidatures_officielles": 41,
       "entries_detaillees": 56,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 56,
       "conversions": 13,
       "document_withdrawals": 2,
       "reports": 0
@@ -467,6 +519,8 @@
       },
       "candidatures_officielles": 80,
       "entries_detaillees": 81,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 81,
       "conversions": 0,
       "document_withdrawals": 1,
       "reports": 0
@@ -484,6 +538,8 @@
       },
       "candidatures_officielles": 40,
       "entries_detaillees": 47,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 47,
       "conversions": 6,
       "document_withdrawals": 1,
       "reports": 0
@@ -501,6 +557,8 @@
       },
       "candidatures_officielles": 41,
       "entries_detaillees": 47,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 47,
       "conversions": 7,
       "document_withdrawals": 0,
       "reports": 0
@@ -518,6 +576,8 @@
       },
       "candidatures_officielles": 40,
       "entries_detaillees": 50,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 50,
       "conversions": 11,
       "document_withdrawals": 0,
       "reports": 1
@@ -535,6 +595,8 @@
       },
       "candidatures_officielles": 25,
       "entries_detaillees": 33,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 33,
       "conversions": 7,
       "document_withdrawals": 1,
       "reports": 0
@@ -552,6 +614,8 @@
       },
       "candidatures_officielles": 15,
       "entries_detaillees": 38,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 38,
       "conversions": 13,
       "document_withdrawals": 0,
       "reports": 1
@@ -569,6 +633,8 @@
       },
       "candidatures_officielles": 41,
       "entries_detaillees": 49,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 49,
       "conversions": 8,
       "document_withdrawals": 0,
       "reports": 0
@@ -586,6 +652,8 @@
       },
       "candidatures_officielles": 40,
       "entries_detaillees": 47,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 47,
       "conversions": 7,
       "document_withdrawals": 0,
       "reports": 0
@@ -603,6 +671,8 @@
       },
       "candidatures_officielles": 38,
       "entries_detaillees": 51,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 51,
       "conversions": 6,
       "document_withdrawals": 19,
       "reports": 0
@@ -620,6 +690,8 @@
       },
       "candidatures_officielles": 38,
       "entries_detaillees": 46,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 46,
       "conversions": 6,
       "document_withdrawals": 4,
       "reports": 0
@@ -637,6 +709,8 @@
       },
       "candidatures_officielles": 18,
       "entries_detaillees": 22,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 22,
       "conversions": 4,
       "document_withdrawals": 0,
       "reports": 0
@@ -654,6 +728,8 @@
       },
       "candidatures_officielles": 21,
       "entries_detaillees": 30,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 30,
       "conversions": 9,
       "document_withdrawals": 0,
       "reports": 0
@@ -671,6 +747,8 @@
       },
       "candidatures_officielles": 22,
       "entries_detaillees": 27,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 27,
       "conversions": 4,
       "document_withdrawals": 1,
       "reports": 0
@@ -688,6 +766,8 @@
       },
       "candidatures_officielles": 41,
       "entries_detaillees": 49,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 49,
       "conversions": 6,
       "document_withdrawals": 2,
       "reports": 0
@@ -705,6 +785,8 @@
       },
       "candidatures_officielles": 40,
       "entries_detaillees": 46,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 46,
       "conversions": 4,
       "document_withdrawals": 2,
       "reports": 0
@@ -722,6 +804,8 @@
       },
       "candidatures_officielles": 40,
       "entries_detaillees": 45,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 45,
       "conversions": 4,
       "document_withdrawals": 1,
       "reports": 0
@@ -739,6 +823,8 @@
       },
       "candidatures_officielles": 36,
       "entries_detaillees": 44,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 44,
       "conversions": 6,
       "document_withdrawals": 2,
       "reports": 0
@@ -756,6 +842,8 @@
       },
       "candidatures_officielles": 40,
       "entries_detaillees": 49,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 49,
       "conversions": 9,
       "document_withdrawals": 0,
       "reports": 0
@@ -773,6 +861,8 @@
       },
       "candidatures_officielles": 38,
       "entries_detaillees": 45,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 45,
       "conversions": 6,
       "document_withdrawals": 1,
       "reports": 0
@@ -790,6 +880,8 @@
       },
       "candidatures_officielles": 34,
       "entries_detaillees": 42,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 42,
       "conversions": 8,
       "document_withdrawals": 0,
       "reports": 0
@@ -807,6 +899,8 @@
       },
       "candidatures_officielles": 30,
       "entries_detaillees": 39,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 39,
       "conversions": 9,
       "document_withdrawals": 0,
       "reports": 0
@@ -824,6 +918,8 @@
       },
       "candidatures_officielles": 26,
       "entries_detaillees": 38,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 38,
       "conversions": 10,
       "document_withdrawals": 2,
       "reports": 0
@@ -841,6 +937,8 @@
       },
       "candidatures_officielles": 33,
       "entries_detaillees": 42,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 42,
       "conversions": 8,
       "document_withdrawals": 1,
       "reports": 0
@@ -858,6 +956,8 @@
       },
       "candidatures_officielles": 37,
       "entries_detaillees": 42,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 42,
       "conversions": 5,
       "document_withdrawals": 0,
       "reports": 0
@@ -875,6 +975,8 @@
       },
       "candidatures_officielles": 40,
       "entries_detaillees": 40,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 40,
       "conversions": 0,
       "document_withdrawals": 0,
       "reports": 0
@@ -892,6 +994,8 @@
       },
       "candidatures_officielles": 39,
       "entries_detaillees": 45,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 45,
       "conversions": 6,
       "document_withdrawals": 0,
       "reports": 0
@@ -909,6 +1013,8 @@
       },
       "candidatures_officielles": 28,
       "entries_detaillees": 34,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 34,
       "conversions": 6,
       "document_withdrawals": 0,
       "reports": 0
@@ -926,6 +1032,8 @@
       },
       "candidatures_officielles": 33,
       "entries_detaillees": 42,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 42,
       "conversions": 9,
       "document_withdrawals": 2,
       "reports": 0
@@ -943,6 +1051,8 @@
       },
       "candidatures_officielles": 26,
       "entries_detaillees": 33,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 33,
       "conversions": 7,
       "document_withdrawals": 0,
       "reports": 0
@@ -960,6 +1070,8 @@
       },
       "candidatures_officielles": 33,
       "entries_detaillees": 41,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 41,
       "conversions": 8,
       "document_withdrawals": 1,
       "reports": 0
@@ -977,6 +1089,8 @@
       },
       "candidatures_officielles": 31,
       "entries_detaillees": 31,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 31,
       "conversions": 1,
       "document_withdrawals": 3,
       "reports": 0
@@ -994,6 +1108,8 @@
       },
       "candidatures_officielles": 30,
       "entries_detaillees": 38,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 38,
       "conversions": 8,
       "document_withdrawals": 6,
       "reports": 0
@@ -1011,6 +1127,8 @@
       },
       "candidatures_officielles": 39,
       "entries_detaillees": 43,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 43,
       "conversions": 4,
       "document_withdrawals": 0,
       "reports": 0
@@ -1028,6 +1146,8 @@
       },
       "candidatures_officielles": 33,
       "entries_detaillees": 36,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 36,
       "conversions": 6,
       "document_withdrawals": 3,
       "reports": 0
@@ -1045,6 +1165,8 @@
       },
       "candidatures_officielles": 33,
       "entries_detaillees": 33,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 33,
       "conversions": 0,
       "document_withdrawals": 3,
       "reports": 0
@@ -1062,6 +1184,8 @@
       },
       "candidatures_officielles": 31,
       "entries_detaillees": 34,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 34,
       "conversions": 4,
       "document_withdrawals": 3,
       "reports": 0
@@ -1079,6 +1203,8 @@
       },
       "candidatures_officielles": 39,
       "entries_detaillees": 42,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 42,
       "conversions": 5,
       "document_withdrawals": 2,
       "reports": 0
@@ -1096,6 +1222,8 @@
       },
       "candidatures_officielles": 39,
       "entries_detaillees": 46,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 46,
       "conversions": 0,
       "document_withdrawals": 2,
       "reports": 0
@@ -1113,6 +1241,8 @@
       },
       "candidatures_officielles": 37,
       "entries_detaillees": 40,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 40,
       "conversions": 3,
       "document_withdrawals": 2,
       "reports": 0
@@ -1130,6 +1260,8 @@
       },
       "candidatures_officielles": 33,
       "entries_detaillees": 34,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 34,
       "conversions": 2,
       "document_withdrawals": 3,
       "reports": 0
@@ -1147,6 +1279,8 @@
       },
       "candidatures_officielles": 37,
       "entries_detaillees": 39,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 39,
       "conversions": 5,
       "document_withdrawals": 1,
       "reports": 0
@@ -1164,6 +1298,8 @@
       },
       "candidatures_officielles": 34,
       "entries_detaillees": 39,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 39,
       "conversions": 5,
       "document_withdrawals": 1,
       "reports": 0
@@ -1181,6 +1317,8 @@
       },
       "candidatures_officielles": 43,
       "entries_detaillees": 49,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 49,
       "conversions": 6,
       "document_withdrawals": 3,
       "reports": 1
@@ -1198,6 +1336,8 @@
       },
       "candidatures_officielles": 41,
       "entries_detaillees": 43,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 43,
       "conversions": 2,
       "document_withdrawals": 2,
       "reports": 0
@@ -1215,6 +1355,8 @@
       },
       "candidatures_officielles": 40,
       "entries_detaillees": 39,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 39,
       "conversions": 0,
       "document_withdrawals": 1,
       "reports": 0
@@ -1232,6 +1374,8 @@
       },
       "candidatures_officielles": 39,
       "entries_detaillees": 44,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 44,
       "conversions": 5,
       "document_withdrawals": 2,
       "reports": 0
@@ -1249,6 +1393,8 @@
       },
       "candidatures_officielles": 41,
       "entries_detaillees": 45,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 45,
       "conversions": 4,
       "document_withdrawals": 4,
       "reports": 0
@@ -1266,6 +1412,8 @@
       },
       "candidatures_officielles": 21,
       "entries_detaillees": 21,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 21,
       "conversions": 0,
       "document_withdrawals": 1,
       "reports": 0
@@ -1283,6 +1431,8 @@
       },
       "candidatures_officielles": 21,
       "entries_detaillees": 29,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 29,
       "conversions": 8,
       "document_withdrawals": 7,
       "reports": 0
@@ -1300,6 +1450,8 @@
       },
       "candidatures_officielles": 47,
       "entries_detaillees": 50,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 50,
       "conversions": 3,
       "document_withdrawals": 1,
       "reports": 0
@@ -1317,6 +1469,8 @@
       },
       "candidatures_officielles": 36,
       "entries_detaillees": 41,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 41,
       "conversions": 5,
       "document_withdrawals": 1,
       "reports": 0
@@ -1334,6 +1488,8 @@
       },
       "candidatures_officielles": 29,
       "entries_detaillees": 34,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 34,
       "conversions": 5,
       "document_withdrawals": 6,
       "reports": 0
@@ -1351,6 +1507,8 @@
       },
       "candidatures_officielles": 41,
       "entries_detaillees": 50,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 50,
       "conversions": 9,
       "document_withdrawals": 4,
       "reports": 0
@@ -1368,6 +1526,8 @@
       },
       "candidatures_officielles": 25,
       "entries_detaillees": 31,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 31,
       "conversions": 6,
       "document_withdrawals": 4,
       "reports": 0
@@ -1385,6 +1545,8 @@
       },
       "candidatures_officielles": 41,
       "entries_detaillees": 51,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 51,
       "conversions": 10,
       "document_withdrawals": 3,
       "reports": 0
@@ -1402,6 +1564,8 @@
       },
       "candidatures_officielles": 39,
       "entries_detaillees": 47,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 47,
       "conversions": 8,
       "document_withdrawals": 2,
       "reports": 0
@@ -1419,6 +1583,8 @@
       },
       "candidatures_officielles": 41,
       "entries_detaillees": 51,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 51,
       "conversions": 10,
       "document_withdrawals": 5,
       "reports": 0
@@ -1436,6 +1602,8 @@
       },
       "candidatures_officielles": 31,
       "entries_detaillees": 37,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 37,
       "conversions": 7,
       "document_withdrawals": 5,
       "reports": 0
@@ -1453,6 +1621,8 @@
       },
       "candidatures_officielles": 36,
       "entries_detaillees": 39,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 39,
       "conversions": 3,
       "document_withdrawals": 2,
       "reports": 0
@@ -1470,6 +1640,8 @@
       },
       "candidatures_officielles": 41,
       "entries_detaillees": 44,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 44,
       "conversions": 3,
       "document_withdrawals": 6,
       "reports": 0
@@ -1487,6 +1659,8 @@
       },
       "candidatures_officielles": 41,
       "entries_detaillees": 47,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 47,
       "conversions": 4,
       "document_withdrawals": 5,
       "reports": 0
@@ -1504,6 +1678,8 @@
       },
       "candidatures_officielles": 40,
       "entries_detaillees": 42,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 42,
       "conversions": 5,
       "document_withdrawals": 3,
       "reports": 0
@@ -1521,6 +1697,8 @@
       },
       "candidatures_officielles": 40,
       "entries_detaillees": 45,
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 45,
       "conversions": 4,
       "document_withdrawals": 3,
       "reports": 0

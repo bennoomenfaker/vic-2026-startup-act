@@ -1464,19 +1464,19 @@
       <div class="chart-grid">
         <div class="chart-card">
           <h3>⚠ Tableau institutionnel — startup.gov.tn <span style="color:#64748b;font-size:0.8em">(référence publiée, non corrigée)</span></h3>
-          <div style="overflow-x:auto"><table><thead><tr><th>Session</th><th>Candidatures officiel</th><th>Candidatures corrigé PDF</th><th>Écart</th><th>Labels officiel</th><th>Labels corrigé</th><th>Prélabels officiel</th><th>Prélabels corrigé</th><th>Lignes PDF</th><th>Statut</th></tr></thead><tbody id="corrOldTable"></tbody></table></div>
+          <div style="overflow-x:auto"><table><thead><tr><th>Session</th><th>Candidatures officiel</th><th>Candidatures corrigé</th><th>Écart lignes PDF</th><th>Labels officiel</th><th>Labels corrigé</th><th>Prélabels officiel</th><th>Prélabels corrigé</th><th>Lignes PDF</th><th>Ajournés hors PDF</th><th>Statut</th></tr></thead><tbody id="corrOldTable"></tbody></table></div>
         </div>
         <div class="chart-card">
           <h3>✅ Tableau corrigé — preuve PDF primaire <span style="color:#64748b;font-size:0.8em">(valeurs utilisées pour l’étude)</span></h3>
-          <div style="overflow-x:auto"><table><thead><tr><th>Session</th><th>Candidatures officiel</th><th>Candidatures corrigé PDF</th><th>Écart</th><th>Labels officiel</th><th>Labels corrigé</th><th>Prélabels officiel</th><th>Prélabels corrigé</th><th>Lignes PDF</th><th>Catégories PDF</th></tr></thead><tbody id="corrNewTable"></tbody></table></div>
+          <div style="overflow-x:auto"><table><thead><tr><th>Session</th><th>Candidatures officiel</th><th>Candidatures corrigé</th><th>Écart lignes PDF</th><th>Labels officiel</th><th>Labels corrigé</th><th>Prélabels officiel</th><th>Prélabels corrigé</th><th>Lignes PDF</th><th>Ajournés hors PDF</th><th>Catégories PDF</th></tr></thead><tbody id="corrNewTable"></tbody></table></div>
         </div>
       </div>
       <div class="chart-card" style="margin-top:20px">
         <h3>📐 Deux méthodes de calcul des candidatures</h3>
-        <p style="font-size:.88em;color:#475569;line-height:1.6;margin:8px 0 12px">La preuve primaire de cette étude est le <strong>PDF officiel</strong>. La colonne « corrigé PDF » compte les lignes documentaires réellement présentes dans le corpus, tandis que la colonne « officiel » conserve le compteur publié par Startup Tunisia. Les deux séries sont affichées ensemble et ne doivent pas être confondues : une conversion ou un retrait peut ajouter une ligne documentaire sans constituer une nouvelle candidature institutionnelle.</p>
+        <p style="font-size:.88em;color:#475569;line-height:1.6;margin:8px 0 12px">La preuve primaire de cette étude est le <strong>PDF officiel</strong>. La colonne « corrigé » compte les <strong>3 555 lignes PDF</strong> et ajoute séparément <strong>3 ajournés</strong> signalés par les commentaires officiels mais non nommés dans les PDF, soit <strong>3 558 candidatures corrigées documentaires</strong>. La colonne « officiel » conserve le compteur publié par Startup Tunisia. Les deux séries sont affichées ensemble et ne doivent pas être confondues : une conversion ou un retrait peut ajouter une ligne documentaire sans constituer une nouvelle candidature institutionnelle.</p>
         <div style="overflow-x:auto"><table><thead><tr><th>Périmètre</th><th>Candidatures selon site officiel</th><th>Candidatures corrigées selon PDF</th><th>Écart corrigé − officiel</th><th>Interprétation</th></tr></thead><tbody>
-          <tr><td><strong>88 sessions</strong></td><td><strong>3 079</strong></td><td><strong>3 555</strong></td><td><strong>+476</strong></td><td>PDF primaire contre compteur institutionnel publié</td></tr>
-          <tr><td>03/2019</td><td>16</td><td>16</td><td>0</td><td>12 Labels + 2 refus + 2 Ajournés</td></tr>
+          <tr><td><strong>88 sessions</strong></td><td><strong>3 079</strong></td><td><strong>3 558</strong></td><td><strong>+479</strong></td><td>3 555 lignes PDF + 3 ajournés hors PDF explicitement signalés ; noms non identifiés</td></tr>
+          <tr><td>03/2019</td><td>16</td><td>16</td><td>0</td><td>14 lignes PDF identifiées (12 Labels + 2 refus) + 2 ajournés hors PDF ; entreprises non identifiées</td></tr>
           <tr><td>04/2019</td><td>51</td><td>52</td><td>+1</td><td>52 décisions documentaires, dont 1 Ajourné</td></tr>
           <tr><td>S62 · 05/2024</td><td>39</td><td>46</td><td>+7</td><td>46 lignes : 39 dossiers + 5 conversions + 2 retraits</td></tr>
         </tbody></table></div>
@@ -1486,7 +1486,7 @@
     <div id="corr-detail" style="display:none">
       <div class="chart-card">
         <h3 id="corrDetailTitle">Les 88 sessions — détail officiel → corrigé PDF</h3>
-        <div style="overflow-x:auto"><table><thead><tr><th>Session</th><th>Candidatures officiel</th><th>Candidatures corrigé PDF</th><th>Labels officiel → corrigé</th><th>Prélabels officiel → corrigé</th><th>Lignes PDF</th><th>Provenance</th></tr></thead><tbody id="corrDetailTable"></tbody></table></div>
+        <div style="overflow-x:auto"><table><thead><tr><th>Session</th><th>Candidatures officiel</th><th>Candidatures corrigé</th><th>Labels officiel → corrigé</th><th>Prélabels officiel → corrigé</th><th>Lignes PDF</th><th>Ajournés hors PDF</th><th>Provenance</th></tr></thead><tbody id="corrDetailTable"></tbody></table></div>
       </div>
     </div>
 
@@ -4542,7 +4542,7 @@ function renderCorrections() {
     return `<tr>
       <td><strong>${r.session}</strong></td><td>${o.candidatures}</td><td>${c.candidatures}</td><td>${p.lignes - o.candidatures >= 0 ? '+' : ''}${p.lignes - o.candidatures}</td>
       <td>${o.labels}</td><td>${c.labels}</td><td>${o.preLabels}</td><td>${c.preLabels}</td>
-      <td>${p.lignes}</td><td style="font-size:0.8em;color:#666">${r.statut || '-'}</td></tr>`;
+      <td>${p.lignes}</td><td>${Number(r.ajournes_hors_pdf || 0)}</td><td style="font-size:0.8em;color:#666">${r.statut || '-'}</td></tr>`;
   }).join('');
 
   const newRows = reconciliation.map(r => {
@@ -4553,7 +4553,7 @@ function renderCorrections() {
     return `<tr${rowCls}>
       <td><strong>${r.session}</strong></td><td>${o.candidatures}</td><td class="cell-fixed">${c.candidatures}</td><td class="cell-fixed">${p.lignes - o.candidatures >= 0 ? '+' : ''}${p.lignes - o.candidatures}</td>
       <td>${o.labels}</td><td class="cell-fixed">${c.labels}</td><td>${o.preLabels}</td><td class="cell-fixed">${c.preLabels}</td>
-      <td>${p.lignes}</td><td style="font-size:0.8em;color:#666">${Object.entries(p.categories || {}).map(([k,v]) => `${k}: ${v}`).join(' · ') || '-'}</td></tr>`;
+      <td>${p.lignes}</td><td>${Number(r.ajournes_hors_pdf || 0)}</td><td style="font-size:0.8em;color:#666">${Object.entries(p.categories || {}).map(([k,v]) => `${k}: ${v}`).join(' · ') || '-'}</td></tr>`;
   }).join('');
 
   document.getElementById('corrOldTable').innerHTML = oldRows;
@@ -4573,6 +4573,7 @@ function renderCorrections() {
       <td><span class="cell-wrong">${o.labels}</span> → <span class="cell-fixed">${c.labels}</span></td>
       <td><span class="cell-wrong">${o.preLabels}</span> → <span class="cell-fixed">${c.preLabels}</span></td>
       <td>${p.lignes} (${e >= 0 ? '+' : ''}${e})</td>
+      <td>${Number(r.ajournes_hors_pdf || 0)}</td>
       <td style="font-size:0.85em">${r.statut || Object.entries(p.categories || {}).map(([k,v]) => `${k}: ${v}`).join(' · ')}</td></tr>`;
   }).join('');
   document.getElementById('corrDetailTable').innerHTML = detailRows;
@@ -4620,27 +4621,27 @@ function renderCorrReport() {
       <td><span class="badge badge-red">${o.labels}</span> → <span class="badge badge-green">${c.labels}</span></td>
       <td><span class="badge badge-red">${o.preLabels}</span> → <span class="badge badge-green">${c.preLabels}</span></td>
       <td>${p.lignes} (${ecart >= 0 ? '+' : ''}${ecart})</td>
+      <td>${Number(r.ajournes_hors_pdf || 0)}</td>
       <td style="font-size:.85em">${r.statut || Object.entries(p.categories || {}).map(([k,v]) => `${k}: ${v}`).join(' · ')}</td>
     </tr>`;
   }).join('');
   box.innerHTML = `
     <div class="summary-box" style="margin-bottom:20px">
       <strong>📌 Contexte :</strong> le tableau historique <code>/sessions</code> de <code>startup.gov.tn</code> contenait des
-      valeurs erronées (labels/prélabels mal comptés sur ${m.corrected} sessions du socle historique de ${m.totalSessions}). Le corpus final couvre <strong>88 sessions</strong> ; les trois sessions S85–S87 sont ajoutées séparément dans les compteurs finaux. Les données ont été
-      ré-extraites des <strong>PDF officiels</strong> par un parseur positionnel (v7), auditées indépendamment
-      (0 divergence) et vérifiées manuellement (3 scans vectoriels).
+      valeurs erronées (labels/prélabels mal comptés sur ${m.corrected} sessions du socle historique de ${m.totalSessions}). Le corpus final couvre <strong>88 sessions</strong> et distingue <strong>3 079 candidatures officielles</strong>, <strong>3 555 lignes PDF</strong> et <strong>3 ajournés hors PDF</strong> ajoutés séparément, soit <strong>3 558 candidatures corrigées</strong>. Les données ont été
+      ré-extraites des <strong>PDF officiels</strong> par un parseur positionnel (v7), puis complétées par les commentaires institutionnels pour les ajournés non nommés.
     </div>
     <div class="metric-grid" style="margin-bottom:20px">
       <div class="metric-card"><div class="m-label">Socle historique vérifié</div><div class="m-value">${m.totalSessions}</div><div class="m-sub">corpus final : 88 sessions</div></div>
       <div class="metric-card"><div class="m-label">Sessions corrigées</div><div class="m-value">${m.corrected}</div></div>
       <div class="metric-card"><div class="m-label">Labels (avant → après)</div><div class="m-value">${(m.officialTotals88 || m.totalsOld).labels} → ${(m.correctedCounterTotals88 || m.totalsNew).labels}</div></div>
       <div class="metric-card"><div class="m-label">Pré-Labels (web → PDF)</div><div class="m-value">${(m.officialTotals88 || m.totalsOld).preLabels} → ${(m.correctedCounterTotals88 || m.totalsNew).preLabels}</div></div>
-      <div class="metric-card"><div class="m-label">Ajournés officiels</div><div class="m-value">4</div><div class="m-sub">03/2019: 2 · 04/2019: 1 · 06/2019: 1</div></div>
+      <div class="metric-card"><div class="m-label">Ajournés hors PDF</div><div class="m-value">3</div><div class="m-sub">03/2019: 2 · 06/2019: 1 · entreprises non identifiées</div></div>
     </div>
     <div class="chart-card">
       <h3>📄 Rapprochement complet des 88 sessions — officiel → corrigé PDF</h3>
       <div style="overflow-x:auto"><table>
-        <thead><tr><th>Session</th><th>Candidatures officiel</th><th>Candidatures corrigé PDF</th><th>Labels officiel → corrigé</th><th>Prélabels officiel → corrigé</th><th>Lignes PDF (écart)</th><th>Provenance / statut</th></tr></thead>
+        <thead><tr><th>Session</th><th>Candidatures officiel</th><th>Candidatures corrigé</th><th>Labels officiel → corrigé</th><th>Prélabels officiel → corrigé</th><th>Lignes PDF (écart)</th><th>Ajournés hors PDF</th><th>Provenance / statut</th></tr></thead>
         <tbody>${rows}</tbody>
       </table></div>
     </div>

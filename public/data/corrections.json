@@ -21,7 +21,7 @@
       "reportes": 5
     },
     "correctedCounterTotals88": {
-      "candidatures": 3555,
+      "candidatures": 3558,
       "labels": 1343,
       "preLabels": 647
     },
@@ -45,6 +45,14 @@
       "reportes": 5,
       "decisionsNonPrecisees": 4,
       "pitchDecales": 1
+    },
+    "global_gaps": {
+      "corrected_pdf_candidatures_minus_official": 479,
+      "ajournes_hors_pdf": 3
+    },
+    "validation": {
+      "ajournes_hors_pdf": 3,
+      "corrected_candidatures_including_ajournes": 3558
     }
   },
   "originalTable": [
@@ -2145,8 +2153,8 @@
         "conversions": 0
       },
       "corrected_counter": {
-        "candidatures": 14,
-        "candidatures_source": "lignes PDF détaillées, méthode corrigée de l’étude",
+        "candidatures": 16,
+        "candidatures_source": "lignes PDF détaillées + ajournés explicitement signalés hors PDF",
         "candidatures_officielles_reprises": 16,
         "labels": 12,
         "preLabels": 0,
@@ -2170,9 +2178,12 @@
       "ecarts": {
         "lignes_moins_officiel": -2,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 0
       },
-      "statut": "Conforme"
+      "statut": "Conforme — 2 ajourné(s) hors PDF, entreprise(s) non identifiée(s)",
+      "ajournes_hors_pdf": 2,
+      "ajournes_hors_pdf_note": "2 ajournés signalés par le commentaire officiel; entreprises non identifiées dans le PDF"
     },
     {
       "session_id": "S1",
@@ -2211,9 +2222,12 @@
       "ecarts": {
         "lignes_moins_officiel": 1,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 1
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S2",
@@ -2254,9 +2268,12 @@
       "ecarts": {
         "lignes_moins_officiel": 0,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 0
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S3",
@@ -2270,8 +2287,8 @@
         "conversions": 0
       },
       "corrected_counter": {
-        "candidatures": 32,
-        "candidatures_source": "lignes PDF détaillées, méthode corrigée de l’étude",
+        "candidatures": 33,
+        "candidatures_source": "lignes PDF détaillées + ajournés explicitement signalés hors PDF",
         "candidatures_officielles_reprises": 33,
         "labels": 14,
         "preLabels": 8,
@@ -2297,9 +2314,12 @@
       "ecarts": {
         "lignes_moins_officiel": -1,
         "corrige_moins_officiel_labels": -1,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 0
       },
-      "statut": "Conforme"
+      "statut": "Conforme — 1 ajourné(s) hors PDF, entreprise(s) non identifiée(s)",
+      "ajournes_hors_pdf": 1,
+      "ajournes_hors_pdf_note": "1 ajourné signalé par le commentaire officiel; entreprise non identifiée dans le PDF"
     },
     {
       "session_id": "S4",
@@ -2340,9 +2360,12 @@
       "ecarts": {
         "lignes_moins_officiel": 1,
         "corrige_moins_officiel_labels": -1,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 1
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S5",
@@ -2382,9 +2405,12 @@
       "ecarts": {
         "lignes_moins_officiel": 0,
         "corrige_moins_officiel_labels": -4,
-        "corrige_moins_officiel_preLabels": -2
+        "corrige_moins_officiel_preLabels": -2,
+        "candidatures_corrigees_moins_officiel": 0
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S6",
@@ -2425,9 +2451,12 @@
       "ecarts": {
         "lignes_moins_officiel": 3,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 3
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S7",
@@ -2468,9 +2497,12 @@
       "ecarts": {
         "lignes_moins_officiel": 5,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 1
+        "corrige_moins_officiel_preLabels": 1,
+        "candidatures_corrigees_moins_officiel": 5
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S8",
@@ -2511,9 +2543,12 @@
       "ecarts": {
         "lignes_moins_officiel": 6,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 6
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S9",
@@ -2554,9 +2589,12 @@
       "ecarts": {
         "lignes_moins_officiel": 10,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 10
       },
-      "statut": "Réextrait PDF — section conversion séparée"
+      "statut": "Réextrait PDF — section conversion séparée",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S10",
@@ -2597,9 +2635,12 @@
       "ecarts": {
         "lignes_moins_officiel": 4,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 4
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S11",
@@ -2641,9 +2682,12 @@
       "ecarts": {
         "lignes_moins_officiel": 9,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 9
       },
-      "statut": "Réextrait PDF — section conversion séparée"
+      "statut": "Réextrait PDF — section conversion séparée",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S12",
@@ -2685,9 +2729,12 @@
       "ecarts": {
         "lignes_moins_officiel": 5,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 5
       },
-      "statut": "Reporté détecté dans les lignes détaillées"
+      "statut": "Reporté détecté dans les lignes détaillées",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S13",
@@ -2729,9 +2776,12 @@
       "ecarts": {
         "lignes_moins_officiel": 5,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 5
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S14",
@@ -2773,9 +2823,12 @@
       "ecarts": {
         "lignes_moins_officiel": 6,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 6
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S15",
@@ -2816,9 +2869,12 @@
       "ecarts": {
         "lignes_moins_officiel": 4,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 4
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S16",
@@ -2860,9 +2916,12 @@
       "ecarts": {
         "lignes_moins_officiel": 11,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 11
       },
-      "statut": "Réextrait PDF — OCR visuelle vérifiée"
+      "statut": "Réextrait PDF — OCR visuelle vérifiée",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S17",
@@ -2902,9 +2961,12 @@
       "ecarts": {
         "lignes_moins_officiel": 6,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 6
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S18",
@@ -2943,9 +3005,12 @@
       "ecarts": {
         "lignes_moins_officiel": -1,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": -1
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S19",
@@ -2987,9 +3052,12 @@
       "ecarts": {
         "lignes_moins_officiel": 8,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 8
       },
-      "statut": "Réextrait PDF — cohérent"
+      "statut": "Réextrait PDF — cohérent",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S20",
@@ -3030,9 +3098,12 @@
       "ecarts": {
         "lignes_moins_officiel": -1,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": -1
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S21",
@@ -3071,9 +3142,12 @@
       "ecarts": {
         "lignes_moins_officiel": 0,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 0
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S22",
@@ -3114,9 +3188,12 @@
       "ecarts": {
         "lignes_moins_officiel": 0,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 0
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S23",
@@ -3157,9 +3234,12 @@
       "ecarts": {
         "lignes_moins_officiel": 7,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 3
+        "corrige_moins_officiel_preLabels": 3,
+        "candidatures_corrigees_moins_officiel": 7
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S24",
@@ -3201,9 +3281,12 @@
       "ecarts": {
         "lignes_moins_officiel": 15,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 15
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S25",
@@ -3245,9 +3328,12 @@
       "ecarts": {
         "lignes_moins_officiel": 1,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 1
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S26",
@@ -3289,9 +3375,12 @@
       "ecarts": {
         "lignes_moins_officiel": 7,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 7
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S27",
@@ -3332,9 +3421,12 @@
       "ecarts": {
         "lignes_moins_officiel": 6,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 6
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S28",
@@ -3376,9 +3468,12 @@
       "ecarts": {
         "lignes_moins_officiel": 10,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 10
       },
-      "statut": "Reporté détecté dans les lignes détaillées"
+      "statut": "Reporté détecté dans les lignes détaillées",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S29",
@@ -3420,9 +3515,12 @@
       "ecarts": {
         "lignes_moins_officiel": 8,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 8
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S30",
@@ -3464,9 +3562,12 @@
       "ecarts": {
         "lignes_moins_officiel": 23,
         "corrige_moins_officiel_labels": 2,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 23
       },
-      "statut": "Reporté documenté par PDF"
+      "statut": "Reporté documenté par PDF",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S31",
@@ -3507,9 +3608,12 @@
       "ecarts": {
         "lignes_moins_officiel": 8,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 8
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S32",
@@ -3550,9 +3654,12 @@
       "ecarts": {
         "lignes_moins_officiel": 7,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 7
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S33",
@@ -3594,9 +3701,12 @@
       "ecarts": {
         "lignes_moins_officiel": 13,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 13
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S34",
@@ -3638,9 +3748,12 @@
       "ecarts": {
         "lignes_moins_officiel": 8,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 8
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S35",
@@ -3681,9 +3794,12 @@
       "ecarts": {
         "lignes_moins_officiel": 4,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 4
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S36",
@@ -3724,9 +3840,12 @@
       "ecarts": {
         "lignes_moins_officiel": 9,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 9
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S37",
@@ -3768,9 +3887,12 @@
       "ecarts": {
         "lignes_moins_officiel": 5,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 5
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S38",
@@ -3812,9 +3934,12 @@
       "ecarts": {
         "lignes_moins_officiel": 8,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 8
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S39",
@@ -3856,9 +3981,12 @@
       "ecarts": {
         "lignes_moins_officiel": 6,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 6
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S40",
@@ -3900,9 +4028,12 @@
       "ecarts": {
         "lignes_moins_officiel": 5,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 5
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S41",
@@ -3944,9 +4075,12 @@
       "ecarts": {
         "lignes_moins_officiel": 8,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 8
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S42",
@@ -3987,9 +4121,12 @@
       "ecarts": {
         "lignes_moins_officiel": 9,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 9
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S43",
@@ -4031,9 +4168,12 @@
       "ecarts": {
         "lignes_moins_officiel": 7,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 7
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S44",
@@ -4074,9 +4214,12 @@
       "ecarts": {
         "lignes_moins_officiel": 8,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 8
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S45",
@@ -4117,9 +4260,12 @@
       "ecarts": {
         "lignes_moins_officiel": 9,
         "corrige_moins_officiel_labels": -1,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 9
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S46",
@@ -4161,9 +4307,12 @@
       "ecarts": {
         "lignes_moins_officiel": 12,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 12
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S47",
@@ -4205,9 +4354,12 @@
       "ecarts": {
         "lignes_moins_officiel": 9,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 9
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S48",
@@ -4248,9 +4400,12 @@
       "ecarts": {
         "lignes_moins_officiel": 5,
         "corrige_moins_officiel_labels": 1,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 5
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S49",
@@ -4291,9 +4446,12 @@
       "ecarts": {
         "lignes_moins_officiel": 0,
         "corrige_moins_officiel_labels": -1,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 0
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S50",
@@ -4334,9 +4492,12 @@
       "ecarts": {
         "lignes_moins_officiel": 6,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 6
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S51",
@@ -4377,9 +4538,12 @@
       "ecarts": {
         "lignes_moins_officiel": 6,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 6
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S52",
@@ -4420,9 +4584,12 @@
       "ecarts": {
         "lignes_moins_officiel": 9,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 9
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S53",
@@ -4463,9 +4630,12 @@
       "ecarts": {
         "lignes_moins_officiel": 7,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": -1
+        "corrige_moins_officiel_preLabels": -1,
+        "candidatures_corrigees_moins_officiel": 7
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S54",
@@ -4506,9 +4676,12 @@
       "ecarts": {
         "lignes_moins_officiel": 8,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 8
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S55",
@@ -4549,9 +4722,12 @@
       "ecarts": {
         "lignes_moins_officiel": 0,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": -1
+        "corrige_moins_officiel_preLabels": -1,
+        "candidatures_corrigees_moins_officiel": 0
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S56",
@@ -4592,9 +4768,12 @@
       "ecarts": {
         "lignes_moins_officiel": 8,
         "corrige_moins_officiel_labels": -2,
-        "corrige_moins_officiel_preLabels": 3
+        "corrige_moins_officiel_preLabels": 3,
+        "candidatures_corrigees_moins_officiel": 8
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S57",
@@ -4635,9 +4814,12 @@
       "ecarts": {
         "lignes_moins_officiel": 4,
         "corrige_moins_officiel_labels": -2,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 4
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S58",
@@ -4678,9 +4860,12 @@
       "ecarts": {
         "lignes_moins_officiel": 3,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 3
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S59",
@@ -4721,9 +4906,12 @@
       "ecarts": {
         "lignes_moins_officiel": 0,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 0
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S60",
@@ -4764,9 +4952,12 @@
       "ecarts": {
         "lignes_moins_officiel": 3,
         "corrige_moins_officiel_labels": -1,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 3
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S61",
@@ -4807,9 +4998,12 @@
       "ecarts": {
         "lignes_moins_officiel": 3,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 3
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S62",
@@ -4852,9 +5046,12 @@
       "ecarts": {
         "lignes_moins_officiel": 7,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 7
       },
-      "statut": "PDF vérifié — 4 motifs administratifs sans décision publiée"
+      "statut": "PDF vérifié — 4 motifs administratifs sans décision publiée",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S63",
@@ -4896,9 +5093,12 @@
       "ecarts": {
         "lignes_moins_officiel": 3,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 3
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S64",
@@ -4939,9 +5139,12 @@
       "ecarts": {
         "lignes_moins_officiel": 1,
         "corrige_moins_officiel_labels": 1,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 1
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S65",
@@ -4982,9 +5185,12 @@
       "ecarts": {
         "lignes_moins_officiel": 2,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 2
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S66",
@@ -5025,9 +5231,12 @@
       "ecarts": {
         "lignes_moins_officiel": 5,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 5
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S67",
@@ -5069,9 +5278,12 @@
       "ecarts": {
         "lignes_moins_officiel": 6,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 6
       },
-      "statut": "Reporté détecté dans les lignes détaillées"
+      "statut": "Reporté détecté dans les lignes détaillées",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S68",
@@ -5112,9 +5324,12 @@
       "ecarts": {
         "lignes_moins_officiel": 2,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 2
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S69",
@@ -5155,9 +5370,12 @@
       "ecarts": {
         "lignes_moins_officiel": -1,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": -1
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S70",
@@ -5198,9 +5416,12 @@
       "ecarts": {
         "lignes_moins_officiel": 5,
         "corrige_moins_officiel_labels": -5,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 5
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S71",
@@ -5241,9 +5462,12 @@
       "ecarts": {
         "lignes_moins_officiel": 4,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 4
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S72",
@@ -5284,9 +5508,12 @@
       "ecarts": {
         "lignes_moins_officiel": 0,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 0
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S73",
@@ -5327,9 +5554,12 @@
       "ecarts": {
         "lignes_moins_officiel": 8,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 8
       },
-      "statut": "Réextrait PDF — deux lignes ajoutées"
+      "statut": "Réextrait PDF — deux lignes ajoutées",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S74",
@@ -5370,9 +5600,12 @@
       "ecarts": {
         "lignes_moins_officiel": 3,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 3
+        "corrige_moins_officiel_preLabels": 3,
+        "candidatures_corrigees_moins_officiel": 3
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S75",
@@ -5413,9 +5646,12 @@
       "ecarts": {
         "lignes_moins_officiel": 5,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 5
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S76",
@@ -5456,9 +5692,12 @@
       "ecarts": {
         "lignes_moins_officiel": 5,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 5
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S77",
@@ -5499,9 +5738,12 @@
       "ecarts": {
         "lignes_moins_officiel": 9,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 9
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S78",
@@ -5542,9 +5784,12 @@
       "ecarts": {
         "lignes_moins_officiel": 6,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 6
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S79",
@@ -5585,9 +5830,12 @@
       "ecarts": {
         "lignes_moins_officiel": 10,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 10
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S80",
@@ -5628,9 +5876,12 @@
       "ecarts": {
         "lignes_moins_officiel": 8,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 8
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S81",
@@ -5671,9 +5922,12 @@
       "ecarts": {
         "lignes_moins_officiel": 10,
         "corrige_moins_officiel_labels": 1,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 10
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S82",
@@ -5714,9 +5968,12 @@
       "ecarts": {
         "lignes_moins_officiel": 6,
         "corrige_moins_officiel_labels": 1,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 6
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S83",
@@ -5757,9 +6014,12 @@
       "ecarts": {
         "lignes_moins_officiel": 3,
         "corrige_moins_officiel_labels": -1,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 3
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S84",
@@ -5800,9 +6060,12 @@
       "ecarts": {
         "lignes_moins_officiel": 3,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 3
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S85",
@@ -5844,9 +6107,12 @@
       "ecarts": {
         "lignes_moins_officiel": 6,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 6
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S86",
@@ -5888,9 +6154,12 @@
       "ecarts": {
         "lignes_moins_officiel": 2,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 2
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     },
     {
       "session_id": "S87",
@@ -5932,9 +6201,12 @@
       "ecarts": {
         "lignes_moins_officiel": 5,
         "corrige_moins_officiel_labels": 0,
-        "corrige_moins_officiel_preLabels": 0
+        "corrige_moins_officiel_preLabels": 0,
+        "candidatures_corrigees_moins_officiel": 5
       },
-      "statut": "Conforme"
+      "statut": "Conforme",
+      "ajournes_hors_pdf": 0,
+      "ajournes_hors_pdf_note": ""
     }
   ]
 }

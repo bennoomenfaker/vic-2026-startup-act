@@ -1,4 +1,6 @@
 # Rapport de valeurs — Startup Act tunisien — 88 sessions
+> **Périmètre statistique final.** L’étude distingue le compteur institutionnel de **3 079 candidatures officielles**, le corpus de **3 555 lignes détaillées PDF**, et le compteur corrigé de **3 558 candidatures** obtenu en ajoutant **3 ajournés hors PDF** signalés par des commentaires officiels (2 en 03/2019 et 1 en 06/2019). Ces trois mesures ne sont pas interchangeables.
+
 
 **Date :** 2026-08-23  
 **Preuve primaire :** PDF officiels des comptes rendus de sessions.  
@@ -6,7 +8,7 @@
 
 ## Résultat principal
 
-Cette étude utilise deux séries qui ne doivent pas être fusionnées. La série **officielle** conserve les compteurs institutionnels publiés : **3 079 candidatures, 1 356 Labels, 641 Prélabels**. La série **corrigée PDF** utilise **3 555 lignes/candidatures documentaires**, **1 343 Labels corrigés** et **647 Prélabels corrigés**.
+Cette étude utilise deux séries qui ne doivent pas être fusionnées. La série **officielle** conserve les compteurs institutionnels publiés : **3 079 candidatures, 1 356 Labels, 641 Prélabels**. La série **corrigée PDF** utilise **3 555 lignes PDF documentaires + 3 ajournés hors PDF = 3 558 candidatures corrigées**, **1 343 Labels corrigés** et **647 Prélabels corrigés**.
 
 L’écart de candidatures est **+476** (3 555 − 3 079). Il s’agit d’un écart d’unité documentaire : les PDF conservent notamment les conversions, retraits et statuts détaillés.
 

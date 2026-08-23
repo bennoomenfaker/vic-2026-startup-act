@@ -1,4 +1,6 @@
 # Rapport académique complet — Réconciliation PDF primaire du Startup Act tunisien
+> **Périmètre statistique final.** L’étude distingue le compteur institutionnel de **3 079 candidatures officielles**, le corpus de **3 555 lignes détaillées PDF**, et le compteur corrigé de **3 558 candidatures** obtenu en ajoutant **3 ajournés hors PDF** signalés par des commentaires officiels (2 en 03/2019 et 1 en 06/2019). Ces trois mesures ne sont pas interchangeables.
+
 
 ## Résumé
 

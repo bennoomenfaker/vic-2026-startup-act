@@ -6,6 +6,8 @@
     "totalCandidatures": 3079,
     "totalCandidaturesPdfCalculees": 2993,
     "totalCandidaturesReexamenPdf": 3555,
+    "totalCandidaturesCorrigees": 3558,
+    "ajournesHorsPdf": 3,
     "ecartTotalPdfMoinsOfficiel": 476,
     "totalLabels": 1356,
     "totalPreLabels": 641,
@@ -39,13 +41,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 14,
       "ajournes_hors_lignes_reexamen": 2,
-      "candidatures_corrigees_pdf": 14,
-      "labels_officiels": 12,
-      "labels_corriges_pdf": 12,
-      "preLabels_officiels": 0,
-      "preLabels_corriges_pdf": 0,
-      "lignes_pdf": 14,
-      "ecart_corrige_officiel": -2
+      "ajournes_hors_pdf": 2,
+      "candidatures_corrigees": 16
     },
     {
       "session": "04/2019",
@@ -67,13 +64,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 52,
       "ajournes_hors_lignes_reexamen": 1,
-      "candidatures_corrigees_pdf": 52,
-      "labels_officiels": 33,
-      "labels_corriges_pdf": 33,
-      "preLabels_officiels": 0,
-      "preLabels_corriges_pdf": 0,
-      "lignes_pdf": 52,
-      "ecart_corrige_officiel": 1
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 52
     },
     {
       "session": "05/2019",
@@ -95,13 +87,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 30,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 30,
-      "labels_officiels": 15,
-      "labels_corriges_pdf": 15,
-      "preLabels_officiels": 8,
-      "preLabels_corriges_pdf": 8,
-      "lignes_pdf": 30,
-      "ecart_corrige_officiel": 0
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 30
     },
     {
       "session": "06/2019",
@@ -123,13 +110,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 32,
       "ajournes_hors_lignes_reexamen": 1,
-      "candidatures_corrigees_pdf": 32,
-      "labels_officiels": 15,
-      "labels_corriges_pdf": 14,
-      "preLabels_officiels": 8,
-      "preLabels_corriges_pdf": 8,
-      "lignes_pdf": 32,
-      "ecart_corrige_officiel": -1
+      "ajournes_hors_pdf": 1,
+      "candidatures_corrigees": 33
     },
     {
       "session": "07/2019",
@@ -151,13 +133,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 29,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 29,
-      "labels_officiels": 15,
-      "labels_corriges_pdf": 14,
-      "preLabels_officiels": 8,
-      "preLabels_corriges_pdf": 8,
-      "lignes_pdf": 29,
-      "ecart_corrige_officiel": 1
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 29
     },
     {
       "session": "08/2019",
@@ -179,13 +156,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 28,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 28,
-      "labels_officiels": 24,
-      "labels_corriges_pdf": 20,
-      "preLabels_officiels": 7,
-      "preLabels_corriges_pdf": 5,
-      "lignes_pdf": 28,
-      "ecart_corrige_officiel": 0
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 28
     },
     {
       "session": "09/2019",
@@ -207,13 +179,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 27,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 27,
-      "labels_officiels": 15,
-      "labels_corriges_pdf": 15,
-      "preLabels_officiels": 6,
-      "preLabels_corriges_pdf": 6,
-      "lignes_pdf": 27,
-      "ecart_corrige_officiel": 3
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 27
     },
     {
       "session": "10/2019",
@@ -235,13 +202,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 39,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 39,
-      "labels_officiels": 23,
-      "labels_corriges_pdf": 23,
-      "preLabels_officiels": 4,
-      "preLabels_corriges_pdf": 5,
-      "lignes_pdf": 39,
-      "ecart_corrige_officiel": 5
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 39
     },
     {
       "session": "11/2019",
@@ -263,13 +225,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 41,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 41,
-      "labels_officiels": 17,
-      "labels_corriges_pdf": 17,
-      "preLabels_officiels": 10,
-      "preLabels_corriges_pdf": 10,
-      "lignes_pdf": 41,
-      "ecart_corrige_officiel": 6
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 41
     },
     {
       "session": "12/2019",
@@ -291,13 +248,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 42,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 42,
-      "labels_officiels": 23,
-      "labels_corriges_pdf": 23,
-      "preLabels_officiels": 8,
-      "preLabels_corriges_pdf": 8,
-      "lignes_pdf": 42,
-      "ecart_corrige_officiel": 10
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 42
     },
     {
       "session": "01/2020",
@@ -319,13 +271,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 42,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 42,
-      "labels_officiels": 18,
-      "labels_corriges_pdf": 18,
-      "preLabels_officiels": 11,
-      "preLabels_corriges_pdf": 11,
-      "lignes_pdf": 42,
-      "ecart_corrige_officiel": 4
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 42
     },
     {
       "session": "02/2020",
@@ -347,13 +294,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 41,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 41,
-      "labels_officiels": 22,
-      "labels_corriges_pdf": 22,
-      "preLabels_officiels": 11,
-      "preLabels_corriges_pdf": 11,
-      "lignes_pdf": 41,
-      "ecart_corrige_officiel": 9
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 41
     },
     {
       "session": "03/2020",
@@ -375,13 +317,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 40,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 40,
-      "labels_officiels": 16,
-      "labels_corriges_pdf": 16,
-      "preLabels_officiels": 10,
-      "preLabels_corriges_pdf": 10,
-      "lignes_pdf": 40,
-      "ecart_corrige_officiel": 5
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 40
     },
     {
       "session": "04/2020",
@@ -403,13 +340,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 45,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 45,
-      "labels_officiels": 20,
-      "labels_corriges_pdf": 20,
-      "preLabels_officiels": 7,
-      "preLabels_corriges_pdf": 7,
-      "lignes_pdf": 45,
-      "ecart_corrige_officiel": 5
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 45
     },
     {
       "session": "05/2020",
@@ -431,13 +363,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 32,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 32,
-      "labels_officiels": 12,
-      "labels_corriges_pdf": 12,
-      "preLabels_officiels": 10,
-      "preLabels_corriges_pdf": 10,
-      "lignes_pdf": 32,
-      "ecart_corrige_officiel": 6
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 32
     },
     {
       "session": "06/2020",
@@ -459,13 +386,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 30,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 30,
-      "labels_officiels": 12,
-      "labels_corriges_pdf": 12,
-      "preLabels_officiels": 5,
-      "preLabels_corriges_pdf": 5,
-      "lignes_pdf": 30,
-      "ecart_corrige_officiel": 4
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 30
     },
     {
       "session": "07/2020",
@@ -487,13 +409,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 51,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 51,
-      "labels_officiels": 18,
-      "labels_corriges_pdf": 18,
-      "preLabels_officiels": 7,
-      "preLabels_corriges_pdf": 7,
-      "lignes_pdf": 51,
-      "ecart_corrige_officiel": 11
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 51
     },
     {
       "session": "08/2020",
@@ -515,13 +432,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 34,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 34,
-      "labels_officiels": 17,
-      "labels_corriges_pdf": 17,
-      "preLabels_officiels": 6,
-      "preLabels_corriges_pdf": 6,
-      "lignes_pdf": 34,
-      "ecart_corrige_officiel": 6
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 34
     },
     {
       "session": "09/2020",
@@ -543,13 +455,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 23,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 23,
-      "labels_officiels": 11,
-      "labels_corriges_pdf": 11,
-      "preLabels_officiels": 9,
-      "preLabels_corriges_pdf": 9,
-      "lignes_pdf": 23,
-      "ecart_corrige_officiel": -1
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 23
     },
     {
       "session": "10/2020",
@@ -571,13 +478,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 49,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 49,
-      "labels_officiels": 16,
-      "labels_corriges_pdf": 16,
-      "preLabels_officiels": 10,
-      "preLabels_corriges_pdf": 10,
-      "lignes_pdf": 49,
-      "ecart_corrige_officiel": 8
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 49
     },
     {
       "session": "11/2020",
@@ -599,13 +501,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 40,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 40,
-      "labels_officiels": 26,
-      "labels_corriges_pdf": 26,
-      "preLabels_officiels": 14,
-      "preLabels_corriges_pdf": 14,
-      "lignes_pdf": 40,
-      "ecart_corrige_officiel": -1
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 40
     },
     {
       "session": "12/2020",
@@ -627,13 +524,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 36,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 36,
-      "labels_officiels": 21,
-      "labels_corriges_pdf": 21,
-      "preLabels_officiels": 8,
-      "preLabels_corriges_pdf": 8,
-      "lignes_pdf": 36,
-      "ecart_corrige_officiel": 0
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 36
     },
     {
       "session": "01/2021",
@@ -655,13 +547,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 36,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 36,
-      "labels_officiels": 24,
-      "labels_corriges_pdf": 24,
-      "preLabels_officiels": 7,
-      "preLabels_corriges_pdf": 7,
-      "lignes_pdf": 36,
-      "ecart_corrige_officiel": 0
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 36
     },
     {
       "session": "02/2021",
@@ -683,13 +570,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 48,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 48,
-      "labels_officiels": 25,
-      "labels_corriges_pdf": 25,
-      "preLabels_officiels": 7,
-      "preLabels_corriges_pdf": 10,
-      "lignes_pdf": 48,
-      "ecart_corrige_officiel": 7
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 48
     },
     {
       "session": "03/2021",
@@ -711,13 +593,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 56,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 56,
-      "labels_officiels": 25,
-      "labels_corriges_pdf": 25,
-      "preLabels_officiels": 8,
-      "preLabels_corriges_pdf": 8,
-      "lignes_pdf": 56,
-      "ecart_corrige_officiel": 15
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 56
     },
     {
       "session": "04/2021",
@@ -739,13 +616,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 81,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 81,
-      "labels_officiels": 22,
-      "labels_corriges_pdf": 22,
-      "preLabels_officiels": 24,
-      "preLabels_corriges_pdf": 24,
-      "lignes_pdf": 81,
-      "ecart_corrige_officiel": 1
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 81
     },
     {
       "session": "05/2021",
@@ -767,13 +639,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 47,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 47,
-      "labels_officiels": 19,
-      "labels_corriges_pdf": 19,
-      "preLabels_officiels": 8,
-      "preLabels_corriges_pdf": 8,
-      "lignes_pdf": 47,
-      "ecart_corrige_officiel": 7
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 47
     },
     {
       "session": "06/2021",
@@ -795,13 +662,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 47,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 47,
-      "labels_officiels": 18,
-      "labels_corriges_pdf": 18,
-      "preLabels_officiels": 6,
-      "preLabels_corriges_pdf": 6,
-      "lignes_pdf": 47,
-      "ecart_corrige_officiel": 6
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 47
     },
     {
       "session": "07/2021",
@@ -823,13 +685,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 50,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 50,
-      "labels_officiels": 22,
-      "labels_corriges_pdf": 22,
-      "preLabels_officiels": 5,
-      "preLabels_corriges_pdf": 5,
-      "lignes_pdf": 50,
-      "ecart_corrige_officiel": 10
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 50
     },
     {
       "session": "08/2021",
@@ -851,13 +708,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 33,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 33,
-      "labels_officiels": 13,
-      "labels_corriges_pdf": 13,
-      "preLabels_officiels": 4,
-      "preLabels_corriges_pdf": 4,
-      "lignes_pdf": 33,
-      "ecart_corrige_officiel": 8
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 33
     },
     {
       "session": "09/2021",
@@ -879,13 +731,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 38,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 38,
-      "labels_officiels": 13,
-      "labels_corriges_pdf": 15,
-      "preLabels_officiels": 6,
-      "preLabels_corriges_pdf": 6,
-      "lignes_pdf": 38,
-      "ecart_corrige_officiel": 23
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 38
     },
     {
       "session": "10/2021",
@@ -907,13 +754,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 49,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 49,
-      "labels_officiels": 23,
-      "labels_corriges_pdf": 23,
-      "preLabels_officiels": 7,
-      "preLabels_corriges_pdf": 7,
-      "lignes_pdf": 49,
-      "ecart_corrige_officiel": 8
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 49
     },
     {
       "session": "11/2021",
@@ -935,13 +777,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 47,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 47,
-      "labels_officiels": 19,
-      "labels_corriges_pdf": 19,
-      "preLabels_officiels": 10,
-      "preLabels_corriges_pdf": 10,
-      "lignes_pdf": 47,
-      "ecart_corrige_officiel": 7
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 47
     },
     {
       "session": "12/2021",
@@ -963,13 +800,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 51,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 51,
-      "labels_officiels": 20,
-      "labels_corriges_pdf": 20,
-      "preLabels_officiels": 11,
-      "preLabels_corriges_pdf": 11,
-      "lignes_pdf": 51,
-      "ecart_corrige_officiel": 13
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 51
     },
     {
       "session": "01/2022",
@@ -991,13 +823,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 46,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 46,
-      "labels_officiels": 15,
-      "labels_corriges_pdf": 15,
-      "preLabels_officiels": 9,
-      "preLabels_corriges_pdf": 9,
-      "lignes_pdf": 46,
-      "ecart_corrige_officiel": 8
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 46
     },
     {
       "session": "02/2022",
@@ -1019,13 +846,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 22,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 22,
-      "labels_officiels": 12,
-      "labels_corriges_pdf": 12,
-      "preLabels_officiels": 3,
-      "preLabels_corriges_pdf": 3,
-      "lignes_pdf": 22,
-      "ecart_corrige_officiel": 4
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 22
     },
     {
       "session": "03/2022",
@@ -1047,13 +869,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 30,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 30,
-      "labels_officiels": 14,
-      "labels_corriges_pdf": 14,
-      "preLabels_officiels": 5,
-      "preLabels_corriges_pdf": 5,
-      "lignes_pdf": 30,
-      "ecart_corrige_officiel": 9
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 30
     },
     {
       "session": "04/2022",
@@ -1075,13 +892,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 27,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 27,
-      "labels_officiels": 9,
-      "labels_corriges_pdf": 9,
-      "preLabels_officiels": 6,
-      "preLabels_corriges_pdf": 6,
-      "lignes_pdf": 27,
-      "ecart_corrige_officiel": 5
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 27
     },
     {
       "session": "05/2022",
@@ -1103,13 +915,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 49,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 49,
-      "labels_officiels": 14,
-      "labels_corriges_pdf": 14,
-      "preLabels_officiels": 9,
-      "preLabels_corriges_pdf": 9,
-      "lignes_pdf": 49,
-      "ecart_corrige_officiel": 8
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 49
     },
     {
       "session": "06/2022",
@@ -1131,13 +938,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 46,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 46,
-      "labels_officiels": 14,
-      "labels_corriges_pdf": 14,
-      "preLabels_officiels": 10,
-      "preLabels_corriges_pdf": 10,
-      "lignes_pdf": 46,
-      "ecart_corrige_officiel": 6
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 46
     },
     {
       "session": "07/2022",
@@ -1159,13 +961,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 45,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 45,
-      "labels_officiels": 18,
-      "labels_corriges_pdf": 18,
-      "preLabels_officiels": 9,
-      "preLabels_corriges_pdf": 9,
-      "lignes_pdf": 45,
-      "ecart_corrige_officiel": 5
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 45
     },
     {
       "session": "08/2022",
@@ -1187,13 +984,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 44,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 44,
-      "labels_officiels": 12,
-      "labels_corriges_pdf": 12,
-      "preLabels_officiels": 12,
-      "preLabels_corriges_pdf": 12,
-      "lignes_pdf": 44,
-      "ecart_corrige_officiel": 8
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 44
     },
     {
       "session": "09/2022",
@@ -1215,13 +1007,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 49,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 49,
-      "labels_officiels": 19,
-      "labels_corriges_pdf": 19,
-      "preLabels_officiels": 5,
-      "preLabels_corriges_pdf": 5,
-      "lignes_pdf": 49,
-      "ecart_corrige_officiel": 9
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 49
     },
     {
       "session": "10/2022",
@@ -1243,13 +1030,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 45,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 45,
-      "labels_officiels": 14,
-      "labels_corriges_pdf": 14,
-      "preLabels_officiels": 7,
-      "preLabels_corriges_pdf": 7,
-      "lignes_pdf": 45,
-      "ecart_corrige_officiel": 7
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 45
     },
     {
       "session": "11/2022",
@@ -1271,13 +1053,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 42,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 42,
-      "labels_officiels": 17,
-      "labels_corriges_pdf": 17,
-      "preLabels_officiels": 10,
-      "preLabels_corriges_pdf": 10,
-      "lignes_pdf": 42,
-      "ecart_corrige_officiel": 8
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 42
     },
     {
       "session": "12/2022",
@@ -1299,13 +1076,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 39,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 39,
-      "labels_officiels": 17,
-      "labels_corriges_pdf": 16,
-      "preLabels_officiels": 5,
-      "preLabels_corriges_pdf": 5,
-      "lignes_pdf": 39,
-      "ecart_corrige_officiel": 9
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 39
     },
     {
       "session": "01/2023",
@@ -1327,13 +1099,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 38,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 38,
-      "labels_officiels": 16,
-      "labels_corriges_pdf": 16,
-      "preLabels_officiels": 6,
-      "preLabels_corriges_pdf": 6,
-      "lignes_pdf": 38,
-      "ecart_corrige_officiel": 12
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 38
     },
     {
       "session": "02/2023",
@@ -1355,13 +1122,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 42,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 42,
-      "labels_officiels": 18,
-      "labels_corriges_pdf": 18,
-      "preLabels_officiels": 11,
-      "preLabels_corriges_pdf": 11,
-      "lignes_pdf": 42,
-      "ecart_corrige_officiel": 9
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 42
     },
     {
       "session": "03/2023",
@@ -1383,13 +1145,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 42,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 42,
-      "labels_officiels": 13,
-      "labels_corriges_pdf": 14,
-      "preLabels_officiels": 6,
-      "preLabels_corriges_pdf": 6,
-      "lignes_pdf": 42,
-      "ecart_corrige_officiel": 5
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 42
     },
     {
       "session": "04/2023",
@@ -1411,13 +1168,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 40,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 40,
-      "labels_officiels": 14,
-      "labels_corriges_pdf": 13,
-      "preLabels_officiels": 5,
-      "preLabels_corriges_pdf": 5,
-      "lignes_pdf": 40,
-      "ecart_corrige_officiel": 0
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 40
     },
     {
       "session": "05/2023",
@@ -1439,13 +1191,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 45,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 45,
-      "labels_officiels": 19,
-      "labels_corriges_pdf": 19,
-      "preLabels_officiels": 9,
-      "preLabels_corriges_pdf": 9,
-      "lignes_pdf": 45,
-      "ecart_corrige_officiel": 6
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 45
     },
     {
       "session": "06/2023",
@@ -1467,13 +1214,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 34,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 34,
-      "labels_officiels": 10,
-      "labels_corriges_pdf": 10,
-      "preLabels_officiels": 8,
-      "preLabels_corriges_pdf": 8,
-      "lignes_pdf": 34,
-      "ecart_corrige_officiel": 6
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 34
     },
     {
       "session": "07/2023",
@@ -1495,13 +1237,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 42,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 42,
-      "labels_officiels": 15,
-      "labels_corriges_pdf": 15,
-      "preLabels_officiels": 8,
-      "preLabels_corriges_pdf": 8,
-      "lignes_pdf": 42,
-      "ecart_corrige_officiel": 9
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 42
     },
     {
       "session": "08/2023",
@@ -1523,13 +1260,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 33,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 33,
-      "labels_officiels": 11,
-      "labels_corriges_pdf": 11,
-      "preLabels_officiels": 6,
-      "preLabels_corriges_pdf": 5,
-      "lignes_pdf": 33,
-      "ecart_corrige_officiel": 7
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 33
     },
     {
       "session": "09/2023",
@@ -1551,13 +1283,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 41,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 41,
-      "labels_officiels": 15,
-      "labels_corriges_pdf": 15,
-      "preLabels_officiels": 6,
-      "preLabels_corriges_pdf": 6,
-      "lignes_pdf": 41,
-      "ecart_corrige_officiel": 8
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 41
     },
     {
       "session": "10/2023",
@@ -1579,13 +1306,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 31,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 31,
-      "labels_officiels": 6,
-      "labels_corriges_pdf": 6,
-      "preLabels_officiels": 5,
-      "preLabels_corriges_pdf": 4,
-      "lignes_pdf": 31,
-      "ecart_corrige_officiel": 0
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 31
     },
     {
       "session": "11/2023",
@@ -1607,13 +1329,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 38,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 38,
-      "labels_officiels": 14,
-      "labels_corriges_pdf": 12,
-      "preLabels_officiels": 4,
-      "preLabels_corriges_pdf": 7,
-      "lignes_pdf": 38,
-      "ecart_corrige_officiel": 8
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 38
     },
     {
       "session": "12/2023",
@@ -1635,13 +1352,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 43,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 43,
-      "labels_officiels": 14,
-      "labels_corriges_pdf": 12,
-      "preLabels_officiels": 5,
-      "preLabels_corriges_pdf": 5,
-      "lignes_pdf": 43,
-      "ecart_corrige_officiel": 4
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 43
     },
     {
       "session": "01/2024",
@@ -1663,13 +1375,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 36,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 36,
-      "labels_officiels": 14,
-      "labels_corriges_pdf": 14,
-      "preLabels_officiels": 6,
-      "preLabels_corriges_pdf": 6,
-      "lignes_pdf": 36,
-      "ecart_corrige_officiel": 3
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 36
     },
     {
       "session": "02/2024",
@@ -1691,13 +1398,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 33,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 33,
-      "labels_officiels": 9,
-      "labels_corriges_pdf": 9,
-      "preLabels_officiels": 6,
-      "preLabels_corriges_pdf": 6,
-      "lignes_pdf": 33,
-      "ecart_corrige_officiel": 0
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 33
     },
     {
       "session": "03/2024",
@@ -1719,13 +1421,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 34,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 34,
-      "labels_officiels": 7,
-      "labels_corriges_pdf": 6,
-      "preLabels_officiels": 7,
-      "preLabels_corriges_pdf": 7,
-      "lignes_pdf": 34,
-      "ecart_corrige_officiel": 3
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 34
     },
     {
       "session": "04/2024",
@@ -1747,13 +1444,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 42,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 42,
-      "labels_officiels": 14,
-      "labels_corriges_pdf": 14,
-      "preLabels_officiels": 5,
-      "preLabels_corriges_pdf": 5,
-      "lignes_pdf": 42,
-      "ecart_corrige_officiel": 3
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 42
     },
     {
       "session": "05/2024",
@@ -1775,13 +1467,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 46,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 46,
-      "labels_officiels": 14,
-      "labels_corriges_pdf": 14,
-      "preLabels_officiels": 5,
-      "preLabels_corriges_pdf": 5,
-      "lignes_pdf": 46,
-      "ecart_corrige_officiel": 7
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 46
     },
     {
       "session": "06/2024",
@@ -1803,13 +1490,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 40,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 40,
-      "labels_officiels": 14,
-      "labels_corriges_pdf": 14,
-      "preLabels_officiels": 5,
-      "preLabels_corriges_pdf": 5,
-      "lignes_pdf": 40,
-      "ecart_corrige_officiel": 3
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 40
     },
     {
       "session": "07/2024",
@@ -1831,13 +1513,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 34,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 34,
-      "labels_officiels": 5,
-      "labels_corriges_pdf": 6,
-      "preLabels_officiels": 7,
-      "preLabels_corriges_pdf": 7,
-      "lignes_pdf": 34,
-      "ecart_corrige_officiel": 1
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 34
     },
     {
       "session": "08/2024",
@@ -1859,13 +1536,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 39,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 39,
-      "labels_officiels": 11,
-      "labels_corriges_pdf": 11,
-      "preLabels_officiels": 6,
-      "preLabels_corriges_pdf": 6,
-      "lignes_pdf": 39,
-      "ecart_corrige_officiel": 2
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 39
     },
     {
       "session": "09/2024",
@@ -1887,13 +1559,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 39,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 39,
-      "labels_officiels": 11,
-      "labels_corriges_pdf": 11,
-      "preLabels_officiels": 9,
-      "preLabels_corriges_pdf": 9,
-      "lignes_pdf": 39,
-      "ecart_corrige_officiel": 5
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 39
     },
     {
       "session": "10/2024",
@@ -1915,13 +1582,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 49,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 49,
-      "labels_officiels": 15,
-      "labels_corriges_pdf": 15,
-      "preLabels_officiels": 7,
-      "preLabels_corriges_pdf": 7,
-      "lignes_pdf": 49,
-      "ecart_corrige_officiel": 6
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 49
     },
     {
       "session": "11/2024",
@@ -1943,13 +1605,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 43,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 43,
-      "labels_officiels": 14,
-      "labels_corriges_pdf": 14,
-      "preLabels_officiels": 7,
-      "preLabels_corriges_pdf": 7,
-      "lignes_pdf": 43,
-      "ecart_corrige_officiel": 2
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 43
     },
     {
       "session": "12/2024",
@@ -1971,13 +1628,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 39,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 39,
-      "labels_officiels": 16,
-      "labels_corriges_pdf": 16,
-      "preLabels_officiels": 4,
-      "preLabels_corriges_pdf": 4,
-      "lignes_pdf": 39,
-      "ecart_corrige_officiel": -1
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 39
     },
     {
       "session": "01/2025",
@@ -1999,13 +1651,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 44,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 44,
-      "labels_officiels": 18,
-      "labels_corriges_pdf": 13,
-      "preLabels_officiels": 2,
-      "preLabels_corriges_pdf": 2,
-      "lignes_pdf": 44,
-      "ecart_corrige_officiel": 5
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 44
     },
     {
       "session": "02/2025",
@@ -2027,13 +1674,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 45,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 45,
-      "labels_officiels": 13,
-      "labels_corriges_pdf": 13,
-      "preLabels_officiels": 9,
-      "preLabels_corriges_pdf": 9,
-      "lignes_pdf": 45,
-      "ecart_corrige_officiel": 4
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 45
     },
     {
       "session": "03/2025",
@@ -2055,13 +1697,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 21,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 21,
-      "labels_officiels": 6,
-      "labels_corriges_pdf": 6,
-      "preLabels_officiels": 5,
-      "preLabels_corriges_pdf": 5,
-      "lignes_pdf": 21,
-      "ecart_corrige_officiel": 0
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 21
     },
     {
       "session": "04/2025",
@@ -2083,13 +1720,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 29,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 29,
-      "labels_officiels": 13,
-      "labels_corriges_pdf": 13,
-      "preLabels_officiels": 5,
-      "preLabels_corriges_pdf": 5,
-      "lignes_pdf": 29,
-      "ecart_corrige_officiel": 8
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 29
     },
     {
       "session": "05/2025",
@@ -2111,13 +1743,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 50,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 50,
-      "labels_officiels": 13,
-      "labels_corriges_pdf": 13,
-      "preLabels_officiels": 10,
-      "preLabels_corriges_pdf": 13,
-      "lignes_pdf": 50,
-      "ecart_corrige_officiel": 3
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 50
     },
     {
       "session": "06/2025",
@@ -2139,13 +1766,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 41,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 41,
-      "labels_officiels": 12,
-      "labels_corriges_pdf": 12,
-      "preLabels_officiels": 8,
-      "preLabels_corriges_pdf": 8,
-      "lignes_pdf": 41,
-      "ecart_corrige_officiel": 5
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 41
     },
     {
       "session": "07/2025",
@@ -2167,13 +1789,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 34,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 34,
-      "labels_officiels": 9,
-      "labels_corriges_pdf": 9,
-      "preLabels_officiels": 8,
-      "preLabels_corriges_pdf": 8,
-      "lignes_pdf": 34,
-      "ecart_corrige_officiel": 5
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 34
     },
     {
       "session": "08/2025",
@@ -2195,13 +1812,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 50,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 50,
-      "labels_officiels": 15,
-      "labels_corriges_pdf": 15,
-      "preLabels_officiels": 9,
-      "preLabels_corriges_pdf": 9,
-      "lignes_pdf": 50,
-      "ecart_corrige_officiel": 9
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 50
     },
     {
       "session": "09/2025",
@@ -2223,13 +1835,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 31,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 31,
-      "labels_officiels": 7,
-      "labels_corriges_pdf": 7,
-      "preLabels_officiels": 10,
-      "preLabels_corriges_pdf": 10,
-      "lignes_pdf": 31,
-      "ecart_corrige_officiel": 6
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 31
     },
     {
       "session": "10/2025",
@@ -2251,13 +1858,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 51,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 51,
-      "labels_officiels": 17,
-      "labels_corriges_pdf": 17,
-      "preLabels_officiels": 12,
-      "preLabels_corriges_pdf": 12,
-      "lignes_pdf": 51,
-      "ecart_corrige_officiel": 10
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 51
     },
     {
       "session": "11/2025",
@@ -2279,13 +1881,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 47,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 47,
-      "labels_officiels": 15,
-      "labels_corriges_pdf": 15,
-      "preLabels_officiels": 3,
-      "preLabels_corriges_pdf": 3,
-      "lignes_pdf": 47,
-      "ecart_corrige_officiel": 8
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 47
     },
     {
       "session": "12/2025",
@@ -2307,13 +1904,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 51,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 51,
-      "labels_officiels": 15,
-      "labels_corriges_pdf": 16,
-      "preLabels_officiels": 6,
-      "preLabels_corriges_pdf": 6,
-      "lignes_pdf": 51,
-      "ecart_corrige_officiel": 10
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 51
     },
     {
       "session": "01/2026",
@@ -2335,13 +1927,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 37,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 37,
-      "labels_officiels": 9,
-      "labels_corriges_pdf": 10,
-      "preLabels_officiels": 7,
-      "preLabels_corriges_pdf": 7,
-      "lignes_pdf": 37,
-      "ecart_corrige_officiel": 6
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 37
     },
     {
       "session": "02/2026",
@@ -2363,13 +1950,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 39,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 39,
-      "labels_officiels": 21,
-      "labels_corriges_pdf": 20,
-      "preLabels_officiels": 3,
-      "preLabels_corriges_pdf": 3,
-      "lignes_pdf": 39,
-      "ecart_corrige_officiel": 3
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 39
     },
     {
       "session": "03/2026",
@@ -2391,13 +1973,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 44,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 44,
-      "labels_officiels": 13,
-      "labels_corriges_pdf": 13,
-      "preLabels_officiels": 7,
-      "preLabels_corriges_pdf": 7,
-      "lignes_pdf": 44,
-      "ecart_corrige_officiel": 3
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 44
     },
     {
       "session": "04/2026",
@@ -2419,13 +1996,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 47,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 47,
-      "labels_officiels": 12,
-      "labels_corriges_pdf": 12,
-      "preLabels_officiels": 5,
-      "preLabels_corriges_pdf": 5,
-      "lignes_pdf": 47,
-      "ecart_corrige_officiel": 6
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 47
     },
     {
       "session": "05/2026",
@@ -2447,13 +2019,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 42,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 42,
-      "labels_officiels": 13,
-      "labels_corriges_pdf": 13,
-      "preLabels_officiels": 10,
-      "preLabels_corriges_pdf": 10,
-      "lignes_pdf": 42,
-      "ecart_corrige_officiel": 2
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 42
     },
     {
       "session": "06/2026",
@@ -2475,21 +2042,8 @@
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
       "candidatures_reexamen_pdf": 45,
       "ajournes_hors_lignes_reexamen": 0,
-      "candidatures_corrigees_pdf": 45,
-      "labels_officiels": 7,
-      "labels_corriges_pdf": 7,
-      "preLabels_officiels": 9,
-      "preLabels_corriges_pdf": 9,
-      "lignes_pdf": 45,
-      "ecart_corrige_officiel": 5
+      "ajournes_hors_pdf": 0,
+      "candidatures_corrigees": 45
     }
-  ],
-  "metadata": {
-    "official_candidatures": 3079,
-    "corrected_pdf_candidatures": 3555,
-    "corrected_pdf_labels": 1343,
-    "corrected_pdf_prelabels": 647,
-    "detailed_entries": 3555,
-    "reconciliation_note": "PDF primaire; officiel et corrigé sont deux séries séparées."
-  }
+  ]
 }

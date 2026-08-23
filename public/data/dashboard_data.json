@@ -44,7 +44,9 @@
     "totalLignesPdf": 3555,
     "totalLabelsPdfDetail": 1232,
     "totalPreLabelsPdfDetail": 634,
-    "totalReportesPdf": 5
+    "totalReportesPdf": 5,
+    "correctedCandidatures": 3558,
+    "ajournesHorsPdf": 3
   },
   "sessions": [
     {
@@ -62,7 +64,7 @@
       "session_id": "S0",
       "detailedEntries": 14,
       "candidaturesOfficielles": 16,
-      "candidaturesCorrigees": 14,
+      "candidaturesCorrigees": 16,
       "labelsOfficiels": 12,
       "labelsCorriges": 12,
       "preLabelsOfficiels": 0,
@@ -72,7 +74,8 @@
       "categoriesPdf": {
         "Label accordé": 12,
         "Label non accordé": 2
-      }
+      },
+      "ajournesHorsPdf": 2
     },
     {
       "session": "04/2019",
@@ -99,7 +102,8 @@
       "categoriesPdf": {
         "Label accordé": 33,
         "Label non accordé": 19
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "05/2019",
@@ -128,7 +132,8 @@
         "Label non accordé": 6,
         "Prélabel accordé": 8,
         "Prélabel non accordé": 1
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "06/2019",
@@ -145,7 +150,7 @@
       "session_id": "S3",
       "detailedEntries": 32,
       "candidaturesOfficielles": 33,
-      "candidaturesCorrigees": 32,
+      "candidaturesCorrigees": 33,
       "labelsOfficiels": 15,
       "labelsCorriges": 14,
       "preLabelsOfficiels": 8,
@@ -157,7 +162,8 @@
         "Label non accordé": 9,
         "Prélabel accordé": 6,
         "Prélabel non accordé": 1
-      }
+      },
+      "ajournesHorsPdf": 1
     },
     {
       "session": "07/2019",
@@ -186,7 +192,8 @@
         "Label non accordé": 4,
         "Prélabel accordé": 8,
         "Prélabel non accordé": 3
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "08/2019",
@@ -214,7 +221,8 @@
         "Label accordé": 20,
         "Prélabel accordé": 5,
         "Prélabel non accordé": 3
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "09/2019",
@@ -243,7 +251,8 @@
         "Label non accordé": 2,
         "Prélabel accordé": 9,
         "Prélabel non accordé": 4
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "10/2019",
@@ -272,7 +281,8 @@
         "Label non accordé": 6,
         "Prélabel accordé": 10,
         "Prélabel non accordé": 5
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "11/2019",
@@ -301,7 +311,8 @@
         "Label non accordé": 4,
         "Prélabel accordé": 16,
         "Prélabel non accordé": 10
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "12/2019",
@@ -330,7 +341,8 @@
         "Label non accordé": 5,
         "Prélabel accordé": 8,
         "Prélabel non accordé": 6
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "01/2020",
@@ -359,7 +371,8 @@
         "Label non accordé": 9,
         "Prélabel accordé": 15,
         "Prélabel non accordé": 4
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "02/2020",
@@ -389,7 +402,8 @@
         "Prélabel accordé": 11,
         "Prélabel non accordé": 3,
         "Reporté": 1
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "03/2020",
@@ -419,7 +433,8 @@
         "Prélabel accordé": 14,
         "Prélabel non accordé": 6,
         "Reporté": 1
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "04/2020",
@@ -449,7 +464,8 @@
         "Prélabel accordé": 10,
         "Prélabel non accordé": 8,
         "Retrait Label": 1
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "05/2020",
@@ -479,7 +495,8 @@
         "Prélabel accordé": 15,
         "Prélabel non accordé": 5,
         "Retrait Label": 1
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "06/2020",
@@ -508,7 +525,8 @@
         "Label non accordé": 4,
         "Prélabel accordé": 5,
         "Prélabel non accordé": 9
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "07/2020",
@@ -538,7 +556,8 @@
         "Prélabel accordé": 7,
         "Prélabel non accordé": 13,
         "Retrait Label": 2
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "08/2020",
@@ -566,7 +585,8 @@
         "Label accordé": 12,
         "Label non accordé": 10,
         "Prélabel non accordé": 12
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "09/2020",
@@ -593,7 +613,8 @@
       "categoriesPdf": {
         "Label accordé": 8,
         "Prélabel non accordé": 15
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "10/2020",
@@ -623,7 +644,8 @@
         "Prélabel accordé": 10,
         "Prélabel non accordé": 16,
         "Retrait Label": 1
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "11/2020",
@@ -652,7 +674,8 @@
         "Label non accordé": 12,
         "Prélabel accordé": 2,
         "Prélabel non accordé": 12
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "12/2020",
@@ -679,7 +702,8 @@
       "categoriesPdf": {
         "Label non accordé": 21,
         "Prélabel non accordé": 15
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "01/2021",
@@ -708,7 +732,8 @@
         "Label non accordé": 5,
         "Prélabel accordé": 7,
         "Prélabel non accordé": 9
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "02/2021",
@@ -737,7 +762,8 @@
         "Label non accordé": 7,
         "Prélabel accordé": 10,
         "Prélabel non accordé": 6
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "03/2021",
@@ -767,7 +793,8 @@
         "Prélabel accordé": 8,
         "Prélabel non accordé": 13,
         "Retrait Label": 2
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "04/2021",
@@ -797,7 +824,8 @@
         "Prélabel accordé": 24,
         "Prélabel non accordé": 31,
         "Retrait Label": 1
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "05/2021",
@@ -827,7 +855,8 @@
         "Prélabel accordé": 8,
         "Prélabel non accordé": 12,
         "Retrait Label": 1
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "06/2021",
@@ -856,7 +885,8 @@
         "Label non accordé": 10,
         "Prélabel accordé": 6,
         "Prélabel non accordé": 13
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "07/2021",
@@ -886,7 +916,8 @@
         "Prélabel accordé": 5,
         "Prélabel non accordé": 15,
         "Reporté": 1
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "08/2021",
@@ -916,7 +947,8 @@
         "Prélabel accordé": 4,
         "Prélabel non accordé": 6,
         "Retrait Label": 1
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "09/2021",
@@ -946,7 +978,8 @@
         "Prélabel accordé": 6,
         "Prélabel non accordé": 13,
         "Reporté": 1
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "10/2021",
@@ -975,7 +1008,8 @@
         "Label non accordé": 2,
         "Prélabel accordé": 7,
         "Prélabel non accordé": 17
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "11/2021",
@@ -1004,7 +1038,8 @@
         "Label non accordé": 3,
         "Prélabel accordé": 10,
         "Prélabel non accordé": 15
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "12/2021",
@@ -1034,7 +1069,8 @@
         "Prélabel accordé": 11,
         "Prélabel non accordé": 9,
         "Retrait Label": 7
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "01/2022",
@@ -1064,7 +1100,8 @@
         "Prélabel accordé": 8,
         "Prélabel non accordé": 10,
         "Retrait Label": 4
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "02/2022",
@@ -1093,7 +1130,8 @@
         "Label non accordé": 2,
         "Prélabel accordé": 3,
         "Prélabel non accordé": 5
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "03/2022",
@@ -1122,7 +1160,8 @@
         "Label non accordé": 5,
         "Prélabel accordé": 5,
         "Prélabel non accordé": 6
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "04/2022",
@@ -1152,7 +1191,8 @@
         "Prélabel accordé": 6,
         "Prélabel non accordé": 6,
         "Retrait Label": 1
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "05/2022",
@@ -1182,7 +1222,8 @@
         "Prélabel accordé": 9,
         "Prélabel non accordé": 12,
         "Retrait Label": 2
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "06/2022",
@@ -1212,7 +1253,8 @@
         "Prélabel accordé": 10,
         "Prélabel non accordé": 10,
         "Retrait Label": 2
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "07/2022",
@@ -1242,7 +1284,8 @@
         "Prélabel accordé": 9,
         "Prélabel non accordé": 15,
         "Retrait Label": 1
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "08/2022",
@@ -1272,7 +1315,8 @@
         "Prélabel accordé": 12,
         "Prélabel non accordé": 8,
         "Retrait Label": 2
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "09/2022",
@@ -1301,7 +1345,8 @@
         "Label non accordé": 10,
         "Prélabel accordé": 5,
         "Prélabel non accordé": 15
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "10/2022",
@@ -1331,7 +1376,8 @@
         "Prélabel accordé": 7,
         "Prélabel non accordé": 13,
         "Retrait Label": 1
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "11/2022",
@@ -1360,7 +1406,8 @@
         "Label non accordé": 5,
         "Prélabel accordé": 10,
         "Prélabel non accordé": 10
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "12/2022",
@@ -1389,7 +1436,8 @@
         "Label non accordé": 5,
         "Prélabel accordé": 5,
         "Prélabel non accordé": 13
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "01/2023",
@@ -1419,7 +1467,8 @@
         "Prélabel accordé": 6,
         "Prélabel non accordé": 5,
         "Retrait Label": 2
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "02/2023",
@@ -1449,7 +1498,8 @@
         "Prélabel accordé": 11,
         "Prélabel non accordé": 8,
         "Retrait Label": 1
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "03/2023",
@@ -1478,7 +1528,8 @@
         "Label non accordé": 7,
         "Prélabel accordé": 6,
         "Prélabel non accordé": 15
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "04/2023",
@@ -1507,7 +1558,8 @@
         "Label non accordé": 11,
         "Prélabel accordé": 5,
         "Prélabel non accordé": 15
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "05/2023",
@@ -1536,7 +1588,8 @@
         "Label non accordé": 6,
         "Prélabel accordé": 8,
         "Prélabel non accordé": 12
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "06/2023",
@@ -1565,7 +1618,8 @@
         "Label non accordé": 4,
         "Prélabel accordé": 8,
         "Prélabel non accordé": 12
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "07/2023",
@@ -1594,7 +1648,8 @@
         "Label non accordé": 7,
         "Prélabel accordé": 8,
         "Prélabel non accordé": 12
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "08/2023",
@@ -1623,7 +1678,8 @@
         "Label non accordé": 2,
         "Prélabel accordé": 5,
         "Prélabel non accordé": 15
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "09/2023",
@@ -1652,7 +1708,8 @@
         "Label non accordé": 5,
         "Prélabel accordé": 6,
         "Prélabel non accordé": 15
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "10/2023",
@@ -1681,7 +1738,8 @@
         "Label non accordé": 6,
         "Prélabel accordé": 4,
         "Prélabel non accordé": 15
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "11/2023",
@@ -1710,7 +1768,8 @@
         "Label non accordé": 2,
         "Prélabel accordé": 7,
         "Prélabel non accordé": 17
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "12/2023",
@@ -1739,7 +1798,8 @@
         "Label non accordé": 12,
         "Prélabel accordé": 5,
         "Prélabel non accordé": 15
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "01/2024",
@@ -1768,7 +1828,8 @@
         "Label non accordé": 5,
         "Prélabel accordé": 4,
         "Prélabel non accordé": 13
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "02/2024",
@@ -1797,7 +1858,8 @@
         "Label non accordé": 9,
         "Prélabel accordé": 6,
         "Prélabel non accordé": 14
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "03/2024",
@@ -1826,7 +1888,8 @@
         "Label non accordé": 8,
         "Prélabel accordé": 7,
         "Prélabel non accordé": 12
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "04/2024",
@@ -1855,7 +1918,8 @@
         "Label non accordé": 8,
         "Prélabel accordé": 5,
         "Prélabel non accordé": 15
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "05/2024",
@@ -1886,7 +1950,8 @@
         "Prélabel accordé": 5,
         "Prélabel non accordé": 14,
         "Retrait Label": 2
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "06/2024",
@@ -1916,7 +1981,8 @@
         "Pitch décalé": 1,
         "Prélabel accordé": 5,
         "Prélabel non accordé": 15
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "07/2024",
@@ -1945,7 +2011,8 @@
         "Label non accordé": 9,
         "Prélabel accordé": 7,
         "Prélabel non accordé": 12
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "08/2024",
@@ -1974,7 +2041,8 @@
         "Label non accordé": 8,
         "Prélabel accordé": 6,
         "Prélabel non accordé": 16
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "09/2024",
@@ -2003,7 +2071,8 @@
         "Label non accordé": 7,
         "Prélabel accordé": 9,
         "Prélabel non accordé": 12
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "10/2024",
@@ -2033,7 +2102,8 @@
         "Prélabel accordé": 7,
         "Prélabel non accordé": 16,
         "Reporté": 1
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "11/2024",
@@ -2062,7 +2132,8 @@
         "Label non accordé": 9,
         "Prélabel accordé": 7,
         "Prélabel non accordé": 13
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "12/2024",
@@ -2091,7 +2162,8 @@
         "Label non accordé": 8,
         "Prélabel accordé": 4,
         "Prélabel non accordé": 17
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "01/2025",
@@ -2120,7 +2192,8 @@
         "Label non accordé": 11,
         "Prélabel accordé": 2,
         "Prélabel non accordé": 18
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "02/2025",
@@ -2149,7 +2222,8 @@
         "Label non accordé": 9,
         "Prélabel accordé": 9,
         "Prélabel non accordé": 14
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "03/2025",
@@ -2178,7 +2252,8 @@
         "Label non accordé": 4,
         "Prélabel accordé": 5,
         "Prélabel non accordé": 6
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "04/2025",
@@ -2207,7 +2282,8 @@
         "Label non accordé": 5,
         "Prélabel accordé": 5,
         "Prélabel non accordé": 6
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "05/2025",
@@ -2236,7 +2312,8 @@
         "Label non accordé": 9,
         "Prélabel accordé": 13,
         "Prélabel non accordé": 15
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "06/2025",
@@ -2265,7 +2342,8 @@
         "Label non accordé": 9,
         "Prélabel accordé": 8,
         "Prélabel non accordé": 12
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "07/2025",
@@ -2294,7 +2372,8 @@
         "Label non accordé": 5,
         "Prélabel accordé": 8,
         "Prélabel non accordé": 12
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "08/2025",
@@ -2323,7 +2402,8 @@
         "Label non accordé": 14,
         "Prélabel accordé": 9,
         "Prélabel non accordé": 12
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "09/2025",
@@ -2352,7 +2432,8 @@
         "Label non accordé": 4,
         "Prélabel accordé": 10,
         "Prélabel non accordé": 10
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "10/2025",
@@ -2381,7 +2462,8 @@
         "Label non accordé": 13,
         "Prélabel accordé": 12,
         "Prélabel non accordé": 9
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "11/2025",
@@ -2410,7 +2492,8 @@
         "Label non accordé": 12,
         "Prélabel accordé": 3,
         "Prélabel non accordé": 17
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "12/2025",
@@ -2439,7 +2522,8 @@
         "Label non accordé": 13,
         "Prélabel accordé": 6,
         "Prélabel non accordé": 16
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "01/2026",
@@ -2468,7 +2552,8 @@
         "Label non accordé": 7,
         "Prélabel accordé": 7,
         "Prélabel non accordé": 13
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "02/2026",
@@ -2497,7 +2582,8 @@
         "Label non accordé": 7,
         "Prélabel accordé": 3,
         "Prélabel non accordé": 17
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "03/2026",
@@ -2526,7 +2612,8 @@
         "Label non accordé": 10,
         "Prélabel accordé": 7,
         "Prélabel non accordé": 14
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "04/2026",
@@ -2556,7 +2643,8 @@
         "Prélabel accordé": 5,
         "Prélabel non accordé": 15,
         "Retrait Label": 5
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "05/2026",
@@ -2586,7 +2674,8 @@
         "Prélabel accordé": 8,
         "Prélabel non accordé": 6,
         "Retrait Label": 3
-      }
+      },
+      "ajournesHorsPdf": 0
     },
     {
       "session": "06/2026",
@@ -2616,7 +2705,8 @@
         "Prélabel accordé": 9,
         "Prélabel non accordé": 10,
         "Retrait Label": 3
-      }
+      },
+      "ajournesHorsPdf": 0
     }
   ],
   "yearly": [

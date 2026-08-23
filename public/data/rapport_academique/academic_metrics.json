@@ -53,5 +53,9 @@
     "Décision non précisée — motif administratif": 4,
     "Pitch décalé": 1
   },
-  "ecart_lignes_pdf_moins_officiel": 476
+  "ecart_lignes_pdf_moins_officiel": 476,
+  "candidatures_corrigees": 3558,
+  "ajournes_hors_pdf": 3,
+  "ecart_candidatures_corrigees_moins_officiel": 479,
+  "candidatures_definition": "3 558 corrigées = 3 555 lignes PDF détaillées + 3 ajournés hors PDF ; 3 079 officiel = compteur institutionnel."
 }
