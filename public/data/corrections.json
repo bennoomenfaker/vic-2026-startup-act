@@ -2080,7 +2080,7 @@
     },
     {
       "session": "04/2019",
-      "candidatures": 52,
+      "candidatures": 51,
       "old": {
         "labels": 33,
         "preLabels": 0,
@@ -2093,8 +2093,9 @@
         "taux": "64.7",
         "echec": "35.3"
       },
-      "reason": "CR = 52 décisions (33 labels) vs 51 candidatures affichées : « 1 ajourné à la session suivante » (reporté, décidé en mai 2019). 33 labels confirmés = chiffre officiel exact ; labels/prélabels non corrigés — écart de comptage documenté.",
-      "commentaires": "1 ajourné à la session suivante"
+      "reason": "Compteur officiel : 51 candidatures. Le compte-rendu contient 52 décisions documentaires, dont 1 dossier ajourné/reporté à la session suivante. Les 33 Labels confirmés restent inchangés.",
+      "commentaires": "1 ajourné à la session suivante ; 52 décisions documentaires contre 51 candidatures officielles.",
+      "lignes_detaillees": 52
     }
   ]
 }

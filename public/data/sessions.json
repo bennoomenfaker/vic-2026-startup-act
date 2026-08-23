@@ -23,7 +23,9 @@
     "candidatures_officielles": 16,
     "candidatures_pdf_calculees": 14,
     "ecart_candidatures_pdf_officiel": -2,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 16,
+    "ajournes_hors_lignes_reexamen": 2
   },
   {
     "session": "04/2019",
@@ -49,7 +51,9 @@
     "candidatures_officielles": 51,
     "candidatures_pdf_calculees": 52,
     "ecart_candidatures_pdf_officiel": 1,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 52,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "05/2019",
@@ -75,7 +79,9 @@
     "candidatures_officielles": 30,
     "candidatures_pdf_calculees": 30,
     "ecart_candidatures_pdf_officiel": 0,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 30,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "06/2019",
@@ -101,7 +107,9 @@
     "candidatures_officielles": 33,
     "candidatures_pdf_calculees": 32,
     "ecart_candidatures_pdf_officiel": -1,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 33,
+    "ajournes_hors_lignes_reexamen": 1
   },
   {
     "session": "07/2019",
@@ -127,7 +135,9 @@
     "candidatures_officielles": 28,
     "candidatures_pdf_calculees": 29,
     "ecart_candidatures_pdf_officiel": 1,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 29,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "08/2019",
@@ -153,7 +163,9 @@
     "candidatures_officielles": 28,
     "candidatures_pdf_calculees": 28,
     "ecart_candidatures_pdf_officiel": 0,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 28,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "09/2019",
@@ -179,7 +191,9 @@
     "candidatures_officielles": 24,
     "candidatures_pdf_calculees": 27,
     "ecart_candidatures_pdf_officiel": 3,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 27,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "10/2019",
@@ -205,7 +219,9 @@
     "candidatures_officielles": 34,
     "candidatures_pdf_calculees": 39,
     "ecart_candidatures_pdf_officiel": 5,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 39,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "11/2019",
@@ -231,7 +247,9 @@
     "candidatures_officielles": 35,
     "candidatures_pdf_calculees": 41,
     "ecart_candidatures_pdf_officiel": 6,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 41,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "12/2019",
@@ -257,7 +275,9 @@
     "candidatures_officielles": 32,
     "candidatures_pdf_calculees": 42,
     "ecart_candidatures_pdf_officiel": 10,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 42,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "01/2020",
@@ -283,7 +303,9 @@
     "candidatures_officielles": 38,
     "candidatures_pdf_calculees": 42,
     "ecart_candidatures_pdf_officiel": 4,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 42,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "02/2020",
@@ -309,7 +331,9 @@
     "candidatures_officielles": 32,
     "candidatures_pdf_calculees": 40,
     "ecart_candidatures_pdf_officiel": 8,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 41,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "03/2020",
@@ -335,7 +359,9 @@
     "candidatures_officielles": 35,
     "candidatures_pdf_calculees": 39,
     "ecart_candidatures_pdf_officiel": 4,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 40,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "04/2020",
@@ -361,7 +387,9 @@
     "candidatures_officielles": 40,
     "candidatures_pdf_calculees": 44,
     "ecart_candidatures_pdf_officiel": 4,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 45,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "05/2020",
@@ -387,7 +415,9 @@
     "candidatures_officielles": 26,
     "candidatures_pdf_calculees": 31,
     "ecart_candidatures_pdf_officiel": 5,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 32,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "06/2020",
@@ -413,7 +443,9 @@
     "candidatures_officielles": 26,
     "candidatures_pdf_calculees": 30,
     "ecart_candidatures_pdf_officiel": 4,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 30,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "07/2020",
@@ -439,7 +471,9 @@
     "candidatures_officielles": 40,
     "candidatures_pdf_calculees": 49,
     "ecart_candidatures_pdf_officiel": 9,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 51,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "08/2020",
@@ -465,7 +499,9 @@
     "candidatures_officielles": 28,
     "candidatures_pdf_calculees": 34,
     "ecart_candidatures_pdf_officiel": 6,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 34,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "09/2020",
@@ -491,7 +527,9 @@
     "candidatures_officielles": 24,
     "candidatures_pdf_calculees": 18,
     "ecart_candidatures_pdf_officiel": -6,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 23,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "10/2020",
@@ -517,7 +555,9 @@
     "candidatures_officielles": 41,
     "candidatures_pdf_calculees": 23,
     "ecart_candidatures_pdf_officiel": -18,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 24,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "11/2020",
@@ -543,7 +583,9 @@
     "candidatures_officielles": 41,
     "candidatures_pdf_calculees": 39,
     "ecart_candidatures_pdf_officiel": -2,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 40,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "12/2020",
@@ -569,7 +611,9 @@
     "candidatures_officielles": 36,
     "candidatures_pdf_calculees": 36,
     "ecart_candidatures_pdf_officiel": 0,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 36,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "01/2021",
@@ -595,7 +639,9 @@
     "candidatures_officielles": 36,
     "candidatures_pdf_calculees": 36,
     "ecart_candidatures_pdf_officiel": 0,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 36,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "02/2021",
@@ -621,7 +667,9 @@
     "candidatures_officielles": 41,
     "candidatures_pdf_calculees": 41,
     "ecart_candidatures_pdf_officiel": 0,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 48,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "03/2021",
@@ -647,7 +695,9 @@
     "candidatures_officielles": 41,
     "candidatures_pdf_calculees": 41,
     "ecart_candidatures_pdf_officiel": 0,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 56,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "04/2021",
@@ -673,7 +723,9 @@
     "candidatures_officielles": 80,
     "candidatures_pdf_calculees": 80,
     "ecart_candidatures_pdf_officiel": 0,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 81,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "05/2021",
@@ -699,7 +751,9 @@
     "candidatures_officielles": 40,
     "candidatures_pdf_calculees": 40,
     "ecart_candidatures_pdf_officiel": 0,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 47,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "06/2021",
@@ -725,7 +779,9 @@
     "candidatures_officielles": 41,
     "candidatures_pdf_calculees": 40,
     "ecart_candidatures_pdf_officiel": -1,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 47,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "07/2021",
@@ -751,7 +807,9 @@
     "candidatures_officielles": 40,
     "candidatures_pdf_calculees": 38,
     "ecart_candidatures_pdf_officiel": -2,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 50,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "08/2021",
@@ -777,7 +835,9 @@
     "candidatures_officielles": 25,
     "candidatures_pdf_calculees": 25,
     "ecart_candidatures_pdf_officiel": 0,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 33,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "09/2021",
@@ -803,7 +863,9 @@
     "candidatures_officielles": 15,
     "candidatures_pdf_calculees": 25,
     "ecart_candidatures_pdf_officiel": 10,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 38,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "10/2021",
@@ -829,7 +891,9 @@
     "candidatures_officielles": 41,
     "candidatures_pdf_calculees": 41,
     "ecart_candidatures_pdf_officiel": 0,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 49,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "11/2021",
@@ -855,7 +919,9 @@
     "candidatures_officielles": 40,
     "candidatures_pdf_calculees": 40,
     "ecart_candidatures_pdf_officiel": 0,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 47,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "12/2021",
@@ -881,7 +947,9 @@
     "candidatures_officielles": 38,
     "candidatures_pdf_calculees": 26,
     "ecart_candidatures_pdf_officiel": -12,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 51,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "01/2022",
@@ -907,7 +975,9 @@
     "candidatures_officielles": 38,
     "candidatures_pdf_calculees": 36,
     "ecart_candidatures_pdf_officiel": -2,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 46,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "02/2022",
@@ -933,7 +1003,9 @@
     "candidatures_officielles": 18,
     "candidatures_pdf_calculees": 18,
     "ecart_candidatures_pdf_officiel": 0,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 22,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "03/2022",
@@ -959,7 +1031,9 @@
     "candidatures_officielles": 21,
     "candidatures_pdf_calculees": 21,
     "ecart_candidatures_pdf_officiel": 0,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 30,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "04/2022",
@@ -985,7 +1059,9 @@
     "candidatures_officielles": 22,
     "candidatures_pdf_calculees": 22,
     "ecart_candidatures_pdf_officiel": 0,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 27,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "05/2022",
@@ -1011,7 +1087,9 @@
     "candidatures_officielles": 41,
     "candidatures_pdf_calculees": 41,
     "ecart_candidatures_pdf_officiel": 0,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 49,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "06/2022",
@@ -1037,7 +1115,9 @@
     "candidatures_officielles": 40,
     "candidatures_pdf_calculees": 40,
     "ecart_candidatures_pdf_officiel": 0,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 46,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "07/2022",
@@ -1063,7 +1143,9 @@
     "candidatures_officielles": 40,
     "candidatures_pdf_calculees": 40,
     "ecart_candidatures_pdf_officiel": 0,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 45,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "08/2022",
@@ -1089,7 +1171,9 @@
     "candidatures_officielles": 36,
     "candidatures_pdf_calculees": 36,
     "ecart_candidatures_pdf_officiel": 0,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 44,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "09/2022",
@@ -1115,7 +1199,9 @@
     "candidatures_officielles": 40,
     "candidatures_pdf_calculees": 40,
     "ecart_candidatures_pdf_officiel": 0,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 49,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "10/2022",
@@ -1141,7 +1227,9 @@
     "candidatures_officielles": 38,
     "candidatures_pdf_calculees": 38,
     "ecart_candidatures_pdf_officiel": 0,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 45,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "11/2022",
@@ -1167,7 +1255,9 @@
     "candidatures_officielles": 34,
     "candidatures_pdf_calculees": 34,
     "ecart_candidatures_pdf_officiel": 0,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 42,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "12/2022",
@@ -1193,7 +1283,9 @@
     "candidatures_officielles": 30,
     "candidatures_pdf_calculees": 30,
     "ecart_candidatures_pdf_officiel": 0,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 39,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "01/2023",
@@ -1219,7 +1311,9 @@
     "candidatures_officielles": 26,
     "candidatures_pdf_calculees": 26,
     "ecart_candidatures_pdf_officiel": 0,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 38,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "02/2023",
@@ -1245,7 +1339,9 @@
     "candidatures_officielles": 33,
     "candidatures_pdf_calculees": 33,
     "ecart_candidatures_pdf_officiel": 0,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 42,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "03/2023",
@@ -1271,7 +1367,9 @@
     "candidatures_officielles": 37,
     "candidatures_pdf_calculees": 37,
     "ecart_candidatures_pdf_officiel": 0,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 42,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "04/2023",
@@ -1297,7 +1395,9 @@
     "candidatures_officielles": 40,
     "candidatures_pdf_calculees": 40,
     "ecart_candidatures_pdf_officiel": 0,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 40,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "05/2023",
@@ -1323,7 +1423,9 @@
     "candidatures_officielles": 39,
     "candidatures_pdf_calculees": 39,
     "ecart_candidatures_pdf_officiel": 0,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 45,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "06/2023",
@@ -1349,7 +1451,9 @@
     "candidatures_officielles": 28,
     "candidatures_pdf_calculees": 28,
     "ecart_candidatures_pdf_officiel": 0,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 34,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "07/2023",
@@ -1375,7 +1479,9 @@
     "candidatures_officielles": 33,
     "candidatures_pdf_calculees": 31,
     "ecart_candidatures_pdf_officiel": -2,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 42,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "08/2023",
@@ -1401,7 +1507,9 @@
     "candidatures_officielles": 26,
     "candidatures_pdf_calculees": 26,
     "ecart_candidatures_pdf_officiel": 0,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 33,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "09/2023",
@@ -1427,7 +1535,9 @@
     "candidatures_officielles": 33,
     "candidatures_pdf_calculees": 32,
     "ecart_candidatures_pdf_officiel": -1,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 41,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "10/2023",
@@ -1453,7 +1563,9 @@
     "candidatures_officielles": 31,
     "candidatures_pdf_calculees": 27,
     "ecart_candidatures_pdf_officiel": -4,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 31,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "11/2023",
@@ -1479,7 +1591,9 @@
     "candidatures_officielles": 30,
     "candidatures_pdf_calculees": 24,
     "ecart_candidatures_pdf_officiel": -6,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 38,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "12/2023",
@@ -1505,7 +1619,9 @@
     "candidatures_officielles": 39,
     "candidatures_pdf_calculees": 39,
     "ecart_candidatures_pdf_officiel": 0,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 43,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "01/2024",
@@ -1531,7 +1647,9 @@
     "candidatures_officielles": 33,
     "candidatures_pdf_calculees": 27,
     "ecart_candidatures_pdf_officiel": -6,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 36,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "02/2024",
@@ -1557,7 +1675,9 @@
     "candidatures_officielles": 33,
     "candidatures_pdf_calculees": 30,
     "ecart_candidatures_pdf_officiel": -3,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 33,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "03/2024",
@@ -1583,7 +1703,9 @@
     "candidatures_officielles": 31,
     "candidatures_pdf_calculees": 27,
     "ecart_candidatures_pdf_officiel": -4,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 34,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "04/2024",
@@ -1609,7 +1731,9 @@
     "candidatures_officielles": 39,
     "candidatures_pdf_calculees": 35,
     "ecart_candidatures_pdf_officiel": -4,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 42,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "05/2024",
@@ -1636,7 +1760,9 @@
     "candidatures_officielles": 39,
     "candidatures_pdf_calculees": 39,
     "ecart_candidatures_pdf_officiel": 0,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 46,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "06/2024",
@@ -1662,7 +1788,9 @@
     "candidatures_officielles": 37,
     "candidatures_pdf_calculees": 35,
     "ecart_candidatures_pdf_officiel": -2,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 40,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "07/2024",
@@ -1688,7 +1816,9 @@
     "candidatures_officielles": 33,
     "candidatures_pdf_calculees": 29,
     "ecart_candidatures_pdf_officiel": -4,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 34,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "08/2024",
@@ -1714,7 +1844,9 @@
     "candidatures_officielles": 37,
     "candidatures_pdf_calculees": 33,
     "ecart_candidatures_pdf_officiel": -4,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 39,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "09/2024",
@@ -1740,7 +1872,9 @@
     "candidatures_officielles": 34,
     "candidatures_pdf_calculees": 33,
     "ecart_candidatures_pdf_officiel": -1,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 39,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "10/2024",
@@ -1766,7 +1900,9 @@
     "candidatures_officielles": 43,
     "candidatures_pdf_calculees": 39,
     "ecart_candidatures_pdf_officiel": -4,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 49,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "11/2024",
@@ -1792,7 +1928,9 @@
     "candidatures_officielles": 41,
     "candidatures_pdf_calculees": 39,
     "ecart_candidatures_pdf_officiel": -2,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 43,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "12/2024",
@@ -1818,7 +1956,9 @@
     "candidatures_officielles": 40,
     "candidatures_pdf_calculees": 38,
     "ecart_candidatures_pdf_officiel": -2,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 39,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "01/2025",
@@ -1844,7 +1984,9 @@
     "candidatures_officielles": 39,
     "candidatures_pdf_calculees": 37,
     "ecart_candidatures_pdf_officiel": -2,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 44,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "02/2025",
@@ -1870,7 +2012,9 @@
     "candidatures_officielles": 41,
     "candidatures_pdf_calculees": 37,
     "ecart_candidatures_pdf_officiel": -4,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 45,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "03/2025",
@@ -1896,7 +2040,9 @@
     "candidatures_officielles": 21,
     "candidatures_pdf_calculees": 20,
     "ecart_candidatures_pdf_officiel": -1,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 21,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "04/2025",
@@ -1922,7 +2068,9 @@
     "candidatures_officielles": 21,
     "candidatures_pdf_calculees": 12,
     "ecart_candidatures_pdf_officiel": -9,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 27,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "05/2025",
@@ -1948,7 +2096,9 @@
     "candidatures_officielles": 47,
     "candidatures_pdf_calculees": 46,
     "ecart_candidatures_pdf_officiel": -1,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 50,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "06/2025",
@@ -1974,7 +2124,9 @@
     "candidatures_officielles": 36,
     "candidatures_pdf_calculees": 35,
     "ecart_candidatures_pdf_officiel": -1,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 41,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "07/2025",
@@ -2000,7 +2152,9 @@
     "candidatures_officielles": 29,
     "candidatures_pdf_calculees": 23,
     "ecart_candidatures_pdf_officiel": -6,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 34,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "08/2025",
@@ -2026,7 +2180,9 @@
     "candidatures_officielles": 41,
     "candidatures_pdf_calculees": 37,
     "ecart_candidatures_pdf_officiel": -4,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 50,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "09/2025",
@@ -2052,7 +2208,9 @@
     "candidatures_officielles": 25,
     "candidatures_pdf_calculees": 21,
     "ecart_candidatures_pdf_officiel": -4,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 31,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "10/2025",
@@ -2078,7 +2236,9 @@
     "candidatures_officielles": 41,
     "candidatures_pdf_calculees": 38,
     "ecart_candidatures_pdf_officiel": -3,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 51,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "11/2025",
@@ -2104,7 +2264,9 @@
     "candidatures_officielles": 39,
     "candidatures_pdf_calculees": 37,
     "ecart_candidatures_pdf_officiel": -2,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 47,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "12/2025",
@@ -2130,7 +2292,9 @@
     "candidatures_officielles": 41,
     "candidatures_pdf_calculees": 36,
     "ecart_candidatures_pdf_officiel": -5,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 51,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "01/2026",
@@ -2156,7 +2320,9 @@
     "candidatures_officielles": 31,
     "candidatures_pdf_calculees": 25,
     "ecart_candidatures_pdf_officiel": -6,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 37,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "02/2026",
@@ -2182,7 +2348,9 @@
     "candidatures_officielles": 36,
     "candidatures_pdf_calculees": 34,
     "ecart_candidatures_pdf_officiel": -2,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 39,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "03/2026",
@@ -2208,7 +2376,9 @@
     "candidatures_officielles": 41,
     "candidatures_pdf_calculees": 35,
     "ecart_candidatures_pdf_officiel": -6,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 44,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "04/2026",
@@ -2234,7 +2404,9 @@
     "candidatures_officielles": 41,
     "candidatures_pdf_calculees": 38,
     "ecart_candidatures_pdf_officiel": -3,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 47,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "05/2026",
@@ -2260,7 +2432,9 @@
     "candidatures_officielles": 40,
     "candidatures_pdf_calculees": 34,
     "ecart_candidatures_pdf_officiel": -6,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 42,
+    "ajournes_hors_lignes_reexamen": 0
   },
   {
     "session": "06/2026",
@@ -2286,6 +2460,8 @@
     "candidatures_officielles": 40,
     "candidatures_pdf_calculees": 38,
     "ecart_candidatures_pdf_officiel": -2,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 45,
+    "ajournes_hors_lignes_reexamen": 0
   }
 ]

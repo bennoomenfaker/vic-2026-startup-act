@@ -1473,12 +1473,12 @@
       </div>
       <div class="chart-card" style="margin-top:20px">
         <h3>📐 Deux méthodes de calcul des candidatures</h3>
-        <p style="font-size:.88em;color:#475569;line-height:1.6;margin:8px 0 12px">La page conserve deux mesures séparées. Le compteur officiel reprend la valeur publiée par Startup Tunisia. Le compteur PDF calculé est un indicateur documentaire : <strong>lignes détaillées − conversions − retraits − Reportés</strong>. Il ne remplace pas le compteur officiel et peut diverger lorsque le PDF contient des ajournements, des dossiers administratifs ou des décisions multi-tours.</p>
-        <div style="overflow-x:auto"><table><thead><tr><th>Périmètre</th><th>Candidatures officielles</th><th>Candidatures PDF calculées</th><th>Écart PDF − officiel</th><th>Interprétation</th></tr></thead><tbody>
-          <tr><td><strong>88 sessions</strong></td><td><strong>3 079</strong></td><td><strong>2 997</strong></td><td><strong>−82</strong></td><td>Deux unités documentées séparément</td></tr>
-          <tr><td>03/2019</td><td>16</td><td>14</td><td>−2</td><td>2 Ajournés mentionnés dans le commentaire officiel</td></tr>
-          <tr><td>04/2019</td><td>51</td><td>52</td><td>+1</td><td>52 décisions documentaires, dont 1 dossier ajourné</td></tr>
-          <tr><td>S62 · 05/2024</td><td>39</td><td>39</td><td>0</td><td>46 lignes − 5 conversions − 2 retraits</td></tr>
+        <p style="font-size:.88em;color:#475569;line-height:1.6;margin:8px 0 12px">La page affiche d’abord la mesure de votre <strong>réexamen PDF</strong> : nombre de lignes/dossiers retenus dans l’étude, avec les ajournés explicitement mentionnés hors lignes. Elle affiche ensuite le <strong>compteur officiel Startup Tunisia</strong>. Ces deux mesures sont conservées séparément ; la première décrit le corpus analysé, la seconde décrit la valeur publiée par le site.</p>
+        <div style="overflow-x:auto"><table><thead><tr><th>Périmètre</th><th>Candidatures selon réexamen PDF</th><th>Candidatures selon site officiel</th><th>Écart réexamen − site</th><th>Interprétation</th></tr></thead><tbody>
+          <tr><td><strong>88 sessions</strong></td><td><strong>3 531</strong></td><td><strong>3 079</strong></td><td><strong>+452</strong></td><td>Corpus PDF de l’étude contre compteur publié</td></tr>
+          <tr><td>03/2019</td><td>16</td><td>16</td><td>0</td><td>12 Labels + 2 refus + 2 Ajournés</td></tr>
+          <tr><td>04/2019</td><td>52</td><td>51</td><td>+1</td><td>52 décisions documentaires, dont 1 Ajourné</td></tr>
+          <tr><td>S62 · 05/2024</td><td>46</td><td>39</td><td>+7</td><td>46 lignes : 39 dossiers + 5 conversions + 2 retraits</td></tr>
         </tbody></table></div>
       </div>
     </div>
@@ -1620,13 +1620,13 @@
 
     <div style="background:var(--card-bg);border:1px solid var(--border-color);border-radius:var(--radius-lg);padding:24px;margin-bottom:24px">
       <h2 style="font-size:1.2rem;font-weight:700;margin:0 0 12px;color:var(--text-primary)">5. Détail des 88 sessions</h2>
-      <p style="font-size:.84rem;color:var(--text-secondary);line-height:1.5;margin:0 0 10px">Deux méthodes sont affichées séparément : <strong>candidatures officielles</strong> = compteur Startup Tunisia ; <strong>candidatures PDF calculées</strong> = lignes détaillées − conversions − retraits − Reportés. La seconde série est un indicateur documentaire et ne remplace pas le compteur officiel.</p>
+      <p style="font-size:.84rem;color:var(--text-secondary);line-height:1.5;margin:0 0 10px">Deux méthodes sont affichées séparément : <strong>candidatures selon le réexamen PDF</strong> = lignes/dossiers retenus par l’étude manuelle, avec les ajournés explicitement mentionnés hors lignes ; <strong>candidatures selon le site officiel</strong> = compteur Startup Tunisia. La première est la mesure analytique de l’étude, la seconde est la valeur publiée de référence.</p>
       <div style="overflow-x:auto;max-height:420px;overflow-y:auto">
         <table style="width:100%;border-collapse:collapse;font-size:.82rem">
           <thead style="position:sticky;top:0;background:var(--card-bg)"><tr style="border-bottom:2px solid var(--border-color)">
             <th style="text-align:left;padding:6px;color:var(--text-secondary)">Session</th>
-            <th style="text-align:right;padding:6px;color:var(--text-secondary)">Candidatures officielles</th>
-            <th style="text-align:right;padding:6px;color:var(--text-secondary)">Candidatures PDF calculées</th>
+            <th style="text-align:right;padding:6px;color:var(--text-secondary)">Candidatures selon réexamen PDF</th>
+            <th style="text-align:right;padding:6px;color:var(--text-secondary)">Candidatures selon site officiel</th>
             <th style="text-align:right;padding:6px;color:var(--text-secondary)">Labels</th>
             <th style="text-align:right;padding:6px;color:var(--text-secondary)">Prélabels</th>
             <th style="text-align:right;padding:6px;color:var(--text-secondary)">Retraits</th>
@@ -4179,6 +4179,7 @@ async function renderExtractedData() {
         return {
           session, sd,
           candidatures: Number(sd.candidatures || 0),
+          candidaturesReexamen: Number(sd.candidatures_reexamen_pdf ?? sd.entries_detaillees ?? detailRows.length),
           candidaturesPdf: Number(sd.candidatures_pdf_calculees ?? (Number(sd.entries_detaillees || detailRows.length) - Number(sd.conversions || 0) - Number(sd.retraits || 0) - Number(sd.reportes || 0))),
           labels: Number(sd.labels || 0),
           preLabels: Number(sd.preLabels || 0),
@@ -4196,12 +4197,12 @@ async function renderExtractedData() {
       const total = officialRows.reduce((acc, r) => {
         Object.keys(acc).forEach(k => { acc[k] += r[k]; });
         return acc;
-      }, { candidatures: 0, candidaturesPdf: 0, labels: 0, preLabels: 0, retraits: 0, reportes: 0, ajournes: 0, detailRows: 0, labelRefuse: 0, prelabelRefuse: 0 });
+      }, { candidatures: 0, candidaturesReexamen: 0, candidaturesPdf: 0, labels: 0, preLabels: 0, retraits: 0, reportes: 0, ajournes: 0, detailRows: 0, labelRefuse: 0, prelabelRefuse: 0 });
       const fmt = n => Number(n || 0).toLocaleString('fr-FR');
       officialBody.innerHTML = officialRows.map(r => '<tr>' +
         '<td style="white-space:nowrap">' + escapeHtml(r.session) + '</td>' +
+        '<td style="text-align:right;color:#334155;font-weight:700">' + fmt(r.candidaturesReexamen) + '</td>' +
         '<td style="text-align:right">' + fmt(r.candidatures) + '</td>' +
-        '<td style="text-align:right;color:#475569">' + fmt(r.candidaturesPdf) + '</td>' +
         '<td style="text-align:right;font-weight:700;color:#2563eb">' + fmt(r.labels) + '</td>' +
         '<td style="text-align:right">' + fmt(r.preLabels) + '</td>' +
         '<td style="text-align:right">' + fmt(r.retraits) + '</td>' +
@@ -4212,7 +4213,7 @@ async function renderExtractedData() {
         '<td style="text-align:right">' + fmt(r.detailRows) + '</td>' +
         '</tr>').join('') +
         '<tr style="font-weight:800;border-top:2px solid var(--border-color);background:rgba(37,99,235,.08)">' +
-        '<td>Total officiel / contrôle</td><td style="text-align:right">' + fmt(total.candidatures) + '</td><td style="text-align:right;color:#475569">' + fmt(total.candidaturesPdf) + '</td><td style="text-align:right;color:#2563eb">' + fmt(total.labels) + '</td><td style="text-align:right">' + fmt(total.preLabels) + '</td><td style="text-align:right">' + fmt(total.retraits) + '</td><td style="text-align:right">' + fmt(total.reportes) + '</td><td style="text-align:right">' + fmt(total.ajournes) + '</td><td style="text-align:right">' + fmt(total.labelRefuse) + '</td><td style="text-align:right">' + fmt(total.prelabelRefuse) + '</td><td style="text-align:right">' + fmt(total.detailRows) + '</td></tr>';
+        '<td>Total réexamen PDF / site officiel</td><td style="text-align:right;color:#334155;font-weight:700">' + fmt(total.candidaturesReexamen) + '</td><td style="text-align:right">' + fmt(total.candidatures) + '</td><td style="text-align:right;color:#2563eb">' + fmt(total.labels) + '</td><td style="text-align:right">' + fmt(total.preLabels) + '</td><td style="text-align:right">' + fmt(total.retraits) + '</td><td style="text-align:right">' + fmt(total.reportes) + '</td><td style="text-align:right">' + fmt(total.ajournes) + '</td><td style="text-align:right">' + fmt(total.labelRefuse) + '</td><td style="text-align:right">' + fmt(total.prelabelRefuse) + '</td><td style="text-align:right">' + fmt(total.detailRows) + '</td></tr>';
     }
 
     const sessSel = document.getElementById('extractedSession');

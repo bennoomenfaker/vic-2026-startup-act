@@ -907,7 +907,10 @@
     "candidatures_officielles": 51,
     "candidatures_pdf_calculees": 52,
     "ecart_candidatures_pdf_officiel": 1,
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes",
+    "candidatures_reexamen_pdf": 52,
+    "ajournes_hors_lignes_reexamen": 0,
+    "definition_candidatures_reexamen_pdf": "lignes documentaires du PDF + ajournés explicitement mentionnés hors lignes; méthode de l’étude, non dédoublonnée et distincte du compteur officiel"
   },
   "generated_at": "2026-08-22T15:45:03+00:00"
 }
