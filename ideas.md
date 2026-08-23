@@ -57,3 +57,9 @@ A compact monogram built from three stacked ledger lines, with the middle line o
 
 ### Signature Brand Color
 Archive saffron — `#E9A23B`.
+
+## Style Decisions
+
+- Les tuiles KPI portent désormais un index vertical numéroté et une mention compacte de provenance (« 88 sessions · qualité contrôlée »).
+- Le saffran d’archive est réservé aux états sélectionnés et aux accents prioritaires ; les graphiques de composition et de secteurs utilisent l’encre marine et le vert mousse pour mieux distinguer la signification des données.
+- Le registre affiche cinq sessions comportant un dossier Reporté, dont SHYK (09/2021), avec une ligne et un badge terracotta dédiés.
