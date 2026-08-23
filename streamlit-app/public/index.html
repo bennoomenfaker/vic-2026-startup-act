@@ -3156,9 +3156,19 @@ function renderDashboard() {
   const totalCand = yKpi.reduce((s, y) => s + y.candidatures, 0);
   const totalLabels = yKpi.reduce((s, y) => s + y.labels, 0);
   const totalPre = yKpi.reduce((s, y) => s + y.preLabels, 0);
-  const totalSessions = filtered
-    ? (d.sessions || []).filter(s => Number(s.year) === Number(DATA.yearFilter)).length
-    : (d.sessions || []).length;
+  const selectedSessions = filtered
+    ? (d.sessions || []).filter(s => Number(s.year) === Number(DATA.yearFilter))
+    : (d.sessions || []);
+  const totalSessions = selectedSessions.length;
+  const sumSessionField = (field, fallback) => selectedSessions.reduce((sum, session) => sum + Number(session[field] ?? session[fallback] ?? 0), 0);
+  const totalOfficialCand = sumSessionField('candidaturesOfficielles', 'candidatures');
+  const totalCorrectedCand = sumSessionField('candidaturesCorrigees', 'entries');
+  const totalOfficialLabels = sumSessionField('labelsOfficiels', 'labels');
+  const totalCorrectedLabels = sumSessionField('labelsCorriges', 'labels');
+  const totalOfficialPre = sumSessionField('preLabelsOfficiels', 'preLabels');
+  const totalCorrectedPre = sumSessionField('preLabelsCorriges', 'preLabels');
+  const totalPdfLines = sumSessionField('lignesPdf', 'entries');
+  const totalAjournes = selectedSessions.reduce((sum, session) => sum + Number(session.ajournesHorsPdf || 0), 0);
 
   const startups = filteredStartups();
   const astat = ageStats(startups);
@@ -3208,12 +3218,17 @@ function renderDashboard() {
   `;
   kpiGrid.removeAttribute('aria-busy');
 
-  // ===== Hero : chiffres clés synchronisés avec le filtre =====
+  // ===== Hero : conserver les trois périmètres après le chargement dynamique =====
   const heroStats = document.getElementById('dashHeroStats');
   if (heroStats) {
+    const officialRate = totalOfficialCand ? ((totalOfficialLabels / totalOfficialCand) * 100).toFixed(1) + '%' : '-';
     heroStats.innerHTML = [
-      ['Labels', totalLabels], ['Pré-Labels', totalPre], ['Candidatures', totalCand],
-      ['Taux moyen', totalCand ? ((totalLabels / totalCand) * 100).toFixed(1) + '%' : '-']
+      ['Labels officiel → corrigé', `${fmt(totalOfficialLabels)} → ${fmt(totalCorrectedLabels)}`],
+      ['Pré-Labels officiel → corrigé', `${fmt(totalOfficialPre)} → ${fmt(totalCorrectedPre)}`],
+      ['Candidatures officiel → corrigé', `${fmt(totalOfficialCand)} → ${fmt(totalCorrectedCand)}`],
+      ['Lignes PDF', fmt(totalPdfLines)],
+      ['Ajournés hors PDF', '+' + fmt(totalAjournes)],
+      ['Taux officiel', officialRate]
     ].map(([l, v]) => `<div class="hero-stat"><span class="hero-stat-num">${v}</span><span class="hero-stat-lbl">${l}</span></div>`).join('');
   }
 
