@@ -4,7 +4,7 @@
   "annee": 2024,
   "mois": 5,
   "pdf": "session_2024_05.pdf",
-  "source": "Généré depuis le corpus final validé de 88 sessions (S0–S87); décisions normalisées et sections conservées",
+  "source": "Corpus final validé; S62 corrigée manuellement à partir du pasted content et du PDF officiel; 39 candidatures officielles, 46 lignes documentaires.",
   "nb_entrees": 46,
   "entrees": [
     {
@@ -606,69 +606,69 @@
       "societe": "Numeryx MEA",
       "projet": "",
       "fondateurs": "Omar Turki, Jamel Hattay",
-      "decision": "Non Vérification De La Condition De L’Indépendance Capitalistique Exigée Au Point 3 De L’Article 3 De La Loi N°2018-20 Du 17 Avril 2018",
+      "decision": "Décision non précisée — motif administratif",
       "type_label": "Label",
       "secteur": "Business Software and services",
       "tour_moment": "Non précisé",
       "apres_pitching": "",
       "session_obtention_retrait": "",
-      "commentaires": "Session de décision",
-      "controle_qualite": "Correction vérifiée sur le PDF officiel S62 05/2024",
-      "resultat_normalise": "Label non accordé",
-      "section_pdf": "Label non accordé",
+      "commentaires": "Non vérification de la condition de l’indépendance capitalistique exigée au point 3 de l’article 3 de la loi n°2018-20 du 17 avril 2018",
+      "controle_qualite": "Correction manuelle confirmée sur le PDF officiel S62 05/2024",
+      "resultat_normalise": "Décision non précisée — motif administratif",
+      "section_pdf": "Session de décision",
       "source_pdf": "session_2024_05.pdf",
-      "_displayDecision": "label_non_accorde"
+      "_displayDecision": "decision_non_precisee"
     },
     {
       "societe": "Télésurveillance profonde des patients via une plateforme clinique de suivi médical",
       "projet": "",
-      "fondateurs": "Faiza Hadid, Younes Ben Salah, Samir Belaid, Mohsen Machhout",
-      "decision": "Non Présentation Des États Financiers Des Trois Exercices Précédents Exigés En Vertu De L’Article 4 Du Décret Gouvernemental N°2018-840 Du 11 Octobre 2018",
+      "fondateurs": "Jamel Hattay, Faiza Hadid, Younes Ben Salah, Samir Belaid, Mohsen Machhout",
+      "decision": "Décision non précisée — motif administratif",
       "type_label": "Label",
       "secteur": "HealthTech",
       "tour_moment": "Non précisé",
       "apres_pitching": "",
       "session_obtention_retrait": "",
-      "commentaires": "Session de décision",
-      "controle_qualite": "Correction vérifiée sur le PDF officiel S62 05/2024",
-      "resultat_normalise": "Label non accordé",
-      "section_pdf": "Label non accordé",
+      "commentaires": "Non présentation des états financiers des trois exercices précédents exigés en vertu de l’article 4 du Décret gouvernemental n°2018-840 du 11 octobre 2018",
+      "controle_qualite": "Correction manuelle confirmée sur le PDF officiel S62 05/2024",
+      "resultat_normalise": "Décision non précisée — motif administratif",
+      "section_pdf": "Session de décision",
       "source_pdf": "session_2024_05.pdf",
-      "_displayDecision": "label_non_accorde"
+      "_displayDecision": "decision_non_precisee"
     },
     {
       "societe": "TECHPRO SOLUTION",
       "projet": "",
       "fondateurs": "AYMEN BENSALEM",
-      "decision": "Non Présentation Des Statuts De La Société Dûment Signés Et Enregistrés Auprès Des Autorités Compétentes Exigés En Vertu De L’Article 4 Du Décret Gouvernemental N°2018-840 Du 11 Octobre 2018",
+      "decision": "Décision non précisée — motif administratif",
       "type_label": "Label",
       "secteur": "Business Software and services",
       "tour_moment": "Non précisé",
       "apres_pitching": "",
       "session_obtention_retrait": "",
-      "commentaires": "Session de décision",
-      "controle_qualite": "Correction vérifiée sur le PDF officiel S62 05/2024",
-      "resultat_normalise": "Label non accordé",
-      "section_pdf": "Label non accordé",
+      "commentaires": "Non présentation des statuts de la société dûment signés et enregistrés auprès des autorités compétentes et non présentation des états financiers exigés en vertu de l’article 4 du Décret gouvernemental n°2018-840 du 11 octobre 2018",
+      "controle_qualite": "Correction manuelle confirmée sur le PDF officiel S62 05/2024",
+      "resultat_normalise": "Décision non précisée — motif administratif",
+      "section_pdf": "Session de décision",
       "source_pdf": "session_2024_05.pdf",
-      "_displayDecision": "label_non_accorde"
+      "_displayDecision": "decision_non_precisee"
     },
     {
       "societe": "HIVE",
       "projet": "",
       "fondateurs": "Adam Ounis",
-      "decision": "Non Présentation Des États Financiers Des Trois Exercices Précédents Exigés En Vertu De L’Article 4 Du Décret Gouvernemental N°2018-840 Du 11 Octobre 2018",
+      "decision": "Décision non précisée — motif administratif",
       "type_label": "Label",
       "secteur": "Ad Tech and Creative Tech",
       "tour_moment": "Non précisé",
       "apres_pitching": "",
       "session_obtention_retrait": "",
-      "commentaires": "Session de décision",
-      "controle_qualite": "Correction vérifiée sur le PDF officiel S62 05/2024",
-      "resultat_normalise": "Label non accordé",
-      "section_pdf": "Label non accordé",
+      "commentaires": "Non présentation des états financiers des trois exercices précédents exigés en vertu de l’article 4 du Décret gouvernemental n°2018-840 du 11 octobre 2018",
+      "controle_qualite": "Correction manuelle confirmée sur le PDF officiel S62 05/2024",
+      "resultat_normalise": "Décision non précisée — motif administratif",
+      "section_pdf": "Session de décision",
       "source_pdf": "session_2024_05.pdf",
-      "_displayDecision": "label_non_accorde"
+      "_displayDecision": "decision_non_precisee"
     },
     {
       "societe": "ACRIDIDEA",
@@ -795,13 +795,32 @@
     "labels": 14,
     "preLabels": 5,
     "retraits": 2,
-    "conversions": 0,
+    "conversions": 5,
     "reportes": 0,
     "entries_detaillees": 46,
     "qualite": [
-      "Compteur officiel et lignes détaillées conservés dans des périmètres séparés"
+      "46 lignes documentaires conservées; 39 candidatures officielles; 4 dossiers sans décision publiée classés par motif administratif; 2 retraits séparés."
     ],
-    "ajournes": 0
+    "ajournes": 0,
+    "decision_non_precisee": 4,
+    "motifs_administratifs": [
+      {
+        "societe": "Numeryx MEA",
+        "motif": "Non vérification de la condition de l’indépendance capitalistique exigée au point 3 de l’article 3 de la loi n°2018-20 du 17 avril 2018"
+      },
+      {
+        "societe": "Télésurveillance profonde des patients via une plateforme clinique de suivi médical",
+        "motif": "Non présentation des états financiers des trois exercices précédents exigés en vertu de l’article 4 du Décret gouvernemental n°2018-840 du 11 octobre 2018"
+      },
+      {
+        "societe": "TECHPRO SOLUTION",
+        "motif": "Non présentation des statuts de la société dûment signés et enregistrés auprès des autorités compétentes et non présentation des états financiers exigés en vertu de l’article 4 du Décret gouvernemental n°2018-840 du 11 octobre 2018"
+      },
+      {
+        "societe": "HIVE",
+        "motif": "Non présentation des états financiers des trois exercices précédents exigés en vertu de l’article 4 du Décret gouvernemental n°2018-840 du 11 octobre 2018"
+      }
+    ]
   },
   "generated_at": "2026-08-22T15:45:03+00:00"
 }

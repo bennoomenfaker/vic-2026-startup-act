@@ -1,4 +1,4 @@
-﻿startup_id;founder_id;session;societe;fondateur
+startup_id;founder_id;session;societe;fondateur
 C0001;F00001;03/2019;Datavora;Hadi Zaher
 C0001;F00002;03/2019;Datavora;Oussama Messaoud
 C0002;F00003;03/2019;Enova Robotics;Anis Sahbani
@@ -3249,6 +3249,7 @@ C2260;F02817;05/2024;Oratio;Oussema Chelly
 C2260;F02818;05/2024;Oratio;Yosri Ayadi
 C2261;F02819;05/2024;Numeryx MEA;Omar Turki
 C2261;F00854;05/2024;Numeryx MEA;Jamel Hattay
+C2262;F00854;05/2024;Télésurveillance profonde des patients via une plateforme clinique de suivi médical;Jamel Hattay
 C2262;F02820;05/2024;Télésurveillance profonde des patients via une plateforme clinique de suivi médical;Faiza Hadid
 C2262;F02821;05/2024;Télésurveillance profonde des patients via une plateforme clinique de suivi médical;Younes Ben Salah
 C2262;F00855;05/2024;Télésurveillance profonde des patients via une plateforme clinique de suivi médical;Samir Belaid

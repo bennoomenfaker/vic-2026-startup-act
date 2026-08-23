@@ -887,13 +887,14 @@
       "labels": 14,
       "preLabels": 5,
       "retraits": 2,
-      "conversions": 0,
+      "conversions": 5,
       "newLabels": 14,
       "tauxPct": 35.9,
       "statut": "Conforme",
       "entries": 46,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "decision_non_precisee": 4
     },
     {
       "session": "06/2024",

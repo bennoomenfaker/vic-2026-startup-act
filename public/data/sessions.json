@@ -1370,7 +1370,7 @@
     "candidatures": 39,
     "labels": 14,
     "preLabels": 5,
-    "commentaires": "14 Labels et 5 Prélabel à Label\tAfficher",
+    "commentaires": "14 Labels et 5 Prélabels accordés; 4 décisions non précisées pour motifs administratifs; 2 retraits. Le site publie 39 candidatures, tandis que le détail PDF conserve 46 lignes documentaires.",
     "pdfUrl": "https://startup.gov.tn/sites/default/files/2024-08/05-Liste%20Startups%20Labellis%C3%A9es%20Session%20Mai%202024%20-%20Compte%20Rendu%20%281%29.pdf",
     "tauxAcceptation": 35.9,
     "tauxEchec": 64.1,
@@ -1378,12 +1378,13 @@
     "pdfFilename": "session_2024_05.pdf",
     "tauxAcceptationExact": 35.8974,
     "tauxEchecExact": 64.1026,
-    "conversions": 0,
+    "conversions": 5,
     "retraits": 2,
     "entries": 46,
     "reportes": 0,
     "candidatures_definition": "Compteur officiel publié par session; ne pas recalculer depuis les lignes détaillées.",
-    "ajournes": 0
+    "ajournes": 0,
+    "decision_non_precisee": 4
   },
   {
     "session": "06/2024",

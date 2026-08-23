@@ -231,6 +231,8 @@
     .chip-decision-retrait { background: #fef3c7; color: #b45309; }
     .chip-decision-reporte { background: #f1d4c9; color: #8b4635; font-weight: 700; }
     .chip-decision-pitch_decale { background: #fef3c7; color: #92400e; font-weight: 600; }
+    .chip-decision-decision_non_precisee { background: #e2e8f0; color: #475569; font-weight: 600; }
+    .row-admin { background: #f8fafc !important; border-left: 4px solid #94a3b8; }
     .row-reporte { background: #f8e8e1 !important; border-left: 4px solid #bd6b52; }
     .row-reporte td { color: #7a3d2e; }
     .row-pitch { background: #fff8e7 !important; border-left: 4px solid #d59b32; }
@@ -1332,6 +1334,7 @@
         <option value="reporte">Reporté</option>
         <option value="pitch_decale">Pitch décalé</option>
         <option value="irrecevable">Irrecevable</option>
+        <option value="decision_non_precisee">Décision non précisée — motif administratif</option>
         <option value="unknown">Inconnu</option>
       </select>
       <span id="extractedCount" style="font-size:.85em;opacity:.7"></span>
@@ -1446,9 +1449,9 @@
       <div style="overflow-x:auto"><table style="width:100%;border-collapse:collapse;font-size:.84rem;background:#fff"><thead><tr style="border-bottom:2px solid #cbd5e1"><th style="text-align:left;padding:8px;color:#334155">Périmètre</th><th style="text-align:right;padding:8px;color:#334155">Officiel</th><th style="text-align:right;padding:8px;color:#334155">Lignes détaillées</th><th style="text-align:right;padding:8px;color:#334155">Écart descriptif</th><th style="text-align:left;padding:8px;color:#334155">Statut</th></tr></thead><tbody>
         <tr><td style="padding:8px">88 sessions</td><td style="padding:8px;text-align:right;font-weight:700">3 079 candidatures</td><td style="padding:8px;text-align:right">3 528 décisions</td><td style="padding:8px;text-align:right;font-weight:700">+449 lignes</td><td style="padding:8px;color:#334155;font-weight:700">Unités différentes — compteur officiel conservé</td></tr>
         <tr style="border-top:1px solid #e2e8f0"><td style="padding:8px">03/2019</td><td style="padding:8px;text-align:right;font-weight:700">16 candidatures</td><td style="padding:8px;text-align:right">14 lignes : 12 Labels + 2 refus</td><td style="padding:8px;text-align:right;font-weight:700">+2</td><td style="padding:8px;color:#334155">2 Ajournés dans le commentaire officiel</td></tr>
-        <tr style="border-top:1px solid #e2e8f0"><td style="padding:8px">S62 · 05/2024</td><td style="padding:8px;text-align:right;font-weight:700">39 candidatures</td><td style="padding:8px;text-align:right">45 enregistrements</td><td style="padding:8px;text-align:right;font-weight:700">−6</td><td style="padding:8px;color:#334155">4 conversions + 2 retraits ; compteur officiel conservé</td></tr>
+        <tr style="border-top:1px solid #e2e8f0"><td style="padding:8px">S62 · 05/2024</td><td style="padding:8px;text-align:right;font-weight:700">39 candidatures</td><td style="padding:8px;text-align:right">46 lignes documentaires</td><td style="padding:8px;text-align:right;font-weight:700">−7</td><td style="padding:8px;color:#334155">5 conversions + 2 retraits ; 4 dossiers sans décision publiée, classés « Décision non précisée — motif administratif »</td></tr>
       </tbody></table></div>
-      <p style="margin:12px 0 0;color:#475569;font-size:.84rem"><strong>Règle :</strong> « Candidatures », « Ajournés », « Reportés », « conversions » et « retraits » sont des variables distinctes. La table « Vue officielle par session » reste la source des compteurs publiés ; la table « Lignes détaillées des PDF » sert au contrôle des entreprises et décisions.</p>
+      <p style="margin:12px 0 0;color:#475569;font-size:.84rem"><strong>Cas S62 :</strong> le site officiel publie <strong>39 candidatures</strong>. Le PDF contient <strong>46 lignes documentaires</strong> : 39 dossiers de candidature (9 Labels accordés au premier examen + 5 Prélabels accordés + 7 Labels non accordés + 14 Prélabels non accordés + 4 dossiers à décision non précisée pour motif administratif), auxquels s’ajoutent 5 conversions Prélabel → Label et 2 retraits de Label. Les quatre dossiers administratifs ne sont donc ni « Reporté » ni « Label non accordé » : leur statut exact est documenté avec le motif administratif du PDF. La table « Vue officielle par session » reste la source des compteurs publiés ; la table « Lignes détaillées des PDF » sert au contrôle des entreprises et décisions.</p>
     </div>
 
     <div class="tabs" id="corrTabs">
@@ -1659,7 +1662,7 @@
     <div style="background:var(--card-bg);border:1px solid var(--border-color);border-radius:var(--radius-lg);padding:24px;margin-bottom:24px">
       <h2 style="font-size:1.2rem;font-weight:700;margin:0 0 12px;color:var(--text-primary)">6. Qualité des données et limites</h2>
       <div style="font-size:.88rem;color:var(--text-secondary);line-height:1.7">
-        <p style="margin:0 0 10px"><strong>Écart des candidatures :</strong> 3 079 candidatures officielles, définies par la somme des compteurs publiés par session. Elles ne se recalculent pas à partir des lignes PDF : 3 528 lignes détaillées incluent conversions et retraits ; quatre Reporté sont confirmés (02/2020, 03/2020, 07/2021, 10/2024).</p>
+        <p style="margin:0 0 10px"><strong>Écart des candidatures :</strong> 3 079 candidatures officielles, définies par la somme des compteurs publiés par session. Elles ne se recalculent pas à partir des lignes PDF. Dans S62, les 39 candidatures officielles correspondent à 46 lignes documentaires, car 5 lignes sont des conversions Prélabel → Label et 2 lignes sont des retraits, tandis que 4 dossiers sont décrits par un motif administratif sans décision publiée.</p>
         <p style="margin:0 0 10px"><strong>Lignes PDF :</strong> 3 528 lignes détaillées extraites ; les quatre dossiers Reporté sont conservés dans le registre et ne sont pas déduits mécaniquement du compteur officiel.</p>
         <p style="margin:0 0 10px"><strong>Géographie :</strong> Les rapports annuels donnent des pourcentages agrégés, pas une table startup par startup.</p>
         <p style="margin:0"><strong>Correction :</strong> 21 sessions historiques corrigées ; le passage au corpus final ajoute S85–S87 (1 311 → 1 356 Labels, 623 → 641 Prélabels).</p>
@@ -1671,7 +1674,7 @@
       <ol style="font-size:.88rem;color:var(--text-secondary);line-height:1.7;margin:0;padding-left:20px">
         <li style="margin-bottom:8px">Maintenir deux tables séparées : <code>session_counters</code> (compteurs officiels) et <code>decision_records</code> (lignes individuelles).</li>
         <li style="margin-bottom:8px">Ajouter à chaque ligne : <code>source_page</code>, <code>extraction_method</code>, <code>confidence_level</code>, <code>last_verified_at</code>.</li>
-        <li style="margin-bottom:8px">La divergence 3 079 candidatures officielles / 3 528 lignes détaillées est documentée : S62 compte 39 candidatures pour 46 enregistrements, dont conversions et retraits.</li>
+        <li style="margin-bottom:8px">La divergence 3 079 candidatures officielles / 3 528 lignes détaillées est documentée : S62 compte 39 candidatures pour 46 lignes, dont 5 conversions, 2 retraits et 4 dossiers à décision non précisée pour motif administratif.</li>
         <li style="margin-bottom:8px">Publier un dictionnaire de données géographiques précisant le dénominateur.</li>
       </ol>
     </div>
@@ -3909,6 +3912,7 @@ function renderAdvancedDashboard() {
 function normRes(r) {
   if (!r) return 'unknown';
   const t = String(r).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  if (t.includes('decision non precise') || t.includes('motif administratif')) return 'decision_non_precisee';
   if (t.includes('reporte') || t.includes('report')) return 'reporte';
   if (t.includes('pitch') && t.includes('decal')) return 'pitch_decale';
   if (t.includes('irrecevable') || t.includes('irreceval')) return 'irrecevable';
@@ -3968,12 +3972,12 @@ function renderAdvCharts() {
   });
 
   // Decision donut
-  const decCount = { label: 0, prelabel: 0, label_refuse: 0, prelabel_refuse: 0, retrait: 0, reporte: 0, pitch_decale: 0, irrecevable: 0, unknown: 0 };
+  const decCount = { label: 0, prelabel: 0, label_refuse: 0, prelabel_refuse: 0, retrait: 0, reporte: 0, pitch_decale: 0, irrecevable: 0, decision_non_precisee: 0, unknown: 0 };
   allEntries.forEach(e => { const d = normRes(e.resultat_normalise || e._displayDecision || e.resultat); decCount[d] = (decCount[d] || 0) + 1; });
   new Chart(document.getElementById('advChartDecisions'), {
     type: 'doughnut', data: {
-      labels: ['Label accordé', 'Pré-label accordé', 'Label non accordé', 'Pré-label non accordé', 'Retrait Label', 'Reporté', 'Pitch décalé', 'Irrecevable', 'Inconnu'],
-      datasets: [{ data: [decCount.label, decCount.prelabel, decCount.label_refuse, decCount.prelabel_refuse, decCount.retrait, decCount.reporte, decCount.pitch_decale, decCount.irrecevable, decCount.unknown], backgroundColor: ['#22c55e', '#f59e0b', '#ef4444', '#b91c1c', '#d97706', '#bd6b52', '#eab308', '#6b7280', '#d1d5db'] }]
+      labels: ['Label accordé', 'Pré-label accordé', 'Label non accordé', 'Pré-label non accordé', 'Retrait Label', 'Reporté', 'Pitch décalé', 'Irrecevable', 'Décision non précisée — motif administratif', 'Inconnu'],
+      datasets: [{ data: [decCount.label, decCount.prelabel, decCount.label_refuse, decCount.prelabel_refuse, decCount.retrait, decCount.reporte, decCount.pitch_decale, decCount.irrecevable, decCount.decision_non_precisee, decCount.unknown], backgroundColor: ['#22c55e', '#f59e0b', '#ef4444', '#b91c1c', '#d97706', '#bd6b52', '#eab308', '#6b7280', '#94a3b8', '#d1d5db'] }]
     }, options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'right' } } }
   });
 
@@ -4099,11 +4103,12 @@ const EXT_DEC = {
   label: 'Label accordé', prelabel: 'Pré-label accordé',
   label_refuse: 'Label non accordé', prelabel_refuse: 'Pré-label non accordé',
   retrait: 'Retrait Label', reporte: 'Reporté', pitch_decale: 'Pitch décalé',
-  irrecevable: 'Irrecevable', unknown: 'Inconnu'
+  irrecevable: 'Irrecevable', decision_non_precisee: 'Décision non précisée — motif administratif', unknown: 'Inconnu'
 };
 function normResultat(r) {
   if (!r) return 'unknown';
   const t = String(r).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  if (t.includes('decision non precise') || t.includes('motif administratif')) return 'decision_non_precisee';
   if (t.includes('reporte') || t.includes('report')) return 'reporte';
   if (t.includes('pitch') && (t.includes('decal') || t.includes('report'))) return 'pitch_decale';
   if (t.includes('irrecevable') || t.includes('irreceval')) return 'irrecevable';
@@ -4260,7 +4265,7 @@ function renderExtractedTable() {
   document.getElementById('extractedCount').textContent = countText + officialText;
   tbody.innerHTML = rows.slice(0, 1000).map(e => {
     const nr = decisionKey(e);
-    const rowClass = nr === 'reporte' ? 'row-reporte' : nr === 'pitch_decale' ? 'row-pitch' : '';
+    const rowClass = nr === 'reporte' ? 'row-reporte' : nr === 'pitch_decale' ? 'row-pitch' : nr === 'decision_non_precisee' ? 'row-admin' : '';
     return '<tr class="' + rowClass + '" style="cursor:pointer" onclick="openExtractedDetail(\'' + escapeAttr(e._file) + '\')">' +
     '<td style="white-space:nowrap">' + escapeHtml(e._session) + '</td>' +
     '<td><strong>' + escapeHtml(e.societe || '—') + '</strong></td>' +
