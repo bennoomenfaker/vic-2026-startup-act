@@ -53,7 +53,64 @@ type View = "overview" | "sessions" | "catalogue" | "quality";
 
 type SessionRow = Record<string, any>;
 
-type KpiRow = { id: string; nom: string; valeur: string; statut: string; page: string; interp?: string; desc?: string; util?: string; source?: string };
+type KpiRow = { id: string; nom: string; valeur: string; statut: string; page: string; interp?: string; desc?: string; util?: string; source?: string; calcul?: string };
+
+const KPI_CALCUL: Record<string, string> = {
+  'KPI-01': 'Comptage des startups uniques après normalisation des noms.',
+  'KPI-02': 'Labels officiels = somme des Labels publiés ; corrigés = nouveaux Labels + conversions Prélabel → Label.',
+  'KPI-03': 'Somme des compteurs institutionnels de candidatures des 88 sessions.',
+  'KPI-04': 'Somme des Prélabels publiés ; la série corrigée est contrôlée sur les lignes PDF.',
+  'KPI-05': 'Labels ÷ candidatures × 100, avec le même périmètre au numérateur et au dénominateur.',
+  'KPI-06': 'HHI = Σ(part du secteur en %)².',
+  'KPI-07': 'Secteur dominant = secteur ayant l’effectif maximal ; part = effectif ÷ total × 100.',
+  'KPI-08': 'Top 4 = effectif des quatre premiers secteurs ÷ total × 100.',
+  'KPI-09': 'Startups du Grand Tunis ÷ startups géolocalisées × 100.',
+  'KPI-10': 'Startups de Sousse ÷ startups géolocalisées × 100.',
+  'KPI-11': 'Startups de Kairouan ÷ startups géolocalisées × 100.',
+  'KPI-12': 'Startups de Kasserine ÷ startups géolocalisées × 100.',
+  'KPI-13': 'Comptage des parcours Prélabel → Label documentés.',
+  'KPI-14': 'Conversions ÷ Prélabels accordés × 100.',
+  'KPI-15': 'Comptage des Prélabels accordés sans les compter comme Labels.',
+  'KPI-16': 'Comptage des décisions de retrait de Label publiées.',
+  'KPI-17': 'Conversions ÷ Labels accordés × 100.',
+  'KPI-18': 'Comptage des sessions présentes dans le corpus.',
+  'KPI-19': 'Comptage des sessions ayant une correction documentée.',
+  'KPI-20': 'Comparaison Labels institutionnels avant correction / Labels corrigés PDF.',
+  'KPI-21': 'Comparaison Prélabels institutionnels avant correction / Prélabels corrigés PDF.',
+  'KPI-22': 'Valeur reprise du rapport annuel cité ; non recalculée depuis les lignes de session.',
+  'KPI-23': 'Valeur reprise du rapport annuel cité, avec son unité et son année.',
+  'KPI-24': 'Valeur reprise du rapport annuel cité ; aucune conversion sans source de change.',
+  'KPI-25': 'Fondatrices femmes ÷ fondateurs dont le genre est connu × 100.',
+  'KPI-26': '(Candidatures t − candidatures t−1) ÷ candidatures t−1 × 100.',
+  'KPI-27': 'Somme progressive des Labels et Prélabels par année.',
+  'KPI-28': 'Candidatures du périmètre ÷ nombre de sessions du même périmètre.',
+  'KPI-29': 'Moyenne de la différence entre date du Prélabel et date du Label pour les parcours appariés.',
+  'KPI-30': 'Comptage des retraits par motif réglementaire publié.',
+  'KPI-31': 'Moyenne de (année de labellisation − année de création).',
+  'KPI-32': 'Histogramme des âges individuels calculés à partir des deux dates.',
+  'KPI-33': 'Moyenne de (2026 − année de création) pour les startups datées.',
+  'KPI-34': 'Comptage des startups par forme juridique renseignée.',
+  'KPI-35': 'Comptage des fondateurs identifiés et dédoublonnés.',
+  'KPI-36': 'Fondateurs d’un genre ÷ fondateurs dont le genre est connu × 100.',
+  'KPI-37': 'Distribution descriptive des variables disponibles, sans imputation.',
+  'KPI-38': 'Comptage des startups par gouvernorat renseigné.',
+  'KPI-39': 'Comptage des startups par secteur et par année.',
+  'KPI-40': 'Startups DeepTech/PI identifiées ÷ startups documentées × 100.',
+  'KPI-41': 'Comptage des sessions présentes dans le corpus final.',
+  'KPI-42': 'Labels accordés ÷ nombre de sessions.',
+  'KPI-43': 'Prélabels accordés ÷ nombre de sessions.',
+  'KPI-44': 'Maximum du compteur Labels parmi les sessions.',
+  'KPI-45': 'Maximum du compteur Prélabels parmi les sessions.',
+  'KPI-46': 'Maximum de la somme annuelle des Labels.',
+  'KPI-47': 'Labels ÷ (Labels + Prélabels) × 100.',
+  'KPI-48': 'Prélabels ÷ (Labels + Prélabels) × 100.',
+  'KPI-49': 'Comptage des sessions dont le nombre de retraits documentés est supérieur à zéro.',
+  'KPI-50': 'Comptage des KPI dont la source principale est externe ou dont le calcul est encore à compléter.',
+};
+
+function getKpiCalculation(kpi: KpiRow): string {
+  return kpi.calcul || KPI_CALCUL[kpi.id] || 'Méthode non calculable avec les données actuelles ; consulter la source indiquée.';
+}
 
 function normalizeSession(session: SessionRow, index: number): SessionRow {
   return {
@@ -147,7 +204,7 @@ export default function Home() {
 
         <footer className="footer-note"><span>Source de travail: <strong>dashboard_data.json</strong> + classeur Excel corrigé</span><span>Dernière mise à jour: 22 août 2026 · 88 sessions auditées</span></footer>
       </main>
-      {selectedKpi && <div className="modal-backdrop" onClick={() => setSelectedKpi(null)}><div className="kpi-modal" onClick={(e) => e.stopPropagation()}><button className="modal-close" onClick={() => setSelectedKpi(null)} aria-label="Fermer">×</button><div className="kpi-modal-id">{selectedKpi.id} · {selectedKpi.page}</div><h2>{selectedKpi.nom}</h2><div className="modal-value">{selectedKpi.valeur}</div><p><strong>Interprétation :</strong> {selectedKpi.interp || selectedKpi.desc || "Ce KPI est repris du catalogue du dépôt ou calculé de manière dérivée à partir des données des 88 sessions."}</p>{selectedKpi.util && <p className="modal-support"><strong>Utilité :</strong> {selectedKpi.util}</p>}{selectedKpi.source && <p className="modal-support"><strong>Source :</strong> {selectedKpi.source}</p>}<div className={`catalogue-badge ${selectedKpi.statut}`}>{selectedKpi.statut === "ok" ? "Calculé" : selectedKpi.statut === "warn" ? "Donnée externe" : "À collecter"}</div></div></div>}
+      {selectedKpi && <div className="modal-backdrop" onClick={() => setSelectedKpi(null)}><div className="kpi-modal" onClick={(e) => e.stopPropagation()}><button className="modal-close" onClick={() => setSelectedKpi(null)} aria-label="Fermer">×</button><div className="kpi-modal-id">{selectedKpi.id} · {selectedKpi.page}</div><h2>{selectedKpi.nom}</h2><div className="modal-value">{selectedKpi.valeur}</div><p><strong>Interprétation :</strong> {selectedKpi.interp || selectedKpi.desc || "Ce KPI est repris du catalogue du dépôt ou calculé de manière dérivée à partir des données des 88 sessions."}</p><p className="modal-support"><strong>Calcul / méthode :</strong> {getKpiCalculation(selectedKpi)}</p>{selectedKpi.util && <p className="modal-support"><strong>Utilité :</strong> {selectedKpi.util}</p>}{selectedKpi.source && <p className="modal-support"><strong>Source :</strong> {selectedKpi.source}</p>}<div className={`catalogue-badge ${selectedKpi.statut}`}>{selectedKpi.statut === "ok" ? "Calculé" : selectedKpi.statut === "warn" ? "Donnée externe" : "À collecter"}</div></div></div>}
     </div>
   );
 }
