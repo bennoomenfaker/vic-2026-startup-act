@@ -716,7 +716,11 @@
     "qualite": [
       "Compteur officiel et lignes détaillées conservés dans des périmètres séparés"
     ],
-    "ajournes": 0
+    "ajournes": 0,
+    "candidatures_officielles": 36,
+    "candidatures_pdf_calculees": 35,
+    "ecart_candidatures_pdf_officiel": -1,
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
   },
   "generated_at": "2026-08-22T15:45:03+00:00"
 }

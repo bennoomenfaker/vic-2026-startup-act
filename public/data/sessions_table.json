@@ -10,7 +10,10 @@
     "tauxMoyenPct": 44.04,
     "sessionsCorrigees": 88,
     "source": "Master harmonisé 85 + PDF officiels 04/2026, 05/2026, 06/2026",
-    "totalAjournes": 4
+    "totalAjournes": 4,
+    "totalCandidaturesPdfCalculees": 2997,
+    "ecartTotalPdfMoinsOfficiel": -82,
+    "candidatureMethods": "Officiel = compteur Startup Tunisia; PDF calculé = lignes détaillées − conversions − retraits − reportes; les deux séries sont affichées séparément."
   },
   "sessions": [
     {
@@ -25,7 +28,11 @@
       "statut": "Conforme",
       "entries": 14,
       "reportes": 0,
-      "ajournes": 2
+      "ajournes": 2,
+      "candidatures_officielles": 16,
+      "candidatures_pdf_calculees": 14,
+      "ecart_candidatures_pdf_officiel": -2,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "04/2019",
@@ -39,7 +46,11 @@
       "statut": "Conforme",
       "entries": 52,
       "reportes": 0,
-      "ajournes": 1
+      "ajournes": 1,
+      "candidatures_officielles": 51,
+      "candidatures_pdf_calculees": 52,
+      "ecart_candidatures_pdf_officiel": 1,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "05/2019",
@@ -53,7 +64,11 @@
       "statut": "Conforme",
       "entries": 30,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 30,
+      "candidatures_pdf_calculees": 30,
+      "ecart_candidatures_pdf_officiel": 0,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "06/2019",
@@ -67,7 +82,11 @@
       "statut": "Conforme",
       "entries": 32,
       "reportes": 0,
-      "ajournes": 1
+      "ajournes": 1,
+      "candidatures_officielles": 33,
+      "candidatures_pdf_calculees": 32,
+      "ecart_candidatures_pdf_officiel": -1,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "07/2019",
@@ -81,7 +100,11 @@
       "statut": "Conforme",
       "entries": 29,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 28,
+      "candidatures_pdf_calculees": 29,
+      "ecart_candidatures_pdf_officiel": 1,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "08/2019",
@@ -95,7 +118,11 @@
       "statut": "Conforme",
       "entries": 28,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 28,
+      "candidatures_pdf_calculees": 28,
+      "ecart_candidatures_pdf_officiel": 0,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "09/2019",
@@ -109,7 +136,11 @@
       "statut": "Conforme",
       "entries": 27,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 24,
+      "candidatures_pdf_calculees": 27,
+      "ecart_candidatures_pdf_officiel": 3,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "10/2019",
@@ -123,7 +154,11 @@
       "statut": "Conforme",
       "entries": 39,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 34,
+      "candidatures_pdf_calculees": 39,
+      "ecart_candidatures_pdf_officiel": 5,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "11/2019",
@@ -137,7 +172,11 @@
       "statut": "Conforme",
       "entries": 41,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 35,
+      "candidatures_pdf_calculees": 41,
+      "ecart_candidatures_pdf_officiel": 6,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "12/2019",
@@ -151,7 +190,11 @@
       "statut": "Conforme",
       "entries": 42,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 32,
+      "candidatures_pdf_calculees": 42,
+      "ecart_candidatures_pdf_officiel": 10,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "01/2020",
@@ -165,7 +208,11 @@
       "statut": "Conforme",
       "entries": 42,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 38,
+      "candidatures_pdf_calculees": 42,
+      "ecart_candidatures_pdf_officiel": 4,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "02/2020",
@@ -179,7 +226,11 @@
       "statut": "Reporté détecté dans les lignes détaillées",
       "entries": 41,
       "reportes": 1,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 32,
+      "candidatures_pdf_calculees": 40,
+      "ecart_candidatures_pdf_officiel": 8,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "03/2020",
@@ -193,7 +244,11 @@
       "statut": "Reporté détecté dans les lignes détaillées",
       "entries": 40,
       "reportes": 1,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 35,
+      "candidatures_pdf_calculees": 39,
+      "ecart_candidatures_pdf_officiel": 4,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "04/2020",
@@ -207,7 +262,11 @@
       "statut": "Conforme",
       "entries": 45,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 40,
+      "candidatures_pdf_calculees": 44,
+      "ecart_candidatures_pdf_officiel": 4,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "05/2020",
@@ -221,7 +280,11 @@
       "statut": "Conforme",
       "entries": 32,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 26,
+      "candidatures_pdf_calculees": 31,
+      "ecart_candidatures_pdf_officiel": 5,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "06/2020",
@@ -235,7 +298,11 @@
       "statut": "Conforme",
       "entries": 30,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 26,
+      "candidatures_pdf_calculees": 30,
+      "ecart_candidatures_pdf_officiel": 4,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "07/2020",
@@ -249,7 +316,11 @@
       "statut": "Conforme",
       "entries": 51,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 40,
+      "candidatures_pdf_calculees": 49,
+      "ecart_candidatures_pdf_officiel": 9,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "08/2020",
@@ -263,7 +334,11 @@
       "statut": "Conforme",
       "entries": 34,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 28,
+      "candidatures_pdf_calculees": 34,
+      "ecart_candidatures_pdf_officiel": 6,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "09/2020",
@@ -277,7 +352,11 @@
       "statut": "Conforme",
       "entries": 23,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 24,
+      "candidatures_pdf_calculees": 18,
+      "ecart_candidatures_pdf_officiel": -6,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "10/2020",
@@ -291,7 +370,11 @@
       "statut": "Conforme",
       "entries": 24,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 41,
+      "candidatures_pdf_calculees": 23,
+      "ecart_candidatures_pdf_officiel": -18,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "11/2020",
@@ -305,7 +388,11 @@
       "statut": "Conforme",
       "entries": 40,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 41,
+      "candidatures_pdf_calculees": 39,
+      "ecart_candidatures_pdf_officiel": -2,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "12/2020",
@@ -319,7 +406,11 @@
       "statut": "Conforme",
       "entries": 36,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 36,
+      "candidatures_pdf_calculees": 36,
+      "ecart_candidatures_pdf_officiel": 0,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "01/2021",
@@ -333,7 +424,11 @@
       "statut": "Conforme",
       "entries": 36,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 36,
+      "candidatures_pdf_calculees": 36,
+      "ecart_candidatures_pdf_officiel": 0,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "02/2021",
@@ -347,7 +442,11 @@
       "statut": "Conforme",
       "entries": 48,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 41,
+      "candidatures_pdf_calculees": 41,
+      "ecart_candidatures_pdf_officiel": 0,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "03/2021",
@@ -361,7 +460,11 @@
       "statut": "Conforme",
       "entries": 56,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 41,
+      "candidatures_pdf_calculees": 41,
+      "ecart_candidatures_pdf_officiel": 0,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "04/2021",
@@ -375,7 +478,11 @@
       "statut": "Conforme",
       "entries": 81,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 80,
+      "candidatures_pdf_calculees": 80,
+      "ecart_candidatures_pdf_officiel": 0,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "05/2021",
@@ -389,7 +496,11 @@
       "statut": "Conforme",
       "entries": 47,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 40,
+      "candidatures_pdf_calculees": 40,
+      "ecart_candidatures_pdf_officiel": 0,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "06/2021",
@@ -403,7 +514,11 @@
       "statut": "Conforme",
       "entries": 47,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 41,
+      "candidatures_pdf_calculees": 40,
+      "ecart_candidatures_pdf_officiel": -1,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "07/2021",
@@ -417,7 +532,11 @@
       "statut": "Reporté détecté dans les lignes détaillées",
       "entries": 50,
       "reportes": 1,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 40,
+      "candidatures_pdf_calculees": 38,
+      "ecart_candidatures_pdf_officiel": -2,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "08/2021",
@@ -431,7 +550,11 @@
       "statut": "Conforme",
       "entries": 33,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 25,
+      "candidatures_pdf_calculees": 25,
+      "ecart_candidatures_pdf_officiel": 0,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "09/2021",
@@ -445,7 +568,11 @@
       "statut": "Conforme",
       "entries": 38,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 15,
+      "candidatures_pdf_calculees": 25,
+      "ecart_candidatures_pdf_officiel": 10,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "10/2021",
@@ -459,7 +586,11 @@
       "statut": "Conforme",
       "entries": 49,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 41,
+      "candidatures_pdf_calculees": 41,
+      "ecart_candidatures_pdf_officiel": 0,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "11/2021",
@@ -473,7 +604,11 @@
       "statut": "Conforme",
       "entries": 47,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 40,
+      "candidatures_pdf_calculees": 40,
+      "ecart_candidatures_pdf_officiel": 0,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "12/2021",
@@ -487,7 +622,11 @@
       "statut": "Conforme",
       "entries": 51,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 38,
+      "candidatures_pdf_calculees": 26,
+      "ecart_candidatures_pdf_officiel": -12,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "01/2022",
@@ -501,7 +640,11 @@
       "statut": "Conforme",
       "entries": 46,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 38,
+      "candidatures_pdf_calculees": 36,
+      "ecart_candidatures_pdf_officiel": -2,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "02/2022",
@@ -515,7 +658,11 @@
       "statut": "Conforme",
       "entries": 22,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 18,
+      "candidatures_pdf_calculees": 18,
+      "ecart_candidatures_pdf_officiel": 0,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "03/2022",
@@ -529,7 +676,11 @@
       "statut": "Conforme",
       "entries": 30,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 21,
+      "candidatures_pdf_calculees": 21,
+      "ecart_candidatures_pdf_officiel": 0,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "04/2022",
@@ -543,7 +694,11 @@
       "statut": "Conforme",
       "entries": 27,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 22,
+      "candidatures_pdf_calculees": 22,
+      "ecart_candidatures_pdf_officiel": 0,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "05/2022",
@@ -557,7 +712,11 @@
       "statut": "Conforme",
       "entries": 49,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 41,
+      "candidatures_pdf_calculees": 41,
+      "ecart_candidatures_pdf_officiel": 0,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "06/2022",
@@ -571,7 +730,11 @@
       "statut": "Conforme",
       "entries": 46,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 40,
+      "candidatures_pdf_calculees": 40,
+      "ecart_candidatures_pdf_officiel": 0,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "07/2022",
@@ -585,7 +748,11 @@
       "statut": "Conforme",
       "entries": 45,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 40,
+      "candidatures_pdf_calculees": 40,
+      "ecart_candidatures_pdf_officiel": 0,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "08/2022",
@@ -599,7 +766,11 @@
       "statut": "Conforme",
       "entries": 44,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 36,
+      "candidatures_pdf_calculees": 36,
+      "ecart_candidatures_pdf_officiel": 0,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "09/2022",
@@ -613,7 +784,11 @@
       "statut": "Conforme",
       "entries": 49,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 40,
+      "candidatures_pdf_calculees": 40,
+      "ecart_candidatures_pdf_officiel": 0,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "10/2022",
@@ -627,7 +802,11 @@
       "statut": "Conforme",
       "entries": 45,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 38,
+      "candidatures_pdf_calculees": 38,
+      "ecart_candidatures_pdf_officiel": 0,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "11/2022",
@@ -641,7 +820,11 @@
       "statut": "Conforme",
       "entries": 42,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 34,
+      "candidatures_pdf_calculees": 34,
+      "ecart_candidatures_pdf_officiel": 0,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "12/2022",
@@ -655,7 +838,11 @@
       "statut": "Conforme",
       "entries": 39,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 30,
+      "candidatures_pdf_calculees": 30,
+      "ecart_candidatures_pdf_officiel": 0,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "01/2023",
@@ -669,7 +856,11 @@
       "statut": "Conforme",
       "entries": 38,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 26,
+      "candidatures_pdf_calculees": 26,
+      "ecart_candidatures_pdf_officiel": 0,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "02/2023",
@@ -683,7 +874,11 @@
       "statut": "Conforme",
       "entries": 42,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 33,
+      "candidatures_pdf_calculees": 33,
+      "ecart_candidatures_pdf_officiel": 0,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "03/2023",
@@ -697,7 +892,11 @@
       "statut": "Conforme",
       "entries": 42,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 37,
+      "candidatures_pdf_calculees": 37,
+      "ecart_candidatures_pdf_officiel": 0,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "04/2023",
@@ -711,7 +910,11 @@
       "statut": "Conforme",
       "entries": 40,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 40,
+      "candidatures_pdf_calculees": 40,
+      "ecart_candidatures_pdf_officiel": 0,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "05/2023",
@@ -725,7 +928,11 @@
       "statut": "Conforme",
       "entries": 45,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 39,
+      "candidatures_pdf_calculees": 39,
+      "ecart_candidatures_pdf_officiel": 0,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "06/2023",
@@ -739,7 +946,11 @@
       "statut": "Conforme",
       "entries": 34,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 28,
+      "candidatures_pdf_calculees": 28,
+      "ecart_candidatures_pdf_officiel": 0,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "07/2023",
@@ -753,7 +964,11 @@
       "statut": "Conforme",
       "entries": 42,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 33,
+      "candidatures_pdf_calculees": 31,
+      "ecart_candidatures_pdf_officiel": -2,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "08/2023",
@@ -767,7 +982,11 @@
       "statut": "Conforme",
       "entries": 33,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 26,
+      "candidatures_pdf_calculees": 26,
+      "ecart_candidatures_pdf_officiel": 0,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "09/2023",
@@ -781,7 +1000,11 @@
       "statut": "Conforme",
       "entries": 41,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 33,
+      "candidatures_pdf_calculees": 32,
+      "ecart_candidatures_pdf_officiel": -1,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "10/2023",
@@ -795,7 +1018,11 @@
       "statut": "Conforme",
       "entries": 31,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 31,
+      "candidatures_pdf_calculees": 27,
+      "ecart_candidatures_pdf_officiel": -4,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "11/2023",
@@ -809,7 +1036,11 @@
       "statut": "Conforme",
       "entries": 38,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 30,
+      "candidatures_pdf_calculees": 24,
+      "ecart_candidatures_pdf_officiel": -6,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "12/2023",
@@ -823,7 +1054,11 @@
       "statut": "Conforme",
       "entries": 43,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 39,
+      "candidatures_pdf_calculees": 39,
+      "ecart_candidatures_pdf_officiel": 0,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "01/2024",
@@ -837,7 +1072,11 @@
       "statut": "Conforme",
       "entries": 36,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 33,
+      "candidatures_pdf_calculees": 27,
+      "ecart_candidatures_pdf_officiel": -6,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "02/2024",
@@ -851,7 +1090,11 @@
       "statut": "Conforme",
       "entries": 33,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 33,
+      "candidatures_pdf_calculees": 30,
+      "ecart_candidatures_pdf_officiel": -3,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "03/2024",
@@ -865,7 +1108,11 @@
       "statut": "Conforme",
       "entries": 34,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 31,
+      "candidatures_pdf_calculees": 27,
+      "ecart_candidatures_pdf_officiel": -4,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "04/2024",
@@ -879,7 +1126,11 @@
       "statut": "Conforme",
       "entries": 42,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 39,
+      "candidatures_pdf_calculees": 35,
+      "ecart_candidatures_pdf_officiel": -4,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "05/2024",
@@ -894,7 +1145,11 @@
       "entries": 46,
       "reportes": 0,
       "ajournes": 0,
-      "decision_non_precisee": 4
+      "decision_non_precisee": 4,
+      "candidatures_officielles": 39,
+      "candidatures_pdf_calculees": 39,
+      "ecart_candidatures_pdf_officiel": 0,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "06/2024",
@@ -908,7 +1163,11 @@
       "statut": "Conforme",
       "entries": 40,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 37,
+      "candidatures_pdf_calculees": 35,
+      "ecart_candidatures_pdf_officiel": -2,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "07/2024",
@@ -922,7 +1181,11 @@
       "statut": "Conforme",
       "entries": 34,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 33,
+      "candidatures_pdf_calculees": 29,
+      "ecart_candidatures_pdf_officiel": -4,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "08/2024",
@@ -936,7 +1199,11 @@
       "statut": "Conforme",
       "entries": 39,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 37,
+      "candidatures_pdf_calculees": 33,
+      "ecart_candidatures_pdf_officiel": -4,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "09/2024",
@@ -950,7 +1217,11 @@
       "statut": "Conforme",
       "entries": 39,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 34,
+      "candidatures_pdf_calculees": 33,
+      "ecart_candidatures_pdf_officiel": -1,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "10/2024",
@@ -964,7 +1235,11 @@
       "statut": "Reporté détecté dans les lignes détaillées",
       "entries": 49,
       "reportes": 1,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 43,
+      "candidatures_pdf_calculees": 39,
+      "ecart_candidatures_pdf_officiel": -4,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "11/2024",
@@ -978,7 +1253,11 @@
       "statut": "Conforme",
       "entries": 43,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 41,
+      "candidatures_pdf_calculees": 39,
+      "ecart_candidatures_pdf_officiel": -2,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "12/2024",
@@ -992,7 +1271,11 @@
       "statut": "Conforme",
       "entries": 39,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 40,
+      "candidatures_pdf_calculees": 38,
+      "ecart_candidatures_pdf_officiel": -2,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "01/2025",
@@ -1006,7 +1289,11 @@
       "statut": "Conforme",
       "entries": 44,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 39,
+      "candidatures_pdf_calculees": 37,
+      "ecart_candidatures_pdf_officiel": -2,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "02/2025",
@@ -1020,7 +1307,11 @@
       "statut": "Conforme",
       "entries": 45,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 41,
+      "candidatures_pdf_calculees": 37,
+      "ecart_candidatures_pdf_officiel": -4,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "03/2025",
@@ -1034,7 +1325,11 @@
       "statut": "Conforme",
       "entries": 21,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 21,
+      "candidatures_pdf_calculees": 20,
+      "ecart_candidatures_pdf_officiel": -1,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "04/2025",
@@ -1048,7 +1343,11 @@
       "statut": "Conforme",
       "entries": 27,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 21,
+      "candidatures_pdf_calculees": 12,
+      "ecart_candidatures_pdf_officiel": -9,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "05/2025",
@@ -1062,7 +1361,11 @@
       "statut": "Conforme",
       "entries": 50,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 47,
+      "candidatures_pdf_calculees": 46,
+      "ecart_candidatures_pdf_officiel": -1,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "06/2025",
@@ -1076,7 +1379,11 @@
       "statut": "Conforme",
       "entries": 41,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 36,
+      "candidatures_pdf_calculees": 35,
+      "ecart_candidatures_pdf_officiel": -1,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "07/2025",
@@ -1090,7 +1397,11 @@
       "statut": "Conforme",
       "entries": 34,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 29,
+      "candidatures_pdf_calculees": 23,
+      "ecart_candidatures_pdf_officiel": -6,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "08/2025",
@@ -1104,7 +1415,11 @@
       "statut": "Conforme",
       "entries": 50,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 41,
+      "candidatures_pdf_calculees": 37,
+      "ecart_candidatures_pdf_officiel": -4,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "09/2025",
@@ -1118,7 +1433,11 @@
       "statut": "Conforme",
       "entries": 31,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 25,
+      "candidatures_pdf_calculees": 21,
+      "ecart_candidatures_pdf_officiel": -4,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "10/2025",
@@ -1132,7 +1451,11 @@
       "statut": "Conforme",
       "entries": 51,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 41,
+      "candidatures_pdf_calculees": 38,
+      "ecart_candidatures_pdf_officiel": -3,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "11/2025",
@@ -1146,7 +1469,11 @@
       "statut": "Conforme",
       "entries": 47,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 39,
+      "candidatures_pdf_calculees": 37,
+      "ecart_candidatures_pdf_officiel": -2,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "12/2025",
@@ -1160,7 +1487,11 @@
       "statut": "Conforme",
       "entries": 51,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 41,
+      "candidatures_pdf_calculees": 36,
+      "ecart_candidatures_pdf_officiel": -5,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "01/2026",
@@ -1174,7 +1505,11 @@
       "statut": "Conforme",
       "entries": 37,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 31,
+      "candidatures_pdf_calculees": 25,
+      "ecart_candidatures_pdf_officiel": -6,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "02/2026",
@@ -1188,7 +1523,11 @@
       "statut": "Conforme",
       "entries": 39,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 36,
+      "candidatures_pdf_calculees": 34,
+      "ecart_candidatures_pdf_officiel": -2,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "03/2026",
@@ -1202,7 +1541,11 @@
       "statut": "Conforme",
       "entries": 44,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 41,
+      "candidatures_pdf_calculees": 35,
+      "ecart_candidatures_pdf_officiel": -6,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "04/2026",
@@ -1216,7 +1559,11 @@
       "statut": "Conforme",
       "entries": 47,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 41,
+      "candidatures_pdf_calculees": 38,
+      "ecart_candidatures_pdf_officiel": -3,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "05/2026",
@@ -1230,7 +1577,11 @@
       "statut": "Conforme",
       "entries": 42,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 40,
+      "candidatures_pdf_calculees": 34,
+      "ecart_candidatures_pdf_officiel": -6,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     },
     {
       "session": "06/2026",
@@ -1244,7 +1595,11 @@
       "statut": "Conforme",
       "entries": 45,
       "reportes": 0,
-      "ajournes": 0
+      "ajournes": 0,
+      "candidatures_officielles": 40,
+      "candidatures_pdf_calculees": 38,
+      "ecart_candidatures_pdf_officiel": -2,
+      "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes"
     }
   ]
 }
