@@ -1439,6 +1439,23 @@
       <strong>📌 Contexte :</strong> le tableau <code>/sessions</code> de <code>startup.gov.tn</code> présentait des divergences historiques sur certains labels et prélabels. Les données ont été ré-extraites des <strong>PDF officiels</strong> (<code>public/data/session-pdfs/</code>) par un parseur positionnel (v7), puis auditées indépendamment et vérifiées manuellement. Le corpus final couvre <strong>88 sessions</strong>.
     </div>
 
+    <!-- AUDIT EXTERNE — rappel de style : registre civique, transparence des unités et aucune égalisation artificielle des séries. -->
+    <div class="summary-box" style="margin-bottom:20px;border:1px solid #bfdbfe;border-left:5px solid #2563eb;background:#eff6ff">
+      <h2 style="margin:0 0 8px;color:#1e3a8a;font-size:1.12rem">Audit externe — pourquoi les compteurs divergent</h2>
+      <p style="margin:0 0 12px;color:#1e3a8a;line-height:1.6">L’audit joint a été exécuté comme contrôle indépendant à partir des extractions disponibles ; il n’a pas modifié le dépôt et n’a pas prétendu réextraire à nouveau les 88 PDF. Son résultat principal est que <strong>3&nbsp;338 candidatures n’est pas reproductible avec les sources actuellement vérifiées</strong>. Le chiffre institutionnel reproductible reste <strong>3&nbsp;079</strong>.</p>
+      <div style="overflow-x:auto"><table style="width:100%;border-collapse:collapse;font-size:.84rem;background:#fff"><thead><tr style="border-bottom:2px solid #bfdbfe"><th style="text-align:left;padding:8px;color:#1e3a8a">Série</th><th style="text-align:right;padding:8px;color:#1e3a8a">Total</th><th style="text-align:left;padding:8px;color:#1e3a8a">Ce que le total mesure</th></tr></thead><tbody>
+        <tr><td style="padding:8px"><strong>Scénario A — institutionnel</strong></td><td style="padding:8px;text-align:right;font-weight:700">3&nbsp;079</td><td style="padding:8px">Compteur officiel publié par session</td></tr>
+        <tr style="border-top:1px solid #dbeafe"><td style="padding:8px"><strong>Scénario B — lignes PDF</strong></td><td style="padding:8px;text-align:right;font-weight:700">3&nbsp;555</td><td style="padding:8px">Occurrences et décisions présentes dans les blocs PDF</td></tr>
+        <tr style="border-top:1px solid #dbeafe"><td style="padding:8px"><strong>Scénario B corrigé</strong></td><td style="padding:8px;text-align:right;font-weight:700">3&nbsp;558</td><td style="padding:8px">3&nbsp;555 lignes PDF + 3 ajournés hors PDF</td></tr>
+      </tbody></table></div>
+      <p style="margin:12px 0 0;color:#334155;font-size:.86rem;line-height:1.6"><strong>Interprétation :</strong> les 476 occurrences d’écart (`3&nbsp;555 − 3&nbsp;079`) ne sont pas 476 candidatures supplémentaires prouvées. Les conversions Prélabel → Label sont des décisions ultérieures sur un dossier, les retraits sont des événements postérieurs, et un Reporté ne doit pas être compté deux fois sans identifiant de dossier. Les ajournés hors PDF restent dans une catégorie séparée.</p>
+      <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:12px">
+        <a class="btn btn-outline" href="/data/etude_quantitative/audit_externe_startup_act_88_sessions.md" download>⬇ Rapport Markdown de l’audit</a>
+        <a class="btn btn-outline" href="/data/etude_quantitative/audit_externe_startup_act_88_sessions.pdf" target="_blank" rel="noopener">↗ Rapport PDF de l’audit</a>
+        <button class="btn btn-outline" onclick="openExternalAudit()">Lire l’analyse détaillée</button>
+      </div>
+    </div>
+
     <div class="summary-box" style="margin-bottom:20px;border:1px solid #9aa8b8;border-left:5px solid #64748b;background:#f8fafc">
       <h2 style="margin:0 0 8px;color:#334155;font-size:1.12rem">Candidatures officielles et ajournements</h2>
       <p style="margin:0 0 12px;color:#334155;line-height:1.6">Les <strong>3 079 candidatures officielles</strong> sont la référence publiée par session. Elles sont conservées séparément des lignes détaillées des PDF. La colonne <strong>Ajournés</strong> reprend les ajournés validés dans ce travail : <strong>3 dossiers au total</strong>, répartis sur deux sessions (03/2019 : 2 ; 06/2019 : 1). Le commentaire 04/2019 n’est pas retenu dans ce filtre validé faute de dossier ajourné confirmé dans le rapprochement PDF.</p>
@@ -1454,6 +1471,15 @@
       <button class="tab active" data-corrtab="compare">Tableaux comparatifs</button>
       <button class="tab" data-corrtab="detail">Détail des corrections</button>
       <button class="tab" data-corrtab="md">Rapport détaillé</button>
+      <button class="tab" data-corrtab="audit">Audit externe</button>
+    </div>
+
+    <div id="corr-audit" style="display:none">
+      <div class="chart-card" style="border-left:4px solid #2563eb">
+        <h3>Audit externe Startup Act — exécution du protocole indépendant</h3>
+        <p style="font-size:.88rem;color:#475569;line-height:1.6;margin:8px 0 14px">Cette vue reproduit le rapport fourni pour contrôle. Elle conserve les réserves de provenance : le rapport a réutilisé les extractions disponibles et ne constitue pas une nouvelle réextraction intégrale des 88 PDF. Les conclusions sont donc présentées comme un audit externe à confronter aux PDF, et non comme une vérité automatique.</p>
+        <div id="corrAuditReport"><p style="color:#64748b">Chargement de l’audit externe…</p></div>
+      </div>
     </div>
 
     <div id="corr-compare">
@@ -1594,6 +1620,18 @@
       <p style="font-size:.88rem;color:var(--text-secondary);line-height:1.6;margin:0;background:var(--danger-soft);padding:14px;border-radius:var(--radius-md);border-left:4px solid #e94560">
         <strong>Résumé.</strong> Cette étude analyse quantitativement les sessions de labellisation du Startup Act tunisien à partir de 88 sessions (2019–2026), des rapports annuels officiels et des comptes rendus PDF. Après correction, le corpus totalise <strong>1 356 Labels</strong> et <strong>641 Prélabels</strong>, soit <strong>1 997 décisions positives</strong>. Le taux de Label pondéré est de <strong>44,0 %</strong>.
       </p>
+    </div>
+
+    <!-- AUDIT EXTERNE — rappel de style : même registre civique que Corrections, avec distinction stricte des unités. -->
+    <div style="background:#eff6ff;border:1px solid #bfdbfe;border-left:5px solid #2563eb;border-radius:var(--radius-lg);padding:20px;margin-bottom:24px">
+      <h2 style="font-size:1.18rem;font-weight:700;margin:0 0 8px;color:#1e3a8a">Encadré méthodologique : le conflit 3&nbsp;079 / 3&nbsp;555 / 3&nbsp;558</h2>
+      <p style="font-size:.88rem;color:#1e3a8a;line-height:1.6;margin:0 0 10px"><strong>3&nbsp;079</strong> est le compteur institutionnel des candidatures. <strong>3&nbsp;555</strong> est le nombre de lignes/occurrences documentaires extraites des PDF. <strong>3&nbsp;558</strong> ajoute séparément les trois ajournés signalés hors PDF. Ces valeurs décrivent des unités différentes : il ne faut pas appeler 3&nbsp;558 « candidatures uniques ».</p>
+      <p style="font-size:.86rem;color:#334155;line-height:1.6;margin:0 0 10px">L’audit externe conclut également que l’hypothèse de <strong>3&nbsp;338 candidatures</strong> n’est pas reproductible avec les sources disponibles. Une conversion Prélabel → Label est une décision ultérieure sur le même dossier ; un retrait est un événement postérieur ; un Reporté décrit un parcours et ne doit pas être additionné deux fois sans identifiant.</p>
+      <div style="display:flex;gap:8px;flex-wrap:wrap">
+        <a class="btn btn-outline" href="/data/etude_quantitative/audit_externe_startup_act_88_sessions.md" download>⬇ Lire le rapport Markdown</a>
+        <a class="btn btn-outline" href="/data/etude_quantitative/audit_externe_startup_act_88_sessions.pdf" target="_blank" rel="noopener">↗ Ouvrir le rapport PDF</a>
+        <button class="btn btn-outline" onclick="switchPage('corrections');setTimeout(openExternalAudit,100)">Voir l’audit dans Corrections</button>
+      </div>
     </div>
 
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:14px;margin-bottom:28px">
@@ -4669,6 +4707,7 @@ function filterParcours(q) {
 
 // ===== CORRECTIONS =====
 const CORR_SET = {};  // session -> reason (from corrections.json)
+let externalAuditLoaded = false;
 
 function fmtTaux(e) { return e === null || e === undefined || isNaN(e) ? '-' : (+e).toFixed(4).replace(/\.?0+$/,'') + '%'; }
 
@@ -4746,10 +4785,33 @@ function renderCorrections() {
       document.getElementById('corr-compare').style.display = k === 'compare' ? '' : 'none';
       document.getElementById('corr-detail').style.display = k === 'detail' ? '' : 'none';
       document.getElementById('corr-md').style.display = k === 'md' ? '' : 'none';
+      document.getElementById('corr-audit').style.display = k === 'audit' ? '' : 'none';
+      if (k === 'audit') renderExternalAudit();
     });
   });
 
   renderCorrReport();
+}
+
+// ===== AUDIT EXTERNE (rapport fourni, lecture seule) =====
+function openExternalAudit() {
+  const tab = document.querySelector('#corrTabs [data-corrtab="audit"]');
+  if (tab) tab.click();
+}
+
+async function renderExternalAudit() {
+  const box = document.getElementById('corrAuditReport');
+  if (!box || externalAuditLoaded) return;
+  try {
+    const response = await fetch('/data/etude_quantitative/audit_externe_startup_act_88_sessions.md', { cache: 'no-store' });
+    if (!response.ok) throw new Error('HTTP ' + response.status);
+    const markdown = await response.text();
+    box.innerHTML = (typeof marked !== 'undefined') ? marked.parse(markdown) : '<pre style="white-space:pre-wrap">' + escapeHtml(markdown) + '</pre>';
+    wrapMdTables(box);
+    externalAuditLoaded = true;
+  } catch (error) {
+    box.innerHTML = '<p style="color:#b91c1c">Impossible de charger le rapport externe : ' + escapeHtml(error.message) + '. Utilisez le lien Markdown ou PDF ci-dessus.</p>';
+  }
 }
 
 // ===== RAPPORT DÉTAILLÉ (natif HTML/CSS/JS — responsive) =====
