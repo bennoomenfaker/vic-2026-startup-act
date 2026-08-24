@@ -9,9 +9,9 @@
     "conversions": 4,
     "newLabels": 8,
     "reportes": 0,
-    "entries_detaillees": 47,
+    "entries_detaillees": 50,
     "candidatures_officielles": 41,
-    "candidatures_reexamen_pdf": 47,
+    "candidatures_reexamen_pdf": 50,
     "candidatures_pdf_calculees": 41,
     "ecart_candidatures_pdf_officiel": 0,
     "taux_acceptation_pct": 29.27,
@@ -19,7 +19,8 @@
     "qualite": [
       "Volume détaillé synchronisé avec le corpus canonique PDF 88 sessions."
     ],
-    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)"
+    "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
+    "candidatures_corrigees": 50
   },
   "entries": [
     {
@@ -1008,6 +1009,69 @@
       "session_id": "S85",
       "line": 47,
       "decision_id": "S85_D0047"
+    },
+    {
+      "societe": "Mathix Academy",
+      "projet": "Non renseigné",
+      "fondateurs": "Khalil Ben Ali; Zied Ben Mansour; Zahra Ideba",
+      "decision": "Label Non Accordé au 2 ème Tour",
+      "type_label": "Label",
+      "secteur": "EdTech",
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Décision",
+      "commentaires": "Label Non Accordé au 2 ème Tour",
+      "controle_qualite": "Extraction tabulaire PDF vérifiée; ligne ajoutée après audit manuel du PDF 2026",
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "candidature",
+      "source_pdf": "session_2026_04.pdf",
+      "_displayDecision": "label_non_accorde",
+      "session": "04/2026",
+      "session_id": "S85",
+      "line": 51,
+      "decision_id": "S85_D0048"
+    },
+    {
+      "societe": "SURUS",
+      "projet": "Non renseigné",
+      "fondateurs": "Aymen Zghibi; Stefan Simon",
+      "decision": "Label Accordé au 3 ème Tour",
+      "type_label": "Label",
+      "secteur": "Transportation",
+      "tour_moment": "3ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Décision",
+      "commentaires": "Label Accordé au 3 ème Tour",
+      "controle_qualite": "Extraction tabulaire PDF vérifiée; ligne ajoutée après audit manuel du PDF 2026",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "candidature",
+      "source_pdf": "session_2026_04.pdf",
+      "_displayDecision": "label_accorde",
+      "session": "04/2026",
+      "session_id": "S85",
+      "line": 52,
+      "decision_id": "S85_D0049"
+    },
+    {
+      "societe": "Tunisia transfert",
+      "projet": "Non renseigné",
+      "fondateurs": "Ghaith Gharsalli; Haithem Gharsalli",
+      "decision": "Prélabel Non Accordé au 2 ème Tour",
+      "type_label": "Prélabel",
+      "secteur": "TravelTech",
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Décision",
+      "commentaires": "Prélabel Non Accordé au 2 ème Tour",
+      "controle_qualite": "Extraction tabulaire PDF vérifiée; ligne ajoutée après audit manuel du PDF 2026",
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "candidature",
+      "source_pdf": "session_2026_04.pdf",
+      "_displayDecision": "prelabel_non_accorde",
+      "session": "04/2026",
+      "session_id": "S85",
+      "line": 53,
+      "decision_id": "S85_D0050"
     }
   ],
   "entrees": [

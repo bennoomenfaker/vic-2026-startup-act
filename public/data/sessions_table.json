@@ -4,11 +4,11 @@
     "nbSessions": 88,
     "sessionsCorrigees": 88,
     "totalCandidatures": 3079,
-    "totalCandidaturesPdfCalculees": 2993,
-    "totalCandidaturesReexamenPdf": 3555,
-    "totalCandidaturesCorrigees": 3558,
+    "totalCandidaturesPdfCalculees": 3004,
+    "totalCandidaturesReexamenPdf": 3566,
+    "totalCandidaturesCorrigees": 3569,
     "ajournesHorsPdf": 3,
-    "ecartTotalPdfMoinsOfficiel": 476,
+    "ecartTotalPdfMoinsOfficiel": 487,
     "totalLabels": 1356,
     "totalPreLabels": 641,
     "totalConversions": 404,
@@ -1986,7 +1986,7 @@
       "newLabels": 8,
       "tauxPct": 29.27,
       "statut": "Conforme",
-      "entries": 47,
+      "entries": 50,
       "reportes": 0,
       "session_id": "S85",
       "ajournes": 0,
@@ -1994,10 +1994,11 @@
       "candidatures_pdf_calculees": 38,
       "ecart_candidatures_pdf_officiel": -3,
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
-      "candidatures_reexamen_pdf": 47,
+      "candidatures_reexamen_pdf": 50,
       "ajournes_hors_lignes_reexamen": 0,
       "ajournes_hors_pdf": 0,
-      "candidatures_corrigees": 47
+      "candidatures_corrigees": 50,
+      "entries_detaillees": 50
     },
     {
       "session": "05/2026",
@@ -2009,7 +2010,7 @@
       "newLabels": 8,
       "tauxPct": 32.5,
       "statut": "Conforme",
-      "entries": 42,
+      "entries": 48,
       "reportes": 0,
       "session_id": "S86",
       "ajournes": 0,
@@ -2017,10 +2018,11 @@
       "candidatures_pdf_calculees": 34,
       "ecart_candidatures_pdf_officiel": -6,
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
-      "candidatures_reexamen_pdf": 42,
+      "candidatures_reexamen_pdf": 48,
       "ajournes_hors_lignes_reexamen": 0,
       "ajournes_hors_pdf": 0,
-      "candidatures_corrigees": 42
+      "candidatures_corrigees": 48,
+      "entries_detaillees": 48
     },
     {
       "session": "06/2026",
@@ -2032,7 +2034,7 @@
       "newLabels": 3,
       "tauxPct": 17.5,
       "statut": "Conforme",
-      "entries": 45,
+      "entries": 47,
       "reportes": 0,
       "session_id": "S87",
       "ajournes": 0,
@@ -2040,10 +2042,11 @@
       "candidatures_pdf_calculees": 38,
       "ecart_candidatures_pdf_officiel": -2,
       "formule_candidatures_pdf": "lignes_pdf − conversions − retraits − reportes (indicateur auxiliaire; ne remplace pas le compteur officiel)",
-      "candidatures_reexamen_pdf": 45,
+      "candidatures_reexamen_pdf": 47,
       "ajournes_hors_lignes_reexamen": 0,
       "ajournes_hors_pdf": 0,
-      "candidatures_corrigees": 45
+      "candidatures_corrigees": 47,
+      "entries_detaillees": 47
     }
   ]
 }

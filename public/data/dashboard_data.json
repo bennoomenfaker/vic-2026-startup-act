@@ -33,19 +33,19 @@
     "totalPreLabels": 641,
     "totalSessions": 88,
     "sessions": 88,
-    "detailedEntries": 3555,
-    "dataNote": "3 558 candidatures corrigées = 3 555 lignes PDF + 3 ajournés hors PDF ; 3 079 candidatures officielles conservées séparément.",
+    "detailedEntries": 3566,
+    "dataNote": "3 569 candidatures corrigées = 3 566 lignes PDF + 3 ajournés hors PDF ; 3 079 candidatures officielles conservées séparément.",
     "totalCandidaturesOfficielles": 3079,
     "totalLabelsOfficiels": 1356,
     "totalPreLabelsOfficiels": 641,
-    "totalCandidaturesCorrigees": 3558,
+    "totalCandidaturesCorrigees": 3569,
     "totalLabelsCorriges": 1343,
     "totalPreLabelsCorriges": 647,
-    "totalLignesPdf": 3555,
-    "totalLabelsPdfDetail": 1232,
-    "totalPreLabelsPdfDetail": 634,
+    "totalLignesPdf": 3566,
+    "totalLabelsPdfDetail": 1233,
+    "totalPreLabelsPdfDetail": 1622,
     "totalReportesPdf": 5,
-    "correctedCandidatures": 3558,
+    "correctedCandidatures": 3569,
     "ajournesHorsPdf": 3
   },
   "sessions": [
@@ -2625,7 +2625,7 @@
       "newLabels": 8,
       "tauxPct": 29.27,
       "statut": "Conforme",
-      "entries": 47,
+      "entries": 50,
       "reportes": 0,
       "session_id": "S85",
       "detailedEntries": 47,
@@ -2644,7 +2644,10 @@
         "Prélabel non accordé": 15,
         "Retrait Label": 5
       },
-      "ajournesHorsPdf": 0
+      "ajournesHorsPdf": 0,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "session": "05/2026",
@@ -2656,7 +2659,7 @@
       "newLabels": 8,
       "tauxPct": 32.5,
       "statut": "Conforme",
-      "entries": 42,
+      "entries": 48,
       "reportes": 0,
       "session_id": "S86",
       "detailedEntries": 42,
@@ -2675,7 +2678,10 @@
         "Prélabel non accordé": 6,
         "Retrait Label": 3
       },
-      "ajournesHorsPdf": 0
+      "ajournesHorsPdf": 0,
+      "entries_detaillees": 48,
+      "candidatures_reexamen_pdf": 48,
+      "candidatures_corrigees": 48
     },
     {
       "session": "06/2026",
@@ -2687,7 +2693,7 @@
       "newLabels": 3,
       "tauxPct": 17.5,
       "statut": "Conforme",
-      "entries": 45,
+      "entries": 47,
       "reportes": 0,
       "session_id": "S87",
       "detailedEntries": 45,
@@ -2706,7 +2712,10 @@
         "Prélabel non accordé": 10,
         "Retrait Label": 3
       },
-      "ajournesHorsPdf": 0
+      "ajournesHorsPdf": 0,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     }
   ],
   "yearly": [
@@ -85106,7 +85115,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 1,
-      "decision_id": "S85_D0001"
+      "decision_id": "S85_D0001",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "MyLabSkills",
@@ -85127,7 +85140,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 2,
-      "decision_id": "S85_D0002"
+      "decision_id": "S85_D0002",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "WiHelp",
@@ -85148,7 +85165,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 3,
-      "decision_id": "S85_D0003"
+      "decision_id": "S85_D0003",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "YesCodi",
@@ -85169,7 +85190,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 4,
-      "decision_id": "S85_D0004"
+      "decision_id": "S85_D0004",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "Chimie Verte",
@@ -85190,7 +85215,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 5,
-      "decision_id": "S85_D0005"
+      "decision_id": "S85_D0005",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "PolstarAI",
@@ -85211,7 +85240,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 6,
-      "decision_id": "S85_D0006"
+      "decision_id": "S85_D0006",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "agri résilience",
@@ -85232,7 +85265,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 7,
-      "decision_id": "S85_D0007"
+      "decision_id": "S85_D0007",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "Chabaqa",
@@ -85253,7 +85290,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 8,
-      "decision_id": "S85_D0008"
+      "decision_id": "S85_D0008",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "EUKLYDIA",
@@ -85274,7 +85315,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 9,
-      "decision_id": "S85_D0009"
+      "decision_id": "S85_D0009",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "TransitTN",
@@ -85295,7 +85340,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 10,
-      "decision_id": "S85_D0010"
+      "decision_id": "S85_D0010",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "Qvision",
@@ -85316,7 +85365,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 11,
-      "decision_id": "S85_D0011"
+      "decision_id": "S85_D0011",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "Houny",
@@ -85337,7 +85390,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 12,
-      "decision_id": "S85_D0012"
+      "decision_id": "S85_D0012",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "Alhazen AI",
@@ -85358,7 +85415,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 13,
-      "decision_id": "S85_D0013"
+      "decision_id": "S85_D0013",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "Ask Tanit",
@@ -85379,7 +85440,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 14,
-      "decision_id": "S85_D0014"
+      "decision_id": "S85_D0014",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "Roots Care Cubes",
@@ -85400,7 +85465,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 15,
-      "decision_id": "S85_D0015"
+      "decision_id": "S85_D0015",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "moujib.com",
@@ -85421,7 +85490,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 16,
-      "decision_id": "S85_D0016"
+      "decision_id": "S85_D0016",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "Twee Ai",
@@ -85442,7 +85515,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 17,
-      "decision_id": "S85_D0017"
+      "decision_id": "S85_D0017",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "AL RAZI AI",
@@ -85463,7 +85540,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 18,
-      "decision_id": "S85_D0018"
+      "decision_id": "S85_D0018",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "Talent Verse",
@@ -85484,7 +85565,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 19,
-      "decision_id": "S85_D0019"
+      "decision_id": "S85_D0019",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "société VISENIOUS SUARL",
@@ -85505,7 +85590,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 20,
-      "decision_id": "S85_D0020"
+      "decision_id": "S85_D0020",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "MedSyn",
@@ -85526,7 +85615,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 21,
-      "decision_id": "S85_D0021"
+      "decision_id": "S85_D0021",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "Discounts",
@@ -85547,7 +85640,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 22,
-      "decision_id": "S85_D0022"
+      "decision_id": "S85_D0022",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "Hotelgenius.app",
@@ -85568,7 +85665,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 23,
-      "decision_id": "S85_D0023"
+      "decision_id": "S85_D0023",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "eco green watering / eco xtreme",
@@ -85589,7 +85690,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 24,
-      "decision_id": "S85_D0024"
+      "decision_id": "S85_D0024",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "Tshopily",
@@ -85610,7 +85715,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 25,
-      "decision_id": "S85_D0025"
+      "decision_id": "S85_D0025",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "PARPECO",
@@ -85631,7 +85740,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 26,
-      "decision_id": "S85_D0026"
+      "decision_id": "S85_D0026",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "DIGIMY",
@@ -85652,7 +85765,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 27,
-      "decision_id": "S85_D0027"
+      "decision_id": "S85_D0027",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "TUTLAYT TRANSLATIONS",
@@ -85673,7 +85790,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 28,
-      "decision_id": "S85_D0028"
+      "decision_id": "S85_D0028",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "Terraconnect",
@@ -85694,7 +85815,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 29,
-      "decision_id": "S85_D0029"
+      "decision_id": "S85_D0029",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "EcomEyes",
@@ -85715,7 +85840,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 30,
-      "decision_id": "S85_D0030"
+      "decision_id": "S85_D0030",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "Omni Links",
@@ -85736,7 +85865,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 31,
-      "decision_id": "S85_D0031"
+      "decision_id": "S85_D0031",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "SMARTCO",
@@ -85757,7 +85890,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 32,
-      "decision_id": "S85_D0032"
+      "decision_id": "S85_D0032",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "360TN",
@@ -85778,7 +85915,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 33,
-      "decision_id": "S85_D0033"
+      "decision_id": "S85_D0033",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "FitoGramme",
@@ -85799,7 +85940,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 34,
-      "decision_id": "S85_D0034"
+      "decision_id": "S85_D0034",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "Meta Health",
@@ -85820,7 +85965,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 35,
-      "decision_id": "S85_D0035"
+      "decision_id": "S85_D0035",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "Noqlah",
@@ -85841,7 +85990,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 36,
-      "decision_id": "S85_D0036"
+      "decision_id": "S85_D0036",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "SmartGEO",
@@ -85862,7 +86015,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 37,
-      "decision_id": "S85_D0037"
+      "decision_id": "S85_D0037",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "Proovlab",
@@ -85883,7 +86040,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 38,
-      "decision_id": "S85_D0038"
+      "decision_id": "S85_D0038",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "History Connexion",
@@ -85904,7 +86065,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 39,
-      "decision_id": "S85_D0039"
+      "decision_id": "S85_D0039",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "Clubedge Digital Systems",
@@ -85925,7 +86090,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 40,
-      "decision_id": "S85_D0040"
+      "decision_id": "S85_D0040",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "COLEA AgriTech",
@@ -85946,7 +86115,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 41,
-      "decision_id": "S85_D0041"
+      "decision_id": "S85_D0041",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "Absher AI",
@@ -85967,7 +86140,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 42,
-      "decision_id": "S85_D0042"
+      "decision_id": "S85_D0042",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "Wattnow",
@@ -85988,7 +86165,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 43,
-      "decision_id": "S85_D0043"
+      "decision_id": "S85_D0043",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "DATAERA",
@@ -86009,7 +86190,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 44,
-      "decision_id": "S85_D0044"
+      "decision_id": "S85_D0044",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "Tunisian Online Teachers",
@@ -86030,7 +86215,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 45,
-      "decision_id": "S85_D0045"
+      "decision_id": "S85_D0045",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "Beauté privée",
@@ -86051,7 +86240,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 46,
-      "decision_id": "S85_D0046"
+      "decision_id": "S85_D0046",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "DeVolution",
@@ -86072,7 +86265,11 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 47,
-      "decision_id": "S85_D0047"
+      "decision_id": "S85_D0047",
+      "entries": 50,
+      "entries_detaillees": 50,
+      "candidatures_reexamen_pdf": 50,
+      "candidatures_corrigees": 50
     },
     {
       "societe": "AL idhafa",
@@ -86093,7 +86290,11 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 1,
-      "decision_id": "S86_D0001"
+      "decision_id": "S86_D0001",
+      "entries": 48,
+      "entries_detaillees": 48,
+      "candidatures_reexamen_pdf": 48,
+      "candidatures_corrigees": 48
     },
     {
       "societe": "Ansab ب سنأ",
@@ -86114,7 +86315,11 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 2,
-      "decision_id": "S86_D0002"
+      "decision_id": "S86_D0002",
+      "entries": 48,
+      "entries_detaillees": 48,
+      "candidatures_reexamen_pdf": 48,
+      "candidatures_corrigees": 48
     },
     {
       "societe": "Biopot",
@@ -86135,7 +86340,11 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 3,
-      "decision_id": "S86_D0003"
+      "decision_id": "S86_D0003",
+      "entries": 48,
+      "entries_detaillees": 48,
+      "candidatures_reexamen_pdf": 48,
+      "candidatures_corrigees": 48
     },
     {
       "societe": "neptune.tn",
@@ -86156,7 +86365,11 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 4,
-      "decision_id": "S86_D0004"
+      "decision_id": "S86_D0004",
+      "entries": 48,
+      "entries_detaillees": 48,
+      "candidatures_reexamen_pdf": 48,
+      "candidatures_corrigees": 48
     },
     {
       "societe": "Ontej",
@@ -86177,7 +86390,11 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 5,
-      "decision_id": "S86_D0005"
+      "decision_id": "S86_D0005",
+      "entries": 48,
+      "entries_detaillees": 48,
+      "candidatures_reexamen_pdf": 48,
+      "candidatures_corrigees": 48
     },
     {
       "societe": "Brimind",
@@ -86198,7 +86415,11 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 6,
-      "decision_id": "S86_D0006"
+      "decision_id": "S86_D0006",
+      "entries": 48,
+      "entries_detaillees": 48,
+      "candidatures_reexamen_pdf": 48,
+      "candidatures_corrigees": 48
     },
     {
       "societe": "Estateboost",
@@ -86219,7 +86440,11 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 7,
-      "decision_id": "S86_D0007"
+      "decision_id": "S86_D0007",
+      "entries": 48,
+      "entries_detaillees": 48,
+      "candidatures_reexamen_pdf": 48,
+      "candidatures_corrigees": 48
     },
     {
       "societe": "OKGO",
@@ -86240,7 +86465,11 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 8,
-      "decision_id": "S86_D0008"
+      "decision_id": "S86_D0008",
+      "entries": 48,
+      "entries_detaillees": 48,
+      "candidatures_reexamen_pdf": 48,
+      "candidatures_corrigees": 48
     },
     {
       "societe": "Sidekick4All ONETEEM Tunisia SUARL",
@@ -86261,7 +86490,11 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 9,
-      "decision_id": "S86_D0009"
+      "decision_id": "S86_D0009",
+      "entries": 48,
+      "entries_detaillees": 48,
+      "candidatures_reexamen_pdf": 48,
+      "candidatures_corrigees": 48
     },
     {
       "societe": "Legatio Technologies",
@@ -86282,7 +86515,11 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 10,
-      "decision_id": "S86_D0010"
+      "decision_id": "S86_D0010",
+      "entries": 48,
+      "entries_detaillees": 48,
+      "candidatures_reexamen_pdf": 48,
+      "candidatures_corrigees": 48
     },
     {
       "societe": "INOVENTIS",
@@ -86303,7 +86540,11 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 11,
-      "decision_id": "S86_D0011"
+      "decision_id": "S86_D0011",
+      "entries": 48,
+      "entries_detaillees": 48,
+      "candidatures_reexamen_pdf": 48,
+      "candidatures_corrigees": 48
     },
     {
       "societe": "PLATEFORME AUTOMOBILE INTELLIGENTE",
@@ -86324,7 +86565,11 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 12,
-      "decision_id": "S86_D0012"
+      "decision_id": "S86_D0012",
+      "entries": 48,
+      "entries_detaillees": 48,
+      "candidatures_reexamen_pdf": 48,
+      "candidatures_corrigees": 48
     },
     {
       "societe": "Qodecheck",
@@ -86345,7 +86590,11 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 13,
-      "decision_id": "S86_D0013"
+      "decision_id": "S86_D0013",
+      "entries": 48,
+      "entries_detaillees": 48,
+      "candidatures_reexamen_pdf": 48,
+      "candidatures_corrigees": 48
     },
     {
       "societe": "TaskWise AI",
@@ -86366,7 +86615,11 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 14,
-      "decision_id": "S86_D0014"
+      "decision_id": "S86_D0014",
+      "entries": 48,
+      "entries_detaillees": 48,
+      "candidatures_reexamen_pdf": 48,
+      "candidatures_corrigees": 48
     },
     {
       "societe": "ThreeRust Engine",
@@ -86387,7 +86640,11 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 15,
-      "decision_id": "S86_D0015"
+      "decision_id": "S86_D0015",
+      "entries": 48,
+      "entries_detaillees": 48,
+      "candidatures_reexamen_pdf": 48,
+      "candidatures_corrigees": 48
     },
     {
       "societe": "Tunisie Freelance",
@@ -86408,7 +86665,11 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 16,
-      "decision_id": "S86_D0016"
+      "decision_id": "S86_D0016",
+      "entries": 48,
+      "entries_detaillees": 48,
+      "candidatures_reexamen_pdf": 48,
+      "candidatures_corrigees": 48
     },
     {
       "societe": "cleanoov",
@@ -86429,7 +86690,11 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 17,
-      "decision_id": "S86_D0017"
+      "decision_id": "S86_D0017",
+      "entries": 48,
+      "entries_detaillees": 48,
+      "candidatures_reexamen_pdf": 48,
+      "candidatures_corrigees": 48
     },
     {
       "societe": "BAYYOU LABS",
@@ -86450,7 +86715,11 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 18,
-      "decision_id": "S86_D0018"
+      "decision_id": "S86_D0018",
+      "entries": 48,
+      "entries_detaillees": 48,
+      "candidatures_reexamen_pdf": 48,
+      "candidatures_corrigees": 48
     },
     {
       "societe": "YuboKits",
@@ -86471,7 +86740,11 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 19,
-      "decision_id": "S86_D0019"
+      "decision_id": "S86_D0019",
+      "entries": 48,
+      "entries_detaillees": 48,
+      "candidatures_reexamen_pdf": 48,
+      "candidatures_corrigees": 48
     },
     {
       "societe": "BlueBox Labs",
@@ -86492,7 +86765,11 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 20,
-      "decision_id": "S86_D0020"
+      "decision_id": "S86_D0020",
+      "entries": 48,
+      "entries_detaillees": 48,
+      "candidatures_reexamen_pdf": 48,
+      "candidatures_corrigees": 48
     },
     {
       "societe": "kounfit",
@@ -86513,7 +86790,11 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 21,
-      "decision_id": "S86_D0021"
+      "decision_id": "S86_D0021",
+      "entries": 48,
+      "entries_detaillees": 48,
+      "candidatures_reexamen_pdf": 48,
+      "candidatures_corrigees": 48
     },
     {
       "societe": "MOSOFTY",
@@ -86534,7 +86815,11 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 22,
-      "decision_id": "S86_D0022"
+      "decision_id": "S86_D0022",
+      "entries": 48,
+      "entries_detaillees": 48,
+      "candidatures_reexamen_pdf": 48,
+      "candidatures_corrigees": 48
     },
     {
       "societe": "Komein",
@@ -86555,7 +86840,11 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 23,
-      "decision_id": "S86_D0023"
+      "decision_id": "S86_D0023",
+      "entries": 48,
+      "entries_detaillees": 48,
+      "candidatures_reexamen_pdf": 48,
+      "candidatures_corrigees": 48
     },
     {
       "societe": "CorHexia",
@@ -86576,7 +86865,11 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 24,
-      "decision_id": "S86_D0024"
+      "decision_id": "S86_D0024",
+      "entries": 48,
+      "entries_detaillees": 48,
+      "candidatures_reexamen_pdf": 48,
+      "candidatures_corrigees": 48
     },
     {
       "societe": "Workior",
@@ -86597,7 +86890,11 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 25,
-      "decision_id": "S86_D0025"
+      "decision_id": "S86_D0025",
+      "entries": 48,
+      "entries_detaillees": 48,
+      "candidatures_reexamen_pdf": 48,
+      "candidatures_corrigees": 48
     },
     {
       "societe": "LeaCall",
@@ -86618,7 +86915,11 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 26,
-      "decision_id": "S86_D0026"
+      "decision_id": "S86_D0026",
+      "entries": 48,
+      "entries_detaillees": 48,
+      "candidatures_reexamen_pdf": 48,
+      "candidatures_corrigees": 48
     },
     {
       "societe": "SIROCCO (Jobinterview.live)",
@@ -86639,7 +86940,11 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 27,
-      "decision_id": "S86_D0027"
+      "decision_id": "S86_D0027",
+      "entries": 48,
+      "entries_detaillees": 48,
+      "candidatures_reexamen_pdf": 48,
+      "candidatures_corrigees": 48
     },
     {
       "societe": "Mariage TN",
@@ -86660,7 +86965,11 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 28,
-      "decision_id": "S86_D0028"
+      "decision_id": "S86_D0028",
+      "entries": 48,
+      "entries_detaillees": 48,
+      "candidatures_reexamen_pdf": 48,
+      "candidatures_corrigees": 48
     },
     {
       "societe": "Farness",
@@ -86681,7 +86990,11 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 29,
-      "decision_id": "S86_D0029"
+      "decision_id": "S86_D0029",
+      "entries": 48,
+      "entries_detaillees": 48,
+      "candidatures_reexamen_pdf": 48,
+      "candidatures_corrigees": 48
     },
     {
       "societe": "Revisplus",
@@ -86702,7 +87015,11 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 30,
-      "decision_id": "S86_D0030"
+      "decision_id": "S86_D0030",
+      "entries": 48,
+      "entries_detaillees": 48,
+      "candidatures_reexamen_pdf": 48,
+      "candidatures_corrigees": 48
     },
     {
       "societe": "Playfast",
@@ -86723,7 +87040,11 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 31,
-      "decision_id": "S86_D0031"
+      "decision_id": "S86_D0031",
+      "entries": 48,
+      "entries_detaillees": 48,
+      "candidatures_reexamen_pdf": 48,
+      "candidatures_corrigees": 48
     },
     {
       "societe": "DossiMed",
@@ -86744,7 +87065,11 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 32,
-      "decision_id": "S86_D0032"
+      "decision_id": "S86_D0032",
+      "entries": 48,
+      "entries_detaillees": 48,
+      "candidatures_reexamen_pdf": 48,
+      "candidatures_corrigees": 48
     },
     {
       "societe": "ALCURA",
@@ -86765,7 +87090,11 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 33,
-      "decision_id": "S86_D0033"
+      "decision_id": "S86_D0033",
+      "entries": 48,
+      "entries_detaillees": 48,
+      "candidatures_reexamen_pdf": 48,
+      "candidatures_corrigees": 48
     },
     {
       "societe": "Twelev8",
@@ -86786,7 +87115,11 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 34,
-      "decision_id": "S86_D0034"
+      "decision_id": "S86_D0034",
+      "entries": 48,
+      "entries_detaillees": 48,
+      "candidatures_reexamen_pdf": 48,
+      "candidatures_corrigees": 48
     },
     {
       "societe": "Tadbir AI",
@@ -86807,7 +87140,11 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 35,
-      "decision_id": "S86_D0035"
+      "decision_id": "S86_D0035",
+      "entries": 48,
+      "entries_detaillees": 48,
+      "candidatures_reexamen_pdf": 48,
+      "candidatures_corrigees": 48
     },
     {
       "societe": "Qubit Labs Tunis",
@@ -86828,7 +87165,11 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 36,
-      "decision_id": "S86_D0036"
+      "decision_id": "S86_D0036",
+      "entries": 48,
+      "entries_detaillees": 48,
+      "candidatures_reexamen_pdf": 48,
+      "candidatures_corrigees": 48
     },
     {
       "societe": "PARPECO",
@@ -86849,7 +87190,11 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 37,
-      "decision_id": "S86_D0037"
+      "decision_id": "S86_D0037",
+      "entries": 48,
+      "entries_detaillees": 48,
+      "candidatures_reexamen_pdf": 48,
+      "candidatures_corrigees": 48
     },
     {
       "societe": "Yes-Sir",
@@ -86870,7 +87215,11 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 38,
-      "decision_id": "S86_D0038"
+      "decision_id": "S86_D0038",
+      "entries": 48,
+      "entries_detaillees": 48,
+      "candidatures_reexamen_pdf": 48,
+      "candidatures_corrigees": 48
     },
     {
       "societe": "Freshk",
@@ -86891,7 +87240,11 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 39,
-      "decision_id": "S86_D0039"
+      "decision_id": "S86_D0039",
+      "entries": 48,
+      "entries_detaillees": 48,
+      "candidatures_reexamen_pdf": 48,
+      "candidatures_corrigees": 48
     },
     {
       "societe": "Paymee",
@@ -86912,7 +87265,11 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 40,
-      "decision_id": "S86_D0040"
+      "decision_id": "S86_D0040",
+      "entries": 48,
+      "entries_detaillees": 48,
+      "candidatures_reexamen_pdf": 48,
+      "candidatures_corrigees": 48
     },
     {
       "societe": "Odacel",
@@ -86933,7 +87290,11 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 41,
-      "decision_id": "S86_D0041"
+      "decision_id": "S86_D0041",
+      "entries": 48,
+      "entries_detaillees": 48,
+      "candidatures_reexamen_pdf": 48,
+      "candidatures_corrigees": 48
     },
     {
       "societe": "STE \"ACCENT\" ALPHA CONNECT COMPUTING FOR ENTERPRISES",
@@ -86954,7 +87315,11 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 42,
-      "decision_id": "S86_D0042"
+      "decision_id": "S86_D0042",
+      "entries": 48,
+      "entries_detaillees": 48,
+      "candidatures_reexamen_pdf": 48,
+      "candidatures_corrigees": 48
     },
     {
       "societe": "Dourou",
@@ -86975,7 +87340,11 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 1,
-      "decision_id": "S87_D0001"
+      "decision_id": "S87_D0001",
+      "entries": 47,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     },
     {
       "societe": "Athletika",
@@ -86996,7 +87365,11 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 2,
-      "decision_id": "S87_D0002"
+      "decision_id": "S87_D0002",
+      "entries": 47,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     },
     {
       "societe": "SANEOB",
@@ -87017,7 +87390,11 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 3,
-      "decision_id": "S87_D0003"
+      "decision_id": "S87_D0003",
+      "entries": 47,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     },
     {
       "societe": "DrugIT",
@@ -87038,7 +87415,11 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 4,
-      "decision_id": "S87_D0004"
+      "decision_id": "S87_D0004",
+      "entries": 47,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     },
     {
       "societe": "M2P INNOVATION",
@@ -87059,7 +87440,11 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 5,
-      "decision_id": "S87_D0005"
+      "decision_id": "S87_D0005",
+      "entries": 47,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     },
     {
       "societe": "Drive N Go Mobile Car Solutions",
@@ -87080,7 +87465,11 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 6,
-      "decision_id": "S87_D0006"
+      "decision_id": "S87_D0006",
+      "entries": 47,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     },
     {
       "societe": "IFBW",
@@ -87101,7 +87490,11 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 7,
-      "decision_id": "S87_D0007"
+      "decision_id": "S87_D0007",
+      "entries": 47,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     },
     {
       "societe": "MedCalc",
@@ -87122,7 +87515,11 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 8,
-      "decision_id": "S87_D0008"
+      "decision_id": "S87_D0008",
+      "entries": 47,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     },
     {
       "societe": "montransporteur",
@@ -87143,7 +87540,11 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 9,
-      "decision_id": "S87_D0009"
+      "decision_id": "S87_D0009",
+      "entries": 47,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     },
     {
       "societe": "BeanBack",
@@ -87164,7 +87565,11 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 10,
-      "decision_id": "S87_D0010"
+      "decision_id": "S87_D0010",
+      "entries": 47,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     },
     {
       "societe": "Imperia AI",
@@ -87185,7 +87590,11 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 11,
-      "decision_id": "S87_D0011"
+      "decision_id": "S87_D0011",
+      "entries": 47,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     },
     {
       "societe": "Ktebi Ktebek",
@@ -87206,7 +87615,11 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 12,
-      "decision_id": "S87_D0012"
+      "decision_id": "S87_D0012",
+      "entries": 47,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     },
     {
       "societe": "Fouteta",
@@ -87227,7 +87640,11 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 13,
-      "decision_id": "S87_D0013"
+      "decision_id": "S87_D0013",
+      "entries": 47,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     },
     {
       "societe": "CLEVERSCHED",
@@ -87248,7 +87665,11 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 14,
-      "decision_id": "S87_D0014"
+      "decision_id": "S87_D0014",
+      "entries": 47,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     },
     {
       "societe": "Barakeat",
@@ -87269,7 +87690,11 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 15,
-      "decision_id": "S87_D0015"
+      "decision_id": "S87_D0015",
+      "entries": 47,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     },
     {
       "societe": "Nexæra AI",
@@ -87290,7 +87715,11 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 16,
-      "decision_id": "S87_D0016"
+      "decision_id": "S87_D0016",
+      "entries": 47,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     },
     {
       "societe": "Chaima Création",
@@ -87311,7 +87740,11 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 17,
-      "decision_id": "S87_D0017"
+      "decision_id": "S87_D0017",
+      "entries": 47,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     },
     {
       "societe": "Rinpen",
@@ -87332,7 +87765,11 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 18,
-      "decision_id": "S87_D0018"
+      "decision_id": "S87_D0018",
+      "entries": 47,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     },
     {
       "societe": "MediSync",
@@ -87353,7 +87790,11 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 19,
-      "decision_id": "S87_D0019"
+      "decision_id": "S87_D0019",
+      "entries": 47,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     },
     {
       "societe": "SAVE YOUR ENERGY",
@@ -87374,7 +87815,11 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 20,
-      "decision_id": "S87_D0020"
+      "decision_id": "S87_D0020",
+      "entries": 47,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     },
     {
       "societe": "Integrated Robotics & Intelligent Systems (IRIS)",
@@ -87395,7 +87840,11 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 21,
-      "decision_id": "S87_D0021"
+      "decision_id": "S87_D0021",
+      "entries": 47,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     },
     {
       "societe": "BE THE BOSS ACADEMY",
@@ -87416,7 +87865,11 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 22,
-      "decision_id": "S87_D0022"
+      "decision_id": "S87_D0022",
+      "entries": 47,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     },
     {
       "societe": "Tundata",
@@ -87437,7 +87890,11 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 23,
-      "decision_id": "S87_D0023"
+      "decision_id": "S87_D0023",
+      "entries": 47,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     },
     {
       "societe": "Kruzr",
@@ -87458,7 +87915,11 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 24,
-      "decision_id": "S87_D0024"
+      "decision_id": "S87_D0024",
+      "entries": 47,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     },
     {
       "societe": "OrdoScope",
@@ -87479,7 +87940,11 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 25,
-      "decision_id": "S87_D0025"
+      "decision_id": "S87_D0025",
+      "entries": 47,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     },
     {
       "societe": "ARTCHAD",
@@ -87500,7 +87965,11 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 26,
-      "decision_id": "S87_D0026"
+      "decision_id": "S87_D0026",
+      "entries": 47,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     },
     {
       "societe": "smartbook.tn",
@@ -87521,7 +87990,11 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 27,
-      "decision_id": "S87_D0027"
+      "decision_id": "S87_D0027",
+      "entries": 47,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     },
     {
       "societe": "CARBOLIA",
@@ -87542,7 +88015,11 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 28,
-      "decision_id": "S87_D0028"
+      "decision_id": "S87_D0028",
+      "entries": 47,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     },
     {
       "societe": "Tikana",
@@ -87563,7 +88040,11 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 29,
-      "decision_id": "S87_D0029"
+      "decision_id": "S87_D0029",
+      "entries": 47,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     },
     {
       "societe": "Pixelgate studio",
@@ -87584,7 +88065,11 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 30,
-      "decision_id": "S87_D0030"
+      "decision_id": "S87_D0030",
+      "entries": 47,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     },
     {
       "societe": "Verdolive",
@@ -87605,7 +88090,11 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 31,
-      "decision_id": "S87_D0031"
+      "decision_id": "S87_D0031",
+      "entries": 47,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     },
     {
       "societe": "ConneXtream",
@@ -87626,7 +88115,11 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 32,
-      "decision_id": "S87_D0032"
+      "decision_id": "S87_D0032",
+      "entries": 47,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     },
     {
       "societe": "Semsem",
@@ -87647,7 +88140,11 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 33,
-      "decision_id": "S87_D0033"
+      "decision_id": "S87_D0033",
+      "entries": 47,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     },
     {
       "societe": "ShadowTwin",
@@ -87668,7 +88165,11 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 34,
-      "decision_id": "S87_D0034"
+      "decision_id": "S87_D0034",
+      "entries": 47,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     },
     {
       "societe": "Medify VR",
@@ -87689,7 +88190,11 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 35,
-      "decision_id": "S87_D0035"
+      "decision_id": "S87_D0035",
+      "entries": 47,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     },
     {
       "societe": "DEVENCE LAB",
@@ -87710,7 +88215,11 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 36,
-      "decision_id": "S87_D0036"
+      "decision_id": "S87_D0036",
+      "entries": 47,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     },
     {
       "societe": "Xapp",
@@ -87731,7 +88240,11 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 37,
-      "decision_id": "S87_D0037"
+      "decision_id": "S87_D0037",
+      "entries": 47,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     },
     {
       "societe": "GP9",
@@ -87752,7 +88265,11 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 38,
-      "decision_id": "S87_D0038"
+      "decision_id": "S87_D0038",
+      "entries": 47,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     },
     {
       "societe": "ONETEEM TUNISIA SUARL",
@@ -87773,7 +88290,11 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 39,
-      "decision_id": "S87_D0039"
+      "decision_id": "S87_D0039",
+      "entries": 47,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     },
     {
       "societe": "Optiflows Technologies",
@@ -87794,7 +88315,11 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 40,
-      "decision_id": "S87_D0040"
+      "decision_id": "S87_D0040",
+      "entries": 47,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     },
     {
       "societe": "TALENTO NETWORK",
@@ -87815,7 +88340,11 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 41,
-      "decision_id": "S87_D0041"
+      "decision_id": "S87_D0041",
+      "entries": 47,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     },
     {
       "societe": "YesCodi",
@@ -87836,7 +88365,11 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 42,
-      "decision_id": "S87_D0042"
+      "decision_id": "S87_D0042",
+      "entries": 47,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     },
     {
       "societe": "Dqlick",
@@ -87857,7 +88390,11 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 43,
-      "decision_id": "S87_D0043"
+      "decision_id": "S87_D0043",
+      "entries": 47,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     },
     {
       "societe": "APTYX",
@@ -87878,7 +88415,11 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 44,
-      "decision_id": "S87_D0044"
+      "decision_id": "S87_D0044",
+      "entries": 47,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     },
     {
       "societe": "Saghroun.com",
@@ -87899,7 +88440,11 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 45,
-      "decision_id": "S87_D0045"
+      "decision_id": "S87_D0045",
+      "entries": 47,
+      "entries_detaillees": 47,
+      "candidatures_reexamen_pdf": 47,
+      "candidatures_corrigees": 47
     },
     {
       "societe": "Fidelicia",
