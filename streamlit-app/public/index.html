@@ -1354,7 +1354,7 @@
       <p style="margin:0 0 12px;font-size:.86rem;color:var(--text-secondary)">Cette table conserve les compteurs institutionnels et leur rapprochement PDF : la somme des 88 sessions donne <strong>3 079 candidatures officielles, 1 356 Labels et 641 Prélabels</strong>. La colonne corrigée affiche <strong>3 555 lignes PDF</strong> ; la série d’étude ajoute séparément <strong>3 ajournés hors PDF</strong>, soit <strong>3 558 candidatures corrigées</strong>. Le cas S62 est notamment <strong>39 → 46</strong>.</p>
       <div style="overflow:auto;max-height:430px">
         <table class="data-table" id="officialSessionTable">
-          <thead><tr><th>Session</th><th>Candidatures officielles</th><th>Candidatures corrigées PDF</th><th>Labels officiels</th><th>Prélabels officiels</th><th>Retraits</th><th>Reportés</th><th>Ajournés</th><th>Refus Label (dét.)</th><th>Refus Prélabel (dét.)</th><th>Lignes PDF</th></tr></thead>
+          <thead><tr><th>Session</th><th>Candidatures officielles</th><th>Candidatures corrigées (PDF + ajournés)</th><th>Labels officiels</th><th>Prélabels officiels</th><th>Retraits</th><th>Reportés</th><th>Ajournés</th><th>Refus Label (dét.)</th><th>Refus Prélabel (dét.)</th><th>Lignes PDF</th></tr></thead>
           <tbody id="officialSessionBody"></tbody>
         </table>
       </div>
@@ -4402,8 +4402,10 @@ async function renderExtractedData() {
 
     const officialBody = document.getElementById('officialSessionBody');
     if (officialBody) {
+      const dashboardSessionMap = Object.fromEntries((DATA.dashboard?.sessions || []).map(s => [s.session, s]));
       const officialRows = Object.entries(extractedCache.sessionDataMap).map(([session, sd]) => {
         const detailRows = allEntries.filter(e => e._session === session);
+        const dashboardSession = dashboardSessionMap[session] || {};
         const detailCounts = detailRows.reduce((acc, e) => {
           const key = decisionKey(e);
           acc[key] = (acc[key] || 0) + 1;
@@ -4412,13 +4414,14 @@ async function renderExtractedData() {
         return {
           session, sd,
           candidatures: Number(sd.candidatures || 0),
-          candidaturesReexamen: Number(sd.candidatures_reexamen_pdf ?? sd.entries_detaillees ?? detailRows.length),
+          // Le périmètre corrigé réintègre les ajournés hors PDF ; il ne doit pas être limité aux lignes PDF.
+          candidaturesReexamen: Number(dashboardSession.candidaturesCorrigees ?? sd.candidatures_pdf_calculees ?? sd.candidatures_reexamen_pdf ?? sd.entries_detaillees ?? detailRows.length),
           candidaturesPdf: Number(sd.candidatures_pdf_calculees ?? (Number(sd.entries_detaillees || detailRows.length) - Number(sd.conversions || 0) - Number(sd.retraits || 0) - Number(sd.reportes || 0))),
           labels: Number(sd.labels || 0),
           preLabels: Number(sd.preLabels || 0),
           retraits: Number(sd.retraits || 0),
           reportes: Number(sd.reportes || 0),
-          ajournes: Number(sd.ajournes || 0),
+          ajournes: Number(dashboardSession.ajournesHorsPdf ?? sd.ajournes ?? 0),
           detailRows: Number(sd.entries_detaillees ?? detailRows.length),
           labelRefuse: Number(detailCounts.label_refuse || 0),
           prelabelRefuse: Number(detailCounts.prelabel_refuse || 0)
