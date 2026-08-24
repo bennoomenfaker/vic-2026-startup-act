@@ -1962,9 +1962,9 @@
       "conversions": 3,
       "newLabels": 11,
       "tauxPct": 37.84,
-      "statut": "Conforme",
+      "statut": "Reporté détecté dans les lignes détaillées",
       "entries": 40,
-      "reportes": 0,
+      "reportes": 1,
       "session_id": "S63",
       "detailedEntries": 40,
       "candidaturesOfficielles": 37,
@@ -1978,9 +1978,9 @@
       "categoriesPdf": {
         "Label accordé": 14,
         "Label non accordé": 5,
-        "Pitch décalé": 1,
         "Prélabel accordé": 5,
-        "Prélabel non accordé": 15
+        "Prélabel non accordé": 15,
+        "Reporté": 1
       },
       "ajournesHorsPdf": 0
     },
