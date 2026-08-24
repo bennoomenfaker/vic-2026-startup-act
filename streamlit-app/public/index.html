@@ -48,7 +48,7 @@
         "creator": { "@type": "Person", "name": "Faker BEN NOOMEN", "url": "https://bennoomenfaker.github.io/", "image": "https://bennoomenfaker.github.io/images/faker.jpeg", "affiliation": "Master Professionnel VIC — ESEN Manouba / ISCAE Manouba", "sameAs": ["https://bennoomenfaker.github.io/", "https://github.com/bennoomenfaker", "https://linkedin.com/in/fakerbennoomen", "https://t.me/fakerbennoomen", "https://www.facebook.com/FakerBenNoomen", "https://www.kaggle.com/fakerbennoomen", "https://vk.ru/fakerbennoomen", "https://x.com/FakerbenNoomen"] },
         "publisher": { "@type": "Organization", "name": "ATVIC — Association Tunisienne de Veille et Intelligence Compétitive" },
         "temporalCoverage": "2019-2026",
-        "dateModified": "2026-08-23",
+        "dateModified": "2026-08-24",
         "isAccessibleForFree": true,
         "variableMeasured": ["candidatures", "labels", "preLabels", "retraits", "conversions", "tauxAcceptation"],
         "keywords": "Startup Act, Tunisie, labellisation, startup.gov.tn, étude quantitative, veille stratégique",
@@ -891,6 +891,17 @@
     .choropleth-legend .grad-labels { display: flex; justify-content: space-between; font-size: .64rem; color: #8a90a8; }
     .legend-row { display: flex; align-items: center; gap: 8px; font-size: .76rem; color: #4b5168; }
     .legend-row .swatch { width: 13px; height: 13px; border-radius: 4px; flex-shrink: 0; }
+    .series-legend { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin: 10px 0 18px; padding: 10px 12px; background: #fff; border: 1px solid #dbe3ee; border-radius: 8px; font-size: .78rem; color: #475569; }
+    .series-legend strong { color: #1e293b; }
+    .series-legend .series-item { display: inline-flex; align-items: center; gap: 6px; }
+    .series-legend .series-swatch { width: 11px; height: 11px; border-radius: 3px; display: inline-block; }
+    .series-official { background: #2563eb; }
+    .series-corrected { background: #16a34a; }
+    .series-documentary { background: #f59e0b; }
+    .kpi-series-badge { display: inline-flex; align-items: center; gap: 5px; margin-top: 6px; padding: 3px 7px; border-radius: 999px; font-size: .64rem; font-weight: 700; letter-spacing: .02em; background: #eff6ff; color: #1d4ed8; border: 1px solid #bfdbfe; }
+    .kpi-series-badge.corrected { background: #f0fdf4; color: #15803d; border-color: #bbf7d0; }
+    .kpi-series-badge.mixed { background: #fff7ed; color: #9a3412; border-color: #fed7aa; }
+    .series-note { font-size: .78rem; color: #64748b; line-height: 1.5; margin: -8px 0 14px; }
     #regionDetail {
       background: #f7f8fb; border: 1px solid #e2e6ee; border-radius: 12px; padding: 12px 14px; font-size: .8rem;
       color: #4b5168; min-height: 78px; line-height: 1.5;
@@ -1076,6 +1087,13 @@
       <select id="dashYearFilter2" data-compare-target="dashboard" style="display:none" aria-label="Seconde année à comparer"></select>
       <span class="filter-note">Filtrez par année : KPI et graphiques se recalculent sur la période choisie.</span>
     </div>
+    <!-- Séries : bleu = compteur institutionnel ; vert = réexamen/correction PDF ; ambre = événements documentaires. -->
+    <div class="series-legend" aria-label="Légende des séries de données">
+      <strong>Lecture des données :</strong>
+      <span class="series-item"><span class="series-swatch series-official"></span>Officiel institutionnel</span>
+      <span class="series-item"><span class="series-swatch series-corrected"></span>Corrigé PDF / réexamen</span>
+      <span class="series-item"><span class="series-swatch series-documentary"></span>Parcours / événements documentés</span>
+    </div>
     <div class="kpi-grid" id="kpiGrid" aria-busy="true">
       <div class="kpi-card skeleton"><span class="sk-line" style="width:55%"></span><span class="sk-line sk-big" style="width:70%"></span><span class="sk-line" style="width:40%"></span></div>
       <div class="kpi-card skeleton"><span class="sk-line" style="width:55%"></span><span class="sk-line sk-big" style="width:70%"></span><span class="sk-line" style="width:40%"></span></div>
@@ -1087,16 +1105,16 @@
       <div class="kpi-card skeleton"><span class="sk-line" style="width:55%"></span><span class="sk-line sk-big" style="width:70%"></span><span class="sk-line" style="width:40%"></span></div>
     </div>
     <div class="chart-grid">
-      <div class="chart-card"><h3>Évolution annuelle des sessions</h3><div class="chart-wrapper"><canvas id="chartYearly"></canvas></div></div>
-      <div class="chart-card"><h3>Répartition par secteur (Top 8)</h3><div class="chart-wrapper"><canvas id="chartSectors"></canvas></div></div>
+      <div class="chart-card"><h3>Évolution annuelle — officiel vs corrigé PDF</h3><div class="chart-wrapper"><canvas id="chartYearly"></canvas></div></div>
+      <div class="chart-card"><h3>Répartition par secteur (Top 8) — base extraite</h3><div class="chart-wrapper"><canvas id="chartSectors"></canvas></div></div>
     </div>
     <div class="chart-grid">
-      <div class="chart-card"><h3>Labels par mois (saisonnalité)</h3><div class="chart-wrapper"><canvas id="chartMonthly"></canvas></div></div>
-      <div class="chart-card"><h3>Création des startups par année</h3><div class="chart-wrapper"><canvas id="chartCreation"></canvas></div></div>
+      <div class="chart-card"><h3>Labels par mois — officiel vs corrigé PDF</h3><div class="chart-wrapper"><canvas id="chartMonthly"></canvas></div></div>
+      <div class="chart-card"><h3>Création des startups par année — base extraite</h3><div class="chart-wrapper"><canvas id="chartCreation"></canvas></div></div>
     </div>
     <div class="chart-grid">
-      <div class="chart-card"><h3>Cumul des labels et pré-labels (KPI-27)</h3><div class="chart-wrapper"><canvas id="chartCumul"></canvas></div></div>
-      <div class="chart-card"><h3>Âge des startups à la labellisation (KPI-32)</h3><div class="chart-wrapper"><canvas id="chartAgeLabel"></canvas></div></div>
+      <div class="chart-card"><h3>Cumul — officiel vs corrigé PDF (KPI-27)</h3><div class="chart-wrapper"><canvas id="chartCumul"></canvas></div></div>
+      <div class="chart-card"><h3>Âge à la labellisation — base extraite (KPI-32)</h3><div class="chart-wrapper"><canvas id="chartAgeLabel"></canvas></div></div>
     </div>
   </section>
 
@@ -1110,16 +1128,24 @@
         </div>
       </div>
     </div>
+    <!-- Séries : le Dashboard avancé travaille sur les JSON/PDF ; les compteurs officiels sont comparés dans les graphiques. -->
+    <div class="series-legend" aria-label="Légende des séries du Dashboard avancé">
+      <strong>Deux périmètres comparés :</strong>
+      <span class="series-item"><span class="series-swatch series-official"></span>Compteur officiel par session</span>
+      <span class="series-item"><span class="series-swatch series-corrected"></span>Lignes et décisions PDF/JSON</span>
+      <span class="series-item"><span class="series-swatch series-documentary"></span>Conversions et retraits documentés</span>
+    </div>
+    <p class="series-note">Les graphiques qui n’ont pas d’équivalent officiel (secteurs et détail des décisions) sont étiquetés « lignes PDF/JSON » et ne sont pas présentés comme des compteurs institutionnels.</p>
     <div id="advKpis" class="kpi-grid" style="margin-bottom:20px"></div>
     <div class="chart-grid">
       <div class="chart-card" style="grid-column:span 2"><h3>📈 Évolution annuelle — Labels vs Pré-labels vs Candidatures</h3><div class="chart-wrapper"><canvas id="advChartYearly"></canvas></div></div>
     </div>
     <div class="chart-grid">
-      <div class="chart-card"><h3>🏢 Top 10 Secteurs</h3><div class="chart-wrapper"><canvas id="advChartSectors"></canvas></div></div>
-      <div class="chart-card"><h3>📊 Répartition des Décisions</h3><div class="chart-wrapper"><canvas id="advChartDecisions"></canvas></div></div>
+      <div class="chart-card"><h3>🏢 Top 10 Secteurs — lignes PDF/JSON</h3><div class="chart-wrapper"><canvas id="advChartSectors"></canvas></div></div>
+      <div class="chart-card"><h3>📊 Répartition des décisions — lignes PDF/JSON</h3><div class="chart-wrapper"><canvas id="advChartDecisions"></canvas></div></div>
     </div>
     <div class="chart-grid">
-      <div class="chart-card"><h3>📅 Labels par mois (saisonnalité)</h3><div class="chart-wrapper"><canvas id="advChartMonthly"></canvas></div></div>
+      <div class="chart-card"><h3>📅 Labels par mois — officiel vs PDF/JSON</h3><div class="chart-wrapper"><canvas id="advChartMonthly"></canvas></div></div>
       <div class="chart-card"><h3>🔄 Funnel Conversion Prélabel → Label</h3><div class="chart-wrapper"><canvas id="advChartFunnel"></canvas></div></div>
     </div>
     <div class="chart-grid">
@@ -1615,7 +1641,7 @@
 
     <div style="background:var(--card-bg);border:1px solid var(--border-color);border-radius:var(--radius-lg);padding:24px;margin-bottom:24px;">
       <p style="font-size:.9rem;color:var(--text-secondary);line-height:1.6;margin:0 0 16px">
-        <strong>Auteur :</strong> Faker BEN NOOMEN · <strong>Formation :</strong> Mastère VIC (ESEN Manouba × ISCAE Manouba) · <strong>Version :</strong> 21 août 2026
+        <strong>Auteur :</strong> Faker BEN NOOMEN · <strong>Formation :</strong> Mastère VIC (ESEN Manouba × ISCAE Manouba) · <strong>Version :</strong> 24 août 2026
       </p>
       <p style="font-size:.88rem;color:var(--text-secondary);line-height:1.6;margin:0;background:var(--danger-soft);padding:14px;border-radius:var(--radius-md);border-left:4px solid #e94560">
         <strong>Résumé.</strong> Cette étude analyse quantitativement les sessions de labellisation du Startup Act tunisien à partir de 88 sessions (2019–2026), des rapports annuels officiels et des comptes rendus PDF. Après correction, le corpus totalise <strong>1 356 Labels</strong> et <strong>641 Prélabels</strong>, soit <strong>1 997 décisions positives</strong>. Le taux de Label pondéré est de <strong>44,0 %</strong>.
@@ -2247,6 +2273,7 @@
     <div class="kpi-section"><h4>Utilité</h4><p id="kpiModalUtil"></p></div>
     <div class="kpi-section"><h4>Calcul / méthode</h4><p id="kpiModalCalc"></p></div>
     <div class="kpi-section"><h4>Interprétation du résultat</h4><p id="kpiModalInterp"></p></div>
+    <div class="kpi-section"><h4>Provenance de la série</h4><p id="kpiModalSeries"></p></div>
     <div class="kpi-section"><h4>Source / API</h4><p id="kpiModalSource"></p></div>
     <div class="kpi-missing" id="kpiModalMissing" style="display:none"></div>
   </div>
@@ -2719,6 +2746,16 @@ const KPI_THEME_ORDER = [
   'Innovation & propriété intellectuelle'
 ];
 
+function kpiSeriesInfo(info) {
+  const source = String(info.source || '').toLowerCase();
+  if (source.includes('corrections')) return { label: 'Rapprochement officiel ↔ PDF', cls: 'mixed' };
+  if (source.includes('parcours')) return { label: 'Parcours / événements documentés', cls: 'mixed' };
+  if (source.includes('startups')) return { label: 'Base startups extraite', cls: 'corrected' };
+  if (source.includes('rapports annuels') || source.includes('rapport annuel')) return { label: 'Rapport annuel externe', cls: 'mixed' };
+  if (source.includes('dashboard')) return { label: 'Compteur officiel institutionnel', cls: 'official' };
+  return { label: 'Provenance à préciser', cls: 'mixed' };
+}
+
 function renderKpiCatalogue() {
   const el = document.getElementById('kpiCatalogue');
   if (!el) return;
@@ -2750,6 +2787,7 @@ function renderKpiCatalogue() {
               <div class="kcat-name">${escapeHtml(i.nom)}</div>
               <div class="kcat-value">${escapeHtml(i.valeur)}</div>
               <div class="kcat-meta"><span>📍 ${escapeHtml(i.page)}</span></div>
+              <span class="kpi-series-badge ${kpiSeriesInfo(i).cls}">● ${escapeHtml(kpiSeriesInfo(i).label)}</span>
             </div>`).join('')}
         </div>
       </div>`;
@@ -2769,6 +2807,7 @@ function renderKpiCatalogue() {
   document.getElementById('kpiModalUtil').textContent = info.util;
   document.getElementById('kpiModalCalc').textContent = KPI_CALCUL[id] || 'Méthode non calculable avec les données actuelles ; consulter la source indiquée.';
   document.getElementById('kpiModalInterp').textContent = info.interp;
+  document.getElementById('kpiModalSeries').textContent = kpiSeriesInfo(info).label;
   document.getElementById('kpiModalSource').textContent = info.source;
   const trendWrap = document.getElementById('kpiModalTrendWrap');
   if (info.trend) {
@@ -3379,6 +3418,18 @@ function renderDashboard() {
   };
 
   const yLbl = filtered ? ' (' + DATA.yearFilter + ')' : '';
+  const correctedByYear = {};
+  (d.sessions || []).forEach(s => {
+    const sessionParts = String(s.session || s.date || '').split('/');
+    const parsedYear = Number(s.year);
+    const year = Number.isFinite(parsedYear) && parsedYear > 0 ? parsedYear : Number(sessionParts[1]);
+    if (!Number.isFinite(year)) return;
+    const row = correctedByYear[year] || { candidatures: 0, labels: 0, preLabels: 0 };
+    row.candidatures += Number(s.candidaturesCorrigees ?? s.candidatures_corrigees ?? s.entries ?? 0);
+    row.labels += Number(s.labelsCorriges ?? s.labels_corriges ?? s.labels ?? 0);
+    row.preLabels += Number(s.preLabelsCorriges ?? s.preLabels_corriges ?? s.preLabels ?? 0);
+    correctedByYear[year] = row;
+  });
   const kpiGrid = document.getElementById('kpiGrid');
   kpiGrid.innerHTML = `
     <div class="kpi-card blue" data-kpi="KPI-01" tabindex="0"><div class="kpi-head"><span class="kpi-icon">🏢</span>${trend(filtered ? startups.length : suR, suP)}</div><div class="label">Startups uniques${yLbl}</div><div class="value">${filtered ? startups.length : d.database.totalStartups}</div><div class="sub">${filtered ? 'labellisées en ' + DATA.yearFilter : 'dans la base'}</div></div>
@@ -3409,11 +3460,14 @@ function renderDashboard() {
   makeChart('chartYearly', 'bar', {
     labels: y.map(y => y.year),
     datasets: [
-      { label: 'Candidatures', data: y.map(y => y.candidatures), backgroundColor: '#0f3460' },
-      { label: 'Labels', data: y.map(y => y.labels), backgroundColor: '#e94560' },
-      { label: 'Pré-Labels', data: y.map(y => y.preLabels), backgroundColor: '#16a34a' }
+      { label: 'Candidatures — officiel', data: y.map(r => r.candidatures), backgroundColor: '#2563eb' },
+      { label: 'Candidatures — corrigé PDF', data: y.map(r => correctedByYear[r.year]?.candidatures || 0), backgroundColor: '#16a34a' },
+      { label: 'Labels — officiel', data: y.map(r => r.labels), backgroundColor: '#dc2626' },
+      { label: 'Labels — corrigé PDF', data: y.map(r => correctedByYear[r.year]?.labels || 0), backgroundColor: '#0f766e' },
+      { label: 'Prélabels — officiel', data: y.map(r => r.preLabels), backgroundColor: '#d97706' },
+      { label: 'Prélabels — corrigé PDF', data: y.map(r => correctedByYear[r.year]?.preLabels || 0), backgroundColor: '#f59e0b' }
     ]
-  });
+  }, { scales: { x: { stacked: false }, y: { beginAtZero: true } } });
 
   const sectors = sectorCounts(startups).slice(0, 8);
   const colors = ['#e94560','#0f3460','#16a34a','#ea580c','#7c3aed','#0891b2','#ca8a04','#be185d'];
@@ -3423,14 +3477,26 @@ function renderDashboard() {
     datasets: [{ data: sectors.map(s => s.count), backgroundColor: colors }]
   }, { plugins: { legend: { position: 'right', labels: { font: { size: 10 } } } } });
 
-  const lm = filtered ? d.database.byLabelMonth.filter(m => m.month.split('/')[1] === String(DATA.yearFilter)) : d.database.byLabelMonth;
   const monthNames = ['Jan','Fév','Mar','Avr','Mai','Jui','Jui','Aoû','Sep','Oct','Nov','Déc'];
-  const monthAgg = {};
-  lm.forEach(m => { const mo = parseInt(m.month.split('/')[0]); monthAgg[mo] = (monthAgg[mo]||0)+m.count; });
+  const monthOfficialAgg = Array(12).fill(0);
+  const monthCorrectedAgg = Array(12).fill(0);
+  (d.sessions || []).forEach(s => {
+    const raw = String(s.session || s.date || '');
+    const parts = raw.split('/');
+    const mo = Number(parts[0]);
+    const yr = Number(parts[1]);
+    if (!Number.isInteger(mo) || mo < 1 || mo > 12) return;
+    if (filtered && yr !== Number(DATA.yearFilter)) return;
+    monthOfficialAgg[mo - 1] += Number(s.labels || 0);
+    monthCorrectedAgg[mo - 1] += Number(s.labelsCorriges ?? s.labels_corriges ?? s.labels ?? 0);
+  });
   makeChart('chartMonthly', 'line', {
     labels: monthNames,
-    datasets: [{ label: 'Labels', data: monthNames.map((_, i) => monthAgg[i+1] || 0), borderColor: '#e94560', fill: true, backgroundColor: 'rgba(233,69,96,0.1)', tension: 0.4 }]
-  });
+    datasets: [
+      { label: 'Labels — officiel', data: monthOfficialAgg, borderColor: '#dc2626', fill: false, backgroundColor: 'rgba(220,38,38,0.08)', tension: 0.4 },
+      { label: 'Labels — corrigé PDF', data: monthCorrectedAgg, borderColor: '#0f766e', fill: true, backgroundColor: 'rgba(15,118,110,0.1)', tension: 0.4 }
+    ]
+  }, { plugins: { legend: { position: 'top' } } });
 
   const byLabelYear = {};
   d.database.byLabelMonth.forEach(m => {
@@ -3444,14 +3510,18 @@ function renderDashboard() {
   });
 
   // ===== KPI-27 : cumul des labels et pré-labels =====
-  let cumL = 0, cumP = 0;
-  const cumLabelsArr = y.map(r => cumL += r.labels);
-  const cumPreArr = y.map(r => cumP += r.preLabels);
+  let cumOfficialL = 0, cumOfficialP = 0, cumCorrectedL = 0, cumCorrectedP = 0;
+  const cumOfficialLabels = y.map(r => cumOfficialL += Number(r.labels || 0));
+  const cumOfficialPre = y.map(r => cumOfficialP += Number(r.preLabels || 0));
+  const cumCorrectedLabels = y.map(r => cumCorrectedL += Number(correctedByYear[r.year]?.labels || 0));
+  const cumCorrectedPre = y.map(r => cumCorrectedP += Number(correctedByYear[r.year]?.preLabels || 0));
   makeChart('chartCumul', 'line', {
     labels: y.map(r => r.year),
     datasets: [
-      { label: 'Cumul labels', data: cumLabelsArr, borderColor: '#e94560', backgroundColor: 'rgba(233,69,96,0.08)', fill: true, tension: 0.3 },
-      { label: 'Cumul pré-labels', data: cumPreArr, borderColor: '#ea580c', backgroundColor: 'rgba(234,88,12,0.08)', fill: true, tension: 0.3 }
+      { label: 'Cumul labels — officiel', data: cumOfficialLabels, borderColor: '#dc2626', backgroundColor: 'rgba(220,38,38,0.08)', fill: true, tension: 0.3 },
+      { label: 'Cumul labels — corrigé PDF', data: cumCorrectedLabels, borderColor: '#0f766e', backgroundColor: 'rgba(15,118,110,0.08)', fill: true, tension: 0.3 },
+      { label: 'Cumul prélabels — officiel', data: cumOfficialPre, borderColor: '#d97706', backgroundColor: 'rgba(217,119,6,0.08)', fill: true, tension: 0.3 },
+      { label: 'Cumul prélabels — corrigé PDF', data: cumCorrectedPre, borderColor: '#f59e0b', backgroundColor: 'rgba(245,158,11,0.08)', fill: true, tension: 0.3 }
     ]
   });
 
@@ -4203,33 +4273,54 @@ function normRes(r) {
 function renderAdvCharts() {
   if (!advDataCache) return;
   const { sessions, allEntries } = advDataCache;
+  const officialSessionMap = Object.fromEntries((DATA.dashboard?.sessions || []).map(s => [s.session, s]));
 
-  // KPIs
-  const totalC = sessions.reduce((s, d) => s + (d.candidatures || 0), 0);
-  const totalL = sessions.reduce((s, d) => s + (d.labels || 0), 0);
-  const totalP = sessions.reduce((s, d) => s + (d.preLabels || 0), 0);
-  const totalR = sessions.reduce((s, d) => s + (d.retraits || 0), 0);
-  const totalConv = sessions.reduce((s, d) => s + (d.conversions || 0), 0);
+  // KPI : le Dashboard avancé expose les deux périmètres au lieu de les additionner.
+  const totalC = sessions.reduce((s, d) => s + Number(d.candidatures || 0), 0);
+  const totalL = sessions.reduce((s, d) => s + Number(d.labels || 0), 0);
+  const totalP = sessions.reduce((s, d) => s + Number(d.preLabels || 0), 0);
+  const totalR = sessions.reduce((s, d) => s + Number(d.retraits || 0), 0);
+  const totalConv = sessions.reduce((s, d) => s + Number(d.conversions || 0), 0);
+  const totalCO = sessions.reduce((s, d) => s + Number(officialSessionMap[d.session]?.candidatures ?? 0), 0);
+  const totalLO = sessions.reduce((s, d) => s + Number(officialSessionMap[d.session]?.labels ?? 0), 0);
+  const totalPO = sessions.reduce((s, d) => s + Number(officialSessionMap[d.session]?.preLabels ?? 0), 0);
   const taux = totalC ? (totalL / totalC * 100).toFixed(1) : 0;
+  const tauxOfficial = totalCO ? (totalLO / totalCO * 100).toFixed(1) : 0;
 
   document.getElementById('advKpis').innerHTML = [
-    ['📋', totalC, 'candidatures'], ['✅', totalL, 'labels'], ['🟠', totalP, 'pré-labels'],
-    ['🔁', totalConv, 'conversions'], ['⛔', totalR, 'retraits'], ['📊', taux + '%', 'taux succès']
+    ['📋', totalCO, 'candidatures officielles'], ['📋', totalC, 'lignes candidatures PDF/JSON'],
+    ['✅', totalLO, 'labels officiels'], ['✅', totalL, 'labels PDF/JSON'],
+    ['🟠', totalPO, 'prélabels officiels'], ['🟠', totalP, 'prélabels PDF/JSON'],
+    ['🔁', totalConv, 'conversions documentées'], ['⛔', totalR, 'retraits documentés'],
+    ['📊', tauxOfficial + '% / ' + taux + '%', 'taux officiel / PDF-JSON']
   ].map(([i, n, l]) => '<div class="kpi-card"><div class="kpi-head"><span class="kpi-icon">' + i + '</span></div><div class="kpi-label">' + l + '</div><div class="kpi-value">' + (typeof n === 'number' ? n.toLocaleString('fr-FR') : n) + '</div></div>').join('');
 
-  // Yearly evolution
-  const years = [...new Set(sessions.map(s => s.year))].sort();
+  // Yearly evolution — les JSON portent la date dans session (MM/YYYY), pas toujours dans year.
+  const getSessionYear = s => {
+    const parsed = Number(s.year);
+    if (Number.isFinite(parsed) && parsed > 0) return parsed;
+    return Number(String(s.session || s.date || '').split('/')[1]);
+  };
+  const years = [...new Set(sessions.map(getSessionYear).filter(Number.isFinite))].sort((a, b) => a - b);
   const yearData = years.map(y => {
-    const ys = sessions.filter(s => s.year === y);
-    return { year: y, c: ys.reduce((s, d) => s + (d.candidatures || 0), 0), l: ys.reduce((s, d) => s + (d.labels || 0), 0), p: ys.reduce((s, d) => s + (d.preLabels || 0), 0) };
+    const ys = sessions.filter(s => getSessionYear(s) === y);
+    const official = (DATA.dashboard?.yearly || []).find(r => Number(r.year) === Number(y)) || {};
+    return { year: y,
+      c: ys.reduce((s, d) => s + Number(d.candidatures || 0), 0),
+      l: ys.reduce((s, d) => s + Number(d.labels || 0), 0),
+      p: ys.reduce((s, d) => s + Number(d.preLabels || 0), 0),
+      co: Number(official.candidatures || 0), lo: Number(official.labels || 0), po: Number(official.preLabels || 0) };
   });
   new Chart(document.getElementById('advChartYearly'), {
     type: 'bar', data: {
       labels: yearData.map(d => d.year),
       datasets: [
-        { label: 'Candidatures', data: yearData.map(d => d.c), backgroundColor: 'rgba(59,130,246,0.3)', borderColor: '#3b82f6', borderWidth: 2, order: 2 },
-        { label: 'Labels', data: yearData.map(d => d.l), backgroundColor: '#22c55e', borderRadius: 4, order: 1 },
-        { label: 'Pré-labels', data: yearData.map(d => d.p), backgroundColor: '#f59e0b', borderRadius: 4, order: 1 }
+        { label: 'Candidatures — officiel', data: yearData.map(d => d.co), backgroundColor: '#2563eb', borderColor: '#1d4ed8', borderWidth: 1, order: 2 },
+        { label: 'Candidatures — PDF/JSON', data: yearData.map(d => d.c), backgroundColor: '#86efac', borderColor: '#16a34a', borderWidth: 1, order: 2 },
+        { label: 'Labels — officiel', data: yearData.map(d => d.lo), backgroundColor: '#dc2626', borderRadius: 4, order: 1 },
+        { label: 'Labels — PDF/JSON', data: yearData.map(d => d.l), backgroundColor: '#22c55e', borderRadius: 4, order: 1 },
+        { label: 'Prélabels — officiel', data: yearData.map(d => d.po), backgroundColor: '#d97706', borderRadius: 4, order: 1 },
+        { label: 'Prélabels — PDF/JSON', data: yearData.map(d => d.p), backgroundColor: '#f59e0b', borderRadius: 4, order: 1 }
       ]
     }, options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'top' } }, scales: { y: { beginAtZero: true } } }
   });
@@ -4258,20 +4349,33 @@ function renderAdvCharts() {
   // Monthly seasonality
   const months = ['Jan', 'Fév', 'Mar', 'Avr', 'Mai', 'Jun', 'Jul', 'Aoû', 'Sep', 'Oct', 'Nov', 'Déc'];
   const monthLabels = Array(12).fill(0);
-  sessions.forEach(s => { if (s.month >= 1 && s.month <= 12) monthLabels[s.month - 1] += (s.labels || 0); });
+  const monthOfficialLabels = Array(12).fill(0);
+  sessions.forEach(s => {
+    const sessionMonth = Number(s.month) || Number(String(s.session || s.date || '').split('/')[0]);
+    if (sessionMonth >= 1 && sessionMonth <= 12) {
+      monthLabels[sessionMonth - 1] += Number(s.labels || 0);
+      monthOfficialLabels[sessionMonth - 1] += Number(officialSessionMap[s.session]?.labels ?? 0);
+    }
+  });
   new Chart(document.getElementById('advChartMonthly'), {
     type: 'line', data: {
       labels: months,
-      datasets: [{ label: 'Labels', data: monthLabels, borderColor: '#22c55e', backgroundColor: 'rgba(34,197,94,0.1)', fill: true, tension: 0.4 }]
-    }, options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } } }
+      datasets: [
+        { label: 'Labels — officiel', data: monthOfficialLabels, borderColor: '#dc2626', backgroundColor: 'rgba(220,38,38,0.08)', fill: false, tension: 0.4 },
+        { label: 'Labels — PDF/JSON', data: monthLabels, borderColor: '#16a34a', backgroundColor: 'rgba(34,197,94,0.1)', fill: true, tension: 0.4 }
+      ]
+    }, options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'top' } } }
   });
 
   // Funnel
   const funnelData = [
-    { label: 'Candidatures', value: totalC, color: '#3b82f6' },
-    { label: 'Labels', value: totalL, color: '#22c55e' },
-    { label: 'Pré-labels', value: totalP, color: '#f59e0b' },
-    { label: 'Conversions', value: totalConv, color: '#8b5cf6' }
+    { label: 'Candidatures — officiel', value: totalCO, color: '#2563eb' },
+    { label: 'Candidatures — PDF/JSON', value: totalC, color: '#86efac' },
+    { label: 'Labels — officiel', value: totalLO, color: '#dc2626' },
+    { label: 'Labels — PDF/JSON', value: totalL, color: '#22c55e' },
+    { label: 'Prélabels — officiel', value: totalPO, color: '#d97706' },
+    { label: 'Prélabels — PDF/JSON', value: totalP, color: '#f59e0b' },
+    { label: 'Conversions documentées', value: totalConv, color: '#8b5cf6' }
   ];
   new Chart(document.getElementById('advChartFunnel'), {
     type: 'bar', data: {
@@ -4281,12 +4385,15 @@ function renderAdvCharts() {
   });
 
   // Success rate by year
-  const successData = yearData.map(d => ({ year: d.year, rate: d.c ? (d.l / d.c * 100).toFixed(1) : 0 }));
+  const successData = yearData.map(d => ({ year: d.year, officialRate: d.co ? (d.lo / d.co * 100).toFixed(1) : 0, detailRate: d.c ? (d.l / d.c * 100).toFixed(1) : 0 }));
   new Chart(document.getElementById('advChartSuccess'), {
     type: 'line', data: {
       labels: successData.map(d => d.year),
-      datasets: [{ label: 'Taux succès %', data: successData.map(d => d.rate), borderColor: '#3b82f6', backgroundColor: 'rgba(59,130,246,0.1)', fill: true, tension: 0.4 }]
-    }, options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true, max: 100 } } }
+      datasets: [
+        { label: 'Taux officiel %', data: successData.map(d => d.officialRate), borderColor: '#2563eb', backgroundColor: 'rgba(37,99,235,0.08)', fill: false, tension: 0.4 },
+        { label: 'Taux PDF/JSON %', data: successData.map(d => d.detailRate), borderColor: '#16a34a', backgroundColor: 'rgba(22,163,74,0.08)', fill: true, tension: 0.4 }
+      ]
+    }, options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'top' } }, scales: { y: { beginAtZero: true, max: 100 } } }
   });
 
   // Label type by year
@@ -4294,8 +4401,10 @@ function renderAdvCharts() {
     type: 'bar', data: {
       labels: yearData.map(d => d.year),
       datasets: [
-        { label: 'Labels', data: yearData.map(d => d.l), backgroundColor: '#22c55e', borderRadius: 4 },
-        { label: 'Pré-labels', data: yearData.map(d => d.p), backgroundColor: '#f59e0b', borderRadius: 4 }
+        { label: 'Labels — officiel', data: yearData.map(d => d.lo), backgroundColor: '#dc2626', borderRadius: 4 },
+        { label: 'Labels — PDF/JSON', data: yearData.map(d => d.l), backgroundColor: '#22c55e', borderRadius: 4 },
+        { label: 'Prélabels — officiel', data: yearData.map(d => d.po), backgroundColor: '#d97706', borderRadius: 4 },
+        { label: 'Prélabels — PDF/JSON', data: yearData.map(d => d.p), backgroundColor: '#f59e0b', borderRadius: 4 }
       ]
     }, options: { responsive: true, maintainAspectRatio: false, scales: { x: { stacked: true }, y: { stacked: true, beginAtZero: true } } }
   });
