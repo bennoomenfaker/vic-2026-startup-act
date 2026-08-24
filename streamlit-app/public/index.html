@@ -1342,10 +1342,10 @@
 
     <div class="summary-box" style="margin:0 0 20px;border-left:4px solid #2563eb">
       <h2 style="margin:0 0 6px;font-size:1.05rem;color:var(--text-primary)">Vue officielle par session</h2>
-      <p style="margin:0 0 12px;font-size:.86rem;color:var(--text-secondary)">Cette table conserve les compteurs institutionnels et leur rapprochement PDF : la somme des 88 sessions donne <strong>3 079 candidatures officielles, 1 356 Labels et 641 Prélabels</strong>. La colonne corrigée affiche <strong>3 555 lignes PDF</strong> ; la série d’étude ajoute séparément <strong>3 ajournés hors PDF</strong>, soit <strong>3 558 candidatures corrigées</strong>. Le cas S62 est notamment <strong>39 → 46</strong>.</p>
+      <p style="margin:0 0 12px;font-size:.86rem;color:var(--text-secondary)">Cette table conserve les compteurs institutionnels et leur rapprochement PDF : la somme des 88 sessions donne <strong>3 079 candidatures officielles, 1 356 Labels et 641 Prélabels</strong>. La colonne <strong>Labels corrigés — notre travail</strong> reprend les valeurs recalculées à partir du réexamen PDF. La colonne corrigée affiche <strong>3 555 lignes PDF</strong> ; la série d’étude ajoute séparément <strong>3 ajournés hors PDF</strong>, soit <strong>3 558 candidatures corrigées</strong>. Le cas S62 est notamment <strong>39 → 46</strong>.</p>
       <div style="overflow:auto;max-height:430px">
         <table class="data-table" id="officialSessionTable">
-          <thead><tr><th>Session</th><th>Candidatures officielles</th><th>Candidatures corrigées (PDF + ajournés)</th><th>Labels officiels</th><th>Prélabels officiels</th><th>Retraits</th><th>Reportés</th><th>Ajournés</th><th>Refus Label (dét.)</th><th>Refus Prélabel (dét.)</th><th>Lignes PDF</th></tr></thead>
+          <thead><tr><th>Session</th><th>Candidatures officielles</th><th>Candidatures corrigées (PDF + ajournés)</th><th>Labels officiels</th><th>Labels corrigés — notre travail</th><th>Prélabels officiels</th><th>Retraits</th><th>Reportés</th><th>Ajournés</th><th>Refus Label (dét.)</th><th>Refus Prélabel (dét.)</th><th>Lignes PDF</th></tr></thead>
           <tbody id="officialSessionBody"></tbody>
         </table>
       </div>
@@ -4339,6 +4339,7 @@ async function renderExtractedData() {
           candidaturesReexamen: Number(dashboardSession.candidaturesCorrigees ?? sd.candidatures_pdf_calculees ?? sd.candidatures_reexamen_pdf ?? sd.entries_detaillees ?? detailRows.length),
           candidaturesPdf: Number(sd.candidatures_pdf_calculees ?? (Number(sd.entries_detaillees || detailRows.length) - Number(sd.conversions || 0) - Number(sd.retraits || 0) - Number(sd.reportes || 0))),
           labels: Number(sd.labels || 0),
+          labelsCorriges: Number(dashboardSession.labelsCorriges ?? dashboardSession.labels_corriges ?? sd.labelsCorriges ?? sd.labels_corriges ?? sd.labels ?? 0),
           preLabels: Number(sd.preLabels || 0),
           retraits: Number(sd.retraits || 0),
           reportes: Number(sd.reportes || 0),
@@ -4354,13 +4355,14 @@ async function renderExtractedData() {
       const total = officialRows.reduce((acc, r) => {
         Object.keys(acc).forEach(k => { acc[k] += r[k]; });
         return acc;
-      }, { candidatures: 0, candidaturesReexamen: 0, candidaturesPdf: 0, labels: 0, preLabels: 0, retraits: 0, reportes: 0, ajournes: 0, detailRows: 0, labelRefuse: 0, prelabelRefuse: 0 });
+      }, { candidatures: 0, candidaturesReexamen: 0, candidaturesPdf: 0, labels: 0, labelsCorriges: 0, preLabels: 0, retraits: 0, reportes: 0, ajournes: 0, detailRows: 0, labelRefuse: 0, prelabelRefuse: 0 });
       const fmt = n => Number(n || 0).toLocaleString('fr-FR');
       officialBody.innerHTML = officialRows.map(r => '<tr>' +
         '<td style="white-space:nowrap">' + escapeHtml(r.session) + '</td>' +
         '<td style="text-align:right">' + fmt(r.candidatures) + '</td>' +
         '<td style="text-align:right;color:#334155;font-weight:700">' + fmt(r.candidaturesReexamen) + '</td>' +
         '<td style="text-align:right;font-weight:700;color:#2563eb">' + fmt(r.labels) + '</td>' +
+        '<td style="text-align:right;font-weight:700;color:#15803d">' + fmt(r.labelsCorriges) + '</td>' +
         '<td style="text-align:right">' + fmt(r.preLabels) + '</td>' +
         '<td style="text-align:right">' + fmt(r.retraits) + '</td>' +
         '<td style="text-align:right">' + fmt(r.reportes) + '</td>' +
@@ -4370,7 +4372,7 @@ async function renderExtractedData() {
         '<td style="text-align:right">' + fmt(r.detailRows) + '</td>' +
         '</tr>').join('') +
         '<tr style="font-weight:800;border-top:2px solid var(--border-color);background:rgba(37,99,235,.08)">' +
-        '<td>Total officiel / corrigé PDF</td><td style="text-align:right">' + fmt(total.candidatures) + '</td><td style="text-align:right;color:#334155;font-weight:700">' + fmt(total.candidaturesReexamen) + '</td><td style="text-align:right;color:#2563eb">' + fmt(total.labels) + '</td><td style="text-align:right">' + fmt(total.preLabels) + '</td><td style="text-align:right">' + fmt(total.retraits) + '</td><td style="text-align:right">' + fmt(total.reportes) + '</td><td style="text-align:right">' + fmt(total.ajournes) + '</td><td style="text-align:right">' + fmt(total.labelRefuse) + '</td><td style="text-align:right">' + fmt(total.prelabelRefuse) + '</td><td style="text-align:right">' + fmt(total.detailRows) + '</td></tr>';
+        '<td>Total officiel / corrigé PDF</td><td style="text-align:right">' + fmt(total.candidatures) + '</td><td style="text-align:right;color:#334155;font-weight:700">' + fmt(total.candidaturesReexamen) + '</td><td style="text-align:right;color:#2563eb">' + fmt(total.labels) + '</td><td style="text-align:right;color:#15803d">' + fmt(total.labelsCorriges) + '</td><td style="text-align:right">' + fmt(total.preLabels) + '</td><td style="text-align:right">' + fmt(total.retraits) + '</td><td style="text-align:right">' + fmt(total.reportes) + '</td><td style="text-align:right">' + fmt(total.ajournes) + '</td><td style="text-align:right">' + fmt(total.labelRefuse) + '</td><td style="text-align:right">' + fmt(total.prelabelRefuse) + '</td><td style="text-align:right">' + fmt(total.detailRows) + '</td></tr>';
     }
 
     const sessSel = document.getElementById('extractedSession');
