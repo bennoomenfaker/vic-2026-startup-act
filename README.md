@@ -1,239 +1,124 @@
-# Startup Act Tunisie — Étude Quantitative
+# Startup Act Tunisie — Étude quantitative
 
-> **Projet open source & gratuit** — Projet **académique universitaire** créé par
-> **[Faker BEN NOOMEN](https://github.com/bennoomenfaker)** dans le cadre du
-> **Master Professionnel en Veille et Intelligence Compétitive (VIC)**, en
-> **collaboration entre l'ESEN Manouba et l'ISCAE Manouba**.
+> **Projet open source et universitaire** créé par **[Faker BEN NOOMEN](https://github.com/bennoomenfaker)** dans le cadre du Mastère Professionnel **Veille et Intelligence Compétitive (VIC)**, en collaboration entre l’**ESEN Manouba** et l’**ISCAE Manouba**.
 
 [![CI — Validate & Test](https://github.com/bennoomenfaker/vic-2026-startup-act/actions/workflows/ci.yml/badge.svg)](https://github.com/bennoomenfaker/vic-2026-startup-act/actions)
 
-🔗 **Code source** : https://github.com/bennoomenfaker/vic-2026-startup-act
-##
-🔗 **URL website** : https://vic-esen-iscae-2026-startup-act.onrender.com
-##
-🌐 **Site personnel** : https://bennoomenfaker.github.io
-
----
-
-## 📖 À propos du projet
-
-Ce projet réalise une **étude quantitative du programme Startup Act tunisien**
-(Loi 2018-20) sur la période **2019-2026**. Il analyse l'ensemble des
-**85 sessions de labellisation** publiées sur [startup.gov.tn](https://startup.gov.tn)
-ainsi que les **rapports annuels** du programme.
-
-Le livrable est une **application web interactive** (dashboard) qui rend compte :
-- du volume de candidatures, labels et prélabels par session ;
-- du taux d'acceptation et son évolution dans le temps ;
-- de la répartition sectorielle, géographique et par année de création ;
-- du **parcours prélabel → label** (conversions et retraits de labels) ;
-- des corrections de données opérées (scrapé officiel vs PDF officiels) ;
-- d'une **veille comparative internationale** de l'écosystème tunisien
-  (page *StartupBlink*) à partir de sources externes vérifiées.
-
-### 🔑 Chiffres clés (données vérifiées)
-
-| Indicateur | Valeur |
+| Ressource | Lien |
 |---|---|
-| Sessions analysées | 85 |
-| Candidatures | 1 824 |
-| Labels accordés | 1 311 |
-| Prélabels accordés | 623 |
-| Conversions prélabel → label | 502 (80,6 % des prélabels) |
-| Retraits de labels | 140 |
-| Taux d'acceptation | 61,7 % (2019) → 36,3 % (2025) |
+| Code source | https://github.com/bennoomenfaker/vic-2026-startup-act |
+| Site public | https://vic-esen-iscae-2026-startup-act.onrender.com |
+| Site personnel | https://bennoomenfaker.github.io |
 
----
+## Objet du projet
 
-## 🗺️ Structure du projet
+Ce projet documente le programme tunisien de labellisation **Startup Act**, fondé sur la loi n°2018-20 du 17 avril 2018, sur la période 2019–2026. L’application rassemble les comptes rendus PDF des **88 sessions** publiées par [startup.gov.tn](https://startup.gov.tn), les données de sessions et les corrections issues de la comparaison entre compteurs institutionnels et lignes documentaires.
 
-```
+Le site propose un tableau officiel par session, un tableau détaillé des entreprises et fondateurs, des filtres par session et par décision, des exports téléchargeables ainsi que les pages de corrections, de qualité des données et d’étude quantitative.
+
+## Contrat statistique
+
+Les trois périmètres sont conservés séparément. Une ligne documentaire n’est pas automatiquement équivalente à une candidature institutionnelle : les PDF contiennent notamment des conversions prélabel→label, des retraits et des décisions reportées. Les trois ajournés de 03/2019 et 06/2019 sont documentés hors PDF nominatif et ne sont pas inventés comme entreprises.
+
+| Indicateur | Compteur officiel | Travail fondé sur les PDF |
+|---|---:|---:|
+| Sessions | 88 | 88 |
+| Candidatures | 3 079 | 3 566 lignes PDF ; 3 569 avec 3 ajournés hors PDF |
+| Labels accordés | 1 356 | 1 343 corrigés par rapprochement des sessions |
+| Prélabels accordés | 641 | 647 corrigés par rapprochement des sessions |
+| Retraits de label | 153 | Catégorie documentaire séparée |
+| Reportés | Compteur institutionnel séparé | Catégorie documentaire séparée |
+
+Le chiffre **3 566** désigne les lignes documentaires PDF après l’intégration de onze lignes manquantes dans les sessions 04/2026, 05/2026 et 06/2026. Le chiffre **3 569** ajoute les trois ajournés hors PDF. Ces valeurs ne remplacent pas le compteur institutionnel de **3 079 candidatures**.
+
+### Audit des trois dernières sessions
+
+| Session | Lignes PDF intégrées | Lignes ajoutées lors de l’audit |
+|---|---:|---|
+| 04/2026 | 50 | Mathix Academy, SURUS, Tunisia transfert |
+| 05/2026 | 48 | Deep SaaS, Carbon Zero Tech, NFASS, FIXITECHPRO, Cuber, shopyia |
+| 06/2026 | 47 | Nvitee, Creedex |
+
+La session 03/2019 est affichée avec **16 candidatures officielles et 16 corrigées**, dont **12 labels accordés, 2 labels non accordés et 2 ajournés hors PDF**. La session 06/2019 comporte également **1 ajourné hors PDF**. Les commentaires de report sont conservés comme commentaires, tandis que le statut normalisé est **Reporté** lorsque le dossier est reporté à la session suivante, comme pour ITMMA en 06/2024.
+
+## Organisation du dépôt
+
+```text
 vic-2026-startup-act/
 ├── streamlit-app/
-│   ├── server.py              # Serveur HTTP (Python)
-│   ├── server.js              # Serveur HTTP (Node.js/Express)
+│   ├── server.py                 # Serveur HTTP Python
 │   └── public/
-│       ├── index.html         # Application web (SPA, Chart.js + Leaflet)
-│       └── images/            # Logos et photo de l'auteur
-├── public/
-│   └── data/
-│       ├── dashboard_data.json       # Données corrigées des 85 sessions
-│       ├── sessions.json             # Sessions (miroir dashboard)
-│       ├── parcours.json             # Prélabel → label : conversions & retraits
-│       ├── corrections.json          # 20 corrections avec raisons
-│       ├── database_startups.json    # Startups labellisées
-│       ├── annual_reports_parsed.json# Rapports annuels parsés
-│       ├── startupblink_tunisia.json # Veille StartupBlink (données EXTERNES vérifiées)
-│       └── session-pdfs/             # PDF officiels des 85 sessions
-├── public/                           # (PDFs externes en archivage local uniquement, non versionnés)
-├── scripts/
-│   └── validate_data.py      # Validation d'intégrité des données (CI)
-├── .github/workflows/
-│   └── ci.yml                # Pipeline GitHub Actions CI/CD
-├── corrections.md            # Rapport détaillé des corrections (85/85 vérifiées)
-├── tableau_sessions.md       # Tableau des 85 sessions
-├── prompt_freebuff.md        # Prompt d'audit indépendant (freebuff)
-└── comparaison_sessions.html # Comparaison scrapé vs PDF
+│       └── index.html            # Application web HTML/JavaScript
+├── public/data/
+│   ├── reextraction_88_canonical.json       # Corpus canonique des lignes PDF
+│   ├── session-pdfs/                        # PDF des 88 sessions
+│   ├── session-pdfs-json/                   # Données détaillées par session
+│   ├── database_startups_88.json             # Tableau détaillé consultable
+│   ├── sessions_table.json                   # Compteurs et rapprochement par session
+│   ├── database_entrees_brutes_88.csv        # Export détaillé CSV
+│   ├── database_entrees_reextrait_88_corrige.csv
+│   ├── Startup_Act_88_sessions_reextrait_corrige_2026-08-23.xlsx
+│   ├── startup_act_database.sql              # Export SQL relationnel
+│   ├── founders_database.sqlite               # Base SQLite consultable
+│   └── dashboard_data.json                   # Métadonnées du dashboard
+├── scripts/reconciliation/                  # Scripts d’intégration et de contrôle
+├── corrections.md                            # Documentation des corrections
+└── render.yaml                               # Configuration Render Python
 ```
 
----
+## Lancer l’application localement
 
-## 🚀 Lancer l'application
-
-### Option 1 — Serveur Python
+À la racine du dépôt :
 
 ```bash
-python3 streamlit-app/server.py 8082
-# → http://localhost:8082
+pip install -r requirements.txt
+python3 streamlit-app/server.py
 ```
 
-### Option 2 — Serveur Node.js
+Le serveur utilise le port fourni par `PORT` lorsqu’il est défini ; en local, il peut être consulté sur le port indiqué par le serveur.
 
-```bash
-cd streamlit-app && npm install express && node server.js
-# → http://localhost:8082
-```
+## Configuration Render
 
-L'application est également configurée pour le déploiement sur
-[Render](https://render.com) (`render.yaml`).
+Le service doit être configuré comme **Web Service Python** avec la racine du dépôt comme répertoire racine :
 
----
-
-## ✅ CI/CD — GitHub Actions
-
-Le pipeline `.github/workflows/ci.yml` s'exécute à chaque push sur `main` et
-chaque pull request. Il valide :
-
-1. la **syntaxe Python** (`server.py`, `scripts/validate_data.py`) ;
-2. **l'intégrité des données** (`scripts/validate_data.py`) :
-   - cohérence `dashboard_data.json` ↔ `sessions.json` (85 sessions),
-   - taux arrondis corrects (`tauxAcceptation + tauxEchec = 100`),
-   - absence de clé résiduelle `10/25` (bug corrigé en `10/2025`),
-   - cohérence des totaux du parcours prélabel → label (502 conversions, 140 retraits…),
-   - structure du fichier `corrections.json` (20 corrections) ;
-3. la **syntaxe Node.js** (`server.js` + JS embarqué de `index.html`) ;
-4. la présence des **assets statiques** (images) ;
-5. le **parsing de tous les JSON** de `public/data/`.
-
----
-
-## 🧪 Méthodologie & qualité des données
-
-- **Source** : PDF officiels de labellisation de `startup.gov.tn` (85 sessions)
-  + rapports annuels.
-- **Extraction** : parseur positionnel Python (`parse_pdfs_v7.py`).
-- **Corrections** : **20 sessions sur 85** présentaient des valeurs erronées
-  dans le tableau `/sessions` de `startup.gov.tn` (labels/prélabels mal comptés).
-  Toutes ont été corrigées à partir des PDF officiels.
-- **Vérification** : **85/85 sessions vérifiées** — audit indépendant
-  (0 divergence) + relecture manuelle des 3 scans vectoriels illisibles par OCR
-  (07/2020, 12/2020, 01/2021).
-- Détails dans [`corrections.md`](corrections.md).
-
----
-
-## 🌍 Sources de données (veille AE1)
-
-L'application s'appuie sur deux périmètres de données, **toujours affichés
-séparément** (jamais fusionnés) :
-
-### 1. Données officielles corrigées (Startup Act tunisien)
-
-| Source | Usage |
+| Champ Render | Valeur |
 |---|---|
-| [startup.gov.tn](https://startup.gov.tn) — `/sessions` | Scraping initial (85 sessions) |
-| PDF officiels de labellisation (85 sessions) | **Source de vérité** — re-extraction et correction des valeurs |
-| Rapports annuels du programme (2019–2021) | Contexte qualitatif |
+| Runtime | Python |
+| Root Directory | Vide |
+| Build Command | `pip install -r requirements.txt` |
+| Start Command | `python3 streamlit-app/server.py` |
+| Version Python | `3.12.10` recommandée |
 
-> ⚠️ Le tableau `/sessions` du site contient **20 valeurs erronées sur 85**
-> (labels/prélabels mal comptés). Toutes ont été corrigées depuis les PDF
-> officiels — voir la page **« Corrections »** de l'app.
+Après un push sur `main`, utilisez **Manual Deploy → Deploy latest commit** dans Render. Le dépôt contient un serveur Python ; il ne faut pas utiliser `pnpm`, `vite` ou `requirements.txt` avec un runtime Node/React.
 
-### 2. Données externes de veille — StartupBlink (page *StartupBlink*)
+## Méthodologie et qualité
 
-Page de **veille comparative internationale** de l'écosystème tunisien, basée
-sur des données **externes** (StartupBlink — Global Startup Ecosystem Index
-2026) et **vérifiées le 11/08/2026** contre 5 sources croisées :
+Les PDF officiels constituent la source documentaire principale. L’extraction combine le texte PDF, le repérage des blocs de décisions et les contrôles manuels des sessions signalées comme incohérentes. Les champs individuels — noms de startups, fondateurs ou secteurs — peuvent rester approximatifs lorsqu’ils sont difficiles à lire ; les compteurs officiels et les lignes documentaires sont donc présentés dans des colonnes distinctes.
 
-- page web `startupblink.com/top-startups/tunisia` ;
-- API interne `/_next/data/.../startup-ecosystem/tunisia.json` (156 startups TN) ;
-- API fiche startup `/startup/gomycode.json` (SB Score 476, $9,7 M levés) ;
-- API `leaderboards?leaderboard_type=Cities|Countries&year=2026`
-  (Tunis #330, Sousse #1074 ; Tunisie #84 mondial, +36,6 %, #2 Afrique du Nord) ;
-- rapport officiel **Global Startup Ecosystem Index 2026** (p. 344–346),
-  consulté sur [lp.startupblink.com/report](https://lp.startupblink.com/report/)
-  (copie locale en archivage, **non versionnée**).
+Les principales règles de rapprochement sont les suivantes :
 
-Données : `public/data/startupblink_tunisia.json`. Chaque valeur affichée
-porte son **lien de source** (voir la carte *Sources* de la page).
+1. Le compteur **officiel** reprend le compteur institutionnel de la session.
+2. Les **lignes PDF** représentent les enregistrements imprimés et peuvent contenir des opérations historiques supplémentaires.
+3. Le périmètre **corrigé** ajoute les ajournés hors PDF documentés, sans créer de nom d’entreprise fictif.
+4. Les conversions prélabel→label, les retraits et les Reportés restent identifiables comme catégories distinctes.
+5. Les sessions 04/2026, 05/2026 et 06/2026 ont été complétées par onze lignes contrôlées dans les PDF.
 
-### 3. PDFs téléchargés et vérifiés (non intégrés, archivés localement)
+Le dossier `public/data/` contient les exports régénérés. Les scripts de réconciliation et le contrôle final permettent de reproduire les volumes et de vérifier l’absence de doublons dans les trois fichiers JSON de session 2026.
 
-| Fichier | Contenu | Verdict |
-|---|---|---|
-| `startupblinkcorporate-report-2025.pdf` | Corporate Startup Activity Index 2025 | **0 mention Tunisie** → non exploitable |
-| `startupgenomegser-2026_9607.pdf` | Startup Genome GSER 2026 (368 p.) | **1 seule mention Tunisie** (liste) → non exploitable |
-| `startupblinkecosystemreport2026.pdf` | Global Startup Ecosystem Index 2026 (source du bloc StartupBlink) | Intégré via les **liens externes** ; PDF local non versionné |
+## Sources
 
-> Ces rapports sont conservés **en local** (dans `.gitignore`, non poussés sur
-> GitHub) pour archivage/documentation ; seules les données vérifiées et leurs
-> liens de source nourrissent l'application.
+Les données institutionnelles et les PDF sont consultables sur [startup.gov.tn](https://startup.gov.tn), notamment la page [Startup Act — résultats](https://startup.gov.tn/fr/startup_act/results). Les rapports annuels utilisés pour le contexte sont référencés dans l’application et dans les documents d’étude.
 
-### 4. Autres sources identifiées (extraction à venir)
+La page de veille comparative StartupBlink utilise des données externes explicitement identifiées dans l’application ; elles ne sont pas mélangées aux compteurs du programme Startup Act.
 
-Le suivi des volumes annuels et de la levée de fonds tunisienne peut être
-complété à partir de : **Crunchbase** (filtre Tunisie), **Partech Africa
-Report**, **Africa: The Big Deal** (Base de données sur le financement des
-startups africaines), **Dealroom** et les rapports d'**ANAVA – Smart Capital**.
-*À documenter au fil de l'extraction.*
+## Auteur et partenaires
 
----
+**Faker BEN NOOMEN** est étudiant en Mastère Professionnel VIC — Veille et Intelligence Compétitive. Le projet est réalisé dans le cadre de la collaboration **[ESEN Manouba](https://esen.rnu.tn/portail/) × [ISCAE Manouba](https://iscae.rnu.tn/fr)**, avec le soutien de l’**[ATVIC](https://atvic.wordpress.com/)**.
 
-## 👤 Auteur
+Profils : [GitHub](https://github.com/bennoomenfaker) · [LinkedIn](https://linkedin.com/in/fakerbennoomen) · [site personnel](https://bennoomenfaker.github.io) · fakerbennoomen@gmail.com
 
-### Faker BEN NOOMEN
+## Licence et usage
 
-Développeur **Full-Stack** & étudiant en **Intelligence Stratégique & Gestion de Projet**.
+Projet open source, gratuit et à but pédagogique et universitaire. Les données sont issues de sources publiques ; les limites d’extraction, les différences de périmètre et les corrections sont affichées pour permettre un contrôle manuel et une réutilisation responsable.
 
-**Parcours académique**
-- 🎓 **2026 (en cours)** — Mastère Professionnel **VIC** — Veille & Intelligence Compétitive — **ESEN Manouba × ISCAE Manouba** *(collaboration)*
-- 🎓 **2025** — Mastère Professionnel (M2) **DDS** — Digitalisation des Services — **ESSECT Tunis**
-- 🎓 **2024** — Master 1 (M1) **IGP** — Innovation & Gestion de Projet — **ISIMS Sfax**
-- 🎓 **2023** — Licence **Informatique de Gestion** (E-Business) — **ESSECT Montfleury**
-
-**Stack** : TypeScript · NestJS · Next.js · React · Spring Boot · FastAPI ·
-Streamlit · PostgreSQL · MongoDB · OracleDB · MySQL · SQLite · Firebase ·
-Prisma/TypeORM · Docker · Cloud.
-
-**Profils**
-- 💼 [LinkedIn](https://linkedin.com/in/fakerbennoomen)
-- 💻 [GitHub](https://github.com/bennoomenfaker)
-- 🌐 [Site personnel](https://bennoomenfaker.github.io) · [Repo du site](https://github.com/bennoomenfaker/bennoomenfaker.github.io)
-- 📧 fakerbennoomen@gmail.com
-
----
-
-## 🤝 Partenaires & encadrement
-
-Ce mastère **VIC** est une **collaboration entre** :
-
-- **[ESEN Manouba](https://esen.rnu.tn/portail/)** — École Supérieure d'Économie Numérique
-- **[ISCAE Manouba](https://iscae.rnu.tn/fr)** — Institut Supérieur de Comptabilité et d'Administration des Entreprises
-  - **Responsable pédagogique & coordinatrice du mastère VIC** :
-    **Mme Afef BELGHITH** ([LinkedIn](https://www.linkedin.com/in/afef-belghith-99a74a25/)) — afef.belghith@iscae.uma.tn
-
-Avec le soutien de :
-
-- **[ATVIC](https://atvic.wordpress.com/)** — Association Tunisienne de Veille et Intelligence Compétitive
-  ([qui sommes-nous](https://atvic.wordpress.com/qui-sommes-nous/) · [Facebook](https://www.facebook.com/VeilleetIntelligenceCompetitive) · atvic.contact@gmail.com)
-
----
-
-## 📄 Licence
-
-Projet **open source**, **gratuit**, à but **pédagogique et universitaire**.
-Toutes les données sont issues de sources publiques officielles
-([startup.gov.tn](https://startup.gov.tn), [StartupBlink](https://startupblink.com),
-Startup Genome) — chaque source est citée et liée dans l'application.
-
-© 2026 Faker BEN NOOMEN — Étudiant Master VIC (Veille & Intelligence Compétitive).
+© 2026 Faker BEN NOOMEN — Projet académique VIC.
