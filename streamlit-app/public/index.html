@@ -1123,12 +1123,6 @@
       <div class="chart-card"><h3>🔄 Funnel Conversion Prélabel → Label</h3><div class="chart-wrapper"><canvas id="advChartFunnel"></canvas></div></div>
     </div>
     <div class="chart-grid">
-      <div class="chart-card" style="grid-column:span 2"><h3>🏷️ Nuage de Mots — Noms des Startups</h3><div id="advWordCloud" style="width:100%;height:350px;position:relative;overflow:hidden;background:#fafbfc;border-radius:8px"></div></div>
-    </div>
-    <div class="chart-grid">
-      <div class="chart-card" style="grid-column:span 2"><h3>🧠 Carte Mentale — Écosystème Startup Act</h3><div id="advMindMap" style="width:100%;height:500px;position:relative;overflow:auto;background:#fafbfc;border-radius:8px"></div></div>
-    </div>
-    <div class="chart-grid">
       <div class="chart-card"><h3>⚡ Taux de Succès par Année</h3><div class="chart-wrapper"><canvas id="advChartSuccess"></canvas></div></div>
       <div class="chart-card"><h3>🏷️ Répartition Label vs Pré-label par Année</h3><div class="chart-wrapper"><canvas id="advChartLabelType"></canvas></div></div>
     </div>
@@ -4248,12 +4242,6 @@ function renderAdvCharts() {
     }, options: { indexAxis: 'y', responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } } }
   });
 
-  // Word Cloud
-  renderWordCloud(allEntries);
-
-  // Mind Map
-  renderMindMap(sessions, allEntries);
-
   // Success rate by year
   const successData = yearData.map(d => ({ year: d.year, rate: d.c ? (d.l / d.c * 100).toFixed(1) : 0 }));
   new Chart(document.getElementById('advChartSuccess'), {
@@ -4273,70 +4261,6 @@ function renderAdvCharts() {
       ]
     }, options: { responsive: true, maintainAspectRatio: false, scales: { x: { stacked: true }, y: { stacked: true, beginAtZero: true } } }
   });
-}
-
-function renderWordCloud(entries) {
-  const container = document.getElementById('advWordCloud');
-  const freq = {};
-  entries.forEach(e => { const n = (e.societe || '').trim(); if (n && n.length > 2) freq[n] = (freq[n] || 0) + 1; });
-  const sorted = Object.entries(freq).sort((a, b) => b[1] - a[1]).slice(0, 80);
-  const maxF = sorted.length ? sorted[0][1] : 1;
-  const colors = ['#3b82f6', '#22c55e', '#f59e0b', '#ef4444', '#8b5cf6', '#06b6d4', '#f97316', '#ec4899'];
-  const html = sorted.map(([name, count], i) => {
-    const size = 12 + (count / maxF) * 28;
-    const color = colors[i % colors.length];
-    const opacity = 0.5 + (count / maxF) * 0.5;
-    const rotate = (Math.random() - 0.5) * 20;
-    return '<span style="display:inline-block;margin:4px 8px;font-size:' + size + 'px;color:' + color + ';opacity:' + opacity + ';transform:rotate(' + rotate + 'deg);font-weight:' + (count > 1 ? '700' : '400') + ';cursor:default" title="' + name + ': ' + count + ' fois">' + name + '</span>';
-  }).join(' ');
-  container.innerHTML = '<div style="padding:16px;text-align:center;line-height:1.8">' + html + '</div>';
-}
-
-function renderMindMap(sessions, entries) {
-  const container = document.getElementById('advMindMap');
-  const sectors = {};
-  entries.forEach(e => { const s = (e.secteur || 'N/A').trim(); sectors[s] = (sectors[s] || 0) + 1; });
-  const topS = Object.entries(sectors).sort((a, b) => b[1] - a[1]).slice(0, 8);
-  const years = [...new Set(sessions.map(s => s.year))].sort();
-  const yearStats = years.map(y => {
-    const ys = sessions.filter(s => s.year === y);
-    return { year: y, l: ys.reduce((s, d) => s + (d.labels || 0), 0), p: ys.reduce((s, d) => s + (d.preLabels || 0), 0) };
-  });
-
-  const cx = 400, cy = 250;
-  let svg = '<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">';
-  svg += '<circle cx="' + cx + '" cy="' + cy + '" r="60" fill="#1e40af" stroke="#3b82f6" stroke-width="3"/>';
-  svg += '<text x="' + cx + '" y="' + cy + '" text-anchor="middle" dy="5" fill="white" font-size="13" font-weight="700">Startup Act</text>';
-
-  // Sectors branch (right)
-  const sectorAngle = (Math.PI * 2) / topS.length;
-  topS.forEach(([name, count], i) => {
-    const angle = -Math.PI / 2 + i * sectorAngle;
-    const x = cx + 200 * Math.cos(angle);
-    const y = cy + 200 * Math.sin(angle);
-    const r = 15 + (count / topS[0][1]) * 25;
-    svg += '<line x1="' + cx + '" y1="' + cy + '" x2="' + x + '" y2="' + y + '" stroke="#dbeafe" stroke-width="2"/>';
-    svg += '<circle cx="' + x + '" cy="' + y + '" r="' + r + '" fill="#3b82f6" opacity="0.85"/>';
-    svg += '<text x="' + x + '" y="' + (y - r - 5) + '" text-anchor="middle" fill="#1e3a8a" font-size="10" font-weight="600">' + name.slice(0, 15) + '</text>';
-    svg += '<text x="' + x + '" y="' + (y + 4) + '" text-anchor="middle" fill="white" font-size="11" font-weight="700">' + count + '</text>';
-  });
-
-  // Year branch (bottom)
-  yearStats.forEach((ys, i) => {
-    const x = 100 + i * 85;
-    const y = cy + 180;
-    svg += '<line x1="' + cx + '" y1="' + cy + '" x2="' + x + '" y2="' + y + '" stroke="#fce7f3" stroke-width="2"/>';
-    svg += '<rect x="' + (x - 30) + '" y="' + (y - 15) + '" width="60" height="30" rx="6" fill="#ec4899" opacity="0.85"/>';
-    svg += '<text x="' + x + '" y="' + (y + 4) + '" text-anchor="middle" fill="white" font-size="10" font-weight="700">' + ys.year + '</text>';
-    svg += '<text x="' + x + '" y="' + (y + 28) + '" text-anchor="middle" fill="#be185d" font-size="9">' + ys.l + 'L ' + ys.p + 'P</text>';
-  });
-
-  // Title labels
-  svg += '<text x="720" y="30" text-anchor="middle" fill="#64748b" font-size="11" font-weight="600">Secteurs</text>';
-  svg += '<text x="400" y="490" text-anchor="middle" fill="#64748b" font-size="11" font-weight="600">Évolution annuelle</text>';
-
-  svg += '</svg>';
-  container.innerHTML = svg;
 }
 
 // ===== DONNEES EXTRAITES (88 PDFs) =====
