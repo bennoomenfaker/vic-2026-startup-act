@@ -87,7 +87,7 @@ INSERT INTO session_official_counts VALUES ('S78','09/2025','25','31','7','10','
 INSERT INTO session_official_counts VALUES ('S79','10/2025','41','51','17','12','10','3','0');
 INSERT INTO session_official_counts VALUES ('S80','11/2025','39','47','15','3','8','2','0');
 INSERT INTO session_official_counts VALUES ('S81','12/2025','41','51','15','6','10','5','0');
-INSERT INTO session_official_counts VALUES ('S82','01/2026','31','37','9','7','7','5','0');
+INSERT INTO session_official_counts VALUES ('S82','01/2026','31','42','9','7','7','5','0');
 INSERT INTO session_official_counts VALUES ('S83','02/2026','36','39','21','3','3','2','0');
 INSERT INTO session_official_counts VALUES ('S84','03/2026','41','44','13','7','3','6','0');
 INSERT INTO session_official_counts VALUES ('S85','04/2026','41','47','12','5','4','5','0');
@@ -3181,6 +3181,11 @@ INSERT INTO companies VALUES ('C_zolfa','ZOLFA','Non renseigné','03/2020; 09/20
 INSERT INTO companies VALUES ('C_zoor','Zoor','E-Commerce','06/2019');
 INSERT INTO companies VALUES ('C_zpartners','Z-Partners','Business Software','10/2021');
 INSERT INTO companies VALUES ('C_zribaspathermoludismwellness','Zriba SPA Thermoludism & Wellness','Healthcare & Wellness','11/2021');
+INSERT INTO companies VALUES ('C_jan26_01','Bus Software','IoT','01/2026');
+INSERT INTO companies VALUES ('C_jan26_02','Echo SARL','IT','01/2026');
+INSERT INTO companies VALUES ('C_jan26_03','Arion Technologies','Logiciel','01/2026');
+INSERT INTO companies VALUES ('C_jan26_04','Smart Insurance','Insurance Tech','01/2026');
+INSERT INTO companies VALUES ('C_jan26_05','Swiver Invest','Fintech','01/2026');
 INSERT INTO founders VALUES ('F_aamirabenaamiraissambenaamira','Aamira Ben Aamira Issam Ben Aamira');
 INSERT INTO founders VALUES ('F_abbassiahdi','Abbassi Ahdi');
 INSERT INTO founders VALUES ('F_abdallahnajah','Abdallah Najah');
@@ -13330,6 +13335,11 @@ INSERT INTO decisions VALUES ('S82_D0034','S82','C_dashmaster','session_2026_01.
 INSERT INTO decisions VALUES ('S82_D0035','S82','C_erpy','session_2026_01.pdf','Passage Prélabel → Label','ERPY NEXT','Ali Nasr','Label accordé','Label accordé','Business Software and services','Après création / conditions','Non','Août 2025','Label accordé suite à la création de la Startup et le respect des conditions d''octroi','Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire');
 INSERT INTO decisions VALUES ('S82_D0036','S82','C_parkcharge','session_2026_01.pdf','Passage Prélabel → Label','Park and charge','Rami Hedfi Zied Bradai Ghassen Chattouna','Label accordé','Label accordé','Mobility','Après création / conditions','Non','Août 2025','Label accordé suite à la création de la Startup et le respect des conditions d''octroi','Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire');
 INSERT INTO decisions VALUES ('S82_D0037','S82','C_ligalo','session_2026_01.pdf','Passage Prélabel → Label','Ligalo Technologies','Alaa Adouni Salem Moussa Adouni','Label accordé','Label accordé','Business Software and services','Après création / conditions','Non','Septembre 2025','Label accordé suite à la création de la Startup et le respect des conditions d''octroi','Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire');
+INSERT INTO decisions VALUES ('S82_D0038','S82','C_jan26_01','session_2026_01.pdf','Retraits Labels',NULL,'Non renseigné','Retrait du Label','Retrait Label','IoT','Retrait','Non renseigné','avril 2019','La société a dépassé l’âge maximum de 8 ans fixé par la loi 20-2018 pour les sociétés bénéficiaires du Label','Extrait directement du PDF officiel 01/2026; retrait documenté');
+INSERT INTO decisions VALUES ('S82_D0039','S82','C_jan26_02','session_2026_01.pdf','Retraits Labels',NULL,'Non renseigné','Retrait du Label','Retrait Label','IT','Retrait','Non renseigné','mai 2019','La société a dépassé l’âge maximum de 8 ans fixé par la loi 20-2018 pour les sociétés bénéficiaires du Label','Extrait directement du PDF officiel 01/2026; retrait documenté');
+INSERT INTO decisions VALUES ('S82_D0040','S82','C_jan26_03','session_2026_01.pdf','Retraits Labels',NULL,'Non renseigné','Retrait du Label','Retrait Label','Logiciel','Retrait','Non renseigné','avril 2020','La société a dépassé l’âge maximum de 8 ans fixé par la loi 20-2018 pour les sociétés bénéficiaires du Label','Extrait directement du PDF officiel 01/2026; retrait documenté');
+INSERT INTO decisions VALUES ('S82_D0041','S82','C_jan26_04','session_2026_01.pdf','Retraits Labels',NULL,'Non renseigné','Retrait du Label','Retrait Label','Insurance Tech','Retrait','Non renseigné','juillet 2019','La société a dépassé l’âge maximum de 8 ans fixé par la loi 20-2018 pour les sociétés bénéficiaires du Label','Extrait directement du PDF officiel 01/2026; retrait documenté');
+INSERT INTO decisions VALUES ('S82_D0042','S82','C_jan26_05','session_2026_01.pdf','Retraits Labels',NULL,'Non renseigné','Retrait du Label','Retrait Label','Fintech','Retrait','Non renseigné','mai 2019','La société a dépassé l’âge maximum de 8 ans fixé par la loi 20-2018 pour les sociétés bénéficiaires du Label','Extrait directement du PDF officiel 01/2026; retrait documenté');
 INSERT INTO decisions VALUES ('S83_D0001','S83','C_hexa5solutions','session_2026_02.pdf','Session de décision',NULL,'Mohamed TLICH','Label Accordé au 2 ème Tour Rim Saied a déclaré avoir un conflit d''intérêt','Label accordé','Security','Non précisé',NULL,NULL,NULL,'Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire');
 INSERT INTO decisions VALUES ('S83_D0002','S83','C_massarperfection','session_2026_02.pdf','Session de décision',NULL,'Mahmoud Trabelsi','Label Accordé au 2 ème Tour Hassen Aarfaoui a déclaré avoir un conflit d''intérêt','Label accordé','Business Software and services','Non précisé',NULL,NULL,NULL,'Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire');
 INSERT INTO decisions VALUES ('S83_D0003','S83','C_kessa','session_2026_02.pdf','Session de décision',NULL,'Chaibi Ahmed Fares','Label Accordé au 2 ème Tour Hassen Aarfaoui a déclaré avoir un conflit d''intérêt','Label accordé','Fintech','Non précisé',NULL,NULL,NULL,'Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire');
@@ -17282,7 +17292,7 @@ INSERT INTO session_reconciliation_pdf VALUES ('S78','09/2025',25,31,6,7,7,10,10
 INSERT INTO session_reconciliation_pdf VALUES ('S79','10/2025',41,51,10,17,17,12,12,51,0,0,0,'Conforme');
 INSERT INTO session_reconciliation_pdf VALUES ('S80','11/2025',39,47,8,15,15,3,3,47,0,0,0,'Conforme');
 INSERT INTO session_reconciliation_pdf VALUES ('S81','12/2025',41,51,10,15,16,6,6,51,0,0,0,'Conforme');
-INSERT INTO session_reconciliation_pdf VALUES ('S82','01/2026',31,37,6,9,10,7,7,37,0,0,0,'Conforme');
+INSERT INTO session_reconciliation_pdf VALUES ('S82','01/2026',31,42,11,9,10,7,7,42,0,5,0,'À rapprocher — 5 retraits documentés ajoutés; 42 lignes PDF');
 INSERT INTO session_reconciliation_pdf VALUES ('S83','02/2026',36,39,3,21,20,3,3,39,0,0,0,'Conforme');
 INSERT INTO session_reconciliation_pdf VALUES ('S84','03/2026',41,44,3,13,13,7,7,44,0,0,0,'Conforme');
 INSERT INTO session_reconciliation_pdf VALUES ('S85','04/2026',41,47,6,12,12,5,5,47,0,5,0,'Conforme');

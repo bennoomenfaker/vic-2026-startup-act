@@ -1,4 +1,4 @@
--- Startup Act Civic Ledger — SQL canonique 88 sessions, généré le 23/08/2026
+-- Startup Act Civic Ledger — SQL canonique 88 sessions, généré le 25/08/2026
 PRAGMA foreign_keys = ON;
 DROP VIEW IF EXISTS session_official_counts;
 DROP TABLE IF EXISTS company_founders;
@@ -16,11 +16,11 @@ CREATE TABLE decisions (decision_id TEXT PRIMARY KEY, session_id TEXT NOT NULL, 
 CREATE TABLE company_founders (decision_id TEXT NOT NULL, company_id TEXT, founder_id TEXT, session_id TEXT, founder_raw TEXT, quality TEXT, PRIMARY KEY(decision_id, founder_id));
 INSERT INTO metadata(key,value) VALUES ('scope','88 sessions S0-S87; source reextraction_88_canonical.json');
 INSERT INTO metadata(key,value) VALUES ('official_candidatures','3079');
-INSERT INTO metadata(key,value) VALUES ('corrected_candidatures','3569');
+INSERT INTO metadata(key,value) VALUES ('corrected_candidatures','3574');
 INSERT INTO metadata(key,value) VALUES ('ajournes_hors_pdf','3');
 INSERT INTO metadata(key,value) VALUES ('official_labels','1356');
 INSERT INTO metadata(key,value) VALUES ('official_prelabels','641');
-INSERT INTO metadata(key,value) VALUES ('detailed_entries','3566');
+INSERT INTO metadata(key,value) VALUES ('detailed_entries','3571');
 INSERT INTO metadata(key,value) VALUES ('official_withdrawals','153');
 INSERT INTO metadata(key,value) VALUES ('confirmed_reportes','5');
 INSERT INTO sessions VALUES ('S0','03/2019','16','14','16','2','12','0','0','0','0');
@@ -105,7 +105,7 @@ INSERT INTO sessions VALUES ('S78','09/2025','25','31','31','0','7','10','6','4'
 INSERT INTO sessions VALUES ('S79','10/2025','41','51','51','0','17','12','10','3','0');
 INSERT INTO sessions VALUES ('S80','11/2025','39','47','47','0','15','3','8','2','0');
 INSERT INTO sessions VALUES ('S81','12/2025','41','51','51','0','15','6','10','5','0');
-INSERT INTO sessions VALUES ('S82','01/2026','31','37','37','0','9','7','7','5','0');
+INSERT INTO sessions VALUES ('S82','01/2026','31','42','42','0','9','7','7','5','0');
 INSERT INTO sessions VALUES ('S83','02/2026','36','39','39','0','21','3','3','2','0');
 INSERT INTO sessions VALUES ('S84','03/2026','41','44','44','0','13','7','3','6','0');
 INSERT INTO sessions VALUES ('S85','04/2026','41','50','50','0','12','5','4','5','0');
@@ -3241,6 +3241,11 @@ INSERT INTO companies VALUES ('C3127','Robo Care','Agritech','10/2020');
 INSERT INTO companies VALUES ('C3128','AREV "Makhbazti Digitale"','E-commerce','10/2020');
 INSERT INTO companies VALUES ('C3129','Fasteas technology','Plateforme Sociale','10/2020');
 INSERT INTO companies VALUES ('C3130','ilboursa.com / Société African Web Company','IT','10/2020');
+INSERT INTO companies VALUES ('C3142','Bus Software','IoT','01/2026');
+INSERT INTO companies VALUES ('C3143','Echo SARL','IT','01/2026');
+INSERT INTO companies VALUES ('C3144','Arion Technologies','Logiciel','01/2026');
+INSERT INTO companies VALUES ('C3145','Smart Insurance','Insurance Tech','01/2026');
+INSERT INTO companies VALUES ('C3146','Swiver Invest','Fintech','01/2026');
 INSERT INTO founders VALUES ('F0001','Hadi Zaher');
 INSERT INTO founders VALUES ('F0002','Oussama Messaoud');
 INSERT INTO founders VALUES ('F0003','Anis Sahbani');
@@ -10316,6 +10321,11 @@ INSERT INTO decisions VALUES ('S82_D0034','S82','C2902','session_2026_01.pdf','P
 INSERT INTO decisions VALUES ('S82_D0035','S82',NULL,'session_2026_01.pdf','Passage Prélabel → Label','ERPY NEXT','Ali Nasr','Label accordé','Label accordé','Business Software and services','Après création / conditions','Non','Août 2025','Label accordé suite à la création de la Startup et le respect des conditions d''octroi','Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire');
 INSERT INTO decisions VALUES ('S82_D0036','S82',NULL,'session_2026_01.pdf','Passage Prélabel → Label','Park and charge','Rami Hedfi Zied Bradai Ghassen Chattouna','Label accordé','Label accordé','Mobility','Après création / conditions','Non','Août 2025','Label accordé suite à la création de la Startup et le respect des conditions d''octroi','Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire');
 INSERT INTO decisions VALUES ('S82_D0037','S82',NULL,'session_2026_01.pdf','Passage Prélabel → Label','Ligalo Technologies','Alaa Adouni Salem Moussa Adouni','Label accordé','Label accordé','Business Software and services','Après création / conditions','Non','Septembre 2025','Label accordé suite à la création de la Startup et le respect des conditions d''octroi','Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire');
+INSERT INTO decisions VALUES ('S82_D0038','S82','C3142','session_2026_01.pdf','Retraits Labels',NULL,'Non renseigné','Retrait du Label','Retrait Label','IoT','Retrait','Non renseigné','avril 2019','La société a dépassé l’âge maximum de 8 ans fixé par la loi 20-2018 pour les sociétés bénéficiaires du Label','Extrait directement du PDF officiel 01/2026; retrait documenté');
+INSERT INTO decisions VALUES ('S82_D0039','S82','C3143','session_2026_01.pdf','Retraits Labels',NULL,'Non renseigné','Retrait du Label','Retrait Label','IT','Retrait','Non renseigné','mai 2019','La société a dépassé l’âge maximum de 8 ans fixé par la loi 20-2018 pour les sociétés bénéficiaires du Label','Extrait directement du PDF officiel 01/2026; retrait documenté');
+INSERT INTO decisions VALUES ('S82_D0040','S82','C3144','session_2026_01.pdf','Retraits Labels',NULL,'Non renseigné','Retrait du Label','Retrait Label','Logiciel','Retrait','Non renseigné','avril 2020','La société a dépassé l’âge maximum de 8 ans fixé par la loi 20-2018 pour les sociétés bénéficiaires du Label','Extrait directement du PDF officiel 01/2026; retrait documenté');
+INSERT INTO decisions VALUES ('S82_D0041','S82','C3145','session_2026_01.pdf','Retraits Labels',NULL,'Non renseigné','Retrait du Label','Retrait Label','Insurance Tech','Retrait','Non renseigné','juillet 2019','La société a dépassé l’âge maximum de 8 ans fixé par la loi 20-2018 pour les sociétés bénéficiaires du Label','Extrait directement du PDF officiel 01/2026; retrait documenté');
+INSERT INTO decisions VALUES ('S82_D0042','S82','C3146','session_2026_01.pdf','Retraits Labels',NULL,'Non renseigné','Retrait du Label','Retrait Label','Fintech','Retrait','Non renseigné','mai 2019','La société a dépassé l’âge maximum de 8 ans fixé par la loi 20-2018 pour les sociétés bénéficiaires du Label','Extrait directement du PDF officiel 01/2026; retrait documenté');
 INSERT INTO decisions VALUES ('S83_D0001','S83','C2903','session_2026_02.pdf','Session de décision',NULL,'Mohamed TLICH','Label Accordé au 2 ème Tour Rim Saied a déclaré avoir un conflit d''intérêt','Label accordé','Security','Non précisé',NULL,NULL,NULL,'Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire');
 INSERT INTO decisions VALUES ('S83_D0002','S83','C2904','session_2026_02.pdf','Session de décision',NULL,'Mahmoud Trabelsi','Label Accordé au 2 ème Tour Hassen Aarfaoui a déclaré avoir un conflit d''intérêt','Label accordé','Business Software and services','Non précisé',NULL,NULL,NULL,'Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire');
 INSERT INTO decisions VALUES ('S83_D0003','S83','C2905','session_2026_02.pdf','Session de décision',NULL,'Chaibi Ahmed Fares','Label Accordé au 2 ème Tour Hassen Aarfaoui a déclaré avoir un conflit d''intérêt','Label accordé','Fintech','Non précisé',NULL,NULL,NULL,'Donnée existante du fichier utilisateur; conserver et contrôler le PDF si nécessaire');
