@@ -3,7 +3,7 @@
     "total": 3,
     "source": "Commentaires institutionnels Startup Tunisia hors lignes PDF nommées",
     "status": "Ajourné hors PDF — entreprise non identifiée",
-    "note": "Ces trois dossiers sont comptés dans les 3 558 candidatures corrigées, mais ne sont pas ajoutés aux 3 555 lignes PDF détaillées ni aux catégories de décision Label/Prélabel."
+    "note": "Ces trois dossiers sont comptés dans les 3 569 candidatures documentaires corrigées (3 566 lignes PDF + 3 ajournés), mais ne sont pas ajoutés aux 3 566 lignes PDF détaillées ni aux catégories de décision Label/Prélabel."
   },
   "rows": [
     {
@@ -12,7 +12,7 @@
       "count": 2,
       "company": "Entreprise non identifiée",
       "founders": "Non identifiés",
-      "decision": "Ajourné hors PDF",
+      "decision": "Ajourné — Reporté à la session suivante",
       "source": "Commentaire officiel Startup Tunisia — 03/2019",
       "note": "Deux ajournés mentionnés ; noms non publiés dans les éléments disponibles."
     },
@@ -22,7 +22,7 @@
       "count": 1,
       "company": "Entreprise non identifiée",
       "founders": "Non identifiés",
-      "decision": "Ajourné hors PDF",
+      "decision": "Ajourné — Reporté à la session suivante",
       "source": "Commentaire officiel Startup Tunisia — 06/2019",
       "note": "Un ajourné mentionné ; nom non publié dans les éléments disponibles."
     }

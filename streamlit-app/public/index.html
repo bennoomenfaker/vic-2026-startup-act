@@ -4458,6 +4458,31 @@ async function renderExtractedData() {
         es.forEach(e => { e._file = f; e._session = d.session || f.replace('session_','').replace('.json','').replace('_','/'); allEntries.push(e); });
       }
     });
+    // Les ajournés sont mentionnés dans le commentaire officiel mais absents des lignes PDF.
+    // On les affiche comme dossiers anonymisés, sans inventer d’entreprise ni de fondateur.
+    try {
+      const aj = await fetch('/data/ajournes_hors_pdf.json').then(r => r.json());
+      (aj.rows || []).forEach(row => {
+        const count = Number(row.count || 0);
+        for (let i = 1; i <= count; i++) {
+          allEntries.push({
+            _file: row.session === '03/2019' ? 'session_2019_03.json' : 'session_2019_06.json',
+            _session: row.session,
+            _isAjourneHorsPdf: true,
+            societe: 'Entreprise non identifiée — Ajourné ' + i,
+            fondateurs: 'Non identifiés',
+            secteur: 'Non renseigné',
+            resultat: 'Reporté',
+            resultat_normalise: 'Reporté',
+            decision_source: 'Ajourné',
+            commentaire: row.note || row.source || 'Ajourné à la session suivante',
+            commentaire_pdf: row.note || row.source || 'Ajourné à la session suivante'
+          });
+        }
+      });
+    } catch (e) { console.warn('Ajournés hors PDF non chargés', e); }
+    extractedCache.pdfEntryCount = allEntries.filter(e => !e._isAjourneHorsPdf).length;
+    extractedCache.ajourneEntryCount = allEntries.filter(e => e._isAjourneHorsPdf).length;
     extractedCache.allEntries = allEntries;
     extractedCache.sessionDataMap = {};
     files.forEach(f => {
@@ -4586,12 +4611,15 @@ function renderExtractedTable() {
   };
   const selectedOfficial = sess ? Number((extractedCache.sessionDataMap[sess] || {}).candidatures || 0) : 0;
   let countText;
+  const totalDocumentaryRows = Number(extractedCache.pdfEntryCount || extractedCache.allEntries.length);
+  const totalAjourneRows = Number(extractedCache.ajourneEntryCount || 0);
+  const scopeLabel = totalAjourneRows ? totalDocumentaryRows.toLocaleString('fr-FR') + ' lignes PDF + ' + totalAjourneRows.toLocaleString('fr-FR') + ' ajournés hors PDF' : totalDocumentaryRows.toLocaleString('fr-FR') + ' lignes PDF';
   if (sess && !dec && !q) {
-    countText = 'Candidatures officielles : ' + selectedOfficial.toLocaleString('fr-FR') + ' · lignes PDF affichées : ' + rows.length.toLocaleString('fr-FR') + ' / ' + extractedCache.allEntries.length.toLocaleString('fr-FR');
+    countText = 'Candidatures officielles : ' + selectedOfficial.toLocaleString('fr-FR') + ' · enregistrements affichés : ' + rows.length.toLocaleString('fr-FR') + ' / ' + extractedCache.allEntries.length.toLocaleString('fr-FR') + ' (' + scopeLabel + ')';
   } else if (!sess && !dec && !q) {
-    countText = 'Lignes PDF affichées : ' + rows.length.toLocaleString('fr-FR') + ' / ' + extractedCache.allEntries.length.toLocaleString('fr-FR');
+    countText = 'Enregistrements affichés : ' + rows.length.toLocaleString('fr-FR') + ' / ' + extractedCache.allEntries.length.toLocaleString('fr-FR') + ' (' + scopeLabel + ')';
   } else {
-    countText = rows.length.toLocaleString('fr-FR') + ' lignes PDF correspondant au filtre';
+    countText = rows.length.toLocaleString('fr-FR') + ' enregistrements correspondant au filtre';
   }
   const selectedSessionData = sess ? (extractedCache.sessionDataMap[sess] || {}) : {};
   const sessionOfficialByDecision = {
@@ -4613,11 +4641,13 @@ function renderExtractedTable() {
   tbody.innerHTML = rows.slice(0, 1000).map(e => {
     const nr = decisionKey(e);
     const rowClass = nr === 'reporte' ? 'row-reporte' : nr === 'pitch_decale' ? 'row-pitch' : nr === 'decision_non_precisee' ? 'row-admin' : '';
-    return '<tr class="' + rowClass + '" style="cursor:pointer" onclick="openExtractedDetail(\'' + escapeAttr(e._file) + '\')">' +
+    const decisionTitle = e._isAjourneHorsPdf ? 'Libellé source : Ajourné — candidature reportée à la session suivante' : (e.commentaire || e.commentaire_pdf || '');
+    const rowClick = e._isAjourneHorsPdf ? '' : " onclick=\"openExtractedDetail('" + escapeAttr(e._file) + "')\"";
+    return '<tr class="' + rowClass + '" style="cursor:' + (e._isAjourneHorsPdf ? 'default' : 'pointer') + '"' + rowClick + '>' +
     '<td style="white-space:nowrap">' + escapeHtml(e._session) + '</td>' +
     '<td><strong>' + escapeHtml(e.societe || '—') + '</strong></td>' +
     '<td>' + escapeHtml(e.secteur || '—') + '</td>' +
-    '<td><span class="chip chip-decision-' + nr + '">' + (EXT_DEC[nr] || nr || '—') + '</span></td>' +
+    '<td title="' + escapeHtml(decisionTitle) + '"><span class="chip chip-decision-' + nr + '">' + (e._isAjourneHorsPdf ? 'Ajourné · Reporté' : (EXT_DEC[nr] || nr || '—')) + '</span></td>' +
     '<td class="founders-cell">' + escapeHtml((e.fondateurs || '—').slice(0, 100)) + '</td>' +
     '<td>' + (e.conflit ? '<span title="' + escapeHtml(e.conflit) + '" style="cursor:help">⚠</span>' : (e.is_conversion ? '🔁' : '')) + '</td>' +
     '</tr>';
