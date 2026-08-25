@@ -1382,7 +1382,7 @@
       "tauxExact": 71.42857142857143,
       "echec": "28.6",
       "echecExact": 28.571429,
-      "commentaires": "18 Labels et 6 Prelabels à Labels"
+      "commentaires": "20 Labels finaux (18 directs + 2 conversions identifiées : Zatex et Eat & Fit), 5 Prélabels accordés et 3 Prélabels non accordés ; commentaire officiel : 18 Labels et 6 Prélabels à Labels"
     },
     {
       "session": "08/2020",
@@ -1973,7 +1973,7 @@
         "taux": "71.4",
         "echec": "28.6"
       },
-      "reason": "20 labels (scrapé : 24), 5 prélabels",
+      "reason": "20 labels finaux (18 directs + 2 conversions identifiées : Zatex et Eat & Fit), 5 prélabels accordés et 3 prélabels non accordés ; le commentaire officiel annonce 18 labels directs + 6 conversions, dont 4 non individualisées",
       "commentaires": "18 Labels et 6 Prelabels à Labels"
     },
     {
@@ -2380,7 +2380,7 @@
       },
       "corrected_counter": {
         "candidatures": 28,
-        "candidatures_source": "lignes PDF détaillées, méthode corrigée de l’étude",
+        "candidatures_source": "28 lignes PDF détaillées ; conversions conservées comme événements de décision, sans double comptage des candidatures",
         "candidatures_officielles_reprises": 28,
         "labels": 20,
         "preLabels": 5,
@@ -2408,9 +2408,12 @@
         "corrige_moins_officiel_preLabels": -2,
         "candidatures_corrigees_moins_officiel": 0
       },
-      "statut": "Conforme",
+      "statut": "Conforme — 28 lignes PDF = 28 candidatures; 20 Labels, 5 Prélabels accordés, 3 Prélabels non accordés",
       "ajournes_hors_pdf": 0,
-      "ajournes_hors_pdf_note": ""
+      "ajournes_hors_pdf_note": "",
+      "conversions_commentaire_officiel": 6,
+      "conversions_identifiees_pdf": 2,
+      "conversions_identifiees_note": "Zatex et Eat & Fit ; quatre conversions annoncées dans le commentaire officiel ne sont pas individualisées dans les lignes publiées."
     },
     {
       "session_id": "S6",
