@@ -1,11 +1,11 @@
 {
   "meta": {
     "nb_sessions": 88,
-    "nb_startups": 3555,
+    "nb_startups": 3571,
     "nb_founders": 3786,
     "nb_liens": 4343,
     "nb_qa": 13,
-    "generated": "corpus canonique PDF 88 sessions — compteurs officiels conservés séparément"
+    "generated": "corpus canonique PDF 88 sessions — 01/2026 corrigée à 42 lignes"
   },
   "sessions": [
     {
@@ -79874,6 +79874,56 @@
         "Omar El Oudi",
         "Kouakou Dankoua Agree"
       ]
+    },
+    {
+      "id": 3556,
+      "decision_id": "S82_D0038",
+      "session_id": "S82",
+      "session": "01/2026",
+      "nom": "Bus Software",
+      "secteur": "IoT",
+      "decision": "Retrait Label",
+      "founders": []
+    },
+    {
+      "id": 3557,
+      "decision_id": "S82_D0039",
+      "session_id": "S82",
+      "session": "01/2026",
+      "nom": "Echo SARL",
+      "secteur": "IT",
+      "decision": "Retrait Label",
+      "founders": []
+    },
+    {
+      "id": 3558,
+      "decision_id": "S82_D0040",
+      "session_id": "S82",
+      "session": "01/2026",
+      "nom": "Arion Technologies",
+      "secteur": "Logiciel",
+      "decision": "Retrait Label",
+      "founders": []
+    },
+    {
+      "id": 3559,
+      "decision_id": "S82_D0041",
+      "session_id": "S82",
+      "session": "01/2026",
+      "nom": "Smart Insurance",
+      "secteur": "Insurance Tech",
+      "decision": "Retrait Label",
+      "founders": []
+    },
+    {
+      "id": 3560,
+      "decision_id": "S82_D0042",
+      "session_id": "S82",
+      "session": "01/2026",
+      "nom": "Swiver Invest",
+      "secteur": "Fintech",
+      "decision": "Retrait Label",
+      "founders": []
     }
   ],
   "founders": [

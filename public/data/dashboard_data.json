@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-08-23T00:00:00+00:00",
+    "lastUpdated": "2026-08-25T00:00:00+00:00",
     "sources": [
       {
         "name": "Résultats labellisation",
@@ -33,19 +33,19 @@
     "totalPreLabels": 641,
     "totalSessions": 88,
     "sessions": 88,
-    "detailedEntries": 3566,
-    "dataNote": "3 569 candidatures corrigées = 3 566 lignes PDF + 3 ajournés hors PDF ; 3 079 candidatures officielles conservées séparément.",
+    "detailedEntries": 3571,
+    "dataNote": "3 574 candidatures corrigées = 3 571 lignes PDF + 3 ajournés hors PDF ; 3 079 candidatures officielles conservées séparément. La session 01/2026 comprend 42 lignes physiques, dont 5 retraits documentés.",
     "totalCandidaturesOfficielles": 3079,
     "totalLabelsOfficiels": 1356,
     "totalPreLabelsOfficiels": 641,
-    "totalCandidaturesCorrigees": 3569,
+    "totalCandidaturesCorrigees": 3574,
     "totalLabelsCorriges": 1343,
     "totalPreLabelsCorriges": 647,
-    "totalLignesPdf": 3566,
+    "totalLignesPdf": 3571,
     "totalLabelsPdfDetail": 1233,
     "totalPreLabelsPdfDetail": 1622,
     "totalReportesPdf": 5,
-    "correctedCandidatures": 3569,
+    "correctedCandidatures": 3574,
     "ajournesHorsPdf": 3
   },
   "sessions": [
@@ -2534,26 +2534,30 @@
       "conversions": 7,
       "newLabels": 2,
       "tauxPct": 29.03,
-      "statut": "Conforme",
-      "entries": 37,
+      "statut": "À rapprocher",
+      "entries": 42,
       "reportes": 0,
       "session_id": "S82",
-      "detailedEntries": 37,
+      "detailedEntries": 42,
       "candidaturesOfficielles": 31,
-      "candidaturesCorrigees": 37,
+      "candidaturesCorrigees": 42,
       "labelsOfficiels": 9,
       "labelsCorriges": 10,
       "preLabelsOfficiels": 7,
       "preLabelsCorriges": 7,
-      "lignesPdf": 37,
-      "ecartCandidatures": 6,
+      "lignesPdf": 42,
+      "ecartCandidatures": -1,
       "categoriesPdf": {
-        "Label accordé": 10,
-        "Label non accordé": 7,
+        "Label accordé": 3,
         "Prélabel accordé": 7,
-        "Prélabel non accordé": 13
+        "Label non accordé": 7,
+        "Prélabel non accordé": 13,
+        "Retrait Label": 5,
+        "Passage Prélabel → Label": 7
       },
-      "ajournesHorsPdf": 0
+      "ajournesHorsPdf": 0,
+      "candidaturesReexamen": 42,
+      "candidaturesPdf": 30
     },
     {
       "session": "02/2026",

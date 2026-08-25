@@ -3951,37 +3951,38 @@
         "conversions": 7
       },
       "corrected_counter": {
-        "candidatures": 37,
+        "candidatures": 42,
         "candidatures_source": "lignes PDF détaillées, méthode corrigée de l’étude",
         "candidatures_officielles_reprises": 31,
         "labels": 10,
         "preLabels": 7,
-        "source": "corrections.json correctedTable.new / canonical for S85-S87"
+        "source": "PDF officiel 01/2026 réextrait; 42 lignes physiques dont 5 retraits documentés"
       },
       "pdf_detail": {
-        "lignes": 37,
+        "lignes": 42,
         "categories": {
           "Label accordé": 10,
-          "Label non accordé": 7,
           "Prélabel accordé": 7,
-          "Prélabel non accordé": 13
+          "Label non accordé": 7,
+          "Prélabel non accordé": 13,
+          "Retrait Label": 5
         },
         "labels": 10,
         "preLabels": 7,
         "labelsNonAccordes": 7,
         "preLabelsNonAccordes": 13,
-        "retraits": 0,
+        "retraits": 5,
         "reportes": 0,
         "decisionsNonPrecisees": 0,
         "pitchDecales": 0
       },
       "ecarts": {
-        "lignes_moins_officiel": 6,
+        "lignes_moins_officiel": 11,
         "corrige_moins_officiel_labels": 1,
         "corrige_moins_officiel_preLabels": 0,
-        "candidatures_corrigees_moins_officiel": 6
+        "candidatures_corrigees_moins_officiel": 11
       },
-      "statut": "Conforme",
+      "statut": "À rapprocher",
       "ajournes_hors_pdf": 0,
       "ajournes_hors_pdf_note": "",
       "candidatures_corrigees_total": 37

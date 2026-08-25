@@ -1,9 +1,9 @@
 {
   "sessions": 88,
-  "candidatures_reexamen_pdf": 3555,
+  "candidatures_reexamen_pdf": 3571,
   "candidatures_site_officiel": 3079,
   "ecart_reexamen_moins_officiel": 452,
-  "lignes_pdf_detaillees": 3555,
+  "lignes_pdf_detaillees": 3571,
   "labels_total": 1356,
   "prelabels_total": 641,
   "positive_total": 1997,
@@ -25,7 +25,7 @@
   "method_note": "Le réexamen PDF compte les dossiers/lignes retenus par l'étude et les ajournés explicitement mentionnés hors lignes; le compteur site officiel est conservé séparément. Les deux séries ne sont pas fusionnées.",
   "official_label_rate_pct": 44.04,
   "reexamen_label_share_pct": 38.4,
-  "last_updated": "2026-08-23",
+  "last_updated": "2026-08-25",
   "candidatures_officielles": 3079,
   "labels_officiels": 1356,
   "prelabels_officiels": 641,
@@ -34,14 +34,14 @@
     "Label non accordé": 653,
     "Prélabel accordé": 634,
     "Prélabel non accordé": 980,
-    "Retrait Label": 46,
+    "Retrait Label": 51,
     "Reporté": 5,
     "Décision non précisée — motif administratif": 4,
     "Pitch décalé": 1
   },
-  "ecart_lignes_pdf_moins_officiel": 476,
-  "candidatures_corrigees": 3558,
+  "ecart_lignes_pdf_moins_officiel": 492,
+  "candidatures_corrigees": 3574,
   "ajournes_hors_pdf": 3,
-  "ecart_candidatures_corrigees_moins_officiel": 479,
-  "candidatures_definition": "3 558 corrigées = 3 555 lignes PDF détaillées + 3 ajournés hors PDF (03/2019: 2; 06/2019: 1); le commentaire 04/2019 n’est pas retenu dans le filtre validé ; 3 079 officiel = compteur institutionnel."
+  "ecart_candidatures_corrigees_moins_officiel": 495,
+  "candidatures_definition": "3 574 corrigées = 3 571 lignes PDF détaillées + 3 ajournés hors PDF; le compteur officiel reste 3 079. La session 01/2026 compte 42 lignes physiques, dont 5 retraits documentés."
 }

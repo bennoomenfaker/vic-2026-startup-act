@@ -19,15 +19,15 @@
     "official_candidatures": 3079,
     "official_labels": 1356,
     "official_prelabels": 641,
-    "detailed_entries": 3555,
+    "detailed_entries": 3571,
     "official_withdrawals": 153,
     "confirmed_reportes": 5,
-    "note": "Les compteurs officiels (3 079), les 3 555 lignes détaillées PDF et les 3 ajournés hors PDF (3 558 corrigées) sont trois périmètres distincts.",
-    "corrected_pdf_candidatures": 3555,
+    "note": "Les compteurs officiels (3 079), les 3 571 lignes détaillées PDF et les 3 ajournés hors PDF (3 574 corrigées) sont trois périmètres distincts. 01/2026: 42 lignes, dont 5 retraits documentés.",
+    "corrected_pdf_candidatures": 3571,
     "corrected_pdf_labels": 1343,
     "corrected_pdf_prelabels": 647,
     "reconciliation_note": "PDF primaire; officiel et corrigé sont deux séries séparées.",
-    "corrected_candidatures": 3558,
+    "corrected_candidatures": 3574,
     "ajournes_hors_pdf": 3
   },
   "sessions": [
@@ -1592,7 +1592,7 @@
     {
       "session_id": "S82",
       "period": "Janvier 2026",
-      "entries": 37,
+      "entries": 42,
       "official": {
         "period": "Janvier 2026",
         "labels": 9,
@@ -1601,9 +1601,9 @@
         "withdrawals": 5
       },
       "candidatures_officielles": 31,
-      "entries_detaillees": 37,
+      "entries_detaillees": 42,
       "ajournes_hors_pdf": 0,
-      "candidatures_corrigees": 37,
+      "candidatures_corrigees": 42,
       "conversions": 7,
       "document_withdrawals": 5,
       "reports": 0

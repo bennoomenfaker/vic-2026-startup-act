@@ -4,7 +4,7 @@
     "official_candidatures": 3079,
     "official_labels": 1356,
     "official_prelabels": 641,
-    "detailed_entries": 3555,
+    "detailed_entries": 3571,
     "source": "reextraction_88_canonical.json"
   },
   "sessions": [
@@ -918,7 +918,7 @@
       "preLabels": 7,
       "retraits": 5,
       "conversions": 7,
-      "rows": 37,
+      "rows": 42,
       "reportes": 0
     },
     {
@@ -96515,6 +96515,56 @@
       "decision": "Retrait Label",
       "sector": "IT",
       "source_pdf": "session_2020_10.pdf"
+    },
+    {
+      "decision_id": "S82_D0038",
+      "session_id": "S82",
+      "company_id": "",
+      "company_name": "Bus Software",
+      "founder_names": "Non renseigné",
+      "decision": "Retrait Label",
+      "sector": "IoT",
+      "source_pdf": "session_2026_01.pdf"
+    },
+    {
+      "decision_id": "S82_D0039",
+      "session_id": "S82",
+      "company_id": "",
+      "company_name": "Echo SARL",
+      "founder_names": "Non renseigné",
+      "decision": "Retrait Label",
+      "sector": "IT",
+      "source_pdf": "session_2026_01.pdf"
+    },
+    {
+      "decision_id": "S82_D0040",
+      "session_id": "S82",
+      "company_id": "",
+      "company_name": "Arion Technologies",
+      "founder_names": "Non renseigné",
+      "decision": "Retrait Label",
+      "sector": "Logiciel",
+      "source_pdf": "session_2026_01.pdf"
+    },
+    {
+      "decision_id": "S82_D0041",
+      "session_id": "S82",
+      "company_id": "",
+      "company_name": "Smart Insurance",
+      "founder_names": "Non renseigné",
+      "decision": "Retrait Label",
+      "sector": "Insurance Tech",
+      "source_pdf": "session_2026_01.pdf"
+    },
+    {
+      "decision_id": "S82_D0042",
+      "session_id": "S82",
+      "company_id": "",
+      "company_name": "Swiver Invest",
+      "founder_names": "Non renseigné",
+      "decision": "Retrait Label",
+      "sector": "Fintech",
+      "source_pdf": "session_2026_01.pdf"
     }
   ]
 }
