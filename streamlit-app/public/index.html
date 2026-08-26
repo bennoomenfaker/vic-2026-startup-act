@@ -1105,7 +1105,7 @@
       <div class="kpi-card skeleton"><span class="sk-line" style="width:55%"></span><span class="sk-line sk-big" style="width:70%"></span><span class="sk-line" style="width:40%"></span></div>
     </div>
     <div class="chart-grid">
-      <div class="chart-card"><h3>Évolution annuelle — officiel vs corrigé PDF</h3><div class="chart-wrapper"><canvas id="chartYearly"></canvas></div></div>
+      <div class="chart-card"><h3>Évolution annuelle — officiel</h3><div class="chart-wrapper"><canvas id="chartYearly"></canvas></div></div><div class="chart-card"><h3>Évolution annuelle — corrigé PDF</h3><div class="chart-wrapper"><canvas id="chartYearlyCorrected"></canvas></div></div>
       <div class="chart-card"><h3>Répartition par secteur (Top 8) — base extraite</h3><div class="chart-wrapper"><canvas id="chartSectors"></canvas></div></div>
     </div>
     <div class="chart-grid">
@@ -1113,7 +1113,7 @@
       <div class="chart-card"><h3>Création des startups par année — base extraite</h3><div class="chart-wrapper"><canvas id="chartCreation"></canvas></div></div>
     </div>
     <div class="chart-grid">
-      <div class="chart-card"><h3>Cumul — officiel vs corrigé PDF (KPI-27)</h3><div class="chart-wrapper"><canvas id="chartCumul"></canvas></div></div>
+      <div class="chart-card"><h3>Cumul — officiel (KPI-27)</h3><div class="chart-wrapper"><canvas id="chartCumul"></canvas></div></div><div class="chart-card"><h3>Cumul — corrigé PDF (KPI-27)</h3><div class="chart-wrapper"><canvas id="chartCumulCorrected"></canvas></div></div>
       <div class="chart-card"><h3>Âge à la labellisation — base extraite (KPI-32)</h3><div class="chart-wrapper"><canvas id="chartAgeLabel"></canvas></div></div>
     </div>
   </section>
@@ -1138,7 +1138,7 @@
     <p class="series-note">Les graphiques qui n’ont pas d’équivalent officiel (secteurs et détail des décisions) sont étiquetés « lignes PDF/JSON » et ne sont pas présentés comme des compteurs institutionnels.</p>
     <div id="advKpis" class="kpi-grid" style="margin-bottom:20px"></div>
     <div class="chart-grid">
-      <div class="chart-card" style="grid-column:span 2"><h3>📈 Évolution annuelle — Labels vs Pré-labels vs Candidatures</h3><div class="chart-wrapper"><canvas id="advChartYearly"></canvas></div></div>
+      <div class="chart-card"><h3>📈 Évolution annuelle — officiel</h3><div class="chart-wrapper"><canvas id="advChartYearly"></canvas></div></div><div class="chart-card"><h3>📈 Évolution annuelle — corrigé PDF/JSON</h3><div class="chart-wrapper"><canvas id="advChartYearlyCorrected"></canvas></div></div>
     </div>
     <div class="chart-grid">
       <div class="chart-card"><h3>🏢 Top 10 Secteurs — lignes PDF/JSON</h3><div class="chart-wrapper"><canvas id="advChartSectors"></canvas></div></div>
@@ -1150,7 +1150,7 @@
     </div>
     <div class="chart-grid">
       <div class="chart-card"><h3>⚡ Taux de Succès par Année</h3><div class="chart-wrapper"><canvas id="advChartSuccess"></canvas></div></div>
-      <div class="chart-card"><h3>🏷️ Répartition Label vs Pré-label par Année</h3><div class="chart-wrapper"><canvas id="advChartLabelType"></canvas></div></div>
+      <div class="chart-card"><h3>🏷️ Répartition Label vs Pré-label — officiel</h3><div class="chart-wrapper"><canvas id="advChartLabelType"></canvas></div></div><div class="chart-card"><h3>🏷️ Répartition Label vs Pré-label — corrigé PDF/JSON</h3><div class="chart-wrapper"><canvas id="advChartLabelTypeCorrected"></canvas></div></div>
     </div>
   </section>
 
@@ -3463,16 +3463,21 @@ function renderDashboard() {
   }
 
   makeChart('chartYearly', 'bar', {
-    labels: y.map(y => y.year),
+    labels: y.map(r => r.year),
     datasets: [
       { label: 'Candidatures — officiel', data: y.map(r => r.candidatures), backgroundColor: '#2563eb' },
-      { label: 'Candidatures — corrigé PDF', data: y.map(r => correctedByYear[r.year]?.candidatures || 0), backgroundColor: '#16a34a' },
       { label: 'Labels — officiel', data: y.map(r => r.labels), backgroundColor: '#dc2626' },
+      { label: 'Prélabels — officiel', data: y.map(r => r.preLabels), backgroundColor: '#d97706' }
+    ]
+  });
+  makeChart('chartYearlyCorrected', 'bar', {
+    labels: y.map(r => r.year),
+    datasets: [
+      { label: 'Candidatures — corrigé PDF', data: y.map(r => correctedByYear[r.year]?.candidatures || 0), backgroundColor: '#16a34a' },
       { label: 'Labels — corrigé PDF', data: y.map(r => correctedByYear[r.year]?.labels || 0), backgroundColor: '#0f766e' },
-      { label: 'Prélabels — officiel', data: y.map(r => r.preLabels), backgroundColor: '#d97706' },
       { label: 'Prélabels — corrigé PDF', data: y.map(r => correctedByYear[r.year]?.preLabels || 0), backgroundColor: '#f59e0b' }
     ]
-  }, { scales: { x: { stacked: false }, y: { beginAtZero: true } } });
+  });
 
   const sectors = sectorCounts(startups).slice(0, 8);
   const colors = ['#e94560','#0f3460','#16a34a','#ea580c','#7c3aed','#0891b2','#ca8a04','#be185d'];
@@ -3524,9 +3529,14 @@ function renderDashboard() {
     labels: y.map(r => r.year),
     datasets: [
       { label: 'Cumul labels — officiel', data: cumOfficialLabels, borderColor: '#dc2626', backgroundColor: 'rgba(220,38,38,0.08)', fill: true, tension: 0.3 },
+      { label: 'Cumul prélabels — officiel', data: cumOfficialPre, borderColor: '#d97706', backgroundColor: 'rgba(217,119,6,0.08)', fill: true, tension: 0.3 }
+    ]
+  });
+  makeChart('chartCumulCorrected', 'line', {
+    labels: y.map(r => r.year),
+    datasets: [
       { label: 'Cumul labels — corrigé PDF', data: cumCorrectedLabels, borderColor: '#0f766e', backgroundColor: 'rgba(15,118,110,0.08)', fill: true, tension: 0.3 },
-      { label: 'Cumul prélabels — officiel', data: cumOfficialPre, borderColor: '#d97706', backgroundColor: 'rgba(217,119,6,0.08)', fill: true, tension: 0.3 },
-      { label: 'Cumul prélabels — corrigé PDF', data: cumCorrectedPre, borderColor: '#f59e0b', backgroundColor: 'rgba(245,158,11,0.08)', fill: true, tension: 0.3 }
+      { label: 'Cumul prélabels — corrigé PDF', data: cumCorrectedPre, borderColor: '#16a34a', backgroundColor: 'rgba(22,163,74,0.08)', fill: true, tension: 0.3 }
     ]
   });
 
@@ -4320,12 +4330,19 @@ function renderAdvCharts() {
     type: 'bar', data: {
       labels: yearData.map(d => d.year),
       datasets: [
-        { label: 'Candidatures — officiel', data: yearData.map(d => d.co), backgroundColor: '#2563eb', borderColor: '#1d4ed8', borderWidth: 1, order: 2 },
-        { label: 'Candidatures — PDF/JSON', data: yearData.map(d => d.c), backgroundColor: '#86efac', borderColor: '#16a34a', borderWidth: 1, order: 2 },
-        { label: 'Labels — officiel', data: yearData.map(d => d.lo), backgroundColor: '#dc2626', borderRadius: 4, order: 1 },
-        { label: 'Labels — PDF/JSON', data: yearData.map(d => d.l), backgroundColor: '#22c55e', borderRadius: 4, order: 1 },
-        { label: 'Prélabels — officiel', data: yearData.map(d => d.po), backgroundColor: '#d97706', borderRadius: 4, order: 1 },
-        { label: 'Prélabels — PDF/JSON', data: yearData.map(d => d.p), backgroundColor: '#f59e0b', borderRadius: 4, order: 1 }
+        { label: 'Candidatures — officiel', data: yearData.map(d => d.co), backgroundColor: '#2563eb', borderColor: '#1d4ed8', borderWidth: 1 },
+        { label: 'Labels — officiel', data: yearData.map(d => d.lo), backgroundColor: '#dc2626', borderRadius: 4 },
+        { label: 'Prélabels — officiel', data: yearData.map(d => d.po), backgroundColor: '#d97706', borderRadius: 4 }
+      ]
+    }, options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'top' } }, scales: { y: { beginAtZero: true } } }
+  });
+  new Chart(document.getElementById('advChartYearlyCorrected'), {
+    type: 'bar', data: {
+      labels: yearData.map(d => d.year),
+      datasets: [
+        { label: 'Candidatures — corrigé PDF/JSON', data: yearData.map(d => d.c), backgroundColor: '#16a34a', borderColor: '#15803d', borderWidth: 1 },
+        { label: 'Labels — corrigé PDF/JSON', data: yearData.map(d => d.l), backgroundColor: '#0f766e', borderRadius: 4 },
+        { label: 'Prélabels — corrigé PDF/JSON', data: yearData.map(d => d.p), backgroundColor: '#f59e0b', borderRadius: 4 }
       ]
     }, options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'top' } }, scales: { y: { beginAtZero: true } } }
   });
@@ -4367,7 +4384,7 @@ function renderAdvCharts() {
       labels: months,
       datasets: [
         { label: 'Labels — officiel', data: monthOfficialLabels, borderColor: '#dc2626', backgroundColor: 'rgba(220,38,38,0.08)', fill: false, tension: 0.4 },
-        { label: 'Labels — PDF/JSON', data: monthLabels, borderColor: '#16a34a', backgroundColor: 'rgba(34,197,94,0.1)', fill: true, tension: 0.4 }
+        { label: 'Labels — corrigé PDF', data: monthLabels, borderColor: '#16a34a', backgroundColor: 'rgba(34,197,94,0.1)', fill: true, tension: 0.4 }
       ]
     }, options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'top' } } }
   });
@@ -4407,9 +4424,16 @@ function renderAdvCharts() {
       labels: yearData.map(d => d.year),
       datasets: [
         { label: 'Labels — officiel', data: yearData.map(d => d.lo), backgroundColor: '#dc2626', borderRadius: 4 },
-        { label: 'Labels — PDF/JSON', data: yearData.map(d => d.l), backgroundColor: '#22c55e', borderRadius: 4 },
-        { label: 'Prélabels — officiel', data: yearData.map(d => d.po), backgroundColor: '#d97706', borderRadius: 4 },
-        { label: 'Prélabels — PDF/JSON', data: yearData.map(d => d.p), backgroundColor: '#f59e0b', borderRadius: 4 }
+        { label: 'Prélabels — officiel', data: yearData.map(d => d.po), backgroundColor: '#d97706', borderRadius: 4 }
+      ]
+    }, options: { responsive: true, maintainAspectRatio: false, scales: { x: { stacked: true }, y: { stacked: true, beginAtZero: true } } }
+  });
+  new Chart(document.getElementById('advChartLabelTypeCorrected'), {
+    type: 'bar', data: {
+      labels: yearData.map(d => d.year),
+      datasets: [
+        { label: 'Labels — corrigé PDF/JSON', data: yearData.map(d => d.l), backgroundColor: '#0f766e', borderRadius: 4 },
+        { label: 'Prélabels — corrigé PDF/JSON', data: yearData.map(d => d.p), backgroundColor: '#f59e0b', borderRadius: 4 }
       ]
     }, options: { responsive: true, maintainAspectRatio: false, scales: { x: { stacked: true }, y: { stacked: true, beginAtZero: true } } }
   });

@@ -269,8 +269,8 @@ INSERT INTO companies VALUES ('C0155','Glamour By Riyem','Health Tech','07/2019'
 INSERT INTO companies VALUES ('C0156','Greendyzer','IoT','07/2019');
 INSERT INTO companies VALUES ('C0157','VR Crystalized','Autre contenu créatif','07/2019');
 INSERT INTO companies VALUES ('C0158','EVOCRAFT','Non renseigné','08/2019');
-INSERT INTO companies VALUES ('C0159','Smart Farm','Non renseigné','08/2019');
-INSERT INTO companies VALUES ('C0160','HealUp','Non renseigné','08/2019');
+INSERT INTO companies VALUES ('C0159','Smart Farm','Agritech','08/2019');
+INSERT INTO companies VALUES ('C0160','HealUp','Health tech','08/2019');
 INSERT INTO companies VALUES ('C0161','MOOVOBRAIN','Non renseigné','08/2019');
 INSERT INTO companies VALUES ('C0162','Dataperformers','Non renseigné','08/2019');
 INSERT INTO companies VALUES ('C0163','Appro.tn (L6)','Non renseigné','08/2019');

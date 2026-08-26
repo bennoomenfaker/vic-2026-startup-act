@@ -1319,7 +1319,7 @@ INSERT INTO companies VALUES ('C_healthcareanywhere','Healthcare Anywhere','Heal
 INSERT INTO companies VALUES ('C_healthyandbninfood','Healthy And Bnin Food','E-commerce','02/2021');
 INSERT INTO companies VALUES ('C_healthybnin','Healthy & Bnin','E-commerce','09/2020');
 INSERT INTO companies VALUES ('C_healthygo','HealthyGO','Commerce and shopping; FoodTech & New Food','04/2023; 09/2022');
-INSERT INTO companies VALUES ('C_healup','HealUp','Non renseigné','08/2019');
+INSERT INTO companies VALUES ('C_healup','HealUp','Health tech','08/2019');
 INSERT INTO companies VALUES ('C_hecoferme','H eco ferme','Environment','04/2023');
 INSERT INTO companies VALUES ('C_heia','HEIA','Consumer products and services','11/2024');
 INSERT INTO companies VALUES ('C_hellodati','Hello Dati','Autre contenu créatif; TravelTech','02/2021; 11/2021; 12/2021');
@@ -2493,7 +2493,7 @@ INSERT INTO companies VALUES ('C_smartecowicotechnology','Smart Ecowico Technolo
 INSERT INTO companies VALUES ('C_smartescape','Smart Escape','TravelTech','07/2024');
 INSERT INTO companies VALUES ('C_smartfactory','Smart Factory','Advanced Manufacturing & Robotics','11/2022');
 INSERT INTO companies VALUES ('C_smartfactoryrevolution','Smart Factory Revolution','Advanced Manufacturing & Industry','08/2021');
-INSERT INTO companies VALUES ('C_smartfarm','Smart Farm','Non renseigné','08/2019');
+INSERT INTO companies VALUES ('C_smartfarm','Smart Farm','Agritech','08/2019');
 INSERT INTO companies VALUES ('C_smartfarmsolutions','Smart Farm Solutions','Agritech','05/2024');
 INSERT INTO companies VALUES ('C_smartfleet','Smartfleet','Business Software','09/2021');
 INSERT INTO companies VALUES ('C_smartforgreenfarmandforestfireprotection','Smart For Green: Farm and Forest Fire Protection','Agritech','01/2023');
