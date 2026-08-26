@@ -48,7 +48,7 @@
     "Label non accordé": 653,
     "Prélabel accordé": 634,
     "Prélabel non accordé": 980,
-    "Retrait Label": 51,
+    "Retrait Label": 46,
     "Reporté": 5,
     "Décision non précisée — motif administratif": 4,
     "Pitch décalé": 1
@@ -57,6 +57,6 @@
   "candidatures_corrigees": 3574,
   "ajournes_hors_pdf": 3,
   "ecart_candidatures_corrigees_moins_officiel": 495,
-  "candidatures_definition": "3 574 corrigées = 3 571 lignes PDF détaillées + 3 ajournés hors PDF; le compteur officiel reste 3 079. La session 01/2026 compte 42 lignes physiques, dont 5 retraits documentés.",
+  "candidatures_definition": "3 574 corrigées = 3 571 lignes PDF détaillées + 3 ajournés hors PDF (03/2019: 2; 06/2019: 1); le commentaire 04/2019 n’est pas retenu dans le filtre validé ; 3 079 officiel = compteur institutionnel.",
   "last_updated": "2026-08-25"
 }

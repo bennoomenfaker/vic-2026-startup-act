@@ -16,8 +16,8 @@ DATA = ROOT / "public" / "data"
 CANONICAL = DATA / "reextraction_88_canonical.json"
 SESSION_DIR = DATA / "session-pdfs-json"
 
-TARGETS = {"04/2026": 50, "05/2026": 48, "06/2026": 47}
-SID = {"04/2026": "S85", "05/2026": "S86", "06/2026": "S87"}
+TARGETS = {"01/2026": 42, "04/2026": 50, "05/2026": 48, "06/2026": 47}
+SID = {"01/2026": "S82", "04/2026": "S85", "05/2026": "S86", "06/2026": "S87"}
 
 
 def load_json(path: Path):
@@ -101,11 +101,11 @@ def sync_sessions_tables(canonical):
                 s["candidatures_corrigees"] = TARGETS[period] + int(s.get("ajournes_hors_pdf") or s.get("ajournes") or 0)
         if isinstance(obj, dict) and isinstance(obj.get("meta"), dict):
             meta = obj["meta"]
-            if "totalCandidaturesReexamenPdf" in meta: meta["totalCandidaturesReexamenPdf"] = 3566
-            if "totalCandidaturesCorrigees" in meta: meta["totalCandidaturesCorrigees"] = 3569
-            if "ecartTotalPdfMoinsOfficiel" in meta: meta["ecartTotalPdfMoinsOfficiel"] = 3566 - 3079
-            if "detailedEntries" in meta: meta["detailedEntries"] = 3566
-            if "detailed_entries" in meta: meta["detailed_entries"] = 3566
+            if "totalCandidaturesReexamenPdf" in meta: meta["totalCandidaturesReexamenPdf"] = 3571
+            if "totalCandidaturesCorrigees" in meta: meta["totalCandidaturesCorrigees"] = 3574
+            if "ecartTotalPdfMoinsOfficiel" in meta: meta["ecartTotalPdfMoinsOfficiel"] = 3571 - 3079
+            if "detailedEntries" in meta: meta["detailedEntries"] = 3571
+            if "detailed_entries" in meta: meta["detailed_entries"] = 3571
         dump_json(path, obj)
 
 
@@ -152,10 +152,13 @@ def sync_sql(entries, canonical):
     path = DATA / "startup_act_database.sql"
     text = path.read_text(encoding="utf-8")
     # Update metadata and session summary rows in the existing SQL.
-    text = text.replace("INSERT INTO metadata(key,value) VALUES ('corrected_candidatures','3558');", "INSERT INTO metadata(key,value) VALUES ('corrected_candidatures','3569');")
-    text = text.replace("INSERT INTO metadata(key,value) VALUES ('detailed_entries','3555');", "INSERT INTO metadata(key,value) VALUES ('detailed_entries','3566');")
+    text = text.replace("INSERT INTO metadata(key,value) VALUES ('corrected_candidatures','3558');", "INSERT INTO metadata(key,value) VALUES ('corrected_candidatures','3574');")
+    text = text.replace("INSERT INTO metadata(key,value) VALUES ('corrected_candidatures','3569');", "INSERT INTO metadata(key,value) VALUES ('corrected_candidatures','3574');")
+    text = text.replace("INSERT INTO metadata(key,value) VALUES ('detailed_entries','3555');", "INSERT INTO metadata(key,value) VALUES ('detailed_entries','3571');")
+    text = text.replace("INSERT INTO metadata(key,value) VALUES ('detailed_entries','3566');", "INSERT INTO metadata(key,value) VALUES ('detailed_entries','3571');")
     text = re.sub(r"(INSERT INTO sessions VALUES \('S85','04/2026','41','47','47')", r"\g<1>0", text) if False else text
     # Replace only the first summary columns for S85-S87 using exact known current rows.
+    text = text.replace("INSERT INTO sessions VALUES ('S82','01/2026','31','37','37','0'", "INSERT INTO sessions VALUES ('S82','01/2026','31','42','42','0'")
     text = text.replace("INSERT INTO sessions VALUES ('S85','04/2026','41','47','47','0'", "INSERT INTO sessions VALUES ('S85','04/2026','41','50','50','0'")
     text = text.replace("INSERT INTO sessions VALUES ('S86','05/2026','40','42','42','0'", "INSERT INTO sessions VALUES ('S86','05/2026','40','48','48','0'")
     text = text.replace("INSERT INTO sessions VALUES ('S87','06/2026','40','45','45','0'", "INSERT INTO sessions VALUES ('S87','06/2026','40','47','47','0'")
@@ -208,9 +211,9 @@ def sync_workbook(entries):
         for row in ws.iter_rows():
             for cell in row:
                 if isinstance(cell.value, str):
-                    cell.value = cell.value.replace("3 555", "3 566").replace("3 558", "3 569")
-                elif cell.value == 3555: cell.value = 3566
-                elif cell.value == 3558: cell.value = 3569
+                    cell.value = cell.value.replace("3 555", "3 571").replace("3 558", "3 574").replace("3 566", "3 571").replace("3 569", "3 574")
+                elif cell.value == 3555 or cell.value == 3566: cell.value = 3571
+                elif cell.value == 3558 or cell.value == 3569: cell.value = 3574
     wb.save(path)
 
 

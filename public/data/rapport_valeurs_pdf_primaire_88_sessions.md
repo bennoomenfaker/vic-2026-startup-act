@@ -40,6 +40,12 @@ Les catégories détaillées s’additionnent exactement à **3 555 lignes** :
 
 Le site institutionnel affiche **39 candidatures**. La lecture PDF contient **46 lignes documentaires** : 14 Labels accordés, 5 Prélabels accordés, 7 Labels non accordés, 14 Prélabels non accordés, 4 décisions non précisées pour motif administratif et 2 retraits. Les quatre dossiers administratifs restent des candidatures du bloc officiel ; ils ne sont pas soustraits. Les conversions et retraits expliquent l’écart entre 39 et 46.
 
+## Cas S30 — 09/2021 et exception « Category D »
+
+La page publique `/results` indique pour 09/2021 **15 candidatures, 13 Labels et 6 Prélabels**, avec le commentaire « 2 Labels et 13 Prélabels à Labels ». La lecture structurée du PDF donne **25 lignes dans le bloc principal** et **13 lignes dans le bloc séparé de passage Prélabel → Label**, soit **38 lignes documentaires**. La classification détaillée courante est : 15 Labels accordés, 6 Prélabels accordés, 3 Labels non accordés, 13 Prélabels non accordés et 1 Reporté (SHYK). Ainsi, **38 est un volume documentaire**, tandis que **15 est le compteur institutionnel** ; le rapprochement ne doit pas présenter 38 comme 38 candidatures institutionnelles nouvelles.
+
+Aucune rubrique, mention ou catégorie nommée **« Category D »** n’a été trouvée dans le texte du PDF `session_2021_09.pdf`. Cette étiquette est donc traitée comme un diagnostic externe d’extraction, et non comme une catégorie officielle. Le dossier SHYK est conservé en **Reporté**, avec son commentaire « candidature reportée à la session de Septembre » ; il ne doit pas être transformé en Category D ni compté deux fois.
+
 ## Reporté et Ajourné
 
 Les cinq lignes Reporté confirmées sont conservées avec une couleur dédiée : 02/2020 Tunisia Biotech, 03/2020 Campus Numérique des métiers, 07/2021 TN Smartbot, 09/2021 SHYK et 10/2024 RYBSEN. Elles ne sont pas ajoutées deux fois au compteur institutionnel. Les 3 ajournés validés (03/2019 : 2 ; 06/2019 : 1) restent une catégorie distincte ; le commentaire brut 04/2019 est conservé comme provenance mais n’est pas retenu dans le filtre validé.

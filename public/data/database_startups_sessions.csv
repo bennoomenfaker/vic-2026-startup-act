@@ -1399,28 +1399,28 @@ session;societe;secteur;decision;source;flags
 07/2025;Production des blocs de bois brut par la valorisation des déchets de palmiers dattiers;Environment;prelabel_refuse;compte-rendu-manuel;
 07/2025;FinAIBot;Fintech;prelabel_refuse;compte-rendu-manuel;
 07/2025;mechi Tunisie;Mobility;prelabel_refuse;compte-rendu-manuel;
-08/2019;EVOCRAFT;;label_accorde;pdf-session;
+08/2019;EVOCRAFT;Robotique;label_accorde;pdf-session;
 08/2019;Smart Farm;Agritech;label_accorde;pdf-session;
 08/2019;HealUp;Health tech;label_accorde;pdf-session;
-08/2019;MOOVOBRAIN;;label_accorde;pdf-session;
-08/2019;Dataperformers;;label_accorde;pdf-session;
-08/2019;Appro.tn (L6);;label_accorde;pdf-session;
-08/2019;FoundPad;;label_accorde;pdf-session;
-08/2019;Société KAPTY SARL;;label_accorde;pdf-session;
-08/2019;OTO TRAVEL;;label_accorde;pdf-session;
-08/2019;IDEAL CONCEPTION;;label_accorde;pdf-session;
-08/2019;iCompass eDream Commerce;;label_accorde;pdf-session;
-08/2019;Vsober;;label_accorde;pdf-session;
-08/2019;Société institution des modes;;label_accorde;pdf-session;
+08/2019;MOOVOBRAIN;Health tech;label_accorde;pdf-session;
+08/2019;Dataperformers;AI;label_accorde;pdf-session;
+08/2019;Appro.tn (L6);Logistique;label_accorde;pdf-session;
+08/2019;FoundPad;Autre contenu créatif;label_accorde;pdf-session;
+08/2019;Société KAPTY SARL;Logistique;label_accorde;pdf-session;
+08/2019;OTO TRAVEL;Autre contenu créatif;label_accorde;pdf-session;
+08/2019;IDEAL CONCEPTION;Health tech;label_accorde;pdf-session;
+08/2019;iCompass eDream Commerce;AI / Ecommerce;label_accorde;pdf-session;
+08/2019;Vsober;Health Tech;label_accorde;pdf-session;
+08/2019;Société institution des modes;Autre contenu créatif;label_accorde;pdf-session;
 08/2019;Historio;Gaming;label_accorde;pdf-session;
-08/2019;NACHD-IT;;label_accorde;pdf-session;
-08/2019;Evey Technologies;;label_accorde;pdf-session;fondateurs_absents
+08/2019;NACHD-IT;Logiciel;label_accorde;pdf-session;
+08/2019;Evey Technologies;Plateforme Sociale;label_accorde;pdf-session;fondateurs_absents
 08/2019;SCIENCIA;Edtech;label_accorde;pdf-session;
 08/2019;WanToTrip;;prelabel_accorde;pdf-session;fondateurs_ambigus
 08/2019;X-P-R;;prelabel_accorde;pdf-session;
-08/2019;Zatex;Iot;label_accorde;pdf-session;
-08/2019;Eat & Fit;;label_accorde;pdf-session;
-08/2019;Plateforme de Formation E-learning Projet de valorisation des coproduits issus de l'engraissement du thon rouge (Oleomar Start-up Projet);;prelabel_accorde;pdf-session;
+08/2019;Zatex;IoT;label_accorde;pdf-session;
+08/2019;Eat & Fit;Autre contenu créatif;label_accorde;pdf-session;
+08/2019;Plateforme de Formation E-learning Projet de valorisation des coproduits issus de l'engraissement du thon rouge (Oleomar Start-up Projet);Autre contenu créatif / Agritech;prelabel_accorde;pdf-session;
 08/2020;Addresti;;inconnu;pdf-session;decision_inconnue
 08/2020;DEDALE SOLUTIONS;Fintech;inconnu;pdf-session;decision_inconnue
 08/2020;Etakwin;E-Commerce;inconnu;pdf-session;decision_inconnue

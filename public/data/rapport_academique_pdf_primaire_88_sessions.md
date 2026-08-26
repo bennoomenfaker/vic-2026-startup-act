@@ -43,7 +43,13 @@ La somme des catégories est **3 555**, exactement égale aux **3 555 lignes PDF
 
 S62 illustre le problème de manière nette : **39 candidatures officielles** contre **46 lignes documentaires PDF**. Les 4 dossiers portant uniquement le motif administratif « Non présentation des états financiers… » sont inclus dans les 39 candidatures officielles et reçoivent le statut « Décision non précisée — motif administratif ». Le tableau corrigé conserve donc 46 lignes, sans prétendre que les 7 lignes supplémentaires sont 7 nouvelles candidatures institutionnelles.
 
-## 6. Qualité, transparence et reproductibilité
+## 6. Contrôle ciblé de S30 / 09-2021
+
+Le tableau institutionnel `/results` publie pour S30 **15 candidatures, 13 Labels et 6 Prélabels**, avec la note « 2 Labels et 13 Prélabels à Labels ». Le PDF associé comprend **25 lignes dans le tableau principal**, **13 lignes dans le bloc des passages Prélabel → Label** et une ligne Reporté identifiée comme **SHYK**, intégrée dans le registre détaillé ; le corpus canonique conserve donc **38 lignes documentaires**. Cette différence est structurelle : le chiffre de 38 ne doit pas être présenté comme 38 candidatures institutionnelles indépendantes.
+
+Le contrôle du texte extrait du PDF ne révèle aucune rubrique intitulée **« Category D »**, ni en français ni en anglais. Cette appellation est documentée comme une hypothèse ou un artefact d’un extracteur externe, mais elle n’est pas introduite comme catégorie de décision dans le corpus. SHYK reste classée **Reporté**, avec son commentaire de report à la session de septembre.
+
+## 7. Qualité, transparence et reproductibilité
 
 Les exports JSON, CSV, SQL, SQLite et Excel sont produits à partir du même corpus canonique. Le classeur contient une synthèse, un tableau de rapprochement officiel → corrigé PDF, le détail des décisions et une feuille par session. Les cinq Reporté et les limites OCR sont explicitement signalés. S16 a fait l’objet d’un contrôle visuel de structure, mais les noms faiblement lisibles restent soumis à une validation humaine ponctuelle.
 

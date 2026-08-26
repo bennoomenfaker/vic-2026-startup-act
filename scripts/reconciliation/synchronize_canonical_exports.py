@@ -8,9 +8,9 @@ import shutil
 import sqlite3
 import unicodedata
 
-REPO = Path('/home/ubuntu/vic-2026-startup-act-4339943')
+REPO = Path('/home/ubuntu/vic-2026-startup-act-python')
 DATA = REPO / 'public' / 'data'
-PACKAGE = Path('/home/ubuntu/startup_act_final_delivery_88/canonical_package')
+PACKAGE = DATA
 CANONICAL_PATH = DATA / 'reextraction_88_canonical.json'
 BACKUP = Path('/home/ubuntu/backups_before_export_resync_2026-08-23')
 BACKUP.mkdir(parents=True, exist_ok=True)
@@ -60,11 +60,11 @@ def sql_quote(value):
 
 # Back up only files that this script will replace.
 source_csvs = {
-    'sessions': PACKAGE / 'database_sessions_reextrait.csv',
-    'entries': PACKAGE / 'database_entrees_reextrait.csv',
-    'companies': PACKAGE / 'database_companies_reextrait.csv',
-    'founders': PACKAGE / 'database_founders_reextrait.csv',
-    'relationships': PACKAGE / 'database_company_founders_reextrait.csv',
+    'sessions': DATA / 'database_sessions_reextrait_88_corrige.csv',
+    'entries': DATA / 'database_entrees_reextrait_88_corrige.csv',
+    'companies': DATA / 'database_companies_reextrait_88_corrige.csv',
+    'founders': DATA / 'database_founders_reextrait_88_corrige.csv',
+    'relationships': DATA / 'database_company_founders_reextrait_88_corrige.csv',
 }
 managed = [
     DATA / 'sessions_88.json', DATA / 'startup_act_88_sessions.json', DATA / 'startup_act_database_normalized.json',
@@ -221,7 +221,7 @@ def build_sessions_bundle():
         'scope': '88 sessions S0-S87; corpus canonique réextrait', 'sessions': len(sessions), 'official_candidatures': sum(int(s['candidatures']) for s in sessions),
         'official_labels': sum(int(s['labels']) for s in sessions), 'official_prelabels': sum(int(s['preLabels']) for s in sessions),
         'detailed_entries': len(entries), 'corrected_candidatures': len(entries) + sum(AJOURNES_HORS_PDF.values()), 'ajournes_hors_pdf': sum(AJOURNES_HORS_PDF.values()), 'official_withdrawals': ret_total, 'confirmed_reportes': report_total,
-        'note': 'Les compteurs officiels (3 079), les 3 555 lignes détaillées PDF et les 3 ajournés hors PDF (3 558 corrigées) sont trois périmètres distincts.',
+        'note': 'Les compteurs officiels (3 079), les 3 571 lignes détaillées PDF et les 3 ajournés hors PDF (3 574 corrigées) sont trois périmètres distincts.',
     })
     out = {'metadata': metadata, 'sessions': session_list, 'decisions': decision_list, 'companies': company_list, 'founders': founder_list, 'company_founders': relation_list, 'quality_flags': flags}
     if old_gender_macro is not None: out['gender_macro'] = old_gender_macro
@@ -277,7 +277,10 @@ write_csv(DATA / 'database_startup_founders.csv', ['company_id','founder_id','se
 
 # Copy checked canonical CSVs to explicit 88 corrected names.
 for src_key, target_name in [('sessions','database_sessions_reextrait_88_corrige.csv'), ('entries','database_entrees_reextrait_88_corrige.csv'), ('companies','database_companies_reextrait_88_corrige.csv'), ('founders','database_founders_reextrait_88_corrige.csv'), ('relationships','database_company_founders_reextrait_88_corrige.csv')]:
-    shutil.copy2(source_csvs[src_key], DATA / target_name)
+    source_path = source_csvs[src_key]
+    target_path = DATA / target_name
+    if source_path.resolve() != target_path.resolve():
+        shutil.copy2(source_path, target_path)
 
 # Dual-method CSV from canonical sessions.
 dual_headers = ['session_id','session','candidatures_officielles','lignes_pdf','conversions','retraits','reportes','candidatures_pdf','ecart_pdf_moins_officiel','decision_non_precisee','ajournes','ajournes_hors_pdf','candidatures_corrigees','candidatures_reexamen_pdf','ajournes_hors_lignes_reexamen']

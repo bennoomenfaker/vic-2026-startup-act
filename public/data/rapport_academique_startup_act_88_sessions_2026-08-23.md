@@ -1,5 +1,5 @@
 # Étude quantitative du Startup Act tunisien — 88 sessions (S0–S87)
-> **Périmètre statistique final.** L’étude distingue le compteur institutionnel de **3 079 candidatures officielles**, le corpus de **3 555 lignes détaillées PDF**, et le compteur corrigé de **3 558 candidatures** obtenu en ajoutant **3 ajournés hors PDF** signalés par des commentaires officiels (2 en 03/2019 et 1 en 06/2019). Ces trois mesures ne sont pas interchangeables.
+> **Périmètre statistique final.** L’étude distingue le compteur institutionnel de **3 079 candidatures officielles**, le corpus de **3 571 lignes détaillées PDF**, et le compteur corrigé de **3 574 candidatures** obtenu en ajoutant **3 ajournés hors PDF** signalés par des commentaires officiels (2 en 03/2019 et 1 en 06/2019). Ces trois mesures ne sont pas interchangeables.
 
 
 **Auteur : Faker BEN NOOMEN — ESEN / ISCAE Manouba**  
@@ -7,7 +7,7 @@
 
 ## Résumé
 
-Cette étude examine les 88 sessions de décision du Startup Act tunisien, de mars 2019 à juin 2026. Elle combine les compteurs officiels publiés par Startup Tunisia, les comptes rendus PDF et les exports normalisés du corpus. Le résultat principal est une distinction nécessaire entre deux unités statistiques : **3 079 candidatures officielles** et **3 555 lignes détaillées**. La seconde population contient des décisions, conversions et retraits documentaires ; elle ne doit pas être utilisée mécaniquement comme dénominateur des taux.
+Cette étude examine les 88 sessions de décision du Startup Act tunisien, de mars 2019 à juin 2026. Elle combine les compteurs officiels publiés par Startup Tunisia, les comptes rendus PDF et les exports normalisés du corpus. Le résultat principal est une distinction nécessaire entre deux unités statistiques : **3 079 candidatures officielles** et **3 571 lignes détaillées**. La seconde population contient des décisions, conversions et retraits documentaires ; elle ne doit pas être utilisée mécaniquement comme dénominateur des taux.
 
 Le corpus officiel agrégé contient **1 356 Labels**, **641 Prélabels**, **153 retraits officiels** et **369 conversions**. Cinq candidatures sont explicitement confirmées comme reportées : Tunisia Biotech (02/2020), Campus Numérique des métiers (03/2020), TN Smartbot (07/2021), SHYK (09/2021) et RYBSEN (10/2024, examiné en novembre 2024).
 
@@ -29,14 +29,14 @@ La normalisation distingue les catégories décisionnelles suivantes : `Label ac
 |---|---:|---|
 | Sessions couvertes | 88 | S0–S87, mars 2019–juin 2026 |
 | Candidatures officielles | 3 079 | Somme des compteurs par session |
-| Lignes détaillées | 3 555 | Registre des décisions/conversions/retraits |
+| Lignes détaillées | 3 571 | Registre des décisions/conversions/retraits |
 | Labels accordés | 1 356 | Compteur officiel |
 | Prélabels accordés | 641 | Compteur officiel |
 | Labels + Prélabels | 1 997 | Décisions positives officielles |
 | Taux descriptif Labels / candidatures | 44.0 % | Dénominateur officiel |
 | Reportés confirmés | 5 | S11, S12, S28, S30, S67 |
 
-Le taux de 44.0 % est descriptif : il rapporte les Labels officiels aux candidatures officielles. Il ne s’agit pas d’un taux calculé à partir des 3 555 lignes détaillées, car celles-ci ne représentent pas une population homogène.
+Le taux de 44.0 % est descriptif : il rapporte les Labels officiels aux candidatures officielles. Il ne s’agit pas d’un taux calculé à partir des 3 571 lignes détaillées, car celles-ci ne représentent pas une population homogène.
 
 ## 4. Évolution annuelle
 
@@ -87,21 +87,22 @@ Quarante-cinq lignes historiques des sessions S17–S20 avaient été normalisé
 
 | Session | Candidatures | Entrées | Labels | Prélabels | Conversions | Retraits documentaires |
 |---|---:|---:|---:|---:|---:|---:|
-| S85 — 04/2026 | 41 | 47 | 12 | 5 | 4 | 5 |
-| S86 — 05/2026 | 40 | 42 | 13 | 10 | 5 | 3 |
-| S87 — 06/2026 | 40 | 45 | 7 | 9 | 4 | 3 |
+| S82 — 01/2026 | 31 | 42 | 9 | 7 | 7 | 5 |
+| S85 — 04/2026 | 41 | 50 | 12 | 5 | 4 | 5 |
+| S86 — 05/2026 | 40 | 48 | 13 | 10 | 5 | 3 |
+| S87 — 06/2026 | 40 | 47 | 7 | 9 | 4 | 3 |
 
 Les PDF 2026 ne contiennent pas de variable de genre exploitable ; aucune inférence de genre à partir des prénoms n’est effectuée pour ces sessions.
 
 ## 8. Cohérence des exports et limites
 
-Après correction, le SQL contient 88 sessions et 3 555 décisions sans `decision_id` dupliqué. Les champs de session enregistrent les compteurs officiels au lieu de valeurs nulles. Les catégories détaillées totalisent 1 232 Labels accordés, 653 Labels non accordés, 634 Prélabels accordés, 980 Prélabels non accordés, 46 retraits, 5 Reporté, 4 décisions administratives non précisées et 1 Pitch décalé ; cette distribution détaillée n’a pas vocation à remplacer les compteurs officiels.
+Après correction, le SQL contient 88 sessions et 3 571 décisions sans `decision_id` dupliqué. Les champs de session enregistrent les compteurs officiels au lieu de valeurs nulles. Les catégories détaillées totalisent 1 232 Labels accordés, 653 Labels non accordés, 634 Prélabels accordés, 980 Prélabels non accordés, 46 retraits, 5 Reporté, 4 décisions administratives non précisées et 1 Pitch décalé ; cette distribution détaillée n’a pas vocation à remplacer les compteurs officiels.
 
 Les données de genre et de géographie restent des indicateurs dérivés ou externes lorsqu’elles ne peuvent pas être observées directement dans chaque PDF. Les valeurs manquantes sont conservées comme telles. Toute publication doit indiquer la source, la période, l’unité statistique et le dénominateur.
 
 ## Conclusion
 
-La base finale est cohérente si elle conserve deux niveaux de vérité : le niveau administratif officiel, avec 3 079 candidatures et les compteurs par session, et le niveau documentaire, avec 3 555 lignes détaillées. S62 démontre pourquoi ces niveaux ne doivent pas être fusionnés. Le dashboard affiche les deux périmètres ; les cinq Reporté sont signalés en terracotta ; les conversions et retraits restent documentés sans gonfler le nombre de candidatures.
+La base finale est cohérente si elle conserve deux niveaux de vérité : le niveau administratif officiel, avec 3 079 candidatures et les compteurs par session, et le niveau documentaire, avec 3 571 lignes détaillées. S62 démontre pourquoi ces niveaux ne doivent pas être fusionnés. Le dashboard affiche les deux périmètres ; les cinq Reporté sont signalés en terracotta ; les conversions et retraits restent documentés sans gonfler le nombre de candidatures.
 
 ## Références
 

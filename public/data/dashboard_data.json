@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-08-25T00:00:00+00:00",
+    "lastUpdated": "2026-08-23T00:00:00+00:00",
     "sources": [
       {
         "name": "Résultats labellisation",
@@ -34,7 +34,7 @@
     "totalSessions": 88,
     "sessions": 88,
     "detailedEntries": 3571,
-    "dataNote": "3 574 candidatures corrigées = 3 571 lignes PDF + 3 ajournés hors PDF ; 3 079 candidatures officielles conservées séparément. La session 01/2026 comprend 42 lignes physiques, dont 5 retraits documentés.",
+    "dataNote": "3 574 candidatures corrigées = 3 571 lignes PDF + 3 ajournés hors PDF ; 3 079 candidatures officielles conservées séparément.\n La session 01/2026 comprend 42 lignes physiques, dont 5 retraits documentés.",
     "totalCandidaturesOfficielles": 3079,
     "totalLabelsOfficiels": 1356,
     "totalPreLabelsOfficiels": 641,
@@ -2557,7 +2557,10 @@
       },
       "ajournesHorsPdf": 0,
       "candidaturesReexamen": 42,
-      "candidaturesPdf": 30
+      "candidaturesPdf": 30,
+      "entries_detaillees": 42,
+      "candidatures_reexamen_pdf": 42,
+      "candidatures_corrigees": 42
     },
     {
       "session": "02/2026",
@@ -2632,9 +2635,9 @@
       "entries": 50,
       "reportes": 0,
       "session_id": "S85",
-      "detailedEntries": 47,
+      "detailedEntries": 50,
       "candidaturesOfficielles": 41,
-      "candidaturesCorrigees": 47,
+      "candidaturesCorrigees": 50,
       "labelsOfficiels": 12,
       "labelsCorriges": 12,
       "preLabelsOfficiels": 5,
@@ -2666,9 +2669,9 @@
       "entries": 48,
       "reportes": 0,
       "session_id": "S86",
-      "detailedEntries": 42,
+      "detailedEntries": 48,
       "candidaturesOfficielles": 40,
-      "candidaturesCorrigees": 42,
+      "candidaturesCorrigees": 48,
       "labelsOfficiels": 13,
       "labelsCorriges": 13,
       "preLabelsOfficiels": 10,
@@ -2700,9 +2703,9 @@
       "entries": 47,
       "reportes": 0,
       "session_id": "S87",
-      "detailedEntries": 45,
+      "detailedEntries": 47,
       "candidaturesOfficielles": 40,
-      "candidaturesCorrigees": 45,
+      "candidaturesCorrigees": 47,
       "labelsOfficiels": 7,
       "labelsCorriges": 7,
       "preLabelsOfficiels": 9,
@@ -17591,12 +17594,12 @@
       "fondateurs": "Ali Belhaj Zahi, Haythem Dabbabi, Imen Hajji",
       "decision": "Label accordé",
       "type_label": "Label",
-      "secteur": "Non renseigné",
+      "secteur": "Robotique",
       "tour_moment": "Non renseigné",
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "controle_qualite": "Secteur extrait du PDF 08/2019; vérifié manuellement",
       "resultat_normalise": "Label accordé",
       "section_pdf": "Session de décision",
       "source_pdf": "session_2019_08.pdf",
@@ -17617,7 +17620,7 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "controle_qualite": "Secteur extrait du PDF 08/2019; vérifié manuellement",
       "resultat_normalise": "Label accordé",
       "section_pdf": "Session de décision",
       "source_pdf": "session_2019_08.pdf",
@@ -17638,7 +17641,7 @@
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "controle_qualite": "Secteur extrait du PDF 08/2019; vérifié manuellement",
       "resultat_normalise": "Label accordé",
       "section_pdf": "Session de décision",
       "source_pdf": "session_2019_08.pdf",
@@ -17654,12 +17657,12 @@
       "fondateurs": "Khaoula Ben Ahmed, Syrine Ayari, Ghofrane Ayari, Souleima Ben Temim",
       "decision": "Label accordé",
       "type_label": "Label",
-      "secteur": "Non renseigné",
+      "secteur": "Health tech",
       "tour_moment": "Non renseigné",
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "controle_qualite": "Secteur extrait du PDF 08/2019; vérifié manuellement",
       "resultat_normalise": "Label accordé",
       "section_pdf": "Session de décision",
       "source_pdf": "session_2019_08.pdf",
@@ -17675,12 +17678,12 @@
       "fondateurs": "Mehdi Merai",
       "decision": "Label accordé",
       "type_label": "Label",
-      "secteur": "Non renseigné",
+      "secteur": "AI",
       "tour_moment": "Non renseigné",
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "controle_qualite": "Secteur extrait du PDF 08/2019; vérifié manuellement",
       "resultat_normalise": "Label accordé",
       "section_pdf": "Session de décision",
       "source_pdf": "session_2019_08.pdf",
@@ -17696,12 +17699,12 @@
       "fondateurs": "Slim Amamou, Nabegh Bechir Hatira, Hassen Marzouki",
       "decision": "Label accordé",
       "type_label": "Label",
-      "secteur": "Non renseigné",
+      "secteur": "Logistique",
       "tour_moment": "Non renseigné",
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "controle_qualite": "Secteur extrait du PDF 08/2019; vérifié manuellement",
       "resultat_normalise": "Label accordé",
       "section_pdf": "Session de décision",
       "source_pdf": "session_2019_08.pdf",
@@ -17717,12 +17720,12 @@
       "fondateurs": "Mehdi Nakouri, Hazem Mhiri",
       "decision": "Label accordé",
       "type_label": "Label",
-      "secteur": "Non renseigné",
+      "secteur": "Autre contenu créatif",
       "tour_moment": "Non renseigné",
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "controle_qualite": "Secteur extrait du PDF 08/2019; vérifié manuellement",
       "resultat_normalise": "Label accordé",
       "section_pdf": "Session de décision",
       "source_pdf": "session_2019_08.pdf",
@@ -17738,12 +17741,12 @@
       "fondateurs": "Amine Allah Manai, Khaled Dridi",
       "decision": "Label accordé",
       "type_label": "Label",
-      "secteur": "Non renseigné",
+      "secteur": "Logistique",
       "tour_moment": "Non renseigné",
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "controle_qualite": "Secteur extrait du PDF 08/2019; vérifié manuellement",
       "resultat_normalise": "Label accordé",
       "section_pdf": "Session de décision",
       "source_pdf": "session_2019_08.pdf",
@@ -17759,12 +17762,12 @@
       "fondateurs": "Elyes Elloumi, Ali ABid",
       "decision": "Label accordé",
       "type_label": "Label",
-      "secteur": "Non renseigné",
+      "secteur": "Autre contenu créatif",
       "tour_moment": "Non renseigné",
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "controle_qualite": "Secteur extrait du PDF 08/2019; vérifié manuellement",
       "resultat_normalise": "Label accordé",
       "section_pdf": "Session de décision",
       "source_pdf": "session_2019_08.pdf",
@@ -17780,12 +17783,12 @@
       "fondateurs": "Mehdi Zaabar",
       "decision": "Label accordé",
       "type_label": "Label",
-      "secteur": "Non renseigné",
+      "secteur": "Health tech",
       "tour_moment": "Non renseigné",
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "controle_qualite": "Secteur extrait du PDF 08/2019; vérifié manuellement",
       "resultat_normalise": "Label accordé",
       "section_pdf": "Session de décision",
       "source_pdf": "session_2019_08.pdf",
@@ -17801,12 +17804,12 @@
       "fondateurs": "Ahmed Nouisser, Mohamed Hatem Haddad",
       "decision": "Label accordé",
       "type_label": "Label",
-      "secteur": "Non renseigné",
+      "secteur": "AI",
       "tour_moment": "Non renseigné",
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "controle_qualite": "Secteur extrait du PDF 08/2019; vérifié manuellement",
       "resultat_normalise": "Label accordé",
       "section_pdf": "Session de décision",
       "source_pdf": "session_2019_08.pdf",
@@ -17822,12 +17825,12 @@
       "fondateurs": "Kacem Ghozzi, Nebyl Ben Attia",
       "decision": "Label accordé",
       "type_label": "Label",
-      "secteur": "Non renseigné",
+      "secteur": "Ecommerce",
       "tour_moment": "Non renseigné",
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "controle_qualite": "Secteur extrait du PDF 08/2019; vérifié manuellement",
       "resultat_normalise": "Label accordé",
       "section_pdf": "Session de décision",
       "source_pdf": "session_2019_08.pdf",
@@ -17843,12 +17846,12 @@
       "fondateurs": "Syrine Boudriga, Mohamed Ala eddine Ben Trad",
       "decision": "Label accordé",
       "type_label": "Label",
-      "secteur": "Non renseigné",
+      "secteur": "Health Tech",
       "tour_moment": "Non renseigné",
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "controle_qualite": "Secteur extrait du PDF 08/2019; vérifié manuellement",
       "resultat_normalise": "Label accordé",
       "section_pdf": "Session de décision",
       "source_pdf": "session_2019_08.pdf",
@@ -17864,12 +17867,12 @@
       "fondateurs": "Kaouther Selmi, Khalil Ben Salah",
       "decision": "Label accordé",
       "type_label": "Label",
-      "secteur": "Non renseigné",
+      "secteur": "Autre contenu créatif",
       "tour_moment": "Non renseigné",
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "controle_qualite": "Secteur extrait du PDF 08/2019; vérifié manuellement",
       "resultat_normalise": "Label accordé",
       "section_pdf": "Session de décision",
       "source_pdf": "session_2019_08.pdf",
@@ -17885,12 +17888,12 @@
       "fondateurs": "Youssef Boufaied, Mustapha Gharbi, Marwen Sami, Skander Amor",
       "decision": "Label accordé",
       "type_label": "Label",
-      "secteur": "Non renseigné",
+      "secteur": "Gaming",
       "tour_moment": "Non renseigné",
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "controle_qualite": "Secteur extrait du PDF 08/2019; vérifié manuellement",
       "resultat_normalise": "Label accordé",
       "section_pdf": "Session de décision",
       "source_pdf": "session_2019_08.pdf",
@@ -17906,12 +17909,12 @@
       "fondateurs": "Ahmed Ben Hssouna, Nourhane Amara",
       "decision": "Label accordé",
       "type_label": "Label",
-      "secteur": "Non renseigné",
+      "secteur": "Logiciel",
       "tour_moment": "Non renseigné",
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "controle_qualite": "Secteur extrait du PDF 08/2019; vérifié manuellement",
       "resultat_normalise": "Label accordé",
       "section_pdf": "Session de décision",
       "source_pdf": "session_2019_08.pdf",
@@ -17927,12 +17930,12 @@
       "fondateurs": "Noomane Lahimer, Maher Hanafi",
       "decision": "Label accordé",
       "type_label": "Label",
-      "secteur": "Non renseigné",
+      "secteur": "Plateforme Sociale",
       "tour_moment": "Non renseigné",
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "controle_qualite": "Secteur extrait du PDF 08/2019; vérifié manuellement",
       "resultat_normalise": "Label accordé",
       "section_pdf": "Session de décision",
       "source_pdf": "session_2019_08.pdf",
@@ -17948,12 +17951,12 @@
       "fondateurs": "Latifa El Ghezal, Mohamed Jaidane",
       "decision": "Label accordé",
       "type_label": "Label",
-      "secteur": "Non renseigné",
+      "secteur": "Edtech",
       "tour_moment": "Non renseigné",
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Label accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "controle_qualite": "Secteur extrait du PDF 08/2019; vérifié manuellement",
       "resultat_normalise": "Label accordé",
       "section_pdf": "Session de décision",
       "source_pdf": "session_2019_08.pdf",
@@ -17968,13 +17971,13 @@
       "projet": "Non renseigné",
       "fondateurs": "Mohamed Mekki Maalej",
       "decision": "Label accordé",
-      "type_label": "Label",
-      "secteur": "Non renseigné",
-      "tour_moment": "Non renseigné",
+      "type_label": "Prélabel → Label",
+      "secteur": "IoT",
+      "tour_moment": "2ème tour",
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
-      "commentaires": "Label accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "commentaires": "Label accordé dès le 2ème tour — conversion Prélabel → Label",
+      "controle_qualite": "Secteur extrait du PDF 08/2019; vérifié manuellement",
       "resultat_normalise": "Label accordé",
       "section_pdf": "Session de décision",
       "source_pdf": "session_2019_08.pdf",
@@ -17982,20 +17985,23 @@
       "session": "08/2019",
       "session_id": "S5",
       "line": 19,
-      "decision_id": "S5_D0019"
+      "decision_id": "S5_D0019",
+      "commentaire": "Label accordé dès le 2ème tour — conversion Prélabel → Label",
+      "is_conversion": true,
+      "conversion": "Prélabel → Label"
     },
     {
       "societe": "Eat & Fit",
       "projet": "Non renseigné",
       "fondateurs": "Skander Ben Sassi",
       "decision": "Label accordé",
-      "type_label": "Label",
-      "secteur": "Non renseigné",
-      "tour_moment": "Non renseigné",
+      "type_label": "Prélabel → Label",
+      "secteur": "Autre contenu créatif",
+      "tour_moment": "2ème tour",
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
-      "commentaires": "Label accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "commentaires": "Label accordé dès le 2ème tour — conversion Prélabel → Label",
+      "controle_qualite": "Secteur extrait du PDF 08/2019; vérifié manuellement",
       "resultat_normalise": "Label accordé",
       "section_pdf": "Session de décision",
       "source_pdf": "session_2019_08.pdf",
@@ -18003,7 +18009,10 @@
       "session": "08/2019",
       "session_id": "S5",
       "line": 20,
-      "decision_id": "S5_D0020"
+      "decision_id": "S5_D0020",
+      "commentaire": "Label accordé dès le 2ème tour — conversion Prélabel → Label",
+      "is_conversion": true,
+      "conversion": "Prélabel → Label"
     },
     {
       "societe": "WanToTrip",
@@ -18011,12 +18020,12 @@
       "fondateurs": "Chahrazed Remadi, Makrem Hermassi",
       "decision": "Prélabel accordé",
       "type_label": "Prélabel",
-      "secteur": "Non renseigné",
+      "secteur": "Ecommerce",
       "tour_moment": "Non renseigné",
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "controle_qualite": "Secteur extrait du PDF 08/2019; vérifié manuellement",
       "resultat_normalise": "Prélabel accordé",
       "section_pdf": "Session de décision",
       "source_pdf": "session_2019_08.pdf",
@@ -18032,12 +18041,12 @@
       "fondateurs": "Mohamed Aziz CHAHED, Mohamed Itheb Ben Abbes, Oussama Ouda, Mohamed Chebbi",
       "decision": "Prélabel accordé",
       "type_label": "Prélabel",
-      "secteur": "Non renseigné",
+      "secteur": "Logiciel",
       "tour_moment": "Non renseigné",
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "controle_qualite": "Secteur extrait du PDF 08/2019; vérifié manuellement",
       "resultat_normalise": "Prélabel accordé",
       "section_pdf": "Session de décision",
       "source_pdf": "session_2019_08.pdf",
@@ -18053,12 +18062,12 @@
       "fondateurs": "Nasreddine Cherih, Marouane El Behi",
       "decision": "Prélabel accordé",
       "type_label": "Prélabel",
-      "secteur": "Non renseigné",
+      "secteur": "Autre contenu créatif",
       "tour_moment": "Non renseigné",
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "controle_qualite": "Secteur extrait du PDF 08/2019; vérifié manuellement",
       "resultat_normalise": "Prélabel accordé",
       "section_pdf": "Session de décision",
       "source_pdf": "session_2019_08.pdf",
@@ -18074,12 +18083,12 @@
       "fondateurs": "Sami Guetari, Nadia Bouslimi Guetari",
       "decision": "Prélabel accordé",
       "type_label": "Prélabel",
-      "secteur": "Non renseigné",
+      "secteur": "Agritech",
       "tour_moment": "Non renseigné",
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "controle_qualite": "Secteur extrait du PDF 08/2019; vérifié manuellement",
       "resultat_normalise": "Prélabel accordé",
       "section_pdf": "Session de décision",
       "source_pdf": "session_2019_08.pdf",
@@ -18095,12 +18104,12 @@
       "fondateurs": "Makrem Dhifalli, Aymen Gatri, Mounir Bezzarga",
       "decision": "Prélabel accordé",
       "type_label": "Prélabel",
-      "secteur": "Non renseigné",
+      "secteur": "Blockchain & cryptocurrency",
       "tour_moment": "Non renseigné",
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "controle_qualite": "Secteur extrait du PDF 08/2019; vérifié manuellement",
       "resultat_normalise": "Prélabel accordé",
       "section_pdf": "Session de décision",
       "source_pdf": "session_2019_08.pdf",
@@ -18116,12 +18125,12 @@
       "fondateurs": "Wajdi El Fehem",
       "decision": "Prélabel non accordé",
       "type_label": "Prélabel",
-      "secteur": "Non renseigné",
+      "secteur": "Ecommerce",
       "tour_moment": "Non renseigné",
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel non-accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "controle_qualite": "Secteur extrait du PDF 08/2019; vérifié manuellement",
       "resultat_normalise": "Prélabel non accordé",
       "section_pdf": "Session de décision",
       "source_pdf": "session_2019_08.pdf",
@@ -18137,12 +18146,12 @@
       "fondateurs": "Hassen Maiz",
       "decision": "Prélabel non accordé",
       "type_label": "Prélabel",
-      "secteur": "Non renseigné",
+      "secteur": "Agritech",
       "tour_moment": "Non renseigné",
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel non-accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "controle_qualite": "Secteur extrait du PDF 08/2019; vérifié manuellement",
       "resultat_normalise": "Prélabel non accordé",
       "section_pdf": "Session de décision",
       "source_pdf": "session_2019_08.pdf",
@@ -18158,12 +18167,12 @@
       "fondateurs": "Khaled Ben Ali, Fatma Ghizaoui, Mohamed Ben Hadj Hmida, Wajih Gafsi, Mariem Gannouni",
       "decision": "Prélabel non accordé",
       "type_label": "Prélabel",
-      "secteur": "Non renseigné",
+      "secteur": "Ecommerce",
       "tour_moment": "Non renseigné",
       "apres_pitching": "Non renseigné",
       "session_obtention_retrait": "Non renseigné",
       "commentaires": "Prélabel non-accordé",
-      "controle_qualite": "Secteur absent du JSON; vérifier PDF",
+      "controle_qualite": "Secteur extrait du PDF 08/2019; vérifié manuellement",
       "resultat_normalise": "Prélabel non accordé",
       "section_pdf": "Session de décision",
       "source_pdf": "session_2019_08.pdf",
@@ -85119,11 +85128,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 1,
-      "decision_id": "S85_D0001",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0001"
     },
     {
       "societe": "MyLabSkills",
@@ -85144,11 +85149,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 2,
-      "decision_id": "S85_D0002",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0002"
     },
     {
       "societe": "WiHelp",
@@ -85169,11 +85170,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 3,
-      "decision_id": "S85_D0003",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0003"
     },
     {
       "societe": "YesCodi",
@@ -85194,11 +85191,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 4,
-      "decision_id": "S85_D0004",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0004"
     },
     {
       "societe": "Chimie Verte",
@@ -85219,11 +85212,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 5,
-      "decision_id": "S85_D0005",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0005"
     },
     {
       "societe": "PolstarAI",
@@ -85244,11 +85233,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 6,
-      "decision_id": "S85_D0006",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0006"
     },
     {
       "societe": "agri résilience",
@@ -85269,11 +85254,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 7,
-      "decision_id": "S85_D0007",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0007"
     },
     {
       "societe": "Chabaqa",
@@ -85294,11 +85275,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 8,
-      "decision_id": "S85_D0008",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0008"
     },
     {
       "societe": "EUKLYDIA",
@@ -85319,11 +85296,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 9,
-      "decision_id": "S85_D0009",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0009"
     },
     {
       "societe": "TransitTN",
@@ -85344,11 +85317,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 10,
-      "decision_id": "S85_D0010",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0010"
     },
     {
       "societe": "Qvision",
@@ -85369,11 +85338,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 11,
-      "decision_id": "S85_D0011",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0011"
     },
     {
       "societe": "Houny",
@@ -85394,11 +85359,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 12,
-      "decision_id": "S85_D0012",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0012"
     },
     {
       "societe": "Alhazen AI",
@@ -85419,11 +85380,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 13,
-      "decision_id": "S85_D0013",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0013"
     },
     {
       "societe": "Ask Tanit",
@@ -85444,11 +85401,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 14,
-      "decision_id": "S85_D0014",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0014"
     },
     {
       "societe": "Roots Care Cubes",
@@ -85469,11 +85422,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 15,
-      "decision_id": "S85_D0015",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0015"
     },
     {
       "societe": "moujib.com",
@@ -85494,11 +85443,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 16,
-      "decision_id": "S85_D0016",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0016"
     },
     {
       "societe": "Twee Ai",
@@ -85519,11 +85464,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 17,
-      "decision_id": "S85_D0017",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0017"
     },
     {
       "societe": "AL RAZI AI",
@@ -85544,11 +85485,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 18,
-      "decision_id": "S85_D0018",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0018"
     },
     {
       "societe": "Talent Verse",
@@ -85569,11 +85506,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 19,
-      "decision_id": "S85_D0019",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0019"
     },
     {
       "societe": "société VISENIOUS SUARL",
@@ -85594,11 +85527,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 20,
-      "decision_id": "S85_D0020",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0020"
     },
     {
       "societe": "MedSyn",
@@ -85619,11 +85548,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 21,
-      "decision_id": "S85_D0021",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0021"
     },
     {
       "societe": "Discounts",
@@ -85644,11 +85569,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 22,
-      "decision_id": "S85_D0022",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0022"
     },
     {
       "societe": "Hotelgenius.app",
@@ -85669,11 +85590,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 23,
-      "decision_id": "S85_D0023",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0023"
     },
     {
       "societe": "eco green watering / eco xtreme",
@@ -85694,11 +85611,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 24,
-      "decision_id": "S85_D0024",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0024"
     },
     {
       "societe": "Tshopily",
@@ -85719,11 +85632,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 25,
-      "decision_id": "S85_D0025",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0025"
     },
     {
       "societe": "PARPECO",
@@ -85744,11 +85653,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 26,
-      "decision_id": "S85_D0026",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0026"
     },
     {
       "societe": "DIGIMY",
@@ -85769,11 +85674,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 27,
-      "decision_id": "S85_D0027",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0027"
     },
     {
       "societe": "TUTLAYT TRANSLATIONS",
@@ -85794,11 +85695,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 28,
-      "decision_id": "S85_D0028",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0028"
     },
     {
       "societe": "Terraconnect",
@@ -85819,11 +85716,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 29,
-      "decision_id": "S85_D0029",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0029"
     },
     {
       "societe": "EcomEyes",
@@ -85844,11 +85737,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 30,
-      "decision_id": "S85_D0030",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0030"
     },
     {
       "societe": "Omni Links",
@@ -85869,11 +85758,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 31,
-      "decision_id": "S85_D0031",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0031"
     },
     {
       "societe": "SMARTCO",
@@ -85894,11 +85779,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 32,
-      "decision_id": "S85_D0032",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0032"
     },
     {
       "societe": "360TN",
@@ -85919,11 +85800,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 33,
-      "decision_id": "S85_D0033",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0033"
     },
     {
       "societe": "FitoGramme",
@@ -85944,11 +85821,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 34,
-      "decision_id": "S85_D0034",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0034"
     },
     {
       "societe": "Meta Health",
@@ -85969,11 +85842,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 35,
-      "decision_id": "S85_D0035",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0035"
     },
     {
       "societe": "Noqlah",
@@ -85994,11 +85863,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 36,
-      "decision_id": "S85_D0036",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0036"
     },
     {
       "societe": "SmartGEO",
@@ -86019,11 +85884,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 37,
-      "decision_id": "S85_D0037",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0037"
     },
     {
       "societe": "Proovlab",
@@ -86044,11 +85905,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 38,
-      "decision_id": "S85_D0038",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0038"
     },
     {
       "societe": "History Connexion",
@@ -86069,11 +85926,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 39,
-      "decision_id": "S85_D0039",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0039"
     },
     {
       "societe": "Clubedge Digital Systems",
@@ -86094,11 +85947,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 40,
-      "decision_id": "S85_D0040",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0040"
     },
     {
       "societe": "COLEA AgriTech",
@@ -86119,11 +85968,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 41,
-      "decision_id": "S85_D0041",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0041"
     },
     {
       "societe": "Absher AI",
@@ -86144,11 +85989,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 42,
-      "decision_id": "S85_D0042",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0042"
     },
     {
       "societe": "Wattnow",
@@ -86169,11 +86010,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 43,
-      "decision_id": "S85_D0043",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0043"
     },
     {
       "societe": "DATAERA",
@@ -86194,11 +86031,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 44,
-      "decision_id": "S85_D0044",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0044"
     },
     {
       "societe": "Tunisian Online Teachers",
@@ -86219,11 +86052,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 45,
-      "decision_id": "S85_D0045",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0045"
     },
     {
       "societe": "Beauté privée",
@@ -86244,11 +86073,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 46,
-      "decision_id": "S85_D0046",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0046"
     },
     {
       "societe": "DeVolution",
@@ -86269,11 +86094,7 @@
       "session": "04/2026",
       "session_id": "S85",
       "line": 47,
-      "decision_id": "S85_D0047",
-      "entries": 50,
-      "entries_detaillees": 50,
-      "candidatures_reexamen_pdf": 50,
-      "candidatures_corrigees": 50
+      "decision_id": "S85_D0047"
     },
     {
       "societe": "AL idhafa",
@@ -86294,11 +86115,7 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 1,
-      "decision_id": "S86_D0001",
-      "entries": 48,
-      "entries_detaillees": 48,
-      "candidatures_reexamen_pdf": 48,
-      "candidatures_corrigees": 48
+      "decision_id": "S86_D0001"
     },
     {
       "societe": "Ansab ب سنأ",
@@ -86319,11 +86136,7 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 2,
-      "decision_id": "S86_D0002",
-      "entries": 48,
-      "entries_detaillees": 48,
-      "candidatures_reexamen_pdf": 48,
-      "candidatures_corrigees": 48
+      "decision_id": "S86_D0002"
     },
     {
       "societe": "Biopot",
@@ -86344,11 +86157,7 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 3,
-      "decision_id": "S86_D0003",
-      "entries": 48,
-      "entries_detaillees": 48,
-      "candidatures_reexamen_pdf": 48,
-      "candidatures_corrigees": 48
+      "decision_id": "S86_D0003"
     },
     {
       "societe": "neptune.tn",
@@ -86369,11 +86178,7 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 4,
-      "decision_id": "S86_D0004",
-      "entries": 48,
-      "entries_detaillees": 48,
-      "candidatures_reexamen_pdf": 48,
-      "candidatures_corrigees": 48
+      "decision_id": "S86_D0004"
     },
     {
       "societe": "Ontej",
@@ -86394,11 +86199,7 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 5,
-      "decision_id": "S86_D0005",
-      "entries": 48,
-      "entries_detaillees": 48,
-      "candidatures_reexamen_pdf": 48,
-      "candidatures_corrigees": 48
+      "decision_id": "S86_D0005"
     },
     {
       "societe": "Brimind",
@@ -86419,11 +86220,7 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 6,
-      "decision_id": "S86_D0006",
-      "entries": 48,
-      "entries_detaillees": 48,
-      "candidatures_reexamen_pdf": 48,
-      "candidatures_corrigees": 48
+      "decision_id": "S86_D0006"
     },
     {
       "societe": "Estateboost",
@@ -86444,11 +86241,7 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 7,
-      "decision_id": "S86_D0007",
-      "entries": 48,
-      "entries_detaillees": 48,
-      "candidatures_reexamen_pdf": 48,
-      "candidatures_corrigees": 48
+      "decision_id": "S86_D0007"
     },
     {
       "societe": "OKGO",
@@ -86469,11 +86262,7 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 8,
-      "decision_id": "S86_D0008",
-      "entries": 48,
-      "entries_detaillees": 48,
-      "candidatures_reexamen_pdf": 48,
-      "candidatures_corrigees": 48
+      "decision_id": "S86_D0008"
     },
     {
       "societe": "Sidekick4All ONETEEM Tunisia SUARL",
@@ -86494,11 +86283,7 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 9,
-      "decision_id": "S86_D0009",
-      "entries": 48,
-      "entries_detaillees": 48,
-      "candidatures_reexamen_pdf": 48,
-      "candidatures_corrigees": 48
+      "decision_id": "S86_D0009"
     },
     {
       "societe": "Legatio Technologies",
@@ -86519,11 +86304,7 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 10,
-      "decision_id": "S86_D0010",
-      "entries": 48,
-      "entries_detaillees": 48,
-      "candidatures_reexamen_pdf": 48,
-      "candidatures_corrigees": 48
+      "decision_id": "S86_D0010"
     },
     {
       "societe": "INOVENTIS",
@@ -86544,11 +86325,7 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 11,
-      "decision_id": "S86_D0011",
-      "entries": 48,
-      "entries_detaillees": 48,
-      "candidatures_reexamen_pdf": 48,
-      "candidatures_corrigees": 48
+      "decision_id": "S86_D0011"
     },
     {
       "societe": "PLATEFORME AUTOMOBILE INTELLIGENTE",
@@ -86569,11 +86346,7 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 12,
-      "decision_id": "S86_D0012",
-      "entries": 48,
-      "entries_detaillees": 48,
-      "candidatures_reexamen_pdf": 48,
-      "candidatures_corrigees": 48
+      "decision_id": "S86_D0012"
     },
     {
       "societe": "Qodecheck",
@@ -86594,11 +86367,7 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 13,
-      "decision_id": "S86_D0013",
-      "entries": 48,
-      "entries_detaillees": 48,
-      "candidatures_reexamen_pdf": 48,
-      "candidatures_corrigees": 48
+      "decision_id": "S86_D0013"
     },
     {
       "societe": "TaskWise AI",
@@ -86619,11 +86388,7 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 14,
-      "decision_id": "S86_D0014",
-      "entries": 48,
-      "entries_detaillees": 48,
-      "candidatures_reexamen_pdf": 48,
-      "candidatures_corrigees": 48
+      "decision_id": "S86_D0014"
     },
     {
       "societe": "ThreeRust Engine",
@@ -86644,11 +86409,7 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 15,
-      "decision_id": "S86_D0015",
-      "entries": 48,
-      "entries_detaillees": 48,
-      "candidatures_reexamen_pdf": 48,
-      "candidatures_corrigees": 48
+      "decision_id": "S86_D0015"
     },
     {
       "societe": "Tunisie Freelance",
@@ -86669,11 +86430,7 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 16,
-      "decision_id": "S86_D0016",
-      "entries": 48,
-      "entries_detaillees": 48,
-      "candidatures_reexamen_pdf": 48,
-      "candidatures_corrigees": 48
+      "decision_id": "S86_D0016"
     },
     {
       "societe": "cleanoov",
@@ -86694,11 +86451,7 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 17,
-      "decision_id": "S86_D0017",
-      "entries": 48,
-      "entries_detaillees": 48,
-      "candidatures_reexamen_pdf": 48,
-      "candidatures_corrigees": 48
+      "decision_id": "S86_D0017"
     },
     {
       "societe": "BAYYOU LABS",
@@ -86719,11 +86472,7 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 18,
-      "decision_id": "S86_D0018",
-      "entries": 48,
-      "entries_detaillees": 48,
-      "candidatures_reexamen_pdf": 48,
-      "candidatures_corrigees": 48
+      "decision_id": "S86_D0018"
     },
     {
       "societe": "YuboKits",
@@ -86744,11 +86493,7 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 19,
-      "decision_id": "S86_D0019",
-      "entries": 48,
-      "entries_detaillees": 48,
-      "candidatures_reexamen_pdf": 48,
-      "candidatures_corrigees": 48
+      "decision_id": "S86_D0019"
     },
     {
       "societe": "BlueBox Labs",
@@ -86769,11 +86514,7 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 20,
-      "decision_id": "S86_D0020",
-      "entries": 48,
-      "entries_detaillees": 48,
-      "candidatures_reexamen_pdf": 48,
-      "candidatures_corrigees": 48
+      "decision_id": "S86_D0020"
     },
     {
       "societe": "kounfit",
@@ -86794,11 +86535,7 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 21,
-      "decision_id": "S86_D0021",
-      "entries": 48,
-      "entries_detaillees": 48,
-      "candidatures_reexamen_pdf": 48,
-      "candidatures_corrigees": 48
+      "decision_id": "S86_D0021"
     },
     {
       "societe": "MOSOFTY",
@@ -86819,11 +86556,7 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 22,
-      "decision_id": "S86_D0022",
-      "entries": 48,
-      "entries_detaillees": 48,
-      "candidatures_reexamen_pdf": 48,
-      "candidatures_corrigees": 48
+      "decision_id": "S86_D0022"
     },
     {
       "societe": "Komein",
@@ -86844,11 +86577,7 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 23,
-      "decision_id": "S86_D0023",
-      "entries": 48,
-      "entries_detaillees": 48,
-      "candidatures_reexamen_pdf": 48,
-      "candidatures_corrigees": 48
+      "decision_id": "S86_D0023"
     },
     {
       "societe": "CorHexia",
@@ -86869,11 +86598,7 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 24,
-      "decision_id": "S86_D0024",
-      "entries": 48,
-      "entries_detaillees": 48,
-      "candidatures_reexamen_pdf": 48,
-      "candidatures_corrigees": 48
+      "decision_id": "S86_D0024"
     },
     {
       "societe": "Workior",
@@ -86894,11 +86619,7 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 25,
-      "decision_id": "S86_D0025",
-      "entries": 48,
-      "entries_detaillees": 48,
-      "candidatures_reexamen_pdf": 48,
-      "candidatures_corrigees": 48
+      "decision_id": "S86_D0025"
     },
     {
       "societe": "LeaCall",
@@ -86919,11 +86640,7 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 26,
-      "decision_id": "S86_D0026",
-      "entries": 48,
-      "entries_detaillees": 48,
-      "candidatures_reexamen_pdf": 48,
-      "candidatures_corrigees": 48
+      "decision_id": "S86_D0026"
     },
     {
       "societe": "SIROCCO (Jobinterview.live)",
@@ -86944,11 +86661,7 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 27,
-      "decision_id": "S86_D0027",
-      "entries": 48,
-      "entries_detaillees": 48,
-      "candidatures_reexamen_pdf": 48,
-      "candidatures_corrigees": 48
+      "decision_id": "S86_D0027"
     },
     {
       "societe": "Mariage TN",
@@ -86969,11 +86682,7 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 28,
-      "decision_id": "S86_D0028",
-      "entries": 48,
-      "entries_detaillees": 48,
-      "candidatures_reexamen_pdf": 48,
-      "candidatures_corrigees": 48
+      "decision_id": "S86_D0028"
     },
     {
       "societe": "Farness",
@@ -86994,11 +86703,7 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 29,
-      "decision_id": "S86_D0029",
-      "entries": 48,
-      "entries_detaillees": 48,
-      "candidatures_reexamen_pdf": 48,
-      "candidatures_corrigees": 48
+      "decision_id": "S86_D0029"
     },
     {
       "societe": "Revisplus",
@@ -87019,11 +86724,7 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 30,
-      "decision_id": "S86_D0030",
-      "entries": 48,
-      "entries_detaillees": 48,
-      "candidatures_reexamen_pdf": 48,
-      "candidatures_corrigees": 48
+      "decision_id": "S86_D0030"
     },
     {
       "societe": "Playfast",
@@ -87044,11 +86745,7 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 31,
-      "decision_id": "S86_D0031",
-      "entries": 48,
-      "entries_detaillees": 48,
-      "candidatures_reexamen_pdf": 48,
-      "candidatures_corrigees": 48
+      "decision_id": "S86_D0031"
     },
     {
       "societe": "DossiMed",
@@ -87069,11 +86766,7 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 32,
-      "decision_id": "S86_D0032",
-      "entries": 48,
-      "entries_detaillees": 48,
-      "candidatures_reexamen_pdf": 48,
-      "candidatures_corrigees": 48
+      "decision_id": "S86_D0032"
     },
     {
       "societe": "ALCURA",
@@ -87094,11 +86787,7 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 33,
-      "decision_id": "S86_D0033",
-      "entries": 48,
-      "entries_detaillees": 48,
-      "candidatures_reexamen_pdf": 48,
-      "candidatures_corrigees": 48
+      "decision_id": "S86_D0033"
     },
     {
       "societe": "Twelev8",
@@ -87119,11 +86808,7 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 34,
-      "decision_id": "S86_D0034",
-      "entries": 48,
-      "entries_detaillees": 48,
-      "candidatures_reexamen_pdf": 48,
-      "candidatures_corrigees": 48
+      "decision_id": "S86_D0034"
     },
     {
       "societe": "Tadbir AI",
@@ -87144,11 +86829,7 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 35,
-      "decision_id": "S86_D0035",
-      "entries": 48,
-      "entries_detaillees": 48,
-      "candidatures_reexamen_pdf": 48,
-      "candidatures_corrigees": 48
+      "decision_id": "S86_D0035"
     },
     {
       "societe": "Qubit Labs Tunis",
@@ -87169,11 +86850,7 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 36,
-      "decision_id": "S86_D0036",
-      "entries": 48,
-      "entries_detaillees": 48,
-      "candidatures_reexamen_pdf": 48,
-      "candidatures_corrigees": 48
+      "decision_id": "S86_D0036"
     },
     {
       "societe": "PARPECO",
@@ -87194,11 +86871,7 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 37,
-      "decision_id": "S86_D0037",
-      "entries": 48,
-      "entries_detaillees": 48,
-      "candidatures_reexamen_pdf": 48,
-      "candidatures_corrigees": 48
+      "decision_id": "S86_D0037"
     },
     {
       "societe": "Yes-Sir",
@@ -87219,11 +86892,7 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 38,
-      "decision_id": "S86_D0038",
-      "entries": 48,
-      "entries_detaillees": 48,
-      "candidatures_reexamen_pdf": 48,
-      "candidatures_corrigees": 48
+      "decision_id": "S86_D0038"
     },
     {
       "societe": "Freshk",
@@ -87244,11 +86913,7 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 39,
-      "decision_id": "S86_D0039",
-      "entries": 48,
-      "entries_detaillees": 48,
-      "candidatures_reexamen_pdf": 48,
-      "candidatures_corrigees": 48
+      "decision_id": "S86_D0039"
     },
     {
       "societe": "Paymee",
@@ -87269,11 +86934,7 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 40,
-      "decision_id": "S86_D0040",
-      "entries": 48,
-      "entries_detaillees": 48,
-      "candidatures_reexamen_pdf": 48,
-      "candidatures_corrigees": 48
+      "decision_id": "S86_D0040"
     },
     {
       "societe": "Odacel",
@@ -87294,11 +86955,7 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 41,
-      "decision_id": "S86_D0041",
-      "entries": 48,
-      "entries_detaillees": 48,
-      "candidatures_reexamen_pdf": 48,
-      "candidatures_corrigees": 48
+      "decision_id": "S86_D0041"
     },
     {
       "societe": "STE \"ACCENT\" ALPHA CONNECT COMPUTING FOR ENTERPRISES",
@@ -87319,11 +86976,7 @@
       "session": "05/2026",
       "session_id": "S86",
       "line": 42,
-      "decision_id": "S86_D0042",
-      "entries": 48,
-      "entries_detaillees": 48,
-      "candidatures_reexamen_pdf": 48,
-      "candidatures_corrigees": 48
+      "decision_id": "S86_D0042"
     },
     {
       "societe": "Dourou",
@@ -87344,11 +86997,7 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 1,
-      "decision_id": "S87_D0001",
-      "entries": 47,
-      "entries_detaillees": 47,
-      "candidatures_reexamen_pdf": 47,
-      "candidatures_corrigees": 47
+      "decision_id": "S87_D0001"
     },
     {
       "societe": "Athletika",
@@ -87369,11 +87018,7 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 2,
-      "decision_id": "S87_D0002",
-      "entries": 47,
-      "entries_detaillees": 47,
-      "candidatures_reexamen_pdf": 47,
-      "candidatures_corrigees": 47
+      "decision_id": "S87_D0002"
     },
     {
       "societe": "SANEOB",
@@ -87394,11 +87039,7 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 3,
-      "decision_id": "S87_D0003",
-      "entries": 47,
-      "entries_detaillees": 47,
-      "candidatures_reexamen_pdf": 47,
-      "candidatures_corrigees": 47
+      "decision_id": "S87_D0003"
     },
     {
       "societe": "DrugIT",
@@ -87419,11 +87060,7 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 4,
-      "decision_id": "S87_D0004",
-      "entries": 47,
-      "entries_detaillees": 47,
-      "candidatures_reexamen_pdf": 47,
-      "candidatures_corrigees": 47
+      "decision_id": "S87_D0004"
     },
     {
       "societe": "M2P INNOVATION",
@@ -87444,11 +87081,7 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 5,
-      "decision_id": "S87_D0005",
-      "entries": 47,
-      "entries_detaillees": 47,
-      "candidatures_reexamen_pdf": 47,
-      "candidatures_corrigees": 47
+      "decision_id": "S87_D0005"
     },
     {
       "societe": "Drive N Go Mobile Car Solutions",
@@ -87469,11 +87102,7 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 6,
-      "decision_id": "S87_D0006",
-      "entries": 47,
-      "entries_detaillees": 47,
-      "candidatures_reexamen_pdf": 47,
-      "candidatures_corrigees": 47
+      "decision_id": "S87_D0006"
     },
     {
       "societe": "IFBW",
@@ -87494,11 +87123,7 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 7,
-      "decision_id": "S87_D0007",
-      "entries": 47,
-      "entries_detaillees": 47,
-      "candidatures_reexamen_pdf": 47,
-      "candidatures_corrigees": 47
+      "decision_id": "S87_D0007"
     },
     {
       "societe": "MedCalc",
@@ -87519,11 +87144,7 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 8,
-      "decision_id": "S87_D0008",
-      "entries": 47,
-      "entries_detaillees": 47,
-      "candidatures_reexamen_pdf": 47,
-      "candidatures_corrigees": 47
+      "decision_id": "S87_D0008"
     },
     {
       "societe": "montransporteur",
@@ -87544,11 +87165,7 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 9,
-      "decision_id": "S87_D0009",
-      "entries": 47,
-      "entries_detaillees": 47,
-      "candidatures_reexamen_pdf": 47,
-      "candidatures_corrigees": 47
+      "decision_id": "S87_D0009"
     },
     {
       "societe": "BeanBack",
@@ -87569,11 +87186,7 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 10,
-      "decision_id": "S87_D0010",
-      "entries": 47,
-      "entries_detaillees": 47,
-      "candidatures_reexamen_pdf": 47,
-      "candidatures_corrigees": 47
+      "decision_id": "S87_D0010"
     },
     {
       "societe": "Imperia AI",
@@ -87594,11 +87207,7 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 11,
-      "decision_id": "S87_D0011",
-      "entries": 47,
-      "entries_detaillees": 47,
-      "candidatures_reexamen_pdf": 47,
-      "candidatures_corrigees": 47
+      "decision_id": "S87_D0011"
     },
     {
       "societe": "Ktebi Ktebek",
@@ -87619,11 +87228,7 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 12,
-      "decision_id": "S87_D0012",
-      "entries": 47,
-      "entries_detaillees": 47,
-      "candidatures_reexamen_pdf": 47,
-      "candidatures_corrigees": 47
+      "decision_id": "S87_D0012"
     },
     {
       "societe": "Fouteta",
@@ -87644,11 +87249,7 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 13,
-      "decision_id": "S87_D0013",
-      "entries": 47,
-      "entries_detaillees": 47,
-      "candidatures_reexamen_pdf": 47,
-      "candidatures_corrigees": 47
+      "decision_id": "S87_D0013"
     },
     {
       "societe": "CLEVERSCHED",
@@ -87669,11 +87270,7 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 14,
-      "decision_id": "S87_D0014",
-      "entries": 47,
-      "entries_detaillees": 47,
-      "candidatures_reexamen_pdf": 47,
-      "candidatures_corrigees": 47
+      "decision_id": "S87_D0014"
     },
     {
       "societe": "Barakeat",
@@ -87694,11 +87291,7 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 15,
-      "decision_id": "S87_D0015",
-      "entries": 47,
-      "entries_detaillees": 47,
-      "candidatures_reexamen_pdf": 47,
-      "candidatures_corrigees": 47
+      "decision_id": "S87_D0015"
     },
     {
       "societe": "Nexæra AI",
@@ -87719,11 +87312,7 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 16,
-      "decision_id": "S87_D0016",
-      "entries": 47,
-      "entries_detaillees": 47,
-      "candidatures_reexamen_pdf": 47,
-      "candidatures_corrigees": 47
+      "decision_id": "S87_D0016"
     },
     {
       "societe": "Chaima Création",
@@ -87744,11 +87333,7 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 17,
-      "decision_id": "S87_D0017",
-      "entries": 47,
-      "entries_detaillees": 47,
-      "candidatures_reexamen_pdf": 47,
-      "candidatures_corrigees": 47
+      "decision_id": "S87_D0017"
     },
     {
       "societe": "Rinpen",
@@ -87769,11 +87354,7 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 18,
-      "decision_id": "S87_D0018",
-      "entries": 47,
-      "entries_detaillees": 47,
-      "candidatures_reexamen_pdf": 47,
-      "candidatures_corrigees": 47
+      "decision_id": "S87_D0018"
     },
     {
       "societe": "MediSync",
@@ -87794,11 +87375,7 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 19,
-      "decision_id": "S87_D0019",
-      "entries": 47,
-      "entries_detaillees": 47,
-      "candidatures_reexamen_pdf": 47,
-      "candidatures_corrigees": 47
+      "decision_id": "S87_D0019"
     },
     {
       "societe": "SAVE YOUR ENERGY",
@@ -87819,11 +87396,7 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 20,
-      "decision_id": "S87_D0020",
-      "entries": 47,
-      "entries_detaillees": 47,
-      "candidatures_reexamen_pdf": 47,
-      "candidatures_corrigees": 47
+      "decision_id": "S87_D0020"
     },
     {
       "societe": "Integrated Robotics & Intelligent Systems (IRIS)",
@@ -87844,11 +87417,7 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 21,
-      "decision_id": "S87_D0021",
-      "entries": 47,
-      "entries_detaillees": 47,
-      "candidatures_reexamen_pdf": 47,
-      "candidatures_corrigees": 47
+      "decision_id": "S87_D0021"
     },
     {
       "societe": "BE THE BOSS ACADEMY",
@@ -87869,11 +87438,7 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 22,
-      "decision_id": "S87_D0022",
-      "entries": 47,
-      "entries_detaillees": 47,
-      "candidatures_reexamen_pdf": 47,
-      "candidatures_corrigees": 47
+      "decision_id": "S87_D0022"
     },
     {
       "societe": "Tundata",
@@ -87894,11 +87459,7 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 23,
-      "decision_id": "S87_D0023",
-      "entries": 47,
-      "entries_detaillees": 47,
-      "candidatures_reexamen_pdf": 47,
-      "candidatures_corrigees": 47
+      "decision_id": "S87_D0023"
     },
     {
       "societe": "Kruzr",
@@ -87919,11 +87480,7 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 24,
-      "decision_id": "S87_D0024",
-      "entries": 47,
-      "entries_detaillees": 47,
-      "candidatures_reexamen_pdf": 47,
-      "candidatures_corrigees": 47
+      "decision_id": "S87_D0024"
     },
     {
       "societe": "OrdoScope",
@@ -87944,11 +87501,7 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 25,
-      "decision_id": "S87_D0025",
-      "entries": 47,
-      "entries_detaillees": 47,
-      "candidatures_reexamen_pdf": 47,
-      "candidatures_corrigees": 47
+      "decision_id": "S87_D0025"
     },
     {
       "societe": "ARTCHAD",
@@ -87969,11 +87522,7 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 26,
-      "decision_id": "S87_D0026",
-      "entries": 47,
-      "entries_detaillees": 47,
-      "candidatures_reexamen_pdf": 47,
-      "candidatures_corrigees": 47
+      "decision_id": "S87_D0026"
     },
     {
       "societe": "smartbook.tn",
@@ -87994,11 +87543,7 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 27,
-      "decision_id": "S87_D0027",
-      "entries": 47,
-      "entries_detaillees": 47,
-      "candidatures_reexamen_pdf": 47,
-      "candidatures_corrigees": 47
+      "decision_id": "S87_D0027"
     },
     {
       "societe": "CARBOLIA",
@@ -88019,11 +87564,7 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 28,
-      "decision_id": "S87_D0028",
-      "entries": 47,
-      "entries_detaillees": 47,
-      "candidatures_reexamen_pdf": 47,
-      "candidatures_corrigees": 47
+      "decision_id": "S87_D0028"
     },
     {
       "societe": "Tikana",
@@ -88044,11 +87585,7 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 29,
-      "decision_id": "S87_D0029",
-      "entries": 47,
-      "entries_detaillees": 47,
-      "candidatures_reexamen_pdf": 47,
-      "candidatures_corrigees": 47
+      "decision_id": "S87_D0029"
     },
     {
       "societe": "Pixelgate studio",
@@ -88069,11 +87606,7 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 30,
-      "decision_id": "S87_D0030",
-      "entries": 47,
-      "entries_detaillees": 47,
-      "candidatures_reexamen_pdf": 47,
-      "candidatures_corrigees": 47
+      "decision_id": "S87_D0030"
     },
     {
       "societe": "Verdolive",
@@ -88094,11 +87627,7 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 31,
-      "decision_id": "S87_D0031",
-      "entries": 47,
-      "entries_detaillees": 47,
-      "candidatures_reexamen_pdf": 47,
-      "candidatures_corrigees": 47
+      "decision_id": "S87_D0031"
     },
     {
       "societe": "ConneXtream",
@@ -88119,11 +87648,7 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 32,
-      "decision_id": "S87_D0032",
-      "entries": 47,
-      "entries_detaillees": 47,
-      "candidatures_reexamen_pdf": 47,
-      "candidatures_corrigees": 47
+      "decision_id": "S87_D0032"
     },
     {
       "societe": "Semsem",
@@ -88144,11 +87669,7 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 33,
-      "decision_id": "S87_D0033",
-      "entries": 47,
-      "entries_detaillees": 47,
-      "candidatures_reexamen_pdf": 47,
-      "candidatures_corrigees": 47
+      "decision_id": "S87_D0033"
     },
     {
       "societe": "ShadowTwin",
@@ -88169,11 +87690,7 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 34,
-      "decision_id": "S87_D0034",
-      "entries": 47,
-      "entries_detaillees": 47,
-      "candidatures_reexamen_pdf": 47,
-      "candidatures_corrigees": 47
+      "decision_id": "S87_D0034"
     },
     {
       "societe": "Medify VR",
@@ -88194,11 +87711,7 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 35,
-      "decision_id": "S87_D0035",
-      "entries": 47,
-      "entries_detaillees": 47,
-      "candidatures_reexamen_pdf": 47,
-      "candidatures_corrigees": 47
+      "decision_id": "S87_D0035"
     },
     {
       "societe": "DEVENCE LAB",
@@ -88219,11 +87732,7 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 36,
-      "decision_id": "S87_D0036",
-      "entries": 47,
-      "entries_detaillees": 47,
-      "candidatures_reexamen_pdf": 47,
-      "candidatures_corrigees": 47
+      "decision_id": "S87_D0036"
     },
     {
       "societe": "Xapp",
@@ -88244,11 +87753,7 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 37,
-      "decision_id": "S87_D0037",
-      "entries": 47,
-      "entries_detaillees": 47,
-      "candidatures_reexamen_pdf": 47,
-      "candidatures_corrigees": 47
+      "decision_id": "S87_D0037"
     },
     {
       "societe": "GP9",
@@ -88269,11 +87774,7 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 38,
-      "decision_id": "S87_D0038",
-      "entries": 47,
-      "entries_detaillees": 47,
-      "candidatures_reexamen_pdf": 47,
-      "candidatures_corrigees": 47
+      "decision_id": "S87_D0038"
     },
     {
       "societe": "ONETEEM TUNISIA SUARL",
@@ -88294,11 +87795,7 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 39,
-      "decision_id": "S87_D0039",
-      "entries": 47,
-      "entries_detaillees": 47,
-      "candidatures_reexamen_pdf": 47,
-      "candidatures_corrigees": 47
+      "decision_id": "S87_D0039"
     },
     {
       "societe": "Optiflows Technologies",
@@ -88319,11 +87816,7 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 40,
-      "decision_id": "S87_D0040",
-      "entries": 47,
-      "entries_detaillees": 47,
-      "candidatures_reexamen_pdf": 47,
-      "candidatures_corrigees": 47
+      "decision_id": "S87_D0040"
     },
     {
       "societe": "TALENTO NETWORK",
@@ -88344,11 +87837,7 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 41,
-      "decision_id": "S87_D0041",
-      "entries": 47,
-      "entries_detaillees": 47,
-      "candidatures_reexamen_pdf": 47,
-      "candidatures_corrigees": 47
+      "decision_id": "S87_D0041"
     },
     {
       "societe": "YesCodi",
@@ -88369,11 +87858,7 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 42,
-      "decision_id": "S87_D0042",
-      "entries": 47,
-      "entries_detaillees": 47,
-      "candidatures_reexamen_pdf": 47,
-      "candidatures_corrigees": 47
+      "decision_id": "S87_D0042"
     },
     {
       "societe": "Dqlick",
@@ -88394,11 +87879,7 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 43,
-      "decision_id": "S87_D0043",
-      "entries": 47,
-      "entries_detaillees": 47,
-      "candidatures_reexamen_pdf": 47,
-      "candidatures_corrigees": 47
+      "decision_id": "S87_D0043"
     },
     {
       "societe": "APTYX",
@@ -88419,11 +87900,7 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 44,
-      "decision_id": "S87_D0044",
-      "entries": 47,
-      "entries_detaillees": 47,
-      "candidatures_reexamen_pdf": 47,
-      "candidatures_corrigees": 47
+      "decision_id": "S87_D0044"
     },
     {
       "societe": "Saghroun.com",
@@ -88444,11 +87921,7 @@
       "session": "06/2026",
       "session_id": "S87",
       "line": 45,
-      "decision_id": "S87_D0045",
-      "entries": 47,
-      "entries_detaillees": 47,
-      "candidatures_reexamen_pdf": 47,
-      "candidatures_corrigees": 47
+      "decision_id": "S87_D0045"
     },
     {
       "societe": "Fidelicia",
@@ -89478,6 +88951,342 @@
       "session_id": "S19",
       "line": 49,
       "decision_id": "S19_D0049"
+    },
+    {
+      "societe": "Mathix Academy",
+      "projet": "Non renseigné",
+      "fondateurs": "Khalil Ben Ali; Zied Ben Mansour; Zahra Ideba",
+      "decision": "Label Non Accordé au 2 ème Tour",
+      "type_label": "Label",
+      "secteur": "EdTech",
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Décision",
+      "commentaires": "Label Non Accordé au 2 ème Tour",
+      "controle_qualite": "Extraction tabulaire PDF vérifiée; ligne ajoutée après audit manuel du PDF 2026",
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "candidature",
+      "source_pdf": "session_2026_04.pdf",
+      "_displayDecision": "label_non_accorde",
+      "session": "04/2026",
+      "session_id": "S85",
+      "line": 51,
+      "decision_id": "S85_D0048"
+    },
+    {
+      "societe": "SURUS",
+      "projet": "Non renseigné",
+      "fondateurs": "Aymen Zghibi; Stefan Simon",
+      "decision": "Label Accordé au 3 ème Tour",
+      "type_label": "Label",
+      "secteur": "Transportation",
+      "tour_moment": "3ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Décision",
+      "commentaires": "Label Accordé au 3 ème Tour",
+      "controle_qualite": "Extraction tabulaire PDF vérifiée; ligne ajoutée après audit manuel du PDF 2026",
+      "resultat_normalise": "Label accordé",
+      "section_pdf": "candidature",
+      "source_pdf": "session_2026_04.pdf",
+      "_displayDecision": "label_accorde",
+      "session": "04/2026",
+      "session_id": "S85",
+      "line": 52,
+      "decision_id": "S85_D0049"
+    },
+    {
+      "societe": "Tunisia transfert",
+      "projet": "Non renseigné",
+      "fondateurs": "Ghaith Gharsalli; Haithem Gharsalli",
+      "decision": "Prélabel Non Accordé au 2 ème Tour",
+      "type_label": "Prélabel",
+      "secteur": "TravelTech",
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Décision",
+      "commentaires": "Prélabel Non Accordé au 2 ème Tour",
+      "controle_qualite": "Extraction tabulaire PDF vérifiée; ligne ajoutée après audit manuel du PDF 2026",
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "candidature",
+      "source_pdf": "session_2026_04.pdf",
+      "_displayDecision": "prelabel_non_accorde",
+      "session": "04/2026",
+      "session_id": "S85",
+      "line": 53,
+      "decision_id": "S85_D0050"
+    },
+    {
+      "societe": "Deep SaaS",
+      "projet": "Non renseigné",
+      "fondateurs": "Mehrez SLAIMIA; Hlali Manel; Riadh Abidi; Mohamed Ben Amor",
+      "decision": "Prélabel Non Accordé au 3 ème Tour",
+      "type_label": "Prélabel",
+      "secteur": "RH",
+      "tour_moment": "3ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Décision",
+      "commentaires": "Prélabel Non Accordé au 3 ème Tour",
+      "controle_qualite": "Extraction tabulaire PDF vérifiée; ligne ajoutée après audit manuel du PDF 2026",
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "candidature",
+      "source_pdf": "session_2026_05.pdf",
+      "_displayDecision": "prelabel_non_accorde",
+      "session": "05/2026",
+      "session_id": "S86",
+      "line": 49,
+      "decision_id": "S86_D0043"
+    },
+    {
+      "societe": "Carbon Zero Tech",
+      "projet": "Non renseigné",
+      "fondateurs": "Mohamed Ben Nasr; Adnen Cherif; Aloui Noureddine; Nader Rachid",
+      "decision": "Prélabel Non Accordé au 2 ème Tour",
+      "type_label": "Prélabel",
+      "secteur": "Energy",
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Décision",
+      "commentaires": "Prélabel Non Accordé au 2 ème Tour",
+      "controle_qualite": "Extraction tabulaire PDF vérifiée; ligne ajoutée après audit manuel du PDF 2026",
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "candidature",
+      "source_pdf": "session_2026_05.pdf",
+      "_displayDecision": "prelabel_non_accorde",
+      "session": "05/2026",
+      "session_id": "S86",
+      "line": 50,
+      "decision_id": "S86_D0044"
+    },
+    {
+      "societe": "NFASS - نفس",
+      "projet": "Non renseigné",
+      "fondateurs": "Mohamed Dhib; Omar Smati; Fourat Khelifi",
+      "decision": "Prélabel Non Accordé au 2 ème Tour",
+      "type_label": "Prélabel",
+      "secteur": "HealthTech",
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Décision",
+      "commentaires": "Prélabel Non Accordé au 2 ème Tour",
+      "controle_qualite": "Extraction tabulaire PDF vérifiée; ligne ajoutée après audit manuel du PDF 2026",
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "candidature",
+      "source_pdf": "session_2026_05.pdf",
+      "_displayDecision": "prelabel_non_accorde",
+      "session": "05/2026",
+      "session_id": "S86",
+      "line": 51,
+      "decision_id": "S86_D0045"
+    },
+    {
+      "societe": "FIXITECHPRO",
+      "projet": "Non renseigné",
+      "fondateurs": "Zghida Khalil; Ahmed Ben; Elghali",
+      "decision": "Prélabel Accordé au 2 ème Tour",
+      "type_label": "Prélabel",
+      "secteur": "ERP",
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Décision",
+      "commentaires": "Prélabel Accordé au 2 ème Tour",
+      "controle_qualite": "Extraction tabulaire PDF vérifiée; ligne ajoutée après audit manuel du PDF 2026",
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "candidature",
+      "source_pdf": "session_2026_05.pdf",
+      "_displayDecision": "prelabel_accorde",
+      "session": "05/2026",
+      "session_id": "S86",
+      "line": 52,
+      "decision_id": "S86_D0046"
+    },
+    {
+      "societe": "Cuber",
+      "projet": "Non renseigné",
+      "fondateurs": "Neila Chtourou; Mohamed Ben Saad; Safwen Karoui; Mohamed Anis; Bach Tobj",
+      "decision": "Prélabel Accordé au 3 ème Tour",
+      "type_label": "Prélabel",
+      "secteur": "Other",
+      "tour_moment": "3ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Décision",
+      "commentaires": "Prélabel Accordé au 3 ème Tour",
+      "controle_qualite": "Extraction tabulaire PDF vérifiée; ligne ajoutée après audit manuel du PDF 2026",
+      "resultat_normalise": "Prélabel accordé",
+      "section_pdf": "candidature",
+      "source_pdf": "session_2026_05.pdf",
+      "_displayDecision": "prelabel_accorde",
+      "session": "05/2026",
+      "session_id": "S86",
+      "line": 53,
+      "decision_id": "S86_D0047"
+    },
+    {
+      "societe": "shopyia",
+      "projet": "Non renseigné",
+      "fondateurs": "Daoud Cherif; Seifeddine Daoud; Ahmed Elyakoubi; Ahmed Mahouchi; Nadhir Ben Mohamed; Abdelnacer",
+      "decision": "Prélabel Non Accordé au 2 ème Tour",
+      "type_label": "Prélabel",
+      "secteur": "Marketplace / e-commerce",
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Décision",
+      "commentaires": "Prélabel Non Accordé au 2 ème Tour",
+      "controle_qualite": "Extraction tabulaire PDF vérifiée; ligne ajoutée après audit manuel du PDF 2026",
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "candidature",
+      "source_pdf": "session_2026_05.pdf",
+      "_displayDecision": "prelabel_non_accorde",
+      "session": "05/2026",
+      "session_id": "S86",
+      "line": 54,
+      "decision_id": "S86_D0048"
+    },
+    {
+      "societe": "Nvitee",
+      "projet": "Non renseigné",
+      "fondateurs": "Zeineb Hadj Ali; Ala Assali; Meriem Benzid",
+      "decision": "Label Non Accordé au 2 ème Tour",
+      "type_label": "Label",
+      "secteur": "Websites and mobile apps",
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Décision",
+      "commentaires": "Label Non Accordé au 2 ème Tour",
+      "controle_qualite": "Extraction tabulaire PDF vérifiée; ligne ajoutée après audit manuel du PDF 2026",
+      "resultat_normalise": "Label non accordé",
+      "section_pdf": "candidature",
+      "source_pdf": "session_2026_06.pdf",
+      "_displayDecision": "label_non_accorde",
+      "session": "06/2026",
+      "session_id": "S87",
+      "line": 48,
+      "decision_id": "S87_D0046"
+    },
+    {
+      "societe": "Creedex",
+      "projet": "Non renseigné",
+      "fondateurs": "Ala Guidara; Achraf Chabbouh",
+      "decision": "Prélabel Non Accordé au 2 ème Tour",
+      "type_label": "Prélabel",
+      "secteur": "Other",
+      "tour_moment": "2ème tour",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "Décision",
+      "commentaires": "Prélabel Non Accordé au 2 ème Tour",
+      "controle_qualite": "Extraction tabulaire PDF vérifiée; ligne ajoutée après audit manuel du PDF 2026",
+      "resultat_normalise": "Prélabel non accordé",
+      "section_pdf": "candidature",
+      "source_pdf": "session_2026_06.pdf",
+      "_displayDecision": "prelabel_non_accorde",
+      "session": "06/2026",
+      "session_id": "S87",
+      "line": 49,
+      "decision_id": "S87_D0047"
+    },
+    {
+      "societe": "Bus Software",
+      "projet": "",
+      "fondateurs": "Non renseigné",
+      "decision": "Retrait du Label",
+      "type_label": "Label",
+      "secteur": "IoT",
+      "tour_moment": "Retrait",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "avril 2019",
+      "commentaires": "La société a dépassé l’âge maximum de 8 ans fixé par la loi 20-2018 pour les sociétés bénéficiaires du Label",
+      "controle_qualite": "Extrait directement du PDF officiel 01/2026; retrait documenté",
+      "resultat_normalise": "Retrait Label",
+      "section_pdf": "Retraits Labels",
+      "source_pdf": "session_2026_01.pdf",
+      "_displayDecision": "retrait_label",
+      "session": "01/2026",
+      "session_id": "S82",
+      "line": 38,
+      "decision_id": "S82_D0038"
+    },
+    {
+      "societe": "Echo SARL",
+      "projet": "",
+      "fondateurs": "Non renseigné",
+      "decision": "Retrait du Label",
+      "type_label": "Label",
+      "secteur": "IT",
+      "tour_moment": "Retrait",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "mai 2019",
+      "commentaires": "La société a dépassé l’âge maximum de 8 ans fixé par la loi 20-2018 pour les sociétés bénéficiaires du Label",
+      "controle_qualite": "Extrait directement du PDF officiel 01/2026; retrait documenté",
+      "resultat_normalise": "Retrait Label",
+      "section_pdf": "Retraits Labels",
+      "source_pdf": "session_2026_01.pdf",
+      "_displayDecision": "retrait_label",
+      "session": "01/2026",
+      "session_id": "S82",
+      "line": 39,
+      "decision_id": "S82_D0039"
+    },
+    {
+      "societe": "Arion Technologies",
+      "projet": "",
+      "fondateurs": "Non renseigné",
+      "decision": "Retrait du Label",
+      "type_label": "Label",
+      "secteur": "Logiciel",
+      "tour_moment": "Retrait",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "avril 2020",
+      "commentaires": "La société a dépassé l’âge maximum de 8 ans fixé par la loi 20-2018 pour les sociétés bénéficiaires du Label",
+      "controle_qualite": "Extrait directement du PDF officiel 01/2026; retrait documenté",
+      "resultat_normalise": "Retrait Label",
+      "section_pdf": "Retraits Labels",
+      "source_pdf": "session_2026_01.pdf",
+      "_displayDecision": "retrait_label",
+      "session": "01/2026",
+      "session_id": "S82",
+      "line": 40,
+      "decision_id": "S82_D0040"
+    },
+    {
+      "societe": "Smart Insurance",
+      "projet": "",
+      "fondateurs": "Non renseigné",
+      "decision": "Retrait du Label",
+      "type_label": "Label",
+      "secteur": "Insurance Tech",
+      "tour_moment": "Retrait",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "juillet 2019",
+      "commentaires": "La société a dépassé l’âge maximum de 8 ans fixé par la loi 20-2018 pour les sociétés bénéficiaires du Label",
+      "controle_qualite": "Extrait directement du PDF officiel 01/2026; retrait documenté",
+      "resultat_normalise": "Retrait Label",
+      "section_pdf": "Retraits Labels",
+      "source_pdf": "session_2026_01.pdf",
+      "_displayDecision": "retrait_label",
+      "session": "01/2026",
+      "session_id": "S82",
+      "line": 41,
+      "decision_id": "S82_D0041"
+    },
+    {
+      "societe": "Swiver Invest",
+      "projet": "",
+      "fondateurs": "Non renseigné",
+      "decision": "Retrait du Label",
+      "type_label": "Label",
+      "secteur": "Fintech",
+      "tour_moment": "Retrait",
+      "apres_pitching": "Non renseigné",
+      "session_obtention_retrait": "mai 2019",
+      "commentaires": "La société a dépassé l’âge maximum de 8 ans fixé par la loi 20-2018 pour les sociétés bénéficiaires du Label",
+      "controle_qualite": "Extrait directement du PDF officiel 01/2026; retrait documenté",
+      "resultat_normalise": "Retrait Label",
+      "section_pdf": "Retraits Labels",
+      "source_pdf": "session_2026_01.pdf",
+      "_displayDecision": "retrait_label",
+      "session": "01/2026",
+      "session_id": "S82",
+      "line": 42,
+      "decision_id": "S82_D0042"
     }
   ]
 }

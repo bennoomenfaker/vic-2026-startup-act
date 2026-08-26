@@ -22,7 +22,7 @@
     "detailed_entries": 3571,
     "official_withdrawals": 153,
     "confirmed_reportes": 5,
-    "note": "Les compteurs officiels (3 079), les 3 571 lignes détaillées PDF et les 3 ajournés hors PDF (3 574 corrigées) sont trois périmètres distincts. 01/2026: 42 lignes, dont 5 retraits documentés.",
+    "note": "Les compteurs officiels (3 079), les 3 571 lignes détaillées PDF et les 3 ajournés hors PDF (3 574 corrigées) sont trois périmètres distincts.",
     "corrected_pdf_candidatures": 3571,
     "corrected_pdf_labels": 1343,
     "corrected_pdf_prelabels": 647,
@@ -1649,7 +1649,7 @@
     {
       "session_id": "S85",
       "period": "Avril 2026",
-      "entries": 47,
+      "entries": 50,
       "official": {
         "period": "Avril 2026",
         "labels": 12,
@@ -1658,9 +1658,9 @@
         "withdrawals": 5
       },
       "candidatures_officielles": 41,
-      "entries_detaillees": 47,
+      "entries_detaillees": 50,
       "ajournes_hors_pdf": 0,
-      "candidatures_corrigees": 47,
+      "candidatures_corrigees": 50,
       "conversions": 4,
       "document_withdrawals": 5,
       "reports": 0
@@ -1668,7 +1668,7 @@
     {
       "session_id": "S86",
       "period": "Mai 2026",
-      "entries": 42,
+      "entries": 48,
       "official": {
         "period": "Mai 2026",
         "labels": 13,
@@ -1677,9 +1677,9 @@
         "withdrawals": 3
       },
       "candidatures_officielles": 40,
-      "entries_detaillees": 42,
+      "entries_detaillees": 48,
       "ajournes_hors_pdf": 0,
-      "candidatures_corrigees": 42,
+      "candidatures_corrigees": 48,
       "conversions": 5,
       "document_withdrawals": 3,
       "reports": 0
@@ -1687,7 +1687,7 @@
     {
       "session_id": "S87",
       "period": "Juin 2026",
-      "entries": 45,
+      "entries": 47,
       "official": {
         "period": "Juin 2026",
         "labels": 7,
@@ -1696,9 +1696,9 @@
         "withdrawals": 3
       },
       "candidatures_officielles": 40,
-      "entries_detaillees": 45,
+      "entries_detaillees": 47,
       "ajournes_hors_pdf": 0,
-      "candidatures_corrigees": 45,
+      "candidatures_corrigees": 47,
       "conversions": 4,
       "document_withdrawals": 3,
       "reports": 0
@@ -4700,12 +4700,12 @@
       "resultat_normalise": "Label accordé",
       "type_decision": "Label",
       "status_requested": "Label",
-      "sector": "Non renseigné",
+      "sector": "Robotique",
       "tour": "Non renseigné",
       "after_pitching": "Non renseigné",
       "award_or_withdrawal": "Non renseigné",
       "comments": "Label accordé",
-      "quality_control": "Secteur absent du JSON; vérifier PDF"
+      "quality_control": "Secteur extrait du PDF 08/2019; vérifié manuellement"
     },
     {
       "decision_id": "S5_D0002",
@@ -4719,12 +4719,12 @@
       "resultat_normalise": "Label accordé",
       "type_decision": "Label",
       "status_requested": "Label",
-      "sector": "Non renseigné",
+      "sector": "Agritech",
       "tour": "Non renseigné",
       "after_pitching": "Non renseigné",
       "award_or_withdrawal": "Non renseigné",
       "comments": "Label accordé",
-      "quality_control": "Secteur absent du JSON; vérifier PDF"
+      "quality_control": "Secteur extrait du PDF 08/2019; vérifié manuellement"
     },
     {
       "decision_id": "S5_D0003",
@@ -4738,12 +4738,12 @@
       "resultat_normalise": "Label accordé",
       "type_decision": "Label",
       "status_requested": "Label",
-      "sector": "Non renseigné",
+      "sector": "Health tech",
       "tour": "Non renseigné",
       "after_pitching": "Non renseigné",
       "award_or_withdrawal": "Non renseigné",
       "comments": "Label accordé",
-      "quality_control": "Secteur absent du JSON; vérifier PDF"
+      "quality_control": "Secteur extrait du PDF 08/2019; vérifié manuellement"
     },
     {
       "decision_id": "S5_D0004",
@@ -4757,12 +4757,12 @@
       "resultat_normalise": "Label accordé",
       "type_decision": "Label",
       "status_requested": "Label",
-      "sector": "Non renseigné",
+      "sector": "Health tech",
       "tour": "Non renseigné",
       "after_pitching": "Non renseigné",
       "award_or_withdrawal": "Non renseigné",
       "comments": "Label accordé",
-      "quality_control": "Secteur absent du JSON; vérifier PDF"
+      "quality_control": "Secteur extrait du PDF 08/2019; vérifié manuellement"
     },
     {
       "decision_id": "S5_D0005",
@@ -4776,12 +4776,12 @@
       "resultat_normalise": "Label accordé",
       "type_decision": "Label",
       "status_requested": "Label",
-      "sector": "Non renseigné",
+      "sector": "AI",
       "tour": "Non renseigné",
       "after_pitching": "Non renseigné",
       "award_or_withdrawal": "Non renseigné",
       "comments": "Label accordé",
-      "quality_control": "Secteur absent du JSON; vérifier PDF"
+      "quality_control": "Secteur extrait du PDF 08/2019; vérifié manuellement"
     },
     {
       "decision_id": "S5_D0006",
@@ -4795,12 +4795,12 @@
       "resultat_normalise": "Label accordé",
       "type_decision": "Label",
       "status_requested": "Label",
-      "sector": "Non renseigné",
+      "sector": "Logistique",
       "tour": "Non renseigné",
       "after_pitching": "Non renseigné",
       "award_or_withdrawal": "Non renseigné",
       "comments": "Label accordé",
-      "quality_control": "Secteur absent du JSON; vérifier PDF"
+      "quality_control": "Secteur extrait du PDF 08/2019; vérifié manuellement"
     },
     {
       "decision_id": "S5_D0007",
@@ -4814,12 +4814,12 @@
       "resultat_normalise": "Label accordé",
       "type_decision": "Label",
       "status_requested": "Label",
-      "sector": "Non renseigné",
+      "sector": "Autre contenu créatif",
       "tour": "Non renseigné",
       "after_pitching": "Non renseigné",
       "award_or_withdrawal": "Non renseigné",
       "comments": "Label accordé",
-      "quality_control": "Secteur absent du JSON; vérifier PDF"
+      "quality_control": "Secteur extrait du PDF 08/2019; vérifié manuellement"
     },
     {
       "decision_id": "S5_D0008",
@@ -4833,12 +4833,12 @@
       "resultat_normalise": "Label accordé",
       "type_decision": "Label",
       "status_requested": "Label",
-      "sector": "Non renseigné",
+      "sector": "Logistique",
       "tour": "Non renseigné",
       "after_pitching": "Non renseigné",
       "award_or_withdrawal": "Non renseigné",
       "comments": "Label accordé",
-      "quality_control": "Secteur absent du JSON; vérifier PDF"
+      "quality_control": "Secteur extrait du PDF 08/2019; vérifié manuellement"
     },
     {
       "decision_id": "S5_D0009",
@@ -4852,12 +4852,12 @@
       "resultat_normalise": "Label accordé",
       "type_decision": "Label",
       "status_requested": "Label",
-      "sector": "Non renseigné",
+      "sector": "Autre contenu créatif",
       "tour": "Non renseigné",
       "after_pitching": "Non renseigné",
       "award_or_withdrawal": "Non renseigné",
       "comments": "Label accordé",
-      "quality_control": "Secteur absent du JSON; vérifier PDF"
+      "quality_control": "Secteur extrait du PDF 08/2019; vérifié manuellement"
     },
     {
       "decision_id": "S5_D0010",
@@ -4871,12 +4871,12 @@
       "resultat_normalise": "Label accordé",
       "type_decision": "Label",
       "status_requested": "Label",
-      "sector": "Non renseigné",
+      "sector": "Health tech",
       "tour": "Non renseigné",
       "after_pitching": "Non renseigné",
       "award_or_withdrawal": "Non renseigné",
       "comments": "Label accordé",
-      "quality_control": "Secteur absent du JSON; vérifier PDF"
+      "quality_control": "Secteur extrait du PDF 08/2019; vérifié manuellement"
     },
     {
       "decision_id": "S5_D0011",
@@ -4890,12 +4890,12 @@
       "resultat_normalise": "Label accordé",
       "type_decision": "Label",
       "status_requested": "Label",
-      "sector": "Non renseigné",
+      "sector": "AI",
       "tour": "Non renseigné",
       "after_pitching": "Non renseigné",
       "award_or_withdrawal": "Non renseigné",
       "comments": "Label accordé",
-      "quality_control": "Secteur absent du JSON; vérifier PDF"
+      "quality_control": "Secteur extrait du PDF 08/2019; vérifié manuellement"
     },
     {
       "decision_id": "S5_D0012",
@@ -4909,12 +4909,12 @@
       "resultat_normalise": "Label accordé",
       "type_decision": "Label",
       "status_requested": "Label",
-      "sector": "Non renseigné",
+      "sector": "Ecommerce",
       "tour": "Non renseigné",
       "after_pitching": "Non renseigné",
       "award_or_withdrawal": "Non renseigné",
       "comments": "Label accordé",
-      "quality_control": "Secteur absent du JSON; vérifier PDF"
+      "quality_control": "Secteur extrait du PDF 08/2019; vérifié manuellement"
     },
     {
       "decision_id": "S5_D0013",
@@ -4928,12 +4928,12 @@
       "resultat_normalise": "Label accordé",
       "type_decision": "Label",
       "status_requested": "Label",
-      "sector": "Non renseigné",
+      "sector": "Health Tech",
       "tour": "Non renseigné",
       "after_pitching": "Non renseigné",
       "award_or_withdrawal": "Non renseigné",
       "comments": "Label accordé",
-      "quality_control": "Secteur absent du JSON; vérifier PDF"
+      "quality_control": "Secteur extrait du PDF 08/2019; vérifié manuellement"
     },
     {
       "decision_id": "S5_D0014",
@@ -4947,12 +4947,12 @@
       "resultat_normalise": "Label accordé",
       "type_decision": "Label",
       "status_requested": "Label",
-      "sector": "Non renseigné",
+      "sector": "Autre contenu créatif",
       "tour": "Non renseigné",
       "after_pitching": "Non renseigné",
       "award_or_withdrawal": "Non renseigné",
       "comments": "Label accordé",
-      "quality_control": "Secteur absent du JSON; vérifier PDF"
+      "quality_control": "Secteur extrait du PDF 08/2019; vérifié manuellement"
     },
     {
       "decision_id": "S5_D0015",
@@ -4966,12 +4966,12 @@
       "resultat_normalise": "Label accordé",
       "type_decision": "Label",
       "status_requested": "Label",
-      "sector": "Non renseigné",
+      "sector": "Gaming",
       "tour": "Non renseigné",
       "after_pitching": "Non renseigné",
       "award_or_withdrawal": "Non renseigné",
       "comments": "Label accordé",
-      "quality_control": "Secteur absent du JSON; vérifier PDF"
+      "quality_control": "Secteur extrait du PDF 08/2019; vérifié manuellement"
     },
     {
       "decision_id": "S5_D0016",
@@ -4985,12 +4985,12 @@
       "resultat_normalise": "Label accordé",
       "type_decision": "Label",
       "status_requested": "Label",
-      "sector": "Non renseigné",
+      "sector": "Logiciel",
       "tour": "Non renseigné",
       "after_pitching": "Non renseigné",
       "award_or_withdrawal": "Non renseigné",
       "comments": "Label accordé",
-      "quality_control": "Secteur absent du JSON; vérifier PDF"
+      "quality_control": "Secteur extrait du PDF 08/2019; vérifié manuellement"
     },
     {
       "decision_id": "S5_D0017",
@@ -5004,12 +5004,12 @@
       "resultat_normalise": "Label accordé",
       "type_decision": "Label",
       "status_requested": "Label",
-      "sector": "Non renseigné",
+      "sector": "Plateforme Sociale",
       "tour": "Non renseigné",
       "after_pitching": "Non renseigné",
       "award_or_withdrawal": "Non renseigné",
       "comments": "Label accordé",
-      "quality_control": "Secteur absent du JSON; vérifier PDF"
+      "quality_control": "Secteur extrait du PDF 08/2019; vérifié manuellement"
     },
     {
       "decision_id": "S5_D0018",
@@ -5023,12 +5023,12 @@
       "resultat_normalise": "Label accordé",
       "type_decision": "Label",
       "status_requested": "Label",
-      "sector": "Non renseigné",
+      "sector": "Edtech",
       "tour": "Non renseigné",
       "after_pitching": "Non renseigné",
       "award_or_withdrawal": "Non renseigné",
       "comments": "Label accordé",
-      "quality_control": "Secteur absent du JSON; vérifier PDF"
+      "quality_control": "Secteur extrait du PDF 08/2019; vérifié manuellement"
     },
     {
       "decision_id": "S5_D0019",
@@ -5040,14 +5040,14 @@
       "founders_raw": "Mohamed Mekki Maalej",
       "decision_raw": "Label accordé",
       "resultat_normalise": "Label accordé",
-      "type_decision": "Label",
-      "status_requested": "Label",
-      "sector": "Non renseigné",
-      "tour": "Non renseigné",
+      "type_decision": "Prélabel → Label",
+      "status_requested": "Prélabel → Label",
+      "sector": "IoT",
+      "tour": "2ème tour",
       "after_pitching": "Non renseigné",
       "award_or_withdrawal": "Non renseigné",
-      "comments": "Label accordé",
-      "quality_control": "Secteur absent du JSON; vérifier PDF"
+      "comments": "Label accordé dès le 2ème tour — conversion Prélabel → Label",
+      "quality_control": "Secteur extrait du PDF 08/2019; vérifié manuellement"
     },
     {
       "decision_id": "S5_D0020",
@@ -5059,14 +5059,14 @@
       "founders_raw": "Skander Ben Sassi",
       "decision_raw": "Label accordé",
       "resultat_normalise": "Label accordé",
-      "type_decision": "Label",
-      "status_requested": "Label",
-      "sector": "Non renseigné",
-      "tour": "Non renseigné",
+      "type_decision": "Prélabel → Label",
+      "status_requested": "Prélabel → Label",
+      "sector": "Autre contenu créatif",
+      "tour": "2ème tour",
       "after_pitching": "Non renseigné",
       "award_or_withdrawal": "Non renseigné",
-      "comments": "Label accordé",
-      "quality_control": "Secteur absent du JSON; vérifier PDF"
+      "comments": "Label accordé dès le 2ème tour — conversion Prélabel → Label",
+      "quality_control": "Secteur extrait du PDF 08/2019; vérifié manuellement"
     },
     {
       "decision_id": "S5_D0021",
@@ -5080,12 +5080,12 @@
       "resultat_normalise": "Prélabel accordé",
       "type_decision": "Prélabel",
       "status_requested": "Prélabel",
-      "sector": "Non renseigné",
+      "sector": "Ecommerce",
       "tour": "Non renseigné",
       "after_pitching": "Non renseigné",
       "award_or_withdrawal": "Non renseigné",
       "comments": "Prélabel accordé",
-      "quality_control": "Secteur absent du JSON; vérifier PDF"
+      "quality_control": "Secteur extrait du PDF 08/2019; vérifié manuellement"
     },
     {
       "decision_id": "S5_D0022",
@@ -5099,12 +5099,12 @@
       "resultat_normalise": "Prélabel accordé",
       "type_decision": "Prélabel",
       "status_requested": "Prélabel",
-      "sector": "Non renseigné",
+      "sector": "Logiciel",
       "tour": "Non renseigné",
       "after_pitching": "Non renseigné",
       "award_or_withdrawal": "Non renseigné",
       "comments": "Prélabel accordé",
-      "quality_control": "Secteur absent du JSON; vérifier PDF"
+      "quality_control": "Secteur extrait du PDF 08/2019; vérifié manuellement"
     },
     {
       "decision_id": "S5_D0023",
@@ -5118,12 +5118,12 @@
       "resultat_normalise": "Prélabel accordé",
       "type_decision": "Prélabel",
       "status_requested": "Prélabel",
-      "sector": "Non renseigné",
+      "sector": "Autre contenu créatif",
       "tour": "Non renseigné",
       "after_pitching": "Non renseigné",
       "award_or_withdrawal": "Non renseigné",
       "comments": "Prélabel accordé",
-      "quality_control": "Secteur absent du JSON; vérifier PDF"
+      "quality_control": "Secteur extrait du PDF 08/2019; vérifié manuellement"
     },
     {
       "decision_id": "S5_D0024",
@@ -5137,12 +5137,12 @@
       "resultat_normalise": "Prélabel accordé",
       "type_decision": "Prélabel",
       "status_requested": "Prélabel",
-      "sector": "Non renseigné",
+      "sector": "Agritech",
       "tour": "Non renseigné",
       "after_pitching": "Non renseigné",
       "award_or_withdrawal": "Non renseigné",
       "comments": "Prélabel accordé",
-      "quality_control": "Secteur absent du JSON; vérifier PDF"
+      "quality_control": "Secteur extrait du PDF 08/2019; vérifié manuellement"
     },
     {
       "decision_id": "S5_D0025",
@@ -5156,12 +5156,12 @@
       "resultat_normalise": "Prélabel accordé",
       "type_decision": "Prélabel",
       "status_requested": "Prélabel",
-      "sector": "Non renseigné",
+      "sector": "Blockchain & cryptocurrency",
       "tour": "Non renseigné",
       "after_pitching": "Non renseigné",
       "award_or_withdrawal": "Non renseigné",
       "comments": "Prélabel accordé",
-      "quality_control": "Secteur absent du JSON; vérifier PDF"
+      "quality_control": "Secteur extrait du PDF 08/2019; vérifié manuellement"
     },
     {
       "decision_id": "S5_D0026",
@@ -5175,12 +5175,12 @@
       "resultat_normalise": "Prélabel non accordé",
       "type_decision": "Prélabel",
       "status_requested": "Prélabel",
-      "sector": "Non renseigné",
+      "sector": "Ecommerce",
       "tour": "Non renseigné",
       "after_pitching": "Non renseigné",
       "award_or_withdrawal": "Non renseigné",
       "comments": "Prélabel non-accordé",
-      "quality_control": "Secteur absent du JSON; vérifier PDF"
+      "quality_control": "Secteur extrait du PDF 08/2019; vérifié manuellement"
     },
     {
       "decision_id": "S5_D0027",
@@ -5194,12 +5194,12 @@
       "resultat_normalise": "Prélabel non accordé",
       "type_decision": "Prélabel",
       "status_requested": "Prélabel",
-      "sector": "Non renseigné",
+      "sector": "Agritech",
       "tour": "Non renseigné",
       "after_pitching": "Non renseigné",
       "award_or_withdrawal": "Non renseigné",
       "comments": "Prélabel non-accordé",
-      "quality_control": "Secteur absent du JSON; vérifier PDF"
+      "quality_control": "Secteur extrait du PDF 08/2019; vérifié manuellement"
     },
     {
       "decision_id": "S5_D0028",
@@ -5213,12 +5213,12 @@
       "resultat_normalise": "Prélabel non accordé",
       "type_decision": "Prélabel",
       "status_requested": "Prélabel",
-      "sector": "Non renseigné",
+      "sector": "Ecommerce",
       "tour": "Non renseigné",
       "after_pitching": "Non renseigné",
       "award_or_withdrawal": "Non renseigné",
       "comments": "Prélabel non-accordé",
-      "quality_control": "Secteur absent du JSON; vérifier PDF"
+      "quality_control": "Secteur extrait du PDF 08/2019; vérifié manuellement"
     },
     {
       "decision_id": "S6_D0001",
@@ -69249,6 +69249,310 @@
       "award_or_withdrawal": "",
       "comments": "La société a dépassé l'âge maximum de 8 ans fixé par la loi 20- / 2018 pour les sociétés bénéficiaires du Label",
       "quality_control": "Réextraction directe du PDF officiel Startup Tunisia — vérifiée le 23/08/2026"
+    },
+    {
+      "decision_id": "S85_D0048",
+      "session_id": "S85",
+      "company_id": "",
+      "source_file": "session_2026_04.pdf",
+      "section": "candidature",
+      "project": "Non renseigné",
+      "founders_raw": "Khalil Ben Ali; Zied Ben Mansour; Zahra Ideba",
+      "decision_raw": "Label Non Accordé au 2 ème Tour",
+      "resultat_normalise": "Label non accordé",
+      "type_decision": "Label",
+      "status_requested": "Label",
+      "sector": "EdTech",
+      "tour": "2ème tour",
+      "after_pitching": "Non renseigné",
+      "award_or_withdrawal": "Décision",
+      "comments": "Label Non Accordé au 2 ème Tour",
+      "quality_control": "Extraction tabulaire PDF vérifiée; ligne ajoutée après audit manuel du PDF 2026"
+    },
+    {
+      "decision_id": "S85_D0049",
+      "session_id": "S85",
+      "company_id": "",
+      "source_file": "session_2026_04.pdf",
+      "section": "candidature",
+      "project": "Non renseigné",
+      "founders_raw": "Aymen Zghibi; Stefan Simon",
+      "decision_raw": "Label Accordé au 3 ème Tour",
+      "resultat_normalise": "Label accordé",
+      "type_decision": "Label",
+      "status_requested": "Label",
+      "sector": "Transportation",
+      "tour": "3ème tour",
+      "after_pitching": "Non renseigné",
+      "award_or_withdrawal": "Décision",
+      "comments": "Label Accordé au 3 ème Tour",
+      "quality_control": "Extraction tabulaire PDF vérifiée; ligne ajoutée après audit manuel du PDF 2026"
+    },
+    {
+      "decision_id": "S85_D0050",
+      "session_id": "S85",
+      "company_id": "",
+      "source_file": "session_2026_04.pdf",
+      "section": "candidature",
+      "project": "Non renseigné",
+      "founders_raw": "Ghaith Gharsalli; Haithem Gharsalli",
+      "decision_raw": "Prélabel Non Accordé au 2 ème Tour",
+      "resultat_normalise": "Prélabel non accordé",
+      "type_decision": "Prélabel",
+      "status_requested": "Prélabel",
+      "sector": "TravelTech",
+      "tour": "2ème tour",
+      "after_pitching": "Non renseigné",
+      "award_or_withdrawal": "Décision",
+      "comments": "Prélabel Non Accordé au 2 ème Tour",
+      "quality_control": "Extraction tabulaire PDF vérifiée; ligne ajoutée après audit manuel du PDF 2026"
+    },
+    {
+      "decision_id": "S86_D0043",
+      "session_id": "S86",
+      "company_id": "",
+      "source_file": "session_2026_05.pdf",
+      "section": "candidature",
+      "project": "Non renseigné",
+      "founders_raw": "Mehrez SLAIMIA; Hlali Manel; Riadh Abidi; Mohamed Ben Amor",
+      "decision_raw": "Prélabel Non Accordé au 3 ème Tour",
+      "resultat_normalise": "Prélabel non accordé",
+      "type_decision": "Prélabel",
+      "status_requested": "Prélabel",
+      "sector": "RH",
+      "tour": "3ème tour",
+      "after_pitching": "Non renseigné",
+      "award_or_withdrawal": "Décision",
+      "comments": "Prélabel Non Accordé au 3 ème Tour",
+      "quality_control": "Extraction tabulaire PDF vérifiée; ligne ajoutée après audit manuel du PDF 2026"
+    },
+    {
+      "decision_id": "S86_D0044",
+      "session_id": "S86",
+      "company_id": "",
+      "source_file": "session_2026_05.pdf",
+      "section": "candidature",
+      "project": "Non renseigné",
+      "founders_raw": "Mohamed Ben Nasr; Adnen Cherif; Aloui Noureddine; Nader Rachid",
+      "decision_raw": "Prélabel Non Accordé au 2 ème Tour",
+      "resultat_normalise": "Prélabel non accordé",
+      "type_decision": "Prélabel",
+      "status_requested": "Prélabel",
+      "sector": "Energy",
+      "tour": "2ème tour",
+      "after_pitching": "Non renseigné",
+      "award_or_withdrawal": "Décision",
+      "comments": "Prélabel Non Accordé au 2 ème Tour",
+      "quality_control": "Extraction tabulaire PDF vérifiée; ligne ajoutée après audit manuel du PDF 2026"
+    },
+    {
+      "decision_id": "S86_D0045",
+      "session_id": "S86",
+      "company_id": "",
+      "source_file": "session_2026_05.pdf",
+      "section": "candidature",
+      "project": "Non renseigné",
+      "founders_raw": "Mohamed Dhib; Omar Smati; Fourat Khelifi",
+      "decision_raw": "Prélabel Non Accordé au 2 ème Tour",
+      "resultat_normalise": "Prélabel non accordé",
+      "type_decision": "Prélabel",
+      "status_requested": "Prélabel",
+      "sector": "HealthTech",
+      "tour": "2ème tour",
+      "after_pitching": "Non renseigné",
+      "award_or_withdrawal": "Décision",
+      "comments": "Prélabel Non Accordé au 2 ème Tour",
+      "quality_control": "Extraction tabulaire PDF vérifiée; ligne ajoutée après audit manuel du PDF 2026"
+    },
+    {
+      "decision_id": "S86_D0046",
+      "session_id": "S86",
+      "company_id": "",
+      "source_file": "session_2026_05.pdf",
+      "section": "candidature",
+      "project": "Non renseigné",
+      "founders_raw": "Zghida Khalil; Ahmed Ben; Elghali",
+      "decision_raw": "Prélabel Accordé au 2 ème Tour",
+      "resultat_normalise": "Prélabel accordé",
+      "type_decision": "Prélabel",
+      "status_requested": "Prélabel",
+      "sector": "ERP",
+      "tour": "2ème tour",
+      "after_pitching": "Non renseigné",
+      "award_or_withdrawal": "Décision",
+      "comments": "Prélabel Accordé au 2 ème Tour",
+      "quality_control": "Extraction tabulaire PDF vérifiée; ligne ajoutée après audit manuel du PDF 2026"
+    },
+    {
+      "decision_id": "S86_D0047",
+      "session_id": "S86",
+      "company_id": "",
+      "source_file": "session_2026_05.pdf",
+      "section": "candidature",
+      "project": "Non renseigné",
+      "founders_raw": "Neila Chtourou; Mohamed Ben Saad; Safwen Karoui; Mohamed Anis; Bach Tobj",
+      "decision_raw": "Prélabel Accordé au 3 ème Tour",
+      "resultat_normalise": "Prélabel accordé",
+      "type_decision": "Prélabel",
+      "status_requested": "Prélabel",
+      "sector": "Other",
+      "tour": "3ème tour",
+      "after_pitching": "Non renseigné",
+      "award_or_withdrawal": "Décision",
+      "comments": "Prélabel Accordé au 3 ème Tour",
+      "quality_control": "Extraction tabulaire PDF vérifiée; ligne ajoutée après audit manuel du PDF 2026"
+    },
+    {
+      "decision_id": "S86_D0048",
+      "session_id": "S86",
+      "company_id": "",
+      "source_file": "session_2026_05.pdf",
+      "section": "candidature",
+      "project": "Non renseigné",
+      "founders_raw": "Daoud Cherif; Seifeddine Daoud; Ahmed Elyakoubi; Ahmed Mahouchi; Nadhir Ben Mohamed; Abdelnacer",
+      "decision_raw": "Prélabel Non Accordé au 2 ème Tour",
+      "resultat_normalise": "Prélabel non accordé",
+      "type_decision": "Prélabel",
+      "status_requested": "Prélabel",
+      "sector": "Marketplace / e-commerce",
+      "tour": "2ème tour",
+      "after_pitching": "Non renseigné",
+      "award_or_withdrawal": "Décision",
+      "comments": "Prélabel Non Accordé au 2 ème Tour",
+      "quality_control": "Extraction tabulaire PDF vérifiée; ligne ajoutée après audit manuel du PDF 2026"
+    },
+    {
+      "decision_id": "S87_D0046",
+      "session_id": "S87",
+      "company_id": "",
+      "source_file": "session_2026_06.pdf",
+      "section": "candidature",
+      "project": "Non renseigné",
+      "founders_raw": "Zeineb Hadj Ali; Ala Assali; Meriem Benzid",
+      "decision_raw": "Label Non Accordé au 2 ème Tour",
+      "resultat_normalise": "Label non accordé",
+      "type_decision": "Label",
+      "status_requested": "Label",
+      "sector": "Websites and mobile apps",
+      "tour": "2ème tour",
+      "after_pitching": "Non renseigné",
+      "award_or_withdrawal": "Décision",
+      "comments": "Label Non Accordé au 2 ème Tour",
+      "quality_control": "Extraction tabulaire PDF vérifiée; ligne ajoutée après audit manuel du PDF 2026"
+    },
+    {
+      "decision_id": "S87_D0047",
+      "session_id": "S87",
+      "company_id": "",
+      "source_file": "session_2026_06.pdf",
+      "section": "candidature",
+      "project": "Non renseigné",
+      "founders_raw": "Ala Guidara; Achraf Chabbouh",
+      "decision_raw": "Prélabel Non Accordé au 2 ème Tour",
+      "resultat_normalise": "Prélabel non accordé",
+      "type_decision": "Prélabel",
+      "status_requested": "Prélabel",
+      "sector": "Other",
+      "tour": "2ème tour",
+      "after_pitching": "Non renseigné",
+      "award_or_withdrawal": "Décision",
+      "comments": "Prélabel Non Accordé au 2 ème Tour",
+      "quality_control": "Extraction tabulaire PDF vérifiée; ligne ajoutée après audit manuel du PDF 2026"
+    },
+    {
+      "decision_id": "S82_D0038",
+      "session_id": "S82",
+      "company_id": "",
+      "source_file": "session_2026_01.pdf",
+      "section": "Retraits Labels",
+      "project": "",
+      "founders_raw": "Non renseigné",
+      "decision_raw": "Retrait du Label",
+      "resultat_normalise": "Retrait Label",
+      "type_decision": "Label",
+      "status_requested": "Label",
+      "sector": "IoT",
+      "tour": "Retrait",
+      "after_pitching": "Non renseigné",
+      "award_or_withdrawal": "avril 2019",
+      "comments": "La société a dépassé l’âge maximum de 8 ans fixé par la loi 20-2018 pour les sociétés bénéficiaires du Label",
+      "quality_control": "Extrait directement du PDF officiel 01/2026; retrait documenté"
+    },
+    {
+      "decision_id": "S82_D0039",
+      "session_id": "S82",
+      "company_id": "",
+      "source_file": "session_2026_01.pdf",
+      "section": "Retraits Labels",
+      "project": "",
+      "founders_raw": "Non renseigné",
+      "decision_raw": "Retrait du Label",
+      "resultat_normalise": "Retrait Label",
+      "type_decision": "Label",
+      "status_requested": "Label",
+      "sector": "IT",
+      "tour": "Retrait",
+      "after_pitching": "Non renseigné",
+      "award_or_withdrawal": "mai 2019",
+      "comments": "La société a dépassé l’âge maximum de 8 ans fixé par la loi 20-2018 pour les sociétés bénéficiaires du Label",
+      "quality_control": "Extrait directement du PDF officiel 01/2026; retrait documenté"
+    },
+    {
+      "decision_id": "S82_D0040",
+      "session_id": "S82",
+      "company_id": "",
+      "source_file": "session_2026_01.pdf",
+      "section": "Retraits Labels",
+      "project": "",
+      "founders_raw": "Non renseigné",
+      "decision_raw": "Retrait du Label",
+      "resultat_normalise": "Retrait Label",
+      "type_decision": "Label",
+      "status_requested": "Label",
+      "sector": "Logiciel",
+      "tour": "Retrait",
+      "after_pitching": "Non renseigné",
+      "award_or_withdrawal": "avril 2020",
+      "comments": "La société a dépassé l’âge maximum de 8 ans fixé par la loi 20-2018 pour les sociétés bénéficiaires du Label",
+      "quality_control": "Extrait directement du PDF officiel 01/2026; retrait documenté"
+    },
+    {
+      "decision_id": "S82_D0041",
+      "session_id": "S82",
+      "company_id": "",
+      "source_file": "session_2026_01.pdf",
+      "section": "Retraits Labels",
+      "project": "",
+      "founders_raw": "Non renseigné",
+      "decision_raw": "Retrait du Label",
+      "resultat_normalise": "Retrait Label",
+      "type_decision": "Label",
+      "status_requested": "Label",
+      "sector": "Insurance Tech",
+      "tour": "Retrait",
+      "after_pitching": "Non renseigné",
+      "award_or_withdrawal": "juillet 2019",
+      "comments": "La société a dépassé l’âge maximum de 8 ans fixé par la loi 20-2018 pour les sociétés bénéficiaires du Label",
+      "quality_control": "Extrait directement du PDF officiel 01/2026; retrait documenté"
+    },
+    {
+      "decision_id": "S82_D0042",
+      "session_id": "S82",
+      "company_id": "",
+      "source_file": "session_2026_01.pdf",
+      "section": "Retraits Labels",
+      "project": "",
+      "founders_raw": "Non renseigné",
+      "decision_raw": "Retrait du Label",
+      "resultat_normalise": "Retrait Label",
+      "type_decision": "Label",
+      "status_requested": "Label",
+      "sector": "Fintech",
+      "tour": "Retrait",
+      "after_pitching": "Non renseigné",
+      "award_or_withdrawal": "mai 2019",
+      "comments": "La société a dépassé l’âge maximum de 8 ans fixé par la loi 20-2018 pour les sociétés bénéficiaires du Label",
+      "quality_control": "Extrait directement du PDF officiel 01/2026; retrait documenté"
     }
   ],
   "companies": [
