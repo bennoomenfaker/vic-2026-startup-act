@@ -1041,6 +1041,7 @@
           <a href="#" data-page="extracted-data">📋 Données Extraites (88 PDFs)</a>
           <a href="#" data-page="annual-pdfs">PDFs Annuels</a>
           <a href="#" data-page="corrections">Corrections</a>
+          <a href="#" data-page="objections">🔎 Réponse aux objections</a>
           <a href="#" data-page="fiche">Fiche de Cadrage</a>
           <a href="#" data-page="livrables">Livrables</a>
         </div>
@@ -1462,7 +1463,7 @@
     <div class="kpi-grid" id="corrKpis"></div>
 
     <div class="summary-box" style="margin-bottom:20px">
-      <strong>📌 Contexte :</strong> le tableau <code>/sessions</code> de <code>startup.gov.tn</code> présentait des divergences historiques sur certains labels et prélabels. Les données ont été ré-extraites des <strong>PDF officiels</strong> (<code>public/data/session-pdfs/</code>) par un parseur positionnel (v7), puis auditées indépendamment et vérifiées manuellement. Le corpus final couvre <strong>88 sessions</strong>.
+      <strong>📌 Contexte :</strong> le tableau <code>/sessions</code> de <code>startup.gov.tn</code> présentait des divergences historiques sur certains labels et prélabels. Les données ont été ré-extraites des <strong>PDF officiels</strong> puis auditées indépendamment et vérifiées manuellement. Le corpus final couvre <strong>88 sessions</strong>. Pour comprendre pourquoi certains compteurs peuvent différer selon la source, consultez la page <a href="#" onclick="switchPage('objections');return false" style="color:#2563eb">Réponse aux objections</a>.
     </div>
 
     <!-- AUDIT EXTERNE — rappel de style : registre civique, transparence des unités et aucune égalisation artificielle des séries. -->
@@ -1511,17 +1512,19 @@
     <div id="corr-compare">
       <div class="chart-grid">
         <div class="chart-card">
-          <h3>⚠ Tableau institutionnel — startup.gov.tn <span style="color:#64748b;font-size:0.8em">(référence publiée, non corrigée)</span></h3>
-          <div style="overflow-x:auto"><table><thead><tr><th>Session</th><th>Candidatures officiel</th><th>Candidatures corrigé</th><th>Écart lignes PDF</th><th>Labels officiel</th><th>Labels corrigé</th><th>Prélabels officiel</th><th>Prélabels corrigé</th><th>Lignes PDF</th><th>Ajournés hors PDF</th><th>Statut</th></tr></thead><tbody id="corrOldTable"></tbody></table></div>
+          <h3>📌 Référence — tableau institutionnel startup.gov.tn <span style="color:#64748b;font-size:0.8em">(valeurs publiées, source de vérité)</span></h3>
+          <p style="font-size:.84em;color:#475569;margin:0 0 10px;line-height:1.55">Seule référence officielle. Les colonnes « Corrigé » ci-dessous rappellent à titre comparatif la <strong>série ajustée pour rapprochement</strong> (issue des PDF) — elles ne la remplacent jamais.</p>
+          <div style="overflow-x:auto"><table><thead><tr><th>Session</th><th>Candidatures officiel</th><th>Candidatures ajusté PDF</th><th>Écart lignes PDF</th><th>Labels officiel</th><th>Labels ajusté PDF</th><th>Prélabels officiel</th><th>Prélabels ajusté PDF</th><th>Lignes PDF</th><th>Ajournés hors PDF</th><th>Statut</th></tr></thead><tbody id="corrOldTable"></tbody></table></div>
         </div>
         <div class="chart-card">
-          <h3>✅ Tableau corrigé — preuve PDF primaire <span style="color:#64748b;font-size:0.8em">(valeurs utilisées pour l’étude)</span></h3>
-          <div style="overflow-x:auto"><table><thead><tr><th>Session</th><th>Candidatures officiel</th><th>Candidatures corrigé</th><th>Écart lignes PDF</th><th>Labels officiel</th><th>Labels corrigé</th><th>Prélabels officiel</th><th>Prélabels corrigé</th><th>Lignes PDF</th><th>Ajournés hors PDF</th><th>Catégories PDF</th></tr></thead><tbody id="corrNewTable"></tbody></table></div>
+          <h3>🔎 Tableau corrigé — série PDF ajustée pour rapprochement <span style="color:#64748b;font-size:0.8em">(à comparer, jamais à confondre avec l’officiel)</span></h3>
+          <p style="font-size:.84em;color:#475569;margin:0 0 10px;line-height:1.55">Le compteur officiel reste la référence. La colonne « Corrigé » est une <strong>série PDF ajustée pour rapprochement</strong> (ré-extraction + reclassement), pas une mesure PDF indépendante ni un total canonique.</p>
+          <div style="overflow-x:auto"><table><thead><tr><th>Session</th><th>Candidatures officiel</th><th>Candidatures ajusté PDF</th><th>Écart lignes PDF</th><th>Labels officiel</th><th>Labels ajusté PDF</th><th>Prélabels officiel</th><th>Prélabels ajusté PDF</th><th>Lignes PDF</th><th>Ajournés hors PDF</th><th>Catégories PDF</th></tr></thead><tbody id="corrNewTable"></tbody></table></div>
         </div>
       </div>
       <div class="chart-card" style="margin-top:20px">
         <h3>📐 Deux méthodes de calcul des candidatures</h3>
-        <p style="font-size:.88em;color:#475569;line-height:1.6;margin:8px 0 12px">La preuve primaire de cette étude est le <strong>PDF officiel</strong>. La colonne « corrigé » compte les <strong>3 571 lignes PDF</strong> et ajoute séparément <strong>3 ajournés</strong> signalés par les commentaires officiels mais non nommés dans les PDF, soit <strong>3 574 candidatures corrigées documentaires</strong>. La colonne « officiel » conserve le compteur publié par Startup Tunisia. Les deux séries sont affichées ensemble et ne doivent pas être confondues : une conversion ou un retrait peut ajouter une ligne documentaire sans constituer une nouvelle candidature institutionnelle.</p>
+        <p style="font-size:.88em;color:#475569;line-height:1.6;margin:8px 0 12px">La source primaire de l’étude est le <strong>PDF officiel</strong>. La colonne « ajusté PDF / corrigé » reflète la <strong>série PDF ajustée pour rapprochement</strong> : elle compte les <strong>3 571 lignes PDF</strong> et ajoute séparément <strong>3 ajournés</strong> signalés par les commentaires officiels mais non nommés dans les PDF, soit <strong>3 574 candidatures corrigées documentaires</strong>. La colonne « officiel » conserve le compteur publié par Startup Tunisia (<strong>3 079</strong>), qui reste la référence. Les deux séries sont affichées ensemble et ne doivent pas être confondues : une conversion ou un retrait peut ajouter une ligne documentaire sans constituer une nouvelle candidature institutionnelle.</p>
         <div style="overflow-x:auto"><table><thead><tr><th>Périmètre</th><th>Candidatures selon site officiel</th><th>Candidatures corrigées selon PDF</th><th>Écart corrigé − officiel</th><th>Interprétation</th></tr></thead><tbody>
           <tr><td><strong>88 sessions</strong></td><td><strong>3 079</strong></td><td><strong>3 574</strong></td><td><strong>+495</strong></td><td>3 571 lignes PDF + 3 ajournés hors PDF explicitement signalés ; noms non identifiés</td></tr>
           <tr><td>03/2019</td><td>16</td><td>16</td><td>0</td><td>14 lignes PDF identifiées (12 Labels + 2 refus) + 2 ajournés hors PDF ; entreprises non identifiées</td></tr>
@@ -1567,6 +1570,25 @@
           <tr style="font-weight:700;border-top:2px solid #cbd5e1"><td>Total</td><td>1 356</td><td>1 343</td><td>−13</td><td>1 232</td></tr>
         </tbody></table></div>
         <p style="font-size:.88em;color:#475569;line-height:1.6;margin:12px 0 0"><strong>Interprétation :</strong> le total <strong>1 356 → 1 343</strong> compare les Labels officiels aux Labels corrigés de l’étude ; <strong>1 232</strong> est le nombre de lignes PDF portant exactement la catégorie « Label accordé ». Les conversions, retraits et différences de granularité expliquent pourquoi 1 232 n’est pas égal à 1 343. Le même principe s’applique aux Prélabels. Le cas 06/2019 est ainsi cohérent avec l’audit : 15 officiels, 14 corrigés, 16 lignes PDF classées Label accordé.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- RÉPONSE AUX OBJECTIONS -->
+  <section id="page-objections">
+    <div class="page-header">
+      <h1>Fiabilité des chiffres — réponse aux objections soulevées</h1>
+      <p>Deux remarques méthodologiques ont été formulées lors de la relecture. Cette page les clarifie en langage simple, à destination du grand public</p>
+    </div>
+
+    <div class="summary-box" style="margin-bottom:20px;border:1px solid #a7f3d0;border-left:5px solid #10b981;background:#ecfdf5">
+      <h2 style="margin:0 0 8px;color:#065f46;font-size:1.1rem">✅ En une phrase</h2>
+      <p style="margin:0;color:#065f46;line-height:1.6">Les deux objections (un « 82/85 » qui semblait contredire un « 55/88 », et l'hypothèse d'un double-passe des dossiers) ont été vérifiées sur les données réelles. La première est une <strong>fausse contradiction</strong> : il s'agit de deux chiffres qui ne mesurent pas la même chose. La seconde est <strong>partiellement vraie</strong> : elle explique une partie des écarts, mais pas tout — le reste est documenté comme un écart à regarder PDF par PDF.</p>
+    </div>
+
+    <div id="objectionsReport">
+      <div class="chart-card" style="border-left:4px solid #10b981">
+        <p style="color:#64748b">Chargement de la réponse détaillée…</p>
       </div>
     </div>
   </section>
@@ -3096,6 +3118,7 @@ async function init() {
     renderAnnualPdfs();
     renderParcours();
     renderCorrections();
+    renderObjections();
     renderFiche();
     renderLivrables();
     renderInsights();
@@ -4884,6 +4907,39 @@ function filterParcours(q) {
       tbody.appendChild(tr);
     }
   } else if (empty) empty.remove();
+}
+
+// ===== RÉPONSE AUX OBJECTIONS (grand public) =====
+let objectionsLoaded = false;
+
+function renderObjections() {
+  const box = document.getElementById('objectionsReport');
+  if (!box || objectionsLoaded) return;
+  fetch('/data/etude_quantitative/resolution_objections_88_sessions.md', { cache: 'no-store' })
+    .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.text(); })
+    .then(md => {
+      const html = (typeof marked !== 'undefined') ? marked.parse(md) : '<pre style="white-space:pre-wrap">' + escapeHtml(md) + '</pre>';
+      const wrap = document.createElement('div');
+      wrap.innerHTML = html;
+      wrap.querySelectorAll('h1,h2,h3').forEach(h => {
+        if (h.tagName === 'H1') { h.style.cssText = 'font-size:1.4rem;margin:0 0 16px;color:#065f46'; h.classList.add('objection-h1'); }
+        if (h.tagName === 'H2') { h.style.cssText = 'font-size:1.12rem;margin:28px 0 12px;color:#1e3a8a;border-bottom:2px solid #dbeafe;padding-bottom:6px'; h.classList.add('objection-h2'); }
+        if (h.tagName === 'H3') { h.style.cssText = 'font-size:1.02rem;margin:20px 0 10px;color:#065f46'; h.classList.add('objection-h3'); }
+      });
+      wrap.querySelectorAll('p,li').forEach(p => { p.style.lineHeight = '1.6'; });
+      wrap.querySelectorAll('table').forEach(t => {
+        t.style.cssText = 'width:100%;border-collapse:collapse;font-size:.86rem;background:#fff';
+        t.classList.add('objection-table');
+        t.querySelectorAll('th').forEach(th => th.style.cssText = 'text-align:left;padding:9px 10px;color:#1e3a8a;border-bottom:2px solid #bfdbfe;background:#eff6ff');
+        t.querySelectorAll('td').forEach(td => { td.style.padding = '9px 10px'; td.style.borderBottom = '1px solid #e2e8f0'; });
+      });
+      wrap.querySelectorAll('strong').forEach(s => s.style.color = '#0f172a');
+      box.innerHTML = `<div class="chart-card" style="border-left:4px solid #10b981">${wrap.innerHTML}</div>`;
+      objectionsLoaded = true;
+    })
+    .catch(err => {
+      box.innerHTML = '<div class="chart-card" style="border-left:4px solid #e94560"><p style="color:#b91c1c">Impossible de charger la réponse détaillée : ' + escapeHtml(err.message) + '.</p><p style="color:#475569">Vous pouvez la consulter dans le rapport Markdown joint ou dans la section Corrections.</p></div>';
+    });
 }
 
 // ===== CORRECTIONS =====
