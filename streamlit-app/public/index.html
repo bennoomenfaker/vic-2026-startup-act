@@ -5086,12 +5086,12 @@ function renderCorrReport() {
   box.innerHTML = `
     <div class="summary-box" style="margin-bottom:20px">
       <strong>📌 Contexte :</strong> le tableau historique <code>/sessions</code> de <code>startup.gov.tn</code> contenait des
-      valeurs erronées (labels/prélabels mal comptés sur ${m.corrected} sessions du socle historique de ${m.totalSessions}). Le corpus final couvre <strong>88 sessions</strong> et distingue <strong>3 079 candidatures officielles</strong>, <strong>3 571 lignes PDF</strong> et <strong>3 ajournés hors PDF</strong> ajoutés séparément, soit <strong>3 574 candidatures corrigées</strong>. Les données ont été
-      ré-extraites des <strong>PDF officiels</strong> par un parseur positionnel (v7), puis complétées par les commentaires institutionnels pour les ajournés non nommés.
+      valeurs erronées : <strong>${m.corrected} sessions</strong> (sur les ${m.totalSessions} du corpus) ont fait l'objet de corrections matérielles documentées de labels/prélabels (voir le tableau « corrections ») ; la table de réconciliation ci-dessous couvre en outre chaque session individuellement, y compris les sessions 2026 (S82–S87) dont les lignes PDF physiques ont été ré-alignées. Le corpus final distingue <strong>3 079 candidatures officielles</strong>, <strong>3 571 lignes PDF</strong> et <strong>3 ajournés hors PDF</strong> ajoutés séparément, soit <strong>3 574 candidatures corrigées</strong>. Les données ont été
+      ré-extraites des <strong>PDF officiels</strong> (extraction des tableaux, complétées par les commentaires institutionnels pour les ajournés non nommés).
     </div>
     <div class="metric-grid" style="margin-bottom:20px">
       <div class="metric-card"><div class="m-label">Socle historique vérifié</div><div class="m-value">${m.totalSessions}</div><div class="m-sub">corpus final : 88 sessions</div></div>
-      <div class="metric-card"><div class="m-label">Sessions corrigées</div><div class="m-value">${m.corrected}</div></div>
+      <div class="metric-card"><div class="m-label">Sessions corrigées</div><div class="m-value">${m.corrected}</div><div class="m-sub">corrections matérielles documentées (périmètre du tableau « corrections »)</div></div>
       <div class="metric-card"><div class="m-label">Labels (avant → après)</div><div class="m-value">${(m.officialTotals88 || m.totalsOld).labels} → ${(m.correctedCounterTotals88 || m.totalsNew).labels}</div></div>
       <div class="metric-card"><div class="m-label">Pré-Labels (web → PDF)</div><div class="m-value">${(m.officialTotals88 || m.totalsOld).preLabels} → ${(m.correctedCounterTotals88 || m.totalsNew).preLabels}</div></div>
       <div class="metric-card"><div class="m-label">Ajournés hors PDF</div><div class="m-value">3</div><div class="m-sub">03/2019: 2 · 06/2019: 1 · entreprises non identifiées</div></div>

@@ -1,8 +1,16 @@
 # Comparaison JSON vs PDF — Toutes les sessions (85)
 
-Comparaison entre les valeurs du **JSON** (`dashboard_data.json`, scrapé de startup.gov.tn) et les
-valeurs **extraites directement des 85 PDFs** officiels via parsing automatique
-(parser positionnel, fichier `parse_pdfs_v7.py` → `pdf_parsed_v7.json`).
+> ⚠️ **Document méthodologique HISTORIQUE (85 sessions, ne reflète PAS le compteur officiel actuel).**
+> Ce document compare un **ancien JSON scrapé** (`dashboard_data.json` d'époque) aux **extractions PDF**
+> réalisées à ce stade. Il ne constitue **pas** la référence du site. La source de vérité actuelle est le
+> compteur institutionnel en direct (88 sessions : **3 079 candidatures / 1 356 labels / 641 prélabels**)
+> et les **données corrigées** de la page « Corrections » de l'app (**3 571 lignes PDF / 3 574 candidatures
+> corrigées / 1 343 labels corrigés**). Pour la réconciliation fiable entre valeurs officielles et lignes
+> PDF de chaque session, voir la page « Corrections » → onglet « Détail » (table `reconciliation88`).
+> Le corpus est passé de 85 à **88 sessions** (2019–2026) ; ce rapport n'a pas été régénéré.
+
+Comparaison entre les valeurs du **JSON** (`dashboard_data.json`, index historique scrapé de startup.gov.tn)
+et les valeurs **extraites des PDFs** officiels via extraction automatique de tableaux.
 
 **Sessions conformes : 82** · **Divergences : 0** · **PDF illisibles : 3**
 

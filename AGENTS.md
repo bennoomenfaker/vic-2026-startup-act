@@ -28,6 +28,16 @@
 - Les 10 labels officiels (3 labels + 7 conversions) et les 7 prélabels sont **confirmés** par le CR. Le commentaire officiel « 06 Prélabels à Labels » est **erroné** : 7 conversions réelles (Rhizome, Compta Smart Solutions, DIA Industries, Dash Master, ERPY, Park & Charge, Ligalo), mais le total labels 10 = 3 + 7 reste cohérent.
 - Sessions 06/2025 (36 candidatures / 12 labels / 8 prélabels) : **cohérence totale** avec le PDF, aucune correction requise (fichier `manual_sessions/2025_06.json` créé à titre de vérification).
 
+## Correction 29/08/2026 — Réconciliation des lignes PDF (reconciliation88)
+
+- **Bug corrigé** : la table de réconciliation par session (`reconciliation88[].pdf_detail.lignes` dans `corrections.json`) additionnait à **3 560**, pas 3 571. La cause racine : les blocs 04/2026 (47), 05/2026 (42) et 06/2026 (45) reprenaient l'ancien champ `sessions.json.entries` au lieu du nombre réel d'entrées des JSON de session source (50 / 48 / 47). Le total d'en-tête (3 571 lignes PDF) était juste ; seuls les 3 blocs périmés étaient faux (écart total +11).
+- **Fix appliqué** : `pdf_detail.lignes` → 50/48/47 et `corrected_counter.candidatures` → 50/48/47 pour ces 3 sessions (résultat : somme = **3 571** lignes, candidatures corrigées = **3 574**). Réexécutable via `python3 scripts/reconciliation/fix_reconciliation_2026_lignes.py` (idempotent), qui respecte la convention prouvée sur 01–03/2026.
+- **Sémantique des deux champs à ne PAS confondre** :
+  - `pdf_detail.categories` = **classification brute PDF** (lignes réelles ; la somme des catégories = `lignes`). Ex. 04/2026 `Label accordé: 13`.
+  - `corrected_counter.labels` / `.preLabels` = **série corrigée des Labels** (totaux **1 343 / 647**), conservée **inchangée** par le fix. On ne dérive **jamais** les labels corrigés des catégories PDF brutes (relation analogue à « 1 232 lignes PDF ≠ 1 343 corrigés » déjà documentée sur le site).
+- **Garde-fou CI** : `scripts/validate_data.py` (exécuté par `.github/workflows/ci.yml`) vérifie désormais (a) `sum(lignes)` == `meta.pdfDetailTotals88.lignes` == 3 571, (b) somme des catégories PDF == lignes, (c) somme candidatures corrigées == 3 574, labels == 1 343, prélabels == 647, (d) pour chaque session que `pdf_detail.lignes` == nombre d'entrées du JSON de session source. Vérifié que ce garde-fou **échoue** si le bug est réintroduit (testé : 4 erreurs détectées).
+- `meta.pdfDetailTotals88` (manifeste, non rendu dans l'UI) est synchronisé sur les catégories PDF corrigées (somme = 3 571).
+
 ## Page « StartupBlink » (source externe — veille AE1)
 
 - Page `startupblink` dans `streamlit-app/public/index.html` = **veille comparative internationale** (données EXTERNES), jamais à confondre avec les données officielles corrigées ci-dessus.

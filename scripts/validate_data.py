@@ -90,6 +90,62 @@ if corrections is not None:
     check(corrections.get('meta', {}).get('totalsNew', {}).get('labels') == 1311, "corrections: totalsNew.labels != 1311")
     check(corrections.get('meta', {}).get('totalsNew', {}).get('preLabels') == 623, "corrections: totalsNew.preLabels != 623")
 
+    rec88 = corrections.get('reconciliation88', [])
+    if rec88:
+        meta = corrections.get('meta', {})
+
+        # Règle de cohérence globale : la somme des lignes PDF par session doit
+        # égaler le total d'en-tête (3 571) et la somme des catégories doit l'égaler.
+        sum_lignes = sum(r.get('pdf_detail', {}).get('lignes', 0) for r in rec88)
+        pdf_manifest = meta.get('pdfDetailTotals88', {})
+        check(sum_lignes == pdf_manifest.get('lignes'),
+              f"reconciliation: sum(lignes) {sum_lignes} != meta.pdfDetailTotals88.lignes {pdf_manifest.get('lignes')}")
+        check(pdf_manifest.get('lignes') == 3571,
+              f"reconciliation: pdfDetailTotals88.lignes {pdf_manifest.get('lignes')} != 3571")
+        cat_sum = sum(pdf_manifest.get('categories', {}).values())
+        check(cat_sum == pdf_manifest.get('lignes'),
+              f"pdfDetailTotals88.categories sum {cat_sum} != lignes {pdf_manifest.get('lignes')}")
+        for r in rec88:
+            pd = r.get('pdf_detail', {})
+            check(sum(pd.get('categories', {}).values()) == pd.get('lignes'),
+                  f"reconciliation {r.get('session')}: categories sum != lignes")
+
+        # La somme des candidatures corrigées à l'en-tête (3 574), les labels
+        # corrigés (1 343) et prélabels corrigés (647) doivent correspondre.
+        sum_cand = sum(r.get('corrected_counter', {}).get('candidatures', 0) for r in rec88)
+        sum_labels = sum(r.get('corrected_counter', {}).get('labels', 0) for r in rec88)
+        sum_pre = sum(r.get('corrected_counter', {}).get('preLabels', 0) for r in rec88)
+        cc = meta.get('correctedCounterTotals88', {})
+        check(sum_cand == cc.get('candidatures'),
+              f"reconciliation: sum(candidatures corrigées) {sum_cand} != {cc.get('candidatures')}")
+        check(sum_labels == cc.get('labels'),
+              f"reconciliation: sum(labels corrigés) {sum_labels} != {cc.get('labels')}")
+        check(sum_pre == cc.get('preLabels'),
+              f"reconciliation: sum(prélabels corrigés) {sum_pre} != {cc.get('preLabels')}")
+
+        # Garde-fou direct contre le bug des lignes PDF : chaque ligne par session
+        # doit égaler le nombre d'entrées du JSON de session source.
+        session_json_dir = os.path.join(DATA, 'session-pdfs-json')
+        for r in rec88:
+            sess = r.get('session', '')
+            try:
+                month, year = sess.split('/')
+            except ValueError:
+                continue
+            path = os.path.join(session_json_dir, f'session_{year}_{month}.json')
+            if not os.path.exists(path):
+                ERRORS.append(f'JSON de session source manquant pour reconciliation {sess}: {path}')
+                continue
+            try:
+                with open(path, encoding='utf-8') as f:
+                    n_lines = len(json.load(f).get('entrees', []))
+            except Exception as e:
+                ERRORS.append(f'JSON de session invalide {path}: {e}')
+                continue
+            check(r.get('pdf_detail', {}).get('lignes') == n_lines,
+                  f"reconciliation {sess}: pdf_detail.lignes {r.get('pdf_detail', {}).get('lignes')} != entrees source {n_lines}")
+
+
 # --- fichiers statiques essentiels ---
 for f in ('images/faker.jpeg', 'images/esen.jpeg', 'images/iscae.jpeg', 'images/atvic.jpeg'):
     p = os.path.join(ROOT, 'streamlit-app', 'public', f)
@@ -101,4 +157,4 @@ if ERRORS:
     for e in ERRORS:
         print('  -', e)
     sys.exit(1)
-print('OK — toutes les données sont cohérentes (88 sessions, 1343 labels, 645 prélabels, 21 corrections).')
+print('OK — toutes les données sont cohérentes (88 sessions, 1343 labels, 647 prélabels, 21 corrections).')

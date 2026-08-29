@@ -1,5 +1,15 @@
 # Audit externe Startup Act — exécution du prompt
 
+> 📅 **Archive du 23/08/2026 — chiffres de cette exécution (3 555 / 3 558) :**
+> Ce rapport est une **photographie historique** prise le **23 août 2026**, *avant* la réconciliation
+> finale des trois dernières sessions 2026. Il reste valide sur sa méthodologie (distinguer le compteur
+> institutionnel du registre documentaire PDF), mais **les totaux documentaires ont depuis été re-calculés**
+> et remplacés par la série finale : **3 571 lignes PDF** (et **3 574 candidatures corrigées** avec les
+> 3 ajournés hors PDF). L'écart 3 555 → 3 571 (+16 lignes) correspond à la consolidation complète du
+> registre dans `corrections.json` (dont le réalignement des lignes physiques des sessions 04, 05 et
+> 06/2026, documenté par le fix du 29/08/2026). Le scénario A institutionnel (**3 079 / 1 356 / 641**)
+> est inchangé et reste la référence.
+
 **Statut : audit exécuté en réutilisant les extractions existantes. Aucune réextraction des 88 PDF et aucune modification du dépôt n’a été effectuée dans cette exécution.**
 
 ## Conclusion exécutive
